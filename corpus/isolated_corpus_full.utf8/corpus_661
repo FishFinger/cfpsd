@@ -1,0 +1,745 @@
+From - Thu Dec 10 14:24:26 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 01fd457a2472622c122f2e107183782c89ce8e6b
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.11.2 with SMTP id o2cs6556pyi;
+        Wed, 4 Oct 2006 19:58:39 -0700 (PDT)
+Received: by 10.65.235.7 with SMTP id m7mr2024951qbr;
+        Wed, 04 Oct 2006 19:58:37 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id f14si294724qba.2006.10.04.19.58.33;
+        Wed, 04 Oct 2006 19:58:37 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k952wWfE007366;
+	Thu, 5 Oct 2006 12:58:32 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006100512583131964
+ ; Thu, 05 Oct 2006 12:58:32 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k952wVEc007363;
+	Thu, 5 Oct 2006 12:58:31 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k952wMag013045
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Thu, 5 Oct 2006 12:58:22 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k952wJqW007332;
+	Thu, 5 Oct 2006 12:58:21 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006100512582031959
+ ; Thu, 05 Oct 2006 12:58:20 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k952wI4g007329;
+	Thu, 5 Oct 2006 12:58:19 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k952uxI9007207; Thu, 5 Oct 2006 12:56:59 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k950mKaG029449 for <comp-it-announce@ics.mq.edu.au>;
+	Thu, 5 Oct 2006 10:48:20 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k950m2t19458
+	for <comp-it-announce@ics.mq.edu.au>;
+	Thu, 5 Oct 2006 10:48:16 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Thu, 05 Oct 2006 10:42:42 +1000
+Received: by staff.cs.usyd.edu.au with postie; Thu, 05 Oct 2006 10:40:59 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Thu, 05 Oct 2006 10:40:45 +1000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id k950ejx5014929
+	for <itannounce@it.usyd.edu.au>; Thu, 5 Oct 2006 10:40:45 +1000
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id k950ejsx014927
+	for itannounce@it.usyd.edu.au; Thu, 5 Oct 2006 10:40:45 +1000
+Date: Thu, 5 Oct 2006 10:40:45 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20061005004045.GA14900@flexal3.cs.usyd.edu.au>
+Mime-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Thu, 05 Oct 2006 10:42:02 +1000
+From: itannounce@mail.it.usyd.edu.au
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1-rj1.4 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Thu, 05 Oct 2006 12:56:49 +1000
+X-BeenThere: comp@ics.mq.edu.au
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1
+	October 2006
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 1 for October, 2006. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  CFP: First International Workshop on MicroKernels for Embedded Systems
+  2nd CFP: ASWEC 2007 - Australian Software Engineering Conference
+
+International Conference Announcements
+
+  CFP, Special issue on End-to-end Support over Heterogeneous Wired-Wireless Networks
+  The Joint International Conferences on Asia-Pacific Web Conference and Web-Age Information Management
+  Deadline Extension 2nd Int. Workshop on Engineering Service Oriented Applications: Design and Composition
+  The First International Workshop on RFID Technology - Concepts, Applications, Challenges
+  CFP: Workshop on Semantics for Web Services (SemWS'06), ECOWS 2006, 4-6 December 2006, Zurich, Switzerland
+  Second Call for Submissions || ICCGI 2007 || ICWMC 2007, Guadeloupe, March 2007
+  2-week Extension, Intelligent and Evolutionary Systems (IES 2006), Seoul, Korea, 25 Nov
+  CFP: Microsoft Academic Days on Game Development in Computer Science Education
+  CFP: MIRAGE 2007 - Lecture Notes in Computer Science
+  ICWMC 2007 || ICCGI 2007 || Call for Papers || Guadeloupe, March 2007
+  14th Workshop on Logic, Language, Information and Computation (WoLLIC'2007)
+
+Academic Positions
+
+  Part-time Research Assistant Position - Web Services Interface Implementation
+  Two research academic positions in Centre for IT Research at Swinburne University, Melbourne, Australia
+  Jobs at Lexxe Search Engine, Sydney
+  Three research positions (SRF, RF, RA) in Software and Systems Engineering, Swinburne
+  Associate Professor in Software Engineering, Victoria University of Wellington
+  Inaugural Professor of Electronic Engineering, Victoria University of Wellington
+  Lecturer in Software Engineering, Victoria University of Wellington
+  Senior Lecturer/Associate Professor in Electronics or Computer Systems Engineering
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  CFP: First International Workshop on MicroKernels for Embedded Systems
+  kevin.elphinstone@nicta.com.au
+
+Call for Papers: MIKES 2007
+
+First International Workshop on MicroKernels for Embedded Systems
+
+To be held on 16th of January 2007 Sydney, Australia, co-located with
+LinuxConf Australia
+
+
+Microkernels are experiencing an increased popularity in the field of
+embedded systems, be it small devices with severe restrictions in memory
+and CPU or powerful embedded systems making use of their virtualisation
+capabilities. Despite a period of low popularity a decade ago, there
+is a new realisation, in academia and industry, of the usefulness of
+microkernels. The MIKES workshop will bring together researchers and
+developers from industry and academia to discuss
+
+* emerging novel concepts,
+* analysis approaches, and
+* case studies
+
+in the area of microkernels. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt0
+
+======================================================================
+
+  2nd CFP: ASWEC 2007 - Australian Software Engineering Conference
+  s.loke@latrobe.edu.au
+
+CALL FOR PAPERS
+
+18th Australian Conference on Software Engineering (ASWEC 2007)
+April 10-13 2007, Melbourne, Australia
+http://aswec07.cs.latrobe.edu.au
+
+The eighteenth Australian Software Engineering Conference (ASWEC) will be
+held in Melbourne, one of the world's most livable cities, boasting a rich
+mix of history, culture, economic and scientific activities, from April
+10-13, 2007. Since 1986, ASWEC has been the premier Australasian software
+engineering conference, providing a platform for presenting the latest
+and significant research findings and industry based experience reports.
+
+ASWEC is a joint conference of Engineers Australia and the Australian
+Computer Society reporting through the Engineers Australia/ACS Joint
+Board on Software Engineering.
+
+ASWEC 2007 will bring together researchers, practitioners, and
+educators to share issues, novel solutions, and experiences in software
+engineering. The conference will also feature tutorials, workshops,
+and industry experience reports (please see industry experience reports ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt1
+
+======================================================================
+
+
+International Conference Announcements
+
+  CFP, Special issue on End-to-end Support over Heterogeneous Wired-Wireless Networks
+  bjornl@it.usyd.edu.au
+
+--------------------------------------------------------------------------------------------
+Call for Papers
+
+Computer Communications Special Issue on
+End-to-end Support over Heterogeneous Wired-Wireless Networks
+
+-------------------------------------------------------------------------------------------
+
+In recent years, many networking technologies have emerged and have
+been deployed to enable ubiquitous Internet access anywhere, anytime,
+using a wide range of devices. In particular, we have witnessed the
+rapid proliferation of different types of wireless communication
+networks including Cellular, Wireless Local Area Networks (WLANs),
+Bluetooth, WiMax, etc which are widely being used as extensions to
+the wired Internet infrastructure. In addition to the convergence of
+heterogeneous wired-wireless networks, the issue of mobility of end-users
+has also become a central issue of the evolving heterogeneous mobile
+Internet. There are still many research challenges that need to be
+addressed to enable seamless, transparent, wireless access to Internet
+services for mobile end-users. This special issue will provide insights
+into some of the latest research network design approaches, techniques, ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  The Joint International Conferences on Asia-Pacific Web Conference and Web-Age Information Management
+  cliu@swin.edu.au
+
+APWeb/WAIM 2007
+The Joint International Conferences on Asia-Pacific Web Conference
+(APWeb) and Web-Age Information Management (WAIM),
+16-18 June, 2007, Huang Shan (Yellow Mountains), China.
+URL: http://www.cse.unsw.com.au/~apwebwaim07/
+Email: apwebwaim07@cse.unsw.edu.au
+
+APWeb and WAIM are two leading international conferences on research,
+development and applications of Web technologies, database systems,
+information management and software engineering, with a focus on the
+Asia-Pacific region. Previous APWeb conferences were held in Beijing
+(1998), Hong Kong (1999), Xian (2000), Changsha (2001), Xian (2003),
+Hangzhou (2004), Shanghai (2005), and Harbin (2006); and previous WAIM
+conferences were held in Shanghai (2000), Xian (2001), Beijing (2002),
+Chengdu (2003), Dalian (2004), Hangzhou (2005), and Hong Kong (2006).
+
+In collaboration with ACM SIGMOD and the Database Society of China
+(DBSC), APWeb and WAIM will have a joint conference in 2007.  This will
+be an associated conference of ACM SIGMOD/PODS 2007 (in Beijing, China),
+officially endorsed by SIGMOD and DBSC. APWeb/WAIM 2007 will be held two
+days after SIGMOD/PODS 2007, in the beautiful mountain area of Huang Shan ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  Deadline Extension 2nd Int. Workshop on Engineering Service Oriented Applications: Design and Composition
+  gobellot@unex.es
+
+--------------------------------------------------------------------
+
+C A L L  F O R  P A P E R S
+
+2nd INT. WORKSHOP ON ENGINEERING SERVICE ORIENTED APPLICATIONS:
+DESIGN AND COMPOSITION (WESOA'06)
+
+In conjunction with the 4th Int. Conference on Service Oriented
+Computing (ICSOC 2006) http://www.icsoc.org/
+
+Chicago, USA, December 4th, 2006
+
+WESOA Workshop Website
+http://fresco-www.informatik.uni-hamburg.de/wesoa06/
+
+Paper Submission Due: September 25th, 2006
+
+OBJECTIVES
+==========
+
+With  the  growing  acceptance  of  service-oriented  computing  and ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  The First International Workshop on RFID Technology - Concepts, Applications, Challenges
+  michael.sheng@csiro.au
+
+The First International Workshop on
+RFID Technology - Concepts, Applications, Challenges
+12 June 2007, Funchal, Madeira, Portugal
+
+http://www.iceis.org/workshops/iwrt/iwrt2007-cfp.html
+
+In conjunction with
+The Ninth International Conference on Enterprise Information Systems
+(ICEIS 2007)
+
+
+WORKSHOP BACKGROUND AND GOALS
+-----------------------------
+Radio Frequency Identification (RFID) is a wireless communication
+technology that uses radio-frequency waves to transfer information between
+tagged objects and readers without line of sight. This creates tremendous
+opportunities for linking various objects from real world. These objects
+are numbered, identified, catalogued, and tracked. In recent years,
+RFID has gained a significant momentum
+and is emerging as an important technology for revolutionizing a wide
+range of applications including supply chain management, retail, aircraft ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  CFP: Workshop on Semantics for Web Services (SemWS'06), ECOWS 2006, 4-6 December 2006, Zurich, Switzerland
+  omair.shafiq@deri.org
+
+Workshop on Semantics for Web Services (SemWS'06)
+in conjunction with 4th European Conference on Web Services (ECOWS'06),
+4-6 December 2006, Zurich, Switzerland.
+
+http://events.deri.at/semws06
+
+Workshop Theme
+
+Semantic Web and Web Services have been envisioned as Semantic Web
+Services for dynamic discovery, selection, composition, negotiation and
+invocation of Web Services. Significant work has already been done in
+this decade to apply Semantic Web technologies for Web Services and a
+large body of relevant work exists from earlier decades, in fields such
+as formal languages, knowledge representation, planning, agent-based
+systems and artificial intelligence. Nevertheless many difficult research
+challenges remain, and much work is needed to adapt relevant existing
+technologies to the context of Web services and the Semantic Web, and to
+prepare the more mature models, languages, capabilities and architectures
+for widespread deployment.
+
+This workshop under the umbrella of the ECOWS conference as being on ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  Second Call for Submissions || ICCGI 2007 || ICWMC 2007, Guadeloupe, March 2007
+  pdini@cisco.com
+
+CALL FOR PAPERS
+The Third International Conference on Wireless and Mobile Communications
+ICWMC 2007
+Date: March 4-9, 2007
+Place: Guadeloupe, French Caribbean
+Site: http://www.iaria.org/conferences2007/ICWMC07.html
+Submit: http://www.iaria.org/conferences2007/SubmitICWMC07.html
+
+Important deadlines:
+Full paper submission, October 15, 2006
+Author notification, November 15, 2006
+Registration/camera ready, December 1, 2006
+
+
+
+
+CALL FOR PAPERS
+The Second International Multi-Conference on Computing in the Global
+Information Technology ICCGI 2007
+Date: March 4-9, 2007
+Place: Guadeloupe, French Caribbean ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+  2-week Extension, Intelligent and Evolutionary Systems (IES 2006), Seoul, Korea, 25 Nov
+  rim@itee.adfa.edu.au
+
+10th Asia-Pacific Workshop on Intelligent and Evolutionary Systems
+IES2006, Seoul National University, Seoul, Korea
+25th-26th November, 2006
+
+Papers submitted for the Workshop will also be considered for
+a proposed edited volume in Springer's prestigious "Studies in
+Computational Intelligence" series, http://www.springer.com/series/7092
+
+Aims and Scope
+
+To encourage in-depth technical discussions, the number of 
+participants of the workshop is limited to 40 or less. The
+workshop will allocate ample time for discussions in addition to
+paper presentations. It covers two major areas:
+
+Intelligent and Adaptive Systems: Designing and developing 
+intelligent and adaptive systems using machine learning and/or 
+evolutionary computation techniques; other artificial
+intelligence techniques will also be considered. Examples of
+topics include, but are not limited to, evolutionary learning,
+neural network learning, autonomous agents/robots, artificial ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt6
+
+======================================================================
+
+  CFP: Microsoft Academic Days on Game Development in Computer Science Education
+  Yusuf Pisan <ypisan@it.uts.edu.au>
+
+Call for Papers
+
+Microsoft Academic Days on Game Development in Computer Science Education
+http://www.msadgd07.net/
+February 22 - 25, 2007
+Aboard the Disney Wonder Cruise Ship
+
+The Microsoft Academic Days on Game Development in Computer Science
+Education is seeking high quality unpublished original work on the use
+of Game Development in Computer Science Education. For an html version of
+this Call for Papers, see http://www.msadgd07.net/
+
+Submission Deadline: November 5, 2006
+
+The computer game industry is a multi-billion dollar part of the
+computer industry that is beginning to outpace the traditional passive
+media outlets of movies and television. The industry plays a major
+role in advances in mainstream personal computer development at both
+the hardware and software level. Students entering Computer Science
+programs are increasingly game-savvy and are highly motivated to learn
+how games are designed, developed and implemented. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt7
+
+======================================================================
+
+  CFP: MIRAGE 2007 - Lecture Notes in Computer Science
+  Dan.Popescu@cmis.csiro.au
+
+CALL FOR PAPERS MIRAGE 2007 - Lecture Notes in Computer Science.
+
+November 1, 2006:  Full paper submission deadline
+
+Mirage 2007 is an international conference with focus on Computer
+Vision/Computer Graphics collaboration techniques involving image
+analysis/synthesis approaches. In the domain of Computer Vision, this
+analysis by synthesis collaboration may take the form of model-based
+approaches for which the analysis, recognition or understanding process
+does not rely on the data only but is linked to
+the optimization of a parametric model introduced A PRIORI.
+In the field of Computer Graphics, this thematic refers to image-based
+approaches which found the modeling, animation, lighting or rendering
+process on the analysis of real pre-existing data in order to
+gain in productivity or in realism ...
+
+For more details, see: http://acivs.org/mirage2007/
+
+Confererence proceedings
+Accepted papers will be published in the LNCS series of SPRINGER VERLAG.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt8
+
+======================================================================
+
+  ICWMC 2007 || ICCGI 2007 || Call for Papers || Guadeloupe, March 2007
+  invitation@iaria.org
+
+CALL FOR PAPERS
+
+The Third International Conference on Wireless and Mobile Communications
+
+
+ICWMC 2007
+
+Date: March 4-9, 2007
+
+Place: Guadeloupe, French Caribbean
+
+Site: http://www.iaria.org/conferences2007/ICWMC07.html
+
+Submit: http://www.iaria.org/conferences2007/SubmitICWMC07.html
+
+
+CALL FOR PAPERS
+
+The Second International Multi-Conference on Computing in the Global
+Information Technology
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt9
+
+======================================================================
+
+  14th Workshop on Logic, Language, Information and Computation (WoLLIC'2007)
+  Ruy de Queiroz <ruy@cin.ufpe.br>
+				Call for Papers
+
+14th Workshop on Logic, Language, Information and Computation
+(WoLLIC'2007)
+Rio de Janeiro, Brazil
+July 2-5, 2007
+
+WoLLIC is an annual international forum on inter-disciplinary
+research
+involving formal logic, computing and programming theory, and natural
+language and reasoning.  Each meeting includes invited talks and
+tutorials
+as well as contributed papers.
+
+The Fourteenth WoLLIC will be held in Rio de Janeiro, Brazil, from
+July 2 to July 5, 2007, and sponsored by the Association for
+Symbolic Logic
+(ASL), the Interest Group in Pure and Applied Logics (IGPL),
+the European Association for Logic, Language and Information
+(FoLLI), the European Association for Theoretical Computer Science
+(EATCS),
+the Sociedade Brasileira de Computacao (SBC), and the Sociedade
+Brasileira de Logica (SBL). ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt10
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  Part-time Research Assistant Position - Web Services Interface Implementation
+  jiri@it.uts.edu.au
+
+A part-time research assistant position is available to work on a
+project to develop Web Services API for Global Trade applications. This
+is a collaborative project funded by an ARC Linkage Grant over a 3 year
+period. Excellent programming skills and experience with C#, Java, SQL,
+XML and Web Services is essential. Previous research experience is highly
+desirable. We are seeking a highly motivated person who wishes to enrol
+into a part-time research degree (MSc or PhD).
+
+Contact George Feuerlicht via email: jiri@it.uts.edu.au for further
+information.
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  Two research academic positions in Centre for IT Research at Swinburne University, Melbourne, Australia
+  rkowalczyk@ict.cwin.edu.au
+
+TWO RESEARCH POSITIONS IN INFORMATION TECHNOLOGY
+
+The Centre for Information Technology Research (CITR) at Swinburne
+University of Technology, Melbourne, Australia, is seeking to appoint
+2 research academics in the strategic research themes of the Centre.
+
+The Centre for Information Technology Research (CITR) was formed in 2005
+within the Faculty of Information and Communication Technologies as the
+University's locus for research in computer science, software engineering
+and information systems. CITR carries out research in close collaboration
+with industry and research partners nationally and internationally,
+supported by a wide range of research grants, strategic partnership
+arrangements and industrial R&D projects. With some 70 research staff and
+postgraduate research students, and a substantial portfolio of aligned
+research activities CITR is emerging as one of the fastest growing and
+most concentrated IT research centres in Australia.
+
+The Centre undertakes fundamental and applied research across its
+constituent areas contributing to two major research themes of Reliable
+Software Systems and Service Oriented Computing. It embraces research in
+Complex Intelligent Systems, Component Software and Enterprise Systems, ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
+
+  Jobs at Lexxe Search Engine, Sydney
+  hong.qiao@lexxe.com
+
+Jobs at Lexxe Search Engine, Sydney
+
+Lexxe Pty Ltd, based in Sydney, has up to 3 software engineer positions
+open for application.  Lexxe is a 3rd generation search engine
+(www.lexxe.com) powered by advanced natural language technology.
+All applicants must have work permit to work in Australia. This
+adverisement can also be seen at www.lexxe.com/about/jobs.cfm.
+
+Senior Software Engineer (Group Leader) [Job ID: 0601]
+
+Essential:
+5+ years experience in C++ Object Oriented programming
+Unix system and scripting language (Shell, Perl, Javascript)
+Large scale SQL database processing
+Large computer system design and development
+Strong analytical skills and problem solving ability
+Excellent written and verbal communication skills
+Technical team management experience and leadership skills
+Knowledge of search engine technology
+Desirable:
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt2
+
+======================================================================
+
+  Three research positions (SRF, RF, RA) in Software and Systems Engineering, Swinburne
+  jhan@ict.swin.edu.au
+
+Three research positions in Software and Systems Engineering
+============================================================
+
+Centre for Information Technology Research (CITR)
+Swinburne University of Technology
+
+Senior Research Fellow, Research Fellow, Research Engineer/Assistant
+Full-time, 3 years fixed term
+
+The CITR at Swinburne is looking for three outstanding individuals to
+join a research project funded by the Cooperative Research Centre for
+Advanced Automotive Technology (AutoCRC). The project involves R&D in
+reconfigurable software-intensive systems, reliable and secure system
+architecture and large-scale data acquisition and analysis, aimed at
+improving vehicle maintenance and design.
+
+Closing date: 6 Oct 2006 (RF and RE/A).
+
+Further information and application details can be found at
+www.swin.edu.au/jobs (position numbers: 25697, 25698, 25699).
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt3
+
+======================================================================
+
+  Associate Professor in Software Engineering, Victoria University of Wellington
+  Engineering-appoint@vuw.ac.nz
+
+Victoria University of Wellington is introducing a new Bachelor of
+Engineering with a specialisation in Software Engineering. The University
+is seeking an individual with demonstrated evidence of leadership in
+research and teaching in the broad areas of software engineering, formal
+systems, or human computer interaction. The appointee will be expected
+to take a lead role in the development of the software engineering
+specialisation, to develop a personal research programme and to contribute
+to the teaching programme of the intended Faculty of Engineering.
+
+The new Bachelor of Engineering is focused on the broad information and
+communications technology sector with specialisations in electronic
+engineering, computer system engineering, and network engineering in
+addition to software engineering. The engineering faculty consists of
+approximately a dozen existing staff drawn from computer science and
+electronics, all with an engineering background or focus. The University
+is committed to the development of an internationally recognised
+engineering programme.
+
+Applications close Friday 10 November 2006.
+Please quote reference number SA0667M.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt4
+
+======================================================================
+
+  Inaugural Professor of Electronic Engineering, Victoria University of Wellington
+  Engineering-appoint@vuw.ac.nz
+
+Faculty of Engineering
+
+Victoria University of Wellington is introducing a new Bachelor of
+Engineering with a specialisation in Electronic Engineering. The
+University is seeking an individual with demonstrated evidence of
+leadership in research and teaching in the general area of electronic
+engineering. The appointee will be expected to take a lead role in the
+development of the electronic engineering specialisation, to develop a
+personal research programme and to contribute to the teaching programme
+of the intended Faculty of Engineering. This is a unique opportunity to
+influence the development of an exciting new degree programme.
+
+The new Bachelor of Engineering offers specialisations in electronic
+engineering, computer system engineering, network engineering and software
+engineering. The current engineering faculty consists of approximately
+a dozen existing staff drawn from computer science and electronics,
+all with an engineering background or focus. It is anticipated that the
+academic and technical staff in engineering will grow significantly in
+the next three years. The University is committed to the development of
+an internationally recognized engineering programme.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt5
+
+======================================================================
+
+  Lecturer in Software Engineering, Victoria University of Wellington
+  Engineering-appoint@vuw.ac.nz
+
+Faculty of Engineering
+
+Victoria University of Wellington is introducing a new Bachelor of
+Engineering with a specialisation in Software Engineering. The University
+is seeking an individual with research and teaching interests in the
+broad areas of software engineering, formal methods, or human computer
+interaction. The appointee will be expected to participate in the
+development of the software engineering specialisation, to develop a
+personal research programme and to contribute to the teaching programme
+of the intended Faculty of Engineering.
+
+The new Bachelor of Engineering is focused on the broad information and
+communications technology sector with specialisations in electronic
+engineering, computer system engineering, and network engineering in
+addition to software engineering. The engineering faculty consists of
+approximately a dozen existing staff drawn from computer science and
+electronics, all with an engineering background or focus. The University
+is committed to the development of an internationally recognised
+engineering programme.
+
+Applications close Friday 10 November 2006. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt6
+
+======================================================================
+
+  Senior Lecturer/Associate Professor in Electronics or Computer Systems Engineering
+  Engineering-appoint@vuw.ac.nz
+
+Victoria University of Wellington is introducing a new Bachelor of
+Engineering with a specialisation in Computer Systems Engineering. The
+University is seeking to appoint up to two senior staff with demonstrated
+evidence of leadership in research and teaching in the general areas
+of electronics and/or computer systems engineering. The appointee(s)
+will be expected to have a significant role in the development of the
+electronics and computer systems engineering specialisations, to develop
+a personal research programme and to contribute to the teaching programme
+of the intended Faculty of Engineering. This is a unique opportunity to
+influence the development of an exciting new degree programme.
+
+The new Bachelor of Engineering offers specialisations in electronic
+engineering, computer system engineering, network engineering and software
+engineering. The current engineering faculty consists of approximately
+a dozen existing staff drawn from computer science and electronics,
+all with an engineering background or focus. It is anticipated that the
+academic and technical staff in engineering will grow significantly in
+the next three years. The University is committed to the development of
+an internationally recognised engineering programme.
+
+Applications close Friday 10 November 2006. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt7
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

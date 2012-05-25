@@ -1,0 +1,601 @@
+From - Thu Dec 10 14:27:34 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs198969waa;
+        Sat, 14 Jul 2007 10:52:26 -0700 (PDT)
+Received: by 10.86.97.7 with SMTP id u7mr2261247fgb.1184435545009;
+        Sat, 14 Jul 2007 10:52:25 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id u9si292282muf.2007.07.14.10.51.58;
+        Sat, 14 Jul 2007 10:52:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender)
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1I9lk2-0004c7-SX; Sat, 14 Jul 2007 19:49:14 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1I9kV6-00006Y-E7; Sat, 14 Jul 2007 18:29:44 +0200
+Received: from py-out-1112.google.com [64.233.166.178] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1I9kV1-0003cT-BO; Sat, 14 Jul 2007 18:29:43 +0200
+Received: by py-out-1112.google.com with SMTP id a73so1499215pye
+	for <corpora@uib.no>; Sat, 14 Jul 2007 09:29:38 -0700 (PDT)
+Received: by 10.65.159.3 with SMTP id l3mr4561073qbo.1184430577461;
+	Sat, 14 Jul 2007 09:29:37 -0700 (PDT)
+Received: by 10.65.182.8 with HTTP; Sat, 14 Jul 2007 09:29:37 -0700 (PDT)
+Message-ID: <6f1f57060707140929p14438480o1465e38fd0962c81@mail.gmail.com>
+Date: Sat, 14 Jul 2007 21:59:37 +0530
+From: Anil <aks.anil@gmail.com>
+To: corpora@uib.no
+MIME-Version: 1.0
+X-checked-clean: by exiscan on rolf
+X-Scanner: 4eb3382dfd50cf8fceade5747fc9e937 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -13.7 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.0 Received by mail server with no name
+	-15 From is listed in 'whitelist_SA' 1.0 BODY: UIB_MAILWON
+	0.1 BODY: Message is 40% to 50% HTML
+	0.0 BODY: HTML included in message
+	0.2 Refers to a muscle relaxant
+X-Mailman-Approved-At: Sat, 14 Jul 2007 19:49:02 +0200
+Subject: [Corpora-List] Call for Papers: IJCNLP Workshop on NER
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0107243062=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+--===============0107243062==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_34065_10067635.1184430577419"
+
+------=_Part_34065_10067635.1184430577419
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+CALL FOR PAPERS
+
+
+
+IJCNLP 2008 WORKSHOP ON NER FOR SOUTH AND SOUTH EAST ASIAN LANGUAGES
+
+(http://ltrc.iiit.ac.in/ner-ssea-07)
+
+
+
+Papers are invited on substantial, original, and unpublished research on all
+aspects of Named Entity Recognition (NER) for South and South East Asian
+(SSEA) languages. At least one of the languages considered should be an SSEA
+language. We also invite researchers to be contestants in a shared task (the
+second track of the workshop) on NER for SSEA languages.
+
+
+
+BACKGROUND AND MOTIVATION
+
+
+
+Most of the SSEA languages are scarce in resources as well as tools and NER
+systems are no exception. It is very important that good systems for NER be
+available, because many problems in information extraction and machine
+translation (among others) are dependent on accurate NER. However, the
+issues involved are significantly different for these languages from those
+for European languages or even East Asian languages. For example, these
+languages do not have capitalization, which is a major feature for NER
+systems for European languages.
+
+Another similarity among these languages is that most of them use scripts of
+Brahmi origin. For some languages, there are additional issues like word
+segmentation (e.g. for Thai). Large gazetteers are not available for most of
+these languages. There is also the problem of lack of standardization and
+spelling variation. The number of frequently used words which can also be
+used as names is very large for many languages, unlike European languages
+where a larger proportion of the first names are not used as common words.
+And most importantly, there is a serious lack of labeled data for machine
+learning.
+
+Scope
+
+
+
+This workshop will be the second stage of an annual event called NLPAI
+Machine Learning Contest which focuses on application of machine learning
+techniques for one major NLP problem every year. This year the problem was
+NER. However, unlike that event, this workshop will have one track for
+regular research papers on NER for SSEA languages and the second track will
+be on the lines of a shared task.
+
+
+
+SHARED TASK
+
+
+
+In the shared task, the contestants having their own NER systems will be
+given some annotated test data. The participating systems will be ranked
+according to their performance on the test data. There may or may not be
+training data for a particular language. In either case, the contestants
+will have the freedom to use any technique for NER, e.g. a purely rule based
+technique or a purely statistical technique.
+
+
+
+At present some data is available for Hindi, Bengali and Telugu for the
+shared task. Other languages can be included in the contest provided data
+for them becomes available. The data released for the shared task will be
+made accessible to all researchers, not just the participants.
+
+
+
+If the language you are interested in has not been included in the shared
+task, you can also prepare the annotated test data and submit it to us. We
+will then include that language in the shared task.
+
+
+
+The task in this contest will be different in one important way. The NER
+systems also have to identify nested named entities. For example, in the
+sentence The Lal Bahadur Shastri National Academy of Administration is
+located in Mussoorie, 'Lal Bahadur Shastri' is a Person, but 'Lal Bahadur
+Shastri National Academy of Administration' is an Organization. In this
+case, the NER systems will have to identify both 'Person' and 'Organization'
+in the given sentence.
+
+
+
+SUBMISSION
+
+
+
+Paper submission is through the centralized workshop submission page at
+https://www.softconf.com/ijcnlp/NERSSEAL. Papers have to be written in
+English. Note that shared task contestants also have to submit a paper
+describing their method and the results etc. Long or short papers can be
+submitted to either of the tracks. Long papers can be up to 8 pages long,
+while the maximum length for short papers is 5 pages (including references,
+figures, tables etc.). All selected papers will be published in the workshop
+proceedings.
+
+
+
+The papers should be formatted using the LaTeX styles or MS Word templates
+recommended for the main IJCNLP conference. These documents are available at
+http://www.ijcnlp2008.org/callforpapers.htm. Reviewing will be blind. The
+draft papers should not contain any information that can identify the
+authors, as far as possible.
+
+
+
+IMPORTANT DATES
+
+
+- Paper Submission Deadline: Sept 21, 2007
+
+- Notification of Paper Acceptance: Oct 26, 2007
+
+- Camera Ready Submission Deadline: Nov 16, 2007
+
+
+
+
+
+PROGRAM COMMITTEE
+
+
+
+Rajeev Sangal, IIIT, Hyderabad, India
+
+
+
+Dekai Wu, The Hong Kong University of Science & Technology, Hong Kong
+
+
+
+Ted Pedersen, University of Minnesota, USA
+
+
+
+Dipti Misra Sharma, IIIT, Hyderabad, India
+
+
+
+Virach Sornlertlamvanich, TCL, NICT, Thailand
+
+
+
+M. Sasikumar, CDAC, Mumbai, India
+
+
+
+Sudeshna Sarkar, Indian Institute of Technology, Kharagpur, India
+
+
+
+Thierry Poibeau, CNRS, France
+
+
+
+Sobha L., AU-KBC, Chennai, India
+
+
+
+Tzong-Han Tsai, National Taiwan University, Taiwan
+
+
+
+Prasad Pingali, IIIT, India
+
+
+
+Canasai Kreungkrai, NICT, Japan
+
+
+
+Manabu Sassano, Yahoo Japan Corporation, Japan
+
+
+
+Anil Kumar Singh, IIIT, Hyderabad, India
+
+
+
+Doaa Samy, Universidad Aut?noma de Madrid, Spain
+
+
+
+Ratna Sanyal, Indian Inst. of Inf. Tech., Allahabad, India
+
+
+
+V. Sriram, IIIT, Hyderabad, India
+
+
+
+Anagh Kulkarni, Carnegie Mellon University, USA
+
+
+
+Soma Paul, IIIT, Hyderabad, India
+
+
+
+CONTACT PERSONS
+
+
+
+Dipti Misra Sharma, Rajeev Sangal, Anil Kumar Singh
+
+Language Technologies Research Centre
+
+International Institute of Information Technology
+
+Gachibowli, Hyderabad, India
+
+
+
+Phone: 91-9391008624
+
+Fax: 91-40-23001413
+
+Email: dipti@iiit.ac.in, sangal@iiit.ac.in, anil@research.iiit.ac.in
+
+------=_Part_34065_10067635.1184430577419
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+
+<p class="MsoPlainText"><span style="">CALL FOR
+PAPERS</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">IJCNLP
+2008 WORKSHOP ON NER FOR SOUTH AND SOUTH EAST ASIAN LANGUAGES</span></p>
+
+<p class="MsoPlainText"><span style="">(<a href="http://ltrc.iiit.ac.in/ner-ssea-07">http://ltrc.iiit.ac.in/ner-ssea-07</a>)</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Papers
+are invited on substantial, original, and unpublished research on all aspects
+of Named Entity Recognition (NER) for South and South East Asian (SSEA)
+languages. At least one of the languages considered should be an SSEA language.
+We also invite researchers to be contestants in a shared task (the second track
+of the workshop) on NER for SSEA languages.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">BACKGROUND
+AND MOTIVATION</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Most of
+the SSEA languages are scarce in resources as well as tools and NER systems are
+no exception. It is very important that good systems for NER be available,
+because many problems in information extraction and machine translation (among
+others) are dependent on accurate NER. However, the issues involved are
+significantly different for these languages from those for European languages
+or even East Asian languages. For example, these languages do not have
+capitalization, which is a major feature for NER systems for European
+languages.</span></p>
+
+<p class="MsoPlainText"><span style="">Another
+similarity among these languages is that most of them use scripts of Brahmi
+origin. For some languages, there are additional issues like word segmentation
+(e.g. for Thai). Large gazetteers are not available for most of these
+languages. There is also the problem of lack of standardization and spelling
+variation. The number of frequently used words which can also be used as names
+is very large for many languages, unlike European languages where a larger
+proportion of the first names are not used as common words. And most
+importantly, there is a serious lack of labeled data for machine learning.</span></p>
+
+<p class="MsoPlainText"><span style="">Scope</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">This
+workshop will be the second stage of an annual event called NLPAI Machine
+Learning Contest which focuses on application of machine learning techniques
+for one major NLP problem every year. This year the problem was NER. However,
+unlike that event, this workshop will have one track for regular research
+papers on NER for SSEA languages and the second track will be on the lines of a
+shared task.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">SHARED
+TASK</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">In the
+shared task, the contestants having their own NER systems will be given some
+annotated test data. The participating systems will be ranked according to
+their performance on the test data. There may or may not be training data for a
+particular language. In either case, the contestants will have the freedom to
+use any technique for NER, e.g. a purely rule based technique or a purely
+statistical technique.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">At
+present some data is available for Hindi, Bengali and Telugu for the shared
+task. Other languages can be included in the contest provided data for them
+becomes available. The data released for the shared task will be made
+accessible to all researchers, not just the participants.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">If the
+language you are interested in has not been included in the shared task, you
+can also prepare the annotated test data and submit it to us. We will then
+include that language in the shared task.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">The task
+in this contest will be different in one important way. The NER systems also
+have to identify nested named entities. For example, in the sentence The Lal
+Bahadur Shastri National Academy of Administration is located in Mussoorie,
+&#39;Lal Bahadur Shastri&#39; is a Person, but &#39;Lal Bahadur Shastri National Academy of
+Administration&#39; is an Organization. In this case, the NER systems will have to
+identify both &#39;Person&#39; and &#39;Organization&#39; in the given sentence.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">SUBMISSION</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Paper
+submission is through the centralized workshop submission page at <a href="https://www.softconf.com/ijcnlp/NERSSEAL">https://www.softconf.com/ijcnlp/NERSSEAL</a>.
+Papers have to be written in English. Note that shared task contestants also
+have to submit a paper describing their method and the results etc. Long or short
+papers can be submitted to either of the tracks. Long papers can be up to 8
+pages long, while the maximum length for short papers is 5 pages (including
+references, figures, tables etc.). All selected papers will be published in the
+workshop proceedings.</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">The
+papers should be formatted using the LaTeX styles or MS Word templates
+recommended for the main IJCNLP conference. These documents are available at <a href="http://www.ijcnlp2008.org/callforpapers.htm">http://www.ijcnlp2008.org/callforpapers.htm</a>.
+Reviewing will be blind. The draft papers should not contain any information
+that can identify the authors, as far as possible. </span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+
+
+<p class="MsoPlainText"><span style="">IMPORTANT
+DATES<br>&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">- Paper
+Submission Deadline: Sept 21, 2007</span></p>
+
+<p class="MsoPlainText"><span style="">-
+Notification of Paper Acceptance: Oct 26, 2007</span></p>
+
+<p class="MsoPlainText"><span style="">- Camera
+Ready Submission Deadline: Nov 16, 2007</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">PROGRAM
+COMMITTEE</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Rajeev
+Sangal, IIIT, Hyderabad, India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Dekai
+Wu, The Hong Kong
+ University of Science
+&amp; Technology, Hong Kong</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Ted
+Pedersen, University of Minnesota,
+ USA</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Dipti
+Misra Sharma, IIIT, Hyderabad,
+ India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Virach
+Sornlertlamvanich, TCL, NICT, Thailand</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">M.
+Sasikumar, CDAC, Mumbai, India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Sudeshna
+Sarkar, Indian Institute of Technology, Kharagpur,
+ India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Thierry
+Poibeau, CNRS, France</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Sobha
+L., AU-KBC, Chennai, India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Tzong-Han
+Tsai, National Taiwan University,
+ Taiwan</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Prasad
+Pingali, IIIT, India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Canasai
+Kreungkrai, NICT, Japan</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Manabu
+Sassano, Yahoo Japan Corporation, Japan</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Anil
+Kumar Singh, IIIT, Hyderabad,
+ India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Doaa
+Samy, Universidad Aut?noma de Madrid, Spain</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Ratna
+Sanyal, Indian Inst. of Inf. Tech., Allahabad,
+ India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">V.
+Sriram, IIIT, Hyderabad, India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Anagh
+Kulkarni, Carnegie Mellon University,
+ USA</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+
+
+<p class="MsoPlainText"><span style="">Soma
+Paul, IIIT, Hyderabad, India&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">CONTACT
+PERSONS</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Dipti
+Misra Sharma, Rajeev Sangal, Anil Kumar Singh</span></p>
+
+<p class="MsoPlainText"><span style="">Language
+Technologies Research Centre</span></p>
+
+<p class="MsoPlainText"><span style="">International
+Institute of Information Technology</span></p>
+
+<p class="MsoPlainText"><span style="">Gachibowli,
+Hyderabad, India</span></p>
+
+<p class="MsoPlainText"><span style="">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span style="">Phone:
+91-9391008624</span></p>
+
+<p class="MsoPlainText"><span style="">Fax:
+91-40-23001413</span></p>
+
+<p class="MsoPlainText"><span style="">Email:
+<a href="mailto:dipti@iiit.ac.in">dipti@iiit.ac.in</a>, <a href="mailto:sangal@iiit.ac.in">sangal@iiit.ac.in</a>, <a href="mailto:anil@research.iiit.ac.in">anil@research.iiit.ac.in</a></span></p>
+
+<p class="MsoPlainText"><span style=""></span></p>
+
+<p class="MsoPlainText"><span style=""></span></p>
+
+<p class="MsoPlainText"><span style=""><br></span></p>
+
+------=_Part_34065_10067635.1184430577419--
+
+
+--===============0107243062==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============0107243062==--
+

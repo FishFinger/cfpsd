@@ -1,0 +1,691 @@
+From - Thu Dec 10 14:35:07 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs68020far;
+        Sat, 31 Jan 2009 01:03:20 -0800 (PST)
+Received: by 10.210.69.6 with SMTP id r6mr2395731eba.26.1233392600117;
+        Sat, 31 Jan 2009 01:03:20 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 3si4880413ewy.82.2009.01.31.01.03.02;
+        Sat, 31 Jan 2009 01:03:20 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7E69621C6A; Sat, 31 Jan 2009 10:03:02 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 681FF21750;
+	Sat, 31 Jan 2009 10:00:07 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4C1093D25;
+	Sat, 31 Jan 2009 10:00:07 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rOK8cd57qAdQ; Sat, 31 Jan 2009 10:00:06 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8419C3D51;
+	Sat, 31 Jan 2009 09:59:41 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 704323D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 30 Jan 2009 10:37:08 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4P7rAo8OHL3O for <elsnet-list@mailman.elsnet.org>;
+	Fri, 30 Jan 2009 10:37:08 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 409D73D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 30 Jan 2009 10:37:08 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2124916CC1; Fri, 30 Jan 2009 10:37:08 +0100 (MET)
+Received: from rotterdam.ewi.utwente.nl (rotterdam.ewi.utwente.nl
+	[130.89.10.5])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6BBC91CB24
+	for <elsnet-list@elsnet.org>; Fri, 30 Jan 2009 10:37:03 +0100 (MET)
+Received: from EWIEX01.ewi.utwente.nl (ewiex12.ewi.utwente.nl [130.89.10.51])
+	by rotterdam.ewi.utwente.nl (8.13.6/8.13.6) with ESMTP id
+	n0U9b1Pe024616
+	for <elsnet-list@elsnet.org>; Fri, 30 Jan 2009 10:37:01 +0100 (MET)
+From: d.k.j.Heylen@ewi.utwente.nl
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Date: Fri, 30 Jan 2009 10:37:06 +0100
+Message-ID: <FA783DEE7533904091C5F59BF22169AD026489B1@EWIEX12.dynamic.ewi.utwente.nl>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: AAMAS Workshop: Markup Languages for Embodied Dialogue Acts
+	[second CFP]
+Thread-Index: Aclp9dgY6PIuSkReQRahnNiLeUY1agAACjLwAAAbaPAAAMKHQAAAEJigBjERXYA=
+To: <elsnet-list@elsnet.org>
+X-Scanned-By: MIMEDefang 2.52 on 130.89.10.5
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0rc3
+	(rotterdam.ewi.utwente.nl [130.89.10.5]);
+	Fri, 30 Jan 2009 10:37:03 +0100 (MET)
+X-Mailman-Approved-At: Sat, 31 Jan 2009 09:59:30 +0100
+Subject: [Elsnet-list] AAMAS Workshop: Markup Languages for Embodied
+	Dialogue Acts [second CFP]
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0963371681=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+--===============0963371681==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C982BE.4D7DFFE3"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C982BE.4D7DFFE3
+Content-Type: text/plain;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+-------------------
+
+Towards a Standard Markup Language for Embodied Dialogue Acts
+
+Workshop held in conjunction with AAMAS 2009
+
+11 or 12 May 2009
+
+=20
+
+Budapest - Hungary
+
+=20
+
+Organizers:
+
+=20
+
+Dirk Heylen, University of Twente
+
+Catherine Pelachaud, CNRS, TELECOM - ParisTech
+
+Roberta Catizone, University of Sheffield
+
+David R. Traum, University of Southern California
+
+=20
+
+Embodied Conversational Agents, ECAs, are virtual agents endowed with
+human-like communicative capabilities. Over the last few years there has
+been increasing collaborative effort  across research groups working on
+ECAs to define a common framework for ECA systems under the name of
+SAIBA. The framework specifies three main processes. The first, called
+Intent Planning, deals with the computation of the communicative intents
+and the emotional state of the agent. The second, Behavior Planning,
+computes how to convey  high-level information through verbal and
+nonverbal means. The third and last module, Behavior Realizer,
+instantiates the behaviors into acoustic and visual parameters that are
+sent, respectively, to a speech synthesizer and an animation
+player[drt1]. These three modules exchange data (communicative
+intentions between the first and second ones, and behaviors between the
+last two). Together with the specification of the three main processes,
+SAIBA proposes the use of two mark-up languages to encode the flow of
+data. The first language is called Function Markup Language (FML) while
+the second one is called Behavior Markup Language (BML). While quite a
+lot of work has been done to define BML, FML is still in its infant
+stages. A first workshop at AAMAS 2008 gathered researchers for a first
+broad discussion about the issues surrounding FML, the state of the art
+in existing systems and  brainstorming about the way to go forward.
+
+=20
+
+While the first workshop aimed to define the scope of the information
+the language should cover, in this workshop we aim to further elaborate
+on one specific aspect of FML. A major concern that appeared in almost
+all of the papers presented in the first workshop was that of
+conversational acts, also called speech acts or dialogue acts. In this
+workshop we will look at the relevance of the taxonomies that have been
+proposed in the literature and the way these can be used or should be
+adapted and extended for the ECA domain.
+
+=20
+
+Several taxonomies of dialogue act types have been proposed for use in
+analyzing human dialogue behavior and as units of interpretation and
+production in dialogue systems.  Examples are:  Meta-locutionary acts
+(Novick, 1988), Conversation acts (Traum & Allen 1991), The HCRC coding
+scheme (Carletta et al 1996), and the Verbmobil coding scheme
+(Alexandersson et al 1997). These taxonomies encompass the different
+functions of dialogue acts such as information seeking, turn management
+and feedback and have been widely used to annotate corpora. Within the
+computational linguistics community, a series of meetings of an informal
+working group called the Discourse Resource Initiative produced a
+unifying scheme known as DAMSL (Allen&Core, 1997), which has been very
+influential and adapted for many projects.  See (Traum, 2000) for a
+comparison of taxonomies and issues for such taxonomies.  More recent
+efforts including European projects such as MATE and LIRICS have
+extended this work and produced new schemes such as DIT++ (Bunt et al,
+2008). These dialogue act taxonomies can be used to further the
+development of FML. As dialogue act specification is a core component of
+any specification of communicative intent, perhaps one of these schemes
+can be adopted or extended for suitability for ECAs, or can at least
+inspire the development of FML. One key difference between the coverage
+of most of these schemes and ECAs is that ECAs communicate through
+verbal and nonverbal means so many of these schemes will need to be
+extended for use in FML.=20
+
+=20
+
+With this workshop we aim to raise the following questions:
+
+* what are the strengths and weakness of the dialogue acts standards and
+their potential use in FML?=20
+
+* in what ways should they be extended?
+
+* in what ways do they miss the mark?
+
+* can they be used for multimodality?
+
+* how can a dialogue act result in the animation of verbal and/or
+nonverbal behaviours?
+
+* how can and should synchrony between modalities be tied in the
+dialogue act representation?
+
+* what can we learn from the standardisation effort (the way the process
+went, the way the standard is being used/adopted/adapted...)?
+
+* how/whether ASR signal/emotion features could/should be represented in
+Dialogue Acts? =20
+
+=20
+
+The purpose of this full-day workshop is to bring together researchers
+and developers of embodied conversational characters together with
+dialogue act specialists to exchange ideas and experiences on the
+various aspects involved in dialogue act specification for ECAs.
+
+=20
+
+We invite position papers addressing one or more of the following
+issues:
+
+* legacy: how can multimodal dialog acts be represented=20
+
+* desires: how do researchers believe these dialog acts should be
+specified in FML
+
+* expertise: contributions of researchers in cognitive
+modelling/dialogue
+
+=20
+
+Submissions should be of 8 pages maximum, following AAMAS specified
+style. Position papers of 2 pages are also allowed. Submissions should
+be sent as pdf-files to the workshop contact: heylen AT ewi.utwente.nl
+
+=20
+
+Important dates:
+
+Submission:  Feb 10, 2009
+
+Notification:  March 1, 2009
+
+Camera ready Copy:  March 15
+
+=20
+
+Program Committee
+
+Harry Bunt, Hannes Vihljalmsson, Stefan Kopp, Isabella Poggi, Bjorn
+Ganstrom, Debora Field, Morena Danieli, Peter Wallis, Matthew Stone
+
+=20
+
+
+------_=_NextPart_001_01C982BE.4D7DFFE3
+Content-Type: text/html;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Calibri;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal;
+	font-family:Arial;
+	color:windowtext;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:Arial;
+	color:navy;}
+span.EmailStyle19
+	{mso-style-type:personal;
+	font-family:Arial;
+	color:navy;}
+span.EmailStyle20
+	{mso-style-type:personal;
+	font-family:Arial;
+	color:navy;}
+span.EmailStyle21
+	{mso-style-type:personal;
+	font-family:Arial;
+	color:navy;}
+span.EmailStyle22
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DNL link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>-----------------------------------------------=
+-------------------------------------------------------------------------=
+-------------------------------------------<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Towards a Standard Markup Language for =
+Embodied
+Dialogue Acts<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Workshop held in conjunction with AAMAS =
+2009<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>11 or 12 May 2009<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Budapest &#8211; =
+Hungary<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Organizers:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Dirk Heylen, University of =
+Twente<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Catherine Pelachaud, CNRS, TELECOM &#8211; =
+ParisTech<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Roberta Catizone, University of =
+Sheffield<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>David R. Traum, University of Southern =
+California<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Embodied Conversational Agents, ECAs, are =
+virtual
+agents endowed with human-like communicative capabilities. Over the last =
+few
+years there has been increasing collaborative effort&nbsp; across =
+research
+groups working on ECAs to define a common framework for ECA systems =
+under the
+name of SAIBA. The framework specifies three main processes. The first, =
+called
+Intent Planning, deals with the computation of the communicative intents =
+and
+the emotional state of the agent. The second, Behavior Planning, =
+computes how to
+convey&nbsp; high-level information through verbal and nonverbal means. =
+The
+third and last module, Behavior Realizer, instantiates the behaviors =
+into
+acoustic and visual parameters that are sent, respectively, to a speech
+synthesizer and an animation player[drt1]. These three modules exchange =
+data
+(communicative intentions between the first and second ones, and =
+behaviors
+between the last two). Together with the specification of the three main
+processes, SAIBA proposes the use of two mark-up languages to encode the =
+flow
+of data. The first language is called Function Markup Language (FML) =
+while the
+second one is called Behavior Markup Language (BML). While quite a lot =
+of work
+has been done to define BML, FML is still in its infant stages. A first
+workshop at AAMAS 2008 gathered researchers for a first broad discussion =
+about
+the issues surrounding FML, the state of the art in existing systems =
+and&nbsp;
+brainstorming about the way to go forward.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>While the first workshop aimed to define the =
+scope of
+the information the language should cover, in this workshop we aim to =
+further
+elaborate on one specific aspect of FML. A major concern that appeared =
+in
+almost all of the papers presented in the first workshop was that of
+conversational acts, also called speech acts or dialogue acts. In this =
+workshop
+we will look at the relevance of the taxonomies that have been proposed =
+in the
+literature and the way these can be used or should be adapted and =
+extended for
+the ECA domain.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Several taxonomies of dialogue act types have =
+been
+proposed for use in analyzing human dialogue behavior and as units of
+interpretation and production in dialogue systems.&nbsp; Examples =
+are:&nbsp;
+Meta-locutionary acts (Novick, 1988), Conversation acts (Traum &amp; =
+Allen
+1991), The HCRC coding scheme (Carletta et al 1996), and the Verbmobil =
+coding
+scheme (Alexandersson et al 1997). These taxonomies encompass the =
+different
+functions of dialogue acts such as information seeking, turn management =
+and
+feedback and have been widely used to annotate corpora. Within the
+computational linguistics community, a series of meetings of an informal
+working group called the Discourse Resource Initiative produced a =
+unifying
+scheme known as DAMSL (Allen&amp;Core, 1997), which has been very =
+influential
+and adapted for many projects.&nbsp; See (Traum, 2000) for a comparison =
+of
+taxonomies and issues for such taxonomies.&nbsp; More recent efforts =
+including
+European projects such as MATE and LIRICS have extended this work and =
+produced
+new schemes such as DIT++ (Bunt et al, 2008). These dialogue act =
+taxonomies can
+be used to further the development of FML. As dialogue act specification =
+is a
+core component of any specification of communicative intent, perhaps one =
+of
+these schemes can be adopted or extended for suitability for ECAs, or =
+can at
+least inspire the development of FML. One key difference between the =
+coverage
+of most of these schemes and ECAs is that ECAs communicate through =
+verbal and
+nonverbal means so many of these schemes will need to be extended for =
+use in
+FML. <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>With this workshop we aim to raise the =
+following
+questions:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* what are the strengths and weakness of the =
+dialogue
+acts standards and their potential use in FML? =
+<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* in what ways should they be =
+extended?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* in what ways do they miss the =
+mark?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* can they be used for =
+multimodality?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* how can a dialogue act result in the =
+animation of
+verbal and/or nonverbal behaviours?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* how can and should synchrony between =
+modalities be
+tied in the dialogue act representation?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* what can we learn from the standardisation =
+effort
+(the way the process went, the way the standard is being
+used/adopted/adapted...)?<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* how/whether ASR signal/emotion features
+could/should be represented in Dialogue Acts? =
+&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>The purpose of this full-day workshop is to =
+bring
+together researchers and developers of embodied conversational =
+characters together
+with dialogue act specialists to exchange ideas and experiences on the =
+various
+aspects involved in dialogue act specification for =
+ECAs.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>We invite position papers addressing one or =
+more of
+the following issues:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* legacy: how can multimodal dialog acts be
+represented <o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* desires: how do researchers believe these =
+dialog
+acts should be specified in FML<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>* expertise: contributions of researchers in
+cognitive modelling/dialogue<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Submissions should be of 8 pages maximum, =
+following
+AAMAS specified style. Position papers of 2 pages are also allowed. =
+Submissions
+should be sent as pdf-files to the workshop contact: heylen AT =
+ewi.utwente.nl<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Important dates:<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Submission: &nbsp;Feb 10, =
+2009<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Notification: &nbsp;March 1, =
+2009<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>Camera ready Copy: &nbsp;March 15<font =
+color=3Dnavy><span
+style=3D'color:navy'><o:p></o:p></span></font></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+lang=3DEN-GB
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p>=
+</span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+lang=3DEN-GB
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Program =
+Committee<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+lang=3DEN-GB
+style=3D'font-size:10.0pt;font-family:Arial;color:navy'>Harry Bunt, =
+Hannes
+Vihljalmsson, Stefan Kopp, Isabella Poggi, Bjorn Ganstrom, Debora Field, =
+Morena
+Danieli, Peter Wallis, Matthew Stone<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span lang=3DEN-GB =
+style=3D'font-size:
+10.0pt;font-family:Arial'>&nbsp;<o:p></o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01C982BE.4D7DFFE3--
+
+--===============0963371681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0963371681==--

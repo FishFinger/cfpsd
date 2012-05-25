@@ -1,0 +1,553 @@
+From - Thu Dec 10 14:37:21 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs131400faq;
+        Thu, 11 Jun 2009 05:10:58 -0700 (PDT)
+Received: by 10.210.134.6 with SMTP id h6mr8684624ebd.58.1244722256466;
+        Thu, 11 Jun 2009 05:10:56 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si11691972ewy.113.2009.06.11.05.10.55;
+        Thu, 11 Jun 2009 05:10:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id F2F3721536; Thu, 11 Jun 2009 14:10:53 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3646920F4B;
+	Thu, 11 Jun 2009 14:09:37 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 121BE3D39;
+	Thu, 11 Jun 2009 14:09:37 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id l5nYaMhMyJEJ; Thu, 11 Jun 2009 14:09:36 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 298FB3D2B;
+	Thu, 11 Jun 2009 14:09:35 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5086A3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu,  4 Jun 2009 04:12:34 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NlcQsgd6wlHH for <elsnet-list@mailman.elsnet.org>;
+	Thu,  4 Jun 2009 04:12:34 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 13A2C3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu,  4 Jun 2009 04:12:14 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DFC9620BD8; Thu,  4 Jun 2009 04:12:13 +0200 (MEST)
+X-Greylist: delayed 606 seconds by postgrey-1.28 at newjura;
+	Thu, 04 Jun 2009 04:12:04 MEST
+Received: from mga01.intel.com (mga01.intel.com [192.55.52.88])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8F1D720BA5
+	for <elsnet-list@let.uu.nl>; Thu,  4 Jun 2009 04:11:54 +0200 (MEST)
+Received: from fmsmga001.fm.intel.com ([10.253.24.23])
+	by fmsmga101.fm.intel.com with ESMTP; 03 Jun 2009 18:49:19 -0700
+X-ExtLoop1: 1
+X-IronPort-AV: E=Sophos;i="4.41,301,1241420400"; 
+	d="scan'208,217";a="696273973"
+Received: from azsmsx602.amr.corp.intel.com ([10.2.121.201])
+	by fmsmga001.fm.intel.com with ESMTP; 03 Jun 2009 19:05:21 -0700
+Received: from azsmsx504.amr.corp.intel.com ([10.2.121.37]) by
+	azsmsx602.amr.corp.intel.com ([10.2.121.201]) with mapi; Wed, 3 Jun 2009
+	19:01:53 -0700
+From: "Gopal, Vinodh" <vinodh.gopal@intel.com>
+To: "mycolleagues@grid.lrg.ufsc.br" <mycolleagues@grid.lrg.ufsc.br>,
+	"tccc@lists.cs.columbia.edu" <tccc@lists.cs.columbia.edu>,
+	"cnom@inf.ufsc.br"
+	<cnom@inf.ufsc.br>, "researchnet@ryerson.ca" <researchnet@ryerson.ca>, 
+	"qest-announce@iti.uiuc.edu" <qest-announce@iti.uiuc.edu>,
+	"wg7_3@cs.umass.edu" <wg7_3@cs.umass.edu>,
+	"news-announce-conferences@uunet.uu.net"
+	<news-announce-conferences@uunet.uu.net>, "performance@merlot.usc.edu"
+	<performance@merlot.usc.edu>, "infodir_sigcomm@acm.org"
+	<infodir_sigcomm@acm.org>, "papm@inf.ed.ac.uk" <papm@inf.ed.ac.uk>,
+	"MMB@ira.uka.de" <MMB@ira.uka.de>,
+	"ifip-6-1-distr@run.montefiore.ulg.ac.be"
+	<ifip-6-1-distr@run.montefiore.ulg.ac.be>,
+	"ifip-tc6@informatik.rwth-aachen.de" <ifip-tc6@informatik.rwth-aachen.de>, 
+	"tarot@hds.utc.fr" <tarot@hds.utc.fr>, "isis-all@gdr-isis.org"
+	<isis-all@gdr-isis.org>, "sigmm@pi4.informatik.uni-mannheim.de"
+	<sigmm@pi4.informatik.uni-mannheim.de>, "tcgn@ieee.org" <tcgn@ieee.org>,
+	"end2end-china@netarchlab.tsinghua.edu.cn"
+	<end2end-china@netarchlab.tsinghua.edu.cn>, "cistc@comsoc.org"
+	<cistc@comsoc.org>, "itc@comsoc.org" <itc@comsoc.org>, "tccn@comsoc.org"
+	<tccn@comsoc.org>,
+	"SENSORNET@LISTSERV.ACM.ORG" <SENSORNET@LISTSERV.ACM.ORG>, 
+	"computational.science@lists.OptimaNumerics.com"
+	<computational.science@lists.OptimaNumerics.com>,
+	"hol-info@lists.sourceforge.net" <hol-info@lists.sourceforge.net>,
+	"isabelle-users@cl.cam.ac.uk" <isabelle-users@cl.cam.ac.uk>,
+	"pvs@csl.sri.com" <pvs@csl.sri.com>, "coq-club@pauillac.inria.fr"
+	<coq-club@pauillac.inria.fr>, "acl2@lists.cc.utexas.edu"
+	<acl2@lists.cc.utexas.edu>, "poplmark@lists.seas.upenn.edu"
+	<poplmark@lists.seas.upenn.edu>, "types-announce@lists.seas.upenn.edu"
+	<types-announce@lists.seas.upenn.edu>,
+	"ai@cs.man.ac.uk" <ai@cs.man.ac.uk>, 
+	"aiia@di.unito.it" <aiia@di.unito.it>, "asl@vassar.edu" <asl@vassar.edu>,
+	"concurrency@cwi.nl" <concurrency@cwi.nl>, "fm-discussion@cs.man.ac.uk"
+	<fm-discussion@cs.man.ac.uk>, "arw-committee@csc.liv.ac.uk"
+	<arw-committee@csc.liv.ac.uk>, "img@cs.man.ac.uk" <img@cs.man.ac.uk>,
+	"kr@kr.org" <kr@kr.org>, "lics@informatik.hu-berlin.de"
+	<lics@informatik.hu-berlin.de>, "loginf@lat.inf.tu-dresden.de"
+	<loginf@lat.inf.tu-dresden.de>, "om-announce@openmath.org"
+	<om-announce@openmath.org>, "types-announce@lists.seas.upenn.edu"
+	<types-announce@lists.seas.upenn.edu>, "kgs-list@logic.at"
+	<kgs-list@logic.at>, "loco@csc.liv.ac.uk" <loco@csc.liv.ac.uk>,
+	"agents@csc.liv.ac.uk" <agents@csc.liv.ac.uk>, "ki-inf@uni-koblenz.de"
+	<ki-inf@uni-koblenz.de>, "newsletter@aarinc.org" <newsletter@aarinc.org>,
+	"relmics-l@mcmaster.ca" <relmics-l@mcmaster.ca>,
+	"theorem-provers@ai.mit.edu"
+	<theorem-provers@ai.mit.edu>, "theory-logic@cs.cmu.edu"
+	<theory-logic@cs.cmu.edu>,
+	"elsnet-list@let.uu.nl" <elsnet-list@let.uu.nl>, 
+	"math.logik@gmx.net" <math.logik@gmx.net>, "twelf-list@twelf.org"
+	<twelf-list@twelf.org>, "isabelle-users@cl.cam.ac.uk"
+	<isabelle-users@cl.cam.ac.uk>, "hol-info@lists.sourceforge.net"
+	<hol-info@lists.sourceforge.net>, "coq-club@pauillac.inria.fr"
+	<coq-club@pauillac.inria.fr>, "agda@lists.chalmers.se"
+	<agda@lists.chalmers.se>, "projects-mkm-ig@jacobs-university.de"
+	<projects-mkm-ig@jacobs-university.de>
+Date: Wed, 3 Jun 2009 19:01:51 -0700
+Thread-Topic: IEEE ESCS 2009 Workshop Call-for-papers
+Thread-Index: AcnkuG101Mc8bzoDQjSYwrstF5gmDA==
+Message-ID: <482E80323A35A54498B8B70FF2B87980041238E6AC@azsmsx504.amr.corp.intel.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US
+MIME-Version: 1.0
+X-Mailman-Approved-At: Thu, 11 Jun 2009 14:08:59 +0200
+Cc: 
+Subject: [Elsnet-list] IEEE ESCS 2009 Workshop Call-for-papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0855660186=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0855660186==
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_482E80323A35A54498B8B70FF2B87980041238E6ACazsmsx504amrc_"
+
+--_000_482E80323A35A54498B8B70FF2B87980041238E6ACazsmsx504amrc_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+CALL FOR PAPERS:
+International Workshop on "Embedded Systems and Communications Security" (E=
+SCS09) http://www.cse.buffalo.edu/srds2009/ESCS.html
+
+Held in conjunction with IEEE SRDS 2009, Niagara Falls, New York, U.S.A., S=
+eptember 27, 2009 ( http://www.cse.buffalo.edu/srds2009/ )
+
+The strong growth in mobile devices, networked embedded systems, wireless s=
+ensors, in/inter-vehicular computing applications, the ever increasing info=
+rmation computing power offered by computing clusters and information servi=
+ces over networks (stationary and mobile) presents new challenges, especial=
+ly with respect to the security of integrated applications and environments=
+. Security solutions need to address cost, resource constraints, enterprise=
+/embedded interconnectivity, real time deadlines, multi-vendor
+integration issues, potentially unreliable mobile systems with low-bandwidt=
+h communication, and physical constraints often found in embedded applicati=
+ons.
+
+We solicit previously unpublished papers offering novel research contributi=
+ons in these aspects of computer security that focus on network computing, =
+embedded and mobile/ubiquitous systems. Papers may present advances in the =
+theory, design, implementation, analysis, or empirical evaluation of secure=
+ systems, infrastructure, architectures, algorithms and protocols.
+
+Topics include, but are not limited to:
+
+ *   Embedded System and hardware Security/Trust
+ *   Intrusion detection and prevention
+ *   Security for transport systems (cars, rail, aerospace, etc.)
+ *   Security in safety-critical systems
+ *   Methods for Key Management and Access Control.
+ *   Robust Secure Protocols and Cryptographic Methods
+ *   Embedded control network authentication and integrity
+ *   Secure embedded device software updates
+ *   Cryptanalysis Methods
+ *   Power/Timing based attacks and mitigation
+ *   Design for security
+ *   Security of Cyberphysical Systems (enterprise+embedded composites)
+ *   License management for disconnected embedded systems
+ *   Tamper resistance
+
+SUBMISSION INSTRUCTIONS:
+To submit your paper, please consult the SRDS 2009 submission instructions =
+at:
+http://www.cse.buffalo.edu/srds2009/submission.html
+
+
+WORKSHOP CHAIR: Vinodh Gopal Intel Corporation, USA
+
+TECHNICAL PROGRAM COMMITTEE:
+
+ *   Dr. Michael Kurdziel Harris Corp, USA
+ *   Dr. Miroslav Velev Aries Design Automation, USA
+ *   Prof Ramalingam Sridhar SUNY-Buffalo, USA
+ *   Prof Philip Koopman Carnegie-Mellon University, USA
+ *   Prof Berk Sunar Worcester Polytechnic Institute, USA
+ *   Prof Cetin Kaya Koc University of California, Santa Barbara, USA
+ *   Divya Arora Intel Corporation, USA
+ *   Nachiketh Potlapally Intel Corporation, USA
+
+
+IMPORTANT DATES:
+* Submission due: July 6, 2009
+* Decision due: Aug 10, 2009
+* Camera-ready due: August 31, 2009
+* Workshop date: September 27, 2009
+
+All accepted papers will be included in the symposium proceedings, which wi=
+ll be published  by the IEEE Computer Society.
+---------------------------------------------------------------------------=
+---------------------------------------------------
+
+
+
+--_000_482E80323A35A54498B8B70FF2B87980041238E6ACazsmsx504amrc_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered)">
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{font-family:Arial;
+	color:windowtext;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><b><u><font size=3D3 face=3D"Times New Roman"><span
+style=3D'font-size:12.0pt;font-weight:bold'>CALL FOR PAPERS:</span></font><=
+/u></b></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>International Workshop on &#8220;<b><span style=3D'font-weight:bold=
+'>Embedded
+Systems and Communications Security</span></b>&#8221; (ESCS09) <a
+href=3D"http://www.cse.buffalo.edu/srds2009/ESCS.html">http://www.cse.buffa=
+lo.edu/srds2009/ESCS.html</a>
+</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>Held in conjunction with IEEE SRDS 2009, Niagara Falls, New York, U=
+.S.A., September 27, 2009 ( <a href=3D"http://www.cse.buffalo.edu/srds2009/=
+">http://www.cse.buffalo.edu/srds2009/</a>
+)</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>The strong growth in mobile devices, networked embedded systems,
+wireless sensors, in/inter-vehicular computing applications, the ever
+increasing information computing power offered by computing clusters and
+information services over networks (stationary and mobile) presents new
+challenges, especially with respect to the security of integrated applicati=
+ons
+and environments. Security solutions need to address cost, resource
+constraints, enterprise/embedded interconnectivity, real time deadlines,
+multi-vendor</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>integration issues, potentially unreliable mobile systems with low-=
+bandwidth
+communication, and physical constraints often found in embedded application=
+s.</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>We solicit previously unpublished papers offering novel research
+contributions in these aspects of computer security that focus on network
+computing, embedded and mobile/ubiquitous systems. Papers may present advan=
+ces
+in the theory, design, implementation, analysis, or empirical evaluation of
+secure systems, infrastructure, architectures, algorithms and protocols.</s=
+pan></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>Topics include, but are not limited to:</span></font></p>
+
+<ul style=3D'margin-top:0in' type=3Ddisc>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Embedded System and hardware Security/Trust=
+</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Intrusion detection and prevention</span></=
+font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Security for transport systems (cars, rail,
+     aerospace, etc.)</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Security in safety-critical systems</span><=
+/font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Methods for Key Management and Access Contr=
+ol. </span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Robust Secure Protocols and Cryptographic M=
+ethods</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Embedded control network authentication and
+     integrity</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Secure embedded device software updates</sp=
+an></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Cryptanalysis Methods</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Power/Timing based attacks and mitigation</=
+span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Design for security</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Security of Cyberphysical Systems
+     (enterprise+embedded composites)</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>License management for disconnected embedde=
+d
+     systems</span></font></li>
+ <li class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt'>Tamper resistance</span></font></li>
+</ul>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><b><u><font size=3D3 face=3D"Times New Roman"><span
+style=3D'font-size:12.0pt;font-weight:bold'>SUBMISSION INSTRUCTIONS:</span>=
+</font></u></b></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>To submit your paper, please consult the SRDS 2009 submission
+instructions at:</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'><a href=3D"http://www.cse.buffalo.edu/srds2009/submission.html">htt=
+p://www.cse.buffalo.edu/srds2009/submission.html</a>
+</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><b><u><font size=3D3 face=3D"Times New Roman"><span
+style=3D'font-size:12.0pt;font-weight:bold'><span style=3D'text-decoration:=
+none'>&nbsp;</span></span></font></u></b></p>
+
+<p class=3DMsoNormal><b><u><font size=3D3 face=3D"Times New Roman"><span
+style=3D'font-size:12.0pt;font-weight:bold'>WORKSHOP CHAIR:</span></font></=
+u></b>
+<b><span style=3D'font-weight:bold'>Vinodh Gopal</span></b> Intel Corporati=
+on, USA</p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><b><u><font size=3D3 face=3D"Times New Roman"><span
+style=3D'font-size:12.0pt;font-weight:bold'>TECHNICAL PROGRAM COMMITTEE:</s=
+pan></font></u></b></p>
+
+<ul style=3D'margin-top:0in' type=3Ddisc>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt;font-weight:bold'>Dr. Michael Kurdziel</span=
+></font></b>
+     Harris Corp, USA </li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt;font-weight:bold'>Dr. Miroslav Velev</span><=
+/font></b>
+     Aries Design Automation, USA </li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span lan=
+g=3DPT-BR
+     style=3D'font-size:12.0pt;font-weight:bold'>Prof Ramalingam Sridhar</s=
+pan></font></b><span
+     lang=3DPT-BR> SUNY-Buffalo, USA</span></li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span lan=
+g=3DFR
+     style=3D'font-size:12.0pt;font-weight:bold'>Prof Philip Koopman</span>=
+</font></b><span
+     lang=3DFR> Carnegie-Mellon University, USA</span></li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt;font-weight:bold'>Prof Berk Sunar</span></fo=
+nt></b>
+     Worcester Polytechnic Institute, USA</li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt;font-weight:bold'>Prof Cetin Kaya Koc</span>=
+</font></b>
+     University of California, Santa Barbara, USA</li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span lan=
+g=3DES
+     style=3D'font-size:12.0pt;font-weight:bold'>Divya Arora</span></font><=
+/b><span
+     lang=3DES> Intel Corporation, USA</span></li>
+ <li class=3DMsoNormal><b><font size=3D3 face=3D"Times New Roman"><span
+     style=3D'font-size:12.0pt;font-weight:bold'>Nachiketh Potlapally</span=
+></font></b>
+     Intel Corporation, USA</li>
+</ul>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><b><u><font size=3D3 face=3D"Times New Roman"><span
+style=3D'font-size:12.0pt;font-weight:bold'>IMPORTANT DATES:</span></font><=
+/u></b></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>* <b><span style=3D'font-weight:bold'>Submission due: July 6, 2009<=
+/span></b></span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>* Decision due: Aug 10, 2009</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>* Camera-ready due: August 31, 2009</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>* Workshop date: September 27, 2009</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>All accepted papers will be included in the symposium proceedings,
+which will be published &nbsp;by the IEEE Computer Society.</span></font></=
+p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>-------------------------------------------------------------------=
+-----------------------------------------------------------</span></font></=
+p>
+
+<p class=3DMsoNormal><font size=3D3 face=3D"Times New Roman"><span style=3D=
+'font-size:
+12.0pt'>&nbsp;</span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3DArial><span style=3D'font-size:1=
+0.0pt;
+font-family:Arial'>&nbsp;</span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+--_000_482E80323A35A54498B8B70FF2B87980041238E6ACazsmsx504amrc_--
+
+--===============0855660186==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0855660186==--

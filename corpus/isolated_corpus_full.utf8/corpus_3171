@@ -1,0 +1,482 @@
+From - Thu Dec 10 14:32:18 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139746waa;
+        Sun, 15 Jun 2008 02:58:04 -0700 (PDT)
+Received: by 10.210.38.17 with SMTP id l17mr4868800ebl.34.1213523882853;
+        Sun, 15 Jun 2008 02:58:02 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id b36si6810684ika.5.2008.06.15.02.57.58;
+        Sun, 15 Jun 2008 02:58:02 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 0821515ED9; Sun, 15 Jun 2008 11:57:57 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.1 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 54A2812C9A;
+	Sun, 15 Jun 2008 11:43:44 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 433973D3C;
+	Sun, 15 Jun 2008 11:43:44 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id hY6yjbaawLTl; Sun, 15 Jun 2008 11:43:44 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id B418F3E5A;
+	Sun, 15 Jun 2008 11:41:46 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 980D43D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 15 Jun 2008 06:38:06 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eq3AqwqK6A83 for <elsnet-list@mailman.elsnet.org>;
+	Sun, 15 Jun 2008 06:38:06 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 677513CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 15 Jun 2008 06:38:06 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 50576A578; Sun, 15 Jun 2008 06:38:06 +0200 (MEST)
+Received: from ti-out-0910.google.com (ti-out-0910.google.com [209.85.142.185])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D7553530AC
+	for <elsnet-list@let.uu.nl>; Sun, 15 Jun 2008 06:37:35 +0200 (MEST)
+Received: by ti-out-0910.google.com with SMTP id d10so1344856tib.12
+	for <elsnet-list@let.uu.nl>; Sat, 14 Jun 2008 21:37:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type;
+	bh=se0EBk6doigf/wiG05D4agZlNGT1UkWJ7FNn3t511Yc=;
+	b=rZiegfPFyWD5S8r5VQgvD5mTP3ooYRFzCvjqwhI9JONuFPKAWMLBSE9VIYND45W7xN
+	SpzqIWkDXve3vMHvZbghVtHucadUBmUMSnXYi38oPNHehHoit4Xsd1U53pd+JXWcuN8D
+	ZEj1gNqL0UhRPh4JyS/v99IE4PUXV3oKCXpMw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type;
+	b=XJ5Ai6Y73ls3qVJbDiqHJzNWjiTgPn+MVW+vsK7ug5dszRim2b8kcIGMc9bSA9phXF
+	VCc0HaPxlQyUbZpNAMaxLa4kCC4j8ybeXXC+ixD9xSCb/C7JItxFfFsrlg2+MDVviRB9
+	CQ8Sd/i2pWzb3XGeGduOwHG+GXopAw9iljtj8=
+Received: by 10.110.46.3 with SMTP id t3mr3233519tit.33.1213504635692;
+	Sat, 14 Jun 2008 21:37:15 -0700 (PDT)
+Received: by 10.110.57.9 with HTTP; Sat, 14 Jun 2008 21:37:15 -0700 (PDT)
+Message-ID: <d71c7ca10806142137u48cc6c48v9bef6c21c8a93657@mail.gmail.com>
+Date: Sun, 15 Jun 2008 12:37:15 +0800
+From: "Dacheng Tao" <dacheng.tao@gmail.com>
+To: dacheng.tao@gmail.com
+MIME-Version: 1.0
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:40:58 +0200
+Cc: 
+Subject: [Elsnet-list] CFP: New Deadlines for MMAP2008.
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1241920357=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============1241920357==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_340_23676524.1213504635644"
+
+------=_Part_340_23676524.1213504635644
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+***************************************************************************=
+*
+We apologize if you received multiple copies of this Call for Papers.
+Please feel free to distribute it to those who might be interested.
+***************************************************************************=
+*
+
+
+Please send to interested colleagues and Ph.D. students
+
+-- CALL FOR PAPERS --
+
+First International Symposium on
+ Multimedia =96 Applications and Processing, MMAP 2008,
+www.mmap.imcsit.org
+ Organized by:
+
+Software Engineering Department, Faculty of Automation, Computers and
+Electronics, University of Craiova, Romania
+ "Multimedia Applications Development" Research Centre
+ Contact: burdescu_dumitru@software.ucv.ro
+
+within the framework
+
+International Multiconference on Computer Science and Information Technolog=
+y
+in Wisla, Poland, 20 =96 22 October
+
+2008
+
+
+* CONFERENCE BACKGROUND AND GOALS
+
+Recent advances in pervasive computers, networks, telecommunications, and
+information technology, along with the proliferation of multimedia mobile
+devices - such as laptops, iPods, personal digital assistants (PDA), and
+cellular telephones - have stimulated the development of intelligent
+pervasive multimedia applications. These key technologies are creating a
+multimedia revolution that will have significant impact across a wide
+spectrum of consumer, business, healthcare, and governmental domains. Yet
+many challenges remain, especially when it comes to efficiently indexing,
+mining, querying, searching, and retrieving multimedia data.
+The Multimedia - Processing and Applications 2008 (MMAP 2008) Symposium
+addresses several themes related to theory and practice within multimedia
+domain. The enormous interest in multimedia from many activity areas
+(medicine,
+entertainment, education) led researchers and industry to make a continuous
+effort to create new, innovative multimedia algorithms and application.
+As a result the conference goal is to bring together researchers, engineers
+and practitioners in order to communicate their newest and original
+contributions on topics that have been identified (see below). We are also
+interested in looking at service architectures, protocols, and standards
+for multimedia communications - including middleware - along with the
+related
+security issues, such as secure multimedia information sharing. Finally, we
+encourage submissions describing work on novel applications that exploit th=
+e
+
+unique set of advantages offered by multimedia computing techniques,
+including
+home-networked entertainment and games. However, innovative contributions
+that
+don't fit into these areas will also be considered because they might be of
+benefit to conference attendees.
+
+* CALL FOR PAPERS
+
+MMAP 2008 is a major forum for researchers and practitioners from academia,
+industry, and government to present, discuss, and exchange ideas that
+address
+real-world problems with real-world solutions.
+The MMAP 2008 Symposium welcomes submissions of original papers concerning
+all
+aspects of multimedia domain ranging from concepts and theoretical
+developments
+to advanced technologies and innovative applications. MMAP 2008 invites
+original
+previously unpublished contributions that are not submitted concurrently to
+a
+journal or another conference.
+Papers acceptance and publication will be judged based on their relevance t=
+o
+
+the symposium theme, clarity of presentation, originality and accuracy of
+results and proposed solutions.
+
+
+* TOPICS OF INTEREST
+
+Topics of interest are related to Multimedia Processing and Applications
+including, but are not limited to the following areas:
+
+Image and Video Processing
+Speech, Audio and Music Processing
+3D and Stereo Imaging
+Distributed Multimedia Systems
+Multimedia Databases, Indexing, Recognition and Retrieval
+Data Mining
+Multimedia in E-Learning, E-Commerce and E-Society Applications
+Multimedia in Medical Applications
+Multimedia Authentication and Watermarking
+Entertainment and games
+Multimedia Interfaces
+
+* PAPER SUBMISSION AND PUBLICATION
+=95 Papers will be refereed and accepted on the basis of their scientific
+merit and relevance to the symposium. All submissions are subject to a blin=
+d
+
+refereeing process.
+=95 Accepted and Presented papers will be published as paper in the Confere=
+nce
+
+Proceedings and included in the IEEE Xplore(R) database.
+=95 Extended versions of selected best papers will be published in a specia=
+l
+issue of JDIM: Journal of Digital Information Management   ISSN 0972-7272.
+=95 Authors should submit draft papers (as Postscript, PDF of MSWord file).
+=95 The total length of a paper should not exceed 8 pages (IEEE style). IEE=
+E
+style templates are available.
+
+* IMPORTANT DATES
+
+ 30.06.2008 - Full paper submission
+
+ 28.07.2008 - Notification of acceptance
+
+ 01.09.2008 - Camera-ready version of the accepted paper
+
+ Symposium: October 20 - 22, 2008
+
+* GENERAL MMAP2008 CHAIR
+
+Dumitru Dan Burdescu, University of Craiova, Romania
+
+ * Steering Committee
+
+ Dumitru Dan Burdescu, University of Craiova, Romania
+ Ioannis Pitas, University of Thessaloniki, Greece
+ Costin Badica, University of Craiova, Romania
+ Harald Kosch, University of Passau, Germany
+ Vladimir Uskov, Bradley University, USA
+ Thomas M. Deserno, Aachen University, Germany
+ Mohammad S. Obaidat, Monmouth University, USA
+
+
+* Organizing Committee
+
+ Dumitru Dan Burdescu, University of Craiova, Romania
+ Costin Badica, University of Craiova, Romania
+ Liana Stanescu, University of Craiova, Romania
+ Marius Brezovan, University of Craiova, Romania
+
+* Publicity Chairs
+
+ Amelia Badica, University of Craiova, Romania
+ Dacheng Tao, Hong Kong Polytechnic University, Hong Kong
+
+
+* Program Committee
+
+Michael Lang, National University of Ireland, Ireland
+Janis Grundspenkis, Riga Technical University, Latvia
+Rynson Lau, Durham University, UK
+Gregory Wojtkowski, Boise State University, USA
+Bogdan Logofatu, University of Bucuresti, Romania
+Jean Louis Ferrier, Angers University, France
+Wita Wojtkowski, Boise State University, USA
+Reda Alhajj, University of Calgary, Canada
+Qi Chun, Xi'an Jiaotong University, P.R.China
+David Bustard, University of Ulster, UK
+Michael Auer, Carinthia University of Applied Sciences, Austria
+George Tsihrintzis, University of Piraeus, Greece
+Stefan Trzcielinski, Poznan University of Technology, Poland
+Roland Rieke, Fraunhofer-Institut Informationstechnologie, Darmstadt,
+Germany
+Vladimir Cretu, Politehnica University of Timisoara, Romania
+Igor Kotenko, St. Petersburg Institute for Informatics and Automation of
+the Russian Academy of Sciences, Russia
+G=FCnther Pernul, University of Regensburg, Germany
+Valery Korzhik, State University of Telecommunications, St-Petersburg,
+Russia
+Mislav Grgic, University of Zagreb, Croatia
+Boris Shishkov, University of Twente, Netherlands
+Dacheng Tao, Hong Kong Polytechnic University, Hong Kong
+Daniel Grosu, Wayne State University, USA
+Laszlo B=F6sz=F6rmenyi , Klagenfurt University, Austria
+Vladimir Fomichov, State University Moscow, Russia
+Miguel Angel Vega-Rodr=EDguez, University of Extremadura, Spain
+Marek Ogiela, AGH University of Science and Technology, Poland
+Giuseppe Mangioni, University of Catania, Italy
+Stefan Trausan-Matu, Politehnica University of Bucharest, Romania
+Reggie Kwan, Caritas Francis Hsu College, Hong Kong
+Rami Finkler, Afeka College of Engineering, Tel Aviv, Israel
+Vladik Kreinovich, University of Texas at El Paso, USA
+Ioan Alfred Letia, Technical University of Cluj-Napoca, Romania
+Romulus Grigoras, National Polytechnic Institute of Toulouse, France
+Richard Chbeir, Bourgogne University, France
+Christopher Barry, National University of Ireland, Ireland
+Mihai Mocanu, University of Craiova, Romania
+Franz Wotawa, Technische Universitaet Graz, Austria
+Jacek Zurada, University of Louisville, USA
+Mohamad Bouhlel, Sfax University, Tunisia
+Ryszard Choras, Institute of Telecommunications, Poland
+Marek Holynski, Polish Information Processing Society, Poland
+Shiguo Lian, France Telecom R&D Beijing, P.R. China
+Rajkumar Kannan, Bishop Heber College, India
+
+------=_Part_340_23676524.1213504635644
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<p>************************************************************************=
+****<br>We apologize if you received multiple copies of this Call for Paper=
+s.<br>Please feel free to distribute it to those who might be interested. <=
+br>
+***************************************************************************=
+*</p>
+<p><br>Please send to interested colleagues and Ph.D. students</p>
+<p>-- CALL FOR PAPERS --</p>
+<p>First International Symposium on<br>&nbsp;Multimedia =96 Applications an=
+d Processing, MMAP 2008,<br><a href=3D"http://www.mmap.imcsit.org/">www.mma=
+p.imcsit.org</a><br>&nbsp;Organized by:</p>
+<p>Software Engineering Department, Faculty of Automation, Computers and El=
+ectronics, University of Craiova, Romania<br>&nbsp;&quot;Multimedia Applica=
+tions Development&quot; Research Centre<br>&nbsp;Contact: <a href=3D"mailto=
+:burdescu_dumitru@software.ucv.ro">burdescu_dumitru@software.ucv.ro</a> </p=
+>
+
+<p>within the framework</p>
+<p>International Multiconference on Computer Science and Information Techno=
+logy in Wisla, Poland, 20 =96 22 October </p>
+<p>2008</p>
+<p><br>* CONFERENCE BACKGROUND AND GOALS</p>
+<p>Recent advances in pervasive computers, networks, telecommunications, an=
+d <br>information technology, along with the proliferation of multimedia mo=
+bile <br>devices - such as laptops, iPods, personal digital assistants (PDA=
+), and <br>
+cellular telephones - have stimulated the development of intelligent <br>pe=
+rvasive multimedia applications. These key technologies are creating a <br>=
+multimedia revolution that will have significant impact across a wide <br>
+spectrum of consumer, business, healthcare, and governmental domains. Yet <=
+br>many challenges remain, especially when it comes to efficiently indexing=
+, <br>mining, querying, searching, and retrieving multimedia data. <br>
+The Multimedia - Processing and Applications 2008 (MMAP 2008) Symposium <br=
+>addresses several themes related to theory and practice within multimedia =
+<br>domain. The enormous interest in multimedia from many activity areas (m=
+edicine, <br>
+entertainment, education) led researchers and industry to make a continuous=
+<br>effort to create new, innovative multimedia algorithms and application.=
+<br>As a result the conference goal is to bring together researchers, engin=
+eers<br>
+and practitioners in order to communicate their newest and original <br>con=
+tributions on topics that have been identified (see below). We are also<br>=
+interested in looking at service architectures, protocols, and standards <b=
+r>
+for multimedia communications - including middleware - along with the relat=
+ed <br>security issues, such as secure multimedia information sharing. Fina=
+lly, we <br>encourage submissions describing work on novel applications tha=
+t exploit the <br>
+unique set of advantages offered by multimedia computing techniques, includ=
+ing <br>home-networked entertainment and games. However, innovative contrib=
+utions that<br>don&#39;t fit into these areas will also be considered becau=
+se they might be of <br>
+benefit to conference attendees.</p>
+<p>* CALL FOR PAPERS</p>
+<p>MMAP 2008 is a major forum for researchers and practitioners from academ=
+ia, <br>industry, and government to present, discuss, and exchange ideas th=
+at address <br>real-world problems with real-world solutions.<br>The MMAP 2=
+008 Symposium welcomes submissions of original papers concerning all <br>
+aspects of multimedia domain ranging from concepts and theoretical developm=
+ents <br>to advanced technologies and innovative applications. MMAP 2008 in=
+vites original <br>previously unpublished contributions that are not submit=
+ted concurrently to a <br>
+journal or another conference.<br>Papers acceptance and publication will be=
+ judged based on their relevance to <br>the symposium theme, clarity of pre=
+sentation, originality and accuracy of <br>results and proposed solutions.<=
+/p>
+
+<p><br>* TOPICS OF INTEREST</p>
+<p>Topics of interest are related to Multimedia Processing and Applications=
+ <br>including, but are not limited to the following areas:</p>
+<p>Image and Video Processing <br>Speech, Audio and Music Processing<br>3D =
+and Stereo Imaging <br>Distributed Multimedia Systems <br>Multimedia Databa=
+ses, Indexing, Recognition and Retrieval<br>Data Mining<br>Multimedia in E-=
+Learning, E-Commerce and E-Society Applications<br>
+Multimedia in Medical Applications <br>Multimedia Authentication and Waterm=
+arking<br>Entertainment and games<br>Multimedia Interfaces </p>
+<p>* PAPER SUBMISSION AND PUBLICATION<br>=95&nbsp;Papers will be refereed a=
+nd accepted on the basis of their scientific <br>merit and relevance to the=
+ symposium. All submissions are subject to a blind <br>refereeing process. =
+<br>
+=95&nbsp;Accepted and Presented papers will be published as paper in the Co=
+nference <br>Proceedings and included in the IEEE Xplore&reg; database.<br>=
+=95&nbsp;Extended versions of selected best papers will be published in a s=
+pecial <br>issue of JDIM: Journal of Digital Information Management&nbsp;&n=
+bsp; ISSN 0972-7272. <br>
+=95&nbsp;Authors should submit draft papers (as Postscript, PDF of MSWord f=
+ile). <br>=95&nbsp;The total length of a paper should not exceed 8 pages (I=
+EEE style). IEEE <br>style templates are available.</p>
+<p>* IMPORTANT DATES</p>
+<p>&nbsp;30.06.2008 - Full paper submission</p>
+<p>&nbsp;28.07.2008 - Notification of acceptance</p>
+<p>&nbsp;01.09.2008 - Camera-ready version of the accepted paper</p>
+<p>&nbsp;Symposium: October 20 - 22, 2008</p>
+<p>* GENERAL MMAP2008 CHAIR</p>
+<p>Dumitru Dan Burdescu, University of Craiova, Romania </p>
+<p>&nbsp;* Steering Committee <br>&nbsp;<br>&nbsp;Dumitru Dan Burdescu, Uni=
+versity of Craiova, Romania<br>&nbsp;Ioannis Pitas, University of Thessalon=
+iki, Greece <br>&nbsp;Costin Badica, University of Craiova, Romania<br>&nbs=
+p;Harald Kosch, University of Passau, Germany<br>
+&nbsp;Vladimir Uskov, Bradley University, USA<br>&nbsp;Thomas M. Deserno, A=
+achen University, Germany<br>&nbsp;Mohammad S. Obaidat, Monmouth University=
+, USA<br>&nbsp;</p>
+<p>* Organizing Committee</p>
+<p>&nbsp;Dumitru Dan Burdescu, University of Craiova, Romania<br>&nbsp;Cost=
+in Badica, University of Craiova, Romania<br>&nbsp;Liana Stanescu, Universi=
+ty of Craiova, Romania<br>&nbsp;Marius Brezovan, University of Craiova, Rom=
+ania</p>
+<p>* Publicity Chairs</p>
+<p>&nbsp;Amelia Badica, University of Craiova, Romania<br>&nbsp;Dacheng Tao=
+, Hong Kong Polytechnic University, Hong Kong</p>
+<p><br>* Program Committee </p>
+<p>Michael Lang, National University of Ireland, Ireland<br>Janis Grundspen=
+kis, Riga Technical University, Latvia<br>Rynson Lau, Durham University, UK=
+<br>Gregory Wojtkowski, Boise State University, USA<br>Bogdan Logofatu, Uni=
+versity of Bucuresti, Romania<br>
+Jean Louis Ferrier, Angers University, France<br>Wita Wojtkowski, Boise Sta=
+te University, USA<br>Reda Alhajj, University of Calgary, Canada<br>Qi Chun=
+, Xi&#39;an Jiaotong University, P.R.China<br>David Bustard, University of =
+Ulster, UK<br>
+Michael Auer, Carinthia University of Applied Sciences, Austria<br>George T=
+sihrintzis, University of Piraeus, Greece<br>Stefan Trzcielinski, Poznan Un=
+iversity of Technology, Poland<br>Roland Rieke, Fraunhofer-Institut Informa=
+tionstechnologie, Darmstadt, Germany<br>
+Vladimir Cretu, Politehnica University of Timisoara, Romania<br>Igor Kotenk=
+o, St. Petersburg Institute for Informatics and Automation of <br>the Russi=
+an Academy of Sciences, Russia<br>G=FCnther Pernul, University of Regensbur=
+g, Germany<br>
+Valery Korzhik, State University of Telecommunications, St-Petersburg, Russ=
+ia<br>Mislav Grgic, University of Zagreb, Croatia<br>Boris Shishkov, Univer=
+sity of Twente, Netherlands <br>Dacheng Tao, Hong Kong Polytechnic Universi=
+ty, Hong Kong <br>
+Daniel Grosu, Wayne State University, USA<br>Laszlo B=F6sz=F6rmenyi , Klage=
+nfurt University, Austria<br>Vladimir Fomichov, State University Moscow, Ru=
+ssia<br>Miguel Angel Vega-Rodr=EDguez, University of Extremadura, Spain<br>=
+Marek Ogiela, AGH University of Science and Technology, Poland<br>
+Giuseppe Mangioni, University of Catania, Italy<br>Stefan Trausan-Matu, Pol=
+itehnica University of Bucharest, Romania<br>Reggie Kwan, Caritas Francis H=
+su College, Hong Kong<br>Rami Finkler, Afeka College of Engineering, Tel Av=
+iv, Israel<br>
+Vladik Kreinovich, University of Texas at El Paso, USA<br>Ioan Alfred Letia=
+, Technical University of Cluj-Napoca, Romania<br>Romulus Grigoras, Nationa=
+l Polytechnic Institute of Toulouse, France<br>Richard Chbeir, Bourgogne Un=
+iversity, France <br>
+Christopher Barry, National University of Ireland, Ireland<br>Mihai Mocanu,=
+ University of Craiova, Romania<br>Franz Wotawa, Technische Universitaet Gr=
+az, Austria<br>Jacek Zurada, University of Louisville, USA<br>Mohamad Bouhl=
+el, Sfax University, Tunisia<br>
+Ryszard Choras, Institute of Telecommunications, Poland<br>Marek Holynski, =
+Polish Information Processing Society, Poland<br>Shiguo Lian, France Teleco=
+m R&amp;D Beijing, P.R. China<br>Rajkumar Kannan, Bishop Heber College, Ind=
+ia</p>
+
+------=_Part_340_23676524.1213504635644--
+
+--===============1241920357==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1241920357==--

@@ -1,0 +1,711 @@
+From - Thu Dec 10 14:38:04 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.122.79 with SMTP id k15cs928346bkr;
+        Sun, 16 Aug 2009 06:34:32 -0700 (PDT)
+Received: by 10.210.131.14 with SMTP id e14mr2002762ebd.11.1250429669165;
+        Sun, 16 Aug 2009 06:34:29 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 18si7380452ewy.45.2009.08.16.06.34.28;
+        Sun, 16 Aug 2009 06:34:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 0036723F84; Sun, 16 Aug 2009 15:34:26 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 0206223C3E;
+	Sun, 16 Aug 2009 15:31:48 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BA4663D33;
+	Sun, 16 Aug 2009 15:31:45 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3IbpVmftMVeP; Sun, 16 Aug 2009 15:31:45 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 3C6793D55;
+	Sun, 16 Aug 2009 15:31:16 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.let.uu.nl
+Delivered-To: elsnet-list@mailman.let.uu.nl
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 762EC3D2A
+	for <elsnet-list@mailman.let.uu.nl>;
+	Wed, 12 Aug 2009 09:59:12 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wmBLr0pFpo-K for <elsnet-list@mailman.let.uu.nl>;
+	Wed, 12 Aug 2009 09:59:12 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 45EE43D24
+	for <elsnet-list@mailman.let.uu.nl>;
+	Wed, 12 Aug 2009 09:58:47 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 12B0422C06; Wed, 12 Aug 2009 09:58:47 +0200 (MEST)
+X-Greylist: delayed 3604 seconds by postgrey-1.28 at newjura;
+	Wed, 12 Aug 2009 09:58:38 MEST
+Received: from smtp01.cityu.edu.hk (smtp01.cityu.edu.hk [144.214.4.70])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1280922BF2
+	for <elsnet-list@mailman.let.uu.nl>;
+	Wed, 12 Aug 2009 09:58:37 +0200 (MEST)
+MIME-version: 1.0
+Received: from pmxchannel-daemon.smtp01.cityu.edu.hk by smtp01.cityu.edu.hk
+	(Sun Java(tm) System Messaging Server 6.3-6.03 (built Mar 14 2008;
+	32bit)) id <0KO900B004PDI000@smtp01.cityu.edu.hk> for
+	elsnet-list@mailman.let.uu.nl; Wed, 12 Aug 2009 14:58:25 +0800 (HKT)
+Received: from ct020032 ([144.214.20.32])
+	by smtp01.cityu.edu.hk (Sun Java(tm) System Messaging Server 6.3-6.03
+	(built Mar 14 2008;
+	32bit)) with ESMTP id <0KO90095W4PDR530@smtp01.cityu.edu.hk> for
+	elsnet-list@mailman.let.uu.nl; Wed, 12 Aug 2009 14:58:25 +0800 (HKT)
+Date: Wed, 12 Aug 2009 14:58:24 +0800
+From: Alex Chengyu Fang <acfang@cityu.edu.hk>
+To: elsnet-list@mailman.let.uu.nl
+Message-id: <034c01ca1b1a$49426c70$2014d690@ad.cityu.edu.hk>
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+X-Mailer: Microsoft Office Outlook 11
+Thread-index: AcobGkkoxebMB1tjRuyqT1qq5tShBA==
+X-PMX-Version: 5.5.0.356843
+X-Mailman-Approved-At: Sun, 16 Aug 2009 15:30:46 +0200
+Subject: [Elsnet-list] CFP: ICGL 2010 Hong Kong
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0825023291=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============0825023291==
+Content-type: multipart/alternative;
+	boundary="Boundary_(ID_EsIKKL/lwg6N0vg3vfpPlw)"
+
+This is a multi-part message in MIME format.
+
+--Boundary_(ID_EsIKKL/lwg6N0vg3vfpPlw)
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+Announcement and First Call for Papers
+
+ICGL2010: The Second International Conference on Global Interoperability for
+Language Resources
+
+City University of Hong Kong
+
+Hong Kong SAR, China
+
+18-20 January 2010
+
+http://icgl.ctl.cityu.edu.hk/ 
+
+Language resources, including not only corpora but also lexicons, knowledge
+bases, ontologies, and grammars, support the development of language
+processing applications that are increasingly important to the global
+society. Substantial effort has been devoted to the creation of such
+resources for the world's major languages over the past decades, and new
+projects are developing similar resources for less widely-used languages.
+Some standards and best practices have emerged for representing and linking
+language corpora and annotations. Efforts such as the Global WordNet and the
+development of framenets in multiple languages seek to create and link
+specific lexical and semantic resources across languages, and there are
+efforts to integrate such resources into general-purpose ontologies such as
+SUMO. 
+
+As the need for cross-lingual studies and applications grows, it is
+increasingly important to develop resources in the world's languages that
+can be compared and linked, used and analyzed with common software, and that
+contain linguistic information for the same or comparable phenomena. We
+envision the eventual development of a global web of language resources,
+wherein, for example, linguistically-annotated corpora in multiple languages
+are inter-linked via the use of common categories, or categories that are
+mapped to one another; resources such as wordnets and framenets are linked
+not only to versions in different languages, but also to each other; and
+common representations enable analysis and use of resources in different
+languages and of different types within available systems. Interoperability
+also fosters universal access to language resources, enabling researchers
+who have fewer resources for performing costly and time-consuming
+transductions to have the same capabilities as others.
+
+The Second International Conference on Global Interoperability for Language
+Resources will bring together designers, developers, and users of language
+resources, tools, frameworks, and infrastructures from across the globe, in
+order to:
+
+!P         assess the state of the art in methods and schemes for resource
+representation, annotation, processing, interlinkage, and access;
+
+!P         consider the ways in which web technologies are and may be used
+to enable resource accessibility, interoperability and inter-linkage;
+
+!P         consider the requirements for (and obstacles to) full
+interoperability, especially with regard to multi-lingual and multi-modal
+data;
+
+!P         consider the requirements for achieving interoperability among
+multi-lingual resources of different types, including corpora, lexicons,
+knowledge bases, ontologies, etc., as well as the systems and frameworks
+that enable their creation and exploitation;
+
+!P         work toward the definition of best practice guidelines and
+standards for language resource representation, annotation, and use that
+will enable interoperability;
+
+!P         consider means to map or harmonize linguistic information in
+order to better enable cross-lingual studies;
+
+!P         provide direction for developers of resources for less widely
+used languages;
+
+!P         promote collaboration and cooperation among developers of
+language resources and tools across the globe;
+
+!P         consider ways to provide central or distributed access to
+language resources developed throughout the world. 
+
+>>> This year's conference will include a special focus on the use of
+web-based technologies for interoperability and open access to language
+resources.
+
+ 
+
+Topics
+
+Paper submissions are invited on (but not limited to) the following topics:
+
+!P      web-based technologies for resource interoperability, inter-linkage,
+and access;
+
+!P      multi-lingual and/or multi-modal language resources, with focus on
+the mechanisms enabling interoperability;
+
+!P      support for multi-linguality and multi-modality in
+systems/frameworks for resource creation, annotation,  use, and access;
+
+!P      existing and proposed standards for language resources, including
+standards for linguistic annotations at any and all linguistics levels;
+
+!P      systems, frameworks, and architectures to support the development
+and use of interoperable language resources;
+
+!P      evaluation of existing resources, systems and frameworks, and/or
+standards in terms of support for interoperability;
+
+!P      harmonization, integration, and/or linking of language resources,
+including corpora, wordnets, framenets, ontologies, etc.;
+
+!P      ontologies for language resources, especially for support of
+multi-linguality, multi-culturality, and multi-modality. 
+
+ 
+
+Proceedings
+
+Accepted papers will be included in conference proceedings. A selection of
+outstanding conference presentations will be published in a special issue of
+the journal Language Resources and Evaluation. 
+
+ 
+
+Submissions 
+
+Submissions should be no more than 8 pages in length, including bibliography
+and any appendices. Author instructions will be posted on the conference web
+site. 
+
+ 
+
+Important dates
+
+Paper submission deadline: 15 September 2009
+
+Notification of acceptance: 15 October 2009
+
+Camera-ready papers due: 31 October 2009
+
+Conference dates: 18-20 January 2010
+
+ 
+
+Invited Keynote Speakers
+
+To be announced.
+
+ 
+
+Conference Organising Committee:
+
+Conference Convener: Jonathan Webster, City University of Hong Kong
+
+Conference Co-Chairs: Nancy Ide, Vassar College, USA
+
+Alex Chengyu Fang, City University of Hong Kong
+
+Conference Secretary: Ernest Lam, City University of Hong Kong
+
+Conference Webmaster: Kin Tat Ko, City University of Hong Kong
+
+Conference Website: http:// <http://icgl.ctl.cityu.edu.hk/>
+icgl.ctl.cityu.edu.hk/
+
+Conference Inquiry: icgl2010@cityu.edu.hk
+
+
+--Boundary_(ID_EsIKKL/lwg6N0vg3vfpPlw)
+Content-type: text/html; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=us-ascii">
+<META content="MSHTML 6.00.6000.16890" name=GENERATOR></HEAD>
+<BODY>
+<DIV><FONT face=Arial>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Announcement 
+and First Call for Papers</SPAN></B></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><FONT 
+size=3><B style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-SIZE: 14pt; COLOR: black; FONT-FAMILY: Times; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">ICGL2010: 
+The Second</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-SIZE: 14pt; COLOR: black; FONT-FAMILY: Times"> International 
+Conference on Global Interoperability for Language 
+Resources</SPAN></B></FONT></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><FONT 
+size=3><B style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-SIZE: 14pt; COLOR: black; FONT-FAMILY: Times"></SPAN></B></FONT><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">City 
+University of Hong Kong</SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><SPAN 
+class=Apple-style-span style="FONT-FAMILY: Optima"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Hong 
+Kong</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"> 
+SAR, China</SPAN></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">18<SPAN 
+class=801474906-12082009>-</SPAN>20</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"> January 
+20</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">10<?XML:NAMESPACE 
+PREFIX = O /><O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">http://</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">icgl</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">.</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">ctl.</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">cityu.edu.hk/&nbsp;</SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Language 
+resources, including not only corpora but also lexicons, knowledge bases, 
+ontologies, and grammars, support the development of language processing 
+applications that are increasingly important to the global society. Substantial 
+effort has been devoted to the creation of such resources for the world<SPAN 
+class=801474906-12082009>'</SPAN>s major languages over the past decades, and 
+new projects are developing similar resources for less widely-used languages. 
+Some standards and best practices have emerged for representing and linking 
+language corpora and annotations. Efforts such as the Global WordNet and the 
+development of framenets in multiple languages seek to create and link specific 
+lexical and semantic resources across languages, and there are efforts to 
+integrate such resources into general-purpose ontologies such as SUMO. 
+<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><O:P>As the 
+need for cross-lingual studies and applications grows, it is increasingly 
+important to develop resources in the world<SPAN 
+class=801474906-12082009>'</SPAN>s languages that can be compared and linked, 
+used and analyzed with common software, and that contain linguistic information 
+for the same or comparable phenomena. We envision the eventual development of a 
+global web of language resources, wherein, for example, linguistically-annotated 
+corpora in multiple languages are inter-linked via the use of common categories, 
+or categories that are mapped to one another; resources such as wordnets and 
+framenets are linked not only to versions in different languages, but also to 
+each other; and common representations enable analysis and use of resources in 
+different languages and of different types within available systems. 
+Interoperability also fosters universal access to language resources, enabling 
+researchers who have fewer resources for performing costly and time-consuming 
+transductions to have the same capabilities as others.</O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><O:P><SPAN 
+class=Apple-style-span style="FONT-FAMILY: Optima"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">The 
+</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">Second</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"> 
+</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">I</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">nternational 
+</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">C</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">onference 
+on Global Interoperability for Language Resources will bring together designers, 
+developers, and users of language resources, tools, frameworks, and 
+infrastructures from across the globe, in order 
+to:</SPAN></SPAN></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><O:P><SPAN 
+class=Apple-style-span style="FONT-FAMILY: Optima"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">assess the 
+state of the art in methods and schemes for resource representation, annotation, 
+processing, interlinkage, and access;</SPAN></SPAN></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">consider 
+the ways in which web technologies are and may be used to enable resource 
+accessibility, interoperability and inter-linkage;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">consider 
+the requirements for (and obstacles to) full interoperability, especially with 
+regard to multi-lingual and multi-modal data;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">consider 
+the requirements for achieving interoperability among multi-lingual resources of 
+different types, including corpora, lexicons, knowledge bases, ontologies, etc., 
+as well as the systems and frameworks that enable their creation and 
+exploitation;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">work toward 
+the definition of best practice guidelines and standards for language resource 
+representation, annotation, and use that will enable 
+interoperability;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">consider 
+means to map or harmonize linguistic information in order to better enable 
+cross-lingual studies;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">provide 
+direction for developers of resources for less widely used 
+languages;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">promote 
+collaboration and cooperation among developers of language resources and tools 
+across the globe;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 24pt; TEXT-INDENT: -24pt; mso-pagination: none; tab-stops: list 24.0pt left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l1 level1 lfo2"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">consider 
+ways to provide central or distributed access to language resources developed 
+throughout the world.&nbsp;</SPAN></P>
+<P class=MsoNormal><FONT size=3><FONT face=Times><SPAN 
+style="COLOR: black"><FONT class=Apple-style-span><SPAN class=Apple-style-span 
+style="FONT-SIZE: 14px"><B><I>&gt;&gt;&gt; This year<SPAN 
+class=801474906-12082009>'</SPAN>s conference will include a special focus on 
+the use of web-based technologies for </I></B></SPAN></FONT></SPAN><SPAN 
+style="COLOR: black"><FONT class=Apple-style-span><SPAN class=Apple-style-span 
+style="FONT-SIZE: 14px"><B><I>interoperability and open access to language 
+resources.</I></B></SPAN></FONT><O:P></O:P></SPAN></FONT></FONT></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><O:P><SPAN 
+class=Apple-style-span style="FONT-WEIGHT: bold"></SPAN></O:P></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><O:P><SPAN 
+class=Apple-style-span style="FONT-WEIGHT: bold">Topics</SPAN></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Paper 
+submissions are invited on (but not limited to) the following 
+topics:<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><O:P><SPAN 
+class=Apple-style-span style="FONT-FAMILY: Optima"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">web-based 
+technologies for resource interoperability, inter-linkage, and 
+access;</SPAN></SPAN></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">multi-lingual 
+and/or multi-modal language resources, with focus on the mechanisms enabling 
+interoperability;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">support for 
+multi-linguality and multi-modality in systems/frameworks for resource creation, 
+annotation,<SPAN style="mso-spacerun: yes">&nbsp; </SPAN>use, and 
+access;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">existing 
+and proposed standards for language resources, including standards for 
+linguistic annotations at any and all linguistics levels;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">systems, 
+frameworks, and architectures to support the development and use of 
+interoperable language resources;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">evaluation 
+of existing resources, systems and frameworks, and/or standards in terms of 
+support for interoperability;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">harmonization, 
+integration, and/or linking of language resources, including corpora, wordnets, 
+framenets, ontologies, etc.;<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-LEFT: 0.25in; TEXT-INDENT: -0.25in; mso-pagination: none; tab-stops: list .25in left 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none; mso-list: l0 level1 lfo1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><SPAN 
+style="mso-list: Ignore">&middot;<SPAN style="FONT: 7pt 'Times New Roman'"><FONT 
+size=3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </FONT></SPAN></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">ontologies 
+for language resources, especially for support of<SPAN 
+style="mso-spacerun: yes">&nbsp; </SPAN>multi-linguality, multi-culturality, and 
+multi-modality.&nbsp;</SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Proceedings<O:P></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Accepted 
+papers will be included in </SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">conference 
+proceedings</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">. A 
+selection of outstanding conference presentations will be published in a special 
+issue of the journal <I style="mso-bidi-font-style: normal">Language Resources 
+and Evaluation</I>.&nbsp;</SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Submissions 
+<O:P></O:P></SPAN></B></P>
+<P class=MsoNormal style="mso-outline-level: 1"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Submissions 
+should be </SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-language: ZH-TW; mso-bidi-font-family: &aelig;&#8211;&deg;&ccedil;&acute;&deg;&aelig;&#732;&#381;&eacute;&laquo;&#8221;">no 
+more than </SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN; mso-bidi-font-family: &aelig;&#8211;&deg;&ccedil;&acute;&deg;&aelig;&#732;&#381;&eacute;&laquo;&#8221;">8</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-language: ZH-TW; mso-bidi-font-family: &aelig;&#8211;&deg;&ccedil;&acute;&deg;&aelig;&#732;&#381;&eacute;&laquo;&#8221;"> 
+pages in length, including bibliography and any appendices. Author instructions 
+will be posted on the conference web site.&nbsp;</SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Important 
+dates<O:P></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Paper 
+submission deadline:<SPAN style="mso-tab-count: 1"> </SPAN>15 </SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">September</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"> 
+200</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">9<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Notification 
+of acceptance:<SPAN style="mso-tab-count: 1"> </SPAN>15 October 200</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">9<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Camera-ready 
+papers due:<SPAN style="mso-tab-count: 1"> </SPAN>31 </SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">October</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"> 
+200</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">9<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Conference 
+dates:<SPAN style="mso-tab-count: 1"> </SPAN><SPAN 
+style="mso-tab-count: 1"></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">18<SPAN 
+class=801474906-12082009>-</SPAN>20</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"> January 
+20</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">10<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"></SPAN></B>&nbsp;</P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">Invited 
+Keynote Speakers</SPAN></B></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"><O:P><SPAN 
+class=801474906-12082009>To be announced.</SPAN></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 28.0pt 56.0pt 84.0pt 112.0pt 140.0pt 168.0pt 196.0pt 224.0pt 3.5in 280.0pt 308.0pt 336.0pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"><O:P><SPAN 
+class=801474906-12082009></SPAN></O:P></SPAN>&nbsp;</P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Conference 
+Organis</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">ing 
+Committee</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">:<O:P></O:P></SPAN></B></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Conference 
+C</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">onvener</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">:<SPAN 
+style="mso-tab-count: 1"> </SPAN>Jonathan Webster, City University of Hong 
+Kong</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"><O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">Conference 
+Co-Chairs:<SPAN style="mso-tab-count: 1"> </SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Nancy Ide, 
+Vassar College, USA<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"><SPAN 
+style="mso-tab-count: 1"></SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Alex 
+Chengyu Fang, City University of Hong Kong<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt">Conference 
+Secretary:<SPAN style="mso-tab-count: 1"> </SPAN>Ernest Lam, City University of 
+Hong Kong</SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"><O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">Conference 
+Webmaster:<SPAN style="mso-tab-count: 1"> </SPAN>Kin Tat Ko, City University of 
+Hong Kong<O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">Conference 
+Website:<SPAN style="mso-tab-count: 1"> </SPAN></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt"><A 
+title=blocked::http://icgl.ctl.cityu.edu.hk/ 
+href="http://icgl.ctl.cityu.edu.hk/">http://<SPAN 
+title=blocked::http://icgl.ctl.cityu.edu.hk/ 
+style="mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">icgl</SPAN>.<SPAN 
+title=blocked::http://icgl.ctl.cityu.edu.hk/ 
+style="mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">ctl.</SPAN>cityu.edu.hk/</A></SPAN><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN"><O:P></O:P></SPAN></P>
+<P class=MsoNormal 
+style="mso-pagination: none; tab-stops: 141.75pt; mso-layout-grid-align: none"><SPAN 
+style="COLOR: black; FONT-FAMILY: Times; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: SimSun; mso-fareast-language: ZH-CN">Conference 
+Inquiry:<SPAN style="mso-tab-count: 1"> </SPAN><A 
+title=blocked::mailto:icgl2010@cityu.edu.hk 
+href="mailto:icgl2010@cityu.edu.hk">icgl2010@cityu.edu.hk</A><O:P></O:P></SPAN></P><!--EndFragment--></FONT></DIV></BODY></HTML>
+
+--Boundary_(ID_EsIKKL/lwg6N0vg3vfpPlw)--
+
+--===============0825023291==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0825023291==--

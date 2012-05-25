@@ -1,0 +1,165 @@
+From - Thu Dec 10 14:26:42 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs216440waa;
+        Tue, 24 Apr 2007 05:27:25 -0700 (PDT)
+Received: by 10.67.116.3 with SMTP id t3mr553871ugm.1177417645118;
+        Tue, 24 Apr 2007 05:27:25 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id x26si1041589ugc.2007.04.24.05.27.11;
+        Tue, 24 Apr 2007 05:27:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1HgK6V-0007aR-OF; Tue, 24 Apr 2007 14:26:43 +0200
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1HgK6S-0007oe-Qz; Tue, 24 Apr 2007 14:26:40 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1HgK6S-0007oZ-Cc; Tue, 24 Apr 2007 14:26:40 +0200
+Received: from rotterdam.ewi.utwente.nl [130.89.10.5] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
+	id 1HgK6L-0006fv-Nk; Tue, 24 Apr 2007 14:26:38 +0200
+Received: from outhouse.cs.utwente.nl (outhouse.ewi.utwente.nl [130.89.11.43])
+	by rotterdam.ewi.utwente.nl (8.13.6/8.13.6) with ESMTP id l3OCQTun029452
+	for <CORPORA@UIB.NO>; Tue, 24 Apr 2007 14:26:29 +0200 (MEST)
+Received: by outhouse.cs.utwente.nl (Postfix, from userid 707)
+	id 473AE208444; Tue, 24 Apr 2007 14:26:19 +0200 (CEST)
+Date: Tue, 24 Apr 2007 14:26:19 +0200
+From: Djoerd Hiemstra <sigir07@cs.utwente.nl>
+To: CORPORA@UIB.NO
+Subject: [Corpora-List] Call for Papers: Workshop on Searching Spontaneous Conversational Speech
+Message-ID: <462DF76B.nailC7H18WAKN@cs.utwente.nl>
+User-Agent: nail 11.4 8/29/04
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Spam-Score: 0.177 () FROM_ENDS_IN_NUMS
+X-Scanned-By: MIMEDefang 2.52 on 130.89.10.5
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0rc3 (rotterdam.ewi.utwente.nl [130.89.10.5]); Tue, 24 Apr 2007 14:26:35 +0200 (MEST)
+X-checked-clean: by exiscan on rolf
+X-Scanner: 647ceeb8540394dbdccf3a27e17696a8 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 1.3 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   1.3 From: ends in numbers
+  0.1 Received: contains a forged HELO
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+************************************************
+Call for papers:
+
+Searching Spontaneous Conversational Speech
+
+ACM SIGIR 2007 Workshop - 27 July 2007
+
+http://hmi.ewi.utwente.nl/sscs
+************************************************
+
+Background
+
+Nearly a decade ago, we learned from the TREC Spoken Document Retrieval
+(SDR) track that searching speech was a "solved problem." Three factors 
+were key to this success: (1) broadcast news has a "story" structure that
+resembled written documents, (2) the redundancy present in human language
+meant that search effectiveness held up well over a reasonable range of
+transcription accuracy, and (3) sufficiently accurate Large-Vocabulary
+Continuous Speech Recognition (LVCSR) systems could be built for the 
+planned speech of news announcers.
+
+The long-term trend in speech recognition research has been toward
+transcription of progressively more challenging sources. Over the last few
+years, LVCSR for spontaneous conversational speech has improved to a degree
+where transcription accuracy comparable to what was previously found to be
+effective for broadcast news can now be achieved for a diverse range of
+sources. This has inspired a renaissance in research on search and browse
+technology for spoken word collections in communities focused on: (1)
+archived cultural heritage materials (e.g., interviews and parliamentary
+debates), (2) discussion venues (e.g., business meetings and classroom
+instruction), and (3) broadcast conversations (e.g., in-studio talk shows
+and call-in programs). Test collections are being developed in individual
+projects around the world, and some comparative evaluation activity for
+speech search technology has developed over this period. The time seems now
+right to look more broadly across these research communities for potential
+synergies that can help to shape the information retrieval research agenda
+of each of these communities by sharing ideas and resources.
+
+Context
+
+This workshop is part of ACM SIGIR 2007, 23-27 July, Amsterdam, The
+Netherlands (http://www.sigir2007.org/).
+
+Workshop Organization
+
+Franciska de Jong, University of Twente, The Netherlands
+Douglas Oard, University of Maryland, USA
+Roeland Ordelman, University of Twente, The Netherlands
+Stephan Raaijmakers, TNO ICT, The Netherlands
+
+Format
+
+We plan to organize the workshop as a mix of oral presentations, panel
+discussions and a poster session. Workshop Proceedings will be available at
+the workshop. Possibilities for a special journal issue with a selection of
+workshop contributions are under negotiation.
+
+Workshop Topics
+
+We welcome contributions on a range of cross-cutting issues, including:
+
+* Segmentation (e.g., speaker turns, topic shifts)
+* Content characterization (e.g., LVCSR, word lattice search, spoken term
+  detection on phone lattice)
+* Classification (e.g., speaker, topic, decision, non-speech acoustic event)
+* Exploiting multimodality (integrating features from associated non-speech
+  content)
+* Search effectiveness (e.g., evidence combination, expansion)
+* Interaction design (e.g., query formulation, result presentation, search
+  strategies)
+* Evaluation (content sources, measures, test collection design, user study
+  design)
+* Broader issues (applications, intellectual property, privacy)
+
+Submission Types
+
+Two types of submissions are invited: research papers for oral or poster
+presentation, and position papers for the selection of discussants and
+panelists.
+
+Submission Guidelines
+
+Information on how to submit can be found in the submission guidelines
+(http://hmi.ewi.utwente.nl/sscs/submissions).
+
+Important Dates
+
+Call for papers:         April 18, 2007
+Papers due:              May 21, 2007
+Acceptance notification: June 13, 2007
+Final versions due:      July 1, 2007
+
+Program Committee
+
+Samy Bengio (Google)
+Laurence Devillers (LIMSI)
+Sadaoki Furui (TITECH)
+Marcello Federico (FBK-IRST)
+Jon Fiscus (NIST)
+John Garofolo (NIST)
+Sam Gustman (USC)
+Thomas Hain (Sheffield)
+John Hansen (UT Dallas)
+Alex Hauptmann (CMU)
+Julia Hirschberg (Columbia)
+Diana Inkpen (Ottawa)
+Gareth Jones (DCU)
+David van Leeuwen (TNO)
+Lori Lamel (LIMSI)
+Christian Mueller (ICSI)
+Steve Renals (Edinburgh)
+Salim Roukos (IBM Research)
+Liz Shriberg (SRI and ICSI)
+

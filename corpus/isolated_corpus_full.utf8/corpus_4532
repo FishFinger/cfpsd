@@ -1,0 +1,186 @@
+From - Thu Dec 10 14:35:24 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs8058far;
+        Fri, 27 Feb 2009 01:55:46 -0800 (PST)
+Received: by 10.100.228.13 with SMTP id a13mr442142anh.90.1235728545086;
+        Fri, 27 Feb 2009 01:55:45 -0800 (PST)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id d22si4983473and.7.2009.02.27.01.55.43;
+        Fri, 27 Feb 2009 01:55:44 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n1R9tf0m018673
+	for <jpprost@gmail.com>; Fri, 27 Feb 2009 20:55:42 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n1R9tfYE030621
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 27 Feb 2009 20:55:41 +1100
+X-ASG-Debug-ID: 1235728538-777502e00000-RCdhz5
+X-Barracuda-URL: http://137.111.1.21:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 53E292CE95F
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 27 Feb 2009 20:55:38 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra1.its.mq.edu.au with ESMTP id xVj8ID7WnYDHkcCx for <jpprost@mailbox.ics.mq.edu.au>; Fri, 27 Feb 2009 20:55:38 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n1R9taF5018661
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 27 Feb 2009 20:55:38 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id B97A34BDF9;
+	Fri, 27 Feb 2009 10:55:33 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 1620740 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Fri, 27 Feb 2009
+          10:55:33 +0100
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 090323BCD8 for <chr@listserv.cc.kuleuven.ac.be>; Fri, 27 Feb 2009
+          10:55:33 +0100 (CET)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 18B0B51C007 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27 Feb 2009
+          10:55:30 +0100 (CET)
+Received: from hermes.cs.kuleuven.be (mailrelay.cs.kuleuven.be [134.58.40.3])
+          by cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id F0986341B1
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27 Feb 2009 10:55:29 +0100
+          (CET)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id n1R9tTLm003741 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27 Feb 2009 10:55:29 +0100
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id n1R9tTNu007474 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27 Feb 2009 10:55:29 +0100
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 06144-04-4 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27 Feb 2009 10:55:22 +0100
+          (CET)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id n1R9sbAu007393 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27
+          Feb 2009 10:54:37 +0100
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.be [134.58.45.101]) by
+          nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          n1R9saUA028763 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT) for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 27
+          Feb 2009 10:54:37 +0100
+X-X-Sender: toms@"ender.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=us-ascii
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=-1.44, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44)
+X-KULeuven-Envelope-From: tom.schrijvers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0902271052440.6655@ender.cs.kuleuven.be.>
+Date:         Fri, 27 Feb 2009 10:54:36 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] Commercial Users of Logic Programming: Call for Companies
+Subject: [CHR] Commercial Users of Logic Programming: Call for Companies
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1235728539
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.18975
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+Who is interested in speaking at the CULP workshop?
+
+Note that we already have one confirmed CHR-related talk, by Mike Elston 
+of SSS Ltd.
+
+
+ 	     COMMERCIAL USERS OF LOGIC PROGRAMMING
+                                          CULP 2009
+
+ 	  http://www.cs.kuleuven.be/~toms/CULP2009/
+                    Pasadena, CA, USA -- July 13-17
+ 			 Co-located with ICLP 2009
+
+ 				CALL FOR COMPANIES
+
+Academic research in Logic Programming goes back at least as far as the early
+1970s -- that is already more than 35 years. During most of that time, ICLP has
+been the premier venue for presenting academic research, and many more related
+workshops and symposia exist.  At the same time, Logic Programming is being
+used widely in industry. However, it has enjoyed at lot less visibility there,
+and until now it has lacked a designated forum that brings together industrial
+practitioners and researchers.
+
+The goal of this first Commercial Users of Logic Programming (CULP) workshop is
+to put the commercial and practical use (and users) of Logic Programming in the
+spotlight. It aims at providing professionals with an opportunity to share
+their experience, and to enable contacts with other commercial users and
+academics.
+
+If you use Logic Programming in a commercial, industrial or governmental
+setting, we warmheartedly invite you to consider giving a talk at the workshop.
+Alternatively, if you know someone who would give a talk, please forward this
+message to them.
+
+
+FORMAT
+------
+
+CULP is organized as a workshop co-located with the 25th International
+Conference on Logic Programming. The workshop takes place on a date to be
+determined between July 13-17, 2009, in the Pasadena Convention Center in
+Pasadena, California, USA.
+
+Presentations will have 30 minute slots, of which at least 5 are reserved for
+discussion. They inform participants about the use of logic programming in an
+industrial setting.
+
+Insights and reflections on many aspects are sought. For example, but not
+exclusively:
+- Programming in the different stages and styles of commercial development,
+- Engineering, scalability and usability issues,
+- Success stories and (non-)viability of Logic Programming in particular
+   application areas,
+- Aspects not directly related to application development, such as marketing,
+   recruitment, management,...,
+- ...
+
+Novel research results are not expected. Of course, novel fields of application
+and novel approaches will be very welcome.
+
+
+SUBMISSIONS
+-----------
+
+If you are interested in presenting at CULP 2009, send an e-mail to
+       tom -dot- schrijvers -at- cs -dot -kuleuven -dot -be
+with your name, affiliation and a short description (at most one page)
+of the proposed talk.
+
+Full paper submissions are not required.
+
+
+IMPORTANT DATES
+---------------
+
+ 	Submission before:		April 5, 2009
+         Notification:			April 15, 2009
+ 	CULP workshop:			July 13-17, 2009
+
+
+CONFIRMED PRESENTATIONS
+-------------------------
+
+The following companies have already confirmed to give a presentation.
+
+  - Logic Blox				    http://www.logicblox.com/
+  - Logisoft Solutions LLC    		  http://www.logicalsoft.net/
+  - Scientific Software and Systems Ltd. 	http://www.sss.co.nz/
+  - US Department of Defense
+  - XSB Inc.                                       http://www.xsb.com/

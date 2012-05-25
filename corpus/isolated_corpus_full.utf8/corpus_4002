@@ -1,0 +1,148 @@
+From - Thu Dec 10 14:34:34 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.14 with SMTP id b14cs130621far;
+        Thu, 11 Dec 2008 04:27:49 -0800 (PST)
+Received: by 10.223.108.196 with SMTP id g4mr2609727fap.36.1228998465675;
+        Thu, 11 Dec 2008 04:27:45 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 4si1731355fxm.62.2008.12.11.04.27.40;
+        Thu, 11 Dec 2008 04:27:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1LAkVN-0004W3-PJ; Thu, 11 Dec 2008 13:18:57 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1LAkVF-0004Vu-MQ; Thu, 11 Dec 2008 13:18:49 +0100
+Received: from imap.science.uva.nl [146.50.4.51] 
+	by rolf.uib.no for corpora@uib.no with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69) id 1LAkVC-0004t4-Hm; Thu, 11 Dec 2008 13:18:54 +0100
+Received: from cs-ilps.science.uva.nl [146.50.1.112]
+	by imap.science.uva.nl with ESMTP (sendmail 8.13.8/config 11.38).
+	id mBBCIVgJ004571; Thu, 11 Dec 2008 13:18:31 +0100
+X-Organisation: Faculty of Science, University of Amsterdam, The Netherlands
+X-URL: http://www.science.uva.nl/
+Date: Thu, 11 Dec 2008 13:18:31 +0100 (MET)
+From: Erik Tjong Kim Sang <erikt@science.uva.nl>
+To: corpora@uib.no
+Message-ID: <Pine.LNX.4.58.0812111316250.12175@cs-ilps.science.uva.nl>
+MIME-Version: 1.0
+X-Virus-Scanned: by amavisd-new
+X-checked-clean: by exiscan on rolf
+X-Scanner: 379be65daa8606af6efe083c2d6cec83 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -11.4 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; -15 From is listed in 'whitelist_SA'
+	3.5 URI: Uses a dotted-decimal IP address in URL
+Subject: [Corpora-List] CoNLL 2009 Shared Task: Call for Participation
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+                  CALL FOR PARTICIPATION
+
+                  CoNLL 2009 Shared Task
+                  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+ Syntactic and Semantic Dependencies in Multiple Languages
+ ---------------------------------------------------------
+
+The task for CoNLL 2009 is an extension of the CoNLL 2008
+shared task (http://213.27.241.151/conll2008) to multiple
+languages (English plus Catalan, Chinese, Czech, German,
+Japanese and Spanish). The core task of (jointly) extracting
+syntactic and semantic dependencies and the main evaluation
+scheme and methodology remains unchanged, with several new
+twists proposed to make the task interesting also for those
+who have already taken part in the English-only task in
+2008. Among the new features are compatible evaluation for
+several languages and their comparison, comparison of time
+and space complexity based on participants' input, and
+learning curve comparison for languages with large datasets.
+
+The data contents and format will be similar to the CoNLL
+2008 shared task whenever possible, depending also on the
+source treebanks being used. The shared task data will
+thus have the following features:
+
+ * The syntactic and semantic dependencies will be
+   represented directly.
+ * The contents of the datasets will allow for joint
+   learning of both syntactic and semantic dependencies
+   and their labeling.
+ * Tools will be provided whenever possible to help with
+   the dependency analysis of the languages involved.
+ * The contents and format of the data will enable the
+   participants to build on the previous CoNLL shared
+   tasks on semantic labeling and dependency parsing.
+ * The format of the non-English datasets will be
+   identical in form and close to identical in content
+   to the English data. Participants will be thus required
+   to submit results for all the languages provided.
+
+Shared Task Submissions
+-----------------------
+
+Participants are required to register at the task main
+web page at http://ufal.mff.cuni.cz/conll2009-st. Watch
+that page also for updated information about data formats,
+availability of trial data etc. and most importantly, how
+to upload system test data results for evaluation.
+
+Participants will have the opportunity to submit their
+system description and results achieved to a separate
+track of the CoNLL 2009 conference.
+
+Dates and deadlines
+-------------------
+
+ * Registration of participants - January 5th
+ * Release of a small trial data set - January 5th
+ * Release of training and development data sets - January 19th
+ * Release of test data - March 11th
+ * Submission of test runs - March 18th
+ * Submission of papers - March 30th
+ * Notification of acceptance - April 8th
+ * Camera-ready deadline - April 15th
+
+Shared Task Organizers
+----------------------
+
+Jan Hajic (chair)
+Institute of Formal and Applied Linguistics
+Charles University in Prague
+hajic (at) ufal.mff.cuni.cz
+
+ * Massimiliano Ciaramita, Google, Inc., Zurich (Switzerland)
+ * Richard Johansson, Lund University (Sweden)
+ * Daisuke Kawahara, NICT (Japan)
+ * Maria Antonia Marti, University of Barcelona (Spain)
+ * Lluis Marquez, Universitat Politecnica de Catalunya, Barcelona (Spain)
+ * Adam Meyers, New York University (USA)
+ * Joakim Nivre, Uppsala University (Sweden)
+ * Sebastian Pado, Stanford University (USA)
+ * Pavel Stranak, Charles University, Prague (Czech Republic)
+ * Mihai Surdeanu, Stanford University (USA)
+ * Nianwen (Bert) Xue, University of Colorado, Boulder (USA)
+ * Yi Zhang, Saarland University, Saarbruecken (Germany)
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

@@ -1,0 +1,164 @@
+From - Thu Dec 10 14:29:49 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.56.20 with SMTP id e20cs482495waa;
+        Fri, 1 Feb 2008 10:58:27 -0800 (PST)
+Received: by 10.66.233.14 with SMTP id f14mr5771386ugh.84.1201892301760;
+        Fri, 01 Feb 2008 10:58:21 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id s1si4092677uge.28.2008.02.01.10.57.47;
+        Fri, 01 Feb 2008 10:58:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JL0vm-0002tK-33; Fri, 01 Feb 2008 19:48:06 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JL0vh-0002tA-2D; Fri, 01 Feb 2008 19:48:01 +0100
+Received: from nitro.isi.edu [128.9.208.207] 
+	by rolf.uib.no for corpora@uib.no with esmtp (TLSv1:AES256-SHA:256)
+	(Exim 4.34) id 1JL0vd-0005pQ-BK; Fri, 01 Feb 2008 19:48:01 +0100
+Received: from [128.9.208.46] (prokofiev.isi.edu [128.9.208.46])
+	by nitro.isi.edu (8.13.8/8.13.8) with ESMTP id m11Ii6YQ005744;
+	Fri, 1 Feb 2008 10:44:07 -0800 (PST)
+Message-ID: <47A36876.9040606@isi.edu>
+Date: Fri, 01 Feb 2008 10:44:06 -0800
+From: David Chiang <chiang@ISI.EDU>
+User-Agent: Thunderbird 1.5.0.12 (X11/20070530)
+MIME-Version: 1.0
+To: mt_list@nist.gov, corpora@uib.no
+X-ISI-4-43-8-MailScanner: Found to be clean
+X-MailScanner-From: chiang@isi.edu
+X-checked-clean: by exiscan on rolf
+X-Scanner: 934a88c10b1f2d86dbaf09437855e1de http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.1 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 BODY: UIB_MAILWON
+Subject: [Corpora-List] CFP: ACL Workshop on Syntax and Structure in
+	Statistical Translation
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+                              ACL-08:HLT
+                          Second Workshop on
+         SYNTAX AND STRUCTURE IN STATISTICAL TRANSLATION (SSST-2)
+
+                       June 2008, Columbus, Ohio
+                  =
+
+The Second Workshop on Syntax and Structure in Statistical Translation
+(SSST-2) seeks to build on the foundations established in the first
+SSST which was held as an AMTA-sponsored workshop at NAACL-HLT
+2007. SSST-1 brought together a large number of researchers working on
+diverse aspects of synchronous/transduction grammars (hereafter,
+S/TGs) in relation to statistical machine translation. Its program
+comprised high-quality papers discussing current work spanning topics
+including: new grammatical models of translation; discriminative
+training of syntax-based models; using S/TGs for semantics and
+generation; syntax-based evaluation of machine translation; and formal
+properties of S/TGs.
+
+The need for structural mappings between languages is widely
+recognized in the fields of statistical machine translation and spoken
+language translation, and there is a growing consensus that these
+mappings are appropriately represented using S/TGs and their
+tree-transducer equivalents. To date, flat-structured models, such as
+the word-based IBM models of the early 1990s or the more recent
+phrase-based models, remain widely used. But tree-structured mappings
+arguably offer a much greater potential for learning valid
+generalizations about relationships between languages. Within this
+area of research there is a rich diversity of approaches, and recent
+years have seen significant progress on many fronts.
+
+SSST-2 seeks to bring together researchers in these diverse areas,
+providing a forum for discussing recent results, comparing and
+contrasting different approaches, and identifying the questions that
+are most pressing for future progress in this field. We invite papers
+on:
+
+  * syntax-based / tree-structured statistical translation models
+    and language models
+  * machine learning techniques for inducing structured translation
+    models
+  * algorithms for training, decoding, and scoring with S/TGs
+  * empirical studies on adequacy and efficiency of formalisms
+  * studies on the usefulness of syntactic resources for translation
+  * formal properties of S/TGs
+  * scalability of structured translation methods to small or large data
+  * applications of S/TGs to related areas including:
+    * speech translation
+    * formal semantics and semantic parsing
+    * paraphrases and textual entailment
+    * information retrieval and extraction
+
+For more information: http://www.cs.ust.hk/~dekai/ssst/
+
+SUBMISSION
+
+Papers will be accepted on or before 17 Mar 2008 in PDF or Postscript
+formats via the START system at
+https://www.softconf.com/acl08/ACL08-WS03/. Submissions should follow
+the ACL-08: HLT formatting requirements, found at
+http://www.ling.ohio-state.edu/acl08/stylefiles.html.
+
+IMPORTANT DATES
+
+Submission deadline: 17 Mar 2008
+Notification to authors: 7 Apr 2008
+Camera-ready copy deadline: 21 Apr 2008
+
+ORGANIZERS
+
+Dekai WU (Hong Kong University of Science and Technology)
+David CHIANG (USC Information Sciences Institute)
+
+PROGRAM COMMITTEE
+
+Srinivas BANGALORE (AT&T Research)
+Marine CARPUAT (Hong Kong University of Science and Technology)
+Pascale FUNG (Hong Kong University of Science and Technology)
+Daniel GILDEA (University of Rochester)
+Kevin KNIGHT (USC Information Sciences Institute)
+Jonas KUHN (Potsdam)
+Yang LIU (ICT)
+Daniel MARCU (USC Information Sciences Institute)
+Yuji MATSUMOTO (Nara Institute of Science and Technology)
+Hermann NEY (RWTH Aachen)
+Owen RAMBOW (Columbia University)
+Philip RESNIK (University of Maryland)
+Stefan RIEZLER (Google)
+Libin SHEN (BBN)
+Christoph TILLMANN (IBM)
+Stephan VOGEL (Carnegie Mellon University)
+Taro WATANABE (NTT)
+Andy WAY (Dublin City University)
+Yuk-Wah WONG (Google)
+Richard ZENS (Google)
+
+CONTACT
+Please send inquiries to ssst@cs.ust.hk.
+
+Last updated: 2008.02.01
+
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

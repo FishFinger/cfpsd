@@ -1,0 +1,229 @@
+From - Thu Dec 10 14:35:48 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.193 with SMTP id e1cs194730far;
+        Mon, 30 Mar 2009 13:17:12 -0700 (PDT)
+Received: by 10.210.113.16 with SMTP id l16mr4377049ebc.63.1238444230264;
+        Mon, 30 Mar 2009 13:17:10 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 27si5969206ewy.27.2009.03.30.13.17.08;
+        Mon, 30 Mar 2009 13:17:10 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8836120F3B; Mon, 30 Mar 2009 22:17:07 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 974DB20F3E;
+	Mon, 30 Mar 2009 22:15:44 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7977F3D24;
+	Mon, 30 Mar 2009 22:15:44 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2XOT4M7dVW9h; Mon, 30 Mar 2009 22:15:44 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 879673D4E;
+	Mon, 30 Mar 2009 22:15:21 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D38503D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 30 Mar 2009 14:21:00 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id qRojZ+Qbs+wL for <elsnet-list@mailman.elsnet.org>;
+	Mon, 30 Mar 2009 14:21:00 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9FAB73D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 30 Mar 2009 14:20:40 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 698E51FB61; Mon, 30 Mar 2009 14:20:40 +0200 (MEST)
+X-Greylist: delayed 1486 seconds by postgrey-1.28 at newjura;
+	Mon, 30 Mar 2009 14:20:39 MEST
+Received: from mailstore.csita.unige.it (smtp3.unige.it [130.251.21.67])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 435DF1FB92
+	for <elsnet-list@elsnet.org>; Mon, 30 Mar 2009 14:20:37 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailstore.csita.unige.it (Postfix) with ESMTP id 59FAA35A14;
+	Mon, 30 Mar 2009 13:55:53 +0200 (CEST)
+Received: from mailstore.csita.unige.it ([127.0.0.1])
+	by localhost (mbox2 [127.0.0.1]) (amavisd-new, port 10024) with LMTP
+	id 14615-01-74; Mon, 30 Mar 2009 13:55:53 +0200 (CEST)
+Received: from localhost (webmail.unige.it [130.251.21.7])
+	by mailstore.csita.unige.it (Postfix) with ESMTP id D607835A50;
+	Mon, 30 Mar 2009 13:55:46 +0200 (CEST)
+Received: from 130.251.13.150 ([130.251.13.150]) 
+	by webmail.unige.it (IMP) with HTTP 
+	for <c0602@mail.unige.it>; Mon, 30 Mar 2009 13:55:50 +0200
+Message-ID: <1238414150.49d0b3468ff4a@webmail.unige.it>
+Date: Mon, 30 Mar 2009 13:55:50 +0200
+From: Fulvio Mastrogiovanni <fulvio.mastrogiovanni@unige.it>
+To: acl@opus.cs.columbia.edu, agentcities@fipa.org,
+	aisb@sussex.ac.uk, chat@fipa.org, colibri@let.uu.nl,
+	colognet@ucy.ac.cy, community@mlnet.org, daml-all@daml.org,
+	dotkom-project@dcs.shef.ac.uk, eccaiwww@eccai.org,
+	ecoop-info@ecoop.org, editor@knowledgeboard.com,
+	elsnet-list@elsnet.org, esperofg-db@informatik.uni-rostock.de,
+	glp@first.fhg.de, ISWORLD@listserv.heanet.ie,
+	kweb-all@lists.deri.org, ontoweb-list@www2-c703.uibk.ac.at,
+	ontoweb-list@cs.vu.nl, ontology@fipa.org, onto@aifb.uni-karlsruhe.de,
+	ontolog-forum@ontolog.cim3.net, protege-owl@mailman.stanford.edu,
+	protege-discussion@mailman.stanford.edu,
+	p4-feedback@mailman.stanford.edu, project@aktors.org,
+	public-sws-ig@w3.org, public-owl-dev@w3.org,
+	semantik@uni-duesseldorf.de, seweb-list@cs.vu.nl,
+	seweb-list@www2-c703.uibk.ac.at, sw-announce@semanticplanet.com,
+	sw-ergo@gui-design.de, swws-list@isoco.com,
+	wkwi@seda.sowi.uni-bamberg.de, www-rdf-logic@w3.org,
+	www-rdf-rules@w3.org, www-webont-wg@w3.org, www-ws@w3.org,
+	semantic-web@w3.org, sem-grd@gridforum.org, www-rdf-interest@w3.org,
+	dl@dl.kr.org, ontogrid@delicias.dia.fi.upm.es, aepia@dsic.upv.es,
+	kweb-o2i@listserv.vub.ac.be
+References: <49CA851D.8070504@stanford.edu>
+In-Reply-To: <49CA851D.8070504@stanford.edu>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+User-Agent: Internet Messaging Program (IMP) 3.2.8
+X-Virus-Scanned: by amavisd-new at unige.it (mbox2)
+X-Mailman-Approved-At: Mon, 30 Mar 2009 22:15:14 +0200
+Cc: Nak Young Chong <nakyoung@jaist.ac.jp>
+Subject: [Elsnet-list] Call for Chapters proposal for the book "Ambient
+	Intelligence and Smart Environments: Trends and Perspectives"
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Apologies for cross-postings. Please forward to interested
+colleagues and mailing lists.
+
+**********************************************************
+
+CALL FOR CHAPTERS
+Proposals Submission Deadline: 4/5/2009
+Full Articles Due: 6/30/2009
+
+Handbook of Research on Ambient Intelligence and Smart Environments:
+Trends and Perspectives
+
+A book edited by:
+Dr. Fulvio Mastrogiovanni, University of Genova, Italy
+Prof. Nak-Young Chong, JAIST, Japan
+
+Introduction
+
+Ambient Intelligence (AmI) is a multidisciplinary approach aimed at enriching
+physical environments with a network of distributed devices, such as sensors,
+actuators, and computational resources, in order to support humans in achieving
+their everyday activities. These can range from helping busy businessmen in
+increasing their productivity to supporting activities of daily living for
+elderly and people with special needs, such as people suffering from cognitive
+impairments or physical injuries. AmI represents the convergence of recent
+achievements in communications technologies (e.g., sensor networks and
+distributed computing), industrial electronics (e.g., the miniaturization
+process affecting computational devices, such as wearable sensors), pervasive
+computing, intelligent user interfaces (e.g., alternative communication media
+such as eyes gaze and speech) and artificial intelligence (e.g., knowledge
+representation and context or situation awareness), to name a few. AmI is not
+only the superimposition of these disciplines, but it is a major effort to
+integrate and make them really useful for everyday human life.
+
+Objective of the Book
+
+The handbook is aimed at covering cutting-edge aspects involved in the effective
+design, realization and implementation of a comprehensive AmI application. In
+particular, it can be considered a conceptual path originating from the
+consideration of human aspects that are involved in the design of an AmI system
+through the effective reasoning and acting capabilities that AmI systems must
+have to operate in the real-world to support humans.
+
+Target Audience
+
+The handbook will be targeted at researchers and practitioners in Ambient
+Intelligence. However, since AmI per se originates from the conjunction of many
+research and technological fields the handbook will also be useful for
+researchers and practitioners in ubiquitous and pervasive computing, artificial
+intelligence, sensor networks and related technologies, knowledge
+representation, automated reasoning and learning, system and software
+engineering, and man-machine interfaces. Furthermore, for its practical
+implications interested readers should also be acquainted with issues related
+to eldercare, tele-medicine, gerontechnology and assisted living technologies
+for people with disabilities.
+
+Recommended topics include, but are not limited to, the following:
+
+Human aspects.
+Sensing.
+Activity recognition.
+Knowledge representation.
+Context awareness.
+Reasoning.
+Sensible interaction.
+Architectural aspects and infrastructure.
+
+Submission Procedure
+
+Researchers and practitioners are invited to submit on or before April 5, 2009,
+a 2-3 page chapter proposal clearly explaining the mission and concerns of his
+or her proposed chapter. Authors of accepted proposals will be notified by
+April 30, 2009 about the status of their proposals and sent chapter guidelines.
+Full chapters are expected to be submitted by June 30, 2009. All submitted
+chapters will be reviewed on a double-blind review basis. This book is
+scheduled to be published by IGI Global (formerly Idea Group Inc.), publisher
+of the "Information Science Reference" (formerly Idea Group Reference and
+"Medical Information Science Reference" imprints. For additional information
+regarding the publisher, please visit www.igi-global.com.
+
+Important Dates:
+
+April 5, 2009: Proposal Submission Deadline
+April 30, 2009: Notification of Acceptance
+June 30, 2009: Full Chapter Submission
+August 15, 2009: Review Result Returned
+September 30, 2009: Final Chapter Submission
+
+Inquiries and submissions can be forwarded electronically (Word document) or by
+mail to:
+
+Dr. Fulvio Mastrogiovanni
+Department of Communication, Computer and System Sciences (DIST)
+Faculty of Engineering, University of Genova
+Via Opera Pia 13, 16145, Genova, Italy
+Tel.: +39 010 353 2801 Fax: +39 010 353 2154
+E-mail: fulvio.mastrogiovanni@unige.it
+
+-- 
+Fulvio Mastrogiovanni
+DIST|University of Genova|Italy
+
+Email: fulvio.mastrogiovanni@unige.it
+WWW: http://www.laboratorium.dist.unige.it/~fulvio/
+Phone: (+39)0103532801
+
+"Chi è abile nel sortire bizzarri stratagemmi è inesauribile come il
+Cielo, la Terra e i grandi fiumi. Giunto al termine riparte, come il
+Sole e la Luna; dopo morto rinasce, come le quattro stagioni."
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,540 @@
+From - Thu Dec 10 14:35:10 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs76954far;
+        Wed, 4 Feb 2009 23:57:22 -0800 (PST)
+Received: by 10.210.39.8 with SMTP id m8mr152979ebm.154.1233820641552;
+        Wed, 04 Feb 2009 23:57:21 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 11si629453ewy.89.2009.02.04.23.56.58;
+        Wed, 04 Feb 2009 23:57:21 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DA7DC21A8A; Thu,  5 Feb 2009 08:56:56 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.5 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	SORTED_RECIPS autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 10D89212BE;
+	Thu,  5 Feb 2009 08:56:09 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id DEBDD3D66;
+	Thu,  5 Feb 2009 08:56:08 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id r+Aa7ql+6RNI; Thu,  5 Feb 2009 08:56:08 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 80BB33D44;
+	Thu,  5 Feb 2009 08:55:55 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0AC1E3D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  3 Feb 2009 01:02:15 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id zMtMXpPuu4cG for <elsnet-list@mailman.elsnet.org>;
+	Tue,  3 Feb 2009 01:02:14 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C2CC23D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  3 Feb 2009 01:02:14 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 40BAF20DCB; Tue,  3 Feb 2009 01:02:14 +0100 (MET)
+Received: from mail-gx0-f33.google.com (mail-gx0-f33.google.com
+	[209.85.217.33])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1437B20DCB
+	for <elsnet-list@let.uu.nl>; Tue,  3 Feb 2009 01:02:08 +0100 (MET)
+Received: by gxk14 with SMTP id 14so859234gxk.14
+	for <elsnet-list@let.uu.nl>; Mon, 02 Feb 2009 16:02:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=XC/dCcN8fTPWa1AhFklZSDWDd+EDVrHLoH4yIpp+5f0=;
+	b=OGd2yfImVyBKWXZjxrgcgvzEkmtSWREr835L5UGoodorWDO+vhOvWv7AuKQyNXNavW
+	T9nBjtASuzJWSpuMCBfh7stQ5nSdWhX92oYByy+LkVvYxnQNg1a4YPkSzfln60D2E7ja
+	10V9SNDZtt8txTzTXYIVcrRGJRCmMIYf399p8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=KBa6is6adBu8zU8SeQeRRA6PK6tVsZ7+JhsmbYgdmRka3K/sVUfLaVS3LP0Esu43Zb
+	Mw2wBXj+35jRCeun69r+JBR8OvG2zmvNSrtUMhGcuKNa06C+xl7qEaHq1WM0Y+6vGF4B
+	AaNkylo9Q9+a88XxEj4qte5/95BNx8mQvM7rM=
+MIME-Version: 1.0
+Received: by 10.151.42.12 with SMTP id u12mr136128ybj.111.1233619308121; Mon, 
+	02 Feb 2009 16:01:48 -0800 (PST)
+Date: Mon, 2 Feb 2009 16:01:47 -0800
+Message-ID: <5e8c1b5d0902021601n35efcc02jd68ee8d4cf1e9b26@mail.gmail.com>
+From: "ICDM'09 Publicity Chairs" <icdm09@gmail.com>
+To: acl2@cs.utexas.edu, agents-vic@cs.mu.oz.au, agents@cs.umbc.edu, 
+	ai-medicine@smi.stanford.edu, ai-sges@jiscmail.ac.uk, 
+	ai-stats@watstat.uwaterloo.ca, aiia@dis.uniroma1.it, aisb@cogs.susx.ac.uk, 
+	all@dfki.de, allstat@jiscmail.ac.uk, bayes-news@stat.cmu.edu, 
+	bioforum@net.bio.net, biolsyst@ruhr-uni-bochum.de, biomatrx@net.bio.net,
+	bisc-group@cs.berkeley.edu, bisc-group@diva.eecs.berkeley.edu, 
+	bmdp-l@lists.mcgill.ca, casi-dist@cs.colostate.edu, 
+	casi-profs@cs.colostate.edu, cbms2000@ee.tamu.edu, 
+	cdn-chairs@admin.csd.uwo.ca, cfp@eventseer.org, cl-all@coli.uni-sb.de, 
+	clp@comp.nus.edu.sg, cneuro@bbb.caltech.edu, cns@dartmouth.edu, 
+	cogpsy@listserv.tamu.edu, cogsci@nic.surfnet.nl, colt@cs.uiuc.edu, 
+	comic@comp.lancs.ac.uk, community@mlnet.org, comp-bio@net.bio.net, 
+	comp-neuro@bbb.caltech.edu, compulognet-parimp@dia.fi.upm.es, 
+	concurrency@cwi.nl, confer-ann@iro.umontreal.ca,
+	connectionists@cs.cmu.edu, 
+	corba-patterns@cs.uiuc.edu, cs-dept@iit.demokritos.gr,
+	cscw-no@usit.uio.no, 
+	cse-conferences@cse.stfx.ca, csec-adm@sdl.hitachi.co.jp, 
+	dalist@fuqua.duke.edu, das@cse.uta.edu, datamine-l@nautilus-sys.com, 
+	db-ir@duvel.ir.iit.edu, dcb@cs.wpi.edu, demetri@dcs.shef.ac.uk, 
+	dm-discuss@egroups.com, dmb-list@lists.drexel.edu, dmneditor@idagroup.com, 
+	dseditor@dsstar.com, eacsl@dimi.uniud.it, ecai2000@mcculloch.ing.unifi.it, 
+	eccai-individuals@uni-koblenz.de, ecran-all@lcr.thomson-csf.fr, 
+	eetn-inter@iit.demokritos.gr, elsnet-list@let.uu.nl, emo-list@ualg.pt, 
+	ent-list@insects.ummz.lsa.umich.edu, entomo-l@listserv.uoguelph.ca, 
+	envirotalk@apies.frd.ac.za, fg-db@informatik.uni-rostock.de, 
+	flair@cis.ohio-state.edu, formal-methods@cs.uidaho.edu, 
+	fuzzy-mail@dbai.tuwien.ac.at, ga-list@aic.nrl.navy.mil, 
+	gann-list@cs.iastate.edu, genetic_programming@yahoogroups.com, 
+	i3world@majordomo.zfn.uni-bremen.de, iceimt@tools.org, 
+	icml2002@cse.unsw.edu.au, iefac.list@deming.ces.clemson.edu,
+	ilpnet@ijs.si, 
+	imagelib@listserv.arizona.edu, inductive@hermes.csd.unb.ca, 
+	inductive@listserv.unb.ca, inductive@unb.ca, info-ic@biomath.jussieu.fr,
+	info@mlnet.org, interactif@lri.fr, intranet-km@egroups.com,
+	isca@ipass.net, 
+	isg@ee.ed.ac.uk, isworld@listserv.heanet.ie, isworld@lyris.isworld.org, 
+	it-announce@cs.usyd.edu.au, kaw@swi.psy.uva.nl, kr@kr.org, 
+	lfg@lists.stanford.edu, linguist@listserv.linguistlist.org, 
+	loom-forum@isi.edu, lpnmr@cs.engr.uky.edu, lprolog@cs.umn.edu, 
+	machine-learning@egroups.com, machine-learning@yahoogroups.com, 
+	medenif@cogs.susx.ac.uk, ml4um@gmd.de, ml@ics.uci.edu, ml@isle.org, 
+	netkm@club.voila.fr, neuron@biomed.med.yale.edu, neuron@psych.upenn.edu,
+	news-announce-conferences@uunet.uu.net, nit-l@ekt.org.gr, 
+	nl-kr@ai.sunnyside.com, orgmem@aifb.uni-karlsruhe.de,
+	physics@mc.lcs.mit.edu, 
+	planetkr@cafe.newcastle.edu.au, planning@asu.edu, rewriting@ens-lyon.fr,
+	risc@idf.ext.jussieu.fr, roughset@cs.uregina.ca, roysoc@psipsy.uct.ac.za,
+	s-news@wubios.wustl.edu, sayed@cairo.spd.louisville.edu, sb.all@ieee.org,
+	sbc-l@sbc.org.br, sec@ai.univie.ac.at, semantik@uni-duesseldorf.de, 
+	sigparse@cs.cmu.edu, smbnet@smb.org, smc-members@morden.csee.usf.edu, 
+	snns-mail@informatik.uni-tuebingen.de, sodini@mtl.mit.edu, 
+	stat@statlab.uni-heidelberg.de, support-vector-machines@jiscmail.ac.uk, 
+	theorem-provers@ai.mit.edu, theorynt@listserv.nodak.edu, 
+	tsoukala@ecn.purdue.edu, turkstat@bilkent.edu.tr, uai@cs.orst.edu, 
+	uai@ghost.cs.orst.edu, vavtalk@csd.abdn.ac.uk,
+	vavtalk@pigeon.csd.abdn.ac.uk, 
+	vki-list@dfki.de, vki-list@dfki.uni-sb.de, webir@egroups.com, 
+	wi@aifb.uni-karlsruhe.de, wolff@cs.jhu.edu, www-rdf-interest@w3c.org
+X-Mailman-Approved-At: Thu, 05 Feb 2009 08:55:50 +0100
+Cc: 
+Subject: [Elsnet-list] 1st cfp: ICDM'09 - the 9th IEEE International
+	Conference on Data Mining - December 6-9, 2009 Miami, U.S.A
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1433785197=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============1433785197==
+Content-Type: multipart/alternative; boundary=00151751149aa617a10461f860b2
+
+--00151751149aa617a10461f860b2
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+[Sorry for crossing posting.]
+
+**************************************************************************
+ICDM'09: The 9th IEEE International Conference on Data Mining
+**************************************************************************
+Sponsored by the IEEE Computer Society
+
+December 6-9, 2009
+Miami, U.S.A.
+http://www.cs.umbc.edu/ICDM09/
+
+Important Dates
+April 13, 2009        Deadline for workshop proposals
+June 26, 2009         Deadline for paper submission,
+                                   tutorial submission, and
+                                   panel proposals
+September 4, 2009     Notification to authors
+September 28, 2009    Deadline for camera-ready copies
+December 6-9, 2009    Conference
+
+Call for Papers
+***************
+The IEEE International Conference on Data Mining (ICDM) has
+established itself as the world's premier research conference in data
+mining. The 2009 edition of ICDM provides a leading forum for
+presentation of original research results, as well as exchange and
+dissemination of innovative, practical development experiences. The
+conference covers all aspects of data mining, including algorithms,
+software and systems, and applications.  In addition, ICDM draws
+researchers and application developers from a wide range of data
+mining related areas such as statistics, machine learning, pattern
+recognition, databases and data warehousing, data visualization,
+knowledge-based systems, and high performance computing. By promoting
+novel, high quality research findings, and innovative solutions to
+challenging data mining problems, the conference seeks to continuously
+advance the state-of-the-art in data mining. Besides the technical
+program, the conference will feature workshops, tutorials, panels, and
+the ICDM data mining contest.
+
+Paper Submissions
+*****************
+High quality papers in all data mining areas are solicited. Original
+papers exploring new directions will receive especially careful
+consideration.  Papers that have already been accepted or are
+currently under review for other conferences or journals will not be
+considered for ICDM'09.
+
+Paper submissions should be limited to a maximum of 10 pages in the
+IEEE 2-column format, the same as the camera-ready format (see the
+IEEE Computer Society Press Proceedings Author Guidelines
+http://www.ieeeconfpublishing.org/cpir/AuthorKit.asp?Community=CPS&Facility=CPS_Dec&ERoom=ICDM+2008
+).
+All papers will be reviewed by the Program Committee on the basis of
+technical quality, relevance to data mining, originality,
+significance, and clarity. A double blind review process will be
+adopted. Authors should avoid using identifying information in the
+text of the paper. A Submission Form to submit your work will be
+announced on the ICDM'09 website.
+
+Accepted papers will be published in the conference proceedings by the IEEE
+Computer Society Press and accorded oral presentation times in the main
+conference. Submissions accepted as regular papers will be allocated 10
+pages in the proceedings. Submissions accepted as short papers will be
+allocated 6 pages in the proceedings and will have a shorter presentation
+time at the conference than regular papers.
+
+A selected number of IEEE ICDM'09 accepted papers will be invited for
+possible inclusion, in expanded and revised form, in the Knowledge and
+Information Systems journal published by Springer-Verlag.
+
+ICDM Best Paper Awards
+**********************
+IEEE ICDM Best Paper Awards will be conferred at the conference on the
+authors of (1) the best research paper, (2) the best application
+paper, and (3) the best student paper.  Strong, foundational results
+will be considered for the best research paper award and
+application-oriented submissions will be considered for the best
+application paper award. The best student paper award will be given to
+the authors of the best paper written solely by one or more students.
+
+Workshops and Tutorials
+***********************
+ICDM'09 will host short and long tutorials as well as workshops that
+focus on new research directions and initiatives. All accepted
+workshop papers will be included in a separate workshop proceedings
+published by the IEEE Computer Society Press.
+
+ICDM Data Mining Contest
+************************
+ICDM'09 will host a data mining contest to challenge researchers and
+practitioners with a real practical data mining problem. For further
+details on proposals and expression of interest, please see the Call
+for Data Mining Contest Proposals.
+
+Topics of Interest
+******************
+* Data mining foundations
+  - Novel data mining algorithms in traditional areas (such as
+    classification, regression, clustering, probabilistic modeling,
+    pattern discovery, and association analysis)
+  - Models and algorithms for new, structured, data types, such as
+    arising in chemistry, biology, environment, and other scientific
+    domains
+  - Developing a unifying theory of data mining
+  - Mining sequences and sequential data
+  - Mining spatial and temporal datasets
+  - Mining textual and unstructured datasets
+  - Distributed data mining
+  - High performance implementations of data mining algorithms
+  - Privacy and anonymity-preserving data analysis
+* Mining in emerging domains
+  - Stream data mining
+  - Mining moving object data, RFID data, and data from sensor networks
+  - Ubiquitous knowledge discovery
+  - Mining multi-agent data
+  - Mining and link analysis in networked settings: web, social and
+    computer networks, and online communities
+  - Mining the semantic web
+  - Data mining in electronic commerce, such as recommendation,
+    sponsored web search, advertising, and marketing tasks
+* Methodological aspects and the KDD process
+  - Data pre-processing, data reduction, feature selection, and feature
+    transformation
+  - Quality assessment, interestingness analysis, and post-processing
+  - Statistical foundations for robust and scalable data mining
+  - Handling imbalanced data
+  - Automating the mining process and other process related issues
+  - Dealing with cost sensitive data and loss models
+  - Human-machine interaction and visual data mining
+  - Integration of data warehousing, OLAP and data mining
+  - Data mining query languages
+  - Security and data integrity
+* Integrated KDD applications, systems, and experiences
+  - Bioinformatics, computational chemistry, ecoinformatics
+  - Computational finance, online trading, and analysis of markets
+  - Intrusion detection, fraud prevention, and surveillance
+  - Healthcare, epidemic modeling, and clinical research
+  - Customer relationship management
+  - Telecommunications, network and systems management
+  - Sustainable mobility and intelligent transportation systems
+
+Organizing Committee
+********************
+Conference Co-Chairs:
+  Sanjay Ranka, University of Florida
+  Philip S. Yu, University of Illinois at Chicago
+
+Program Co-Chairs:
+  Hillol Kargupta, University of Maryland, Baltimore County
+  Wei Wang, University of North Carolina Chapel Hill
+
+Steering Committee:
+  Xindong Wu (Chair), University of Vermont, USA
+  Nick Cercone, York University, Canada
+  David J. Hand, Imperial College, London, UK
+  Ramamohanarao Kotagiri, University of Melbourne, Australia
+  Vipin Kumar, University of Minnesota, USA
+  Heikki Mannila, University of Helsinki, Finland
+  Gregory Piatetsky-Shapiro, KDnuggets, USA
+  Benjamin W. Wah, University of Illinois, Urbana-Champaign, USA
+  Philip S. Yu, IBM T.J. Watson Research Center, USA
+  Ning Zhong, Maebashi Institute of Technology, Japan
+
+Local Arrangements Chair:
+  Tao Li, Florida International University
+
+Finance Chair:
+  Vagelis Hristidis, Florida International University
+
+Awards Committee:
+  Jiawei Han (Chair), University of Illinois at Urbana-Champaign, USA
+  James Bailey, University of Melbourne, Australia
+  Wei Fan, IBM T.J. Watson Research Center, USA
+  Bart Goethals, University of Antwerp, Belgium
+  Minos N. Garofalakis, Technical University of Crete, Greece
+  Hillol Kargupta, University of Maryland at Baltimore County, USA
+  Wei Wang, University of North Carolina at Chapel Hill, USA
+
+Panels Chair:
+  Haym Hirsh, NSF and Rutgers
+
+Workshop Co-Chairs:
+  Yucel Saygin, Sabanci University
+  Jeffrey Xu Yu, CUHK
+
+Tutorials Chair:
+  Sanghamitra Bandyopadhyay, Indian Statistical Institute
+
+ICDM Data Mining Contest Chair:
+  Qiang Yang, HKUST
+
+Sponsorship Chair:
+  To be announced
+
+Publicity Co-Chairs:
+  Ina Lauth, Fraunhofer IAIS (Europe)
+  Kun Liu, IBM Almaden Research Center (North America)
+
+Exhibit and Demo Chairs
+  To be announced
+
+Further Information
+*******************
+ICDM09@listserv.unc.edu
+
+--00151751149aa617a10461f860b2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+[Sorry for crossing posting.]<br><br>**************************************=
+************************************<br>ICDM&#39;09: The 9th IEEE Internati=
+onal Conference on Data Mining<br>*****************************************=
+*********************************<br>
+Sponsored by the IEEE Computer Society<br><br>December 6-9, 2009<br>Miami, =
+U.S.A.<br><a href=3D"http://www.cs.umbc.edu/ICDM09/">http://www.cs.umbc.edu=
+/ICDM09/</a><br><br>Important Dates<br>April 13, 2009&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp; Deadline for workshop proposals<br>
+June 26, 2009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deadline for =
+paper submission,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ tutorial submission, and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp; panel proposals<br>September 4, 2009&nbsp;&nbsp;&nbsp;&nbsp; Notif=
+ication to authors<br>
+September 28, 2009&nbsp;&nbsp;&nbsp; Deadline for camera-ready copies<br>De=
+cember 6-9, 2009&nbsp;&nbsp;&nbsp; Conference<br><br>Call for Papers<br>***=
+************<br>The IEEE International Conference on Data Mining (ICDM) has=
+<br>established itself as the world&#39;s premier research conference in da=
+ta<br>
+mining. The 2009 edition of ICDM provides a leading forum for<br>presentati=
+on of original research results, as well as exchange and<br>dissemination o=
+f innovative, practical development experiences. The<br>conference covers a=
+ll aspects of data mining, including algorithms,<br>
+software and systems, and applications.&nbsp; In addition, ICDM draws<br>re=
+searchers and application developers from a wide range of data<br>mining re=
+lated areas such as statistics, machine learning, pattern<br>recognition, d=
+atabases and data warehousing, data visualization,<br>
+knowledge-based systems, and high performance computing. By promoting<br>no=
+vel, high quality research findings, and innovative solutions to<br>challen=
+ging data mining problems, the conference seeks to continuously<br>advance =
+the state-of-the-art in data mining. Besides the technical<br>
+program, the conference will feature workshops, tutorials, panels, and<br>t=
+he ICDM data mining contest.<br><br>Paper Submissions<br>*****************<=
+br>High quality papers in all data mining areas are solicited. Original<br>
+papers exploring new directions will receive especially careful<br>consider=
+ation.&nbsp; Papers that have already been accepted or are<br>currently und=
+er review for other conferences or journals will not be<br>considered for I=
+CDM&#39;09.<br>
+<br>Paper submissions should be limited to a maximum of 10 pages in the<br>=
+IEEE 2-column format, the same as the camera-ready format (see the<br>IEEE =
+Computer Society Press Proceedings Author Guidelines<br><a href=3D"http://w=
+ww.ieeeconfpublishing.org/cpir/AuthorKit.asp?Community=3DCPS&amp;Facility=
+=3DCPS_Dec&amp;ERoom=3DICDM+2008">http://www.ieeeconfpublishing.org/cpir/Au=
+thorKit.asp?Community=3DCPS&amp;Facility=3DCPS_Dec&amp;ERoom=3DICDM+2008</a=
+>).<br>
+All papers will be reviewed by the Program Committee on the basis of<br>tec=
+hnical quality, relevance to data mining, originality,<br>significance, and=
+ clarity. A double blind review process will be<br>adopted. Authors should =
+avoid using identifying information in the<br>
+text of the paper. A Submission Form to submit your work will be<br>announc=
+ed on the ICDM&#39;09 website.<br><br>Accepted papers will be published in =
+the conference proceedings by the IEEE<br>Computer Society Press and accord=
+ed oral presentation times in the main<br>
+conference. Submissions accepted as regular papers will be allocated 10<br>=
+pages in the proceedings. Submissions accepted as short papers will be<br>a=
+llocated 6 pages in the proceedings and will have a shorter presentation<br=
+>
+time at the conference than regular papers.<br><br>A selected number of IEE=
+E ICDM&#39;09 accepted papers will be invited for<br>possible inclusion, in=
+ expanded and revised form, in the Knowledge and<br>Information Systems jou=
+rnal published by Springer-Verlag.<br>
+<br>ICDM Best Paper Awards<br>**********************<br>IEEE ICDM Best Pape=
+r Awards will be conferred at the conference on the<br>authors of (1) the b=
+est research paper, (2) the best application<br>paper, and (3) the best stu=
+dent paper.&nbsp; Strong, foundational results<br>
+will be considered for the best research paper award and<br>application-ori=
+ented submissions will be considered for the best<br>application paper awar=
+d. The best student paper award will be given to<br>the authors of the best=
+ paper written solely by one or more students.<br>
+<br>Workshops and Tutorials<br>***********************<br>ICDM&#39;09 will =
+host short and long tutorials as well as workshops that<br>focus on new res=
+earch directions and initiatives. All accepted<br>workshop papers will be i=
+ncluded in a separate workshop proceedings<br>
+published by the IEEE Computer Society Press.<br><br>ICDM Data Mining Conte=
+st<br>************************<br>ICDM&#39;09 will host a data mining conte=
+st to challenge researchers and<br>practitioners with a real practical data=
+ mining problem. For further<br>
+details on proposals and expression of interest, please see the Call<br>for=
+ Data Mining Contest Proposals.<br><br>Topics of Interest<br>**************=
+****<br>* Data mining foundations<br>&nbsp; - Novel data mining algorithms =
+in traditional areas (such as<br>
+&nbsp;&nbsp;&nbsp; classification, regression, clustering, probabilistic mo=
+deling,<br>&nbsp;&nbsp;&nbsp; pattern discovery, and association analysis)<=
+br>&nbsp; - Models and algorithms for new, structured, data types, such as<=
+br>&nbsp;&nbsp;&nbsp; arising in chemistry, biology, environment, and other=
+ scientific<br>
+&nbsp;&nbsp;&nbsp; domains<br>&nbsp; - Developing a unifying theory of data=
+ mining<br>&nbsp; - Mining sequences and sequential data<br>&nbsp; - Mining=
+ spatial and temporal datasets<br>&nbsp; - Mining textual and unstructured =
+datasets<br>&nbsp; - Distributed data mining<br>
+&nbsp; - High performance implementations of data mining algorithms<br>&nbs=
+p; - Privacy and anonymity-preserving data analysis<br>* Mining in emerging=
+ domains<br>&nbsp; - Stream data mining<br>&nbsp; - Mining moving object da=
+ta, RFID data, and data from sensor networks<br>
+&nbsp; - Ubiquitous knowledge discovery<br>&nbsp; - Mining multi-agent data=
+<br>&nbsp; - Mining and link analysis in networked settings: web, social an=
+d<br>&nbsp;&nbsp;&nbsp; computer networks, and online communities<br>&nbsp;=
+ - Mining the semantic web<br>&nbsp; - Data mining in electronic commerce, =
+such as recommendation,<br>
+&nbsp;&nbsp;&nbsp; sponsored web search, advertising, and marketing tasks<b=
+r>* Methodological aspects and the KDD process<br>&nbsp; - Data pre-process=
+ing, data reduction, feature selection, and feature<br>&nbsp;&nbsp;&nbsp; t=
+ransformation<br>&nbsp; - Quality assessment, interestingness analysis, and=
+ post-processing<br>
+&nbsp; - Statistical foundations for robust and scalable data mining<br>&nb=
+sp; - Handling imbalanced data<br>&nbsp; - Automating the mining process an=
+d other process related issues<br>&nbsp; - Dealing with cost sensitive data=
+ and loss models<br>
+&nbsp; - Human-machine interaction and visual data mining<br>&nbsp; - Integ=
+ration of data warehousing, OLAP and data mining<br>&nbsp; - Data mining qu=
+ery languages<br>&nbsp; - Security and data integrity<br>* Integrated KDD a=
+pplications, systems, and experiences<br>
+&nbsp; - Bioinformatics, computational chemistry, ecoinformatics<br>&nbsp; =
+- Computational finance, online trading, and analysis of markets<br>&nbsp; =
+- Intrusion detection, fraud prevention, and surveillance<br>&nbsp; - Healt=
+hcare, epidemic modeling, and clinical research<br>
+&nbsp; - Customer relationship management<br>&nbsp; - Telecommunications, n=
+etwork and systems management<br>&nbsp; - Sustainable mobility and intellig=
+ent transportation systems<br><br>Organizing Committee<br>*****************=
+***<br>Conference Co-Chairs:<br>
+&nbsp; Sanjay Ranka, University of Florida<br>&nbsp; Philip S. Yu, Universi=
+ty of Illinois at Chicago<br><br>Program Co-Chairs:<br>&nbsp; Hillol Kargup=
+ta, University of Maryland, Baltimore County<br>&nbsp; Wei Wang, University=
+ of North Carolina Chapel Hill<br>
+<br>Steering Committee:<br>&nbsp; Xindong Wu (Chair), University of Vermont=
+, USA<br>&nbsp; Nick Cercone, York University, Canada<br>&nbsp; David J. Ha=
+nd, Imperial College, London, UK<br>&nbsp; Ramamohanarao Kotagiri, Universi=
+ty of Melbourne, Australia<br>
+&nbsp; Vipin Kumar, University of Minnesota, USA<br>&nbsp; Heikki Mannila, =
+University of Helsinki, Finland<br>&nbsp; Gregory Piatetsky-Shapiro, KDnugg=
+ets, USA<br>&nbsp; Benjamin W. Wah, University of Illinois, Urbana-Champaig=
+n, USA<br>&nbsp; Philip S. Yu, IBM T.J. Watson Research Center, USA<br>
+&nbsp; Ning Zhong, Maebashi Institute of Technology, Japan<br><br>Local Arr=
+angements Chair:<br>&nbsp; Tao Li, Florida International University<br><br>=
+Finance Chair:<br>&nbsp; Vagelis Hristidis, Florida International Universit=
+y<br><br>Awards Committee:<br>
+&nbsp; Jiawei Han (Chair), University of Illinois at Urbana-Champaign, USA<=
+br>&nbsp; James Bailey, University of Melbourne, Australia<br>&nbsp; Wei Fa=
+n, IBM T.J. Watson Research Center, USA<br>&nbsp; Bart Goethals, University=
+ of Antwerp, Belgium<br>
+&nbsp; Minos N. Garofalakis, Technical University of Crete, Greece<br>&nbsp=
+; Hillol Kargupta, University of Maryland at Baltimore County, USA<br>&nbsp=
+; Wei Wang, University of North Carolina at Chapel Hill, USA<br><br>Panels =
+Chair:<br>&nbsp; Haym Hirsh, NSF and Rutgers<br>
+<br>Workshop Co-Chairs:<br>&nbsp; Yucel Saygin, Sabanci University<br>&nbsp=
+; Jeffrey Xu Yu, CUHK<br><br>Tutorials Chair:<br>&nbsp; Sanghamitra Bandyop=
+adhyay, Indian Statistical Institute<br><br>ICDM Data Mining Contest Chair:=
+<br>&nbsp; Qiang Yang, HKUST<br>
+<br>Sponsorship Chair:<br>&nbsp; To be announced<br><br>Publicity Co-Chairs=
+:<br>&nbsp; Ina Lauth, Fraunhofer IAIS (Europe)<br>&nbsp; Kun Liu, IBM Alma=
+den Research Center (North America)<br><br>Exhibit and Demo Chairs<br>&nbsp=
+; To be announced<br>
+<br>Further Information<br>*******************<br><a href=3D"mailto:ICDM09@=
+listserv.unc.edu">ICDM09@listserv.unc.edu</a><br><br>
+
+--00151751149aa617a10461f860b2--
+
+--===============1433785197==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1433785197==--

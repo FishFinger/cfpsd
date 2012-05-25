@@ -1,0 +1,431 @@
+From - Thu Dec 10 14:28:11 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.61.12 with SMTP id j12cs497257waa;
+        Thu, 20 Sep 2007 19:02:28 -0700 (PDT)
+Received: by 10.86.100.7 with SMTP id x7mr1876446fgb.1190340147031;
+        Thu, 20 Sep 2007 19:02:27 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id m1si494742fke.2007.09.20.19.01.58;
+        Thu, 20 Sep 2007 19:02:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1IYXlW-0001YE-Ur; Fri, 21 Sep 2007 03:57:10 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1IYXlQ-0001Y6-PJ; Fri, 21 Sep 2007 03:57:05 +0200
+Received: from wa-out-1112.google.com [209.85.146.177] 
+	by rolf.uib.no for CORPORA@hd.uib.no with esmtp  (Exim 4.34)
+	id 1IYXlJ-0000lR-Ts; Fri, 21 Sep 2007 03:57:03 +0200
+Received: by wa-out-1112.google.com with SMTP id j37so911310waf
+	for <CORPORA@hd.uib.no>; Thu, 20 Sep 2007 18:56:57 -0700 (PDT)
+Received: by 10.114.209.1 with SMTP id h1mr2006289wag.1190339813302;
+	Thu, 20 Sep 2007 18:56:53 -0700 (PDT)
+Received: by 10.114.94.20 with HTTP; Thu, 20 Sep 2007 18:56:53 -0700 (PDT)
+Message-ID: <323ff7640709201856k12bb9be9u49ee3b5a392fd5e@mail.gmail.com>
+Date: Thu, 20 Sep 2007 21:56:53 -0400
+From: "P Resnik" <psresnik@gmail.com>
+To: "Corpora list" <CORPORA@hd.uib.no>
+In-Reply-To: <323ff7640709200354q4f19eb40g253435ba5258eb0a@mail.gmail.com>
+MIME-Version: 1.0
+References: <323ff7640709180913j55c53202s6c347a3991c8b354@mail.gmail.com>
+	<323ff7640709200354q4f19eb40g253435ba5258eb0a@mail.gmail.com>
+X-checked-clean: by exiscan on rolf
+X-Scanner: 55d8b68b892983af082b4d6c8aa49aa5 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -13.4 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.0 Received by mail server with no name
+	-15 From is listed in 'whitelist_SA' 1.0 BODY: UIB_MAILWON
+	0.0 BODY: HTML included in message
+	0.5 BODY: Message is 20% to 30% HTML
+Subject: Re: [Corpora-List] CL projects suitable for a high-schooler?
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: resnik@glue.umd.edu
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1965855182=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+--===============1965855182==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_41507_13625430.1190339813290"
+
+------=_Part_41507_13625430.1190339813290
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+On September 18, I wrote:
+
+  I'm having a conversation with a teacher looking for a CL project for
+  a senior in high school.  Does anyone have experience with projects
+  that would be suitable for a student at that level?  ("At that level"
+  is pretty vague, but I think one could assume beginner-to-moderate
+  programming skill, a good level of energy and incentive, no specific
+  prior background at all in computational linguistics, and no LDC
+  membership.)
+
+The response has been wonderful.  (Ok, it wasn't 25 people, but it
+felt that way!)  MANY thanks to:
+
+  Khurshid Ahmad, Steven Bird, Alex Boulton, Eugene Charniak, Robert
+  Dale, Steve Finch, Roeland Hancock, Rob Malouf, Chris Manning, Paul
+  Johnston, Amruta Purandare, Raf Salkie, Diarmuid =D3 S=E9aghdha, Harold
+  Somers, Amanda Stent, Eric Yeh
+
+I *think* that covers everybody; apologies if any messages slipped
+through the cracks.
+
+Below I'm going to try to summarize the replies within some useful
+categories.
+
+Cheers,
+
+  Philip
+
+----------------
+
+
+Existing learning/teaching materials and references
+
+- NLTK (nltk.sourceforge.net). Good source of code and project
+  ideas, and it's also got a very nice collection of pre-processed
+  corpus materials, including a sampler of some of the LDC's greatest
+  hits.  See especially:
+    o Nitin Madnani, Getting Started on Natural Language Processing with
+      Python, ACM Crossroads Xrds13-4,
+      http://www.acm.org/crossroads/xrds13-4/natural_language.html.
+    o Electronic Grammar modules (used with high school students):
+      writing programs to solve practical problems with words, texts
+      and grammar. http://nltk.org/index.php/Electronic_Grammar.
+    o The NLTK book, http://nltk.org/index.php/Book, which includes over
+      200 graded exercises along with introductions to programming and
+      NLP, some of which should be accessible to high school students.
+
+- The Computational Linguistics Olympiad
+  http://namclo.linguistlist.org/, in particular the sample problems,
+  http://namclo.linguistlist.org/problems.cfm
+
+- CSLU Toolkit, http://cslu.cse.ogi.edu/toolkit/.  A comprehensive
+  suite of tools to enable exploration, learning, and research into
+  speech and human-computer interaction.
+
+- Ciezielska-Ciupek, M. 2001. Teaching with the internet and corpus
+  materials: Preparation of the ELT materials using the internet and
+  corpus resources. In Lewandowska-Tomaszczyk, B. (ed) PALC 2001:
+  Practical Applications in Language Corpora. Lodz Studies in
+  Language, 7. Frankfurt: Peter Lang, p.521-531.
+
+- Sun, Y-C. & Wang, L-Y. 2003. Concordancers in the EFL classroom:
+  Cognitive approaches and collocation difficulty. CALL, 16/1,
+  p. 83-94.
+
+- Using corpora in L1, Paul Thompson at the University of Reading has
+  worked with primary school children; Julia Blake & Tim Shortis in
+  secondary schools (cf their paper at BAAL 2007).
+
+
+Machine translation
+
+- Implementing IBM Model 1
+
+- Building a complete end-to-end statistical machine translation
+  system, e.g. using MOSES (http://www.statmt.org/wmt07/baseline.html)
+
+
+Supervised learning (e.g. using a Naive Bayes classifier)
+
+- Word sense disambiguation
+
+- Spam filtering (e.g. using spam message databases)
+
+- Document classification (e.g. using the 20 Newsgroups corpus)
+
+
+Unsupervised techniques
+
+- Implementing language models using the SRI LM toolkit
+
+- Writing a bigram part of speech tagger, including Baum-Welch
+  training and Viterbi search.
+
+- Studying, critiquing and building a mini document ranking system
+  based on Page Rank.
+
+- Odd one out: use simple similarity measures to pick the odd-one-out
+  from a given set of words. E.g., in (Honda, Toyota, Sony,
+  BMW, Mercedes), Sony is the odd word (not a car company). Or, in
+  (India, China, Japan, Romania, Korea), Romania is the odd one (not
+  an asian country). The programming logic could be as simple as
+  extracting features for each word and then selecting a word as the
+  "odd" if after removing it from the set, the remaining members share
+  the maximum number of features. Or, something more sophisticated
+  using cosine similarity measure that picks the word with the least
+  cosine with the rest of the group as the Odd.
+
+
+Corpus and grammar building/exploration
+
+- Investigating some linguistic, sociolinguistic or stylistic aspect
+  of the student's choice in blogs or constructing a Web corpus.
+  [Reading LanguageLog, www.languagelog.org, would probably be a great
+  start! -PSR]
+
+- Building a small Web corpus and then doing collocation extraction or
+  text classification. E.g. how do sports reports differ from music
+  reviews, or tabloid journalism from broadsheet journalism, or
+  Democrat authors from Republicans, or what do female bloggers write
+  about more frequently than male bloggers?  [An exercise I wrote, at
+
+http://www.umiacs.umd.edu/~resnik/nlstat_tutorial_summer1998/Lab_ngrams.htm=
+l
+,
+  might be useful here. -PSR]
+
+- Generating simple English sentences using a simple substitution
+  based grammar.  E.g. start by generating from a grammar like
+  "(the|a(n)) (big|little|smelly|argumentative) (cat|dog|teacher)
+  (ate|played with|jumped over|kicked|knew|typed on) (the|a(n))
+  (lazy|silly|old|fluffy|dusty|horrible) (white|fat|....)
+  (fox|school|telephone|keyboard)", and then represent some
+  constraints as a filter over random replacements (i.e. if a random
+  replacement creates a violation of a constraint, make a new random
+  replacement).  For example, foxes aren't dusty, schools aren't lazy
+  and can't be eaten, keyboards can't be known, etc.
+
+- Evaluating either the grammar checker or the readability statistics
+  that MS Word provides; then trying to design improvements, either as
+  a specification for a better piece of software, or as a real program
+  which does some things automatically that MS Word can't do.
+
+- Spidering parallel texts that are generated daily from the
+  EU, and then exploring translations.
+
+- Writing a KWIC concordancer in python, to get them used to
+  manipulating lots of text.
+
+- Using the Sketch Engine and associated corpora
+  (http://www.sketchengine.co.uk/), e.g. to compare and contrast
+  behaviour of "clever" vs. "intelligent" or "strong" vs. "powerful".
+
+- Using http://corpus.byu.edu/ (formerly view.byu.edu) to do similar
+  sorts of lexical explorations on material from the British National
+  Corpus or Time Magazine corpus.
+
+- Using the Linguist's Search Engine (lse.umiacs.umd.edu) to explore
+  Web data by searching for syntactic structures.
+
+- Writing or extending a grammar and evaluating its coverage
+
+- Surveying different approaches to parsing and writing a simple
+  definite clause grammar
+
+
+Other
+
+- Code-breaker exercise: given a text message, such as "meet me in the
+  park at 10", write a program that converts it into a cryptic code
+  messege and a decoder that retrieves the original messege back. For
+  example, one idea is to use the odd-even scheme and display all the
+  odd characters first, followed by the even characters. This would
+  generate a code messege: "MEE_EPTA_RMKE__AITN__1T0H". To decipher
+  this code, just read all the odd characters and then all the even
+  characters (treating spaces as regular characters).  Alternatives,
+  e.g. block code, character substitution, etc.
+
+
+Other corpus suggestions
+
+- Project Gutenberg
+- Reuters RCV1 news corpus
+- Enron e-mail corpus
+- Wikipedia (downloadable as an XML file)
+- Europarl parallel translations (
+http://www.iccs.inf.ed.ac.uk/~pkoehn/publications/europarl/)
+- Parallel Bibles and Web page translations (
+http://www.umiacs.umd.edu/~resnik/parallel/)
+
+------=_Part_41507_13625430.1190339813290
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+On September 18, I wrote:<br><br>&nbsp; I&#39;m having a conversation with =
+a teacher looking for a CL project for<br>&nbsp; a senior in high school.&n=
+bsp; Does anyone have experience with projects<br>&nbsp; that would be suit=
+able for a student at that level?&nbsp; (&quot;At that level&quot;
+<br>&nbsp; is pretty vague, but I think one could assume beginner-to-modera=
+te<br>&nbsp; programming skill, a good level of energy and incentive, no sp=
+ecific<br>&nbsp; prior background at all in computational linguistics, and =
+no LDC<br>&nbsp; membership.)
+<br><br>The response has been wonderful.&nbsp; (Ok, it wasn&#39;t 25 people=
+, but it<br>felt that way!)&nbsp; MANY thanks to:<br><br>&nbsp; Khurshid Ah=
+mad, Steven Bird, Alex Boulton, Eugene Charniak, Robert<br>&nbsp; Dale, Ste=
+ve Finch, Roeland Hancock, Rob Malouf, Chris Manning, Paul
+<br>&nbsp; Johnston, Amruta Purandare, Raf Salkie, Diarmuid =D3 S=E9aghdha,=
+ Harold<br>&nbsp; Somers, Amanda Stent, Eric Yeh<br><br>I *think* that cove=
+rs everybody; apologies if any messages slipped<br>through the cracks.<br><=
+br>Below I&#39;m going to try to summarize the replies within some useful
+<br>categories.<br><br>Cheers,<br><br>&nbsp; Philip<br><br>----------------=
+<br><br><br>Existing learning/teaching materials and references<br><br>- NL=
+TK (<a href=3D"http://nltk.sourceforge.net">nltk.sourceforge.net</a>). Good=
+ source of code and project
+<br>&nbsp; ideas, and it&#39;s also got a very nice collection of pre-proce=
+ssed<br>&nbsp; corpus materials, including a sampler of some of the LDC&#39=
+;s greatest<br>&nbsp; hits.&nbsp; See especially:<br>&nbsp;&nbsp;&nbsp; o N=
+itin Madnani, Getting Started on Natural Language Processing with
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python, ACM Crossroads Xrds13-4,<br>&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp; <a href=3D"http://www.acm.org/crossroads/xrds13-=
+4/natural_language.html">http://www.acm.org/crossroads/xrds13-4/natural_lan=
+guage.html</a>.<br>&nbsp;&nbsp;&nbsp; o Electronic Grammar modules (used wi=
+th high school students):
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; writing programs to solve practical prob=
+lems with words, texts<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and grammar. <a hr=
+ef=3D"http://nltk.org/index.php/Electronic_Grammar">http://nltk.org/index.p=
+hp/Electronic_Grammar</a>.<br>&nbsp;&nbsp;&nbsp; o The NLTK book,=20
+<a href=3D"http://nltk.org/index.php/Book">http://nltk.org/index.php/Book</=
+a>, which includes over<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200 graded exerci=
+ses along with introductions to programming and<br>&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; NLP, some of which should be accessible to high school students.
+<br><br>- The Computational Linguistics Olympiad<br>&nbsp; <a href=3D"http:=
+//namclo.linguistlist.org/">http://namclo.linguistlist.org/</a>, in particu=
+lar the sample problems,<br>&nbsp; <a href=3D"http://namclo.linguistlist.or=
+g/problems.cfm">
+http://namclo.linguistlist.org/problems.cfm</a><br><br>- CSLU Toolkit, <a h=
+ref=3D"http://cslu.cse.ogi.edu/toolkit/">http://cslu.cse.ogi.edu/toolkit/</=
+a>.&nbsp; A comprehensive<br>&nbsp; suite of tools to enable exploration, l=
+earning, and research into
+<br>&nbsp; speech and human-computer interaction.<br><br>- Ciezielska-Ciupe=
+k, M. 2001. Teaching with the internet and corpus<br>&nbsp; materials: Prep=
+aration of the ELT materials using the internet and<br>&nbsp; corpus resour=
+ces. In Lewandowska-Tomaszczyk, B. (ed) PALC 2001:
+<br>&nbsp; Practical Applications in Language Corpora. Lodz Studies in<br>&=
+nbsp; Language, 7. Frankfurt: Peter Lang, p.521-531.<br><br>- Sun, Y-C. &am=
+p; Wang, L-Y. 2003. Concordancers in the EFL classroom:<br>&nbsp; Cognitive=
+ approaches and collocation difficulty. CALL, 16/1,
+<br>&nbsp; p. 83-94.<br><br>- Using corpora in L1, Paul Thompson at the Uni=
+versity of Reading has<br>&nbsp; worked with primary school children; Julia=
+ Blake &amp; Tim Shortis in<br>&nbsp; secondary schools (cf their paper at =
+BAAL 2007).=20
+<br><br><br>Machine translation<br><br>- Implementing IBM Model 1<br><br>- =
+Building a complete end-to-end statistical machine translation<br>&nbsp; sy=
+stem, e.g. using MOSES (<a href=3D"http://www.statmt.org/wmt07/baseline.htm=
+l">
+http://www.statmt.org/wmt07/baseline.html</a>)<br><br><br>Supervised learni=
+ng (e.g. using a Naive Bayes classifier)<br><br>- Word sense disambiguation=
+<br><br>- Spam filtering (e.g. using spam message databases)<br><br>- Docum=
+ent classification (
+e.g. using the 20 Newsgroups corpus)<br><br><br>Unsupervised techniques<br>=
+<br>- Implementing language models using the SRI LM toolkit<br><br>- Writin=
+g a bigram part of speech tagger, including Baum-Welch<br>&nbsp; training a=
+nd Viterbi search.
+<br><br>- Studying, critiquing and building a mini document ranking system<=
+br>&nbsp; based on Page Rank.<br><br>- Odd one out: use simple similarity m=
+easures to pick the odd-one-out<br>&nbsp; from a given set of words. E.g., =
+in (Honda, Toyota, Sony,
+<br>&nbsp; BMW, Mercedes), Sony is the odd word (not a car company). Or, in=
+<br>&nbsp; (India, China, Japan, Romania, Korea), Romania is the odd one (n=
+ot<br>&nbsp; an asian country). The programming logic could be as simple as=
+<br>&nbsp; extracting features for each word and then selecting a word as t=
+he
+<br>&nbsp; &quot;odd&quot; if after removing it from the set, the remaining=
+ members share<br>&nbsp; the maximum number of features. Or, something more=
+ sophisticated<br>&nbsp; using cosine similarity measure that picks the wor=
+d with the least
+<br>&nbsp; cosine with the rest of the group as the Odd.<br><br><br>Corpus =
+and grammar building/exploration<br><br>- Investigating some linguistic, so=
+ciolinguistic or stylistic aspect<br>&nbsp; of the student&#39;s choice in =
+blogs or constructing a Web corpus.
+<br>&nbsp; [Reading LanguageLog, <a href=3D"http://www.languagelog.org">www=
+.languagelog.org</a>, would probably be a great<br>&nbsp; start! -PSR]<br><=
+br>- Building a small Web corpus and then doing collocation extraction or<b=
+r>&nbsp; text classification.=20
+E.g. how do sports reports differ from music<br>&nbsp; reviews, or tabloid =
+journalism from broadsheet journalism, or<br>&nbsp; Democrat authors from R=
+epublicans, or what do female bloggers write<br>&nbsp; about more frequentl=
+y than male bloggers?&nbsp; [An exercise I wrote, at
+<br>&nbsp; <a href=3D"http://www.umiacs.umd.edu/~resnik/nlstat_tutorial_sum=
+mer1998/Lab_ngrams.html">http://www.umiacs.umd.edu/~resnik/nlstat_tutorial_=
+summer1998/Lab_ngrams.html</a>,<br>&nbsp; might be useful here. -PSR]<br><b=
+r>- Generating simple English sentences using a simple substitution
+<br>&nbsp; based grammar.&nbsp; E.g. start by generating from a grammar lik=
+e<br>&nbsp; &quot;(the|a(n)) (big|little|smelly|argumentative) (cat|dog|tea=
+cher)<br>&nbsp; (ate|played with|jumped over|kicked|knew|typed on) (the|a(n=
+))<br>&nbsp; (lazy|silly|old|fluffy|dusty|horrible) (white|fat|....)
+<br>&nbsp; (fox|school|telephone|keyboard)&quot;, and then represent some<b=
+r>&nbsp; constraints as a filter over random replacements (i.e. if a random=
+<br>&nbsp; replacement creates a violation of a constraint, make a new rand=
+om<br>&nbsp; replacement).&nbsp; For example, foxes aren&#39;t dusty, schoo=
+ls aren&#39;t lazy
+<br>&nbsp; and can&#39;t be eaten, keyboards can&#39;t be known, etc.<br><b=
+r>- Evaluating either the grammar checker or the readability statistics<br>=
+&nbsp; that MS Word provides; then trying to design improvements, either as=
+<br>&nbsp; a specification for a better piece of software, or as a real pro=
+gram
+<br>&nbsp; which does some things automatically that MS Word can&#39;t do.<=
+br><br>- Spidering parallel texts that are generated daily from the<br>&nbs=
+p; EU, and then exploring translations.<br><br>- Writing a KWIC concordance=
+r in python, to get them used to
+<br>&nbsp; manipulating lots of text.<br><br>- Using the Sketch Engine and =
+associated corpora<br>&nbsp; (<a href=3D"http://www.sketchengine.co.uk/">ht=
+tp://www.sketchengine.co.uk/</a>), e.g. to compare and contrast<br>&nbsp; b=
+ehaviour of &quot;clever&quot; vs. &quot;intelligent&quot; or &quot;strong&=
+quot; vs. &quot;powerful&quot;.
+<br><br>- Using <a href=3D"http://corpus.byu.edu/">http://corpus.byu.edu/</=
+a> (formerly <a href=3D"http://view.byu.edu">view.byu.edu</a>) to do simila=
+r<br>&nbsp; sorts of lexical explorations on material from the British Nati=
+onal<br>
+&nbsp; Corpus or Time Magazine corpus.<br><br>- Using the Linguist&#39;s Se=
+arch Engine (<a href=3D"http://lse.umiacs.umd.edu">lse.umiacs.umd.edu</a>) =
+to explore<br>&nbsp; Web data by searching for syntactic structures.<br><br=
+>- Writing or extending a grammar and evaluating its coverage
+<br><br>- Surveying different approaches to parsing and writing a simple<br=
+>&nbsp; definite clause grammar<br><br><br>Other<br><br>- Code-breaker exer=
+cise: given a text message, such as &quot;meet me in the<br>&nbsp; park at =
+10&quot;, write a program that converts it into a cryptic code
+<br>&nbsp; messege and a decoder that retrieves the original messege back. =
+For<br>&nbsp; example, one idea is to use the odd-even scheme and display a=
+ll the<br>&nbsp; odd characters first, followed by the even characters. Thi=
+s would<br>
+&nbsp; generate a code messege: &quot;MEE_EPTA_RMKE__AITN__1T0H&quot;. To d=
+ecipher<br>&nbsp; this code, just read all the odd characters and then all =
+the even<br>&nbsp; characters (treating spaces as regular characters).&nbsp=
+; Alternatives,<br>
+&nbsp; e.g. block code, character substitution, etc.<br><br><br>Other corpu=
+s suggestions<br><br>- Project Gutenberg <br>- Reuters RCV1 news corpus<br>=
+- Enron e-mail corpus<br>- Wikipedia (downloadable as an XML file)<br>- Eur=
+oparl parallel translations (
+<a href=3D"http://www.iccs.inf.ed.ac.uk/~pkoehn/publications/europarl/">htt=
+p://www.iccs.inf.ed.ac.uk/~pkoehn/publications/europarl/</a>)<br>- Parallel=
+ Bibles and Web page translations (<a href=3D"http://www.umiacs.umd.edu/~re=
+snik/parallel/">
+http://www.umiacs.umd.edu/~resnik/parallel/</a>)<br><br>
+
+------=_Part_41507_13625430.1190339813290--
+
+
+--===============1965855182==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============1965855182==--
+

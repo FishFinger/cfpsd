@@ -1,0 +1,202 @@
+From - Thu Dec 10 14:37:29 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs331504faq;
+        Mon, 22 Jun 2009 00:00:13 -0700 (PDT)
+Received: by 10.204.55.199 with SMTP id v7mr5839324bkg.141.1245654006228;
+        Mon, 22 Jun 2009 00:00:06 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 3si8794814bwz.71.2009.06.22.00.00.03;
+        Mon, 22 Jun 2009 00:00:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1MIdTy-0003rs-Iy; Mon, 22 Jun 2009 08:58:22 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1MIdTx-0003rf-8v; Mon, 22 Jun 2009 08:58:21 +0200
+Received: from ey-out-1920.google.com [74.125.78.146] 
+	by rolf.uib.no for CORPORA@uib.no with esmtp  (Exim 4.69)
+	id 1MIdTw-0007Tp-NE; Mon, 22 Jun 2009 08:58:21 +0200
+Received: by ey-out-1920.google.com with SMTP id 3so423877eyh.28
+	for <CORPORA@uib.no>; Sun, 21 Jun 2009 23:58:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type:content-transfer-encoding;
+	bh=eQg7NIY1UEZb7cOaopFGTb4/SvNuogPkWul9tgLnO7I=;
+	b=FFvKB5nZUZ/g8OaqyJ5inQ70R+MlTdB7G1ok/ad1336YTF1K6rp69hU2e/TPljv4nm
+	wVPmC5SVhhvzS9Wl7J7vbEud4mtUIBBV5QHDc3ypu+XlQldzWbVaggtFyq0OpR5qIq34
+	hxxqluwUxuVB9R9Myz87Gf04nn3fzAJD+Kzoo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	b=WWxSvzO2daLcYZ9bu18K2HIwzaw02Fwy49GDXqWEipUbazXQA/bD1u1/053v3FK1K1
+	V54BLkgpYrax8mVuTOUIy6lneRkTOGEFOsksiVP68GuDrwrwT25OFxxlRInxh3SHmrlY
+	Wi1qLy2ARB3cOkg76QbyFrZK8HuCENom0GzKU=
+MIME-Version: 1.0
+Received: by 10.216.18.195 with SMTP id l45mr2046633wel.59.1245653900141; Sun, 
+	21 Jun 2009 23:58:20 -0700 (PDT)
+Date: Mon, 22 Jun 2009 07:58:20 +0100
+Message-ID: <f7857a670906212358u5d0b0b19k8e443bf2eb0105ce@mail.gmail.com>
+From: Alexander Clark <alexsclark@googlemail.com>
+To: CORPORA@uib.no
+X-checked-clean: by exiscan on rolf
+X-Scanner: 4bba8771162570d996626195fbf60500 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+Subject: [Corpora-List] CFP for Special Issue: Computational Models of First
+	Language Acquisition.
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+(Apologies if you receive this more than once)
+
+Call for Papers
+
+Computational Models of First Language Acquisition.
+Special Issue of Research on Language and Computation
+
+Editors:
+
+Alexander Clark, Department of Computer Science, Royal Holloway, University
+of London
+William Gregory Sakas, Hunter College and The
+Graduate Center, City University of New York
+
+The journal Research on Language and Computation invites submission of pape=
+rs
+for a special issue on Computational Models of Language Acquisition.
+
+
+Background
+
+Language acquisition has for a long time stood as one of the most
+fundamental, beguiling, and surprisingly open questions of modern science.
+  Recent advances in natural language processing, statistical parsing
+and machine learning, together with the availability of
+large corpora of child directed speech and other corpora, make a wide range
+of computationally-oriented approaches to the study of this problem
+available. In this special issue, we will provide a forum for the full range
+of current approaches to this important field.
+
+Psychocomputational models of language acquisition are of particular intere=
+st
+in light of recent results in developmental psychology that suggest that ve=
+ry
+young infants are adept at detecting statistical patterns in an audible inp=
+ut
+stream. Though, how children might plausibly apply statistical 'machinery' =
+to
+the task of grammar acquisition, with or without an innate language
+component, remains an open and important question.  One effective line
+of investigation is to
+computationally model the acquisition process, through simulation,
+mathematically, the statistical analysis of corpora, etc., and determine
+interrelationships between a model and linguistic or psycholinguistic theor=
+y,
+and/or correlations between a model's performance and data from linguistic
+environments that children are exposed to.
+
+Topics
+
+
+We aim to publish papers that describe state of the art techniques in
+computational models of language acquisition. These should be computational=
+ly
+explicit but not necessarily implemented and these could be evaluated
+empirically, theoretically or on the basis of a detailed case study.
+ This special
+issue should provide an interdisciplinary forum where researchers in
+theoretical linguistics, psycholinguistics, natural language processing,
+grammatical inference, machine learning and cognitive science can present
+research on the computational modelling of first language acquisition.
+
+We welcome papers from any of the current models of linguistic theorising:
+standard and enriched context free models,  Principles and Parameters
+models, Optimiality theory and reseachers working within the Minimalist
+Program, and other approaches.
+
+
+ Topics include but are not limited to;
+
+* Models that address the acquisition of word-order;
+
+* Models that combine parsing and learning;
+
+* Formal learning-theoretic and grammar induction models that
+use psychologically plausible models of the information available to the
+learner;
+
+* Comparative surveys that critique previously reported
+studies;
+
+* Models that address learning bias in terms of innate
+linguistic knowledge versus statistical regularity in the
+input;
+
+* Models that employ language modeling techniques from corpus
+linguistics;
+
+* Models that employ techniques from machine learning;
+
+* Models of language change and its effect on language
+acquisition or vice versa;
+
+* Models that employ statistical/probabilistic grammars;
+
+* Computational models that can be used to evaluate existing
+linguistic or developmental theories (e.g., principles &
+parameters, optimality theory, construction grammar, etc.)
+
+* Empirical models that make use of child-directed corpora such
+as CHILDES, or indeed adult corpora  as
+contrasted with child-directed corpora.
+
+Instructions
+
+Submissions should be made online using Springer's Editorial Manager System,
+available at http://www.editorialmanager.com/rolc/.
+
+Length: 12,000 words (approximately 30 pages) for a standard submission
+         4,000 words (approximately 10 pages) for a brief report
+
+Important dates
+
+Submission of full papers:  October 30, 2009
+Notifications of decision: January 31, 2010
+Revised versions due:  April 1, 2010
+Second review: June 1 2010
+Final versions:  August 1 2010
+Publication:  Late 2010.
+
+Further information:
+
+Please contact Alexander Clark (alexc@cs.rhul.ac.uk) for any further
+questions.
+
+
+-- =
+
+Alex Clark
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

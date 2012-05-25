@@ -1,0 +1,269 @@
+From - Thu Dec 10 14:37:29 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs433840faq;
+        Tue, 23 Jun 2009 03:36:33 -0700 (PDT)
+Received: by 10.115.89.1 with SMTP id r1mr6665331wal.84.1245753389247;
+        Tue, 23 Jun 2009 03:36:29 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 6si11996890pxi.129.2009.06.23.03.36.26;
+        Tue, 23 Jun 2009 03:36:28 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be; dkim=hardfail (test mode) header.i=@gmail.com
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n5NAaP5X006911
+	for <jpprost@gmail.com>; Tue, 23 Jun 2009 20:36:25 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n5NAaOP9012484
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 23 Jun 2009 20:36:25 +1000
+X-ASG-Debug-ID: 1245753383-05be01530000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id 771C32E4AEFE
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 23 Jun 2009 20:36:23 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id HToawZsWGutg71Ra for <jpprost@mailbox.ics.mq.edu.au>; Tue, 23 Jun 2009 20:36:23 +1000 (EST)
+X-Barracuda-Envelope-From: owner-chr@LISTSERV.CC.KULEUVEN.AC.BE
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n5NAaLFV006904
+	for <jpprost@ICS.MQ.EDU.AU>; Tue, 23 Jun 2009 20:36:22 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 08025556A2;
+	Tue, 23 Jun 2009 12:36:19 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 3451326 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Tue, 23 Jun 2009
+          12:36:18 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id CC3BC3A70F for <chr@listserv.cc.kuleuven.ac.be>; Tue, 23 Jun 2009
+          12:26:18 +0200 (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 408E651C005 for <CHR@listserv.cc.kuleuven.ac.be>; Tue, 23 Jun 2009
+          12:26:14 +0200 (CEST)
+Received: from mail-fx0-f213.google.com (mail-fx0-f213.google.com
+          [209.85.220.213]) by cavin02.kulnet.kuleuven.ac.be (Postfix) with
+          ESMTP id 120ED341AE for <CHR@listserv.cc.kuleuven.ac.be>; Tue, 23 Jun
+          2009 12:26:03 +0200 (CEST)
+Received: by fxm9 with SMTP id 9so162189fxm.37 for
+          <CHR@listserv.cc.kuleuven.ac.be>; Tue, 23 Jun 2009 03:26:03 -0700
+          (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+                h=domainkey-signature:received:received:sender:subject:from:reply-to
+                :to:content-type:date:message-id:mime-version:x-mailer
+                :content-transfer-encoding;
+                bh=EY6ogdnTfQzGAXzv1xBVRtJYXoJKD3nDgBgeaLj0UNI=;
+                b=tPJQk0dDy8JDWfV1c3R0bQ5cbNfGtzzMnhgZiOCzlJRAKzbGStV5WDK4hQ+OiVqBbF
+                DCu1vIQbO6gKiSEUTnaYtKMxbTaR4aaIfRGJVejIVe05zGxTQCIeCNZhibNpCjJP+rN5
+                87Az4QuQa8FliIaz8pRhppgZBbr/cNoxCpdpI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+                     h=sender:subject:from:reply-to:to:content-type:date:message-id
+                     :mime-version:x-mailer:content-transfer-encoding;
+                     b=Qzlp922ZvJCdR5JKdPG9P1ywRN32TDKGPwGjwFp/XeX93v0tSpxXeq3OgoPq4grVXO
+                     ZluSWiO1fu/99cnqdVTRZte++t8fasoUVSDjW3SYfljy5fvGBQmqorhvZ2Xo5r1jNQKZ
+                     AHwbplrnH+Tz2dMc7SddK07MLxkyqV6SR0LC0=
+Received: by 10.103.221.14 with SMTP id y14mr2846336muq.111.1245752761929; Tue,
+          23 Jun 2009 03:26:01 -0700 (PDT)
+Received: from ?10.10.10.45? (router-citi.uevora.pt [193.137.179.181]) by
+          mx.google.com with ESMTPS id n7sm18100396mue.58.2009.06.23.03.25.59
+          (version=SSLv3 cipher=RC4-MD5); Tue, 23 Jun 2009 03:25:59 -0700 (PDT)
+Content-Type: text/plain
+Mime-Version: 1.0
+X-Mailer: Evolution 2.26.2
+Content-Transfer-Encoding: 7bit
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=0, required 5,
+               autolearn=disabled)
+X-KULeuven-Envelope-From: pedro.salgueiro@gmail.com
+Message-ID:  <1245752772.5216.50.camel@rebirth>
+Date:         Tue, 23 Jun 2009 11:26:12 +0100
+Reply-To: pds@di.uevora.pt
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Pedro Salgueiro <pds@di.uevora.pt>
+X-ASG-Orig-Subj: [CHR] INAP 2009: 2nd Call for Papers
+Subject: [CHR] INAP 2009: 2nd Call for Papers
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1245753383
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=MAILTO_TO_SPAM_ADDR
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.1576
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+
+[apologies for cross-posting; please distribute]
+---
+
+                         (PLEASE DISTRIBUTE)
+     ------------------------------------------------------------
+                        Second Call for Papers
+
+                              INAP 2009
+
+                   18th International Conference on
+               Applications of Declarative Programming
+                       and Knowledge Management
+
+                         November 5-7, 2009
+                          Evora, Portugal
+
+                  http://www.di.uevora.pt/inap2009/
+                    http://inap.dialogengines.com/
+     ------------------------------------------------------------
+
+  Organized by the Portuguese AI Society (APPIA), the INAP Committee
+           and the Society of Logic Programming (GLP e.V.)
+
+== Overview ==
+
+  Declarative Programming is a family of advanced paradigms for the
+  modeling and solving of complex problems.  These specification and
+  implementation methods have attracted more and more attention over
+  the past years, e.g. in the domains of databases and natural
+  language processing, for modeling and the processing of
+  combinatorial problems, and for establishing systems for the web.
+
+== INAP 2009 ==
+
+  INAP is a communicative and dense forum for intensive discussion of
+  applications of important technologies related to Prolog, Logic and
+  Constraint Programming as well as closely related advanced software.
+  It comprehensively covers the impact of programmable logic solvers
+  in the Internet Society, its underlying technologies, and leading
+  edge applications in industry, commerce, government, and societal
+  services.
+
+  INAP 2009 continues a tradition of successful workshops cast around
+  the applications of declarative programming, which were held in
+  Kobe (1997), Tokyo (1995, 1996, 1998 - 2001), Potsdam (2004),
+  Fukuoka (2005) and Wuerzburg (2007).
+
+  We invite the submission of high quality papers on the described
+  topics, especially, but not exclusively, on different aspects of
+  Declarative Programming, Constraint Processing and Knowledge
+  Management as well as their use for Distributed Systems and the Web:
+
+- Knowledge Management,
+  e.g. Data Mining, Decision Support, Deductive Databases
+- Distributed Systems and the Web,
+  e.g. Agents and Concurrent Engineering, Semantic Web
+- Constraints,
+  e.g. Constraint Systems, Extensions of Constraint (Logic) Programming
+- Theoretical Foundations,
+  e.g. Deductive Databases, Nonmonotonic Reasoning
+- Systems and Tools for Academic and Industrial Use
+- Knowledge-based Web Services - Logic Solvers and Applications
+
+== Workshop Format ==
+
+  The technical program of the workshop will include invited
+  presentations (to be announced), regular technical sessions with
+  presentations of the accepted papers, system demonstrations and a
+  panel discussion.
+
+
+== Conference Venue ==
+
+  The conference will be held at the University of Evora, Portugal
+  in November 5-7, 2009.
+
+  Evora is a nice and quiet historical city located in the south of
+  Portugal that can be reached from Lisbon by train or coach in under
+  2 hours.  It is a small city of 60.000 inhabitants, 120 km inland
+  from Lisbon and classified by Unesco as World Heritage.  The
+  University of Evora was established in the 16th Century and is the
+  2nd oldest Portuguese University.
+
+  The social program is promising since the region is very rich in
+  historical sites (Stone Age, Roman, Medieval and Renaissance
+  remains) and also offers a very special gastronomy.  See
+  http://en.wikipedia.org/wiki/%C3%89vora for more information.
+
+== Important Dates ==
+
+  Paper Submission Deadline:       June 29, 2009
+  Notifications to Authors:        August 17, 2009
+  Camera-ready Version Deadline:   September 14, 2009
+  INAP 2009 Workshop:              November 5-7, 2009
+
+== Submission Guidelines ==
+
+  Participants should submit a paper (maximum 15 pages, PDF format),
+  describing their work in topics relevant to the workshop.  Accepted
+  papers will be presented during the workshop.  At least one author
+  of an accepted contribution is expected to register for the
+  workshop, and present the paper.  All submissions should include the
+  author's name(s), affiliation, complete mailing address, and email
+  address.
+
+  Authors are requested to prepare their submissions, following the
+  LNCS/LNAI Springer format. Please see:
+      http://www.springer.de/comp/lncs/authors.html
+  for further details.
+
+  The submission should be submitted through the electronic submission
+  site:
+        http://www.easychair.org/conferences/?conf=inap2009
+
+  The deadline for receipt of submissions is June 29, 2009.  Papers
+  received after this date will not be reviewed.  Eligible papers will
+  be peer-reviewed by at least three members of the Program Committee.
+  Authors will be notified via email of the results by August 17,
+  2009.  Authors of accepted papers are expected to improve their
+  paper based on reviewers' comments and to send a camera ready
+  version of their manuscripts by September 14, 2009.
+
+  Accepted papers will be included in the workshop proceedings, which
+  will be distributed to the participants.
+
+  As in previous editions, we plan to publish selected papers in a
+  proceedings volume in the Springer Lecture Notes in Artificial
+  Intelligence (LNAI) series.
+
+== Organizing Committee ==
+
+  Vitor Nogueira        vbn AT di.uevora.pt
+  Salvador Abreu        spa AT di.uevora.pt
+  Pedro Salgueiro       pds AT di.uevora.pt
+        Universidade de Evora
+        Portugal
+
+== Program Committee ==
+
+  Salvador Abreu, University of Evora, Portugal (co-chair)
+  Sergio Alvarez, Boston College, USA
+  Philippe Codognet, CNRS/JFLI, Tokyo, Japan
+  Vitor Santos Costa, University of Porto, Portugal
+  Daniel Diaz, University of Paris I, France
+  Ulrich Geske, University of Potsdam, Germany
+  Gopal Gupta, UT Dallas, USA
+  Petra Hofstedt, Technical University of Berlin, Germany
+  Ulrich Neumerkel, Technical University of Vienna, Austria
+  Vitor Nogueira, University of Evora, Portugal
+  Enrico Pontelli, New Mexico State University, USA
+  Irene Rodrigues, University of Evora, Portugal
+  Carolina Ruiz, Worcester Polytechnic Institute, USA
+  Dietmar Seipel, University of Wuerzburg, Germany (co-chair)
+  Terrance Swift, CENTRIA, Portugal
+  Hans Tompits, Technical University of Vienna, Austria
+  Masanobu Umeda, Kyushu Institute of Technology, Japan
+  Armin Wolf, Fraunhofer FIRST, Berlin, Germany
+  Osamu Yoshie, Waseda University, Japan
+
+== Contact Information ==
+
+     inap2009@di.uevora.pt
+
+     Universidade de Evora
+     Departamento de Informatica
+     Largo dos Colegiais, 2
+     7004-516 Evora - PORTUGAL

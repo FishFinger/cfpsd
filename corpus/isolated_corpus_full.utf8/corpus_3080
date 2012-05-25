@@ -1,0 +1,446 @@
+From - Thu Dec 10 14:31:49 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs167555waa;
+        Sun, 25 May 2008 03:30:22 -0700 (PDT)
+Received: by 10.210.126.5 with SMTP id y5mr2861276ebc.56.1211711420567;
+        Sun, 25 May 2008 03:30:20 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id c24si8718378ika.4.2008.05.25.03.29.44;
+        Sun, 25 May 2008 03:30:20 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+DomainKey-Status: bad (test mode)
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; domainkeys=hardfail (test mode) header.From=john_hutchins@btinternet.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 3749FBF889; Sun, 25 May 2008 12:29:44 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.2 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_QP_LONG_LINE autolearn=no version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C86AE8060;
+	Sun, 25 May 2008 12:29:19 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id AE0B73D3B;
+	Sun, 25 May 2008 12:29:19 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id JYEikoElfe4p; Sun, 25 May 2008 12:29:19 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id E7FBB3D3C;
+	Sun, 25 May 2008 12:29:17 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 26E033D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 20 May 2008 17:01:04 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3dLTqjtGW9YA for <elsnet-list@mailman.elsnet.org>;
+	Tue, 20 May 2008 17:01:04 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id EC1783CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 20 May 2008 17:01:03 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DBDE1A73F; Tue, 20 May 2008 17:01:03 +0200 (MEST)
+Received: from smtp807.mail.ird.yahoo.com (smtp807.mail.ird.yahoo.com
+	[217.146.188.67])
+	by mailhost.let.uu.nl (Postfix) with SMTP id C9FDBA735
+	for <elsnet-list@let.uu.nl>; Tue, 20 May 2008 17:00:52 +0200 (MEST)
+Received: (qmail 64168 invoked from network); 20 May 2008 15:00:49 -0000
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=btinternet.com;
+	h=Received:X-YMail-OSG:X-Yahoo-Newman-Property:Message-ID:From:To:Subject:Date:MIME-Version:Content-Type:X-Priority:X-MSMail-Priority:X-Mailer:Disposition-Notification-To:X-MimeOLE;
+	b=s2IjMAR8P+W0u4i+bTK6QloKsUsjvNBOl6/wS6+HjzYMPCfvChaQ0MgkLg3iEh3QMenj16NfYJu+x9NzLSo17qWAZ+pRcCVsTRwbsCBRNRo54cNqbLpCPquCzu/E2fPUT+OCCfWROJmuFVTV+7/C2mXMHo232v9LNWOp4RHZbLM=
+	; 
+Received: from unknown (HELO John) (john_hutchins@btinternet.com@86.165.11.85
+	with login)
+	by smtp807.mail.ird.yahoo.com with SMTP; 20 May 2008 15:00:49 -0000
+X-YMail-OSG: qf2n2NcVM1kHyrZSdQw09Zg2XqhZJP9dtypvxCTECbUfKMajFgmfOiAp7SiKXzhrbgEX4fpnB79t6ri7sxazuIt4G56cV94zI9Gynnnk1_uHe2bNlYLpp1cfL89BtvXYKvbs6HupmuvFm_qnJCn8.2Ph
+X-Yahoo-Newman-Property: ymail-3
+Message-ID: <007701c8ba8a$47d4a2f0$550ba556@John>
+From: "John Hutchins" <john_hutchins@btinternet.com>
+To: "ELSNET" <elsnet-list@let.uu.nl>
+Date: Tue, 20 May 2008 16:00:27 +0100
+MIME-Version: 1.0
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.3138
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3198
+X-Mailman-Approved-At: Sun, 25 May 2008 12:29:16 +0200
+Cc: 
+Subject: [Elsnet-list] EAMT 2008 call for papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0371091418=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+
+--===============0371091418==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0071_01C8BA92.9F049B90"
+
+This is a multi-part message in MIME format.
+
+
+------=_NextPart_000_0071_01C8BA92.9F049B90
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+EAMT Conference 2008
+
+Hosted by the University of Hamburg
+
+ 
+
+http://nats-www.informatik.uni-hamburg.de/view/EAMT08/
+
+ 
+
+Second CALL for PAPERS
+
+ 
+
+The EAMT is organising a major conference in Hamburg, Germany on 22-23 Sept=
+ember 2008. This meeting is the 12th in a series of regular events acting a=
+s a forum for the exchange of ideas concerning all aspects of Machine Trans=
+lation and computer aids and tools for translators. The purpose of EAMT eve=
+nts is to bring together users, developers and researchers to discuss the l=
+atest developments in this field.  It will be a full-scale conference, cove=
+ring a large range of topics, it will have invited speakers, and it is expe=
+cted to attract a large number of participants and papers.  For information=
+ about previous workshops and conferences see the EAMT website: www.eamt.or=
+g
+
+ 
+
+Submissions are particularly welcome which focus on the main theme of the c=
+onference: 
+
+      Machine translation applications in practice (operational systems, on=
+line services, multilingual extraction, cross-language information retrieva=
+l, multilingual summarization, and hand-held devices)
+
+      As in previous years, the conference will also address the prospects =
+and perspectives for MT within the specific situation of multilingual Europ=
+e.  However, potential speakers should note that submissions on all aspects=
+ of MT and computer-based translation tools will be welcomed =96 from develop=
+ers, users, and researchers.
+
+      Submissions to the programme committee should be made at the ConfTool=
+ conference administration webpage: http://www.conftool.net/EAMT08/. Contri=
+butions may be:
+
+      full papers (maximum length: eight pages, A4 size), 
+
+      posters (max. length: five pages), 
+
+      demonstration papers (max. length: three pages).
+
+Contributions should be anonymous (no authors, affiliations or addresses), =
+and in RTF or PDF format. 
+
+      The deadline for submission is 29 June 2008.
+
+ 
+
+Programme Committee:
+
+Walther v. Hahn (University of Hamburg) (chair)
+
+John Hutchins (co-chair)
+
+Michael Carl (IAI Saarbr=FCcken)
+
+
+Vladislav Kubon (Charles University Prague)
+
+Bente Maegaard (University of Copenhagen)
+
+Sharon O=92Brien (Dublin City University)
+
+Stephen Oepen (University of Oslo and CSLI Stanford)
+
+Anna S=E5gvall Hein (University of Uppsala)
+
+Harold Somers (University of Manchester and Dublin City University)
+
+Gregor Thurmair (Linguatec)
+
+Cristina Vertan (University of Hamburg)
+
+Andy Way (Dublin City University)
+
+ 
+
+Organizing Committee
+
+Walther v. Hahn (University of Hamburg)
+
+Cristina Vertan (University of Hamburg)
+
+ 
+
+Venue and Registration: Details will be available in due course on the conf=
+erence website (address above) and on the EAMT web site. For preliminary in=
+formation please contact the local organiser, Cristina Vertan (vertan [at] =
+informatik [dot] uni-hamburg [dot] de).
+
+ 
+
+Important Dates:
+
+Deadline for submissions:  29 June 2008
+
+Acceptance notification: 27 July 2008
+
+Final copies due:  17 August 2008
+
+Early registration deadline: 23 August 2008
+
+Conference dates: 22-23 September 2008 
+
+
+-- 
+I am using the free version of SPAMfighter for private users.
+It has removed 29588 spam emails to date.
+Paying users do not have this message in their emails.
+Get the free SPAMfighter here: http://www.spamfighter.com/len
+
+------=_NextPart_000_0071_01C8BA92.9F049B90
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC =22-//W3C//DTD HTML 4.0 Transitional//EN=22>
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D=22text/html; charset=3Dwindows-1252=22>
+<META content=3D=22MSHTML 6.00.6000.16640=22 name=3DGENERATOR>
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV>
+<DIV>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>EAMT Conference 2008</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Hosted by the University of Hamburg</FONT></SPAN>=
+</P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN 
+lang=3DEN-GB><=3Fxml:namespace prefix =3D o ns =3D 
+=22urn:schemas-microsoft-com:office:office=22 /><o:p><FONT face=3D=22Courier New=22 
+size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 
+size=3D2>http://nats-www.informatik.uni-hamburg.de/view/EAMT08/</FONT></SPAN>=
+</P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Second CALL for PAPERS</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>The EAMT is organising a major conference in Hamb=
+urg, 
+Germany on 22-23 September 2008. This meeting is the 12th in a series of re=
+gular 
+events acting as a forum for the exchange of ideas concerning all aspects o=
+f 
+Machine Translation and computer aids and tools for translators. The purpos=
+e of 
+EAMT events is to bring together users, developers and researchers to discu=
+ss 
+the latest developments in this field.<SPAN style=3D=22mso-spacerun: yes=22>&nbsp=
+; 
+</SPAN>It will be a full-scale conference, covering a large range of topics=
+, it 
+will have invited speakers, and it is expected to attract a large number of=
+ 
+participants and papers.<SPAN style=3D=22mso-spacerun: yes=22>&nbsp; </SPAN>For 
+information about previous workshops and conferences see the EAMT website: 
+www.eamt.org</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Submissions are particularly welcome which focus =
+on 
+the main theme of the conference: </FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-tab-count: 1=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>Machine 
+translation applications in practice (operational systems, online services,=
+ 
+multilingual extraction, cross-language information retrieval, multilingual=
+ 
+summarization, and hand-held devices)</FONT></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-tab-count: 1=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>As in previo=
+us 
+years, the conference will also address the prospects and perspectives for =
+MT 
+within the specific situation of multilingual Europe.<SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp; </SPAN>However, potential speakers should =
+note 
+that submissions on all aspects of MT and computer-based translation tools =
+will 
+be welcomed =96 from developers, users, and researchers.</FONT></FONT></SPAN>=
+</P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-tab-count: 1=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>Submissions =
+to 
+the programme committee should be made at the ConfTool conference administr=
+ation 
+webpage: http://www.conftool.net/EAMT08/. Contributions may 
+be:</FONT></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>full papers=
+ 
+(maximum length: eight pages, A4 size), </FONT></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>posters (ma=
+x. 
+length: five pages), </FONT></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>demonstrati=
+on 
+papers (max. length: three pages).</FONT></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Contributions should be anonymous (no authors, 
+affiliations or addresses), and in RTF or PDF format. </FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+size=3D2><FONT face=3D=22Courier New=22><SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>The deadlin=
+e for 
+submission is 29 June 2008.</FONT></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Programme Committee:</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Walther v. Hahn (University of Hamburg) 
+(chair)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>John Hutchins (co-chair)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Michael Carl (IAI Saarbr=FCcken)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2></FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Vladislav Kubon (Charles University 
+Prague)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Bente Maegaard (University of 
+Copenhagen)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Sharon O=92Brien (Dublin City 
+University)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Stephen Oepen (University of Oslo and CSLI 
+Stanford)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Anna S=E5gvall Hein (University of 
+Uppsala)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Harold Somers (University of Manchester and Dubli=
+n 
+City University)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Gregor Thurmair (Linguatec)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Cristina Vertan (University of 
+Hamburg)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Andy Way (Dublin City University)</FONT></SPAN></=
+P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Organizing Committee</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Walther v. Hahn (University of 
+Hamburg)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Cristina Vertan (University of 
+Hamburg)</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Venue and Registration: Details will be available=
+ in 
+due course on the conference website (address above) and on the EAMT web si=
+te. 
+For preliminary information please contact the local organiser, Cristina Ve=
+rtan 
+(vertan [at] informatik [dot] uni-hamburg [dot] de).</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><o:p><FO=
+NT 
+face=3D=22Courier New=22 size=3D2>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Important Dates:</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Deadline for submissions:<SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp; </SPAN>29 June 2008</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Acceptance notification: 27 July 
+2008</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Final copies due:<SPAN 
+style=3D=22mso-spacerun: yes=22>&nbsp; </SPAN>17 August 2008</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Early registration deadline: 23 August 
+2008</FONT></SPAN></P>
+<P class=3DMsoPlainText style=3D=22MARGIN: 0cm 0cm 0pt=22><SPAN lang=3DEN-GB><FONT 
+face=3D=22Courier New=22 size=3D2>Conference dates: 22-23 September 2008 
+</FONT></SPAN></P></DIV></DIV><!-- SPAMfighter Signature --><br><hr>I am us=
+ing the free version of SPAMfighter for private users.<br />It has removed =
+29588 spam emails to date.<br />Paying users do not have this message in th=
+eir emails.<br />Try <a href=3D=22http://www.spamfighter.com/len=22>SPAMfighter</=
+a> for free now!<br /></BODY></HTML>
+
+
+------=_NextPart_000_0071_01C8BA92.9F049B90--
+
+
+
+--===============0371091418==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0371091418==--
+
+

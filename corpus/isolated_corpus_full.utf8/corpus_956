@@ -1,0 +1,159 @@
+From - Thu Dec 10 14:25:29 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.14 with SMTP id l14cs19848bud;
+        Wed, 10 Jan 2007 03:52:32 -0800 (PST)
+Received: by 10.100.166.14 with SMTP id o14mr144273ane.1168429952057;
+        Wed, 10 Jan 2007 03:52:32 -0800 (PST)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id c1si309440ana.2007.01.10.03.52.30;
+        Wed, 10 Jan 2007 03:52:32 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id l0ABqFeW019997
+	for <jpprost@gmail.com>; Wed, 10 Jan 2007 22:52:29 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2007011022522922642
+ for <jpprost@gmail.com>; Wed, 10 Jan 2007 22:52:29 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l0ABqT1k020020
+	for <jpprost@gmail.com>; Wed, 10 Jan 2007 22:52:29 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l0ABqTbH004371
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 22:52:29 +1100 (EST)
+X-ASG-Debug-ID: 1168429946-634d00470000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1168429946
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id C8B42429233
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 22:52:26 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id l0ABqFeS019997
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 22:52:26 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2007011022522622640
+ for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 22:52:26 +1100
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l0ABqOTP020011
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 10 Jan 2007 22:52:26 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id l0ABqNg26068
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 10 Jan 2007 22:52:23 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 0D201871C;
+	Wed, 10 Jan 2007 12:52:15 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 5843952 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Wed, 10 Jan 2007
+          12:52:14 +0100
+X-Original-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Delivered-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Received: from thumbler.kulnet.kuleuven.ac.be (thumbler.kulnet.kuleuven.ac.be
+          [134.58.240.45]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 7081182BA for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 10 Jan 2007
+          12:52:14 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1]) by
+          thumbler.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 10666138360
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 10 Jan 2007 12:52:13 +0100
+          (CET)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by thumbler.kulnet.kuleuven.ac.be (Postfix) with
+          ESMTP id 0AC5B13868F for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 10
+          Jan 2007 12:52:11 +0100 (CET)
+Received: from smtp2.ruc.dk (smtp2.ruc.dk [130.225.220.22]) by
+          cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP id EEB732014C for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 10 Jan 2007 12:52:07 +0100
+          (CET)
+Received: by smtp2.ruc.dk (Postfix, from userid 1005) id 0053C2380A9; Wed, 10
+          Jan 2007 12:22:13 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.1.7 (2006-10-05) on smtp2.ruc.dk
+Received: from [130.226.196.65] (g4-dat-15.ruc.dk [130.226.196.65]) (using
+          TLSv1 with cipher RC4-SHA (128/128 bits)) (No client certificate
+          requested) by smtp2.ruc.dk (Postfix) with ESMTP id 91501238090 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 10 Jan 2007 12:22:12 +0100
+          (CET)
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=ISO-8859-1; delsp=yes; format=flowed
+X-Mailer: Apple Mail (2.752.2)
+X-Virus-Scanned: by KULeuven Antivirus Cluster
+X-Spam-Status: No, hits=0.3 tagged_above=-9999.0 required=5.0 tests=NO_REAL_NAME
+X-Spam-Level: 
+Message-ID:  <4436314B-6BEF-42A7-86EA-9F841711FC24@ruc.dk>
+Date:         Wed, 10 Jan 2007 12:22:07 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Henning Christiansen <henning@RUC.DK>
+X-ASG-Orig-Subj: [CHR] CONTEXT'07, 2nd call for papers/posters/demos/workshop proposals
+Subject: [CHR] CONTEXT'07, 2nd call for papers/posters/demos/workshop proposals
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.5813
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+CONTEXT'07:
+                       SECOND CALL FOR PAPERS
+                       + workshop proposals
+                       + doctoral symposium
+
+       Sixth International and Interdisciplinary Conference
+            on Modeling and Using Context (CONTEXT'07)
+
+                http://context-07.ruc.dk/
+
+            August 20-24, 2007 - Roskilde University, Denmark
+
+CONTEXT'07 includes a main conference, workshops, demonstration and
+poster sessions, and a doctoral consortium. It provides a forum for
+a wide range of disciplines involved in the modeling and use of context,
+including: Computer Science (especially Artificial Intelligence and
+Ubiquitous Computing), Cognitive Science, Linguistics, Organizational
+Sciences, Philosophy, Psychology, Application areas (Medicine, Law, =20
+etc).
+Proceedings will be published in the Springer Verlag LNAI Series as for
+the previous conferences.
+
+IMPORTANT DATES
+Workshop proposal submissions                              January =20
+31, 2007
+Paper/poster/demo submission to the Main conference        March 15, =20
+2007
+Doctoral symposium submission (provisional deadline)       May 15, 2007
+
+Workshop days                                              August =20
+20-21, 2007
+Main conference (including poster and demo sessions)       August =20
+22-24, 2007
+
+All the information, including latest updates, are on the Web site of =20=
+
+the
+conference: http://context-07.ruc.dk/.
+
+CONFERENCE CHAIR
+      Boicho Kokinov, New Bulgarian University, Bulgaria.
+
+PROGRAM CO-CHAIRS
+      Daniel C. Richardson, UCSC, USA
+      Thomas R. Roth-Berghofer, DFKI, Germany
+      Laure Vieu, IRIT-CNRS, France, and ISTC-CNR, Italy
+
+WORKSHOPS CHAIR
+      Stefan Schulz, The e-Spirit Company GmbH, Dortmund, Germany
+
+ORGANIZING COMMITTEE
+      Henning Christiansen, Roskilde University, Denmark (Chair)
+      Troels Andreasen, Roskilde University, Denmark
+      John Gallagher, Roskilde University, Denmark
+      Mads Rosendahl, Roskilde University, Denmark
+      J=F8rgen Villadsen, Technical University of Denmark (Publicity =20
+Chair)
+
+Additional information available at http://context-07.ruc.dk/

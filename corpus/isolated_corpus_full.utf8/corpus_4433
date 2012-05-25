@@ -1,0 +1,591 @@
+From - Thu Dec 10 14:35:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs32747far;
+        Sun, 15 Feb 2009 04:50:04 -0800 (PST)
+Received: by 10.210.117.1 with SMTP id p1mr120782ebc.39.1234702204630;
+        Sun, 15 Feb 2009 04:50:04 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 7si10692909eyg.47.2009.02.15.04.50.03;
+        Sun, 15 Feb 2009 04:50:04 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4F19D16C51; Sun, 15 Feb 2009 13:50:03 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id DBF291E557;
+	Sun, 15 Feb 2009 13:46:30 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1B1863E27;
+	Sun, 15 Feb 2009 13:46:30 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id kapL2X6TJGTj; Sun, 15 Feb 2009 13:46:29 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C7E793D24;
+	Sun, 15 Feb 2009 13:45:56 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 437A73D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat,  7 Feb 2009 23:29:31 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id dYHdV72aBRKq for <elsnet-list@mailman.elsnet.org>;
+	Sat,  7 Feb 2009 23:29:31 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 152C53D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat,  7 Feb 2009 23:29:31 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id ECFFC20F3B; Sat,  7 Feb 2009 23:29:30 +0100 (MET)
+X-Greylist: delayed 503 seconds by postgrey-1.28 at newjura;
+	Sat, 07 Feb 2009 23:29:26 MET
+Received: from mail.o2.co.uk (yoda.london.02.net [82.132.130.151])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3ABBE20F92
+	for <elsnet-list@elsnet.org>; Sat,  7 Feb 2009 23:29:26 +0100 (MET)
+Received: from [192.168.1.65] (78.105.60.142) by mail.o2.co.uk (8.0.013.3)
+	(authenticated as gmagoulas6903@o2.co.uk)
+	id 498652830150FF1E; Sat, 7 Feb 2009 22:21:01 +0000
+Message-ID: <498E08E7.9020607@dcs.bbk.ac.uk>
+Date: Sat, 07 Feb 2009 22:19:19 +0000
+From: "George D. Magoulas" <gmagoulas@dcs.bbk.ac.uk>
+User-Agent: Thunderbird 2.0.0.19 (Windows/20081209)
+MIME-Version: 1.0
+To: elsnet-list@elsnet.org
+X-Mailman-Approved-At: Sun, 15 Feb 2009 13:45:45 +0100
+Subject: [Elsnet-list] E-Infrastructures and Technologies for Lifelong
+ Learning: call for chapter proposals
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: gmagoulas@dcs.bbk.ac.uk
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1179028008=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+--===============1179028008==
+Content-Type: multipart/alternative;
+	boundary="------------020009000504040201090700"
+
+This is a multi-part message in MIME format.
+--------------020009000504040201090700
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+*CALL FOR CHAPTER PROPOSALS*
+
+*Proposal Submission Deadline: February 28, 2009*
+
+*/E-Infrastructures and Technologies for Lifelong Learning: Next 
+Generation Environments/*
+
+
+ 
+
+1. */Introduction/*
+
+The emerging knowledge society places new requirements on the education 
+sector to support the needs of individuals and organisations. In the 
+area of lifelong learning in particular, which is one of the most 
+important motors driving education in the 21st century, e-learning has 
+become a collaborative and community-based process. This calls for tools 
+to support the autonomous and dynamic creation of lifelong learning 
+communities and new distributed e-learning services.
+
+To this end, the integration of innovative models, methods and 
+technologies for the creation, storage, use, and exchange of knowledge 
+resources and user-generated content, learning activities and units of 
+learning, competence development programs and networks for lifelong 
+learning is being investigated world wide. Advanced technologies that 
+employ decentralised solutions where both resources and computation can 
+be distributed have been developed in the form of online communities 
+created by online collaborative tools; blogs, wikis, webcasts, webinars 
+and social networking applications. These applications facilitate the 
+development of a technical, organisational infrastructure for lifelong 
+learning in formal or informal learning contexts. This e-infrastructure 
+is composed mostly of open-source, standards-based, sustainable and 
+innovative technologies and provides easy access to facilities that 
+enable the lifelong development of competencies and expertise in the 
+various occupations and fields of knowledge.
+
+The focus of advanced technologies is moving from building large 
+monolithic systems towards defining and constructing small components 
+which can be integrated. This method permits the development of modular 
+and flexible distributed systems, in which components can be added, 
+removed or replaced more easily than in traditional models of e-learning 
+systems, allowing new applications or systems to be composed from 
+collections of available services. Furthermore, these technologies can 
+be seamlessly integrated with pedagogic theories in order to be adopted 
+into the everyday practices of educational organisations and independent 
+learners, delivering lifelong learning and engaging learners in an 
+empowering way.
+
+ 
+
+*/2. Objective of the Book/*
+
+The books aims to provide a comprehensive review of state-of-the-art 
+technologies for e-learning and lifelong learning. It will cover 
+theoretical approaches, models, architectures, systems and applications. 
+It will address many issues in the field, providing readers with insight 
+on the various stages of the technological life cycle, as well as 
+applications in real world settings. It will act as a one-stop reference 
+by providing a holistic view of the various issues in the area of 
+advanced technologies for lifelong learning ranging from organisational 
+issues to lifelong learning delivery issues. In the evolving educational 
+landscape it is important to support informed decision-making and 
+planning by successfully matching technologies, curriculum targets, 
+lifelong learner needs, and organisational requirements for technology 
+integration.
+
+ 
+
+*/3. Recommended Topics /*
+
+The book will aim to cover all aspects of lifelong learning systems, 
+including creating, managing and modelling content and information, 
+organisational strategy and management, technologies, curriculum 
+development, instructional design, learning delivery, open problems, 
+research issues. It will present original work and will be useful to a 
+wide range of audience from different backgrounds working as a one-stop 
+reference for those interested in technologies for e-learning and 
+lifelong learning. Recommended topics include, but are not limited to, 
+the following:
+
+-          Creating, managing and modelling content and information for 
+e-learning and lifelong learning
+
+-          Organisational strategy and management issues in developing 
+and supporting lifelong learning
+
+-          Technological issues
+
+-          Digital literacy and lifelong learning
+
+-          Curriculum development issues in lifelong learning
+
+-          Instructional design issues and impact in lifelong learning
+
+-          e-learning and lifelong learning delivery issues
+
+-          e-learning and lifelong learning research methods and approaches
+
+-          Models of distributed systems for lifelong learning
+
+-        Security, trust and privacy considerations in lifelong learning 
+e-infrastructures
+
+-        Decentralised user modelling for lifelong learning
+
+-        Collaborative web technologies for lifelong learning
+
+-        Free and open source software in lifelong learning infrastructures
+
+-        Web 2.0 technologies and lifelong learning
+
+-        User modelling and personalisation for lifelong learning
+
+-        Networked organisations for lifelong learning
+
+-        Semantic web technologies for lifelong learning
+
+-        Service-oriented architectures for e-learning and lifelong learning
+
+-        Interoperability and standards for e-learning and lifelong learning
+
+-        Communities of practice and communities of learning.
+
+-        Approaches to integration and personalisation of educational 
+systems for lifelong learning
+
+ 
+
+*/4. Submission Procedure/*
+
+Researchers and practitioners are invited to submit /on or before 
+*February 28, 2009*/, a 2-3 page chapter proposal clearly explaining the 
+mission and concerns of his or her proposed chapter. Authors of accepted 
+proposals will be notified by */March 31, 2009 /*about the status of 
+their proposals and sent chapter guidelines. Full chapters are expected 
+to be submitted by */June 20, 2009/*. All submitted chapters will be 
+reviewed on a double-blind review basis. This book is scheduled to be 
+published by IGI Global.
+
+ 
+
+/Inquiries and submissions can be forwarded *electronically* (Word 
+document) or by *mail* to:/
+
+
+          Dr. George D. Magoulas
+
+
+          London Knowledge Laboratory
+
+BIRKBECK COLLEGE, UNIVERSITY OF LONDON
+
+Tel.: +44 20 7631 6717  .  Fax: +44 20 7631 6727  
+
+E-mail: g.magoulas@dcs.bbk.ac.uk
+
+ 
+
+ 
+
+
+--------------020009000504040201090700
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<p class="HTMLBody" style="text-align: center;" align="center"><b
+ style=""><span style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">CALL
+FOR CHAPTER PROPOSALS<o:p></o:p></span></b></p>
+<p class="HTMLBody" style="text-align: center;" align="center"><b
+ style=""><span style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Proposal
+Submission Deadline: February 28, 2009<o:p></o:p></span></b></p>
+<p class="HTMLBody" style="text-align: center;" align="center"><b
+ style=""><i style=""><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">E-Infrastructures
+and
+Technologies for Lifelong Learning: Next Generation Environments<o:p></o:p></span></i></b></p>
+<span style="font-family: &quot;Book Antiqua&quot;;"><o:p></o:p></span> <br>
+<p class="MsoNormal" style=""><span style="font-family: &quot;Book Antiqua&quot;;"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style=""><span style="font-family: &quot;Book Antiqua&quot;;">1.
+<b style=""><i style="">Introduction</i></b>
+<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">The emerging
+knowledge society places new requirements
+on the education sector to support the needs of individuals and
+organisations.
+In the area of lifelong learning in particular, which is one of the
+most
+important motors driving education in the 21st century, e-learning has
+become a
+collaborative and community-based process. This calls for tools to
+support the
+autonomous and dynamic creation of lifelong learning communities and
+new
+distributed e-learning services. <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 18pt;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">To this end, the
+integration of innovative models,
+methods and technologies for the creation, storage, use, and exchange
+of
+knowledge resources and user-generated content, learning activities and
+units
+of learning, competence development programs and networks for lifelong
+learning
+is being investigated world wide. Advanced technologies that employ
+decentralised solutions where both resources and computation can be
+distributed
+have been developed in the form of online communities created by online
+collaborative tools; blogs, wikis, webcasts, webinars and social
+networking
+applications. These applications facilitate the development of a
+technical,
+organisational infrastructure for lifelong learning in formal or
+informal
+learning contexts. This e-infrastructure is composed mostly of
+open-source,
+standards-based, sustainable and innovative technologies and provides
+easy
+access to facilities that enable the lifelong development of
+competencies and
+expertise in the various occupations and fields of knowledge. <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify; text-indent: 18pt;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">The focus of
+advanced technologies is moving from building
+large monolithic systems towards defining and constructing small
+components
+which can be integrated. This method permits the development of modular
+and
+flexible distributed systems, in which components can be added, removed
+or
+replaced more easily than in traditional models of e-learning systems,
+allowing
+new applications or systems to be composed from collections of
+available
+services. Furthermore, these technologies can be seamlessly integrated
+with
+pedagogic theories in order to be adopted into the everyday practices
+of
+educational organisations and independent learners, delivering lifelong
+learning and engaging learners in an empowering way.<o:p></o:p></span></p>
+<p class="MsoNormal" style=""><span style="font-family: &quot;Book Antiqua&quot;;"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style=""><b style=""><i style=""><span
+ style="font-family: &quot;Book Antiqua&quot;;">2. Objective of the
+Book</span></i></b><span style="font-family: &quot;Book Antiqua&quot;;"> <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">The books aims
+to provide a comprehensive review of
+state-of-the-art technologies for e-learning and lifelong learning. It
+will
+cover theoretical approaches, models, architectures, systems and
+applications.
+It will address many issues in the field, providing readers with
+insight on the
+various stages of the technological life cycle, as well as applications
+in real
+world settings. It will act as a one-stop reference by providing a
+holistic
+view of the various issues in the area of advanced technologies for
+lifelong
+learning ranging from organisational issues to lifelong learning
+delivery
+issues. In the evolving educational landscape it is important to
+support
+informed decision-making and planning by successfully matching
+technologies,
+curriculum targets, lifelong learner needs, and organisational
+requirements for
+technology integration.<o:p></o:p></span></p>
+<p class="MsoNormal" style=""><span style="font-family: &quot;Book Antiqua&quot;;"><o:p>&nbsp;</o:p></span></p>
+<span style="font-family: &quot;Book Antiqua&quot;;"><o:p></o:p></span><b style=""><i
+ style=""><span style="font-family: &quot;Book Antiqua&quot;;">3. Recommended
+Topics <o:p></o:p></span></i></b>
+<p class="MsoNormal" style="text-align: justify;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">The book will
+aim to cover all aspects of lifelong
+learning systems, including creating, managing and modelling content
+and
+information, organisational strategy and management, technologies,
+curriculum
+development, instructional design, learning delivery, open problems,
+research
+issues. It will present original work and will be useful to a wide
+range of
+audience from different backgrounds working as a one-stop reference for
+those
+interested in technologies for e-learning and lifelong learning.
+Recommended topics
+include, but are not limited to, the following:<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Creating,
+managing and modelling content and
+information for e-learning and lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Organisational
+strategy and management issues in
+developing and supporting lifelong learning <o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Technological
+issues <br>
+</span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Digital literacy and lifelong learning<br>
+</span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Curriculum
+development issues in lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Instructional
+design issues and impact in lifelong
+learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">e-learning and
+lifelong learning delivery issues<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">e-learning and
+lifelong learning research methods and
+approaches<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Models of
+distributed systems for lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Security, trust
+and privacy considerations in lifelong
+learning e-infrastructures<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Decentralised
+user modelling for lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Collaborative
+web technologies for lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Free and open
+source software in lifelong learning
+infrastructures<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Web 2.0
+technologies and lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">User modelling
+and personalisation for lifelong
+learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Networked
+organisations for lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Semantic web
+technologies for lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Service-oriented
+architectures for e-learning and
+lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Interoperability
+and standards for e-learning and
+lifelong learning<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Communities of
+practice and communities of learning.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 18pt; text-indent: -18pt;"><!--[if !supportLists]--><span
+ style="font-size: 11pt; font-family: Symbol;"><span style="">-<span
+ style="font-family: &quot;Times New Roman&quot;; font-style: normal; font-variant: normal; font-weight: normal; font-size: 7pt; line-height: normal; font-size-adjust: none; font-stretch: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]--><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Approaches to
+integration and personalisation of
+educational systems for lifelong learning <o:p></o:p></span></p>
+<p class="MsoNormal" style=""><span style="font-family: &quot;Book Antiqua&quot;;"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style=""><b style=""><i style=""><span
+ style="font-family: &quot;Book Antiqua&quot;;">4. Submission
+Procedure</span></i></b><span style="font-family: &quot;Book Antiqua&quot;;"> </span><span
+ style=""><o:p></o:p></span></p>
+<p class="MsoBodyText" style="text-align: justify;"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Researchers and
+practitioners are invited to submit <i style="">on or
+before <b style="">February 28, 2009</b></i>, a 2-3
+page chapter proposal clearly explaining the mission and concerns of
+his or her
+proposed chapter. Authors of accepted proposals will be notified by <b
+ style=""><i style="">March
+31, 2009 </i></b>about the status of their proposals and sent chapter
+guidelines. Full chapters are expected to be submitted by <b style=""><i
+ style="">June 20, 2009</i></b>. All
+submitted chapters will be reviewed on a double-blind review basis. </span><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">This book is
+scheduled to be published by IGI Global</span><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"></span><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">. <o:p></o:p></span></p>
+<p class="MsoNormal"><span style=""><o:p>&nbsp;</o:p></span></p>
+<p class="MsoBodyText" style="text-align: center;" align="center"><i
+ style=""><span style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Inquiries
+and submissions can be
+forwarded <b style="">electronically</b> (Word
+document) or by <b style="">mail</b> to:<o:p></o:p></span></i></p>
+<h5 style="margin-left: 0cm; text-align: center;" align="center"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Dr.
+George D. Magoulas</span></h5>
+<h5 style="margin-left: 0cm; text-align: center;" align="center"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"></span><st1:place
+ w:st="on"><st1:City w:st="on"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">London</span></st1:City></st1:place>
+Knowledge Laboratory<br>
+</h5>
+<p class="MsoNormal" style="text-align: center;" align="center"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;"></span><st1:PlaceName
+ w:st="on"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;; font-weight: normal;">BIRKBECK</span></st1:PlaceName><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;; font-weight: normal;">
+<st1:PlaceType w:st="on">COLLEGE</st1:PlaceType>, <st1:place w:st="on"><st1:PlaceType
+ w:st="on">UNIVERSITY</st1:PlaceType> OF <st1:PlaceName w:st="on">LONDON</st1:PlaceName></st1:place><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: center;" align="center"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">Tel.:
++44 20 7631 6717<span style="">&nbsp; </span>&#8226;<span style="">&nbsp; </span>Fax:
++44 20 7631 6727<span style="">&nbsp;&nbsp; </span><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: center;" align="center"><span
+ style="font-size: 11pt; font-family: &quot;Book Antiqua&quot;;">E-mail:
+<a class="moz-txt-link-abbreviated"
+ href="mailto:g.magoulas@dcs.bbk.ac.uk">g.magoulas@dcs.bbk.ac.uk</a><o:p></o:p></span></p>
+<p class="MsoNormal"><span style=""><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style=""><o:p>&nbsp;</o:p></span></p>
+</body>
+</html>
+
+--------------020009000504040201090700--
+
+--===============1179028008==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1179028008==--

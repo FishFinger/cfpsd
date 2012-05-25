@@ -1,0 +1,2238 @@
+From - Thu Dec 10 14:35:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs32855far;
+        Sun, 15 Feb 2009 04:55:05 -0800 (PST)
+Received: by 10.210.118.7 with SMTP id q7mr3430787ebc.94.1234702505128;
+        Sun, 15 Feb 2009 04:55:05 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si12626038eyz.50.2009.02.15.04.55.03;
+        Sun, 15 Feb 2009 04:55:05 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 0A1732193B; Sun, 15 Feb 2009 13:55:02 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id DA3C32011B;
+	Sun, 15 Feb 2009 13:47:07 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B44263D35;
+	Sun, 15 Feb 2009 13:47:07 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id pNHr2u+DiX5w; Sun, 15 Feb 2009 13:47:07 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BC3053E0A;
+	Sun, 15 Feb 2009 13:46:08 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id DE4F53D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  9 Feb 2009 22:01:55 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id z8FgcwZlNGJR for <elsnet-list@mailman.elsnet.org>;
+	Mon,  9 Feb 2009 22:01:55 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id AC1EC3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  9 Feb 2009 22:01:55 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 776B720C01; Mon,  9 Feb 2009 22:01:55 +0100 (MET)
+X-Greylist: delayed 6290 seconds by postgrey-1.28 at newjura;
+	Mon, 09 Feb 2009 22:01:39 MET
+Received: from mp.cs.niu.edu (mp.cs.niu.edu [131.156.145.41])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 865E220B6C;
+	Mon,  9 Feb 2009 22:01:39 +0100 (MET)
+Received: from jiasx61 (c-24-1-24-180.hsd1.il.comcast.net [24.1.24.180])
+	(authenticated bits=0)
+	by mp.cs.niu.edu (8.14.3/8.14.3) with ESMTP id n19J90mt010534
+	(version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT);
+	Mon, 9 Feb 2009 13:09:01 -0600 (CST)
+From: "Jia Zhang" <jiazhang@cs.niu.edu>
+To: <jiazhang@cs.niu.edu>
+Date: Mon, 9 Feb 2009 13:08:54 -0600
+Organization: NIU
+Message-ID: <257501c98ae9$e35ee570$aa1cb050$@niu.edu>
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcmK6dmZFXkCzKTTQWGr3pGd7MsxlQ==
+Content-Language: en-us
+X-Mailman-Approved-At: Sun, 15 Feb 2009 13:45:45 +0100
+Cc: 
+Subject: [Elsnet-list] Gentle Reminder: IEEE ICWS 2009 Submission Deadline
+	Approaching - 2/15/2009
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: jiazhang@cs.niu.edu
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0887828123=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multipart message in MIME format.
+
+--===============0887828123==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_2576_01C98AB7.98C47570"
+Content-Language: en-us
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_2576_01C98AB7.98C47570
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for cross-postings. Please send it to interested colleagues =
+and
+students. Thanks!
+
+=20
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D Submission Deadline =
+Approaching =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+=20
+
+ICWS 2009 Submission Site is Open: (Submission Deadline Approaching:
+2/15/2009)
+
+http://conferences.computer.org/icws/2009/submission.html
+
+=20
+
+::::::::::::::::::::::::: CALL FOR PAPERS :::::::::::::::::::::::::
+
+The 7th IEEE International Conference on Web Services (ICWS 2009)
+
+http://conferences.computer.org/icws/2009
+
+July 6-10, 2009, Los Angeles, CA, USA
+
+=20
+
+Theme: Innovations for Web-based Services
+
+=20
+
+Sponsored by:
+
+IEEE Computer Society Technical Committee on Services Computing
+(http://tab.computer.org/tcsc) &
+
+Services Society (http://www.servicessociety.org) (Approval Pending)
+
+=20
+
+*************************************** NEWS **********************
+
+Call for Papers: IEEE Transactions on Services Computing (TSC,
+http://computer.org/tsc). Special theme issues from ICWS 2009 will be
+published in TSC.
+
+=20
+
+Call for Papers: International Journal of Web Services Research (JWSR,
+http://www.servicescomputing.org/jwsr/) has been indexed by SCI-E. =
+Special
+theme issues from ICWS 2009 will be published in JWSR.
+
+=20
+
+Call For papers: International Journal of Business Process Integration =
+and
+Management (IJBPIM, http://ijbpim.servicescomputing.org/)
+
+********************************************************************
+
+=20
+
+ICWS 2009 organizing committee invites you to participate in the seventh
+edition of ICWS, to be held in Los Angeles, CA, USA.
+
+=20
+
+ICWS has been a prime international forum for both researchers and =
+industry
+practitioners to exchange the latest fundamental advances in the state =
+of
+the art on Web services. ICWS aims to identify emerging research topics =
+and
+define the future of Web services. Over the past seven years, ICWS has =
+grown
+steadily, attracting over 250 participants on a regular basis. Previous
+editions of ICWS have been held (most recent first) in Beijing, Salt =
+Lake
+City, Chicago, Orlando, San Diego, and Las Vegas.
+
+=20
+
+ICWS 2009 will co-locate with the Fourth World Congress on Services
+(SERVICES 2009) to explore the science and technology of all aspects of
+"Services", which has been formally promoted by IEEE Computer Society =
+since
+2003. In addition, ICWS 2009 will be supported by a set of keynotes, =
+panels,
+and tutorials.
+
+=20
+
+The technical program of ICWS 2009 will include a refereed research =
+track,
+an application and industry track, a work-in-progress track, and a =
+poster
+track. The research track will highlight foundational work that strives =
+to
+push beyond the limits of existing Web services platforms and products,
+including experimental efforts, innovative systems and investigations =
+that
+identify weaknesses in the existing Web services models.
+
+=20
+
+The ICWS 2009 research track seeks original, UNPUBLISHED research papers
+reporting substantive new work in various aspects of Web services. =
+Research
+papers must properly cite related work and clearly indicate their
+contributions to the field of Web services. All topics relevant to Web
+services are of interest, but the conference program committee =
+particularly
+encourages submissions related to the following aspects of Web services:
+
+=20
+
+Foundations of Web Services
+
+=20
+
+        * Service-Oriented Architecture (SOA) and Evolutions
+
+        * Models, methodologies, and tools (including analysis, design,
+modeling, and composition)
+
+        * Publishing, discovery, and selection (including in mobile
+settings)
+
+        * Validation and testing (including risk assessment and =
+tracking)
+
+        * Management and governance (including monitoring, QoS, privacy,
+trust)=20
+
+        * Formal methods (including modeling and specification, data and
+process semantics, type systems, security, QoS, and other properties)
+
+        * Standards and implementation and deployment technologies
+
+  =20
+
+Web-based Services
+
+       =20
+
+        * Web 2.0 and Web X.0 concepts in Web services settings=20
+
+        * Software as a Service (SaaS)
+
+        * Service As Software
+
+        * Cloud Computing
+
+        * Technologies for building and operating massive data centers
+(including middleware)
+
+=20
+
+Web Services Applications beyond Web
+
+=20
+
+        * Applications (including mobile, scientific, Grid and utility,
+autonomic, and embedded computing)
+
+        * Business process management (including business protocols,
+business intelligence, service level agreements, and business licensing
+models)
+
+=20
+
+All submitted manuscripts will be peer-reviewed by at least 3 program
+committee members. Accepted papers will appear in the conference =
+proceedings
+published by the IEEE Computer Society Press. Extended versions of =
+selected
+papers published in the ICWS 2009 will be invited through a fast review
+channel for potential publication in the IEEE Transactions on Services
+Computing (TSC), International Journal of Web Services Research (JWSR) =
+and
+the International Journal of Business Process Integration and Management
+(IJBPIM). Both the ICWS Proceedings and JWSR are included in EI =
+Compendex.
+JWSR is also indexed in SCI-E.
+
+=20
+
+Submitted manuscripts will be limited to 8 (IEEE Proceedings style) =
+pages
+and REQUIRED to be formatted using the IEEE Proceedings template.
+Unformatted papers and papers beyond 8 pages will not be reviewed.
+Electronic submission of manuscripts (in PDF or Word format) is =
+required.
+Detailed instructions for electronic paper preparation and submission, =
+panel
+proposals, tutorial proposals, workshop proposals, and review process =
+can be
+found at http://conferences.computer.org/icws/2009/. At least one author =
+of
+each accepted paper is required to register to the conference and =
+present
+the paper. One Best Paper award and one Best Student Paper award will be
+granted at ICWS 2009. The first author of the best student paper must be =
+a
+full-time student.
+
+=20
+
+If your paper is application or solution oriented, you can consider
+submitting it to ICWS 2009 Applications and Industry Track. Manuscripts
+submitted to the Research Track focusing on application or solution
+descriptions may be recommended to the Applications and Industry Track =
+for
+further consideration if the session slots are available. Submitted =
+papers
+with novel ideas but not accepted by the Research Track and Applications =
+and
+Industry Track may also be recommended for potential consideration by =
+the
+chairs of the Work-in-Progress Track and Poster Track of ICWS 2009, and
+other tracks and workshops of SERVICES 2009.
+
+=20
+
+ICWS Program Committee requires that authors adopt the keywords and =
+index
+terms in Services Computing "M" from the IEEE CS taxonomy
+(computer.org/tsc).
+
+=20
+
+Important Dates:
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Abstract Submission Deadline: February 15, 2009
+
+Full Paper Submission Due Date: February 15, 2009
+
+Decision Notification (Electronic): March 31, 2009
+
+Camera-Ready Copy Due Date & Pre-registration Due: April 17, 2009
+
+=20
+
+Organizing Committee
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+General Chair
+
+Paul Hofmann, Ph.D., Vice President Research, SAP Labs, USA
+
+=20
+
+Program Committee Chairs
+
+Ernesto Damiani, Ph.D., Professor, Dept. of Computer Technology, =
+University
+of Milan, Italy. Head of the University of Milan's Ph.D. School in =
+Computer
+Science
+
+Rong Chang, Ph.D., IBM T.J. Watson Research Center, USA
+
+=20
+
+Program Committee Vice Chair
+
+Jia Zhang, Ph.D., Assistant Professor, Department of Computing Science,
+Northern Illinois University, USA
+
+=20
+
+Applications and Industry Chair
+
+Wu Chou, Ph.D., IEEE Fellow, Director, Avaya Labs Fellow, Avaya Labs
+Research, USA
+
+=20
+
+Work-in-Progress Chair
+
+Onyeka Ezenwoye, Ph.D., Assistant Professor, South Dakota State =
+University,
+USA
+
+=20
+
+Poster Chairs
+
+Incheon Paik, Ph.D., Associate Professor, The University of Aizu, Japan
+
+Ali Bahrami, Ph.D., Associate Technical Fellow, The Boeing Company, USA
+
+Hong Cai, Ph.D., Chief Architecture, IBM China Software Development Lab
+
+=20
+
+Publication Chair
+
+Patrick C.K. Hung, Ph.D., Associate Professor, Faculty of Business and
+Information Technology, University of Ontario Institute of Technology
+(UOIT), Canada, Adjunct Assistant Professor, Department of Electrical =
+and
+Computer Engineering, University of Waterloo, Canada
+
+=20
+
+Local Arrangement Chair
+
+Qun Zhou, IBM T.J. Watson Research Center, USA
+
+=20
+
+Global SOA Industry Summit Chair
+
+Tony Shan, IBM Global Technology Services, USA
+
+Dejan S. Milojicic, Ph.D., HP Labs, USA
+
+=20
+
+Publicity Chairs
+
+Charles Shoniregun, Ph.D., Programme Leader for MSc TM, School of =
+Computing
+& Technology, University of East London, UK
+
+Mikio Aoyama, Ph.D., Professor, Department of Information and
+Telecommunication Engineering, Nanzan University, Japan
+
+Hong Mei, Ph.D., Professor, Director, Institute of Software, Dean, =
+School of
+Electronics Engineering and Computer Science, Peking University, China
+
+=20
+
+Panel Chairs
+
+Calton Pu, Ph.D., Professor and John P. Imlay, Jr. Chair in Software,
+Georgia Tech, USA
+
+Geng Lin, Ph.D., CTO of Cisco IBM Alliance, USA
+
+Bhavani Thuraisingham, Ph.D., Professor, University of Texas at Dallas, =
+USA
+
+Casey Fung, Ph.D., Boeing Phantom Works, USA
+
+=20
+
+Tutorial Chairs
+
+Ling Liu, Ph.D., Associate Professor, College of Computing, Georgia
+Institute of Technology, USA
+
+Brian Blake, Ph.D., Associate Professor and Chair, Department of =
+Computing
+Science, Georgetown University, USA
+
+=20
+
+Workshop Chairs
+
+Umesh Bellur, Ph.D., Professor, IIT Bombay, India
+
+Jian Yang, Ph.D., Associate Professor, Department of Computing, =
+Macquaire
+University, Australia
+
+Pradip K Srimani, Ph.D., Professor, Department of Computer Science, =
+Clemson
+University, USA
+
+=20
+
+Ph.D. Symposium Chair
+
+Steve Yau, Ph.D., Professor, Department of Computing Science, Arizona =
+State
+University, USA
+
+=20
+
+Services Cup Contest Chairs
+
+Min Luo, Ph.D., IBM Global Services, USA.
+
+Yuhong Yan, Ph.D., Assistant Professor, Concordia University, Canada
+
+Sujoy Basu, Ph.D., HP Labs - Palo Alto, USA
+
+Sushil Prasad, Ph.D., Professor, Georgia State University, USA
+
+=20
+
+Body of Knowledge Chairs
+
+Michael Goul, Ph.D., Professor, W.P. Carey School of Business, Arizona =
+State
+University, USA
+
+Yanchun Zhang, Ph.D., Director, Centre for Applied Informatics Research
+School of Computer Science & Mathematics, Victoria University, Australia
+
+=20
+
+Services Education Methodology Summit Chairs
+
+Hemant Jain, Ph.D., Wisconsin Distinguished Professor, Management
+Information Systems, Tata Consulting Services Professor, University of
+Wisconsin - Milwaukee, USA
+
+Andreas Wombacher, Ph.D., Assistant Professor, University of Twente, The
+Netherlands
+
+Zhixiong Chen, Ph.D., Professor, Mathematics and Computer Information
+Science, Mercy College, USA
+
+=20
+
+Job Fair Chair
+
+Anup Kumar, Ph.D., Professor, University of Louisville, USA
+
+=20
+
+Innovation Show Case Chairs
+
+Atilla Elci, Ph.D., Eatern Mediterranean University, Turkey
+
+Wing-Kwong Chan, Ph.D., City of University of Hong Kong, China
+
+=20
+
+Registration Chair
+
+Thomas Kwok, Sc.D., IBM T.J. Watson Research Center, USA
+
+=20
+
+Technical Steering Committee
+
+Carl K. Chang, Ph.D., Department Chair and Professor, Iowa State =
+University,
+USA
+
+Ephraim Feig, Ph.D., President, Innovations-to-Market, USA
+
+Hemant Jain, Ph.D., Professor, University of Wisconsin at Milwaukee , =
+USA
+
+Frank Leymann, Ph.D., Professor, University of Stuttgart, Germany
+
+Calton Pu, Ph.D., Professor and John P. Imlay, Jr. Chair in Software,
+Georgia Tech, USA
+
+Jeffrey Tsai, Ph.D., Professor, University of Illinois at Chicago, USA
+
+Zhiwei Xu, Ph.D., Institute of Computing Technology, China
+
+Liang-Jie Zhang, Ph.D. (Chair), Research Staff Member and Founding Chair =
+of
+Services Computing Professional Interest Community, IBM T.J. Watson =
+Research
+Center, USA
+
+=20
+
+Program Committee
+
+Marco Aiello, University of Groningen, Netherlands
+
+Sriram Anand, Accenture, India
+
+Mikio Aoyama, Nanzan University, Japan
+
+Danilo Ardagna, Politecnico di Milano, Italy
+
+Akhilesh Bajaj, University of Tulsa, USA
+
+Matteo Baldoni, University of Torino, Italy
+
+Alistair Barros, SAP Research, USA
+
+Boualem Benatallah, University of New South Wales, Australia
+
+Elisa Bertino, Purdue University, USA
+
+Athman Bouguettaya, CSIRO ICT Center, Canberra, ACT, Australia
+
+Christoph Bussler, Merced Systems, Inc., USA
+
+Jorge Cardoso, SAP Research, Germany and University of Madeira, Portugal
+
+Fabio Casati, Trento University, Italy
+
+Malu G. Castellanos, HP Labs, USA
+
+Coimbatore Chandersekaran, Air Force, IDA, USA
+
+Wing-Kwong Chan, City University of Hong Kong, Hong Kong
+
+Jeane Chen, Kintera, USA
+
+Shiping Chen, CSIRO ICT Centre Australia
+
+Ying Chen, IBM China Research Lab, China
+
+Dickson K.W. Chiu, Dickson Computer Systems, Hong Kong, China
+
+Wu Chou, Avaya Labs Research, Avaya, USA
+
+William Cheng-Chung Chu, Tunghai University, Taiwan
+
+Cecil Chua, Nanyang Technological University, Singapore
+
+Florian Daniel, University of Trento, Italy
+
+Nirmit Desai, IBM India Research Lab
+
+Marlon Dumas, University of Tartu, Estonia
+
+Schahram Dustdar, Vienna University of Technology, Austria
+
+Vadim Ermolayev, Zaporozhye National University, Ukraine
+
+Onyeka Ezenwoye, South Dakota State University
+
+Ben Falchuk, Telcordia Technologies, Inc., USA
+
+Ephraim Feig, Innovations-to-Market, USA
+
+Elena Ferrari, Politiche e dell'Informazione, University of Insubria at
+Como, Italy
+
+Sebastian Fischmeister, University of Waterloo, Canada
+
+Piero Fraternali, Politecnico di Milano, Italy
+
+Dimitrios Georgakopolous, CSIRO ICT Center, Canberra, ACT, Australia
+
+Vladimir Getov, University of Westminster, UK
+
+Shahram Ghandeharizadeh, University of Southern California, USA
+
+Vijay K. Gurbani, Bell Laboratories, Alcatel-Lucent, USA
+
+Mohand-Sa?d Hacid, Universit=E9 Claude Bernard Lyon, France
+
+Satoshi Hada, IBM Tokyo Research Lab, Japan
+
+James Harland, RMIT University, Australia
+
+Ken Hopkinson, Air Force Institute of Technology, USA
+
+Jinpeng Huai, Beihang University, China
+
+Patrick C. K. Hung, University of Ontario Institute of Technology, =
+Canada
+
+Toru Ishida, Kyoto University, Japan
+
+Arun Iyengar, IBM T.J. Watson Research Center, USA
+
+Varghese S. Jacob, University of Texas at Dallas, USA
+
+Hemant Jain, University of Wisconsin - Milwaukee, USA
+
+Hai Jin, HUST, China
+
+Sandeep M Karamongikar, InfoSys, India
+
+Rania Khalaf, IBM T.J. Watson Research Center, USA
+
+Akhil Kumar, Penn State, USA
+
+Herman Lam, University of Florida, USA
+
+Konstantin L?ufer, Loyola University Chicago, USA
+
+Frank Leymann, University of Stuttgart, Germany
+
+Ling Liu, Georgia Institute of Technology, USA
+
+Xiaoqing (Frank) Liu, Missouri University, USA
+
+Shiyong Lu, Wayne State University, USA
+
+Heiko Ludwig, IBM Research, USA
+
+Tiziana Margaria, University of Potsdam, Germany
+
+Carolyn McGregor, University of Ontario Institute of Technology, Canada
+
+Dennis McLeod, Univeristy of Southern California, USA
+
+Hong Mei, Peking University, China
+
+Weiyi Meng, Binghamton University, USA
+
+Dejan S. Milojicic, HP Laboratories, USA
+
+Simanta Mitra, Iowa State University, USA
+
+Louise Moser, U.C. Santa Barbara, USA
+
+Gilles Muller, Ecoles des Mines de Nantes, France
+
+Krzys Ostrowski, Cornell University, USA
+
+Srinivas Padmanabhuni, Infosys India
+
+Sushil Prasad, Georgia State University, USA
+
+Calton Pu, Georgia Institute of Technology, USA
+
+Manfred Reichert, University of Ulm, Germany
+
+Norbert Ritter, University of Hamburg, Germany
+
+Marcus Rothenberger, University of Nevada Las Vegas, USA
+
+Ming-Chien Shan, SAP Research, USA
+
+Liuba Shrira, Brandeis University, USA
+
+Gautam Shroff, Tata Consultancy Services, India
+
+Munindar P. Singh, North Carolina State University, USA
+
+George Spanoudakis, City University, UK
+
+Judith Stafford, Tufts University, USA
+
+Vijayan Sugumaran, Oakland University, USA
+
+Kevin Sullivan, University of Virginia, USA
+
+Stefan Tai, Karlsruhe Institute of Technology (KIT), Germany
+
+Azzel Taleb-Bendiab, Liverpool John Moores University, UK
+
+Bhavania Thuraisingham, UT Dallas, USA
+
+Scott Tilley, Florida Institute of Technology, USA
+
+Vladimir Tosic, NICTA, Australia; University of New South Wales, =
+Australia;
+University of Western Ontario, Canada
+
+Kunal Verma, Accenture Technology Labs, USA
+
+Harry Jiannan Wang, University of Delaware, USA
+
+Andreas Wombacher, University of Twente, Netherlands
+
+Stephen J.H. Yang, National Central University, Taiwan
+
+Jian Yang, Macquaire University, Australia
+
+Hongji Yang, Montfort University, UK
+
+Pinar Yolum, Bogazici University, Turkey
+
+Liang-Jie Zhang, IBM T.J. Watson Research Center, USA
+
+Leon Zhao, University of Arizona, USA
+
+Nianjun (Joe) Zhou, IBM Research, USA
+
+Hong Zhu, Oxford Brookes University, UK
+
+Kezysztof Zielinski, University of Science and Technology, Poland=20
+
+=20
+
+Review Policy
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+IEEE Policy and professional ethics require that referees treat the =
+contents
+of papers under review as privileged information not to be disclosed to
+others before publication. It is expected that no one with access to a =
+paper
+under review will make any inappropriate use of the special knowledge =
+that
+access provides. Contents of abstracts submitted to conference program
+committees should be regarded as privileged as well, and handled in the =
+same
+manner. The Conference Publications Chair shall ensure that referees =
+adhere
+to this practice.
+
+=20
+
+Organizers of IEEE conferences are expected to provide an appropriate =
+forum
+for the oral presentations and discussions of all accepted papers. An
+author, in offering a paper for presentation at an IEEE conference, or
+accepting an invitation to present a paper, is expected to be present at =
+the
+meeting to deliver the paper. In the event that circumstances unknown at =
+the
+time of submission of a paper preclude its presentation by an author, =
+the
+program chair should be informed on time, and appropriate substitute
+arrangements should be made. In some cases it may help reduce no-shows =
+for
+the Conference to require advance registration together with the =
+submission
+of the final manuscript.
+
+=20
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D
+
+=20
+
+Please join us at: IEEE Services Computing Community
+
+=20
+
+To join, please visit https://www.ieeecommunities.org/services and =
+follow
+instructions to apply for free membership. As a member, you will be
+permitted to login and participate in the community, including accessing
+IEEE Body of Knowledge on Services Computing (servicescomputing.tv).
+
+=20
+
+=20
+
+
+------=_NextPart_000_2576_01C98AB7.98C47570
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:\5B8B\4F53;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@\5B8B\4F53";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Apologies
+for cross-postings. Please send it to interested colleagues and =
+students.
+Thanks!<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Submission Deadline Approaching =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>ICWS
+2009 Submission Site is Open: (Submission Deadline Approaching: =
+2/15/2009)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>http://conferences.computer.org/icws/2009/submission.html=
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>:::::::::::::::::::::::::
+CALL FOR PAPERS :::::::::::::::::::::::::<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>The
+7th IEEE International Conference on Web Services (ICWS =
+2009)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>http://conferences.computer.org/icws/2009<o:p></o:p></spa=
+n></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>July
+6-10, 2009, Los Angeles, CA, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Theme:
+Innovations for Web-based Services<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sponsored
+by:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>IEEE
+Computer Society Technical Committee on Services Computing
+(http://tab.computer.org/tcsc) &amp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Services
+Society (http://www.servicessociety.org) (Approval =
+Pending)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>***************************************
+NEWS **********************<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Call
+for Papers: IEEE Transactions on Services Computing (TSC,
+http://computer.org/tsc). Special theme issues from ICWS 2009 will be =
+published
+in TSC.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Call
+for Papers: International Journal of Web Services Research (JWSR,
+http://www.servicescomputing.org/jwsr/) has been indexed by SCI-E. =
+Special
+theme issues from ICWS 2009 will be published in =
+JWSR.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Call
+For papers: International Journal of Business Process Integration and
+Management (IJBPIM, =
+http://ijbpim.servicescomputing.org/)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>*********************************************************=
+***********<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>ICWS
+2009 organizing committee invites you to participate in the seventh =
+edition of
+ICWS, to be held in Los Angeles, CA, USA.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>ICWS
+has been a prime international forum for both researchers and industry
+practitioners to exchange the latest fundamental advances in the state =
+of the
+art on Web services. ICWS aims to identify emerging research topics and =
+define
+the future of Web services. Over the past seven years, ICWS has grown =
+steadily,
+attracting over 250 participants on a regular basis. Previous editions =
+of ICWS
+have been held (most recent first) in Beijing, Salt Lake City, Chicago,
+Orlando, San Diego, and Las Vegas.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>ICWS
+2009 will co-locate with the Fourth World Congress on Services (SERVICES =
+2009)
+to explore the science and technology of all aspects of =
+&quot;Services&quot;,
+which has been formally promoted by IEEE Computer Society since 2003. In
+addition, ICWS 2009 will be supported by a set of keynotes, panels, and
+tutorials.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>The
+technical program of ICWS 2009 will include a refereed research track, =
+an
+application and industry track, a work-in-progress track, and a poster =
+track.
+The research track will highlight foundational work that strives to push =
+beyond
+the limits of existing Web services platforms and products, including
+experimental efforts, innovative systems and investigations that =
+identify
+weaknesses in the existing Web services models.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>The
+ICWS 2009 research track seeks original, UNPUBLISHED research papers =
+reporting
+substantive new work in various aspects of Web services. Research papers =
+must
+properly cite related work and clearly indicate their contributions to =
+the
+field of Web services. All topics relevant to Web services are of =
+interest, but
+the conference program committee particularly encourages submissions =
+related to
+the following aspects of Web services:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Foundations
+of Web Services<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Service-Oriented Architecture (SOA) and =
+Evolutions<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Models, methodologies, and tools (including analysis, design, =
+modeling, and
+composition)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Publishing, discovery, and selection (including in mobile =
+settings)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Validation and testing (including risk assessment and =
+tracking)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Management and governance (including monitoring, QoS, privacy, trust) =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Formal methods (including modeling and specification, data and process
+semantics, type systems, security, QoS, and other =
+properties)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Standards and implementation and deployment =
+technologies<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Web-based
+Services<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Web 2.0 and Web X.0 concepts in Web services settings =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Software as a Service (SaaS)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Service As Software<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Cloud Computing<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Technologies for building and operating massive data centers =
+(including
+middleware)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Web
+Services Applications beyond Web<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Applications (including mobile, scientific, Grid and utility, =
+autonomic, and
+embedded computing)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Business process management (including business protocols, business
+intelligence, service level agreements, and business licensing =
+models)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>All
+submitted manuscripts will be peer-reviewed by at least 3 program =
+committee
+members. Accepted papers will appear in the conference proceedings =
+published by
+the IEEE Computer Society Press. Extended versions of selected papers =
+published
+in the ICWS 2009 will be invited through a fast review channel for =
+potential
+publication in the IEEE Transactions on Services Computing (TSC), =
+International
+Journal of Web Services Research (JWSR) and the International Journal of
+Business Process Integration and Management (IJBPIM). Both the ICWS =
+Proceedings
+and JWSR are included in EI Compendex. JWSR is also indexed in =
+SCI-E.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Submitted
+manuscripts will be limited to 8 (IEEE Proceedings style) pages and =
+REQUIRED to
+be formatted using the IEEE Proceedings template. Unformatted papers and =
+papers
+beyond 8 pages will not be reviewed. Electronic submission of =
+manuscripts (in
+PDF or Word format) is required. Detailed instructions for electronic =
+paper
+preparation and submission, panel proposals, tutorial proposals, =
+workshop
+proposals, and review process can be found at
+http://conferences.computer.org/icws/2009/. At least one author of each
+accepted paper is required to register to the conference and present the =
+paper.
+One Best Paper award and one Best Student Paper award will be granted at =
+ICWS
+2009. The first author of the best student paper must be a full-time =
+student.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>If
+your paper is application or solution oriented, you can consider =
+submitting it
+to ICWS 2009 Applications and Industry Track. Manuscripts submitted to =
+the
+Research Track focusing on application or solution descriptions may be
+recommended to the Applications and Industry Track for further =
+consideration if
+the session slots are available. Submitted papers with novel ideas but =
+not
+accepted by the Research Track and Applications and Industry Track may =
+also be
+recommended for potential consideration by the chairs of the =
+Work-in-Progress
+Track and Poster Track of ICWS 2009, and other tracks and workshops of =
+SERVICES
+2009.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>ICWS
+Program Committee requires that authors adopt the keywords and index =
+terms in
+Services Computing &quot;M&quot; from the IEEE CS taxonomy =
+(computer.org/tsc).<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Important
+Dates:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></sp=
+an></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Abstract
+Submission Deadline: February 15, 2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Full
+Paper Submission Due Date: February 15, 2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Decision
+Notification (Electronic): March 31, 2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Camera-Ready
+Copy Due Date &amp; Pre-registration Due: April 17, =
+2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Organizing
+Committee<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p><=
+/o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>General
+Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Paul
+Hofmann, Ph.D., Vice President Research, SAP Labs, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Program
+Committee Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ernesto
+Damiani, Ph.D., Professor, Dept. of Computer Technology, University of =
+Milan,
+Italy. Head of the University of Milan's Ph.D. School in Computer =
+Science<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Rong
+Chang, Ph.D., IBM T.J. Watson Research Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Program
+Committee Vice Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jia
+Zhang, Ph.D., Assistant Professor, Department of Computing Science, =
+Northern
+Illinois University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Applications
+and Industry Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Wu
+Chou, Ph.D., IEEE Fellow, Director, Avaya Labs Fellow, Avaya Labs =
+Research, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Work-in-Progress
+Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Onyeka
+Ezenwoye, Ph.D., Assistant Professor, South Dakota State University, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Poster
+Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Incheon
+Paik, Ph.D., Associate Professor, The University of Aizu, =
+Japan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ali
+Bahrami, Ph.D., Associate Technical Fellow, The Boeing Company, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hong
+Cai, Ph.D., Chief Architecture, IBM China Software Development =
+Lab<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Publication
+Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Patrick
+C.K. Hung, Ph.D., Associate Professor, Faculty of Business and =
+Information
+Technology, University of Ontario Institute of Technology (UOIT), =
+Canada,
+Adjunct Assistant Professor, Department of Electrical and Computer =
+Engineering,
+University of Waterloo, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Local
+Arrangement Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Qun
+Zhou, IBM T.J. Watson Research Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Global
+SOA Industry Summit Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Tony
+Shan, IBM Global Technology Services, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Dejan
+S. Milojicic, Ph.D., HP Labs, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Publicity
+Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Charles
+Shoniregun, Ph.D., Programme Leader for MSc TM, School of Computing =
+&amp;
+Technology, University of East London, UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Mikio
+Aoyama, Ph.D., Professor, Department of Information and =
+Telecommunication
+Engineering, Nanzan University, Japan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hong
+Mei, Ph.D., Professor, Director, Institute of Software, Dean, School of
+Electronics Engineering and Computer Science, Peking University, =
+China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Panel
+Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Calton
+Pu, Ph.D., Professor and John P. Imlay, Jr. Chair in Software, Georgia =
+Tech,
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Geng
+Lin, Ph.D., CTO of Cisco IBM Alliance, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Bhavani
+Thuraisingham, Ph.D., Professor, University of Texas at Dallas, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Casey
+Fung, Ph.D., Boeing Phantom Works, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Tutorial
+Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ling
+Liu, Ph.D., Associate Professor, College of Computing, Georgia Institute =
+of
+Technology, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Brian
+Blake, Ph.D., Associate Professor and Chair, Department of Computing =
+Science,
+Georgetown University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Workshop
+Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Umesh
+Bellur, Ph.D., Professor, IIT Bombay, India<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jian
+Yang, Ph.D., Associate Professor, Department of Computing, Macquaire
+University, Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Pradip
+K Srimani, Ph.D., Professor, Department of Computer Science, Clemson
+University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ph.D.
+Symposium Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Steve
+Yau, Ph.D., Professor, Department of Computing Science, Arizona State
+University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Services
+Cup Contest Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Min
+Luo, Ph.D., IBM Global Services, USA.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Yuhong
+Yan, Ph.D., Assistant Professor, Concordia University, =
+Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sujoy
+Basu, Ph.D., HP Labs - Palo Alto, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sushil
+Prasad, Ph.D., Professor, Georgia State University, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Body
+of Knowledge Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Michael
+Goul, Ph.D., Professor, W.P. Carey School of Business, Arizona State
+University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Yanchun
+Zhang, Ph.D., Director, Centre for Applied Informatics Research School =
+of
+Computer Science &amp; Mathematics, Victoria University, =
+Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Services
+Education Methodology Summit Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hemant
+Jain, Ph.D., Wisconsin Distinguished Professor, Management Information =
+Systems,
+Tata Consulting Services Professor, University of Wisconsin - Milwaukee, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Andreas
+Wombacher, Ph.D., Assistant Professor, University of Twente, The =
+Netherlands<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Zhixiong
+Chen, Ph.D., Professor, Mathematics and Computer Information Science, =
+Mercy
+College, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Job
+Fair Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Anup
+Kumar, Ph.D., Professor, University of Louisville, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Innovation
+Show Case Chairs<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Atilla
+Elci, Ph.D., Eatern Mediterranean University, =
+Turkey<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Wing-Kwong
+Chan, Ph.D., City of University of Hong Kong, =
+China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Registration
+Chair<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Thomas
+Kwok, Sc.D., IBM T.J. Watson Research Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Technical
+Steering Committee<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Carl
+K. Chang, Ph.D., Department Chair and Professor, Iowa State University, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ephraim
+Feig, Ph.D., President, Innovations-to-Market, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hemant
+Jain, Ph.D., Professor, University of Wisconsin at Milwaukee , =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Frank
+Leymann, Ph.D., Professor, University of Stuttgart, =
+Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Calton
+Pu, Ph.D., Professor and John P. Imlay, Jr. Chair in Software, Georgia =
+Tech,
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jeffrey
+Tsai, Ph.D., Professor, University of Illinois at Chicago, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Zhiwei
+Xu, Ph.D., Institute of Computing Technology, =
+China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Liang-Jie
+Zhang, Ph.D. (Chair), Research Staff Member and Founding Chair of =
+Services
+Computing Professional Interest Community, IBM T.J. Watson Research =
+Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Program
+Committee<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Marco
+Aiello, University of Groningen, Netherlands<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sriram
+Anand, Accenture, India<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Mikio
+Aoyama, Nanzan University, Japan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Danilo
+Ardagna, Politecnico di Milano, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Akhilesh
+Bajaj, University of Tulsa, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Matteo
+Baldoni, University of Torino, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Alistair
+Barros, SAP Research, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Boualem
+Benatallah, University of New South Wales, =
+Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Elisa
+Bertino, Purdue University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Athman
+Bouguettaya, CSIRO ICT Center, Canberra, ACT, =
+Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Christoph
+Bussler, Merced Systems, Inc., USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jorge
+Cardoso, SAP Research, Germany and University of Madeira, =
+Portugal<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Fabio
+Casati, Trento University, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Malu
+G. Castellanos, HP Labs, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Coimbatore
+Chandersekaran, Air Force, IDA, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Wing-Kwong
+Chan, City University of Hong Kong, Hong Kong<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jeane
+Chen, Kintera, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Shiping
+Chen, CSIRO ICT Centre Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ying
+Chen, IBM China Research Lab, China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Dickson
+K.W. Chiu, Dickson Computer Systems, Hong Kong, =
+China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Wu
+Chou, Avaya Labs Research, Avaya, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>William
+Cheng-Chung Chu, Tunghai University, Taiwan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Cecil
+Chua, Nanyang Technological University, Singapore<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Florian
+Daniel, University of Trento, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Nirmit
+Desai, IBM India Research Lab<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Marlon
+Dumas, University of Tartu, Estonia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Schahram
+Dustdar, Vienna University of Technology, Austria<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Vadim
+Ermolayev, Zaporozhye National University, Ukraine<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Onyeka
+Ezenwoye, South Dakota State University<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ben
+Falchuk, Telcordia Technologies, Inc., USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ephraim
+Feig, Innovations-to-Market, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Elena
+Ferrari, Politiche e dell'Informazione, University of Insubria at Como, =
+Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sebastian
+Fischmeister, University of Waterloo, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Piero
+Fraternali, Politecnico di Milano, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Dimitrios
+Georgakopolous, CSIRO ICT Center, Canberra, ACT, =
+Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Vladimir
+Getov, University of Westminster, UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Shahram
+Ghandeharizadeh, University of Southern California, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Vijay
+K. Gurbani, Bell Laboratories, Alcatel-Lucent, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Mohand-Sa?d
+Hacid, Universit=E9 Claude Bernard Lyon, France<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Satoshi
+Hada, IBM Tokyo Research Lab, Japan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>James
+Harland, RMIT University, Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ken
+Hopkinson, Air Force Institute of Technology, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jinpeng
+Huai, Beihang University, China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Patrick
+C. K. Hung, University of Ontario Institute of Technology, =
+Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Toru
+Ishida, Kyoto University, Japan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Arun
+Iyengar, IBM T.J. Watson Research Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Varghese
+S. Jacob, University of Texas at Dallas, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hemant
+Jain, University of Wisconsin - Milwaukee, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hai
+Jin, HUST, China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sandeep
+M Karamongikar, InfoSys, India<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Rania
+Khalaf, IBM T.J. Watson Research Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Akhil
+Kumar, Penn State, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Herman
+Lam, University of Florida, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Konstantin
+L?ufer, Loyola University Chicago, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Frank
+Leymann, University of Stuttgart, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ling
+Liu, Georgia Institute of Technology, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Xiaoqing
+(Frank) Liu, Missouri University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Shiyong
+Lu, Wayne State University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Heiko
+Ludwig, IBM Research, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Tiziana
+Margaria, University of Potsdam, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Carolyn
+McGregor, University of Ontario Institute of Technology, =
+Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Dennis
+McLeod, Univeristy of Southern California, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hong
+Mei, Peking University, China<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Weiyi
+Meng, Binghamton University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Dejan
+S. Milojicic, HP Laboratories, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Simanta
+Mitra, Iowa State University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Louise
+Moser, U.C. Santa Barbara, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Gilles
+Muller, Ecoles des Mines de Nantes, France<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Krzys
+Ostrowski, Cornell University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Srinivas
+Padmanabhuni, Infosys India<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Sushil
+Prasad, Georgia State University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Calton
+Pu, Georgia Institute of Technology, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Manfred
+Reichert, University of Ulm, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Norbert
+Ritter, University of Hamburg, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Marcus
+Rothenberger, University of Nevada Las Vegas, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Ming-Chien
+Shan, SAP Research, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Liuba
+Shrira, Brandeis University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Gautam
+Shroff, Tata Consultancy Services, India<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Munindar
+P. Singh, North Carolina State University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>George
+Spanoudakis, City University, UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Judith
+Stafford, Tufts University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Vijayan
+Sugumaran, Oakland University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Kevin
+Sullivan, University of Virginia, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Stefan
+Tai, Karlsruhe Institute of Technology (KIT), =
+Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Azzel
+Taleb-Bendiab, Liverpool John Moores University, =
+UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Bhavania
+Thuraisingham, UT Dallas, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Scott
+Tilley, Florida Institute of Technology, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Vladimir
+Tosic, NICTA, Australia; University of New South Wales, Australia; =
+University
+of Western Ontario, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Kunal
+Verma, Accenture Technology Labs, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Harry
+Jiannan Wang, University of Delaware, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Andreas
+Wombacher, University of Twente, Netherlands<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Stephen
+J.H. Yang, National Central University, Taiwan<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Jian
+Yang, Macquaire University, Australia<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hongji
+Yang, Montfort University, UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Pinar
+Yolum, Bogazici University, Turkey<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Liang-Jie
+Zhang, IBM T.J. Watson Research Center, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Leon
+Zhao, University of Arizona, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Nianjun
+(Joe) Zhou, IBM Research, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Hong
+Zhu, Oxford Brookes University, UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Kezysztof
+Zielinski, University of Science and Technology, Poland =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Review
+Policy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span>=
+</p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>IEEE
+Policy and professional ethics require that referees treat the contents =
+of
+papers under review as privileged information not to be disclosed to =
+others
+before publication. It is expected that no one with access to a paper =
+under
+review will make any inappropriate use of the special knowledge that =
+access
+provides. Contents of abstracts submitted to conference program =
+committees
+should be regarded as privileged as well, and handled in the same =
+manner. The
+Conference Publications Chair shall ensure that referees adhere to this
+practice.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Organizers
+of IEEE conferences are expected to provide an appropriate forum for the =
+oral
+presentations and discussions of all accepted papers. An author, in =
+offering a
+paper for presentation at an IEEE conference, or accepting an invitation =
+to
+present a paper, is expected to be present at the meeting to deliver the =
+paper.
+In the event that circumstances unknown at the time of submission of a =
+paper
+preclude its presentation by an author, the program chair should be =
+informed on
+time, and appropriate substitute arrangements should be made. In some =
+cases it
+may help reduce no-shows for the Conference to require advance =
+registration
+together with the submission of the final =
+manuscript.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New =
+Roman","serif"'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>Please
+join us at: IEEE Services Computing Community<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>To
+join, please visit https://www.ieeecommunities.org/services and follow
+instructions to apply for free membership. As a member, you will be =
+permitted
+to login and participate in the community, including accessing IEEE Body =
+of
+Knowledge on Services Computing =
+(servicescomputing.tv).<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:12.0pt;font-family:"Times =
+New Roman","serif"'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_2576_01C98AB7.98C47570--
+
+
+--===============0887828123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0887828123==--
+

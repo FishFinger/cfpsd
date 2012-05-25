@@ -1,0 +1,448 @@
+From - Thu Dec 10 14:33:21 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.141.115.10 with SMTP id s10cs317316rvm;
+        Tue, 23 Sep 2008 15:40:57 -0700 (PDT)
+Received: by 10.210.28.4 with SMTP id b4mr7328127ebb.142.1222209654947;
+        Tue, 23 Sep 2008 15:40:54 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si3824591eyk.4.2008.09.23.15.40.29;
+        Tue, 23 Sep 2008 15:40:54 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 84F0D1C23A; Wed, 24 Sep 2008 00:40:28 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E8D81202FF;
+	Wed, 24 Sep 2008 00:39:40 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9A5DD3DC8;
+	Wed, 24 Sep 2008 00:39:29 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2TiqVzHZmyDV; Wed, 24 Sep 2008 00:39:29 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 921F73D25;
+	Wed, 24 Sep 2008 00:39:15 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id DC38D3D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 23 Sep 2008 12:34:24 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cSjngYoznez0 for <elsnet-list@mailman.elsnet.org>;
+	Tue, 23 Sep 2008 12:34:24 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A75E33D08
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 23 Sep 2008 12:34:24 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8C6F61E699; Tue, 23 Sep 2008 12:34:24 +0200 (MEST)
+Received: from mailapp04.uwe.ac.uk (mailapp04.uwe.ac.uk [164.11.132.66])
+	by mailhost.let.uu.nl (Postfix) with SMTP id 8955D1F269
+	for <Elsnet-list@elsnet.org>; Tue, 23 Sep 2008 12:34:15 +0200 (MEST)
+Received: from (unknown [164.11.132.60]) by mailapp04.uwe.ac.uk with smtp
+	id 6639_29655e90_895b_11dd_878a_00142223915c;
+	Tue, 23 Sep 2008 11:34:13 +0100
+Received: from egen-uwe01.campus.ads.uwe.ac.uk
+	(egen-uwe01.campus.ads.uwe.ac.uk [164.11.249.121])
+	by mta01.uwe.ac.uk (iPlanet Messaging Server 5.2 HotFix 2.07 (built Jun
+	24 2005)) with SMTP id <0K7N009K79CZ2W@mta01.uwe.ac.uk> for
+	Elsnet-list@elsnet.org; Tue, 23 Sep 2008 11:34:12 +0100 (BST)
+Date: Tue, 23 Sep 2008 11:32:39 +0100
+From: Jim Smith <James.Smith@uwe.ac.uk>
+To: aalife@yahoogroups.com, ACO-list@iridia.ulb.ac.be, acse@sheffield.ac.uk,
+	agents@cs.umbc.edu, artificialintelligencegroup@yahoogroups.com,
+	cbc@isu.edu.tw, cogsci_unisi@yahoogroups.com, comp-bio@net.bio.net,
+	constraints@yahoogroups.com, coordinatori-informatica@disi.unige.it,
+	cslist@cceb.med.upenn.edu, EC-DIGEST-L@LISTSERV.GMU.EDU,
+	EC-Digest-L@mail04.gmu.edu, eletter@cil.ece.uic.edu,
+	Elsnet-list@elsnet.org, EVOLUTIONARY-COMPUTING@JISCMAIL.AC.UK,
+	evolutionary-computing@mailbase.ac.uk, 
+	EVOLUTIONARY-COMPUTING-request@JISCMAIL.AC.UK, ga-list@gmu.edu,
+	gascheduling@jiscmail.ac.uk, gascheduling@sheffield.ac.uk,
+	genetic_programming@yahoogroups.com, grin@di.unipi.it,
+	gulp-all@yahoogroups.com, immuno@net.bio.net, jet@inria.fr,
+	lcs-and-gbml@yahoogroups.com, LISTSERV@JISCMAIL.AC.UK,
+	machine-learning@eGroups.com, machine-learning@yahoogroups.com,
+	MALL@yahoogroups.com, members@ai-cbr.org,
+	membership@ieee-sezioneitalia.it, 
+	memetics@mmu.ac.uk, meta-heuristics@jiscmail.ac.uk,
+	META-HEURISTICS-request@JISCMAIL.AC.UK, ml@isle.org,
+	modern-heuristics@jiscmail.ac.uk,
+	MODERN-HEURISTICS-request@JISCMAIL.AC.UK, 
+	NeuralNets@yahoogroups.com, news@ieee-sezioneitalia.it,
+	ornet@jiscmail.ac.uk, 
+	ORNET-request@JISCMAIL.AC.UK, PARTICLE_SWARM-L@LISTSERV.IUPUI.EDU,
+	SIGEVO-MEMBERS@LISTSERV.ACM.ORG, SupplyChainManagement@yahoogroups.com, 
+	swarms@yahoogroups.com, tccc@cs.columbia.edu, vki-list@dfki.de
+Message-id: <F247F674896BE243AD8263C5280E2BDB040ACA3A@egen-uwe01>
+MIME-version: 1.0
+X-MIMEOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+Thread-topic: Second Call for Papers - International Workshop on Memetic
+	Algorithms: WOMA2009
+Thread-index: AckdZ7PpY9sYDtgGR36LJcahd0Br2A==
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-NAI-Spam-Score: 0
+X-NAI-Spam-Rules: 1 Rules triggered
+	RV3109=0
+X-Mailman-Approved-At: Wed, 24 Sep 2008 00:39:04 +0200
+Cc: 
+Subject: [Elsnet-list] Second Call for Papers - International Workshop on
+ Memetic Algorithms: WOMA2009
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0783281942=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+--===============0783281942==
+Content-type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C91D67.B470E2C2"
+Content-class: urn:content-classes:message
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C91D67.B470E2C2
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-NAIMIME-Disclaimer: 1
+X-NAIMIME-Modified: 1
+
+6th International Workshop on Memetic Algorithms (WOMA 2009)
+
+=20
+
+The next International Workshop on Memetic Algorithms (WOMA 2009), will
+be the sixth in a series of workshops dedicated exclusively to Memetic
+Algorithms. WOMA 2009 will be held as part of the IEEE Symposium Series
+on Computational Intelligence, Nashville Tennessee. The WOMA series is a
+forum where the international community of researchers, practitioners
+and vendors, that work on aspects related to Memetic algorithms, can
+engage in fruitful discussions, learning and contribute to the
+advancement of this field. Extended versions of selected papers
+appearing in previous meetings of WOMA have been published in edited
+volumes and in a special issue of Evolutionary Computation.=20
+
+=20
+
+Memetic algorithms (MAs) are evolutionary algorithms that apply a
+separate local search process to refine individuals (e.g. improve their
+fitness by hill-climbing). These methods are inspired by models of
+adaptation in natural systems that combine evolutionary adaptation of
+populations of individuals with individual learning within a lifetime.
+Combining global and local search is a strategy used by many successful
+optimization approaches, and MAs have in fact been recognized as a
+powerful algorithmic paradigm for evolutionary computing. From a more
+general perspective, MAs have been seen as a useful tool for
+investigating a range of social and biological phenomena.
+
+=20
+
+It is the goal of this workshop to push forward our understanding of
+both the theory and the deployment of MA. Papers are invited covering
+areas such as (but not limited to):
+
+-              designing novel competitive, collaborative and
+cooperative frameworks of MAs,
+
+-              analytical and/or theoretical studies that enhance our
+understanding on the behaviors of MAs,
+
+-              asymptotic global convergence analyses and/or complexity
+analyses of MAs,
+
+-              understanding what characterizes fit memes,
+
+-              evolution of memes/co-evolution of genes and memes,
+
+-              modeling the replication, spread and evolution of memes,
+
+-              using multiple memes or local searchers or exact methods,
+
+-              adapting the control parameters of MAs, i.e., adaptive
+MAs,
+
+-              memetic computing for discrete, continuous and uncertain
+optimization problems,
+
+-              memetic computing for computationally expensive
+optimization problems,
+
+-              memetic computing for multi-objective optimization,
+
+-              knowledge incorporation in memetic computing,
+
+-              modeling/simulation of memetic system,
+
+-              real-world applications of memetic computing.
+
+=20
+
+Authors of selected papers will be invited to submit extended versions
+of their papers to a special issue of the Journal of Memetic Computing.
+
+=20
+
+Submission is on-line. Guidelines and information  can be found at
+http://www.ieee-ssci.org/index.php?q=3Dnode/36=20
+
+=20
+
+Relevant dates:
+
+                - Submission Due:                            October
+31st 208.
+
+                - Notification to Authors:
+November 30th 2008
+
+                - Camera-Ready Papers due:      January 15th 2009
+
+                - Conference:                                    March
+30 - April 2, 2009    =20
+
+                  Sheraton Music City Hotel, Nashville, TN, USA
+
+=20
+
+=20
+
+More details about the workshop and organisers can be found at:=20
+
+http://www.ieee-ssci.org/index.php?q=3Dnode/19
+
+=20
+
+More details about the IEEE Symposium Series on Computational
+Intelligence can be found at:  http://www.ieee-ssci.org/
+
+=20
+
+Dr Jim Smith=20
+Reader in Artificial Intelligence=20
+Department of Computer Science=20
+University of the West of England=20
+Bristol          BS16 1QY    UK=20
+e: james.smith@uwe.ac.uk <mailto:james.smith@uwe.ac.uk> =20
+t: +44 (0) 117 3283161=20
+f: +44 (0) 117 3282587=20
+w: www.cems.uwe.ac.uk/~jsmith <http://www.cems.uwe.ac.uk/~jsmith>=20
+
+=20
+
+
+
+This email was independently scanned for viruses by McAfee anti-virus sof=
+tware and none were found
+
+------_=_NextPart_001_01C91D67.B470E2C2
+Content-Type: text/HTML;
+  charset="utf-8"
+Content-Transfer-Encoding: base64
+X-NAIMIME-Disclaimer: 1
+X-NAIMIME-Modified: 1
+
+PGh0bWwgeG1sbnM6dj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp2bWwiIHhtbG5zOm89InVy
+bjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOm9mZmljZSIgeG1sbnM6dz0idXJuOnNjaGVt
+YXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6d29yZCIgeG1sbnM6bT0iaHR0cDovL3NjaGVtYXMubWlj
+cm9zb2Z0LmNvbS9vZmZpY2UvMjAwNC8xMi9vbW1sIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+VFIvUkVDLWh0bWw0MCI+Cgo8aGVhZD4KPG1ldGEgaHR0cC1lcXVpdj1Db250ZW50LVR5cGUgY29u
+dGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXVzLWFzY2lpIj4KPG1ldGEgbmFtZT1HZW5lcmF0b3Ig
+Y29udGVudD0iTWljcm9zb2Z0IFdvcmQgMTIgKGZpbHRlcmVkIG1lZGl1bSkiPgo8c3R5bGU+Cjwh
+LS0KIC8qIEZvbnQgRGVmaW5pdGlvbnMgKi8KIEBmb250LWZhY2UKCXtmb250LWZhbWlseToiQ2Ft
+YnJpYSBNYXRoIjsKCXBhbm9zZS0xOjIgNCA1IDMgNSA0IDYgMyAyIDQ7fQpAZm9udC1mYWNlCgl7
+Zm9udC1mYW1pbHk6Q2FsaWJyaTsKCXBhbm9zZS0xOjIgMTUgNSAyIDIgMiA0IDMgMiA0O30KIC8q
+IFN0eWxlIERlZmluaXRpb25zICovCiBwLk1zb05vcm1hbCwgbGkuTXNvTm9ybWFsLCBkaXYuTXNv
+Tm9ybWFsCgl7bWFyZ2luOjBjbTsKCW1hcmdpbi1ib3R0b206LjAwMDFwdDsKCWZvbnQtc2l6ZTox
+MS4wcHQ7Cglmb250LWZhbWlseToiQ2FsaWJyaSIsInNhbnMtc2VyaWYiO30KYTpsaW5rLCBzcGFu
+Lk1zb0h5cGVybGluawoJe21zby1zdHlsZS1wcmlvcml0eTo5OTsKCWNvbG9yOmJsdWU7Cgl0ZXh0
+LWRlY29yYXRpb246dW5kZXJsaW5lO30KYTp2aXNpdGVkLCBzcGFuLk1zb0h5cGVybGlua0ZvbGxv
+d2VkCgl7bXNvLXN0eWxlLXByaW9yaXR5Ojk5OwoJY29sb3I6cHVycGxlOwoJdGV4dC1kZWNvcmF0
+aW9uOnVuZGVybGluZTt9CnNwYW4uRW1haWxTdHlsZTE3Cgl7bXNvLXN0eWxlLXR5cGU6cGVyc29u
+YWwtY29tcG9zZTsKCWZvbnQtZmFtaWx5OiJDYWxpYnJpIiwic2Fucy1zZXJpZiI7Cgljb2xvcjp3
+aW5kb3d0ZXh0O30KLk1zb0NocERlZmF1bHQKCXttc28tc3R5bGUtdHlwZTpleHBvcnQtb25seTt9
+CkBwYWdlIFNlY3Rpb24xCgl7c2l6ZTo2MTIuMHB0IDc5Mi4wcHQ7CgltYXJnaW46NzIuMHB0IDcy
+LjBwdCA3Mi4wcHQgNzIuMHB0O30KZGl2LlNlY3Rpb24xCgl7cGFnZTpTZWN0aW9uMTt9Ci0tPgo8
+L3N0eWxlPgo8IS0tW2lmIGd0ZSBtc28gOV0+PHhtbD4KIDxvOnNoYXBlZGVmYXVsdHMgdjpleHQ9
+ImVkaXQiIHNwaWRtYXg9IjEwMjYiIC8+CjwveG1sPjwhW2VuZGlmXS0tPjwhLS1baWYgZ3RlIG1z
+byA5XT48eG1sPgogPG86c2hhcGVsYXlvdXQgdjpleHQ9ImVkaXQiPgogIDxvOmlkbWFwIHY6ZXh0
+PSJlZGl0IiBkYXRhPSIxIiAvPgogPC9vOnNoYXBlbGF5b3V0PjwveG1sPjwhW2VuZGlmXS0tPgo8
+L2hlYWQ+Cgo8Ym9keSBsYW5nPUVOLUdCIGxpbms9Ymx1ZSB2bGluaz1wdXJwbGU+Cgo8ZGl2IGNs
+YXNzPVNlY3Rpb24xPgoKPHAgY2xhc3M9TXNvTm9ybWFsPjZ0aCBJbnRlcm5hdGlvbmFsIFdvcmtz
+aG9wIG9uIE1lbWV0aWMgQWxnb3JpdGhtcyAoV09NQSAyMDA5KTxvOnA+PC9vOnA+PC9wPgoKPHAg
+Y2xhc3M9TXNvTm9ybWFsPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFs
+PlRoZSBuZXh0IEludGVybmF0aW9uYWwgV29ya3Nob3Agb24gTWVtZXRpYyBBbGdvcml0aG1zIChX
+T01BCjIwMDkpLCB3aWxsIGJlIHRoZSBzaXh0aCBpbiBhIHNlcmllcyBvZiB3b3Jrc2hvcHMgZGVk
+aWNhdGVkIGV4Y2x1c2l2ZWx5IHRvCk1lbWV0aWMgQWxnb3JpdGhtcy4gV09NQSAyMDA5IHdpbGwg
+YmUgaGVsZCBhcyBwYXJ0IG9mIHRoZSBJRUVFIFN5bXBvc2l1bSBTZXJpZXMKb24gQ29tcHV0YXRp
+b25hbCBJbnRlbGxpZ2VuY2UsIE5hc2h2aWxsZSBUZW5uZXNzZWUuIFRoZSBXT01BIHNlcmllcyBp
+cyBhIGZvcnVtCndoZXJlIHRoZSBpbnRlcm5hdGlvbmFsIGNvbW11bml0eSBvZiByZXNlYXJjaGVy
+cywgcHJhY3RpdGlvbmVycyBhbmQgdmVuZG9ycywKdGhhdCB3b3JrIG9uIGFzcGVjdHMgcmVsYXRl
+ZCB0byBNZW1ldGljIGFsZ29yaXRobXMsIGNhbiBlbmdhZ2UgaW4gZnJ1aXRmdWwKZGlzY3Vzc2lv
+bnMsIGxlYXJuaW5nIGFuZCBjb250cmlidXRlIHRvIHRoZSBhZHZhbmNlbWVudCBvZiB0aGlzIGZp
+ZWxkLiBFeHRlbmRlZAp2ZXJzaW9ucyBvZiBzZWxlY3RlZCBwYXBlcnMgYXBwZWFyaW5nIGluIHBy
+ZXZpb3VzIG1lZXRpbmdzIG9mIFdPTUEgaGF2ZSBiZWVuCnB1Ymxpc2hlZCBpbiBlZGl0ZWQgdm9s
+dW1lcyBhbmQgaW4gYSBzcGVjaWFsIGlzc3VlIG9mIEV2b2x1dGlvbmFyeSBDb21wdXRhdGlvbi4K
+PG86cD48L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJzcDs8L286cD48L3A+
+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+TWVtZXRpYyBhbGdvcml0aG1zIChNQXMpIGFyZSBldm9sdXRp
+b25hcnkgYWxnb3JpdGhtcyB0aGF0CmFwcGx5IGEgc2VwYXJhdGUgbG9jYWwgc2VhcmNoIHByb2Nl
+c3MgdG8gcmVmaW5lIGluZGl2aWR1YWxzIChlLmcuIGltcHJvdmUgdGhlaXIKZml0bmVzcyBieSBo
+aWxsLWNsaW1iaW5nKS4gVGhlc2UgbWV0aG9kcyBhcmUgaW5zcGlyZWQgYnkgbW9kZWxzIG9mIGFk
+YXB0YXRpb24KaW4gbmF0dXJhbCBzeXN0ZW1zIHRoYXQgY29tYmluZSBldm9sdXRpb25hcnkgYWRh
+cHRhdGlvbiBvZiBwb3B1bGF0aW9ucyBvZgppbmRpdmlkdWFscyB3aXRoIGluZGl2aWR1YWwgbGVh
+cm5pbmcgd2l0aGluIGEgbGlmZXRpbWUuIENvbWJpbmluZyBnbG9iYWwgYW5kCmxvY2FsIHNlYXJj
+aCBpcyBhIHN0cmF0ZWd5IHVzZWQgYnkgbWFueSBzdWNjZXNzZnVsIG9wdGltaXphdGlvbiBhcHBy
+b2FjaGVzLCBhbmQKTUFzIGhhdmUgaW4gZmFjdCBiZWVuIHJlY29nbml6ZWQgYXMgYSBwb3dlcmZ1
+bCBhbGdvcml0aG1pYyBwYXJhZGlnbSBmb3IKZXZvbHV0aW9uYXJ5IGNvbXB1dGluZy4gRnJvbSBh
+IG1vcmUgZ2VuZXJhbCBwZXJzcGVjdGl2ZSwgTUFzIGhhdmUgYmVlbiBzZWVuIGFzCmEgdXNlZnVs
+IHRvb2wgZm9yIGludmVzdGlnYXRpbmcgYSByYW5nZSBvZiBzb2NpYWwgYW5kIGJpb2xvZ2ljYWwg
+cGhlbm9tZW5hLjxvOnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPjxvOnA+Jm5ic3A7
+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPkl0IGlzIHRoZSBnb2FsIG9mIHRoaXMgd29y
+a3Nob3AgdG8gcHVzaCBmb3J3YXJkIG91cgp1bmRlcnN0YW5kaW5nIG9mIGJvdGggdGhlIHRoZW9y
+eSBhbmQgdGhlIGRlcGxveW1lbnQgb2YgTUEuIFBhcGVycyBhcmUgaW52aXRlZApjb3ZlcmluZyBh
+cmVhcyBzdWNoIGFzIChidXQgbm90IGxpbWl0ZWQgdG8pOjxvOnA+PC9vOnA+PC9wPgoKPHAgY2xh
+c3M9TXNvTm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgZGVzaWduaW5nCm5vdmVsIGNvbXBl
+dGl0aXZlLCBjb2xsYWJvcmF0aXZlIGFuZCBjb29wZXJhdGl2ZSBmcmFtZXdvcmtzIG9mIE1Bcyw8
+bzpwPjwvbzpwPjwvcD4KCjxwIGNsYXNzPU1zb05vcm1hbD4tJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7
+IGFuYWx5dGljYWwKYW5kL29yIHRoZW9yZXRpY2FsIHN0dWRpZXMgdGhhdCBlbmhhbmNlIG91ciB1
+bmRlcnN0YW5kaW5nIG9uIHRoZSBiZWhhdmlvcnMgb2YKTUFzLDxvOnA+PC9vOnA+PC9wPgoKPHAg
+Y2xhc3M9TXNvTm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgYXN5bXB0b3RpYwpnbG9iYWwg
+Y29udmVyZ2VuY2UgYW5hbHlzZXMgYW5kL29yIGNvbXBsZXhpdHkgYW5hbHlzZXMgb2YgTUFzLDxv
+OnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsg
+dW5kZXJzdGFuZGluZwp3aGF0IGNoYXJhY3Rlcml6ZXMgZml0IG1lbWVzLDxvOnA+PC9vOnA+PC9w
+PgoKPHAgY2xhc3M9TXNvTm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgZXZvbHV0aW9uCm9m
+IG1lbWVzL2NvLWV2b2x1dGlvbiBvZiBnZW5lcyBhbmQgbWVtZXMsPG86cD48L286cD48L3A+Cgo8
+cCBjbGFzcz1Nc29Ob3JtYWw+LSZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBtb2RlbGluZwp0aGUgcmVw
+bGljYXRpb24sIHNwcmVhZCBhbmQgZXZvbHV0aW9uIG9mIG1lbWVzLDxvOnA+PC9vOnA+PC9wPgoK
+PHAgY2xhc3M9TXNvTm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgdXNpbmcKbXVsdGlwbGUg
+bWVtZXMgb3IgbG9jYWwgc2VhcmNoZXJzIG9yIGV4YWN0IG1ldGhvZHMsPG86cD48L286cD48L3A+
+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+LSZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBhZGFwdGluZwp0aGUg
+Y29udHJvbCBwYXJhbWV0ZXJzIG9mIE1BcywgaS5lLiwgYWRhcHRpdmUgTUFzLDxvOnA+PC9vOnA+
+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgbWVtZXRpYwpj
+b21wdXRpbmcgZm9yIGRpc2NyZXRlLCBjb250aW51b3VzIGFuZCB1bmNlcnRhaW4gb3B0aW1pemF0
+aW9uIHByb2JsZW1zLDxvOnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPi0mbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsgbWVtZXRpYwpjb21wdXRpbmcgZm9yIGNvbXB1dGF0aW9uYWxseSBleHBl
+bnNpdmUgb3B0aW1pemF0aW9uIHByb2JsZW1zLDxvOnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNv
+Tm9ybWFsPi0mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgbWVtZXRpYwpjb21wdXRpbmcgZm9yIG11bHRp
+LW9iamVjdGl2ZSBvcHRpbWl6YXRpb24sPG86cD48L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3Jt
+YWw+LSZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBrbm93bGVkZ2UKaW5jb3Jwb3JhdGlvbiBpbiBtZW1l
+dGljIGNvbXB1dGluZyw8bzpwPjwvbzpwPjwvcD4KCjxwIGNsYXNzPU1zb05vcm1hbD4tJm5ic3A7
+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7IG1vZGVsaW5nL3NpbXVsYXRpb24Kb2YgbWVtZXRpYyBzeXN0ZW0sPG86
+cD48L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+LSZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBy
+ZWFsLXdvcmxkCmFwcGxpY2F0aW9ucyBvZiBtZW1ldGljIGNvbXB1dGluZy48bzpwPjwvbzpwPjwv
+cD4KCjxwIGNsYXNzPU1zb05vcm1hbD48bzpwPiZuYnNwOzwvbzpwPjwvcD4KCjxwIGNsYXNzPU1z
+b05vcm1hbD5BdXRob3JzIG9mIHNlbGVjdGVkIHBhcGVycyB3aWxsIGJlIGludml0ZWQgdG8gc3Vi
+bWl0CmV4dGVuZGVkIHZlcnNpb25zIG9mIHRoZWlyIHBhcGVycyB0byBhIHNwZWNpYWwgaXNzdWUg
+b2YgdGhlIEpvdXJuYWwgb2YgTWVtZXRpYwpDb21wdXRpbmcuPG86cD48L286cD48L3A+Cgo8cCBj
+bGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJzcDs8L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+
+U3VibWlzc2lvbiBpcyBvbi1saW5lLiBHdWlkZWxpbmVzIGFuZCBpbmZvcm1hdGlvbiZuYnNwOyBj
+YW4KYmUgZm91bmQgYXQgaHR0cDovL3d3dy5pZWVlLXNzY2kub3JnL2luZGV4LnBocD9xPW5vZGUv
+MzYgPG86cD48L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJzcDs8L286cD48
+L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+UmVsZXZhbnQgZGF0ZXM6PG86cD48L286cD48L3A+Cgo8
+cCBjbGFzcz1Nc29Ob3JtYWw+Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5i
+c3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IC0KU3Vi
+bWlzc2lvbiBEdWU6ICZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyBP
+Y3RvYmVyCjMxc3QgMjA4LjxvOnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPiZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyAtCk5vdGlmaWNhdGlvbiB0byBBdXRob3JzOiZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyBOb3ZlbWJlcgozMHRoIDIwMDg8bzpwPjwvbzpwPjwvcD4KCjxwIGNsYXNzPU1zb05vcm1hbD4m
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgLQpDYW1lcmEtUmVhZHkgUGFwZXJzIGR1
+ZTombmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgSmFudWFyeSAxNXRoIDIwMDk8bzpwPjwv
+bzpwPjwvcD4KCjxwIGNsYXNzPU1zb05vcm1hbD4mbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsgLQpDb25mZXJlbmNlOiAmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJz
+cDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsm
+bmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsgTWFy
+Y2gKMzAgJiM4MjExOyBBcHJpbCAyLCAyMDA5Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7IDxvOnA+
+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPiZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNw
+OyZuYnNwOyAmbmJzcDsKU2hlcmF0b24gTXVzaWMgQ2l0eSBIb3RlbCwgTmFzaHZpbGxlLCBUTiwg
+VVNBPG86cD48L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJzcDs8L286cD48
+L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJzcDs8L286cD48L3A+Cgo8cCBjbGFzcz1N
+c29Ob3JtYWw+TW9yZSBkZXRhaWxzIGFib3V0IHRoZSB3b3Jrc2hvcCBhbmQgb3JnYW5pc2VycyBj
+YW4gYmUgZm91bmQKYXQ6IDxvOnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPmh0dHA6
+Ly93d3cuaWVlZS1zc2NpLm9yZy9pbmRleC5waHA/cT1ub2RlLzE5PG86cD48L286cD48L3A+Cgo8
+cCBjbGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJzcDs8L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3Jt
+YWw+TW9yZSBkZXRhaWxzIGFib3V0IHRoZSBJRUVFIFN5bXBvc2l1bSBTZXJpZXMgb24KQ29tcHV0
+YXRpb25hbCBJbnRlbGxpZ2VuY2UgY2FuIGJlIGZvdW5kIGF0OiZuYnNwOyBodHRwOi8vd3d3Lmll
+ZWUtc3NjaS5vcmcvPG86cD48L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+PG86cD4mbmJz
+cDs8L286cD48L3A+Cgo8cCBjbGFzcz1Nc29Ob3JtYWw+PHNwYW4gc3R5bGU9J2ZvbnQtc2l6ZTox
+MC4wcHQnPkRyIEppbSBTbWl0aDwvc3Bhbj4gPGJyPgo8c3BhbiBzdHlsZT0nZm9udC1zaXplOjEw
+LjBwdCc+UmVhZGVyIGluIEFydGlmaWNpYWwgSW50ZWxsaWdlbmNlPC9zcGFuPiA8YnI+CjxzcGFu
+IHN0eWxlPSdmb250LXNpemU6MTAuMHB0Jz5EZXBhcnRtZW50IG9mIENvbXB1dGVyIFNjaWVuY2U8
+L3NwYW4+IDxicj4KPHNwYW4gc3R5bGU9J2ZvbnQtc2l6ZToxMC4wcHQnPlVuaXZlcnNpdHkgb2Yg
+dGhlIFdlc3Qgb2YgRW5nbGFuZDwvc3Bhbj4gPGJyPgo8c3BhbiBzdHlsZT0nZm9udC1zaXplOjEw
+LjBwdCc+QnJpc3RvbCZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZu
+YnNwOyZuYnNwOwpCUzE2IDFRWSZuYnNwOyZuYnNwOyZuYnNwOyBVSzwvc3Bhbj4gPGJyPgo8c3Bh
+biBzdHlsZT0nZm9udC1zaXplOjEwLjBwdCc+ZTogPGEgaHJlZj0ibWFpbHRvOmphbWVzLnNtaXRo
+QHV3ZS5hYy51ayI+PHNwYW4Kc3R5bGU9J2NvbG9yOmJsdWUnPmphbWVzLnNtaXRoQHV3ZS5hYy51
+azwvc3Bhbj48L2E+PC9zcGFuPiA8YnI+CjxzcGFuIHN0eWxlPSdmb250LXNpemU6MTAuMHB0Jz50
+OiArNDQgKDApIDExNyAzMjgzMTYxPC9zcGFuPiA8YnI+CjxzcGFuIHN0eWxlPSdmb250LXNpemU6
+MTAuMHB0Jz5mOiArNDQgKDApIDExNyAzMjgyNTg3PC9zcGFuPiA8YnI+CjxzcGFuIHN0eWxlPSdm
+b250LXNpemU6MTAuMHB0Jz53OiA8YSBocmVmPSJodHRwOi8vd3d3LmNlbXMudXdlLmFjLnVrL35q
+c21pdGgiPjxzcGFuCnN0eWxlPSdjb2xvcjpibHVlJz53d3cuY2Vtcy51d2UuYWMudWsvfmpzbWl0
+aDwvc3Bhbj48L2E+PC9zcGFuPjxvOnA+PC9vOnA+PC9wPgoKPHAgY2xhc3M9TXNvTm9ybWFsPjxv
+OnA+Jm5ic3A7PC9vOnA+PC9wPgoKPC9kaXY+CgoKPERJVj48UD48SFI+ClRoaXMgZW1haWwgd2Fz
+IGluZGVwZW5kZW50bHkgc2Nhbm5lZCBmb3IgdmlydXNlcyBieSBNY0FmZWUgYW50aS12aXJ1cyBz
+b2Z0d2FyZSBhbmQgbm9uZSB3ZXJlIGZvdW5kCjwvUD48L0RJVj4KPC9ib2R5PgoKPC9odG1sPgo=
+
+------_=_NextPart_001_01C91D67.B470E2C2--
+
+--===============0783281942==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0783281942==--

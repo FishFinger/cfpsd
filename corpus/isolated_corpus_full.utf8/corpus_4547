@@ -1,0 +1,454 @@
+From - Thu Dec 10 14:35:24 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs69542far;
+        Sat, 28 Feb 2009 10:32:11 -0800 (PST)
+Received: by 10.210.33.3 with SMTP id g3mr3094120ebg.88.1235845931327;
+        Sat, 28 Feb 2009 10:32:11 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 27si16700244ewy.51.2009.02.28.10.31.53;
+        Sat, 28 Feb 2009 10:32:11 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id D0DF522501; Sat, 28 Feb 2009 19:31:52 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id EDB7021325;
+	Sat, 28 Feb 2009 19:28:04 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D513A3D3A;
+	Sat, 28 Feb 2009 19:28:04 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id DmL5+X6y6kSE; Sat, 28 Feb 2009 19:28:04 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E2F713D82;
+	Sat, 28 Feb 2009 19:27:31 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 862BE3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 26 Feb 2009 05:29:09 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ns6zkTEUqnlA for <elsnet-list@mailman.elsnet.org>;
+	Thu, 26 Feb 2009 05:29:09 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 576D73D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 26 Feb 2009 05:29:09 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4121220CC4; Thu, 26 Feb 2009 05:29:09 +0100 (MET)
+Received: from yx-out-1718.google.com (yx-out-1718.google.com [74.125.44.158])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id AF2B520CA6
+	for <elsnet-list@let.uu.nl>; Thu, 26 Feb 2009 05:29:01 +0100 (MET)
+Received: by yx-out-1718.google.com with SMTP id 36so293558yxh.2
+	for <elsnet-list@let.uu.nl>; Wed, 25 Feb 2009 20:29:00 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=2ejkc/y6HnK9TqVfibVm05olTpkj81sOd0Effhakspg=;
+	b=mneUIG7EYZECLFhNaw679qXb8UM9meqLQba7RkEugRPiMNWLf/ErjdDiwp+h3wGoIb
+	Yk9DM28DO8N93UmSSCoa1CTJp6HE6+a7WYB4LdL/0UQUOc0Gp4lQY1wQQVAOqNxsrzUF
+	Mh3DMTa9/IeEN4Jvl3TpGv1iIQW8M4fMMOFWg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=R/7SYhqZ9EaN2NRhn6Ll+J07jyPkpXQc9h7ID1zY3G658M0zg1nsckWFIQwNU80LdI
+	fa3GGLKgwo54NXCu2jkqBHjFA98EBYTHlhRhnH4mTN4JBwDEfVHVPBtX1Ma6nvTLZPMV
+	gJo9a8KdmoAOw72wOozu9NOs3mIY9H9u/qilo=
+MIME-Version: 1.0
+Received: by 10.110.17.14 with SMTP id 14mr1328820tiq.11.1235622523689; Wed, 
+	25 Feb 2009 20:28:43 -0800 (PST)
+Date: Thu, 26 Feb 2009 12:28:43 +0800
+Message-ID: <d71c7ca10902252028l28e6e750s43826f996b502d7d@mail.gmail.com>
+From: Dacheng Tao <dacheng.tao@gmail.com>
+To: dacheng.tao@gmail.com
+X-Mailman-Approved-At: Sat, 28 Feb 2009 19:27:19 +0100
+Cc: 
+Subject: [Elsnet-list] =?windows-1252?q?CFP=3A_The_First_IEEE_Internation?=
+	=?windows-1252?q?al_Workshop_on_Multimedia_Computing_and_Communica?=
+	=?windows-1252?q?tions_=28MCC=9209=29?=
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============2008890225=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============2008890225==
+Content-Type: multipart/alternative; boundary=0016e65385c899e6300463cac915
+
+--0016e65385c899e6300463cac915
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+* We apologize if you receive this CFP more than once.
+* PLEASE CIRCULATE this CFP among your colleagues and students. Many thanks=
+!
+
+* Top quality papers of this workshop will be recommended to a journal
+special issue in the Journal of Communications.
+
+CALL FOR PAPERS
+The First IEEE International Workshop on
+Multimedia Computing and Communications (MCC=9209)
+
+Story continued on
+The First IEEE International Workshop on IP Multimedia Communications (IPMC=
+)
+and
+The Second International Workshop on Multimedia Analysis and Processing
+(IMAP)
+
+August 2 - 6, 2009
+San Francisco, CA, USA
+In conjunction with IEEE International Conference on Computer Communication=
+s
+and Network (ICCCN) 2009
+
+The explosively growing momentum behind worldwide broadband deployment and
+the emerging convergence of voice, image, video and data services offer the
+base for various modern multimedia applications and services such as mobile
+TV, multimedia messenger and blog, social networking, video conferencing,
+Internet gaming, interactive TV, IPTV, and multimedia visualization,
+navigation, management, search and retrieval. The advances of computing and
+communication over wired and wireless networks and new technologies ranging
+from multimedia coding, network infrastructure, content distribution
+protocols, quality of service (QoS) management to post-processing and
+analysis, have stimulated more diversified multimedia applications and
+services.
+
+In recent years, the emerging new techniques have been employed to
+effectively integrate context and content for multimedia mining, management=
+,
+indexing and retrieval. The semantic and sensory gaps, which are difficult
+or even impossible to bridge using traditional approaches, have been
+narrowed to facilitate many real-world multimedia applications. Popular
+applications and services such as youtube, facebook, Google, Windows Live
+messenger, myspace, and variations are breaking the media monopoly of big
+content and distribution companies, new multimedia based social networking
+applications demand even more efficient and intelligent multimedia search
+and mining capabilities. The increasing service requirements by multimedia
+consumers inspire the rapid developments of interface design, interactive
+models, communication infrastructure, mobile devices, etc. In addition, the
+advances of video coding make many bandwidth-hungry video communication
+applications possible. Novel video source and channel coding techniques suc=
+h
+as multiple description codes, transcoding, and network coding can certainl=
+y
+improve the efficiency of video transmission over the Internet. New
+communication protocols such as peer-to-peer (P2P) technologies further
+significantly improved the video broadcasting quality due to its distribute=
+d
+architecture that is capability to provide scalability, inherent robustness
+and fault tolerance to the best effort-based Internet. On the other hand,
+IPTV, built on managed IP network, is growing rapidly, targeting at
+providing high quality video viewing experience that is at least as good as
+what is offered by today's cable/satellite TV. At the same time, advances i=
+n
+wireless network technologies and video delivery mechanisms such as IEEE
+802.11 (Wi-Fi) and the 3G and 4G cellular systems provide alternatives to
+their wired peers, allowing users to access and produce video at any time
+from anywhere.
+
+The challenges for those applications and services to be successfully
+deployed range from limited computation power considering the rich media
+content, difficulty in content analysis and understanding, to the state of
+the transport network. Besides, better video viewing experience always call=
+s
+for better compression algorithm, data rate adaptation, adaptive error
+control, and error concealment technologies. A central theme in all these
+efforts is novel approaches and solutions for multimedia computation and
+communications. The purpose of this workshop is to provide a professional
+forum for industry and academic researchers from around the world to presen=
+t
+their state-of-the-art accomplishments, exchange latest experiences, and
+explore future directions for multimedia computing and communications.
+Topics covered include, but are not limited to, the following:
+
+Multimedia content analysis, representation, and understanding
+Content, user, computation, and network aware media engineering
+Multimedia management in social networking environment
+Multimedia indexing and retrieval
+Multimedia processing for wireless sensor networks
+Multimedia data mining and fusing
+Multimodal signal processing
+Sensorial data processing for interactive games
+Multimedia summarization and abstraction
+Intelligent audio-video surveillance and other security-related application=
+s
+Content authentication, preservation, and digital rights management
+Multimedia and multimodal user interfaces and interaction models
+Multimedia coding, streaming, and networking
+Video transcoding
+Multimedia transmission networks, systems, and applications
+QoS management
+Content-aware multimedia distribution
+P2P multimedia networks
+Joint source-channel video coding
+IPTV architecture and standards
+Network security for P2P and IPTV services
+Internet traffic classification and management algorithm and architecture
+for IPTV
+Multimedia Advertising for IPTV Services
+Error control and concealment
+Video quality assessment
+
+
+Authors are invited to submit original and unpublished papers limited to 6
+pages. Please see the Author Information page for submission guidelines in
+the ICCCN 2009 website. Note that, in compliance with the ICCCN
+requirements, an accepted paper, if not presented by an author, will be
+removed from the IEEE Xplore library unless the absence is approved by the
+ICCCN'09 organization in advance.
+
+IMPORTANT DATES:
+
+Paper submission deadline      March 13, 2009
+Author notification                  May 1, 2009
+Camera-ready paper              May 15, 2009
+Author registration                 May 15, 2009
+Conference date                    August 2=966, 2009
+
+General Co-Chairs:
+
+      Zhu Li, Hong Kong Polytechnic University, China
+      zhu.li@ieee.org
+
+      Steven Wright, AT&T, USA
+      steven.wright.3@att.com
+
+Program Co-Chairs:
+
+      Yun (Raymond) Fu, BBN Technologies, USA
+yfu@bbn.com
+
+Fan Zhai, Texas Instruments, USA
+fzhai@ti.com
+
+Publicity Chair:
+
+      Dacheng Tao, Nanyang Technological University, Singapore
+      dacheng.tao@gmail.com
+
+
+Technical Program Committee:
+
+   Dan Schonfeld, Univeristy of Illinois at Chicago, USA
+   Qi Tian, Microsoft Research Asia, China
+   Aggelos K. Katsaggelos, Northwestern University, USA
+   Ebroul Izquierdo, University of London, UK
+   Moncef Gabbouj, Tampere University of Technology, Finland
+   Homer Chen, National Taiwan University, Taiwan
+   Shuicheng Yan, National University of Singapore, Singapore
+   Eckehard Steinbach, Technische Universitaet Muenchen, Germany
+   Onur Guleryuz, DoCoMo USA Labs, USA
+   Noel O'Connor, Dublin City University, Ireland
+   Jiebo Luo, Kodak, USA
+   Thomas Little, Boston University, USA
+   Mark Liao, Academia Sinica, Taiwan
+   Nozha Boujemaa, INRIA Paris, France
+   Guodong Guo, North Carolina Central University, USA
+   Julien Maisonneuve, Alcatel-Lucent, France
+   Charalabos Skianis, University of Aegean, Greece
+   Greg Thompson, Thompson Video Consulting, USA
+   Ling Guan, Ryerson University, Canada
+   Ye-Kui Wang, Huawei Technologies, USA
+   Truong Nguyen, University of California at San Diego, USA
+   Lisimachos Kondi, University of Ioannina, Greece
+   Jie Liang, Simon Fraser University, Canada
+   Lexing Xie, IBM, USA
+   Wai-tian Tan, HP Labs, USA
+   Ghassem Koleyni, Consultant, Canada
+   Ying Li, Samsung Telecommunications America, USA
+   Yijuan (Lucy) Lu, Texas State University, USA
+   Thomas Stockhammer, Nomor Research, Germany
+   Raheem Beyah, Georgia Institute of Technology, USA
+   Luca Salgarelli, Universit=E0 di Brescia, Italy
+   Al Bovik, The University of Texas at Austin, USA
+   Shiguo Lian, France Telecom R&D Beijing, China
+   Khaled El-Maleh, Qualcomm, USA
+   Jun Kyun Choi, Information Communication University, Korean
+   Gerald Schaefer, Aston University, UK
+
+--0016e65385c899e6300463cac915
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<div>* We apologize if you receive this CFP more than once.</div><div>* PLE=
+ASE CIRCULATE this CFP among your colleagues and students. Many thanks!</di=
+v><div><br></div><div><div>* Top quality papers of this workshop will be re=
+commended to a journal special issue in the Journal of Communications.</div=
+>
+<div><br></div></div><div>CALL FOR PAPERS</div><div>The First IEEE Internat=
+ional Workshop on</div><div>Multimedia Computing and Communications (MCC=92=
+09)</div><div>=A0</div><div>Story continued on=A0</div><div>The First IEEE =
+International Workshop on IP Multimedia Communications (IPMC) and=A0</div>
+<div>The Second International Workshop on Multimedia Analysis and Processin=
+g (IMAP)</div><div>=A0</div><div>August 2 - 6, 2009=A0</div><div>San Franci=
+sco, CA, USA</div><div>In conjunction with IEEE International Conference on=
+ Computer Communications and Network (ICCCN) 2009</div>
+<div>=A0</div><div>The explosively growing momentum behind worldwide broadb=
+and deployment and the emerging convergence of voice, image, video and data=
+ services offer the base for various modern multimedia applications and ser=
+vices such as mobile TV, multimedia messenger and blog, social networking, =
+video conferencing, Internet gaming, interactive TV, IPTV, and multimedia v=
+isualization, navigation, management, search and retrieval. The advances of=
+ computing and communication over wired and wireless networks and new techn=
+ologies ranging from multimedia coding, network infrastructure, content dis=
+tribution protocols, quality of service (QoS) management to post-processing=
+ and analysis, have stimulated more diversified multimedia applications and=
+ services.</div>
+<div>=A0</div><div>In recent years, the emerging new techniques have been e=
+mployed to effectively integrate context and content for multimedia mining,=
+ management, indexing and retrieval. The semantic and sensory gaps, which a=
+re difficult or even impossible to bridge using traditional approaches, hav=
+e been narrowed to facilitate many real-world multimedia applications. Popu=
+lar applications and services such as youtube, facebook, Google, Windows Li=
+ve messenger, myspace, and variations are breaking the media monopoly of bi=
+g content and distribution companies, new multimedia based social networkin=
+g applications demand even more efficient and intelligent multimedia search=
+ and mining capabilities. The increasing service requirements by multimedia=
+ consumers inspire the rapid developments of interface design, interactive =
+models, communication infrastructure, mobile devices, etc. In addition, the=
+ advances of video coding make many bandwidth-hungry video communication ap=
+plications possible. Novel video source and channel coding techniques such =
+as multiple description codes, transcoding, and network coding can certainl=
+y improve the efficiency of video transmission over the Internet. New commu=
+nication protocols such as peer-to-peer (P2P) technologies further signific=
+antly improved the video broadcasting quality due to its distributed archit=
+ecture that is capability to provide scalability, inherent robustness and f=
+ault tolerance to the best effort-based Internet. On the other hand, IPTV, =
+built on managed IP network, is growing rapidly, targeting at providing hig=
+h quality video viewing experience that is at least as good as what is offe=
+red by today&#39;s cable/satellite TV. At the same time, advances in wirele=
+ss network technologies and video delivery mechanisms such as IEEE 802.11 (=
+Wi-Fi) and the 3G and 4G cellular systems provide alternatives to their wir=
+ed peers, allowing users to access and produce video at any time from anywh=
+ere.</div>
+<div>=A0</div><div>The challenges for those applications and services to be=
+ successfully deployed range from limited computation power considering the=
+ rich media content, difficulty in content analysis and understanding, to t=
+he state of the transport network. Besides, better video viewing experience=
+ always calls for better compression algorithm, data rate adaptation, adapt=
+ive error control, and error concealment technologies. A central theme in a=
+ll these efforts is novel approaches and solutions for multimedia computati=
+on and communications. The purpose of this workshop is to provide a profess=
+ional forum for industry and academic researchers from around the world to =
+present their state-of-the-art accomplishments, exchange latest experiences=
+, and explore future directions for multimedia computing and communications=
+. Topics covered include, but are not limited to, the following:</div>
+<div>=A0</div><div>Multimedia content analysis, representation, and underst=
+anding</div><div>Content, user, computation, and network aware media engine=
+ering</div><div>Multimedia management in social networking environment</div=
+>
+<div>Multimedia indexing and retrieval</div><div>Multimedia processing for =
+wireless sensor networks</div><div>Multimedia data mining and fusing</div><=
+div>Multimodal signal processing</div><div>Sensorial data processing for in=
+teractive games</div>
+<div>Multimedia summarization and abstraction</div><div>Intelligent audio-v=
+ideo surveillance and other security-related applications</div><div>Content=
+ authentication, preservation, and digital rights management</div><div>
+Multimedia and multimodal user interfaces and interaction models</div><div>=
+Multimedia coding, streaming, and networking</div><div>Video transcoding</d=
+iv><div>Multimedia transmission networks, systems, and applications</div>
+<div>QoS management</div><div>Content-aware multimedia distribution</div><d=
+iv>P2P multimedia networks</div><div>Joint source-channel video coding</div=
+><div>IPTV architecture and standards</div><div>Network security for P2P an=
+d IPTV services</div>
+<div>Internet traffic classification and management algorithm and architect=
+ure for IPTV</div><div>Multimedia Advertising for IPTV Services</div><div>E=
+rror control and concealment</div><div>Video quality assessment</div><div>
+=A0</div><div>=A0</div><div>Authors are invited to submit original and unpu=
+blished papers limited to 6 pages. Please see the Author Information page f=
+or submission guidelines in the ICCCN 2009 website. Note that, in complianc=
+e with the ICCCN requirements, an accepted paper, if not presented by an au=
+thor, will be removed from the IEEE Xplore library unless the absence is ap=
+proved by the ICCCN&#39;09 organization in advance.</div>
+<div>=A0</div><div>IMPORTANT DATES:</div><div>=A0</div><div>Paper submissio=
+n deadline =A0 =A0 =A0March 13, 2009</div><div>Author notification =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0May 1, 2009</div><div>Camera-ready paper =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0May 15, 2009</div>
+<div>Author registration =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 May 15, 2009</div>=
+<div>Conference date =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0August 2=966, 2=
+009</div><div>=A0</div><div>General Co-Chairs:</div><div>=A0</div><div>=A0=
+=A0 =A0 =A0Zhu Li, Hong Kong Polytechnic University, China</div>
+<div>=A0=A0 =A0 =A0<a href=3D"http://zhu.li">zhu.li</a>@<a href=3D"http://i=
+eee.org">ieee.org</a></div><div>=A0=A0 =A0=A0</div><div>=A0=A0 =A0 =A0Steve=
+n Wright, AT&amp;T, USA</div><div>=A0=A0 =A0 =A0<a href=3D"mailto:steven.wr=
+ight.3@att.com">steven.wright.3@att.com</a></div>
+<div>=A0</div><div>Program Co-Chairs:</div><div>=A0</div><div>=A0=A0 =A0 =
+=A0Yun (Raymond) Fu, BBN Technologies, USA</div><div><a href=3D"mailto:yfu@=
+bbn.com">yfu@bbn.com</a></div><div>=A0</div><div>Fan Zhai, Texas Instrument=
+s, USA</div><div>
+<a href=3D"mailto:fzhai@ti.com">fzhai@ti.com</a></div><div>=A0</div><div>Pu=
+blicity Chair:</div><div>=A0</div><div>=A0=A0 =A0 =A0Dacheng Tao, Nanyang T=
+echnological University, Singapore</div><div>=A0=A0 =A0 =A0<a href=3D"mailt=
+o:dacheng.tao@gmail.com">dacheng.tao@gmail.com</a></div>
+<div>=A0</div><div>=A0</div><div>Technical Program Committee:</div><div>=A0=
+</div><div>=A0=A0 Dan Schonfeld, Univeristy of Illinois at Chicago, USA</di=
+v><div>=A0=A0 Qi Tian, Microsoft Research Asia, China</div><div>=A0=A0 Agge=
+los K. Katsaggelos, Northwestern University, USA</div>
+<div>=A0=A0 Ebroul Izquierdo, University of London, UK</div><div>=A0=A0 Mon=
+cef Gabbouj, Tampere University of Technology, Finland</div><div>=A0=A0 Hom=
+er Chen, National Taiwan University, Taiwan</div><div>=A0=A0 Shuicheng Yan,=
+ National University of Singapore, Singapore</div>
+<div>=A0=A0 Eckehard Steinbach, Technische Universitaet Muenchen, Germany</=
+div><div>=A0=A0 Onur Guleryuz, DoCoMo USA Labs, USA</div><div>=A0=A0 Noel O=
+&#39;Connor, Dublin City University, Ireland</div><div>=A0=A0 Jiebo Luo, Ko=
+dak, USA</div>
+<div>=A0=A0 Thomas Little, Boston University, USA</div><div>=A0=A0 Mark Lia=
+o, Academia Sinica, Taiwan</div><div>=A0=A0 Nozha Boujemaa, INRIA Paris, Fr=
+ance</div><div>=A0=A0 Guodong Guo, North Carolina Central University, USA</=
+div><div>=A0=A0 Julien Maisonneuve, Alcatel-Lucent, France</div>
+<div>=A0=A0 Charalabos Skianis, University of Aegean, Greece</div><div>=A0=
+=A0 Greg Thompson, Thompson Video Consulting, USA</div><div>=A0=A0 Ling Gua=
+n, Ryerson University, Canada</div><div>=A0=A0 Ye-Kui Wang, Huawei Technolo=
+gies, USA</div>
+<div>=A0=A0 Truong Nguyen, University of California at San Diego, USA</div>=
+<div>=A0=A0 Lisimachos Kondi, University of Ioannina, Greece</div><div>=A0=
+=A0 Jie Liang, Simon Fraser University, Canada</div><div>=A0=A0 Lexing Xie,=
+ IBM, USA</div>
+<div>=A0=A0 Wai-tian Tan, HP Labs, USA</div><div>=A0=A0 Ghassem Koleyni, Co=
+nsultant, Canada</div><div>=A0=A0 Ying Li, Samsung Telecommunications Ameri=
+ca, USA</div><div>=A0=A0 Yijuan (Lucy) Lu, Texas State University, USA</div=
+><div>=A0=A0 Thomas Stockhammer, Nomor Research, Germany</div>
+<div>=A0=A0 Raheem Beyah, Georgia Institute of Technology, USA</div><div>=
+=A0=A0 Luca Salgarelli, Universit=E0 di Brescia, Italy</div><div>=A0=A0 Al =
+Bovik, The University of Texas at Austin, USA</div><div>=A0=A0 Shiguo Lian,=
+ France Telecom R&amp;D Beijing, China</div>
+<div>=A0=A0 Khaled El-Maleh, Qualcomm, USA</div><div>=A0=A0 Jun Kyun Choi, =
+Information Communication University, Korean</div><div>=A0=A0 Gerald Schaef=
+er, Aston University, UK</div>
+
+--0016e65385c899e6300463cac915--
+
+--===============2008890225==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============2008890225==--

@@ -1,0 +1,197 @@
+From - Thu Dec 10 14:37:28 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs191209faq;
+        Fri, 19 Jun 2009 02:21:25 -0700 (PDT)
+Received: by 10.210.118.13 with SMTP id q13mr396013ebc.7.1245403281785;
+        Fri, 19 Jun 2009 02:21:21 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 12si5889714ewy.55.2009.06.19.02.21.20;
+        Fri, 19 Jun 2009 02:21:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DF71A20DCD; Fri, 19 Jun 2009 11:21:18 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id F012820DCD;
+	Fri, 19 Jun 2009 11:21:03 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D52233D24;
+	Fri, 19 Jun 2009 11:21:03 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eEQYrTzfuU5c; Fri, 19 Jun 2009 11:21:03 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6CE6C3D2B;
+	Fri, 19 Jun 2009 11:21:02 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C18D13D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 15 Jun 2009 18:17:40 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6DQd7PZSrp5H for <elsnet-list@mailman.elsnet.org>;
+	Mon, 15 Jun 2009 18:17:40 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8F40A3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 15 Jun 2009 18:17:20 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7094921141; Mon, 15 Jun 2009 18:17:20 +0200 (MEST)
+X-Greylist: delayed 351 seconds by postgrey-1.28 at newjura;
+	Mon, 15 Jun 2009 18:17:14 MEST
+Received: from mail3.unitn.it (mail3.unitn.it [193.205.206.70])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id A9923210E4
+	for <elsnet-list@elsnet.org>; Mon, 15 Jun 2009 18:17:14 +0200 (MEST)
+Received: from mail3.unitn.it (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id EA11118269
+	for <elsnet-list@elsnet.org>; Mon, 15 Jun 2009 18:11:22 +0200 (CEST)
+Received: from mailhub2.unitn.it (mailhub2.unitn.it [192.168.206.47])
+	by mail3.unitn.it (Postfix) with ESMTP id 9F1B818282
+	for <elsnet-list@elsnet.org>; Mon, 15 Jun 2009 18:11:22 +0200 (CEST)
+Received: from disi.unitn.it (brenta.disi.unitn.it [193.205.194.4])
+	by mailhub2.unitn.it (Postfix) with ESMTP id 87CD8B0D3D8
+	for <elsnet-list@elsnet.org>; Mon, 15 Jun 2009 18:11:22 +0200 (CEST)
+Received: from disi.unitn.it (localhost.localdomain [127.0.0.1])
+	by disi.unitn.it (8.13.8/8.13.8) with ESMTP id n5FGBM9p028650
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Mon, 15 Jun 2009 18:11:22 +0200
+Received: (from apache@localhost)
+	by disi.unitn.it (8.13.8/8.13.8/Submit) id n5FGBMAW028649;
+	Mon, 15 Jun 2009 18:11:22 +0200
+From: LivingWeb <livingweb@disi.unitn.it>
+X-Authentication-Warning: disi.unitn.it: apache set sender to
+	livingweb@localhost using -f
+Received: from 193.205.213.166 (SquirrelMail authenticated user livingweb)
+	by www.disi.unitn.it with HTTP;
+	Mon, 15 Jun 2009 18:11:22 +0200 (CEST)
+Message-ID: <38587.193.205.213.166.1245082282.squirrel@www.disi.unitn.it>
+Date: Mon, 15 Jun 2009 18:11:22 +0200 (CEST)
+To: elsnet-list@elsnet.org
+User-Agent: SquirrelMail/1.4.8-5.el5_3.7
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Mailman-Approved-At: Fri, 19 Jun 2009 11:20:40 +0200
+Cc: 
+Subject: [Elsnet-list] 1st International ISWC Workshop on Living Web: Making
+ Web Diversity a true asset
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+****************************************************
+We apologize if you received multiple copies of this Call for Papers.
+Please help us forward it to those who might be interested. Thanks!
+****************************************************
+
+CALL FOR PAPERS
+1st International ISWC Workshop on Living Web: Making Web Diversity a true
+asset
+
+October 26, 2009
+Washington DC, USA
+http://livingweb.disi.unitn.it/index.html
+
+
+SCOPE OF THE WORKSHOP
+The large diversity underlying the content creation process of the Web
+contributes a lot to the    wealth and value of the Web. This diversity is a
+consequence of many factors (e.g., cultural  background, opinion) and it has
+always been largely present in the Web. However, lately it has been
+further boosted by the success of Social Web applications. As a consequence,
+it has become more   and more difficult to get a balanced view on a given
+subject using current search technology.
+The goal of this workshop is to discuss and highlight the potentials that
+are inherent in diversity and that today are only marginally exploited, as
+well as the risk of biasing through the Web. Furthermore, it will discuss
+research ideas and results - especially in the area of semantics but also
+multimedia and linguistic technologies - that are relevant for enabling
+"Living Web" Technology, i.e., technology that more systematically looks
+into diversity, helps identifying bias and different viewpoints, and - in
+summary - leverages diversity for exploiting its full potential to the Web
+user.
+
+TOPICS OF INTEREST
+Suggested topics include, but are not limited to:
+-Extraction of semantic information/semantic annotation
+-Multimedia annotation
+-Opinion mining and management
+-Opinion extraction from multidimensional media
+-Handling Ontology heterogeneity and ontology mapping
+-Context, contextual ontologies
+-Diversity aware classification and clustering technology
+-Diversity driven information aggregation technologies
+-Semantic clustering
+-Diversity aware search and semantic search
+-Multimedia retrieval
+-Event-based multidimensional media management
+-Intelligent (information) visualization technology
+-Analysis of socials Web data (especially with respect to diversity)
+
+IMPORTANT DATES
+August 11, 2009: Deadline for the submission of papers.
+September 15, 2009: Deadline for the notification of acceptance/rejection.
+October 2, 2009: Workshop camera ready copy submission.
+
+SUBMISSION
+Prospective authors are invited to submit original technical papers of no
+more than 8 pages in the standard LNCS paper format. Paper should be
+submitted electronically in PDF format. Accepted papers will be published in
+the workshop proceedings as a volume of CEUR-WS. Prospective authors are
+expected to present their papers at the workshop. Selected papers of the
+workshop will be published in a special issue of a journal.
+For further information, please visit the workshop web site
+http://livingweb.disi.unitn.it/index.html
+
+ORGANIZERS AND CONTACTS
+Giulia Boato (co-chair) (University of Trento, Italy) e-mail:
+boato@disi.unitn.it
+Claudia Niederee (co-chair) (L3S Research Centre, Germany) e-mail:
+niederee@l3s.de
+Hugo Zaragoza (Yahoo! Research, Barcelona, Spain)
+Sreenivas Gollapudi (Microsoft Research, CA, USA)
+Fausto Giunchiglia (University of Trento, Italy)
+Wolfgang Nejdl (L3S Research Center, Germany)
+
+PROGRAM COMMITTEE
+Paolo Bersana (University of Edinburgh, UK), Paolo Bouquet (University of
+Trento, Italy), Harry Chen (Siri, Inc., USA), Francesco G. B. De Natale
+(University of Trento, Italy), Andrea De Polo (Alinari 24ore SpA, Italy),
+Peter Fankhauser (L3S Research Center, Germany), Gregory Grefenstette
+(Exalead, France), Vasant Honavar (Iowa State University, USA), Ramesh Jain
+(University of California, Irvine, USA), Yannis Kompatsiaris (ITI, Greece),
+Paul Lewis (University of Southampton, UK), Vasileios Mezaris (ITI, Greece),
+Alessandro Moschitti (University of Trento, Italy), Vanessa Murdock (Yahoo!
+Research, Barcelona, Spain), Kieron O'Hara (University of Southampton, UK),
+Daniel Olmedilla (Telefonica R&D, Spain), Dave Robertson (University of
+Edinburgh, UK), Nicu Sebe (University of Amsterdam, Netherlands), Pavel
+Shvaiko (Informatica Trentina S.p.A., Italy).
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

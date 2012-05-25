@@ -1,0 +1,417 @@
+From - Thu Dec 10 14:32:43 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs640329waa;
+        Thu, 24 Jul 2008 00:38:28 -0700 (PDT)
+Received: by 10.210.63.5 with SMTP id l5mr909672eba.85.1216885105998;
+        Thu, 24 Jul 2008 00:38:25 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id z34si3915890ikz.9.2008.07.24.00.37.48;
+        Thu, 24 Jul 2008 00:38:25 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 72B9E157CA; Thu, 24 Jul 2008 09:37:43 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.3 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C2ECA132B9;
+	Thu, 24 Jul 2008 09:37:29 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 6DA243D85;
+	Thu, 24 Jul 2008 09:37:27 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rMa5CL2JBl+o; Thu, 24 Jul 2008 09:37:27 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 4D15F3D3C;
+	Thu, 24 Jul 2008 09:37:20 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id C851F3D3C
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 22 Jul 2008 14:11:52 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id xJ59ZiF6IfFF for <elsnet-list@mailman.elsnet.org>;
+	Tue, 22 Jul 2008 14:11:52 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 9817F3D22
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 22 Jul 2008 14:11:52 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 86F0AB863; Tue, 22 Jul 2008 14:11:52 +0200 (MEST)
+Received: from ti-out-0910.google.com (ti-out-0910.google.com [209.85.142.186])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D5954B832
+	for <elsnet-list@let.uu.nl>; Tue, 22 Jul 2008 14:11:44 +0200 (MEST)
+Received: by ti-out-0910.google.com with SMTP id d10so940594tib.12
+	for <elsnet-list@let.uu.nl>; Tue, 22 Jul 2008 05:11:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type;
+	bh=nW7gQniWPzE+AYOA4mLCVXqvH0353xNarTk/dr/qIwQ=;
+	b=DX5z611olMSNYNRIl+wYB+jsO+hTyHbYUdpBhStjZiOjjoOtmz3dr9VvgU7pZwaJDt
+	+8Qv2r+LTfAgQE/Z+4XnByfwcSnwWabtWUIfQjIkNUCeLhp7+nDqyKmpxcR6w+0tl504
+	cEiPlCQvieXNwjddwRl/eUCEbjazAvC0jBim8=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type;
+	b=RH09YK8YRL7tEa72nF42dn3Qml9V1VmJO8DHAMLSAtGJ237BQxpooGwXcTQk+Av9mu
+	IbEYQXBaoJ55i4Wi7BV3LVFVhlub4519z3hw0XmTP54inHndgmP8k1EHYUswlisU5OWJ
+	yrZPx3RUINcknOMedr+xdqWUzaKa9ICeogcaI=
+Received: by 10.110.14.12 with SMTP id 12mr4494697tin.19.1216728684812;
+	Tue, 22 Jul 2008 05:11:24 -0700 (PDT)
+Received: by 10.110.57.9 with HTTP; Tue, 22 Jul 2008 05:11:23 -0700 (PDT)
+Message-ID: <d71c7ca10807220511o6d1aa60ehd92cf822f29ec813@mail.gmail.com>
+Date: Tue, 22 Jul 2008 20:11:23 +0800
+From: "Dacheng Tao" <dacheng.tao@gmail.com>
+To: dacheng.tao@gmail.com
+MIME-Version: 1.0
+X-Mailman-Approved-At: Thu, 24 Jul 2008 09:37:17 +0200
+Cc: 
+Subject: [Elsnet-list] CFP for Video Mining 2008
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0060578383=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============0060578383==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9127_1857749.1216728684771"
+
+------=_Part_9127_1857749.1216728684771
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+***************************************************************************=
+*
+We apologize if you received multiple copies of this Call for Papers.
+Please feel free to distribute it to those who might be interested.
+***************************************************************************=
+*
+
+Subject: CFP for Video Mining 2008
+
+Call for Papers
+With cameras become pervasive in our daily life, vast amounts of videos are
+generated in different aspects of our
+
+society every day. The popularity of YouTube-like websites is one of strong
+evidences for this. How to effectively
+
+analyze and use the already huge, rapidly growing video data is one of main
+challenges we are facing. Video
+
+processing and analysis techniques become more and more important in the
+field of computer vision and image
+
+understanding and other related areas. There are wide-rage potential
+video-based applications in many areas
+
+including multimedia, human computer interface, security and surveillance,
+copyright protection, personal
+
+entertainment, to name a few.
+
+Video mining is to discover and describe interesting patterns in video data=
+,
+which has become one of the core
+
+problem areas of the data mining research community.  Compared to the minin=
+g
+of other types of data (e.g., text),
+
+video mining is still in its infancy, and an under-explored field. There ar=
+e
+many challenging research problems
+
+facing video mining. For example, how to discover knowledge from
+spatial-temporal data, how to infer high-level
+
+semantic concepts from low-level features extracted from videos, how to mak=
+e
+use of unlabeled data. Applying
+
+general data mining techniques for video data will face a number of
+difficulties as well, because of the need to
+
+analyze large amount of high-dimensional data. To address these challenges,
+we have to adapt the existing data
+
+mining theory or algorithm for video data, or find new techniques and
+approaches suitable for video data.
+
+This one-day workshop seeks to present and highlight the latest development=
+s
+in video data mining and video-based
+
+applications. It aims to bring together worldwide researchers from related
+disciplines, to provide a forum for the
+
+dissemination of significant research work and innovative practice, and to
+encourage exchanges, interactions and
+
+possible collaboration between participants.
+
+Topics of interest include, but are not limited to,
+=95 Video clustering and categorization
+=95 Video based object recognition
+=95 Video segmentation and summarization
+=95 Video feature extraction and representation
+=95 Video indexing and retrieval
+=95 Video search engines
+=95 Video editing and browsing systems
+=95 Visual event and activity detection
+=95 Statistical techniques for video analysis
+=95 Semantic video content analysis
+=95 Video processing for HCI
+=95 Video surveillance (person identification, abnormal activity labeling =
+=85)
+=95 Consumer video applications (sports highlight detection, commercial
+message extraction =85)
+
+Program Co-chairs
+o Dan Schonfeld University of Illinois at Chicago, USA
+o Caifeng Shan  Philips Research, The Netherlands
+o Dacheng Tao  Hong Kong Polytechnic University, China
+o Liang Wang   The University of Melbourne, Australia
+
+PC Members
+o Rainer Lienhart  Institut f=FCr Informatik, Universit=E4t Augsburg, Germa=
+ny
+o Shaogang Gong  Queen Mary University London, UK
+o Wolfgang Klas  Institute for Distributed and Multimedia Systems, Austria
+o C.-C. Jay Kuo  University of South California, USA
+o Greg Mori   Simon Fraser University , Canada
+o Stan Li   Chinese Academy of Sciences,
+China
+o Zoran Dimitrijevic Google Inc, USA
+o Qi Li    Western Kentucky University, USA
+o Kadir A. Peker  Bilkent University,  Turkey
+o Tao Mei   Microsoft Research Asia, China
+o Dimitrios Makris  Kingston University, UK
+o Tianhao Zhang  Hong Kong Polytechnic University, Hong Kong, China
+o Stephen J. Maybank Birkbeck, University of London, UK
+o Jiebo Luo   Kodak Research Labs, USA
+o Ashfaq Khokhar  University of Illinois at Chicago, USA
+o Qi Tian   University of Texas, USA
+o Xiaozhe Wang University of Melbourne, Australia
+o David Doermann  University of Maryland, USA
+o Liang-Tien Chia Nanyang Technological University, Singapore
+o Mauro Barbieri Philips Research, The Netherlands
+
+Important dates
+Submission deadline:   August 1, 2008
+Notification of acceptance: September 15, 2008
+Camera-ready due:   October 7, 2008
+Workshop:    December 19, 2008
+
+Paper Submission
+=95 In submitting a manuscript to this workshop, the authors acknowledge th=
+at
+no paper substantially similar
+
+in content has been submitted to another conference, workshop, or journal.
+=95 As tradition at ICDM, a "forward to workshops" mechanism will be adopte=
+d
+this year, where a paper not
+
+accepted for the main ICDM conference can be (at the author's request)
+"fast-tracked" to this workshop, preserving
+
+reviews.
+=95 The format of the paper is the same as the ICDM main conference paper.
+Please follow the instructions on
+
+the website http://icdm08.isti.cnr.it/. The review process will be
+double-blind.
+=95 For the paper submission, please follow the link =96 Submission Page.
+
+Review and publication
+Each submission will be reviewed by at least three reviewers from program
+committee members and external reviewers
+
+for originality, significance, clarity, soundness, relevance and technical
+contents. Accepted papers will be
+
+published by IEEE in the workshop proceedings of ICDM 2008, and will be
+invited to submit in the extended form to
+
+an edited book (Springer) by the organizers and/or a journal special issue
+after conference.
+
+Registration
+At least one author for each paper needs to register to ICDM 2008.  There i=
+s
+no separate registration for the
+
+workshop. The main conference registration covers everything.
+
+Final Workshop Program
+TBA
+
+Contact
+Any information or inquiries regarding the workshop can be forwarded to:
+<caifeng [dot] shan [at] gmail [dot] com> or
+<dacheng [dot] tao [at] gmail [dot] com>.
+
+------=_Part_9127_1857749.1216728684771
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<div dir=3D"ltr"><p>*******************************************************=
+*********************<br>We apologize if you received multiple copies of th=
+is Call for Papers.<br>Please feel free to distribute it to those who might=
+ be interested.<br>
+***************************************************************************=
+*</p>
+<p>Subject: CFP for Video Mining 2008</p>
+<p>Call for Papers<br>With cameras become pervasive in our daily life, vast=
+ amounts of videos are generated in different aspects of our </p>
+<p>society every day. The popularity of YouTube-like websites is one of str=
+ong evidences for this. How to effectively </p>
+<p>analyze and use the already huge, rapidly growing video data is one of m=
+ain challenges we are facing. Video </p>
+<p>processing and analysis techniques become more and more important in the=
+ field of computer vision and image </p>
+<p>understanding and other related areas. There are wide-rage potential vid=
+eo-based applications in many areas </p>
+<p>including multimedia, human computer interface, security and surveillanc=
+e, copyright protection, personal </p>
+<p>entertainment, to name a few. </p>
+<p>Video mining is to discover and describe interesting patterns in video d=
+ata, which has become one of the core </p>
+<p>problem areas of the data mining research community.&nbsp; Compared to t=
+he mining of other types of data (e.g., text), </p>
+<p>video mining is still in its infancy, and an under-explored field. There=
+ are many challenging research problems </p>
+<p>facing video mining. For example, how to discover knowledge from spatial=
+-temporal data, how to infer high-level </p>
+<p>semantic concepts from low-level features extracted from videos, how to =
+make use of unlabeled data. Applying </p>
+<p>general data mining techniques for video data will face a number of diff=
+iculties as well, because of the need to </p>
+<p>analyze large amount of high-dimensional data. To address these challeng=
+es, we have to adapt the existing data </p>
+<p>mining theory or algorithm for video data, or find new techniques and ap=
+proaches suitable for video data.&nbsp; </p>
+<p>This one-day workshop seeks to present and highlight the latest developm=
+ents in video data mining and video-based </p>
+<p>applications. It aims to bring together worldwide researchers from relat=
+ed disciplines, to provide a forum for the </p>
+<p>dissemination of significant research work and innovative practice, and =
+to encourage exchanges, interactions and </p>
+<p>possible collaboration between participants.</p>
+<p>Topics of interest include, but are not limited to, <br>=95&nbsp;Video c=
+lustering and categorization<br>=95&nbsp;Video based object recognition <br=
+>=95&nbsp;Video segmentation and summarization<br>=95&nbsp;Video feature ex=
+traction and representation<br>
+=95&nbsp;Video indexing and retrieval<br>=95&nbsp;Video search engines<br>=
+=95&nbsp;Video editing and browsing systems<br>=95&nbsp;Visual event and ac=
+tivity detection<br>=95&nbsp;Statistical techniques for video analysis<br>=
+=95&nbsp;Semantic video content analysis<br>
+=95&nbsp;Video processing for HCI<br>=95&nbsp;Video surveillance (person id=
+entification, abnormal activity labeling =85) <br>=95&nbsp;Consumer video a=
+pplications (sports highlight detection, commercial message extraction =85)=
+</p>
+<p>Program Co-chairs <br>o&nbsp;Dan Schonfeld&nbsp;University of Illinois a=
+t Chicago, USA <br>o&nbsp;Caifeng Shan &nbsp;Philips Research, The Netherla=
+nds <br>o&nbsp;Dacheng Tao &nbsp;Hong Kong Polytechnic University, China <b=
+r>o&nbsp;Liang Wang&nbsp; &nbsp;The University of Melbourne, Australia&nbsp=
+;&nbsp;&nbsp; </p>
+
+<p>PC Members <br>o&nbsp;Rainer Lienhart &nbsp;Institut f=FCr Informatik, U=
+niversit=E4t Augsburg, Germany <br>o&nbsp;Shaogang Gong &nbsp;Queen Mary Un=
+iversity London, UK <br>o&nbsp;Wolfgang Klas &nbsp;Institute for Distribute=
+d and Multimedia Systems, Austria <br>
+o&nbsp;C.-C. Jay Kuo &nbsp;University of South California, USA&nbsp;&nbsp;&=
+nbsp; <br>o&nbsp;Greg Mori &nbsp;&nbsp;Simon Fraser University , Canada&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>o&nbsp;Stan Li &nbsp=
+;&nbsp;Chinese Academy of Sciences, China&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>o&nbsp;Zoran Dimitrijevic&=
+nbsp;Google Inc, USA <br>
+o&nbsp;Qi Li &nbsp;&nbsp;&nbsp;Western Kentucky University, USA&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; <br>o&nbsp;Kadir A. Peker &nbsp;Bilkent Univers=
+ity,&nbsp; Turkey <br>o&nbsp;Tao Mei &nbsp;&nbsp;Microsoft Research Asia, C=
+hina <br>o&nbsp;Dimitrios Makris &nbsp;Kingston University, UK&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br=
+>
+o&nbsp;Tianhao Zhang &nbsp;Hong Kong Polytechnic University, Hong Kong, Chi=
+na <br>o&nbsp;Stephen J. Maybank Birkbeck, University of London, UK <br>o&n=
+bsp;Jiebo Luo &nbsp;&nbsp;Kodak Research Labs, USA<br>o&nbsp;Ashfaq Khokhar=
+ &nbsp;University of Illinois at Chicago, USA<br>
+o&nbsp;Qi Tian &nbsp;&nbsp;University of Texas, USA <br>o&nbsp;Xiaozhe Wang=
+&nbsp;University of Melbourne, Australia<br>o&nbsp;David Doermann &nbsp;Uni=
+versity of Maryland, USA<br>o&nbsp;Liang-Tien Chia&nbsp;Nanyang Technologic=
+al University, Singapore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+o&nbsp;Mauro Barbieri&nbsp;Philips Research, The Netherlands&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p>Important dates<br>Submission deadline: &nbsp;&nbsp;August 1, 2008<br>No=
+tification of acceptance:&nbsp;September 15, 2008<br>Camera-ready due: &nbs=
+p;&nbsp;October 7, 2008<br>Workshop: &nbsp;&nbsp;&nbsp;December 19, 2008</p=
+>
+<p>Paper Submission <br>=95&nbsp;In submitting a manuscript to this worksho=
+p, the authors acknowledge that no paper substantially similar </p>
+<p>in content has been submitted to another conference, workshop, or journa=
+l.<br>=95&nbsp;As tradition at ICDM, a &quot;forward to workshops&quot; mec=
+hanism will be adopted this year, where a paper not </p>
+<p>accepted for the main ICDM conference can be (at the author's request) &=
+quot;fast-tracked&quot; to this workshop, preserving </p>
+<p>reviews. <br>=95&nbsp;The format of the paper is the same as the ICDM ma=
+in conference paper. Please follow the instructions on </p>
+<p>the website <a href=3D"http://icdm08.isti.cnr.it/">http://icdm08.isti.cn=
+r.it/</a>. The review process will be double-blind. <br>=95&nbsp;For the pa=
+per submission, please follow the link =96 Submission Page.</p>
+<p>Review and publication <br>Each submission will be reviewed by at least =
+three reviewers from program committee members and external reviewers </p>
+<p>for originality, significance, clarity, soundness, relevance and technic=
+al contents. Accepted papers will be </p>
+<p>published by IEEE in the workshop proceedings of ICDM 2008, and will be =
+invited to submit in the extended form to </p>
+<p>an edited book (Springer) by the organizers and/or a journal special iss=
+ue after conference. </p>
+<p>Registration<br>At least one author for each paper needs to register to =
+ICDM 2008.&nbsp; There is no separate registration for the </p>
+<p>workshop. The main conference registration covers everything. </p>
+<p>Final Workshop Program<br>TBA</p>
+<p>Contact<br>Any information or inquiries regarding the workshop can be fo=
+rwarded to: <br>&lt;caifeng [dot] shan [at] gmail [dot] com&gt; or <br>&lt;=
+dacheng [dot] tao [at] gmail [dot] com&gt;.</p>
+<p>&nbsp;</p></div>
+
+------=_Part_9127_1857749.1216728684771--
+
+--===============0060578383==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0060578383==--

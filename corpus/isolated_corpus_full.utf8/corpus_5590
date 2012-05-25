@@ -1,0 +1,238 @@
+From - Thu Dec 10 14:37:33 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs427399faq;
+        Wed, 1 Jul 2009 09:34:22 -0700 (PDT)
+Received: by 10.210.54.15 with SMTP id c15mr5821963eba.79.1246466062060;
+        Wed, 01 Jul 2009 09:34:22 -0700 (PDT)
+Return-Path: <start@softconf.com>
+Received: from min.univ-orleans.fr (smtpmin.univ-orleans.fr [194.167.30.176])
+        by mx.google.com with ESMTP id 27si2341786ewy.3.2009.07.01.09.34.19;
+        Wed, 01 Jul 2009 09:34:19 -0700 (PDT)
+Received-SPF: neutral (google.com: 194.167.30.176 is neither permitted nor denied by domain of start@softconf.com) client-ip=194.167.30.176;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 194.167.30.176 is neither permitted nor denied by domain of start@softconf.com) smtp.mail=start@softconf.com
+Received: from mailper.univ-orleans.fr (localhost [127.0.0.1])
+	by min.univ-orleans.fr (Postfix) with ESMTP id CC46512B5CB
+	for <jpprost@gmail.com>; Wed,  1 Jul 2009 18:34:19 +0200 (CEST)
+Received: by mailper.univ-orleans.fr (Postfix)
+	id D9A4184BE; Wed,  1 Jul 2009 18:34:19 +0200 (CEST)
+Delivered-To: p14399@univ-orleans.fr
+Received: from ka.univ-orleans.fr (smtpka.univ-orleans.fr [194.167.30.175])
+	by mailper.univ-orleans.fr (Postfix) with ESMTP id D38A0845F
+	for <jean-philippe.prost@univ-orleans.fr>; Wed,  1 Jul 2009 18:34:19 +0200 (CEST)
+Received: from grey.univ-orleans.fr (localhost [127.0.0.1])
+	by ka.univ-orleans.fr (Postfix) with ESMTP id 46E8A12AD5A
+	for <jean-philippe.prost@univ-orleans.fr>; Wed,  1 Jul 2009 18:34:17 +0200 (CEST)
+Received: from max.softconf.com (softconf.com [209.97.213.77])
+	by grey.univ-orleans.fr (Postfix) with ESMTP id F089332978
+	for <jean-philippe.prost@univ-orleans.fr>; Wed,  1 Jul 2009 18:34:12 +0200 (CEST)
+Received: from max.softconf.com (localhost.localdomain [127.0.0.1])
+	by max.softconf.com (8.13.8/8.13.8) with ESMTP id n61GY68d015500;
+	Wed, 1 Jul 2009 09:34:06 -0700
+Received: (from www@localhost)
+	by max.softconf.com (8.13.8/8.13.8/Submit) id n61GY4Yx015496;
+	Wed, 1 Jul 2009 09:34:04 -0700
+Date: Wed, 1 Jul 2009 09:34:04 -0700
+Message-Id: <200907011634.n61GY4Yx015496@max.softconf.com>
+Sender: start@softconf.com
+From: Harry.Bunt@uvt.nl
+X-START-Originating: Harry.Bunt@uvt.nl
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+To: jean-philippe.prost@univ-orleans.fr
+Cc: Eric.De_La_Clergerie@inria.fr
+Subject: Your IWPT 2009 Submission (Number 21)
+
+Dear Dr. Jean-Philippe Prost:
+
+I am sorry to inform you that the following submission 
+was not selected by the program committee to appear as a full paper at 
+IWPT 2009: 
+
+      Grammar Error Detection with Best Approximated Parse
+
+Still, taking the reviewer comments into account, we believe you should try to submit a short version of your paper before July 22nd.
+
+I have enclosed the reviewer comments for your perusal.
+
+If you have any additional questions, please feel free 
+to get in touch.
+
+Best Regards,
+Organizers, IWPT 2009 
+IWPT 2009 
+
+============================================================================ 
+IWPT 2009 Reviews for Submission #21
+============================================================================ 
+
+Title: Grammar Error Detection with Best Approximated Parse
+
+Authors: Jean-Philippe Prost
+============================================================================
+                            REVIEWER #1
+============================================================================ 
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         Appropriateness: 5
+                                 Clarity: 3
+                   Technical Correctness: 4
+                             Originality: 2
+                                  Impact: 2
+                              Evaluation: 3
+                               Reference: 4
+                          Recommendation: 2
+                              Confidence: 3
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+The paper fails to explain in some detail 
+* the possible constraints that the framework allows
+* the figure of merit used to rank partial parses
+whereas this is required to judge the contribution of the paper.
+
+The parse algorithm is not very novel, but very similar to very many parse
+algorithms proposed in the past (and the future, presumably) - perhaps apart
+from the Star category that can always be used to combine categories.
+
+The "proof" that the optimal solution is found by the algorithm is somewhat
+unconvincing because is starts by "Assuming that the merit function has the
+adequate properties with respect to optimality". Indeed, for certain
+non-monotonic figure of merit functions your algorithm would not find the
+optimal result. 
+
+There is no argumentation why the optimal parse ought to be the intended parse
+in the case of grammatical errors.
+
+Evaluation part is unconvincing, as the authors are aware of. Except for the
+limitations described by the authors, there is another worry. The parser does
+not obtain reasonable recall on grammatical sentences. If the parser were to be
+
+improved to have higher recall, then this would (probably) result in a
+situation where more apparently ungrammatical sentences receive an alternative
+(grammatical) analysis "by chance".  So unless the parser achieves some
+state-of-the art accuracy on grammatical sentences, it is not yet very
+informative how it deals with ungrammatical ones...
+
+============================================================================
+                            REVIEWER #2
+============================================================================ 
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         Appropriateness: 5
+                                 Clarity: 4
+                   Technical Correctness: 4
+                             Originality: 3
+                                  Impact: 3
+                              Evaluation: 2
+                               Reference: 4
+                          Recommendation: 3
+                              Confidence: 4
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+Interesting paper presenting an interesting approach to the problem of
+(grammar) error detection. However, you try to achieve too much in this paper
+-- state of the art in error detection, overview of Property
+Grammar/Model-Theoretic Syntax, description of the Loose Satisfaction Chart
+Parsing algorithm, evaluation, discussion of results and conclusion. That is a
+bit much for a 10 page paper. You should try to better focus your paper.
+
+============================================================================
+                            REVIEWER #3
+============================================================================ 
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         Appropriateness: 3
+                                 Clarity: 3
+                   Technical Correctness: 4
+                             Originality: 4
+                                  Impact: 2
+                              Evaluation: 2
+                               Reference: 4
+                          Recommendation: 2
+                              Confidence: 3
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+The author(s) mention 5 restrictions and suggest that they were introduced to
+reduce the
+search space. It appears that these constraints impose a tree structure on the
+models and
+hence make a CKY style algorithm possible. It is surprising that this is not
+mentioned in the 
+paper because without tree-like models such DP wouldn't have been possible.
+Also is assumption 5
+necessary, i.e., does it not follow from assumptions 2 and 3? 
+
+I couldn't follow how the evaluation 1 was done when the annotations are only
+for partial parses
+and this parser is a full parser. If the parser is not meant to provide the
+structures expected for
+EASY style evaluations then why bother and then claim the result is "same order
+of magnitude" (!!!)
+as ones for existing parser. Evaluation 2 also leaves much to be desired. a
+full page is used to discuss
+examples where in actuality the parser is not lacking but rather the underlying
+grammar is.
+Clearly we can't expect the parser to make up for drawbacks of the grammar, so
+why discuss them here
+at such detail. But somehow this raises a questions to me about this
+work. This example illustrates that the judgement of "correct parse" needs to
+take
+into account the underlying grammar. Could the parse be determined to be
+inappropriate
+if there is  no better one available. It doesn't appear that the evaluators
+took this into consideration,
+if they deemed the tree of Figure 4 to be incorrect. 
+
+Additionally,
+
+there were supposed to be 5 linguists but no mention of inter-annotator
+agreement.
+DId all 5 have to agree? 
+
+Discussion such as on the 39 rules for VP beg the question whether this is the
+right approach to take and whether approaches like mal-rules (that can loosen
+the requirements
+of VP without head verbs to account for such errors in the input) are better
+suited.
+
+As it is the evaluation set is artificially created with a simplifying
+assumption of just one
+error. So without any form of baseline, the quality of the product is unclear.
+So I am unclear
+at the end about questions like how good are the heuristics. Would some
+heuristic
+as an alternate to ones discussed in Section 3.5 have better performance.
+
+There were many typos, spelling and grammar errors.
+
+A little more discussion of PG would have been helpful for those unfamiliar
+with it.
+For me, it hampered me in my getting a feel for how straightforward it might be
+to translate a "parse" to a statement of what the error is (clear in the
+competing
+approach of mal-rules), a question fundamental to utility in CALL systems.

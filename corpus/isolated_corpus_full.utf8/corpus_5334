@@ -1,0 +1,643 @@
+From - Thu Dec 10 14:37:11 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.105.199 with SMTP id u7cs231351fao;
+        Sun, 24 May 2009 11:57:39 -0700 (PDT)
+Received: by 10.210.142.6 with SMTP id p6mr3816542ebd.95.1243191450700;
+        Sun, 24 May 2009 11:57:30 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 25si3190916ewy.71.2009.05.24.11.57.29;
+        Sun, 24 May 2009 11:57:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6CEFF22405; Sun, 24 May 2009 20:57:17 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id CDA0122315;
+	Sun, 24 May 2009 20:57:04 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id AB4073D3A;
+	Sun, 24 May 2009 20:57:04 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id u7ckJP9cwpPH; Sun, 24 May 2009 20:57:04 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A0CDD3D2B;
+	Sun, 24 May 2009 20:57:02 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7C12D3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 24 May 2009 08:09:56 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id RuWA3yMhkT70 for <elsnet-list@mailman.elsnet.org>;
+	Sun, 24 May 2009 08:09:56 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 43F7B3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 24 May 2009 08:09:56 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 28FF6224B3; Sun, 24 May 2009 08:09:56 +0200 (MEST)
+Received: from yw-out-1718.google.com (yw-out-1718.google.com [74.125.46.157])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 77F6E224AE
+	for <elsnet-list@let.uu.nl>; Sun, 24 May 2009 08:09:50 +0200 (MEST)
+Received: by yw-out-1718.google.com with SMTP id 4so1931627ywq.2
+	for <elsnet-list@let.uu.nl>; Sat, 23 May 2009 23:09:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=noNP3b1WtoQa8LOq3zkKmjFDSayvnE/lLxmPCaiMxCA=;
+	b=hx8anJDmDGtmUfUmS3RbQA33Qx/716YdvmJoYI+N3FpWAIa5fweF2iFfNLSRkBx9dh
+	fXmEP2HNI9csrgQyli6nUs6GeLkKWuRkqez5ptSQY57z4VuZz17TcWsOuBN7vMZ5uUEz
+	VwJHWC5EUcOTTHdPBMwegJGBEVCCdZxRq6jtQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=N30Q6BPgepbMQ22DH1eCiJyAumMrAVFL+7Ky4u824Bam/IHmqV31pZsbp0pNZl6QOB
+	MMBz+UI+0qfnv37qkNBKZTZ3mhNzNmZcY0R0APCLoG3DYDVLEHmScEsX/UemwWien58U
+	RSgtobCa6+y/pcKqzrsPZo26vLifdh63cubJQ=
+MIME-Version: 1.0
+Received: by 10.100.14.2 with SMTP id 2mr10324497ann.68.1243145376761; Sat, 23 
+	May 2009 23:09:36 -0700 (PDT)
+Date: Sun, 24 May 2009 14:09:36 +0800
+Message-ID: <3b50b55f0905232309q331cfa90xa56cf91a3a57d130@mail.gmail.com>
+From: Shuicheng Yan <shuicheng.nus@gmail.com>
+To: dm-discuss@egroups.com, intranet-km@egroups.com, 
+	ai-medicine@smi.stanford.edu, apeiresios@egnatia.ee.auth.gr, 
+	bayes-news@stat.cmu.edu, BMDP-L-request@LISTS.MCGILL.CA, 
+	cneuro@bbb.caltech.edu, colt@cs.uiuc.edu, community@mlnet.org, 
+	comp-bio@net.bio.net, connectionists@cs.cmu.edu, dalist@fuqua.duke.edu, 
+	demetri@dcs.shef.ac.uk, dmneditor@idagroup.com, dseditor@dsstar.com, 
+	ecran-all@lcr.thomson-csf.fr, editor@kdnuggets.com, 
+	genetic_programming@yahoogroups.com, ilpnet@ijs.si,
+	inductive@listserv.unb.ca, 
+	kaw@swi.psy.uva.nl, machine-learning@egroups.com, ml@isle.org, 
+	roughset@cs.uregina.ca, s-news@wubios.wustl.edu, 
+	stat@statlab.uni-heidelberg.de, support-vector-machines@jiscmail.ac.uk, 
+	turkstat@bilkent.edu.tr, acl2@cs.utexas.edu, agents-vic@cs.mu.oz.au, 
+	agents@cs.umbc.edu, ai-sges@jiscmail.ac.uk, aiia@dis.uniroma1.it, 
+	aisb@cogs.susx.ac.uk, akurt@fatih.edu.tr, all@dfki.de,
+	allstat@jiscmail.ac.uk, 
+	anne@ida.his.se, basili@info.uniroma2.it, bioforum@net.bio.net, 
+	biolsyst@ruhr-uni-bochum.de, biomatrx@net.bio.net,
+	bisc-group@cs.berkeley.edu, 
+	bisc-group@diva.eecs.berkeley.edu, bmdp-l@lists.mcgill.ca, 
+	casi-dist@cs.colostate.edu, casi-profs@cs.colostate.edu,
+	cbms2000@ee.tamu.edu, 
+	ccl@dfki.uni-sb.de, ckreuche@umich.edu, cl-all@coli.uni-sb.de, 
+	clp@comp.nus.edu.sg, cns@dartmouth.edu, cogpsy@listserv.tamu.edu, 
+	cogsci@nic.surfnet.nl, comic@comp.lancs.ac.uk, comp-neuro@bbb.caltech.edu, 
+	compulognet-parimp@dia.fi.upm.es, concurrency@cwi.nl, 
+	confer-ann@iro.umontreal.ca, coordinator@agentlink.org, 
+	corba-patterns@cs.uiuc.edu, cs-dept@iit.demokritos.gr,
+	cscw-no@usit.uio.no, 
+	csec-adm@sdl.hitachi.co.jp, das@cse.uta.edu, db-ir@duvel.ir.iit.edu, 
+	dcb@cs.wpi.edu, dietmar@cognition.iig.uni-freiburg.de,
+	eacsl@dimi.uniud.it, 
+	ecai2000@mcculloch.ing.unifi.it, eetn-inter@iit.demokritos.gr, 
+	ekb@cs.nott.ac.uk, elsnet-list@let.uu.nl,
+	emisa@informatik.uni-hannover.de, 
+	emo-list@ualg.pt, ent-list@insects.ummz.lsa.umich.edu, 
+	entomo-l@listserv.uoguelph.ca, envirotalk@apies.frd.ac.za, 
+	ester@dbs.informatik.uni-muenchen.de, fg-db@informatik.uni-rostock.de, 
+	flair@cis.ohio-state.edu, fleisch@sun-valley.stanford.edu, 
+	formal-methods@cs.uidaho.edu, gann-list@cs.iastate.edu,
+	hsss@jiscmail.ac.uk, 
+	i3world@majordomo.zfn.uni-bremen.de, iceimt@forum.obgyn.net, 
+	iceimt@talk.obgyn.net, icml2002@cse.unsw.edu.au, 
+	iefac.list@deming.ces.clemson.edu, imagelib@listserv.arizona.edu, 
+	inductive@unb.ca, info-ic@biomath.jussieu.fr, info@mlnet.org, 
+	interactif@lri.fr, isca@ipass.net, isg@ee.ed.ac.uk, 
+	isworld@listserv.heanet.ie, isworld@lyris.isworld.org, 
+	it-announce@cs.usyd.edu.au, jab2@socsci.soton.ac.uk, kr@kr.org, 
+	lfg@lists.stanford.edu, linguist@listserv.linguistlist.org, 
+	loom-forum@isi.edu, lpnmr@cs.engr.uky.edu, lprolog@cs.umn.edu, 
+	machine-learning@yahoogroups.com, medenif@cogs.susx.ac.uk, ml@ics.uci.edu, 
+	myra@wiwi.hu-berlin.de, netkm@club.voila.fr, neuron@biomed.med.yale.edu,
+	orgmem@aifb.uni-karlsruhe.de, pazienza@info.uniroma2.it, 
+	physics@mc.lcs.mit.edu, planetkr@cafe.newcastle.edu.au, planning@asu.edu,
+	rewriting@ens-lyon.fr, risc@idf.ext.jussieu.fr, roysoc@psipsy.uct.ac.za,
+	sayed@cairo.spd.louisville.edu, sb.all@ieee.org, sbc-l@sbc.org.br, 
+	sec@ai.univie.ac.at, semantik@uni-duesseldorf.de, sigparse@cs.cmu.edu, 
+	smbnet@smb.org, smc-members@morden.csee.usf.edu, 
+	snns-mail@informatik.uni-tuebingen.de, sodini@mtl.mit.edu, 
+	theorem-provers@ai.mit.edu, theorynt@listserv.nodak.edu, 
+	tsoukala@ecn.purdue.edu, uai@cs.orst.edu, vavtalk@csd.abdn.ac.uk, 
+	vavtalk@pigeon.csd.abdn.ac.uk, vki-list@dfki.de, vki-list@dfki.uni-sb.de,
+	webir@egroups.com, wi@aifb.uni-karlsruhe.de, wolff@cs.jhu.edu, 
+	www-rdf-interest@w3c.org
+X-Mailman-Approved-At: Sun, 24 May 2009 20:56:40 +0200
+Cc: 
+Subject: [Elsnet-list] Extended Deadline: ICCV09 Workshop on Video-Oriented
+	Object and Event Classification
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1956373814=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============1956373814==
+Content-Type: multipart/alternative; boundary=0016e64652e29611c5046aa2567b
+
+--0016e64652e29611c5046aa2567b
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Dear all,
+
+
+
+We have extended the deadline for ICCV09 Workshop on Video-Oriented Object
+and Event Classification (VOEC=9209) to June 14, 2009 as requested to be
+consistent with other workshops in ICCV09. Below is the revised detail for
+this workshop:
+
+
+
+Call For Papers:
+
+*ICCV09 Workshop on Video-Oriented Object and Event Classification (VOEC=92=
+09)
+*
+
+http://www.lv-nus.org/voec09/index.html
+
+
+
+Techniques for video oriented object and event classification have attracte=
+d
+much attention owing to the great potentials in surveillance, video
+summarization, video semantic understanding and search, advertisement,
+robotics, and human computer interface. Recent rapid advances have paved
+roads for video-oriented object and event recognition. However, there still
+exist many key issues unsolved, e.g. How to design effective and efficient
+features dedicated to video data? How to manage large-scale video database?
+How to handle low-quality videos? How to preserve privacy in surveillance
+application? The main purpose of this one day workshop is to provide a foru=
+m
+for researchers to discuss the latest progress in video based object and
+event classification, and also provide a platform for researchers to
+understand the main challenges and key issues in this area.
+
+
+
+Original high-quality papers are solicited on topics including, but not
+limited to
+
+
+
+1.      Feature design for video-based object and event classification
+
+2.      Machine learning techniques for video-based object and event
+classification
+
+3.      Video-based biometric (e.g. face, gesture, gait, etc)
+
+4.      Video-based object detection (e.g. human, car, etc)
+
+5.      Motion analysis in video (e.g. motion segmentation, structure from
+motion, etc)
+
+6.      Action, activity, and event classification in videos
+
+7.      Techniques for large-scale video analysis
+
+8.      Techniques for low-quality video analysis (e.g. super-resolution,
+video stabilization, etc)
+
+9.      Techniques for extracting semantics yet preserving privacy (e.g.
+blind vision middleware)
+
+10.     Other video based applications
+
+
+
+Important Dates:
+
+
+
+1.      Paper Submission: June 14, 2009
+
+2.      Notification of Acceptance: July 05, 2009
+
+3.      Camera-ready Version: July 14, 2009
+
+4.      Workshop Date: September 28, 2009
+
+
+
+Advisory Board:
+
+
+
+=B7     Thomas Huang, University of Illinois at Urbana-Champaign, USA
+
+=B7     Dimitris N. Metaxas, Rutgers University, USA
+
+=B7     Xiaoou Tang, the Chinese University of Hong Kong, Hong Kong
+
+=B7     Songde Ma, National Laboratory of Pattern Recognition, Chinese Acad=
+emy
+of Sciences, China
+
+
+
+Workshop Co-Chairs:
+
+
+
+=B7     Shuicheng Yan, National University of Singapore, Singapore
+
+=B7     Qingshan Liu, Rutgers University, USA
+
+=B7     Changsheng Xu, National Laboratory of Pattern Recognition, Chinese
+Academy of Sciences, China
+
+
+
+Web Co-Chair:
+
+
+
+=B7     Ju Sun, National University of Singapore, Singapore.
+
+
+
+Best Paper Award:
+
+
+
+The best paper award sponsored by IBM is set up to encourage submission of
+high-quality papers on related research.
+
+
+
+Program Committee:  (sorted alphabetically by last name)
+
+
+
+=B7     Prof. Shih-Fu Chang, Columbia University, USA
+
+=B7     Prof. Rama Chellappa, University of Maryland, USA
+
+=B7     Prof. Tat-Seng Chua, National University of Singapore, Singapore
+
+=B7     Prof. James W. Davis, Ohio State University, USA
+
+=B7     Dr Clinton Fookes, Queensland University of Techonology
+
+=B7     Dr. Yun Fu, BBN Technologies, USA
+
+=B7     Prof. Tony Han, University of Missouri, USA
+
+=B7     Prof. Fei-Fei Li, Princeton University, USA
+
+=B7     Prof. Stan Li, NLPR, China
+
+=B7     Prof. Xuelong Li, University of London, UK
+
+=B7     Prof. Zhu Li, Hong Kong Polytechnic University, HK
+
+=B7     Dr. Zhicheng Liu, Microsoft Research, USA
+
+=B7     Dr. Jiebo Luo, Kodak, USA
+
+=B7     Dr. Fatih Porikli, MERL, USA
+
+=B7     Prof. Dan Schonfeld, University of Illinois at Chicago, USA
+
+=B7     Dr. Ying Shan, Microsoft Research, USA
+
+=B7     Prof. Ming-Hsuan Yang, University of California at Merced, USA
+
+--0016e64652e29611c5046aa2567b
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Dear all,</font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">We have extended the deadli=
+ne for ICCV09 Workshop on Video-Oriented Object and Event Classification (V=
+OEC=9209) to <span style=3D"COLOR: red">June 14, 2009</span> as requested t=
+o be consistent with other workshops in ICCV09. Below is the revised detail=
+ for this workshop:</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Call For Papers:</font></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><b style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-U=
+S" style=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">ICCV09 Workshop on Vide=
+o-Oriented Object and Event Classification (VOEC=9209)</font></span></b></p=
+>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><span lang=3D"EN-US" style=3D"FONT-SIZE: 12pt"><font face=3D=
+"Calibri"><a href=3D"http://www.lv-nus.org/voec09/index.html">http://www.lv=
+-nus.org/voec09/index.html</a></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Techniques for video orient=
+ed object and event classification have attracted much attention owing to t=
+he great potentials in surveillance, video summarization, video semantic un=
+derstanding and search, advertisement, robotics, and human computer interfa=
+ce. Recent rapid advances have paved roads for video-oriented object and ev=
+ent recognition. However, there still exist many key issues unsolved, e.g. =
+How to design effective and efficient features dedicated to video data? How=
+ to manage large-scale video database? How to handle low-quality videos? Ho=
+w to preserve privacy in surveillance application? The main purpose of this=
+ one day workshop is to provide a forum for researchers to discuss the late=
+st progress in video based object and event classification, and also provid=
+e a platform for researchers to understand the main challenges and key issu=
+es in this area.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Original high-quality paper=
+s are solicited on topics including, but not limited to</font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">1.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Feature design for video-based object and e=
+vent classification</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">2.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Machine learning techniques for video-based=
+ object and event classification</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">3.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Video-based biometric (e.g. face, gesture, =
+gait, etc)</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">4.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Video-based object detection (e.g. human, c=
+ar, etc)</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">5.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Motion analysis in video (e.g. motion segme=
+ntation, structure from motion, etc)</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">6.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Action, activity, and event classification =
+in videos</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">7.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Techniques for large-scale video analysis</=
+font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">8.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Techniques for low-quality video analysis (=
+e.g. super-resolution, video stabilization, etc)</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">9.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Techniques for extracting semantics yet pre=
+serving privacy (e.g. blind vision middleware)</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">10.<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Other video based applications</font></span><=
+/p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Important Dates:</font></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">1.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Paper Submission: <span style=3D"COLOR: red=
+">June 14, 2009</span> </font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">2.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Notification of Acceptance: July 05, 2009</=
+font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">3.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Camera-ready Version: July 14, 2009</font><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">4.<span style=3D"mso-spacer=
+un: yes">=A0=A0=A0=A0=A0 </span>Workshop Date: September 28, 2009</font></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Advisory Board:</font></spa=
+n></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Thomas Huang, University of Illinois at Urban=
+a-Champaign, USA</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Dimitris N. Metaxas, Rutgers University, USA<=
+/font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Xiaoou Tang, the Chinese University of Hong K=
+ong, Hong Kong</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Songde Ma, National Laboratory of Pattern Rec=
+ognition, Chinese Academy of Sciences, China</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Workshop Co-Chairs:</font><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Shuicheng Yan, National University of Singapo=
+re, Singapore</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Qingshan Liu, Rutgers University, USA</font><=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Changsheng Xu, National Laboratory of Pattern=
+ Recognition, Chinese Academy of Sciences, China</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Web Co-Chair:</font></span>=
+</p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Ju Sun, National University of Singapore, Sin=
+gapore.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Best Paper Award:</font></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">The best paper award sponso=
+red by IBM is set up to encourage submission of high-quality papers on rela=
+ted research.</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">Program Committee:<span sty=
+le=3D"mso-spacerun: yes">=A0 </span>(sorted alphabetically by last name)</f=
+ont></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri"><span style=3D"mso-spacerun=
+: yes">=A0</span></font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Shih-Fu Chang, Columbia University, USA=
+</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Rama Chellappa, University of Maryland,=
+ USA</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Tat-Seng Chua, National University of S=
+ingapore, Singapore</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. James W. Davis, Ohio State University, =
+USA</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span><span style=3D"COLOR: red">Dr Clinton Fookes,=
+ Queensland University of Techonology</span></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Dr. Yun Fu, BBN Technologies, USA</font></spa=
+n></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Tony Han, University of Missouri, USA</=
+font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Fei-Fei Li, Princeton University, USA</=
+font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Stan Li, NLPR, China</font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Xuelong Li, University of London, UK</f=
+ont></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Zhu Li, Hong Kong Polytechnic Universit=
+y, HK</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Dr. Zhicheng Liu, Microsoft Research, USA</fo=
+nt></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Dr. Jiebo Luo, Kodak, USA</font></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Dr. Fatih Porikli, MERL, USA</font></span></p=
+>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Dan Schonfeld, University of Illinois a=
+t Chicago, USA</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Dr. Ying Shan, Microsoft Research, USA</font>=
+</span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"><span lang=3D"EN-US" s=
+tyle=3D"FONT-SIZE: 12pt"><font face=3D"Calibri">=B7<span style=3D"mso-space=
+run: yes">=A0=A0=A0=A0 </span>Prof. Ming-Hsuan Yang, University of Californ=
+ia at Merced, USA</font></span></p>
+
+--0016e64652e29611c5046aa2567b--
+
+--===============1956373814==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1956373814==--

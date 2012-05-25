@@ -1,0 +1,917 @@
+From - Thu Dec 10 14:33:43 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs659807muh;
+        Mon, 13 Oct 2008 01:30:47 -0700 (PDT)
+Received: by 10.210.42.20 with SMTP id p20mr5124670ebp.4.1223886647121;
+        Mon, 13 Oct 2008 01:30:47 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si9512872eyk.4.2008.10.13.01.30.24;
+        Mon, 13 Oct 2008 01:30:47 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4A3DE21538; Mon, 13 Oct 2008 10:30:24 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 86F3920CC9;
+	Mon, 13 Oct 2008 10:22:55 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6939A3D13;
+	Mon, 13 Oct 2008 10:22:55 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3FyiH9xEQXnG; Mon, 13 Oct 2008 10:22:55 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 3BCCE3DE1;
+	Mon, 13 Oct 2008 10:21:40 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id AD12F3D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 10 Oct 2008 16:33:33 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BFXvh3DkAItx for <elsnet-list@mailman.elsnet.org>;
+	Fri, 10 Oct 2008 16:33:33 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 878643D08
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 10 Oct 2008 16:33:33 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 68E851F23E; Fri, 10 Oct 2008 16:33:33 +0200 (MEST)
+X-Greylist: delayed 749 seconds by postgrey-1.28 at newjura;
+	Fri, 10 Oct 2008 16:33:21 MEST
+Received: from mailslv1.informatik.hu-berlin.de
+	(mailslv1.informatik.hu-berlin.de [141.20.20.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D70DE1F08F
+	for <elsnet-list@let.uu.nl>; Fri, 10 Oct 2008 16:33:21 +0200 (MEST)
+Received: from mailbox.informatik.hu-berlin.de
+	(mailbox.informatik.hu-berlin.de [141.20.20.63])
+	by mailslv1.informatik.hu-berlin.de
+	(8.13.8+Sun/8.13.8/INF-2.0-MA-SOLARIS-2.10-25) with ESMTP id
+	m9AEFYFG016391
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=OK);
+	Fri, 10 Oct 2008 16:15:35 +0200 (CEST)
+Received: from riemann.informatik.hu-berlin.de
+	(riemann.informatik.hu-berlin.de [141.20.28.79])
+	by mailbox.informatik.hu-berlin.de
+	(8.14.2+Sun/8.14.2/INF-2.0-MA-SOLARIS-2.10-25) with ESMTP id
+	m9AEEnT4011424; Fri, 10 Oct 2008 16:14:53 +0200 (CEST)
+Received: by riemann.informatik.hu-berlin.de (Postfix, from userid 2053)
+	id 4E1686F4431; Fri, 10 Oct 2008 16:14:49 +0200 (CEST)
+To: LICS List <lics@informatik.hu-berlin.de>
+From: Kreutzer + Schweikardt <lics@informatik.hu-berlin.de>
+Message-Id: <20081010141449.4E1686F4431@riemann.informatik.hu-berlin.de>
+Date: Fri, 10 Oct 2008 16:14:49 +0200 (CEST)
+X-Greylist: Sender succeeded STARTTLS authentication, not delayed by
+	milter-greylist-3.0 (mailslv1.informatik.hu-berlin.de
+	[141.20.20.51]); Fri, 10 Oct 2008 16:15:38 +0200 (CEST)
+X-Virus-Status: No (sigma)
+X-Mailman-Approved-At: Mon, 13 Oct 2008 10:21:08 +0200
+Cc: 
+Subject: [Elsnet-list] LICS Newsletter 118
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: lics@informatik.hu-berlin.de
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Newsletter 118
+October 5, 2008
+
+*******************************************************************
+* Past issues of the newsletter are available at
+  http://www.informatik.hu-berlin.de/lics/newsletters/
+* Instructions for submitting an announcement to the newsletter
+  can be found at
+  http://www.informatik.hu-berlin.de/lics/newsletters/inst.html
+* To unsubscribe, send an email with "unsubscribe" in the 
+  subject line to lics@informatik.hu-berlin.de
+*******************************************************************
+
+TABLE OF CONTENTS
+* DEADLINES
+  Upcoming deadlines
+* CONFERENCES AND WORKSHOPS
+  IMPLEMENTATION OF LOGICS - Call for Papers
+  LATA 2009 - Call for Papers
+  ESSLLI 2010 - Call for Bids
+  FMCAD 2008 - Call for Participation
+  ICLP 2008 - Call for Participation
+  APV 2009 - Call for Papers
+  CAV 2009 - Call for Papers
+  CAV 2009 - Call for Workshop Proposals
+  CADE 2009 - Call for Papers
+  CONCUR 2009 - Call for Affiliated Workshops
+* AWARDS
+  CAV 2008 - Award Announcement
+
+
+
+
+DEADLINES
+* WORKSHOP ON THE IMPLEMENTATION OF LOGICS
+  18 October 2008
+  http://www.csc.liv.ac.uk/~konev/iwil2008
+* LATA 2009
+  22 October 2008
+  http://grammars.grlmc.com/LATA2009/
+* APV
+  8 November 2008
+  http://se.ethz.ch/apv/
+* STOC 2009
+  10 November 2008
+  http://www.umiacs.umd.edu/conferences/stoc2009/
+
+
+
+
+
+7TH INTERNATIONAL WORKSHOP ON THE IMPLEMENTATION OF LOGICS
+  November, 2008, 
+  Doha, QATAR
+  http://www.csc.liv.ac.uk/~konev/iwil2008
+  Call for Papers
+* The 7th International Workshop on the Implementation of Logics will
+  be held in conjunction with the 15th International Conference on
+  Logic for Programming, Artificial Intelligence, and Reasoning, LPAR
+  2008 (http://www.lpar.net/2008/), in Doha, Qatar, in November
+  2008. IWIL has been unusually sucessful in bringing together many
+  talented developers, and thus in sharing information about
+  successful implementation techniques for automated reasoning systems
+  and similar programs. We are looking for contributions describing
+  implementation techniques for and implementations of automated
+  reasoning programs, theorem provers for various logics, logic
+  programming systems, and related technologies.
+* Topics of interest include, but are not limited to:
+  - Data structures and algorithms for the efficient representation of
+    logical concepts
+  - Theorem proving systems
+  - Model generation systems
+  - Satisfiability-modulo-theories systems
+  - Constraint-based systems
+  - Logic programming systems
+  - Implementation of propositional logic and decision procedures
+  - Implementation of higher order logics and lambda-calculus
+  - Implementation of new and unusual calculi
+  - Integration of systems based on different logics
+  - Transformations between different logics (e.g., abstractions)
+  - Issues of reliability, witness generation, and witness verification
+  - Evaluation and benchmarking of logic-based systems
+  - Reasoning for ontologies
+  - Ontology modularity, module extraction
+* Contributions that help the community to understand how to build useful
+  and powerful reasoning systems in practice are of particular interest.
+* Important dates:
+  - Submission of abstracts: October 18th
+  - Notification: October 27th
+  - Workshop (preliminary): November 22rd, with LPAR 2008.
+* Submission
+  Please submit an extended abstract of up to 10 pages in PDF,
+  conforming to the format produced by LaTeX using the easychair.cls
+  class file available from the workshop web-page.  Long listings of
+  computer output should be relegated to a referenced WWW
+  site. Submission is via EasyChair.  All submissions will be
+  informally reviewed by the programme committee and accepted
+  contributions will be published in archived electronic notes.
+* Program committee:
+  Wolfgang Ahrendt           Chalmers University of Technology and 
+                                Goeteborg University
+  Elvira Albert              Complutense University of Madrid
+  Serge Autexier             Saarland University
+  Chris Benzmueller          Saarland University
+  Chad Brown                 Saarland University
+  Bart Demoen                Katholieke Universiteit Leuven
+  Alessandro Cimatti         ITC/irst, Trento
+  Hans de Nivelle            Wroclaw University
+  Bernd Fischer              Southampton University
+  Alexander Fuchs            Iowa University
+  Thomas Hillenbrand         Max-Planck-Institut fuer Informatik
+  Ullrich Hustadt            Liverpool University
+  Boris Konev (co-chair)     Liverpool University
+  Konstantin Korovin         Manchester University
+  Gopalan Nadathur           Minnesota University
+  Albert Oliveras            Technical University of Catalonia
+  Brigitte Pientka           McGill University
+  Kostis Sagonas             Uppsala University
+  Renate Schmidt (co-chair)  Manchester University
+  Peter Schneider-Kamp       RWTH Aachen
+  Stephan Schulz (co-chair)  Technische Universitaet Muenchen
+  Volker Sorge               Birmingham University
+  Geoff Sutcliffe            Miami University
+
+
+
+
+
+
+3rd INTERNATIONAL CONFERENCE ON LANGUAGE AND AUTOMATA THEORY AND APPLICATIONS (LATA 2009)
+  Tarragona, Spain, April 2-8, 2009
+  http://grammars.grlmc.com/LATA2009/
+* AIMS
+  LATA is a yearly conference in theoretical computer science and its
+  applications. As linked to the International PhD School in Formal
+  Languages and Applications that was developed at the host institute
+  in the period 2002-2006, LATA 2009 will reserve significant room for
+  young scholars at the beginning of their career. It will aim at
+  attracting contributions from both classical theory fields and
+  application areas (bioinformatics, systems biology, language
+  technology, artificial intelligence, etc.).
+* SCOPE:
+  Topics of either theoretical or applied interest include, but are
+  not limited to: 
+  - algebraic language theory
+  - algorithms on automata and words
+  - automata and logic
+  - automata for system analysis and programme verification
+  - automata, concurrency and Petri nets
+  - biomolecular nanotechnology
+  - cellular automata
+  - circuits and networks
+  - combinatorics on words
+  - computability
+  - computational, descriptional, communication and parameterized complexity
+  - data and image compression
+  - decidability questions on words and languages
+  - digital libraries
+  - DNA and other models of bio-inspired computing
+  - document engineering
+  - extended automata
+  - foundations of finite-state technology
+  - fuzzy and rough languages
+  - grammars (Chomsky hierarchy, contextual, multidimensional,
+    unification, categorial, etc.) 
+  - grammars and automata architectures
+  - grammatical inference and algorithmic learning
+  - graphs and graph transformation
+  - language varieties and semigroups
+  - language-based cryptography
+  - language-theoretic foundations of natural language processing,
+    artificial intelligence and artificial life 
+  - mathematical evolutionary genomics
+  - parsing
+  - patterns and codes
+  - power series
+  - quantum, chemical and optical computing
+  - regulated rewriting
+  - string and combinatorial issues in computational biology and bioinformatics
+  - symbolic dynamics
+  - symbolic neural networks
+  - term rewriting
+  - text algorithms
+  - text retrieval, pattern matching and pattern recognition
+  - transducers
+  - trees, tree languages and tree machines
+  - weighted machines
+* Invited speakers will be:
+  Bruno Courcelle (Bordeaux): Graph Structure and Monadic Second-order
+                              Logic (tutorial) 
+  Markus Holzer (Muenchen): Nondeterministic Finite Automata: Recent
+                            Developments (tutorial) 
+  Sanjay Jain (Singapore): Role of Hypothesis Spaces in Inductive Inference
+  Kai Salomaa (Kingston, Canada): State Complexity of Nested Word Automata
+  Thomas Zeugmann (Sapporo): Recent Developments in Algorithmic Teaching
+* PROGRAMME COMMITTEE
+  Parosh Abdulla (Uppsala)
+  Stefania Bandini (Milano)
+  Stephen Bloom (Hoboken)
+  John Brzozowski (Waterloo)
+  Maxime Crochemore (London)
+  Juergen Dassow (Magdeburg)
+  Michael Domaratzki (Winnipeg)
+  Henning Fernau (Trier)
+  Rusins Freivalds (Riga)
+  Vesa Halava (Turku)
+  Juraj Hromkovic (Zurich)
+  Lucian Ilie (London, Canada)
+  Kazuo Iwama (Kyoto)
+  Aravind Joshi (Philadelphia)
+  Juhani Karhumaki (Turku)
+  Jarkko Kari (Turku)
+  Claude Kirchner (Bordeaux)
+  Maciej Koutny (Newcastle)
+  Hans-Joerg Kreowski (Bremen)
+  Kamala Krithivasan (Chennai)
+  Martin Kutrib (Giessen)
+  Andrzej Lingas (Lund)
+  Aldo de Luca (Napoli)
+  Rupak Majumdar (Los Angeles)
+  Carlos Martin-Vide (Tarragona & Brussels, chair)
+  Joachim Niehren (Lille)
+  Antonio Restivo (Palermo)
+  Joerg Rothe (Duesseldorf)
+  Wojciech Rytter (Warsaw)
+  Philippe Schnoebelen (Cachan)
+  Thomas Schwentick (Dortmund)
+  Helmut Seidl (Muenchen)
+  Alan Selman (Buffalo)
+  Jeffrey Shallit (Waterloo)
+  Ludwig Staiger (Halle)
+  Frank Stephan (Singapore)
+* SUBMISSIONS:
+  Authors are invited to submit papers presenting original and
+  unpublished research. Papers should not exceed 12 single-spaced
+  pages and should be formatted according to the standard format for
+  Springer Verlag's LNCS series (see
+  http://www.springer.com/computer/lncs/lncs+authors?SGWID=0-40209-0-0-0). 
+  Submissions have to be uploaded at:
+  http://www.easychair.org/conferences/?conf=lata2009
+* IMPORTANT DATES
+  Paper submission: October 22, 2008
+  Notification of paper acceptance or rejection: December 10, 2008
+  Application for funding (PhD students): December 15, 2008
+  Notification of funding acceptance or rejection: December 17, 2008
+  Final version of the paper for the LNCS proceedings: December 19, 2008
+  Early registration: December 31, 2008
+  Starting of the conference: April 2, 2009
+  Submission to the journal special issues: June 22, 2009
+  Submission to the Springer post-conference volume: July 31, 2009
+
+
+
+
+
+
+EUROPEAN SUMMER SCHOOL IN LOGIC, LANGUAGE, AND INFORMATION (ESSLLI)
+  Call for Bids to Host the 22-th ESSLLI, 2010 *
+  http://www.folli.org/
+* The Association for Logic, Language and Computation (FoLLI) and the
+  ESSLLI Standing Committee invite proposals to host the 22-nd
+  European Summer School in Logic, Language, and Information (ESSLLI),
+  to be held in August 2010.
+* The ESSLLI Summer School
+  ESSLLI is a summer school which takes place two weeks in the summer,
+  every year since 1989. The school hosts approximately 50 courses at
+  both introductory and advanced level, and convokes around 400
+  participants each year from all over the world.
+  The main focus of the program of the summer schools is the interface
+  between linguistics, logic and computation. Courses, both
+  introductory and advanced, cover a wide variety of topics within the
+  combined areas of interest: Language and Computation, Language and
+  Logic, and Logic and Computation. Workshops are also organized,
+  providing opportunities for in-depth discussion of issues at the
+  forefront of research, as well as a series of invited lectures.
+  Detailed information about the ESSLLI organization can be found in
+  the ESSLLI general guide, and the organizing and program committee
+  guides. The guides can be obtained via the Standing Committee
+  secretary.
+* Submission Procedure
+  At this time we seek draft proposals from prospective bidders.
+  Based on an evaluation of the draft proposals, promising bidders
+  will be asked to provide additional information for the final
+  selection procedure. The ESSLLI Standing Committee (SC), in
+  consultation with the management board of FoLLI, will finally select
+  the site, the organizing committee, and the program committee, and
+  supervise the subsequent organization.
+* Draft Proposals
+  Draft proposals should identify a target site, date and organizing
+  team with a chair who will be responsible for the overal
+  organization. The organization committee is responsible for all
+  matters having to do with the practical organization. Draft
+  proposals should at least include information on:
+  - Location (accessibility; school venue; accommodation and
+    facilities)
+  - Proposed dates and organizing team
+  - Endorsement by hosting organization
+  - Local Language, Logic, and Computation community
+  - Meeting and accommodation venues; audiovisual equipment
+  - Catering and reception facilities; social program
+    opportunities
+  - Budget estimates
+* Proposal Assessment
+  Proposals will be evaluated according to the following criteria
+  (unordered):
+  - Experience of organizing team, involvement in previous ESSLLIs
+  - Local endorsement
+  - Appropriateness of proposed dates
+  - Accessibility and attractiveness of proposed site
+  - Adequacy of campus facilities for the anticipated
+    number of registrants
+  - Adequacy of residence accommodations and food services
+    in an appropriate range of price categories and close
+    to the conference facilities
+  - Adequacy of budget projections 
+  - Geographical and national balance with regard to meetings in
+    the decade prior to 2010: Birmingham (2000), Helsinki (2001),
+    Trento (2002), Wien (2003), Nancy (2004), Edinburgh (2005),
+    Malaga (2006), Dublin (2007), Hamburg (2008), Bordeaux (2009)
+* Important Dates
+  - November 15, 2008, draft proposals due
+  - November/December, 2008, SC provides feedback
+  - January 31, 2009, final proposals due
+  - February, 2009, bid selected at ESSLLI SC meeting
+* Draft proposals should be sent to:
+  Sophia Katrenko			Paul Dekker
+  Informatics Institute	ILLC/Department of Philosophy
+  Faculty of Science		Faculty of Humanities
+  Universiteit van Amsterdam
+  Kruislaan 419			Nieuwe Doelenstraat 15
+  NL-1098 VA  Amsterdam	NL-1012 CP Amsterdam
+  The Netherlands
+  +31 (0)20 525 6786		+31 (0)20 5254541
+  +31 (0)20 525 6896 (fax)	+31 (0)20 5254503 (fax)
+  katrenko@science.uva.nl	p.j.e.dekker@uva.nl
+
+
+
+
+
+
+
+                              
+INTERNATIONAL CONFERENCE ON FORMAL METHODS IN COMPUTER-AIDED DESIGN (FMCAD 2008)
+  http://fmcad.org/2008
+  CALL FOR PARTICIPATION
+  November 17-20, 2008
+  Embassy Suites Portland--Downtown
+  Portland, Oregon, USA
+* Important Dates
+  Early Registration Deadline: October 14, 2008
+  Hotel Registration Deadline: October 18, 2008
+* Conference Overview
+  FMCAD 2008 is the eighth in a series of conferences on the theory
+  and application of formal methods in hardware and system design and
+  verification. In 2005, the bi-annual FMCAD and sister conference
+  CHARME decided to merge to form an annual conference with a unified
+  community. The resulting unified FMCAD provides a leading
+  international forum to researchers and practitioners in academia and
+  industry for presenting and discussing groundbreaking methods,
+  technologies, theoretical results, and tools for formally reasoning
+  about computing systems, as well as open challenges therein.
+* Local Information
+  The Conference will be held at the Embassy Suites (Downtown) in
+  Portland, Oregon.  We have negotiated a special rate with the hotel
+  for conference attendees.  Please book early to secure the reduced
+  rate.  For details, please see the conference web page.  A dinner
+  cruise on the Willamette River is planned.
+* Technical Program
+  The technical program is available at the conference web page.  It
+  includes 2 invited keynotes, 4 invited tutorials, 24 regular papers,
+  4 short papers, and 2 panels.
+* Keynotes
+  o Ken McMillan (Cadence): Interpolation -- Theory and Applications
+  o Carl Seger (Intel): Formal Methods and Physical Design: Match Made
+    in Heaven or Fools' Paradise?
+* Tutorials
+  o Kevin Jones (Rambus): Analog and Mixed Signal Verification: The
+    State of the Art and some Open Problems
+  o Moshe Levinger (IBM): Building a Bridge: From Pre-Silicon
+    Verification to Post-Silicon Validation
+  o Byron Cook (Microsoft): Computing Bounds on Space and Time for
+    Hardware Compilation.
+  o David Hardin (Rockwell Collins): Considerations in the Design and
+    Verification of Microprocessors for Safety-Critical and
+    Security-Critical Applications.
+* Panels
+  o High Level Design and ESL: Who Cares?
+  o The Future of Formal: Academic, IC, EDA, and Software Perspectives
+
+
+
+
+
+
+24TH INTERNATIONAL CONFERENCE ON LOGIC PROGRAMMING (ICLP'08)
+  Udine, Italy, December 9th-13th, 2008
+  http://iclp08.dimi.uniud.it
+  CALL FOR PARTICIPATION
+* We  are  pleased  to  announce  the  24th  International  Conference
+  on  Logic Programming, to be held in Udine, Italy, in December 2008.
+* The ICLP'08 program includes 37 regular presentations, 26 short
+  presentations, 4 tutorials, 5 workshops (ASPOCP, WG17, ALPSWS, WLPE
+  and CICLOPS) and the traditional Prolog programming contest.  The
+  tutorials include presentations given by:
+  - Carla Piazza e Alberto Policriti (Systems Biology: Models and Logics)
+  - Angelo Montanari (Temporal Logics)
+  - Tom Schrjivers (Constraint Handling Rules)
+  - Peter O'Hearn (Separation Logic)
+* Moreover  the program features the invited talk by Vitor Santos
+  Costa (The Life of a Logic Programming System) and a second invited talk TBA.
+* The conference celebrates the 20th anniversary of the stable-model
+  semantics with a special session at ICLP 2008 dedicated to
+  answer-set programming. The session will feature invited talks by
+  Michael Gelfond, Vladimir Lifschitz, Nicola Leone and David Pearce,
+  as well as by other major contributors to the field, presenting
+  personal perspectives on the stable-model semantics, its impact and
+  its future.
+* Online registration for ICLP is now open at:
+  http://iclp08.dimi.uniud.it/ICLPRegistrationForm/ICLP2008registration.html
+* Deadline for early registration is October 15, 2008.
+* For further information: iclp08@cs.nmsu.edu
+                         http://iclp08.dimi.uniud.it
+
+
+
+
+
+AUTOMATIC PROGRAM VERIFICATION (APV 2009)
+  http://se.ethz.ch/apv/
+  February 14-15, 2009
+  Argentina
+  Automatic software verification is once again at the forefront of
+* research in computer science, thanks to a combination of novel
+  techniques and more powerful hardware to implement them. The aim of
+  the ASV symposium is to bring together researchers to exchange and
+  develop new ideas in all aspects of software verification, from
+  design to implementation.
+* Topics of interest include but are not limited to:
+  - automatic theorem provers
+  - static program analysis
+  - model checking
+  - tool descriptions and experience reports
+  - case studies
+* Paper Submission
+  Prospective authors are invited to submit papers written in English via
+  the EasyChair AVP 2009 website at
+  http://www.easychair.org/conferences/?conf=apv09
+  The style guide, templates, and submission form can be downloaded
+  from the AVP website. Three members of the Scientific Committee will
+  review each paper. At least one author of each paper is required to
+  attend the symposium.
+* Schedule
+  - Submissions: November 8, 2008 24:00 (midnight), Zurich time
+  - Notification to authors: December 8, 2008
+  - Final version: January 8, 2009
+* Organizing Committee
+  - Bertrand Meyer, Chair
+    ETH ZÃ¼rich, Switzerland
+  - Cristiano Calcagno, Program Chair
+    Imperial College, London, UK
+  - Martin Nordio, Organization Chair
+    ETH ZÃ¼rich, Switzerland
+* Program Committee
+  Nazareno Aguirre, University of Rio Cuarto, Argentina
+  Pedro D'Argenio, University of Cordoba, Argentina
+  Dino Distefano, Queen Mary, University of London, UK
+  Dave Clarke, Universiteit Leuven, Belgium
+  Marcelo Frias, University of Buenos Aires, Argentina
+  Dan Ghica, University of Birminghan, UK
+  Daniel KrÃ¶ning, Oxford University, UK
+  Viktor Kuncak, EPFL, Switzerland
+  Peter MÃ¼ller, ETH Zurich, Switzerland
+  Xavier Rival, INRIA, France
+  Andrey Rybalchenko, MPI-SWS, Germany
+  Sebastian Uchitel, University of Buenos Aires, Argentina
+  
+  
+  
+  
+  
+  
+21ST INTERNATIONAL CONFERENCE ON COMPUTER AIDED VERIFICATION (CAV 2009)
+  Call for Papers
+  June 26 - July 2, 2009
+  Grenoble
+  http://www-cav2009.imag.fr
+* Aims and Scope
+  CAV 2009 is the 21st in a series dedicated to the advancement of the
+  theory and practice of computer-aided formal analysis methods for
+  hardware and software systems. The conference covers the spectrum
+  from theoretical results to concrete applications, with an emphasis
+  on practical verification tools and the algorithms and techniques
+  that are needed for their implementation. The proceedings of the
+  conference will be published in the Springer-Verlag Lecture Notes in
+  Computer Science series. Topics of interest include:
+  - Modeling and specification formalisms
+  - Algorithms and tools for verifying models and implementations
+  - Deductive, compositional, and abstraction techniques for verification
+  - Testing and runtime analysis based on verification technology
+  - Hardware verification techniques
+  - Program analysis and software verification
+  - Analysis of embedded and hybrid systems
+  - Verification techniques for security
+  - Applications and case studies
+  - Verification in industrial practice
+* Paper Submission
+  There are two categories of submissions:
+  - A. Regular Papers:* Submissions, not exceeding fourteen (14) pages
+  using Springer's LNCS format, should contain original research, and
+  sufficient detail to assess the merits and relevance of the
+  contribution. For papers reporting experimental results, authors are
+  strongly encouraged to make their data available with their
+  submission. Submissions reporting on case studies in an industrial
+  context are strongly invited, and should describe details,
+  weaknesses and strength in sufficient depth. Simultaneous submission
+  to other conferences with proceedings or submission of material that
+  has already been published elsewhere is not allowed.
+  - B. Tool Presentations:* Submissions, not exceeding five (6) pages
+  using Springer's LNCS format, should describe the implemented tool
+  and its novel features. A demonstration is expected to accompany a
+  tool presentation. Papers describing tools that have already been
+  presented (in any conference) will be accepted only if significant
+  and clear enhancements to the tool are reported and implemented.
+  Submission is done with EasyChair. Informations about the submission
+  procedure will be available at: 
+  http://www-cav2009.imag.fr
+* Important Dates
+  - Abstract submission:  January 18, 2009
+  - Paper submission (firm):  January 25, 2009
+  - Author feedback/rebuttal period:  March 5-8, 2009
+  - Notification of acceptance/rejection:  March 23, 2009
+  - Final version due:  April 17, 2009
+* Program Chairs
+ - Ahmed Bouajjani, LIAFA, U Paris 7
+ - Oded Maler, CNRS-VERIMAG, Grenoble
+* Program Committee
+ - Parosh A. Abdulla, U Uppsala     
+ - Rajeev Alur, U Penn
+ - Christel Baier, U Dresden
+ - Clark Barrett, NYU
+ - Armin Biere, Johannes Kepler U Linz
+ - Nikolaj Bjorner, Microsoft Research Redmond
+ - Roderick Bloem, TU Graz
+ - Ahmed Bouajjani (co-chair), LIAFA, U Paris 7
+ - Edmund Clarke, CMU
+ - Byron Cook, Microsoft Research Cambridge
+ - Martin FrÃ¤nzle, U Oldenburg
+ - Aarti Gupta, NEC Labs America
+ - John Harrison, Intel
+ - Klaus Havelund, NASA JPL
+ - Alan Hu, UBC Vancouver
+ - Kevin Jones
+ - Daniel KrÃ¶ning, U Oxford
+ - Robert Kurshan, Cadence Design Systems
+ - Yassine Lakhnech,  U Grenoble
+ - Oded Maler, CNRS-VERIMAG
+ - Kenneth McMillan, Cadence Research Labs
+ - Markus MÃ¼ller-Olm, U MÃ¼nster
+ - Kedar Namjoshi, Bell Labs, Alcatel-Lucent
+ - Madhusudan Parthasarathy, U Ilinois Urbana-Champain
+ - Sriram Rajamani, Microsoft Research India
+ - Andrey Rybalchenko, MPI SaarbrÃ¼cken
+ - Philippe Schnoebelen, CNRS-LSV
+ - Sanjit Seshia, UC Berkeley
+ - Natarjan Shankar, SRI International
+ - Ofer Strichman, Technion
+ - Serdar Tasiran, KoÃ§ U Istanbul
+ - Tayssir Touili, CNRS-LIAFA
+ - Stavros Tripakis, Cadence Research Labs
+ - Helmuth Veith, TU Darmstadt
+
+
+
+
+21ST INTERNATIONAL CONFERENCE ON COMPUTER AIDED VERIFICATION (CAV 2009)
+   Call for Workshop Proposals
+   http://www-cav2009.imag.fr/ 
+   June 26 - July 2, 2009
+   Grenoble, France
+* CAV 2009 is the 21st in a series dedicated to the advancement of the
+  theory and practice of computer-aided formal analysis methods for
+  hardware and software systems. The conference covers the spectrum
+  from theoretical results to concrete applications, with an emphasis
+  on practical verification tools and the algorithms and techniques
+  that are needed for their implementation. Topics of interest
+  include: (1) Algorithms and tools for verifying models and
+  implementations, (2) Hardware verification techniques, (3) Program
+  analysis and software verification, (4) Verification and analysis of
+  embedded and hybrid systems, (5) Verification techniques for
+  security, (6) Modeling and specification formalisms, (7) Deductive,
+  compositional, and abstraction techniques for verification, (8)
+  Testing and runtime analysis based on verification technology, (9)
+  Applications and case studies, and (10) Verification in industrial
+  practice.
+* CAV 2009 will take place from June 26 to July 2, 2009, at Grenoble,
+  France, where the first CAV started in 1989.  
+  Traditionally, CAV hosts a number of affiliated workshops
+  complementing its technical program. Affiliated workshops will be
+  organized on June 26-29. Workshop rooms will be available at the
+  conference site, and local arrangements will be facilitated by the
+  CAV organization.
+* Proposals for workshops affiliated with CAV 2009 are cordially
+  invited. The proposals should be sent by October 31, 2008, to
+  cav09-workshops@imag.fr and should include the following
+  information:
+  - Name of the workshop
+  - Intended aims and scope 
+  - History of the workshop
+  - Expected number of participants (min/avg/max)
+  - Length of the event (1, 2 or 3 days)
+  - Contact person with full contact information
+* Additional organizational plans may include names of potential
+  invited speakers, funding sources, proposed sessions, plans for
+  proceedings or other publications, etc. 
+* Important Dates:
+  Submission deadline for workshop proposals: October 31, 2008
+  Notification: November 7, 2008
+* Workshops Chair:
+  Andreas Podelski, Freiburg
+* Program Chairs:
+  Ahmed Bouajjani, LIAFA Paris 7
+  Oded Maler, CNRS-Verimag Grenoble
+* Organization Committee:
+  Saddek Bensalem, VERIMAG Grenoble
+  Peter Habermehl, LIAFA Paris 7
+
+
+
+
+22ND INTERNATIONAL CONFERENCE ON AUTOMATED DEDUCTION (CADE-22)
+     McGill University, Montreal, Canada
+     August 2-7, 2009
+     First Call for Papers
+     Submission Deadline: 23 Feb 2009
+     http://complogic.cs.mcgill.ca/cade22/
+* GENERAL INFORMATION
+  CADE is the major forum for the presentation of research in all
+  aspects of automated deduction. The conference programme will
+  include invited talks, paper presentations, system descriptions,
+  workshops, tutorials, and system competitions.
+* SCOPE
+  We invite high-quality submissions on the general topic of automated
+  deduction, including foundations, applications, implementations and
+  practical experiences.
+  Logics of interest include, but are not limited to
+   - propositional, first-order, equational, higher-order,
+     classical, description, modal, temporal, many-valued,
+     intuitionistic, other non-classical, meta-logics,
+     logical frameworks, type theory and set theory.
+  Methods of interest include, but are not limited to
+   - saturation, resolution, instance-based, tableaux, sequent
+     calculi, natural deduction, term rewriting, decision
+     procedures, model generation, model checking, constraint
+     solving, induction, unification, proof planning, proof
+     checking, proof presentation and explanation.
+  Applications of interest include, but are not limited to
+   - program analysis and verification, hardware verification,
+     mathematics, natural language processing, computational
+     linguistics, knowledge representation, ontology reasoning,
+     deductive databases, functional and logic programming,
+     robotics, planning, and other areas of AI.
+* WORKSHOPS, TUTORIALS, SYSTEM COMPETITION:
+  A two-day workshop and tutorial programme will be co-organized
+  with the conference. In addition, the annual CADE ATP System
+  Competition (CASC) will be held during the conference. Details
+  will be published in separate calls and on the conference
+  website.
+* IMPORTANT DATES:
+  A paper title and a short abstract of about 100 words must be
+  submitted before the paper.
+  - 16 Feb 2009 abstract submission deadline
+  - 23 Feb 2009 paper submission deadline
+  - 10 Apr 2009 notification of paper decisions
+  - 14 May 2009 camera-ready papers due
+  - 2-3 Aug 2009 Workshops & Tutorials
+  - 4-7 Aug 2009 Conference, including CASC
+* PROGRAM COMMITTEE
+ Alessandro Armando     UniversitÃ  di Genova
+ Franz Baader           Technische UniversitÃ¤t Dresden
+ Peter Baumgartner      NICTA, Canberra
+ Maria Paola Bonacina   UniversitÃ  degli Studi di Verona
+ Bernhard Beckert       UniversitÃ¤t Koblenz-Landau
+ Nikolaj BjÃ¸rner        Microsoft Research
+ Alessandro Cimatti     Istituto per la Ricerca Scientifica e
+                            Tecnologica, Trento
+ Silvio Ghilardi        UniversitÃ  degli Studi di Milano
+ JÃ¼rgen Giesl           RWTH Aachen
+ Rajeev GorÃ©            The Australian National University
+ Reiner HÃ¤hnle          Chalmers University of Technology
+ John Harrison          Intel Corporation
+ Miki Hermann           Ãcole Polytechnique
+ Ullrich Hustadt        University of Liverpool
+ Katsumi Inoue          National Institute of Informatics, Japan
+ Tommi Junttila         Helsinki University of Technology
+ Deepak Kapur           University of New Mexico
+ Alexander Leitsch      Technische UniversitÃ¤t Wien
+ Christopher Lynch      Clarkson University
+ Claude MarchÃ©          INRIA Saclay, Parc Orsay UniversitÃ©
+ William McCune         University of New Mexico
+ Aart Middeldorp        UniversitÃ¤t Innsbruck
+ Hans de Nivelle        University of Wroclaw
+ Albert Oliveras        Universitat PolitÃ¨cnica de Catalunya
+ Lawrence Paulson       University of Cambridge
+ Brigitte Pientka       McGill University
+ David Plaisted         University of North Carolina
+                            at Chapel Hill
+ MichaÃ«l Rusinowitch    LORIA-INRIA-Lorraine
+ Renate Schmidt (Chair) The University of Manchester
+ Carsten SchÃ¼rmann      IT-Universitetet i KÃ¸benhavn
+ Aaron Stump            The University of Iowa
+ Geoff Sutcliffe        University of Miami
+ Cesare Tinelli         The University of Iowa
+ Andrei Voronkov        The University of Manchester
+ Christoph Weidenbach   Max-Planck-Institut fÃ¼r Informatik
+* ORGANIZERS
+ Conference Chair:
+     Brigitte Pientka   McGill University
+ Workshop & Tutorial Chair:
+     Aaron Stump        The University of Iowa
+ Publicity Chair:
+     Carsten SchÃ¼rmann  IT-Universitetet i KÃ¸benhavn
+ PC Chair:
+     Renate Schmidt     The University of Manchester
+
+
+
+
+20TH INTERNATIONAL CONFERENCE ON CONCURRENCY THEORY (CONCUR 2009)
+  September 1-4, 2009
+  Bologna, Italy
+  http://concur09.cs.unibo.it/
+  Call for Affiliated Workshops
+* Conference Dates:  September 1-4, 2009
+  Affiliated Workshop Dates:  August 31, 2009 and September 5, 2009
+* The 20th Conference on Concurrency Theory will be held this coming
+  summer in Bologna, Italy, and will be co-locate with the 7th
+  Conference on Computational Methods in Systems Biology (CMSB) and
+  the 6th International Workshop on Web Service and Formal Methods
+  (WS-FM).
+* Researchers and practitioners are invited to submit proposals for
+  workshops on topics related to concurrency theory and its
+  applications.  Example topics include, semantics, logics,
+  verification techniques for concurrent systems, and
+  cross-fertilization between industry and academia. Past CONCUR
+  conferences have been accompanied by successful workshops on a
+  variety of topics, like formal and foundational methods, models of
+  systems (biological, timed), security issues, semantical issues, and
+  verification methods.
+* The purpose of the workshops is to provide participants with a friendly,
+  interactive atmosphere for presenting novel ideas and discussing their
+  application.
+* Proposals should include:
+  - The name and the preferred date of the proposed workshop.
+  - A very brief cv of the chairperson(s) or a link to some web page
+  including such information.
+  - A short scientific summary of the topic, its scope and significance
+   (and possibly a description of past versions of the workshop, including,
+    e.g., dates, organizers, submission and acceptance counts, and
+    attendance).
+  - Procedures for selecting papers, plans for dissemination (for example,
+    proceedings and special issues of journals), and the expected number of
+    participants.
+* Important Dates:
+  Workshop proposals due November 15th, 2008.
+  Notification of acceptance: December 1st, 2008.
+  Submissions to: concur09@cs.unibo.it
+* The CONCUR organization offers:
+  - Link from CONCUR and Workshop web sites.
+  - Setup of meeting space, and related equipment.
+  - Coffee-breaks.
+  - On-line and on-site registration to the workshop.
+* The main responsibility of organizing a workshop goes to the
+  workshop chairperson(s), including:
+* Workshop publicity (possibly including call for papers,
+  submission and review process).
+* Scheduling workshop activities in collaboration with the CONCUR
+  local organizers.
+* Please contact the CONCUR organizers (Mario Bravetti and
+  Gianluigi Zavattaro) for any further details at the address:
+  concur09@cs.unibo.it
+
+
+
+
+INTERNATIONAL CONFERENCE ON COMPUTER AIDED VERIFICATION (CAV)
+   2008 CAV Award Announcement
+* The 2008 CAV (Computer Aided Verification) award is given to Rajeev
+  Alur from the University of Pennsylvania and David L. Dill from
+  Stanford University for fundamental contributions to the theory of
+  real-time systems verification.
+* The CAV award is an annual award given for a specific fundamental
+  contribution or a series of outstanding contributions to the field
+  of Computer Aided Verification.  
+* The CAV award carries a $10,000 prize and was presented at this
+  year's CAV conference on July 10, 2008, in Princeton, New Jersey.
+  This is the first year that the CAV award is given.
+* The 2008 CAV award is given for the seminal 1990 article on
+  "Automata for modeling real-time systems" by Alur and Dill.  This
+  article laid the theoretical foundation for the computer aided
+  verification of real-time systems, which are computer systems that
+  are expected to finish their computations by specific
+  deadlines. With the increasing ubiquity of embedded computers, which
+  control everything from aircraft to medical devices, there is an
+  urgent need for a rigorous methodology that can ensure that such
+  systems operate without failures.
+*  During the late 1980's there were several attempts to extend the
+  theory of computer aided verification to real-time systems.  Alur
+  and Dill's work put this research direction on a firm foundational
+  footing.  In particular, the formalism of Timed Automata introduced
+  by Alur and Dill in their 1990 paper has become the standard model
+  for the verification of real-time systems.  The 1990 paper of Alur
+  and Dill is among the most cited papers in Computer Aided
+  Verification.
+* Detailed announcement can be found on the CAV 08 website 
+  (www.princeton.edu/cav2008).
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

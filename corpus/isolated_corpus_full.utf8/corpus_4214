@@ -1,0 +1,975 @@
+From - Thu Dec 10 14:35:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs124180far;
+        Fri, 16 Jan 2009 06:56:48 -0800 (PST)
+Received: by 10.100.154.17 with SMTP id b17mr2054244ane.155.1232117805713;
+        Fri, 16 Jan 2009 06:56:45 -0800 (PST)
+Return-Path: <sentto-1622440-2712-1232117795-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id d24si1932825and.24.2009.01.16.06.56.42;
+        Fri, 16 Jan 2009 06:56:44 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2712-1232117795-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2712-1232117795-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2712-1232117795-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; domainkeys=hardfail header.From=lpl-infos@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n0GEufXm026855
+	for <jpprost@gmail.com>; Sat, 17 Jan 2009 01:56:41 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n0GEufF7012525
+	for <jpprost@mailbox.ics.mq.edu.au>; Sat, 17 Jan 2009 01:56:41 +1100
+X-ASG-Debug-ID: 1232117798-5c5f01f70000-RCdhz5
+X-Barracuda-URL: http://137.111.1.21:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 62E6D6468EB
+	for <jpprost@mailbox.ics.mq.edu.au>; Sat, 17 Jan 2009 01:56:38 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra1.its.mq.edu.au with ESMTP id smhX38JYtIAM5UDi for <jpprost@mailbox.ics.mq.edu.au>; Sat, 17 Jan 2009 01:56:38 +1100 (EST)
+Received: from n50c.bullet.mail.sp1.yahoo.com (n50c.bullet.mail.sp1.yahoo.com [66.163.168.184])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with SMTP id n0GEuaQB026847
+	for <jpprost@ics.mq.edu.au>; Sat, 17 Jan 2009 01:56:37 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=cwu3fdXVJbDlzZ2jofiVdYQ0p+sx7iZKHkvx44ka0cV7v6of4Dgpfd70KBlF5QQMmi1+XKF+wMbUlDBxDOTXghZGRQaCewQzupvYKJSBS9NsjxmvWr0c6YP6XylWQfUG;
+Received: from [69.147.65.174] by n50.bullet.mail.sp1.yahoo.com with NNFMP; 16 Jan 2009 14:56:35 -0000
+Received: from [66.218.66.97] by t12.bullet.mail.sp1.yahoo.com with NNFMP; 16 Jan 2009 14:56:35 -0000
+X-Yahoo-Newman-Id: 1622440-m2712
+X-Sender: alain.ghio@lpl-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+X-Received: (qmail 68615 invoked from network); 16 Jan 2009 14:56:32 -0000
+X-Received: from unknown (66.218.67.97)
+  by m57.grp.scd.yahoo.com with QMQP; 16 Jan 2009 14:56:32 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta18.grp.scd.yahoo.com with SMTP; 16 Jan 2009 14:56:31 -0000
+X-Received: from unknown (HELO GHIOFIXE) ([147.94.215.172])
+  by mso1k193.u-3mrs.fr with ESMTP; 16 Jan 2009 15:56:30 +0100
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AsgEAFgucEmTXtes/2dsb2JhbACCRCuHKIEgBsMNAYVx
+X-IronPort-AV: i="4.37,277,1231110000"; 
+   d="scan'208,217"; a="214637852:sNHT54090666"
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Organization: LPL
+Message-ID: <E11E66A4CB73464DBF733078E269AA81@GHIOFIXE>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Importance: Normal
+Thread-Index: Acl3BU5cKBbWdbLnSWOEeGPcNx0WBgA45ZSQ
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "ghio" <alain.ghio@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Fri, 16 Jan 2009 15:56:25 +0100
+X-ASG-Orig-Subj: [lpl-infos] TR : 6th International Workshop MAVEBA 2009 - Call for Papers
+Subject: [lpl-infos] TR : 6th International Workshop MAVEBA 2009 - Call for Papers
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="----=_NextPart_000_001C_01C977F2.FCDC0B40"
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1232117799
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=FORGED_OUTLOOK_TAGS, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.15353
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 FORGED_OUTLOOK_TAGS    Outlook can't send HTML in this format
+
+------=_NextPart_000_001C_01C977F2.FCDC0B40
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+=20
+***************************************************************************=
+*
+****************************
+6 TH INTERNATIONAL WORKSHOP
+ON=20
+MODELS AND ANALYSIS OF VOCAL EMISSIONS FOR BIOMEDICAL APPLICATIONS
+MAVEBA 2009
+=20
+December 14 - 16, 2009, Firenze, Italy
+=20
+http://maveba.det.unifi.it
+***************************************************************************=
+*
+****************************
+=20
+
+Speech is the primary means of communication among humans, and results from
+complex interaction among vocal folds vibration at the larynx and voluntary
+articulators movements (i.e. mouth tongue, jaw, etc.). However, only
+recently has research focussed on biomedical applications.
+
+Since 1999, the MAVEBA Workshop is organised every two years, aiming to
+stimulate contacts between specialists active in clinical, research and
+industrial developments in the area of voice signal and images analysis for
+biomedical applications.
+
+This sixth Workshop will offer again the participants an interdisciplinary
+platform for presenting and discussing new knowledge in the field of models=
+,
+analysis and classification of voice signals and images, as far as both
+adults, singing and children voices are concerned.
+
+Modelling the normal and pathological voice source, analysis of healthy and
+pathological voices, are among the main fields of research. The aim is that
+of extracting the main voice characteristics, together with their deviation
+from "healthy conditions", ranging from fundamental research to all kinds o=
+f
+biomedical applications and related established and advanced technologies.
+
+Interested companies are welcome. Please contact the organiser for
+information about product exhibition.
+
+=20
+
+SCIENTIFIC PROGRAM
+
+=20
+
+
+
+linear and non-linear models of voice signals;=20
+
+physical and mechanical models;=20
+
+aids for disabled;=20
+
+
+measurement devices (signal and image);=20
+
+prostheses;=20
+
+
+robust techniques for voice and glottal analysis in time, frequency,
+cepstral, wavelet domain;=20
+
+neural networks, artificial intelligence and other advanced methods for
+pathology classification;=20
+
+
+linguistic and clinical phonetics;=20
+
+new-born infant cry analysis;=20
+
+
+neurological dysfunction;=20
+
+multiparametric/multimodal analysis;=20
+
+
+imaging techniques (laryngography, videokymography, fMRI);=20
+
+voice enhancement;=20
+
+protocols and database design;=20
+
+Industrial applications in the biomedical field;
+
+singing voice;=20
+
+speech/hearing interactions;
+
+=20
+
+DEADLINES
+
+=20
+
+
+30 May 2009
+
+Submission of extended abstracts (1-2 pages, 1 column) /special session
+proposal
+
+
+30 July 2009
+
+Notification of paper acceptance
+
+
+30 September 2009
+
+Final full paper submission (4 pages, 2 columns, pdf format) and early
+registration
+
+
+14-16 December 2009
+
+Conference venue
+
+=20
+=20
+FURTHER INFORMATION=20=20
+
+=20
+
+Claudia Manfredi - Conference Chair
+Department of Electronics and Telecommunications=20
+Via S. Marta 3, 50139 Firenze, Italy
+Phone: +39-055-4796410
+
+Fax: +39-055-494569
+E-mail: claudia.manfredi@unifi.it
+=20
+
+------=_NextPart_000_001C_01C977F2.FCDC0B40
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN=
+">
+
+
+<DIV><FONT face=3D"Arial" color=3D"#0000ff" size=3D"2"></FONT>&nbsp;</DIV>
+<DIV><FONT face=3D"Tahoma" size=3D"2"></FONT>&nbsp;</DIV>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080" size=3D"2"><ST=
+RONG>************<wbr>*********<wbr>*********<wbr>*********<wbr>*********<w=
+br>*********<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr>**=
+*******<wbr>**</STRONG></FONT></DIV>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080" size=3D"2"><ST=
+RONG>6 TH=20
+INTERNATIONAL WORKSHOP</STRONG></FONT></DIV>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080"><STRONG><FONT =
+size=3D"2">ON</FONT>=20
+</STRONG></FONT></DIV>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080" size=3D"2"><ST=
+RONG>MODELS AND=20
+ANALYSIS OF VOCAL EMISSIONS FOR BIOMEDICAL APPLICATIONS</STRONG></FONT></DI=
+V>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080" size=3D"2"><ST=
+RONG>MAVEBA=20
+2009</STRONG></FONT></DIV>
+<DIV align=3D"center"><STRONG><FONT face=3D"Arial" color=3D"#000080" size=
+=3D"2"></FONT></STRONG>&nbsp;</DIV>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080" size=3D"2"><ST=
+RONG>December 14 -=20
+16, 2009, Firenze, Italy</STRONG></FONT></DIV>
+<DIV align=3D"center"><STRONG><FONT face=3D"Arial" color=3D"#000080" size=
+=3D"2"></FONT></STRONG>&nbsp;</DIV>
+<DIV align=3D"center"><STRONG><FONT face=3D"Arial" color=3D"#000080" size=
+=3D"2"><A href=3D"http://maveba.det.unifi.it">http://maveba.<wbr>det.unifi.=
+<wbr>it</A></FONT></STRONG></DIV>
+<DIV align=3D"center"><FONT face=3D"Arial" color=3D"#000080" size=3D"2"><ST=
+RONG>************<wbr>*********<wbr>*********<wbr>*********<wbr>*********<w=
+br>*********<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr>**=
+*******<wbr>**</STRONG></FONT></DIV>
+<DIV><FONT size=3D"2"></FONT>&nbsp;</DIV>
+<DIV align=3D"justify">
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;">Speech=20
+is the primary means of communication among humans, and results from comple=
+x=20
+interaction among vocal folds vibration at the larynx and voluntary articul=
+ators=20
+movements (i.e. mouth tongue, jaw, etc.). However, only recently has resear=
+ch=20
+focussed on biomedical applications.</SPAN></FONT></FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;">Since=20
+1999, the MAVEBA Workshop is organised every two years, aiming to stimulate=
+=20
+contacts between specialists active in clinical, research and industrial=20
+developments in the area of voice signal and images analysis for biomedical=
+=20
+applications.</SPAN></FONT></FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;">This=20
+sixth Workshop will offer again the participants an interdisciplinary platf=
+orm=20
+for presenting and discussing new knowledge in the field of models, analysi=
+s and=20
+classification of voice signals and images, as far as both adults</SPAN><SP=
+AN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Arial;">,=20
+singing</SPAN><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;F=
+ONT-FAMILY: Arial;">=20
+and children voices are concerned.</SPAN></FONT></FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;">Modelling=20
+the normal and pathological voice source, analysis of healthy and pathologi=
+cal=20
+voices, are among the main fields of research. The aim is that of extractin=
+g the=20
+main voice characteristics, together with their deviation from &#8220;healt=
+hy=20
+conditions&#8221;, ranging from fundamental research to all kinds of biomed=
+ical=20
+applications and related established and advanced=20
+technologies.</SPAN></FONT></FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;"></SPAN></FONT></FONT></STRONG><STRONG><FONT size=3D"2"><FONT =
+color=3D"#000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #6666=
+66;FONT-FAMILY: Arial;">Interested=20
+companies are welcome. Please contact the organiser for information about=20
+product exhibition.</SPAN></FONT></FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;">&nbsp;</P>
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><B><SPAN style=3D"FONT-SI=
+ZE: 8pt;COLOR: navy;FONT-FAMILY: Arial;">SCIENTIFIC=20
+PROGRAM<o></o></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><B><SPAN style=3D"FONT-SI=
+ZE: 8pt;COLOR: navy;FONT-FAMILY: Arial;"><o>&nbsp;</o></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: justify;">
+<TABLE class=3D"MsoNormalTable" style=3D"BORDER-COLLAPSE: collapse;HEIGHT: =
+157px;" cellSpacing=3D"0" cellPadding=3D"0" align=3D"center" border=3D"0">
+  <TBODY>
+  <TR style=3D"HEIGHT: 19.1pt;">
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 19.1pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"50%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">linear=20
+      and non-linear models of voice signals; </SPAN><SPAN style=3D"FONT-SI=
+ZE: 8pt;COLOR: #666666;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD=
+>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 19.1pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"49%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">physical=20
+      and mechanical models; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #6=
+66666;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P>
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">aids=20
+      for disabled; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FON=
+T-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD></TR>
+  <TR style=3D"HEIGHT: 9.55pt;">
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 9.55pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"50%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">measurement=20
+      devices (signal and image); </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLO=
+R: #666666;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 9.55pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"49%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">prostheses;=20
+      </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Aria=
+l;"><o></o></SPAN></STRONG></P></TD></TR>
+  <TR style=3D"HEIGHT: 27.4pt;">
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 27.4pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"50%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">robust=20
+      techniques for voice and glottal analysis in time, frequency, cepstra=
+l,=20
+      wavelet domain; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;F=
+ONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 27.4pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"49%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">neural=20
+      networks, artificial intelligence and other advanced methods for path=
+ology=20
+      classification; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;F=
+ONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD></TR>
+  <TR style=3D"HEIGHT: 10.2pt;">
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 10.2pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"50%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">linguistic=20
+      and clinical phonetics; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 10.2pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"49%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">new-born=20
+      infant cry analysis; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666=
+666;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD></TR>
+  <TR style=3D"HEIGHT: 9.55pt;">
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 9.55pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"50%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">neurological=20
+      dysfunction; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT=
+-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 9.55pt;BACKGROUND-COLOR: transparent;" =
+vAlign=3D"top" width=3D"49%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">multiparametric/<wbr>multimodal=20
+      analysis; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;"><o></o></SPAN></STRONG></P></TD></TR>
+  <TR style=3D"HEIGHT: 37.35pt;">
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 37.35pt;BACKGROUND-COLOR: transparent;"=
+ vAlign=3D"top" width=3D"50%">
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">imaging=20
+      techniques (laryngography, videokymography, fMRI); </SPAN><SPAN style=
+=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Arial;"><o></o></SPAN></STRO=
+NG></P>
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">voice=20
+      enhancement; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT=
+-FAMILY: Arial;"><o></o></SPAN></STRONG></P>
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">protocols=20
+      and database design; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666=
+666;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;HEIGHT: 37.35pt;BACKGROUND-COLOR: transparent;"=
+ vAlign=3D"top" width=3D"49%">
+      <P class=3D"MsoNormal"><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;F=
+ONT-FAMILY: Arial;"><STRONG>Industrial=20
+      applications in the biomedical field;<o></o></STRONG></SPAN></P>
+      <P class=3D"MsoNormal"><STRONG><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #=
+666666;FONT-FAMILY: Arial;">singing=20
+      voice; </SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMIL=
+Y: Arial;"><o></o></SPAN></STRONG></P>
+      <P class=3D"MsoNormal"><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;F=
+ONT-FAMILY: Arial;"><STRONG>speech/hearing=20
+      interactions;<o></o></STRONG></SPAN></P></TD></TR></TBODY></TABLE></S=
+PAN></FONT></FONT></STRONG></P>
+<P style=3D"TEXT-ALIGN: justify;"><STRONG><FONT size=3D"2"><FONT color=3D"#=
+000000"><SPAN lang=3D"EN-GB" style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FA=
+MILY: Arial;"><o></o></SPAN></FONT></FONT></STRONG>&nbsp;</P></DIV>
+<DIV align=3D"justify"><FONT size=3D"2">
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><B><SPAN style=3D"FONT-SI=
+ZE: 8pt;COLOR: navy;FONT-FAMILY: Arial;">DEADLINES<o></o></SPAN></B></P>
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><B><SPAN style=3D"FONT-SI=
+ZE: 8pt;COLOR: navy;FONT-FAMILY: Arial;"><o>&nbsp;</o></SPAN></B></P>
+<DIV align=3D"center">
+<TABLE class=3D"MsoNormalTable" style=3D"BORDER-COLLAPSE: collapse;" cellSp=
+acing=3D"0" cellPadding=3D"0" border=3D"0">
+  <TBODY>
+  <TR>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"30%">
+      <P style=3D"TEXT-ALIGN: right;" align=3D"right"><B><SPAN style=3D"FON=
+T-SIZE: 8pt;COLOR: maroon;FONT-FAMILY: Arial;">30=20
+      May 2009</SPAN></B><SPAN style=3D"FONT-SIZE: 8pt;COLOR: maroon;FONT-F=
+AMILY: Arial;"><o></o></SPAN></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"69%">
+      <P style=3D"TEXT-ALIGN: justify;"><STRONG><SPAN style=3D"FONT-SIZE: 8=
+pt;COLOR: #666666;FONT-FAMILY: Arial;">Submission=20
+      of extended abstracts (1-2 pages, 1 column) /special session=20
+      proposal</SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMI=
+LY: Arial;"><o></o></SPAN></STRONG></P></TD></TR>
+  <TR>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"30%">
+      <P style=3D"TEXT-ALIGN: right;" align=3D"right"><B><SPAN style=3D"FON=
+T-SIZE: 8pt;COLOR: maroon;FONT-FAMILY: Arial;">30=20
+      July 2009</SPAN></B><SPAN style=3D"FONT-SIZE: 8pt;COLOR: maroon;FONT-=
+FAMILY: Arial;"><o></o></SPAN></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"69%">
+      <P style=3D"TEXT-ALIGN: justify;"><SPAN style=3D"FONT-SIZE: 8pt;COLOR=
+: #666666;FONT-FAMILY: Arial;"><STRONG>Notification=20
+      of paper acceptance</STRONG></SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLO=
+R: #666666;FONT-FAMILY: Arial;"><o></o></SPAN></P></TD></TR>
+  <TR>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"30%">
+      <P style=3D"TEXT-ALIGN: right;" align=3D"right"><B><SPAN style=3D"FON=
+T-SIZE: 8pt;COLOR: maroon;FONT-FAMILY: Arial;">30=20
+      September 2009</SPAN></B><SPAN style=3D"FONT-SIZE: 8pt;COLOR: maroon;=
+FONT-FAMILY: Arial;"><o></o></SPAN></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"69%">
+      <P style=3D"TEXT-ALIGN: justify;"><SPAN style=3D"FONT-SIZE: 8pt;COLOR=
+: #666666;FONT-FAMILY: Arial;"><STRONG>Final=20
+      full paper submission (4 pages, 2 columns, pdf format) and early=20
+      registration</STRONG></SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666=
+666;FONT-FAMILY: Arial;"><o></o></SPAN></P></TD></TR>
+  <TR>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"30%">
+      <P style=3D"TEXT-ALIGN: right;" align=3D"right"><B><SPAN style=3D"FON=
+T-SIZE: 8pt;COLOR: maroon;FONT-FAMILY: Arial;">14-16=20
+      December 2009</SPAN></B><SPAN style=3D"FONT-SIZE: 8pt;COLOR: maroon;F=
+ONT-FAMILY: Arial;"><o></o></SPAN></P></TD>
+    <TD style=3D"BORDER-RIGHT: #ece9d8;BORDER-TOP: #ece9d8;BORDER-LEFT: #ec=
+e9d8;BORDER-BOTTOM: #ece9d8;BACKGROUND-COLOR: transparent;" vAlign=3D"top" =
+width=3D"69%">
+      <P style=3D"TEXT-ALIGN: justify;"><SPAN style=3D"FONT-SIZE: 8pt;COLOR=
+: #666666;FONT-FAMILY: Arial;"><STRONG>Conference=20
+      venue</STRONG></SPAN><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FON=
+T-FAMILY: Arial;"><o></o></SPAN></P></TD></TR></TBODY></TABLE></DIV>
+<DIV align=3D"center">&nbsp;</DIV></FONT></DIV>
+<DIV align=3D"justify"><FONT face=3D"Arial" size=3D"2"><STRONG></STRONG></F=
+ONT>&nbsp;</DIV><FONT face=3D"Arial" size=3D"2">
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><FONT color=3D"#000080"><=
+STRONG><SPAN>FURTHER INFORMATION&nbsp; </SPAN><SPAN style=3D"FONT-SIZE: 8pt=
+;COLOR: navy;FONT-FAMILY: Arial;"><o></o></SPAN></STRONG></FONT></P>
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><SPAN style=3D"FONT-SIZE:=
+ 8pt;COLOR: navy;FONT-FAMILY: Arial;"><o><FONT size=3D"2"><STRONG>&nbsp;</S=
+TRONG></FONT></o></SPAN></P>
+<P style=3D"TEXT-ALIGN: center;" align=3D"center"><SPAN><STRONG>Claudia Man=
+fredi &#8211; Conference Chair<BR>Department of=20
+Electronics and Telecommunications <BR>Via S. Marta 3, 50139 Firenze,=20
+Italy<BR>Phone: &#43;39-055-4796410<o></o></STRONG></SPAN></P>
+<DIV align=3D"center"><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAM=
+ILY: Arial;"><STRONG><FONT size=3D"2"><FONT color=3D"#000000">Fax: &#43;39-=
+055-494569<BR>E-mail: <A href=3D"mailto:claudia.manfredi@unifi.it">claudia.=
+manfredi@<wbr>unifi.it</A></FONT></FONT></STRONG></SPAN></DIV>
+<DIV align=3D"center"><SPAN style=3D"FONT-SIZE: 8pt;COLOR: #666666;FONT-FAM=
+ILY: Arial;"><STRONG><FONT color=3D"#000000" size=3D"2"></FONT></STRONG></S=
+PAN><STRONG></STRONG>&nbsp;</DIV></FONT>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/271=
+2;_ylc=3DX3oDMTM0M2lpaW81BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI3MTIEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjMyMTE3Nzk1BHRwY=
+0lkAzI3MTI-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwMGk2M2dvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI3MTIEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjMyMTE3Nzk1?act=3Dreply&me=
+ssageNum=3D2712">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJldTZnbWUyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIzMjExNzc5NQ--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJldXJvNTVxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIzMjExNzc5NQ--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmcjVxMGs3BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMzIxMTc3OTU-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbTZkZTh0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIzMjExNzc5NQ--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmdDFsOGZoBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMzIxMTc3OTU-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjMXNsb3ZnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMzIxMTc3OTU-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmN2djdmpqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMzIxMTc3OTU-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlNzJyZTl2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIzMjExNzc5NQ--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkZnZiZ2h0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjMyMTE3Nzk1">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkN3J2YzU0BF9TAzk=
+3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjMyMTE3Nzk1">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmaGRuOXBrBF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMzIxMTc3OTU-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+b2M3cm5sBF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjMyMTE3Nzk1">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background:white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital">
+	      		<div id=3D"vithd">Activit=E9s r=E9centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlcmhobzN1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIzMjExNzc5NQ--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	          <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrbjdnNGg3BF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIzMjExNzc5NQ--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuc3Jsbm43BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIzMjExNzc5NQ--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvZHA5cDFtBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMzIxMTc3OTU-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2712/stime=3D1232117795/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<span  style=3D"color: white;">__,_._,___</span>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+	#ygrp-tpmsgs{
+	    font-family: Arial;=09
+	    clear: both;
+	}
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-actbar{
+		clear: both;
+		margin: 25px 0;
+		white-space:nowrap;
+		color: #666;
+		text-align: right;
+	}
+	#ygrp-actbar .left{
+		float: left;
+		white-space:nowrap;
+	}
+	.bld{font-weight:bold;}
+	#ygrp-grft{
+		font-family: Verdana;
+		font-size: 77%;
+		padding: 15px 0;
+	}
+	#ygrp-ft{
+	  font-family: verdana;
+	  font-size: 77%;
+	  border-top: 1px solid #666;=20
+	  padding: 5px 0;=20
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-grpname{
+        font-weight: bold;
+        margin-top: 10px;
+  	}
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital{
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+		padding: 2px 0 8px 8px;
+	}
+	#ygrp-vital #vithd{
+		font-size: 77%;
+		font-family: Verdana;
+		font-weight: bold;
+		color: #333;
+		text-transform: uppercase;
+	}
+	#ygrp-vital ul{
+		padding: 0;
+		margin: 2px 0;
+	}
+	#ygrp-vital ul li{
+	  list-style-type: none;
+	  clear: both;
+	  border: 1px solid #e0ecee;=20=20
+	}
+	#ygrp-vital ul li .ct{
+	  font-weight: bold;
+	  color: #ff7900;
+	  float: right;
+	  width: 2em;
+	  text-align:right;
+	  padding-right: .5em;
+	}
+	#ygrp-vital ul li .cat{
+	  font-weight: bold;
+	}
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #hd{
+		color: #999;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov{
+		padding: 6px 13px;
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+	}
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+------=_NextPart_000_001C_01C977F2.FCDC0B40--

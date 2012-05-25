@@ -1,0 +1,435 @@
+From - Thu Dec 10 14:25:05 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 176552f7c59a5b3b909eb7973a0fb74c6f68455f
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs134376pyn;
+        Tue, 21 Nov 2006 17:48:34 -0800 (PST)
+Received: by 10.48.80.8 with SMTP id d8mr1813574nfb.1164160114488;
+        Tue, 21 Nov 2006 17:48:34 -0800 (PST)
+Return-Path: <jettte@gmail.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id r33si938020nfc.2006.11.21.17.48.32;
+        Tue, 21 Nov 2006 17:48:34 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of jettte@gmail.com)
+DomainKey-Status: good (test mode)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id kAM1mUxZ011821
+	for <jpprost@gmail.com>; Wed, 22 Nov 2006 12:48:30 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006112212483032061
+ for <jpprost@gmail.com>; Wed, 22 Nov 2006 12:48:30 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id kAM1mNFD011816
+	for <jpprost@gmail.com>; Wed, 22 Nov 2006 12:48:23 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id kAM1mNGX012052
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Wed, 22 Nov 2006 12:48:23 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id kAM1mHch011809
+	for <jpprost@vesuvius.ics.mq.edu.au>; Wed, 22 Nov 2006 12:48:23 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006112212482232060
+ for <jpprost@vesuvius.ics.mq.edu.au>; Wed, 22 Nov 2006 12:48:22 +1100
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id kAM1mF1f011807
+	for <jpprost@ics.mq.edu.au>; Wed, 22 Nov 2006 12:48:16 +1100 (EST)
+Received: from ug-out-1314.google.com (ug-out-1314.google.com [66.249.92.175])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id kAM1mDx18178
+	for <jpprost@ics.mq.edu.au>; Wed, 22 Nov 2006 12:48:14 +1100 (EST)
+Received: by ug-out-1314.google.com with SMTP id 44so46861uga
+        for <jpprost@ics.mq.edu.au>; Tue, 21 Nov 2006 17:48:12 -0800 (PST)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+        s=beta; d=gmail.com;
+        h=received:message-id:date:from:sender:to:subject:in-reply-to:mime-version:content-type:content-transfer-encoding:content-disposition:references:x-google-sender-auth;
+        b=nOp6k1KsL8kMJkANr9McsPNg083pCnTK9RL06APQWvI+FtyEy/3pPKl2epQ5q9sKFsvNlKFDMX4ZZachlldJqg5HIZiTw2SEG5a/4v6k0ZjFr9YTlgElKEUDLiO6R34GPkhgSVZr6g0DYvXSXfKTvvS8YGRWTFkhfUWwZbsGMu0=
+Received: by 10.66.248.5 with SMTP id v5mr2033367ugh.1164160091127;
+        Tue, 21 Nov 2006 17:48:11 -0800 (PST)
+Received: by 10.66.221.1 with HTTP; Tue, 21 Nov 2006 17:48:10 -0800 (PST)
+Message-ID: <39c53b9d0611211748k4e2f1ae9gdc85c908c6984346@mail.gmail.com>
+Date: Wed, 22 Nov 2006 12:48:10 +1100
+From: "Jette Viethen" <jviethen@ics.mq.edu.au>
+Sender: jettte@gmail.com
+To: "Jean-Philippe Prost" <jpprost@ics.mq.edu.au>
+Subject: Re: [Corpora-List] deadline extension / submission for the special issue of TAL on evaluation
+In-Reply-To: <b5e0c390611211652k6a97999ek8010f1720fc3f7d8@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+References: <E1GmZMO-0000Ou-00@trollope.limsi.fr>
+	 <b5e0c390611211652k6a97999ek8010f1720fc3f7d8@mail.gmail.com>
+X-Google-Sender-Auth: 0130d0bc996b4c3c
+
+Na, I've got enough other stuff to concentrate on... all it means is
+that they have few submissions, which gives us a better chance.
+
+j
+
+On 11/22/06, Jean-Philippe Prost <jpprost@ics.mq.edu.au> wrote:
+> Happy, or little upset? In any case, it gives you more time to work out t=
+he
+> missing bits you were talking about ;-)
+> Cheers,
+> JP
+>
+> ---------- Forwarded message ----------
+> From: Patrick Paroubek <pap@limsi.fr>
+> Date: Nov 22, 2006 4:24 AM
+> Subject: [Corpora-List] deadline extension / submission for the special
+> issue of TAL on evaluation
+> To: CORPORA@uib.no
+>
+>
+> -------------------------------------------------------------------------=
+-------
+> Principles of Evaluation in Natural Language Processing.
+>
+> SPECIAL ISSUE OF THE JOURNAL "TRAITEMENT AUTOMATIQUE DES LANGUES" (TAL)
+>
+> *** DEADLINE EXTENSION ***
+> NEW Deadline for submission: December 15th 2006
+>
+> [Version fran=E7aise plus bas]
+>
+> GUEST EDITORS:
+> Patrick Paroubek (LIMSI-CNRS)
+> St=E9phane Chaudiron (MdRNT /U. Lille 3)
+>  Lynette Hirschman (MITRE)
+>
+> FIRST CALL ANNOUNCEMENT
+>
+> Just by looking at the number of publications about evaluation, it is
+> clear that the usage of evaluation methods has become from being only
+> a controversial topic to an undeniable fact. In Natural Language
+> Processing (NLP), such methods are used now throughout System
+> Development Life Cycle, for comparing different approaches about a
+> given problem or even during corpus development and maintenance.
+> The use of evaluation methods is not anymore restricted to a small
+> community as it was for some time. Such practices are now encountered
+> widely in processing of text, speech and even multimedia data. In
+> addition to a special international conference about evaluation in NLP
+> : LREC, there exists in France a national program TECHNOLANGUE which
+> transcends scientific barriers, since it has prolongations in
+> artificial vision with the TECHNOVISION program, where we find
+> evaluation activities about handwriting recognition and ancient
+> document processing.
+>
+> For this special issue of TAL, we invite papers about the fundamental
+> principles that underlie the use of evaluation methods in NLP. We wish
+> to adopt a higher point of view which goes beyond the horizon of a
+> single evaluation campaign and have a more global approach about the
+> problems raised by the deployment of evaluation in NLP. Without any
+> prejudice, we do not wish to offer with this special issue yet another
+>  tribune to articles relating the participation of a system in a given
+> evaluation campaign, or articles comparing the pros and cons of two
+> metrics for assessing performance in a particular task. Our intend is
+> to address more fundamental issues about the use of evaluation in NLP.
+>
+> TOPICS
+>
+> Specific topics include (but are not limited to):
+>
+> 1) Corpora in the evaluation process, their use, the development life
+> cycle, the synergy around the pair corpus - evaluation campaign,
+>
+>  2) Evaluation as a source of creation of linguistic resources. What
+>    help does it bring in maintaining existing resources?
+>
+> 3) The question of re-using "found corpora" for evaluation,
+> i.e. corpora that exist, with some level of annotation that can be
+> adapted to provide rich "real world" corpora with somewhat noisy or
+> incomplete annotations.
+>
+> 4) To evaluate implies to have a reference against which to gauge a
+>    performance, but how is defined the reference in NLP? How should we
+>    deal with the problem that often the reference is not unique
+>    (e.g. in machine translation)?
+>
+> 5) Which formalisms for evaluation in NLP?
+>
+> 6) Which characteristics should evaluation have in NLP? Comparative,
+>    quantitative, qualitative... evaluation?
+>
+> 7) Technology Evaluation and User/Application Oriented Evaluation, how
+>    are these two different kinds of evaluation perceived by the NLP
+>    community?
+>
+>  8) Evaluation and scientific progress, e.g. large scale evaluation
+>    programs in NLP.
+>
+> 9) Which role does evaluation plays in the NLP scientific process.
+>
+> 10) Some domains of NLP are reputed easier for evaluation that others
+>     (parsing, semantics, translation) myth or reality?
+>
+> THE JOURNAL
+>
+> (see http://www.atala.org/)
+> The journal TAL (Traitement Automatique des Langues) is an international
+> journal
+> published since 1960 by ATALA (Association pour le Traitement Automatique
+> des Langues)
+> with the help of CNRS. It is now becoming available in electronic form, w=
+ith
+> print on demand. The reading and selection process remain unchanged.
+>
+> LANGUAGE
+>
+> Articles are written in French or in English. Submissions in English
+> are only accepted for non-native speakers of French.
+>
+> IMPORTANT DATES.
+>
+> Submission Deadline: EXTENDED TO 15/12/2006
+> Acceptance Notification: 22/01/2007
+> Revised Final Version: 16/04/2007
+>
+> FORMAT
+>
+> Articles (25 pages maximum, PDF format) will be sent to: Patrick Paroubek
+> <pap@limsi.fr >
+> Style sheets are available on line at:
+> http://tal.e-revues.com/appel.jsp
+>
+> SPECIAL ISSUE EDITORIAL BOARD
+>
+> Mohand Boughanem (IRIT)
+> Fr=E9d=E9ric B=E9chet (LIA, U. Avignon)
+> Herv=E9 Blanchon (IMAG)
+> Jean-Francois Bonastre (LIA, U. Avignon)
+> John Carroll (U. Sussex)
+> Gael de Chalendar (CEA, Fontenay aux roses)
+> Robert Gaizauskas (U. Sheffield)
+> Guillaume Gravier (IRISA)
+> Tony Hartley (U. of Leeds)
+> Lori Lamel (LIMSI-CNRS)
+> Dominique Laurent (Synapse)
+> Joseph Mariani (LIMSI-CNRS)
+> Jean-Luc Minel (Paris X)
+> Adeline Nazarenko (Paris XIII)
+> Andrei Popescu-Belis (ISSCO, Gen=E8ve)
+> Gerard Sabah (LIMSI-CNRS)
+>  Anne Vilnat (LIMSI-CNRS)
+> Claire Waast (EDF)
+> Bonnie Webber (U. of Edinburgh)
+>
+> TAL EDITORIAL BOARD
+>
+> Salah Ait-Mokhtar (Xerox Research Centre Europe, Grenoble)
+> Philippe Blache (LPL, CNRS, Aix-en-Provence)
+> Pierrette Bouillon (ETI/TIM/ISSCO, Universit=E9 de Gen=E8ve, Suisse)
+> Didier Bourigault (ERSS, CNRS, Toulouse)
+> =C9ric de la Clergerie (INRIA-Rocquencourt)
+> B=E9atrice Daille  (LINA, Universit=E9 de Nantes)
+> Marc El-B=E8ze (LIA, Universit=E9 d'Avignon)
+> Patrice Enjalbert (GREYC, Universit=E9 de Caen)
+> Dominique Estival (Appen, Sydney, Australie)
+> =C9ric Gaussier (Xerox Research Centre Europe, Grenoble)
+> Philippe Langlais (RALI, Universit=E9 de Montr=E9al, Canada)
+> =C9ric Laporte (IGM, Universit=E9 de Marne-la-Vall=E9e)
+> Alain Lecomte (CLIPS & INRIA-Futurs, Universit=E9 Grenoble 2)
+> Denis Maurel (Laboratoire d'Informatique, Universit=E9 Fran=E7ois-Rabelai=
+s de
+> Tours)
+> Piet Mertens (Universit=E9 de Leuven, Belgique)
+> Fiammetta Namer (ATILF, Universit=E9 Nancy 2)
+> Alexis Nasr (Lattice, Universit=E9 Paris 7)
+> Patrick Paroubek (LIMSI, CNRS, Orsay)
+> Guy Perrier (LORIA, Universit=E9 Nancy 2)
+> Marie-Paule P=E9ry-Woodley  (ERSS, Universit=E9 Toulouse 2)
+> Jean-Marie Pierrel (ATILF, Universit=E9 Nancy 1)
+> Alain Polgu=E8re (OLST, Universit=E9 de Montr=E9al, Canada)
+> Martin Rajman  (EPFL, Lausanne, Suisse)
+> Patrick Saint-Dizier (IRIT, CNRS, Toulouse)
+> =C9velyne Tzoukermann (Comcast/StreamSage, Washington DC, =C9tats-Unis)
+>  Fran=E7ois Yvon (GET/ENST & LTCI/CNRS, Paris)
+>
+> -------------------------------------------------------------------------=
+-------
+>
+> Principes de l'=E9valuation en Traitement Automatique des Langues.
+>
+> NUM=C9RO SP=C9CIAL DE LA REVUE  "TRAITEMENT AUTOMATIQUE DES LANGUES" (TAL=
+)
+>
+> *** DATE LIMITE REPOUSSEE ***
+> NOUVELLE Date limite de soumission : 15 d=E9cembre 2006
+>
+> R=C9DACTEURS INVIT=C9S:
+> Patrick Paroubek (LIMSI-CNRS)
+> St=E9phane Chaudiron (MdRNT /U. Lille 3)
+> Lynette Hirschman (MITRE)
+>
+> PREMIER APPEL
+> Comme en atteste l'existence de nombreuses publications traitant du
+> sujet, l'emploi de m=E9thodes d'=E9valuation est pass=E9 d'un sujet de
+> controverse =E0 une r=E9alit=E9 ind=E9niable, aussi bien dans le cycle de
+> d=E9veloppement de syst=E8mes de traitement automatique des langues (TAL)
+> que pour la comparaison d'approches concernant une probl=E9matique
+> particuli=E8re ou encore pour le d=E9veloppement et la maintenance de
+> corpus.
+>
+> L'emploi des m=E9thodes d'=E9valuation n'est plus comme ce fut le cas un
+> moment l'apanage d'une seule communaut=E9, puisque ces m=E9thodes sont
+> maintenant employ=E9es aussi bien pour le traitement de l'oral, de
+> l'=E9crit que du multim=E9dia. Outre l'existence d'une conf=E9rence
+> internationale sp=E9cialement d=E9di=E9e =E0 l'=E9valuation en Traitement
+> Automatique des langues : LREC, il existe en France un programme
+> national TECHNOLANGUE, qui transcende les barri=E8res scientifiques,
+> puisqu'il trouve des prolongements dans le domaine de la vision
+> automatique avec le programme TECHNOVISION, o=F9 l'on retrouve des
+> activit=E9s concernant le traitement de documents anciens et la
+> reconnaissance d'=E9criture.
+>
+> Dans ce num=E9ro sp=E9cial de TAL nous nous int=E9ressons aux principes
+> fondamentaux qui sous-tendent l'emploi de m=E9thodes d'=E9valuation pour
+> le TAL. Nous voulons adopter un point de vue qui s'=E9l=E8ve au-del=E0 de
+> l'horizon d'une campagne d'=E9valuation particuli=E8re, pour aborder de
+> mani=E8re plus globale les probl=E8mes que pose l'emploi de m=E9thodes
+> d'=E9valuations dans le cadre du traitement automatique des
+> langues. Sans pr=E9judice aucun, notre but n'est pas d'offrir ici une
+> tribune suppl=E9mentaire aux articles qui par exemple relatent la
+> participation d'un syst=E8me =E0 une campagne particuli=E8re ou bien
+> comparent les m=E9rites respectifs de diff=E9rentes mesures dans
+> l'=E9valuation d'une t=E2che donn=E9e, mais d'aborder des sujets de fond
+> concernant l'=E9valuation lorsqu'elle est mise en oeuvre pour le TAL.
+>
+> TH=C8MES
+>
+> Parmi les th=E8mes pertinents, on peut notamment citer sans limitation :
+>
+> 1) Les corpus dans le processus d'=E9valuation, leur utilisation, leur
+>   d=E9veloppement, la synergie qui s'organise autour de la paire:
+>    corpus - campagne d'=E9valuation.
+>
+> 2) L'=E9valuation comme outil de cr=E9ation et de maintenance des
+>    ressources linguistiques.
+>
+> 3) La question de la r=E9utilisation de corpus "tout trouv=E9s" pour
+>    l'=E9valuation, c'est =E0 dire de corpus existants, annot=E9s
+>    linguistiquement et qui peuvent =EAtre adapt=E9s pour fournir des
+>    corpus richement annot=E9s et "r=E9alistes" avec des informations
+>    bruit=E9es ou incompl=E8tes.
+>
+> 4) =C9valuer implique de comparer par rapport =E0 un objectif, mais
+>   comment d=E9finir la r=E9f=E9rence ? En particulier, quid de son unicit=
+=E9
+>   (par ex. pour la traduction automatique) ?
+>
+> 5) Quels formalismes pour l'=E9valuation en TAL ?
+>
+> 6) Quelles sont les caract=E9ristiques d'une =E9valuation pour le TAL ?
+>    Comparative, quantitative, qualitative...?
+>
+> 7) =C9valuation de technologie et =E9valuation centr=E9e utilisateur,
+>    comment ces deux types d'=E9valuation sont per=E7us par la communaut=
+=E9
+>    TAL ?
+>
+> 8) =C9valuation et progr=E8s scientifique, par ex. les programmes d'=E9va=
+luation
+> en TAL.
+>
+> 9) La place de l'=E9valuation dans le processus scientifique en TAL.
+>
+> 10) Certains domaines du TAL (syntaxe, s=E9mantique, traduction) se
+>     pr=EAtent-ils mieux que d'autres =E0 l'=E9valuation, mythe ou r=E9ali=
+t=E9 ?
+>
+> LA REVUE
+>
+> (voir http://www.atala.org/)
+> La revue TAL (Traitement Automatique des Langues) est une revue
+> internationale =E9dit=E9e depuis 1960 par l'ATALA (Association pour le
+> Traitement Automatique des Langues) avec le concours du CNRS.  Elle va
+> maintenant =EAtre publi=E9e sous format =E9lectronique, avec impression =
+=E0 la
+> demande. Cela ne change aucunement son processus de relecture et de
+>  s=E9lection.
+>
+> LANGUE
+>
+> Les articles sont =E9crits en fran=E7ais ou en anglais. Les soumissions e=
+n
+> anglais ne sont accept=E9es que pour les auteurs non francophones.
+>
+> DATES IMPORTANTES
+>
+> Date limite de soumission : REPOUSSEE AU 15/12/2006
+> D=E9cision du comit=E9 : 22/01/2007
+> Version r=E9vis=E9e : 16/04/2007
+>
+> FORMAT
+>
+> Les articles (25 pages maximum, format PDF) seront envoy=E9s aux deux
+> r=E9dacteurs invit=E9s aux adresses suivantes :
+>
+> Patrick Paroubek < pap@limsi.fr>
+> St=E9phane Chaudiron <stephane.chaudiron@u-paris10.fr>
+>
+> Les feuilles de style sont disponibles en ligne sur le site:
+> http://tal.e-revues.com/appel.jsp
+>
+> COMIT=C9 DE LECTURE SP=C9CIFIQUE
+>
+> Mohand Boughanem (IRIT)
+> Fr=E9d=E9ric B=E9chet (LIA, U. Avignon)
+> Herv=E9 Blanchon (IMAG)
+> Jean-Francois Bonastre (LIA, U. Avignon)
+> John Carroll (U. Sussex)
+> Gael de Chalendar (CEA, Fontenay aux roses)
+> Robert Gaizauskas (U. Sheffield)
+> Guillaume Gravier (IRISA)
+> Tony Hartley (U. of Leeds)
+> Lori Lamel (LIMSI-CNRS)
+> Dominique Laurent (Synapse)
+> Joseph Mariani (LIMSI-CNRS)
+> Jean-Luc Minel (Paris X)
+> Adeline Nazarenko (Paris XIII)
+> Andrei Popescu-Belis (ISSCO, Gen=E8ve)
+> Gerard Sabah (LIMSI-CNRS)
+> Anne Vilnat (LIMSI-CNRS)
+> Claire Waast (EDF)
+> Bonnie Webber (U. of Edinburgh)
+>
+> COMIT=C9 DE R=C9DACTION
+>
+> Salah Ait-Mokhtar (Xerox Research Centre Europe, Grenoble)
+> Philippe Blache (LPL, CNRS, Aix-en-Provence)
+> Pierrette Bouillon (ETI/TIM/ISSCO, Universit=E9 de Gen=E8ve, Suisse)
+> Didier Bourigault (ERSS, CNRS, Toulouse)
+> =C9ric de la Clergerie (INRIA-Rocquencourt)
+> B=E9atrice Daille  (LINA, Universit=E9 de Nantes)
+> Marc El-B=E8ze (LIA, Universit=E9 d'Avignon)
+> Patrice Enjalbert (GREYC, Universit=E9 de Caen)
+> Dominique Estival (Appen, Sydney, Australie)
+> =C9ric Gaussier (Xerox Research Centre Europe, Grenoble)
+> Philippe Langlais (RALI, Universit=E9 de Montr=E9al, Canada)
+> =C9ric Laporte (IGM, Universit=E9 de Marne-la-Vall=E9e)
+> Alain Lecomte (CLIPS & INRIA-Futurs, Universit=E9 Grenoble 2)
+> Denis Maurel (Laboratoire d'Informatique, Universit=E9
+> Fran=E7ois-Rabelais de Tours)
+> Piet Mertens (Universit=E9 de Leuven, Belgique)
+> Fiammetta Namer (ATILF, Universit=E9 Nancy 2)
+> Alexis Nasr (Lattice, Universit=E9 Paris 7)
+> Patrick Paroubek (LIMSI, CNRS, Orsay)
+> Guy Perrier (LORIA, Universit=E9 Nancy 2)
+> Marie-Paule P=E9ry-Woodley  (ERSS, Universit=E9 Toulouse 2)
+> Jean-Marie Pierrel (ATILF, Universit=E9 Nancy 1)
+> Alain Polgu=E8re (OLST, Universit=E9 de Montr=E9al, Canada)
+> Martin Rajman  (EPFL, Lausanne, Suisse)
+> Patrick Saint-Dizier (IRIT, CNRS, Toulouse)
+> =C9velyne Tzoukermann (Comcast/StreamSage, Washington DC, =C9tats-Unis)
+> Fran=E7ois Yvon (GET/ENST & LTCI/CNRS, Paris)
+>
+> -------------------------------------------------------------------------=
+-------
+>
+>
+
+
+--=20
+"The secret of staying young is to live honestly, eat slowly, and lie
+about your age." - Lucille Ball

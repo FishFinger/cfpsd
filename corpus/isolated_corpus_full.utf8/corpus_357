@@ -1,0 +1,647 @@
+From - Thu Dec 10 14:23:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 57ea24bb7bd07f9717c1fa2c4b09181d22b646ae
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs11917pyn;
+        Thu, 15 Jun 2006 04:15:09 -0700 (PDT)
+Received: by 10.36.132.8 with SMTP id f8mr2449289nzd;
+        Thu, 15 Jun 2006 04:15:09 -0700 (PDT)
+Return-Path: <sentto-1622440-2041-1150370077-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id 15si2697179nzo.2006.06.15.04.15.06;
+        Thu, 15 Jun 2006 04:15:09 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2041-1150370077-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: good
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k5FBF4YN000170
+	for <jpprost@gmail.com>; Thu, 15 Jun 2006 21:15:04 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006061521150428816
+ for <jpprost@gmail.com>; Thu, 15 Jun 2006 21:15:04 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k5FBEvCI000163
+	for <jpprost@gmail.com>; Thu, 15 Jun 2006 21:14:58 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k5FBEvqh013889
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Thu, 15 Jun 2006 21:14:57 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k5FBEvqd000160
+	for <jpprost@vesuvius.ics.mq.edu.au>; Thu, 15 Jun 2006 21:14:57 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006061521145728815
+ for <jpprost@vesuvius.ics.mq.edu.au>; Thu, 15 Jun 2006 21:14:57 +1000
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k5FBEkN6000155
+	for <jpprost@ics.mq.edu.au>; Thu, 15 Jun 2006 21:14:46 +1000 (EST)
+Received: from n17a.bullet.scd.yahoo.com (n17a.bullet.scd.yahoo.com [66.94.237.46])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k5FBEij26324
+	for <jpprost@ics.mq.edu.au>; Thu, 15 Jun 2006 21:14:45 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=UDpyXGZnhGIyxOB6jCJLKwkKqu/wvn8TucGE0qhOxK6AtkgUizHv4NE63pvmiQzOGu44WsXhyT6Lix3lvxj0nYQvfD7UPBq5eDSoPmx9+q429hyf0RMp9oIpiJC/Hkbm;
+Received: from [66.218.69.4] by n17.bullet.scd.yahoo.com with NNFMP; 15 Jun 2006 11:14:38 -0000
+Received: from [66.218.67.197] by t4.bullet.scd.yahoo.com with NNFMP; 15 Jun 2006 11:14:38 -0000
+X-Yahoo-Newman-Property: groups-email
+X-Yahoo-Newman-Id: 1622440-m2041
+X-Sender: aline@up.univ-mrs.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 73707 invoked from network); 15 Jun 2006 11:14:29 -0000
+Received: from unknown (66.218.66.218)
+  by m4.grp.scd.yahoo.com with QMQP; 15 Jun 2006 11:14:29 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta3.grp.scd.yahoo.com with SMTP; 15 Jun 2006 11:14:24 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id A10AE4EB18A
+	for <lpl-infos@yahoogroupes.fr>; Thu, 15 Jun 2006 13:12:52 +0200 (CEST)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 477663-02 for <lpl-infos@yahoogroupes.fr>;
+ Thu, 15 Jun 2006 13:12:51 +0200 (CEST)
+Received: from [147.94.213.137] (unknown [147.94.213.137])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 068C04E4BF9
+	for <lpl-infos@yahoogroupes.fr>; Thu, 15 Jun 2006 13:12:51 +0200 (CEST)
+Message-Id: <v04210102c0b6f1394515@[147.94.213.137]>
+X-Priority: 1 (Highest)
+To: lpl-infos@yahoogroupes.fr
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: Aline =?iso-8859-1?Q?P=E9lissier?=  <aline@up.univ-mrs.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Thu, 15 Jun 2006 13:13:19 +0200
+Subject: [lpl-infos] [coll] CfP 10th International Symposium on Social Communication,
+ fin 1e juillet
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>
+>From: "Leonel Ruiz Miyares (Centro Ling. Aplicada)"=20
+><leonel@lingapli.ciges.inf.cu>
+>
+>Dear colleague,
+>
+>Please, find enclosed the announcement of the
+>10th International Symposium on Social Communication.
+>
+>It will be a pleasure to welcome you in Santiago de Cuba!
+>
+>Yours sincerely,
+>
+>
+>Eloina Miyares Bermudez
+>Executive Secretary
+>
+>*****
+>
+>[To spread, please, thank you.]
+>
+>[Apologies if you receive this
+>announcement more than once.]
+>
+>TENTH INTERNATIONAL SYMPOSIUM ON
+>SOCIAL COMMUNICATION
+>
+>CENTRE FOR APPLIED LINGUISTICS
+>
+>SANTIAGO DE CUBA
+>JANUARY 22-26, 2007
+>
+>The Centre for Applied Linguistics of the Santiago de Cuba's branch of
+>the Ministry of Science, Technology and the Environment, is pleased to
+>announce the Tenth International Symposium on Social Communication
+>dedicated to the 20 anniversary of its creation. The event will be
+>held in Santiago de Cuba January 22 through the 26, 2007. This
+>interdisciplinary event will focus on social communication processes
+>from the points of view of Linguistics, Computational Linguistics,
+>Linguistics Rights, Medicine, Mass Media, and Art, Ethnology and
+>Folklore.
+>
+>The Symposium will be also sponsored by:
+>
+>. University of Oriente, Santiago de Cuba, Cuba
+>
+>. Pedagogical University "Frank Pais Garcia" Santiago de Cuba, Cuba
+>
+>. African Cultural Centre "Fernando Ortiz" Santiago de Cuba, Cuba
+>
+>. Provincial Branch of Ministry of Culture, Santiago de Cuba, Cuba
+>
+>. Heredia Teather, Santiago de Cuba, Cuba
+>
+>. University of Twente Enschede, The Netherlands
+>
+>. Digital Enterprise Research Institute Leopold-Franzens Universit=E4t,
+>Innsbruck, Austria
+>
+>. Basque Country University, Spain
+>
+>. Lexicology/Terminology Research Group Free University of Amsterdam
+>The Netherlands
+>
+>. University of Malaga, Malaga, Spain
+>
+>. Middlesex University, United Kingdom
+>
+>. Institute for Computational Linguistics, Pisa, Italy
+>
+>. University of Sheffield, United Kingdom
+>
+>Authors will be allowed to present only one paper pertaining to the
+>following disciplines:
+>
+>1. Linguistics:
+>
+>- Applied Linguistics
+>
+>- Phonetics and Phonology
+>
+>- Lexicology and Lexicography
+>
+>- Quantitative Linguistics
+>
+>- Morphology and Syntax
+>
+>- Anthropology Linguistics or Ethnolinguistics
+>
+>- Textual Linguistics and Pragmalinguistics
+>
+>- Sociolinguistics
+>
+>- Spanish and foreign language teaching
+>
+>- Spanish as a second language
+>
+>- Terminology
+>
+>- Translations
+>
+>- Linguistics Rights
+>
+>2. Computational Linguistics:
+>
+>- Software related to linguistics research
+>
+>- Automated grammatical tagging of texts
+>
+>- Electronic dictionaries
+>
+>- Software related to the teaching
+>of mother tongues and foreign languages
+>
+>- Related issues
+>
+>3. Medical specialties related to speech and voice and with Social
+>Communication in general:
+>
+>- Logopedy and Phoniatry
+>
+>- Neurology
+>
+>- Otorhinolaryngology
+>
+>- Stomatology
+>
+>4. Mass Media:
+>
+>- Linguistics research related to the speech of journalists, actors
+>and radio and television announcers
+>
+>- Textual Analysis of radio and television programs, and of print and
+>electronic media articles
+>
+>5. Art, Ethnology and Folklore:
+>
+>- Research related to Social Communication
+>
+>Activities that will take place within the event are:
+>
+>- Pre-Symposium seminars
+>
+>- Discussion of papers in commissions
+>
+>- Keynote speechs
+>
+>- Round Table
+>
+>- Exposition "20 anniversary of the International Symposiums on Social
+>Communication, 1987-2007"
+>
+>- Books presentation
+>
+>- Cultural activities
+>
+>PRE-SYMPOSIUM SEMINARS
+>
+>The Symposium will be preceded by two seminars that will be taught by
+>prestigious specialists. The seminars will take place Monday, January
+>22th, 2007.
+>
+>The pre-symposium seminars are the following:
+>
+>"Dictionary and Ideology (sexism, racism and catholic moral in the
+>academic dictionary)" Prof. Dr. Esther Forgas Berdet Professor and
+>Researcher University Rovira i Virgili Tarragona, Spain
+>
+>"Application of Computational Linguistics techniques in the Education"
+>Dr. Montse Maritxalar Professor and Researcher IXA Group Basque
+>Country University Spain
+>
+>Participants should say in advance what pre-symposium seminars they
+>want to take part in. An additional fee of 25.00 Cuban Convertible
+>Pesos will be charged for each seminar. Participation certificates
+>will be available.
+>
+>ROUND TABLE
+>
+>A round table will be held on the occasion of the X International
+>Symposium on Social Communication.
+>
+>KEYNOTE SPEECHES
+>
+>During the symposium several keynote speeches will be delivered by:
+>
+>- Prof. Dr. Anton Nijholt
+>  Professor and Researcher
+>  University of Twente
+>  Enschede, The Netherlands
+>
+>- Prof. Dr. Gema Vald=E9s Acosta
+>  Professor and Researcher
+>  Facultad de Humanidades
+>  Universidad Central de Las Villas
+>  Villa Clara, Cuba
+>
+>- Prof. Dr. Ruslan Mitkov
+>  Professor and Researcher
+>  University of Wolverhampton
+>  United Kingdom
+>
+>- Prof. Dr. Yorick Wilks
+>  Professor and Researcher
+>  University of Sheffield
+>  United Kingdom
+>
+>- Prof. Dr. Willy Martin
+>   Professor and Researcher
+>  Free University of Amsterdam
+>  Amsterdam, The Netherlands
+>
+>- Dr. John Tait
+>  Professor and Researcher
+>  University of Sunderland
+>  United Kingdom
+>
+>- Prof. Dr. Manuel Palomar
+>  Professor and Researcher
+>  University of Alicante
+>  Alicante, Spain
+>
+>ABSTRACTS
+>
+>The deadline of submission of paper abstracts is July 1st, 2006. They
+>should not exceed 250 words. Notification of acceptance of a paper by
+>the Symposium's Scientific Committee will be sent before July 30th,
+>2006.
+>
+>PAPERS
+>
+>To enable the Organizing Committee to include the Proceedings as part
+>of the Symposium's documentation -as we did in the 5th ('97), 6th
+>('99), 7th ('01), 8th ('03) and 9th ('05) Symposiums-, accepted papers
+>must be sent before September 15, 2006, with the following
+>requirements:
+>
+>1. The paper will not exceed 5 pages including graphics, footnotes and
+>bibliography.
+>
+>2. It should be written using Word 6.0 or Word 7.0 for Windows and
+>sent to the Symposium's Executive Secretary either via e-mail
+>(attachment) or by mailing a 3=BD-inch diskette.
+>
+>3. Each page must be written in an A4 (mail type) format with left,
+>right, top, and bottom margin of 2.5 cm.
+>
+>4. The paper must be written in one of the event's official languages:
+>Spanish, English, French or Portuguese.
+>
+>Instructions for paper submission:
+>
+>1. Write down the authors' names, one under the other, at the left top
+>of the first page, all in Arial bold capital letters, 9 points (Word
+>6.0 or 7.0). Under the authors' names should appear in bold (only
+>initials capital letters) the institution, city, country and e-mail
+>address if available.
+>
+>2. In a separate line, at the center, the title of the paper must be
+>written in Arial bold, Italics, 10 points size letters.
+>
+>3. The text will follow -not in bold- with the same Arial letter, 9
+>points size and leaving one space between lines.
+>
+>4. Paragraphs will have no indentation.  Spaces between paragraphs
+>will be of 3 points.
+>
+>5. Section titles will be written in Arial bold, 9 points size and
+>sub-sections titles will be written in Arial Italic, 8 points size.
+>
+>6. Footnotes will appear at the end of each page in Arial 8 points
+>size letters.
+>
+>Presentation time will be 15 minutes.
+>
+>Authors must advise in advance if they will need a tape recorder,
+>video set, computer or other kind of equipment for presentation.
+>
+>All mail or inquiries should be addressed to:
+>
+>Eloina Miyares Bermudez
+>Secretaria Ejecutiva del Comite Organizador
+>X Simposio Internacional Comunicacion Social
+>Centro de Linguistica Aplicada
+>Apartado Postal 4067, Vista Alegre
+>Santiago de Cuba 4, Cuba 90400
+>Telephones: 53-22-642760, 53-22-656141
+>E-mail: leonel@lingapli.ciges.inf.cu
+>
+>OFFICIAL LANGUAGES: Spanish, English,
+>French and Portuguese
+>
+>REGISTRATION FEE
+>
+>Speakers  and  Delegates
+>200.00 CUC (Cuban Convertible Pesos)
+>
+>Companions
+>100.00 CUC (Cuban Convertible Pesos)
+>
+>Payment must be in cash during registration and it covers a copy of
+>the Proceedings where your paper is printed, all other documentation
+>related to the event, speaker's certificate, welcome cocktail and
+>other cultural activities. Companions will have access to all of the
+>above, except copies of the Proceedings.
+>
+>ACCOMODATION
+>
+>The Organizing Committee guarantees accommodation in 3, 4, and 5 star
+>hotels with preferential prices for participants in the event.
+>
+>IMPORTANT REMINDERS
+>
+>- Abstract Submission deadline: July 1st, 2006
+>
+>- Notification on paper's approval by Scientific Committee: by July
+>30, 2006
+>
+>- Delivery of papers either by e-mail or by mail using 3=BD-inch
+>diskette: September 15, 2006
+>
+>- Pre-Symposium seminars: January 22nd, 2007
+>
+>- 10th International Symposium on Social Communication: January 23
+>through 26, 2007
+>
+>OTHER ASPECTS OF INTEREST
+>
+>Santiago de Cuba, located at some 900 kms from Havana, is Cuba's
+>second largest city. Its economic, cultural and social importance in
+>Cuban history is unquestionable.  Santiago is also the capital of the
+>province with the same name.  Surrounded by the green mountains of the
+>Sierra Maestra range and the Caribbean Sea, Santiago is unique in its
+>geography and beautiful landscape. Its surroundings make the city one
+>of the most important tourist attractions on the entire island. The
+>Organizing Committee, in coordination with the city's tourist agencies
+>will offer visiting delegates a host of options allowing participants
+>to enjoy the city's beauty and charm.
+>
+>SCIENTIFIC AND ORGANIZING COMMITTEE
+>
+>Pedro Beaton Soler
+>Representative of the Ministry of
+>Science, Technology and the Environment
+>Santiago de Cuba
+>Cuba
+>
+>Eloina Miyares Bermudez
+>Executive Secretary
+>10th International Symposium on Social Communication
+>Centre for Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Vitelio Ruiz Hernandez
+>Emeritus Academic
+>Academy of Science of Cuba
+>Centre for Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Leonel Ruiz Miyares
+>Director of Centre for Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Nancy Cristina Alamo Suarez
+>Researcher
+>Centre for Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Celia Maria Perez Marques
+>Researcher
+>Centre for Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Celia Esther Alvarez Moreno
+>Centre for Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Zaida Valdes
+>Rector University of Oriente
+>Ministry of Higher Education
+>Santiago de Cuba
+>Cuba
+>
+>Ena Elsa Velazquez Cobiella
+>Rector Pedagogical University "Frank Pais"
+>Ministry of Education
+>Santiago de Cuba
+>Cuba
+>
+>Anton Nijholt
+>Professor and Researcher
+>Twente University
+>Enschede, Holland
+>
+>Dieter Fensel
+>Researcher
+>Digital Enterprise Research Institute
+>Leopold-Franzens Universit=E4t, Innsbruck
+>Austria
+>
+>I=F1aki Alegr=EDa Loinaz
+>Professor and Researcher
+>Basque Country University
+>Spain
+>
+>Arantza Diaz de Ilarraza
+>Professor and Researcher
+>Basque Country University
+>Spain
+>
+>Xabier Artola Zubillaga
+>Professor and Researcher
+>Basque Country University
+>Spain
+>
+>Xabier Arregi Iparragirre
+>Professor and Researcher
+>Basque Country University
+>Spain
+>
+>Babis Theodoulidis
+>Middlesex University
+>United Kingdom
+>
+>Gloria Corpas Pastor
+>Professor and Researcher
+>University of Malaga
+>Malaga, Spain
+>
+>Mercedes Cathcart Roca
+>Professor and Researcher
+>Faculty of Humanities
+>University of Oriente
+>Santiago de Cuba, Cuba
+>
+>Martha Cordies Jackson
+>Director and Researcher
+>African Cultural Centre "Fernando Ortiz"
+>Santiago de Cuba, Cuba
+>
+>Ercilia Estrada Estrada
+>Scientific Council
+>Applied Linguistics
+>Santiago de Cuba
+>Cuba
+>
+>Miladys Diodene Adame
+>Ministry of Education
+>Santiago de Cuba
+>Cuba
+>
+>Nicoletta Calzolari
+>Director
+>Institute for Computational Linguistics
+>Pisa, Italy
+>
+>Daniela Ratti
+>Researcher
+>Institute for Computational Linguistics
+>Pisa, Italy
+>
+>Lucia Marconi
+>Researcher
+>Institute for Computational Linguistics
+>Pisa, Italy
+>
+>Federico Albano Leoni
+>Professor and Researcher
+>University of Rome 1
+>Rome, Italia
+>
+>Massimo Pettorino
+>Professor and Researcher
+>Universit=E0 L'Orientale
+>Napoli, Italy
+>
+>*****
+>
+>TENTH INTERNATIONAL SYMPOSIUM ON
+>SOCIAL COMMUNICATION
+>
+>REGISTRATION FORM
+>
+>Mr./Ms. ___________________________
+>
+>Organization: ________________________
+>
+>Title: _________________________________________
+>
+>Business address: __________________________________
+>
+>City: ______________ Telefax: ____________
+>
+>Phone: _______________
+>
+>E-Mail:____________________
+>
+>Home address: _________________________
+>
+>City: ___________ Telephone: __________
+>
+>Paper title: __________________________
+>
+>Date: ________________
+>
+>Signature: ___________
+>
+>--------------------------------------------
+>Dr. Leonel Ruiz Miyares
+>Director
+>Centro de Linguistica Aplicada
+>Calle 8 Nr. 206 entre 7 y 9
+>Vista Alegre. Santiago de Cuba.
+>Cuba. C.P. 90400
+>Telefonos: 53-22-642760, 53-22-656141
+>Correo Electronico: leonel@lingapli.ciges.inf.cu
+>http://www.santiago.cu/hosting/linguistica/sitio-cla/ingles/
+>http://www.santiago.cu/hosting/linguistica/sitio-cla/espanol/
+>
+>
+>------------------------------------------------------------------------ -
+>Message diffuse par la liste Langage Naturel <LN@cines.fr>
+>Informations, abonnement :  http://www.atala.org/article.php3?id_article=
+=3D48
+>English version       :
+>Archives                 :  http://listserv.linguistlist.org/archives/ln.h=
+tml
+>                                http://liste.cines.fr/info/ln
+>
+>La liste LN est parrainee par l'ATALA (Association pour le Traitement
+>Automatique des Langues)
+>Information et adhesion  : http://www.atala.org/
+>------------------------------------------------------------------------ -
+
+
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20
+Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+=20
+
+

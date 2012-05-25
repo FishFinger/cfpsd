@@ -1,0 +1,1032 @@
+From - Thu Dec 10 14:27:05 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs717387waa;
+        Tue, 22 May 2007 15:25:49 -0700 (PDT)
+Received: by 10.64.250.7 with SMTP id x7mr957043qbh.1179872749369;
+        Tue, 22 May 2007 15:25:49 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 16si49713nzo.2007.05.22.15.25.47;
+        Tue, 22 May 2007 15:25:49 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4MMPkU9027932
+	for <jpprost@gmail.com>; Wed, 23 May 2007 08:25:46 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l4MMPkgJ006637
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 23 May 2007 08:25:46 +1000 (EST)
+X-ASG-Debug-ID: 1179872740-5b73000d0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1179872740
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP
+	id B8AF1D0000AE; Wed, 23 May 2007 08:25:40 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4MMPdJY027915;
+	Wed, 23 May 2007 08:25:40 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	l4MMPZFA027906; Wed, 23 May 2007 08:25:35 +1000 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	l4MAfG0g007847 for <comp-it-announce@ics.mq.edu.au>;
+	Tue, 22 May 2007 20:41:16 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id l4MAfDO09187
+	for <comp-it-announce@ics.mq.edu.au>;
+	Tue, 22 May 2007 20:41:13 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Tue, 22 May 2007 20:38:22 +1000
+Received: by staff.cs.usyd.edu.au with postie; Tue, 22 May 2007 20:17:07 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Tue, 22 May 2007 20:16:49 +1000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id l4MAGnNA032316
+	for <itannounce@it.usyd.edu.au>; Tue, 22 May 2007 20:16:49 +1000
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id l4MAGn37032314
+	for itannounce@it.usyd.edu.au; Tue, 22 May 2007 20:16:49 +1000
+Date: Tue, 22 May 2007 20:16:49 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20070522101649.GA32277@flexal3.cs.usyd.edu.au>
+Mime-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: * -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	* -100 USER_IN_WHITELIST From: address is in the user's white-list
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=-99.2, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Tue, 22 May 2007 20:36:52 +1000
+From: itannounce@sun1.cs.usyd.edu.au
+X-BeenThere: itannounce@pop.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Mailman-Approved-At: Wed, 23 May 2007 08:25:33 +1000
+X-BeenThere: comp@ics.mq.edu.au
+X-ASG-Orig-Subj: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2 May
+	2007
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2 May
+	2007
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 2.44
+X-Barracuda-Spam-Status: No, SCORE=2.44 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=DEAR_SOMETHING, MAILTO_TO_SPAM_ADDR, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.17728
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 NO_REAL_NAME           From: does not include a real name
+	1.61 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+	0.28 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 2 for May, 2007. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  CFP: The 13th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC'07)
+  MilCIS Conference-November 2007
+  Second call for papers: DG/SUM 2007, an international workshop on distributed and mobile spatial computing
+  CFP VSMM'07 Brisbane 23 - 26 September
+  CFP: Australasian Computing Education Conference 2008
+  Call For Papers: The Second International Conference on Knowledge, Science, Engineering and Management (KSEM'2007)
+
+International Conference Announcements
+
+  CFP DDDM'07 - 2007 ACM SIGKDD Workshop on Domain Driven Data Mining
+  Call For Participation - SEKE2007
+  DAIS 2007 - Call for Participation
+  2nd CFP: PDCAT'07 (The Eight International Conference on Parallel and Distributed Computing, Applications and Technologies)
+  2nd CFP: WISE 2007 (The 8th International Conference on Web Information Systems Engineering)
+  Call for Papers - ICSOC 2007 Vienna, Austria September 17-20, 2007
+  CFP: Workshop on Web Personalization and Recommender Systems In conjunction with WI'07
+  ICFI 2007 -- Call for papers
+  International Conference on Modelling, Identification and Control, June 29-Jule 2, 2008 Shanghai China 
+  CFP: IEEE SenseApp 2007 (Deadline Approaching - 14th May)
+  First Call for Paper - MMM2008 
+  CFP: Workshop on Web Personalization and Recommender Systems In conjunction with WI'07
+  CFP: IEEE HASE 2007
+  PRIMA 2007 CPF
+  WI-IAT 2007 Workshop Announcement
+  2nd CFP: WI 2007
+  2nd CFP: IAT-2007
+  CFP: VORTE 2007 
+
+Academic Positions
+
+  Research Fellow (in Grid Computing) opportunity opening at Melbourne University
+  Research Programmer - RMIT Intelligent agents research group
+  Junior Research Programmer - RMIT Intelligent agents research group
+  Positions/Sabbaticals in Seoul National University
+  C/C++ Software Engineer: Lexxe Search Engine
+  Computational Linguist: Lexxe Search Engine
+  Intern Programmer: Lexxe Search Engine
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  CFP: The 13th IEEE Pacific Rim International Symposium on Dependable Computing (PRDC'07)
+  mick@deakin.edu.au
+
+========================================================================
+
+The 13th IEEE Pacific Rim International
+Symposium on Dependable Computing (PRDC'07) December 17-19, 2007 Melbourne, Victoria,
+AUSTRALIA
+
+http://www.deakin.edu.au/conferences/prdc2007
+
+--CALL FOR PAPERS--
+
+PRDC 2007 is the thirteenth in this series of symposia started in 1989 that are devoted
+to dependable and fault tolerant computing. PRDC is now recognized as the main regular
+event of the Pacific area that is covering the many dimensions of dependability and
+fault tolerance, encompassing fundamental theoretical approaches, practical experimental
+projects, and commercial components and systems. As applications of computing systems
+have permeated in every aspects of daily life, the dependability of computing system
+has become increasingly critical.
+This symposium provides a forum for countries around the Pacific Rim and other areas
+of the world to exchange ideas for improving the dependability of computing systems.
+
+This symposia will be returning to Melbourne, Australia in 2007, after hosting ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt0
+
+======================================================================
+
+  MilCIS Conference-November 2007
+  michael.frater@milcis.com.au
+
+Military communications and information systems have become increasingly important in
+recent years as networks and the network dimension become essential to military concepts
+such as information operations, information warfare, and network centric warfare. As
+modern defence forces become more network enabled and the pace of technological
+innovation quickens, it is increasingly difficult to maintain currency with the vast
+array of technologies associated with information-age warfare.
+
+MilCIS is an annual conference aimed at attendees from military and government
+organisations, academia, and defence industry, who contribute to key decisions in
+investments in communications and information systems.
+
+Papers are sought for oral presentation on all aspects of military communications and
+information systems, especially those focusing on the Conference themes. All papers
+will be refereed (on the full paper.) Authors will be advised in writing of acceptance
+or non acceptance of their paper.
+
+MilCIS2007 will address:
+
+* Operational concepts
+* Information management
+* Command support systems ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt1
+
+======================================================================
+
+  Second call for papers: DG/SUM 2007, an international workshop on distributed and mobile spatial computing
+  plaube@unimelb.edu.au
+
+*** Sorry for cross-posting. Feel free to redistribute. ***
+
+------------------------------------------------------------------------------
+SECOND CALL FOR PAPERS | dg/sum'07
+
+ISSNIP/ISPRS joint international workshop on distributed geoinformatics and sensing, ubiquity, and mobility.
+September 19, 2007
+Melbourne, Australia
+
+Held in conjunction with COSIT 2007, the International Conference on Spatial Information Theory in Melbourne, Australia, September 19-23, 2007.
+------------------------------------------------------------------------------
+
+
+Theme
+
+Recent technological advances have led to an abundance of sensor, image, and streaming
+information. The ubiquitous availability of mobile processing devices, wireless sensor networks,
+and RFID tags in tandem with novel distributed computing architectures will enable a new range
+of applications. Most of the information generated by these distributed systems and applications
+is spatially referenced. Managing, processing, and using this geospatial information presents
+significant new research challenges in distributed information systems, including: ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt2
+
+======================================================================
+
+  CFP VSMM'07 Brisbane 23 - 26 September
+  twyeld@gmail.com
+
+Call for Papers
+
+13th International Conference on Virtual Systems and Multimedia (VSMM"07).
+
+Brisbane, Australia from 23 - 26 September.
+
+http://australia.vsmm.org/
+
+aus_reviewers@vsmm.org
+
+Multimedia and Virtual Environment technologies are increasingly appearing in an array of
+applications that foster deeper understandings of the environments around us. In the spirit
+of international exchange, cooperation and development, the focus of VSMM in 2007 will be on
+the application of these technologies in "Bridging Space and Place through digital exchange
+and experience".
+
+We seek long and short papers and posters reporting on Theoretical, Practical, and Applied
+research in the diverse fields of Virtual Heritage, Virtual Environments and their Applied
+technological systems.
+
+In addition to traditional conference paper and workshop proposals(?), VSMM07 encourages ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt3
+
+======================================================================
+
+  CFP: Australasian Computing Education Conference 2008
+  ace2008@newcastle.edu.au
+
+Tenth Australasian Computing Education Conference
+Wollongong, Australia, as part of Australasian Computer Science Week
+Tuesday 22 January - Friday 25 January 2008
+
+The Call for Papers for ACE2008 has now been released. The paper
+deadline is likely to be August 26.  For details, see:
+http://www.newcastle.edu.au/conference/ace2008
+
+Simon, Margaret Hamilton
+ACE2008 co-chairs
+
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt4
+
+======================================================================
+
+  Call For Papers: The Second International Conference on Knowledge, Science, Engineering and Management (KSEM'2007)
+  dongmo@scm.uws.edu.au
+
+Call For Papers
+
+The Second International Conference on Knowledge Science, Engineering
+and Management (KSEM'2007)
+
+28-30 November, 2007
+
+Melbourne, Australia
+
+http://www.deakin.edu.au/scitech/eit/ksem07/
+
+KSEM'2007 is the second in this series, which builds on the success of
+the first international conference on knowledge science, engineering and
+management (KSEM'2006) in Guilin, China. The aim of this
+interdisciplinary conference is to provide a forum for researchers in
+the broad areas of knowledge science, knowledge engineering, and
+knowledge management to exchange ideas and to report state of the art
+research results. You are invited to submit papers that are original and
+not yet published. Papers on the synergism of knowledge science,
+knowledge engineering and knowledge management are especially welcomed.
+The topics of interest include but are not limited to: ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt5
+
+======================================================================
+
+
+International Conference Announcements
+
+  CFP DDDM'07 - 2007 ACM SIGKDD Workshop on Domain Driven Data Mining
+  lbcao@it.uts.edu.au
+
+********************************************************************************
+
+Call for Papers
+2007 ACM SIGKDD Workshop on Domain Driven Data Mining (DDDM 2007)
+San Jose, California, USA, 12th August 2007
+
+In conjunction with ACM SIGKDD International Conference on
+Knowledge Discovery and Data Mining (KDD'07)
+
+URL: http://datamining.it.uts.edu.au/dddm/
+
+********************************************************************************
+
+
+The "2007 ACM SIGKDD Workshop on Domain Driven Data Mining (DDDM2007)" aims
+to provide a premier forum for sharing findings, knowledge, insight, experience
+and lessons in tackling potential challenges in discovering actionable knowledge
+from complex domain problems, promoting interaction and filling the gap between
+academia and business, and driving a paradigm shift from interesting hidden
+pattern mining to actionable knowledge discovery in varying data mining domains.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  Call For Participation - SEKE2007
+  Michael.Shin@ttu.edu
+
+CALL FOR PARTICIPATION
+
+19th International Conference on
+Software Engineering and Knowledge Engineering (SEKE'07)
+http://www.ksi.edu/seke/seke07.html
+
+Important Dates:
+
+* Early Registration Deadline: May 1, 2007
+
+
+Hyatt Harborside at Logan International Airport, Boston, USA
+July 9 - July 11, 2007
+
+Organized by Knowledge Systems Institute
+
+The Nineteenth International Conference on Software Engineering and
+Knowledge Engineering (SEKE'07) will be held in Hyatt Harborside
+at Boston's Logan Int'l Airport, Boston, USA, July 9-11, 2007.
+The hotel's website is at: http://harborside.hyatt.com/hyatt/hotels/index.jsp
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  DAIS 2007 - Call for Participation
+  ricky.robinson@nicta.com.au
+
+
+---------------------------------------------------------------------
+Call for Participation
+
+DAIS 2007
+
+7th IFIP International Conference on
+Distributed Applications and Interoperable Systems
+
+"Towards Sustainability"
+
+Paphos, Cyprus 6 - 8 June 2007
+
+---------------------------------------------------------------------
+Early Registration Deadline: May 5, 2007
+---------------------------------------------------------------------
+http://www.discotec07.cs.ucy.ac.cy/
+---------------------------------------------------------------------
+
+
+The 7th IFIP International Conference on Distributed Applications ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  2nd CFP: PDCAT'07 (The Eight International Conference on Parallel and Distributed Computing, Applications and Technologies)
+  qsheng@cs.adelaide.edu.au
+
+PDCAT'07 Call for Papers (3-6 December 2007, Adelaide, Australia)
+=================================================================
+
+The Eight International Conference on Parallel and Distributed Computing, Applications
+and Technologies (PDCAT'07)
+December 3-6, 2007, Adelaide, South Australia
+Co-sponsored by IEEE
+http://www.cs.adelaide.edu.au/pdcat07
+
+
+CALL FOR PAPERS
+
+The International Conference on Parallel and Distributed Computing, Applications and
+Technologies (PDCAT) is a major forum for scientists, engineers, and practitioners
+throughout the world to present the latest research, results, ideas, developments and
+applications in all areas of parallel and distributed computing.
+
+Following PDCAT'00 in Hong Kong, PDCAT'01 in Taipei, PDCAT'02 in Kanazawa, Japan,
+PDCAT'03 in Chengdu, China, PDCAT'04 in Singapore, PDCAT'05 in Dalian, China and
+PDCAT'06 in Taipei, Taiwan; PDCAT'07 will be held for the first time in Australia in
+the city of Adelaide in South Australia. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  2nd CFP: WISE 2007 (The 8th International Conference on Web Information Systems Engineering)
+  qsheng@cs.adelaide.edu.au
+
+*** CALL FOR RESEARCH AND INDUSTRY PAPERS, WORKSHOPS, AND TUTORIALS ***
+
+WISE 2007
+The 8th International Conference on Web Information Systems Engineering
+December 3-7, 2007
+Nancy, France
+http://wise2007.loria.fr/
+
+
+The aim of this conference is to provide an international forum for researchers,
+professionals, and industrial practitioners to share their knowledge in the rapidly
+growing area of Web technologies, methodologies and applications. Previous WISE
+conferences were held in Hong Kong, China (2000), Kyoto, Japan (2001), Singapore
+(2002), Roma, Italy (2003), Brisbane, Australia (2004), New York, USA (2005), and
+Wuhan, China (2006).
+
+
+
+===RESEARCH AND INDUSTRY TRACKS===
+There will be two independent tracks for Research and Industrial papers, each
+managed by a different program committee and with a different set of evaluation ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  Call for Papers - ICSOC 2007 Vienna, Austria September 17-20, 2007
+  jiri@it.uts.edu.au
+
+Fifth International Conference on Service Oriented Computing (ICSOC 2007) Vienna,
+Austria September 17-20, 2007
+http://www.icsoc.org
+
+ICSOC 2007 seeks original papers in the field of service oriented computing, from
+theoretical and foundational results to empirical evaluations as well as practical
+and industrial experiences, with the emphasis on results that contribute to solve
+the many still open research problems that are of significant impact to the field
+of service oriented applications. ICSOC 2007 also solicits proposals for workshops,
+tutorials and panels. Please see the website for more details.
+
+Topics include, but are not limited to: service description, discovery and composition,
+service deployment, platform configuration and capacity planning, monitoring, service
+middleware, service-oriented architectures, service management, information as a
+service, service development and maintenance, novel business models for SOAs, economical
+implications of Web Services and SOAs, service science, mobile and peer-to-peer services,
+data services, quality of service, exception handling, service reliability and security.
+
+The proceedings of ICSOC 2007 will be published by Springer Verlag as a part of its
+Lecture Notes in Computer Science series.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+  CFP: Workshop on Web Personalization and Recommender Systems In conjunction with WI'07
+  yue.xu@qut.edu.au
+
+CALL FOR PAPER
+Workshop on Web Personalization and Recommender Systems (WPRS07)
+in conjunction with the 2007 IEEE/WIC/ACM International Conference on Web Intelligence
+(WI'07) and Agent Technology (IAT'07)
+November 2-5, 2007, Silicon Valley, USA
+
+Workshop Theme
+In recent years, interest in recommender systems has dramatically increased, driven
+by demand for Internet personalization applications. Many major e-commerce web sites
+are currently using recommender systems to provide advice to users about products or
+services and help users find the information of their interests quickly. Web-based
+recommender systems are the most notable application of the web personalization. With
+today's increasing information overload problem on the Web, the area of recommender
+systems research becomes more challenging than ever before. There remain difficulties
+limiting the full exploitation of ersonalization and recommendation, arising both
+from technology and from the "human factor." The goal of this workshop is to bring
+together academic and industrial researchers to exchange ideas about past, present
+and future trends in Web personalization and recommender systems and discuss the most
+innovative approaches to personalization and recommendation making. The themes will
+be in algorithms, applications and interfaces.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt6
+
+======================================================================
+
+  ICFI 2007 -- Call for papers
+  m.dumas@qut.edu.au
+
+9th International Conference on Feature Interactions in Software and Communication
+Systems (ICFI)
+
+September 3 - 5, 2007
+Grenoble, France
+
+http://lig.imag.fr/ICFI2007
+
+The International Conference on Feature Interactions in Software and
+Communication Systems (ICFI) has evolved out of the Feature Interaction Workshop,
+and is now concerned in all types of software systems. It has been the	leading forum
+for researchers, practitioners, and educators in the field, and the most  dedicated
+place for discussion and reporting on research in the feature interaction problem in
+telecommunications and software systems since 1992. The forum includes invited speakers,
+presentation of research papers, short presentations, posters and tool demonstrations.
+
+Feature interaction occurs when one feature modifies or subverts the operation of another
+one. This phenomenon can occur in any software system that is subject to changes; it is
+becoming a major issue in software product lines. We focus the conference on the topics
+listed below. Contributions extending beyond this list and addressing other issues
+related to the interaction problem (e.g. classification, taxonomy or benchmarking) ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt7
+
+======================================================================
+
+  International Conference on Modelling, Identification and Control, June 29-Jule 2, 2008 Shanghai China 
+  r.wang@massey.ac.nz
+
+CALL FOR PAPERS
+
+The 2008 International Conference on Modelling, Identification and
+Control (ICMIC 2008) is sponsored by International Journal of Modelling, Identification and Control
+(IJMIC). It provides an international forum for professionals, academics, and researchers to
+present latest developments from interdisciplinary theoretical studies, computational algorithm
+development and applications. It particularly welcomes those emerging methodologies and techniques
+that bridge theoretical studies  and applications in all engineering and science branches. Novel
+quantitative social, economical/financial studies may be considered as well. The 2008 ICMIC is
+organized by Shanghai Jiao Tong University and will be held in Shanghai, 'the Oriental pearl'
+of China.
+
+Papers are solicited on all aspects of research, development, and application of modelling, identification and control, including but not limited to:
+; Static and dynamic systems modelling
+; Novel and unconventional linear system modelling techniques
+; Nonlinear and linear system identification
+; Model calibration and validation
+; Control and optimization techniques
+; Neural networks, fuzzy logic, and other heuristic techniques
+; Robotics
+; Software development, benchmarking tests, and applications ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt8
+
+======================================================================
+
+  CFP: IEEE SenseApp 2007 (Deadline Approaching - 14th May)
+  salilk@cse.unsw.edu.au
+
+Apologies for any duplicates.
+
+__________________________________________________________________________________
+
+SENSEAPP 2007
+SECOND IEEE INTERNATIONAL WORKSHOP ON PRACTICAL ISSUES IN
+BUILDING SENSOR NETWORK APPLICATIONS
+(in conjunction with IEEE LCN 2007)
+Dublin, Ireland
+15 - 18 October 2007
+Web: http://www.cse.unsw.edu.au/~senseapp
+
+
+CALL FOR PAPERS
+
+Submission Deadline Extended to 14th May, 2007.
+
+Sensor nodes are tiny autonomous devices that combine sensing, computing and wireless communication
+capabilities. These nodes are deeply embedded into the physical surroundings, and gather and
+process information such as temperature, humidity, light characteristics, seismic activities or
+images and sound samples from the physical world. Networked systems of such sensors are expected ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt9
+
+======================================================================
+
+  First Call for Paper - MMM2008 
+  phoebe@deakin.edu.au
+
+First Call for Papers
+----------------------------------------------------------------
+The 14th International MultiMedia Modeling Conference (MMM2008)
+http://research.nii.ac.jp/mmm2008/
+January 9-11 2008, Kyoto University, Kyoto, Japan
+Supported by IEEE, ACM SIGMM, IEICE, and ITE
+-----
+Important Dates
+---------------
+Paper Submission: July 6, 2007 (23:59 Japan Standard Time (GMT+9))
+Notification of Acceptance: September 10, 2007
+Camera-ready Papers: October 5, 2007
+Author Registration: October 5, 2007
+----------------------------------------------------------
+
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt10
+
+======================================================================
+
+  CFP: Workshop on Web Personalization and Recommender Systems In conjunction with WI'07
+  yue.xu@qut.edu.au
+
+CALL FOR PAPER
+Workshop on Web Personalization and Recommender Systems (WPRS07) in conjunction with the 2007 IEEE/WIC/ACM International Conference on Web Intelligence
+(WI'07) and Agent Technology (IAT'07)
+November 2-5, 2007, Silicon Valley, USA
+
+http://www.wprs07.fit.qut.edu.au/
+
+Workshop Theme
+In recent years, interest in recommender systems has dramatically increased, driven by demand
+for Internet personalization applications. Many major e-commerce web sites are currently
+using recommender systems to provide advice to users about products or services and help users
+find the information of their interests quickly. Web-based recommender systems are the most
+notable application of the web personalization. With today's increasing information overload
+problem on the Web, the area of recommender systems research becomes more challenging than
+ever before. There remain difficulties limiting the full exploitation of ersonalization and
+recommendation, arising both from technology and from the "human factor." The goal of this
+workshop is to bring together academic and industrial researchers to exchange ideas about past,
+present and future trends in Web personalization and recommender systems and discuss the most
+innovative approaches to personalization and recommendation making. The themes will be in
+algorithms, applications and interfaces.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt11
+
+======================================================================
+
+  CFP: IEEE HASE 2007
+  jdong@utdallas.edu
+
+THE 10TH IEEE INTERNATIONAL SYMPOSIUM ON HIGH ASSURANCE SYSTEMS ENGINEERING
+
+(HASE 2007)
+
+November 14-16, 2007, Dallas, Texas
+
+http://hase07.utdallas.edu/
+
+
+The IEEE International Symposium on High Assurance Systems Engineering is a forum for discussion
+of systems and software engineering issues to achieve high assurance systems. The focus is on
+integrated approaches for assuring reliability, availability, integrity, privacy, confidentiality,
+safety, and real-time of complex systems and the methods for assessing the assurance levels
+of the systems to a high degree of confidence. Technical and experience papers on algorithms,
+policies, middleware, tools, and models for high assurance systems development, verification
+and validation, and assessment are welcome.
+
+Topics of interests for the symposium include, but are not limited to:
+* Design and development of highly reliable, survivable, secure, safe, and time-assured systems
+* Integrated system reliability, availability, security, safety, and timing analysis and evaluation methods
+* Policies for reliability, safety, security, integrity, privacy, and confidentiality of high assurance systems ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt12
+
+======================================================================
+
+  PRIMA 2007 CPF
+  chattrakul.s@msu.ac.th
+
+===========================================================
+Call for Paper: PRIMA 2007
+
+The 10th Pacific Rim International Workshop on Multi-Agents
+
+November 21-23, 2007
+Bangkok, Thailand
+
+Website: http://www.prima2007.org
+Contact: info.prima2007@gmail.com
+
+===========================================================
+PUBLICATION
+===========================================================
+PRIMA 2007 workshop proceeding will be published in the
+Springer Lecture Notes in AI series.
+
+===========================================================
+IMPORTANT DATES:
+===========================================================
+Papers due: July 16, 2007 ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt13
+
+======================================================================
+
+  WI-IAT 2007 Workshop Announcement
+  wiiat@kis-lab.com
+
+[Apologies if you receive this more than once]
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2007 IEEE/WIC/ACM International Conference on
+Web Intelligence and Intelligent Agent Technology (WI-IAT 2007)
+Accepted Workshop List
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Silicon Valley, USA, November 2-5, 2007
+Official: http://www.cs.sjsu.edu/wi07/wi/
+Mirror:   http://www.maebashi-it.org/wi07/wi/
+
+As an important part of the conference, the workshop program will
+focus on new research challenges and initiatives.  All papers accepted
+for workshops will be included in the Workshop Proceedings published
+by the IEEE Computer Society Press that are indexed by EI, and will be
+available at the workshops. Detailed information is available at the
+conference homepage.
+
+Note: we will not have a separate workshop registration fee
+(i.e., conference registration covers everything). ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt14
+
+======================================================================
+
+  2nd CFP: WI 2007
+  wiiat@kis-lab.com
+
+[Apologies if you receive this more than once]
+
+#####################################################################
+IEEE/WIC/ACM WEB INTELLIGENCE 2007
+CALL FOR PAPERS
+#####################################################################
+
+2007 IEEE/WIC/ACM International Conference on
+Web Intelligence (WI'07)
+
+Silicon Valley, USA, November 2-5, 2007
+Official: http://www.cs.sjsu.edu/wi07/wi/
+Mirror:   http://www.maebashi-it.org/wi07/wi/
+(to be collocated with IAT'07, BIBM'07 and GrC'07)
+
+Sponsored By
+IEEE Computer Society
+Web Intelligence Consortium (WIC)
+Association for Computing Machinery (ACM)
+
+###################################################################### ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt15
+
+======================================================================
+
+  2nd CFP: IAT-2007
+  wiiat@kis-lab.com
+
+[Apologies if you receive this more than once]
+
+#####################################################################
+IEEE/WIC/ACM Intelligent Agent Technology 2007
+CALL FOR PAPERS
+#####################################################################
+
+2007 IEEE/WIC/ACM International Conference on
+Intelligent Agent Technology (IAT'07)
+
+Silicon Valley, USA, November 2-5, 2007
+Official: http://www.cs.sjsu.edu/wi07/iat/
+Mirror:   http://www.maebashi-it.org/wi07/iat/
+(to be collocated with WI'07, BIBM'07 and GrC'07)
+
+Sponsored By
+IEEE Computer Society
+Web Intelligence Consortium (WIC)
+Association for Computing Machinery (ACM)
+
+##################################################################### ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt16
+
+======================================================================
+
+  CFP: VORTE 2007 
+  j.b.dietrich@massey.ac.nz
+
+The 3rd International Workshop on
+VOCABULARIES, ONTOLOGIES AND RULES FOR THE ENTERPRISE (VORTE 2007)
+
+http://oxygen.informatik.tu-cottbus.de/VORTE/
+
+In conjunction with the 11th IEEE International EDOC Conference (EDOC 2007) "The Enterprise Computing Conference"
+http://edoc.mitre.org/
+
+15-19 October 2007, Annapolis, Maryland, USA
+
+Selected papers accepted to the workshop to be invited for a special issue in Elsevier's ISI-indexed Information Systems journal http://www.elsevier.com/locate/infosys/
+
+WORKSHOP OVERVIEW
+
+Vocabularies, ontologies, and business rules are key components of a model-driven approach to
+enterprise computing in a networked economy.
+VORTE 2007 is the third workshop associated with an EDOC conference that intends to bring
+together researchers and practitioners in areas such as philosophical ontology, enterprise
+modelling, information systems, Semantic Web, Model-Driven Architecture (MDA), business rules,
+and business processes. The goal of the workshop is to discuss the role that foundational and
+domain ontologies play in the conceptual development and implementation of next generation ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt17
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  Research Fellow (in Grid Computing) opportunity opening at Melbourne University
+  raj@csse.unimelb.edu.au
+
+Dear Colleague:
+
+The University of Melbourne has an opening for a Research Fellow at
+PostDoc Level in the area of Grid Computing to work on a DEST funded
+International Science Linkage Project. A summary of project is enclosed
+below.
+
+Details on how to apply for this position can be found at:
+http://jobs.unimelb.edu.au/jobDetails.asp?sJobIDs=307232
+Due to funding body's condition, the candidate has be an Australian
+citizen or Permanent resident visa holder. Currently the position is
+advertised as 1 year position, but it has potential to be extensible
+upto 2.5 years.
+
+----------------------------------------------------------------------
+International Science Linkage Project: funded by Australian Department
+of Science, Education and Training
+
+Project Title:
+The Utility Grid Project: Autonomic and Utility-Oriented Global Grids
+for Powering Emerging e-Research Applications. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  Research Programmer - RMIT Intelligent agents research group
+  johthan@cs.rmit.edu.au
+
+Research Programmer (Full Time) - Closing Date : 09/05/2007
+
+RMIT has a large computer science department with a strong group working in the area of
+Intelligent Agents (www.cs.rmit.edu.au/agents). Melbourne is the hub of a significant
+amount of research and development in Intelligent Agents and their applications, and
+is the home of "Agents Victoria" a group of industry, government and university groups,
+involved in agent research and applications.
+
+We have a variety of funded projects and a strong team of academics, postdocs,
+research programmers and research students. We are currently seeking a new pprogrammer
+to provide programming support for various research projects. In particular the main
+task would be to maintain and extend the development of a Java based Agent design tool
+(www.cs.rmit.edu.au/agents/pdt).
+
+The applicant should have excellent programming skills in Java, with a Bachelors degree
+in Computer Science, or cognate discipline, and some demonstrated industrial experience
+in Java applications development.
+
+Interested applicants please contact John Thangarajah (johthan@cs.rmit.edu.au) sending
+your CV and cover letter. (As some of our grants will only allow us to employ Australian
+permanent residents or citizens, please also provide your Australian residency status.) ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
+
+  Junior Research Programmer - RMIT Intelligent agents research group
+  johthan@cs.rmit.edu.au
+
+Junior Research Programmer (Part Time 20hrs/week) -
+Closing Date : 09/05/2007
+
+RMIT has a large computer science department with a strong group working in the area of
+Intelligent Agents (www.cs.rmit.edu.au/agents). Melbourne is the hub of a significant
+amount of research and development in Intelligent Agents and their applications, and
+is the home of "Agents Victoria" a group of industry, government and university groups,
+involved in agent research and applications.
+
+We have a variety of funded projects and a strong team of academics, postdocs, research
+programmers and research students.
+
+This position would suit a student looking to gain work experience and one that has
+interest in the area of Artificial Intelligence and research.  The new position would
+be expected to provide programming support for various research projects in particular
+to support a research project in agents and learning.
+
+The applicant should have very good programming skills in Java, good communication
+skills and the ability to work within a team.
+
+Interested applicants please contact Andy Song (asong@cs.rmit.edu.au) sending your CV ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt2
+
+======================================================================
+
+  Positions/Sabbaticals in Seoul National University
+  rimsnucse@gmail.com
+
+The school of computer science and engineering of Seoul National University (SNU),
+the best research-oriented university in Korea, is recruiting foreign (i.e., Non-Korean)
+Visiting Professors in all the fields of computer science and engineering.
+
+
+** Visiting Professors: Applicants should have PhD degrees in Computer Science and
+Engineering and other related fields. They can freely perform their research in a well
+organized research environment. The commitment is to teach 2 courses in English per
+semester. Contracts from can be from 2 to 4 years.  Once approved, the Korean
+government will provide up to $US60,000 annual salary.
+
+This is also a great opportunity for professors  who are seeking for places for sabbatical year.
+
+Interested applicants are welcome to send their CVs to Prof. Chang-Gun Lee (cglee@snu.ac.kr) by May 10, 2007.
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt3
+
+======================================================================
+
+  C/C++ Software Engineer: Lexxe Search Engine
+  hong.qiao@lexxe.com
+
+All applicants must have work permit to work in Australia.
+
+--------------------------------------------------------------------------------
+
+Software Engineer [Job ID: 0702]
+
+Essential:
+
+BSc in Computer Science or equivalent (MSc and PhD a plus).
+Several years of software development experience.
+Experience with Unix/Linux, C/C++ development, distributed systems, machine learning,
+information retrieval, network programming and/or developing large software systems a plus.
+Unix system and scripting language (Shell, Perl, Javascript, Python)
+Enthusiasm for solving interesting problems.
+
+
+Desirable:
+
+Knowledge of search engine technology.
+Knowledge of HTML specification.
+Knowledge of Natural Language Processing and statistics. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt4
+
+======================================================================
+
+  Computational Linguist: Lexxe Search Engine
+  hong.qiao@lexxe.com
+
+All applicants must have work permit to work in Australia.
+
+--------------------------------------------------------------------------------
+
+Computational Linguist [Job ID: 0703]
+
+Essential:
+
+BSc/BA degree in Lingustics, Computational Linguistics or Computer Science or equivalent (MSc/MA and PhD a plus).
+Solid knowledge in linguistics.
+Several years of work experience in computational linguistics.
+Experience in corpus linguistics, computational lexicography, machine learning, information retrieval,
+particularly in software development environment
+Knowledge of foreign languages.
+Unix system and scripting language (Shell, Perl, Javascript, Python)
+Enthusiasm for solving interesting problems.
+
+
+Desirable:
+
+Knowledge of search engine technology. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt5
+
+======================================================================
+
+  Intern Programmer: Lexxe Search Engine
+  hong.qiao@lexxe.com
+
+All applicants must have work permit to work in Australia.
+
+--------------------------------------------------------------------------------
+
+Intern Programmer [Job ID: 0704]
+
+Essential:
+
+BSc in Computer Science or equivalent.
+Knowledge of Unix/Linux, C/C++.
+Knowledge of HTML specification.
+Unix system and scripting language (Shell, Perl, Javascript, Python)
+Knowledge of a foreign language.
+Enthusiasm for solving interesting problems.
+
+
+Desirable:
+
+Knowledge of machine learning, information retrieval, network programming.
+Knowledge of search engine technology.
+Team player and also independent problem solving ability. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt6
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

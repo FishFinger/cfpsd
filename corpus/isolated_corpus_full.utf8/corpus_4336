@@ -1,0 +1,802 @@
+From - Thu Dec 10 14:35:08 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs192417far;
+        Mon, 2 Feb 2009 13:38:04 -0800 (PST)
+Received: by 10.210.105.2 with SMTP id d2mr5343104ebc.67.1233610684470;
+        Mon, 02 Feb 2009 13:38:04 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 7si5066232ewy.52.2009.02.02.13.37.30;
+        Mon, 02 Feb 2009 13:38:04 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B03BF2006C; Mon,  2 Feb 2009 22:37:14 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.1 required=5.0 tests=BAYES_00,HEAD_LONG
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id A39D41FF6D;
+	Mon,  2 Feb 2009 22:37:09 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 633E13D24;
+	Mon,  2 Feb 2009 22:37:09 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 125tsRPbObgP; Mon,  2 Feb 2009 22:37:06 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0761F3D2A;
+	Mon,  2 Feb 2009 22:37:00 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 99ACC3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  2 Feb 2009 16:02:03 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0aeBoerUyTca for <elsnet-list@mailman.elsnet.org>;
+	Mon,  2 Feb 2009 16:02:02 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5C6BD3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  2 Feb 2009 16:02:02 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id ADF031FFA5; Mon,  2 Feb 2009 16:02:01 +0100 (MET)
+Received: from mail.unipd.it (mail.unipd.it [147.162.10.68])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 25FC81FF40;
+	Mon,  2 Feb 2009 16:01:53 +0100 (MET)
+Received: from kletz.unipd.it (kletz.unipd.it [147.162.10.11])
+	by mail.unipd.it (Postfix) with ESMTP id 002643F9159;
+	Mon,  2 Feb 2009 16:01:51 +0100 (CET)
+Received: from kletz.unipd.it (localhost [127.0.0.1])
+	by localhost.unipd.it (Postfix) with SMTP id BEA67413405;
+	Mon,  2 Feb 2009 16:01:49 +0100 (CET)
+Received: from Morpheus (unknown [147.162.40.2])
+	by kletz.unipd.it (Postfix) with ESMTP id 98E05413404;
+	Mon,  2 Feb 2009 16:01:35 +0100 (CET)
+From: "Alessandro Oltramari" <oltramari@loa-cnr.it>
+To: <a.betti@aws.fmag.unict.it>, <a.hunter@cs.ucl.ac.uk>,
+	<a.jung@cs.bham.ac.uk>, <a.setzer@dcs.shef.ac.uk>,
+	<a.t.f.haaland@ilf.uio.no>, <aac@csli.stanford.edu>,
+	<aairola@ling.helsinki.fi>, <abarcelo@minerva.filosoficas.unam.mx>,
+	<abchiara@katamail.com>, <abdind@cs.bris.ac.uk>, <abecker@fzi.de>,
+	<abhaya@cse.unsw.edu.au>, <abottani@unibg.it>, <abrusan@nytud.hu>,
+	<abrusci@uniroma3.it>, <abse@yahoogroups.com>,
+	<act-r-users+@andrew.cmu.edu>, <adis_78@dir.bg>,
+	<adm@phil.ccu.edu.tw>, <admin@ai-gakkai.or.jp>, <adolfo@itc.it>,
+	<adp@iasi.rm.cnr.it>, <aeojeda@ucdavis.edu>,
+	<afeldman@ling.ohio-state.edu>, <aflor@uaic.ro>,
+	<afos@listserv.vub.ac.be>, <agc@scs.leeds.ac.uk>,
+	<agn@ipipan.waw.pl>, <agnes@ims.uni-stuttgart.de>, <ai-ed@sun.com>,
+	<ai-sges@jiscmail.ac.uk>, <aiia@di.unito.it>, <airg@cs.wpi.edu>,
+	<aisb@cogs.sussex.ac.uk>, <aisb@cogs.susx.ac.uk>,
+	<ajb129@hotmail.com>, <ajjacobson@uh.edu>,
+	<ak-robocup@informatik.hu-berlin.de>, <akman@cs.bilkent.edu.tr>,
+	<akontio@ling.helsinki.fi>, <alain.lecomte@upmf-grenoble.fr>,
+	<alavie@cs.cmu.edu>, <albert.gatt@um.edu.mt>,
+	<albert.visser@phil.uu.nl>, <albert@phil.uu.nl>,
+	<albu@coli.uni-sb.de>, <alemore@club-internet.fr>,
+	<alessandro.garella@iol.it>, <alessiodelre@libero.it>,
+	<alexandr.rosen@ff.cuni.cz>, <alexb@ling.gu.se>, <alexcurd@unex.es>,
+	<alexviros@aol.com>, <alisonp@dai.ed.ac.uk>,
+	<altjohan@ling.uni-duesseldorf.de>, <alviti@mail.ru>,
+	<alviti@rambler.ru>, <am@libero.it>, <amal@cs.princeton.edu>,
+	<amalia@thor.infoiasi.ro>, <amantripathi@hotmail.com>,
+	<ambros@euv-frankfurt-o.de>, <am_jensen@yahoo.com>,
+	<an.bianchi@libero.it>, <ana@lia.ufc.br>,
+	<anders.noklestad@ilf.uio.no>, <andre.trudel@acadiau.ca>,
+	<andrea.bonomi@unimi.it>, <andrea.depasquale@beniculturali.it>,
+	<andrea.pedeferri@unimi.it>, <andrea@cis.uni-muenchen.de>,
+	<andreas.haida@rz.hu-berlin.de>, <andreas.herzig@irit.fr>,
+	<andreyevs@mtu-net.ru>, <angeliek.vanhout@let.rug.nl>,
+	<angmich@tin.it>, <aniak@ipipan.waw.pl>, <anijholt@cs.utwente.nl>,
+	<ankuendigungen-gimod@liste.es.e-technik.tu-darmstadt.de>,
+	<anna.korhonen@cl.cam.ac.uk>, <anna.mlynarczyk@let.uu.nl>,
+	<annabel@linguistics.ucl.ac.uk>, <anne-marie.mineur@let.uu.nl>,
+	<anneal@sti.com>, <announce@aosd.net>, <anssi.yli-jyra@helsinki.fi>,
+	<antje@ims.uni-stuttgart.de>, <antonio.branco@di.fc.ul.pt>,
+	<antti.arppe@ling.helsinki.fi>, <anuj.dawar@cl.cam.ac.uk>,
+	<aoch@polbox.com>, <ap@di.fct.unl.pt>, <aphil-l@coombs.anu.edu.au>,
+	<apogel@psl.nmsu.edu>, <app-list@explode.unsw.edu.au>,
+	<applesoft@vsnl.com>, <apt@cwi.nl>, <arc@mines.u-nancy.fr>,
+	<aree_t@yahoo.fr>, <areski@pauillac.inria.fr>, <aria@cs.cmu.edu>,
+	<arian@th.vu.nl>, <arikc@bgumail.bgu.ac.il>,
+	<arndt@ims.uni-stuttgart.de>, <arndt@informatik.uni-tuebingen.de>,
+	<arnim.stechow@uni-tuebingen.de>, <arrigonitatiana@hotmail.com>,
+	<artale@irst.itc.it>, <arthur@adler.ims.uni-stuttgart.de>,
+	<arthur@ims.uni-stuttgart.de>, <as372@cl.cam.ac.uk>,
+	<asafbac@hotmail.com>, <asia-l@sphinx.gsu.edu>,
+	<assourav@ntu.edu.sg>, <asun_alv@yahoo.com>,
+	<atle.gronn@east.uio.no>, <atm@let.rug.nl>,
+	<atocha@csli.stanford.edu>, <av72@columbia.edu>,
+	<aynat@post.tau.ac.il>, <az19@cornell.edu>, <a_dellanna@hotmail.com>,
+	<b.edmonds@mmu.ac.uk>, <b.knight@greenwich.ac.uk>, <baaz@logic.at>,
+	<badino@libero.it>, <baldoni@di.unito.it>, <bara@psych.unito.it>,
+	<barker@ling.ucsd.edu>, <baroglio@di.unito.it>,
+	<bartak@kti.mff.cuni.cz>, <bartak@ktilinux.ms.mff.cuni.cz>,
+	<basili@info.uniroma2.it>, <battiti@science.unitn.it>,
+	<baur@coli.uni-sb.de>, <bea.priego-valverde@lpl.univ-aix.fr>,
+	<bebr@coli.uni-sb.de>, <becky@is.s.u-tokyo.ac.jp>, <bella@lirmm.fr>,
+	<bellengier@lpl.univ-aix.fr>, <bellin@sci.univr.it>,
+	<bellinel@unive.it>, <belnap@pitt.edu>, <belussi@sci.univr.it>,
+	<benamara@irit.fr>, <benhdj@cs.cmu.edu>, <benoit.crabbe@loria.fr>,
+	<benzi@nous.unige.it>, <bert@dfki.de>, <berthomeau@free.fr>,
+	<berwanger@informatik.rwth-aachen.de>, <beziau@hotmail.com>,
+	<bicego@sci.univr.it>, <bioforum@net.bio.net>,
+	<biomatrx@net.bio.net>, <bisc-group@cs.berkeley.edu>,
+	<bkahn@chonnam.chonnam.ac.kr>, <blanzier@itc.it>,
+	<blanzier@psych.unito.it>, <blutner@german.hu-berlin.de>,
+	<bmdp-l-request@lists.mcgill.ca>, <bmkang@korea.ac.kr>,
+	<bomaydole@davidson.edu>, <bonatti@di.unito.it>,
+	<bonaventura@mclink.it>, <bonifacio@itc.it>,
+	<bonnie.webber@ed.ac.uk>, <borga@dima.unige.it>, <borgo@loa-cnr.it>,
+	<borys@cs.vu.nl>, <bos@coli.uni-sb.de>, <bradpaulsen@hotmail.com>,
+	<brafman@cs.stanford.edu>, <bramario@libero.it>,
+	<brandon@comp.leeds.ac.uk>, <bras@irit.fr>, <brescian@itc.it>,
+	<bresnan@stanford.edu>, <brezhnev@mtu-net.ru>,
+	<briguglia@tiscalinet.it>, <brown@uleth.ca>, <brownc@unbc.ca>,
+	<bruno.cartoni@eti.unige.ch>, <bskyrms@uci.edu>, <bull-i3@irit.fr>,
+	<bulletin@aisb.org.uk>, <bulskov@ruc.dk>, <bureau@phil.uu.nl>,
+	<buring@humnet.ucla.edu>, <buring@ling.ucsc.edu>, <busemann@dfki.de>,
+	<busse@ontoprise.de>, <c.c.conti@sussex.ac.uk>, <c.fox@gold.ac.uk>,
+	<c.meier@lingua.uni-frankfurt.de>, <c.orasan@wlv.ac.uk>,
+	<c.witteveen@cs.tudelft.nl>, <caanders@philosophy.ucsb.edu>,
+	<cabredo@linguist.jussieu.fr>, <calex@ilsp.gr>,
+	<caplanbd@cc.umanitoba.ca>, <carl.vogel@cs.tcd.ie>,
+	<carlo.combi@univr.it>, <carlo.filotico@unimi.it>,
+	<carlos@science.uva.nl>, <carlson@ling.rochester.edu>,
+	<carmagnola@di.unito.it>, <carniell@cle.unicamp.br>,
+	<caroline@inf.pucrs.br>, <casadio@phobos.unich.it>,
+	<casadio@unich.it>, <casati@ehess.fr>, <castellani@soc.unitn.it>,
+	<catab@fenrir.infoiasi.ro>, <categories@mta.ca>,
+	<catherine.chanet@lpl.univ-aix.fr>, <catherine.piliere@loria.fr>,
+	<cattani@disa.unige.it>, <cattoni@itc.it>, <cavedon@cs.rmit.edu.au>,
+	<cbasu@sarnoff.com>, <cbrew@acm.org>,
+	<cbrew@julius.ling.ohio-state.edu>, <ccl@ps.uni-sb.de>,
+	<ccollins@cs.utoronto.ca>, <ccross@ai.uga.edu>, <cd@di.fct.unl.pt>,
+	<cebly@cs.toronto.edu>, <cecile.paris@cmis.csiro.au>,
+	<cecile@das.harvard.edu>, <cecilia@hemming.se>, <cees@cs.uu.nl>,
+	<cena@di.unito.it>, <cgena@di.unito.it>, <cgirardi@itc.it>,
+	<chael@mit.edu>, <champagn@univ-tlse2.fr>,
+	<chang@cs.sookmyung.ac.kr>, <charles.pow@lmco.com>,
+	<chiffidaniele@yahoo.it>, <chittaro@dimi.uniud.it>, <chm76@gmx.net>,
+	<chris.cornelis@rug.ac.be>, <chris@lri.lri.fr>,
+	<christian.cuske@de.ey.com>, <christian.retore@irisa.fr>,
+	<cl-bib@coli.uni-sb.de>, <claudia@math.unipd.it>,
+	<claudio.fiocchi@libero.it>, <claudio.pizzi3@tin.it>,
+	<clements@ext.jussieu.fr>, <clu@tcs.inf.tu-dresden.de>,
+	<cmss@luiss.it>, <cmv@astor.urv.es>, <cnita@fenrir.infoiasi.ro>,
+	<cnkortha@coli.uni-sb.de>, <cnovac@cs.ugal.ro>,
+	<coc0788@iperbole.bologna.it>, <cogling@ucsd.edu>,
+	<cogpsy@listserv.tamu.edu>, <cogsci-hum@listserv.uh.edu>,
+	<cohen@cs.umass.edu>, <cohnitz@phil-fak.uni-duesseldorf.de>,
+	<colibri@let.uu.nl>, <colombet@elet.polimi.it>, <colt@cs.uiuc.edu>,
+	<comorovski@univ-nancy2.fr>, <comp-bio@net.bio.net>,
+	<compulognet-parimp@dia.fi.upm.es>,
+	<computerbookauthors@yahoogroups.com>, <condorav@csli.stanford.edu>,
+	<conferences@computer.org>, <connectionists@cs.cmu.edu>,
+	<context@bronte.umcs.maine.edu>, <context@laforia.lip6.fr>,
+	<cooper@ling.gu.se>, <corblin@paris7.jussieu.fr>,
+	<cordeschi@caspur.it>, <correndo@di.unito.it>, <costa@let.uu.nl>,
+	<costanti@psico.univ.trieste.it>, <cote@univ-lyon3.fr>,
+	<cphc-conf@jiscmail.ac.uk>, <cricky@its.caltech.edu>,
+	<cristina.meini@lett.unipmn.it>, <cscw-all@jiscmail.ac.uk>,
+	<cse-announce@cse.unsw.edu.au>, <csporled@cogsci.ed.ac.uk>,
+	<ctckit@cityu.edu.hk>, <d.papineau@kcl.ac.uk>,
+	<d.r.fellows@bradford.ac.uk>, <d.wilson@linguistics.ucl.ac.uk>,
+	<dag.westerstahl@phil.gu.se>, <dag.westerstahl@philosophy.su.se>,
+	<dale@cse.psu.edu>, <dana.scott@cs.cmu.edu>,
+	<danf@csli.stanford.edu>, <daniele.godard@linguist.jussieu.fr>,
+	<daniel_vanderveken@uqtr.uquebec.ca>, <dannyd@cs.kuleuven.ac.be>,
+	<danr@cs.uiuc.edu>, <daphne@cs.stanford.edu>,
+	<darwiche@cs.stanford.edu>, <datamining2@egroups.com>,
+	<david.cleary@ericsson.com>, <david.knott@rolls-royce.com>,
+	<david.over@sunderland.ac.uk>, <david.richerby@cl.cam.ac.uk>,
+	<davidahn@cs.rochester.edu>, <davidson@ling.ucsc.edu>,
+	<davise@cs.nyu.edu>, <dayal@rci.rutgers.edu>,
+	<dbitaly@dia.uniroma3.it>, <dbowner@cs.wisc.edu>,
+	<dbphilos@uni-duesseldorf.de>, <dbree@cs.man.ac.uk>,
+	<dbworld@cs.wisc.edu>, <dcristea@infoiasi.ro>,
+	<ddimitri@softlab.ntua.gr>, <ddonato@unisa.it>, <ddr@ida.liu.se>,
+	<dechaine@unixg.ubc.ca>, <declerck@dfki.de>, <degraff@mit.edu>,
+	<deirdre@linguistics.ucl.ac.uk>, <delmont@unive.it>,
+	<denand@lim.univ-mrs.fr>, <denis.delfitto@let.uu.nl>,
+	<derosis@di.uniba.it>, <dessalles@enst.fr>, <dev-europe@lboro.ac.uk>,
+	<devedzic@fon.fon.bg.ac.yu>, <devlin@csli.stanford.edu>,
+	<dg@dcs.kcl.ac.uk>, <dheck@studcs.uni-sb.de>,
+	<diagrams@csli.stanford.edu>, <dib@csli.stanford.edu>,
+	<dick@linguistics.ucl.ac.uk>, <diderik.batens@rug.ac.be>,
+	<dierks@informatik.uni-oldenburg.de>, <digicult-forum@digicult.info>,
+	<diglib@infoserv.inist.fr>, <dilts@ipfw.edu>, <dim_doikoff@abv.bg>,
+	<dinola@cds.unina.it>, <dip-all@lists.deri.org>,
+	<dipartimento@di.unipi.it>, <diraerts@vub.ac.be>,
+	<dirk.saleschus@uni-konstanz.de>, <dirk.vandalen@phil.uu.nl>,
+	<dix@cs.man.ac.uk>, <dk@lipn.univ-paris13.fr>, <dl@dl.kr.org>,
+	<dm@sfs.nphil.uni-tuebingen.de>, <dnicolas@gmx.net>,
+	<dnute@ai.uga.edu>, <dolce@yahoogroups.com>, <dori@itc.it>,
+	<doritb@bgumail.bgu.ac.il>, <dorothee.beermann@hf.ntnu.no>,
+	<dotkom-project@dcs.shef.ac.uk>, <dottorandidit@dit.unitn.it>,
+	<doucet@cs.helsinki.fi>, <dovier@dimi.uniud.it>,
+	<dowty@ling.ohio-state.edu>, <dpico@iti.upv.es>, <dtd@di.unito.it>,
+	<dtd@mfn.unipmn.it>, <duchier@ps.uni-sb.de>,
+	<duenges@mail.coli.uni-sb.de>, <dunn@cs.indiana.edu>,
+	<dvermeir@vub.ac.be>, <dwl@watson.ibm.com>,
+	<dziekfis@ramzes.umcs.lublin.pl>, <e.c.w.krabbe@philos.rug.nl>,
+	<e.gritti@libero.it>, <e.ritter@cs.bham.ac.uk>,
+	<e106181@ceng.metu.edu.tr>, <ea@ira.uka.de>, <eapls@jiscmail.ac.uk>,
+	<ebbag@stp.ling.uu.se>, <ecoop-info@ecoop.org>, <edelberg@uic.edu>,
+	<edit@vms.huji.ac.il>, <editor@agentlink.org>,
+	<editor@knowledgeboard.com>, <edrbtsn@cs.indiana.edu>,
+	<egg@coli.uni-sb.de>, <eh@sfs.nphil.uni-tuebingen.de>,
+	<eh@sfs.uni-tuebingen.de>, <ehn@cs.cmu.edu>, <eht@umcs.maine.edu>,
+	<eiter@kr.tuwien.ac.at>, <ejb@cl.cam.ac.uk>, <ejs@ida.liu.se>,
+	<ekaiser@babel.ling.upenn.edu>, <ekalyv@math.uoa.gr>,
+	<ekeenan@ucla.edu>, <elenai@ivanovo.ac.ru>,
+	<elenimi@unagi.cis.upenn.edu>, <elise.bergli@fys.uio.no>,
+	<elkan@cs.ucsd.edu>, <ellen@central.cis.upenn.edu>,
+	<elsnet-list@elsnet.org>, <elsnet-list@let.uu.nl>,
+	<elviira.hartikainen@nokia.com>, <endriss@rz.uni-potsdam.de>,
+	<engdahl@ling.gu.se>, <enones@amm.unitn.it>,
+	<enrico.colombo1@unimi.it>, <entr-egovo@ec.europa.eu>,
+	<epontell@cs.nmsu.edu>, <er30@st-andrews.ac.uk>,
+	<erik.velldal@ilf-stud.uio.no>, <erikve@hfstud.uio.no>,
+	<erisa@ida.liu.se>, <erk@coli.uni-sb.de>, <erk@ps.uni-sb.de>,
+	<eschenbach@informatik.uni-hamburg.de>, <esther.kraak@let.uu.nl>,
+	<esther@ims.uni-stuttgart.de>, <etaps04@lsi.upc.es>,
+	<etch@csli.stanford.edu>, <ether@cirl.uoregon.edu>,
+	<eva.stieringer@sbg.ac.at>, <evaman@hkbu.edu.hk>,
+	<evanthia.petropoulou@unibas.ch>, <event@in.tu-clausthal.de>,
+	<events_calendar@acm.org>, <ewan@cogsci.edinburgh.ac.uk>,
+	<eyala@cs.stanford.edu>, <ezibetti@univ-paris8.fr>,
+	<f.ciravegna@dcs.shef.ac.uk>, <f.lanese@regione.vda.it>,
+	<fabio_del_prete@hotmail.com>, <fallis@u.arizona.edu>,
+	<farinas@irit.fr>, <farkas@cats.ucsc.edu>, <faucon@cogsci.ucsd.edu>,
+	<fdejong@cs.utwente.nl>, <feileren@hkbu.edu.hk>,
+	<felix.schumann@gmx.de>, <fellbaum@princeton.edu>,
+	<ferguson@cs.rochester.edu>, <fersolert@yahoo.es>,
+	<fery@rz.uni-potsdam.de>, <fg-db@informatik.uni-rostock.de>,
+	<fgcscw@uni-koblenz.de>, <fgwm@uni-trier.de>, <filbarra@hotmail.com>,
+	<filbarra@yahoo.com>, <filiaci@gmx.it>, <filip.devos@rug.ac.be>,
+	<filip@ling.rochester.edu>, <fintel@mit.edu>, <fiorini@sci.univr.it>,
+	<fischer@nats.informatik.uni-hamburg.de>,
+	<fitz@mathematik.hu-berlin.de>, <fizlk@univ.gda.pl>,
+	<fl@ai.toronto.edu>, <fliedner@coli.uni-sb.de>,
+	<floarea@iordan.lingv.ro>, <fmartin@ulb.ac.be>, <foret@irisa.fr>,
+	<formal-methods@cs.uidaho.edu>, <formis@dipmat.unipg.it>,
+	<fox@mit.edu>, <francesc@dimi.uniud.it>,
+	<francesca.guala@compagnia.torino.it>, <francez@cs.technion.ac.il>,
+	<francisco.torrens@uv.es>, <francois.fages@inria.fr>,
+	<francois.lepage@umontreal.ca>, <francois.paulus@francetelecom.com>,
+	<frank.vaneynde@ccl.kuleuven.ac.be>, <frank@landc.be>,
+	<frankb@cs.uu.nl>, <frasson@iro.umontreal.ca>, <freedman@cs.niu.edu>,
+	<friederike.moltmann@kcl.ac.uk>, <friedrich.hamm@uni-tuebingen.de>,
+	<frix@dist.unige.it>, <frnapoli@tin.it>, <fschena@inf.unitn.it>,
+	<fstxsl@umac.mo>, <fuji@jaist.ac.jp>, <fukuda@cbrc.jp>,
+	<fummi@sci.univr.it>, <g.i.holen@hfstud.uio.no>,
+	<g.marra@regione.vda.it>, <g.tarozzi@uniurb.it>, <ga-list@gmu.edu>,
+	<gabelaia@dcs.kcl.ac.uk>, <gabriela.cavaglia@itri.brighton.ac.uk>,
+	<gabsdil@coli.uni-sb.de>, <gaines@cpsc.ucalgary.ca>,
+	<gann-list@cs.iastate.edu>, <gar@dcs.qmw.ac.uk>,
+	<gary.h.merrill@gsk.com>, <gaukercp@email.uc.edu>,
+	<gauthiyv@philo.umontreal.ca>, <gband@csli.stanford.edu>,
+	<gbarreca@libero.it>, <gcollet@ac-grenoble.fr>,
+	<geert.decubber@lhs.be>, <geilfuss@rz.uni-leipzig.de>,
+	<gelbukh@pollux.cic.ipn.mx>, <gena@sics.se>,
+	<gentilini@ima.ge.cnr.it>, <geoff@iam.unibe.ch>,
+	<georg.dorn@sbg.ac.at>, <geraldg@cogs.sussex.ac.uk>,
+	<gerard.huet@inria.fr>, <gerbino@univ.trieste.it>,
+	<gerhard.jaeger@let.uu.nl>, <ggreco@si.deis.unical.it>,
+	<giacobazzi@sci.univr.it>, <giampierig@asl7.marche.it>,
+	<giboin@sophia.inria.fr>, <gil@eva.mpg.de>, <gilles.dowek@inria.fr>,
+	<ginzburg@dcs.kcl.ac.uk>, <giorgi@irst.itc.it>, <giorgi@unive.it>,
+	<gippert@em.uni-frankfurt.de>, <girard@iml.univ-mrs.fr>,
+	<gitte.callaert@rug.ac.be>, <giuper@dia.unisa.it>,
+	<gj@coli.uni-sb.de>, <gj@ufal.mff.cuni.cz>, <gjb@luc.ac.be>,
+	<glanzber@mit.edu>, <glink@cis.uni-muenchen.de>, <gmgreco@yahoo.it>,
+	<golemtime@hotmail.com>, <gopalan@cs.uchicago.edu>,
+	<gosse@let.rug.nl>, <govert@icon.co.za>, <gpenn@cs.toronto.edu>,
+	<gpl@fct.unl.pt>, <gprimiero@libero.it>, <graham@dcs.qmw.ac.uk>,
+	<grant.marler@cgu.edu>, <gray@phil.ufl.edu>, <greco@disa.unige.it>,
+	<greger.linden@cs.helsinki.fi>, <grenier@wanadoo.fr>,
+	<grin@di.unipi.it>, <grl@cs.rug.nl>, <grosz@eecs.harvard.edu>,
+	<gschneid@ifi.unizh.ch>, <gsher@ucsd.edu>,
+	<guensel@informatik.uni-leipzig.de>, <gumb@cs.uml.edu>,
+	<gunlog@ling.ucsc.edu>, <guy.tiberghien@upmf-grenoble.fr>,
+	<gvallejo@abello.dic.uchile.cl>, <gwa@lists.ut.ee>,
+	<gyftodim@cs.bris.ac.uk>, <h-asia@h-net.msu.edu>,
+	<haddawy@cs.uwm.edu>, <hajicova@ufal.mff.cuni.cz>,
+	<hamm@sfs.nphil.uni-tuebingen.de>, <hana.skoumalova@ff.cuni.cz>,
+	<hana@cogsci.berkeley.edu>, <hanks@cs.washington.edu>,
+	<hannes.rieser@uni-bielefeld.de>, <hans.kamp@ims.uni-stuttgart.de>,
+	<hans.rott@psk.uni-regensburg.de>,
+	<hans.smessaert@arts.kuleuven.ac.be>, <hans@ai.rug.nl>,
+	<hans@ims.uni-stuttgart.de>, <hardt@monet.vill.edu>,
+	<havelka@ufal.ms.mff.cuni.cz>, <hawthorne@ou.edu>,
+	<hayes-roth@cs.stanford.edu>, <hcitaly@cnuce.cnr.it>,
+	<hcosta@andrew.cmu.edu>, <hector@ai.toronto.edu>,
+	<heike.wiese@rz.hu-berlin.de>, <heim@mit.edu>,
+	<heinrich.beck@ppp.uni-bamberg.de>,
+	<heinrich.wansing@mailbox.tu-dresden.de>,
+	<heleen.w.hoekstra@let.uu.nl>, <helena.ahonen-myka@cs.helsinki.fi>,
+	<helene.kirchner@loria.fr>, <heli_u@ut.ee>,
+	<hendrik.blockeel@cs.kuleuven.ac.be>, <henk.verkuyl@let.uu.nl>,
+	<henning@makholm.net>, <henning@ruc.dk>,
+	<henriette.deswart@let.uu.nl>, <herman.hendriks@let.uu.nl>,
+	<herzig@irit.fr>, <hfdil@tin.it>, <hintikka@acs.bu.edu>,
+	<hmwhchan@usthk.ust.hk>, <hmyming@usthk.ust.hk>,
+	<hoede@math.utwente.nl>, <hoette@uni-bonn.de>, <holger@cs.vu.nl>,
+	<holm.braeuer@mailbox.tu-dresden.de>, <homola@ufal.ms.mff.cuni.cz>,
+	<horty@umiacs.umd.edu>, <hovy@isi.edu>, <howard@cs.man.ac.uk>,
+	<hra@cs.uga.edu>, <htiede@titan.iwu.edu>, <huangtsu@hotmail.com>,
+	<hubertt@uni-tuebingen.de>, <huedit@uvvm.uvic.ca>,
+	<humanist@princeton.edu>, <humanities@gu.edu.au>,
+	<hwang@cs.rochester.edu>, <i.moerdijk@math.uu.nl>,
+	<ianross@babel.ling.upenn.edu>, <ida@pjwstk.edu.pl>,
+	<ifla-l@infoserv.inist.fr>, <igw@mimuw.edu.pl>,
+	<iipwm@ipipan.waw.pl>, <ilariafrana@yahoo.it>,
+	<ilkka.niemela@hut.fi>, <imbra@itc.it>, <inductive@listserv.unb.ca>,
+	<infante@science.uva.nl>, <info@ucna.ac.ir>, <ingereo@hfstud.uio.no>,
+	<ingo.reich@uni-tuebingen.de>, <ipr@fct.unl.pt>,
+	<ipratt@cs.man.ac.uk>, <ir@net.ict.nsk.su>,
+	<irina.perfilieva@osu.cz>, <irina@si.deis.unical.it>,
+	<irlist-editor@acm.org>, <isaacs@ling.ucsc.edu>,
+	<isabelle-users@cl.cam.ac.uk>, <isidora.stojanovic@free.fr>,
+	<israel@ai.sri.com>, <isworld@listserv.heanet.ie>,
+	<isworld@lyris.isworld.org>, <iurda@univ-paris8.fr>,
+	<iuth3@cc.uab.es>, <ivarea@iti.upv.es>, <ivart@earthlink.net>,
+	<ivosilvestro@ticino.com>, <j.a.barnden@cs.bham.ac.uk>,
+	<j.h.connolly@lboro.ac.uk>, <j.kuper@cs.utwente.nl>,
+	<j.ma@greenwich.ac.uk>, <j.saul@sheffield.ac.uk>,
+	<j.t.loenning@ilf.uio.no>, <jacco.van.ossenbruggen@cwi.nl>,
+	<jamakkon@cs.helsinki.fi>, <james@cs.rochester.edu>,
+	<jan.van.kuppevelt@ims.uni-stuttgart.de>, <janal@dfki.de>,
+	<janneto@hfstud.uio.no>, <janos@cs.technion.ac.il>, <janr@cwi.nl>,
+	<janr@pikas.inf.tu-dresden.de>, <jansche@ling.ohio-state.edu>,
+	<jason@cs.jhu.edu>, <javier@comp.leeds.ac.uk>,
+	<jay_atlas@pomona.edu>, <jb@dcs.qmw.ac.uk>, <jbf@bu.edu>,
+	<jbos@cogsci.ed.ac.uk>, <jbrennan@cse.unsw.edu.au>,
+	<jbrzezin@condor.depaul.edu>, <jc@cs.york.ac.uk>,
+	<jcha@ikc.korea.ac.kr>, <jchoe@cosmos.kaist.ac.kr>,
+	<jean-charles.pomerol@lip6.fr>, <jean-pierre.marquis@umontreal.ca>,
+	<jeffp@cs.ualberta.ca>, <jennifer@ling.su.se>, <jenny@dcs.bbk.ac.uk>,
+	<jfast@priv.onet.pl>, <jfenstad@ma-mail.uio.no>, <jhjeong@knu.ac.kr>,
+	<jijkoun@science.uva.nl>, <jimh@ling.gu.se>,
+	<jiri.havelka@matfyz.cz>, <jj@cs.ruu.nl>, <jj@cs.uu.nl>,
+	<jja@uevora.pt>, <jjayez@wanadoo.fr>, <jjoosten@phil.uu.nl>,
+	<jk@st-andrews.ac.uk>, <jm@science.unitn.it>, <jo@aisb.ed.ac.uk>,
+	<joakim@ling.gu.se>, <jochen@adler.ims.uni-stuttgart.de>,
+	<joe.caruana@um.edu.mt>, <joe.hurd@cl.cam.ac.uk>, <joeri@cs.vu.nl>,
+	<johan@science.uva.nl>, <johanka@ucw.cz>, <johanns@dfki.de>,
+	<john.nj.davies@bt.com>, <john.tait@sunderland.ac.uk>,
+	<john@csli.stanford.edu>, <johnny@nada.kth.se>,
+	<jokotolakuye@lycos.com>, <jonas@ims.uni-stuttgart.de>,
+	<joris@cs.vu.nl>, <josef@compapp.dcu.ie>,
+	<josef@ims.uni-stuttgart.de>, <joshi@linc.cis.upenn.edu>,
+	<joszag@poczta.onet.pl>, <jrogers@cs.earlham.edu>, <js@lirmm.fr>,
+	<jsai-ann@iijnet.or.jp>, <jsavelli@u-bourgogne.fr>,
+	<jstrand@concordia.ab.ca>, <juanh@science.uva.nl>,
+	<judea@cs.ucla.edu>, <juerg.kohlas@unifr.ch>,
+	<juha.kontinen@helsinki.fi>, <jules.vanweerden@let.uu.nl>,
+	<juliolee@hanmail.net>, <juris.borzovs@dati.lv>, <jve@cwi.nl>,
+	<jwickbol@indiana.edu>, <jyb@csli.stanford.edu>,
+	<jybeziau@hotmail.com>, <jyotimb@infosys.com>,
+	<k.j.sabo@german.uio.no>, <k.lai@unsw.edu.au>,
+	<k.p.turner@bton.ac.uk>, <k.stenning@ed.ac.uk>,
+	<kahle@di.fct.unl.pt>, <kai.korpimies@cs.helsinki.fi>,
+	<kaja.borthen@hf.ntnu.no>, <kalina@dcs.shef.ac.uk>,
+	<kammi@disa.unige.it>, <kaplan@humnet.ucla.edu>,
+	<kaplan@parc.xerox.com>, <kareloliva@hotmail.com>,
+	<karhumak@cs.utu.fi>, <karpenko_ivan@hotbox.ru>,
+	<kassel@laria.u-picardie.fr>, <katarina.matusikova@ericsson.com>,
+	<kaw@science.uva.nl>, <kbiyik@ii.metu.edu.tr>,
+	<kdnet-members@ais.fraunhofer.de>, <kees.vermeulen@phil.uu.nl>,
+	<kees_dorst@hotmail.com>, <keith@cogsci.ed.ac.uk>,
+	<kempson@dcs.kcl.ac.uk>, <ken@digitas.harvard.edu>,
+	<kenneth@lucs.lu.se>, <kent.peacock@uleth.ca>,
+	<keplicz@mimuw.edu.pl>, <kerdiles@illc.uva.nl>,
+	<kerkko.luosto@helsinki.fi>, <kim.viljanen@iki.fi>,
+	<kimiko@babel.ling.upenn.edu>, <kimiko@ling.upenn.edu>,
+	<kimmo.koskenniemi@helsinki.fi>, <kiparsky@csli.stanford.edu>,
+	<kipp@dfki.de>, <kirstymacdonald@hotmail.com>, <klchan@hkbu.edu.hk>,
+	<klein@dfki.de>, <klh@informatik.uni-kiel.de>,
+	<kludwig@phil.ufl.edu>, <knappe@ruc.dk>, <kobele@humnet.ucla.edu>,
+	<koglist@cogpsyphy.hu>, <kohlhase@cs.uni-sb.de>,
+	<kolaitis@cse.ucsc.edu>, <koller@coli.uni-sb.de>,
+	<korbay@coli.uni-sb.de>, <korbay@ufal.mff.cuni.cz>,
+	<korkmaz@ceng.metu.edu.tr>, <kozinska@wa.onet.pl>, <kr@kr.org>,
+	<kracht@math.fu-berlin.de>, <krassy_v@abv.bg>,
+	<krifka@rz.hu-berlin.de>, <krijo@cs.chalmers.se>,
+	<kris@coli.uni-sb.de>, <krister.segerberg@filosofi.uu.se>,
+	<kristof.vanbelleghem@cs.kuleuven.ac.be>,
+	<kristof@cs.kuleuven.ac.be>, <kropka5@tlen.pl>,
+	<kschulz@science.uva.nl>, <kszymanik@poczta.wp.pl>,
+	<kszymanik@wp.pl>, <kuebler@sfs.nphil.uni-tuebingen.de>,
+	<kuipers@cs.utexas.edu>, <kunze@sfs.nphil.uni-tuebingen.de>,
+	<kurt.godden@gm.com>, <kweb-all@informatik.uibk.ac.at>,
+	<kweb-all@lists.deri.org>, <labont@yahoogroups.com>,
+	<ladkin@techfak.uni-bielefeld.de>, <ladusaw@ling.ucsc.edu>,
+	<lal21@cam.ac.uk>, <lalonso@lingua.fil.ub.es>, <lama@dec.usc.es>,
+	<larouk@enssib.fr>, <lars.hellan@hf.ntnu.no>,
+	<lars@cognition.iig.uni-freiburg.de>, <laucp@ln.edu.hk>,
+	<laura@di.unito.it>, <laura@mfn.unipmn.it>, <laurence.horn@yale.edu>,
+	<laurent.filliettaz@lettres.unige.ch>, <laurier@philo.umontreal.ca>,
+	<laymanal@umich.edu>, <lconsole@di.unito.it>,
+	<ldinu@funinf.cs.unibuc.ro>, <leaf@itc.it>, <leifg@ling.gu.se>,
+	<leiss@cis.uni-muenchen.de>, <leitsch@logic.at>,
+	<leivant@cs.indiana.edu>, <leivhe@ilf-stud.uio.no>,
+	<lemmens@univ-lille3.fr>, <leora@us.ibm.com>, <leora@watson.ibm.com>,
+	<lepore@ruccs.rutgers.edu>, <lerner@coli.uni-sb.de>,
+	<lesmo@di.unito.it>, <lesperan@yorku.ca>, <lex@cogsci.ed.ac.uk>,
+	<lgaio@cs.unitn.it>, <lgranato@isis.unlp.edu.ar>,
+	<lics@research.bell-labs.com>, <liliana@di.unito.it>,
+	<lindek@cs.ualberta.ca>, <linear@cs.stanford.edu>,
+	<linguist@linguistlist.org>, <linguist@listserv.linguistlist.org>,
+	<list@prooftheory.org>, <liv.ellingsen@hfstud.uio.no>,
+	<livia@csli.stanford.edu>, <liviud@hotmail.com>, <lmp@di.fct.unl.pt>,
+	<ln@cines.fr>, <loebner@phil-fak.uni-duesseldorf.de>,
+	<loginf@lat.inf.tu-dresden.de>, <lombardi@uniroma3.it>,
+	<lombardi@vision.unipv.it>, <longo@univ.trieste.it>,
+	<loom-forum@isi.edu>, <louisa@essex.ac.uk>, <lpe2@ext.jussieu.fr>,
+	<lprolog@cs.umn.edu>, <lsc@form.unitn.it>, <lschrode@tzi.de>,
+	<lsl@cs.cmu.edu>, <lsm@cs.indiana.edu>,
+	<luc.schneider@ladseb.pd.cnr.it>, <luca.console@di.unito.it>,
+	<luca_guzzardi@libero.it>, <lucy.nowell@pnl.gov>,
+	<luisa@nous.unige.it>, <lutz@cs.rwth-aachen.de>, <lxd@nju.edu.cn>,
+	<m.d.ryan@cs.bham.ac.uk>, <m.hepple@dcs.shef.ac.uk>,
+	<m.j.wooldridge@csc.liv.ac.uk>, <m.kerber@cs.bham.ac.uk>,
+	<m.motterlini@tiscalinet.it>, <m.z.kwiatkowska@cs.bham.ac.uk>,
+	<m4m@science.uva.nl>, <ma108907@mail.udlap.mx>,
+	<maarten.janssen@let.uu.nl>, <machine-learning@egroups.com>,
+	<magro@di.unito.it>, <maier@coli.uni-sb.de>, <mailings@iwv.jku.at>,
+	<maillet@lirmm.fr>, <mal@ecs.soton.ac.uk>,
+	<maleczki@hung.u-szeged.hu>, <malerba@di.uniba.it>, <malik@laas.fr>,
+	<malvi@cogsci.ed.ac.uk>, <mana@itc.it>, <mancuso@itc.it>,
+	<mange@sics.se>, <manspera@itc.it>, <mantaras@iiia.csic.es>,
+	<marc.dymetman@xrce.xerox.com>, <marc.roessler@uni-duisburg.de>,
+	<marcd@cs.kuleuven.ac.be>, <marcel@lia.ufc.br>,
+	<marcingokieli@go2.pl>, <marcos@pep.ufrj.br>, <marcus@lsi.usp.br>,
+	<maria.fuentes@udg.es>, <marianne.starlander@eti.unige.ch>,
+	<marie-france.bruandet@imag.fr>, <mariekem@tampabay.rr.com>,
+	<marino.badiale@unito.it>, <mario@cos.ufrj.br>,
+	<mariogravina@hotmail.com>, <mark.colyvan@utas.edu.au>,
+	<markus.fischer@rz.hu-berlin.de>, <markus.junker@dfki.de>,
+	<marsal@cs.cmu.edu>, <marsonet@nous.unige.it>, <martin.everaert@let.uu.nl>,
+	<martin.fraenzle@informatik.uni-oldenburg.de>,
+	<martine.decock@rug.ac.be>, <martinmr@hkucc.hku.hk>,
+	<marwac@t-online.de>, <maryanne@frey.newcastle.edu.au>,
+	<masato@jaist.ac.jp>, <masayu-a@is.aist-nara.ac.jp>,
+	<masayuki.otsuka@kcl.ac.uk>, <mascellani@unisi.it>,
+	<massimo.poesio@ed.ac.uk>, <massiro@mail.psy.unipd.it>,
+	<mathias.schenner@sbg.ac.at>, <matrica@stud.btk.pte.hu>,
+	<mats@ims.uni-stuttgart.de>, <matsui@icu.ac.jp>,
+	<matteuzz@philo.unibo.it>, <matthes@informatik.uni-muenchen.de>,
+	<matthew.purver@kcl.ac.uk>, <mattheww@cogs.susx.ac.uk>,
+	<matti.nykanen@cs.helsinki.fi>, <max.bramer@port.ac.uk>,
+	<maxi@nous.unige.it>, <maybury@mitre.org>, <mayumi@icu.ac.jp>,
+	<mbittner@rci.rutgers.edu>, <mbouamrane@cs.man.ac.uk>,
+	<mc6304@mclink.it>, <mc7375@mclink.it>, <mc8153@mclink.it>,
+	<mccarty@cs.rutgers.edu>, <mccolm@math.usf.edu>,
+	<mcdermott-drew@cs.yale.edu>, <mckeonm@msu.edu>,
+	<mcmullen@indiana.edu>, <md0948@mclink.it>, <md20@cornell.edu>,
+	<mdr@science.uva.nl>, <mdstone@cs.rutgers.edu>, <me@luigigobbi.com>,
+	<meierseb@uni-duesseldorf.de>, <merin@ims.uni-stuttgart.de>,
+	<merkle@math.uni-heidelberg.de>, <metcalfe@dcs.kcl.ac.uk>,
+	<meyervio@dcs.kcl.ac.uk>, <mfaella@dia.unisa.it>,
+	<mflour@essex.ac.uk>, <mfranke@uos.de>, <mgehrke@nmsu.edu>,
+	<michael.gabbay@kcl.ac.uk>, <michael.moortgat@let.uu.nl>,
+	<michaelt@icsi.berkeley.edu>, <michel.portal@cnes.fr>,
+	<miep@belboek.com>, <mihail@ruc.dk>, <mikkelse@ling.ucsc.edu>,
+	<mikko.suonio@tut.fi>, <milenave@yahoo.it>, <milius@iti.cs.tu-bs.de>,
+	<milward@coli.uni-sb.de>, <mints@csli.stanford.edu>,
+	<miorelli@sci.univr.it>, <mipros@nsoft.it>,
+	<miranda@informatik.uni-muenchen.de>, <mirek@cs.engr.uky.edu>,
+	<miriam.butt@uni-konstanz.de>, <miriam@science.unitn.it>,
+	<miro.lehtonen@helsinki.fi>, <mit@pikas.inf.tu-dresden.de>,
+	<mklein@dfki.de>, <ml@isle.org>, <mlsapino@di.unito.it>,
+	<mmihaltz@freemail.hu>, <moggi@disi.unige.it>,
+	<monika.koessler@uibk.ac.at>, <montana@dimi.uniud.it>,
+	<montminy@uottawa.ca>, <morato@dsc.unibo.it>,
+	<morena.danieli@loquendo.com>, <mori@coli.uni-sb.de>,
+	<mori@lingua.tsukuba.ac.jp>, <moriche@irst.itc.it>,
+	<morri@cse.unsw.edu.au>, <morrill@lsi.upc.es>, <moshier@chapman.edu>,
+	<motschnig@ifs.univie.ac.at>, <moulin@ift.ulaval.ca>,
+	<mperloff+@pitt.edu>, <mpiro@informatics.ed.ac.uk>, <mrg@itc.it>,
+	<mrichar2@emerald.tufts.edu>, <mrt@di.unito.it>,
+	<msjihad@pluto.mscc.huji.ac.il>, <mstol@science.uva.nl>,
+	<mukai@sfc.keio.ac.jp>, <murano@unisa.it>, <murino@sci.univr.it>,
+	<musillo@science.uva.nl>, <mvdh@maties.sun.ac.za>,
+	<nageswar@singnet.com.sg>, <nakamura@jcga.ac.jp>, <nancy@cni.org>,
+	"<nastasi"@math.unipa.it
+Date: Mon, 2 Feb 2009 16:01:31 +0100
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0095_01C9854F.8B252DF0"
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Thread-Index: AcmFRyEUdrPb932tRg+CvV8dB7vHSg==
+X-MS-TNEF-Correlator: 00000000406513D11150534FA408BAE5A494491864173500
+Message-Id: <20090202150135.98E05413404@kletz.unipd.it>
+X-PMX-Version: 5.4.1.325704, Antispam-Engine: 2.6.0.325393,
+	Antispam-Data: 2009.2.2.144922
+X-Mailman-Approved-At: Mon, 02 Feb 2009 22:36:58 +0100
+Cc: 
+Subject: [Elsnet-list] FOMI 2009 - FIRST ANNOUNCEMENT & CfP
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0095_01C9854F.8B252DF0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+************************************************
+APOLOGIES FOR MULTIPLE POSTINGS
+************************************************
+FOMI 2009 - 4TH Workshop on Formal Ontologies Meet Industry
+
+ www.loa-cnr.it/fomi2009
+ 
+ September 2, 2009 - Vicenza (Italy)
+ 
+ FIRST ANNOUNCEMENT AND CALL FOR PAPERS
+
+In association with 10th European Conference on Knowledge Management (ECKM
+2009)
+
+http://www.academic-conferences.org/eckm/eckm2009/eckm09-home.htm 
+
+CONFERENCE AIMS
+ 
+FOMI is an international forum where academic researchers and industrial
+practitioners meet to analyze and discuss application issues related to
+methods, theories, tools and applications based on formal ontologies. There
+is today wide agreement that knowledge modeling and the semantic dimension
+of information plays an increasingly central role in networked economy:
+semantic-based applications aim to provide a framework for information and
+knowledge sharing, reliable information exchange, meaning negotiation and
+coordination between distinct organizations or among members of the same
+organization.
+ Often, theoretical ideas seem very promising but their actual
+implementation brings up unexpected problems and issues. The FOMI 09
+Workshop aims to collect useful experiences and lessons learned by the
+presentation of (1) experienced problems in ontology application, (2) new
+insights on known problematic issues, (3) new results and observations in
+ontology implementation, (4) lessons learned on the best way to apply
+ontological methodologies to real situations.
+ FOMI 09 will facilitate open discussion and experience sharing. Very
+similar problems arise in disparate ontology applications and an open
+discussion helps to highlight commonalities and to spread ideas for possible
+solutions. For this reason, FOMI welcomes researchers and practitioners that
+embrace this perspective without restrictions on the domain they deal with:
+business, medicine, engineering, finance, law, biology, geography,
+electronics, etc.
+ 
+CONFERENCE TOPICS (not exhaustive)
+ 
+*problems in ontology application:*
+- practical issues in using ontologies in the enterprise
+- real cases of successful/unsuccessful use of ontology in business
+- from legacy systems to the new ontology-driven systems
+ 
+*ontology and knowledge management:*
+- ontology and ontological methodologies in knowledge management;
+- adaptation of ontologies for companies and organizations;
+- ontology development and change within organizations;
+- ontology effectiveness and evaluation
+- ontology-driven representation of products, services, functionalities,
+design, processes;
+- ontologies for the know-how;
+- ontologies for corporate knowledge;
+ 
+*ontology in practice:*
+- ontologies for electronic catalogs, e-commerce, e-government;
+- ontologies for marketing;
+- ontologies for finance;
+- ontologies for engineering;
+- ontologies for medical sciences;
+- etc.
+ 
+SUBMISSIONS AND DATES
+ 
+Submitted papers will be reviewed by at least two member of the Program
+Committee and selected on the basis of technical quality, relevance of the
+described experiences, and clarity of the presentation. In particular, we
+insist that papers should (1) be written for a wide audience and (2) focus
+on the problematic, successful, etc. ontological aspects. Following the
+previous FOMI editions, we are considering publishing the proceedings of the
+workshop in the FAIA series (IOS Press) or as a special issue of "Applied
+Ontology".
+ 
+* Format and other information will be added in the conference website
+shortly.
+ 
+* Deadlines:
+ 
+- Paper Submission: April 2, 2009
+- Acceptance Notification: May 23, 2009
+- Camera Ready: June 23, 2009
+ 
+ORGANIZING COMMITTEE
+ 
+Chair: Roberta Ferrario, Alessandro Oltramari - Laboratory for Applied
+Ontology (ISTC-CNR), Trento - Italy.
+ 
+Local Chair: Ettore Bolisani, Department of Management and Engineering
+(University of Padua), Vicenza - Italy; Stefano Borgo, Laboratory for
+Applied Ontology (ISTC-CNR), Trento - Italy.
+ 
+CONFERENCE PROGRAMME COMMITTEE (to be completed)
+ 
+Derek Sleeman, University of Aberdeen
+
+Matteo Cristani, University of Verona, Italy
+
+Roberta Cuel, University of Trento, Italy
+
+Riichiro Mizoguchi, , Osaka University
+
+Kavi Mahesh, Infosys Technologies Ltd., and PES Institute of Technology,
+Bangalore, India
+
+Fred Freitas, Universidade Federal de Pernambuco Brazil
+
+Kyril Simov, Sirma Labs, Sofia, Bulgary
+
+[...]
+
+ 
+For any question, contact fomi2009@loa-cnr.it 
+
+
+------=_NextPart_000_0095_01C9854F.8B252DF0
+Content-Type: application/ms-tnef;
+	name="winmail.dat"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="winmail.dat"
+
+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
+
+------=_NextPart_000_0095_01C9854F.8B252DF0
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+------=_NextPart_000_0095_01C9854F.8B252DF0--
+

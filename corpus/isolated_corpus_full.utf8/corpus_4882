@@ -1,0 +1,968 @@
+From - Thu Dec 10 14:35:52 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.193 with SMTP id e1cs74382far;
+        Fri, 3 Apr 2009 15:17:56 -0700 (PDT)
+Received: by 10.210.144.3 with SMTP id r3mr1246989ebd.86.1238797076449;
+        Fri, 03 Apr 2009 15:17:56 -0700 (PDT)
+Return-Path: <sentto-1622440-2753-1238797062-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com>
+Received: from relay3-v.mail.gandi.net (relay3-v.mail.gandi.net [217.70.178.77])
+        by mx.google.com with ESMTP id 4si2884305ewy.56.2009.04.03.15.17.55;
+        Fri, 03 Apr 2009 15:17:55 -0700 (PDT)
+Received-SPF: neutral (google.com: 217.70.178.77 is neither permitted nor denied by domain of sentto-1622440-2753-1238797062-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) client-ip=217.70.178.77;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.178.77 is neither permitted nor denied by domain of sentto-1622440-2753-1238797062-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2753-1238797062-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from spool.mail.gandi.net (mspool4-v.mgt.gandi.net [10.0.21.74])
+	by relay3-v.mail.gandi.net (Postfix) with ESMTP id 1616FB9FF
+	for <jpprost@gmail.com>; Sat,  4 Apr 2009 00:17:55 +0200 (CEST)
+Received: from localhost (mfilter3-v.gandi.net [217.70.178.37])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 0451D2DC055
+	for <jpprost@gmail.com>; Sat,  4 Apr 2009 00:17:55 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter3-v.mgt.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.74])
+	by localhost (mfilter3-v.mgt.gandi.net [217.70.178.37]) (amavisd-new, port 10024)
+	with ESMTP id div0XoKFf9+h for <jpprost@gmail.com>;
+	Sat,  4 Apr 2009 00:17:54 +0200 (CEST)
+Received: from n4-vm8.bullet.mail.sp2.yahoo.com (n4-vm8.bullet.mail.sp2.yahoo.com [67.195.135.112])
+	by spool.mail.gandi.net (Postfix) with SMTP id 8EAA52DC04D
+	for <jean-philippe.prost@lpl-aix.fr>; Sat,  4 Apr 2009 00:17:50 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1238797064; bh=WnAStLMHbraAh1sF3NGZdudVQFP2MHCI2IxlRUAoLog=; h=Received:Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-Received:X-Received:X-Received:Message-Id:To:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=TGCBoMZBo3GxMGcdEzs+TesePo5d2Uh4aDFB7OrUufAgU9FG7bq+UzRgBUaVaeBzwOxt6qu50DZtd8V5wjumyFjYEDNMtTnkI/ez+b8rmPliGGLQQA7MF/VinER24n44
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=fQNS4YhPZMqIsakWZsVdcZ9peUZo+6EGH5kINNag5wL7SJndWNFiDClzj6SUrbkiBAle77wOkvWc1ZPOuMDkNbxwRDyfFvNyokWu4bUKP9SY4T1DzVvDe9vl/EC8K5la;
+Received: from [67.195.134.239] by n4.bullet.mail.sp2.yahoo.com with NNFMP; 03 Apr 2009 22:17:44 -0000
+Received: from [69.147.65.147] by t4.bullet.mail.sp2.yahoo.com with NNFMP; 03 Apr 2009 22:17:44 -0000
+Received: from [69.147.108.198] by t10.bullet.mail.sp1.yahoo.com with NNFMP; 03 Apr 2009 22:17:44 -0000
+X-Yahoo-Newman-Id: 1622440-m2753
+X-Sender: bernarbel@gmail.com
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 53357 invoked from network); 3 Apr 2009 22:17:35 -0000
+X-Received: from unknown (98.137.34.44)
+  by m7.grp.re1.yahoo.com with QMQP; 3 Apr 2009 22:17:35 -0000
+X-Received: from unknown (HELO ey-out-1920.google.com) (74.125.78.146)
+  by mta1.grp.sp2.yahoo.com with SMTP; 3 Apr 2009 22:17:34 -0000
+X-Received: by ey-out-1920.google.com with SMTP id 5so252916eyb.38
+        for <lpl-infos@yahoogroupes.fr>; Fri, 03 Apr 2009 15:17:31 -0700 (PDT)
+X-Received: by 10.210.38.17 with SMTP id l17mr1272109ebl.29.1238797051585;
+        Fri, 03 Apr 2009 15:17:31 -0700 (PDT)
+X-Received: from ?192.168.2.6? (lns-bzn-35-82-250-231-177.adsl.proxad.net [82.250.231.177])
+        by mx.google.com with ESMTPS id 4sm2880283ewy.80.2009.04.03.15.17.29
+        (version=SSLv3 cipher=RC4-MD5);
+        Fri, 03 Apr 2009 15:17:31 -0700 (PDT)
+Message-Id: <p06230903c5fc3b657014@[192.168.2.6]>
+To: lpl-infos <lpl-infos@yahoogroupes.fr>
+X-Originating-IP: 74.125.78.146
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Bernard Bel <bernarbel@gmail.com>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Sat, 4 Apr 2009 00:17:24 +0200
+Subject: [lpl-infos] IDP 09 (Interface Discourse & Prosody) : 2nd call for papers /
+ Deuxieme appel a communication
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="XouQxQDiCJ2HOMaySlUkQWvL3og8VQcqmfykghq"
+
+--XouQxQDiCJ2HOMaySlUkQWvL3og8VQcqmfykghq
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+version anglaise plus bas=20
+english version below
+
+
+IDP 09 : APPEL A COMMUNICATION
+
+Interface Discours & Prosodie
+Paris, 9-11 septembre 2009
+
+Le Laboratoire de Linguistique Formelle (UMR 7110 / LLF), l'=E9quipe CLILLA=
+C-ARP (EA 3967) et l'UFR de Linguistique de l'Universit=E9 Paris-Diderot (P=
+aris 7), avec le soutien de l'Association Fran=E7aise de Communication par =
+la Parole, accueillent la troisi=E8me =E9dition de la conf=E9rence =AB Inte=
+rfaces Discours Prosodie =BB, apr=E8s une premi=E8re =E9dition organis=E9e =
+en septembre 2005 =E0 Aix-en-Provence par le Laboratoire Parole et Langage =
+(UMR 6057 / LPL), et une deuxi=E8me en septembre 2007 =E0 Gen=E8ve, invit=
+=E9e par le D=E9partement de Linguistique et l'Ecole de Langue et civilisat=
+ion fran=E7aises de l'Universit=E9 de Gen=E8ve, et par le centre Valibel de=
+ l'Universit=E9 Catholique de Louvain (Belgique). La conf=E9rence aura lieu=
+ du mercredi 9 au vendredi 11 septembre 2009. Elle se d=E9roulera au centre=
+ parisien de l'Universit=E9 de Chicago, 6, rue Thomas Mann, dans le XIIIe a=
+rrondissement, pr=E8s de la Biblioth=E8que Fran=E7ois Mitterrand (Chicago C=
+enter in Paris).
+
+Elle s'adresse aux chercheurs travaillant en prosodie, en phonologie, en ph=
+on=E9tique, en pragmatique, en analyse du discours et en psycholinguistique=
+, et qui sont particuli=E8rement int=E9ress=E9s par les relations entre la =
+prosodie et le discours. Les participants =E0 cette conf=E9rence d=E9velopp=
+ent g=E9n=E9ralement leurs travaux dans des paradigmes vari=E9s (approches =
+formelles en phonologie, en s=E9mantique et en pragmatique, analyse de conv=
+ersation, linguistique descriptive, etc.). Dans cette troisi=E8me =E9dition=
+, une attention particuli=E8re sera accord=E9e aux travaux visant =E0 propo=
+ser des analyses formelles de l'interface entre prosodie et discours.
+
+Afin de favoriser les convergences entre propositions, certaines th=E9matiq=
+ues seront privil=E9gi=E9es lors de la conf=E9rence IDP 09 :
+
+La prosodie sous tous ses angles et le discours :
+
+- Comment envisager, d=E9crire ou mod=E9liser l'interaction entre les diff=
+=E9rents sous-syst=E8mes de la prosodie (l'accentuation, l'intonation, le r=
+ythme, les modifications de registre ou de qualit=E9 vocale) ?
+- Comment mod=E9liser l'apport de chaque sous-syst=E8me pour l'interpr=E9ta=
+tion globale du discours ?
+- Comment appr=E9hender les faits prosodiques et =E0 quels niveaux les d=E9=
+crire (niveau phon=E9tique, niveau phonologique, etc.) ?
+
+Les unit=E9s pour la prosodie / les unit=E9s pour le discours :
+
+- Quelles sont les unit=E9s d'analyse du discours (et du dialogue) ? quelle=
+s sont leurs propri=E9t=E9s prosodiques ?
+- comment l'embrayage des =E9nonc=E9s dans le discours se marque syntaxique=
+ment et prosodiquement ? Quelles cons=E9quences pour leur mod=E9lisation ?
+
+Prosodie et contexte(s)
+
+- Comment intervient le contexte dans l'interpr=E9tation de la prosodie dan=
+s le discours?
+- Comment mod=E9liser les relations entre prosodie(s) et contexte(s)?
+
+Acquisition des relations entre prosodie et discours en L1 et en L2
+
+- Comment s'acqui=E8rent les relations entre la prosodie et le discours en =
+L1 et en L2 ?
+- Quel appareil m=E9thodologique permettrait de les d=E9crire et les transc=
+rire?
+Conf=E9renci=E8res et conf=E9renciers invit=E9-e-s
+
+* Diane Blakemore (School of Languages, University of Salford, Royaume-Uni)
+* Piet Mertens (Department of Linguistics, K.U Leuven, Belgique)
+* Hubert Truckenbrodt (ZAS, Zentrum f=FCr Allgemeine Sprachwissenschaft, Be=
+rlin,
+Allemagne)
+
+Les langues de pr=E9sentation et de r=E9daction sont le fran=E7ais et l'ang=
+lais. Les =E9tudes pourront porter sur toute langue.
+
+
+Les propositions de communication seront sous la forme d'un fichier PDF con=
+tenant le titre de la proposition et un r=E9sum=E9 anonyme (au choix en ang=
+lais ou en fran=E7ais) tenant sur 2 pages format A4 et police times 12 (une=
+ page peut =EAtre ajout=E9e pour la bibliographie et les figures). Elles se=
+ront d=E9pos=E9es sur le site web suivant :
+<http://www.easychair.org/conferences/?conf=3Didp09>http://www.easychair.or=
+g/conferences/?conf=3Didp09 .
+
+Les informations concernant les auteurs seront =E9galement =E0 saisir sur l=
+e site, mais elles ne doivent pas figurer dans les fichiers PDF. Si vous so=
+umettez plusieurs propositions, veuillez les transmettre ind=E9pendamment l=
+es unes des autres.
+Si vous avez des questions ou si vous rencontrez des difficult=E9s, vous po=
+uvez en faire part
+aux organisateurs par courriel =E0 l'adresse suivante : <mailto:idp09@lingu=
+ist.jussieu.fr>idp09@linguist.jussieu.fr.
+Les r=E9sum=E9s seront =E9valu=E9s anonymement par le comit=E9 scientifique=
+.
+
+Dates =E0 retenir :
+* Date limite de soumission : 26 avril 2009
+* Notification des acceptations: 8 juin 2009
+*  Conf=E9rence IDP09 : 9-11 septembre 2009
+
+Des informations compl=E9mentaires sur le colloque sont disponibles sur le =
+site du colloque :
+<http://idp09.linguist.univ-paris-diderot.fr/>http://idp09.linguist.univ-pa=
+ris-diderot.fr
+
+
+------------------------------------------------------------------------
+
+IDP 09 : CALL FOR PAPERS
+
+Discourse - Prosody Interface
+
+Paris, September 9-10-11, 2009
+
+The third round of the "Discourse - Prosody Interface" Conference, sponsore=
+d by the AFCP (Association fran=E7aise de communication par la parole, will=
+ be hosted by the Laboratoire de Linguistique Formelle (UMR 7110 / LLF), th=
+e Equipe CLILLAC-ARP (EA 3967) and the Linguistic Department (UFRL) of the =
+University of Paris-Diderot (Paris 7), on September 9-10-11, 2009 in Paris.=
+ The first round was organized by the Laboratoire Parole et Langage (UMR 60=
+57 /LPL) in September 2005, in Aix-en-Provence. The second took place in Ge=
+neva in September 2007 and was organized by the Department of Linguistics a=
+t the University of Geneva, in collaboration with the =C9cole de Langue et =
+Civilisation Fran=E7aises at the University of Geneva, and the VALIBEL rese=
+arch centre at the Catholic University of Louvain.
+The third round will be held at the Paris Center of the University of Chica=
+go, 6, rue Thomas Mann, in the XIIIth arrondissement, near the Biblioth=E8q=
+ue Fran=E7ois Mitterrand (BNF).
+
+The Conference is addressed to researchers in prosody, phonology, phonetics=
+, pragmatics, discourse analysis and also psycholinguistics, who are partic=
+ularly interested in the relations between prosody and discourse. The parti=
+cipants may develop their research programmes within different theoretical =
+paradigms (formal approaches to phonology and semantics/ pragmatics, conver=
+sation analysis, descriptive linguistics, etc.). For this third edition, sp=
+=E9cial attention will be given to research work that propose a formal anal=
+ysis of the Discourse- Prosody interface.
+
+So as to favour convergence among contributions, the IDP09 conference will =
+focus on :
+
+Prosody, its parts and discourse :
+
+- How to analyze the interaction between the different prosodic subsystems =
+(accentuation,
+intonation, rhythm; register changes or voice quality)?
+- How to model the contribution of each subsystem to the global interpretat=
+ion of discourse?
+- How to describe and analyze prosodic facts, and at which level (phonetic =
+vs. phonological) ?
+
+Prosodic units & discourse units
+
+- What are the relevant units for discourse or conversation analysis ? What=
+ are their prosodic
+properties ?
+- How the embedding of utterances in discourse is marked syntactically or p=
+rosodically ?
+What consequence of the modelling of syntax & prosody ?
+
+Prosody and context(s)
+
+- What is the contribution of the context in the analysis of prosody in dis=
+course?
+- How can the relations between prosody and context(s) be modelled?
+
+Acquisition of the relations between prosody & discourse in L1 and L2
+
+- How are the relations between prosody & discourse acquired in L1, in L2 ?
+- Which methodological tools could best describe and transcribe these proce=
+sses ?
+
+
+Guest speakers :
+* Diane Blakemore (School of Languages, University of Salford, United Kingd=
+om)
+* Piet Mertens (Department of Linguistics, K.U Leuven, Belgium)
+* Hubert Truckenbrodt (ZAS, Zentrum f=FCr Allgemeine Sprachwissenschaft, Be=
+rlin,
+Germany)
+
+Conference will be held in English or French. Studies can be about any lang=
+uage.
+
+
+Submission will be made by uploading an anonymous two pages abstract (plus =
+an extra page for references and figures) in A4 and with Times 12 font, wri=
+tten in either English or French as PDF file at the following address : <ht=
+tp://www.easychair.org/conferences/?conf=3Didp09>http://www.easychair.org/c=
+onferences/?conf=3Didp09 .
+
+Author's name and affiliation should be given as requested, but not in the =
+PDF file.
+
+If you have any question concerning the submission procedure or you encount=
+er any problem,
+please send an email at the following address : <mailto:idp09@linguist.juss=
+ieu.fr>idp09@linguist.jussieu.fr
+
+Authors may submit as many proposals as they wish.
+
+The proposals will be evaluated anonymously by the scientific committee.
+
+Schedule
+* Submission deadline: April, 26th, 2009
+* Notification of acceptation: June, 8th, 2009
+* Conference (IDP 09): September 9th-11th, 2009.
+
+Further information is available on the conf=E9rence website : <http://idp0=
+9.linguist.univ-paris-diderot.fr/>http://idp09.linguist.univ-paris-diderot.=
+fr
+
+
+--XouQxQDiCJ2HOMaySlUkQWvL3og8VQcqmfykghq
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>version anglaise plus bas <br>
+english version below<br>
+<br>
+IDP 09 : APPEL A COMMUNICATION<br>
+<br>
+Interface Discours &amp; Prosodie<br>
+Paris, 9-11 septembre 2009<br>
+<br>
+Le Laboratoire de Linguistique Formelle (UMR 7110 / LLF), l'=E9quipe CLILLA=
+C-ARP (EA 3967) et l'UFR de Linguistique de l'Universit=E9 Paris-Diderot (P=
+aris 7), avec le soutien de l'Association Fran=E7aise de Communication par =
+la Parole, accueillent la troisi=E8me =E9dition de la conf=E9rence =AB Inte=
+rfaces Discours Prosodie =BB, apr=E8s une premi=E8re =E9dition organis=E9e =
+en septembre 2005 =E0 Aix-en-Provence par le Laboratoire Parole et Langage =
+(UMR 6057 / LPL), et une deuxi=E8me en septembre 2007 =E0 Gen=E8ve, invit=
+=E9e par le D=E9partement de Linguistique et l'Ecole de Langue et civilisat=
+ion fran=E7aises de l'Universit=E9 de Gen=E8ve, et par le centre Valibel de=
+ l'Universit=E9 Catholique de Louvain (Belgique). La conf=E9rence aura lieu=
+ du mercredi 9 au vendredi 11 septembre 2009. Elle se d=E9roulera au centre=
+ parisien de l'Universit=E9 de Chicago, 6, rue Thomas Mann, dans le XIIIe a=
+rrondissement, pr=E8s de la Biblioth=E8que Fran=E7ois Mitterrand (Chicago C=
+enter in Paris).<br>
+<br>
+Elle s'adresse aux chercheurs travaillant en prosodie, en phonologie, en ph=
+on=E9tique, en pragmatique, en analyse du discours et en psycholinguistique=
+, et qui sont particuli=E8rement int=E9ress=E9s par les relations entre la =
+prosodie et le discours. Les participants =E0 cette conf=E9rence d=E9velopp=
+ent g=E9n=E9ralement leurs travaux dans des paradigmes vari=E9s (approches =
+formelles en phonologie, en s=E9mantique et en pragmatique, analyse de conv=
+ersation, linguistique descriptive, etc.). Dans cette troisi=E8me =E9dition=
+, une attention particuli=E8re sera accord=E9e aux travaux visant =E0 propo=
+ser des analyses formelles de l'interface entre prosodie et discours.<br>
+<br>
+Afin de favoriser les convergences entre propositions, certaines th=E9matiq=
+ues seront privil=E9gi=E9es lors de la conf=E9rence IDP 09 :<br>
+<br>
+La prosodie sous tous ses angles et le discours :<br>
+<br>
+- Comment envisager, d=E9crire ou mod=E9liser l'interaction entre les diff=
+=E9rents sous-syst=E8mes de la prosodie (l'accentuation, l'intonation, le r=
+ythme, les modifications de registre ou de qualit=E9 vocale) ?<br>
+- Comment mod=E9liser l'apport de chaque sous-syst=E8me pour l'interpr=E9ta=
+tion globale du discours ?<br>
+- Comment appr=E9hender les faits prosodiques et =E0 quels niveaux les d=E9=
+crire (niveau phon=E9tique, niveau phonologique, etc.) ?<br>
+<br>
+Les unit=E9s pour la prosodie / les unit=E9s pour le discours :<br>
+<br>
+- Quelles sont les unit=E9s d'analyse du discours (et du dialogue) ? quelle=
+s sont leurs propri=E9t=E9s prosodiques ?<br>
+- comment l'embrayage des =E9nonc=E9s dans le discours se marque syntaxique=
+ment et prosodiquement ? Quelles cons=E9quences pour leur mod=E9lisation ?<=
+br>
+<br>
+Prosodie et contexte(s)<br>
+<br>
+- Comment intervient le contexte dans l'interpr=E9tation de la prosodie dan=
+s le discours?<br>
+- Comment mod=E9liser les relations entre prosodie(s) et contexte(s)?<br>
+<br>
+Acquisition des relations entre prosodie et discours en L1 et en L2<br>
+<br>
+- Comment s'acqui=E8rent les relations entre la prosodie et le discours en =
+L1 et en L2 ?<br>
+- Quel appareil m=E9thodologique permettrait de les d=E9crire et les transc=
+rire?<br>
+Conf=E9renci=E8res et conf=E9renciers invit=E9-e-s<br>
+<br>
+* Diane Blakemore (School of Languages, University of Salford, Royaume-Uni)=
+<br>
+* Piet Mertens (Department of Linguistics, K.U Leuven, Belgique)<br>
+* Hubert Truckenbrodt (ZAS, Zentrum f=FCr Allgemeine Sprachwissenschaft, Be=
+rlin,<br>
+Allemagne)<br>
+<br>
+Les langues de pr=E9sentation et de r=E9daction sont le fran=E7ais et l'ang=
+lais. Les =E9tudes pourront porter sur toute langue.<br>
+<br>
+Les propositions de communication seront sous la forme d'un fichier PDF con=
+tenant le titre de la proposition et un r=E9sum=E9 anonyme (au choix en ang=
+lais ou en fran=E7ais) tenant sur 2 pages format A4 et police times 12 (une=
+ page peut =EAtre ajout=E9e pour la bibliographie et les figures). Elles se=
+ront d=E9pos=E9es sur le site web suivant :<br>
+&lt;<a href=3D"http://www.easychair.org/conferences/?conf=3Didp09">http://w=
+ww.easychai<wbr>r.org/conference<wbr>s/?conf=3Didp09</a>&gt;<a href=3D"http=
+://www.easychair.org/conferences/?conf=3Didp09">http://www.easychai<wbr>r.o=
+rg/conference<wbr>s/?conf=3Didp09</a> .<br>
+<br>
+Les informations concernant les auteurs seront =E9galement =E0 saisir sur l=
+e site, mais elles ne doivent pas figurer dans les fichiers PDF. Si vous so=
+umettez plusieurs propositions, veuillez les transmettre ind=E9pendamment l=
+es unes des autres.<br>
+Si vous avez des questions ou si vous rencontrez des difficult=E9s, vous po=
+uvez en faire part<br>
+aux organisateurs par courriel =E0 l'adresse suivante : &lt;mailto:<a href=
+=3D"mailto:idp09%40linguist.jussieu.fr">idp09@linguist.<wbr>jussieu.fr</a>&=
+gt;<a href=3D"mailto:idp09%40linguist.jussieu.fr">idp09@linguist.<wbr>jussi=
+eu.fr</a>.<br>
+Les r=E9sum=E9s seront =E9valu=E9s anonymement par le comit=E9 scientifique=
+.<br>
+<br>
+Dates =E0 retenir :<br>
+* Date limite de soumission : 26 avril 2009<br>
+* Notification des acceptations: 8 juin 2009<br>
+*  Conf=E9rence IDP09 : 9-11 septembre 2009<br>
+<br>
+Des informations compl=E9mentaires sur le colloque sont disponibles sur le =
+site du colloque :<br>
+&lt;<a href=3D"http://idp09.linguist.univ-paris-diderot.fr/">http://idp09.<=
+wbr>linguist.<wbr>univ-paris-<wbr>diderot.fr/</a>&gt;<a href=3D"http://idp0=
+9.linguist.univ-paris-diderot.fr">http://idp09.<wbr>linguist.<wbr>univ-pari=
+s-<wbr>diderot.fr</a><br>
+<br>
+------------<wbr>---------<wbr>---------<wbr>---------<wbr>---------<wbr>--=
+-------<wbr>-<br>
+<br>
+IDP 09 : CALL FOR PAPERS<br>
+<br>
+Discourse - Prosody Interface<br>
+<br>
+Paris, September 9-10-11, 2009<br>
+<br>
+The third round of the &quot;Discourse - Prosody Interface&quot; Conference=
+, sponsored by the AFCP (Association fran=E7aise de communication par la pa=
+role, will be hosted by the Laboratoire de Linguistique Formelle (UMR 7110 =
+/ LLF), the Equipe CLILLAC-ARP (EA 3967) and the Linguistic Department (UFR=
+L) of the University of Paris-Diderot (Paris 7), on September 9-10-11, 2009=
+ in Paris. The first round was organized by the Laboratoire Parole et Langa=
+ge (UMR 6057 /LPL) in September 2005, in Aix-en-Provence. The second took p=
+lace in Geneva in September 2007 and was organized by the Department of Lin=
+guistics at the University of Geneva, in collaboration with the =C9cole de =
+Langue et Civilisation Fran=E7aises at the University of Geneva, and the VA=
+LIBEL research centre at the Catholic University of Louvain.<br>
+The third round will be held at the Paris Center of the University of Chica=
+go, 6, rue Thomas Mann, in the XIIIth arrondissement, near the Biblioth=E8q=
+ue Fran=E7ois Mitterrand (BNF).<br>
+<br>
+The Conference is addressed to researchers in prosody, phonology, phonetics=
+, pragmatics, discourse analysis and also psycholinguistics, who are partic=
+ularly interested in the relations between prosody and discourse. The parti=
+cipants may develop their research programmes within different theoretical =
+paradigms (formal approaches to phonology and semantics/ pragmatics, conver=
+sation analysis, descriptive linguistics, etc.). For this third edition, sp=
+=E9cial attention will be given to research work that propose a formal anal=
+ysis of the Discourse- Prosody interface.<br>
+<br>
+So as to favour convergence among contributions, the IDP09 conference will =
+focus on :<br>
+<br>
+Prosody, its parts and discourse :<br>
+<br>
+- How to analyze the interaction between the different prosodic subsystems =
+(accentuation,<br>
+intonation, rhythm; register changes or voice quality)?<br>
+- How to model the contribution of each subsystem to the global interpretat=
+ion of discourse?<br>
+- How to describe and analyze prosodic facts, and at which level (phonetic =
+vs. phonological) ?<br>
+<br>
+Prosodic units &amp; discourse units<br>
+<br>
+- What are the relevant units for discourse or conversation analysis ? What=
+ are their prosodic<br>
+properties ?<br>
+- How the embedding of utterances in discourse is marked syntactically or p=
+rosodically ?<br>
+What consequence of the modelling of syntax &amp; prosody ?<br>
+<br>
+Prosody and context(s)<br>
+<br>
+- What is the contribution of the context in the analysis of prosody in dis=
+course?<br>
+- How can the relations between prosody and context(s) be modelled?<br>
+<br>
+Acquisition of the relations between prosody &amp; discourse in L1 and L2<b=
+r>
+<br>
+- How are the relations between prosody &amp; discourse acquired in L1, in =
+L2 ?<br>
+- Which methodological tools could best describe and transcribe these proce=
+sses ?<br>
+<br>
+Guest speakers :<br>
+* Diane Blakemore (School of Languages, University of Salford, United Kingd=
+om)<br>
+* Piet Mertens (Department of Linguistics, K.U Leuven, Belgium)<br>
+* Hubert Truckenbrodt (ZAS, Zentrum f=FCr Allgemeine Sprachwissenschaft, Be=
+rlin,<br>
+Germany)<br>
+<br>
+Conference will be held in English or French. Studies can be about any lang=
+uage.<br>
+<br>
+Submission will be made by uploading an anonymous two pages abstract (plus =
+an extra page for references and figures) in A4 and with Times 12 font, wri=
+tten in either English or French as PDF file at the following address : &lt=
+;<a href=3D"http://www.easychair.org/conferences/?conf=3Didp09">http://www.=
+easychai<wbr>r.org/conference<wbr>s/?conf=3Didp09</a>&gt;<a href=3D"http://=
+www.easychair.org/conferences/?conf=3Didp09">http://www.easychai<wbr>r.org/=
+conference<wbr>s/?conf=3Didp09</a> .<br>
+<br>
+Author's name and affiliation should be given as requested, but not in the =
+PDF file.<br>
+<br>
+If you have any question concerning the submission procedure or you encount=
+er any problem,<br>
+please send an email at the following address : &lt;mailto:<a href=3D"mailt=
+o:idp09%40linguist.jussieu.fr">idp09@linguist.<wbr>jussieu.fr</a>&gt;<a hre=
+f=3D"mailto:idp09%40linguist.jussieu.fr">idp09@linguist.<wbr>jussieu.fr</a>=
+<br>
+<br>
+Authors may submit as many proposals as they wish.<br>
+<br>
+The proposals will be evaluated anonymously by the scientific committee.<br=
+>
+<br>
+Schedule<br>
+* Submission deadline: April, 26th, 2009<br>
+* Notification of acceptation: June, 8th, 2009<br>
+* Conference (IDP 09): September 9th-11th, 2009.<br>
+<br>
+Further information is available on the conf=E9rence website : &lt;<a href=
+=3D"http://idp09.linguist.univ-paris-diderot.fr/">http://idp09.<wbr>linguis=
+t.<wbr>univ-paris-<wbr>diderot.fr/</a>&gt;<a href=3D"http://idp09.linguist.=
+univ-paris-diderot.fr">http://idp09.<wbr>linguist.<wbr>univ-paris-<wbr>dide=
+rot.fr</a><br>
+<br>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/275=
+3;_ylc=3DX3oDMTM0MjUybTZqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI3NTMEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjM4Nzk3MDYzBHRwY=
+0lkAzI3NTM-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwbDJscjRwBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI3NTMEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjM4Nzk3MDYz?act=3Dreply&me=
+ssageNum=3D2753">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlb2NnMjQxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIzODc5NzA2Mw--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlcGxzdjhiBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIzODc5NzA2Mw--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmdWo2ZW1zBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMzg3OTcwNjM-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbG44aWU1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIzODc5NzA2Mw--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmOWZvbzNqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMzg3OTcwNjM-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjZ2g1ZmM2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMzg3OTcwNjM-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmcmxsMXRzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMzg3OTcwNjM-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlbHNnamZsBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIzODc5NzA2Mw--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkNzAwZmhtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjM4Nzk3MDYz">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkaGNlZWU3BF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjM4Nzk3MDYz">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmZmQyNjFvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMzg3OTcwNjM-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+MGVsdWlsBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjM4Nzk3MDYz">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlcDdrM2I0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIzODc5NzA2Mw--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJraTZkNXNlBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIzODc5NzA2Mw--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuYjFoNm50BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIzODc5NzA2Mw--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvOTZoNG01BF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMzg3OTcwNjM-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2753/stime=3D1238797063/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--XouQxQDiCJ2HOMaySlUkQWvL3og8VQcqmfykghq--

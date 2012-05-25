@@ -1,0 +1,287 @@
+From - Thu Dec 10 14:37:36 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs20755faq;
+        Fri, 3 Jul 2009 02:12:27 -0700 (PDT)
+Received: by 10.114.192.17 with SMTP id p17mr1606336waf.196.1246612345605;
+        Fri, 03 Jul 2009 02:12:25 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 32si6346993pxi.59.2009.07.03.02.12.23;
+        Fri, 03 Jul 2009 02:12:25 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n639CMVw017583
+	for <jpprost@gmail.com>; Fri, 3 Jul 2009 19:12:22 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n639CLu7014365
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 3 Jul 2009 19:12:22 +1000
+X-ASG-Debug-ID: 1246612339-145802660000-RCdhz5
+X-Barracuda-URL: http://137.111.1.21:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id AD48BD688FE
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri,  3 Jul 2009 19:12:19 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra1.its.mq.edu.au with ESMTP id PEmC3FmnpKKW2SGq for <jpprost@mailbox.ics.mq.edu.au>; Fri, 03 Jul 2009 19:12:19 +1000 (EST)
+X-Barracuda-Envelope-From: owner-chr@LISTSERV.CC.KULEUVEN.AC.BE
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n639CHw3017552
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 3 Jul 2009 19:12:17 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 2039756121;
+	Fri,  3 Jul 2009 11:12:14 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 3648686 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Fri, 3 Jul 2009
+          11:12:13 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 8455455A7F for <chr@listserv.cc.kuleuven.ac.be>; Fri,  3 Jul 2009
+          11:12:13 +0200 (CEST)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 9788A51C009 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri,  3 Jul 2009
+          11:12:07 +0200 (CEST)
+Received: from mail.first.fraunhofer.de (mail.first.fraunhofer.de
+          [194.95.169.2]) by cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP
+          id 246292012B for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri,  3 Jul 2009
+          11:11:56 +0200 (CEST)
+Received: from [10.146.68.188] (mahlzahn.first.fraunhofer.de [10.146.68.188])
+          (authenticated bits=0) by mail.first.fraunhofer.de (8.14.3/8.14.3)
+          with ESMTP id n638s3Dn034839 (version=TLSv1/SSLv3
+          cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Fri, 3 Jul 2009
+          10:54:03 +0200 (CEST) (envelope-from Armin.Wolf@first.fraunhofer.de)
+User-Agent: Thunderbird 2.0.0.22 (Windows/20090605)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Greylist: Sender succeeded SMTP AUTH,
+            not delayed by milter-greylist-4.2.2 (mail.first.fraunhofer.de
+            [194.95.169.2]); Fri, 03 Jul 2009 10:54:06 +0200 (CEST)
+X-Virus-Scanned: clamav-milter 0.95.2 at clacks.first.fraunhofer.de
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.2.5 (2008-06-10) on
+                        clacks.first.fraunhofer.de
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=0, required 5,
+               autolearn=disabled)
+X-KULeuven-Envelope-From: armin.wolf@first.fraunhofer.de
+Message-ID:  <4A4DC72B.6060805@first.fraunhofer.de>
+Date:         Fri, 3 Jul 2009 10:54:03 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Armin Wolf <Armin.Wolf@FIRST.FRAUNHOFER.DE>
+X-ASG-Orig-Subj: [CHR] WLP 2009 - Call for Paper - Further Deadline Extension
+Subject: [CHR] WLP 2009 - Call for Paper - Further Deadline Extension
+Comments: To: glp-list@informatik.uni-kiel.de, mgelain@math.unipd.it,
+          cp-election@math.unipd.it, constraints-list@beaune.inria.fr,
+          prog-logique@irisa.fr, clp@comp.nus.edu.sg, ccl@ps.uni-sb.de,
+          eclipse-users@icparc.ic.ac.uk, users@mozart-oz.org,
+          gulp@dimi.uniud.it, sicstus-users@sics.se, prog-lang@diku.dk,
+          lprolog@cs.umn.edu
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1246612339
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.2410
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+Dear reader(s),
+
+please find attached the WLP 2009 - Call for Papers - Further Deadline 
+Extension (August 09);
+see also http://www.constraint-programming.de/wlp2009/ for your 
+information and further distribution.
+
+Please apologize for multiple copies of this announcement.
+
+Yours
+
+Armin Wolf and Ulrich Geske
+(WLP 2009 PC Chairs)
+
+-----%<-----%<-----%<-----%<-----%<-----%<-----%<-----%<-----%<-----%<-----%<-----%<-----%<----
+
+
+
+       Call for Papers - Further Deadline Extension
+       ============================================
+
+      23rd Workshop on (Constraint) Logic Programming
+      ===============================================
+
+         Potsdam, Germany, September 15/16, 2009
+
+     URL: http://www.constraint-programming.de/wlp2009/
+
+      co-located with
+      LPNMR'09 - 10th International Conference
+      on Logic Programming and Nonmonotonic Reasoning
+      URL: http://www.cs.uni-potsdam.de/lpnmr09
+
+General
+-------
+
+The workshops on (constraint) logic programming are the annual meeting
+of the Society of Logic Programming (GLP e.V.)  and bring together
+researchers interested in logic programming, constraint programming,
+and related areas like databases, artificial intelligence and
+operations research. Previous workshops have been held in Germany,
+Austria and Switzerland.  The technical program of the workshop will
+include an invited talk, presentations of refereed papers and demo
+presentations.
+
+Previous workshops took place in Dresden (2008), Würzburg (2007),
+Vienna (2006), Ulm (2005), Potsdam(2004), Dresden(2002), Kiel (2001),
+...
+
+
+Topics
+------
+
+Contributions are welcome on all theoretical, experimental, and
+application aspects of constraint programming (CP) and logic
+programming (LP), including, but not limited to (the order does not
+reflect priorities):
+
+ * Foundations of Constraint/Logic Programming
+ * Constraint Solving and Optimization
+ * Extensions: Functional Logic Programming, Objects
+ * Deductive Databases, Data Mining
+ * Nonmonotonic Reasoning
+ * Dynamics, Updates, States, Transactions
+ * Interaction of CP/LP with other formalisms like Agents, XML, JAVA
+ * Program Analysis, Program Transformation, Program Verification,
+   Meta Programming
+ * Parallelism and Concurrency
+ * Answer-set Programming
+ * Implementation Techniques
+ * Software Techniques (e.g., Types, Modularity, Design Patterns)
+ * Applications (e.g., in Production, Environment, Education, Internet)
+ * Constraint/Logic Programming for Semantic Web Systems and Applications
+ * Reasoning on the Semantic Web
+ * Data Modeling for the Web, Semistructured Data, and Web Query Languages
+
+The primary focus is on new and original research results but
+submissions describing innovative products, prototypes under
+development, interesting experiments (e.g., benchmarks) or ongoing
+scientific work are also encouraged.
+
+Important Note: Co-submission to the LPNMR'09 are possible, however,
+the submitted material can be presented on at most one of both events.
+
+
+Proceedings
+-----------
+
+The proceedings will be published as a technical report of the
+Institute of Computer Science, Potsdam University.
+
+
+Submission
+----------
+
+Authors are invited to submit an extended abstract (no longer than 10
+pages including figures and references) or a system description (no
+longer than 3 pages) in PDF or Postscript format (11pt) before August
+09, 2009 via
+
+EasyChair - URL: http://www.easychair.org/conferences/?conf=wlp2009
+
+All submissions must be written in English.  Authors are strongly
+encouraged to use LaTeX2e and the Springer llncs class file, available
+at http://www.springer.de/comp/lncs/authors.html
+
+All submissions must be unpublished original work. However, Work that
+already appeared in unpublished or informally published workshops
+proceedings may be submitted, too.
+
+Important Note: Co-submission to the LPNMR'09 are possible, however,
+the submitted material can be presented on at most one of both events.
+
+If you have any problems with submitting papers, please send an email
+to armin.wolf@first.fraunhofer.de or ugeske@uni-potsdam.de.
+
+
+Important Dates - Deadline Extension
+------------------------------------
+
+Submission of papers:        August  9, 2009
+Notification of acceptance:  August 21, 2009
+Camera-ready papers:         August 31, 2009
+
+Workshop:            September 15/16, 2009
+
+
+Program committee
+-----------------
+
+Slim Abdennadher (German University Cairo) Christoph Beierle (FernUniv. 
+Hagen)
+Stefan Brass (MLU Halle-Wittenberg) Jürgen Dix (Clausthal University of 
+Technology)
+Tim Furche (LMU München)
+Ulrich Geske (Univ. Potsdam)
+Hans-Joachim Goltz (Fraunhofer FIRST)
+Michael Hanus (CAU Kiel)
+Heinrich Herre (Univ. Leipzig) Steffen Hölldobler (TU Dresden)
+Petra Hofstedt (TU Berlin)
+Ulrich John (SIR Plan GmbH)
+Michael Leuschel (Univ. Düsseldorf)
+Ulrich Neumerkel (TU Wien)
+Frank Raiser (Univ. Ulm)
+Georg Ringwelski (Hochschule Zittau/Görlitz)
+Sibylle Schwarz (Hochschule Zwickau)
+Dietmar Seipel (Univ. Würzburg)
+Michael Thielscher (TU Dresden)
+Hans Tompits (TU Wien)
+Armin Wolf (Fraunhofer FIRST)
+
+
+Chair (Contact)
+---------------
+
+Dr. Armin Wolf
+e-mail: armin.wolf@first.fraunhofer.de
+
+Fraunhofer-Institut für Rechnerarchitektur
+und Softwaretechnik, FIRST
+Kekuléstraße 7
+12489 Berlin  
+Prof. Dr. Ulrich Geske
+e-mail: ulrich.geske@uni-potsdam.de
+
+Universität Potsdam
+Institut für Informatik
+Haus 4 August-Bebel-Straße 89
+14482 Potsdam
+
+
+-- 
+----------------------------------------------------------------------
+ DOTPlan - The Online Participant Booking and Planning System
+--> find it at http://dotplan.first.fraunhofer.de/dotplan/ <--
+----------------------------------------------------------------------
+
+--
+
+Dr. Armin Wolf
+Tel.: +49 (0)30 6392 1864
+Mob.: +49 (0)175 1854 160
+Fax.: +49 (0)30 6392 1805
+E-Mail: Armin.Wolf@first.fraunhofer.de
+
+Fraunhofer-Institut fuer Rechnerarchitektur und Softwaretechnik, FIRST
+Kekulestrasse 7
+12489 Berlin
+Germany
+http://www.first.fraunhofer.de

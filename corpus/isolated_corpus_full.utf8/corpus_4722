@@ -1,0 +1,218 @@
+From - Thu Dec 10 14:35:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.110.146 with SMTP id n18cs147398fap;
+        Tue, 17 Mar 2009 01:51:37 -0700 (PDT)
+Received: by 10.100.134.10 with SMTP id h10mr3637604and.53.1237279895779;
+        Tue, 17 Mar 2009 01:51:35 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id c29si1097949anc.43.2009.03.17.01.51.33;
+        Tue, 17 Mar 2009 01:51:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n2H8pWln028413
+	for <jpprost@gmail.com>; Tue, 17 Mar 2009 19:51:32 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n2H8pW5O026930
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 17 Mar 2009 19:51:32 +1100
+X-ASG-Debug-ID: 1237279890-6eee02c00000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id A89EC2801ED0
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 17 Mar 2009 19:51:30 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id c1k9cDYH4t3AwpLD for <jpprost@mailbox.ics.mq.edu.au>; Tue, 17 Mar 2009 19:51:30 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n2H8pS1B028409
+	for <jpprost@ICS.MQ.EDU.AU>; Tue, 17 Mar 2009 19:51:29 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id A9BC74CE8F;
+	Tue, 17 Mar 2009 09:51:26 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 1960578 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Tue, 17 Mar 2009
+          09:51:26 +0100
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 3507A4CB09 for <chr@listserv.cc.kuleuven.ac.be>; Tue, 17 Mar 2009
+          09:51:26 +0100 (CET)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 3E72351C01B for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009
+          09:51:21 +0100 (CET)
+Received: from hermes.cs.kuleuven.be (mailrelay.cs.kuleuven.be [134.58.40.3])
+          by cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 1EEDE20146
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 09:51:00 +0100
+          (CET)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id n2H8p0mr031778 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 09:51:00 +0100
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id n2H8p0SK006939 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 09:51:00 +0100
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 06743-01-4 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 09:50:48 +0100
+          (CET)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id n2H8nc5n006847 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17
+          Mar 2009 09:49:38 +0100
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.be [134.58.45.101]) by
+          nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          n2H8na0V022002 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT) for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17
+          Mar 2009 09:49:38 +0100
+X-X-Sender: toms@"ender.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="8323329-306335748-1237279778=:19269"
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=1.756, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44, LONGWORDS 3.20)
+X-Spam-Level: *
+X-KULeuven-Envelope-From: tom.schrijvers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0903170949160.19269@ender.cs.kuleuven.be.>
+Date:         Tue, 17 Mar 2009 09:49:36 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] LOPSTR2009 first Call for Papers
+Subject: [MQSPAM]  [CHR] LOPSTR2009 first Call for Papers
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1237279891
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 3.20
+X-Barracuda-Spam-Status: Yes, SCORE=3.20 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=LONGWORDS
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.20568
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	3.20 LONGWORDS              Long string of long words
+X-Priority: 5 (Lowest)
+X-MSMail-Priority: Low
+Importance: Low
+X-Barracuda-Spam-Flag: YES
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--8323329-306335748-1237279778=:19269
+Content-Type: TEXT/PLAIN; format=flowed; charset=iso-8859-15
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+
+Our apologies if you receive this multiple times.
+
+ =09=09=09CALL FOR PAPERS
+
+ =09=0919th International Symposium on
+ =09Logic-Based Program Synthesis and Transformation
+ =09=09=09LOPSTR 2009
+ =09  http://www.cs.kuleuven.be/conference/lopstr09/
+ =09     September 7-11, 2009, Coimbra, Portugal
+
+ =09     (co-located with PPDP 2009 and CSL 2009)
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Objectives:
+
+The aim of the LOPSTR series is to stimulate and promote international
+research and collaboration on logic-based program development.  LOPSTR
+is open to contributions in logic-based program development in any
+language paradigm.  LOPSTR has a reputation for being a lively,
+friendly forum for presenting and discussing work in progress. Formal
+proceedings are produced only after the symposium, so authors can
+incorporate the feedback in the published papers.
+
+
+Topics:
+
+Topics of interest cover all aspects of logic-based program
+development, all stages of the software life cycle, and issues of both
+programming-in-the-small and programming-in-the-large. Papers
+describing applications in these areas are especially welcome.
+Contributions are welcome on all aspects of logic-based program
+development, including, but not limited to:
+
+   specification                           synthesis
+   verification                            transformation
+   analysis                                optimisation
+   composition                             security
+   reuse                                   applications and tools
+   component-based software development    software architectures
+   agent-based software development        program refinement
+
+Survey papers, that present some aspect of the above topics from a new
+perspective, and application papers, that describe experience with
+industrial applications, are also welcome. Papers must describe
+original work, be written and presented in English, and must not
+substantially overlap with papers that have been published or that are
+simultaneously submitted to a journal or a conference with refereed
+proceedings. Work that already appeared in unpublished or informally
+published workshops proceedings may be submitted.
+
+
+IMPORTANT DATES AND SUBMISSION GUIDELINES:
+
+Paper/extended abstract submission:   May 8, 2009
+Notification (for pre-proceedings):   June 15, 2009
+Camera-ready (for pre-proceedings):   July 3, 2009
+Symposium:                            September 9-11, 2009
+
+Submissions can either be (short) extended abstracts or (full) papers
+whose length should not exceed 9 and 15 pages, respectively.
+Submissions must be formatted in the Springer LNCS style (excluding
+well-marked appendices not intended for publication).
+Referees are not required to read the appendices, and thus papers
+should be intelligible without them. Short papers may describe
+work-in-progress or tool demonstrations.
+
+Both short and full papers can be accepted for presentation at the
+symposium and will then appear in the LOPSTR09 pre-proceedings.
+Full papers can also be immediately accepted for publication
+in the formal proceedings, published by Springer-Verlag
+in the LNCS series. In addition, after the symposium,
+the programme committee will select further short or full
+papers presented in LOPSTR09 to be considered for formal publication.
+These authors will be invited to revise and/or extend their submissions
+in the light of the feedback solicited at the symposium. Then after
+another round of reviewing, these revised papers can also be published
+in the formal proceedings.
+
+Papers should be submitted either in PostScript or PDF format and they
+should be interpretable by Ghostscript or Acrobat Reader.
+
+
+Program Committee:
+
+Slim Abdennadher=09German University Cairo, Egypt
+Mar=EDa Alpuente Frasnedo=09Technical University of Valencia, Spain
+Roberto Bagnara=09=09University of Parma, Italy
+Danny De Schreye=09K.U.Leuven, Belgium (Chair)
+John Gallagher=09=09Roskilde University, Denmark
+Robert Gl=FCck=09=09University of Copenhagen, Denmark
+Michael Hanus=09=09University of Kiel, Germany
+Reinhard Kahle=09=09Universidade Nova de Lisboa, Portugal
+Andy King=09=09University of Kent, UK
+Michael Leuschel=09University of Duesseldorf, Germany
+Fabio Martinelli=09Istituto di Informatica e Telematica Pisa, Italy
+Fred Mesnard=09=09Universite de La Reunion, France
+Mario Ornaghi=09=09Universita degli Studi di Milano, Italy
+German Puebla=09=09Technical University of Madrid, Spain
+Sabina Rossi=09=09Universita Ca' Foscari di Venezia, Italy
+Josep Silva=09=09Technical University of Valencia, Spain
+Peter Schneider-Kamp=09University of Southern Denmark, Denmark
+Tom Schrijvers=09=09K.U.Leuven, Belgium
+Petr Stepanek=09=09Charles University Prague, Czech Republic
+Wim Vanhoof=09=09University of Namur, Belgium
+--8323329-306335748-1237279778=:19269--

@@ -1,0 +1,974 @@
+From - Thu Dec 10 14:26:13 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.58.8 with SMTP id g8cs336168waa;
+        Wed, 14 Mar 2007 14:25:19 -0700 (PDT)
+Received: by 10.100.164.14 with SMTP id m14mr2496747ane.1173907519122;
+        Wed, 14 Mar 2007 14:25:19 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id c37si14450856ana.2007.03.14.14.25.17;
+        Wed, 14 Mar 2007 14:25:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l2ELPGgK004151
+	for <jpprost@gmail.com>; Thu, 15 Mar 2007 08:25:16 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l2ELPFjO019463
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 15 Mar 2007 08:25:16 +1100 (EST)
+X-ASG-Debug-ID: 1173907475-6bba00220000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1173907475
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP
+	id D2BB8D564013; Thu, 15 Mar 2007 08:24:35 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l2ELOYoC004029;
+	Thu, 15 Mar 2007 08:24:35 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	l2ELOCu5003959; Thu, 15 Mar 2007 08:24:12 +1100 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	l2EAYlxe010811 for <comp-it-announce@ics.mq.edu.au>;
+	Wed, 14 Mar 2007 21:34:47 +1100 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id l2EAYhKo004397
+	for <comp-it-announce@ics.mq.edu.au>;
+	Wed, 14 Mar 2007 21:34:47 +1100 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Wed, 14 Mar 2007 21:32:06 +1100
+Received: by staff.cs.usyd.edu.au with postie; Wed, 14 Mar 2007 21:30:35 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Wed, 14 Mar 2007 21:30:25 +0000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id l2EAUP2k003239
+	for <itannounce@it.usyd.edu.au>; Wed, 14 Mar 2007 21:30:25 +1100
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id l2EAUOU3003237
+	for itannounce@it.usyd.edu.au; Wed, 14 Mar 2007 21:30:24 +1100
+Date: Wed, 14 Mar 2007 21:30:24 +1100
+To: itannounce@it.usyd.edu.au
+Message-ID: <20070314103024.GA3211@flexal3.cs.usyd.edu.au>
+Mime-Version: 1.0
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Wed, 14 Mar 2007 21:31:32 +1100
+From: itannounce@sun1.cs.usyd.edu.au
+X-BeenThere: itannounce@pop.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Thu, 15 Mar 2007 08:24:04 +1100
+X-BeenThere: comp@ics.mq.edu.au
+Content-Type: multipart/mixed; boundary="===============1419056594=="
+X-ASG-Orig-Subj: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2
+	March 2007
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2
+	March 2007
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 2.44
+X-Barracuda-Spam-Status: No, SCORE=2.44 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=DEAR_SOMETHING, MAILTO_TO_SPAM_ADDR, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.11262
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 NO_REAL_NAME           From: does not include a real name
+	1.61 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+	0.28 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+
+--===============1419056594==
+Content-Type: text/plain; charset=unknown-8bit
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 2 for March, 2007. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  Call for Papers: ACM SenSys 2007
+  BPM 2007 (5th International Conference on Business Process Management)
+  PDCAT'07: CFP (The Eight International Conference on Parallel and Distributed Computing, Applications and Technologies)
+
+International Conference Announcements
+
+  ACIVS 2007 Advanced Concepts for Intelligent Vision Systems
+  Special session on: Evolutionary Computation in Games
+  CMLSA 2007: Conceptual Modelling for Life Sciences Applications
+  3rd International Conference on Semantics, Knowledge and Grid (SKG 2007)
+  CFP: IEEE/WIC/ACM Web Intelligence 2007 (Silicon Valley,USA)
+  WI-IAT'07 (Silicon Valley, USA) - Call for Workshop Proposals
+  SEKE2007 Deadline is further extended to March 8, 2007
+  2007 IFIP International Workshop on Network and System Security (NSS 2007)
+  IEEE LCN 2007- The 32nd Annual IEEE Conference on Local Computer Networks
+  10th ACM/IEEE MSWiM 2007- Greece
+  11th IEEE/ACM Distributed Simulation and Virtual reality
+  BPSC'07 (Business Process and Services Computing
+  The 7th International Workshop on Advanced Parallel Processing Technologies
+  CFP: 2nd Int'l WS on Service- and Process-Oriented Software Engineering
+  2007 International Symposium on Computational Models for Life Sciences CMLS'07
+  CFP: IEEE LCN ON-MOVE 2007- Workshop On User MObility and Vehicular Networks
+  CFP Submission - The Second IEEE LCN Workshop on Network Measurements
+  CfP: 3rd IEEE LCN Workshop on Network Security
+  mda4soa'07 - Modeling, Design, and Analysis for Service-oriented Architectures Workshop; 2nd edition
+  2nd Int'l WS on Service- and Process-Oriented Software Engineering
+  IEEE SenseApp 2007 - Practical Issues in Building Sensor Network Applications
+  FCS-ARSPA'07 (Workshop on Foundations of Computer Security and Automated Reasoning for Security Protocol Analysis)
+
+Academic Positions
+
+  Research Assistant / Fellow in Computational Linguistics
+  PhD Scholarship at MQ in Trust and Security  Closing date: 15 April 2007
+  Research Associate position available in area of Mobile Trust, UTS
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  Call for Papers: ACM SenSys 2007
+  guoqiang@ee.usyd.edu.au
+
+=====================================================================
+ACM SenSys 2007: Call for Papers
+The 5th ACM Conference on Embedded Networked Sensor Systems
+November 6-9, 2007* (subject to confirmation)
+Sydney, Australia
+http://sensys.acm.org/2007/
+=============================================================================
+
+Sponsored by ACM SIGCOMM, SIGMOBILE, SIGARCH, SIGOPS, SIGMETRICS and
+SIGBED (approval pending); with support from NSF.
+
+The 5th ACM Conference on Embedded Networked Sensor Systems (SenSys)
+is a highly selective, single-track forum for the presentation of
+research results on systems issues in the area of embedded, networked
+sensors. Distributed systems based on networked sensors and actuators
+with embedded computation capabilities enable an instrumentation
+of the physical world at an unprecedented scale and density, thus
+enabling a new generation of monitoring and control applications. This
+conference provides an ideal venue to address the research challenges
+facing the design, deployment, use, and fundamental limits of these
+systems. Sensor networks require contributions from many fields, from ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt0
+
+======================================================================
+
+  BPM 2007 (5th International Conference on Business Process Management)
+  cliu@ict.swin.edu.au
+
+Call for Papers - BPM 2007
+
+5th INTERNATIONAL CONFERENCE ON BUSINESS PROCESS MANAGEMENT
+http://bpm07.fit.qut.edu.au
+
+Brisbane, Australia, 24-27 September 2007
+Organized by the
+BPM Research Group
+Faculty of Information Technology
+Queensland University of Technology
+
+
+BPM 2007 is the fifth in a conference series that provides one of the most
+prestigious forums for researchers and practitioners in all aspects of
+business process management. The conference has a record of attracting
+innovative research of the highest quality related to all aspects of
+business process management (theory, frameworks, methods, techniques,
+software architectures, empirical findings).
+
+One explicit aim of BPM 2007 will be to provide a unique forum for
+bridging the viewpoints of leading research outcomes with practical ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt1
+
+======================================================================
+
+  PDCAT'07: CFP (The Eight International Conference on Parallel and Distributed Computing, Applications and Technologies)
+  qsheng@cs.adelaide.edu.au
+
+PDCAT'07 Call for Papers (3-6 December 2007, Adelaide, Australia)
+=================================================================
+
+The Eight International Conference on Parallel and Distributed Computing,
+Applications and Technologies (PDCAT'07)
+December 3-6, 2007, Adelaide, South Australia
+Co-sponsored by IEEE
+http://www.cs.adelaide.edu.au/pdcat07
+
+
+CALL FOR PAPERS
+
+The International Conference on Parallel and Distributed Computing,
+Applications and Technologies (PDCAT) is a major forum for scientists,
+engineers, and practitioners throughout the world to present the latest
+research, results, ideas, developments and applications in all areas of
+parallel and distributed computing.
+
+Following PDCAT'00 in Hong Kong, PDCAT'01 in Taipei, PDCAT'02 in Kanazawa,
+Japan, PDCAT'03 in Chengdu, China, PDCAT'04 in Singapore, PDCAT'05 in
+Dalian, China and PDCAT'06 in Taipei, Taiwan; PDCAT'07 will be held for ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt2
+
+======================================================================
+
+
+International Conference Announcements
+
+  ACIVS 2007 Advanced Concepts for Intelligent Vision Systems
+  Dan.Popescu@cmis.csiro.au
+                             ACIVS 2007
+
+Advanced Concepts for
+Intelligent Vision Systems
+
+August 28-31, 2007
+Delft University
+the Netherlands
+
+http://acivs.org/acivs2007/
+Lecture Notes in Computer Science
+
+Sponsored by: Eurasip, IEEE Benelux Signal Processing Chapter,
+DSP Valley, Philips, Barco.
+
+Acivs 2007 is a conference focusing on techniques for building
+adaptive, intelligent, safe and secure imaging systems. Acivs 2007
+will consist of four days of lecture sessions, both regular (25 mns)
+and invited presentations, and poster sessions. The proceedings of
+Acivs 2007 will be published by Springer Verlag in the Lecture Notes
+in Computer Science series.
+
+Important deadlines ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  Special session on: Evolutionary Computation in Games
+  p.hingston@ecu.edu.au
+
+Dear Games Researcher,
+
+This email is to remind you about the special session on evolutionary
+computation in games to be held at the upcoming IEEE Congress on
+Evolutionary Computation (CEC'07).  CEC'07 will be held in Singapore
+from 25-28 September 2007.
+
+
+Special session on: Evolutionary Computation in Games
+=====================================================
+
+Games have proven to be an ideal test domain for the study of evolutionary
+algorithms as not only are they fun to play and interesting to observe,
+but they provide competitive and dynamic environments that model many
+real-world problems.  Evolutionary techniques have successfully been
+applied to many different kinds of games, however a number of research
+questions still remain.  This special session aims to bring together
+leading researchers and practitioners from academia and industry to
+discuss recent advances and explore future directions in this field.
+
+Topics of interest include, but are not limited to, the following: ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  CMLSA 2007: Conceptual Modelling for Life Sciences Applications
+  M.Kirchberg@massey.ac.nz
+
+
+F I R S T    C A L L    F O R    P A P E R S
+----------------------------------------------
+
+First International Workshop on
+
+Conceptual Modelling for Life Sciences Applications
+
+November 05-09, 2007 -- Auckland, New Zealand
+
+http://er2007.massey.ac.nz/cmlsa07/
+
+
+CMLSA 2007 will be held in conjunction with the Twenty-Sixth
+International Conference on Conceptual Modeling (ER 2007).
+
+
+Life Sciences applications typically involve large volumes of data
+of various kinds and a multiplicity of software tools for managing,
+analysing and interpreting them. There are many challenging problems in
+the processing of life sciences data that require effective support by ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  3rd International Conference on Semantics, Knowledge and Grid (SKG 2007)
+  r.wang@massey.ac.nz
+
+=========================================================================
+3rd International Conference on Semantics, Knowledge and Grid (SKG 2007)
+
+Oct.29-31, 2007, Xi'an, China
+=========================================================================
+The International Conference on Semantics, Knowledge and Grid (SKG)
+is a cross-area international forum on semantic computing, knowledge
+networking, and grid computing. SKG promotes cross-area research and
+pushes the development of relevant areas. SKG2007 will be held in Xi'an,
+a city with 3100 years' history.
+
+THEMES (include but not limited to)
+(1) Semantics and Semantic Grid.
+.Semantic Web
+.Semantic Search and Query
+.Semantic Link Network
+.Semantic Normalization
+.Semantic Interoperability
+.Semantic Visualization and Modeling
+.Semantic Web Mining
+.Semantic Brokering ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  CFP: IEEE/WIC/ACM Web Intelligence 2007 (Silicon Valley,USA)
+  wi-iat@maebashi-it.org
+
+#####################################################################
+IEEE/WIC/ACM WEB INTELLIGENCE 2007
+CALL FOR PAPERS
+#####################################################################
+
+2007 IEEE/WIC/ACM International Conference on
+Web Intelligence (WI'07)
+
+Silicon Valley, USA, November 2-5, 2007
+Official: http://www.cs.sjsu.edu/wi07/wi/
+Mirror:   http://www.maebashi-it.org/wi07/wi/
+(to be collocated with IAT'07, BIBM'07 and GrC'07)
+
+Sponsored By
+IEEE Computer Society
+Web Intelligence Consortium (WIC)
+Association for Computing Machinery (ACM)
+
+######################################################################
+# Conference Chair
+#    Andrei Broder, VP, Yahoo Fellow, Yahoo! Research ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  WI-IAT'07 (Silicon Valley, USA) - Call for Workshop Proposals
+  wi-iat@maebashi-it.org
+
+==============================================================
+Call for Workshop Proposals
+
+2007 IEEE/WIC/ACM International Joint
+Conference on Web Intelligence and Intelligent Agent Technology
+(WI-IAT'07)
+
+Silicon Valley, USA, November 2-5, 2007.
+http://www.cs.sjsu.edu/wi07/
+
+*******************************************************************
+Workshop Proposals Due: ** March 20 **, 2007
+
+All papers accepted for workshops will be included in the Workshop
+Proceedings published by the IEEE Computer Society Press,
+which are indexed by EI.
+===================================================================
+
+The Program Committees of the 2007 IEEE/WIC/ACM International Joint
+Conference on Web Intelligence and Intelligent Agent Technology
+(WI-IAT'07) invite proposals for Workshops.  The Workshops will be ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+  SEKE2007 Deadline is further extended to March 8, 2007
+  Michael.Shin@ttu.edu
+
+---------------------------------------------------
+Deadline is further extended to March 8, 2007
+---------------------------------------------------
+The Nineteenth International Conference on Software Engineering and
+Knowledge Engineering
+
+
+SEKE'2007
+Hyatt Harborside at Logan Int'l Airport, Boston, USA
+July 9 - July 11, 2007
+http://www.ksi.edu/seke/seke07.html
+
+
+Organized by Knowledge Systems Institute
+
+
+
+CALL FOR PAPERS
+
+The Nineteenth International Conference on Software Engineering and
+Knowledge Engineering (SEKE'07) will be held in Hyatt Harborside ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt6
+
+======================================================================
+
+  2007 IFIP International Workshop on Network and System Security (NSS 2007)
+  y.xiang@cqu.edu.au
+
+===========================================================================
+NSS 2007 - http://nss2007.cqu.edu.au
+2007 IFIP International Workshop on Network and System Security (NSS 2007)
+20th September 2007, Dalian, China
+In conjunction with IFIP International Conference on Network and Parallel
+Computing (NPC 2007)
+http://www.dlmu.edu.cn/npc2007/
+
+Call For Papers
+---------------
+In recent years, there has been significant increase in Internet attacks,
+such as DDoS, viruses, worms, spyware, and malware, etc, causing huge
+economical and social damage. While the attack systems have become more
+easy-to-use, sophisticated, and powerful, interest has greatly increased
+in the field of building more effective, intelligent, and active defense
+systems which are distributed and networked. We will focus our program on
+issues related to Network and System Security, such as authentication,
+access control, availability, integrity, privacy, confidentiality,
+dependability and sustainability of network defense systems. We also
+welcome research reports on network attack systems; because we believe
+only by fully understanding the attack mechanisms can we perform ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt7
+
+======================================================================
+
+  IEEE LCN 2007- The 32nd Annual IEEE Conference on Local Computer Networks
+  boukerch@site.uottawa.ca
+
+=================================================================
+Paper registration deadline: April 2, 2007
+Paper submission deadline:   April 9, 2007
+-----------------------------------------------------------------
+
+LCN 2007
+The 32nd Annual IEEE Conference on
+Local Computer Networks (LCN)
+http://www.ieeelcn.org
+
+Sponsored by the IEEE Computer Society and
+the IEEE Computer Society Technical Committee
+on Computer Communications (TCCC)
+
+with support from:
+Telecommunications Software & Systems Group (TSSG)/
+Waterford Institute of Technology,
+Ericsson UK
+
+Dublin, Ireland
+October 15-18, 2007 ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt8
+
+======================================================================
+
+  10th ACM/IEEE MSWiM 2007- Greece
+  boukerch@site.uottawa.ca
+
+---------------------------------------------------------------------------
+10th ACM/IEEE  MSWiM 2007
+---------------------------------------------------------------------------
+Call for Papers
+The 10th ACM/IEEE* International Symposium on
+Modeling, Analysis and Simulation of Wireless and Mobile Systems
+Chania, Crete Island, Greece
+October 22 - 26, 2007
+http://www.cs.unibo.it/mswim2007
+---------------------------------------------------------------------------
+Note: A Special Issue of Performance Evaluation (Elsevier) is planned
+and will
+contain a revised and extended version of selected best papers from
+MSWiM 2007
+--------------------------------------------------------------------------
+
+
+* IEEE/ACM Pending Upon Approval
+--------------------------------------------------------------------------
+Submission deadline: May 2, 2007
+-------------------------------------------------------------------------- ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt9
+
+======================================================================
+
+  11th IEEE/ACM Distributed Simulation and Virtual reality
+  boukerch@site.uottawa.ca
+
+------------------------------------------------------------------------
+
+Call for Papers
+DS-RT 2007
+11th IEEE/ACM* International Symposium on
+Distributed Simulation and Real Time Applications,
+http://www.cs.unibo.it/ds-rt2007/
+October 22-26, 2007
+Chania, Crete Island, Greece
+
+* IEEE/ACM pending upon Approval
+
+------------------------------------------------------------------------
+Submission Deadline: May 10th, 2007
+------------------------------------------------------------------------
+
+Scope
+
+In its eleventh anniversary, the 2007 IEEE/ACM International Symposium
+on Distributed Simulation and Real Time Applications (DS-RT 2007) will
+take place in Chania, Crete Island, Greece, in conjunction with the  10th ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt10
+
+======================================================================
+
+  BPSC'07 (Business Process and Services Computing
+  leszek@ics.mq.edu.au
+
+1st International Conference on Business Process and Services Computing -
+BPSC'2007
+
+25-26 September 2007, Leipzig, Germany
+http://bpsc.sabre-conference.com
+as part of SABRE www.sabre-conference.com
+
+IMPORTANT DATES
+
+Submission of papers:	    May 4, 2007
+Notification of acceptance: June 15, 2007
+Camera-ready papers:	    July 6, 2007
+Conference:		    September 25-26, 2007
+
+MISSION
+
+The mission of BPSC (Business Process and Services Computing) conferences
+is to be a prime international forum to discuss and publish research
+findings and IT industry experiences with relation to process-centric
+service-oriented paradigm as it applies to the development and integration
+of enterprise and e-business information systems. By looking at the ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt11
+
+======================================================================
+
+  The 7th International Workshop on Advanced Parallel Processing Technologies
+  bbz@it.usyd.edu.au
+
+The 7th International Workshop on Advanced Parallel Processing
+Technologies
+APPT07 (http://appt07.gdut.edu.cn)
+Nov. 22-23, 2007
+Guangzhou, China
+
+Sponsored by
+Architecture Professional Committee of China Computer Federation
+National Laboratory for Parallel and Distributed Processing, China
+Guangdong University of Industry, China
+University of New South Wales, Australia
+
+In cooperation with
+IEEE TCPP, IEEE-HK, Guangdong Computer Federation of CCF
+
+--------------------------------------------------------------------------------
+APPT07 will be the 7th bi-annual conference on parallel processing
+technologies aimed at providing an exciting platform and paradigm
+attracting professionals of different communities such as industry and
+academic. Although the original objective is to share the experience
+in the area of the parallel processing technology with the underlying ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt12
+
+======================================================================
+
+  CFP: 2nd Int'l WS on Service- and Process-Oriented Software Engineering
+  mmrb95@uow.edu.au
+
+SOPOSE'07 Call for Papers (Apologies if you receive multiple
+announcements)
+
+*****************************************************************************************************************************
+2nd International Workshop on Service- and Process-Oriented Software
+Engineering (SOPOSE-07)
+
+To be held in conjunction with the 2007 IEEE Services Congress,
+incoporating the IEEE International Conference on Web Services
+(ICWS 2007) and IEEE International Conference on Services
+Computing (SCC 2007), Salt Lake City, Utah, USA, July 9-13,
+2007(http://conferences.computer.org/services/2007/).
+
+WORKSHOP WEBPAGE: http://www.dsl.uow.edu.au/sopose
+*****************************************************************************************************************************
+
+THEME:
+It is now widely recognized that service-oriented computing will be the
+dominant computing paradigm for at least the next decade. Businesses
+are also increasingly committing to a process-oriented approach in
+Business Process Management (BPM), which requires careful modelling, ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt13
+
+======================================================================
+
+  2007 International Symposium on Computational Models for Life Sciences CMLS'07
+  tuan.pham@jcu.edu.au
+
+2007 International Symposium on Computational Models for Life Sciences  CMLS'07
+
+December 10-12, 2007, Gold Coast, Queensland, Australia
+
+Symposium website: http://www.it.jcu.edu.au/~pham/CMLS07/CMLS07.htm
+
+
+-----------------------
+*** CALL FOR PAPERS ***
+-----------------------
+
+With an emphasis on the applications of computer, physical, engineering
+and mathematical models for solving modern challenging problems in life
+sciences, CMLS07 aims to bring biologists, medical
+and health-science researchers together with computational scientists
+to focus on problems at the frontier of computational life sciences. A
+goal of this meeting is that the interactions of scientists
+across several disciplines will lead to the identification of new
+scientific investigations, shape future directions for strategic research,
+and help industrial users apply advanced computational techniques for
+solving practical life-science problems. As another important aspect, ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt14
+
+======================================================================
+
+  CFP: IEEE LCN ON-MOVE 2007- Workshop On User MObility and Vehicular Networks
+  soumaya.cherkaoui@usherbrooke.ca
+
+----------------------------------------------------
+CALL FOR PAPERS
+
+IEEE LCN ON-MOVE 2007 Workshop On User MObility and VEhicular Networks
+http://www.ieee-lcn-onmove.org/
+
+Dublin, Ireland; October 15-18, 2007.
+----------------------------------------------------
+To be held in conjuction with  IEEE LCN http://www.ieeelcn.org/
+-------------------------------------------------------------
+
+IMPRTANT DATES:
+* Paper registration deadline: April 23, 2007
+* Paper submission deadline: April 30, 2007
+* Notification of acceptance: June 25, 2007
+* Camera-ready paper due: July 23, 2007
+*  Author registration by: July 23, 2007
+
+SCOPE:
+
+Users are becoming increasingly mobile and this requires solutions to ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt15
+
+======================================================================
+
+  CFP Submission - The Second IEEE LCN Workshop on Network Measurements
+  Nischal.Piratla@telekom.de
+       The Second IEEE LCN Workshop on Network Measurements
+
+To be held in conjunction with The 32nd IEEE Conference on
+Local Computer Networks (LCN 2007)
+October 15-18, 2007
+Dublin, Ireland
+
+CALL FOR PAPERS
+
+The Second LCN International Workshop on Network Measurements,
+will be held in conjunction with the IEEE Conference on Local
+Computer Networks (LCN). The workshop will include papers and
+panels dealing with latest advances and challenges facing the
+field. The expected audience will include networking
+researchers, practitioners, scientists and engineers, academia
+and government.
+
+The first  IEEE LCN Workshop on Network Measurements was very
+successful in bringing together a set of participants actively
+working on network measurements in various domains. This year
+we will continue with the theme Network Measurements 
+Different Perspectives, to further promote the exchange of
+knowledge among different network measurement domains. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt16
+
+======================================================================
+
+  CfP: 3rd IEEE LCN Workshop on Network Security
+  toelle@fgan.de
+
+-----------------------------------------------
+Call for Papers
+
+WNS 2007
+The Third IEEE LCN Workshop on Network Security
+
+Dublin, Ireland, October 2007
+
+http://wns.fgan.de
+-----------------------------------------------
+
+The Third IEEE LCN Workshop on Network Security will be held in
+conjunction with the IEEE Conference on Local Computer Networks (LCN)
+(Please also visit http://www.ieeelcn.org/). The workshop will bring
+together networking researchers, engineers, and practitioners with
+participants from industry, academia, and government.
+
+Topics of Interest:
+
+The proliferation of commercial activities over different networked
+systems has brought security concerns on an unprecedented scale. From ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt17
+
+======================================================================
+
+  mda4soa'07 - Modeling, Design, and Analysis for Service-oriented Architectures Workshop; 2nd edition
+  mda4soa@gmail.com
+
+First Call for Submissions
+(Submissions deadline: April 2, 2007)
+
+-----------------------------------------------------------------------------------------------
+Modeling, Design, and Analysis for Service-oriented Architectures
+Workshop; 2nd edition
+(mda4soa'07)
+http://events.deri.at/mda4soa2007/
+
+co-located with the 2007 IEEE International Conferences on
+Services Computing (SCC 2007) and Web Services (ICWS 2007)
+
+July 13, 2007, Salt Lake City, Utah, USA
+--------------------------------------------------------
+
+GENERAL OVERVIEW
+
+A new paradigm "service-orientation" is currently emerging for distributed computing
+and e-business processing; it has evolved from object-oriented and component-based
+computing to enable building agile networks of collaborating business applications
+distributed within and across organizational boundaries. This new paradigm utilizes ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt18
+
+======================================================================
+
+  2nd Int'l WS on Service- and Process-Oriented Software Engineering
+  mmrb95@uow.edu.au
+
+*****************************************************************************************************************************
+2nd International Workshop on Service- and Process-Oriented Software
+Engineering (SOPOSE-07)
+
+To be held in conjunction with the 2007 IEEE Services Congress,
+incoporating the IEEE International Conference on Web Services
+(ICWS 2007) and IEEE International Conference on Services
+Computing (SCC 2007), Salt Lake City, Utah, USA, July 9-13,
+2007(http://conferences.computer.org/services/2007/).
+
+WORKSHOP WEBPAGE: http://www.dsl.uow.edu.au/sopose
+*****************************************************************************************************************************
+
+THEME:
+It is now widely recognized that service-oriented computing will be the
+dominant computing paradigm for at least the next decade. Businesses
+are also increasingly committing to a process-oriented approach in
+Business Process Management (BPM), which requires careful modelling,
+documentation and management, as well as continual improvement of,
+business processes. The software engineering questions relating to
+service-oriented systems, as well as those relating to process-oriented ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt19
+
+======================================================================
+
+  IEEE SenseApp 2007 - Practical Issues in Building Sensor Network Applications
+  salilk@cse.unsw.edu.au
+
+__________________________________________________________________________________
+
+SENSEAPP 2007
+SECOND IEEE INTERNATIONAL WORKSHOP ON PRACTICAL ISSUES IN
+BUILDING SENSOR NETWORK APPLICATIONS
+(in conjunction with IEEE LCN 2007)
+Dublin, Ireland
+15 - 18 October 2007
+Web: http://www.cse.unsw.edu.au/~senseapp
+
+
+CALL FOR PAPERS
+
+
+Sensor nodes are tiny autonomous devices that combine sensing, computing
+and wireless communication capabilities. These nodes are deeply embedded
+into the physical surroundings, and gather and process information such
+as temperature, humidity, light characteristics, seismic activities or
+images and sound samples from the physical world. Networked systems
+of such sensors are expected to be used in a variety of applications
+including habitat monitoring, precision agriculture, disaster recovery ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt20
+
+======================================================================
+
+  FCS-ARSPA'07 (Workshop on Foundations of Computer Security and Automated Reasoning for Security Protocol Analysis)
+  Luca Vigano <vigano@inf.ethz.ch>
+
+************************
+****		    ****
+****  FCS-ARSPA'07  ****
+****		    ****
+************************
+
+A LICS'07  and ICALP'07 Affiliated Workshop on
+
+FOUNDATIONS OF COMPUTER SECURITY
+and
+AUTOMATED REASONING FOR SECURITY PROTOCOL ANALYSIS
+
+Wroclaw, Poland, July 8-9, 2007
+
+http://profs.sci.univr.it/~vigano/fcs-arspa07
+
+
+
+***********************
+***	 FIRST	    ***
+*** CALL FOR PAPERS *** ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt21
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  Research Assistant / Fellow in Computational Linguistics
+  a.dong@arch.usyd.edu.au
+
+The Key Centre of Design Computing and Cognition at the University of
+Sydney is seeking to award a Post-Doctoral Fellowship to an excellent
+candidate who has recently completed, or is about to complete, an earned
+doctorate in computer science with a research emphasis in computational
+linguistics, and now wishes to continue a career in research or higher
+education. The Fellowship is funded by an ARC Discovery Project grant and
+will provide support for up to 3 years. The Fellow will contribute to the
+research on a language model of design with application to the analysis of
+text relating to the design of civic works. Successful applicants will be
+expected to commence in 2007. Further information can be obtained from Dr
+Andy Dong, The University of Sydney, Key Centre of Design Computing and
+Cognition, Wilkinson Building (G04), NSW 2006 (Phone: (02) 9351 4766;
+Fax: (02) 9351 3031 E-mail: andy.dong at usyd.edu.au). Expressions of
+interest or applications should be sent directly to Dr Andy Dong at the
+above address. Applications should include a curriculum vitae, a brief
+statement of research interests and achievements, and the names and
+contact details of at least two referees. The term of the appointment
+and the salary level are negotiable based on the candidates' interests
+and experience. However, it is expected to appoint the candidate at
+minimum 50% FTE in the Level A academic staff rate. Please refer to
+http://www.usyd.edu.au/hr/eb/2006/AC_annual_rates.pdf for the current ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  PhD Scholarship at MQ in Trust and Security  Closing date: 15 April 2007
+  yanwang@ics.mq.edu.au
+
+Service-oriented computing is an emerging field involving a diversity
+of e-services and complex technologies. Mechanisms for evaluating and
+enhancing the quality and reputation of services are critical. This
+project will investigate the reputation-based trust modeling and
+evaluation approaches in service-oriented environments. Additionally
+security mechanisms will be studied to enable a secure and reliable
+trust management system.
+
+A full-time Macquarie University Research Excellence Scholarships (MQRES)
+is currently available to domestic and international students. Applicants
+should have completed equivalent research qualifications to an Australian
+undergraduate degree with first class honours in computer science, such
+as a Masters degree with substantial thesis component. Candidates with
+the experience on Web services are encouraged to apply. International
+applicants may need the IELTS score of 7.0 for the scholarship.
+
+The MQRES stipend is currently $19,616 p.a. tax exempt (2007). Tenure
+is 3.5 years full-time, subject to satisfactory progress with tuition
+fees funded for the scholarship tenure. Additional support for project
+costs and conference travel will also be available from the Divisional
+(approx $12,000) and University (approx $4,000) Postgraduate Research ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
+
+  Research Associate position available in area of Mobile Trust, UTS
+  Robert James Steele <rsteele@it.uts.edu.au>
+
+Faculty of Information Technology
+Ref No. R160207
+Applications are invited for a Research Associate to work on the ARC
+Discovery Project "An Innovative Framework and Techniques for Trusted
+Mobile Interaction".
+
+This project will research new approaches to enabling trusted mobile
+interaction, an issue of growing academic and industry importance.
+
+The successful applicant will have a strong knowledge of XML as well as
+a strong understanding of security techniques and concepts.
+
+The project will be carried out at the Sydney CBD, UTS campus, and is
+available to start immediately.
+
+Salary range:
+
+Level A: $51,677 - $62,939pa. The University offers salary packaging
+plus attractive superannuation.
+
+This position is offered as a fixed-term contract for a period of ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt2
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+
+--===============1419056594==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+
+--===============1419056594==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds
+
+--===============1419056594==--

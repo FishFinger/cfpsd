@@ -1,0 +1,877 @@
+From - Thu Dec 10 14:37:39 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs197287faq;
+        Mon, 6 Jul 2009 03:19:22 -0700 (PDT)
+Received: by 10.210.78.16 with SMTP id a16mr5322275ebb.66.1246875562128;
+        Mon, 06 Jul 2009 03:19:22 -0700 (PDT)
+Return-Path: <sentto-1622440-2911-1246875547-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com>
+Received: from relay2-d.mail.gandi.net (relay2-d.mail.gandi.net [217.70.183.194])
+        by mx.google.com with ESMTP id 10si152972ewy.80.2009.07.06.03.19.20;
+        Mon, 06 Jul 2009 03:19:21 -0700 (PDT)
+Received-SPF: neutral (google.com: 217.70.183.194 is neither permitted nor denied by domain of sentto-1622440-2911-1246875547-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) client-ip=217.70.183.194;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.183.194 is neither permitted nor denied by domain of sentto-1622440-2911-1246875547-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2911-1246875547-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from spool.mail.gandi.net (mspool3-v.mgt.gandi.net [10.0.21.73])
+	by relay2-d.mail.gandi.net (Postfix) with ESMTP id C1491225196
+	for <jpprost@gmail.com>; Mon,  6 Jul 2009 12:19:20 +0200 (CEST)
+Received: from localhost (mfilter6-d.gandi.net [217.70.178.40])
+	by spool.mail.gandi.net (Postfix) with ESMTP id B2D4A1B4087
+	for <jpprost@gmail.com>; Mon,  6 Jul 2009 12:19:20 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter6-v.mgt.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.73])
+	by localhost (mfilter6-d.mgt.gandi.net [217.70.178.40]) (amavisd-new, port 10024)
+	with ESMTP id ieMW9uUxlSjF for <jpprost@gmail.com>;
+	Mon,  6 Jul 2009 12:19:19 +0200 (CEST)
+Received: from n44b.bullet.mail.sp1.yahoo.com (n44b.bullet.mail.sp1.yahoo.com [66.163.168.158])
+	by spool.mail.gandi.net (Postfix) with SMTP id 478E01B4091
+	for <jean-philippe.prost@lpl-aix.fr>; Mon,  6 Jul 2009 12:19:14 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1246875549; bh=YI/SX9lCAbdXyA99MDJLVXxHf3cDmolTaQGiIuP5cpo=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:To:Message-ID:X-Priority:X-MSMail-Priority:X-Mailer:Importance:Thread-Index:X-MimeOLE:X-Originating-IP:X-eGroups-Msg-Info:From:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=TDgNDEykSYopmxqJdyR/6Y9Y8sxGJ8sEgBpGwiIUWWa52Ux39s01cCm9JrTBNWLu7B+xZ2kpcvlRXh/Vp0YRz2Z/OBlu5vreNdF1CeTMRZVdtuiuUM82vxGCfe5DZhVf
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=tYZdgcVaLV7LSjDpI00FuLYvAhgT8u/9thXVyBYWIcsdZi7v/1K2WtLO1eQFlHGq/SxI9trszmapCJWlkeq0hxdr5T5wJ8SIUaFI42lf2RW9DmroTr2QGJFy9wcXE4oP;
+Received: from [69.147.65.173] by n44.bullet.mail.sp1.yahoo.com with NNFMP; 06 Jul 2009 10:19:09 -0000
+Received: from [98.137.34.38] by t15.bullet.mail.sp1.yahoo.com with NNFMP; 06 Jul 2009 10:19:09 -0000
+X-Yahoo-Newman-Id: 1622440-m2911
+X-Sender: alain.ghio@lpl-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+X-Received: (qmail 90409 invoked from network); 6 Jul 2009 10:19:04 -0000
+X-Received: from unknown (98.137.34.45)
+  by m2.grp.sp2.yahoo.com with QMQP; 6 Jul 2009 10:19:04 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta2.grp.sp2.yahoo.com with SMTP; 6 Jul 2009 10:19:04 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AvoEADdsUUqTXsWz/2dsb2JhbACCIzGIJcBxgj0GgU8F
+X-IronPort-AV: E=Sophos;i="4.42,355,1243807200"; 
+   d="txt'?scan'208,217";a="7845517"
+X-Received: from unknown (HELO GHIOFIXE) ([147.94.197.179])
+  by mso1k206.u-3mrs.fr with ESMTP; 06 Jul 2009 12:19:01 +0200
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Message-ID: <20F076FC0C664D6B9B24DF34F7EB596F@LPL.dom>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+Importance: Normal
+Thread-Index: Acn+IJ1n9iyvtJqCQqayCCZKWFMuGQAAol6w
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "Alain Ghio" <alain.ghio@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Mon, 6 Jul 2009 12:18:58 +0200
+Subject: [lpl-infos] LREC 2010 - First Announcement and Call for Papers
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/mixed;
+ boundary="----=_NextPart_000_0004_01C9FE33.F0781AC0"
+
+------=_NextPart_000_0004_01C9FE33.F0781AC0
+Content-Type: multipart/alternative;
+ boundary="----=_NextPart_001_0005_01C9FE33.F0781AC0"
+
+------=_NextPart_001_0005_01C9FE33.F0781AC0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+=20
+-----Message d'origine-----
+De : info@elda.org [mailto:info@elda.org]=20
+Envoy=E9 : vendredi 3 juillet 2009 16:37
+=C0 : destinataires inconnus:
+Objet : [parole] LREC 2010 - First Announcement and Call for Papers
+
+
+LREC 2010 - 7th Conference on Language Resources and Evaluation
+
+FIRST ANNOUNCEMENT AND CALL FOR PAPERS
+
+MEDITERRANEAN CONFERENCE CENTRE, VALLETTA - MALTA
+
+MAIN CONFERENCE: 19-20-21 MAY 2010
+WORKSHOPS and TUTORIALS: 17-18 MAY and 22-23 MAY 2010
+
+Conference web site: http://www.lrec-conf.org/lrec2010/
+
+
+The seventh international conference on Language Resources and Evaluation
+(LREC) will be organised in 2010 by ELRA in cooperation with a wide range o=
+f
+international associations and organisations.
+
+
+CONFERENCE AIMS
+
+In 12 years =96 the first LREC was held in Granada in 1998 =96 LREC has bec=
+ome
+the major event on Language Resources (LRs) and Evaluation for Human
+Language Technologies (HLT). The aim of LREC is to provide an overview of
+the state-of-the-art, explore new R&D directions and emerging trends,
+exchange information regarding LRs and their applications, evaluation
+methodologies and tools, ongoing and planned activities, industrial uses an=
+d
+needs, requirements coming from the e-society, both with respect to policy
+issues and to technological and organisational ones.=20
+
+LREC provides a unique forum for researchers, industrials and funding
+agencies from across a wide spectrum of areas to discuss problems and
+opportunities, find new synergies and promote initiatives for international
+cooperation, in support to investigations in language sciences, progress in
+language technologies and development of corresponding products, services
+and applications, and standards.
+
+
+Special Highlight: Contribute to building the LREC2010 Map!
+
+LREC2010 recognises that time is ripe to launch an important initiative, th=
+e
+LREC2010 Map of Language Resources, Technologies and Evaluation. The Map
+will be a collective enterprise of the LREC community, as a first step
+towards the creation of a very broad, community-built, Open Resource
+Infrastructure. As first in a series, it will become an essential instrumen=
+t
+to monitor the field and to identify shifts in the production, use and
+evaluation of LRs and LTs over the years.
+
+When submitting a paper, from the START page you will be asked to fill in a
+very simple template to provide essential information about resources (in a
+broad sense that includes technologies, standards, evaluation kits, etc.)
+that either have been used for the work described in the paper or are a new
+result of your research.=20
+
+The Map will be disclosed at LREC, where some event(s) will be organised
+around this initiative.=20
+
+
+CONFERENCE TOPICS
+
+Issues in the design, construction and use of Language Resources (LRs):
+text, speech, other associated media and modalities
+=95    Guidelines, standards, specifications, models and best practices for
+LRs
+=95    Methodologies and tools for LRs construction and annotation
+=95    Methodologies and tools for the extraction and acquisition of knowle=
+dge
+=95    Ontologies and knowledge representation
+=95    Terminology=20
+=95    Integration between (multilingual) LRs, ontologies and Semantic Web
+technologies
+=95    Metadata descriptions of LRs and metadata for semantic/content marku=
+p
+=95    Validation, quality assurance, evaluation of LRs
+Exploitation of LRs in different types of systems and applications=20
+=95    For: information extraction, information retrieval, speech dictation=
+,
+mobile communication, machine translation, summarisation, semantic search,
+text mining, inferencing, reasoning, etc.
+=95    In different types of interfaces: (speech-based) dialogue systems,
+natural language and multimodal/multisensorial interactions, voice activate=
+d
+services, cognitive systems, etc.
+=95    Communication with neighbouring fields of applications, e.g.
+e-government, e-culture, e-health, e-participation, mobile applications,
+etc.=20
+=95    Industrial LRs requirements, user needs
+Issues in Human Language Technologies evaluation
+=95    HLT Evaluation methodologies, protocols and measures
+=95    Benchmarking of systems and products
+=95    Usability evaluation of HLT-based user interfaces (speech-based,
+text-based, multimodal-based, etc.), interactions and dialogue systems
+=95    Usability and user satisfaction evaluation
+General issues regarding LRs & Evaluation
+=95    National and international activities and projects
+=95    Priorities, perspectives, strategies in national and international
+policies for LRs
+=95    Open architectures=20
+=95    Organisational, economical and legal issues=20
+
+
+PROGRAMME
+
+The Scientific Programme will include invited talks, oral presentations,
+poster and demo presentations, and panels.=20
+There is no difference in quality between oral and poster presentations.
+Only the appropriateness of the type of communication (more or less
+interactive) to the content of the paper will be considered.
+
+
+SUBMISSIONS AND DATES
+
+Submitted abstracts of papers for oral and poster or demo presentations
+should consist of about 1500-2000 words.
+=95    Submission of proposals for oral and poster/demo papers: 31 October
+2009=20
+
+Proposals for panels, workshops and tutorials will be reviewed by the
+Programme Committee.
+=95    Submission of proposals for panels, workshops and tutorials: 31 Octo=
+ber
+2009
+
+
+PROCEEDINGS
+
+The Proceedings on CD will include both oral and poster papers, in the same
+format. They will be added to the ELRA web archives before the conference.
+A Book of Abstracts will be printed.
+
+
+CONFERENCE PROGRAMME COMMITTEE=20
+Nicoletta Calzolari, Istituto di Linguistica Computazionale del CNR - Pisa,
+Italy (Conference chair)
+Khalid Choukri - ELRA, Paris, France
+Bente Maegaard - CST, University of Copenhagen, Denmark
+Joseph Mariani - LIMSI-CNRS and IMMI, Orsay, France
+Jan Odijk - UIL-OTS, Utrecht, The Netherlands=20
+Stelios Piperidis - Institute for Language and Speech Processing (ILSP),
+Athens, Greece
+Mike Rosner =96 Department of Intelligent Computer Systems, University of
+Malta, Malta
+Daniel Tapias - Sigma Technologies S.L., Madrid, Spain
+
+
+
+------=_NextPart_001_0005_01C9FE33.F0781AC0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text" >
+            <!--~-|**|PrettyHtmlStart|**|-~-->
+            <br><br>
+      <!--~-|**|PrettyHtmlEnd|**|-~-->
+      <p><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<DIV>&nbsp;</DIV>
+<DIV></DIV>
+<DIV dir=3D"ltr" lang=3D"fr" class=3D"OutlookMessageHeader" align=3D"left">=
+<FONT size=3D"2" face=3D"Tahoma">-----Message d'origine---<wbr>--<BR><B>De&=
+nbsp;:</B> info@elda.org=20
+[mailto:info@<wbr>elda.org] <BR><B>Envoy=E9&nbsp;:</B> vendredi 3 juillet 2=
+009=20
+16:37<BR><B>=C0&nbsp;:</B> destinataires inconnus:<BR><B>Objet&nbsp;:</B> [=
+parole]=20
+LREC 2010 - First Announcement and Call for=20
+Papers<BR><BR></FONT></DIV><BIG><BIG><B>LREC 2010 - 7th Conference on Langu=
+age=20
+Resources and Evaluation</B></BIG></BIG><BR><BR><B>FIRST ANNOUNCEMENT AND C=
+ALL=20
+FOR PAPERS</B><BR><BR>MEDITERRANEAN CONFERENCE CENTRE, VALLETTA -=20
+MALTA<BR><BR>MAIN CONFERENCE: 19-20-21 MAY 2010<BR>WORKSHOPS and TUTORIALS:=
+=20
+17-18 MAY and 22-23 MAY 2010<BR><BR>Conference web site: <A href=3D"http://=
+www.lrec-conf.org/lrec2010/">http://www.lrec-<wbr>conf.org/<wbr>lrec2010/</=
+A><BR><BR><BR>The=20
+seventh international conference on Language Resources and Evaluation (LREC=
+)=20
+will be organised in 2010 by ELRA in cooperation with a wide range of=20
+international associations and organisations.<BR><BR><BR><B>CONFERENCE=20
+AIMS</B><BR><BR>In 12 years &#8211; the first LREC was held in Granada in 1=
+998 &#8211; LREC=20
+has become the major event on Language Resources (LRs) and Evaluation for H=
+uman=20
+Language Technologies (HLT). The aim of LREC is to provide an overview of t=
+he=20
+state-of-the-<wbr>art, explore new R&amp;D directions and emerging trends, =
+exchange=20
+information regarding LRs and their applications, evaluation methodologies =
+and=20
+tools, ongoing and planned activities, industrial uses and needs, requireme=
+nts=20
+coming from the e-society, both with respect to policy issues and to=20
+technological and organisational ones. <BR><BR>LREC provides a unique forum=
+ for=20
+researchers, industrials and funding agencies from across a wide spectrum o=
+f=20
+areas to discuss problems and opportunities, find new synergies and promote=
+=20
+initiatives for international cooperation, in support to investigations in=
+=20
+language sciences, progress in language technologies and development of=20
+corresponding products, services and applications, and=20
+standards.<BR><BR><BR><B>Special Highlight: Contribute to building the LREC=
+2010=20
+Map!</B><BR><BR>LREC2010 recognises that time is ripe to launch an importan=
+t=20
+initiative, the <B>LREC2010 Map of Language Resources, Technologies and=20
+Evaluation</B>. The Map will be a collective enterprise of the LREC communi=
+ty,=20
+as a first step towards the creation of a very broad, community-built, Open=
+=20
+Resource Infrastructure. As first in a series, it will become an essential=
+=20
+instrument to monitor the field and to identify shifts in the production, u=
+se=20
+and evaluation of LRs and LTs over the years.<BR><BR>When submitting a pape=
+r,=20
+from the START page you will be asked to fill in a very simple template to=
+=20
+provide essential information about resources (in a broad sense that includ=
+es=20
+technologies, standards, evaluation kits, etc.) that either have been used =
+for=20
+the work described in the paper or are a new result of your research.=20
+<BR><BR>The Map will be disclosed at LREC, where some event(s) will be orga=
+nised=20
+around this initiative. <BR><BR><BR><B>CONFERENCE TOPICS</B><BR><BR><B>Issu=
+es in=20
+the design, construction and use of Language Resources (LRs): text, speech,=
+=20
+other associated media and modalities</B><BR>&#8226;&nbsp;&nbsp;&nbsp; Guid=
+elines,=20
+standards, specifications, models and best practices for=20
+LRs<BR>&#8226;&nbsp;&nbsp;&nbsp; Methodologies and tools for LRs constructi=
+on and=20
+annotation<BR>&#8226;&nbsp;&nbsp;&nbsp; Methodologies and tools for the ext=
+raction and=20
+acquisition of knowledge<BR>&#8226;&nbsp;&nbsp;&nbsp; Ontologies and knowle=
+dge=20
+representation<BR>&#8226;&nbsp;&nbsp;&nbsp; Terminology <BR>&#8226;&nbsp;&n=
+bsp;&nbsp;=20
+Integration between (multilingual) LRs, ontologies and Semantic Web=20
+technologies<BR>&#8226;&nbsp;&nbsp;&nbsp; Metadata descriptions of LRs and =
+metadata=20
+for semantic/content markup<BR>&#8226;&nbsp;&nbsp;&nbsp; Validation, qualit=
+y=20
+assurance, evaluation of LRs<BR><B>Exploitation of LRs in different types o=
+f=20
+systems and applications </B><BR>&#8226;&nbsp;&nbsp;&nbsp; For: information=
+=20
+extraction, information retrieval, speech dictation, mobile communication,=
+=20
+machine translation, summarisation, semantic search, text mining, inferenci=
+ng,=20
+reasoning, etc.<BR>&#8226;&nbsp;&nbsp;&nbsp; In different types of interfac=
+es:=20
+(speech-based) dialogue systems, natural language and multimodal/multisen<w=
+br>sorial=20
+interactions, voice activated services, cognitive systems,=20
+etc.<BR>&#8226;&nbsp;&nbsp;&nbsp; Communication with neighbouring fields of=
+=20
+applications, e.g. e-government, e-culture, e-health, e-participation, mobi=
+le=20
+applications, etc. <BR>&#8226;&nbsp;&nbsp;&nbsp; Industrial LRs requirement=
+s, user=20
+needs<BR><B>Issues in Human Language Technologies=20
+evaluation</B><BR>&#8226;&nbsp;&nbsp;&nbsp; HLT Evaluation methodologies, p=
+rotocols=20
+and measures<BR>&#8226;&nbsp;&nbsp;&nbsp; Benchmarking of systems and=20
+products<BR>&#8226;&nbsp;&nbsp;&nbsp; Usability evaluation of HLT-based use=
+r=20
+interfaces (speech-based, text-based, multimodal-based, etc.), interactions=
+ and=20
+dialogue systems<BR>&#8226;&nbsp;&nbsp;&nbsp; Usability and user satisfacti=
+on=20
+evaluation<BR><B>General issues regarding LRs &amp;=20
+Evaluation</B><BR>&#8226;&nbsp;&nbsp;&nbsp; National and international acti=
+vities and=20
+projects<BR>&#8226;&nbsp;&nbsp;&nbsp; Priorities, perspectives, strategies =
+in national=20
+and international policies for LRs<BR>&#8226;&nbsp;&nbsp;&nbsp; Open archit=
+ectures=20
+<BR>&#8226;&nbsp;&nbsp;&nbsp; Organisational, economical and legal issues=20
+<BR><BR><BR><B>PROGRAMME</B><BR><BR>The Scientific Programme will include=20
+invited talks, oral presentations, poster and demo presentations, and panel=
+s.=20
+<BR>There is no difference in quality between oral and poster presentations=
+.=20
+Only the appropriateness of the type of communication (more or less interac=
+tive)=20
+to the content of the paper will be considered.<BR><BR><BR><B>SUBMISSIONS A=
+ND=20
+DATES</B><BR><BR>Submitted abstracts of papers for oral and poster or demo=
+=20
+presentations should consist of about 1500-2000 words.<BR>&#8226;&nbsp;&nbs=
+p;&nbsp;=20
+Submission of proposals for oral and poster/demo papers: 31 October 2009=20
+<BR><BR>Proposals for panels, workshops and tutorials will be reviewed by t=
+he=20
+Programme Committee.<BR>&#8226;&nbsp;&nbsp;&nbsp; Submission of proposals f=
+or panels,=20
+workshops and tutorials: 31 October=20
+2009<BR><BR><BR><B>PROCEEDINGS</B><BR><BR>The Proceedings on CD will includ=
+e=20
+both oral and poster papers, in the same format. They will be added to the =
+ELRA=20
+web archives before the conference.<BR>A Book of Abstracts will be=20
+printed.<BR><BR><B><BR>CONFERENCE PROGRAMME COMMITTEE </B><BR>Nicoletta=20
+Calzolari, Istituto di Linguistica Computazionale del CNR - Pisa, Italy=20
+(Conference chair)<BR>Khalid Choukri - ELRA, Paris, France<BR>Bente Maegaar=
+d -=20
+CST, University of Copenhagen, Denmark<BR>Joseph Mariani - LIMSI-CNRS and I=
+MMI,=20
+Orsay, France<BR>Jan Odijk - UIL-OTS, Utrecht, The Netherlands <BR>Stelios=
+=20
+Piperidis - Institute for Language and Speech Processing (ILSP), Athens,=20
+Greece<BR>Mike Rosner &#8211; Department of Intelligent Computer Systems, U=
+niversity=20
+of Malta, Malta<BR>Daniel Tapias - Sigma Technologies S.L., Madrid,=20
+Spain<BR><BR>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20
+=20=20
+=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/291=
+1;_ylc=3DX3oDMTM0OTRqb203BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI5MTEEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjQ2ODc1NTQ5BHRwY=
+0lkAzI5MTE-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwcXBxb2ZmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI5MTEEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjQ2ODc1NTQ5?act=3Dreply&me=
+ssageNum=3D2911">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNnVxMzJ1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTI0Njg3NTU0OQ--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlNzIwZzA4BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTI0Njg3NTU0OQ--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJma2ZiaDRwBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyNDY4NzU1NDk-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJldTBscnFyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTI0Njg3NTU0OQ--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmNHQ5Z2w1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyNDY4NzU1NDk-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjc3VrcGxpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyNDY4NzU1NDk-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmcGJqdmd0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyNDY4NzU1NDk-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJla2ppN3U2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTI0Njg3NTU0OQ--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkNjJwZnJvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjQ2ODc1NTQ5">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkcXZwZTNtBF9TAzk=
+3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjQ2ODc1NTQ5">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmbzd0dTh1BF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyNDY4NzU1NDk-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+cDVsdWs5BF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjQ2ODc1NTQ5">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlOGdpcXVpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTI0Njg3NTU0OQ--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrbnFmcWl1BF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTI0Njg3NTU0OQ--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuMWk1OGhlBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTI0Njg3NTU0OQ--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvc24zdGYzBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyNDY4NzU1NDk-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2911/stime=3D1246875549/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+		font-weight: normal;
+		color: #000000;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p#attach-count {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+------=_NextPart_001_0005_01C9FE33.F0781AC0--
+
+------=_NextPart_000_0004_01C9FE33.F0781AC0
+Content-Type: text/plain;
+	name="message-header.txt"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+	filename="message-header.txt"
+
+
+=/=/=/= Parole, la liste de diffusion de l'AFCP =\=\=\=
+
+
+------=_NextPart_000_0004_01C9FE33.F0781AC0--

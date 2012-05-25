@@ -1,0 +1,233 @@
+From - Thu Dec 10 14:32:49 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs613828waa;
+        Fri, 15 Aug 2008 05:31:38 -0700 (PDT)
+Received: by 10.67.10.8 with SMTP id n8mr529409ugi.23.1218803497050;
+        Fri, 15 Aug 2008 05:31:37 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id l4si116729ugf.7.2008.08.15.05.31.28;
+        Fri, 15 Aug 2008 05:31:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1KTyKW-000360-4W; Fri, 15 Aug 2008 14:22:56 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1KTyKO-00035S-OW; Fri, 15 Aug 2008 14:22:48 +0200
+Received: from mallory.itri.bton.ac.uk (mailhost.itri.brighton.ac.uk)
+	[194.81.196.98] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
+	id 1KTyKP-0003EI-Oz; Fri, 15 Aug 2008 14:22:50 +0200
+Received: from stark.itri.bton.ac.uk ([194.81.196.88]
+	helo=stark.itri.brighton.ac.uk)
+	by mailhost.itri.brighton.ac.uk with esmtp (Exim 4.44)
+	id 1KTyEs-0000FA-AG
+	for corpora@uib.no; Fri, 15 Aug 2008 13:17:06 +0100
+Received: from localhost (asb@localhost)
+	by stark.itri.brighton.ac.uk (8.11.6+Sun/8.11.6) with ESMTP id
+	m7FCMke02317
+	for <corpora@uib.no>; Fri, 15 Aug 2008 13:22:46 +0100 (BST)
+X-Authentication-Warning: stark.itri.brighton.ac.uk: asb owned process doing
+	-bs
+Date: Fri, 15 Aug 2008 13:22:45 +0100 (BST)
+From: Anja Belz <a.s.belz@itri.brighton.ac.uk>
+To: corpora@uib.no
+Message-ID: <Pine.GSO.4.56.0808151322050.2077@stark.itri.brighton.ac.uk>
+MIME-Version: 1.0
+X-checked-clean: by exiscan on rolf
+X-Scanner: 6b0661544ca515f1c6d0bbbf68a4b25c http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.7 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 BODY: UIB_MAILWON
+	0.7 RAW: Contains a line >= 199 long
+Subject: [Corpora-List] TUNA Referring Expression Generation Challenge 2009:
+ First Call for Participation
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+
+FIRST CALL FOR PARTICIPATION
+
+TUNA REFERRING EXPRESSION GENERATION CHALLENGE 2009
+---------------------------------------------------
+
+Part of Generation Challenges 2009, in conjunction with ENLG 2009.
+
+Generation Challenges 2009 is being organised to provide a common
+forum for a number of different NLG Shared Tasks (see
+http://www.nltg.brighton.ac.uk/research/genchal09/).
+
+As part of Generation Challenges 2009, we are organising a TUNA
+Progress Test. This will be the third, and final, shared task
+involving the TUNA Corpus of referring expressions. TUNA was first
+used in the Pilot Attribute Selection for Generating Referring
+Expressions (ASGRE) Challenge, which took place between May and
+September 2007; and again for three of the shared tasks in the
+Referring Expression Generation (REG) Challenge 2008, which was
+completed in May and presented during a special session at
+INLG'08. The TUNA'09 Task replicates one of the three tasks from REG
+2008, the TUNA-REG Task. It uses the same test data, to enable direct
+comparison against the 2008 results.
+
+
+1. Background
+--------------
+
+Referring Expression Generation (REG) has been the subject of
+intensive research in the NLG community, giving rise to significant
+consensus on the problem definition, as well as the nature of the
+inputs and outputs of REG algorithms. Typically, such algorithms take
+as input a domain, consisting of objects and their attributes,
+together with an intended referent, and output a set of attributes
+true of the referent which distinguish it from other objects in the
+domain. An additional stage is to map these attributes to a natural
+language expression (usually a noun phrase).
+
+
+2. Data
+--------
+
+The TUNA Corpus consists of a set of human-produced descriptions of
+objects in a visual domain of pictures of furniture and people,
+annotated at the semantic level and paired with a domain
+representation. In addition to the domain, each description is
+provided as a word string (i.e. the original human-produced
+description), as the set of attributes included in the description,
+and as a combination of the two (where the word string is annotated
+with the attributes).
+
+The corpus was collected via an elicitation experiment, in which one
+between-subjects condition controlled the use of the location of an
+object in descriptions (+/-Location).  In keeping with the earlier
+shared tasks involving TUNA, only the singular data will be used for
+the TUNA'09 Task.
+
+For the REG Challenge 2008, a new test set was generated by
+replicating the original experiment. This test set has not been
+released in any form, and will be used again for the 2009 edition.
+
+For full details about the data collection and corpus annotation
+scheme, see: http://www.csd.abdn.ac.uk/~agatt/pubs/tuna-corpus.pdf
+
+
+3. The TUNA'09 Task
+-------------------
+
+The TUNA'09 Task is a replication of the TUNA-REG Task carried out as
+part of REG Challenges 2008. As in REG Challenges 2008, there will be
+a variety of evaluation methods to compare systems (see Section 4
+below), and participants can choose which of the evaluation criteria
+to optimise for.
+
+1. Input: Following the standard REG problem definition, the input will
+   be a TUNA domain representation, consisting of objects and their
+   properties, with one object designated as the intended referent.
+2. Output: Participating systems will need to map from a TUNA domain
+   representation to a natural language description that describes the
+   target referent.
+
+
+4. Evaluation
+-------------
+
+The TUNA data set is composed of the following subsets:
+
+1. A development set consisting of 150 corpus items (input domain + human
+   description), divided into furniture and people descriptions;
+2. A training set consisting of 593 corpus items (input domain + human
+   description), divided into furniture and people descriptions;
+3. A test set consisting of 112 corpus items (input domain only),
+   divided into furniture and people descriptions. This test set was
+   created through a replication of the original TUNA elicitation
+   experiment. It was built so that for every input domain there are two
+   human-authored outputs by different individuals. Evaluation of
+   system-produced descriptions will be carried out by averaging against
+   both human descriptions in the corresponding input domain.
+
+Participants will compute evaluation scores on the development set
+(using code provided by the organisers), and the organisers will
+perform evaluations on the test data set.  We will again use a range
+of different evaluation methods, including intrinsic and extrinsic,
+automatically assessed and human-evaluated.  Intrinsic evaluations
+assess properties of peer systems in their own right, whereas
+extrinsic evaluations assess the effect of a peer system on something
+that is external to it, such as its effect on human performance at a
+given task or the added value it brings to an application.
+
+Full details of the evaluation methods will be announced to registered
+participants.
+
+
+6. Participation
+----------------
+
+Registration is now open at the TUNA'09 Task homepage
+(http://www.nltg.brighton.ac.uk/research/genchal09/tuna).  Once they
+have registered, participants will be sent the TUNA'09 Participants'
+Pack which includes complete documentation and the training and
+development data sets.
+
+
+7. Proceedings and Presentations
+--------------------------------
+
+The Generation Challenges 2009 meeting will be held as a special
+session at ENLG 2009. The session will include overviews of all the
+shared tasks, including the TUNA'09 Task. The participating systems
+will additionally be presented as papers in the ENLG'09 proceedings,
+and as posters during the ENLG'09 poster session.
+
+TUNA'09 Challenge Papers will not undergo a selection procedure with
+multiple reviews, but the organisers reserve the right to reject
+material which is not appropriate given the participation guidelines.
+
+
+8. Important Dates
+------------------
+
+Aug 15, 2008  First Call for Participation in TUNA'09 Task; TUNA'09 data
+              sets available
+Dec 1-31, 08  TUNA'09 test data submission:
+	      1. submit system report; 2. download test data; 3. submit
+              outputs within 48h
+Dec 31, 2009  Final deadline for submission of TUNA'09 test data outputs
+Jan 01-31, 09 TUNA'09 Evaluation period
+Mar 01, 2009  Submission deadline for camera-ready papers and reports
+Mar 30-31, 09 Generation Challenges 2009 meeting at ENLG'09 (dates to be
+              confirmed)
+
+
+9. Organisation
+---------------
+
+Albert Gatt, Computing Science, University of Aberdeen, UK
+Anja Belz, NLTG, University of Brighton, UK
+Eric Kow, NLTG, University of Brighton, UK
+
+TUNA'09 Task homepage: http://www.nltg.brighton.ac.uk/research/genchal09/tu=
+na
+Generation Challenges homepage: http://www.nltg.brighton.ac.uk/research/gen=
+chal09
+Generation Challenges email: nlg-stec@itri.brighton.ac.uk
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

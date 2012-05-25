@@ -1,0 +1,346 @@
+From - Thu Dec 10 14:31:49 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs167701waa;
+        Sun, 25 May 2008 03:32:27 -0700 (PDT)
+Received: by 10.66.237.14 with SMTP id k14mr162295ugh.72.1211711544857;
+        Sun, 25 May 2008 03:32:24 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id z37si8667833ikz.6.2008.05.25.03.31.51;
+        Sun, 25 May 2008 03:32:24 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 5BC85A7B3; Sun, 25 May 2008 12:31:50 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 9DF77797A;
+	Sun, 25 May 2008 12:31:24 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 701CD3D66;
+	Sun, 25 May 2008 12:31:24 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Sis18dFmm7QK; Sun, 25 May 2008 12:31:23 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 030853D3B;
+	Sun, 25 May 2008 12:31:17 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 347703D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 19 May 2008 15:29:33 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fzEQaxFBZGij for <elsnet-list@mailman.elsnet.org>;
+	Mon, 19 May 2008 15:29:33 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 037993CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 19 May 2008 15:29:32 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id E2FFCA74E; Mon, 19 May 2008 15:29:32 +0200 (MEST)
+Received: from rv-out-0506.google.com (rv-out-0506.google.com [209.85.198.229])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 4B6D0A720
+	for <Elsnet-list@elsnet.org>; Mon, 19 May 2008 15:29:27 +0200 (MEST)
+Received: by rv-out-0506.google.com with SMTP id g37so1269093rvb.25
+	for <Elsnet-list@elsnet.org>; Mon, 19 May 2008 06:29:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:sender:to:subject:in-reply-to:mime-version:content-type:references:x-google-sender-auth;
+	bh=xOwz8gZnwctjJO2tYzrZJAg55AwDodE7JCTXb6YcZ6Y=;
+	b=oC6EL2nJBAqZiITKnHXowl6kbrbF3xC5JT6MiAL7EnBObQ14adKoC2q2ruxLqDG+/PhfQhiwK0t+5MXYev6n5yjK6Skl9cVltimLZ7ys7tQ4TR1wAiKGXA66CbZOc0bALaswHiKVQLKzH6m0KtnngyDlC1spgi++IaGL4VEWjeQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:sender:to:subject:in-reply-to:mime-version:content-type:references:x-google-sender-auth;
+	b=IE+utJfMwOz7V5zHGPRNUOqywCzrfOqWDNiLuDVbUQLdqg1Yn/8ip6h7no7I7ovM0XD7fkm6IZmNMvAZbVzyObsiuyoq7C4gm+jmo8PkMzM3VHcz4FkV7il8XbMp88DNtUNDicIhJTXAks7WJNsXCLK0wBPmLaCUgq9IGQMJw8M=
+Received: by 10.141.34.12 with SMTP id m12mr3672283rvj.26.1211203765366;
+	Mon, 19 May 2008 06:29:25 -0700 (PDT)
+Received: by 10.141.212.7 with HTTP; Mon, 19 May 2008 06:29:25 -0700 (PDT)
+Message-ID: <5802ceed0805190629q34dc109do7db3a3e44ed7dc90@mail.gmail.com>
+Date: Mon, 19 May 2008 14:29:25 +0100
+From: "NICSO 2008" <nicso2008@gmail.com>
+To: PARTICLE_SWARM-L@LISTSERV.IUPUI.EDU, grin@di.unipi.it, 
+	coordinatori-informatica@disi.unige.it, machine-learning@eGroups.com, 
+	EVOLUTIONARY-COMPUTING-request@JISCMAIL.AC.UK, 
+	LISTSERV@JISCMAIL.AC.UK, EC-Digest-L@mail04.gmu.edu, 
+	comp-bio@net.bio.net, memetics@mmu.ac.uk, Elsnet-list@elsnet.org, 
+	acse@sheffield.ac.uk, eletter@cil.ece.uic.edu, vki-list@dfki.de, 
+	agents@cs.umbc.edu, ga-list@gmu.edu, ml@isle.org, 
+	csp@carlit.toulouse.inra.fr, acp-ec@math.unipd.it
+In-Reply-To: <5802ceed0805190509s47673a17r10e8ec9df2e79f3f@mail.gmail.com>
+MIME-Version: 1.0
+References: <5802ceed0805190509s47673a17r10e8ec9df2e79f3f@mail.gmail.com>
+X-Google-Sender-Auth: 02d2d7faf6959751
+X-Mailman-Approved-At: Sun, 25 May 2008 12:31:13 +0200
+Cc: 
+Subject: [Elsnet-list] NICSO 2008. 2nd call for papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============2096599656=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============2096599656==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_18007_3672443.1211203765318"
+
+------=_Part_18007_3672443.1211203765318
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+             (Apologies for multiple postings)
+
+                       S E C O N D
+                     CALL FOR PAPERS
+
+                       NICSO 2008
+         International Workshop on Nature Inspired
+          Cooperative Strategies for Optimization
+
+                   Puerto Palace  Hotel
+                Puerto de La Cruz, Tenerife
+                   12-14 November  2008
+
+              http://www.gci.org.es/nicso2008
+               (pre-registration  available)
+
+                   nicso2008@gci.org.es
+
+NICSO 2008 is the third edition of the International Workshop
+on  Nature Inspired  Cooperative Strategies for Optimization.
+Its  aims  are
+(1) to foster a deeper understanding of "cooperativity" in
+    computational optimisation systems, and
+(2) to encourage a vigorous exchange of ideas about emerging
+    research areas in cooperative problem solving strategies.
+
+The accepted papers will be published in the Springer book
+series on Studies in Computational Intelligence.
+
+The authors of the  best accepted  papers will be invited to revise
+and expand their  contributions for  publication in a special issue
+in the Memetic Computing Journal (Springer) shortly after the event.
+
+
+IMPORTANT DATES:
+    =95 Deadline for Submission:    September, 1
+    =95 Notification of Acceptance: September, 30
+    =95 Deadline for Camera-ready:  October, 20
+
+All submissions (only pdf file) must be sent at nicso2008@gci.org.es.
+The length of each contribution will not exceed 12 pages.
+
+Produce a camera ready copy using NICSO2008 latex style found at
+http://www.gci.org.es/nicso2008.
+
+Each contribution must providing original results, insights
+and experimental innovations.
+
+All submitted papers will be blind reviewed and acceptance will be
+based on originality, significance, technical soundness and clarity.
+
+
+WORKSHOP-CHAIR:
+=95 Jos=E9 Andr=E9s Moreno P=E9rez, University of La Laguna
+
+STEERING COMMITTEE:
+=95 David A. Pelta, University of Granada
+=95 Natalio Krasnogor, University of Nottingham
+
+ORGANIZING COMMITTEE MEMBERS
+=95 J. Marcos Moreno, University of La Laguna
+=95 Bel=E9n Mel=ED=E1n, University of La Laguna
+=95 Julio Brito, University of La Laguna
+=95 Clara Campos, University of La Laguna
+=95 F. Javier Mart=EDnez, University of La Laguna
+=95 David Beltr=E1n, University of La Laguna
+=95 Jos=E9 Luis Gonz=E1lez, University of La Laguna
+
+TOPICS OF INTEREST (but not limited to them):
+=95 Adaptive Behaviour
+=95 Ants Colonies
+=95 Amorphous Computing
+=95 Artificial Li fe
+=95 Artificial Immune Systems
+=95 Coevolution
+=95 Distributed Computing
+=95 Evolutionary Robotics
+=95 Evolvable Systems
+=95 Genetic Algorithms
+=95 Genetic Programming
+=95 Membrane Computing
+=95 Quantum Computing
+=95 Software Self Assembly
+=95 Swarm Intelligence
+Cooperative Strategies for:
+=95 Numerical Optimization
+=95 Combinatorial Optimization
+=95 Non Linear Optimization
+=95 Dynamic Optimization
+=95 Noisy Optimization
+=95 Bioinformatics and Systems Biology
+=95 Game Theory
+=95 Complex Systems
+=95 Optimal Adaptable Control
+
+SECOND CALL FOR PAPERS in pdf format at:
+http://www.gci.org.es/NICSO2008/documentos/NICSO2008_2ndCFP.pdf
+
+
+
+
+
+
+--=20
+Jos=E9 Andr=E9s Moreno P=E9rez
+Catedr=E1tico de Ciencias de la Computaci=F3n e I.A.
+Universidad de La Laguna. SPAIN.
+Tel.: +34-922318186.
+http://webpages.ull.es/users/jamoreno/
+Group of Intelligent Computing http://www.gci.org.es/
+
+"NICSO 2008" http://www.gci.org.es/nicso2008/
+TRANSNOVA 2008 http://www.transnova.es
+
+------=_Part_18007_3672443.1211203765318
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><div class=3D"gmail_quote"><font size=
+=3D"4"><font size=3D"2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp; (Apologies for multiple postings)<br><br>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S E C O N D<br>&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CALL FOR PAPERS<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NICSO 2008<br=
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; International Workshop on=
+ Nature Inspired<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Cooperative Strategies for Optimization<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; Puerto Palace&nbsp; Hotel<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Puerto de La Cruz, Tener=
+ife<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12-14 November&nbsp; 2008<br><br>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a h=
+ref=3D"http://www.gci.org.es/nicso2008" target=3D"_blank">http://www.gci.or=
+g.es/nicso2008</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (pre-registration&nbsp; available)<br><br>&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=3D"mailto:nicso2008@gci.org.es" ta=
+rget=3D"_blank">nicso2008@gci.org.es</a><br>
+
+<br>NICSO 2008 is the third edition of the International Workshop<br>on&nbs=
+p; Nature Inspired&nbsp; Cooperative Strategies for Optimization. <br>Its&n=
+bsp; aims&nbsp; are&nbsp; <br>(1) to foster a deeper understanding of &quot=
+;cooperativity&quot; in <br>
+
+&nbsp;&nbsp;&nbsp; computational optimisation systems, and<br>(2) to encour=
+age a vigorous exchange of ideas about emerging<br>&nbsp;&nbsp;&nbsp; resea=
+rch areas in cooperative problem solving strategies. <br><br>The accepted p=
+apers will be published in the Springer book <br>
+
+series on Studies in Computational Intelligence. <br><br>The authors of the=
+&nbsp; best accepted&nbsp; papers will be invited to revise <br>and expand =
+their&nbsp; contributions for&nbsp; publication in a special issue <br>in t=
+he Memetic Computing Journal (Springer) shortly after the event.<br>
+
+<br><br>IMPORTANT DATES:<br>&nbsp;&nbsp;&nbsp; =95 Deadline for Submission:=
+&nbsp;&nbsp;&nbsp; September, 1<br>&nbsp;&nbsp;&nbsp; =95 Notification of A=
+cceptance: September, 30<br>&nbsp;&nbsp;&nbsp; =95 Deadline for Camera-read=
+y:&nbsp; October, 20<br><br>All submissions (only pdf file) must be sent at=
+ <a href=3D"mailto:nicso2008@gci.org.es" target=3D"_blank">nicso2008@gci.or=
+g.es</a>. <br>
+
+The length of each contribution will not exceed 12 pages. <br><br>Produce a=
+ camera ready copy using NICSO2008 latex style found at <br><a href=3D"http=
+://www.gci.org.es/nicso2008" target=3D"_blank">http://www.gci.org.es/nicso2=
+008</a>. <br>
+<br>
+Each contribution must providing original results, insights <br>and experim=
+ental innovations. <br><br>All submitted papers will be blind reviewed and =
+acceptance will be <br>based on originality, significance, technical soundn=
+ess and clarity. <br>
+
+<br><br>WORKSHOP-CHAIR:<br>=95 Jos=E9 Andr=E9s Moreno P=E9rez, University o=
+f La Laguna<br><br>STEERING COMMITTEE:<br>=95 David A. Pelta, University of=
+ Granada<br>=95 Natalio Krasnogor, University of Nottingham<br><br>ORGANIZI=
+NG COMMITTEE MEMBERS<br>
+
+=95 J. Marcos Moreno, University of La Laguna<br>=95 Bel=E9n Mel=ED=E1n, Un=
+iversity of La Laguna<br>=95 Julio Brito, University of La Laguna<br>=95 Cl=
+ara Campos, University of La Laguna<br>=95 F. Javier Mart=EDnez, University=
+ of La Laguna<br>
+
+=95 David Beltr=E1n, University of La Laguna<br>=95 Jos=E9 Luis Gonz=E1lez,=
+ University of La Laguna<br><br>TOPICS OF INTEREST (but not limited to them=
+):<br>=95 Adaptive Behaviour<br>=95 Ants Colonies<br>=95 Amorphous Computin=
+g<br>=95 Artificial Li fe<br>
+
+=95 Artificial Immune Systems<br>=95 Coevolution<br>=95 Distributed Computi=
+ng<br>=95 Evolutionary Robotics<br>=95 Evolvable Systems<br>=95 Genetic Alg=
+orithms<br>=95 Genetic Programming<br>=95 Membrane Computing<br>=95 Quantum=
+ Computing<br>
+
+=95 Software Self Assembly<br>=95 Swarm Intelligence<br>Cooperative Strateg=
+ies for:<br>=95 Numerical Optimization<br>=95 Combinatorial Optimization<br=
+>=95 Non Linear Optimization<br>=95 Dynamic Optimization<br>=95 Noisy Optim=
+ization<br>
+
+=95 Bioinformatics and Systems Biology<br>=95 Game Theory<br>=95 Complex Sy=
+stems<br>=95 Optimal Adaptable Control<br><br>SECOND CALL FOR PAPERS in pdf=
+ format at:<br><a href=3D"http://www.gci.org.es/NICSO2008/documentos/NICSO2=
+008_2ndCFP.pdf" target=3D"_blank">http://www.gci.org.es/NICSO2008/documento=
+s/NICSO2008_2ndCFP.pdf</a><br>
+
+<br><br></font></font><font size=3D"4"><br></font>
+</div><br><br clear=3D"all"><br>-- <br>Jos=E9 Andr=E9s Moreno P=E9rez<br>Ca=
+tedr=E1tico de Ciencias de la Computaci=F3n e I.A.<br>Universidad de La Lag=
+una. SPAIN.<br>Tel.: +34-922318186.<br><a href=3D"http://webpages.ull.es/us=
+ers/jamoreno/">http://webpages.ull.es/users/jamoreno/</a><br>
+Group of Intelligent Computing <a href=3D"http://www.gci.org.es/">http://ww=
+w.gci.org.es/</a><br><br>&quot;NICSO 2008&quot; <a href=3D"http://www.gci.o=
+rg.es/nicso2008/">http://www.gci.org.es/nicso2008/</a><br>TRANSNOVA 2008 <a=
+ href=3D"http://www.transnova.es">http://www.transnova.es</a>
+
+------=_Part_18007_3672443.1211203765318--
+
+--===============2096599656==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============2096599656==--

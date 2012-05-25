@@ -1,0 +1,247 @@
+From - Thu Dec 10 14:32:34 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs191980waa;
+        Thu, 17 Jul 2008 06:10:29 -0700 (PDT)
+Received: by 10.115.92.2 with SMTP id u2mr1622833wal.33.1216300222647;
+        Thu, 17 Jul 2008 06:10:22 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id m40si14697597wag.50.2008.07.17.06.10.21;
+        Thu, 17 Jul 2008 06:10:22 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6HDAK2l001262
+	for <jpprost@gmail.com>; Thu, 17 Jul 2008 23:10:20 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m6HDAKGM021936
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Jul 2008 23:10:20 +1000
+X-ASG-Debug-ID: 1216300217-4fa302ce0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 783691FEFCA1
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Jul 2008 23:10:17 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id i9ciFWpBB0FPW7UB for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Jul 2008 23:10:17 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6HDAFWa001259
+	for <jpprost@ICS.MQ.EDU.AU>; Thu, 17 Jul 2008 23:10:16 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 0578239B33;
+	Thu, 17 Jul 2008 15:10:15 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 8183085 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Thu, 17 Jul 2008
+          15:10:14 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit01.kulnet.kuleuven.be (cavuit01.kulnet.kuleuven.be
+          [134.58.240.43]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 5BF571CC53 for <chr@listserv.cc.kuleuven.ac.be>; Thu, 17 Jul 2008
+          15:10:14 +0200 (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit01.kulnet.kuleuven.be (Postfix) with ESMTP
+          id B7DC17B914C for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008
+          15:10:05 +0200 (CEST)
+Received: from hermes.cs.kuleuven.be (hermes.cs.kuleuven.be [134.58.40.3]) by
+          cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id A5823341A3 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:10:05 +0200
+          (CEST)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id m6HDA5oK025503 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:10:05 +0200
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id m6HDA5XX020037 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:10:05 +0200
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 19953-01-4 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:09:55 +0200
+          (CEST)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id m6HD8UH3019828 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17
+          Jul 2008 15:08:30 +0200
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.be [134.58.45.101]) by
+          nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          m6HD8Tgh005233 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT) for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17
+          Jul 2008 15:08:30 +0200
+X-X-Sender: toms@"ender.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="8323329-281751305-1216300110=:3391"
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=-1.44, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44)
+X-KULeuven-Envelope-From: tom.schrijvers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0807171508000.3391@ender.cs.kuleuven.be.>
+Date:         Thu, 17 Jul 2008 15:08:29 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] PADL 2008 CfP
+Subject: [CHR] PADL 2008 CfP
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1216300217
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.56305
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--8323329-281751305-1216300110=:3391
+Content-Type: TEXT/PLAIN; format=flowed; charset=iso-8859-15
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+
+ =09=09=09  CALL FOR PAPERS!!!
+
+ =09=09 Eleventh International Symposium on
+ =09   Practical Aspects of Declarative Languages 2009
+ =09=09=09      (PADL '09)
+
+ =09=09    http://cs.utdallas.edu/padl09/
+
+ =09=09=09Savannah Georgia, USA
+ =09=09=09 January 19-20, 2008
+
+ =09=09     Co-located with ACM POPL'09
+
+Declarative languages build on sound theoretical bases to provide
+attractive frameworks for application development. These languages
+have been successfully applied to vastly different real-world
+situations, ranging from data base management to active networks to
+software engineering to decision support systems.
+
+New developments in theory and implementation have opened up new
+application areas.  At the same time, applications of declarative
+languages to novel problems raise numerous interesting research
+issues. Well-known questions include designing for scalability,
+language extensions for application deployment, and programming
+environments. Thus, applications drive the progress in the theory and
+implementation of declarative systems, and benefit from this progress
+as well.
+
+PADL is a forum for researchers and practitioners to present original
+work emphasizing novel applications and implementation techniques for
+all forms of declarative concepts, including, functional, logic,
+constraints, etc. Topics of interest include:
+
+  * innovative applications of declarative languages;
+  * declarative domain-specific languages and applications;
+  * practical applications of theoretical results;
+  * new language developments & their impact on applications;
+  * evaluation of implementation techniques on practical applications;
+  * novel uses of declarative languages in the classroom; and
+  * practical experiences
+
+PADL 09 welcomes new ideas and approaches pertaining to applications
+and implementation of declarative languages.  PADL 09 will be
+co-located with the ACM POPL.
+
+IMPORTANT DATES AND SUBMISSION GUIDELINES
+
+       Paper Submission:=09September 8, 2008
+       Notification:=09October 10, 2008
+       Camera-ready:=09November 5, 2008
+       Symposium:=09January 19-20, 2009
+
+Authors should submit an electronic copy of the full paper (written in
+English) in Postscript (Level 2) or PDF, in the Springer LNCS format
+(see http://www.springeronline.com/lncs/ ).
+
+In addition to the technical papers of previous PADL conferences, PADL
+09 will contain a streamk for application papers.
+
+TECHNICAL PAPERS
+
+Technical papers must describe original, previously unpublished
+results, and must not be simultaneously submitted for publication
+elsewhere.  Each submission must be written in English, and include
+three to four keywords, which will be used to assist us in selecting
+appropriate reviewers for the paper.  Submissions must not exceed 15
+pages in Springer LNCS format.
+
+APPLICATION PAPERS
+
+Application papers are a mechanism to present important practical
+applications of declarative languages that occur in industry or
+in areas of research other than computer science.  Application
+papers will be published in the Springer-Verlag conference
+proceedings, and will be presented in a separate poster session.
+
+Application papers, are expected to describe complex and/or real-world
+applications that rely on an innovative use of declarative languages.
+Application descriptions, engineering solutions and real-world
+experiences (both positive and negative) are solicited.
+
+The limit for application papers is 3 pages in Springer LNCS format.
+
+MOST PRACTICAL PAPER AWARD
+
+The Most Practical Paper award will be given to the technical
+submission that is judged by the program committee to be the best in
+terms of practicality, originality, and clarity of presentation. The
+program committee may choose not to make an award, or to make multiple
+awards.
+
+PROGRAM COMMITTEE
+
+           Lennart Augustsson      Credit Suisse (UK)
+           Hasan Davulcu=09=09  Arizona State University (US)
+           In=E9s Dutra=09  =09  Universidade do Porto (PT)
+           John Gallagher=09  Roskilde University (DK)
+           Andy Gordon             Microsoft Research (UK)
+           Jeff Gray               University of Alabama at Birmingham (US)
+ =09  Kevin Hamlen=09=09  University of Texas at Dallas (US)
+           Fergus Henderson        Google (US)
+           Gabriele Keller         University of New South Wales (Australia=
+)
+           Michael Kifer=09=09  SUNY Stony Brook (US)
+           Ilkka Niemel=E4       =09  Helsinki University of Technology (FI=
+)
+           Johan Nordlander        Lule=E5  University of Technology (Swede=
+n)
+           Lu=EDs Pereira=09  =09  Universidade Nova de Lisboa (PT)
+           Tom Schrijvers=09  Katholieke Universiteit Leuven (BE)
+           Lindsey Spratt=09  Onology Works (US)
+           Don Stewart             Galois, Inc (US)
+           Walter Wilson=09          Systems Development and Analysis (US)
+
+Contacts:
+      For information about papers and submissions, please contact a Progra=
+m Chair:
+
+           Andy Gill
+           PC co-Chair - PADL 2009
+           Dept. of Electrical Engineering & Computer Science
+           The University of Kansas
+           2001 Eaton Hall
+           1520 West 15th Street
+           Lawrence, KS 66045-7621
+           Email: andygill <AT> ku.edu
+
+           Terrance Swift
+           PC co-Chair - PADL 2009
+           Centre for Artificial Intelligence (CENTRIA)
+           Departamento de Inform=E1tica, FCT/UNL
+           Quinta da Torre 2829-516 CAPARICA - Portugal
+           Email: tswift <AT> cs.sunysb.edu
+
+      For other information about the conference, please contact:
+
+           Kevin Hamlen
+           General Chair - PADL 2009
+           Department of Computer Science
+           University of Texas at Dallas
+           Richardson, TX, USA
+           Email: hamlen <AT> utdallas.edu
+
+--8323329-281751305-1216300110=:3391--

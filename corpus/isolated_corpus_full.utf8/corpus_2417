@@ -1,0 +1,274 @@
+From - Thu Dec 10 14:29:22 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs311682waa;
+        Wed, 9 Jan 2008 01:41:11 -0800 (PST)
+Received: by 10.67.122.10 with SMTP id z10mr2070497ugm.44.1199871664350;
+        Wed, 09 Jan 2008 01:41:04 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id c1si1552079ugf.72.2008.01.09.01.40.30;
+        Wed, 09 Jan 2008 01:41:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JCXMB-00053B-Mn; Wed, 09 Jan 2008 10:36:19 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JCGcy-0006xR-V0; Tue, 08 Jan 2008 16:44:32 +0100
+Received: from rodin.limsi.fr [129.175.152.156] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp (TLSv1:AES256-SHA:256)
+	(Exim 4.34) id 1JCGct-0007aH-B7; Tue, 08 Jan 2008 16:44:32 +0100
+Received: from [127.0.0.1] (phoenix.limsi.fr [129.175.157.211])
+	by rodin.limsi.fr (8.13.4/8.13.4/Debian-3sarge3) with ESMTP id
+	m08F2Yt6032258; Tue, 8 Jan 2008 16:04:20 +0100
+Message-ID: <47839086.2080202@limsi.fr>
+Date: Tue, 08 Jan 2008 16:02:30 +0100
+From: Jean-Claude MARTIN <martin@limsi.fr>
+User-Agent: Thunderbird 2.0.0.9 (Windows/20071031)
+MIME-Version: 1.0
+To: undisclosed-recipients:;
+X-LIMSI-rodin-MailScanner: Found to be clean
+X-LIMSI-rodin-MailScanner-SpamCheck: not spam, SpamAssassin (score=0.102,
+	requis 5, LIMSI_14 1.50, LIMSI_F9 1.30, LIMSI_OK10 -2.00,
+	LIMSI_OK9 -2.00, UNDISC_RECIPS 1.30)
+X-MailScanner-Auteur: martin@limsi.fr
+X-MailScanner-Dest: a.elsayed@bolton.ac.uk, aca@poleia.lip6.fr,
+	ai-sges@jiscmail.ac.uk, aisbq@aisb.org.uk, albrecht@mpi-sb.mpg.de,
+	amanda.brown@mpi.nl, anna.spagnolli@unipd.it,
+	anssi.perakyla@helsinki.fi, antonella.strambi@flinders.edu.au,
+	anu.klippi@helsinki.fi, arakawa@fc.ritsumei.ac.jp,
+	arakawaa@fc.ritsumei.ac.jp, araouz@image.ece.ntua.gr,
+	asli.ozyurek@mpi.nl, asliozu@mpi.nl, bas@asb.dk, bavelas@uvic.ca,
+	bcs-hci-request@jiscmail.ac.uk, beattie@fsi.fse.man.ac.uk,
+	bono@atr.jp, c.pelachaud@iut.univ-paris8.fr, carsolval@alum.us.es,
+	catcod@cru.fr, chi-announcements@acm.org,
+	chi-announcements@listserv.acm.org, chm@limsi.fr,
+	christian.greiffenhagen@manchester.ac.uk, christian.heath@kcl.ac.uk,
+	christophe.ronveaux@pse.unige.ch, christophe.savariaux@icp.inpg.fr,
+	cindy.white@colorado.edu, cleonardi@itc.it, cluk@dcs.shef.ac.uk,
+	cmartell@nps.edu, colette.mrowa-hopkins@flinders.edu.au,
+	colinsclark@hotmail.com, corpora@uib.no, costanza@cst.dk,
+	cristilli@unina.it, danielle.pele@francetelecom.com,
+	dbuller@kleinbuendel.com, deng@uchicago.edu, dmcneill@uchicago.edu,
+	dnm@rutgers.edu, domingo.paola@tin.it, dromero@uaq.mx,
+	e.kirk@herts.ac.uk, eca_list@vhml.org, eliza@ling.gu.se,
+	elwys.destefani@unibas.ch, eric.laurier@ed.ac.uk,
+	eu-gamesresearch@uta.fi, evelyn.mcclave@csun.edu,
+	ferdinando.arzarello@unito.it, ferrara@dm.unito.it,
+	feyparr@uchicago.edu, fnick@atr.jp, francesa.alby@uniroma1.it,
+	frederic.elisei@icp.inpg.fr, fridanna.maricchiolo@uniroma1.it,
+	furuyama@nii.ac.jp, gabrielt@cs.rutgers.edu,
+	gerard.bailly@icp.inpg.fr, gperez@us.es, green@csc.kth.se,
+	gstam@nl.edu, hannele.palukka@uta.fi, hbrookes@hsrc.ac.za,
+	hcimail@gtnet.com, hehu@csc.kth.se, icmi2005@itc.it,
+	ikedat@mail.utexas.edu, ikimbara@uchicago.edu, ilkka.arminen@uta.fi,
+	im33@cornell.edu, ingrid.desaint-georges@pse.unige.ch,
+	inkeri.lehtimaja@helsinki.fi, isabel.galhano@iol.pt,
+	isabelle.fristalon@pse.unige.ch, ishiguro@ams.eng.osaka-u.ac.jp,
+	itakura@psy.bun.kyoto-u.ac.jp, j.r.hartley@cbl.leeds.ac.uk,
+	j.rae@roehampton.ac.uk, jburgoon@cmi.arizona.edu,
+	jens.allwood@ling.gu.se, jgabriel@us.es, jho-kmm@mail.utexas.edu,
+	jiverson@pitt.edu, jjg@uvic.ca, johanna.ruusuvuori@uta.fi,
+	johnh@reed.edu, jstreeck@mail.utexas.edu,
+	judith.holler@manchester.ac.uk, justine@northwestern.edu,
+	k.j.pine@herts.ac.uk, k.yoshioka@let.leidenuniv.nl,
+	kaisa.launonen@helsinki.fi, kar.beck@gmx.de,
+	karl.grammer@univie.ac.at, katagiri@atr.jp, kazuki@tkc.att.ne.jp,
+	kfm@androidscience.org, kkarpou@image.ece.ntua.gr,
+	kkopple@brynmawr.edu, kruser@gmail.com, lanac@learnlink.emory.edu,
+	laurent.filliettaz@pse.unige.ch, leikaan@cc.jyu.fi, ln@cines.fr,
+	loce@speech.kth.se, loehr@mitre.org, lone@hum.ku.dk,
+	luciano.gamberini@unipd.it, m.buscher@lancaster.ac.uk,
+	m030303d@mbox.nagoya-u.ac.jp, mag01532@nifty.com,
+	magno@pd.istc.cnr.it, malac@cogsci.ucsd.edu, mariane.gullberg@mpi.nl,
+	marianne.gullberg@mpi.nl, mariec@uchicago.edu,
+	marino.bonaiuto@uniroma1.it, martin@limsi.fr,
+	mathias.broth@fraita.su.se, maurice.neville@canberra.edu.au,
+	mccaffes@unlv.nevada.edu, merogio@hotmail.com,
+	minato@ams.eng.osaka-u.ac.jp, mishino@midway.uchicago.edu,
+	mizukawa@emca.net, mlb@dcs.qmul.ac.uk, mp6ect@bolton.ac.uk,
+	msankey@siu.buap.mx, n.chafai@iut.univ-paris8.fr, ndunbar@csulb.edu,
+	neff@mpi-inf.mpg.de, nicu@science.uva.nl, norikog@atr.jp,
+	oi@cog.human.nagoya-u.ac.jp, ornella.robutti@unito.it,
+	patrizia@cst.dk, paula@augustana.ca, paula@augyustana.ca,
+	peter.wittenburg@mpi.nl, pianesi@itc.it, pierre.badin@icp.inpg.fr,
+	pmanchon@us.es, quek@vt.edu, r-ashley@northwestern.edu,
+	raguti@siu.buap.mx, risc@idf.ext.jussieu.fr, romankatsman@yahoo.com,
+	ronkore@rikyo.ne.jp, rosa.montes@gmail.com, rturanli@ku.edu.tr,
+	rwozniak@brynmawr.edu, saeoshima@mail.utexas.edu,
+	saito@is.nagoya-u.ac.jp, sari.karjalainen@helsinki.fi,
+	science@ellenfricke.de, serenari@cs.tu-berlin.de,
+	sfernand@brynmawr.edu, sgm@uchicago.edu, shanley@bu.edu.tr,
+	siggen@ics.mq.edu.au, sigmm@pi4.informatik.uni-mannheim.de,
+	sigridnorris@cox.net, siksleden@cs.uu.nl, simon@rom.ucl.ac.be,
+	simone_pika@yahoo.de, skelly@mail.colgate.edu,
+	skopp@techfak.uni-bielefeld.de, smehus@mail.utexas.edu,
+	sotaro.kita@bristol.ac.uk, spika@ualberta.ca, stearns_b@hotmail.com,
+	stefanos@cs.ntua.gr, students.chi@xerox.com,
+	t_stephendavies@hotmail.com, tanya.stivers@mpi.nl,
+	tattvamasi@libero.it, therieh@cogs.susx.ac.uk, tkoschmann@siumed.edu,
+	tqin@cmi.arizona.edu, traute.taeschner@uniroma1.it,
+	ttanaka@cog.human.nagoya-u.ac.jp, ukvrsig@jiscmail.ac.uk,
+	virginia.volterra@istc.cnr.it, w-afifi@psu.edu, yoncah@vt.edu,
+	zancana@itc.it
+X-checked-clean: by exiscan on rolf
+X-Scanner: 215bf0d3dc7d779d7e3a164f1df12a50 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 2.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+	1.4 Valid-looking To "undisclosed-recipients"
+	0.7 RAW: Contains a line >= 199 long
+X-Mailman-Approved-At: Wed, 09 Jan 2008 10:36:13 +0100
+Subject: [Corpora-List] Workshop on "Multimodal Corpora" at LREC 2008 - 1st
+	Call for Papers
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+-------------------------------------------------------------------
+
+1st Call for Papers
+
+LREC 2008 Workshop on
+
+"Multimodal corpora:
+>From Models of Natural Interaction to Systems and Applications"
+
+
+Tuesday, 27 May 2008
+Marrakech (Morocco)
+http://www.lrec-conf.org/lrec2008/
+
+-------------------------------------------------------------------
+
+
+DESCRIPTION
+
+A 'Multimodal Corpus' targets the recording and annotation of several commu=
+nication modalities such as speech, hand gesture, facial expression, body p=
+osture, etc. Theoretical issues are also addressed, given their importance =
+to the design of multimodal corpora.
+
+This workshop continues the successful series of similar workshops at LREC =
+00, 02, 04 and 06 also documented in a special issue of the Journal of Lang=
+uage Resources and Evaluation due to come out in spring 2008. There is an i=
+ncreasing interest in multimodal communication and multimodal corpora as vi=
+sible by European Networks of Excellence and integrated projects such as HU=
+MAINE, SIMILAR, CHIL, AMI, CALLAS. Furthermore, the success of recent confe=
+rences and workshops dedicated to multimodal communication (ICMI, IVA, Gest=
+ure, PIT, Nordic Symposia on Multimodal Communication, Embodied Language Pr=
+ocessing) and the creation of the Journal of Multimodal User Interfaces als=
+o testifies to the growing interest in this area, and the general need for =
+data on multimodal behaviours.
+
+The focus of this LREC'2008 workshop on multimodal corpora will be on model=
+s of natural interaction and their contribution to the design of multimodal=
+ systems and applications.
+
+Topics to be addressed include, but are not limited to:
+=95 Multimodal corpus collection activities (e.g. direction-giving dialogue=
+s, emotional behaviour, human-avatar interaction, human-robot interaction, =
+etc.)
+=95 Relations between modalities in natural (human) interaction and in huma=
+n-computer interaction
+=95 Application of multimodal corpora to the design of multimodal and multi=
+media systems
+=95 Fully or semi-automatic multimodal annotation, using e.g. motion captur=
+e and image processing, and its integration with manual annotations
+=95 Corpus-based design of systems that involve human-like modalities eithe=
+r in input (Virtual Reality, motion capture, etc.) and output (virtual char=
+acters)
+=95 Multimodal interaction in specific scenarios, e.g. group interaction in=
+ meetings
+=95 Coding schemes for the annotation of multimodal corpora
+=95 Evaluation and validation of multimodal annotations
+=95 Methods, tools, and best practices for the acquisition, creation, manag=
+ement, access, distribution, and use of multimedia and multimodal corpora
+=95 Interoperability between multimodal annotation tools (exchange formats,=
+ conversion tools, standardization)
+=95 Metadata descriptions of multimodal corpora
+=95 Automated multimodal fusion and/or generation (e.g., coordinated speech=
+, gaze, gesture, facial expressions)
+=95 Analysis methods tailored to multimodal corpora using e.g. statistical =
+measures or data mining
+   =
+
+We expect the output of this workshop to be:
+1) deeper understanding of theoretical issues and research questions relate=
+d to verbal and non-verbal communication that multimodal corpora should add=
+ress,
+2) larger consensus on how such corpora should be built in order to provide=
+ useful and usable answers to research questions,
+3) shared knowledge of how the corpora are contributing to multimodal and m=
+ultimedia system design, and
+4) an updated view of state-of-the-art research on multimodal corpora. =
+
+
+-------------------------------------------------------------------
+IMPORTANT DATES
+
+- February 10th: Deadline for submission (full paper)
+- March 16th: Notification of acceptance
+- March 30th: Camera ready version of papers
+- May 27th: Workshop
+
+-------------------------------------------------------------------
+SUBMISSIONS
+
+The workshop will consist primarily of paper presentations and discussion/w=
+orking sessions.
+Submissions should be 4 pages long, must be in English, and follow the subm=
+ission guidelines from http://www.lrec-conf.org/lrec2008/
+The .doc and .pdf file should be submitted via email to MARTIN@LIMSI.FR and=
+ PATRIZIA@CST.DK
+
+Demonstrations of multimodal corpora and related tools are encouraged as we=
+ll (a demonstration outline of 2 pages can be submitted).
+
+As soon as possible, authors are encouraged to send to MARTIN@LIMSI.FR and =
+PATRIZIA@CST.DK
+a brief email indicating their intention to participate, including their co=
+ntact information and the topic they intend to address in their submissions=
+. Proceedings of the workshop will be printed by the LREC Local Organising =
+Committee.
+
+-------------------------------------------------------------------
+TIME SCHEDULE AND REGISTRATION FEE
+
+The workshop will consist of a morning session and an afternoon session.
+There will be time for collective discussions.
+For this full-day Workshop, the registration fee will be specified on
+http://www.lrec-conf.org/lrec2008/
+
+-------------------------------------------------------------------
+ORGANISING COMMITTEE
+
+MARTIN Jean-Claude, LIMSI-CNRS, France
+PAGGIO Patrizia, Univ. of Copenhagen, Denmark
+KIPP Michael, DFKI, Saarbr=FCcken, Germany
+HEYLEN Dirk, Univ. Twente, The Netherlands
+
+-------------------------------------------------------------------
+
+
+
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

@@ -1,0 +1,756 @@
+From - Thu Dec 10 14:35:15 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs74753far;
+        Fri, 13 Feb 2009 06:21:20 -0800 (PST)
+Received: by 10.86.93.19 with SMTP id q19mr296212fgb.62.1234534879228;
+        Fri, 13 Feb 2009 06:21:19 -0800 (PST)
+Return-Path: <sentto-1622440-2729-1234534866-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com>
+Received: from relay2-v.mail.gandi.net (relay2-v.mail.gandi.net [217.70.178.76])
+        by mx.google.com with ESMTP id 3si1550556fge.52.2009.02.13.06.21.17;
+        Fri, 13 Feb 2009 06:21:18 -0800 (PST)
+Received-SPF: neutral (google.com: 217.70.178.76 is neither permitted nor denied by manual fallback record for domain of sentto-1622440-2729-1234534866-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) client-ip=217.70.178.76;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.178.76 is neither permitted nor denied by manual fallback record for domain of sentto-1622440-2729-1234534866-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2729-1234534866-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from spool.mail.gandi.net (mspool1-v.mgt.gandi.net [10.0.21.71])
+	by relay2-v.mail.gandi.net (Postfix) with ESMTP id A3504135DA
+	for <jpprost@gmail.com>; Fri, 13 Feb 2009 15:21:17 +0100 (CET)
+Received: from localhost (mfilter6-d.gandi.net [217.70.178.40])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 7C79A6A807A
+	for <jpprost@gmail.com>; Fri, 13 Feb 2009 15:21:17 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mfilter6-v.mgt.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.71])
+	by localhost (mfilter6-d.mgt.gandi.net [217.70.178.40]) (amavisd-new, port 10024)
+	with ESMTP id 0FldIGqLJf1c for <jpprost@gmail.com>;
+	Fri, 13 Feb 2009 15:21:15 +0100 (CET)
+Received: from n49c.bullet.mail.sp1.yahoo.com (n49c.bullet.mail.sp1.yahoo.com [66.163.168.183])
+	by spool.mail.gandi.net (Postfix) with SMTP id 1CE2F6A8076
+	for <jean-philippe.prost@lpl-aix.fr>; Fri, 13 Feb 2009 15:21:11 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1234534867; bh=weSzpv1BQlNm1yixscoc8SVuXm1mCdvV4EVRs7Lr+mU=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:To:Organization:Message-ID:X-Priority:X-MSMail-Priority:X-Mailer:X-MimeOLE:Importance:Thread-Index:X-Originating-IP:X-eGroups-Msg-Info:From:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=tPaCx4HlAR3O7WMAJvZOLHPOXRckQX+iLn+rlStChtPKiFN1n2K0QSqAdQuNbLzfflzi2dnlFP06uYajRn5CFMdc5VzyGcG76xmwJWDYUVcbGd+Ew96a6QINa48r/ixb
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=EpXOC7p0IY5djuNgAXqHDiTJq5ogq+lFJq4key8BPbgpDwidIEjYnlc7+/aN7pcVlbm+/Rpdms+kMDBSpPJbFcZZQ7w+a3wfA2cPk9FdrpoCc/U45ZSHfZ8hsNIT0cdE;
+Received: from [69.147.65.147] by n49.bullet.mail.sp1.yahoo.com with NNFMP; 13 Feb 2009 14:21:07 -0000
+Received: from [66.218.67.108] by t10.bullet.mail.sp1.yahoo.com with NNFMP; 13 Feb 2009 14:21:07 -0000
+X-Yahoo-Newman-Id: 1622440-m2729
+X-Sender: alain.ghio@lpl-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+X-Received: (qmail 27301 invoked from network); 13 Feb 2009 14:21:02 -0000
+X-Received: from unknown (66.218.67.95)
+  by m44.grp.scd.yahoo.com with QMQP; 13 Feb 2009 14:21:02 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta16.grp.scd.yahoo.com with SMTP; 13 Feb 2009 14:21:02 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Ao0cABQRlUmTXsWs/2dsb2JhbAATgVWIZKcqoQeEGAY
+X-IronPort-AV: E=Sophos;i="4.38,202,1233529200"; 
+   d="scan'208";a="218902351"
+X-Received: from unknown (HELO GHIOFIXE) ([147.94.197.172])
+  by mso1k206.u-3mrs.fr with ESMTP; 13 Feb 2009 15:21:01 +0100
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Organization: LPL
+Message-ID: <6D841220C8C842D9A18C8D0D3500D40A@GHIOFIXE>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Importance: Normal
+Thread-Index: AcmN5DlKnomQqrYwSHCdEMNhTvPg/QAAf4zg
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "ghio" <alain.ghio@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Fri, 13 Feb 2009 15:20:58 +0100
+Subject: [lpl-infos] TR : Call for Papers - Interspeech 2009
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="PXtQTI5VboovVoe7RN47c2NogTztrZg-k0s3Bqi"
+
+--PXtQTI5VboovVoe7RN47c2NogTztrZg-k0s3Bqi
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+-----Message d'origine-----
+De : Webmaster [mailto:noreply@interspeech2009.org]=20
+Envoy=E9 : vendredi 13 f=E9vrier 2009 15:06
+=C0 : alain.ghio@lpl.univ-aix.fr
+Objet : Call for Papers - Interspeech 2009
+
+
+Interspeech 2009 - Call for Papers
+
+www.interspeech2009.org
+
+Interspeech is the world's largest and most comprehensive conference on
+Speech Science and Speech Technology. Interspeech 2009 will be held in
+Brighton, UK, 6-10 September 2009, and its theme is Speech and Intelligence=
+.
+We invite you to submit original papers in any related area, including (but
+not limited
+to):
+
+Human Speech Production, Perception And Communication
+
+* Human speech production
+* Human speech perception
+* Phonology and phonetics
+* Discourse and dialogue
+* Prosody (production, perception, prosodic structure)
+* Emotion and Expression
+* Paralinguistic and nonlinguistic cues (e.g. emotion and
+expression)
+* Physiology and pathology
+* Spoken language acquisition, development and learning
+
+Speech And Language Technology
+
+* Automatic Speech recognition
+* Speech analysis and representation
+* Audio segmentation and classification
+* Speech enhancement
+* Speech coding and transmission
+* Speech synthesis and spoken language generation
+* Spoken language understanding
+* Accent and language identification
+* Cross-lingual and multi-lingual processing
+* Multimodal/multimedia signal processing
+* Speaker characterisation and recognition
+
+Spoken Language Systems And Applications
+
+* Speech Dialogue systems
+* Systems for information retrieval from spoken documents
+* Systems for speech translation
+* Applications for aged and handicapped persons
+* Applications for learning and education
+* Hearing prostheses
+* Other applications
+
+Resources, Standardisation And Evaluation
+
+* Spoken language resources and annotation
+* Evaluation and standardisation
+
+---------------------------------------------------
+
+Paper Submission
+
+Papers for the Interspeech 2009 proceedings are up to four pages in length
+and should conform to the format given in the paper preparation guidelines
+and author kits, which are now available at www.interspeech2009.org
+
+Authors are asked to categorize their submitted papers as being one of:
+N: Completed empirical studies reporting novel research findings
+E: Exploratory studies
+P: Position papers
+
+Authors will also have to declare that their contribution is original and
+not being submitted for publication elsewhere (e.g. another conference,
+workshop, or journal).
+
+Papers must be submitted via the on-line paper submission system, which wil=
+l
+open shortly. The deadline for submitting a paper is 17th April 2009. This
+date will not be extended.
+
+Interspeech2009 Organising Committee
+
+
+----
+If you do not want to receive any more Interspeech 2009 announcements, go
+to:
+http://www.interspeech2009.org/lists/?p=3Dunsubscribe&uid=3D4c28df2676b42b8=
+5f19a
+65731203bf97
+To update your preferences, go to:
+http://www.interspeech2009.org/lists/?p=3Dpreferences&uid=3D4c28df2676b42b8=
+5f19a
+65731203bf97
+
+
+
+--
+Powered by PHPlist, www.phplist.com --
+
+
+
+--PXtQTI5VboovVoe7RN47c2NogTztrZg-k0s3Bqi
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p><br>
+<br>
+-----Message d'origine---<wbr>--<br>
+De : Webmaster [mailto:<a href=3D"mailto:noreply%40interspeech2009.org">nor=
+eply@interspeech<wbr>2009.org</a>] <br>
+Envoy=E9 : vendredi 13 f=E9vrier 2009 15:06<br>
+=C0 : <a href=3D"mailto:alain.ghio%40lpl.univ-aix.fr">alain.ghio@lpl.<wbr>u=
+niv-aix.<wbr>fr</a><br>
+Objet : Call for Papers - Interspeech 2009<br>
+<br>
+Interspeech 2009 - Call for Papers<br>
+<br>
+www.interspeech2009<wbr>.org<br>
+<br>
+Interspeech is the world's largest and most comprehensive conference on<br>
+Speech Science and Speech Technology. Interspeech 2009 will be held in<br>
+Brighton, UK, 6-10 September 2009, and its theme is Speech and Intelligence=
+.<br>
+We invite you to submit original papers in any related area, including (but=
+<br>
+not limited<br>
+to):<br>
+<br>
+Human Speech Production, Perception And Communication<br>
+<br>
+* Human speech production<br>
+* Human speech perception<br>
+* Phonology and phonetics<br>
+* Discourse and dialogue<br>
+* Prosody (production, perception, prosodic structure)<br>
+* Emotion and Expression<br>
+* Paralinguistic and nonlinguistic cues (e.g. emotion and<br>
+expression)<br>
+* Physiology and pathology<br>
+* Spoken language acquisition, development and learning<br>
+<br>
+Speech And Language Technology<br>
+<br>
+* Automatic Speech recognition<br>
+* Speech analysis and representation<br>
+* Audio segmentation and classification<br>
+* Speech enhancement<br>
+* Speech coding and transmission<br>
+* Speech synthesis and spoken language generation<br>
+* Spoken language understanding<br>
+* Accent and language identification<br>
+* Cross-lingual and multi-lingual processing<br>
+* Multimodal/multimed<wbr>ia signal processing<br>
+* Speaker characterisation and recognition<br>
+<br>
+Spoken Language Systems And Applications<br>
+<br>
+* Speech Dialogue systems<br>
+* Systems for information retrieval from spoken documents<br>
+* Systems for speech translation<br>
+* Applications for aged and handicapped persons<br>
+* Applications for learning and education<br>
+* Hearing prostheses<br>
+* Other applications<br>
+<br>
+Resources, Standardisation And Evaluation<br>
+<br>
+* Spoken language resources and annotation<br>
+* Evaluation and standardisation<br>
+<br>
+------------<wbr>---------<wbr>---------<wbr>---------<wbr>---------<wbr>--=
+-<br>
+<br>
+Paper Submission<br>
+<br>
+Papers for the Interspeech 2009 proceedings are up to four pages in length<=
+br>
+and should conform to the format given in the paper preparation guidelines<=
+br>
+and author kits, which are now available at www.interspeech2009<wbr>.org<br=
+>
+<br>
+Authors are asked to categorize their submitted papers as being one of:<br>
+N: Completed empirical studies reporting novel research findings<br>
+E: Exploratory studies<br>
+P: Position papers<br>
+<br>
+Authors will also have to declare that their contribution is original and<b=
+r>
+not being submitted for publication elsewhere (e.g. another conference,<br>
+workshop, or journal).<br>
+<br>
+Papers must be submitted via the on-line paper submission system, which wil=
+l<br>
+open shortly. The deadline for submitting a paper is 17th April 2009. This<=
+br>
+date will not be extended.<br>
+<br>
+Interspeech2009 Organising Committee<br>
+<br>
+----<br>
+If you do not want to receive any more Interspeech 2009 announcements, go<b=
+r>
+to:<br>
+<a href=3D"http://www.interspeech2009.org/lists/?p=3Dunsubscribe&amp;uid=3D=
+4c28df2676b42b85f19a">http://www.interspe<wbr>ech2009.org/<wbr>lists/?p=3D<=
+wbr>unsubscribe&amp;<wbr>uid=3D4c28df2676b4<wbr>2b85f19a</a><br>
+65731203bf97<br>
+To update your preferences, go to:<br>
+<a href=3D"http://www.interspeech2009.org/lists/?p=3Dpreferences&amp;uid=3D=
+4c28df2676b42b85f19a">http://www.interspe<wbr>ech2009.org/<wbr>lists/?p=3D<=
+wbr>preferences&amp;<wbr>uid=3D4c28df2676b4<wbr>2b85f19a</a><br>
+65731203bf97<br>
+<br>
+--<br>
+Powered by PHPlist, www.phplist.<wbr>com --<br>
+<br>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/272=
+9;_ylc=3DX3oDMTM0aWN2MjZkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI3MjkEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjM0NTM0ODY3BHRwY=
+0lkAzI3Mjk-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwMnFpOWJvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI3MjkEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjM0NTM0ODY3?act=3Dreply&me=
+ssageNum=3D2729">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlMTJqdmhtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIzNDUzNDg2Nw--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlaWM4ZHA3BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIzNDUzNDg2Nw--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmZ20yaWJtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMzQ1MzQ4Njc-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlOHBzNjYwBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIzNDUzNDg2Nw--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmMjYyZjBoBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMzQ1MzQ4Njc-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjMWM1MWljBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMzQ1MzQ4Njc-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmYTdjbm41BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMzQ1MzQ4Njc-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlcnI2cWphBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIzNDUzNDg2Nw--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkZDlnZGxxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjM0NTM0ODY3">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkOW5pZXVqBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjM0NTM0ODY3">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmbTl1azljBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMzQ1MzQ4Njc-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+ZW83bnBmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjM0NTM0ODY3">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+		        <li style=3D"clear: both; list-style-type: none; border: 1px soli=
+d #e0ecee;">
+      <div class=3D"ct" style=3D"float: right; font-weight: bold; color: #f=
+f7900; float: right; width: 2em; text-align:right; padding-right: .5em;"><s=
+pan style=3D"display:none">&nbsp;</span>1</div>
+      <div class=3D"cat" style=3D"font-weight: bold;"><a href=3D"http://fr.=
+groups.yahoo.com/group/lpl-infos/members;_ylc=3DX3oDMTJmajlva212BF9TAzk3NDk=
+wNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBH=
+N0aW1lAzEyMzQ1MzQ4Njc-">Nouveaux membres</a></div>
+    </li>
+=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlN24zNG1lBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIzNDUzNDg2Nw--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJranUyaWg1BF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIzNDUzNDg2Nw--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJudmhhdDF1BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIzNDUzNDg2Nw--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvaXJwcG1nBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMzQ1MzQ4Njc-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2729/stime=3D1234534867/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--PXtQTI5VboovVoe7RN47c2NogTztrZg-k0s3Bqi--

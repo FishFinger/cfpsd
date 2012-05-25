@@ -1,0 +1,529 @@
+From - Thu Dec 10 14:33:09 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs260558muh;
+        Mon, 8 Sep 2008 12:30:32 -0700 (PDT)
+Received: by 10.210.90.8 with SMTP id n8mr852960ebb.128.1220902230884;
+        Mon, 08 Sep 2008 12:30:30 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 23si5002334eya.7.2008.09.08.12.29.58;
+        Mon, 08 Sep 2008 12:30:30 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id EAD86210D8; Mon,  8 Sep 2008 21:29:57 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C7D7020B09;
+	Mon,  8 Sep 2008 21:28:07 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A26243D2F;
+	Mon,  8 Sep 2008 21:28:07 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rJxBT++7q2lj; Mon,  8 Sep 2008 21:28:07 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id F05E23D13;
+	Mon,  8 Sep 2008 21:28:05 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id CAD7E3D57
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu,  4 Sep 2008 12:52:26 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id xR9znB3YwRb9 for <elsnet-list@mailman.elsnet.org>;
+	Thu,  4 Sep 2008 12:52:26 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A02E63D56
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu,  4 Sep 2008 12:52:26 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8E7041FA64; Thu,  4 Sep 2008 12:52:26 +0200 (MEST)
+Received: from mailslv1.informatik.hu-berlin.de
+	(mailslv1.informatik.hu-berlin.de [141.20.20.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8BEA820666
+	for <elsnet-list@let.uu.nl>; Thu,  4 Sep 2008 12:52:19 +0200 (MEST)
+Received: from riemann.informatik.hu-berlin.de
+	(riemann.informatik.hu-berlin.de [141.20.28.79])
+	by mailslv1.informatik.hu-berlin.de
+	(8.13.8+Sun/8.13.8/INF-2.0-MA-SOLARIS-2.10-25) with ESMTP id
+	m84AnkhH028927; Thu, 4 Sep 2008 12:49:46 +0200 (CEST)
+Received: by riemann.informatik.hu-berlin.de (Postfix, from userid 2053)
+	id 2D3DF6F442F; Thu,  4 Sep 2008 12:49:46 +0200 (CEST)
+To: LICS List <lics@informatik.hu-berlin.de>
+From: Kreutzer + Schweikardt <lics@informatik.hu-berlin.de>
+Message-Id: <20080904104946.2D3DF6F442F@riemann.informatik.hu-berlin.de>
+Date: Thu,  4 Sep 2008 12:49:46 +0200 (CEST)
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0
+	(mailslv1.informatik.hu-berlin.de [141.20.20.51]);
+	Thu, 04 Sep 2008 12:49:48 +0200 (CEST)
+X-Virus-Status: No (sigma)
+X-Mailman-Approved-At: Mon, 08 Sep 2008 21:28:04 +0200
+Cc: 
+Subject: [Elsnet-list] LICS Newsletter 117
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: lics@informatik.hu-berlin.de
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Newsletter 117
+September 4, 2008
+
+*******************************************************************
+* Past issues of the newsletter are available at
+  http://www.informatik.hu-berlin.de/lics/newsletters/
+* Instructions for submitting an announcement to the newsletter
+  can be found at
+  http://www.informatik.hu-berlin.de/lics/newsletters/inst.html
+* To unsubscribe, send an email with "unsubscribe" in the 
+  subject line to lics@informatik.hu-berlin.de
+*******************************************************************
+
+TABLE OF CONTENTS
+* ANNOUNCEMENTS
+  LICS Newsletter Announcements
+  Upcoming Deadlines
+* CONFERENCES AND WORKSHOPS
+  ESSLLII - Deadline Extension and Final Call for Course/Workshop Proposals
+  SEC - Call for Participation
+  LFCS 2009 - Call for Papers
+  LATA 2009 -   Call for Papers
+  PODS 2009 - Call for Papers
+* BOOK ANNOUNCEMENTS
+  Second-Order Quantifier Elimination: Foundations, Computational Aspects and Applications - by Dov M. Gabbay, Renate A. Schmidt, and Andrzej Szalas
+  A Modular Calculus For The Average Cost Of Data Structuring - by Michel Schellekens 
+
+
+
+LICS NEWSLETTER ANNOUNCEMENTS
+* New publication schedule
+  The LICS Newsletter will now be published monthly, on the
+  first day of each month or shortly thereafter. Please time your
+  submissions accordingly.
+* New section
+  - Starting with this issues, the LICS Newsletter will contain a
+    section on upcoming deadlines for logic related conferences. 
+  - This section contains deadlines within six weeks of publication of
+    the newsletter. 
+  - The list of conferences announced in this way is roughly based on
+    the list of logic related conferences as it appears on the LICS
+    webpage http://www2.informatik.hu-berlin.de/lics/.
+    It also includes conferences publicised on the Newsletter.
+  - If you want you conference to be included in this list, please
+    send an email to stephan.kreutzer@comlab.ox.ac.uk.
+
+
+
+UPCOMING DEADLINES
+* LFCS 2009
+  14 September 2009
+  http://www.lfcs.info/lfcs09/index.html
+* STACS 2009
+  15 September 2009
+  http://stacs2009.informatik.uni-freiburg.de/
+* ETAPS 2009
+  including CC, ESOP, FASE, FOSSACS, TACAS
+  2 October 2009
+  http://www.cs.york.ac.uk/etaps09/
+* LATA 2009
+  22 October 2009
+  http://grammars.grlmc.com/LATA2009/
+
+
+
+EUROPEAN SUMMER SCHOOL IN LOGIC, LANGUAGE AND INFORMATION (ESSLLI) 2009
+   Monday, 20 July - Friday, 31 July 2009
+   Bordeaux, France
+   Call For Course And Workshop Proposals
+   Extended Deadline
+* The European Summer School in Logic, Language and Information (ESSLLI)
+  is organized every year by the Association for Logic, Language and
+  Information (FoLLI, http://www.folli.org) in different sites around
+  Europe.
+  The main focus of ESSLLI is on the interface between linguistics,
+  logic and computation.  ESSLLI offers foundational, introductory and
+  advanced courses, as well as workshops, covering a wide variety of
+  topics within the three areas of interest: Language and Computation,
+  Language and Logic, and Logic and Computation.
+  Previous summer schools have been highly successful, attracting up to
+  500 students from Europe and elsewhere.  The school has developed into
+  an important meeting place and forum for discussion for students and
+  researchers interested in the interdisciplinary study of Logic,
+  Language and Information.
+  The ESSLLI 2009 Program Committee invites proposals for
+  foundational, introductory, and advanced courses, and for workshops
+  for the 21st annual Summer School in the broad interdisciplinary
+  area connecting logic, linguistics, computer science and the
+  cognitive sciences. The Summer School program is organized around
+  the components.
+  - Language and Computation
+  - Language and Logic
+  - Logic and Computation
+  We also welcome proposals that do not exactly fit one of these
+  there categories.
+* PROPOSAL SUBMISSION:
+  Proposals should be submitted through a web form
+  available at http://www.folli.org/submission.php
+  All proposals should be submitted no later than
+  ******* Monday, September 1, 2008 *******
+  Authors of proposals will be notified of the committee's decision no
+  later than Wednesday October 15, 2008.  Proposers should follow the
+  guidelines below while preparing their submissions; proposals that
+  deviate can not be considered.
+*GUIDELINES FOR SUBMISSION:
+  Anyone interested in lecturing or
+  organizing a workshop during ESSLLI-2009, please read the following
+  information carefully.
+  ALL COURSES: Courses consists of five sessions (a one-week course),
+  each session lasting 90 minutes.  Lecturers who want to offer a long,
+  two-week course should submit two independent one-week courses (for
+  example an introductory course in the first week of ESSLLI, and a
+  more advanced course during the second).  The ESSLLI program committee
+  has the right to select only one of the two proposed courses.
+* Timetable for Course Proposal Submission:
+  Sept 1, 2008: Proposal Submission Deadline
+  Oct 15, 2008: Notification
+  June 1, 2009: Deadline for receipt of camera-ready course
+                 material (by ESSLLI Local Organizers)
+* WORKSHOPS:
+  The aim of the workshops is to provide a forum for advanced
+  Ph.D. students and other researchers to present and discuss their
+  work.  Workshops should have a well defined theme, and workshop
+  organizers should be specialists in the theme of the workshop. It is a
+  strict requirement that organizers give a general introduction to the
+  theme during the first session of the workshop.  They are also
+  responsible for the organization and program of the workshop
+  including inviting the submission of papers, reviewing, expenses of
+  invited speakers, etc. In particular, each workshop organizer will be
+  responsible for sending out a Call for Papers for the workshop by
+  November 17, 2008.  The call must make it clear that the workshop is
+  open to all members of the ESSLLI community.  It should also note that
+  all workshop contributors must register for the Summer School.
+* Timetable for Workshop Proposal Submissions
+  Sept 1, 2008: Proposal Submission Deadline
+  Oct 15, 2008: Notification
+  Nov 10, 2008: Deadline for receipt of Call for Papers
+                 (by ESSLLI PC chair)
+  Nov 17, 2008: Workshop organizers send out (First) Call for Papers
+  Jan  7, 2008: Workshop organizers send out Second Call for Papers
+  Feb  2, 2008: Workshop organizers send out Third Call for Papers
+  Feb 15, 2009: Deadline for Papers
+  Apr 15, 2009: Notification of Workshop Contributors
+  June 1, 2009: Deadline for receipt of camera-ready copy of Workshop
+                Proceedings (by ESSLLI Local Organizers)
+
+
+
+
+23rd INTERNATIONAL INFORMATION SECURITY CONFERENCE (SEC 2008)
+   Call for Participation
+   http://sec2008.dti.unimi.it
+* The Twenty-third Conference on International Information Security
+   Conference (SEC 2008) will take place on Milano Convention Centre,
+   Milano, Italy
+   from Monday, September 8 through Wednesday, September 10, 2008.
+* IFIP International Information Security Conference is the IFIP
+   TC-11 (Technical Committee on Security & Protection in
+   Information Processing Systems) flagship conference. The conference
+   is an international forum for information security researchers and
+   attracts an international audience from the academic, industrial,
+   and governmental communities.
+   The 2008 edition is co-located with IFIP World Computer Congress
+   2008 and will take place in Milan, Italy, at Milano Convention
+   Centre.
+* PROGRAM
+  See http://sec2008.dti.unimi.it/program.php
+
+
+SYMPOSIUM ON LOGICAL FOUNDATIONS OF COMPUTER SCIENCE (LFCS'09) 
+  Call For Papers
+  Deerfield Beach, Florida, 
+  January 3-6, 2009 
+  www.lfcs.info
+* The LFCS series provides an outlet for the fast-growing body of work in 
+  the logical foundations of computer science, e.g., areas of fundamental
+  theoretical logic related to computer science. The LFCS series began 
+  with Logic at Botik, Pereslavl-Zalessky, 1989, and was co-organized by Albert  
+  R. Meyer (MIT) and  Michael Taitslin (Tver), after which organization 
+  passed to Anil Nerode.
+* LFCS Steering Committee:
+  Anil Nerode (General Chair); Stephen Cook; Dirk van Dalen; Yuri
+  Matiyasevich; John McCarthy; J. Alan Robinson; Gerald Sacks; Dana Scott.
+* LFCS'09 Program Committee:
+  Sergei Artemov (PC Chair); Matthias Baaz; Andreas Blass; Samuel Buss; 
+  Rod Downey; Ruy de Queiroz; Petr Hajek; Denis Hirschfeldt; Rosalie Iemhoff;
+  Bakhadyr Khoussainov; Yves Lafont; Daniel Leivant; Robert Lubarsky; 
+  Victor Marek; Franco Montagna; Anil Nerode; Philip Scott; Anatol Slissenko; 
+  Alex Simpson; Michael Rathjen; Alasdair Urquhart; Rineke Verbrugge.
+* Submission details. 
+  Proceedings will be published in the LNCS series.
+  There will be a post-conference volume of selected works published in 
+  the Annals of Pure and Applied Logic. Submissions should be made 
+  electronically via http://www.easychair.org/LFCS09/. Submitted papers must be in 
+  pdf/12pt format and of no more than 15 pages, present work not previously 
+  published, and must not be submitted concurrently to another conference with 
+  refereed proceedings.
+* Submissions deadline (firm): September 14, 2008
+* More details on topics, deadlines, venue, and lodging at www.lfcs.info
+  <http://www.lfcs.info/> .
+
+
+
+3rd INTERNATIONAL CONFERENCE ON LANGUAGE AND AUTOMATA THEORY AND APPLICATIONS (LATA 2009)
+   Tarragona, Spain, April 2-8, 2009
+   http://grammars.grlmc.com/LATA2009/
+* AIMS
+  LATA is a yearly conference in theoretical computer science and its
+  applications. As linked to the International PhD School in Formal
+  Languages and Applications that was developed at the host institute in
+  the period 2002-2006, LATA 2009 will reserve significant room for young
+  scholars at the beginning of their career. It will aim at attracting
+  contributions from both classical theory fields and application areas
+  (bioinformatics, systems biology, language technology, artificial
+  intelligence, etc.).
+* INVITED SPEAKERS
+  - Bruno Courcelle (Bordeaux): Graph Structure and Monadic Second-order Logic (tutorial)
+  - Markus Holzer (Muenchen): Nondeterministic Finite Automata: Recent Developments (tutorial)
+  - Sanjay Jain (Singapore): Role of Hypothesis Spaces in Inductive Inference
+  - Kai Salomaa (Kingston, Canada): State Complexity of Nested Word Automata
+  - Thomas Zeugmann (Sapporo): Recent Developments in Algorithmic Teaching
+* PROGRAMME COMMITTEE
+  - Parosh Abdulla (Uppsala)
+  - Stefania Bandini (Milano)
+  - Stephen Bloom (Hoboken)
+  - John Brzozowski (Waterloo)
+  - Maxime Crochemore (London)
+  - Juergen Dassow (Magdeburg)
+  - Michael Domaratzki (Winnipeg)
+  - Henning Fernau (Trier)
+  - Rusins Freivalds (Riga)
+  - Vesa Halava (Turku)
+  - Juraj Hromkovic (Zurich)
+  - Lucian Ilie (London, Canada)
+  - Kazuo Iwama (Kyoto)
+  - Aravind Joshi (Philadelphia)
+  - Juhani Karhumaki (Turku)
+  - Jarkko Kari (Turku)
+  - Claude Kirchner (Bordeaux)
+  - Maciej Koutny (Newcastle)
+  - Hans-Joerg Kreowski (Bremen)
+  - Kamala Krithivasan (Chennai)
+  - Martin Kutrib (Giessen)
+  - Andrzej Lingas (Lund)
+  - Aldo de Luca (Napoli)
+  - Rupak Majumdar (Los Angeles)
+  - Carlos Martin-Vide (Tarragona & Brussels, chair)
+  - Joachim Niehren (Lille)
+  - Antonio Restivo (Palermo)
+  - Joerg Rothe (Duesseldorf)
+  - Wojciech Rytter (Warsaw)
+  - Philippe Schnoebelen (Cachan)
+  - Thomas Schwentick (Dortmund)
+  - Helmut Seidl (Muenchen)
+  - Alan Selman (Buffalo)
+  - Jeffrey Shallit (Waterloo)
+  - Ludwig Staiger (Halle)
+  - Frank Stephan (Singapore)
+* SUBMISSIONS:
+  Authors are invited to submit papers presenting original and unpublished
+  research. Papers should not exceed 12 single-spaced pages and should be
+  formatted according to the standard format for Springer Verlag's LNCS
+  series 
+  (see http://www.springer.com/computer/lncs/lncs+authors?SGWID=0-40209-0-0-0). 
+  Submissions have to be uploaded at:
+    http://www.easychair.org/conferences/?conf=lata2009
+* IMPORTANT DATES
+  Paper submission: October 22, 2008
+  Notification of paper acceptance or rejection: December 10, 2008
+  Application for funding (PhD students): December 15, 2008
+  Notification of funding acceptance or rejection: December 19, 2008
+  Final version of the paper for the proceedings: December 24, 2008
+  Early registration: December 31, 2008
+  Starting of the conference: April 2, 2009
+  Submission to the journal special issues: June 22, 2009
+
+
+
+ACM SYMPOSIUM ON PRINCIPLES OF DATABASE SYSTEMS (PODS 2009)
+   Call for Papers
+   June 29 - July 2, 2009
+   Providence, Rhode Island, USA
+   http://www.sigmod09.org/index.shtml
+* The PODS symposium series, held in conjunction with the SIGMOD
+   conference series, provides a premier annual forum for the
+   communication of new advances in the theoretical foundation of
+   database systems. For the 28th edition, original research papers
+   providing new insights in the specification, design, or
+   implementation of data management tools are called for. 
+* Topics of Interest
+  Topics that fit the interests of the symposium include the following
+   (as they pertain to databases): 
+  Algorithms; complexity; computational model theory; concurrency;
+   constraints; data exchange; data integration; data mining; data
+   modeling; data on the Web; data streams; data warehouses;
+   distributed databases; information retrieval; knowledge bases;
+   logic; multimedia; physical design; privacy; quantitative
+   approaches; query languages; query optimization; real-time data;
+   recovery; scientific data; security; semantic Web; semi-structured
+   data; spatial data; temporal data; transactions; updates; views;
+   Web services; workflows; XML.
+* PROGRAM COMMITTEE 
+  Jianwen Su (UC Santa Barbara) (Chair)
+  Gustavo Alonso (ETH Zurich)
+  Pablo Barcelo (University of Chile)
+  Toon Calders (Eindhoven Univ. of Technology)
+  Andrea Cali (University of Oxford)
+  Anirban Dasgupta (Yahoo! Research)
+  Giuseppe De Giacomo (University of Rome La Sapienza)
+  Wenfei Fan (University of Edinburgh & Bell Labs)
+  Floris Geerts (Univ. of Edinburgh)
+  Michael Kifer (SUNY Stony Brook)
+  Wim Martens (Dortmund Univ. of Technology)
+  Frank McSherry (Microsoft Research)
+  Nina Mishra (Microsoft Research & University of Virginia)
+  Sunil Prabhakar (Purdue University)
+  Nicole Schweikardt (Frankfurt University)
+  Luc Segoufin (INRIA)
+  VS Subrahmanian (University of Maryland)
+  Subhash Suri (UC Santa Barbara)
+  Wang-Chiew Tan (UC Santa Cruz)
+  Balder ten Cate (University of Amsterdam)
+  Dirk Van Gucht (Indiana University)
+  Victor Vianu (UC San Diego) 
+* PODS Deadlines
+  December 1, 2008: Abstract submission
+  December 8, 2008: Manuscript submission
+  February 27, 2009: Notification of acceptance 
+
+
+BOOK ANNOUNCEMENT:
+  Second-Order Quantifier Elimination:
+  Foundations, Computational Aspects and Applications
+  by Dov M. Gabbay, Renate A. Schmidt, and Andrzej Szalas
+  Studies in Logic: Mathematical Logic and Foundations, Vol. 12 
+  College Publications 2008, 308 pages 
+  ISBN 978-1-904987-56-7
+* In recent years there has been an increasing use of
+  logical methods and significant new developments have
+  been spawned in several areas of computer science,
+  ranging from artificial intelligence and software
+  engineering to agent-based systems and the semantic web.
+  In the investigation and application of logical methods
+  there is a tension between:
+    - the need for a representational language strong enough
+      to express domain knowledge of a particular application,
+      and the need for a logical formalism general enough to
+      unify several reasoning facilities relevant to the
+      application, on the one hand, and
+    - the need to enable computationally feasible reasoning
+      facilities, on the other hand. 
+* Second-order logics are very expressive and allow us to
+  represent domain knowledge with ease, but there is a
+  high price to pay for the expressiveness. Most
+  second-order logics are incomplete and highly
+  undecidable. It is the quantifiers which bind relation
+  symbols that make second-order logics computationally
+  unfriendly. It is therefore desirable to eliminate these
+  second-order quantifiers, when this is mathematically
+  possible; and often it is. If second-order quantifiers
+  are eliminable we want to know under which conditions,
+  we want to understand the principles and we want to
+  develop methods for second-order quantifier elimination.
+  This book provides the first comprehensive, systematic
+  and uniform account of the state-of-the-art of
+  second-order quantifier elimination in classical and
+  non-classical logics. It covers the foundations, it
+  discusses in detail existing second-order quantifier
+  elimination methods, and it presents numerous examples
+  of applications and non-standard uses in different
+  areas. These include:
+    - classical and non-classical logics,
+    - correspondence and duality theory,
+    - knowledge representation and description logics,
+    - commonsense reasoning and approximate reasoning,
+    - relational and deductive databases, and
+    - complexity theory. 
+* The book is intended for anyone interested in the theory
+  and application of logics in computer science and
+  artificial intelligence.
+* Further information can be found at
+  http://www.cs.man.ac.uk/~schmidt/publications/GabbaySchmidtSzalas08.html
+
+
+
+
+BOOK ANNOUNCEMENT: A MODULAR CALCULUS FOR THE AVERAGE COST OF DATA
+STRUCTURING
+  by Michel Schellekens 
+  Springer 2008 246 with CD-ROM. Hardcover
+  ISBN: 978-0-387-73383-8
+* A Modular Calculus for the Average Cost of Data Structuring introduces
+  MOQA, a new domain-specific programming language which guarantees the
+  average-case time analysis of its programs to be modular. "Time" in this
+  context refers to a broad notion of cost, which can be used to estimate
+  the actual running time, but also other quantitative information such as
+  power consumption, while modularity means that the average time of a
+  program can be easily computed from the times of its
+  constituents--something that no programming language of this scope has
+  been able to guarantee so far. MOQA principles can be incorporated in
+  any standard programming language.
+  MOQA supports tracking of data and their distributions throughout
+  computations, based on the notion of random bag preservation. This
+  allows a unified approach to average-case time analysis, and resolves
+  fundamental bottleneck problems in the area. The main techniques are
+  illustrated in an accompanying Flash tutorial, where the visual nature
+  of this method can provide new teaching ideas for algorithms courses.
+* This volume, with forewords by Greg Bollella and Dana Scott, presents
+  novel programs based on the new advances in this area, including the
+  first randomness-preserving version of Heapsort. Programs are provided,
+  along with derivations of their average-case time, to illustrate the
+  radically different approach to average-case timing. The automated
+  static timing tool applies the Modular Calculus to extract the
+  average-case running time of programs directly from their MOQA code.
+* A Modular Calculus for the Average Cost of Data Structuring is
+  designed for a professional audience composed of researchers and
+  practitioners in industry, with an interest in algorithmic analysis and
+  also static timing and power analysis--areas of growing importance. It
+  is also suitable as an advanced-level text or reference book for
+  students in computer science, electrical engineering and mathematics.
+* Michel Schellekens obtained his PhD from Carnegie Mellon University,
+  following which he worked as a Marie Curie Fellow at Imperial College
+  London. Currently he is an Associate Professor at the Department of
+  Computer Science in University College Cork - National University of
+  Ireland, Cork, where he leads the Centre for Efficiency-Oriented
+  Languages (CEOL) as a Science Foundation Ireland Principal Investigator.
+* Written for:
+  Researchers and students interested in algorithm analysis, static
+  analysis, real-time programming, programming language semantics
+* Keywords:
+  - random structures
+  - real-time languages
+  - series-parallel data structures
+  - software timing/power analysis
+  - sorting and search algorithms
+  - static analysis
+* Further information available at: 
+  http://www.springer.com/computer/foundations/book/978-0-387-73383-8
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

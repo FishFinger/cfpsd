@@ -1,0 +1,273 @@
+From - Thu Dec 10 14:38:11 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.51.79 with SMTP id c15cs255729bkg;
+        Mon, 7 Sep 2009 04:47:20 -0700 (PDT)
+Received: by 10.210.3.14 with SMTP id 14mr1601536ebc.61.1252324035270;
+        Mon, 07 Sep 2009 04:47:15 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si671289ewy.89.2009.09.07.04.47.14;
+        Mon, 07 Sep 2009 04:47:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 1496F236CA; Mon,  7 Sep 2009 13:47:04 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id CE776232AA;
+	Mon,  7 Sep 2009 13:45:46 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A26F43D43;
+	Mon,  7 Sep 2009 13:45:46 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id A+bfyh2UssCT; Mon,  7 Sep 2009 13:45:46 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B29783D2F;
+	Mon,  7 Sep 2009 13:45:44 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id DD6B63D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  4 Sep 2009 12:58:52 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ALwy+9thUurV for <elsnet-list@mailman.elsnet.org>;
+	Fri,  4 Sep 2009 12:58:52 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B09243D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  4 Sep 2009 12:58:52 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 9D5182325A; Fri,  4 Sep 2009 12:58:52 +0200 (MEST)
+X-Greylist: delayed 518 seconds by postgrey-1.28 at newjura;
+	Fri, 04 Sep 2009 12:58:43 MEST
+Received: from smarthost.TechFak.Uni-Bielefeld.DE
+	(smarthost.TechFak.Uni-Bielefeld.DE [129.70.137.17])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id F33C5232A3
+	for <elsnet-list@elsnet.org>; Fri,  4 Sep 2009 12:58:43 +0200 (MEST)
+Received: from Dyn2-Laptop-64.TechFak.Uni-Bielefeld.DE
+	(Dyn2-Laptop-64.TechFak.Uni-Bielefeld.DE [129.70.134.64])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by smarthost.TechFak.Uni-Bielefeld.DE (Postfix) with ESMTPSA id 19679D5;
+	Fri,  4 Sep 2009 12:49:56 +0200 (CEST)
+Message-Id: <22DA6168-91C3-439A-AA4D-F1600A80F2C1@techfak.uni-bielefeld.de>
+From: Stefan Kopp <skopp@techfak.uni-bielefeld.de>
+To: daniel.arfib@pse.unige.ch, Ronan.Boulic@epfl.ch,
+	Annelies Braffort <Annelies.Braffort@limsi.fr>, music@dist.unige.it,
+	Justine Cassell <justine@northwestern.edu>, collet@irit.Fr,
+	andrea@ling.uni-potsdam.de, Christian.Cuxac@univ-paris8.fr,
+	Miguel.Dias@adetti.pt, w.h.dttrich@herts.ac.uk, Nick.Enfield@mpi.nl,
+	"cfroehli >> Christian Froehlich" <cfroehli@techfak.uni-bielefeld.de>, 
+	Sylvie Gibet <Sylvie.Gibet@univ-ubs.fr>,
+	=?WINDOWS-1252?Q?Rolf_Inge_God=F8y?= <r.i.godoy@imv.uio.no>,
+	marianne.gullberg@mpi.nl,
+	Thomas Hermann <thermann@techfak.uni-bielefeld.de>,
+	"Judith.Holler@manchester.ac.uk Holler" <judith.holler@manchester.ac.uk>, 
+	David House <davidh@speech.kth.se>, Jean-Francois.Kamp@univ-ubs.fr,
+	"Stefan Kopp, Dr.-Ing." <skopp@techfak.uni-bielefeld.de>,
+	Pierre-Francois.Marteau@univ-ubs.fr, Barbara.Mazzarino@unige.it,
+	tbm@cvmt.aau.dk,
+	"pelachaud@iut.univ-paris8.fr Pelachaud" <pelachaud@iut.univ-paris8.fr>,
+	Pamela.Perniss@mpi.nl, isabella poggi <poggi@uniroma3.it>,
+	Zsofi Ruttkay <zsofi@ewi.utwente.nl>, sallandre@yahoo.com,
+	ashamaie@computing.dcu.ie, christian.vogler@gallaudet.edu,
+	volpe@dist.unige.it, Ipke Wachsmuth <ipke@techfak.uni-bielefeld.de>,
+	wanderle@ircam.fr, evita <evita@ilsp.gr>,
+	Eleni Efthimiou <eleni_e@ilsp.gr>,
+	Marc Erich Latoschik <marcl@techfak.uni-bielefeld.de>,
+	susan duncan <deng@uchicago.edu>, Timo Sowa <timo.sowa@elektrobit.com>,
+	Michael Kipp <kipp@dfki.de>, waibel@cs.cmu.edu, cynthiab@media.mit.edu,
+	"Nijholt, A. (Anton)" <A.Nijholt@ewi.utwente.nl>,
+	Gary Bente <gabente@gmx.de>,
+	=?WINDOWS-1252?Q?Nicole_Kr=E4mer?= <nicole.kraemer@uni-due.de>,
+	"Theune, M. (Mariet)" <M.Theune@ewi.utwente.nl>, b.woll@ucl.ac.uk,
+	David McNeill <dmcneill@uchicago.edu>, peter.wittenburg@mpi.nl,
+	jrk@cmp.uea.ac.uk, Nicolas.Courty@univ-ubs.fr, yingwu@ece.northwestern.edu,
+	risc@idf.ext.jussieu.fr, aca@poleia.lip6.fr, forum_afig@irisa.fr,
+	VR-ART@JISCMAIL.AC.UK, BCS-HCI@JISCMAIL.AC.UK, ARVR-EUROPE@LISTSERV.DFN.DE,
+	aisb@cogs.susx.ac.uk, AI-SGES@JISCMAIL.AC.UK, agents@cs.umbc.edu,
+	eca_list@vhml.org, HCIMail@gtnet.com, bcs-hci-request@jiscmail.ac.uk,
+	mumin@cst.dk, nodali@helsinki.fi, elsnet-list@elsnet.org,
+	linguist@linguistlist.org, cluk@dcs.shef.ac.uk, aisb@aisb.org.uk,
+	siggen@ics.mq.edu.au, ln@cines.fr, icmi2005@itc.it, CORPORA@UIB.NO,
+	chm@limsi.fr, catcod@cru.fr, gtim@irit.fr, mandsey@stanford.edu
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Fri, 4 Sep 2009 12:49:53 +0200
+References: <970E37F2-A466-4EB5-9F9C-047B718DC88F@mcgill.ca>
+X-Mailer: Apple Mail (2.936)
+X-Mailman-Approved-At: Mon, 07 Sep 2009 13:44:39 +0200
+Cc: 
+Subject: [Elsnet-list] --- Call for Contributions - 3rd International
+	Conference on Music and Gesture ---
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1628377831=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+--===============1628377831==
+Content-Type: multipart/alternative; boundary=Apple-Mail-3-1023770338
+
+
+--Apple-Mail-3-1023770338
+Content-Type: text/plain;
+	charset=WINDOWS-1252;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+--- Call for Contributions - 3rd International Conference on Music and =20=
+
+Gesture ---
+
+3rd International Conference on Music and Gesture
+March 5 =96 6, 2010
+Schulich School of Music, McGill University, Montreal, Canada
+
+The 3rd International Conference on Music and Gesture will be held at
+McGill University on March 5 and 6, 2010, as part of the MusiMarch 2010
+Festival.
+
+We encourage the submission of abstracts describing novel research on
+gesture and music. Abstracts should be no longer than 500 words and sent
+electronically to mg3@music.mcgill.ca.
+
+A total of 20 contributions will be selected for presentation during the
+conference, with abstracts printed in the MusiMarch 2010 booklet.
+
+Important dates:
+
+	=95 Abstract submission: September 27, 2009
+	=95 Abstract acceptance/rejection: October 12, 2009
+	=95 Final abstract due: October 26, 2009
+
+Like the previous Music and Gesture Conferences held in the UK (Norwich
+2003 and Manchester 2006), MG3 will consist of talks on several
+aspects of
+gesture and music, including (but not limited to):
+
+	=95 Performance and instrumental gestures
+	=95 Musical gestures
+	=95 Gestural control of music
+	=95 Gesture acquisition, tracking and recognition
+	=95 Synthesis of gestures
+
+Conference organizers:
+	=95 Marcelo M. Wanderley, McGill University
+	=95 Jonathan Wild, McGill University
+	=95 Sha Xin Wei, Concordia University
+
+MusiMarch 2010 organizer: Denys Bouliane, McGill University
+
+For more information: mg3@music.mcgill.ca
+--
+Prof. Marcelo M. Wanderley
+Input Devices and Music Interaction Laboratory -- www.idmil.org
+CIRMMT/BRAMS - McGill University
+
+Office:
+550, Sherbrooke Street West, East Tower
+5th Floor, Suite 500, Room 513
+Montreal, QC Canada
+Ph.   +1 (514) 398 4535 ext. 00917
+Fax: +1 (514) 398 2962
+
+Mail address:
+McGill University
+555, Sherbrooke Street West
+H3A 1E3 Montreal, QC Canada
+
+
+
+
+--Apple-Mail-3-1023770338
+Content-Type: text/html;
+	charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div><div>--- Call for =
+Contributions - 3rd International Conference on Music and&nbsp;Gesture =
+---<br><br>3rd International Conference on Music and Gesture<br>March 5 =
+=96 6, 2010<br>Schulich School of Music, McGill University, Montreal, =
+Canada<br><br>The 3rd International Conference on Music and Gesture will =
+be held at<br>McGill University on March 5 and 6, 2010, as part of the =
+MusiMarch 2010<br>Festival.<br><br>We encourage the submission of =
+abstracts describing novel research on<br>gesture and music. Abstracts =
+should be no longer than 500 words and sent<br>electronically to <a =
+href=3D"mailto:mg3@music.mcgill.ca">mg3@music.mcgill.ca</a>.<br><br>A =
+total of 20 contributions will be selected for presentation during =
+the<br>conference, with abstracts printed in the MusiMarch 2010 =
+booklet.<br><br>Important dates:<br><br><span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>=95 Abstract submission: =
+September 27, 2009<br><span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>=95 Abstract =
+acceptance/rejection: October 12, 2009<br><span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>=95 Final abstract due: October =
+26, 2009<br><br>Like the previous Music and Gesture Conferences held in =
+the UK (Norwich<br>2003 and Manchester 2006), MG3 will consist of talks =
+on several<br>aspects of<br>gesture and music, including (but not =
+limited to):<br><br><span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>=95 Performance and instrumental =
+gestures<br><span class=3D"Apple-tab-span" style=3D"white-space:pre">	=
+</span>=95 Musical gestures<br><span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>=95 Gestural control of =
+music<br><span class=3D"Apple-tab-span" style=3D"white-space:pre">	=
+</span>=95 Gesture acquisition, tracking and recognition<br><span =
+class=3D"Apple-tab-span" style=3D"white-space:pre">	</span>=95 =
+Synthesis of gestures<br><br>Conference organizers:<br><span =
+class=3D"Apple-tab-span" style=3D"white-space:pre">	</span>=95 =
+Marcelo M. Wanderley, McGill University<br><span class=3D"Apple-tab-span" =
+style=3D"white-space:pre">	</span>=95 Jonathan Wild, McGill =
+University<br><span class=3D"Apple-tab-span" style=3D"white-space:pre">	=
+</span>=95 Sha Xin Wei, Concordia University<br><br>MusiMarch 2010 =
+organizer: Denys Bouliane, McGill University<br><br>For more =
+information: <a =
+href=3D"mailto:mg3@music.mcgill.ca">mg3@music.mcgill.ca</a><br>--<br>Prof.=
+ Marcelo M. Wanderley<br>Input Devices and Music Interaction Laboratory =
+-- <a href=3D"http://www.idmil.org">www.idmil.org</a><br>CIRMMT/BRAMS - =
+McGill University<br><br>Office:<br>550, Sherbrooke Street West, East =
+Tower<br>5th Floor, Suite 500, Room 513<br>Montreal, QC Canada<br>Ph. =
+&nbsp;&nbsp;+1 (514) 398 4535 ext. 00917<br>Fax: +1 (514) 398 =
+2962<br><br>Mail address:<br>McGill University<br>555, Sherbrooke Street =
+West<br>H3A 1E3 Montreal, QC Canada<br><font class=3D"Apple-style-span" =
+size=3D"3"><span class=3D"Apple-style-span" style=3D"font-size: =
+12px;"><span class=3D"Apple-style-span" style=3D"font-size: =
+medium;"><br></span></span></font></div></div><div =
+apple-content-edited=3D"true"><br class=3D"Apple-interchange-newline"> =
+</div><br></body></html>=
+
+--Apple-Mail-3-1023770338--
+
+--===============1628377831==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1628377831==--

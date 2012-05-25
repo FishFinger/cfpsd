@@ -1,0 +1,218 @@
+From - Thu Dec 10 14:31:47 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs229822waa;
+        Sat, 17 May 2008 05:40:20 -0700 (PDT)
+Received: by 10.125.129.19 with SMTP id g19mr3751401mkn.111.1211028013162;
+        Sat, 17 May 2008 05:40:13 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 4si5785950fge.5.2008.05.17.05.39.33;
+        Sat, 17 May 2008 05:40:13 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 579E7E9BE; Sat, 17 May 2008 14:39:29 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.2 required=5.0 tests=AWL,BAYES_00,
+	MIME_QP_LONG_LINE autolearn=no version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 26184BB61;
+	Sat, 17 May 2008 14:32:24 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 0BC403CEF;
+	Sat, 17 May 2008 14:32:24 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id OuELaNAmMk19; Sat, 17 May 2008 14:32:23 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 750283DDB;
+	Sat, 17 May 2008 14:31:34 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 93D3C3D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 May 2008 13:28:19 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id zjj2vKLHeG2M for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 May 2008 13:28:19 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 68E823CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 May 2008 13:28:19 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 5F2B7A529; Fri, 16 May 2008 13:28:19 +0200 (MEST)
+X-Greylist: delayed 4471 seconds by postgrey-1.28 at newjura;
+	Fri, 16 May 2008 13:28:15 MEST
+Received: from coliposte.enst-bretagne.fr (coliposte.enst-bretagne.fr
+	[192.108.115.12])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E45477B1A
+	for <elsnet-list@elsnet.org>; Fri, 16 May 2008 13:28:15 +0200 (MEST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by coliposte.enst-bretagne.fr (8.13.7/8.13.7/2006.08.14) with ESMTP id
+	m4GADj1O018828
+	for <elsnet-list@elsnet.org>; Fri, 16 May 2008 12:13:45 +0200
+Received: from courrier.enst-bretagne.fr (smtps.enst-bretagne.fr [10.29.90.4])
+	by coliposte.enst-bretagne.fr (8.13.7/8.13.7/2008.01.11) with ESMTP
+	id m4GACZSU018427
+	for <elsnet-list@elsnet.org>; Fri, 16 May 2008 12:12:38 +0200
+Received: from enst-bretagne.fr (vss-mail-02.priv.enst-bretagne.fr
+	[10.29.90.4])
+	by courrier.enst-bretagne.fr (8.13.1/8.13.1/2006.06.07) with ESMTP id
+	m4GACUge013196
+	for <elsnet-list@elsnet.org>; Fri, 16 May 2008 12:12:31 +0200
+Received: from srv-disi-b1-02.priv.enst-bretagne.fr
+	(srv-disi-b1-02.priv.enst-bretagne.fr [10.29.96.3]) by
+	webmail.enst-bretagne.fr (Horde MIME library) with HTTP;
+	Fri, 16 May 2008 12:12:30 +0200
+Message-ID: <20080516121230.hfgvo1u3k004cwck@webmail.enst-bretagne.fr>
+Date: Fri, 16 May 2008 12:12:30 +0200
+From: Sylvie.SAGET@telecom-bretagne.eu
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+User-Agent: Internet Messaging Program (IMP) /ENSTB
+X-Originating-IP: 192.108.115.2
+X-Virus-Scanned: amavisd-new at enst-bretagne.fr
+X-Mailman-Approved-At: Sat, 17 May 2008 14:31:13 +0200
+Subject: [Elsnet-list] Sent : Humous'08 -- Call For Paper --
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Dear all,
+
+Here it is HUMOUS'08 Call for Papers, news trends on =20
+Human-Computer/Robot Interface are
+welcomed !
+
+Best regards,
+Sylvie Saget
+Member of the Steering Committee of HUMOUS'08
+
+*** Call for Papers ***
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+             HUMOUS?08
+             conference
+  Humans Operating Unmanned Systems
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+   Brest, France, Sept. 3-4, 2008
+
+Website: http://conferences.telecom-bretagne.eu/humous08
+
+Trends toward reduced staffing of operations and increased number of =20
+vehicles to control,
+and integration with other air operations and combat functions raise =20
+the important
+questions of man-machine or men-machines interaction and of the =20
+adequate principles of
+authority sharing to be applied within multi-UV control systems.
+
+The objective of this conference is to unite the human factors =20
+research community with
+the UV operational community and UV developers to identify the =20
+critical human factors
+challenges associated with UV operations and provide a venue for disseminati=
+ng
+peer-reviewed research and industrial results in this growing area.
+
+We also plan to organize meetings between industrial partners, =20
+researchers and active
+operators of UVs from French Army or UV companies / providers.
+
+We especially encourage presentations on the following topics:
+* Multi-UV control and authority sharing
+* New interfaces (multimodalities, context-dependency, adaptability) =20
+for UV control and
+command
+* UAVs for border security and homeland defense
+* Ground control of multiple vehicles:  workload, situation awareness
+* Perceptual issues in remote control of UAVs, UGVs and UUVs
+* Perceptual and cognitive issues in UAV/UGV/UUV sensor operation
+* UV integration with other air operations (military and civilian)
+* Human factors issues specific to applications of remotely operated vehicle=
+s
+* Training for remotely operated vehicle operations
+* Sustained operations and remotely operated vehicles
+
+Contact
+=3D=3D=3D=3D=3D=3D=3D
+
+Gilles Coppin, Fran=E7ois Legras
+Contact: humous08@mlistes.telecom-bretagne.fr
+TELECOM Bretagne - Dept. LUSSI
+Technop=F4le Brest-Iroise - CS 83818
+29238 Brest Cedex 3 - France
+
+Website: http://conferences.telecom-bretagne.eu/humous08
+
+Scientific committee
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Co-chairs
+---------
+Didier Bazalgette, DGA, FR
+Gilles Coppin, TELECOM Bretagne, FR
+Fran=E7ois Legras, TELECOM Bretagne, FR
+
+Members
+-------
+Jacques Blanc-Talon, DGA, FR
+Pascal Brisset, ENAC, FR
+Sylvain Bruni, MIT/HAL, USA
+Fr=E9d=E9ric Cadier, TELECOM Bretagne, FR
+Duncan Campbell, QUT, AUS
+Francis C=E9leste, DGA, FR
+Fran=E7ois Charpillet, LORIA, FR
+Nancy Cooke, ASU/CERI, USA
+Missy Cummings, MIT/HAL, USA
+Eva Cr=FCck, DGA, FR
+Fr=E9d=E9ric Dehais, ISAE, FR
+Amandine Dessalles, DGA FR
+Thomas Devogele =C9cole Navale, FR
+Jill Drury, MITRE, USA
+Amal El Fallah-Segrouchni, LIP6, FR
+Yvon Kermarrec, TELECOM Bretagne, FR
+Sorin Moga, TELECOM Bretagne, FR
+Franck Poirier, UBS, FR
+Patrick Raynal, Py Automation, FR
+Olivier Reichert, SAGEM, FR
+Olivier Simonin, LORIA, FR
+Catherine Tessier, ONERA, FR
+
+
+Important dates
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+June 1, 2008    Submit presentations abstracts (full presentations, posters)
+June 1, 2008    Demonstration, exhibition stands proposals
+July 1, 2008    Speaker selection and notification
+Aug. 1, 2008    Full paper due-date
+Sept. 3-4, 2008 Conference at TELECOM Bretagne, Brest, France
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

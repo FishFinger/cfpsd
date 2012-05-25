@@ -1,0 +1,587 @@
+From - Thu Dec 10 14:38:03 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.122.79 with SMTP id k15cs731030bkr;
+        Tue, 11 Aug 2009 23:24:01 -0700 (PDT)
+Received: by 10.210.129.3 with SMTP id b3mr2007579ebd.34.1250058233563;
+        Tue, 11 Aug 2009 23:23:53 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 3si1412511ewy.54.2009.08.11.23.23.49;
+        Tue, 11 Aug 2009 23:23:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1Mb78S-000143-4O; Wed, 12 Aug 2009 08:16:32 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1Mb78Q-00013r-W5; Wed, 12 Aug 2009 08:16:30 +0200
+Received: from ey-out-1920.google.com [74.125.78.149] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
+	id 1Mb78P-0007Uz-Uc; Wed, 12 Aug 2009 08:16:30 +0200
+Received: by ey-out-1920.google.com with SMTP id 3so1191691eyh.28
+	for <corpora@uib.no>; Tue, 11 Aug 2009 23:16:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:in-reply-to
+	:references:from:date:x-google-sender-auth:message-id:subject:to:cc
+	:content-type; bh=XxUhvwtWmr+JcqYleH9D7k2BwYiNMdvq0BlkueW7Qqk=;
+	b=x3x2ATr/Fy4eqQwbCl2UnE/sFB6sM3g8EDayYGjXxgUkdYML6J4H5s9zhUUwgFUHpP
+	Xn2aIYy60CXtqpNZHGWC3Fp3BVzZu5z0ub/taLOLPu17Mu0NkeeVEujO8QVT+DBlEUG8
+	KEFCMLOVWgfdbYiVE2noAULZIj8ADjcupJyr4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:sender:in-reply-to:references:from:date
+	:x-google-sender-auth:message-id:subject:to:cc:content-type;
+	b=fmHv6XnYt8qil2Ui6HNMn45PpN+MUkPoWMY53+5ljlRTHNNdATlckpl2Ot2eXrZVM8
+	yPYNo3q1j0VyApcrnZrbTZeIfTj5lkvXTEX61NUPHSDwlfGcaKOodYT10Qy2A4BITNcT
+	hOVb1jBzglrK4THy9L1J8EznphrhDvls+eKpc=
+MIME-Version: 1.0
+Received: by 10.216.88.205 with SMTP id a55mr1400009wef.76.1250057789110; Tue, 
+	11 Aug 2009 23:16:29 -0700 (PDT)
+In-Reply-To: <5C67BC3C9DEF42489C2623E0C5622A8D@frontex.local>
+References: <5C67BC3C9DEF42489C2623E0C5622A8D@frontex.local>
+From: Adam Kilgarriff <adam@lexmasterclass.com>
+Date: Wed, 12 Aug 2009 07:16:09 +0100
+X-Google-Sender-Auth: 16e588a067ba90a8
+Message-ID: <bd24ab310908112316k470c406bpf46f4d799970bbb4@mail.gmail.com>
+To: Jakub Piskorski <jakub.piskorski@frontex.europa.eu>
+X-checked-clean: by exiscan on rolf
+X-Scanner: e7b0f3009b7ecc093a94fb755564edbc http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -5.9 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; -6.0 another conference
+	0.0 BODY: HTML included in message
+Cc: corpora@uib.no
+Subject: Re: [Corpora-List] Call for Papers: Mining User-Generated Content
+	for Security - MINUCS 2009
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1384601784=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+--===============1384601784==
+Content-Type: multipart/alternative; boundary=0016e6d7f07b77f95b0470ebc254
+
+--0016e6d7f07b77f95b0470ebc254
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+> Submissions that focus on legal questions stemming
+> from snooping, spying, privacy infringement or violation, etc., will not
+be
+> considered relevant to the Theme of the Workshop
+Hey we're the guys inventing the next Atom Bomb, we're much too busy to
+discuss ethics
+
+2009/8/11 Jakub Piskorski <jakub.piskorski@frontex.europa.eu>
+
+>
+>
+>
+>
+> -------------------
+>  SECOND  CALL  FOR  PAPERS
+> -------------------
+>
+> Mining User-Generated Content for Security - MINUCS 2009
+>
+> 9 December 2009, Venice, Italy
+>
+> web: http://www.usercentricmedia.org/workshops/minucs
+>
+> email: minucs [ad] cs [dot] helsinki [dot] fi
+>
+> This event is co-located with the First International Conference on User
+> Centric Media - UCMedia 2009 (http://www.usercentricmedia.org) in Venice,
+> 9-11 December 2009
+>
+> ---------------
+>  AIM AND SCOPE
+> ---------------
+>
+> The vast and growing amount of user-generated textual content, including
+> online news streams, blogs, electronic encyclopedias (e.g., the Wikipedia=
+),
+> and other openly accessible and dynamically changing data readily availab=
+le
+> on the Web has led to the emergence of new approaches to extracting
+> valuable, structured, and previously unknown information from such data.
+> The
+> aim of this workshop is to bring together researchers from academia and
+> industry who develop technologies for mining open-source user-generated
+> textual data on the Web, as well as end-users interested in exploiting su=
+ch
+> technologies for knowledge discovery. The emphasis is placed on large-sca=
+le
+> text mining systems and application-oriented approaches to processing
+> on-line textual content in the context of security-related applications.
+> Examples of such applications include:
+>
+>  * global medical and epidemic surveillance,
+>  * conflict early warning,
+>  * early detection of man-made or environmental hazards,
+>  * risk assessment,
+>  * border surveillance,
+>  * cross-border crime detection,
+>  * terrorism counterintelligence,
+>  * other applications relevant for security, law enforcement, and public
+> health institutions
+>
+> Due to a multitude of challenges of diverse and complex nature that are
+> related to automating the process of mining user-generated content on the
+> Web, we believe that this workshop will serve as a forum to bring togethe=
+r
+> researchers from different areas, including data mining, language
+> technology, computational linguistics, information sciences, information
+> retrieval and Web mining, for sharing ideas and discussion. In particular=
+,
+> we believe that there is an important gap to be filled, since the
+> aforementioned research communities have had limited interaction previous=
+ly
+> in the context of the topic of the Workshop. The second major goal is to
+> engage governmental and inter-state user communities, and to bring them
+> together with scientists and funding agencies.
+>
+> --------------------
+>  TOPICS OF INTEREST
+> --------------------
+>
+>  * Mining from news streams, blogs, document repositories, and other open=
+ly
+> accessible and dynamically changing data, including Web 2.0 content, for
+> the
+> purpose of identifying threats to security or public health,
+>
+>  * Emphasis on multilingual approaches, and work on languages other than
+> English,
+>
+>  * Applications, such as information extraction, classification,
+> summarization, sentiment detection, event detection, event forecasting,
+> trend detection, information fusion, and more,
+>
+>  * Contributions in the form of applications (working systems and
+> prototypes) as well as theoretical results are welcome,
+>
+>  * Application domains include crisis-related event reporting, political
+> and
+> environmental analysis, and medical intelligence, under the general
+> umbrella
+> of the security intelligence domain,
+>
+>  * Methods including machine learning, rule-based, and hybrid approaches.
+>
+> NB: Please note, this Workshop welcomes all work on computational
+> approaches
+> to the analysis of textual data for gathering information from openly
+> accessible sources only. Submissions that focus on legal questions stemmi=
+ng
+> from snooping, spying, privacy infringement or violation, etc., will not =
+be
+> considered relevant to the Theme of the Workshop, and the Committee will
+> not
+> be able to review them.
+>
+>
+> ------------
+>  SUBMISSION
+> ------------
+>
+> We invite papers addressing primarily the language technology, natural
+> language processing, data mining and information retrieval communities, a=
+s
+> well as the relevant end-user groups.
+> Submissions are invited in two categories:
+>
+>  * regular: research papers presenting novel approaches and solutions, an=
+d
+>  * short (posters): system demonstrations, descriptions, and work in
+> progress
+>
+> Submissions are electronic and in PDF format via a web-based submission
+> server.
+> Authors are encouraged to use Springer LNICST style for LaTeX in producin=
+g
+> the PDF document.
+> More information on this style can be found at:
+> http://www.springer.com/computer?SGWID=3D0-146-6-564009-0
+>
+> The page limit for regular papers is 6 pages, whereas short papers are
+> limited to 4 pages.
+> The information about the author(s) should be omitted in the submitted
+> papers since the review process wil be blind.
+>
+> More detailed information about submission is available on:
+> http://www.usercentricmedia.org/workshops/minucs/authors.shtml
+>
+> Each submissions will be reviewed by at least 3 members of the Program
+> Committee.
+> Authors of accepted papers will receive guidelines regarding how to produ=
+ce
+> camera-ready versions.
+>
+> -------------
+>  PUBLICATION
+> -------------
+>
+> All workshop papers will be published in the official proceedings, Spring=
+er
+> Lecture Notes of the Institute for Computer Sciences, Social-Informatics
+> and
+> Telecommunications Engineering - LNICST, of the main conference.
+>
+> Selected workshop papers will be published in "ACM Springer Mobile Networ=
+ks
+> and Applications (MONET) Journal Special Issue on Mobility and User-Centr=
+ic
+> Media".
+>
+> All workshop papers will be also published on the UCMedia2009 Website.
+>
+> -----------------
+>  IMPORTANT DATES
+> -----------------
+>
+> Paper submissions due:  27 September 2009
+> Notification of acceptance:  20 October 2009
+> Camera-ready versions due: 8 November 2009
+> Workhop Date: 9 December 2009
+>
+> ------------------------------------
+>  PROGRAM COMMITTEE (to be extended)
+> ------------------------------------
+>
+> Fabio Crestani (University of Lugano (USI) - Faculty of Informatics,
+> Switzerland)
+> Gregory Grefenstette (Exalead, France)
+> Marko Grobelnik (Jo=C5=BEef Stefan Institute,Slovenia)
+> Ben Hachey (Macquarie University, Australia)
+> David L. Hicks (Aalborg University, Denmark)
+> Mijail Kabadjov (Joint Research Centre of the European Commission, Italy)
+> Sadao Kurohashi (Kyoto University, Japan)
+> Nasrullah Memon (The Maersk Mc-Kinney Moller Institute, Denmark)
+> Maria Milosavljevic (Capital Markets CRC, Australia)
+> Marie-Francine Moens (Katholieke Universiteit Leuven, Belgium)
+> Horacio Saggion (University of Sheffield, UK)
+> Satoshi Sekine (New York University, USA)
+> Ralf Steinberger (Joint Research Centre of the European Commission, Italy=
+)
+> Mark Stevenson (University of Sheffield, UK)
+>
+> ----------------------
+>  ORGANISING COMMITTEE
+> ----------------------
+>
+> Ulf Brefeld (Technische Universit=C3=A4t Berlin, Department of Computer S=
+cience,
+> Germany)
+> Jakub Piskorski (FRONTEX, Research&Development, Warsaw, Poland)
+> Roman Yangarber (University of Helsinki, Department of Computer Science,
+> Finland)
+>
+>
+> _______________________________________________
+> Corpora mailing list
+> Corpora@uib.no
+> http://mailman.uib.no/listinfo/corpora
+>
+
+
+
+--=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Adam Kilgarriff
+http://www.kilgarriff.co.uk
+Lexical Computing Ltd                   http://www.sketchengine.co.uk
+Lexicography MasterClass Ltd      http://www.lexmasterclass.com
+Universities of Leeds and Sussex       adam@lexmasterclass.com
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+--0016e6d7f07b77f95b0470ebc254
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&gt; Submissions that focus on legal questions stemming<br>&gt; from snoopi=
+ng, spying, privacy infringement or violation, etc., will not be<br>&gt; co=
+nsidered relevant to the Theme of the Workshop<div><br></div><div>Hey we&#3=
+9;re the guys inventing the next Atom Bomb, we&#39;re much too busy to disc=
+uss ethics<br>
+
+<br><div class=3D"gmail_quote">2009/8/11 Jakub Piskorski <span dir=3D"ltr">=
+&lt;jakub.piskorski@frontex.europa.eu&gt;</span><br><blockquote class=3D"gm=
+ail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-le=
+ft:1ex;">
+
+<br>
+<br>
+<br>
+<br>
+-------------------<br>
+ =C2=A0SECOND =C2=A0CALL =C2=A0FOR =C2=A0PAPERS<br>
+-------------------<br>
+<br>
+Mining User-Generated Content for Security - MINUCS 2009<br>
+<br>
+9 December 2009, Venice, Italy<br>
+<br>
+web: <a href=3D"http://www.usercentricmedia.org/workshops/minucs" target=3D=
+"_blank">http://www.usercentricmedia.org/workshops/minucs</a><br>
+<br>
+email: minucs [ad] cs [dot] helsinki [dot] fi<br>
+<br>
+This event is co-located with the First International Conference on User<br=
+>
+Centric Media - UCMedia 2009 (<a href=3D"http://www.usercentricmedia.org" t=
+arget=3D"_blank">http://www.usercentricmedia.org</a>) in Venice,<br>
+9-11 December 2009<br>
+<br>
+---------------<br>
+=C2=A0AIM AND SCOPE<br>
+---------------<br>
+<br>
+The vast and growing amount of user-generated textual content, including<br=
+>
+online news streams, blogs, electronic encyclopedias (e.g., the Wikipedia),=
+<br>
+and other openly accessible and dynamically changing data readily available=
+<br>
+on the Web has led to the emergence of new approaches to extracting<br>
+valuable, structured, and previously unknown information from such data. Th=
+e<br>
+aim of this workshop is to bring together researchers from academia and<br>
+industry who develop technologies for mining open-source user-generated<br>
+textual data on the Web, as well as end-users interested in exploiting such=
+<br>
+technologies for knowledge discovery. The emphasis is placed on large-scale=
+<br>
+text mining systems and application-oriented approaches to processing<br>
+on-line textual content in the context of security-related applications.<br=
+>
+Examples of such applications include:<br>
+<br>
+=C2=A0* global medical and epidemic surveillance,<br>
+=C2=A0* conflict early warning,<br>
+=C2=A0* early detection of man-made or environmental hazards,<br>
+=C2=A0* risk assessment,<br>
+=C2=A0* border surveillance,<br>
+=C2=A0* cross-border crime detection,<br>
+=C2=A0* terrorism counterintelligence,<br>
+=C2=A0* other applications relevant for security, law enforcement, and publ=
+ic<br>
+health institutions<br>
+<br>
+Due to a multitude of challenges of diverse and complex nature that are<br>
+related to automating the process of mining user-generated content on the<b=
+r>
+Web, we believe that this workshop will serve as a forum to bring together<=
+br>
+researchers from different areas, including data mining, language<br>
+technology, computational linguistics, information sciences, information<br=
+>
+retrieval and Web mining, for sharing ideas and discussion. In particular,<=
+br>
+we believe that there is an important gap to be filled, since the<br>
+aforementioned research communities have had limited interaction previously=
+<br>
+in the context of the topic of the Workshop. The second major goal is to<br=
+>
+engage governmental and inter-state user communities, and to bring them<br>
+together with scientists and funding agencies.<br>
+<br>
+--------------------<br>
+=C2=A0TOPICS OF INTEREST<br>
+--------------------<br>
+<br>
+=C2=A0* Mining from news streams, blogs, document repositories, and other o=
+penly<br>
+accessible and dynamically changing data, including Web 2.0 content, for th=
+e<br>
+purpose of identifying threats to security or public health,<br>
+<br>
+=C2=A0* Emphasis on multilingual approaches, and work on languages other th=
+an<br>
+English,<br>
+<br>
+=C2=A0* Applications, such as information extraction, classification,<br>
+summarization, sentiment detection, event detection, event forecasting,<br>
+trend detection, information fusion, and more,<br>
+<br>
+=C2=A0* Contributions in the form of applications (working systems and<br>
+prototypes) as well as theoretical results are welcome,<br>
+<br>
+=C2=A0* Application domains include crisis-related event reporting, politic=
+al and<br>
+environmental analysis, and medical intelligence, under the general umbrell=
+a<br>
+of the security intelligence domain,<br>
+<br>
+=C2=A0* Methods including machine learning, rule-based, and hybrid approach=
+es.<br>
+<br>
+NB: Please note, this Workshop welcomes all work on computational approache=
+s<br>
+to the analysis of textual data for gathering information from openly<br>
+accessible sources only. Submissions that focus on legal questions stemming=
+<br>
+from snooping, spying, privacy infringement or violation, etc., will not be=
+<br>
+considered relevant to the Theme of the Workshop, and the Committee will no=
+t<br>
+be able to review them.<br>
+<br>
+<br>
+------------<br>
+=C2=A0SUBMISSION<br>
+------------<br>
+<br>
+We invite papers addressing primarily the language technology, natural<br>
+language processing, data mining and information retrieval communities, as<=
+br>
+well as the relevant end-user groups.<br>
+Submissions are invited in two categories:<br>
+<br>
+=C2=A0* regular: research papers presenting novel approaches and solutions,=
+ and<br>
+=C2=A0* short (posters): system demonstrations, descriptions, and work in<b=
+r>
+progress<br>
+<br>
+Submissions are electronic and in PDF format via a web-based submission<br>
+server.<br>
+Authors are encouraged to use Springer LNICST style for LaTeX in producing<=
+br>
+the PDF document.<br>
+More information on this style can be found at:<br>
+<a href=3D"http://www.springer.com/computer?SGWID=3D0-146-6-564009-0" targe=
+t=3D"_blank">http://www.springer.com/computer?SGWID=3D0-146-6-564009-0</a><=
+br>
+<br>
+The page limit for regular papers is 6 pages, whereas short papers are<br>
+limited to 4 pages.<br>
+The information about the author(s) should be omitted in the submitted<br>
+papers since the review process wil be blind.<br>
+<br>
+More detailed information about submission is available on:<br>
+<a href=3D"http://www.usercentricmedia.org/workshops/minucs/authors.shtml" =
+target=3D"_blank">http://www.usercentricmedia.org/workshops/minucs/authors.=
+shtml</a><br>
+<br>
+Each submissions will be reviewed by at least 3 members of the Program<br>
+Committee.<br>
+Authors of accepted papers will receive guidelines regarding how to produce=
+<br>
+camera-ready versions.<br>
+<br>
+-------------<br>
+=C2=A0PUBLICATION<br>
+-------------<br>
+<br>
+All workshop papers will be published in the official proceedings, Springer=
+<br>
+Lecture Notes of the Institute for Computer Sciences, Social-Informatics an=
+d<br>
+Telecommunications Engineering - LNICST, of the main conference.<br>
+<br>
+Selected workshop papers will be published in &quot;ACM Springer Mobile Net=
+works<br>
+and Applications (MONET) Journal Special Issue on Mobility and User-Centric=
+<br>
+Media&quot;.<br>
+<br>
+All workshop papers will be also published on the UCMedia2009 Website.<br>
+<br>
+-----------------<br>
+=C2=A0IMPORTANT DATES<br>
+-----------------<br>
+<br>
+Paper submissions due: =C2=A027 September 2009<br>
+Notification of acceptance: =C2=A020 October 2009<br>
+Camera-ready versions due: 8 November 2009<br>
+Workhop Date: 9 December 2009<br>
+<br>
+------------------------------------<br>
+=C2=A0PROGRAM COMMITTEE (to be extended)<br>
+------------------------------------<br>
+<br>
+Fabio Crestani (University of Lugano (USI) - Faculty of Informatics,<br>
+Switzerland)<br>
+Gregory Grefenstette (Exalead, France)<br>
+Marko Grobelnik (Jo=C5=BEef Stefan Institute,Slovenia)<br>
+Ben Hachey (Macquarie University, Australia)<br>
+David L. Hicks (Aalborg University, Denmark)<br>
+Mijail Kabadjov (Joint Research Centre of the European Commission, Italy)<b=
+r>
+Sadao Kurohashi (Kyoto University, Japan)<br>
+Nasrullah Memon (The Maersk Mc-Kinney Moller Institute, Denmark)<br>
+Maria Milosavljevic (Capital Markets CRC, Australia)<br>
+Marie-Francine Moens (Katholieke Universiteit Leuven, Belgium)<br>
+Horacio Saggion (University of Sheffield, UK)<br>
+Satoshi Sekine (New York University, USA)<br>
+Ralf Steinberger (Joint Research Centre of the European Commission, Italy)<=
+br>
+Mark Stevenson (University of Sheffield, UK)<br>
+<br>
+----------------------<br>
+=C2=A0ORGANISING COMMITTEE<br>
+----------------------<br>
+<br>
+Ulf Brefeld (Technische Universit=C3=A4t Berlin, Department of Computer Sci=
+ence,<br>
+Germany)<br>
+Jakub Piskorski (FRONTEX, Research&amp;Development, Warsaw, Poland)<br>
+Roman Yangarber (University of Helsinki, Department of Computer Science,<br=
+>
+Finland)<br>
+<br>
+<br>
+_______________________________________________<br>
+Corpora mailing list<br>
+<a href=3D"mailto:Corpora@uib.no">Corpora@uib.no</a><br>
+<a href=3D"http://mailman.uib.no/listinfo/corpora" target=3D"_blank">http:/=
+/mailman.uib.no/listinfo/corpora</a><br>
+</blockquote></div><br><br clear=3D"all"><br>-- <br>=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>Adam Kilgarriff =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0<a href=3D"http://www.k=
+ilgarriff.co.uk">http://www.kilgarriff.co.uk</a> =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0<br>
+
+Lexical Computing Ltd =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 <a href=3D"http://www.sketchengine.co.uk">http://www.sketchengin=
+e.co.uk</a><br>Lexicography MasterClass Ltd =C2=A0 =C2=A0 =C2=A0<a href=3D"=
+http://www.lexmasterclass.com">http://www.lexmasterclass.com</a><br>
+
+Universities of Leeds and Sussex =C2=A0 =C2=A0 =C2=A0 <a href=3D"mailto:ada=
+m@lexmasterclass.com">adam@lexmasterclass.com</a><br>=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+</div>
+
+--0016e6d7f07b77f95b0470ebc254--
+
+
+--===============1384601784==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============1384601784==--
+

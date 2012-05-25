@@ -1,0 +1,305 @@
+From - Thu Dec 10 14:38:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.62.208 with SMTP id y16cs569915bkh;
+        Sun, 9 Aug 2009 10:44:29 -0700 (PDT)
+Received: by 10.210.89.7 with SMTP id m7mr4114908ebb.92.1249839866297;
+        Sun, 09 Aug 2009 10:44:26 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 9si8276147ewy.47.2009.08.09.10.44.23;
+        Sun, 09 Aug 2009 10:44:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@ecs.soton.ac.uk
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 67BE421AC6; Sun,  9 Aug 2009 19:44:19 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D1A6221AD7;
+	Sun,  9 Aug 2009 19:42:52 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 681BF3DC9;
+	Sun,  9 Aug 2009 19:42:43 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tSOsc5xx1fVO; Sun,  9 Aug 2009 19:42:43 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B713C3D35;
+	Sun,  9 Aug 2009 19:42:28 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D20903D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Aug 2009 11:26:42 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 5Md4IOvHRlND for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Aug 2009 11:26:42 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 98EEC3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Aug 2009 11:26:12 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 71C3A1FB08; Wed,  5 Aug 2009 11:26:12 +0200 (MEST)
+X-Greylist: delayed 1959 seconds by postgrey-1.28 at newjura;
+	Wed, 05 Aug 2009 11:26:01 MEST
+Received: from falcon.ecs.soton.ac.uk (falcon.ecs.soton.ac.uk [152.78.68.146])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6752720B09
+	for <elsnet-list@elsnet.org>; Wed,  5 Aug 2009 11:25:56 +0200 (MEST)
+Received: from falcon.ecs.soton.ac.uk (localhost [127.0.0.1])
+	by falcon.ecs.soton.ac.uk (8.13.8/8.13.8) with ESMTP id n758mPAe022836; 
+	Wed, 5 Aug 2009 09:48:25 +0100
+X-DKIM: Sendmail DKIM Filter v2.8.2 falcon.ecs.soton.ac.uk n758mPAe022836
+DKIM-Signature: v=1; a=rsa-sha1; c=simple/simple; d=ecs.soton.ac.uk;
+	s=200903; t=1249462111; bh=c1JdPbOYQJ1raVRfZxPeVpy5NuE=;
+	h=Date:From:MIME-Version:To:Subject:References;
+	b=Ww0iD/2c5FWkD03xZFiIpkdV6NNdV8nX0MmVd+w8UYQ9ltT0Akb2MksIxlLRqnCLJ
+	crpnjNNDLHe1fv4gxQSsUSJvtZtne0EJjCkgCFUUgrl03rGkVkjRC85F9sjvr5+aSo
+	NfhV/OlJKdiTSEkXp6KEOQPMuZMhuX1nNn1kDLVM=
+Received: from gander.ecs.soton.ac.uk ([2001:630:d0:f102:21d:9ff:fe22:9fc])
+	by falcon.ecs.soton.ac.uk (falcon.ecs.soton.ac.uk
+	[2001:630:d0:f102:21e:c9ff:fe2e:e915]) envelope-from
+	<ha@ecs.soton.ac.uk> with ESMTP
+	id l749m70448564486ZY ret-id none; Wed, 05 Aug 2009 09:48:31 +0100
+Received: from dhcp-152-78-61-245.ecs.soton.ac.uk
+	(dhcp-152-78-61-245.ecs.soton.ac.uk [152.78.61.245])
+	(authenticated bits=0)
+	by gander.ecs.soton.ac.uk (8.13.8/8.13.8) with ESMTP id n758lfFR024457
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Wed, 5 Aug 2009 09:47:41 +0100
+Message-ID: <EMEW3|e439a083e478344f02cb66c8fc1b74bfl749m702ha|ecs.soton.ac.uk|090204@ecs.soton.ac.uk>
+Date: Wed, 05 Aug 2009 09:48:05 +0100
+From: Harith Alani <ha@ecs.soton.ac.uk>
+User-Agent: Thunderbird 2.0.0.22 (Macintosh/20090605)
+MIME-Version: 1.0
+To: ACM <events_calendar@acm.org>, Aisa Research News <info@researchsea.com>, 
+	Bull <bull_i3@univ-tln.fr>, event@in.tu-clausthal.de,
+	Deri - KWeb <kweb-all@lists.deri.org>,
+	Deri - Ontoweb <ontoweb-list@lists.deri.org>,
+	Deri SemWeb <seweb-list@lists.deri.org>, Description Logic <dl@dl.kr.org>,
+	Digital Culture <digicult-forum@digicult.info>,
+	diglib@infoserv.inist.fr, EB XML Dev <ebxml-dev@lists.ebxml.org>,
+	EGroups <semanticweb@egroups.com>,
+	EGroups - Web Services <web-services@egroups.com>,
+	ELSNET <elsnet-list@elsnet.org>,
+	European Conference - OO Programming <ecoop-info@ecoop.org>,
+	EventSeer <cfp@eventseer.net>, FIPA - Ontology <ontology@fipa.org>,
+	Googel Groups - Semantic Web <semantic_web@googlegroups.com>,
+	Humanist Discussion Group <humanist@princeton.edu>,
+	IEEE - Conferences <conferences@computer.org>,
+	Imperial College London - CompLogic <compulog@doc.imperial.ac.uk>,
+	Infoloom - Topic Map <topicmapmail@infoloom.com>,
+	International Federation of Library Associations mailing list
+	<ifla-l@infoserv.inist.fr>, 
+	Italian Association for Logic Programming <gulp@dimi.uniud.it>,
+	Jena Dev Group <jena-dev@yahoogroups.com>,
+	"Karlsruhe Univ. - AIFB" <wi@aifb.uni-karlsruhe.de>,
+	"Karlsruhe Univ. - Onto" <onto@aifb.uni-karlsruhe.de>,
+	KIF Mailing List <kif@philebus.tamu.edu>,
+	Machine Learning Network <community@mlnet.org>,
+	MultiAgent <announce@multiagent.com>,
+	Network of Excellence in Computational Logic <colognet@ucy.ac.cy>,
+	Ontolog <ontolog-forum@ontolog.cim3.net>,
+	OntoQuery - Denmark <ontoquery@ruc.dk>,
+	Open Grid Forum <sem-grd@ogf.org>, OpenRDF <openrdf@philo.at>,
+	REWERSE - Reasoning on the Web with Rules and Semantics
+	<rewerse-all@rewerse.net>, Semantic Desktop <people@semanticdesktop.org>,
+	SemWeb List <seweb-list@www2-c703.uibk.ac.at>,
+	SIG5 Ontoweb <ontoweb-lt-info@dfki.de>,
+	SOA Yahoo Group <service-orientated-architecture@yahoogroups.com>,
+	Stanford - Protege Group <protege-discussion@smi.irt-dr.med.stanford.edu>, 
+	"Univ. Buffalo - Ontology" <ontology@buffalo.edu>,
+	"Univ. Colorado - CS Dept" <seworld@cs.colorado.edu>,
+	"Univ. Koblenz - Landau" <fgcscw@uni-koblenz.de>,
+	"Univ. Pisa - Italy" <grin@di.unipi.it>,
+	"Univ. Rostock - Germany" <fg-db@informatik.uni-rostock.de>,
+	"Univ. So. California - Info Science Inst." <loom-forum@isi.edu>,
+	"Univ. South Carlolina" <dai-list@ece.sc.edu>,
+	universidade de aveiro <learningrobots@det.ua.pt>, =?ISO-8859-1?Q?=22Uni?=
+	=?ISO-8859-1?Q?versit=E0_di_Roma_=5C=22La_Sapienza=5C=22=3A_CS?=
+	=?ISO-8859-1?Q?=22?= <aiia@dis.uniroma1.it>,
+	"University of Alabama in Huntsville - CS Dept." <cg@cs.uah.edu>,
+	University of Amsterdam <kaw@swi.psy.uva.nl>,
+	University of Verona - Italy <vr@metropolis.sci.univr.it>,
+	"Unvi. Maryland - Baltimore: CS" <agents@cs.umbc.edu>,
+	UU Net <news-announce-conferences@uunet.uu.net>,
+	Vijie university <seweb-list@cs.vu.nl>,
+	W3C - RDF <www-rdf-interest@w3.org>,
+	W3C - RDF Logic <www-rdf-logic@w3.org>,
+	W3C - RDF Rules <www-rdf-rules@w3.org>,
+	W3C - SemanticWeb <semantic-web@w3.org>,
+	W3C - SWS <public-sws-ig@w3.org>, W3C - WebOnt <www-webont-wg@w3.org>, 
+	W3C - WS <www-ws@w3.org>, Yahoo Groups - Computer Book Authors
+	<computerbookauthors@yahoogroups.com>, 
+	Yahoo Groups - DOLCE <dolce@yahoogroups.com>,
+	ISWORLD@listserv.heanet.ie, iam-rstaff-all@ecs.soton.ac.uk,
+	lsl-rstaff-all@ecs.soton.ac.uk
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-ECS-MailScanner: Found to be clean, Found to be clean
+X-smtpf-Report: client=relay,forged,no_ptr,ipv6; mail=; rcpt=
+References: <4A794745.2090204@ecs.soton.ac.uk>
+X-ECS-MailScanner-Information: Please contact the ISP for more information
+X-ECS-MailScanner-ID: n758mPAe022836
+X-ECS-MailScanner-From: ha@ecs.soton.ac.uk
+X-Mailman-Approved-At: Sun, 09 Aug 2009 19:41:58 +0200
+Cc: 
+Subject: [Elsnet-list] ISWC 2009 Posters and Demonstrations - Last call for
+	submissions
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+
+*ISWC 2009 Posters and Demonstrations* - Last call for submissions
+	
+
+- *August 7*, 2009: Deadline for submissions (23:59 pm Hawaiian time 
+(GMT-10))
+- August 24 , 2009: Notification of acceptance
+- September 8, 2009: Camera ready abstracts due
+
+
+http://iswc2009.semanticweb.org/wiki/index.php/ISWC_2009_Posters_and_Demonstrations/Call_for_Proposals
+
+
+ISWC 2009 will hold combined poster and demonstration sessions. The 
+Poster/Demo Session is an opportunity for presenting late-breaking 
+results, ongoing research projects, and speculative or innovative work 
+in progress. Posters and demos are intended to provide authors and 
+participants with the ability to connect with each other and to engage 
+in discussions about the work. Technical posters, reports on Semantic 
+Web software systems, descriptions of completed work, and work in 
+progress are all welcome. Demonstrations are intended to showcase 
+innovative Semantic Web related implementations and technologies.
+
+
+Submissions/Format
+
+Authors must submit a two-page paper with a short abstract for 
+evaluation. The abstract must clearly demonstrate relevance to the 
+Semantic Web. Submissions will be reviewed by members of the programme 
+committee. Decisions about acceptance will be based on relevance to the 
+Semantic Web, originality, potential significance, topicality and clarity.
+
+A detailed list of suggested topics can be found in the calls for papers 
+both for the Research Track and for the Semantic Web In Use track. 
+Posters and demos are intended to convey a scientific result or work in 
+progress and are not intended as advertisements for software packages.
+
+Authors submitting a full paper to another track in ISWC 2009 may also 
+submit the same work for consideration in the Demo/Poster track, either 
+before or after result notification for the full paper. For example, a 
+demo can be provided for an accepted paper, or a poster can be used to 
+present work that was insufficiently mature for the other tracks.
+
+For demo submissions, authors are strongly encouraged to include in 
+their submission a link to where the demo (live or recorded video) can 
+be found.
+
+At least one of the Poster/Demo authors must be a registered participant 
+at the conference, and attend the Poster/Demo Session to present the 
+work. The abstracts for all accepted posters and demos will be given to 
+all conference attendees and published on the conference web site. They 
+will not be included in the formal proceedings.
+
+Poster and demo paper submissions should be formatted in the style of 
+the ACM format 
+(http://www.acm.org/sigs/publications/proceedings-templates). Please 
+remove the ACM copyright box from the first page of your submission. 
+Poster/Demo papers must be submitted in PDF format, and no other format 
+will be accepted. Poster/Demo papers that exceed the page limit could be 
+rejected without review.
+
+Please note that metadata about all successful submissions will be 
+included in the conference metadata corpus and made publicly available 
+at http://data.semanticweb.org. Detailed information will be provided 
+with the acceptance notification.
+
+Submissions can now be made at the ISWC 2009 submission page: 
+https://precisionconference.com/~semantic/
+
+
+
+Organising Chairs
+
+     * Tania Tudorache, Stanford University
+     * Harith Alani, University of Southampton
+     * Oscar Corcho, Universidad Politécnica de Madrid
+
+Program Committee
+
+     * Mathieu d'Aquin - KMI, Open University, UK
+     * Sören Auer - University of Leipzig, Germany
+     * Eva Blomqvist - Linköping University, Sweeden
+     * Sebastian Brandt - University of Manchester, UK
+     * Paul Buitelaar - DFKI, Germany
+     * Yun-Heh (Jessica) Chen-Burger - University of Edinburgh, UK
+     * Gong Cheng - Southeast University, China
+     * Gianluca Correndo - University of Southampton, UK
+     * Isabel Cruz - University of Illinois, USA
+     * Philippe Cudre-Mauroux - MIT, USA
+     * Danica Damljanovic - University of Sheffield , UK
+     * Klaas Dellschaft - University of Koblenz, Germany
+     * Ying Ding - Indiana University, USA
+     * Leigh Dodds - Talis, UK
+     * Martin Dzbor - KMI, Open University, UK
+     * Hugh Glaser - University of Southampton, UK
+     * Tudor Groza - DERI Galway, Ireland
+     * Olaf Görlitz - University of Koblenz, Germany
+     * Michael Hausenblas - DERI Galway, Ireland
+     * Conor Hayes - NUIG, Ireland
+     * Masahiro Hori - Kansai University, Japan
+     * Matthew Horridge - Manchester University, UK
+     * Andreas Hotho - University of Kassel, Germany
+     * Trung Dong Huynh - University of Southampton, UK
+     * Luigi Iannone - University of Manchester, UK
+     * Mustafa Jarrar - University of Cyprus, Cyprus
+     * Holger Lewen - AIFB, Karlsruhe, Germany
+     * Alexander Löser - Technical University of Berlin, Germany
+     * Diana Manyard - University of Sheffield, UK
+     * Ian Millard - University of Southampton, UK
+     * Dilvan Moreira - University of Sao Paulo, Brazil
+     * Knud Möller - NUIG, Galway
+     * Natasha Noy - Stanford University, USA
+     * Martin O'Connor - Stanford University, USA
+     * Jeff Z. Pan - University of Aberdeen
+     * Alexandre Passant - DERI Galway, Ireland
+     * Valentina Presutti - ISTC-CNR, Italy
+     * Yves Raimond - BBC, UK
+     * Marco Rospocher - IRS Trento, Italy
+     * Alan Ruttenberg - Science Commons, USA
+     * Marta Sabou - KMI, Open University, UK
+     * Horacio Saggion - University of Sheffield , UK
+     * Elena Simperl - STI, Innsbruck
+     * Patrick Sinclair - BBC, UK
+     * Nenad Stojanovic - University of Karlsruhe, Germany
+     * Mari Carmen Suárez-Figueroa - Universidad Politécnica de Madrid, 
+Spain
+     * Martin Szomszor - University of Southampton, UK
+     * Mischa Tuffield - Garlik, UK
+     * Denny Vrandecic - University of Karlsruhe, Germany
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

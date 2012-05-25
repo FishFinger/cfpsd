@@ -1,0 +1,397 @@
+From - Thu Dec 10 14:35:00 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs111461far;
+        Fri, 16 Jan 2009 03:09:29 -0800 (PST)
+Received: by 10.210.90.20 with SMTP id n20mr1616367ebb.48.1232104169182;
+        Fri, 16 Jan 2009 03:09:29 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si2144051ewy.86.2009.01.16.03.09.09;
+        Fri, 16 Jan 2009 03:09:29 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 366291C1FC; Fri, 16 Jan 2009 12:09:08 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8051D1C1FC;
+	Fri, 16 Jan 2009 12:08:53 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6607D3D25;
+	Fri, 16 Jan 2009 12:08:53 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tgpmTtxMK7zS; Fri, 16 Jan 2009 12:08:53 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id ADD133D2A;
+	Fri, 16 Jan 2009 12:08:51 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8EA8D3D2B
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 14 Jan 2009 16:50:50 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id IIydjD5qLPLA for <elsnet-list@mailman.elsnet.org>;
+	Wed, 14 Jan 2009 16:50:50 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5CF593D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 14 Jan 2009 16:50:50 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 469E11CE03; Wed, 14 Jan 2009 16:50:50 +0100 (MET)
+Received: from mailgw.cs.york.ac.uk (mailgw.cs.york.ac.uk [144.32.40.3])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 2690C1E557
+	for <elsnet-list@elsnet.org>; Wed, 14 Jan 2009 16:50:47 +0100 (MET)
+Received: from minster.cs.york.ac.uk ([144.32.40.2])
+	by mailgw.cs.york.ac.uk with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.68) (envelope-from <suresh@cs.york.ac.uk>)
+	id 1LN7t3-0007N6-SP
+	for elsnet-list@elsnet.org; Wed, 14 Jan 2009 15:42:33 +0000
+Received: from dyn105.cs.york.ac.uk ([144.32.161.150])
+	by minster.cs.york.ac.uk with esmtpsa (TLSv1:AES256-SHA:256)
+	(Exim 4.68) (envelope-from <suresh@cs.york.ac.uk>)
+	id 1LN7t3-0004rg-IB
+	for elsnet-list@elsnet.org; Wed, 14 Jan 2009 15:42:33 +0000
+Message-ID: <496E07E5.5040208@cs.york.ac.uk>
+Date: Wed, 14 Jan 2009 15:42:29 +0000
+From: Suresh Manandhar <suresh@cs.york.ac.uk>
+User-Agent: Thunderbird 2.0.0.19 (Macintosh/20081209)
+MIME-Version: 1.0
+To: elsnet-list@elsnet.org
+X-Mailman-Approved-At: Fri, 16 Jan 2009 12:08:47 +0100
+Subject: [Elsnet-list] CFP: Unsupervised and Minimally Supervised Learning
+	of Lexical Semantics
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1648681879=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+--===============1648681879==
+Content-Type: multipart/alternative;
+	boundary="------------010801080602030404060008"
+
+This is a multi-part message in MIME format.
+--------------010801080602030404060008
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+==================================================================================== 
+
+*Call for Papers - NAACL HLT 2009 Workshop on*
+Unsupervised and Minimally Supervised Learning of Lexical Semantics
+*http://www.cs.york.ac.uk/lls-workshop*
+
+June 5, 2009, Boulder, Colorado, USA
+
+*Submission deadline: March 15, 2009 *
+===================================================================================== 
+
+
+The aim of the workshop is to bring together researchers working in 
+topics related to the unsupervised and minimally supervised learning of 
+the semantics of lexical items. These include learning of word meanings, 
+learning of lexical relationships (e.g. hyponym, meronym, antonym 
+learning), learning of idiomatic and multi-word expressions, learning of 
+bilingual lexicons etc.
+
+Each of these topics have so far been covered in diverse venues eg. 
+WordNet conferences, SemEval, EMNLP etc. but has lacked a focussed venue 
+that brings together the issues and methods relevant to lexical 
+semantics within a single venue. In the past few years there has been a 
+surge of interest in unsupervised and minimally supervised methods in 
+natural language processing. The proposed worshop will help focus on 
+methods that are suitable in learning of lexical semantics.
+
+The workshop format would help speedup development in this area as it 
+will make it accessible to both experienced researchers and new PhD 
+graduates working in the field. Another purpose of the workshop will be 
+to make available the workshop proceedings that should serve as a review 
+of the current state-of-the-art in the field.
+
+The scope of the workshop will be limited to topics that cover 
+unsupervised and minimally supervised methods relevant to learning of 
+lexical semantics. The following is a list of potential topics:
+
+ * representation, feature selection and parameter tuning for
+   representating word meanings e.g. bag-of-words context window,
+   syntactic dependency (e.g. verb-direct object), methods for
+   feature selection (e.g. log likelihood vs mutual information),
+   issues dealing with sense conflation, measures of similarity (e.g.
+   distributional similarity), smoothing techniques
+
+
+ * unsupervised and minimally supervised induction of word senses
+   including senses of both single word and multi-word lexical items
+   e.g. uniform methods for both single and multi-word lexical items,
+   methods for detecting near synonyms, issues focussing on
+   minimising manual parameter tuning
+
+
+ * unsupervised and minimally supervised learning of lexical
+   relations e.g. learning of hyponomy, antonomy, noun-adjective,
+   meronomy relations
+
+
+ * unsupervised and minimally supervised learning of bilingual
+   lexicon e.g. bootstrapping methods for extending a small bilingual
+   lexicon, use of cognates in unsupervised bilingual lexicon extraction.
+
+
+
+Important Dates
+ * Submission deadline: March 15, 2009
+ * Notification of acceptance: April 5, 2009
+ * Camera-ready papers due: April 12, 2009
+ * Workshop: June 05, 2009
+
+*Submission Guidelines *
+Papers will be accepted on or before 15 March  in PDF or Postscript 
+formats. Details of the electronic submission mechanism will be made 
+available via the workshop website located at 
+http://www.cs.york.ac.uk/lls-workshop . Submissions should follow the 
+NAACL HLT 2009 length and formatting requirements for full papers of 
+eight (8) pages of content with one (1) extra page for references, found 
+at http://clear.colorado.edu/NAACLHLT2009/stylefiles.html.
+
+*Workshop Website *
+More up-to-date information regarding the workshop can be found at the 
+workshop web site:
+
+http://www.cs.york.ac.uk/lls-workshop
+
+
+*Program Committee*
+
+Eneko Agirre, University of the Basque Country, Spain
+Enrique Alfonseca, Google, Switzerland
+Chris Biemann, Powerset, USA
+James Cussens, University of York, UK
+Cristian Danescu Niculescu-Mizil, Cornell University, USA
+Aria Haghighi, University of California, Berkeley, USA
+Nancy Ide, Vassar College, USA
+Kyo Kaguera, University of Tokyo, Japan
+Ioannis Klapaftis, University of York, UK
+Lillian Lee, Cornell University, USA
+Suresh Manandhar, University of York, UK
+Ted Pedersen, University of Minnesota, USA
+German Rigua, University of the Basque Country, Spain
+Carlo Strapparava, ITC-Irst, Italy
+David Weir, University of Sussex, UK
+
+
+
+
+--------------010801080602030404060008
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<div class="moz-text-html" lang="x-western">
+<div class="moz-text-html" lang="x-western">
+<div class="moz-text-html" lang="x-western">
+<div class="moz-text-flowed"
+ style="font-family: -moz-fixed; font-size: 13px;" lang="x-western">====================================================================================
+<br>
+<big><b>Call for Papers - NAACL HLT 2009 Workshop on</b></big><br>
+<b class="moz-txt-star"><span class="moz-txt-tag"></span><big>Unsupervised
+and Minimally Supervised Learning of Lexical Semantics</big><span
+ class="moz-txt-tag"></span></b><br>
+<big><b><small><a class="moz-txt-link-freetext"
+ href="http://www.cs.york.ac.uk/lls-workshop">http://www.cs.york.ac.uk/lls-workshop</a></small></b>
+</big><br>
+<br>
+June 5, 2009, Boulder, Colorado, USA
+<br>
+<br>
+<b>Submission deadline: March 15, 2009
+</b><br>
+=====================================================================================
+<br>
+<br>
+The aim of the workshop is to bring together researchers working in
+topics related to the unsupervised and minimally supervised learning of
+the semantics of lexical items. These include learning of word
+meanings, learning of lexical relationships (e.g. hyponym, meronym,
+antonym learning), learning of idiomatic and multi-word expressions,
+learning of bilingual lexicons etc.
+<br>
+<br>
+Each of these topics have so far been covered in diverse venues eg.
+WordNet conferences, SemEval, EMNLP etc. but has lacked a focussed
+venue that brings together the issues and methods relevant to lexical
+semantics within a single venue. In the past few years there has been a
+surge of interest in unsupervised and minimally supervised methods in
+natural language processing. The proposed worshop will help focus on
+methods that are suitable in learning of lexical semantics.
+<br>
+<br>
+The workshop format would help speedup development in this area as it
+will make it accessible to both experienced researchers and new PhD
+graduates working in the field. Another purpose of the workshop will be
+to make available the workshop proceedings that should serve as a
+review of the current state-of-the-art in the field.
+<br>
+<br>
+The scope of the workshop will be limited to topics that cover
+unsupervised and minimally supervised methods relevant to learning of
+lexical semantics. The following is a list of potential topics:
+<br>
+<br>
+&nbsp;* representation, feature selection and parameter tuning for
+<br>
+&nbsp;&nbsp; representating word meanings e.g. bag-of-words context window,
+<br>
+&nbsp;&nbsp; syntactic dependency (e.g. verb-direct object), methods for
+<br>
+&nbsp;&nbsp; feature selection (e.g. log likelihood vs mutual information),
+<br>
+&nbsp;&nbsp; issues dealing with sense conflation, measures of similarity (e.g.
+<br>
+&nbsp;&nbsp; distributional similarity), smoothing techniques
+<br>
+<br>
+<br>
+&nbsp;* unsupervised and minimally supervised induction of word senses
+<br>
+&nbsp;&nbsp; including senses of both single word and multi-word lexical items
+<br>
+&nbsp;&nbsp; e.g. uniform methods for both single and multi-word lexical items,
+<br>
+&nbsp;&nbsp; methods for detecting near synonyms, issues focussing on
+<br>
+&nbsp;&nbsp; minimising manual parameter tuning
+<br>
+<br>
+<br>
+&nbsp;* unsupervised and minimally supervised learning of lexical
+<br>
+&nbsp;&nbsp; relations e.g. learning of hyponomy, antonomy, noun-adjective,
+<br>
+&nbsp;&nbsp; meronomy relations
+<br>
+<br>
+<br>
+&nbsp;* unsupervised and minimally supervised learning of bilingual
+<br>
+&nbsp;&nbsp; lexicon e.g. bootstrapping methods for extending a small bilingual
+<br>
+&nbsp;&nbsp; lexicon, use of cognates in unsupervised bilingual lexicon
+extraction.
+<br>
+<br>
+<br>
+<br>
+<b class="moz-txt-star"><span class="moz-txt-tag"></span><big>Important
+Dates</big><span class="moz-txt-tag"></span></b><br>
+&nbsp;* Submission deadline: March 15, 2009
+<br>
+&nbsp;* Notification of acceptance: April 5, 2009
+<br>
+&nbsp;* Camera-ready papers due: April 12, 2009
+<br>
+&nbsp;* Workshop: June 05, 2009
+<br>
+<br>
+<b><big>Submission Guidelines
+</big></b><br>
+Papers will be accepted on or before 15 March&nbsp; in PDF or Postscript
+formats. Details of the electronic submission mechanism will be made
+available via the workshop website located at <a
+ class="moz-txt-link-freetext"
+ href="http://www.cs.york.ac.uk/lls-workshop">http://www.cs.york.ac.uk/lls-workshop</a>
+. Submissions should follow the NAACL HLT 2009 length and formatting
+requirements for full papers of eight (8) pages of content with one (1)
+extra page for references, found at <a class="moz-txt-link-freetext"
+ href="http://clear.colorado.edu/NAACLHLT2009/stylefiles.html">http://clear.colorado.edu/NAACLHLT2009/stylefiles.html</a>.
+<br>
+<br>
+<big><b>Workshop Website
+</b></big><br>
+More up-to-date information regarding the workshop can be found at the
+workshop web site:
+<br>
+<br>
+<a class="moz-txt-link-freetext"
+ href="http://www.cs.york.ac.uk/lls-workshop">http://www.cs.york.ac.uk/lls-workshop</a>
+<br>
+<br>
+<br>
+<big><b>Program Committee</b></big><br>
+<br>
+Eneko Agirre, University of the Basque Country, Spain
+<br>
+Enrique Alfonseca, Google, Switzerland
+<br>
+Chris Biemann, Powerset, USA
+<br>
+James Cussens, University of York, UK
+<br>
+Cristian Danescu Niculescu-Mizil, Cornell University, USA
+<br>
+Aria Haghighi, University of California, Berkeley, USA
+<br>
+Nancy Ide, Vassar College, USA
+<br>
+Kyo Kaguera, University of Tokyo, Japan
+<br>
+Ioannis Klapaftis, University of York, UK
+<br>
+Lillian Lee, Cornell University, USA
+<br>
+Suresh Manandhar, University of York, UK
+<br>
+Ted Pedersen, University of Minnesota, USA
+<br>
+German Rigua, University of the Basque Country, Spain
+<br>
+Carlo Strapparava, ITC-Irst, Italy
+<br>
+David Weir, University of Sussex, UK<br>
+<br>
+<br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--------------010801080602030404060008--
+
+--===============1648681879==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1648681879==--

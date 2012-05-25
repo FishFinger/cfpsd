@@ -1,0 +1,219 @@
+From - Thu Dec 10 14:32:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs32395waa;
+        Mon, 30 Jun 2008 22:40:57 -0700 (PDT)
+Received: by 10.114.60.19 with SMTP id i19mr5128604waa.141.1214890856454;
+        Mon, 30 Jun 2008 22:40:56 -0700 (PDT)
+Return-Path: <bigk@itee.uq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id f20si7271969waf.53.2008.06.30.22.40.55;
+        Mon, 30 Jun 2008 22:40:56 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bigk@itee.uq.edu.au does not designate 137.111.216.16 as permitted sender) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning bigk@itee.uq.edu.au does not designate 137.111.216.16 as permitted sender) smtp.mail=bigk@itee.uq.edu.au
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m615esls001621
+	for <jpprost@gmail.com>; Tue, 1 Jul 2008 15:40:54 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m615esDm030439
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 1 Jul 2008 15:40:54 +1000
+X-ASG-Debug-ID: 1214890849-3eda00cb0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP
+	id 7F46F1901F5C; Tue,  1 Jul 2008 15:40:49 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id yeMBXFjpYQhL6k4w; Tue, 01 Jul 2008 15:40:49 +1000 (EST)
+Received: from gum.itee.uq.edu.au (gum.itee.uq.edu.au [130.102.66.1])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m615emgh001595;
+	Tue, 1 Jul 2008 15:40:48 +1000 (EST)
+Received: from filter2.itee.uq.edu.au (filter2.itee.uq.edu.au [130.102.79.22])
+	by gum.itee.uq.edu.au (8.13.1/8.13.1) with ESMTP id m615ei0g003553;
+	Tue, 1 Jul 2008 15:40:44 +1000
+Received: from mango.itee.uq.edu.au (mango.itee.uq.edu.au [130.102.66.4])
+	by filter2.itee.uq.edu.au (8.13.1/8.13.1) with ESMTP id m615ehk2021690;
+	Tue, 1 Jul 2008 15:40:43 +1000
+Date: Tue, 1 Jul 2008 15:40:42 +1000 (EST)
+From: Kath Williamson <bigk@itee.uq.edu.au>
+To: elena@ics.mq.edu.au, majida@ics.mq.edu.au, ilya@ics.mq.edu.au,
+        maston@ics.mq.edu.au, aaydin@ics.mq.edu.au, venkat@ics.mq.edu.au,
+        sanka@ics.mq.edu.au, lesbell@ics.mq.edu.au, mbower@ics.mq.edu.au,
+        sbruck@ics.mq.edu.au, kchiew@ics.mq.edu.au, edwinelm@ics.mq.edu.au,
+        eric@ics.mq.edu.au, agata@ics.mq.edu.au, yifang@ics.mq.edu.au,
+        gardiner@ics.mq.edu.au, shirley@ics.mq.edu.au, xengray@ics.mq.edu.au,
+        gtauseef@ics.mq.edu.au, ggupta@ics.mq.edu.au, mhassan@ics.mq.edu.au,
+        daiqin@ics.mq.edu.au, ahezart@ics.mq.edu.au, sharonho@ics.mq.edu.au,
+        mriqbal@ics.mq.edu.au, kalyan@ics.mq.edu.au, monika@ics.mq.edu.au,
+        ikartiko@ics.mq.edu.au, alafusa@ics.mq.edu.au, alampert@ics.mq.edu.au,
+        leili@ics.mq.edu.au, stefanie@ics.mq.edu.au, vanessa@ics.mq.edu.au,
+        howard@ics.mq.edu.au, jma@ics.mq.edu.au, mpawel@ics.mq.edu.au,
+        mccombie@ics.mq.edu.au, mmccurdy@ics.mq.edu.au, cmcdonal@ics.mq.edu.au,
+        gillian@ics.mq.edu.au, aarthi@ics.mq.edu.au, ukndukwu@ics.mq.edu.au,
+        krishnan@ics.mq.edu.au, pizzato@ics.mq.edu.au, bpowley@ics.mq.edu.au,
+        jpprost@ics.mq.edu.au, alexr@ics.mq.edu.au, raghav@ics.mq.edu.au,
+        mattr@ics.mq.edu.au, soroush@ics.mq.edu.au, rsepahi@ics.mq.edu.au,
+        ashermin@ics.mq.edu.au, hsun@ics.mq.edu.au, daniels@ics.mq.edu.au,
+        tao@ics.mq.edu.au, atychsen@ics.mq.edu.au, jviethen@ics.mq.edu.au,
+        nguyenvo@ics.mq.edu.au, swan@ics.mq.edu.au, pwang@ics.mq.edu.au,
+        yiwang@ics.mq.edu.au, brett@ics.mq.edu.au, mwittman@ics.mq.edu.au,
+        qingsong@ics.mq.edu.au, yihao@ics.mq.edu.au, mzhang@ics.mq.edu.au,
+        hyzheng@ics.mq.edu.au, junzou@ics.mq.edu.au, szwarts@ics.mq.edu.au
+cc: vijay@ics.mq.edu.au, Xiaofang Zhou <zxf@itee.uq.edu.au>
+X-ASG-Orig-Subj: EII 2008 Winter School on Data Management & Data Quality, Australia
+Subject: EII 2008 Winter School on Data Management & Data Quality, Australia
+Message-ID: <Pine.SOC.4.64.0807011522220.19167@mango.itee.uq.edu.au>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Spam-Checked: This message probably not SPAM
+X-Spam-Score: -1.411
+X-Spam-Tests: ALL_TRUSTED,AWL
+X-Spam-Report: -1.4 points, 8.0 required;
+	-1.4 ALL_TRUSTED            Passed through trusted hosts only via SMTP
+	 0.0 AWL                    AWL: From: address is in the auto white-list
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1214890850
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.54832
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+
+Dear Computing Students from Macquarie,
+
+If any of you are interested in attending our Winter School there are a few 
+places left. Please submit your applications by tomorrow, or let me know if you 
+need more time:
+
+http://www.eii.edu.au/winter-school-08/application
+
+Prof Varadharajan and other coordinators have confirmed an excellent line 
+up of major international experts for our School. Not only do the speakers 
+give lectures but you have the opportunity to interact with them 
+personally. A very valuable experience for young researchers.
+
+cheers, kath
+
+-------------------------------------------------------------
+
+EII 2008 Winter School on Data Management & Data Quality
+[Running parallel with EII's ECR Career Development Workshop]
+
+~~~Call for Participation~~~
+
+DATE: 15-20 August 2008
+LOCATION: ANU's Kioloa Coastal Campus, Kioloa NSW
+URL: http://www.eii.edu.au/winter-school-08
+
+-------------------------------------------------------------
+
+We are pleased to announce the 4th EII Winter School funded by the ARC Research
+Network in Enterprise Information Infrastructure [EII]. EII is a unique
+Australian Research Council [ARC] initiative to improve the quality, impact and
+visibility of Australian ICT research, through networking, collaboration and
+fostering research opportunities for ICT researchers. EII is funded by the ARC
+in conjunction with financial support provided by 21 Australian and
+international institutions - http://www.eii.edu.au
+
+THEMES
+Research Theme: Data Management & Data Quality
+Foundation Themes: Machine Learning & Research Methods
+
+TOPICS & SPEAKERS
+Research Methods for Computer Science & Information Systems - A/Prof
+Joseph Davis, The University of Sydney, Australia
+
+Machine Learning - Prof Rao Kotagiri, The University of Melbourne,
+Australia
+
+Data Provenance and Cyber Infrastructure - Dr Sudha Ram, University of
+Arizona, USA
+
+Entity Linkage: Similarity Measures and Algorithms - Dr Divesh Srivastava,
+AT&T Labs-Research, USA
+
+Dependable & Secure Services for Distributed Systems & Software - Prof
+Neeraj Suri, TU Darmstadt, Germany
+
+Querying Large Graph Databases - Prof Jeffrey Xu Yu, The Chinese
+University of Hong Kong
+
+OBJECTIVES
+The School is targeted at research students as well as early career
+researchers [ECRs] interested in exploring current research topics in the
+areas of data management and data quality as well as a foundational
+overview of research methods in CS & IS, and machine learning. The series
+of EII Schools brings PhD students and ECRs together with experienced
+national and international researchers from institutions across the EII
+network to enhance and invigorate research education, and to improve a
+depth of understanding of emerging and fundamental topics in ICT. The
+Schools offer an opportunity for PhD students and ECRs to share and
+discuss their research with peers and mentors, and to start developing
+ideas & concepts into research papers for submission to major
+international journals and conferences. The experience will also advance
+the development and raise the standard of the students. dissertations and
+research publications in general.
+
+PROGRAM
+The program commences with a welcome dinner at 7.00pm Friday 15 August,
+and continues for 4.5 days [9am Saturday 16 to 2pm Wednesday 20 August] at
+the Kioloa Coastal Campus of the ANU, located 2.5 hours from Canberra and
+3.5 hours from Sydney.
+
+As well as the research and foundation lectures, the program will also
+include evening research poster sessions where delegates can discuss their
+research with the guest speakers and with each other. School participants
+are expected to present their research in poster form during the School.
+Please bring your research poster [A3 size or larger] with you to the
+School.
+
+TRAVEL & ACCOMMODATION SUPPORT
+[1] Students & ECRs from EII Member Universities: The registration fee is
+waived for the School, and full financial support for attendance is
+available from the ARC Research Network in Enterprise Information
+Infrastructure [EII] for successful applicants from EII-member
+universities - http://www.eii.edu.au/institutions. This support includes,
+where relevant, return economy airfare, accommodation, catering, chartered
+bus from Sydney or Canberra airports, and School materials.
+
+[2] Students & ECRs from other Australian Universities: The registration
+fee is $550 for the School. This charge includes accommodation, catering,
+chartered bus from Sydney or Canberra airports, and School materials.
+
+[3] Students & ECRs attending VLDB 2008: The registration fee is $550 for
+the School. This charge includes accommodation, catering, chartered bus
+from Sydney or Canberra airports, and School materials.
+
+[4] Other Applicants: The registration fee is $850 for the School. This
+charge includes accommodation, catering, chartered bus from Sydney or
+Canberra airports, and School materials.
+
+APPLICATION FORM - http://www.eii.edu.au/winter-school-08/application
+The capacity of the School is strictly limited to 50 delegates only.
+Please submit your application by 1 July 2008. Delegates will be selected
+based on the relevance of their research backgrounds and interests to the
+School topics.
+
+IMPORTANT DATES
+1 July 2008: Applications Due
+4 July 2008: Successful Applicants Notified
+15-20 August: Winter School & ECR Workshop
+
+HOW THE SCHOOL IS FUNDED
+This event is supported under the Australian Research Council's Research
+Networks scheme. EII is funded from the Australian Research Council (ARC)
+in conjunction with funding provided by 21 institutions.
+
+CONTACT:
+Kathleen Williamson
+Network Manager
+ARC Research Network in Enterprise Information Infrastructure [EII]
+The University of Queensland
+Brisbane Q 4072 Australia
+Tel: 61 7 3365 1649
+Mob: 0434 070 948
+Fax: 61 7 3365 3248
+Email: eii@eii.edu.au
+Web: http://www.eii.edu.au

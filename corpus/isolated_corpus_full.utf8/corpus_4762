@@ -1,0 +1,239 @@
+From - Thu Dec 10 14:35:40 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.110.146 with SMTP id n18cs30794fap;
+        Thu, 19 Mar 2009 14:46:26 -0700 (PDT)
+Received: by 10.210.90.20 with SMTP id n20mr2204286ebb.72.1237499185990;
+        Thu, 19 Mar 2009 14:46:25 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 5si1971587ewy.100.2009.03.19.14.46.24;
+        Thu, 19 Mar 2009 14:46:25 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 118C020F15; Thu, 19 Mar 2009 22:46:23 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8F40F20F6B;
+	Thu, 19 Mar 2009 22:43:31 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 719923D34;
+	Thu, 19 Mar 2009 22:43:31 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id b+Lr5L+ccCc6; Thu, 19 Mar 2009 22:43:31 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id DAC513D52;
+	Thu, 19 Mar 2009 22:43:02 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BCF893D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 16 Mar 2009 14:50:31 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 7R2YrD+NdusE for <elsnet-list@mailman.elsnet.org>;
+	Mon, 16 Mar 2009 14:50:31 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8951A3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 16 Mar 2009 14:50:11 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6B4AC20A6E; Mon, 16 Mar 2009 14:50:11 +0100 (MET)
+X-Greylist: delayed 467 seconds by postgrey-1.28 at newjura;
+	Mon, 16 Mar 2009 14:50:09 MET
+Received: from mail-ew0-f164.google.com (mail-ew0-f164.google.com
+	[209.85.219.164])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3C19620181
+	for <elsnet-list@elsnet.org>; Mon, 16 Mar 2009 14:49:34 +0100 (MET)
+Received: by ewy8 with SMTP id 8so4103400ewy.13
+	for <elsnet-list@elsnet.org>; Mon, 16 Mar 2009 06:49:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:date
+	:x-google-sender-auth:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	bh=yO9rGOnRYFsxcM1lLw6QImo6sMWe70nWSlhwmOB9ZpA=;
+	b=bkI9xHAgB/t6VQOTDMcq3a8Ak1+D31/devQWw6DZps8ucpT3hzO7GnE2ZuZlmYUtcH
+	oLMet+UMTbDnEBbysbf8yn+UAdl6UcV3FSmbmWHBjhwt7NDbzJpgYWDvbtveh8B3VHqE
+	cfVrjjbmqBoJSbulJoAKMdP8MRDdQnPW2rwJc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type:content-transfer-encoding;
+	b=d7ecijCAYrEjCwJkiaATnQobH7kMPg60JrvUJUX19CdTlAhFm8LNdKatvgnnNp/zo+
+	RFJ1f62ENs+X5+RN2Foi1y2hleA7L/47dUAybINfZnp9hmLSBTrpTZU+R9L/UjQPYyTb
+	mRBHKN0pYZUeaH0jvHYd/iK0Sp7b6BKsBztVg=
+MIME-Version: 1.0
+Received: by 10.216.1.81 with SMTP id 59mr1805925wec.155.1237210903793; Mon, 
+	16 Mar 2009 06:41:43 -0700 (PDT)
+Date: Mon, 16 Mar 2009 14:41:43 +0100
+X-Google-Sender-Auth: c0e6f9d2cc91488d
+Message-ID: <d648cea90903160641g4486b214w28bb2095230d2c35@mail.gmail.com>
+From: Koen Deschacht <Koen.Deschacht@cs.kuleuven.be>
+To: elsnet-list@elsnet.org
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+X-Mailman-Approved-At: Thu, 19 Mar 2009 22:42:50 +0100
+Subject: [Elsnet-list] CFP - CIAM 2009 workshop extended deadline
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+CALL FOR PAPERS - EXTENDED DEADLINE
+-----------------------------------------------------
+
+CIAM 2009
+
+IJCAI-09 Workshop on Cross-Media Information Access and Mining
+
+
+http://www.cs.kuleuven.be/~liir/conferences/CIAM2009/
+
+
+The workshop will take place July 13, 2009 as part of the Twenty-first
+International Joint Conference on Artificial Intelligence, Pasadena
+Conference Center, California.   This event is sponsored by The
+International Joint Conferences on Artificial Intelligence (IJCAI),
+The Association for the Advancement of Artificial Intelligence (AAAI)
+and The Interdisciplinary Institute for Broadband Technology (IBBT).
+
+Artificial intelligence (AI) simulates intelligent tasks performed by
+humans. One primordial task is the understanding and fusion of
+multiple inputs, for instance, when seeing the world around us,
+listening to speech and other audio sounds, and reading texts.
+Multimedia archives containing text, video, still images and audio
+(speech and other sounds) are quickly gaining importance (e.g., on the
+World Wide Web or privately held by broadcasting companies, publishing
+houses, libraries, musea, police and intelligence services,
+courtrooms, hospitals, etc.). Systems that access or mine this
+multimedia content should have the intellectual capability to relate
+the different information sources to each other, and to align and
+integrate the content. Indeed, more often than not the different
+modalities complement and disambiguate each other. Such technologies
+will form the basis for multimedia and cross-media information
+retrieval and mining.
+
+This situation demands for solutions for cross-media processing and
+content recognition, where some fundamental problems are emerging
+topics of interest in the research community. First, content
+recognition in the visual, textual or audio medium is improved by
+exploiting cross-modal co-occurrences, especially when many instances
+can reinforce each other. Content recognized in one medium (e.g.,
+text) can serve as weak annotation for content to be learned in
+another medium (e.g., the visual medium). This allows, for instance,
+to train a visual object recognition system for frequent objects
+without the need for manually labeled training data. Similarly, the
+visual medium can assist in the processing of textual sources. For
+instance, recognized visual actions might contribute to the
+ontological classification of certain verbs used in language. Gestures
+can complement speech as a visual reflection of the semantics of a
+discourse or conversation. And there are many other examples. Content
+recognition also entails content linking across media, where we deal
+with problems of cross-document coreferencing (or alignment) of, for
+instance, entities (e.g., persons, objects, locations), of actions
+performed by entities, of events, and of temporal and spatial forms of
+expression. Moreover, the initially identified alignments might
+bootstrap additional cross-modal "translations".
+
+The purpose of this workshop is to bring together researchers from
+computer vision, sound processing, human language technology,
+computational linguistics, artificial intelligence, machine learning,
+reasoning, information retrieval, cognitive science and application
+communities. The workshop will bring fertilizing discussions and ideas
+about that will foster new interdisciplinary research avenues in
+artificial intelligence. It will encourage research into intelligent
+behavior and unify methodologies.
+
+The workshop is open to all members of the AI community. The number of
+participants is however limited to 40. We welcome original papers and
+posters. They should show a clearly motivated interest or expertise in
+cross-media recognition, retrieval and mining, and discuss
+contributing and grounded ideas. We aim at obtaining a balanced
+selection of papers coming from the different disciplines involved,
+that clearly stress multimodal processing.
+
+Topics of interest include, but are not limited to:
+Cross-media mining and categorization
+Cross-media search and question answering
+Cross-media summarization
+Cross-media linking of entities, attributes, objects, and actions
+Cross-media emotion detection and genre classification
+Alignment algorithms
+Image auto-annotation
+Image and video retrieval based on multi-modal cues
+Recognition of semantic roles and frames in text, images and video
+Recognition of narratives in text and video
+Spatial and temporal recognition and resolution
+Multimodal discourse analysis
+Submissions in pdf format should be made online at
+
+http://www.cs.kuleuven.be/~liir/conferences/CIAM2009/index.php?topic=3Dsubm=
+it
+
+before March 18, 2009, 23:59 (midnight) UTC+1. Papers should not be
+more than 6 double-column pages long. Please follow the IJCAI
+formatting instructions and use the supplied Word templates or Latex
+sources. Formatting guidelines can be found at the IJCAI 2009 website.
+The reviewing process will be double-blind with each submission
+receiving at least three reviews. Papers will be selected for oral or
+poster sessions. All accepted papers (oral and poster) will be
+published in the workshop proceedings. We are also arranging a journal
+special issue for post-workshop publication of selected papers.
+
+Organizing committee
+
+Vittorio Ferrari, ETH Zurich (ferrari@vision.ee.ethz.ch)
+Marie-Francine Moens, Katholieke Universiteit Leuven (sien.moens@cs.kuleuve=
+n.be)
+Tinne Tuytelaars, Katholieke Universiteit Leuven
+(tinne.tuytelaars@esat.kuleuven.be)
+Luc Van Gool, ETH Zurich (vangool@vision.ee.ethz.ch)
+
+Program committee
+
+Kobus Barnard, University of Arizona
+Tamara Berg, Stony Brook, NY
+Lou Boves, University Nijmegen
+Trevor Darrell, UC Berkeley
+Pinar Duygulu, Bilkent University
+Jacob Eisenstein, Massachusetts Institute of Technology
+Shen Gao, Institute for Infocomm Research
+Kristen Grauman, University of Texas
+Eduard Hovy, University of Southern California
+Mirella Lapata, Edinburgh University
+Mark Maybury, MITRE
+Jian-Yun Nie, Universit=8E de Montr=8Eal
+Chris Pal, University of Rochester
+Alan Smeaton, Dublin City University
+Cees Snoek, University of Amsterdam
+Ben Taskar, University of Pennsylvania
+Katerina Pastra, ILSP
+Dan Roth, University of Illinois at Urbana-Champaign
+Bill Triggs, CNRS
+Hugo Van hamme, Katholieke Universiteit Leuven
+Jakob Verbeek, INRIA
+Andrew Zisserman, University of Oxford
+
+
+For more information contact one of the organizers.
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

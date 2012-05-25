@@ -1,0 +1,696 @@
+From - Thu Dec 10 14:35:42 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.110.146 with SMTP id n18cs28132fap;
+        Mon, 23 Mar 2009 15:07:28 -0700 (PDT)
+Received: by 10.223.126.145 with SMTP id c17mr6439230fas.102.1237846048197;
+        Mon, 23 Mar 2009 15:07:28 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 19si3515124fxm.100.2009.03.23.15.07.26;
+        Mon, 23 Mar 2009 15:07:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1LlsEK-0000BI-Fg; Mon, 23 Mar 2009 23:02:48 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1LlsED-0000B4-5i; Mon, 23 Mar 2009 23:02:41 +0100
+Received: from mx2.jrc.it [139.191.1.110] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
+	id 1LlsEF-0003NB-Gq; Mon, 23 Mar 2009 23:02:47 +0100
+Received: from irelay.jrc.it (irelay.jrc.it [139.191.254.63])
+	by mx2.jrc.it (LMC5614Amx2) with ESMTP id n2NM2Wk7012977
+	for <corpora@uib.no>; Mon, 23 Mar 2009 23:02:32 +0100 (CET)
+Received: from ipsc-msg-a.jrc.it (ipsc-msg-a.jrc.it [139.191.243.204])
+	by irelay.jrc.it (LMC5614Ainternal) with ESMTP id n2NM2Pcv016205
+	for <corpora@uib.no>; Mon, 23 Mar 2009 23:02:25 +0100 (MET)
+MIME-version: 1.0
+Received: from jrc.it ([unknown] [139.191.243.204])
+	by ipsc-msg-a.jrc.it (Sun Java(tm) System Messaging Server 7.0-3.01
+	32bit
+	(built Dec 9 2008)) with ESMTP id <0KGZ00K1PBW0S660@ipsc-msg-a.jrc.it>
+	for corpora@uib.no; Mon, 23 Mar 2009 23:02:25 +0100 (CET)
+Received: from [139.191.243.204] (Forwarded-For: 139.191.243.204)
+	by ipsc-msg-a.jrc.it (mshttpd); Mon, 23 Mar 2009 22:02:24 +0000 (GMT)
+From: Jakub Piskorski <Jakub.Piskorski@jrc.it>
+To: ln@cines.fr, elsnet-list@elsnet.org, corpora@uib.no,
+	webclef@science.uva.nl, bionlp@lists.ccs.neu.edu,
+	bionlp@lists.ccs.neu.edu, rasmusse@ptd.net, nlp-l@galaxy.agh.edu.pl,
+	Resource-Network-Linguistic-Diversity@unimelb.edu.au,
+	acm@lists.cs.ucr.edu, a12n-collaboration@bisharat.net, www-ws@w3.org,
+	public-sws-ig@w3.org
+Message-id: <fcb1af8fb69.49c806f0@jrc.it>
+Date: Mon, 23 Mar 2009 22:02:24 +0000 (GMT)
+X-Mailer: Sun Java(tm) System Messenger Express 7.0-3.01 32bit (built Dec  9
+	2008)
+Content-language: en
+X-Accept-Language: en
+Priority: normal
+X-Spam-Status: No, score=-101.0 required=200.0 tests=ALL_TRUSTED,AWL,
+	HTML_MESSAGE,USER_IN_WHITELIST autolearn=disabled version=3.2.0
+X-Spam-Checker-Version: SpamAssassin 3.2.0 (2007-05-01) on mx2.jrc.it
+X-checked-clean: by exiscan on rolf
+X-Scanner: 6e2e0c127fa2e81fe63083ae61fc87c3 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -0.9 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 BODY: UIB_MAILWON
+	0.1 BODY: hvorfor herfra? 0.0 BODY: HTML included in message
+	-1.1 AWL: From: address is in the auto white-list
+Subject: [Corpora-List] Extended paper submission deadline FSMNLP 2009
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0650351656=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+This is a multi-part message in MIME format.
+
+--===============0650351656==
+Content-type: multipart/alternative;
+	boundary="Boundary_(ID_nJT6lpSkTB+r/+cLzCmYmQ)"
+Content-language: en
+
+This is a multi-part message in MIME format.
+
+--Boundary_(ID_nJT6lpSkTB+r/+cLzCmYmQ)
+Content-type: text/plain; charset=iso-8859-2
+Content-transfer-encoding: quoted-printable
+Content-disposition: inline
+
+----------------------------------------------------------------------
+
+=A0Finite-State Methods and Natural Language Processing FSMNLP 2009
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Second Call for Papers
+
+ =A0** Submission deadline for full papers extended to 13 April **
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0Eight International Workshop
+ =A0 =A0 =A0 =A0 =A0 University of Pretoria=2C South Africa
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 http=3A//fsmnlp2009=2Efastar=2Eorg (http=3A=
+//fsmnlp2009=2Efastar=2Eorg/)
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A021-24 July 2009
+
+=A0As in 2008=2C FSMNLP is merged with the FASTAR (Finite Automata
+=A0Systems Theoretical and Applied Research) workshop=2E
+----------------------------------------------------------------------
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 SCOPE
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D
+AIM
+
+The International Workshop Series of Finite State Methods and Natural
+Language Processing (FSMNLP) is a forum for researchers and
+practitioners working on
+=A0- NLP applications or language/ language technology research resource=
+s=2C
+=A0- theoretical and implementation aspects=2C or
+=A0- their combinations
+having *obvious relevance or an explicitly discussed relation* to
+Finite-State Methods in NLP=2E
+
+In the past=2C seven FSMNLP workshops have been organised (Budapest
+1996=2C Ankara 1998=2C Helsinki 2001=2C Budapest 2003=2C Helsinki 2005=2C=
+
+Potsdam 2007=2C Ispra 2008)=2E
+
+We invite submissions related to all obvious or traditional FSMNLP
+topics=2C see e=2Eg=2E FSMNLP 2008=2E The updated list of topics include=
+s
+=A0- all the obvious or traditional topics
+=A0- plus some new topics such as=3A
+ =A0 =A0* common interfaces=2C portability=2C and shared methods for tes=
+ting/
+ =A0 =A0 =A0benchmarking/evaluation of finite-state tools
+ =A0 =A0* coping with large alphabets during finite-state compilation an=
+d
+ =A0 =A0 =A0in real-word applications
+ =A0 =A0* fixed parameter tractability and narrowness in streamed NLP
+ =A0 =A0* conventional/parallel algorithms using/manipulating
+ =A0 =A0 =A0conventional/stochastic finite-state automata/paths
+ =A0 =A0* applications of rational kernels to active/statistical machine=
+
+ =A0 =A0 =A0learning of finite-state models=2E
+
+SPECIAL THEME
+
+In recognition of its location on the African continent=2C this year=27s=
+
+FSMNLP has Finite-State Methods for Under-Resourced Languages as a
+special theme=2E The theme is relevant to finite-state methods
+
+=A0- applied to practical tasks such as language survey=2C elicitation=2C=
+
+ =A0 data collection=2C computer-aided annotation=2C morphological
+ =A0 description=2C modelling and normalization=2C
+=A0- considering demanding conditions such as linguistic complexity
+ =A0 and diversity=2C scarce resources=2C research infrastructures=2C re=
+al-
+ =A0 time grammar updates=2C
+=A0- in language processing fields such as comparative linguistics=2C
+ =A0 field linguistics=2C applied linguistics=2C language teaching=2C an=
+d
+ =A0 computer-aided translation=2E
+
+The special theme does not restrict the scope but attempts to draw the
+attention of contributors to the challenges of computational
+linguistics in Africa=2E We hope that the theme teases out promising and=
+
+useful applications of Finite-State Methods in this context=2E
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 SPECIAL SESSIONS
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+
+RELATED EVENTS
+
+To catalyze discussion and participation=2C three special sessions or
+subworkshops will be organized=2C containing presentations of regular
+papers and extended abstracts presenting ongoing research=2C tutorials=2C=
+
+competitions etc=2E relating to the following topic areas=3A
+
+1=2E =22Finite-State Methods for African and other Under-Resourced/
+ =A0Low-Density Languages=22
+
+Under-resourced/low-density languages=2C including many African
+languages=2C often require documentation and language development=2C in
+particular including methods for field linguistics=2C localized
+information technology and basic language resources=2E However=2C the
+conditions for applying large scale statistical methods do not hold in
+general=2C while existing knowledge-based methods may not directly
+generalise to low-density languages=2E The purpose of this subworkshop
+is to take a fresh look at new resources=2C methods=2C collaboration and=
+
+innovative approaches for these (clusters of) languages=2E Submissions
+may be concerned with the following aspects of the subworkshop topic=3A
+
+ =A0- project proposals and joint projects
+ =A0- basic language resources
+ =A0- innovative approaches to language clusters
+ =A0- field linguistics and language documentation
+ =A0- iterative language description
+ =A0- resource-efficient machine learning=2E
+
+The local organizers are Laurette Pretorius and Sonja Bosch=2E The
+subworkshop is tentatively accompanied by two tutorials given by Kemal
+Oflazer and Colin de la Higuera (see TUTORIALS AND INVITED TALKS
+below)=2E
+
+2=2E =22Practical Aspects and Experience of FS Methods and Systems=22
+
+The last decade has seen a significant increase in the number of
+toolkits and implementations of finite state systems for NLP=2E Work on
+such implementations has highlighted a wide variety of implementation
+issues=2E Unfortunately much of this knowledge remains trade-secret or
+is only embodied in implementations themselves=2C and is not presented
+academically at conferences=2E This special session focuses on such
+issues and knowledge and covers the following topics (as they relate
+to NLP and real-life implementation issues)=3A
+
+ =A0- user interfaces=2C visualisation=2C tracing and debugging
+ =A0- specification formalisms and languages (e=2Eg=2E grammars=2C regul=
+ar
+ =A0 =A0 =A0relations=2C etc=2E)
+ =A0- application programmer interfaces=2C interchange formats
+ =A0- performance=2C profiling and tuning techniques
+ =A0- classification=2C comparison and evaluation
+ =A0- data-structures and representations
+ =A0- compression of alphabets=2C lexicons and rules
+
+3=2E =22Tree Automata and Transducers=22
+
+In recent years=2C applications of formal tree language theory in
+natural language processing have been on the rise=2C as witnessed by
+papers at conferences and in journals on formal language theory=2C
+finite automata=2C natural language processing=2C and computational
+linguistics=2E FSMNLP 2009 will therefore have a special session/
+subworkshop on tree automata and tree transducers in natural
+language processing=2E
+
+This subworkshop includes (but is not limited to) the following topics
+as long as they relate to natural language processing=3A
+
+ =A0- unweighted and weighted tree languages=2C
+ =A0- unweighted and weighted tree transformations=2C
+ =A0- the formalisms to represent and model them (including a=2Eo=2E tre=
+e
+ =A0 =A0 =A0grammars=2C tree automata=2C tree expressions=2C tree transd=
+ucers)=2C
+ =A0- expressiveness of such models and representations=2C
+ =A0- relations to synchronous grammars=2C
+ =A0- learning of such models and representations=2C
+ =A0- algorithms for pattern matching=2C accepting=2C parsing of tree
+ =A0 =A0 =A0languages=2C and
+ =A0- large-scale applications (including those in statistical machine
+ =A0 =A0 =A0translation)=2E
+
+For each of the three subworkshops=2C a subcommittee of the PC supported=
+
+by further experts from the field is responsible for the program=2E
+Please refer to the FSMNLP website for the lists of subcommittee
+members and further experts=2E
+
+TUTORIALS AND INVITED TALKS
+
+We expect to have tutorials on the following tentative topics=3A
+
+=A0- =22Developing Computational Morphology for Low- and Middle-Density
+ =A0 =A0 Languages=22 by Kemal Oflazer (Sabanci University=2C Turkey)
+=A0- =22Machine Learning with Automata=22 by Colin de la Higuera
+ =A0 =A0 (Jean Monnet University=2C Saint-Etienne=2C France)
+=A0- =22OpenFST=22 by Johan Schalkwyk (Google=2C USA)
+
+The INVITED SPEAKERS will be announced soon=2E
+
+COMPETITIONS
+
+During FSMNLP 2009=2C we hope to announce a small competition / shared
+task related to machine learning of morphology=2E
+
+BUSINESS MEETING
+
+FSMNLP will tentatively have a slot for a SIGFSM business meeting=2E
+SIGFSM is currently in the final stages of formal approval as a
+Special Interest Group in the Association for Computational
+Linguistics (ACL)=2E
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 SUBMISSION
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+PAPER CATEGORIES AND FORMATS
+
+We invite submissions of full papers i=2Ee=2E scientific
+contributions presenting new theoretical or experimental
+results=2E Papers should present original=2C unpublished research result=
+s
+and should not be submitted elsewhere simultaneously=2E
+
+We also invite submission of extended abstracts containing or
+describing systems descriptions/demos=2C progress reports/ongoing work=2C=
+
+joint projects/project proposals=2C small focused contributions=2C
+negative results=2C and opinion pieces=2C related to either of the
+subworkshop themes or the broader FSMNLP themes=2E
+
+We particularly invite demo submissions=2C which should consist of an
+extended abstract of the technical content with authors (!)=2C full
+contact information=2C references=2C acknowledgements=2C plus a =22scrip=
+t
+outline=22 of the presentation and a detailed description of hardware=2C=
+
+software and internet requirements=2E
+
+Note that the early acceptance notification date for full papers may
+help to keep travel costs for international participants reasonably
+low=2E If you come from far away and have only an extended abstract=2C t=
+he
+abstract can be submitted earlier as if it were a full paper=2E
+
+The information about the author(s) should be omitted in the submitted
+papers since the review process wil be double blind=2C except for demo
+submissions=2E Submissions are electronic and in PDF format via a
+web-based submission server=2E
+
+Authors are encouraged to use Springer LNCS style (Proceedings and
+Other Multiauthor Volumes) for LaTeX in producing the PDF
+document=2E For graph visualization=2C Vaucanson-G LaTeX style=2C
+Graphviz/dot and XFig are recommended=2E If you use a non-roman script
+or Microsoft Word=2C it is advisable to warn the organizers as early as
+possible=2E The page limit is 12 pages for full papers and 8 pages for
+extended abstracts=2E
+
+PROCEEDINGS AND SPECIAL JOURNAL ISSUE
+
+The on-site proceedings will be on CD=2E
+
+The actual proceedings with revised regular papers will be published
+after the conference in a volume of Lecture Notes in Artificial
+Intelligence as a part of the LNCS Series by Springer-Verlag=2E
+
+High quality extended abstracts may be invited to be included in the
+LNCS postproceedings=2C while other extended abstracts may be
+published as arranged by subworkshop organizers=2E
+
+In addition=2C a special journal issue on Finite-State Methods and
+Models in NLP is being planned=2E Extended versions of the papers and
+abstracts may be submitted to this special issue (the publication
+involves a second review/selection cycle)=2E
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 IMPORTANT DATES
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D
+
+Full paper submissions due=3A 13 April 2009 **CHANGED**
+Notification of acceptance for full papers=3A 12 May 2009
+
+Extended abstract submissions due=3A 17 May 2009
+Notification of acceptance for extended abstracts=3A 14 June 2009
+
+Deadline for inclusion in preproceedings=3A 28 June 2009
+
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 CHAIRS AND COMMITTEES
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+CONFERENCE CHAIR
+
+Bruce Watson (University of Pretoria=2C South Africa)
+
+PROGRAM COMMITTEE
+
+Andras Kornai (Budapest Institute of Technology=2C Hungary and
+ =A0MetaCarta=2C Cambridge=2C USA) (PC chair)
+Jacques Sakarovitch (Ecole nationale sup=E9rieure des
+ =A0T=E9l=E9communications=2C Paris=2C France) (PC chair)
+Anssi Yli-Jyr=E4 (University of Helsinki) (PC chair)
+
+Cyril Allauzen (Google Research=2C New York=2C USA)
+Sonja Bosch (University of South Africa=2C South Africa)
+Francisco Casacuberta (Instituto Tecnologico De Inform=E1tica=2C
+ =A0Valencia=2C Spain)
+Damir Cavar (University of Zadar=2C Croatia)
+Jean-Marc Champarnaud (Universit=E9 de Rouen=2C France)
+Loek Cleophas (University of Pretoria=2C South Africa)
+Maxime Crochemore (King=27s College London=2C UK)
+Jan Daciuk (Gda=F1sk University of Technology=2C Poland)
+Frank Drewes (Umea University=2C Sweden)
+Dafydd Gibbon (University of Bielefeld=2C Germany)
+John Goldsmith (University of Chicago=2C USA)
+Karin Haenelt (Fraunhofer Gesellschaft and University of
+ =A0Heidelberg=2C Germany)
+Thomas Hanneforth (University of Potsdam=2C Germany)
+Colin de la Higuera (Jean Monnet University=2C
+ =A0Saint-Etienne=2C France)
+Johanna H=F6gberg (Umea University=2C Sweden)
+Arvi Hurskainen (University of Helsinki=2C Finland)
+Lauri Karttunen (Palo Alto Research Center and
+ =A0Stanford University=2C USA)
+Andr=E9 Kempe (Yahoo Search Technologies=2C Paris=2C France)
+Kevin Knight (University of Southern California=2C USA)
+Derrick Kourie (University of Pretoria=2C South Africa)
+Marcus Kracht (University of California=2C Los Angeles=2C USA)
+Hans-Ulrich Krieger (DFKI GmbH=2C Saarbr=FCcken=2C Germany)
+Eric Laporte (Universit=E9 de Marne-la-Vall=E9e=2C France)
+Andreas Maletti (Universitat Rovira i Virgili=2C Spain)
+Michael Maxwell (University of Maryland=2C USA)
+Stoyan Mihov (Bulgarian Academy of Sciences=2C Sofia=2C Bulgaria)
+Kemal Oflazer (Sabanci University=2C Turkey)
+Jakub Piskorski (Polish Academy of Sciences=2C Warsaw=2C Poland)
+Laurette Pretorius (University of South Africa=2C South Africa)
+Michael Riley (Google Research=2C New York=2C USA)
+Strahil Ristov (Ruder Boskovic Institute=2C Zagreb=2C Croatia)
+James Rogers (Earlham College=2C USA)
+Max Silberztein (Universit=E9 de Franche-Comt=E9=2C France)
+Bruce Watson (University of Pretoria=2C South Africa)
+Sheng Yu (University of Western Ontario=2C Canada)
+Menno van Zaanen (Tilburg University=2C the Netherlands)
+Lynette van Zijl (Stellenbosch University=2C South Africa)
+
+ORGANIZING COMMITTEE
+
+Loek Cleophas (University of Pretoria) (OC chair)
+Derrick Kourie (University of Pretoria)
+Jakub Piskorski (Polish Academy of Sciences=2C Warsaw=2C Poland)
+Bruce Watson (University of Pretoria)
+Anssi Yli-Jyr=E4 (University of Helsinki)
+
+
+
+
+--Boundary_(ID_nJT6lpSkTB+r/+cLzCmYmQ)
+Content-type: text/html; charset=iso-8859-2
+Content-transfer-encoding: quoted-printable
+Content-disposition: inline
+
+=3Cdiv style=3D=22font-family=3A =27Times New Roman=27=3B font-size=3A 1=
+6px=3B=22=3E------------------------------------------------------------=
+----------=3Cbr /=3E=3Cbr /=3E=A0Finite-State Methods and Natural Langua=
+ge Processing FSMNLP 2009=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Seco=
+nd Call for Papers=3Cbr /=3E=3Cbr /=3E =A0** Submission deadline for ful=
+l papers extended to 13 April **=3Cbr /=3E=3Cbr /=3E =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0Eight International Workshop=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 Unive=
+rsity of Pretoria=2C South Africa=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+http=3A//fsmnlp2009=2Efastar=2Eorg (http=3A//fsmnlp2009=2Efastar=2Eorg/)=
+=3Cbr /=3E=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A021-24 July 2=
+009=3Cbr /=3E=3Cbr /=3E=A0As in 2008=2C FSMNLP is merged with the FASTAR=
+ (Finite Automata=3Cbr /=3E=A0Systems Theoretical and Applied Research) =
+workshop=2E=3Cbr /=3E---------------------------------------------------=
+-------------------=3Cbr /=3E=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 SCOPE=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =3D=3D=3D=3D=3D=3Cbr /=3EAIM=3Cbr /=3E=3Cbr /=3EThe Internationa=
+l Workshop Series of Finite State Methods and Natural=3Cbr /=3ELanguage =
+Processing (FSMNLP) is a forum for researchers and=3Cbr /=3Epractitioner=
+s working on=3Cbr /=3E=A0- NLP applications or language/ language techno=
+logy research resources=2C=3Cbr /=3E=A0- theoretical and implementation =
+aspects=2C or=3Cbr /=3E=A0- their combinations=3Cbr /=3Ehaving *obvious =
+relevance or an explicitly discussed relation* to=3Cbr /=3EFinite-State =
+Methods in NLP=2E=3Cbr /=3E=3Cbr /=3EIn the past=2C seven FSMNLP worksho=
+ps have been organised (Budapest=3Cbr /=3E1996=2C Ankara 1998=2C Helsink=
+i 2001=2C Budapest 2003=2C Helsinki 2005=2C=3Cbr /=3EPotsdam 2007=2C Isp=
+ra 2008)=2E=3Cbr /=3E=3Cbr /=3EWe invite submissions related to all obvi=
+ous or traditional FSMNLP=3Cbr /=3Etopics=2C see e=2Eg=2E FSMNLP 2008=2E=
+ The updated list of topics includes=3Cbr /=3E=A0- all the obvious or tr=
+aditional topics=3Cbr /=3E=A0- plus some new topics such as=3A=3Cbr /=3E=
+ =A0 =A0* common interfaces=2C portability=2C and shared methods for tes=
+ting/=3Cbr /=3E =A0 =A0 =A0benchmarking/evaluation of finite-state tools=
+=3Cbr /=3E =A0 =A0* coping with large alphabets during finite-state comp=
+ilation and=3Cbr /=3E =A0 =A0 =A0in real-word applications=3Cbr /=3E =A0=
+ =A0* fixed parameter tractability and narrowness in streamed NLP=3Cbr /=
+=3E =A0 =A0* conventional/parallel algorithms using/manipulating=3Cbr /=3E=
+ =A0 =A0 =A0conventional/stochastic finite-state automata/paths=3Cbr /=3E=
+ =A0 =A0* applications of rational kernels to active/statistical machine=
+=3Cbr /=3E =A0 =A0 =A0learning of finite-state models=2E=3Cbr /=3E=3Cbr =
+/=3ESPECIAL THEME=3Cbr /=3E=3Cbr /=3EIn recognition of its location on t=
+he African continent=2C this year=27s=3Cbr /=3EFSMNLP has Finite-State M=
+ethods for Under-Resourced Languages as a=3Cbr /=3Especial theme=2E The =
+theme is relevant to finite-state methods=3Cbr /=3E=3Cbr /=3E=A0- applie=
+d to practical tasks such as language survey=2C elicitation=2C=3Cbr /=3E=
+ =A0 data collection=2C computer-aided annotation=2C morphological=3Cbr =
+/=3E =A0 description=2C modelling and normalization=2C=3Cbr /=3E=A0- con=
+sidering demanding conditions such as linguistic complexity=3Cbr /=3E =A0=
+ and diversity=2C scarce resources=2C research infrastructures=2C real-=3C=
+br /=3E =A0 time grammar updates=2C=3Cbr /=3E=A0- in language processing=
+ fields such as comparative linguistics=2C=3Cbr /=3E =A0 field linguisti=
+cs=2C applied linguistics=2C language teaching=2C and=3Cbr /=3E =A0 comp=
+uter-aided translation=2E=3Cbr /=3E=3Cbr /=3EThe special theme does not =
+restrict the scope but attempts to draw the=3Cbr /=3Eattention of contri=
+butors to the challenges of computational=3Cbr /=3Elinguistics in Africa=
+=2E We hope that the theme teases out promising and=3Cbr /=3Euseful appl=
+ications of Finite-State Methods in this context=2E=3Cbr /=3E=3Cbr /=3E =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 SPECIAL SESSIONS=3Cbr /=3E=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3Cbr /=3E=3Cbr /=3ERELATED EVENTS=3Cbr /=3E=3Cb=
+r /=3ETo catalyze discussion and participation=2C three special sessions=
+ or=3Cbr /=3Esubworkshops will be organized=2C containing presentations =
+of regular=3Cbr /=3Epapers and extended abstracts presenting ongoing res=
+earch=2C tutorials=2C=3Cbr /=3Ecompetitions etc=2E relating to the follo=
+wing topic areas=3A=3Cbr /=3E=3Cbr /=3E1=2E =26quot=3BFinite-State Metho=
+ds for African and other Under-Resourced/=3Cbr /=3E =A0Low-Density Langu=
+ages=26quot=3B=3Cbr /=3E=3Cbr /=3EUnder-resourced/low-density languages=2C=
+ including many African=3Cbr /=3Elanguages=2C often require documentatio=
+n and language development=2C in=3Cbr /=3Eparticular including methods f=
+or field linguistics=2C localized=3Cbr /=3Einformation technology and ba=
+sic language resources=2E However=2C the=3Cbr /=3Econditions for applyin=
+g large scale statistical methods do not hold in=3Cbr /=3Egeneral=2C whi=
+le existing knowledge-based methods may not directly=3Cbr /=3Egeneralise=
+ to low-density languages=2E The purpose of this subworkshop=3Cbr /=3Eis=
+ to take a fresh look at new resources=2C methods=2C collaboration and=3C=
+br /=3Einnovative approaches for these (clusters of) languages=2E Submis=
+sions=3Cbr /=3Emay be concerned with the following aspects of the subwor=
+kshop topic=3A=3Cbr /=3E=3Cbr /=3E =A0- project proposals and joint proj=
+ects=3Cbr /=3E =A0- basic language resources=3Cbr /=3E =A0- innovative a=
+pproaches to language clusters=3Cbr /=3E =A0- field linguistics and lang=
+uage documentation=3Cbr /=3E =A0- iterative language description=3Cbr /=3E=
+ =A0- resource-efficient machine learning=2E=3Cbr /=3E=3Cbr /=3EThe loca=
+l organizers are Laurette Pretorius and Sonja Bosch=2E The=3Cbr /=3Esubw=
+orkshop is tentatively accompanied by two tutorials given by Kemal=3Cbr =
+/=3EOflazer and Colin de la Higuera (see TUTORIALS AND INVITED TALKS=3Cb=
+r /=3Ebelow)=2E=3Cbr /=3E=3Cbr /=3E2=2E =26quot=3BPractical Aspects and =
+Experience of FS Methods and Systems=26quot=3B=3Cbr /=3E=3Cbr /=3EThe la=
+st decade has seen a significant increase in the number of=3Cbr /=3Etool=
+kits and implementations of finite state systems for NLP=2E Work on=3Cbr=
+ /=3Esuch implementations has highlighted a wide variety of implementati=
+on=3Cbr /=3Eissues=2E Unfortunately much of this knowledge remains trade=
+-secret or=3Cbr /=3Eis only embodied in implementations themselves=2C an=
+d is not presented=3Cbr /=3Eacademically at conferences=2E This special =
+session focuses on such=3Cbr /=3Eissues and knowledge and covers the fol=
+lowing topics (as they relate=3Cbr /=3Eto NLP and real-life implementati=
+on issues)=3A=3Cbr /=3E=3Cbr /=3E =A0- user interfaces=2C visualisation=2C=
+ tracing and debugging=3Cbr /=3E =A0- specification formalisms and langu=
+ages (e=2Eg=2E grammars=2C regular=3Cbr /=3E =A0 =A0 =A0relations=2C etc=
+=2E)=3Cbr /=3E =A0- application programmer interfaces=2C interchange for=
+mats=3Cbr /=3E =A0- performance=2C profiling and tuning techniques=3Cbr =
+/=3E =A0- classification=2C comparison and evaluation=3Cbr /=3E =A0- dat=
+a-structures and representations=3Cbr /=3E =A0- compression of alphabets=
+=2C lexicons and rules=3Cbr /=3E=3Cbr /=3E3=2E =26quot=3BTree Automata a=
+nd Transducers=26quot=3B=3Cbr /=3E=3Cbr /=3EIn recent years=2C applicati=
+ons of formal tree language theory in=3Cbr /=3Enatural language processi=
+ng have been on the rise=2C as witnessed by=3Cbr /=3Epapers at conferenc=
+es and in journals on formal language theory=2C=3Cbr /=3Efinite automata=
+=2C natural language processing=2C and computational=3Cbr /=3Elinguistic=
+s=2E FSMNLP 2009 will therefore have a special session/=3Cbr /=3Esubwork=
+shop on tree automata and tree transducers in natural=3Cbr /=3Elanguage =
+processing=2E=3Cbr /=3E=3Cbr /=3EThis subworkshop includes (but is not l=
+imited to) the following topics=3Cbr /=3Eas long as they relate to natur=
+al language processing=3A=3Cbr /=3E=3Cbr /=3E =A0- unweighted and weight=
+ed tree languages=2C=3Cbr /=3E =A0- unweighted and weighted tree transfo=
+rmations=2C=3Cbr /=3E =A0- the formalisms to represent and model them (i=
+ncluding a=2Eo=2E tree=3Cbr /=3E =A0 =A0 =A0grammars=2C tree automata=2C=
+ tree expressions=2C tree transducers)=2C=3Cbr /=3E =A0- expressiveness =
+of such models and representations=2C=3Cbr /=3E =A0- relations to synchr=
+onous grammars=2C=3Cbr /=3E =A0- learning of such models and representat=
+ions=2C=3Cbr /=3E =A0- algorithms for pattern matching=2C accepting=2C p=
+arsing of tree=3Cbr /=3E =A0 =A0 =A0languages=2C and=3Cbr /=3E =A0- larg=
+e-scale applications (including those in statistical machine=3Cbr /=3E =A0=
+ =A0 =A0translation)=2E=3Cbr /=3E=3Cbr /=3EFor each of the three subwork=
+shops=2C a subcommittee of the PC supported=3Cbr /=3Eby further experts =
+from the field is responsible for the program=2E=3Cbr /=3EPlease refer t=
+o the FSMNLP website for the lists of subcommittee=3Cbr /=3Emembers and =
+further experts=2E=3Cbr /=3E=3Cbr /=3ETUTORIALS AND INVITED TALKS=3Cbr /=
+=3E=3Cbr /=3EWe expect to have tutorials on the following tentative topi=
+cs=3A=3Cbr /=3E=3Cbr /=3E=A0- =26quot=3BDeveloping Computational Morphol=
+ogy for Low- and Middle-Density=3Cbr /=3E =A0 =A0 Languages=26quot=3B by=
+ Kemal Oflazer (Sabanci University=2C Turkey)=3Cbr /=3E=A0- =26quot=3BMa=
+chine Learning with Automata=26quot=3B by Colin de la Higuera=3Cbr /=3E =
+=A0 =A0 (Jean Monnet University=2C Saint-Etienne=2C France)=3Cbr /=3E=A0=
+- =26quot=3BOpenFST=26quot=3B by Johan Schalkwyk (Google=2C USA)=3Cbr /=3E=
+=3Cbr /=3EThe INVITED SPEAKERS will be announced soon=2E=3Cbr /=3E=3Cbr =
+/=3ECOMPETITIONS=3Cbr /=3E=3Cbr /=3EDuring FSMNLP 2009=2C we hope to ann=
+ounce a small competition / shared=3Cbr /=3Etask related to machine lear=
+ning of morphology=2E=3Cbr /=3E=3Cbr /=3EBUSINESS MEETING=3Cbr /=3E=3Cbr=
+ /=3EFSMNLP will tentatively have a slot for a SIGFSM business meeting=2E=
+=3Cbr /=3ESIGFSM is currently in the final stages of formal approval as =
+a=3Cbr /=3ESpecial Interest Group in the Association for Computational=3C=
+br /=3ELinguistics (ACL)=2E=3Cbr /=3E=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 SUBMISSION=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3Cbr /=3E=3Cbr /=3EP=
+APER CATEGORIES AND FORMATS=3Cbr /=3E=3Cbr /=3EWe invite submissions of =
+full papers i=2Ee=2E scientific=3Cbr /=3Econtributions presenting new th=
+eoretical or experimental=3Cbr /=3Eresults=2E Papers should present orig=
+inal=2C unpublished research results=3Cbr /=3Eand should not be submitte=
+d elsewhere simultaneously=2E=3Cbr /=3E=3Cbr /=3EWe also invite submissi=
+on of extended abstracts containing or=3Cbr /=3Edescribing systems descr=
+iptions/demos=2C progress reports/ongoing work=2C=3Cbr /=3Ejoint project=
+s/project proposals=2C small focused contributions=2C=3Cbr /=3Enegative =
+results=2C and opinion pieces=2C related to either of the=3Cbr /=3Esubwo=
+rkshop themes or the broader FSMNLP themes=2E=3Cbr /=3E=3Cbr /=3EWe part=
+icularly invite demo submissions=2C which should consist of an=3Cbr /=3E=
+extended abstract of the technical content with authors (!)=2C full=3Cbr=
+ /=3Econtact information=2C references=2C acknowledgements=2C plus a =26=
+quot=3Bscript=3Cbr /=3Eoutline=26quot=3B of the presentation and a detai=
+led description of hardware=2C=3Cbr /=3Esoftware and internet requiremen=
+ts=2E=3Cbr /=3E=3Cbr /=3ENote that the early acceptance notification dat=
+e for full papers may=3Cbr /=3Ehelp to keep travel costs for internation=
+al participants reasonably=3Cbr /=3Elow=2E If you come from far away and=
+ have only an extended abstract=2C the=3Cbr /=3Eabstract can be submitte=
+d earlier as if it were a full paper=2E=3Cbr /=3E=3Cbr /=3EThe informati=
+on about the author(s) should be omitted in the submitted=3Cbr /=3Epaper=
+s since the review process wil be double blind=2C except for demo=3Cbr /=
+=3Esubmissions=2E Submissions are electronic and in PDF format via a=3Cb=
+r /=3Eweb-based submission server=2E=3Cbr /=3E=3Cbr /=3EAuthors are enco=
+uraged to use Springer LNCS style (Proceedings and=3Cbr /=3EOther Multia=
+uthor Volumes) for LaTeX in producing the PDF=3Cbr /=3Edocument=2E For g=
+raph visualization=2C Vaucanson-G LaTeX style=2C=3Cbr /=3EGraphviz/dot a=
+nd XFig are recommended=2E If you use a non-roman script=3Cbr /=3Eor Mic=
+rosoft Word=2C it is advisable to warn the organizers as early as=3Cbr /=
+=3Epossible=2E The page limit is 12 pages for full papers and 8 pages fo=
+r=3Cbr /=3Eextended abstracts=2E=3Cbr /=3E=3Cbr /=3EPROCEEDINGS AND SPEC=
+IAL JOURNAL ISSUE=3Cbr /=3E=3Cbr /=3EThe on-site proceedings will be on =
+CD=2E=3Cbr /=3E=3Cbr /=3EThe actual proceedings with revised regular pap=
+ers will be published=3Cbr /=3Eafter the conference in a volume of Lectu=
+re Notes in Artificial=3Cbr /=3EIntelligence as a part of the LNCS Serie=
+s by Springer-Verlag=2E=3Cbr /=3E=3Cbr /=3EHigh quality extended abstrac=
+ts may be invited to be included in the=3Cbr /=3ELNCS postproceedings=2C=
+ while other extended abstracts may be=3Cbr /=3Epublished as arranged by=
+ subworkshop organizers=2E=3Cbr /=3E=3Cbr /=3EIn addition=2C a special j=
+ournal issue on Finite-State Methods and=3Cbr /=3EModels in NLP is being=
+ planned=2E Extended versions of the papers and=3Cbr /=3Eabstracts may b=
+e submitted to this special issue (the publication=3Cbr /=3Einvolves a s=
+econd review/selection cycle)=2E=3Cbr /=3E=3Cbr /=3E =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 IMPORTANT DATES=3Cbr /=3E =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3Cbr /=3E=3Cbr /=3EFull paper submissions due=3A 13 April 2009 **CHANGE=
+D**=3Cbr /=3ENotification of acceptance for full papers=3A 12 May 2009=3C=
+br /=3E=3Cbr /=3EExtended abstract submissions due=3A 17 May 2009=3Cbr /=
+=3ENotification of acceptance for extended abstracts=3A 14 June 2009=3Cb=
+r /=3E=3Cbr /=3EDeadline for inclusion in preproceedings=3A 28 June 2009=
+=3Cbr /=3E=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 CHA=
+IRS AND COMMITTEES=3Cbr /=3E =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3Cb=
+r /=3E=3Cbr /=3ECONFERENCE CHAIR=3Cbr /=3E=3Cbr /=3EBruce Watson (Univer=
+sity of Pretoria=2C South Africa)=3Cbr /=3E=3Cbr /=3EPROGRAM COMMITTEE=3C=
+br /=3E=3Cbr /=3EAndras Kornai (Budapest Institute of Technology=2C Hung=
+ary and=3Cbr /=3E =A0MetaCarta=2C Cambridge=2C USA) (PC chair)=3Cbr /=3E=
+Jacques Sakarovitch (Ecole nationale sup=E9rieure des=3Cbr /=3E =A0T=E9l=
+=E9communications=2C Paris=2C France) (PC chair)=3Cbr /=3EAnssi Yli-Jyr=E4=
+ (University of Helsinki) (PC chair)=3Cbr /=3E=3Cbr /=3ECyril Allauzen (=
+Google Research=2C New York=2C USA)=3Cbr /=3ESonja Bosch (University of =
+South Africa=2C South Africa)=3Cbr /=3EFrancisco Casacuberta (Instituto =
+Tecnologico De Inform=E1tica=2C=3Cbr /=3E =A0Valencia=2C Spain)=3Cbr /=3E=
+Damir Cavar (University of Zadar=2C Croatia)=3Cbr /=3EJean-Marc Champarn=
+aud (Universit=E9 de Rouen=2C France)=3Cbr /=3ELoek Cleophas (University=
+ of Pretoria=2C South Africa)=3Cbr /=3EMaxime Crochemore (King=27s Colle=
+ge London=2C UK)=3Cbr /=3EJan Daciuk (Gda=F1sk University of Technology=2C=
+ Poland)=3Cbr /=3EFrank Drewes (Umea University=2C Sweden)=3Cbr /=3EDafy=
+dd Gibbon (University of Bielefeld=2C Germany)=3Cbr /=3EJohn Goldsmith (=
+University of Chicago=2C USA)=3Cbr /=3EKarin Haenelt (Fraunhofer Gesells=
+chaft and University of=3Cbr /=3E =A0Heidelberg=2C Germany)=3Cbr /=3ETho=
+mas Hanneforth (University of Potsdam=2C Germany)=3Cbr /=3EColin de la H=
+iguera (Jean Monnet University=2C=3Cbr /=3E =A0Saint-Etienne=2C France)=3C=
+br /=3EJohanna H=F6gberg (Umea University=2C Sweden)=3Cbr /=3EArvi Hursk=
+ainen (University of Helsinki=2C Finland)=3Cbr /=3ELauri Karttunen (Palo=
+ Alto Research Center and=3Cbr /=3E =A0Stanford University=2C USA)=3Cbr =
+/=3EAndr=E9 Kempe (Yahoo Search Technologies=2C Paris=2C France)=3Cbr /=3E=
+Kevin Knight (University of Southern California=2C USA)=3Cbr /=3EDerrick=
+ Kourie (University of Pretoria=2C South Africa)=3Cbr /=3EMarcus Kracht =
+(University of California=2C Los Angeles=2C USA)=3Cbr /=3EHans-Ulrich Kr=
+ieger (DFKI GmbH=2C Saarbr=FCcken=2C Germany)=3Cbr /=3EEric Laporte (Uni=
+versit=E9 de Marne-la-Vall=E9e=2C France)=3Cbr /=3EAndreas Maletti (Univ=
+ersitat Rovira i Virgili=2C Spain)=3Cbr /=3EMichael Maxwell (University =
+of Maryland=2C USA)=3Cbr /=3EStoyan Mihov (Bulgarian Academy of Sciences=
+=2C Sofia=2C Bulgaria)=3Cbr /=3EKemal Oflazer (Sabanci University=2C Tur=
+key)=3Cbr /=3EJakub Piskorski (Polish Academy of Sciences=2C Warsaw=2C P=
+oland)=3Cbr /=3ELaurette Pretorius (University of South Africa=2C South =
+Africa)=3Cbr /=3EMichael Riley (Google Research=2C New York=2C USA)=3Cbr=
+ /=3EStrahil Ristov (Ruder Boskovic Institute=2C Zagreb=2C Croatia)=3Cbr=
+ /=3EJames Rogers (Earlham College=2C USA)=3Cbr /=3EMax Silberztein (Uni=
+versit=E9 de Franche-Comt=E9=2C France)=3Cbr /=3EBruce Watson (Universit=
+y of Pretoria=2C South Africa)=3Cbr /=3ESheng Yu (University of Western =
+Ontario=2C Canada)=3Cbr /=3EMenno van Zaanen (Tilburg University=2C the =
+Netherlands)=3Cbr /=3ELynette van Zijl (Stellenbosch University=2C South=
+ Africa)=3Cbr /=3E=3Cbr /=3EORGANIZING COMMITTEE=3Cbr /=3E=3Cbr /=3ELoek=
+ Cleophas (University of Pretoria) (OC chair)=3Cbr /=3EDerrick Kourie (U=
+niversity of Pretoria)=3Cbr /=3EJakub Piskorski (Polish Academy of Scien=
+ces=2C Warsaw=2C Poland)=3Cbr /=3EBruce Watson (University of Pretoria)=3C=
+br /=3EAnssi Yli-Jyr=E4 (University of Helsinki)=3Cbr /=3E=3Cbr /=3E=3Cb=
+r /=3E=3Cbr /=3E=3C/div=3E
+
+--Boundary_(ID_nJT6lpSkTB+r/+cLzCmYmQ)--
+
+
+--===============0650351656==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============0650351656==--
+

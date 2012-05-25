@@ -1,0 +1,176 @@
+From - Thu Dec 10 14:30:53 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs123512waa;
+        Fri, 28 Mar 2008 00:09:20 -0700 (PDT)
+Received: by 10.101.70.15 with SMTP id x15mr4469126ank.109.1206688157793;
+        Fri, 28 Mar 2008 00:09:17 -0700 (PDT)
+Return-Path: <blueteamaxamster@gmail.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id q26si3001563ele.0.2008.03.28.00.09.15;
+        Fri, 28 Mar 2008 00:09:17 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of blueteamaxamster@gmail.com) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of blueteamaxamster@gmail.com) smtp.mail=blueteamaxamster@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m2S79DR7016572
+	for <jpprost@gmail.com>; Fri, 28 Mar 2008 18:09:14 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id m2S79DTX017569
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 28 Mar 2008 18:09:13 +1100 (EST)
+X-ASG-Debug-ID: 1206688151-2d3001750000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id A34DE1823D72
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 28 Mar 2008 18:09:11 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id Sfh14FWMwGJMrrUw for <jpprost@mailbox.ics.mq.edu.au>; Fri, 28 Mar 2008 18:09:11 +1100 (EST)
+Received-SPF: neutral (barra2.its.mq.edu.au: domain of blueteamaxamster@gmail.com is neutral about designating 137.111.216.16 as permitted sender)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m2S79AJ4016567
+	for <jpprost@ics.mq.edu.au>; Fri, 28 Mar 2008 18:09:10 +1100 (EST)
+Received: from hs-out-0708.google.com (hs-out-0708.google.com [64.233.178.243])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id m2S799X27380
+	for <jpprost@ics.mq.edu.au>; Fri, 28 Mar 2008 18:09:09 +1100 (EST)
+Received: by hs-out-0708.google.com with SMTP id 4so113318hsl.1
+        for <jpprost@ics.mq.edu.au>; Fri, 28 Mar 2008 00:09:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=beta;
+        h=domainkey-signature:received:received:message-id:date:from:to:subject:mime-version:content-type;
+        bh=1X3euQHwmPH973bTYdp56EMKCPWAr7/zL7aDEFbOvVY=;
+        b=J0zR9TLCUt1jfCIPDL8r0HQAkKUWKVXsOqTnuguPCbcL32lY/jiIHYW8gVTme9BcSOcrTeUXizhpJ5LL7usMVTC4p8sNalXAUqUnueLVwMBmeK4mr8HD0f487yN7Oz8RUAW5kWf1PfAE3xMEpkmEIYukwMEtavJpQFbTpXbSZ8U=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=beta;
+        h=message-id:date:from:to:subject:mime-version:content-type;
+        b=DKlXM9SYwKwXbIeOjELHKYwl+tmigt6AVNAyVlGpSN65Ipvjnppb6zOnkF9MyR3WWeoChoZE7Gu1+1wJhXIdTnxMtzo1DOixhxK71+SgRZmKM2qdBRK2quvEwao4C6pde3MGs/q4s1liMjJZ9T+9oOOh3HsUDr2IcqNBrgUowTU=
+Received: by 10.100.241.17 with SMTP id o17mr5865773anh.30.1206688143580;
+        Fri, 28 Mar 2008 00:09:03 -0700 (PDT)
+Received: by 10.100.58.16 with HTTP; Fri, 28 Mar 2008 00:09:03 -0700 (PDT)
+Message-ID: <ce666e990803280009g608fa00w6ecdc05e717b872f@mail.gmail.com>
+Date: Fri, 28 Mar 2008 15:09:03 +0800
+From: "nan gs" <blueteamaxamster@gmail.com>
+To: jp.dispas@ulg.ac.be
+X-ASG-Orig-Subj: Extended Deadline 10 April; ICNC'08-FSKD'08: Jinan, China
+Subject: Extended Deadline 10 April; ICNC'08-FSKD'08: Jinan, China
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_49259_17194379.1206688143566"
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1206688152
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.28
+X-Barracuda-Spam-Status: No, SCORE=0.28 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=HTML_MESSAGE, MAILTO_TO_SPAM_ADDR
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.46121
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.28 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+------=_Part_49259_17194379.1206688143566
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+Dear Colleague,
+
+Due to numerous requests, the submission deadline is now extended to
+10 April. We would appreciate your forwarding this announcement to
+those who may be interested.
+
+If you wish to unsubscribe, in which case we apologize, please email
+icnc.fskd.2@gmail.com with "unsubscribe" in your email subject.
+If you receive it more than once or from a different email address,
+kindly copy-and-paste in the email body all email addresses at which
+you received this announcement.
+
+Thank you,
+
+Organizing Committee
+
+----------------------------------------------------------------------
+  The 4th International Conference on Natural Computation (ICNC'08)
+      The 5th International Conference on Fuzzy Systems and
+                     Knowledge Discovery (FSKD'08)
+----------------------------------------------------------------------
+
+                25-27 August 2008, Jinan, China
+
+       *** Extended Submission Deadline: 10 April 2008 ***
+
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              http://www.icnc-fskd2008.sdu.edu.cn
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+          Call for Papers, Invited Sessions & Sponsorship
+
+The joint ICNC'08-FSKD'08 will be held in Jinan, China. Jinan is the
+capital of Shandong Province, which is known for the home of Confucius,
+the Taishan Mountain, and the Baotu Spring.
+
+ICNC'08-FSKD'08 aims to provide an international forum for scientists
+and researchers to present the state of the art of intelligent methods
+inspired from nature, including biological, ecological, and physical
+systems, with applications to data mining, manufacturing, design, and
+more. It is an exciting and emerging interdisciplinary area in which a
+wide range of techniques and methods are being studied for dealing with
+large, complex, and dynamic problems.
+
+Previously, the joint conferences in 2005, 2006 and 2007 each attracted
+over 3000 submissions from more than 30 countries.
+
+All accepted papers will appear in conference proceedings published by
+the IEEE and will be indexed by both EI and ISTP. Furthermore, extended
+versions of selected papers will be published in a special issue of
+Soft Computing: An International Journal (SCI indexed).
+
+To promote international participation of researchers from outside the
+country/region where the conference is held (i.e., China), foreign
+experts are encouraged to propose invited sessions.  Each invited
+session should have at least 4 papers. Invited session organizers will
+solicit submissions, conduct reviews and recommend accept/reject
+decisions on the submitted papers. All invited session organizers will
+be acknowledged in the conference proceedings. Each invited session
+proposal should include the following information: (1) the name(s) and
+contact information of invited session organizer(s); (2) the title and
+a short synopsis of the invited session. Please send your proposal to
+nc2008@sdu.edu.cn
+
+For more information, visit the conference web page. If you have any
+questions after visiting the conference web page, please email the
+secretariat at nc2008@sdu.edu.cn
+
+Join us at this major event in historic Jinan !!!
+
+------=_Part_49259_17194379.1206688143566
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+<p>Dear Colleague,</p>
+<p>Due to numerous requests, the submission deadline is now extended to <br>10 April. We would appreciate your forwarding this announcement to <br>those who may be interested. </p>
+<p>If you wish to unsubscribe, in which case we apologize, please email <br><a href="mailto:icnc.fskd.2@gmail.com">icnc.fskd.2@gmail.com</a> with &quot;unsubscribe&quot; in your email subject. <br>If you receive it more than once or from a different email address, <br>
+kindly copy-and-paste in the email body all email addresses at which <br>you received this announcement.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p>Thank you,</p>
+<p>Organizing Committee</p>
+<p>----------------------------------------------------------------------<br>&nbsp; The 4th International Conference on Natural Computation (ICNC&#39;08)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The 5th International Conference on Fuzzy Systems and<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Knowledge Discovery (FSKD&#39;08)<br>
+----------------------------------------------------------------------</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25-27 August 2008, Jinan, China</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *** Extended Submission Deadline: 10 April 2008 ***</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.icnc-fskd2008.sdu.edu.cn/">http://www.icnc-fskd2008.sdu.edu.cn</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Call for Papers, Invited Sessions &amp; Sponsorship</p>
+<p>The joint ICNC&#39;08-FSKD&#39;08 will be held in Jinan, China. Jinan is the <br>capital of Shandong Province, which is known for the home of Confucius, <br>the Taishan Mountain, and the Baotu Spring. </p>
+<p>ICNC&#39;08-FSKD&#39;08 aims to provide an international forum for scientists <br>and researchers to present the state of the art of intelligent methods <br>inspired from nature, including biological, ecological, and physical <br>
+systems, with applications to data mining, manufacturing, design, and <br>more. It is an exciting and emerging interdisciplinary area in which a <br>wide range of techniques and methods are being studied for dealing with <br>
+large, complex, and dynamic problems. </p>
+<p>Previously, the joint conferences in 2005, 2006 and 2007 each attracted <br>over 3000 submissions from more than 30 countries.</p>
+<p>All accepted papers will appear in conference proceedings published by <br>the IEEE and will be indexed by both EI and ISTP. Furthermore, extended<br>versions of selected papers will be published in a special issue of <br>
+Soft Computing: An International Journal (SCI indexed).</p>
+<p>To promote international participation of researchers from outside the <br>country/region where the conference is held (i.e., China), foreign <br>experts are encouraged to propose invited sessions.&nbsp; Each invited <br>session should have at least 4 papers. Invited session organizers will <br>
+solicit submissions, conduct reviews and recommend accept/reject <br>decisions on the submitted papers. All invited session organizers will <br>be acknowledged in the conference proceedings. Each invited session <br>proposal should include the following information: (1) the name(s) and <br>
+contact information of invited session organizer(s); (2) the title and <br>a short synopsis of the invited session. Please send your proposal to <br><a href="mailto:nc2008@sdu.edu.cn">nc2008@sdu.edu.cn</a></p>
+<p>For more information, visit the conference web page. If you have any<br>questions after visiting the conference web page, please email the<br>secretariat at <a href="mailto:nc2008@sdu.edu.cn">nc2008@sdu.edu.cn</a></p>
+
+<p>Join us at this major event in historic Jinan !!!</p>
+<p><br>&nbsp;</p>
+
+------=_Part_49259_17194379.1206688143566--

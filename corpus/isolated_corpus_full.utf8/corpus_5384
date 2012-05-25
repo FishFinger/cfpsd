@@ -1,0 +1,823 @@
+From - Thu Dec 10 14:37:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs407155faq;
+        Wed, 3 Jun 2009 01:41:10 -0700 (PDT)
+Received: by 10.210.42.13 with SMTP id p13mr6218840ebp.70.1244018466944;
+        Wed, 03 Jun 2009 01:41:06 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 1si10512067ewy.29.2009.06.03.01.41.05;
+        Wed, 03 Jun 2009 01:41:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id D367F212FC; Wed,  3 Jun 2009 10:40:32 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id DB3E820F70;
+	Wed,  3 Jun 2009 10:38:12 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 50B403D43;
+	Wed,  3 Jun 2009 10:38:12 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yC+94Nqgbj2f; Wed,  3 Jun 2009 10:38:12 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 172C53D47;
+	Wed,  3 Jun 2009 10:37:55 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E617E3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  3 Jun 2009 04:08:24 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id qI0EfUSsgToC for <elsnet-list@mailman.elsnet.org>;
+	Wed,  3 Jun 2009 04:08:24 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BA1303D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  3 Jun 2009 04:08:04 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4483C1FB82; Wed,  3 Jun 2009 04:08:04 +0200 (MEST)
+X-Greylist: delayed 2306 seconds by postgrey-1.28 at newjura;
+	Wed, 03 Jun 2009 04:07:57 MEST
+Received: from mail155c8.megamailservers.com
+	(mail155c8.carrierinternetsolutions.com [209.235.129.65])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8B4FF1EA78;
+	Wed,  3 Jun 2009 04:07:57 +0200 (MEST)
+X-Authenticated-User: tjschneider.covad.net
+Received: from [127.0.0.1] (h-69-3-7-132-static.mclnva23.covad.net
+	[69.3.7.132] (may be forged)) (authenticated bits=0)
+	by mail155c8.megamailservers.com (8.13.6/8.13.1) with ESMTP id
+	n531OStF002089; Tue, 2 Jun 2009 21:25:02 -0400
+Message-ID: <4A25D0CC.5090804@covad.net>
+Date: Tue, 02 Jun 2009 21:24:28 -0400
+From: iswc2009publicity <iswc2009publicity@covad.net>
+User-Agent: Thunderbird 1.5.0.7 (Windows/20060909)
+MIME-Version: 1.0
+To: abse@yahoogroups.com, acl@opus.cs.columbia.edu, agentcities@fipa.org,
+	agents@CS.UMBC.EDU, aiia@dis.uniroma1.it, AI-SGES@jiscmail.ac.uk,
+	ankuendigungen-gimod@liste.es.e-technik.tu-darmstadt.de,
+	announce@aosd.net, bull-i3@irit.fr, chat@fipa.org, colibri@let.uu.nl,
+	colognet@ucy.ac.cy, community@mlnet.org,
+	computerbookauthors@yahoogroups.com, conferences@computer.org,
+	CORPORA@HD.UIB.NO, CSCW-ALL@jiscmail.ac.uk, dai-list@ece.sc.edu,
+	dbitaly@dia.uniroma3.it, dbworld@cs.wisc.edu,
+	digicult-forum@digicult.info, diglib@infoserv.inist.fr,
+	discussion@agentcities.org, dl@dl.kr.org, dolce@yahoogroups.com,
+	dotkom-project@dcs.shef.ac.uk, ecoop-info@ecoop.org,
+	editor@agentlink.org, editor@knowledgeboard.com,
+	elsnet-list@elsnet.org, elsnet-list@let.uu.nl, entr-egovo@cec.eu.int,
+	event@in.tu-clausthal.de, events_calendar@acm.org,
+	fgcscw@uni-koblenz.de, sw-ergo@gui-design.de,
+	fg-db@informatik.uni-rostock.de, fgwm@uni-trier.de, fom@cs.nyu.edu,
+	glp@first.fhg.de, gwa@lists.ut.ee, humanist@Princeton.EDU,
+	ifla-l@infoserv.inist.fr, info@openegovernment.org,
+	irlist-editor@acm.org, irlist-editor@sigir.org,
+	ISWORLD@listserv.heanet.ie, isworld@lyris.isworld.org,
+	kaw@swi.psy.uva.nl, kweb-all@lists.deri.org, linguist@linguistlist.org, 
+	mailings@iwv.jku.at, ontolog-forum@ontolog.cim3.net,
+	ontology@buffalo.edu, ontology@fipa.org, ontoquery@ruc.dk,
+	ontoweb-list@lists.deri.org, ontoweb-lt-info@dfki.de
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Mailman-Approved-At: Wed, 03 Jun 2009 10:37:46 +0200
+Cc: 
+Subject: [Elsnet-list] ISWC 2009: 2nd Call for Papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+The 8th International Semantic Web Conference (ISWC) will be held 25 - 29
+October, 2009, in Fairfax, Virginia, U.S. Invited speakers include Patrick
+Hayes, Institute for Human and Machine Cognition, Nova Spivack, Radar Networks
+and Tom Mitchell, Carnegie-Mellon University.
+
+ISWC is the major international forum where the latest research results and
+technical innovations on all aspects of the Semantic Web are presented.
+
+As the Semantic Web is rapidly entering the mainstream, ISWC 2009 will pay
+particular attention to showcasing scalable and usable solutions, which bring
+semantic technologies to web users in authentic application settings.
+
+The tracks for ISWC 2009 include Research, Semantic Web in Use, Posters &
+Demonstrations, Industry, Doctorial Consortium, and Tutorials (Workshops is now
+closed). Calls for each of these tracks is below.
+
+The International Semantic Web Conference (IS WC) series is organized and
+managed by the Semantic Web Science Association (SWSA ).
+
+See http://iswc2009.semanticweb.org/ for full ISWC 20009 for conference details
+and http://iswc2009.semanticweb.org/wiki/index.php/ISWC_2009_Calls for specifics
+on calls for papers.
+
+===========================================
+ISWC 2009 Research Track -- Call for Papers
+===========================================
+The most important information first
+------------------------------------
+Deadlines:
+   - Abstracts: Monday, June  8, 23:59 (11:59pm) Hawaii time
+   - Papers:    Sunday, June 21, 23:59 (11:59pm) Hawaii time
+
+Detailed submission information is now available at:
+   http://iswc2009.semanticweb.org/wiki/index.php/Submission_instructions
+
+The submission system is now open at
+   https://precisionconference.com/~semantic/ .
+Please read the submission instructions before submitting a paper.
+
+General Information
+===================
+The web continues to grow and increasing amounts of data are available
+for human and machine consumption, processing, and re-dissemination. As
+Semantic Web technologies (including linked data approaches) mature and
+become usable by end-users we can expect to encounter new technologies,
+modes of interactions, and applications that enable us to "surf" this
+web of data. These new approaches give rise to new challenges - both
+from a technical and human-computer interaction perspective.
+
+The goal of the research track at ISWC is to bring together researchers,
+practitioners, and users from the areas of artificial intelligence,
+databases, social networks, distributed computing, web engineering,
+information systems, natural language processing, soft computing, and
+human-computer interaction to discuss the biggest challenges and
+proposed solutions. It solicits the submission of original, principled
+research papers dealing with both analytical theoretical, empirical, and
+practical aspects of all areas of Semantic Web research. Papers to the
+research track are expected to clearly present their contribution and
+provide some well-principled means of evaluation. We especially
+encourage papers that ensure the repeatability of their experiments and
+share with the community their data and test harnesses.
+
+General Information
+====================
+ISWC 2009 calls for papers for its research track. The research track
+solicits the submission of original, principled research papers dealing
+with both analytical theoretical, empirical, and practical aspects of
+all areas of Semantic Web research. Papers to the research track are
+expected to clearly present their contribution and provide some
+well-principled means of evaluation. We especially encourage papers that
+ensure the repeatability of their experiments, and share with the
+community their data and test harnesses.
+
+Topics of interest include, but are not limited to:
+   -  User Interfaces
+     -  Interacting with Semantic Web data
+     -  Semantic Web content creation and annotation
+     -  Mashing up Semantic Web data and processes
+     -  Novel interaction paradigms aimed at linked data
+     -  Semantic web applications to Web-2.0 sites
+     -  Natural Language Interfaces
+     -  Information Visualization
+   -  Data Semantics and Ontologies
+     -  Beyond Description Logic: New formalisms for semantics
+        (such as probabilistic approaches)
+     -  Lightweight semantics (linked data, microformats, etc).
+     -  Ontology modeling, reuse, extraction, and evolution
+     -  Ontology mapping, merging, and alignment
+     -  Searching and ranking ontologies
+     -  Ontology evaluation
+   -  Applications of the Semantic Web
+     -  Applications with clear lessons learned or evaluations
+     -  Semantic Web for large scale applications, desktops or
+        personal information management
+     -  Semantic Web technologies for multimedia, sensors, and
+        situational awareness
+     -  Semantic Web technologies for P2P, services, agents,
+        grids and middleware
+     -  Semantic Web technologies for software and systems engineering
+     -  eGovernment
+     -  Mobile Semantic Web
+     -  Semantic Web technologies for life sciences and healthcare
+   -  Management of Semantic Web Data
+     -  Languages, tools and methodologies for representing and managing
+        Semantic Web data
+     -  Database, IR and AI technologies for the Semantic Web
+     -  Search, query, integration, and analysis on the Semantic Web
+     -  Robust and scalable knowledge management and reasoning on the Web
+     -  Machine learning and information extraction for the Semantic Web
+     -  Cleaning, assurance, trust, provenance of Semantic Web data,
+        services and processes
+     -  Principles & Applications of very large semantic data bases
+     -  Semantic Wikis
+   -  Social Semantic Web
+     -  Social networks and processes on the Semantic Web
+     -  Semantic Web technologies for collaboration and cooperation
+     -  Representing and reasoning about trust, privacy, and security
+
+General questions can be sent to iswc2009 <you know what symbol> semanticweb.org
+
+Evaluation of Submitted Research Papers
+=======================================
+ISWC is a highly attractive and competitive conference series. From all
+previous ISWC conferences, we have seen researchers and practitioners
+making best use of the methods and technologies reported at the event
+for their own research and practice. We are very eager to maintain this
+high level of impact achieved by ISWC papers in the future. For this
+purpose, all papers will be critically reviewed by 3 reviewers and one
+vice chair.
+
+To assess papers, reviewers will judge originality of papers,
+significance for further research and/or practice related to the
+Semantic Web, technical soundness of the proposed approaches and
+readability of the submitted papers.
+
+Specific weight will be given to the evaluation of the approaches
+described in the papers. We strongly encourage evaluations that are
+repeatable. Depending on the type of the paper and the proposed approach
+indications for repeatability may vary. For instance, theoretical papers
+may want to upload full proofs of theorems (as supplementary data),
+empirical work may want to upload training/test data, experimental
+results, or supporting movies (as supplementary data), case study work
+may link to case study journals for deeper insights, system papers may
+provide download of the software or a Web client together with full
+assessments in user studies, approaches that describe algorithms may
+want to provide the algorithm in source code and in an easy-to-install
+manner.
+
+Submission of Abstracts and Papers
+==================================
+Submissions and reviewing will be handled using the Precision Conference
+reviewing system. Pre-submission of abstracts will be a strict
+requirement. Final papers can be submitted until 21 June 2009, 23:59
+hrs, Hawaiian time. The submission platform will be opened from the
+beginning of May.
+
+Note the we made a special effort to cut all slack from the reviewing
+schedule in order to assure that we will have the newest results
+presented at the conference. We will, therefore, be unable to make any
+extensions to this submission deadline!
+
+Detailed submission instructions are available now.
+
+Format
+======
+Paper submissions must be formatted in the style of the Springer
+Publications format for Lecture Notes in Computer Science (LNCS). For
+complete details, see Springers Author Instructions
+(http://www.springer.com/computer/lncs?SGWID=0-164-2-72376-0).
+
+Formatted papers must be no longer than 16 pages. Papers that exceed
+this limit will be rejected without review.
+
+ISWC 2009 will not accept research papers that, at the time of
+submission, are under review for or have already been published in or
+accepted for publication in a journal or another conference. Authors of
+accepted papers will be required to provide semantic annotations for the
+abstract of their submission for the Semantic Web (help will be provided
+for this task) and submit a version of their paper to a special
+conference discussion system. Details will be provided on the conference
+Web page at the time of acceptance. At least one author of each accepted
+paper must register for the conference.
+
+Important Dates - Research Track
+================================
+   -  Abstracts due: Monday, June 8, 23:59 (11:59pm) Hawaii time
+   -  Submissions due: Sunday, June 21 23:59 (11:59pm) Hawaii time
+   -  Rebuttal phase: July 15 - July 20
+   -  Notification: August 4
+   -  Camera ready: To be determined
+
+Program Committee
+=================
+   -  Chairs
+     -  Abraham Bernstein, Switzerland
+     -  David Karger, USA
+
+   -  Vice Chairs
+     -  Ed Chi
+     -  Phillip Cimiano
+     -  Claudia d'Amato
+     -  Stefan Decker
+     -  Steven Drucker
+     -  Jerome Euzenat
+     -  Jennifer Golbeck
+     -  Claudio Gutierrez
+     -  Siegfired Handschuh
+     -  David Huynh
+     -  Georg Lausen
+     -  Thomas Lukasievicz
+     -  David Martin
+     -  Peter Mika
+     -  Natahsa Noy
+     -  Bijan Parsia
+     -  mc shraefel
+     -  Umberto Straccia
+     -  Heiner Stuckenschmid
+
+=====================================
+Semantic Web In Use - Call for Papers
+=====================================
+Semantic Web technologies continue to make the transition from research labs
+into mainstream adoption. The Semantic Web In Use track at ISWC 2009 provides a
+forum for the community to explore the benefits and challenges of applying
+Semantic Web technology in real-life applications and contexts, such as
+industry, science, society, government or entertainment.
+
+Submissions to the Semantic Web In Use track may employ scientific methods
+(qualitative and/or quantitative) to understand in greater detail the
+application of Semantic Web technologies, or present novel practical approaches
+that are relevant to the deployment of Semantic Web technologies but may not
+otherwise gain an outlet in the ISWC series.
+
+We therefore invite the submission of original, principled papers organized
+around some of or all of the following aspects:
+
+* Description of concrete problems in specific application domains, for which
+   Semantic Web technologies can provide a solution.
+* Description of an implemented application of Semantic Web technologies in a
+   specific domain.
+* Assessment of the pros and cons of using Semantic Web technologies to solve a
+   particular business problem or other practical problems in a specific domain.
+* Comparison with alternative or competing approaches using conventional or
+   competing technologies.
+* Learned best practices for deploying an application based on Semantic Web
+   technologies.
+* Assessment of the costs and benefits of the application of Semantic Web
+   Technologies, e.g. time and cost of implementation and deployment, integration
+   with legacy IT systems, user acceptance, returns on investment.
+* Assessment/evaluation of usage and uptake of a deployed Semantic Web
+   application.
+
+The Semantic Web In Use track is open to submissions based on a wide-range of
+hypotheses, methodologies and conclusions. However priority will be given to
+submissions that demonstrate rigor in the methodology and analysis on which
+conclusions are based.
+	Submissions/Format
+Submissions and reviewing will be handled using the EasyChair reviewing system.
+Pre-submission of abstracts is preferred but not required. Final papers can be
+submitted until 15 June 2009, 23:59 hrs, Hawaiian time. The submission platform
+will be opened from the beginning of May.
+
+Paper submissions must be formatted in the style of the Springer Publications
+format for Lecture Notes in Computer Science (LNCS). For complete details, see
+Springers Author Instructions
+(http://www.springer.com/computer/lncs?SGWID=0-164-2-72376-0). Formatted papers
+must be no longer than 16 pages. Papers that exceed this limit will be rejected
+without review.
+
+ISWC 2009 will not accept papers to the Semantic Web In Use track that, at the
+time of submission, are under review for or have already been published in or
+accepted for publication in a journal or another conference.
+
+Authors of accepted papers will be required to provide semantic annotations for
+the abstract of their submission for the Semantic Web (help will be provided for
+this task) and submit a version of their paper to a special conference
+discussion system. Details will be provided on the conference Web page at the
+time of acceptance. At least one author of each accepted paper must register for
+the conference. Authors of papers submitted to the Semantic Web In Use track
+(whether accepted or not) are encouraged to also consider submitting their work
+to the ISWC2009 Poster and Demo track, where appropriate. Please note that such
+submissions must be made separately to In Use track submissions and must adhere
+strictly to the submission requirements for Posters and Demos.
+
+Please note that metadata about all successful submissions will be included in
+the conference metadata corpus and made publicly available at
+http://data.semanticweb.org. Detailed information will be provided with the
+acceptance notification.
+
+Important Dates - Semantic Web in Use
+=====================================
+   * Submission Deadline: Monday, June 21, 2009 (23:59 Hawaii Time)
+   * Notification of Acceptance: August 4, 2009
+   * Camera-Ready Paper Deadline: August 14, 2009
+
+Program Committee
+=================
+     Chairs
+     ------
+·	Lee Feigenbaum, Cambridge Semantics, USA
+         Tom Heath, Talis, UK
+
+===============================================
+Posters and Demonstrations - Call for Proposals
+===============================================
+ISWC 2009 will hold combined poster and demonstration sessions. The Poster/Demo
+Session is an opportunity for presenting late-breaking results, ongoing research
+projects, and speculative or innovative work in progress. Posters and demos are
+intended to provide authors and participants with the ability to connect with
+each other and to engage in discussions about the work. Technical posters,
+reports on Semantic Web software systems, descriptions of completed work, and
+work in progress are all welcome. Demonstrations are intended to showcase
+innovative Semantic Web related implementations and technologies.
+
+Submissions/Format - Posters & Demonstrations
+=============================================
+Authors must submit a two-page paper with a short abstract for evaluation. The
+abstract must clearly demonstrate relevance to the Semantic Web. Submissions
+will be reviewed by members of the program committee. Decisions about acceptance
+will be based on relevance to the Semantic Web, originality, potential
+significance, topicality and clarity.
+
+A detailed list of suggested topics can be found in the calls for papers both
+for the Research Track and for the Semantic Web In Use track. Posters and demos
+are intended to convey a scientific result or work in progress and are not
+intended as advertisements for software packages.
+
+Authors submitting a full paper to another track in ISWC 2009 may also submit
+the same work for consideration in the Demo/Poster track, either before or after
+result notification for the full paper. For example, a demo can be provided for
+an accepted paper, or a poster can be used to present work that was
+insufficiently mature for the other track.
+
+For demo submissions, authors are strongly encouraged to include in their
+submission a link to where the demo (live or recorded video) can be found.
+
+At least one of the Poster/Demo authors must be a registered participant at the
+conference, and attend the Poster/Demo Session to present the work. The
+abstracts for all accepted posters and demos will be given to all conference
+attendees and published on the conference web site. They will not be included in
+the formal proceedings.
+
+Poster and demo papers must be submitted in ACM format. For complete details,
+see ACM SIG Proceedings Templates. Please remove the ACM copyright box from the
+first page of your submission. Poster/Demo papers must be submitted in PDF
+format, and no other format will be accepted. Poster/Demo papers that exceed the
+page limit could be rejected without review.
+
+Please note that metadata about all successful submissions will be included in
+the conference metadata corpus and made publicly available at
+http://data.semanticweb.org. Detailed information will be provided with the
+acceptance notification.
+
+Please submit papers at the ISWC 2009 submission page.
+
+Important Dates - Posters & Demonstrations
+==========================================
+   * August 7, 2009: Deadline for submissions
+   * August 24 , 2009: Notification of acceptance
+   * September 8, 2009: Camera ready abstracts due
+
+Time for all deadlines above will be 23:59 pm Hawaiian time (GMT-10).
+
+Further Information
+===================
+For further information and for any questions regarding the event or
+submissions, please contact the Posters and Demonstration co-chairs
+Tania Tudorache and Harith Alani.
+
+Organizing Chairs
+=================·	
+Tania Tudorache, Stanford University, USA
+Harith Alani, University of Southampton, UK
+	
+Program Committee
+=================
+   * To be announced
+
+====================================
+Industry Track  - Call for Proposals
+====================================
+ISWC 2009 is hosting an Industry Track to enable the business community to
+present products that utilize or enrich the Semantic Web.  We invite industry
+vendors to submit brief presentations for this track.  No formal accompanying
+paper is required.  We encourage product and service vendors who may or may not
+be exhibiting at ISWC 2009 to give a presentation about their products or
+services.  While such presentations can explicitly focus on vendor-branded
+products and services, we seek to allow vendors to (1) give more in-depth
+discussion about the specific aspects of Semantic Web technologies in their
+products and services; (2) explain how their products and services are helping
+transition clients into the Semantic Web; and (3) describe the innovative plans
+for their products and services that lead to greater adoption of Semantic Web
+standards and interoperability.
+
+The key dates for the Call for Presentations are close to the conference date to
+encourage vendors to include last-minute updates and innovations of general
+interest to ISWC attendees.  We want to provide a venue for companies who might
+otherwise not submit a formal paper to ISWC, but nevertheless have valuable
+insights and engineering acumen regarding various Semantic Web technologies and
+their applicability.
+
+Submissions/Format
+==================
+Authors must submit a presentation for consideration.  It is recommended that
+each submission also include an abstract of a maximum of 200 words.  Submissions
+will be reviewed by members of the program committee.  Decisions for acceptance
+will be based on relevance to the Semantic Web, technical depth and business
+applicability.  Marketing and sales material will not be considered.
+
+Submissions should be in one of the following formats:
+-----------------------------------------------------
+  * HTML
+  * PowerPoint (PPT) slides
+  * PDF slides
+  * MPEG2 or MPEG4 (Screencasts)
+
+No formal paper is required.  While it is difficult to handle the entire range
+of presentation technologies, we are willing to negotiate accommodations if one
+of the above formats is not suitable. If your technology is not listed and is
+critical to your presentation, please contact the Industry Track co-chairs.
+Presentations may be fully automated (e.g. screencasts) or narrated live during
+the conference.  Submissions should also include presentation needs (e.g.
+projector, Internet connectivity).  You may submit hyperlinks to your
+presentation (including the final presentation), but if you require Internet
+access for your presentation, please submit a backup final presentation in the
+unlikely event of connection problems.
+
+Presentations are expected to be either 20 or 50 minutes with 10 minutes for
+questions. A presentation may be mixed media (any of the above formats) and
+include demonstrations, but must adhere to the 20 or 50 minute limit.
+
+Please note that metadata about all successful submissions will be included in
+the conference metadata corpus and made publicly available at
+http://data.semanticweb.org. Detailed information will be provided with the
+acceptance notification.
+
+Please submit presentations at the ISWC 2009 submission page.
+	
+Topics
+======
+Potential topics are listed below but are not inclusive.  See the Research Track
+for additional topic areas.
+  * Ontology Management
+  * Reasoning Engines
+  * Collaboration and the Semantic Web
+  * Open Data on the Semantic Web
+  * Open Source Strategies for Semantic Web Businesses
+
+Important Dates  Industry Track
+================================
+   * August 1, 2009: Draft presentations due
+   * August 31, 2009: Notification of acceptance
+   * September 10, 2009: Final presentations due
+
+Further Information
+===================
+For further information and for any questions regarding the event or
+submissions, please contact the Industry Track co-chairs Matthew Fisher and John
+Callahan.
+
+Program Committee
+================
+   Chairs
+   ------
+     Matthew Fisher, Progeny Systems, USA
+     John Callahan, JHUAPL, USA
+
+=====================================
+Doctoral Consortium - Call for Papers
+=====================================
+Introduction
+------------
+The ISWC 2009 Doctoral Consortium will take place as part of the 8th
+International Semantic Web Conference at the Westfields Conference Center near
+Washington, DC. Alongside the plenary sessions which afford opportunity for the
+scientific exchange and presentation of high quality research in all aspects of
+the Semantic Web, this forum will allow doctoral students to present their work
+and obtain guidance from mentors as well as to meet other postgraduate students
+in the field.
+
+The goal of the Doctoral Consortium is to create an opportunity for PhD students
+to test their research ideas, present their current progress and future plans,
+and receive constructive criticism and insights related to their future work and
+career perspectives. A mentor (peer researcher and expert in the field) will be
+assigned to each student of an accepted paper, to provide individual feedback
+and advice on the paper, the focus of the work and further developments.
+
+Students who are submitting papers on specific portions of their work to the
+main conference are also invited to apply to the Doctoral Consortium. In this
+case, the short paper for the Doctoral Consortium should give an overview of the
+students dissertation research, and the paper for the main conference should
+focus on a specific piece of this work.
+
+All papers submitted to the Doctoral Consortium stream will undergo a thorough
+reviewing process with a view to providing detailed and constructive feedback.
+The best submissions will be selected for presentation at the ISWC 2009 Doctoral
+Consortium sessions. Full papers will be published in the main ISWC proceedings.
+Some papers will be accepted as posters rather than full papers, depending on
+the nature of the submission. The poster session will take place as part of the
+Doctoral Consortium.
+
+Topics
+======
+The Doctoral Consortium track of ISWC 2009 solicits submission of PhD research
+papers dealing with foundational and core issues, application domains and
+practical aspects of Semantic Web research. Topics include, but are not limited
+to:
+ Applications of the Semantic Web
+ Applications with clear lessons learned
+ Evaluations of Semantic Web technologies
+ Semantic Web for e-business, e-science, e-government, and other application
+   domains
+ Semantic Web technologies for multimedia content
+ Personal Information Management
+ Management of Semantic Web Data
+ Languages, tools and methodologies for representing and managing Semantic Web
+   data
+ Database technologies for the Semantic Web
+ Search, query, and visualization of the Semantic Web
+ Robust and scalable knowledge management and reasoning on the Web
+ Machine learning and human language technologies for the Semantic Web
+ Semantic Web content creation, annotation, and extraction
+ Ontologies
+ Ontology creation, extraction, and evolution
+ Ontology mapping, merging, and alignment
+ Evaluation and tanking of ontologies
+ Ontology search
+ Semantic Web Architecture
+ Semantic Web middleware
+ Semantic Web services
+ Agents on the Semantic Web
+ Semantics in peer-to-peer systems and grids
+ Social Semantic Web
+ Social networks and processes on the Semantic Web
+ Semantic web technology for collaboration and cooperation
+ Representing and reasoning about trust, privacy, and security
+
+Submissions/Format
+==================
+Doctoral Consortium papers should include a clear presentation of the PhD
+research direction, sound situation of the PhD research in the context of
+Semantic Web and related fields, a report on the work done so far and a plan of
+further research. They should indicate at what stage of the PhD the author is
+at. All submissions should be no longer than 8 pages, in the same format as is
+used for the main conference papers.
+
+Paper submissions must be formatted in the style of the Springer Publications
+format for Lecture Notes in Computer Science (LNCS). For complete details, see
+Springers Author Instructions.
+
+Papers must be submitted electronically through the conference submission site.
+Papers must be submitted in PDF format. Papers will not be accepted in any other
+format. ISWC 2009 will not accept research papers that, at the time of
+submission, are under review for or have already been published in or accepted
+for publication in a journal or another conference. Authors of accepted papers
+will be required to provide semantic annotations for the abstract of their
+submission for the Semantic Web (help will be provided for this task). Details
+will be provided on the conference Web page at the time of acceptance.
+
+Please note that metadata about all successful submissions will be included in
+the conference metadata corpus and made publicly available at
+http://data.semanticweb.org. Detailed information will be provided with the
+acceptance notification.
+
+Important Dates - Doctorial Consortium
+======================================
+    June 15, 2009 (11:59pm Hawaii time, GMT-10): Doctoral consortium paper
+                                                submissions due
+    July 21, 2009: Doctoral consortium paper acceptance notification
+    August 7, 2009: Doctoral consortium camera-ready papers due
+    October 24, 2009: Doctoral consortium
+    October 25-29, 2009: ISWC conference
+
+Further Information
+===================
+For further information and for any questions regarding the event or
+submissions, please contact the Doctoral Consortium Chair Diana Maynard.
+For more information about ISWC 2009, please contact the ISWC General Chair.
+
+Program Committee
+=================
+    Chair  Diana Maynard, University of Sheffield, UK
+
+
+==============================
+Tutorials - Call for Proposals
+==============================
+The Web continues to grow and new technologies, modes of interactions, and
+applications are being developed. Building on this growth, Semantic Web
+technologies aim at providing a shared semantic information space, qualitatively
+changing our experiences on the Web. As Semantic Web technologies mature and
+permeate more and more application areas, new research challenges are becoming
+apparent and some unsolved ones are becoming more acute. To foster the exchange
+of ideas and collaboration, ISWC brings together researchers in relevant
+disciplines such as artificial intelligence, databases, social networks,
+distributed computing, web engineering, information systems, natural language
+processing, and human-computer interaction.
+
+In addition to the regular research and workshop program, ISWC09 aims to
+feature a tutorial program that would address the interests of its varied
+audience: novices to the Semantic Web, representatives of government and funding
+agencies, Semantic Web practitioners that wish to learn new technologies. We
+welcome submissions of tutorial proposals on all major topics related to
+Semantic Web research, including, but not limited to those of relevance for
+ISWC09 (http://iswc2009.semanticweb.org/). We expect proposals of the following
+types of tutorials:
+
+   Tutorials providing an introduction to the Semantic Web;
+
+   Tutorials describing the application of Semantic Web technology in specific
+    domains (e.g., business intelligence, life-sciences, health care).
+    Applications to government and e-government are especially encouraged;
+
+   Tutorials presenting concrete Semantic Web technologies and trends. We
+    encourage proposals describing both established technologies that are
+    increasingly used by the community and novel, ground-breaking technologies.
+
+   Tutorials presenting techniques from other research fields that are of
+    relevance for Semantic Web research. (e.g., machine learning, NLP).
+
+Important Organizers Responsibilities
+======================================
+Organizers of accepted tutorials are responsible for preparing and maintaining a
+Web site that describes the tutorial and includes other relevant information.
+The URL of the tutorial site should be submitted to the tutorial chair by 14
+August 2009. The description should make it clear that the tutorial is open to
+all members of the ISWC community. It should also mention that all tutorial
+participants must pay the ISWC09 conference registration fee, as well as the
+tutorial fee.
+
+The tutorial organizers will also be asked to provide some metadata about their
+tutorial, conforming to the Semantic Web Conference ontology (detailed
+instructions will be provided).
+
+Organizers are also responsible for the production and distribution of all
+technical material to be used for teaching the tutorial (slides, notes,
+technical papers, etc.) except for the reproduction of hard copies of printed
+materials, which will be handled by ISWC. In the case of a hands-on tutorial
+requiring software, it is strongly recommended that the organizers provide CDs
+from which the participants can install the software needed on their computers.
+(It is not realistic to expect tutorial attendees to download the software at
+the beginning of the tutorial!)
+
+Tutorial presenters will need to submit the material for printed hand-outs to
+the tutorial organizers for pre-printing. (The deadline for this is given
+below.)
+
+The ISWC 2009 Organizing Committee will be responsible for the following:
+   Providing publicity for the tutorial as a whole on the conferences web page.
+    The ISWC 2009 page will include the tutorial abstract and provide a link to
+    the tutorials local page.
+   Providing logistic support and a meeting place for the tutorial.
+   In conjunction with the organizers, determining the tutorial date and time.
+   Production of sufficient copies of printed tutorial materials provided by the
+    tutorial organizers.
+
+Submissions/Format
+==================
+ISWC09 tutorials may be either for a full day or for a half day. Although t
+tutorials may focus entirely on theoretical aspects, we encourage organisers to
+incorporate hands-on sessions where appropriate.
+
+Tutorial proposals should not exceed 5 pages in Springer LNCS format and should
+contain the following information:
+   An abstract (200 words maximum; to be published on  the ISWC09 website);
+   A justification of the tutorial, including its relevance to this conference
+    and its relation to similar tutorials presented at other events;
+   A brief description of tutorial, including aims, overview of content,
+    presentation style, target audience, and prerequisite knowledge;
+   An indication of full- or half-day, and a draft outline of the tutorial
+    content and schedule
+   Audio-visual or technical requirements and any special room requirements;
+   For a hands-on tutorial, please briefly describe the software that will be
+    used for the hands-on activities, the planned procedure to allow the
+    participants to install the software on their computers, and any special
+    technical requirements related to these activities. Please note that any
+    software needed for hands-on activities, and download sites for the software,
+    must be provided by the tutorial presenters.
+   Information on presenters (name, affiliation, contact info, expertise,
+    experiences in teaching and in tutorial presentation). Please indicate which
+    presenter is the primary contact.
+
+Please note that metadata about all successful submissions will be included in
+the conference metadata corpus and made publicly available at
+http://data.semanticweb.org. Detailed information will be provided with the
+acceptance notification.
+
+Please submit tutorial proposals by email to Jennifer Golbeck at
+jgolbeck@umd.edu.
+
+Important Dates - Tutorials
+===========================
+    June 19, 2009: Tutorial proposals due
+    July 10, 2009: Notification of proposal acceptance
+    August 14, 2009: Deadline for receipt of URL for tutorial web page
+    September 25, 2009: Deadline for sending the tutorial notes (handouts) to
+     the tutorial chair for reproduction (PDF preferred)
+    October 25-26, 2009: Presentation of Tutorial Program
+
+Program Committee
+=================
+   Chairs
+   ------
+     o Jennifer Golbeck, University of Maryland, College Park, USA,
+                         jgolbeck@umd.edu
+     o Marta Sabou, The Open University, UK, r.m.sabou@open.ac.uk
+
+
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,549 @@
+From - Thu Dec 10 14:33:09 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs260719muh;
+        Mon, 8 Sep 2008 12:33:13 -0700 (PDT)
+Received: by 10.210.21.13 with SMTP id 13mr695468ebu.143.1220902393386;
+        Mon, 08 Sep 2008 12:33:13 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 5si5032016eyh.2.2008.09.08.12.32.42;
+        Mon, 08 Sep 2008 12:33:13 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 54E5921360; Mon,  8 Sep 2008 21:32:40 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8F46620E49;
+	Mon,  8 Sep 2008 21:28:49 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 257713E40;
+	Mon,  8 Sep 2008 21:28:30 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id DxAA9b0sH9Je; Mon,  8 Sep 2008 21:28:29 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B104F3D58;
+	Mon,  8 Sep 2008 21:28:12 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id EF17C3D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  8 Sep 2008 14:46:09 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rAn+D3R2d92F for <elsnet-list@mailman.elsnet.org>;
+	Mon,  8 Sep 2008 14:46:09 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BF85E3D08
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  8 Sep 2008 14:46:09 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id AB41D1E037; Mon,  8 Sep 2008 14:46:09 +0200 (MEST)
+X-Greylist: delayed 1696 seconds by postgrey-1.28 at newjura;
+	Mon, 08 Sep 2008 14:46:07 MEST
+Received: from smarthost.TechFak.Uni-Bielefeld.DE
+	(smarthost.piip.TechFak.Uni-Bielefeld.DE [129.70.137.17])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 909001CE16
+	for <elsnet-list@elsnet.org>; Mon,  8 Sep 2008 14:46:07 +0200 (MEST)
+Received: from Dyn-Laptop-26.TechFak.Uni-Bielefeld.DE
+	(Dyn-Laptop-26.TechFak.Uni-Bielefeld.DE [129.70.138.29])
+	(using TLSv1 with cipher AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by smarthost.TechFak.Uni-Bielefeld.DE (Postfix) with ESMTP id
+	32304484FA; Mon,  8 Sep 2008 14:17:41 +0200 (CEST)
+Message-Id: <53A6ED37-CDD0-4224-AAF4-21478A6F61D6@techfak.uni-bielefeld.de>
+From: Stefan Kopp <skopp@techfak.uni-bielefeld.de>
+To: gw2009@techfak.uni-bielefeld.de
+Mime-Version: 1.0 (Apple Message framework v926)
+Date: Mon, 8 Sep 2008 14:17:39 +0200
+References: <4BBED5D0-578C-4FED-9E16-1EF5F26D75F0@uni-bielefeld.de>
+X-Mailer: Apple Mail (2.926)
+X-Mailman-Approved-At: Mon, 08 Sep 2008 21:28:04 +0200
+Cc: 
+Subject: [Elsnet-list] Final CfP: The 8th International Gesture Workshop -
+	GW2009
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0120402881=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+
+--===============0120402881==
+Content-Type: multipart/alternative; boundary=Apple-Mail-6--96593038
+
+
+--Apple-Mail-6--96593038
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for multiple posting
+
+** FINAL CALL FOR PAPERS **
+
+GW 2009 - The 8th International Gesture Workshop
+Gesture in Embodied Communication and Human-Computer Interaction
+www.GW2009.de
+
+Feb 25-27, 2009
+ZiF - Center for Interdisciplinary Research, Bielefeld University
+
+Organisers:
+Stefan Kopp, Sociable Agents Groups, Bielefeld University
+Ipke Wachsmuth, Artificial Intelligence Group & ZiF, Bielefeld =20
+University
+
+The International Gesture Workshop is an interdisciplinary event for =20
+researchers working on gestural interaction, who want to meet and =20
+exchange their ideas and newest research. GW 2009 aims to bring =20
+together researchers from computer science, engineering, and the =20
+humanities in order to connect recent theoretical discoveries about =20
+the embodied bases of human verbal and nonverbal communication with =20
+approaches taken to developing interactive systems that exploit =20
+gesture as a means of interacting with machines. The workshop will be =20=
+
+the 8th in the Gesture Workshop series initiated in 1996.
+
+Confirmed invited speakers:
+Antonio Camurri (DIST-University of Genova)
+Asli =D6zy=FCrek (MPI Psycholinguistics & Radboud Univ. Nijmegen, Koc =20=
+
+Univ. Istanbul)
+Alex Waibel (Carnegie Mellon Univ., Univ. of Karlsruhe)
+
+
+=3D=3D=3D Scope and Topics
+Under the focus of gesture-based human-computer interaction, we invite =20=
+
+submissions of original work that addresses, but is not limited to, =20
+one or more of the following aspects:
+
+Concepts, models, architectures:
+* Theoretical aspects of gestural communication and interaction
+* Gesture and speech, gaze, or other natural modalities
+* Gesture and embodied cognition
+* Gesture and sociality
+* Gesture and multimodal dialogue
+* Gesture expressivity
+* Gesture development and learning
+* Sensori-motor aspects of gesture
+* Sign language processing
+* Gesture recognition and analysis
+* Gesture production and synthesis
+* Fusion and fission of gesture with other modalities
+* Systematic and idiosyncratic aspects of gesture
+
+Applications:
+* User issues, usability studies, application paradigms
+* Vision-based gesture recognition
+* Gesture in virtual and augmented reality
+* Gesture in embodied conversational agents
+* Gesture in mobile computing
+* Gesture in tangible and haptic interfaces
+* Gesture for gaming and entertainment
+* Gesture for audio-visual applications
+* Gesture for therapy and rehabilitation
+* Gesture for music and performing arts
+* Gesture for education
+
+=3D=3D=3D Submission Procedure and Publication
+Authors are encouraged to submit original scientific contributions to =20=
+
+GW 2009 in the form of extended abstracts of up to 2 pages. Abstract =20
+headings must include title, authors, and keywords, according to =20
+Springer formatting guidelines (see www.gw2009.de/submission.html). =20
+Upon review and acceptance by the GW 2009 PC, authors will be asked to =20=
+
+present their work either orally, as a poster, or in form of a =20
+technical demonstration (where applicable). Submitted abstracts must =20
+be in English and should, to the extent possible, use language that =20
+will be understood across disciplines i.e. avoids unnecessary jargon.
+Submissions should be sent electronically in PDF to the following e-=20
+mail address: gw2009@techfak.uni-bielefeld.de
+
+Presenting authors will be invited after the workshop to submit a full =20=
+
+paper on the topic of their talk. All papers will be peer-reviewed and =20=
+
+compiled into a high-quality publication typically published by =20
+Springer-Verlag (see www.techfak.uni-bielefeld.de/ags/wbski/GW).
+
+=3D=3D=3D Important Dates
+Submission of extended abstracts: September 12, 2008
+Notification of acceptance/rejection: October 15, 2008
+Submission of final versions of extended abstracts: November 4, 2008
+Workshop: February 25-27, 2009
+
+=3D=3D=3D=3D About the Venue
+GW 2009 will be held at the ZiF - the Center for Interdisciplinary =20
+Research at Bielefeld University. Bielefeld is located in North =20
+Germany on the flanks of the wooded hills of the Teutoburg Forest and =20=
+
+is easily reached by IC and ICE trains on the route Dortmund-Hannover. =20=
+
+The nearest airports with hourly train connections are Hannover (115 =20
+km), Dortmund-Wickede (110 km), Duesseldorf (190 km), and Frankfurt =20
+(320 km).
+
+
+The GW organizing committee
+Stefan Kopp, Ipke Wachsmuth, Kirsten Bergmann
+
+
+--Apple-Mail-6--96593038
+Content-Type: text/html;
+	charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div><div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><span class=3D"Apple-style-span" =
+style=3D"-webkit-text-stroke-width: -1; ">Apologies for multiple =
+posting</span></div></div><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: =
+0px; margin-left: 0px; font: normal normal normal 12px/normal Helvetica; =
+min-height: 14px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">** FINAL =
+CALL FOR PAPERS **</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 12px/normal Helvetica; min-height: 14px; "><br></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">GW 2009 -&nbsp;The 8th International Gesture =
+Workshop&nbsp;</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">Gesture in Embodied =
+Communication and Human-Computer Interaction</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica"><a =
+href=3D"http://www.GW2009.de">www.GW2009.de</a></font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 12px/normal Helvetica; =
+min-height: 14px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Feb =
+25-27, 2009</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" color=3D"#001ee6" style=3D"font: 12.0px Helvetica; color: =
+#001ee6"><a =
+href=3D"http://www.uni-bielefeld.de/ZIF/"><u>ZiF</u></a></font><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">&nbsp;- =
+Center for Interdisciplinary Research, Bielefeld =
+University&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 12px/normal Helvetica; min-height: 14px; "><br></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">Organisers:&nbsp;</font></div><div style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Stefan =
+Kopp, Sociable Agents Groups, Bielefeld =
+University&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Ipke =
+Wachsmuth, Artificial Intelligence Group &amp; ZiF, Bielefeld =
+University&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 12px/normal Helvetica; min-height: 14px; "><br></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">The International Gesture Workshop is an =
+interdisciplinary event for researchers working on gestural interaction, =
+who want to meet and exchange their ideas and newest research. GW 2009 =
+aims to bring together researchers from computer science, engineering, =
+and the humanities in order to connect recent theoretical discoveries =
+about the embodied bases of human verbal and nonverbal communication =
+with approaches taken to developing interactive systems that exploit =
+gesture as a means of interacting with machines. The workshop will be =
+the 8th in the&nbsp;<a =
+href=3D"http://www.techfak.uni-bielefeld.de/ags/wbski/GW/"><font =
+color=3D"#001ee6" style=3D"color: #001ee6"><u>Gesture Workshop =
+series</u></font></a>&nbsp;initiated in 1996.&nbsp;</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 12px/normal Helvetica; =
+min-height: 14px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Confirmed =
+invited speakers:&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Antonio =
+Camurri (DIST-University of Genova)&nbsp;</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">Asli =D6zy=FCrek (MPI Psycholinguistics &amp; Radboud =
+Univ. Nijmegen, Koc Univ. Istanbul)&nbsp;</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">Alex Waibel (Carnegie Mellon Univ., Univ. of =
+Karlsruhe)&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 12px/normal Helvetica; min-height: 14px; "><br></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 12px/normal Helvetica; =
+min-height: 14px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">=3D=3D=3D =
+Scope and Topics&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Under the =
+focus of gesture-based human-computer interaction, we invite submissions =
+of original work that addresses, but is not limited to, one or more of =
+the following aspects:&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: normal =
+normal normal 12px/normal Helvetica; min-height: 14px; "><br></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">Concepts, models, architectures:</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">* Theoretical aspects of gestural communication and =
+interaction</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture and speech, gaze, =
+or other natural modalities</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+and embodied cognition</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+and sociality</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture and multimodal =
+dialogue</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+expressivity</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture development and =
+learning</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Sensori-motor aspects of =
+gesture</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Sign language =
+processing</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture recognition and =
+analysis</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture production and =
+synthesis</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Fusion and fission of =
+gesture with other modalities</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* =
+Systematic and idiosyncratic aspects of gesture</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 12px/normal Helvetica; =
+min-height: 14px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">Applications:</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* User =
+issues, usability studies, application paradigms</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">* Vision-based gesture recognition</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">* Gesture in virtual and augmented =
+reality</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture in embodied =
+conversational agents</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+in mobile computing</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+in tangible and haptic interfaces</font></div><div style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+for gaming and entertainment</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+for audio-visual applications</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+for therapy and rehabilitation</font></div><div style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+for music and performing arts</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">* Gesture =
+for education</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; font: normal normal normal =
+12px/normal Helvetica; min-height: 14px; "><br></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">=3D=3D=3D Submission Procedure and =
+Publication&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px Helvetica">Authors =
+are encouraged to submit original scientific contributions to GW 2009 in =
+the form of extended abstracts of up to 2 pages. Abstract headings must =
+include title, authors, and keywords, according to Springer formatting =
+guidelines (see<a =
+href=3D"www.gw2009.de/submission.html">&nbsp;www.gw2009.de/submis</a><a =
+href=3D"">sion.html</a>). Upon review and acceptance by the GW 2009 PC, =
+authors will be asked to present their work either orally, as a poster, =
+or in form of a technical demonstration (where applicable). Submitted =
+abstracts must be in English and should, to the extent possible, use =
+language that will be understood across disciplines i.e. avoids =
+unnecessary jargon.&nbsp;</font></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">Submissions should be sent electronically in PDF to the =
+following e-mail address: <a =
+href=3D"mailto:gw2009@techfak.uni-bielefeld.de"><font color=3D"#001ee6" =
+style=3D"color: =
+#001ee6"><u>gw2009@techfak.uni-bielefeld.de</u></font></a>&nbsp;</font></d=
+iv><div style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">Presenting authors will be invited after the workshop to =
+submit a full paper on the topic of their talk. All papers will be =
+peer-reviewed and compiled into a high-quality publication typically =
+published by Springer-Verlag (see&nbsp;<a =
+href=3D"http://www.techfak.uni-bielefeld.de/ags/wbski/GW/">www.techfak.uni=
+-bielefeld.de/ags/wbski/GW</a>).</font></div><div style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font: =
+normal normal normal 12px/normal Helvetica; min-height: 14px; =
+"><br></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">=3D=3D=3D Important =
+Dates&nbsp;</font></div><div style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">Submission of extended =
+abstracts: September 12, 2008&nbsp;</font></div><div style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">Notification of acceptance/rejection: October 15, =
+2008&nbsp;</font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">Submission of final versions =
+of extended abstracts: November 4, 2008&nbsp;</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" style=3D"font: =
+12.0px Helvetica">Workshop: February 25-27, 2009&nbsp;</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; font: normal normal normal 12px/normal Helvetica; =
+min-height: 14px; "><br></div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica">=3D=3D=3D=3D&nbsp;About the Venue</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">GW 2009 will be held at the&nbsp;<a =
+href=3D"http://www.uni-bielefeld.de/zif">ZiF</a>&nbsp;- the Center for =
+Interdisciplinary Research at Bielefeld University.&nbsp;<a =
+href=3D"http://www.bielefeld.de/">Bielefeld</a>&nbsp;is located in North =
+Germany on the flanks of the wooded hills of the Teutoburg Forest and is =
+easily reached by IC and ICE trains on the route Dortmund-Hannover. The =
+nearest airports with hourly train connections are Hannover (115 km), =
+Dortmund-Wickede (110 km), Duesseldorf (190 km), and Frankfurt (320 =
+km).</div></div><div><br></div><div><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-align: auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; "><br =
+class=3D"Apple-interchange-newline"></span></span></span> </div>The GW =
+organizing committee</div><div style=3D"word-wrap: break-word; =
+-webkit-nbsp-mode: space; -webkit-line-break: after-white-space; =
+"><div>Stefan Kopp, Ipke Wachsmuth, Kirsten =
+Bergmann</div></div></div><div apple-content-edited=3D"true"><span =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-align: auto; text-indent: =
+0px; text-transform: none; white-space: normal; widows: 2; word-spacing: =
+0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0; "><div style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; "><div style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; "><div style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; =
+"><div><div><br></div></div></div></span></div></span></div></span></div><=
+/body></html>=
+
+--Apple-Mail-6--96593038--
+
+--===============0120402881==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0120402881==--

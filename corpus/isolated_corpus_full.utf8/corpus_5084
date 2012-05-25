@@ -1,0 +1,140 @@
+From - Thu Dec 10 14:36:36 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs210095fap;
+        Sun, 26 Apr 2009 23:44:53 -0700 (PDT)
+Received: by 10.210.13.17 with SMTP id 17mr4371939ebm.32.1240814692447;
+        Sun, 26 Apr 2009 23:44:52 -0700 (PDT)
+Return-Path: <sentto-1622440-2770-1240814680-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com>
+Received: from relay1-v.mail.gandi.net (relay1-v.mail.gandi.net [217.70.178.75])
+        by mx.google.com with ESMTP id 10si5236656ewy.36.2009.04.26.23.44.50;
+        Sun, 26 Apr 2009 23:44:51 -0700 (PDT)
+Received-SPF: neutral (google.com: 217.70.178.75 is neither permitted nor denied by manual fallback record for domain of sentto-1622440-2770-1240814680-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) client-ip=217.70.178.75;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.178.75 is neither permitted nor denied by manual fallback record for domain of sentto-1622440-2770-1240814680-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2770-1240814680-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from spool.mail.gandi.net (mspool4-v.mgt.gandi.net [10.0.21.74])
+	by relay1-v.mail.gandi.net (Postfix) with ESMTP id CA228362DD
+	for <jpprost@gmail.com>; Mon, 27 Apr 2009 08:44:50 +0200 (CEST)
+Received: from localhost (mfilter1-d.gandi.net [217.70.178.41])
+	by spool.mail.gandi.net (Postfix) with ESMTP id BDDB22DC0E4
+	for <jpprost@gmail.com>; Mon, 27 Apr 2009 08:44:50 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at mfilter1-d.mgt.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.74])
+	by localhost (mfilter1-d.mgt.gandi.net [217.70.178.41]) (amavisd-new, port 10024)
+	with ESMTP id p9LyXqAtSaD1 for <jpprost@gmail.com>;
+	Mon, 27 Apr 2009 08:44:48 +0200 (CEST)
+Received: from n74c.bullet.mail.sp1.yahoo.com (n74c.bullet.mail.sp1.yahoo.com [98.136.45.73])
+	by spool.mail.gandi.net (Postfix) with SMTP id 886DB2DC0E3
+	for <jean-philippe.prost@lpl-aix.fr>; Mon, 27 Apr 2009 08:44:46 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1240814680; bh=+rxN1jxj+8Gb5gBajMcNIcQMYvBhUjdpUmjDIeaoPgw=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:Message-Id:To:X-Mailer:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type:Content-Transfer-Encoding; b=hDzCwJNpvSDJemgnkb6Uh6ZL9MHIagedBkTyv5YBELcIkSGK2MqMt5fdnVpUTus8tPnpKv45v+pYpEnCRA0kOTIzK2jbcmXOS0LpLLy67IuoyzX2Cc0XlaFkiASbRdJ2
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=r4RKqKRns7RgTzH37EkGEujDd+1c5dAPqZyWTuV8gDPmCXJ7FE4F9HQ226yYa1+hFOB7As4Z8q9tOAo3YX88bBEwxHfmiGa9GVx2Qj2x9+m9dNLRJmnuuRRy0X2KN/jX;
+Received: from [69.147.65.148] by n74.bullet.mail.sp1.yahoo.com with NNFMP; 27 Apr 2009 06:44:40 -0000
+Received: from [69.147.108.199] by t11.bullet.mail.sp1.yahoo.com with NNFMP; 27 Apr 2009 06:44:40 -0000
+X-Yahoo-Newman-Id: 1622440-m2770
+X-Sender: webmestre@lpl-aix.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 97306 invoked from network); 27 Apr 2009 06:44:34 -0000
+X-Received: from unknown (98.137.34.46)
+  by m8.grp.re1.yahoo.com with QMQP; 27 Apr 2009 06:44:34 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta3.grp.sp2.yahoo.com with SMTP; 27 Apr 2009 06:44:34 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AjUXAA/x9EmTXsToUmdsb2JhbACHLIdxhE2BPIEkASSzd4N0BQ
+X-IronPort-AV: E=Sophos;i="4.40,253,1238968800"; 
+   d="scan'208";a="234439584"
+X-Received: from unknown (HELO [147.94.196.232]) ([147.94.196.232])
+  by mso1k206.u-3mrs.fr with ESMTP; 27 Apr 2009 08:44:31 +0200
+Message-Id: <DDAF2FDB-D99A-474D-8538-8ADADE8B22C7@lpl-aix.fr>
+To: lpl-infos@yahoogroupes.fr,
+ personl@lpl-aix.fr
+X-Mailer: Apple Mail (2.753.1)
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: LPL databases <webmestre@lpl-aix.fr>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Mon, 27 Apr 2009 08:45:44 +0200
+Subject: [lpl-infos] 30 April 2009 - last days -
+X-Yahoo-Newman-Property: groups-email-tradt-u
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+L'=E9v=E9nement suivant se terminera dans quelques jours (30/4/2009) :
+The following event is bound to be over in a few days (30/4/2009):
+-------
+Atelier :
+
+
+=95 Lieu / location : Mannheim
+=95 Info : http://www.icca10.org/index_1.html
+=95 Contact : icca10@ids-mannheim.de
+
+------
+Meeting Description:
+ICCA10 is an international multidisciplinary meeting on conversation=20=20
+analysis, which focuses on talk-in-interaction in everyday=20=20
+conversation, institutional and mediated interaction.
+
+------
+Call for Papers
+Submission of panel proposals for the International Conference on
+Conversation Analysis (ICCA10) starts on March 02 and ends April 30,=20=20
+2009. Proposals can
+be submitted via http://www.icca10.org/submission/
+Notification of panel acceptance is scheduled for June 2009, accepted=20=20
+panels will be announced on the conference webpage.
+
+Submission of abstracts for individual papers, posters and workshops/=20
+data
+sessions will start on August 17, 2009, together with the conference
+registration.
+-------------
+Ce message vous est envoy=E9 par la base de donn=E9es 'Ev=E9nements' du =
+=20
+Laboratoire Parole et Langage, Aix-en-Provence.
+This is an automatic message sent by the event manager database of=20=20
+Laboratoire Parole et Langage, Aix-en-Provence.
+
+Vous pouvez consulter cette base en cliquant le lien 'Calendrier' sur=20=20
+la page d'accueil <http://www.lpl.univ-aix.fr>.
+You may check the database following the 'Calendrier' link on our=20=20
+homepage <http://www.lpl.univ-aix.fr>.
+
+------------------------------------
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Vos options mail=A0:
+    Mail individuel | Traditionnel
+
+<*> Pour modifier vos options avec le Web, allez sur=A0:
+    http://fr.groups.yahoo.com/group/lpl-infos/join
+    ((Compte Yahoo! requis)=20
+
+<*> Pour modifier vos options par mail=A0:
+    mailto:lpl-infos-digest@yahoogroupes.fr=20
+    mailto:lpl-infos-fullfeatured@yahoogroupes.fr
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+

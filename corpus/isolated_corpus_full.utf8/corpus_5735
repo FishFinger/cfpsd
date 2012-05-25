@@ -1,0 +1,308 @@
+From - Thu Dec 10 14:37:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.62.208 with SMTP id y16cs273277bkh;
+        Mon, 27 Jul 2009 08:51:34 -0700 (PDT)
+Received: by 10.114.198.9 with SMTP id v9mr10296278waf.154.1248709891653;
+        Mon, 27 Jul 2009 08:51:31 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 26si12496668pxi.13.2009.07.27.08.51.24;
+        Mon, 27 Jul 2009 08:51:31 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n6RFpDnV000895
+	for <jpprost@gmail.com>; Tue, 28 Jul 2009 01:51:13 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n6RFpBgE023873
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 28 Jul 2009 01:51:12 +1000
+X-ASG-Debug-ID: 1248709370-141c00140066-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id 5E1D62E5C8C4
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 28 Jul 2009 01:51:08 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id QsEpbgC1Hp9fY7QI for <jpprost@mailbox.ics.mq.edu.au>; Tue, 28 Jul 2009 01:51:08 +1000 (EST)
+X-Barracuda-Envelope-From: owner-chr@LISTSERV.CC.KULEUVEN.AC.BE
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n6REIHV3021536
+	for <jpprost@ICS.MQ.EDU.AU>; Tue, 28 Jul 2009 00:18:29 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 739D355F30;
+	Mon, 27 Jul 2009 16:17:53 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 3990377 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Mon, 27 Jul 2009
+          16:17:53 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit01.kulnet.kuleuven.be (cavuit01.kulnet.kuleuven.be
+          [134.58.240.43]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id E657C55D51 for <chr@listserv.cc.kuleuven.ac.be>; Mon, 27 Jul 2009
+          16:17:52 +0200 (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit01.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 247067B806A for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 27 Jul 2009
+          16:17:42 +0200 (CEST)
+Received: from carne.unife.it (carne.unife.it [192.167.219.26]) by
+          cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id EEAAD341A3 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 27 Jul 2009 16:17:31 +0200
+          (CEST)
+Received: from carne.unife.it (localhost.localdomain [127.0.0.1]) by localhost
+          (Email Security Appliance) with SMTP id 72FED1A7F5CD_A6DB5B5B for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 27 Jul 2009 14:12:05 +0000
+          (GMT)
+Received: from dns.unife.it (dns.unife.it [192.167.219.2]) by carne.unife.it
+          (Sophos Email Appliance) with ESMTP id 3BA311A758A3_A6DB5B5F for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 27 Jul 2009 14:12:05 +0000
+          (GMT)
+Received: from [10.14.241.124] (unknown [10.14.241.124]) (using TLSv1 with
+          cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client certificate
+          requested) by dns.unife.it (Postfix) with ESMTP id E995872DF2 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 27 Jul 2009 16:12:43 +0200
+          (CEST)
+User-Agent: Thunderbird 2.0.0.22 (X11/20090608)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=1.59, required 5,
+               autolearn=disabled, FRT_OFFER2 1.59)
+X-Spam-Level: *
+X-KULeuven-Envelope-From: marco.gavanelli@unife.it
+Message-ID:  <4A6DB5DB.2090508@unife.it>
+Date:         Mon, 27 Jul 2009 16:12:43 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Marco Gavanelli <marco.gavanelli@UNIFE.IT>
+X-ASG-Orig-Subj: [CHR] RCRA09 call for papers
+Subject: [CHR] RCRA09 call for papers
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1248709869
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 1.69
+X-Barracuda-Spam-Status: No, SCORE=1.69 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=BSF_SC0_SA085, FRT_OFFER2
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.4574
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	1.59 FRT_OFFER2             BODY: ReplaceTags: Offer (2)
+	0.10 BSF_SC0_SA085          Custom Rule SA085
+
+* ___________________________________________________________________  *
+
+   The RCRA group (Knowledge Representation & Automated Reasoning) of the
+          AI*IA (Italian Association for Artificial Intelligence)
+                             http://rcra.aixia.it
+
+                                  organises
+
+                           the 16th RCRA workshop:
+              Experimental evaluation of algorithms for solving
+              problems with combinatorial explosion  (RCRA 2009)
+
+
+      Email:               rcra.aixia.09@gmail.com
+      RCRA group web site: http://rcra.aixia.it/
+      Workshop web site:   http://rcra.aixia.it/rcra2009
+
+* ____________________________________________________________________ *
+
+   The event follows the series of the RCRA (Knowledge Representation
+   and Automated Reasoning) annual meetings, held since 1994.
+   The success of the previous events shows that RCRA is becoming a major
+   forum for exchanging ideas and proposing experimentation methodologies
+   for algorithms in artificial intelligence.
+
+* ___________________________________________________________________  *
+
+As in previous editions,  authors of papers presented at the event
+will have the opportunity to participate to the selection of a
+special issue that will appear on the
+***Elsevier Journal of Algorithms in Cognition, Informatics and Logic.***
+
+DATES
+  11-12 december 2009, co-located with AI*IA 2009
+  http://www.aixia09.unimore.it/
+
+VENUE
+  Reggio Emilia, Italy
+
+AIMS AND SCOPE
+   Many problems in Artificial Intelligence show an exponential 
+explosion of the
+   search space.  Although stemming from different research areas in AI, 
+such
+   problems are often addressed with algorithms that have a common goal: the
+   effective exploration of huge state spaces.  Many algorithms 
+developed in one
+   research area are applicable to other problems, or can be hybridised with
+   techniques in other areas. Artificial Intelligence tools often exploit or
+   hybridise techniques developed by other research communities, such as
+   Operations Research.
+   In recent years, research in AI has more and more focussed on 
+experimental
+   evaluation of algorithms, the development of suitable methodologies for
+   experimentation and analysis, the study of languages and the 
+implementation of
+   systems for the definition and solution of problems.
+
+   Scope of the workshop is fostering the cross-fertilisation of ideas 
+stemming
+   from different areas, proposing benchmarks for new challenging problems,
+   comparing models and algorithms from an experimental viewpoint, and, in
+   general, comparing different approaches with respect to efficiency, 
+problem
+   modelling, and ease of development.
+
+   Topics of interest include, but are not limited to:
+   * Experimental evaluation of algorithms for
+        o knowledge representation
+        o automated reasoning
+        o planning
+        o scheduling
+        o machine learning
+        o model checking
+        o boolean satisfiability (SAT)
+        o constraint programming
+        o constraint satisfaction
+        o quantified boolean formulae and quantified constraints
+        o modal logics
+        o logic programming
+        o disjunctive logic programming
+        o temporal reasoning
+        o combinatorial optimization
+   * Definition and construction of benchmarks
+   * Experimentation methodologies
+   * Metaheuristics
+   * Algorithm hybridisation
+   * Static analysis of combinatorial problems
+   * Languages and systems for definition and solution of problems
+   * Comparisons between systems and algorithms
+   * Application experiences
+
+WORKSHOP CHAIRS
+  * Marco Gavanelli, Università degli Studi di Ferrara, Italy
+  * Toni Mancini, Sapienza Università di Roma, Italy
+
+WORKSHOP PROGRAM COMMITTEE
+  * Slim Abdennadher, German University in Cairo, Egypt
+  * Gilles Audemard, Université d'Artois, France
+  * Francesco Calimeri, Università della Calabria, Italy
+  * Gianluca Caminiti, Università Mediterranea di Reggio Calabria, Italy
+  * Khalil Djelloul, Université d'Orléans, France
+  * Agostino Dovier, Universita` di Udine, Italy
+  * Esra Erdem, University of Texas at Austin, USA
+  * Wolfgang Faber, Università della Calabria, Italy
+  * Pierre Flener, Uppsala University, Sweden
+  * Marco Gavanelli, Università di Ferrara, Italy
+  * Hector Geffner, Universitat Pompeu Fabra, Spain
+  * Daniel Le Berre, Université d'Artois, France
+  * Ines Lynce, Universidade Técnica de Lisboa, Portugal
+  * Toni Mancini, Sapienza Università di Roma, Italy
+  * Marco Maratea, Università di Genova, Italy
+  * Joao Marques-Silva, University College Dublin, Ireland
+  * Pedro Meseguer, Consejo Superior de Investigaciones Científicas, Spain
+  * Massimo Narizzano, Università di Genova, Italy
+  * Ilkka Niemelä, Helsinki University of Technology, Finland
+  * Angelo Oddi, ISTC-CNR, National Research Council, Italy
+  * Andrea Omicini, Università di Bologna, Italy
+  * Steve Prestwich, Cork Constraint Computation Centre, Ireland
+  * Daniel Riera, Universitat Oberta de Catalunya, Spain
+  * Andrea Schaerf, Universita` di Udine, Italy
+  * Kostas Stergiou, University of the Aegean, Greece
+  * Mirek Truszczynski, University of Kentucky, USA
+
+HOST ORGANIZATION
+  Università di Modena e Reggio-Emilia, Italy
+
+
+SUBMISSIONS
+   Authors are invited to submit either original papers, or papers that 
+appear on
+   conference proceedings (different than AI*IA 2009).
+
+   Publications showing negative results are welcome, provided that the 
+approach
+   was original and very promising in principle, the experimentation was
+   well-conducted, the results obtained were unforeseeable and gave 
+important
+   hints in the comprehension of the target problem, helping other 
+researchers to
+   avoid unsuccessful paths.
+
+   At the time of submission, authors are requested to clearly specify 
+whether their
+   submission is original or already published.
+
+   Workshop submissions must be in PDF format, do not exceed 15 pages, 
+and should be
+   written in LaTeX, using the RCRA 2009 style available on the workshop 
+web site.
+   Submissions will be reviewed by at least three members of the
+   program committee.
+   Papers accepted at the workshop will be electronically published on the
+   workshop web site and as an issue of the CEUR Workshop Proceedings 
+series.
+   Submissions should be sent to the address: rcra.aixia.09@gmail.com
+
+
+SELECTION FOR THE POST-PROCEEDINGS
+   Few weeks after the workshop, authors of papers presented at the
+   RCRA workshop will have the opportunity to participate to the selection
+   for the post-proceedings by submitting an extended version of their work.
+
+   Workshop post-proceedings will appear in a special issue of the
+   Elsevier Journal of Algorithms in Cognition, Informatics and Logic, 
+provided
+   that a sufficient amount of high quality papers is collected.
+
+   All candidate articles must be original: they cannot have already 
+been published
+   in journals, and must contain significant additional material with 
+respect to any
+   previous version already published in formal conference proceedings
+   (including the proceedings of AI*IA 2009).
+
+   Such papers will go through a second formal selection process, and 
+will be
+   reviewed by at least three reviewers. The selection process will be 
+kept very
+   short, and at most one re-submission stage will be allowed (cf. important
+   dates). Hence, authors are invited to work on their paper mainly 
+before the
+   workshop date.
+
+WORKSHOP AND CONFERENCE FEE
+
+   See the web page of the conference AI*IA 2009:
+
+http://www.aixia09.unimore.it/index.php/conference-registration/conference-fee
+
+IMPORTANT DATES
+   * Submission for RCRA workshop:              1 September 2009
+   * Notification of acceptance/reject:         15 October 2009
+   * Final version due:                         15 November 2009
+   * RCRA session@AI*IA:                        11 December 2009
+   * RCRA workshop:                             11-12 December 2009
+
+   SELECTION FOR POST-PROCEEDINGS
+   Elsevier Journal of Algorithms in Cognition, Informatics and Logic
+
+   * Extended papers submission deadline:       15 January 2010
+   * Notification of reviews of the 1st round:  28 February 2010
+   * Re-submission deadline
+     (for papers not accepted with minor rev.): 15 April 2010
+   * Final notification of acceptance:           1 May 2010
+   * Final version due:                         15 May 2010
+
+
+-- 
+RCRA2009:
+Experimental evaluation of algorithms for solving
+problems with combinatorial explosion
+http://rcra.aixia.it/rcra2009

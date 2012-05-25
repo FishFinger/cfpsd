@@ -1,0 +1,744 @@
+From - Thu Dec 10 14:37:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs146316faq;
+        Sun, 5 Jul 2009 05:33:22 -0700 (PDT)
+Received: by 10.210.34.2 with SMTP id h2mr2442833ebh.72.1246797199284;
+        Sun, 05 Jul 2009 05:33:19 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 8si10257397ewy.109.2009.07.05.05.33.17;
+        Sun, 05 Jul 2009 05:33:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 391A020E1D; Sun,  5 Jul 2009 14:33:14 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.6 required=5.0 tests=AWL,BAYES_00,
+	HTML_FONT_FACE_BAD,HTML_MESSAGE,MIME_HTML_MOSTLY,RDNS_NONE autolearn=no
+	version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id EE26720E6E;
+	Sun,  5 Jul 2009 14:31:18 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id AFAC33D3B;
+	Sun,  5 Jul 2009 14:31:18 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bLLj8xpcaGwR; Sun,  5 Jul 2009 14:31:18 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E33033D39;
+	Sun,  5 Jul 2009 14:31:11 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A62233D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  1 Jul 2009 08:30:28 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id V5YdiYu3Yk85 for <elsnet-list@mailman.elsnet.org>;
+	Wed,  1 Jul 2009 08:30:28 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 693E73D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  1 Jul 2009 08:30:08 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 33F871FA22; Wed,  1 Jul 2009 08:30:08 +0200 (MEST)
+X-Greylist: delayed 1781 seconds by postgrey-1.28 at newjura;
+	Wed, 01 Jul 2009 08:29:59 MEST
+Received: from cs.sjtu.edu.cn (unknown [202.120.2.104])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 61EFF208BF
+	for <elsnet-list@elsnet.org>; Wed,  1 Jul 2009 08:29:59 +0200 (MEST)
+Received: from localhost (cs.sjtu.edu.cn [127.0.0.1])
+	by cs.sjtu.edu.cn (Postfix) with ESMTP id DF06C20FDEA;
+	Wed,  1 Jul 2009 14:00:12 +0800 (CST)
+Received: from cs.sjtu.edu.cn ([127.0.0.1])
+	by localhost (mx.sjtu.edu.cn [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 10897-03; Wed, 1 Jul 2009 14:00:12 +0800 (CST)
+Received: from dell94001 (apex.sjtu.edu.cn [202.120.61.3])
+	by cs.sjtu.edu.cn (Postfix) with ESMTP id 60B4F208F7D;
+	Wed,  1 Jul 2009 13:59:46 +0800 (CST)
+From: "YU Yong" <yyu@cs.sjtu.edu.cn>
+To: <acl@opus.cs.columbia.edu>, <agentcities@fipa.org>, <agents@cs.umbc.edu>,
+	<aiia@dis.uniroma1.it>, <aisb@sussex.ac.uk>, <AI-SGES@jiscmail.ac.uk>,
+	<announce@sigart.acm.org>, <bull_i3@univ-tln.fr>, <chat@fipa.org>,
+	<colibri@let.uu.nl>, <colognet@ucy.ac.cy>, <community@mlnet.org>,
+	<dai-list@ece.sc.edu>, <dbworld@cs.wisc.edu>, <dip-all@lists.deri.org>,
+	<dl@dl.kr.org>, <ecoop-info@ecoop.org>, <editor@knowledgeboard.com>,
+	<elsnet-list@elsnet.org>, <epontell@cs.nmsu.edu>, <fgcscw@uni-koblenz.de>,
+	<fg-db@informatik.uni-rostock.de>, <info-ic@biomath.jussieu.fr>,
+	<irlist-editor@sigir.org>, <ISWORLD@listserv.heanet.ie>,
+	<isworld@lyris.isworld.org>, <kaw@science.uva.nl>,
+	<Kmi-Public-Seminars-List@open.ac.uk>, <luisa@LISTSERV.UU.SE>,
+	<neon-all@lists.neon-project.org>, <ontology@fipa.org>,
+	<orgmem@aifb.uni-karlsruhe.de>, <project@aktors.org>,
+	<public-sws-ig@w3.org>, <rewerse-all@rewerse.net>, <semantic-web@w3.org>,
+	<semantik@uni-duesseldorf.de>, <seworld@cs.colorado.edu>,
+	<sap.research.super@listserv.sap.com>, <soa4all@lists.atosresearch.eu>,
+	<sti2-services@lists.deri.at>, <sw-ergo@gui-design.de>,
+	<seweb-list@lists.sti2.at>, <topicmapmail@infoloom.com>,
+	<WI@aifb.uni-karlsruhe.de>, <www-rdf-logic@w3.org>, <www-rdf-rules@w3.org>,
+	<www-webont-wg@w3.org>, <www-ws@w3.org>
+Date: Wed, 1 Jul 2009 13:59:39 +0800
+Message-ID: <006001c9fa11$31c7b750$0401a8c0@apexlab.org>
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: Acn6ERTCT0oS7Z0KQ2S66TfWGSrEig==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at sjtu.edu.cn
+X-Mailman-Approved-At: Sun, 05 Jul 2009 14:30:22 +0200
+Cc: Linyun Fu <fulinyun@apex.sjtu.edu.cn>, hendler@cs.rpi.edu,
+	xuanjing.huang@gmail.com, miz@ei.sanken.osaka-u.ac.jp,
+	mmchi@fudan.edu.cn, asun@fi.upm.es
+Subject: [Elsnet-list] ASWC 2009 call for papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1128554493=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============1128554493==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0061_01C9FA54.3FEAF750"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0061_01C9FA54.3FEAF750
+Content-Type: text/plain;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for cross-postings
+
+-------------------------------------------------------------------------=
+--
+                             CALL FOR PAPERS
+   4th Asian Semantic Web Conference 2009 (ASWC 2009)
+              Shanghai, China, 8th-11th December 2009
+
+-------------------------------------------------------------------------=
+--
+
+A number of prominent members of the Semantic Web community are now
+beginning to claim that the Semantic Web has arrived. Semantic Web =
+search
+engines now index tens of thousands of ontologies and the term 'Semantic
+Web' regularly appears in the mainstream news and culture. Additionally, =
+the
+number of Semantic Web events attracting several hundred attendees grows
+larger every year and industrial interest includes the majority of the =
+large
+software and service companies. The 4th Asian Semantic Web Conference =
+(ASWC
+2009) will present the latest research and development of the Semantic =
+Web
+and its related technologies. It will bring together researchers in =
+relevant
+disciplines such as artificial intelligence, knowledge modeling, logic,
+databases, social networks, Web services, distributed computing, Web
+engineering, information systems, natural language processing, =
+multimedia,
+and human-computer interaction.
+
+
+ASWC 2009 will include a Research Track, a Semantic Web in Use Track, a
+Poster and Demonstration Track. ASWC 2009 also encourages the submission =
+of
+proposals for workshops and tutorials.
+
+=20
+
+Submissions
+
+=20
+
+Paper Submission page: =
+https://www.easychair.org/login.cgi?conf=3Daswc2009
+
+=20
+
+The Research Track solicits the submission of original, principled =
+research
+papers dealing with theoretical, methodological, empirical and
+application-related aspects of the Semantic Web. The Semantic Web in Use
+Track solicits the submission of innovative and practical application =
+papers
+which take into account real-world requirements. All papers should =
+clearly
+demonstrate relevance to the Semantic Web - fully taking into account
+aspects related to both semantics and the Web.
+
+=20
+
+The proceedings of ASWC 2009 will be published in Springer's Lecture =
+Notes
+in Computer Science series. Paper submission and reviewing will be
+electronic via the conference submission site. Papers should not exceed =
+15
+pages in length and must be formatted according to the information for =
+LNCS
+authors.
+
+=20
+
+Topics include but are not limited to the following:
+
+=20
+
+Semantic Web Technologies
+   Query Languages and Optimization for the Semantic Web
+   Rule Languages, Logics and Scalable Reasoning on the Semantic Web
+   Tools and Methodologies for Large Scale Semantic Web Data Management
+   Machine learning and human language technologies for the Semantic Web
+   Semantic Web Content Creation
+   Database Technologies for the Semantic Web
+
+=20
+
+Semantic Web Services
+   Languages, Tools and Methodologies for Semantic Web Services
+(description, discovery, invocation, composition, choreography)
+   Semantic Descriptions of Enterprise Processes
+   Semantics Applied to Mashups and Adhoc Service Aggregations
+
+=20
+
+Semantic Web Applications
+   Applications of Semantic Web (e-Business, e-Science, e-Health,
+e-Government, e-Learning, e-Culture)
+   Case Studies of Semantic Web Applications
+   Personalization and User Modeling
+   Semantics in P2P Computing and the Grid
+   Semantic Web-based Knowledge Management
+   Semantic Web, Multimedia, and Human Computer Interaction
+
+=20
+
+Social Semantic Web
+   Semantic Web and Social Networks and Processes
+   Semantic Web Technologies for Collaboration and Cooperation
+   Trust, Provenance, Security, Privacy, Identity and the Semantic Web
+
+=20
+
+Ontologies
+   Ontology Modeling
+   Ontology Management (creation, evolution, evaluation)
+   Ontology Alignment (mapping, matching, merging, mediation and
+reconciliation)
+   Ontology Learning and Metadata Generation
+   Ontology Searching and Ranking
+
+=20
+
+=20
+
+***Important Dates***
+   27 July 2009                Paper Submission
+   10 September 2009      Notification of Acceptance
+   3 October 2009          Camera Ready
+   6-9 December 2009    Conference in Shanghai, China
+
+=20
+
+Organizing Committee
+
+Conference Chairs:
+  James A. Hendler, Rensselaer Polytechnic Institute, USA
+  Ruqian Lu=A3=ACChinese Academy of Sciences, China=20
+Program Committee Chairs:
+  Yong Yu, Shanghai Jiao Tong University, China
+  Asuncion Gomez Perez, Universidad Politecnica de Madrid, Spain
+Local Organizing Chairs:
+  Xuanjing Huang, Fudan University
+  Xiangyang Xue, Fudan University
+
+=20
+
+Contact us:
+Web Site: http://www.aswc2009.org/
+E-mail: aswc2009@gmail.com
+
+=20
+
+=20
+
+Best Regards,
+
+=20
+
+Yong Yu
+
+=20
+
+
+------=_NextPart_000_0061_01C9FA54.3FEAF750
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dgb2312">
+
+
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PlaceType"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PlaceName"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"country-region"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"City"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:=CB=CE=CC=E5;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@=CB=CE=CC=E5";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:Arial;
+	color:windowtext;}
+ /* Page Definitions */
+ @page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DZH-CN link=3Dblue vlink=3Dpurple =
+style=3D'text-justify-trim:punctuation'>
+
+<div class=3DSection1 style=3D'layout-grid:15.6pt'>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Apologies for =
+cross-postings<br>
+<br>
+-------------------------------------------------------------------------=
+--<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;
+CALL FOR PAPERS<br>
+&nbsp;&nbsp; 4th Asian Semantic Web Conference 2009 (ASWC 2009)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp; <st1:place
+w:st=3D"on"><st1:City w:st=3D"on">Shanghai</st1:City>, =
+<st1:country-region w:st=3D"on">China</st1:country-region></st1:place>,
+8th-11th December 2009</span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US =
+style=3D'font-size:13.5pt;color:black'>----------------------------------=
+-----------------------------------------<br>
+<br>
+A number of prominent members of the Semantic Web community are now =
+beginning
+to claim that the Semantic Web has arrived. Semantic Web search engines =
+now
+index tens of thousands of ontologies and the term 'Semantic Web' =
+regularly
+appears in the mainstream news and culture. Additionally, the number of
+Semantic Web events attracting several hundred attendees grows larger =
+every
+year and industrial interest includes the majority of the large software =
+and
+service companies. The 4th Asian Semantic Web Conference (ASWC 2009) =
+will
+present the latest research and development of the Semantic Web and its =
+related
+technologies. It will bring together researchers in relevant disciplines =
+such
+as artificial intelligence, knowledge modeling, logic, databases, social
+networks, Web services, distributed computing, Web engineering, =
+information
+systems, natural language processing, multimedia, and human-computer
+interaction.</span></font><span lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'><br>
+ASWC 2009 will include a Research Track, a Semantic Web in Use Track, a =
+Poster
+and Demonstration Track. ASWC 2009 also encourages the submission of =
+proposals
+for workshops and tutorials.<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;</span></font><font size=3D3 =
+face=3D=CB=CE=CC=E5><span
+lang=3DEN-US =
+style=3D'font-size:12.0pt;font-family:=CB=CE=CC=E5'><o:p></o:p></span></f=
+ont></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US =
+style=3D'font-size:13.5pt;color:black'>Submissions</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Paper Submission =
+page: <a
+href=3D"https://www.easychair.org/login.cgi?conf=3Daswc2009"
+title=3D"https://www.easychair.org/login.cgi?conf=3Daswc2009">https://www=
+.easychair.org/login.cgi?conf=3Daswc2009</a></span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>The Research Track =
+solicits the
+submission of original, principled research papers dealing with =
+theoretical,
+methodological, empirical and application-related aspects of the =
+Semantic Web.
+The Semantic Web in Use Track solicits the submission of innovative and
+practical application papers which take into account real-world =
+requirements.
+All papers should clearly demonstrate relevance to the Semantic Web - =
+fully
+taking into account aspects related to both semantics and the =
+Web.</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>The proceedings of =
+ASWC 2009
+will be published in Springer's Lecture Notes in Computer Science =
+series. Paper
+submission and reviewing will be electronic via the conference =
+submission site.
+Papers should not exceed 15 pages in length and must be formatted =
+according to
+the information for LNCS authors.</span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Topics include but =
+are not
+limited to the following:</span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Semantic Web =
+Technologies<br>
+&nbsp;&nbsp; Query Languages and Optimization for the Semantic Web<br>
+&nbsp;&nbsp; Rule Languages, Logics and Scalable Reasoning on the =
+Semantic Web<br>
+&nbsp;&nbsp; Tools and Methodologies for Large Scale Semantic Web Data
+Management<br>
+&nbsp;&nbsp; Machine learning and human language technologies for the =
+Semantic
+Web<br>
+&nbsp;&nbsp; Semantic Web Content Creation<br>
+&nbsp;&nbsp; Database Technologies for the Semantic =
+Web</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Semantic Web =
+Services<br>
+&nbsp;&nbsp; Languages, Tools and Methodologies for Semantic Web =
+Services
+(description, discovery, invocation, composition, choreography)<br>
+&nbsp;&nbsp; Semantic Descriptions of <st1:City w:st=3D"on"><st1:place =
+w:st=3D"on">Enterprise</st1:place></st1:City>
+Processes<br>
+&nbsp;&nbsp; Semantics Applied to Mashups and Adhoc Service =
+Aggregations</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Semantic Web =
+Applications<br>
+&nbsp;&nbsp; Applications of Semantic Web (e-Business, e-Science, =
+e-Health,
+e-Government, e-Learning, e-Culture)<br>
+&nbsp;&nbsp; Case Studies of Semantic Web Applications<br>
+&nbsp;&nbsp; Personalization and User Modeling<br>
+&nbsp;&nbsp; Semantics in P2P Computing and the Grid<br>
+&nbsp;&nbsp; Semantic Web-based Knowledge Management<br>
+&nbsp;&nbsp; Semantic Web, Multimedia, and Human Computer =
+Interaction</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Social Semantic =
+Web<br>
+&nbsp;&nbsp; Semantic Web and Social Networks and Processes<br>
+&nbsp;&nbsp; Semantic Web Technologies for Collaboration and =
+Cooperation<br>
+&nbsp;&nbsp; Trust, Provenance, Security, Privacy, Identity and the =
+Semantic
+Web</span></font><span lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Ontologies<br>
+&nbsp;&nbsp; Ontology Modeling<br>
+&nbsp;&nbsp; Ontology Management (creation, evolution, evaluation)<br>
+&nbsp;&nbsp; Ontology Alignment (mapping, matching, merging, mediation =
+and
+reconciliation)<br>
+&nbsp;&nbsp; Ontology Learning and Metadata Generation<br>
+&nbsp;&nbsp; Ontology Searching and Ranking</span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>***Important =
+Dates***<br>
+&nbsp;&nbsp;&nbsp;27 July
+2009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;
+Paper Submission<br>
+&nbsp;&nbsp;&nbsp;10 September 2009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Notification
+of Acceptance<br>
+&nbsp;&nbsp;&nbsp;3&nbsp;October
+2009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Camera =
+Ready<br>
+&nbsp;&nbsp; 6-9 December 2009&nbsp;&nbsp;&nbsp; Conference in =
+<st1:place
+w:st=3D"on"><st1:City w:st=3D"on">Shanghai</st1:City>, =
+<st1:country-region =
+w:st=3D"on">China</st1:country-region></st1:place></span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Organizing =
+Committee</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Conference =
+Chairs:<br>
+&nbsp; James A. Hendler, Rensselaer Polytechnic Institute, =
+<st1:country-region
+w:st=3D"on"><st1:place =
+w:st=3D"on">USA</st1:place></st1:country-region><br>
+&nbsp; Ruqian Lu</span></font><font size=3D4 color=3Dblack =
+face=3D=CB=CE=CC=E5><span
+style=3D'font-size:13.5pt;font-family:=CB=CE=CC=E5;color:black'>=A3=AC</s=
+pan></font><font
+size=3D4 color=3Dblack><span lang=3DEN-US =
+style=3D'font-size:13.5pt;color:black'>Chinese
+Academy of Sciences, China <br>
+Program Committee Chairs:<br>
+&nbsp; Yong Yu, <st1:place w:st=3D"on"><st1:City w:st=3D"on">Shanghai =
+Jiao Tong
+  University</st1:City>, <st1:country-region =
+w:st=3D"on">China</st1:country-region></st1:place><br>
+&nbsp; Asuncion Gomez Perez, Universidad <st1:place =
+w:st=3D"on"><st1:City w:st=3D"on">Politecnica
+  de Madrid</st1:City>, <st1:country-region =
+w:st=3D"on">Spain</st1:country-region></st1:place><br>
+Local Organizing Chairs:<br>
+&nbsp; Xuanjing Huang, <st1:place w:st=3D"on"><st1:PlaceName =
+w:st=3D"on">Fudan</st1:PlaceName>
+ <st1:PlaceType w:st=3D"on">University</st1:PlaceType></st1:place><br>
+&nbsp; Xiangyang Xue, <st1:place w:st=3D"on"><st1:PlaceName =
+w:st=3D"on">Fudan</st1:PlaceName>
+ <st1:PlaceType =
+w:st=3D"on">University</st1:PlaceType></st1:place></span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Contact us:<br>
+Web Site: <a href=3D"http://www.aswc2009.org/" =
+title=3D"http://www.aswc2009.org/">http://www.aswc2009.org/</a><br>
+E-mail: <a href=3D"mailto:aswc2009@gmail.com" =
+title=3D"mailto:aswc2009@gmail.com">aswc2009@gmail.com</a></span></font><=
+span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US =
+style=3D'font-size:13.5pt;color:black'>&nbsp;<o:p></o:p></span></font></p=
+>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;</span></font><font size=3D3 =
+face=3D=CB=CE=CC=E5><span
+lang=3DEN-US =
+style=3D'font-size:12.0pt;font-family:=CB=CE=CC=E5'><o:p></o:p></span></f=
+ont></p>
+
+<p class=3DMsoNormal><font size=3D4 color=3Dblack face=3D"Times New =
+Roman"><span
+lang=3DEN-US style=3D'font-size:13.5pt;color:black'>Best =
+Regards,</span></font><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D2 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:10.5pt'>&nbsp;<o:p></o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D4 face=3D"Times New Roman"><span =
+lang=3DEN-US
+style=3D'font-size:13.5pt'>Yong Yu</span></font><span =
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><font size=3D1 face=3DArial><span lang=3DEN-US =
+style=3D'font-size:
+9.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+ <BR><BR>__________ Information from ESET NOD32 Antivirus, version of =
+virus signature database 4202 (20090630) __________<BR><BR>The message =
+was checked by ESET NOD32 Antivirus.<BR><BR><A =
+HREF=3D"http://www.eset.com">http://www.eset.com</A><BR> </body>
+
+</html>
+
+------=_NextPart_000_0061_01C9FA54.3FEAF750--
+
+
+--===============1128554493==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1128554493==--
+

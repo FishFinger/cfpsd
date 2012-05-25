@@ -1,0 +1,104 @@
+From - Thu Dec 10 14:33:23 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs246863muh;
+        Mon, 29 Sep 2008 18:08:04 -0700 (PDT)
+Received: by 10.114.181.13 with SMTP id d13mr6785212waf.101.1222736881963;
+        Mon, 29 Sep 2008 18:08:01 -0700 (PDT)
+Return-Path: <szwarts@ics.mq.edu.au>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id t1si1084585poh.13.2008.09.29.18.07.57;
+        Mon, 29 Sep 2008 18:08:01 -0700 (PDT)
+Received-SPF: fail (google.com: domain of szwarts@ics.mq.edu.au does not designate 137.111.216.103 as permitted sender) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of szwarts@ics.mq.edu.au does not designate 137.111.216.103 as permitted sender) smtp.mail=szwarts@ics.mq.edu.au
+Received: from verus.ics.mq.edu.au (verus.ics.mq.edu.au [137.111.216.13])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m8U17tYR019579;
+	Tue, 30 Sep 2008 11:07:56 +1000 (EST)
+Received: from hoshi (comp-pc045.ics.mq.edu.au [137.111.238.55])
+	(authenticated bits=0)
+	by verus.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id m8U17tjZ016263
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NO);
+	Tue, 30 Sep 2008 11:07:55 +1000 (EST)
+From: Simon Zwarts <szwarts@ics.mq.edu.au>
+To: "Matthew Honnibal" <honnibal@gmail.com>
+Subject: Re: Wikipedia on Statistical Significance
+Date: Tue, 30 Sep 2008 11:07:55 +1000
+User-Agent: KMail/1.9.7
+Cc: "jette viethen" <jettte@gmail.com>,
+        "Andrew Lampert" <alampert@ics.mq.edu.au>,
+        "Mark Dras" <madras@ics.mq.edu.au>,
+        "Mary Gardiner" <gardiner@ics.mq.edu.au>,
+        "Pawel Mazur" <mpawel@ics.mq.edu.au>,
+        "Stephen Wan" <swan@ics.mq.edu.au>,
+        "Ilya Anisimoff" <anisimoff@gmail.com>,
+        "Jean-Philippe Prost" <jpprost@gmail.com>
+References: <39c53b9d0809291544j3c7ce06do2f1cf1130a32402b@mail.gmail.com> <200809301028.12342.szwarts@ics.mq.edu.au> <c4020cbc0809291750t3fb6759cw8448fd42693bedbc@mail.gmail.com>
+In-Reply-To: <c4020cbc0809291750t3fb6759cw8448fd42693bedbc@mail.gmail.com>
+X-Face: 0{u-,zTvmgh%;]!>DiX*E@q!hOHegK"+Of<lq02mw0>XBie3f-c+`jN?-eiWX7l>=?utf-8?q?Skj6=5CR=0A=09=5F=7DvlHWEW5=25X=60=2EL=23oQ=253?=>-fAIr"8%oRnsvS}e_Xw,=?utf-8?q?Z=3B=2EBw=272E93I=7Bv=5Do4*j4+7kCMz1Rd=25=3B=0A=09=27xk7=60=25Nw=3D?=
+ =?utf-8?q?*h=2ERIPt+5=5C9=24?=
+MIME-Version: 1.0
+Content-Type: text/plain;
+  charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+Message-Id: <200809301107.55552.szwarts@ics.mq.edu.au>
+
+When starting my measurements (in my case Bleu for MT) I also found 
+statistical significance a pain to calculate (and I still do) and was tempted 
+not to do any.
+However, doing so many experiments, I started noticing that by having the 
+exact same experiment done one a slightly different data sets, already 
+fluctuates the Bleu score. So at the end I do want to know if a certain Bleu 
+score is really better, or whether it is just chance.
+
+In accordance with the hype of the week, I'll call it "dangerous" if based on 
+this criticism people would not conduct the statistical significance test. 
+Displaying data, without any sense of variability pretty much says nothing.
+
+I'm perfectly happy with paper which describe that on a 5% level nothing can 
+be said, but on a 10% level there is something emerging, at least then you 
+know where you stand. But in a scenario with heaps of noise I would like to 
+see at least some indication of where I'm at, since I can't see the noise an 
+people have a notions bad feeling for statistics, not to start any 
+Monthy-Hall, or Boy-girl discussions again.
+
+The proposed alternatives are on a meta-level.
+
+> authors should avoid tests of statistical significance;
+> instead, they should report on effect sizes, confidence intervals,
+> replications/extensions, and meta-analyses.
+
+ Meta-analysis and effect-size replication and extention are all nice words, 
+but not something you can measure.  (Confidence intervals are dangerously 
+close to statistical significance.)
+And if you find a method which can measure the pretty methods, how do you know 
+if a slight improved is above the noise? The entire cited part from wikipedia 
+deals with flawed meta-arguments.
+
+Ok, so I call for all people to do do statistical significance tests, in case 
+you were wondering about my position at the end of the mail.
+
+
+
+On Tue, 30 Sep 2008 10:50:15 Matthew Honnibal wrote:
+> I think the point is just that you have a problem whenever a particular
+> minutia of methodology starts receiving so much attention that wider
+> context isn't considered. Which is fair enough. If a very interesting trend
+> is observed, it seems silly to ignore it because it has a 20% chance of
+> being due to chance, instead of the arbitrary "methodologically approved"
+> 5%.
+>
+> At least in our field, our confidence in any particular result is normally
+> much less than 95% anyway, since there's always a lot of uncertainty about
+> the parameters of the experiment in the first place. For instance, nobody's
+> going to say "well, this learner performed significantly worse on this
+> guy's experiment on this task, so there's a better than 95% chance we
+> should never use that learner for this ever again".
+>
+> Still, I think the human brain is a pretty flawed tool for science, partly
+> because we find it so hard to avoid listening to noise. So we do need to be
+> vigilant in deploying whatever tools we have --- and significance testing's
+> an important one.
+>
+

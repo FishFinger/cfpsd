@@ -1,0 +1,260 @@
+From - Thu Dec 10 14:30:27 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs39308waa;
+        Thu, 21 Feb 2008 00:36:25 -0800 (PST)
+Received: by 10.67.40.15 with SMTP id s15mr627448ugj.46.1203582980229;
+        Thu, 21 Feb 2008 00:36:20 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id i30si3408675ugd.38.2008.02.21.00.35.46;
+        Thu, 21 Feb 2008 00:36:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JS6op-0003UF-Rt; Thu, 21 Feb 2008 09:30:15 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JS6oj-0003U5-6d; Thu, 21 Feb 2008 09:30:09 +0100
+Received: from corp-206.dfki.uni-sb.de (mail.dfki.de) [134.96.188.26] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1JS6og-0007aV-7l; Thu, 21 Feb 2008 09:30:10 +0100
+Received: from mail.dfki.de (localhost.dfki.uni-sb.de [127.0.0.1])
+	by localhost (Postfix) with ESMTP id 4182FE4918
+	for <corpora@uib.no>; Thu, 21 Feb 2008 09:24:41 +0100 (CET)
+Received: from [134.96.187.12] (clerk.dfki.uni-sb.de [134.96.187.12])
+	by mail.dfki.de (Postfix) with ESMTP id 30EC0E4907
+	for <corpora@uib.no>; Thu, 21 Feb 2008 09:24:41 +0100 (CET)
+Message-ID: <47BD3548.6060203@dfki.de>
+Date: Thu, 21 Feb 2008 09:24:40 +0100
+From: Declerck <declerck@dfki.de>
+User-Agent: Thunderbird 2.0.0.9 (Windows/20071031)
+MIME-Version: 1.0
+To: corpora@uib.no
+References: <477BADC5.9030403@dfki.de>
+In-Reply-To: <477BADC5.9030403@dfki.de>
+X-checked-clean: by exiscan on rolf
+X-Scanner: 73d3b5b87808146d77d1b3c69dc90b7b http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 Received: contains a forged HELO
+Subject: [Corpora-List] CfP: The second OntoImage Workshop at LREC: Extended
+	deadlines
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+			Call for Papers
+
+         The 2nd International Workshop on Language Resources for =
+
+		Content-based Image Retrieval (OntoImage 2008)
+
+		Held in conjunction with LREC 2008
+                           Marrakech, Morocco
+			afternoon of May 26, 2008
+
+
+
+
+*Scope *
+
+* *
+
+There are two computer-aided methods for accessing images:
+
+    * indexing textual descriptions (done mostly by public retrieval
+      engines)
+          o assigned manually on community sharing sites, e.g. Flickr;
+          o extracted from the text of the web page associated with the
+            image , e.g. Google
+          o extracting textual information inside the image using OCR
+            techniques
+    * indexing low-level visual features (colour, texture, etc.) of the
+      images (called Content Based Image Retrieval - CBIR).
+
+Combining these two methods is currently a hot topic since it involves =
+
+developing hybrid approaches using automatic image tagging from text =
+
+along with low level visual features from an image to produce text =
+
+metadata. One of the main limitations within state-of-the-art CBIR =
+
+resides in the mismatch (the =93Semantic Gap=94 in image analysis) between =
+
+low-level visual descriptors and the human-understood semantics of =
+
+picture similarity. There are problems of vocabulary at all levels in =
+
+the description of an image. There is a mismatch between the text found =
+
+around an image, between the keywords that people assign to an image, =
+
+and between the objects that can be recognized in an image. How can =
+
+available language resources (terminology, thesauri, ontologies, etc.) =
+
+help? How much must they be altered to reduce the semantic gap?
+
+This half-day workshop will present up to 9 papers examining the =
+
+intersection of language resources and image analysis and retrieval.
+
+We welcome submissions addressing the following questions:
+
+    * What elements in a lexicon correspond to picturable objects?
+    * How can language resources be used to organize and improve user
+      contributed image annotations?
+    * Which are the roles of language resources in image retrieval?
+    * How should language resources and image processing techniques be
+      integrated?
+    * How can current language resources be adapted for content-based
+      image retrieval in real-world applications, like the Web search?
+    * Can language resources and low-level visual descriptors be
+      organized into a joint knowledge infrastructure?
+    * Do we need new semantic structures (ontologies, thesauri) for
+      CBIR? Can we build them (semi)automatically?
+    * What visual characteristics of objects can be discovered by text
+      processing (color, size, location, shape, texture)?
+    * What is the relation between the lexicon and image indexing and
+      retrieval? What words should be associated with an image? Can this
+      be automated?
+    * How to combine speech and textual resources related to image data?
+    * What are some application areas where this research can be evaluated?
+
+*
+*
+
+*Submissions *
+
+We expect extended abstracts describing research addressing one of the =
+
+above questions of about 1500 words to be submitted as WORD, PDF or =
+
+ASCII documents per email to the following address: =
+
+adrian.popescu@cea.fr <mailto:adrian.popescu@cea.fr>
+
+A reception notification will be sent to the authors within 48 hours. =
+
+The final papers should have no more than 6 pages.
+
+*Important dates*
+
+Extended deadline for Abstracts
+
+	=
+
+
+March 02, 2008
+
+Notification of acceptance
+
+	=
+
+
+March 10, 2008
+
+Final Papers
+
+	=
+
+
+March 31, 2008
+
+Workshop
+
+	=
+
+
+May 26, 2008 (afternoon session)
+
+*Location*
+
+*Palais des Congr=E8s Mansour Eddahbi, *Marrakech (Morocco)**
+
+Co-located with LREC=922008 http://www.lrec-conf.org/lrec2008 **
+
+* *
+
+*Organizing committee*
+
+Thierry Declerck, Deutsches Forschungszentrum f=FCr K=FCnstliche =
+
+Intelligenz, Germany
+
+Adrian Popescu, Commissariat =E0 l=92Energie Atomique LIST, France
+
+Allan Hanbury, Vienna University of Technology, Austria
+
+Judith L. Klavans, University of Maryland, USA
+
+*Questions *
+
+Questions about the workshop can be addressed to: declerck@dfki.de =
+
+<mailto:declerck@dfki.de> or adrian.popescu@cea.fr =
+
+<mailto:adrian.popescu@cea.fr>
+
+*URL of the workshop: http://www.dfki.de/~declerck/ontoimage.html =
+
+<http://www.dfki.de/%7Edeclerck/ontoimage.html>*
+
+The Workshop is endorsed by the European Networks of Excellence K-Space =
+
+(www.k-space.eu <http://www.k-space.eu/>) and MUSCLE =
+
+(http://www.muscle-noe.org/)
+
+ =
+
+
+
+
+-- =
+
+Thierry Declerck,
+Senior Consultant at DFKI GmbH, Language Technology Lab
+Stuhlsatzenhausweg, 3
+D-66123 Saarbruecken
+Tel: +49 (0)681 302 5358
+Fax: +49 (0)681 302 5338
+email: declerck@dfki.de
+
+-------------------------------------------------------------
+Deutsches Forschungszentrum fuer Kuenstliche Intelligenz GmbH
+Firmensitz: Trippstadter Strasse 122, D-67663 Kaiserslautern
+
+Geschaeftsfuehrung:
+Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender)
+Dr. Walter Olthoff
+
+Vorsitzender des Aufsichtsrats:
+Prof. Dr. h.c. Hans A. Aukes
+
+Amtsgericht Kaiserslautern, HRB 2313
+-------------------------------------------------------------
+
+
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

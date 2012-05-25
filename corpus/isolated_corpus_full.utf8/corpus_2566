@@ -1,0 +1,1111 @@
+From - Thu Dec 10 14:29:49 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.56.20 with SMTP id e20cs467581waa;
+        Fri, 1 Feb 2008 07:43:04 -0800 (PST)
+Received: by 10.78.175.14 with SMTP id x14mr6414527hue.7.1201880582545;
+        Fri, 01 Feb 2008 07:43:02 -0800 (PST)
+Return-Path: <sentto-1622440-2532-1201880536-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 16si35348hui.34.2008.02.01.07.42.42;
+        Fri, 01 Feb 2008 07:43:02 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2532-1201880536-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.16;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2532-1201880536-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2532-1201880536-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; domainkeys=hardfail header.From=lpl-infos@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m11FgdUa014701
+	for <jpprost@gmail.com>; Sat, 2 Feb 2008 02:42:39 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id m11Fgc8t013615
+	for <jpprost@mailbox.ics.mq.edu.au>; Sat, 2 Feb 2008 02:42:38 +1100 (EST)
+X-ASG-Debug-ID: 1201880552-71f7011e0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 4310318668E3
+	for <jpprost@mailbox.ics.mq.edu.au>; Sat,  2 Feb 2008 02:42:32 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id 4erQ0dwK5vblARIh for <jpprost@mailbox.ics.mq.edu.au>; Sat, 02 Feb 2008 02:42:32 +1100 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m11FgUXW014694
+	for <jpprost@ics.mq.edu.au>; Sat, 2 Feb 2008 02:42:30 +1100 (EST)
+Received: from n2.bullet.mail.re1.yahoo.com (n2.bullet.mail.re1.yahoo.com [69.147.103.129])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id m11FgQiC000091
+	for <jpprost@ics.mq.edu.au>; Sat, 2 Feb 2008 02:42:28 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=VGLX5nRKHbkaxSbHG9rNYeouVm3GygtfBoQASsXIYiNV7eaj42x2CBQ/t5kLbyI9VH2z4SU7YWiWUmVyiPDB2vBY2ptD0CuIJp3O/Zb+JeaqE5wuKZYCxfCBAsZRs3Tl;
+Received: from [68.142.237.87] by n2.bullet.mail.re1.yahoo.com with NNFMP; 01 Feb 2008 15:42:18 -0000
+Received: from [66.218.69.4] by t3.bullet.re3.yahoo.com with NNFMP; 01 Feb 2008 15:42:17 -0000
+Received: from [66.218.67.109] by t4.bullet.scd.yahoo.com with NNFMP; 01 Feb 2008 15:42:17 -0000
+X-Yahoo-Newman-Id: 1622440-m2532
+X-Sender: alain.ghio@lpl-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+X-Received: (qmail 15613 invoked from network); 1 Feb 2008 15:42:12 -0000
+X-Received: from unknown (66.218.66.71)
+  by m45.grp.scd.yahoo.com with QMQP; 1 Feb 2008 15:42:12 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta13.grp.scd.yahoo.com with SMTP; 1 Feb 2008 15:42:11 -0000
+X-Received: from unknown (HELO GHIOFIXE) ([147.94.215.172])
+  by mso1k193.u-3mrs.fr with ESMTP; 01 Feb 2008 16:40:23 +0100
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Ao8CAJbMokeTXtes/2dsb2JhbACSAZxRAQ
+X-IronPort-AV: i="4.25,290,1199660400"; 
+   d="scan'208"; a="158997143:sNHT69384063"
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>,
+        "LPL Personnel" <personl@lpl-aix.fr>
+Organization: LPL
+Message-ID: <002e01c864e8$c1163ef0$acd75e93@GHIOFIXE>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6822
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3198
+Thread-Index: AchkrtwccE6ZDNqwSBOL4Ws8TwcMtQAOXT9Q
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "ghio" <alain.ghio@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Fri, 1 Feb 2008 16:40:20 +0100
+X-ASG-Orig-Subj: [lpl-infos] TR : [parole] 2nd Call for Papers: CORPORA FOR RESEARCH ON EMOTION AND AFFECT Workshop (LREC 2008)
+Subject: [lpl-infos] TR : [parole] 2nd Call for Papers: CORPORA FOR RESEARCH ON EMOTION AND AFFECT Workshop (LREC 2008)
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="UzFYwVyOBXupOj63x2hHjbnzj4AWxchpTHG9sxr"
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1201880552
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.41076
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+--UzFYwVyOBXupOj63x2hHjbnzj4AWxchpTHG9sxr
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+-----Message d'origine-----
+De : ELDA [mailto:info@elda.org]=20
+Envoy=E9 : vendredi 1 f=E9vrier 2008 09:44
+=C0 : destinataires inconnus:
+Objet : [parole] 2nd Call for Papers: CORPORA FOR RESEARCH ON EMOTION AND
+AFFECT Workshop (LREC 2008)
+
+
+********************************************************************
+Second call for Papers (deadline for abstract : 12/02/2008)
+
+Second International Workshop on EMOTION (satellite of LREC):
+
+CORPORA FOR RESEARCH ON EMOTION AND AFFECT
+
+             Monday, 26 May 2008
+
+            in Marrakech (Morocco)
+
+             In Association with
+
+6th INTERNATIONAL CONFERENCE ON LANGUAGE RESOURCES AND EVALUATION
+
+         LREC2008 http://www.lrec-conf.org/lrec2008/
+
+                 Main Conference
+                 28-29-30 May 2008
+
+**********************************************************************
+
+
+This decade has seen an upsurge of interest in systems that register emotio=
+n
+(in a broad sense) and react appropriately to it. Emotion corpora are
+fundamental both to developing sound conceptual analyses and to training
+these 'emotion-oriented systems' at all levels - to recognise user emotion,
+to express appropriate emotions, to anticipate how a user in one state migh=
+t
+respond to a possible kind of reaction from the machine, etc. Corpora have
+only begun to grow with the area, and much work is needed before they
+provide a sound foundation.
+
+This workshop follows a first successful workshop on Corpora for research o=
+n
+Emotion and Affect at LREC 2006. The HUMAINE network of excellence
+(http://emotion-research.net/) has brought together several groups working
+on the development of emotional databases, the HUMAINE association will
+continue this effort and the workshop aims to broaden the interaction that
+has developed in that context. The HUMAINE Association portal will provide =
+a
+range of services for individuals, such as a web presence, access to data,
+and an email news service; special interest groups will be provided with a
+working folder, a mailing list, and a discussion forum or a blog.
+Conferences, workshops and research projects in the area of emotion-oriente=
+d
+computing can be given a web presence on the portal.
+
+Papers are invited in the area of corpora for research on emotion and
+affect.  They may raise one or more of the following questions. What kind o=
+f
+theory of emotion is needed to guide the area? What are appropriate sources=
+?
+Which modalities should be considered, in which combinations? What are the
+realistic constraints on recording quality? How can the emotional content o=
+f
+episodes be described within a corpus? Which emotion-related features shoul=
+d
+a corpus describe, and how? How should access to corpora be provided? What
+level of standardisation is appropriate? How can quality be assessed?
+Ethical issues in database development and access.
+
+Description of the specific technical issues of the workshop: Many models o=
+f
+emotion are common enough to affect the way teams go about collecting and
+describing emotion-related data. Some which are familiar and intuitively
+appealing are known to be problematic, either because they are theoreticall=
+y
+dated or because they do not transfer to practical contexts. To evaluate th=
+e
+resources that are already available, and to construct valid new corpora,
+research teams need some sense of the models that are relevant to the area.
+
+=95	What are appropriate sources?
+In the area of emotion, some of the hardest problems involve acquiring basi=
+c
+data. Four main types of source are commonly used. Their potential
+contributions and limitations need to be understood.
+
+=95	Acted:
+Many widely used emotion databases consist of acted representations of
+emotion (which may or may not be generated by actors). The method is
+extremely convenient, but it is known that systems trained on acted materia=
+l
+may not transfer to natural emotion. It has to be established what kind of
+acted material is useful for what purposes.
+
+=95	Application-driven:
+A growing range of databases are derived from specific applications (eg cal=
+l
+centres). These are ideal for some purposes, but access is often restricted
+for commercial reasons, and it is highly desirable to have more generic
+material that could underpin work on a wide range of applications.
+
+=95	General naturalistic:
+Data that is representative of everyday life is an attractive ideal, but
+very difficult to collect. Making special-purpose recordings of everyday
+life is a massive task, with the risk that recording changes behaviour.=20
+Several teams have used material from broadcasts, radio & TV (talk shows,
+current affairs). That raises issues of access, signal quality, and
+genuineness.
+
+=95	Induction:
+A natural ideal is to induce emotion of appropriate kinds under appropriate
+circumstances. Satisfying induction is an elusive ideal, but new techniques
+are gradually emerging.
+
+=95	Which modalities should be considered, in which combinations?
+Emotion is reflected in multiple channels - linguistic content,
+paralinguistic expression, facial expression, eye movement, gesture, gross
+body movement, manner of action, visceral changes (heart rate, etc), brain
+states (eeg activity, etc). The obvious ideal is to cover all
+simultaneously, but that is impractical - and it is not clear how often all
+the channels are actually active. The community needs to clarify the
+relative usefulness of the channels, and of strategies for sampling
+combinations.
+
+=95	What are the realistic constraints on recording quality?
+Naturalism tends to be at odds with ease of signal processing. Understandin=
+g
+of the relevant tradeoffs needs to be reached. That includes awareness of
+different applications (high quality may not be crucial for defining the
+expressive behaviours a virtual agent should show) and of timescale for
+solving particular signal processing issues(eg recovering features from
+images of heads in arbitrary poses).
+
+=95	How can the emotional content of episodes be described within a
+corpus?
+Several broad approaches exist to transcribing the emotional content of an
+excerpt - using everyday emotion words; using dimensional descriptions
+rooted in psychological theory (intensity, evaluation, activation, power);
+using concepts from appraisal theory (perceived goal-conduciveness of a
+development, potential for coping, etc). These are being developed in
+specific ways driven by goals such as elegance, inter-rater reliability, an=
+d
+faithfulness to the subtlety of everyday emotion, relevance to agent
+decisions, etc.  There seems to be a real prospect of achieving an agreed
+synthesis of the main schemes.
+
+=95	Which emotion-related features should a corpus describe, and how?
+Corresponding to each emotion-related channel is one or more sets of signs
+relevant to conveying emotion. For instance, paralinguistic signs exist at
+the level of basic features - F0, intensity, formant-related properties, an=
+d
+so on; at the level of linguistic features of prosody ; and at more global
+levels (tune shapes, repetitions, etc). Even for speech, inventories of
+relevant signs need to be developed, and for channels such as idle body
+movements, few descriptive systems have been proposed. Few teams have the
+expertise to annotate many types of sign competently, and so it is importan=
+t
+to establish ways of allowing teams that do have the expertise to make thei=
+r
+annotations available as part of a database. Mainly for lower level
+features, automatic transcription methods exist, and their role needs to be
+clarified. In particular, tests of their reliability are needed, and that
+depends on data that can serve as a reference.
+
+=95	How should access to corpora be provided?
+Practically, it is clearly important to find ways of establishing a
+sustainable and easily expandable multi-modal database for any sorts of
+emotion-related data; to develop tools for easily importing and exporting
+data; to develop analysis tools and application programmers=92 interfaces t=
+o
+work on the stored data and meta-data; and to provide ready access to
+existing data from previous projects. Approaches to those goals need to be
+defined.
+
+=95	What level of standardisation is appropriate?
+Standardisation is clearly desirable in the long term, but with so many
+basic issues unresolved, it is not clear where real consensus can be
+achieved and where it is better to encourage competition among different
+options.
+
+=95	How can quality be assessed?
+It is clear that some existing corpora should not be used for serious
+research. The problem is to develop quality assurance procedures that can
+direct potential users toward those which can.
+
+=95	Ethical issues in database development and access
+Corpora that show people behaving emotionally are very likely to raise
+ethical issues - not simply about signed release forms, but about the impac=
+t
+of appearing in a public forum talking (for instance) about topics that
+distress or excite them. Adequate guidelines need to be developed.
+
+All of the questions above will be studied during the workshop and will
+contribute to the study of practical, methodological and technical issues
+central to developing emotional corpora (such as the methodologies to be
+used for emotional database creation, the coding schemes to be defined,=20
+the technical settings to be used for the collection, the selection of
+appropriate coders).
+
+
+The organising committee:
+Laurence Devillers / Jean-Claude Martin
+Spoken Language Processing group/ Architectures and Models for Interaction,
+LIMSI-CNRS, BP 133, 91403 Orsay Cedex, France
+ (+33) 1 69 85 80 62 /  (+33) 1 69 85 81 04 (phone)
+ (+33) 1 69 85 80 88 / (+33) 1 69 85 80 88 (fax)
+devil@limsi.fr / martin@limsi.fr http://www.limsi.fr/Individu/devil/
+http://www.limsi.fr/Individu/martin/
+
+Roddy Cowie / School of Psychology
+Ellen Douglas-Cowie / Dean of Arts, Humanities and Social Sciences Queen's
+University, Belfast BT7 1NN, UK
++44 2890 974354 / +44 2890 975348  (phone)
++44 2890 664144 / +44 2890 ******  (fax)
+http://www.psych.qub.ac.uk/staff/teaching/cowie/index.aspx
+http://www.qub.ac.uk/en/staff/douglas-cowie/
+r.cowie@qub.ac.uk / e.douglas-Cowie@qub.ac.uk
+
+Anton Batliner - Lehrstuhl fuer Mustererkennung (Informatik 5) Universitaet
+Erlangen-Nuernberg - Martensstrasse 3 91058 Erlangen - F.R. of Germany
+Tel.: +49 9131 85 27823 - Fax.: +49 9131 303811
+batliner@informatik.uni-erlangen.de
+http://www5.informatik.uni-erlangen.de/Personen/batliner/
+
+Contact: Laurence Devillers lrec-emotion@limsi.fr
+
+-------------------------
+IMPORTANT DATES
+-------------------------
+1rt call for paper                                 21 December
+2nd call for paper                                 29 January
+Deadline for 1500-2000 words abstract submission   12 February
+Notification of acceptance                         12 March
+Final version of accepted paper                    4 April
+Workshop full-day                                  26 May
+
+--------------
+SUBMISSIONS
+---------------
+The workshop will consist of paper and poster presentations. Submitted
+abstracts of papers for oral and poster must consist of about 1500-2000
+words. Final submissions should be 4 pages long, must be in English, and
+follow the submission guidelines at LREC2008.
+
+The preferred format is MS word or pdf. The file should be submitted via
+email to lrec-emotion@limsi.fr
+   -----------------------------
+
+As soon as possible, authors are encouraged to send to lrec-emotion@limsi.f=
+r
+a brief email indicating their intention to participate, including their
+contact information and the topic they intend to address in their
+submissions.
+
+Proceedings of the workshop will be printed by the LREC Local Organising
+Committee.
+
+Submitted papers will be blind reviewed.
+
+--------------------------------------------------
+TIME SCHEDULE AND REGISTRATION FEE
+--------------------------------------------------
+The workshop will consist of a full-day session,
+There will be time for collective discussions.
+For this full-day Workshop, the registration fee will
+be specified on http://www.lrec-conf.org/lrec2008/
+
+
+
+
+
+--UzFYwVyOBXupOj63x2hHjbnzj4AWxchpTHG9sxr
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p><br>
+<br>
+-----Message d'origine---<wbr>--<br>
+De : ELDA [mailto:<a href=3D"mailto:info%40elda.org">info@elda.org</a>] <br=
+>
+Envoy=E9 : vendredi 1 f=E9vrier 2008 09:44<br>
+=C0 : destinataires inconnus:<br>
+Objet : [parole] 2nd Call for Papers: CORPORA FOR RESEARCH ON EMOTION AND<b=
+r>
+AFFECT Workshop (LREC 2008)<br>
+<br>
+************<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr>**=
+*******<wbr>*********<wbr>**<br>
+Second call for Papers (deadline for abstract : 12/02/2008)<br>
+<br>
+Second International Workshop on EMOTION (satellite of LREC):<br>
+<br>
+CORPORA FOR RESEARCH ON EMOTION AND AFFECT<br>
+<br>
+Monday, 26 May 2008<br>
+<br>
+in Marrakech (Morocco)<br>
+<br>
+In Association with<br>
+<br>
+6th INTERNATIONAL CONFERENCE ON LANGUAGE RESOURCES AND EVALUATION<br>
+<br>
+LREC2008 <a href=3D"http://www.lrec-conf.org/lrec2008/">http://www.lrec-<wb=
+r>conf.org/<wbr>lrec2008/</a><br>
+<br>
+Main Conference<br>
+                 28-29-30 May 2008<br>
+<br>
+************<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr>**=
+*******<wbr>*********<wbr>****<br>
+<br>
+This decade has seen an upsurge of interest in systems that register emotio=
+n<br>
+(in a broad sense) and react appropriately to it. Emotion corpora are<br>
+fundamental both to developing sound conceptual analyses and to training<br=
+>
+these 'emotion-oriented systems' at all levels - to recognise user emotion,=
+<br>
+to express appropriate emotions, to anticipate how a user in one state migh=
+t<br>
+respond to a possible kind of reaction from the machine, etc. Corpora have<=
+br>
+only begun to grow with the area, and much work is needed before they<br>
+provide a sound foundation.<br>
+<br>
+This workshop follows a first successful workshop on Corpora for research o=
+n<br>
+Emotion and Affect at LREC 2006. The HUMAINE network of excellence<br>
+(<a href=3D"http://emotion-research.net/">http://emotion-<wbr>research.<wbr=
+>net/</a>) has brought together several groups working<br>
+on the development of emotional databases, the HUMAINE association will<br>
+continue this effort and the workshop aims to broaden the interaction that<=
+br>
+has developed in that context. The HUMAINE Association portal will provide =
+a<br>
+range of services for individuals, such as a web presence, access to data,<=
+br>
+and an email news service; special interest groups will be provided with a<=
+br>
+working folder, a mailing list, and a discussion forum or a blog.<br>
+Conferences, workshops and research projects in the area of emotion-oriente=
+d<br>
+computing can be given a web presence on the portal.<br>
+<br>
+Papers are invited in the area of corpora for research on emotion and<br>
+affect.  They may raise one or more of the following questions. What kind o=
+f<br>
+theory of emotion is needed to guide the area? What are appropriate sources=
+?<br>
+Which modalities should be considered, in which combinations? What are the<=
+br>
+realistic constraints on recording quality? How can the emotional content o=
+f<br>
+episodes be described within a corpus? Which emotion-related features shoul=
+d<br>
+a corpus describe, and how? How should access to corpora be provided? What<=
+br>
+level of standardisation is appropriate? How can quality be assessed?<br>
+Ethical issues in database development and access.<br>
+<br>
+Description of the specific technical issues of the workshop: Many models o=
+f<br>
+emotion are common enough to affect the way teams go about collecting and<b=
+r>
+describing emotion-related data. Some which are familiar and intuitively<br=
+>
+appealing are known to be problematic, either because they are theoreticall=
+y<br>
+dated or because they do not transfer to practical contexts. To evaluate th=
+e<br>
+resources that are already available, and to construct valid new corpora,<b=
+r>
+research teams need some sense of the models that are relevant to the area.=
+<br>
+<br>
+=95	What are appropriate sources?<br>
+In the area of emotion, some of the hardest problems involve acquiring basi=
+c<br>
+data. Four main types of source are commonly used. Their potential<br>
+contributions and limitations need to be understood.<br>
+<br>
+=95	Acted:<br>
+Many widely used emotion databases consist of acted representations of<br>
+emotion (which may or may not be generated by actors). The method is<br>
+extremely convenient, but it is known that systems trained on acted materia=
+l<br>
+may not transfer to natural emotion. It has to be established what kind of<=
+br>
+acted material is useful for what purposes.<br>
+<br>
+=95	Application-<wbr>driven:<br>
+A growing range of databases are derived from specific applications (eg cal=
+l<br>
+centres). These are ideal for some purposes, but access is often restricted=
+<br>
+for commercial reasons, and it is highly desirable to have more generic<br>
+material that could underpin work on a wide range of applications.<br>
+<br>
+=95	General naturalistic:<br>
+Data that is representative of everyday life is an attractive ideal, but<br=
+>
+very difficult to collect. Making special-purpose recordings of everyday<br=
+>
+life is a massive task, with the risk that recording changes behaviour. <br=
+>
+Several teams have used material from broadcasts, radio &amp; TV (talk show=
+s,<br>
+current affairs). That raises issues of access, signal quality, and<br>
+genuineness.<br>
+<br>
+=95	Induction:<br>
+A natural ideal is to induce emotion of appropriate kinds under appropriate=
+<br>
+circumstances. Satisfying induction is an elusive ideal, but new techniques=
+<br>
+are gradually emerging.<br>
+<br>
+=95	Which modalities should be considered, in which combinations?<br>
+Emotion is reflected in multiple channels - linguistic content,<br>
+paralinguistic expression, facial expression, eye movement, gesture, gross<=
+br>
+body movement, manner of action, visceral changes (heart rate, etc), brain<=
+br>
+states (eeg activity, etc). The obvious ideal is to cover all<br>
+simultaneously, but that is impractical - and it is not clear how often all=
+<br>
+the channels are actually active. The community needs to clarify the<br>
+relative usefulness of the channels, and of strategies for sampling<br>
+combinations.<br>
+<br>
+=95	What are the realistic constraints on recording quality?<br>
+Naturalism tends to be at odds with ease of signal processing. Understandin=
+g<br>
+of the relevant tradeoffs needs to be reached. That includes awareness of<b=
+r>
+different applications (high quality may not be crucial for defining the<br=
+>
+expressive behaviours a virtual agent should show) and of timescale for<br>
+solving particular signal processing issues(eg recovering features from<br>
+images of heads in arbitrary poses).<br>
+<br>
+=95	How can the emotional content of episodes be described within a<br>
+corpus?<br>
+Several broad approaches exist to transcribing the emotional content of an<=
+br>
+excerpt - using everyday emotion words; using dimensional descriptions<br>
+rooted in psychological theory (intensity, evaluation, activation, power);<=
+br>
+using concepts from appraisal theory (perceived goal-conduciveness of a<br>
+development, potential for coping, etc). These are being developed in<br>
+specific ways driven by goals such as elegance, inter-rater reliability, an=
+d<br>
+faithfulness to the subtlety of everyday emotion, relevance to agent<br>
+decisions, etc.  There seems to be a real prospect of achieving an agreed<b=
+r>
+synthesis of the main schemes.<br>
+<br>
+=95	Which emotion-related features should a corpus describe, and how?<br>
+Corresponding to each emotion-related channel is one or more sets of signs<=
+br>
+relevant to conveying emotion. For instance, paralinguistic signs exist at<=
+br>
+the level of basic features - F0, intensity, formant-related properties, an=
+d<br>
+so on; at the level of linguistic features of prosody ; and at more global<=
+br>
+levels (tune shapes, repetitions, etc). Even for speech, inventories of<br>
+relevant signs need to be developed, and for channels such as idle body<br>
+movements, few descriptive systems have been proposed. Few teams have the<b=
+r>
+expertise to annotate many types of sign competently, and so it is importan=
+t<br>
+to establish ways of allowing teams that do have the expertise to make thei=
+r<br>
+annotations available as part of a database. Mainly for lower level<br>
+features, automatic transcription methods exist, and their role needs to be=
+<br>
+clarified. In particular, tests of their reliability are needed, and that<b=
+r>
+depends on data that can serve as a reference.<br>
+<br>
+=95	How should access to corpora be provided?<br>
+Practically, it is clearly important to find ways of establishing a<br>
+sustainable and easily expandable multi-modal database for any sorts of<br>
+emotion-related data; to develop tools for easily importing and exporting<b=
+r>
+data; to develop analysis tools and application programmers=92 interfaces t=
+o<br>
+work on the stored data and meta-data; and to provide ready access to<br>
+existing data from previous projects. Approaches to those goals need to be<=
+br>
+defined.<br>
+<br>
+=95	What level of standardisation is appropriate?<br>
+Standardisation is clearly desirable in the long term, but with so many<br>
+basic issues unresolved, it is not clear where real consensus can be<br>
+achieved and where it is better to encourage competition among different<br=
+>
+options.<br>
+<br>
+=95	How can quality be assessed?<br>
+It is clear that some existing corpora should not be used for serious<br>
+research. The problem is to develop quality assurance procedures that can<b=
+r>
+direct potential users toward those which can.<br>
+<br>
+=95	Ethical issues in database development and access<br>
+Corpora that show people behaving emotionally are very likely to raise<br>
+ethical issues - not simply about signed release forms, but about the impac=
+t<br>
+of appearing in a public forum talking (for instance) about topics that<br>
+distress or excite them. Adequate guidelines need to be developed.<br>
+<br>
+All of the questions above will be studied during the workshop and will<br>
+contribute to the study of practical, methodological and technical issues<b=
+r>
+central to developing emotional corpora (such as the methodologies to be<br=
+>
+used for emotional database creation, the coding schemes to be defined, <br=
+>
+the technical settings to be used for the collection, the selection of<br>
+appropriate coders).<br>
+<br>
+The organising committee:<br>
+Laurence Devillers / Jean-Claude Martin<br>
+Spoken Language Processing group/ Architectures and Models for Interaction,=
+<br>
+LIMSI-CNRS, BP 133, 91403 Orsay Cedex, France<br>
+ (&#43;33) 1 69 85 80 62 /  (&#43;33) 1 69 85 81 04 (phone)<br>
+ (&#43;33) 1 69 85 80 88 / (&#43;33) 1 69 85 80 88 (fax)<br>
+<a href=3D"mailto:devil%40limsi.fr">devil@limsi.<wbr>fr</a> / <a href=3D"ma=
+ilto:martin%40limsi.fr">martin@limsi.<wbr>fr</a> <a href=3D"http://www.lims=
+i.fr/Individu/devil/">http://www.limsi.<wbr>fr/Individu/<wbr>devil/</a><br>
+<a href=3D"http://www.limsi.fr/Individu/martin/">http://www.limsi.<wbr>fr/I=
+ndividu/<wbr>martin/</a><br>
+<br>
+Roddy Cowie / School of Psychology<br>
+Ellen Douglas-Cowie / Dean of Arts, Humanities and Social Sciences Queen's<=
+br>
+University, Belfast BT7 1NN, UK<br>
+&#43;44 2890 974354 / &#43;44 2890 975348  (phone)<br>
+&#43;44 2890 664144 / &#43;44 2890 ******  (fax)<br>
+<a href=3D"http://www.psych.qub.ac.uk/staff/teaching/cowie/index.aspx">http=
+://www.psych.<wbr>qub.ac.uk/<wbr>staff/teaching/<wbr>cowie/index.<wbr>aspx<=
+/a><br>
+<a href=3D"http://www.qub.ac.uk/en/staff/douglas-cowie/">http://www.qub.<wb=
+r>ac.uk/en/<wbr>staff/douglas-<wbr>cowie/</a><br>
+<a href=3D"mailto:r.cowie%40qub.ac.uk">r.cowie@qub.<wbr>ac.uk</a> / <a href=
+=3D"mailto:e.douglas-Cowie%40qub.ac.uk">e.douglas-Cowie@<wbr>qub.ac.uk</a><=
+br>
+<br>
+Anton Batliner - Lehrstuhl fuer Mustererkennung (Informatik 5) Universitaet=
+<br>
+Erlangen-Nuernberg - Martensstrasse 3 91058 Erlangen - F.R. of Germany<br>
+Tel.: &#43;49 9131 85 27823 - Fax.: &#43;49 9131 303811<br>
+<a href=3D"mailto:batliner%40informatik.uni-erlangen.de">batliner@informati=
+k<wbr>.uni-erlangen.<wbr>de</a><br>
+<a href=3D"http://www5.informatik.uni-erlangen.de/Personen/batliner/">http:=
+//www5.<wbr>informatik.<wbr>uni-erlangen.<wbr>de/Personen/<wbr>batliner/</a=
+><br>
+<br>
+Contact: Laurence Devillers <a href=3D"mailto:lrec-emotion%40limsi.fr">lrec=
+-emotion@<wbr>limsi.fr</a><br>
+<br>
+------------<wbr>---------<wbr>----<br>
+IMPORTANT DATES<br>
+------------<wbr>---------<wbr>----<br>
+1rt call for paper                                 21 December<br>
+2nd call for paper                                 29 January<br>
+Deadline for 1500-2000 words abstract submission   12 February<br>
+Notification of acceptance                         12 March<br>
+Final version of accepted paper                    4 April<br>
+Workshop full-day                                  26 May<br>
+<br>
+------------<wbr>--<br>
+SUBMISSIONS<br>
+------------<wbr>---<br>
+The workshop will consist of paper and poster presentations. Submitted<br>
+abstracts of papers for oral and poster must consist of about 1500-2000<br>
+words. Final submissions should be 4 pages long, must be in English, and<br=
+>
+follow the submission guidelines at LREC2008.<br>
+<br>
+The preferred format is MS word or pdf. The file should be submitted via<br=
+>
+email to <a href=3D"mailto:lrec-emotion%40limsi.fr">lrec-emotion@<wbr>limsi=
+.fr</a><br>
+   ------------<wbr>---------<wbr>--------<br>
+<br>
+As soon as possible, authors are encouraged to send to <a href=3D"mailto:lr=
+ec-emotion%40limsi.fr">lrec-emotion@<wbr>limsi.fr</a><br>
+a brief email indicating their intention to participate, including their<br=
+>
+contact information and the topic they intend to address in their<br>
+submissions.<br>
+<br>
+Proceedings of the workshop will be printed by the LREC Local Organising<br=
+>
+Committee.<br>
+<br>
+Submitted papers will be blind reviewed.<br>
+<br>
+------------<wbr>---------<wbr>---------<wbr>---------<wbr>---------<wbr>--=
+<br>
+TIME SCHEDULE AND REGISTRATION FEE<br>
+------------<wbr>---------<wbr>---------<wbr>---------<wbr>---------<wbr>--=
+<br>
+The workshop will consist of a full-day session,<br>
+There will be time for collective discussions.<br>
+For this full-day Workshop, the registration fee will<br>
+be specified on <a href=3D"http://www.lrec-conf.org/lrec2008/">http://www.l=
+rec-<wbr>conf.org/<wbr>lrec2008/</a><br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/253=
+2;_ylc=3DX3oDMTM0cHVxMmY5BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI1MzIEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjAxODgwNTM3BHRwY=
+0lkAzI1MzI-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwaWFiZzNuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI1MzIEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjAxODgwNTM3?act=3Dreply&me=
+ssageNum=3D2532">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNjdoMmJpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIwMTg4MDUzNw--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlNGJnbmgyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIwMTg4MDUzNw--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmZzc5b2ZpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMDE4ODA1Mzc-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbGpqZ2xuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIwMTg4MDUzNw--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmbXVmZWE5BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMDE4ODA1Mzc-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjaTlzdHVoBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMDE4ODA1Mzc-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmaGVkYzk0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMDE4ODA1Mzc-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlYTJhczRkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIwMTg4MDUzNw--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkNGlpYm1uBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjAxODgwNTM3">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkN3FqaXYzBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjAxODgwNTM3">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmdmJxcTI1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMDE4ODA1Mzc-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+YnJuc2IxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjAxODgwNTM3">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlb2dvdXZ2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIwMTg4MDUzNw--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Network content -->
+              <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrcjVqODNiBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIwMTg4MDUzNw--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJudGxoZ2drBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIwMTg4MDUzNw--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvZWRmcDljBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMDE4ODA1Mzc-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div>   <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440=
+/grpspId=3D2123803216/msgId=3D2532/stime=3D1201880537/nc1=3D1/nc2=3D2/nc3=
+=3D3" width=3D"1" height=3D"1"> <br>
+
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a{
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc{
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o{font-size: 0; }
+.MsoNormal{
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq{margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--UzFYwVyOBXupOj63x2hHjbnzj4AWxchpTHG9sxr--

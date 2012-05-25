@@ -1,0 +1,228 @@
+From - Thu Dec 10 14:34:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs548916far;
+        Tue, 6 Jan 2009 03:09:10 -0800 (PST)
+Received: by 10.223.106.12 with SMTP id v12mr15351685fao.16.1231240150534;
+        Tue, 06 Jan 2009 03:09:10 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 10si31954999fxm.3.2009.01.06.03.09.03;
+        Tue, 06 Jan 2009 03:09:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1LK9jU-0004AZ-5A; Tue, 06 Jan 2009 12:04:24 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1LK9jN-00049y-0M; Tue, 06 Jan 2009 12:04:17 +0100
+Received: from smtps.di.fc.ul.pt [194.117.22.93] 
+	by rolf.uib.no for corpora@uib.no with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69) id 1LK9jL-0001KD-5d; Tue, 06 Jan 2009 12:04:24 +0100
+Received: from ncardoso-macbook.informatics.sintef.no (unknown [128.39.215.73])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtps.di.fc.ul.pt (Postfix) with ESMTP id 16A1D1B83E0
+	for <corpora@uib.no>; Tue,  6 Jan 2009 10:42:05 +0000 (WET)
+Message-ID: <49633594.3030600@xldb.di.fc.ul.pt>
+Date: Tue, 06 Jan 2009 11:42:28 +0100
+From: Nuno Cardoso <ncardoso@xldb.di.fc.ul.pt>
+Organization: FCUL
+User-Agent: Thunderbird 2.0.0.19 (Macintosh/20081209)
+MIME-Version: 1.0
+To: corpora@uib.no
+References: <495E0F4D.8090204@xldb.di.fc.ul.pt>
+	<47AC1666471FFC41873637D50D111B8116CE148020@SINTEFEXMBX01.sintef.no>
+In-Reply-To: <47AC1666471FFC41873637D50D111B8116CE148020@SINTEFEXMBX01.sintef.no>
+X-checked-clean: by exiscan on rolf
+X-Scanner: 61fc94c387c326c72d77f676ad837948 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.1 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 BODY: UIB_MAILWON
+	0.0 BODY: HTML included in message
+Subject: [Corpora-List] Call for Participation in GikiCLEF 2009
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: ncardoso@xldb.di.fc.ul.pt
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0522663394=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+This is a multi-part message in MIME format.
+--===============0522663394==
+Content-Type: multipart/alternative;
+	boundary="------------030905040908030305040809"
+
+This is a multi-part message in MIME format.
+--------------030905040908030305040809
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Apologies for cross-postings 
+
+=========================================================================
+GikiCLEF - Cross-language Geographic Information Retrieval from Wikipedia
+A CLEF 2009 track
+=========================================================================
+http://www.linguateca.pt/GikiCLEF/
+
+----------------------
+Call for Participation
+----------------------
+
+You are invited to participate in GikiCLEF 2009, a CLEF track, whose aim is to evaluate systems which find Wikipedia entries / documents that answer a particular information need which requires geographical reasoning of some sort.
+
+GikiCLEF is the follow-up of the GikiP 2008 pilot task which ran under GeoCLEF 2008, and is one of the tracks under CLEF, whose workshop will take place in Corfu Greece in connection with ECDL 2009.
+
+TASK DESCRIPTION:
+=================
+
+Systems will receive a list of 50 questions and will have to return a list of answers (in the form of titles of Wikipedia entries) for each, from the GikiCLEF collection. 
+
+GikiCLEF LANGUAGES:
+===================
+Questions and answers are to be found in the nine languages (and ten Wikipedia versions) below:
+
+Bulgarian (BG), Dutch (NL), English (EN), German (DE), Italian (IT), Norwegian (NN and NO), Portuguese (PT), Romanian (RO) and Spanish (ES).
+
+Systems may participate in any language subset, although the best system would have to process all languages.
+
+GikiCLEF COLLECTION:
+===================
+
+The GikiCLEF collection comprehends the June 2008 Wikipedia document collections for the above mentioned languages, processed by the WikiXML tool developed by the University of Amsterdam (http://ilps.science.uva.nl/WikiXML/xmlformat.php). Also available to the participants are the June 2008 MediaWiki SQL and HTML dumps for the GikiCLEF languages.
+
+TOPICS:
+=======
+
+Topics (or rather, questions) will be released early March 2009, in all GikiCLEF languages. The topic choice committee will devise topics with crosslingual and cultural interest, so that the need for looking in Wikipedia in different languages is not artificial.
+
+See the Web site for topic examples and previous GikiP topics.
+
+EVALUATION:
+===========
+
+After pooling all answers returned by the participant systems,
+they will be manually assessed by the organization.
+The systems will be evaluated according to the number of correct hits
+and precision in all languages, so that multilinguality is rewarded.
+
+IMPORTANT DATES:
+================
+
+  10 January 2009: Collection release.
+  18 January 2009: Final registration required.
+    February 2009: Discussion / Publication of the final definition of the GikiCLEF task.
+       March 2009: Topic release and run submission.
+(2 weeks after topic release): Deadline for run submission.
+        June 2009: Assessment and GikiCLEF results made available.
+   14 August 2009: Submission of Papers for Working Notes
+30 Sep/2 Oct 2009: CLEF Workshop (in Corfu, Greece)
+
+
+To indicate your interest and/or preliminary register, use the form on the site.
+
+
+--------------030905040908030305040809
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+  <title></title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<pre>Apologies for cross-postings </pre>
+<pre wrap="">=========================================================================
+GikiCLEF - Cross-language Geographic Information Retrieval from Wikipedia
+A CLEF 2009 track
+=========================================================================
+<a class="moz-txt-link-freetext" href="http://www.linguateca.pt/GikiCLEF/">http://www.linguateca.pt/GikiCLEF/</a>
+
+----------------------
+Call for Participation
+----------------------
+
+You are invited to participate in GikiCLEF 2009, a CLEF track, whose aim is to evaluate systems which find Wikipedia entries / documents that answer a particular information need which requires geographical reasoning of some sort.
+</pre>
+<pre wrap="">GikiCLEF is the follow-up of the GikiP 2008 pilot task which ran under GeoCLEF 2008, and is one of the tracks under CLEF, whose workshop will take place in Corfu Greece in connection with ECDL 2009.
+</pre>
+<pre wrap="">TASK DESCRIPTION:
+=================
+
+Systems will receive a list of 50 questions and will have to return a list of answers (in the form of titles of Wikipedia entries) for each, from the GikiCLEF collection. 
+
+GikiCLEF LANGUAGES:
+===================
+Questions and answers are to be found in the nine languages (and ten Wikipedia versions) below:
+</pre>
+<pre wrap="">Bulgarian (BG), Dutch (NL), English (EN), German (DE), Italian (IT), Norwegian (NN and NO), Portuguese (PT), Romanian (RO) and Spanish (ES).
+
+Systems may participate in any language subset, although the best system would have to process all languages.
+
+GikiCLEF COLLECTION:
+===================
+
+The GikiCLEF collection comprehends the June 2008 Wikipedia document collections for the above mentioned languages, processed by the WikiXML tool developed by the University of Amsterdam (<a class="moz-txt-link-freetext" href="http://ilps.science.uva.nl/WikiXML/xmlformat.php">http://ilps.science.uva.nl/WikiXML/xmlformat.php</a>). Also available to the participants are the June 2008 MediaWiki SQL and HTML dumps for the GikiCLEF languages.
+
+TOPICS:
+=======
+
+Topics (or rather, questions) will be released early March 2009, in all GikiCLEF languages. The topic choice committee will devise topics with crosslingual and cultural interest, so that the need for looking in Wikipedia in different languages is not artificial.
+</pre>
+<pre wrap=""><!---->See the Web site for topic examples and previous GikiP topics.
+</pre>
+<pre wrap="">EVALUATION:
+===========
+
+After pooling all answers returned by the participant systems,
+they will be manually assessed by the organization.
+The systems will be evaluated according to the number of correct hits
+and precision in all languages, so that multilinguality is rewarded.
+
+IMPORTANT DATES:
+================
+
+  10 January 2009: Collection release.
+  18 January 2009: Final registration required.
+    February 2009: Discussion / Publication of the final definition of the GikiCLEF task.
+       March 2009: Topic release and run submission.
+(2 weeks after topic release): Deadline for run submission.
+        June 2009: Assessment and GikiCLEF results made available.
+   14 August 2009: Submission of Papers for Working Notes
+30 Sep/2 Oct 2009: CLEF Workshop (in Corfu, Greece)
+
+
+To indicate your interest and/or preliminary register, use the form on the site.
+</pre>
+</body>
+</html>
+
+--------------030905040908030305040809--
+
+
+--===============0522663394==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============0522663394==--
+

@@ -1,0 +1,136 @@
+From - Thu Dec 10 14:32:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs234066waa;
+        Sun, 29 Jun 2008 09:47:23 -0700 (PDT)
+Received: by 10.110.43.20 with SMTP id q20mr3799562tiq.14.1214758041353;
+        Sun, 29 Jun 2008 09:47:21 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id i9si8353958tid.15.2008.06.29.09.46.29;
+        Sun, 29 Jun 2008 09:47:21 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B993216CFC; Sun, 29 Jun 2008 18:44:49 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C7B5E16D1F;
+	Sun, 29 Jun 2008 18:42:19 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id A67ED3D65;
+	Sun, 29 Jun 2008 18:42:19 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id KrUvSYhmslZX; Sun, 29 Jun 2008 18:42:19 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id C319C3D66;
+	Sun, 29 Jun 2008 18:42:01 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 37DD53D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 27 Jun 2008 18:56:31 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id EzCHeZc46oVK for <elsnet-list@mailman.elsnet.org>;
+	Fri, 27 Jun 2008 18:56:31 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 19AB53CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 27 Jun 2008 18:56:31 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B303115AF6; Fri, 27 Jun 2008 18:52:14 +0200 (MEST)
+Received: from ug-out-1314.google.com (ug-out-1314.google.com [66.249.92.174])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1F82415AED
+	for <elsnet-list@elsnet.org>; Fri, 27 Jun 2008 18:51:42 +0200 (MEST)
+Received: by ug-out-1314.google.com with SMTP id z27so413585ugc.49
+	for <elsnet-list@elsnet.org>; Fri, 27 Jun 2008 09:51:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type:content-transfer-encoding
+	:content-disposition;
+	bh=GwAYuBhy1zbBWLwfDDRx2TjAyjrTgjc3B7rY06pyiSE=;
+	b=Gn4DXOJ0ja1loua1yx+NiPxZibIgE3c/yg5NHWJ9yzPUFsOPV97ElZICp/Q8eWbyfV
+	T0/M/DceKCXRdfqzTQDREsSaJZSbShEqOQmhYQJtmFrwQycdYzBriP7XrlbJUzlwJkAe
+	JyPrJ1R6QE8GUrnRUu5DonDwD+479Sz6bAdig=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type
+	:content-transfer-encoding:content-disposition;
+	b=DNnQju6JcyxRoLVDRJIS/s1uDIweu8dTIvF7VlptzvgFnpcVRPdLfi+7pN3sLtGBJL
+	P70rDfI86QIQVTPw6vUC4siVxXQ9mxXDg+i9YCAhKKsNBc4of2NfUxq3Ym3rNA2CEYW+
+	dbd70KN8NYBedOvE1xE6fBEVQlPpJ28Bk+cew=
+Received: by 10.67.118.2 with SMTP id v2mr2167656ugm.30.1214585502104;
+	Fri, 27 Jun 2008 09:51:42 -0700 (PDT)
+Received: by 10.67.118.19 with HTTP; Fri, 27 Jun 2008 09:51:42 -0700 (PDT)
+Message-ID: <ae6f667f0806270951v76de0508xdca52eec4f9849a9@mail.gmail.com>
+Date: Fri, 27 Jun 2008 09:51:42 -0700
+From: "David van Leeuwen" <david.vanleeuwen@gmail.com>
+To: aisb@cogs.susx.ac.uk, agents@cs.umbc.edu, eca_list@vhml.org, mumin@cst.dk, 
+	humaine-all@emotion-research.net, siksleden@cs.uu.nl, 
+	hci-link@uni-paderborn.de, ml@isle.org, salt@dcs.shef.ac.uk, 
+	connectionists@cs.cmu.edu, submission@vislist.com, 
+	robotics-worldwide@usc.edu, corpora@uib.no, ln@cines.fr, 
+	elsnet-list@elsnet.org, rasmusse@ptd.net, sigdial@loria.fr, 
+	chi-Announcements@acm.org, bcs-hci-request@jiscmail.ac.uk, 
+	dbworld@cs.wisc.edu
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+X-Mailman-Approved-At: Sun, 29 Jun 2008 18:41:49 +0200
+Cc: 
+Subject: [Elsnet-list] Call for Participation MLMI 2008, Utrecht,
+	The Netherlands
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+(multiple apologies for multiple postings)
+
+Call for Participation: MLMI 2008 (5th Workshop on Machine Learning
+and Multimodal Interaction)
+
+Management summary: early registration is closing 1 July 2008,
+workshop programme is now available at
+http://www.mlmi.info/index.php?id=programme .
+
+               5th Joint Workshop on Machine Learning
+               and Multimodal Interaction (MLMI 2008)
+
+                       8-10 September 2008
+                     Utrecht, The Netherlands
+
+                      http://www.mlmi.info
+
+The fifth MLMI workshop will be held in Utrecht, The Netherlands,
+following successful workshops in Martigny (2004), Edinburgh (2005),
+Washington (2006) and Brno (2007).  The MLMI joint multi-disciplinary
+workshops bring together researchers from the different communities
+working on the common theme of advanced machine learning algorithms
+applied to multimodal human-human and human-computer interaction.
+MLMI 2008 will feature a special session on user requirements and
+evaluation of meeting browsers, and the AMI Career Day.
+
+---david
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

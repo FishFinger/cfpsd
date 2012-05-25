@@ -1,0 +1,285 @@
+From - Thu Dec 10 14:38:04 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.122.79 with SMTP id k15cs877003bkr;
+        Fri, 14 Aug 2009 14:15:02 -0700 (PDT)
+Received: by 10.210.76.15 with SMTP id y15mr1792915eba.26.1250284494910;
+        Fri, 14 Aug 2009 14:14:54 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 21si3991162ewy.90.2009.08.14.14.14.44;
+        Fri, 14 Aug 2009 14:14:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1Mc43Q-00036A-Bf; Fri, 14 Aug 2009 23:11:16 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1Mc43P-000361-BS; Fri, 14 Aug 2009 23:11:15 +0200
+Received: from ey-out-1920.google.com [74.125.78.147] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
+	id 1Mc43O-0002yO-Ft; Fri, 14 Aug 2009 23:11:15 +0200
+Received: by ey-out-1920.google.com with SMTP id 3so457586eyh.28
+	for <corpora@uib.no>; Fri, 14 Aug 2009 14:11:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:in-reply-to
+	:references:date:x-google-sender-auth:message-id:subject:from:to:cc
+	:content-type; bh=hZ6gFSiGni31WF+mMuwkGqpSOM82pM8w1ESJs4+V+3s=;
+	b=CqHbcUm/rzUR9BPFFhTJtJBLCuuSllFlKkiYC9TKsVv9KHkgiIr1pergo7rvVtNFGd
+	hbto8D/D8GAIu3ISIpTQwYRoE0mHauClCW8YezpaUXdCeR+nNcuxzXqoR3W/nRbGcyRJ
+	6T8s9zQQUdv4P8n8yxmdO+iK3ZuWSmubUXLQs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:sender:in-reply-to:references:date
+	:x-google-sender-auth:message-id:subject:from:to:cc:content-type;
+	b=iwvWzrri3O14ezcyV00nxL0jcZUbQactuLMPcUye91R2defsjC5y/ewbCHXzcsPZfQ
+	ZrR1+o8fbaKNTKTlJsYycw8nxqSgXST9izYivqqDUQCtctZXoWSpkqIpGOa/ZFca3m3J
+	pWyaQc1koZ8777qrbL8NPhidNBbQ+RuCyumk8=
+MIME-Version: 1.0
+Received: by 10.210.82.2 with SMTP id f2mr41987ebb.34.1250284274146; Fri, 14 
+	Aug 2009 14:11:14 -0700 (PDT)
+In-Reply-To: <3ae3aa420908141246v558a37efsdec0d3ed5ebdc0c1@mail.gmail.com>
+References: <8BB29D5D-119A-498D-8C6B-A7C29EAE735B@mimectl>
+	<007501ca1c7a$dd50ac40$6501a8c0@bishop>
+	<3ae3aa420908141246v558a37efsdec0d3ed5ebdc0c1@mail.gmail.com>
+Date: Fri, 14 Aug 2009 23:11:14 +0200
+X-Google-Sender-Auth: f3862b7d8ddd6113
+Message-ID: <51cfc9880908141411r2af70a3csf2c34f7bc2754d6e@mail.gmail.com>
+From: Yannick Versley <versley@sfs.uni-tuebingen.de>
+To: linasvepstas@gmail.com
+X-checked-clean: by exiscan on rolf
+X-Scanner: 1a947997d59146184718c9f5bb111e85 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -5.8 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; -6.0 another conference
+	0.1 BODY: UIB_MAILWON 0.0 BODY: HTML included in message
+Cc: corpora@uib.no
+Subject: Re: [Corpora-List] Call for Papers: Mining User-GeneratedContent
+	for Security - MINUCS 2009
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1380403387=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+--===============1380403387==
+Content-Type: multipart/alternative; boundary=0015174c40b00760840471207e40
+
+--0015174c40b00760840471207e40
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+I think there's several aspects that we should try to separate out:
+
+* one is the aspect that NLP and IR tools are used, and will be used,
+  for practical purposes. By individuals, companies, and governments.
+  This is also one of the reasons why computational linguists enjoy a
+  bit more funding than, say, classical Greek historians.
+  I also think there's a merit to organize a workshop specifically for
+  *real world applications* of IR/NLP techniques instead of the pre-
+  fabricated toy problems that CL usually works on. (Hint: They're
+  "toy" problems because the developer can hide behind Dijkstra's
+  wall and pretend that all that counts is evaluation figures on his
+  testing data, without questioning the representativity of the testing
+  data, the method of evaluation, or the sensibility of the task as a
+  whole. That doesn't mean the problems can be challenging and
+  difficult, just that there is an additional step to make if you want
+  to apply these standardized problems to anything in the real world,
+  and typically you would choose different tradeoffs for recall, computing
+  time, and necessary human intervention than if you do CL research).
+* The second point is whether these techniques are needed. They are.
+  I think the workshop organizers put some thought into the list of
+  applications that they presented in the CfP.
+  As an additional application, consider the prevention and also the
+  aftermath of genocides (which still happen in our nice cozy world,
+  possibly ignored by the media at large).
+From:
+http://daily.swarthmore.edu/2005/2/17/un-advisor-on-genocide-commends-swat-students-illustrates-challenges-of-international-action/
+
+> In finding information about potential and ongoing genocide he said he had
+> to both sort through the diverse, voluminous system of information retrieval
+> the UN currently has and find information outside the system in order to
+> alert the international community to unknown genocidal situations. To
+> maintain the trust of the UN and his power to influence action, Mendez
+> stressed the fact that he had to closely examine the veracity of information
+> and also give reasonable, creative suggestions that are both within the
+> limits of what the Security Council will agree to enact and which will not
+> make the situation worse.
+>
+With journalism increasingly being replaced by cute kittens and
+drivel-mongering due to the decreasing number of people willing to pay for a
+newspaper when they
+can just switch on the TV or their internets, retrieval of information, but
+also methods
+that helps judge its credibility ("I read it on the internet"), will be
+essential in maintaining the ability of people to have a critical, informed
+perspective on the world.
+* Now to the last point: I think that the "Mining ... for Security" is very
+poorly chosen.
+  It immediately brings up the reading of Security as 'anything that my
+friendly funding agency needs to do to save the day', or possibly, anything
+that another agency in a non-democratic regime (who will also buy our
+system) needs to do.
+It is a shame that security, as the security and well-being of citizens, is
+no longer the preferred reading for constructions in this kind, but that's
+how it is.
+And if you, as a workshop organizer, think it's sufficiently ambiguous that
+you need to add a disclaimer that it's not for discussion of nilly-willy
+ethical issues: well,
+maybe you can *also* see that your workshop title is poorly chosen if you
+think
+it brings on thoughts about ethical issues. If you wrote
+"Mining user-generated content for real-world purposes", no one would think
+about
+poorly-legitimated three letter agencies and opressive regimes in need of
+censorship and detection of dissidents.
+To everyone else: if you think that your research cannot be used for
+practical purposes (good or bad), re-read points one and two.
+
+Just my two cents, and sorry for the long post.
+
+Best wishes,
+Yannick Versley
+
+I think you missed the point. To quote:
+>
+> " Submissions that focus on legal questions stemming from
+> snooping, spying, privacy infringement or violation, etc., will not
+> be considered relevant to the Theme of the Workshop, and the
+> Committee will not be able to review them."
+>
+> That is the outrageous statement that lead to the distress.  It is
+> a matter of fact that the technologies being reviewed here are
+> being used for "snooping, spying, privacy infringement or violation,
+> etc." In case you haven't been reading the newspapers, there
+> was a recent election in Iran, wherein an earlier version of this
+> kind of technology was used to suppress news and to find and
+> jail dissidents, some of whom were apparently beaten to death.
+>
+> These technologies can be, and are being used in anti-democratic,
+> anti-persona-freedom kinds of ways. Researchers such as you,
+> who seem to be unaware of this, should become aware.
+>
+
+--0015174c40b00760840471207e40
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+I think there&#39;s several aspects that we should try to separate out:<br>=
+<br>* one is the aspect that NLP and IR tools are used, and will be used,<b=
+r>=A0 for practical purposes. By individuals, companies, and governments.<b=
+r>
+=A0 This is also one of the reasons why computational linguists enjoy a<br>=
+=A0 bit more funding than, say, classical Greek historians.<br>=A0 I also t=
+hink there&#39;s a merit to organize a workshop specifically for<br>=A0 *re=
+al world applications* of IR/NLP techniques instead of the pre-<br>
+=A0 fabricated toy problems that CL usually works on. (Hint: They&#39;re<br=
+>=A0 &quot;toy&quot; problems because the developer can hide behind Dijkstr=
+a&#39;s<br>=A0 wall and pretend that all that counts is evaluation figures =
+on his<br>
+=A0 testing data, without questioning the representativity of the testing<b=
+r>=A0 data, the method of evaluation, or the sensibility of the task as a<b=
+r>=A0 whole. That doesn&#39;t mean the problems can be challenging and<br>=
+=A0 difficult, just that there is an additional step to make if you want<br=
+>
+=A0 to apply these standardized problems to anything in the real world,<br>=
+=A0 and typically you would choose different tradeoffs for recall, computin=
+g<br>=A0 time, and necessary human intervention than if you do CL research)=
+.<br>
+* The second point is whether these techniques are needed. They are.<br>=A0=
+ I think the workshop organizers put some thought into the list of<br>=A0 a=
+pplications that they presented in the CfP.<br>=A0 As an additional applica=
+tion, consider the prevention and also the<br>
+=A0 aftermath of genocides (which still happen in our nice cozy world,<br>=
+=A0 possibly ignored by the media at large).<br>From: <a href=3D"http://dai=
+ly.swarthmore.edu/2005/2/17/un-advisor-on-genocide-commends-swat-students-i=
+llustrates-challenges-of-international-action/">http://daily.swarthmore.edu=
+/2005/2/17/un-advisor-on-genocide-commends-swat-students-illustrates-challe=
+nges-of-international-action/</a><br>
+<blockquote style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt=
+ 0pt 0pt 0.8ex; padding-left: 1ex;" class=3D"gmail_quote">In finding inform=
+ation about potential and ongoing genocide he said he
+had to both sort through the diverse, voluminous system of information
+retrieval the UN currently has and find information outside the system
+in order to alert the international community to unknown genocidal
+situations. To maintain the trust of the UN and his power to influence
+action, Mendez stressed the fact that he had to closely examine the
+veracity of information and also give reasonable, creative suggestions
+that are both within the limits of what the Security Council will agree
+to enact and which will not make the situation worse.<br></blockquote>With =
+journalism increasingly being replaced by cute kittens and drivel-mongering=
+ due to the decreasing number of people willing to pay for a newspaper when=
+ they<br>
+can just switch on the TV or their internets, retrieval of information, but=
+ also methods<br>that helps judge its credibility (&quot;I read it on the i=
+nternet&quot;), will be essential in maintaining the ability of people to h=
+ave a critical, informed perspective on the world.<br>
+* Now to the last point: I think that the &quot;Mining ... for Security&quo=
+t; is very poorly chosen.<br>=A0 It immediately brings up the reading of Se=
+curity as &#39;anything that my friendly funding agency needs to do to save=
+ the day&#39;, or possibly, anything that another agency in a non-democrati=
+c regime (who will also buy our system) needs to do.<br>
+It is a shame that security, as the security and well-being of citizens, is=
+ no longer the preferred reading for constructions in this kind, but that&#=
+39;s how it is.<br>And if you, as a workshop organizer, think it&#39;s suff=
+iciently ambiguous that you need to add a disclaimer that it&#39;s not for =
+discussion of nilly-willy ethical issues: well,<br>
+maybe you can *also* see that your workshop title is poorly chosen if you t=
+hink<br>it brings on thoughts about ethical issues. If you wrote<br>&quot;M=
+ining user-generated content for real-world purposes&quot;, no one would th=
+ink about<br>
+poorly-legitimated three letter agencies and opressive regimes in need of c=
+ensorship and detection of dissidents.<br>To everyone else: if you think th=
+at your research cannot be used for practical purposes (good or bad), re-re=
+ad points one and two.<br>
+<br>Just my two cents, and sorry for the long post.<br><br>Best wishes,<br>=
+Yannick Versley<br><br><div class=3D"gmail_quote"><blockquote class=3D"gmai=
+l_quote" style=3D"border-left: 1px solid rgb(204, 204, 204); margin: 0pt 0p=
+t 0pt 0.8ex; padding-left: 1ex;">
+I think you missed the point. To quote:<br>
+<div class=3D"im"><br>
+&quot; Submissions that focus on legal questions stemming from<br>
+snooping, spying, privacy infringement or violation, etc., will not<br>
+be considered relevant to the Theme of the Workshop, and the<br>
+Committee will not be able to review them.&quot;<br>
+<br>
+</div>That is the outrageous statement that lead to the distress. =A0It is<=
+br>
+a matter of fact that the technologies being reviewed here are<br>
+being used for &quot;snooping, spying, privacy infringement or violation,<b=
+r>
+etc.&quot; In case you haven&#39;t been reading the newspapers, there<br>
+was a recent election in Iran, wherein an earlier version of this<br>
+kind of technology was used to suppress news and to find and<br>
+jail dissidents, some of whom were apparently beaten to death.<br>
+<br>
+These technologies can be, and are being used in anti-democratic,<br>
+anti-persona-freedom kinds of ways. Researchers such as you,<br>
+who seem to be unaware of this, should become aware.<br></blockquote></div>=
+<br>
+
+--0015174c40b00760840471207e40--
+
+
+--===============1380403387==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============1380403387==--
+

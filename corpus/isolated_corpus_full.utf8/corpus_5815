@@ -1,0 +1,310 @@
+From - Thu Dec 10 14:38:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.62.208 with SMTP id y16cs569943bkh;
+        Sun, 9 Aug 2009 10:45:50 -0700 (PDT)
+Received: by 10.210.68.17 with SMTP id q17mr2022447eba.6.1249839948061;
+        Sun, 09 Aug 2009 10:45:48 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 19si8564228ewy.118.2009.08.09.10.45.47;
+        Sun, 09 Aug 2009 10:45:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 09D6621C3D; Sun,  9 Aug 2009 19:45:37 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C075621A06;
+	Sun,  9 Aug 2009 19:43:12 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9BC203D33;
+	Sun,  9 Aug 2009 19:43:12 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Q08B0Wf3XdOq; Sun,  9 Aug 2009 19:43:12 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5EE553D57;
+	Sun,  9 Aug 2009 19:42:36 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 62B653D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Aug 2009 01:00:26 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ogoQ+pncTuxo for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Aug 2009 01:00:26 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 29F1C3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Aug 2009 01:00:05 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id D35EC20B1D; Wed,  5 Aug 2009 01:00:05 +0200 (MEST)
+X-Greylist: delayed 1965 seconds by postgrey-1.28 at newjura;
+	Wed, 05 Aug 2009 00:59:54 MEST
+Received: from outgoing.csail.mit.edu (outgoing.csail.mit.edu [128.30.2.149])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3BC5520AC9;
+	Wed,  5 Aug 2009 00:59:54 +0200 (MEST)
+Received: from 30-6-179.wireless.csail.mit.edu ([128.30.6.179])
+	by outgoing.csail.mit.edu with esmtpsa (TLSv1:AES128-SHA:128)
+	(Exim 4.69) (envelope-from <lkagal@csail.mit.edu>)
+	id 1MYSSv-0001Fr-Db; Tue, 04 Aug 2009 18:26:41 -0400
+Message-Id: <265642D2-D5EA-4283-9302-EF9236DA6552@csail.mit.edu>
+From: Lalana Kagal <lkagal@csail.mit.edu>
+To: semantic-web@w3.org, www-rdf-logic@w3.org, www-rdf-rules@w3.org,
+	agents@cs.umbc.edu
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Tue, 4 Aug 2009 18:26:40 -0400
+X-Mailer: Apple Mail (2.935.3)
+X-Mailman-Approved-At: Sun, 09 Aug 2009 19:41:58 +0200
+Cc: Tim Finin <finin@cs.umbc.edu>, Lalana Kagal <lkagal@csail.mit.edu>,
+	ora.lassila@nokia.com
+Subject: [Elsnet-list] CFP ISWC09 Workshop: Semantics for the rest of us
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0597505342=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+--===============0597505342==
+Content-Type: multipart/alternative; boundary=Apple-Mail-117-534661361
+
+
+--Apple-Mail-117-534661361
+Content-Type: text/plain;
+	charset=US-ASCII;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: 7bit
+
+
+     Semantics for the Rest of Us: Variants of
+      Semantic Web Languages in the Real World
+
+    http://dig.csail.mit.edu/2009/SemRUs-ISWC09/
+
+       Workshop held in conjunction with the
+    Eighth International Semantic Web Conference
+          26 October 2009, Washington, DC
+
+The Semantic Web is a broad vision of the future of personal computing,
+emphasizing the use of sophisticated knowledge representation as the  
+basis for
+end-user applications' data modeling and management needs. Key to the
+pervasive adoption of Semantic Web technologies is a good set of  
+fundamental
+"building blocks" - the most important of these are representation  
+languages
+themselves. W3C's standard languages for the Semantic Web, RDF and  
+OWL, have
+been around for several years. Instead of strict standards compliance,  
+we see
+"variants" of these languages emerge in applications, often tailored  
+to a
+particular application's needs. These variants are often either  
+subsets of OWL
+or supersets of RDF, typically with fragments OWL added. Extensions  
+based on
+rules, such as SWRL and N3 logic, have been developed as well as  
+enhancements
+to the SPARQL query language and protocol.
+
+This workshop will explore the landscape of RDF, OWL and SPARQL  
+variants,
+specifically from the standpoint of "real-world semantics". Are there
+commonalities in these variants that might suggest new standards or new
+versions of the existing standards?  We hope to identify common  
+requirements
+of applications consuming Semantic Web data and understand the pros  
+and cons
+of a strictly formal approach to modeling data versus a "scruffier"  
+approach
+where semantics are based on application requirements and implementation
+restrictions.
+
+The workshop will encourage active audience participation and
+discussion and will include a keynote by  Sandro Hawke (http://www.w3.org/People/Sandro/ 
+).
+
+Topics of interest include but are not limited to
+
+- Real world applications that use (variants of) RDF, OWL, and SPARQL
+- Use cases for different subsets/supersets of RDF, OWL, and SPARQL
+- Extensions of SWRL and N3Logic
+- RIF dialects
+- How well do current Semantic Web standards meet system requirements?
+- Real world `semantic' applications using other representations (XML,  
+JSON)
+- Alternatives to RDF, OWL or SPARQL
+- Are ad hoc subsets of SW languages leading to problems?
+- What level of expressive power does the Semantic Web need?
+- Does the Semantic Web require languages based on formal methods?
+- How should standard Semantic Web languages be designed?
+
+SUBMISSION
+
+We seek two kinds of submissions: full papers up to ten pages long and
+position papers up to five pages long.  Format papers according the  
+ISWC 2009
+instructions. Accepted papers will be presented at the workshop and be  
+part of
+the workshop proceedings.  Submit via http://www.easychair.org/conferences/?conf=semrusiswc09
+
+IMPORTANT DATES
+
+Submission: 10 August 2009
+Notification: 19 August 2009
+Camera ready: 2 September 2009
+Workshop: 26 October 2009
+
+KEYNOTE
+
+Sandro Hawke is a Software Developer and Systems Architect at W3C and
+a Research Scientist at MIT. He does software research and development
+for the Semantic Web Activity and is the staff contact for OWL, and
+RIF working groups.
+
+ORGANIZERS
+
+Lalana Kagal, Massachusetts Institute of Technology
+Tim Finin, University of Maryland, Baltimore County
+Ora Lassila, Nokia
+
+PROGRAM COMMITTEE
+
+Ben Addida, CHIP, Harvard Medical School
+Melliyal Annamalai, Oracle
+Jie Bao, RPI
+Kendall Clark, Clark & Parsia
+Richard Cyganiak, DERI
+Li Ding, RPI
+Tim Finin, UMBC
+Benjamin Grosof, Vulcan
+Harry Halpin, University of Edinburgh
+Anupam Joshi, UMBC
+Lalana Kagal, MIT
+Ora Lassila, Nokia
+Thomas Lukasiewicz, Oxford University
+Natasha Noy, Stanford
+Bijan Parsia, University of Manchester
+Axel Polleres, DERI National University of Ireland
+Marwan Sabbouh, Mitre & Northeastern
+Lynn Andrea Stein, Olin College of Engineering
+Susie Stephens, Johnson & Johnson
+
+
+--Apple-Mail-117-534661361
+Content-Type: text/html;
+	charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div><br></div>&nbsp;&nbsp; =
+&nbsp;Semantics for the Rest of Us: Variants =
+of<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Semantic Web Languages in the Real =
+World<br><br>&nbsp;&nbsp;&nbsp;<a =
+href=3D"http://dig.csail.mit.edu/2009/SemRUs-ISWC09/">http://dig.csail.mit=
+.edu/2009/SemRUs-ISWC09/</a><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wo=
+rkshop held in conjunction with the<br>&nbsp;&nbsp;&nbsp;Eighth =
+International Semantic Web =
+Conference<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26 =
+October 2009, Washington, DC<br><div><br>The Semantic Web is a broad =
+vision of the future of personal computing,<br>emphasizing the use of =
+sophisticated knowledge representation as the basis for<br>end-user =
+applications' data modeling and management needs. Key to =
+the<br>pervasive adoption of Semantic Web technologies is a good set of =
+fundamental<br>"building blocks" - the most important of these are =
+representation languages<br>themselves. W3C's standard languages for the =
+Semantic Web, RDF and OWL, have<br>been around for several years. =
+Instead of strict standards compliance, we see<br>"variants" of these =
+languages emerge in applications, often tailored to a<br>particular =
+application's needs. These variants are often either subsets of =
+OWL<br>or supersets of RDF, typically with fragments OWL added. =
+Extensions based on<br>rules, such as SWRL and N3 logic, have been =
+developed as well as enhancements<br>to the SPARQL query language and =
+protocol.<br><br>This workshop will explore the landscape of RDF, OWL =
+and SPARQL variants,<br>specifically from the standpoint of "real-world =
+semantics". Are there<br>commonalities in these variants that might =
+suggest new standards or new<br>versions of the existing standards? =
+&nbsp;We hope to identify common requirements<br>of applications =
+consuming Semantic Web data and understand the pros and cons<br>of a =
+strictly formal approach to modeling data versus a "scruffier" =
+approach<br>where semantics are based on application requirements and =
+implementation<br>restrictions.<br><br>The workshop will encourage =
+active audience participation and<br>discussion and will include a =
+keynote by &nbsp;Sandro Hawke (<a =
+href=3D"http://www.w3.org/People/Sandro/">http://www.w3.org/People/Sandro/=
+</a>).</div><div><br></div><div>Topics of interest include but are not =
+limited to<br><br>- Real world applications that use (variants of) RDF, =
+OWL, and SPARQL<br>- Use cases for different subsets/supersets of RDF, =
+OWL, and SPARQL<br>- Extensions of SWRL and N3Logic<br>- RIF =
+dialects<br>- How well do current Semantic Web standards meet system =
+requirements?<br>- Real world `semantic' applications using other =
+representations (XML, JSON)<br>- Alternatives to RDF, OWL or SPARQL<br>- =
+Are ad hoc subsets of SW languages leading to problems?<br>- What level =
+of expressive power does the Semantic Web need?<br>- Does the Semantic =
+Web require languages based on formal methods?<br>- How should standard =
+Semantic Web languages be designed?<br><br>SUBMISSION<br><br>We seek two =
+kinds of submissions: full papers up to ten pages long and<br>position =
+papers up to five pages long. &nbsp;Format papers according the ISWC =
+2009<br>instructions. Accepted papers will be presented at the workshop =
+and be part of<br>the workshop proceedings. &nbsp;Submit via&nbsp;<a =
+href=3D"http://www.easychair.org/conferences/?conf=3Dsemrusiswc09">http://=
+www.easychair.org/conferences/?conf=3Dsemrusiswc09</a><br><br>IMPORTANT =
+DATES<br><br>Submission: 10 August 2009<br>Notification: 19 August =
+2009<br>Camera ready: 2 September 2009<br>Workshop: 26 October =
+2009<br><br></div><div>KEYNOTE</div><div><div><br></div><div>Sandro =
+Hawke is a Software Developer and Systems Architect at W3C =
+and</div><div>a Research Scientist at MIT. He does software research and =
+development</div><div>for the Semantic Web Activity and is the staff =
+contact for OWL, and</div><div>RIF working =
+groups.</div><div><br></div></div><div>ORGANIZERS<br><br>Lalana Kagal, =
+Massachusetts Institute of Technology</div><div>Tim Finin, University of =
+Maryland, Baltimore County<br>Ora Lassila, =
+Nokia<br></div><div><br></div><div>PROGRAM =
+COMMITTEE</div><div><br></div><div>Ben Addida, CHIP, Harvard Medical =
+School</div><div>Melliyal Annamalai, Oracle</div><div>Jie Bao, =
+RPI</div><div>Kendall Clark, Clark &amp; Parsia</div><div>Richard =
+Cyganiak, DERI</div><div>Li Ding, RPI</div><div>Tim Finin, =
+UMBC</div><div>Benjamin Grosof, Vulcan</div><div>Harry Halpin, =
+University of Edinburgh</div><div>Anupam Joshi, UMBC</div><div>Lalana =
+Kagal, MIT</div><div>Ora Lassila, Nokia</div><div>Thomas Lukasiewicz, =
+Oxford University</div><div>Natasha Noy, Stanford</div><div>Bijan =
+Parsia, University of Manchester</div><div>Axel Polleres, DERI National =
+University of Ireland</div><div>Marwan Sabbouh, Mitre &amp; =
+Northeastern</div><div>Lynn Andrea Stein, Olin College of =
+Engineering</div><div>Susie Stephens, Johnson  &amp; =
+Johnson&nbsp;</div><div><br></div></body></html>=
+
+--Apple-Mail-117-534661361--
+
+--===============0597505342==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0597505342==--

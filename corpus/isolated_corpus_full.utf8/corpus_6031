@@ -1,0 +1,780 @@
+From - Thu Dec 10 14:38:19 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.56.133 with SMTP id y5cs132840bkg;
+        Thu, 17 Sep 2009 00:01:10 -0700 (PDT)
+Received: by 10.211.156.19 with SMTP id i19mr3249645ebo.79.1253170869703;
+        Thu, 17 Sep 2009 00:01:09 -0700 (PDT)
+Return-Path: <sentto-1622440-2931-1253170859-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com>
+Received: from relay4-v.mail.gandi.net (relay4-v.mail.gandi.net [217.70.178.78])
+        by mx.google.com with ESMTP id 19si13027105ewy.118.2009.09.17.00.01.08;
+        Thu, 17 Sep 2009 00:01:08 -0700 (PDT)
+Received-SPF: neutral (google.com: 217.70.178.78 is neither permitted nor denied by domain of sentto-1622440-2931-1253170859-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) client-ip=217.70.178.78;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.178.78 is neither permitted nor denied by domain of sentto-1622440-2931-1253170859-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2931-1253170859-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from spool.mail.gandi.net (mspool4-v.mgt.gandi.net [10.0.21.74])
+	by relay4-v.mail.gandi.net (Postfix) with ESMTP id 434DDB9FB
+	for <jpprost@gmail.com>; Thu, 17 Sep 2009 09:01:08 +0200 (CEST)
+Received: from mfilter1-d.gandi.net (mfilter1-d.gandi.net [217.70.178.41])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 2CE362DC064
+	for <jpprost@gmail.com>; Thu, 17 Sep 2009 09:01:08 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.74])
+	by mfilter1-d.gandi.net (mfilter1-d.gandi.net [217.70.178.41]) (amavisd-new, port 10024)
+	with ESMTP id pHj6SgJlJkCt for <jpprost@gmail.com>;
+	Thu, 17 Sep 2009 09:01:08 +0200 (CEST)
+Received: from n52c.bullet.mail.sp1.yahoo.com (n52c.bullet.mail.sp1.yahoo.com [66.163.168.186])
+	by spool.mail.gandi.net (Postfix) with SMTP id 644822DC060
+	for <jean-philippe.prost@lpl-aix.fr>; Thu, 17 Sep 2009 09:01:04 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1253170859; bh=e4KY2/YxnIA6HMfimDsIpl6bIVrPZmI74bmXn5TrIIM=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:To:Message-ID:X-Priority:X-MSMail-Priority:X-Mailer:Importance:Thread-Index:X-MimeOLE:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=f3FRZrruab2ZtFNP5ULHDV55kgLQMoaJaduGYhKvCv6t7I36vfv+JYQkLrR0zCPOvAKt7f08cxlt8KkETcvqqng3aBNyXtpRHWG4MSZgIXlnrHmYNG+qCOFvj23jsi2R
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=iXHe+JqhVKeGAIzjlXLYlAbePwRWzmd5NDeiCHSoJagI5ET+HexFAZQww7TvLg9K0LdfF2R/UX/ibQtNOMJatj7ncxyUEwOD+dSqySoJTqhsfPNQJ9gTQzxgOQWPquUq;
+Received: from [69.147.65.149] by n52.bullet.mail.sp1.yahoo.com with NNFMP; 17 Sep 2009 07:00:59 -0000
+Received: from [98.137.34.39] by t9.bullet.mail.sp1.yahoo.com with NNFMP; 17 Sep 2009 07:00:59 -0000
+X-Yahoo-Newman-Id: 1622440-m2931
+X-Sender: yohann.meynadier@univ-provence.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 43675 invoked from network); 17 Sep 2009 07:00:56 -0000
+X-Received: from unknown (69.147.108.200)
+  by m3.grp.sp2.yahoo.com with QMQP; 17 Sep 2009 07:00:56 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta1.grp.re1.yahoo.com with SMTP; 17 Sep 2009 07:00:56 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: An0KABN7sUqTXsUS/2dsb2JhbACBTYkgwz4IkAmCLRMIgVAFgVg
+X-IronPort-AV: E=Sophos;i="4.44,402,1249250400"; 
+   d="scan'208";a="14611573"
+X-Received: from unknown (HELO PORTYOH) ([147.94.197.18])
+  by mso1k206.u-3mrs.fr with ESMTP; 17 Sep 2009 09:00:21 +0200
+To: <deptlpg@liste.univ-provence.fr>,
+	<lpl-infos@yahoogroupes.fr>
+Message-ID: <298585919D8649B985DCD1E8287C1BFF@PORTYOH>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+Importance: Normal
+Thread-Index: Aco3EdiEYbzaSc4dS1eSgwdxGnoP7wAUolUg
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "Yohann Meynadier" <yohann.meynadier@univ-provence.fr>
+X-Yahoo-Profile: mey0h
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Thu, 17 Sep 2009 09:00:16 +0200
+Subject: [lpl-infos] TR : Reminder: Call for papers LabPhon 12. GESTURE AS LANGUAGE, GESTURE AND LANGUAGE
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="bCcpOugXkbp9DXjrTlEo1gimOGNqRJpAWAssPXo"
+
+--bCcpOugXkbp9DXjrTlEo1gimOGNqRJpAWAssPXo
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+> -----Message d'origine-----
+> De : LabPhon 12 [mailto:labfon12@unm.edu] 
+> 
+> 
+> Reminder: Call for papers for the 12th Conference on 
+> Laboratory Phonology, to be held at the University of New 
+> Mexico in Albuquerque, NM, USA.
+> Dates of conference: 8-10 July 2010
+> **  Deadline for abstract submission: 20 November 2009
+> 
+> Theme: GESTURE AS LANGUAGE, GESTURE AND LANGUAGE.
+> More information at conference website 
+> http://www.unm.edu/~labfon12/
+> 
+> Notification of acceptance: 1 February 2010
+> 
+> Abstracts are solicited for contributed papers for 
+> presentation as 30-minute oral contributions or as 
+> posters. Contributions relating to the conference themes 
+> are especially encouraged; there will also be sessions for 
+> non-thematic papers.
+> 
+> The overall theme for the conference is "Gesture as 
+> language, gesture and language." Our goal is to bring 
+> together researchers who have a gestural perspective on 
+> language to encourage cross-fertilization between 
+> different approaches and areas of research. Some specific 
+> topics that address this theme are the following:
+> 
+> .	Speech as gesture. How are gestures used to create 
+> phonological structure? What are the fundamental gestural 
+> units, and how are they coordinated? How discrete or 
+> continuous are the gestures of language? How parallel or 
+> different are the gestural organization of spoken and 
+> signed languages?
+> .	Phonology of signed languages. The same issues are 
+> relevant for signed languages as for spoken languages.
+> .	Gesture with language. How are non-linguistic gestures 
+> used in concert with language? How are these gestures 
+> coordinated with speech? How similar or different are the 
+> non-linguistic gestures accompanying spoken and signed 
+> languages, and are their functions similar across 
+> modalities?
+> .	Audiovisual aspects of speech. To what extent are visual 
+> cues exploited in spoken language communication? How are 
+> aural and visual information integrated?
+> .	Diversity of speech gestures, focusing on Native 
+> American languages. How varied are the gestures used by 
+> different languages? How does this diversity inform our 
+> understanding of phonological structure?
+> .	Modulation of linguistic gestures through prosody or 
+> sound change. How are gestures modified by linguistic or 
+> communicative context? What are the natural paths of 
+> change over time in the gestural structure of languages? 
+> How are phonological systems affected by such changes? How 
+> is the effect of prosody similar, or different, in signed 
+> and spoken language? What different effects does prosody 
+> have on gestures produced using different articulators, in 
+> speech or in sign?
+> 
+> Abstracts are to be submitted as a PDF file containing an 
+> anonymous one-page abstract at the following address: 
+> http://www.easychair.org/conferences/?conf=labphon12. You 
+> will need to create an EasyChair account if you do not 
+> already have one. Abstracts must be in 12 point Times or 
+> Times New Roman font, formatted for A4 or US Letter size 
+> paper with margins of 2.5 cm or 1 inch. The maximum length 
+> for the text of the abstract is one page; a second page 
+> may be used for figures and/or bibliographical references 
+> only.
+> 
+> The author's name and affiliation should not appear in the 
+> PDF file. One individual may be an author on no more than 
+> two submitted abstracts. All abstracts must be written in 
+> English. Presentations may be given in English or in ASL.
+> 
+> When completing the submission form on Easy Chair, you 
+> will see a space which asks for an abstract to be typed 
+> in. This is not the place for your real abstract! Please 
+> enter a short statement (no more than 50 words) 
+> summarizing your paper. Further down the page is where you 
+> will upload your real abstract as an attachment (PDF 
+> file). Before uploading, please ensure that all special 
+> characters display properly.
+> 
+> The submission form also asks you to identify which of the 
+> conference theme(s) your paper relates to. You may select 
+> one or more than one. If your paper does not relate to any 
+> of the themes, please select "non-thematic".
+> 
+> Authors whose papers are accepted will have the 
+> opportunity to submit an updated abstract for inclusion in 
+> the conference program. Authors of papers accepted for 
+> oral presentation will need to submit a complete written 
+> version of their paper for distribution to the 
+> discussants, no later than 1 May 2010. It is expected that 
+> the proceedings of this conference will be published as a 
+> special issue of the new Laboratory Phonology journal; 
+> further details will be forthcoming.
+> 
+> If you have any question concerning the submission 
+> procedure or you encounter any problems, please send an 
+> email to the following address : labfon12@unm.edu . 
+> Additional information, including a list of invited 
+> speakers and discussants, is available at the conference 
+> website, http://www.unm.edu/~labfon12/
+> 
+> The abstracts will be evaluated anonymously by the 
+> scientific committee.
+> 
+> Please feel free to forward this call for papers to others 
+> who might be interested.
+> 
+> 
+
+
+
+--bCcpOugXkbp9DXjrTlEo1gimOGNqRJpAWAssPXo
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+<span style=3D"display:none">&nbsp;</span>
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+    <div id=3D"ygrp-text" >
+                  <p>&gt; -----Message d'origine---<wbr>--<br>
+&gt; De : LabPhon 12 [mailto:<a href=3D"mailto:labfon12%40unm.edu">labfon12=
+@unm.<wbr>edu</a>] <br>
+&gt; <br>
+&gt; <br>
+&gt; Reminder: Call for papers for the 12th Conference on <br>
+&gt; Laboratory Phonology, to be held at the University of New <br>
+&gt; Mexico in Albuquerque, NM, USA.<br>
+&gt; Dates of conference: 8-10 July 2010<br>
+&gt; **  Deadline for abstract submission: 20 November 2009<br>
+&gt; <br>
+&gt; Theme: GESTURE AS LANGUAGE, GESTURE AND LANGUAGE.<br>
+&gt; More information at conference website <br>
+&gt; <a href=3D"http://www.unm.edu/~labfon12/">http://www.unm.<wbr>edu/~lab=
+fon12/</a><br>
+&gt; <br>
+&gt; Notification of acceptance: 1 February 2010<br>
+&gt; <br>
+&gt; Abstracts are solicited for contributed papers for <br>
+&gt; presentation as 30-minute oral contributions or as <br>
+&gt; posters. Contributions relating to the conference themes <br>
+&gt; are especially encouraged; there will also be sessions for <br>
+&gt; non-thematic papers.<br>
+&gt; <br>
+&gt; The overall theme for the conference is &quot;Gesture as <br>
+&gt; language, gesture and language.&quot; Our goal is to bring <br>
+&gt; together researchers who have a gestural perspective on <br>
+&gt; language to encourage cross-fertilization between <br>
+&gt; different approaches and areas of research. Some specific <br>
+&gt; topics that address this theme are the following:<br>
+&gt; <br>
+&gt; .	Speech as gesture. How are gestures used to create <br>
+&gt; phonological structure? What are the fundamental gestural <br>
+&gt; units, and how are they coordinated? How discrete or <br>
+&gt; continuous are the gestures of language? How parallel or <br>
+&gt; different are the gestural organization of spoken and <br>
+&gt; signed languages?<br>
+&gt; .	Phonology of signed languages. The same issues are <br>
+&gt; relevant for signed languages as for spoken languages.<br>
+&gt; .	Gesture with language. How are non-linguistic gestures <br>
+&gt; used in concert with language? How are these gestures <br>
+&gt; coordinated with speech? How similar or different are the <br>
+&gt; non-linguistic gestures accompanying spoken and signed <br>
+&gt; languages, and are their functions similar across <br>
+&gt; modalities?<br>
+&gt; .	Audiovisual aspects of speech. To what extent are visual <br>
+&gt; cues exploited in spoken language communication? How are <br>
+&gt; aural and visual information integrated?<br>
+&gt; .	Diversity of speech gestures, focusing on Native <br>
+&gt; American languages. How varied are the gestures used by <br>
+&gt; different languages? How does this diversity inform our <br>
+&gt; understanding of phonological structure?<br>
+&gt; .	Modulation of linguistic gestures through prosody or <br>
+&gt; sound change. How are gestures modified by linguistic or <br>
+&gt; communicative context? What are the natural paths of <br>
+&gt; change over time in the gestural structure of languages? <br>
+&gt; How are phonological systems affected by such changes? How <br>
+&gt; is the effect of prosody similar, or different, in signed <br>
+&gt; and spoken language? What different effects does prosody <br>
+&gt; have on gestures produced using different articulators, in <br>
+&gt; speech or in sign?<br>
+&gt; <br>
+&gt; Abstracts are to be submitted as a PDF file containing an <br>
+&gt; anonymous one-page abstract at the following address: <br>
+&gt; <a href=3D"http://www.easychair.org/conferences/?conf=3Dlabphon12.">ht=
+tp://www.easychai<wbr>r.org/conference<wbr>s/?conf=3Dlabphon1<wbr>2.</a> Yo=
+u <br>
+&gt; will need to create an EasyChair account if you do not <br>
+&gt; already have one. Abstracts must be in 12 point Times or <br>
+&gt; Times New Roman font, formatted for A4 or US Letter size <br>
+&gt; paper with margins of 2.5 cm or 1 inch. The maximum length <br>
+&gt; for the text of the abstract is one page; a second page <br>
+&gt; may be used for figures and/or bibliographical references <br>
+&gt; only.<br>
+&gt; <br>
+&gt; The author's name and affiliation should not appear in the <br>
+&gt; PDF file. One individual may be an author on no more than <br>
+&gt; two submitted abstracts. All abstracts must be written in <br>
+&gt; English. Presentations may be given in English or in ASL.<br>
+&gt; <br>
+&gt; When completing the submission form on Easy Chair, you <br>
+&gt; will see a space which asks for an abstract to be typed <br>
+&gt; in. This is not the place for your real abstract! Please <br>
+&gt; enter a short statement (no more than 50 words) <br>
+&gt; summarizing your paper. Further down the page is where you <br>
+&gt; will upload your real abstract as an attachment (PDF <br>
+&gt; file). Before uploading, please ensure that all special <br>
+&gt; characters display properly.<br>
+&gt; <br>
+&gt; The submission form also asks you to identify which of the <br>
+&gt; conference theme(s) your paper relates to. You may select <br>
+&gt; one or more than one. If your paper does not relate to any <br>
+&gt; of the themes, please select &quot;non-thematic&quot;<wbr>.<br>
+&gt; <br>
+&gt; Authors whose papers are accepted will have the <br>
+&gt; opportunity to submit an updated abstract for inclusion in <br>
+&gt; the conference program. Authors of papers accepted for <br>
+&gt; oral presentation will need to submit a complete written <br>
+&gt; version of their paper for distribution to the <br>
+&gt; discussants, no later than 1 May 2010. It is expected that <br>
+&gt; the proceedings of this conference will be published as a <br>
+&gt; special issue of the new Laboratory Phonology journal; <br>
+&gt; further details will be forthcoming.<br>
+&gt; <br>
+&gt; If you have any question concerning the submission <br>
+&gt; procedure or you encounter any problems, please send an <br>
+&gt; email to the following address : <a href=3D"mailto:labfon12%40unm.edu"=
+>labfon12@unm.<wbr>edu</a> . <br>
+&gt; Additional information, including a list of invited <br>
+&gt; speakers and discussants, is available at the conference <br>
+&gt; website, <a href=3D"http://www.unm.edu/~labfon12/">http://www.unm.<wbr=
+>edu/~labfon12/</a><br>
+&gt; <br>
+&gt; The abstracts will be evaluated anonymously by the <br>
+&gt; scientific committee.<br>
+&gt; <br>
+&gt; Please feel free to forward this call for papers to others <br>
+&gt; who might be interested.<br>
+&gt; <br>
+&gt; <br>
+<br>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20
+=20=20
+=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/293=
+1;_ylc=3DX3oDMTM0YTRib2FrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI5MzEEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjUzMTcwODU5BHRwY=
+0lkAzI5MzE-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwOWx0c2k1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI5MzEEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjUzMTcwODU5?act=3Dreply&me=
+ssageNum=3D2931">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNGU1ODZhBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTI1MzE3MDg1OQ--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlNnBtMjdiBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTI1MzE3MDg1OQ--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmMXB0bDBtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyNTMxNzA4NTk-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlaGszdmRqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTI1MzE3MDg1OQ--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmbDVpaWdmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyNTMxNzA4NTk-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjam4zNDA0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyNTMxNzA4NTk-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmbGloOG5nBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyNTMxNzA4NTk-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlNXBjdnZ2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTI1MzE3MDg1OQ--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkY2VtYzZrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjUzMTcwODU5">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkNjNpcGlxBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjUzMTcwODU5">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmNzUxNTFyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyNTMxNzA4NTk-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+Y3BkaWxqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjUzMTcwODU5">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+		        <li style=3D"clear: both; list-style-type: none; border: 1px soli=
+d #e0ecee;">
+      <div class=3D"ct" style=3D"float: right; font-weight: bold; color: #f=
+f7900; float: right; width: 2em; text-align:right; padding-right: .5em;"><s=
+pan style=3D"display:none">&nbsp;</span>1</div>
+      <div class=3D"cat" style=3D"font-weight: bold;"><a href=3D"http://fr.=
+groups.yahoo.com/group/lpl-infos/members;_ylc=3DX3oDMTJmM3RkZnVlBF9TAzk3NDk=
+wNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBH=
+N0aW1lAzEyNTMxNzA4NTk-">Nouveaux membres</a></div>
+    </li>
+=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlZTlrZW1tBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTI1MzE3MDg1OQ--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrdmVicXVqBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTI1MzE3MDg1OQ--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJudTIyb2RtBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTI1MzE3MDg1OQ--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvc2JqM2w3BF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyNTMxNzA4NTk-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2931/stime=3D1253170859/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+		font-weight: normal;
+		color: #000000;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p#attach-count {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--bCcpOugXkbp9DXjrTlEo1gimOGNqRJpAWAssPXo--

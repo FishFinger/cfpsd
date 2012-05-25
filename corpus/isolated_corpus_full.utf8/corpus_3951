@@ -1,0 +1,1034 @@
+From - Thu Dec 10 14:34:29 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.181.31.10 with SMTP id i10cs132895bkj;
+        Thu, 4 Dec 2008 14:30:19 -0800 (PST)
+Received: by 10.86.70.3 with SMTP id s3mr140163fga.78.1228429818867;
+        Thu, 04 Dec 2008 14:30:18 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 4si335129fge.50.2008.12.04.14.30.04;
+        Thu, 04 Dec 2008 14:30:18 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8FA592169D; Thu,  4 Dec 2008 23:29:51 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8C40A1FB16;
+	Thu,  4 Dec 2008 23:27:44 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 68D9A3DA6;
+	Thu,  4 Dec 2008 23:27:44 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id XfY2nOYqg3Bw; Thu,  4 Dec 2008 23:27:43 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 3AB813D25;
+	Thu,  4 Dec 2008 23:27:24 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A0F673D21
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 23 Nov 2008 00:29:53 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id nukZ1B8fKjXf for <elsnet-list@mailman.elsnet.org>;
+	Sun, 23 Nov 2008 00:29:53 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 74CDD3D1D
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 23 Nov 2008 00:29:48 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 25ECF1F105; Sun, 23 Nov 2008 00:29:48 +0100 (MET)
+X-Greylist: delayed 1489 seconds by postgrey-1.28 at newjura;
+	Sun, 23 Nov 2008 00:29:34 MET
+Received: from smtp2.bgu.ac.il (smtp2.bgu.ac.il [132.72.126.39])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D6E1E1F0E5
+	for <elsnet-list@elsnet.org>; Sun, 23 Nov 2008 00:29:29 +0100 (MET)
+Received: from smtp2.bgu.ac.il (localhost.localdomain [127.0.0.1])
+	by postfix.imss70 (Postfix) with ESMTP id B57D0AB87C
+	for <elsnet-list@elsnet.org>; Sun, 23 Nov 2008 01:04:31 +0200 (IST)
+Received: from sturmlt (unknown [194.90.37.251])
+	by smtp2.bgu.ac.il (Postfix) with ESMTP id D3956AB873
+	for <elsnet-list@elsnet.org>; Sun, 23 Nov 2008 01:04:28 +0200 (IST)
+From: "Arnon Sturm" <sturm@bgu.ac.il>
+To: <elsnet-list@elsnet.org>
+Date: Sun, 23 Nov 2008 01:03:26 +0200
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+Thread-Index: AclM9obenYmlR2f/TGu0VCNqCe7GQw==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3350
+Message-Id: <20081122230428.D3956AB873@smtp2.bgu.ac.il>
+X-Mailman-Approved-At: Thu, 04 Dec 2008 23:27:17 +0100
+Subject: [Elsnet-list] 1st CFP: Workshop on Domain Engineering in
+	conjunctionwith ICSE'09 (DE@ICSE'09)
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1109730750=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+--===============1109730750==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00AD_01C94D07.4AA9ED90"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_00AD_01C94D07.4AA9ED90
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+DE@ICSE'09
+
+Workshop on Domain Engineering
+
+In Conjunction with ICSE'09
+
+ 
+
+May 17th, Vancouver, Canada
+
+ 
+
+http://www.bgu.ac.il/~sturm/DE@ICSE09/
+
+ 
+
+Domain Engineering is an engineering discipline concerned with building
+reusable assets, such as specification sets, patterns, and components, in
+specific domains. A domain in this context can be defined as an area of
+knowledge that uses common concepts for describing phenomena, requirements,
+problems, capabilities, and solutions. The purpose of domain engineering is
+to identify, model, construct, catalog, and disseminate artifacts that
+represent the commonalities and differences within a domain. Although being
+applicable to different engineering disciplines, domain engineering methods
+and domain specific languages (DSL) have been recently receiving special
+attention in the software engineering era. Some of the reasons for this
+interest are the increasing variability of applications, the need to obtain
+and share expertise in different, evolving domains, and the trend towards
+reusing software artifacts and knowledge about them.
+
+Domain engineering addresses two main layers: the domain layer, which deals
+with the representation of domain elements, and the application layer, which
+deals with the software applications and systems artifacts related to the
+domain. More specifically, the programs, applications, and systems are
+included in the application layer, whereas their common and variable
+characteristics, as can be described, for example, by patterns or emerging
+standards, are generalized and presented in the domain layer. 
+
+Similarly to software engineering, domain engineering includes three main
+activities: domain analysis, domain design, and domain implementation, which
+are carried out in the domain layer. However, domain engineering also
+supports inter-layer activities, namely interactions that exist between the
+domain and application layers. Specifically, domain layer artifacts may be
+used for creation and validation of the specifications of application layer
+artifacts, while applications may be generalized into domain artifacts in a
+process of knowledge elicitation. 
+
+Domain engineering as a discipline has practical significance as it deals
+with methods and techniques that may help reduce time-to-market, product
+cost, and projects risks on one hand, and improve product quality and
+performance on a consistent basis on the other hand. 
+
+The purpose of this workshop is to bring together researchers and
+practitioners in the area of domain engineering in order to define the
+topic, identify possible points of synergy, common problems and solutions,
+and discuss visions for the future of the area. In particular, workshop will
+focus on the interaction between software engineering and domain
+engineering. 
+
+
+ 
+
+Topics of interest include, but are not limited to:
+
+.         Methods and techniques to support domain engineering
+
+.         Product line lifecycle engineering
+
+.         Development and management of domain assets
+
+.         Domain-driven software engineering
+
+.         Testing, modeling, and formal verification of domain and
+application artifacts.
+
+.         Application derivation (i.e., how to use domain artifacts in the
+application layer)
+
+.         Variability management
+
+.         Domain-specific languages, frameworks, and architectures
+
+.         Domain engineering techniques in support of reuse, validation, and
+knowledge management 
+
+.         Theoretical and empirical evaluation of domain engineering methods
+and techniques
+
+.         Case studies and practice reports related to domain engineering 
+
+ 
+
+
+Submission Guidelines
+
+
+Prospective workshop participants are invited to submit a paper related to
+the purpose of the workshop. The workshop will accept three types of
+submissions:
+
+1.      Completed Research - this type of papers should include evidence to
+support the contribution (e.g. in the form of data analysis, proof of
+concept, or case studies) and discussion on research findings and their
+theoretical and practical significance. The paper should not exceed 5,000
+words (excluding references and appendices). Accepted completed research
+papers will be allocated 30 minutes for presentation (including questions &
+answers) during the workshop.  
+
+2.      Research-In-Progress - this type of papers can report on research
+that is under way with preliminary results available at the time of the
+conference. The paper should not exceed 2,500 words (excluding references
+and appendices). Accepted research-in-progress papers will be allocated 15
+minutes for presentation (including questions & answers) during the
+workshop.
+
+3.      Position papers - this type of papers can include lucid and
+well-supported statements and suggestions on domain engineering, e.g.,
+directions for the discipline, open questions, criticism on the
+state-of-the-art, and novel approaches. Accepted position papers will be
+allocated 15 minutes for presentation (including questions & answers) during
+the workshop.
+
+All three types of papers may refer to theoretical and/or practical issues.
+
+Papers must conform to the ICSE 2009 format (see
+http://www.cs.uoregon.edu/events/icse2009/calls/format/). The paper type
+(completed research, research-in-progress, or a position paper) should
+explicitly be indicated after the paper title. In addition, the paper
+abstract should not be longer than 150 words. As the workshop will apply
+double-blind reviews process, the papers should not indicate their authors.
+Papers should be submitted through the on-line system at
+http://www.bgu.ac.il/~sturm/DE@ICSE09/DE_ICSE09_Submission.htm..
+
+
+Publication
+
+
+The paper selection will be based upon the relevance of a paper to the main
+topics, on its quality and on the potential to stimulate discussion in the
+workshop. Accepted papers will be published in the online ICSE'2009 workshop
+proceedings. In addition, authors of some selected papers will be asked to
+consider submitting revised version of the papers as chapters in a book on
+Domain Engineering to be edited by the workshop co-chairs and published by
+Springer.
+
+
+Important dates
+
+
+Submission deadline:               December 25th 2008
+
+Notification of acceptance:      January 29th 2009
+
+Camera-ready papers due:       February 16th 2009
+
+Workshop:                               May 17th 2009
+
+
+
+
+Workshop Co-Chairs
+
+
+Iris Reinhartz-Berger, University of Haifa, Israel. 
+
+Arnon Sturm, Ben Gurion University of the Negev, Israel. 
+
+Yair Wand, University of British Columbia, Canada 
+
+
+Workshop Program Committee
+
+
+Colin Atkinson, University of Mannheim, Germany
+
+Mira Balaban, Ben-Gurion University of the Negev, Israel
+
+Sholom Cohen, CMU-SEI, USA
+
+Kim Dae-Kyoo, Oakland University, USA
+
+Dov Dori, Technion - Israel Institute of Technology, Israel
+
+Joerg Evermann, Memorial University of Newfoundland, Canada
+
+Jeff Gray, University of Alabama at Birmingham, USA
+
+Atzmon Hen-Tov, Pontis, Israel
+
+Steven Kelly, MetaCase, Finland
+
+John McGregor, Clemson University, USA 
+
+Dirk Muthig, Fraunhofer Institute for Experimental Software Engineering,
+Germany
+
+Klaus Pohl, University of Duisburg-Essen, Germany
+
+Iris Reinhartz-Berger, University of Haifa, Israel 
+
+Michael Rosemann, The University of Queensland, Australia
+
+Julia Rubin, IBM Haifa Research Labs, Israel
+
+Bernhard Rumpe, Braunschweig University of Technology, Germany
+
+Lior Schachter, Pontis, Israel
+
+Klaus Schmid, University of Hildesheim, Germany
+
+Keng Siau, University of Nebraska-Lincoln, USA
+
+Arnon Sturm, Ben-Gurion University of the Negev, Israel
+
+Giancarlo Succi, the University of Alberta, Canada
+
+Juha-Pekka Tolvanen, MetaCase, Finland
+
+Yair Wand, University of British Columbia, Canada
+
+Gabi Zodik, IBM Haifa Research Labs, Israel 
+
+ 
+
+For more information on the workshop, please contact:
+
+Iris Reinhartz-Berger
+
+Department of Management Information Systems
+University of Haifa
+Carmel Mountain, Haifa 31905, Israel
+Phone: 972-4-8288502
+
+
+------=_NextPart_000_00AD_01C94D07.4AA9ED90
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<META content=3D"MSHTML 6.00.6000.20900" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV><FONT face=3DArial size=3D2>
+<P class=3DTtulo2 style=3D"MARGIN: 12pt 0in 3pt; TEXT-ALIGN: center"=20
+align=3Dcenter><B><SPAN=20
+style=3D"FONT-SIZE: 16pt; COLOR: black">DE@ICSE'09<?xml:namespace prefix =
+=3D o ns =3D=20
+"urn:schemas-microsoft-com:office:office" /><o:p></o:p></SPAN></B></P>
+<P class=3DTtulo4 style=3D"MARGIN: 5pt 0in; TEXT-ALIGN: center"=20
+align=3Dcenter><B><SPAN style=3D"FONT-SIZE: 16pt; COLOR: black">Workshop =
+on Domain=20
+Engineering</SPAN></B><SPAN=20
+style=3D"FONT-SIZE: 16pt; COLOR: black"><o:p></o:p></SPAN></P>
+<P class=3DTtulo1 style=3D"MARGIN: 12pt 0in 3pt; TEXT-ALIGN: center"=20
+align=3Dcenter><B><SPAN style=3D"FONT-SIZE: 16pt; COLOR: black">In =
+Conjunction with=20
+ICSE&#8217;09<o:p></o:p></SPAN></B></P>
+<P class=3DDefault style=3D"MARGIN: 0in 0in 0pt"><o:p>&nbsp;</o:p></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"=20
+align=3Dcenter><B><SPAN lang=3DEN-GB style=3D"FONT-SIZE: 14pt"><FONT=20
+face=3D"Times New Roman">May 17th, Vancouver,=20
+Canada<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"=20
+align=3Dcenter><B><SPAN lang=3DEN-GB style=3D"FONT-SIZE: =
+14pt"><o:p><FONT=20
+face=3D"Times New Roman">&nbsp;</FONT></o:p></SPAN></B></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center"=20
+align=3Dcenter><B><SPAN lang=3DEN-GB style=3D"FONT-SIZE: 14pt"><FONT=20
+face=3D"Times New =
+Roman">http://www.bgu.ac.il/~sturm/DE@ICSE09/<o:p></o:p></FONT></SPAN></B=
+></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN lang=3DEN-GB=20
+style=3D"mso-ansi-language: EN-GB; mso-fareast-language: SV"><o:p><FONT=20
+face=3D"Times New Roman" size=3D3>&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Domain Engineering is an engineering discipline =
+concerned=20
+with building reusable assets, such as specification sets, patterns, and =
+
+components, in specific domains. A domain in this context can be defined =
+as an=20
+area of knowledge that uses common concepts for describing phenomena,=20
+requirements, problems, capabilities, and solutions. The purpose of =
+domain=20
+engineering is to identify, model, construct, catalog, and disseminate =
+artifacts=20
+that represent the commonalities and differences within a domain. =
+Although being=20
+applicable to different engineering disciplines, domain engineering =
+methods and=20
+domain specific languages (DSL) have been recently receiving special =
+attention=20
+in the software engineering era. Some of the reasons for this interest =
+are the=20
+increasing variability of applications, the need to obtain and share =
+expertise=20
+in different, evolving domains, and the trend towards reusing software =
+artifacts=20
+and knowledge about them.<o:p></o:p></FONT></SPAN></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Domain engineering addresses two main layers: =
+the=20
+<I>domain layer,</I> which deals with the representation of domain =
+elements, and=20
+the <I>application layer</I>, which deals with the software applications =
+and=20
+systems artifacts related to the domain. More specifically, the =
+programs,=20
+applications, and systems are included in the application layer, whereas =
+their=20
+common and variable characteristics, as can be described, for example, =
+by=20
+patterns or emerging standards, are generalized and presented in the =
+domain=20
+layer. <o:p></o:p></FONT></SPAN></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Similarly to software engineering, domain =
+engineering=20
+includes three main activities: domain analysis, domain design, and =
+domain=20
+implementation, which are carried out in the domain layer. However, =
+domain=20
+engineering also supports inter-layer activities, namely interactions =
+that exist=20
+between the domain and application layers. Specifically, domain layer =
+artifacts=20
+may be used for creation and validation of the specifications of =
+application=20
+layer artifacts, while applications may be generalized into domain =
+artifacts in=20
+a process of knowledge elicitation. <o:p></o:p></FONT></SPAN></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Domain engineering as a discipline has =
+practical=20
+significance as it deals with methods and techniques that may help =
+reduce=20
+time-to-market, product cost, and projects risks on one hand, and =
+improve=20
+product quality and performance on a consistent basis on the other hand. =
+
+<o:p></o:p></FONT></SPAN></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">The purpose of this workshop is to bring =
+together=20
+researchers and practitioners in the area of domain engineering in order =
+to=20
+define the topic, identify possible points of synergy, common problems =
+and=20
+solutions, and discuss visions for the future of the area. In =
+particular,=20
+workshop will focus on the interaction between software engineering and =
+domain=20
+engineering. <o:p></o:p></FONT></SPAN></P>
+<H1 style=3D"MARGIN: 12pt 0in 3pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-WEIGHT: normal; FONT-SIZE: 11pt; FONT-FAMILY: 'Times New =
+Roman','serif'; mso-bidi-font-weight: =
+bold"><o:p>&nbsp;</o:p></SPAN></H1><PRE><SPAN lang=3DEN-GB =
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: 'Times New Roman','serif'">Topics =
+of interest</SPAN><B><SPAN lang=3DEN-GB style=3D"FONT-SIZE: 11pt"><FONT =
+face=3D"Arial Unicode MS"> </FONT></SPAN></B><SPAN lang=3DEN-GB =
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: 'Times New =
+Roman','serif'">include, but are not limited to:<o:p></o:p></SPAN></PRE>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Methods and =
+techniques to=20
+support domain engineering<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Product line =
+lifecycle=20
+engineering<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Development and =
+management=20
+of domain assets<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Domain-driven =
+software=20
+engineering<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Testing, =
+modeling, and=20
+formal verification of domain and application=20
+artifacts.<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Application =
+derivation=20
+(i.e., how to use domain artifacts in the application=20
+layer)<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Variability=20
+management<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Domain-specific =
+languages,=20
+frameworks, and architectures<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Domain =
+engineering=20
+techniques in support of reuse, validation, and knowledge management=20
+<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Theoretical and =
+empirical=20
+evaluation of domain engineering methods and=20
+techniques<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt 35.7pt; TEXT-INDENT: -17.85pt; TEXT-ALIGN: =
+justify; mso-layout-grid-align: none; mso-list: l1 level1 lfo1; =
+tab-stops: list .5in"><SPAN=20
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Symbol; mso-fareast-font-family: =
+Symbol; mso-bidi-font-family: Symbol"><SPAN=20
+style=3D"mso-list: Ignore">&middot;<SPAN=20
+style=3D"FONT: 7pt 'Times New =
+Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Case studies =
+and practice=20
+reports related to domain engineering <o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify; =
+mso-layout-grid-align: none"><SPAN=20
+lang=3DEN-GB style=3D"FONT-SIZE: 11pt"><o:p><FONT=20
+face=3D"Times New Roman">&nbsp;</FONT></o:p></SPAN></P>
+<H1 style=3D"MARGIN: 12pt 0in 3pt"><SPAN lang=3DEN-GB=20
+style=3D"mso-fareast-language: SV"><FONT size=3D5>Submission=20
+Guidelines<o:p></o:p></FONT></SPAN></H1>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Prospective workshop participants are invited =
+to submit a=20
+paper related to the purpose of the workshop. The workshop will accept =
+three=20
+types of submissions:<o:p></o:p></FONT></SPAN></P>
+<P class=3DNormalJustified=20
+style=3D"MARGIN: 6pt 0in 6pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 =
+level1 lfo2"><FONT=20
+face=3D"Times New Roman"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><SPAN=20
+style=3D"mso-list: Ignore">1.<SPAN=20
+style=3D"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">Completed Research =
+&#8211; this type=20
+of papers should include evidence to support the contribution (e.g. in =
+the form=20
+of data analysis, proof of concept, or case studies) and discussion on =
+research=20
+findings and their theoretical and practical significance. The paper =
+should not=20
+exceed 5,000 words (excluding references and appendices). Accepted =
+completed=20
+research papers will be allocated 30 minutes for presentation (including =
+
+questions &amp; answers) during the workshop.<SPAN=20
+style=3D"mso-spacerun: yes">&nbsp; </SPAN><o:p></o:p></SPAN></FONT></P>
+<P class=3DNormalJustified=20
+style=3D"MARGIN: 6pt 0in 6pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 =
+level1 lfo2"><FONT=20
+face=3D"Times New Roman"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><SPAN=20
+style=3D"mso-list: Ignore">2.<SPAN=20
+style=3D"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">Research-In-Progress =
+&#8211; this=20
+type of papers can report on research that is under way with preliminary =
+results=20
+available at the time of the conference. The paper should not exceed =
+2,500 words=20
+(excluding references and appendices). Accepted research-in-progress =
+papers will=20
+be allocated 15 minutes for presentation (including questions &amp; =
+answers)=20
+during the workshop.<o:p></o:p></SPAN></FONT></P>
+<P class=3DNormalJustified=20
+style=3D"MARGIN: 6pt 0in 6pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 =
+level1 lfo2"><FONT=20
+face=3D"Times New Roman"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><SPAN=20
+style=3D"mso-list: Ignore">3.<SPAN=20
+style=3D"FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN></SPAN><SPAN dir=3Dltr></SPAN><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">Position papers =
+&#8211; this type of=20
+papers can include lucid and well-supported statements and suggestions =
+on domain=20
+engineering, e.g., directions for the discipline, open questions, =
+criticism on=20
+the state-of-the-art, and novel approaches. Accepted position papers =
+will be=20
+allocated 15 minutes for presentation (including questions &amp; =
+answers) during=20
+the workshop.<o:p></o:p></SPAN></FONT></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">All three types of papers may refer to =
+theoretical and/or=20
+practical issues.<o:p></o:p></FONT></SPAN></P>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><FONT=20
+face=3D"Times New Roman"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">P</SPAN><FONT =
+size=3D3>apers=20
+must conform to the ICSE 2009 format (see=20
+http://www.cs.uoregon.edu/events/icse2009/calls/format/)</FONT><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">. The paper type =
+(completed=20
+research, research-in-progress, or a position paper) should explicitly =
+be=20
+indicated after the paper title. In addition, the paper abstract should =
+not be=20
+longer than 150 words. As the workshop will apply double-blind reviews =
+process,=20
+the papers should not indicate their authors. Papers should be submitted =
+through=20
+the on-line system at </SPAN><FONT=20
+size=3D3>http://www.bgu.ac.il/~sturm/DE@ICSE09/DE_ICSE09_Submission.htm</=
+FONT><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: =
+SV">..<o:p></o:p></SPAN></FONT></P>
+<H1 style=3D"MARGIN: 12pt 0in 3pt"><SPAN lang=3DEN-GB=20
+style=3D"mso-fareast-language: SV"><FONT=20
+size=3D5>Publication<o:p></o:p></FONT></SPAN></H1>
+<P class=3DNormalJustified style=3D"MARGIN: 6pt 0in"><FONT=20
+face=3D"Times New Roman"><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">The paper selection =
+will be=20
+based upon the relevance of a paper to the main topics, on its quality =
+and on=20
+the potential to stimulate discussion in the workshop. Accepted papers =
+will be=20
+published in the online ICSE'</SPAN><SPAN style=3D"FONT-SIZE: 11pt">2009 =
+workshop=20
+proceedings. In addition, </SPAN><SPAN=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">authors of some =
+selected=20
+papers will be asked to consider submitting revised version of the =
+papers as=20
+chapters in a book on Domain Engineering to be edited by the workshop =
+co-chairs=20
+and published by Springer.<o:p></o:p></SPAN></FONT></P>
+<H1 style=3D"MARGIN: 12pt 0in 3pt"><SPAN lang=3DEN-GB=20
+style=3D"mso-fareast-language: SV"><FONT size=3D5>Important=20
+dates<o:p></o:p></FONT></SPAN></H1>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Submission =
+deadline: <SPAN=20
+style=3D"mso-tab-count: =
+2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;=20
+</SPAN>December 25<SUP><SPAN style=3D"mso-bidi-font-weight: =
+bold">th</SPAN></SUP>=20
+2008<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Notification of =
+acceptance:=20
+<SPAN style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>January =
+
+29<SUP><SPAN style=3D"mso-bidi-font-weight: bold">th</SPAN></SUP>=20
+2009<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Camera-ready =
+papers due:=20
+<SPAN style=3D"mso-bidi-font-weight: bold"><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN></SPAN>February<SPAN style=3D"mso-bidi-font-weight: bold"> =
+16<SUP>th</SUP>=20
+2009<o:p></o:p></SPAN></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt"><FONT face=3D"Times New Roman">Workshop: <SPAN =
+
+style=3D"mso-tab-count: =
+3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>May 17<SUP>th</SUP> 2009<o:p></o:p></FONT></SPAN></P><B><SPAN =
+lang=3DEN-GB=20
+style=3D"FONT-SIZE: 16pt; FONT-FAMILY: 'Arial','sans-serif'; =
+mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-GB; =
+mso-bidi-language: AR-SA; mso-font-kerning: 16.0pt; =
+mso-fareast-language: EN-US"><BR=20
+style=3D"PAGE-BREAK-BEFORE: always" clear=3Dall></SPAN></B>
+<H1 style=3D"MARGIN: 12pt 0in 3pt"><SPAN lang=3DEN-GB><FONT =
+size=3D5>Workshop=20
+Co-Chairs</FONT></SPAN></H1>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: =
+justify"><SPAN=20
+lang=3DEN-GB style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Iris Reinhartz-Berger, <?xml:namespace prefix =
+=3D st1 ns =3D=20
+"urn:schemas-microsoft-com:office:smarttags" /><st1:place =
+w:st=3D"on"><st1:City=20
+w:st=3D"on">University of Haifa</st1:City>, <st1:country-region=20
+w:st=3D"on">Israel</st1:country-region></st1:place>. <SPAN=20
+style=3D"COLOR: blue"><o:p></o:p></SPAN></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify; =
+mso-layout-grid-align: none"><SPAN=20
+lang=3DEN-GB style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Arnon Sturm, <st1:PlaceName =
+w:st=3D"on">Ben</st1:PlaceName>=20
+<st1:PlaceName w:st=3D"on">Gurion</st1:PlaceName> <st1:PlaceType=20
+w:st=3D"on">University</st1:PlaceType> of the Negev, <st1:country-region =
+
+w:st=3D"on"><st1:place =
+w:st=3D"on">Israel</st1:place></st1:country-region>. <SPAN=20
+style=3D"COLOR: blue"><o:p></o:p></SPAN></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify; =
+mso-layout-grid-align: none"><SPAN=20
+lang=3DEN-GB style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Yair Wand, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">University of British Columbia</st1:City>, =
+<st1:country-region=20
+w:st=3D"on">Canada</st1:country-region></st1:place> =
+<o:p></o:p></FONT></SPAN></P>
+<H1 style=3D"MARGIN: 12pt 0in 3pt"><FONT size=3D5><SPAN =
+lang=3DEN-GB>Workshop Program=20
+Committee</SPAN><SPAN lang=3DEN-GB=20
+style=3D"mso-fareast-language: SV"><o:p></o:p></SPAN></FONT></H1>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Colin Atkinson, <st1:place =
+w:st=3D"on"><st1:City=20
+w:st=3D"on">University of Mannheim</st1:City>, <st1:country-region=20
+w:st=3D"on">Germany</st1:country-region></st1:place><o:p></o:p></FONT></S=
+PAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Mira Balaban, <st1:PlaceName=20
+w:st=3D"on">Ben-Gurion</st1:PlaceName> <st1:PlaceType=20
+w:st=3D"on">University</st1:PlaceType> of the Negev, <st1:place=20
+w:st=3D"on"><st1:country-region=20
+w:st=3D"on">Israel</st1:country-region></st1:place><o:p></o:p></FONT></SP=
+AN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Sholom Cohen, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">CMU-SEI</st1:City>, <st1:country-region=20
+w:st=3D"on">USA</st1:country-region></st1:place><o:p></o:p></FONT></SPAN>=
+</P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Kim Dae-Kyoo, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">Oakland University</st1:City>, <st1:country-region=20
+w:st=3D"on">USA</st1:country-region></st1:place><o:p></o:p></FONT></SPAN>=
+</P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Dov Dori, Technion &#8211; Israel Institute of =
+<st1:place=20
+w:st=3D"on"><st1:City w:st=3D"on">Technology</st1:City>, =
+<st1:country-region=20
+w:st=3D"on">Israel</st1:country-region></st1:place><o:p></o:p></FONT></SP=
+AN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Joerg Evermann, Memorial <st1:place =
+w:st=3D"on"><st1:City=20
+w:st=3D"on">University of Newfoundland</st1:City>, <st1:country-region=20
+w:st=3D"on">Canada</st1:country-region></st1:place><o:p></o:p></FONT></SP=
+AN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Jeff Gray, University of Alabama at Birmingham, =
+
+USA<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT=20
+face=3D"Times New Roman"><st1:PersonName w:st=3D"on"=20
+ProductID=3D"Atzmon Hen-Tov"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">Atzmon=20
+Hen-Tov</SPAN></st1:PersonName><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">, <st1:place=20
+w:st=3D"on"><st1:City w:st=3D"on">Pontis</st1:City>, <st1:country-region =
+
+w:st=3D"on">Israel</st1:country-region></st1:place><o:p></o:p></SPAN></FO=
+NT></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Steven Kelly, MetaCase, <st1:country-region=20
+w:st=3D"on"><st1:place=20
+w:st=3D"on">Finland</st1:place></st1:country-region><o:p></o:p></FONT></S=
+PAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">John McGregor, Clemson University, USA=20
+<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Dirk Muthig, Fraunhofer Institute for =
+Experimental=20
+<st1:place w:st=3D"on"><st1:City w:st=3D"on">Software =
+Engineering</st1:City>,=20
+<st1:country-region=20
+w:st=3D"on">Germany</st1:country-region></st1:place><o:p></o:p></FONT></S=
+PAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Klaus Pohl, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">University of Duisburg-Essen</st1:City>, <st1:country-region =
+
+w:st=3D"on">Germany</st1:country-region></st1:place><o:p></o:p></FONT></S=
+PAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Iris Reinhartz-Berger, University of Haifa, =
+Israel=20
+<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Michael Rosemann, The <st1:PlaceType=20
+w:st=3D"on">University</st1:PlaceType> of <st1:PlaceName=20
+w:st=3D"on">Queensland</st1:PlaceName>, =
+Australia<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Julia Rubin, IBM Haifa Research Labs,=20
+Israel<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Bernhard Rumpe, Braunschweig University of =
+Technology,=20
+Germany<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Lior Schachter, <st1:place =
+w:st=3D"on"><st1:City=20
+w:st=3D"on">Pontis</st1:City>, <st1:country-region=20
+w:st=3D"on">Israel</st1:country-region></st1:place><o:p></o:p></FONT></SP=
+AN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Klaus Schmid, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">University of Hildesheim</st1:City>, <st1:country-region=20
+w:st=3D"on">Germany</st1:country-region></st1:place><o:p></o:p></FONT></S=
+PAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Keng Siau, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">University of Nebraska-Lincoln</st1:City>, =
+<st1:country-region=20
+w:st=3D"on">USA</st1:country-region></st1:place><o:p></o:p></FONT></SPAN>=
+</P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT=20
+face=3D"Times New Roman"><st1:PersonName w:st=3D"on" ProductID=3D"Arnon =
+Sturm"><SPAN=20
+lang=3DEN-GB style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">Arnon=20
+Sturm</SPAN></st1:PersonName><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">, <st1:PlaceName=20
+w:st=3D"on">Ben-Gurion</st1:PlaceName> <st1:PlaceType=20
+w:st=3D"on">University</st1:PlaceType> of the Negev, <st1:country-region =
+
+w:st=3D"on"><st1:place=20
+w:st=3D"on">Israel</st1:place></st1:country-region><o:p></o:p></SPAN></FO=
+NT></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Giancarlo Succi, the <st1:PlaceType=20
+w:st=3D"on">University</st1:PlaceType> of <st1:PlaceName=20
+w:st=3D"on">Alberta</st1:PlaceName>, <st1:country-region =
+w:st=3D"on"><st1:place=20
+w:st=3D"on">Canada</st1:place></st1:country-region><o:p></o:p></FONT></SP=
+AN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Juha-Pekka Tolvanen, MetaCase, =
+<st1:country-region=20
+w:st=3D"on"><st1:place=20
+w:st=3D"on">Finland</st1:place></st1:country-region><o:p></o:p></FONT></S=
+PAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><FONT=20
+face=3D"Times New Roman"><st1:PersonName w:st=3D"on" ProductID=3D"Yair =
+Wand"><SPAN=20
+lang=3DEN-GB style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">Yair=20
+Wand</SPAN></st1:PersonName><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV">, <st1:City=20
+w:st=3D"on">University of British Columbia</st1:City>,=20
+Canada<o:p></o:p></SPAN></FONT></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Gabi Zodik, IBM Haifa Research Labs, Israel=20
+<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><o:p><FONT=20
+face=3D"Times New Roman">&nbsp;</FONT></o:p></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><B><SPAN lang=3DEN-GB =
+
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">For more information on the workshop, please=20
+contact:<o:p></o:p></FONT></SPAN></B></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Iris =
+Reinhartz-Berger<o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal style=3D"MARGIN: 0in 0in 0pt"><SPAN lang=3DEN-GB=20
+style=3D"FONT-SIZE: 11pt; mso-fareast-language: SV"><FONT=20
+face=3D"Times New Roman">Department of <st1:PlaceName=20
+w:st=3D"on">Management</st1:PlaceName> <st1:PlaceName=20
+w:st=3D"on">Information</st1:PlaceName> <st1:PlaceName=20
+w:st=3D"on">Systems</st1:PlaceName><BR><st1:PlaceType=20
+w:st=3D"on">University</st1:PlaceType> of <st1:PlaceName=20
+w:st=3D"on">Haifa</st1:PlaceName><BR><st1:PlaceName=20
+w:st=3D"on">Carmel</st1:PlaceName> <st1:PlaceType=20
+w:st=3D"on">Mountain</st1:PlaceType>, <st1:place w:st=3D"on"><st1:City=20
+w:st=3D"on">Haifa</st1:City> <st1:PostalCode =
+w:st=3D"on">31905</st1:PostalCode>,=20
+<st1:country-region =
+w:st=3D"on">Israel</st1:country-region></st1:place><BR>Phone:=20
+972-4-8288502<o:p></o:p></FONT></SPAN></P></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_00AD_01C94D07.4AA9ED90--
+
+
+--===============1109730750==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1109730750==--
+

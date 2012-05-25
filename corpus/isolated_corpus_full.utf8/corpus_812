@@ -1,0 +1,230 @@
+From - Thu Dec 10 14:25:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 49448bed06d32449f33ea092725d6efe59d97e6b
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs236435pyn;
+        Thu, 16 Nov 2006 08:57:22 -0800 (PST)
+Received: by 10.78.41.3 with SMTP id o3mr743485huo.1163696242370;
+        Thu, 16 Nov 2006 08:57:22 -0800 (PST)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 37si2527849hua.2006.11.16.08.57.20;
+        Thu, 16 Nov 2006 08:57:22 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id kAGGvJIo017971
+	for <jpprost@gmail.com>; Fri, 17 Nov 2006 03:57:19 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006111703571800833
+ for <jpprost@gmail.com>; Fri, 17 Nov 2006 03:57:18 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id kAGGvDpp017965
+	for <jpprost@gmail.com>; Fri, 17 Nov 2006 03:57:13 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id kAGGvC0x024083
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 17 Nov 2006 03:57:12 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id kAGGvCaA017962
+	for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 17 Nov 2006 03:57:12 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006111703571100832
+ for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 17 Nov 2006 03:57:11 +1100
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id kAGGv4Wn017956
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 17 Nov 2006 03:57:07 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id kAGGv2f14310
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 17 Nov 2006 03:57:03 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 4A8482DCD9;
+	Thu, 16 Nov 2006 17:56:52 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 5648363 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Thu, 16 Nov 2006
+          17:56:51 +0100
+X-Original-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Delivered-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Received: from nibbel.kulnet.kuleuven.ac.be (nibbel.kulnet.kuleuven.ac.be
+          [134.58.240.41]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id AEF802DCD6 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 16 Nov 2006
+          17:56:51 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1]) by
+          nibbel.kulnet.kuleuven.ac.be (Postfix) with ESMTP id CCDC84DB89 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 16 Nov 2006 17:56:43 +0100
+          (CET)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by nibbel.kulnet.kuleuven.ac.be (Postfix) with ESMTP
+          id B55D94DB6F for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 16 Nov 2006
+          17:56:41 +0100 (CET)
+Received: from smtp2.ruc.dk (smtp2.ruc.dk [130.225.220.22]) by
+          cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 8F6CB341B2 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 16 Nov 2006 17:56:41 +0100
+          (CET)
+Received: by smtp2.ruc.dk (Postfix, from userid 1005) id 3B1F8238073; Thu, 16
+          Nov 2006 17:56:41 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.1.7 (2006-10-05) on smtp2.ruc.dk
+Received: from [192.168.1.11]
+          (cpe.atm2-0-1301003.0x50c42d26.taanxx2.customer.tele.dk
+          [80.196.45.38]) (using TLSv1 with cipher RC4-SHA (128/128 bits)) (No
+          client certificate requested) by smtp2.ruc.dk (Postfix) with ESMTP id
+          6C552238021 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 16 Nov 2006
+          17:56:38 +0100 (CET)
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+X-Mailer: Apple Mail (2.752.2)
+X-Virus-Scanned: by KULeuven Antivirus Cluster
+X-Spam-Status: No,
+               hits=1.2 tagged_above=-9999.0 required=5.0
+               tests=LINES_OF_YELLING, LINES_OF_YELLING_2, MAILTO_TO_SPAM_ADDR
+X-Spam-Level: *
+Message-ID:  <4C9A2C70-34D5-4A32-B31F-6CBD8F179AC3@RUC.DK>
+Date:         Thu, 16 Nov 2006 17:54:57 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Henning Christiansen <henning@RUC.DK>
+Subject: [CHR] CONTEXT, call for workshop proposals
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+
+------------------------------------------------------------------------
+                       CALL FOR WORKSHOP PROPOSALS
+
+            6th International and Interdisciplinary Conference
+                      on Modeling and Using Context
+
+                      Roskilde University - Denmark
+                            20-24 August 2007
+
+                        http://context-07.ruc.dk
+------------------------------------------------------------------------
+
+CONTEXT 07 Workshops:
+
+CONTEXT 07 invites proposals for the workshop program. Workshops will
+be held on August 20-21 immediately prior to the main program of the
+conference.
+
+
+GENERAL INFORMATION
+
+The main goal of the CONTEXT 07 workshops is to stimulate and facilitate
+an active exchange on unique and interdisciplinary applications, ideas,
+approaches, and methods about specific topics in the general area of
+Modeling and Using Context. The Workshops provide a setting that fosters
+informal discussion and active engagement among attendees. Researchers
+from all disciplines are invited to submit proposals for workshop for
+review. Workshops on specific relevant aspects of broader topics and
+newly evolving areas of Context are particularly encouraged.
+
+Workshops in general will be one full day in duration, exceptionally
+lasting half a day or two days. Format and content of each workshop will
+largely be determined by each workshop's organizing committee. Proposals
+for "mini-conference" style workshops are discouraged and ample time
+should be allotted for general discussion. Workshop organizers and
+attendees must register for the main CONTEXT 07 conference!
+
+For presenting workshop summaries to all conference attendees, a time
+slot of about 10 minutes each will be provided in coordination with the
+main conference's regular sessions. These summaries should be presented
+by at least one of the workshop's organizers.
+
+
+SUBMISSION OF PROPOSALS
+
+To propose a workshop for CONTEXT 07, you will submit a full proposal of
+at most 5 pages containing the following information:
+
+  * The proposed title of the workshop;
+  * A brief description of the technical issues the workshop addresses;
+  * A brief discussion on target audience and relevance to CONTEXT 07;
+  * A preliminary workshop agenda/schedule, including desired duration;
+  * A description of the intended workshop format and style;
+  * A description of paper review process and acceptance standards;
+  * Potential program committee members, including their affiliations;
+  * Number of expected and, if available, a list of interested  
+attendees;
+  * Intended means of advertising the workshop;
+  * Related workshops recently held, with description and location;
+  * Contact information, including the names, postal addresses, phone
+    numbers, and email addresses of the proposed workshop organizing
+    committee. The committee should consist of three or four people
+    knowledgeable about the technical issues to be addressed and,
+    ideally, not being from the same institution;
+  * Brief notes on each member of the organizing committee and their
+    recent work relating to the technical issues addressed.
+
+All proposals should be submitted by electronic mail to the CONTEXT 07
+workshop chair as PDF file as soon as possible but no later than
+January 31, 2007 at:
+
+   context07@workshop.hm
+
+Proposals will be reviewed by the program committee and prospective
+organizers will be notified of their decision no later than February 15,
+2006.
+
+
+RESPONSIBILITIES OF CONTEXT 07 AND WORKSHOP ORGANIZERS
+
+For all accepted proposals, CONTEXT 07 will be responsible for:
+
+  * Providing a meeting place for the workshop;
+  * Determining the workshop date and time;
+  * Duplicating working notes.
+
+Workshop organizers will be responsible for the following:
+
+  * Setting up a web site for the workshop;
+  * Advertising the workshop and issuing a call for papers/ 
+participation;
+  * Review and select presentations and papers;
+  * Providing the complete workshop's working notes as single PDF file;
+  * Ensure registration of workshop organizers and participants to the
+    main conference;
+  * Arrange for special requirements with the CONTEXT 07 Workshop Chair
+    no later than July 18, 2007.
+
+The workshop's call for papers should clarify the process by which the
+organizing committee will review and select the papers and presentations
+for being accepted. Additionally, the procedure, form, and dates for
+submissions should be included. It is recommended to adopt the deadlines
+for submissions and notifications from the list of important dates as
+given below.
+
+CONTEXT 07 reserves the right to cancel any workshop if the above
+responsibilities are not fulfilled, or if too few attendees register
+for the workshop. In special cases, the CONTEXT 07 program committee
+may suggest the consolidation of workshops, to prevent the need for
+cancellation.
+
+The decision on the acceptance of workshops to be included in the final
+CONTEXT 07 program will be based upon multiple factors, among others,
+scientific and/or technical interest of the topic, the proposal's
+quality, distinctness and balance of the workshop's topics, and the
+capacity of the conference workshop program.
+
+
+IMPORTANT DATES (2007)
+
+Jan 31.  Deadline for Workshop Proposal Submission
+Feb 15.  Notification of Acceptance for Workshop Proposals
+May 15.  Suggested Deadline for Workshop Paper Submission
+Jun 07.  Suggested Day of Notifications for Papers
+Jun 30.  Suggested Deadline for Camera-ready Copies of Papers
+          to be received by the Workshop Organizers
+Jul 18.  Deadline for Camera-ready Copy of Workshop Notes
+          to be received by the CONTEXT 07 Workshop Chair
+Aug 20.-21. Workshop Days
+
+
+CONTACT
+
+Stefan Schulz
+The e-Spirit Company GmbH
+
+Phone: +49 (231) 28661 - 43
+Fax:   +49 (231) 28661 - 59
+
+Email: context07@workshop.hm

@@ -1,0 +1,211 @@
+From - Thu Dec 10 14:35:00 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs111530far;
+        Fri, 16 Jan 2009 03:11:07 -0800 (PST)
+Received: by 10.210.51.10 with SMTP id y10mr3036628eby.1.1232104267528;
+        Fri, 16 Jan 2009 03:11:07 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 12si1182842ewy.66.2009.01.16.03.10.51;
+        Fri, 16 Jan 2009 03:11:07 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B752E21287; Fri, 16 Jan 2009 12:10:50 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 7DB441FB92;
+	Fri, 16 Jan 2009 12:09:44 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C832A3E08;
+	Fri, 16 Jan 2009 12:09:39 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cmSOe+DjliuC; Fri, 16 Jan 2009 12:09:39 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6A0243D45;
+	Fri, 16 Jan 2009 12:09:27 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B24B53D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  9 Jan 2009 12:22:33 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id iFwAdte00N1C for <elsnet-list@mailman.elsnet.org>;
+	Fri,  9 Jan 2009 12:22:33 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8A49D3D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  9 Jan 2009 12:22:33 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 67DF72114E; Fri,  9 Jan 2009 12:22:33 +0100 (MET)
+Received: from mxa.liv.ac.uk (mxa.liv.ac.uk [138.253.100.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 7FB6420F96
+	for <elsnet-list@let.uu.nl>; Fri,  9 Jan 2009 12:22:29 +0100 (MET)
+Received: from mailhuba.liv.ac.uk ([138.253.100.36])
+	by mxa.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Floriana@liverpool.ac.uk>)
+	id 1LLFRc-0005xv-FY; Fri, 09 Jan 2009 11:22:28 +0000
+Received: from localhost ([127.0.0.1] helo=mailhuba.liv.ac.uk)
+	by mailhuba.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Floriana@liverpool.ac.uk>)
+	id 1LLFRc-0001bF-Ct; Fri, 09 Jan 2009 11:22:28 +0000
+Received: from mail.csc.liv.ac.uk ([138.253.184.237] helo=tethys.csc.liv.ac.uk)
+	by mailhuba.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Floriana@liverpool.ac.uk>)
+	id 1LLFRc-0001bC-6E; Fri, 09 Jan 2009 11:22:28 +0000
+Received: from csc.liv.ac.uk (floriana@linux1 [10.130.0.6])
+	by tethys.csc.liv.ac.uk (8.11.1 - (Revision 1.09)/LUCS-DTS-4.0M10) with
+	ESMTP id n09BMRN27183; Fri, 9 Jan 2009 11:22:27 GMT
+Received: from localhost (floriana@localhost)
+	by csc.liv.ac.uk (8.14.2/8.14.2/Submit) with ESMTP id n09BMNjo015664;
+	Fri, 9 Jan 2009 11:22:23 GMT
+Date: Fri, 9 Jan 2009 11:22:23 +0000 (GMT)
+From: Floriana Grasso <Floriana@liverpool.ac.uk>
+To: lists:;lists: ; <"">, lists:;lists: ; <"">
+Message-ID: <alpine.LFD.2.00.0901091117250.14342@linux1.csc.liv.ac.uk>
+User-Agent: Alpine 2.00 (LFD 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+X-Mailman-Approved-At: Fri, 16 Jan 2009 12:09:23 +0100
+Cc: 
+Subject: [Elsnet-list] final CFP (extended deadline) - AISB Symposium on
+ persuasive technology and digital behaviour intervention
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+FINAL CALL FOR PAPERS
+
+Symposium on Persuasive Technology and Digital Behaviour Intervention
+April 6-7, 2009 Edinburgh, Scotland, UK
+www.csd.abdn.ac.uk/~jmasthof/Persuasive09/
+
+In conjunction with the AISB 2009 Convention 
+Adaptive and Emergent Behaviour and Complex Systems
+(www.aisb.org.uk/convention/aisb09/index.php)
+
+
+KEY DATES
+- Paper submission: January 26, 2009
+- Notification: February 23, 2009
+- Final Copy Due: TBA, 2009
+- Symposium dates: April 6-7, 2009
+
+
+SYMPOSIUM CHAIRS
+
+Judith Masthoff
+Department of Computing Science
+University of Aberdeen
+Aberdeen AB24 3UE, UK
+j.masthoff(AT)abdn.ac.uk
+www.csd.abdn.ac.uk/~jmasthof/
+
+Floriana Grasso
+Department of Computer Science
+University of Liverpool
+Liverpool L69 3BF, UK
+floriana(AT)csc.liv.ac.uk 
+www.csc.liv.ac.uk/~floriana/
+
+
+CALL FOR PAPERS
+
+Can a web site persuade you to be politically active? Can a mobile phone motivate you to exercise? Does instant feedback on petrol use change how people drive? Do online rating systems inspire people to behave better online? This symposium will focus on how digital technology can motivate and influence people (or agents). It will bring together researchers, designers, and developers interested in computers designed to change attitudes and behaviors in positive ways.
+
+In a persuasive communication, a source tries to influence a receiver?s attitudes or behaviours through the use of messages. Each of these three components (the source, the receiver, and the messages) affects the effectiveness of persuasion. In addition, the type of communication (the way the message is delivered) can impact a message?s effectiveness. This symposium will bring together researchers working on all these aspects of persuasion, from persuasive argumentation to persuasive user interfaces.
+
+Persuasive technology has a great practical potential, for instance to improve health (encouraging a reduction in alcohol intake, smoking cessation, an increase in exercise, more healthy eating, and adherence to medical treatment) and to move towards sustainable living (encouraging a reduction in energy consumption, recycling, and use of public transport). There is a growing interest within the research community into persuasive technology, as shown by the emergence of the new Persuasive conference series (in Eindhoven, the Netherlands, 2006; Stanford, US, 2007; Oulu, Finland, 2008; Claremont, US, 2009 persuasive2009.net), as well as the successful series of workshops on Computational Models of Natural Argument (www.csc.liv.ac.uk/~floriana/CMNA7/), which is an area overlapping with persuasion. This symposium follows on from the
+succesful Persuasive Technology Symposium held at the previous AISB (www.csd.abdn.ac.uk/~jmasthof/Persuasive/). In 2008, we brought together researchers from distinct subfields of Computing Science (namely persuasive technology
+and argumentation). Now, we would like to extend this further to include Psychologists. Initial contact with this community has been established at the "Designing digital interventions to help overcome addictive behaviours" workshop in Windsor earlier this year.
+
+The symposium will take place on two consecutive days. In addition to presentation by participants, there will be discussions in smaller groups on topics determined beforehand. We are also hoping to have one or two invited speakers.
+
+TOPICS OF INTEREST
+Submissions are invited on all aspects of Persuasive Technology. This includes, but is not limited to:
+
+- Behaviour intervention methods
+
+- Persuasive argumentation
+ 	- Generating persuasive arguments (identifying discourse goals, choosing argument structure, content selection)
+ 	- Ontologies for persuasion
+ 	- Persuasive discourse processing: understanding what users say in terms of argumentation schemes
+ 	- Computational models of argumentation
+ 	- Rhetoric and affect: the role of emotions, personalities, etc. in models of argumentation.
+ 	- Enhancing receiver involvement
+
+- User modeling
+ 	- Modeling receiver involvement
+ 	- Modeling receiver position
+ 	- Modeling personality and affective state for persuasion
+ 	- Effect of cultural differences on persuasion
+
+- Persuasive User Interfaces
+ 	- Use of (multiple) Embodied Conversational Agents for persuasion
+ 	- Communication settings (e.g. direct versus indirect communication)
+ 	- Timing of persuasive messages/ when to interrupt the user
+ 	- Effective presentation of arguments
+ 	- Online dispute resolution
+ 	- Mobile persuasion, persuasive images, persuasive video, persuasive games
+
+- Peripheral routes of persuasion
+ 	- Humor in persuasion
+ 	- Enhancing source credibility
+ 		- Building trust using natural language
+ 		- Models of on-line trust/credibility
+ 		- Effects of Source appearance, source similarity
+
+- Alternative ways of persuasion
+ 	- Using the influence of peers to persuade
+ 	- Persuasion through incentives and punishment
+
+- Evaluation methods for persuasive technology and behaviour intervention
+- Ethics of persuasive technology
+- Applications of persuasive technology and behaviour intervention, like in healthcare, education, e-commerce, politics
+
+SUBMISSIONS
+Please submit your papers in PDF format via email to both symposium organisors.
+We invite both long papers of up to 6 pages on substantial research results, and short papers of up to 2 pages on more polemic, work-in-progress, burning issue or system description topics. Accepted papers will be published in the AISB proceedings, with an ISBN number. Authors of papers must sign a non-exclusive copyright declaration which gives AISB the right to publish the paper, but does not prevent the author from also publishing it in other venues after. We are investigating the possiblity of publishing the best papers in a special issue of a journal. Paper formatting instructions are provided on the AISB09 website (www.aisb.org.uk/convention/aisb09/downloads.php).
+
+PROGRAMME COMMITTEE
+
+Katie Atkinson, University of Liverpool, UK
+Paul Beatty, University of Manchester, UK
+Timothy Bickmore, Northeastern University, US
+Guiseppe Carenini, University of British Colombia, Canada
+Susan Ferebee, University of Phoenix, US
+Nancy Green, University of North Carolina Greensboro, US
+Helmut Horacek, University of the Saarland, Saarbr?cken, Germany
+Cees Midden, Eindhoven University of Technology, Netherlands
+Hien Nguyen, University of Aberdeen, UK
+Chris Reed, University of Dundee, UK
+Fabio Paglieri, ISTC-CNR, Rome, Italy
+Patrick Saint-Dizier, IRIT-CNRS, Toulouse
+Falko Sniehotta, University of Aberdeen, UK
+Oliviero Stock, ITC-IRST, Italy
+Peter de Vries, Twente University, Netherlands
+Doug Walton, University of Windsor, Ontario
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

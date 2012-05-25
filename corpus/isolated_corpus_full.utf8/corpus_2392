@@ -1,0 +1,178 @@
+From - Thu Dec 10 14:29:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs199287waa;
+        Mon, 7 Jan 2008 16:36:05 -0800 (PST)
+Received: by 10.66.236.13 with SMTP id j13mr75445ugh.30.1199752561554;
+        Mon, 07 Jan 2008 16:36:01 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 19si791766ugl.13.2008.01.07.16.35.29;
+        Mon, 07 Jan 2008 16:36:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JC2LD-0003CL-2y; Tue, 08 Jan 2008 01:29:15 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JC2L7-0003C8-7U; Tue, 08 Jan 2008 01:29:09 +0100
+Received: from smtp-bedford.mitre.org [129.83.20.191] 
+	by rolf.uib.no for corpora@uib.no with esmtp (TLSv1:AES256-SHA:256)
+	(Exim 4.34) id 1JC2L3-0001Ww-8p; Tue, 08 Jan 2008 01:29:09 +0100
+Received: from smtp-bedford.mitre.org (localhost.localdomain [127.0.0.1])
+	by smtp-bedford.mitre.org (8.13.1/8.13.1) with ESMTP id m07Mhbi6002522
+	for <corpora@uib.no>; Mon, 7 Jan 2008 17:43:37 -0500
+Received: from IMCFE1.MITRE.ORG (imcfe1.mitre.org [129.83.29.3])
+	by smtp-bedford.mitre.org (8.13.1/8.13.1) with ESMTP id m07MhaS0002512
+	for <corpora@uib.no>; Mon, 7 Jan 2008 17:43:36 -0500
+Received: from IMCSRV2.MITRE.ORG ([129.83.20.164]) by IMCFE1.MITRE.ORG with
+	Microsoft SMTPSVC(6.0.3790.1830); Mon, 7 Jan 2008 17:43:36 -0500
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Date: Mon, 7 Jan 2008 17:43:44 -0500
+Message-ID: <3DD2072FFE53004EA1A74D7E483D43150111B860@IMCSRV2.MITRE.ORG>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: CfP: Resources and Evaluation for Identity Matching,
+	Entity Resolution and Entity Management
+Thread-Index: AchRfsIf7G6tsQgPSOGWvrNR2ao0fA==
+From: "Miller, Keith J." <keith@mitre.org>
+To: <corpora@uib.no>
+X-OriginalArrivalTime: 07 Jan 2008 22:43:36.0748 (UTC)
+	FILETIME=[BD863EC0:01C8517E]
+X-checked-clean: by exiscan on rolf
+X-Scanner: dfe64fd1c93749ac238739b2797a83c3 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ nothing
+Subject: [Corpora-List] CfP: Resources and Evaluation for Identity Matching,
+	Entity Resolution and Entity Management
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+Call for Papers =
+
+
+Workshop on Resources and Evaluation for Identity Matching, Entity
+Resolution and Entity Management
+
+LREC 2008 Workshop (http://www.lrec-conf.org/lrec2008/)
+31 May 2008
+
+
+Structured repositories of data about people are being created through
+information extraction from unstructured text as well as from sources
+that may themselves be structured documents such as passports or
+customer transactions. Problems arise in managing these structured
+repositories and integrating information from diverse sources. For
+example, newly added information must be consistent with existing
+information, must avoid duplication, and must be associated with an
+existing entity when that is appropriate. Researchers have addressed
+these problems in different contexts with goals such as name or record
+matching, identity resolution, and entity disambiguation. In this
+workshop, researchers with different perspectives will focus on the
+development of resources, algorithms and evaluation methodologies to
+improve the technology for managing structured repositories of identity
+data.
+
+Evaluation measures for tasks that integrate person information are
+especially challenging. Whereas it is generally accepted that entity
+extraction systems can be evaluated using MUC scoring metrics, the case
+is less clear for "follow-on" technologies. Even a seemingly simple
+task such as matching person names in a database context is deceptively
+complex, and although measures like precision and recall have been used
+to evaluate name and record matching, there are methodological issues
+to resolve before we can refer to a "standard" evaluation methodology
+for this task. Moreover, it is much less clear how to effectively
+evaluate identity matching, resolution, and management systems, or even
+what it means to perform an effective identity match, particularly in
+the context of data containing identity attributes of varying quality
+and in which we have varying degrees of confidence.
+
+
+We solicit papers that address the following areas:
+
+1. Position papers which:
+
+* Discuss metrics for evaluation of the above-mentioned technologies
+* Discuss resources that can be brought to bear on these tasks
+* Descriptions of the use cases for these technologies and/or
+discussion of which evaluation methods are appropriate for different
+use cases
+* Discuss approaches for dealing with uncertainty and assigning
+confidence values, particularly with respect to manual ground truth
+annotation, system output and evaluation metrics
+
+2. Papers discussing state-of-the-art systems and resources for
+performing or evaluating name and record matching, identity resolution,
+and identity management. Suggested topics include, but are not limited
+to:
+
+* Research in name / record matching
+* Research in entity disambiguation / resolution / deconfliction
+* Descriptions of systems or best practices for entity management
+* Evaluation of record matching, entity disambiguation, or entity
+management in different use cases
+* Resources for identity matching, identity resolution, or identity
+management which can contribute to improvements in system performance
+* Resources for evaluation of these technologies
+
+Although we are distributing a call for papers to be presented, our
+vision is to organize an interactive and dynamic event rather than a
+"mini-conference." Presentations will serve to introduce topics for
+discussion and to shape the day. However, a significant portion of time
+will be devoted to interactive exercises, brainstorming, and other
+"work" activities. The workshop will be organized such that all
+attendees (including the organizers) come out better informed about the
+problems associated with managing structured identity data and with
+initial ideas on a methodology for evaluating techniques designed to
+solve these problems. In particular, we hope to have made progress
+toward an understanding of contextualized and principled evaluation of
+identity matching, resolution, and management systems, and to connect a
+group of researchers interested in collaborating on this research.
+
+Organizing Committee:
+
+Keith J. Miller (The MITRE Corporation)
+Mark Arehart (The MITRE Corporation)
+Sherri Condon (The MITRE Corporation)
+Jason Duncan (U.S. Department of Defense)
+Louise Guthrie (University of Sheffield)
+Richard Lutz (The MITRE Corporation)
+Massimo Poesio (Universita' di Trento)
+ =
+
+
+Important Dates:
+
+Deadline for Paper Submission: Friday, 8 February 2008
+Notification to Authors: Friday, 29 February 2008
+Submission of Final Version: Friday, 14 March 2008
+Workshop at LREC 2008: Saturday, 31 May 2008 =
+
+
+Papers should be submitted in MS Word, PDF, or text (ASCII) format to
+Keith J. Miller at keith@mitre.org, with a copy to Mark Arehart at
+marehart@mitre.org. Please include the text "LREC Workshop Submission"
+in your subject line.
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

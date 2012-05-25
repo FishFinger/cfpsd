@@ -1,0 +1,973 @@
+From - Thu Dec 10 14:38:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.62.208 with SMTP id y16cs569887bkh;
+        Sun, 9 Aug 2009 10:43:18 -0700 (PDT)
+Received: by 10.210.89.7 with SMTP id m7mr4084621ebb.77.1249839795617;
+        Sun, 09 Aug 2009 10:43:15 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si8701829ewy.27.2009.08.09.10.43.14;
+        Sun, 09 Aug 2009 10:43:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 5489821A05; Sun,  9 Aug 2009 19:43:08 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id F1F8321A29;
+	Sun,  9 Aug 2009 19:42:35 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B40703D50;
+	Sun,  9 Aug 2009 19:42:35 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id SIYd17v4ReCs; Sun,  9 Aug 2009 19:42:35 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 50F483D39;
+	Sun,  9 Aug 2009 19:42:27 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1E0853D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  4 Aug 2009 11:26:08 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tfV0OGrMmq7k for <elsnet-list@mailman.elsnet.org>;
+	Tue,  4 Aug 2009 11:26:07 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D24AC3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  4 Aug 2009 11:25:45 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6974220B21; Tue,  4 Aug 2009 11:25:45 +0200 (MEST)
+X-Greylist: delayed 670 seconds by postgrey-1.28 at newjura;
+	Tue, 04 Aug 2009 11:25:35 MEST
+Received: from deprox.docomolab-euro.com (deprox.docomolab-euro.com
+	[212.119.9.186])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 9C27820A35
+	for <elsnet-list@elsnet.org>; Tue,  4 Aug 2009 11:25:35 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by deprox.docomolab-euro.com (Postfix) with ESMTP id 7B6D317037;
+	Tue,  4 Aug 2009 11:14:04 +0200 (CEST)
+Received: from deprox.docomolab-euro.com ([127.0.0.1])
+	by localhost (deprox.docomolab-euro.com [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with ESMTP id kqGOvK4MQECC; Tue,  4 Aug 2009 11:13:56 +0200 (CEST)
+Received: from DEMAIL.docomolab-euro.com (demail.docomolab-euro.com
+	[172.27.20.3]) by deprox.docomolab-euro.com (Postfix) with ESMTP;
+	Tue,  4 Aug 2009 11:13:56 +0200 (CEST)
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Date: Tue, 4 Aug 2009 11:13:54 +0200
+Message-ID: <317B40DA788E894D8FDD440D2835F5F701CD08DE@DEMAIL.docomolab-euro.com>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: CFP: Service Matchmaking and Resource Retrieval in the Semantic
+	Web
+Thread-Index: AcoU4+QS/Cg3Jva5SHWwQRMNdZpO2A==
+From: "Paolucci, Massimo" <paolucci@docomolab-euro.com>
+To: <cl@philebus.tamu.edu>, <event@in.tu-clausthal.de>,
+	<event@in.tu-clausthal.de>, <grin@di.unipi.it>, <gulp@dimi.uniud.it>,
+	<kaw@swi.psy.uva.nl>, <kr2004org@it.uts.edu>,
+	<noe_interop@drimm.u-bordeaux1.fr>, <semanticweb@yahoogroups.com>,
+	<taboo-list@deis.unibo.it>, <acl@opus.cs.columbia.edu>,
+	<agents@cs.umbc.edu>, <aila@disi.unige.it>, <aisb@cogs.sussex.ac.uk>,
+	<ai-sges@jiscmail.ac.uk>, <bull_i3@univ-tln.fr>, <cadeinc@cs.albany.edu>,
+	<cg@cs.uah.edu>, <cladv@iccl.tu-dresden.de>,
+	<cl-adverts@spock.inf.tu-dresden.de>, <colognet@ucy.ac.cy>,
+	<colognet-all@janeway.inf.tu-dresden.de>, <community@mlnet.org>,
+	<compulog@doc.imperial.ac.uk>, <compulognet-parimp@dia.fi.upm.es>,
+	<dai-list@ece.sc.edu>, <dbitaly@dia.uniroma3.it>,
+	<diglib@infoserv.inist.fr>, <dl@dl.kr.org>, <ebxml-dev@lists.ebxml.org>,
+	<e-eu-contact@dfki.de>, <elsnet-list@elsnet.org>,
+	<esap-news@disputatio.com>, <folli@coli.uni-sb.de>,
+	<ieeesb-vr@metropolis.sci.univr.it>, <info-ic@listes.irisa.fr>,
+	<jena-dev@yahoogroups.com>, <kif@philebus.tamu.edu>, <kweb-all@lists.de>,
+	<loom-forum@isi.edu>, <news-announce-conferences@uunet.uu.net>,
+	<ontolog-forum@ontolog.cim3.net>, <ontology@buffalo.edu>,
+	<ontoweb-language-sig@cs.man.ac.uk>, <ontolweb-lists@deri.org>,
+	<protege-discussion@smi.stanford.edu>, <public-owl-dev@w3.org>,
+	<public-sws-ig@w3.org>, <rewerse-all@rewerse.net>,
+	<semantic_web@googlegroups.com>, <semanticweb@egroups.com>,
+	<semantic-web@w3.org>, <semanticweb@yahoogroups.com>,
+	<seweb-list@cs.vu.nl>, <semweb-lists@lists.deri.org>,
+	<seweb-list@www2-c703.uibk.ac.at>, <sioc-dev@googlegroups.com>,
+	<sw-announce@semanticplanet.com>, <swing-project@set.sintef.no>,
+	<swws-list@isoco.com>, <topicmapmail@infoloom.com>,
+	<wi@aifb.uni-karlsruhe.de>, <www-rdf-interest@w3.org>,
+	<www-rdf-rules@w3.org>, <www-webont-wg@w3.org>, <www-ws@w3.org>,
+	<www-rdf-logic@w3.org>
+X-Mailman-Approved-At: Sun, 09 Aug 2009 19:41:58 +0200
+Cc: 
+Subject: [Elsnet-list] CFP: Service Matchmaking and Resource Retrieval in
+	the Semantic Web
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1936053199=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============1936053199==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01CA14E3.E3D375CD"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01CA14E3.E3D375CD
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for cross-postings
+
+=20
+
+=20
+
+-------------------------------------------------------------------------=
+-
+CALL FOR PAPERS
+-------------------------------------------------------------------------=
+-
+
+
+SMR2-2009=20
+
+=20
+
+Third International Workshop on
+
+Service Matchmaking and Resource Retrieval in the Semantic Web
+
+=20
+
+http://www-ags.dfki.uni-sb.de/~klusch/smr2-09/
+
+=20
+
+  8th International Semantic Web Conference (ISWC 2009)
+
+October 25, 2009=20
+
+Washington DC, USA
+
+=20
+
+Aims & Scope:
+
+=20
+
+One central challenge of service coordination in the Semantic Web is how =
+to best relate requests for services with the services that are =
+available.  This functionality is usually provided by matchmaking =
+capabilities (which may themselves be deployed as services, brokers or =
+middle agents) that select the services that are closest to a requested =
+service on the basis of a declarative characterization of the =
+capabilities of both service requested and services provided.
+
+=20
+
+More generally, resource retrieval extends the notion of service =
+matchmaking to the process of discovering any kind of resource =
+(services, data, information, knowledge, even persons and organizations) =
+for given settings, participating entities, and purposes. It is at the =
+core of several scenarios in the Semantic Web area, spanning from Web =
+services, Grid computing, and Peer-to-Peer computing, to applications =
+such as e-commerce, human resource management, and social networking =
+applications such as dating services.
+
+=20
+
+The primary objective of this workshop is to bring together academic and =
+industry researchers and industry practitioners who tackle semantic =
+service matchmaking and discovery from various points of view. In =
+particular, we intend to build bridges to the software engineering and =
+model-driven development communities in order to share requirements, =
+technologies, and experiences that might be helpful in advancing the =
+state of the art in semantic service matchmaking and resource retrieval.
+
+=20
+
+Going to Practice: The Third Semantic Service Selection (S3) Contest
+
+=20
+
+The SMR2 workshop also integrates the third edition of the open =
+international contest on semantic service selection (S3) =
+<http://www.dfki.de/~klusch/s3>  executed in collaboration with the =
+Semantic Web Service Challenge.  The S3 contest  provides the means and =
+a forum for evaluating the retrieval performance of Semantic Web service =
+matchmakers in terms of recall, precision, F1, response time etc., over =
+given test collections based on the prominent semantic service formats =
+such as OWL-S, WSML and the standard SA-WSDL.=20
+
+=20
+
+Publication:
+
+=20
+
+Accepted papers will be available online as a volume of CEUR =
+proceedings. In addition, selected papers will be published in a special =
+issue of the International Journal on Software Tools for Technology =
+Transfer (STTT, Springer Verlag).
+
+=20
+
+=20
+
+Topics of interest include (but are not limited to):
+
+=20
+
+* Advanced searching of services and other resources in the Semantic Web
+
+* Novel approaches to matchmaking and brokering in the Semantic Web, =
+with a particular emphasis on Semantic Web services
+
+* Model-driven semantic service engineering and matchmaking
+
+* Semantic retrieval of resources and services in P2P and Grid networks
+
+* Matchmaking in e-commerce scenarios: auctions, e-marketplaces, supply =
+chains
+
+* Matchmaking in other application scenarios: e-government, biopharma, =
+etc.
+
+* Composition planning of Semantic Web services
+
+* Negotiation of Semantic Web services and resources
+
+* Interleaving of discovery, composition, and negotiation of Semantic =
+Web services
+
+* Semantic Web services selection
+
+* Formal description and handling of Semantic Web services, queries, and =
+resources
+
+* Non-functional service properties and their use for discovery (and =
+composition)
+
+* Trust issues of Semantic Web service discovery
+
+* Prototypes and tools for Semantic Web services engineering
+
+* Practical business and user-oriented issues and experiences of =
+implementing SW service retrieval tools
+
+* Experimental comparative evaluation of implemented SW service =
+retrieval tools
+
+=20
+
+=20
+
+Submissions :
+
+Contributions to the workshop can be made as technical papers addressing =
+different issues of service and resource matching. The papers should not =
+be longer than 12 pages using the LNCS Style:
+http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-164-2-72376-0,0=
+0.html =
+<http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-164-2-72376-0,=
+00.html>=20
+
+=20
+
+All contributions should be prepared in PDF format and should be =
+submitted=20
+through the workshop submission site at: =
+http://www.easychair.org/conferences/?conf=3Dsmr22009 =
+<http://www.easychair.org/conferences/?conf=3Dsmr22009>=20
+
+
+
+Important Dates:=20
+August 11, 2009: Deadline for the submission of papers.=20
+September 6, 2009: Deadline for the notification of =
+acceptance/rejection.=20
+October 2, 2009: Camera ready copy submission.=20
+October 25, 2009: OM-2009, Westfields Conference Center, Fairfax, near =
+Washington DC., USA.=20
+
+
+Organizing Committee:=20
+Matthias Klusch (DFKI, Germany)
+
+Alain L=E9ger (France Telecom Research, France)
+
+Tiziana Margaria (University of Potsdam, Germany)=20
+
+David Martin (SRI International, USA)=20
+
+Massimo Paolucci (NTT DoCoMo Research Europe, Germany)
+
+=20
+
+Program Committee:
+
+Sudhir Agarwal =
+<http://www.easychair.org/conferences/pcmember_info.cgi?number=3D143569;a=
+=3Dc00b5e703f56> , AIFB, Germany
+
+Rama Akkiraju, IBM US
+
+Eugenio Di_Sciascio, University of Bary, Italy
+
+Takahiro Kawamura, Toshiba, Japan
+
+Ulrich Kuester, University of Jena, Germany
+
+Freddy Lecue, University of Manchester, UK
+
+Axel Polleres, DERI, Ireland
+
+Dumitru Roman, STI, Austria=20
+
+Bernhard Steffen =
+<http://www.easychair.org/conferences/pcmember_info.cgi?number=3D143850;a=
+=3Dc00b5e703f56> , University of Dortmund, Germany
+
+Eran Toch, CMU, USA
+
+Ioan Toma, STI, Austria
+
+Farouk Toumani, Isima, France=20
+
+=20
+
+=20
+
+
+------_=_NextPart_001_01CA14E3.E3D375CD
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1">
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:p=3D"urn:schemas-microsoft-com:office:powerpoint" =
+xmlns:a=3D"urn:schemas-microsoft-com:office:access" =
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" =
+xmlns:s=3D"uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" =
+xmlns:rs=3D"urn:schemas-microsoft-com:rowset" xmlns:z=3D"#RowsetSchema" =
+xmlns:b=3D"urn:schemas-microsoft-com:office:publisher" =
+xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadsheet" =
+xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" =
+xmlns:odc=3D"urn:schemas-microsoft-com:office:odc" =
+xmlns:oa=3D"urn:schemas-microsoft-com:office:activation" =
+xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" =
+xmlns:rtc=3D"http://microsoft.com/officenet/conferencing" =
+xmlns:D=3D"DAV:" xmlns:Repl=3D"http://schemas.microsoft.com/repl/" =
+xmlns:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetings/" =
+xmlns:x2=3D"http://schemas.microsoft.com/office/excel/2003/xml" =
+xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" =
+xmlns:ois=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" =
+xmlns:dir=3D"http://schemas.microsoft.com/sharepoint/soap/directory/" =
+xmlns:ds=3D"http://www.w3.org/2000/09/xmldsig#" =
+xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" =
+xmlns:udc=3D"http://schemas.microsoft.com/data/udc" =
+xmlns:xsd=3D"http://www.w3.org/2001/XMLSchema" =
+xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/2002/1/alerts/"=
+ xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" =
+xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" =
+xmlns:sps=3D"http://schemas.microsoft.com/sharepoint/soap/" =
+xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-instance" =
+xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" =
+xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" =
+xmlns:udcp2p=3D"http://schemas.microsoft.com/data/udc/parttopart" =
+xmlns:wf=3D"http://schemas.microsoft.com/sharepoint/soap/workflow/" =
+xmlns:dsss=3D"http://schemas.microsoft.com/office/2006/digsig-setup" =
+xmlns:dssi=3D"http://schemas.microsoft.com/office/2006/digsig" =
+xmlns:mdssi=3D"http://schemas.openxmlformats.org/package/2006/digital-sig=
+nature" =
+xmlns:mver=3D"http://schemas.openxmlformats.org/markup-compatibility/2006=
+" xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/relationshi=
+ps" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" =
+xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/2006/types"=
+ =
+xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/2006/messag=
+es" =
+xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/=
+" =
+xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortalServer/Pub=
+lishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" =
+xmlns:st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Trebuchet MS";
+	panose-1:2 11 6 3 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-priority:99;
+	mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Plain Text";
+	font-family:"Courier New";}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:70.85pt 70.85pt 56.7pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoPlainText><span lang=3DFR =
+style=3D'font-family:"Verdana","sans-serif"'>Apologies
+for cross-postings<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DFR =
+style=3D'font-family:"Verdana","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+
+
+<p class=3DMsoPlainText><span lang=3DFR =
+style=3D'font-family:"Verdana","sans-serif"'><o:p>&nbsp;</o:p></span></p>=
+
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DFR
+style=3D'font-family:"Verdana","sans-serif"'>----------------------------=
+----------------------------------------------<br>
+CALL FOR PAPERS<br>
+-------------------------------------------------------------------------=
+-<br>
+<br>
+<br>
+</span><b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>SMR2-2009</span></b><span
+lang=3DEN-GB style=3D'font-family:"Arial","sans-serif"'> =
+<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>Third International Workshop =
+on<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>Service Matchmaking and =
+Resource
+Retrieval in the Semantic Web<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'><a
+href=3D"http://www-ags.dfki.uni-sb.de/~klusch/smr2-09/">http://www-ags.df=
+ki.uni-sb.de/~klusch/smr2-09/</a><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>&nbsp; 8th International =
+Semantic Web
+Conference (ISWC 2009)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>October 25, 2009 =
+<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText align=3Dcenter style=3D'text-align:center'><span =
+lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>Washington DC, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></b></=
+p>
+
+<p class=3DMsoPlainText><b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>Aims
+&amp; Scope:</span></b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>One central challenge of =
+service
+coordination in the Semantic Web is how to best relate requests for =
+services
+with the services that are available.&nbsp; This functionality is =
+usually
+provided by matchmaking capabilities (which may themselves be deployed =
+as
+services, brokers or middle agents) that select the services that are =
+closest
+to a requested service on the basis of a declarative characterization of =
+the
+capabilities of both service requested and services =
+provided.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DEN-GB
+style=3D'font-family:"Arial","sans-serif"'>More generally, resource =
+retrieval
+extends the notion of service matchmaking to the process of discovering =
+any
+kind of resource (services, data, information, knowledge, even persons =
+and
+organizations) for given settings, participating entities, and purposes. =
+It is
+at the core of several scenarios in the Semantic Web area, spanning from =
+Web
+services, Grid computing, and Peer-to-Peer computing, to applications =
+such as
+e-commerce, human resource management, and social networking =
+applications such
+as dating services.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DEN-GB
+style=3D'font-family:"Trebuchet =
+MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DEN-GB
+style=3D'font-family:"Trebuchet MS","sans-serif"'>T</span><span =
+lang=3DFR
+style=3D'font-family:"Trebuchet MS","sans-serif"'>he primary objective =
+of this
+workshop is to bring together academic and industry researchers and =
+industry
+practitioners who tackle semantic service matchmaking and discovery =
+<i>from</i>
+<i>various points of view</i>. In particular, we intend to build bridges =
+to the
+software engineering and model-driven development communities in order =
+to share
+requirements, technologies, and experiences that might be helpful in =
+advancing
+the state of the art in semantic service matchmaking and resource =
+retrieval.</span><span
+style=3D'font-size:9.5pt;font-family:"Arial","sans-serif";color:black'><o=
+:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><b><i><span lang=3DFR =
+style=3D'font-family:"Trebuchet MS","sans-serif"'>Going
+to Practice: The Third Semantic Service Selection (S3) =
+Contest</span></i></b><i><span
+lang=3DFR style=3D'font-family:"Trebuchet =
+MS","sans-serif"'><o:p></o:p></span></i></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DFR
+style=3D'font-family:"Trebuchet =
+MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText style=3D'text-align:justify'><span lang=3DFR
+style=3D'font-family:"Trebuchet MS","sans-serif"'>The SMR2 workshop also
+integrates the third edition of the </span><span lang=3DFR><a
+href=3D"http://www.dfki.de/~klusch/s3"><span =
+style=3D'font-family:"Trebuchet MS","sans-serif"'>open
+international contest on semantic service selection (S3)</span></a> =
+</span><span
+lang=3DFR style=3D'font-family:"Trebuchet MS","sans-serif"'>executed in
+collaboration with the Semantic Web Service Challenge.&nbsp; The S3
+contest&nbsp; provides the means and a forum for evaluating the =
+retrieval
+performance of Semantic Web service matchmakers in terms of recall, =
+precision,
+F1, response time etc., over given test collections based on the =
+prominent semantic
+service formats such as OWL-S, WSML and the standard SA-WSDL. =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span =
+style=3D'font-size:9.5pt;
+font-family:"Arial","sans-serif";color:black'><o:p>&nbsp;</o:p></span></p=
+>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><b><span =
+style=3D'font-size:9.5pt;
+font-family:"Arial","sans-serif";color:black'>Publication</span></b><span=
+
+style=3D'font-size:9.5pt;font-family:"Arial","sans-serif";color:black'>:<=
+o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'text-align:justify;text-autospace:none'><span
+style=3D'font-size:9.5pt;font-family:"Arial","sans-serif";color:black'><o=
+:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'text-align:justify;text-autospace:none'><span
+style=3D'font-size:9.5pt;font-family:"Arial","sans-serif";color:black'>Ac=
+cepted
+papers will be available online as a volume of <b><i>CEUR =
+proceedings</i></b>.
+In addition, selected papers will be published in a special issue of the
+International Journal on </span><b><i><span =
+style=3D'font-size:9.5pt;font-family:
+"Arial","sans-serif"'>Software Tools for Technology =
+Transfer</span></i></b><span
+style=3D'font-size:9.5pt;font-family:"Arial","sans-serif";color:blue'> =
+</span><span
+style=3D'font-size:9.5pt;font-family:"Arial","sans-serif";color:black'>(S=
+TTT,
+Springer Verlag).<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></b></=
+p>
+
+<p class=3DMsoPlainText><b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></b></=
+p>
+
+<p class=3DMsoPlainText><b><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>Topics
+of interest include (but are not limited to):<o:p></o:p></span></b></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Advanced searching of services and other resources in the Semantic =
+Web<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Novel approaches to matchmaking and brokering in the Semantic Web, with =
+a
+particular emphasis on Semantic Web services<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Model-driven semantic service engineering and =
+matchmaking<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Semantic retrieval of resources and services in P2P and Grid =
+networks<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Matchmaking in e-commerce scenarios: auctions, e-marketplaces, supply =
+chains<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Matchmaking in other application scenarios: e-government, biopharma, =
+etc.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Composition planning of Semantic Web services<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Negotiation of Semantic Web services and resources<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Interleaving of discovery, composition, and negotiation of Semantic Web
+services<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Semantic Web services selection<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Formal description and handling of Semantic Web services, queries, and
+resources<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Non-functional service properties and their use for discovery (and =
+composition)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Trust issues of Semantic Web service discovery<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Prototypes and tools for Semantic Web services =
+engineering<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Practical business and user-oriented issues and experiences of =
+implementing SW
+service retrieval tools<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-GB =
+style=3D'font-family:"Arial","sans-serif"'>*
+Experimental comparative evaluation of implemented SW service retrieval =
+tools<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><b><span =
+lang=3DEN-GB><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoPlainText><b><span =
+lang=3DEN-GB><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><b><span lang=3DFR
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'>Submissions=
+&nbsp;:</span></b><span
+lang=3DFR =
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'><o:p></o:p>=
+</span></p>
+
+<p class=3DMsoNormal><span lang=3DFR =
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'>Contributio=
+ns
+to the workshop can be made as technical papers addressing different =
+issues of
+service and resource matching. The papers should not be longer than 12 =
+pages
+using the LNCS Style:<br>
+</span><span lang=3DFR><a
+href=3D"http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-164-2-7=
+2376-0,00.html"><span
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'>http://www.=
+springeronline.com/sgw/cda/frontpage/0,11855,5-164-2-72376-0,00.html</spa=
+n></a><o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DFR><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DFR =
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'>All
+contributions should be prepared in PDF format and should be submitted =
+<br>
+through the workshop submission site at: </span><span lang=3DFR><a
+href=3D"http://www.easychair.org/conferences/?conf=3Dsmr22009" =
+target=3D"_blank"><span
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'>http://www.=
+easychair.org/conferences/?conf=3Dsmr22009</span></a></span><span
+lang=3DFR =
+style=3D'font-size:10.0pt;font-family:"Verdana","sans-serif"'><o:p></o:p>=
+</span></p>
+
+<p class=3DMsoNormal style=3D'margin-bottom:12.0pt'><span lang=3DFR =
+style=3D'font-size:
+10.0pt;font-family:"Verdana","sans-serif"'><br>
+<br>
+<b>Important Dates: <br>
+</b>August 11, 2009: Deadline for the submission of papers. <br>
+September 6, 2009: Deadline for the notification of =
+acceptance/rejection. <br>
+October 2, 2009: Camera ready copy submission. <br>
+October 25, 2009: OM-2009, Westfields Conference Center, Fairfax, near
+Washington DC., USA. </span><span lang=3DFR =
+style=3D'font-size:10.0pt;font-family:
+"Calibri","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'><br>
+<b>Organizing Committee: </b><br>
+Matthias Klusch (DFKI, Germany)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Alain L=E9ger
+(France Telecom Research, France)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Tiziana
+Margaria (University of Potsdam, Germany) <o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>David
+Martin (SRI International, USA) <o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Massimo
+Paolucci (NTT DoCoMo Research Europe, Germany)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoPlainText><b><span =
+style=3D'font-family:"Verdana","sans-serif"'>Program
+Committee:<o:p></o:p></span></b></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'><a
+href=3D"http://www.easychair.org/conferences/pcmember_info.cgi?number=3D1=
+43569;a=3Dc00b5e703f56"><span
+style=3D'color:windowtext;text-decoration:none'>Sudhir =
+Agarwal</span></a>, AIFB,
+Germany<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Rama
+Akkiraju, IBM US</span><span lang=3DFR =
+style=3D'font-family:"Verdana","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Eugenio
+Di_Sciascio, University of Bary, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Takahiro
+Kawamura, Toshiba, Japan<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Ulrich
+Kuester, University of Jena, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Freddy
+Lecue, University of Manchester, UK<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DIT =
+style=3D'font-family:"Verdana","sans-serif"'>Axel
+Polleres, DERI, Ireland<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DIT =
+style=3D'font-family:"Verdana","sans-serif"'>Dumitru
+Roman, STI, Austria <o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'><a
+href=3D"http://www.easychair.org/conferences/pcmember_info.cgi?number=3D1=
+43850;a=3Dc00b5e703f56"><span
+style=3D'color:windowtext;text-decoration:none'>Bernhard =
+Steffen</span></a>,
+University of Dortmund, Germany</span><span lang=3DIT =
+style=3D'font-family:"Verdana","sans-serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DIT =
+style=3D'font-family:"Verdana","sans-serif"'>Eran
+Toch, CMU, USA<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DIT =
+style=3D'font-family:"Verdana","sans-serif"'>Ioan
+Toma, STI, Austria<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+style=3D'font-family:"Verdana","sans-serif"'>Farouk
+Toumani, Isima, France <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DFR =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------_=_NextPart_001_01CA14E3.E3D375CD--
+
+--===============1936053199==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1936053199==--

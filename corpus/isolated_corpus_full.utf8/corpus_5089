@@ -1,0 +1,226 @@
+From - Thu Dec 10 14:36:37 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs302691fap;
+        Tue, 28 Apr 2009 00:33:54 -0700 (PDT)
+Received: by 10.90.73.17 with SMTP id v17mr8136544aga.116.1240904033549;
+        Tue, 28 Apr 2009 00:33:53 -0700 (PDT)
+Return-Path: <sentto-1622440-2774-1240904024-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 25si11511764aga.17.2009.04.28.00.33.50;
+        Tue, 28 Apr 2009 00:33:52 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2774-1240904024-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2774-1240904024-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2774-1240904024-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n3S7Xnuq010283
+	for <jpprost@gmail.com>; Tue, 28 Apr 2009 17:33:49 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n3S7Xngv016644
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 28 Apr 2009 17:33:49 +1000
+X-ASG-Debug-ID: 1240904027-5d0d020d0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 2A3E629BE3F3
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 28 Apr 2009 17:33:47 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id E2npQMUSzSQxExcp for <jpprost@mailbox.ics.mq.edu.au>; Tue, 28 Apr 2009 17:33:47 +1000 (EST)
+Received: from n78c.bullet.mail.sp1.yahoo.com (n78c.bullet.mail.sp1.yahoo.com [98.136.45.77])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with SMTP id n3S7XjCt010281
+	for <jpprost@ics.mq.edu.au>; Tue, 28 Apr 2009 17:33:46 +1000 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1240904025; bh=XnEYmYDjDJgHO3GEQB7KHF1LNy43wYQDBzWbC66OYy8=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:Message-Id:To:X-Mailer:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type:Content-Transfer-Encoding; b=Wd8CwQBFONm9FNsWKVlVvWR8S+UcZq7R2GuYCOb1YyTnVFd17y8v5GJOuHY1X2BK1Sm15nhOLZFbL6vCL+e20/Ow3tbjO3RXb9PnPigfx8P5CMXse1BZSELc0xlCUi65
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=wDOqH6Cq4Wvju6gWTTZjfkDMHY9kv2QRFqQcHgY7z396z9UqQTqe4WYaH+pi6k2vsI7YByhcA28w5K5ZIUqAdu8VhcWgy0RD83SBOEqY3Gqr7nPVO5UxDEv97ms3tiN/;
+Received: from [69.147.65.171] by n78.bullet.mail.sp1.yahoo.com with NNFMP; 28 Apr 2009 07:33:45 -0000
+Received: from [69.147.108.198] by t13.bullet.mail.sp1.yahoo.com with NNFMP; 28 Apr 2009 07:33:44 -0000
+X-Yahoo-Newman-Id: 1622440-m2774
+X-Sender: webmestre@lpl-aix.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 20495 invoked from network); 28 Apr 2009 07:33:39 -0000
+X-Received: from unknown (69.147.108.200)
+  by m7.grp.re1.yahoo.com with QMQP; 28 Apr 2009 07:33:39 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta1.grp.re1.yahoo.com with SMTP; 28 Apr 2009 07:33:39 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AoxAAEhO9kmTXsToUmdsb2JhbACEGoMSh36EToJkASS3IoNzBQ
+X-IronPort-AV: E=Sophos;i="4.40,259,1238968800"; 
+   d="scan'208";a="234641545"
+X-Received: from unknown (HELO [147.94.196.232]) ([147.94.196.232])
+  by mso1k206.u-3mrs.fr with ESMTP; 28 Apr 2009 09:33:03 +0200
+Message-Id: <13E70865-B863-41BB-A311-D5F4846AF532@lpl-aix.fr>
+To: lpl-infos@yahoogroupes.fr, personl@lpl-aix.fr
+X-Mailer: Apple Mail (2.753.1)
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: LPL databases <webmestre@lpl-aix.fr>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Tue, 28 Apr 2009 09:34:23 +0200
+X-ASG-Orig-Subj: [lpl-infos] 1 May 2009 - last days - GESPIN 2009 - Gesture and Speech in Interaction
+Subject: [lpl-infos] 1 May 2009 - last days - GESPIN 2009 - Gesture and Speech in Interaction
+X-Yahoo-Newman-Property: groups-email-tradt-u
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1240904028
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.24320
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+L'=E9v=E9nement suivant se terminera dans quelques jours (1/5/2009) :
+The following event is bound to be over in a few days (1/5/2009):
+-------
+Appel =C0 Contribution :
+GESPIN 2009 - GESTURE AND SPEECH IN INTERACTION
+
+=95 Lieu / location : Poznan
+=95 Info : http://www.ifa.amu.edu.pl/~gespin/
+=95 Contact :  gespin2009gmail.com
+
+------
+The Center for Speech and Language Processing at the Adam Mickiewicz=20=20
+University,
+Poznan, Poland in collaboration with the School of English (AMU), the=20=20
+Institute
+of Linguistics (AMU) and the Institute of Polish Philology (AMU) is=20=20
+organizing
+an international conference on gesture and speech interaction.
+
+The conference will cover the following themes and topics:
+- Timing relationships between gesture and prosody, prosodic aspects=20=20
+of gesture,
+integration of prosody and gesture;
+- Relationships between: gesture and prosody, prosody and speech,=20=20
+speech and
+gesture; language (morphosyntax, semantics) and gesture;
+- Semantic aspects of gestures;
+- Speech and gesture: grammars and lexicons;
+- Adaptive gestures;
+- Tools for an integrative analysis of speech and gesture corpora;
+- Systems for gesture and speech annotation;
+- Modeling gesture and speech;
+- Formal models of gesture;
+- Automatic gesture recognition;
+- Visual speech synthesis;
+- Word, utterance and gesture structure;
+- Models of speech and gesture motor control and coordination;
+- Neurophysiological and neurobehavioural methods for speech and
+gesture research;
+- Multimodality in speech therapy;
+- Neuronal correlates of speech and gesture coordination;
+- Dynamical systems theory in speech and gesture research.
+(We do not exclude other gesture- and speech-related topics and we=20=20
+leave the
+decision on the acceptance of individual papers to the Scientific=20=20
+Committee.)
+
+------
+Scientific Committee:
+Katarzyna Dziubalska-Ko&#322;aczyk - Chair of the Committee (the Head=20=20
+of The Centre
+for Speech and Language Processing, AMU)
+Jolanta Antas (Faculty of Polish Philology, Jagiellonian University)
+Harry Bunt (Department of Communication and Information Sciences,=20=20
+Tilburg
+University)
+Nick Campbell (ATR, Japan)
+Ronald Cole (Boulder Language Technologies)
+Gra&#380;yna Demenko (Institute of Linguistics, AMU)
+Waldemar Domachowski (Institute of Psychology, AMU)
+Susan Duncan (Psychology Department, University of Chicago)
+Anna Esposito (Second University of Naples, Dept of Psychology, and
+IIASS, Italy)
+Dafydd Gibbon (Faculty of Languages and Literature, University of=20=20
+Bielefeld)
+Susan Goldin-Meadow (Department of Psychology, University of Chicago)
+Katharina Rohlfing (Faculty of Technology, University of Bielefeld)
+Steven Small (Faculty of Psychology, University of Chicago)
+
+
+------
+Submissions:
+We invite submissions of papers and posters as well as accept=20=20
+tutorial and
+special session proposals.
+Papers of up to six pages (according to the provided format), written in
+English, are to be submitted via e-mail or using the on-line=20=20
+submission system
+available on the conference web site.
+The conference proceedings will be published as an electronic book or=20=20
+in print
+and included in the conference package. Selected papers will be=20=20
+published in
+print as an edited collection.
+
+A preliminary list of invited speakers:
+Jolanta Antas (Jagiellonian University, Poland)
+Harry Bunt (Tilburg University, Holland)
+Anna Esposito (Second University of Naples & International Institute=20=20
+of Advanced
+Scientific Studies, Vietri sul Mare)
+(further names will be added soon)
+
+Proposed tutorials:
+Time-aligned annotation and analysis of multimodal recordings (free for
+conference participants!)
+
+Important dates:
+Call for special sessions and tutorials: February 28th, 2009
+Deadline for special sessions and tutorials: April, 30th, 2009
+Deadline for full papers: May 1st, 2009
+Acceptance/rejection: June 1st, 2009
+Early registration: June 15th, 2009
+Conference: September 24th - 26th, 2009
+
+-------------
+Ce message vous est envoy=E9 par la base de donn=E9es 'Ev=E9nements' du =
+=20
+Laboratoire Parole et Langage, Aix-en-Provence.
+This is an automatic message sent by the event manager database of=20=20
+Laboratoire Parole et Langage, Aix-en-Provence.
+
+Vous pouvez consulter cette base en cliquant le lien 'Calendrier' sur=20=20
+la page d'accueil <http://www.lpl.univ-aix.fr>.
+You may check the database following the 'Calendrier' link on our=20=20
+homepage <http://www.lpl.univ-aix.fr>.
+
+------------------------------------
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Vos options mail=A0:
+    Mail individuel | Traditionnel
+
+<*> Pour modifier vos options avec le Web, allez sur=A0:
+    http://fr.groups.yahoo.com/group/lpl-infos/join
+    ((Compte Yahoo! requis)=20
+
+<*> Pour modifier vos options par mail=A0:
+    mailto:lpl-infos-digest@yahoogroupes.fr=20
+    mailto:lpl-infos-fullfeatured@yahoogroupes.fr
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+

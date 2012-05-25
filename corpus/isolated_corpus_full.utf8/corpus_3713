@@ -1,0 +1,220 @@
+From - Thu Dec 10 14:33:57 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.181.31.10 with SMTP id i10cs183860bkj;
+        Sun, 26 Oct 2008 16:51:11 -0700 (PDT)
+Received: by 10.214.116.21 with SMTP id o21mr1790585qac.307.1225065070362;
+        Sun, 26 Oct 2008 16:51:10 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 26si1991089qwa.8.2008.10.26.16.51.08;
+        Sun, 26 Oct 2008 16:51:10 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cltphds-bounces@ics.mq.edu.au does not designate 137.111.216.103 as permitted sender) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning cltphds-bounces@ics.mq.edu.au does not designate 137.111.216.103 as permitted sender) smtp.mail=cltphds-bounces@ics.mq.edu.au
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m9QNp7Uw001223
+	for <jpprost@gmail.com>; Mon, 27 Oct 2008 10:51:07 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m9QNp7ZW005966
+	for <jpprost@mailbox.ics.mq.edu.au>; Mon, 27 Oct 2008 10:51:07 +1100
+X-ASG-Debug-ID: 1225065065-4b9301b70000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP
+	id 81FEC26BFFAB; Mon, 27 Oct 2008 10:51:05 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id fYrvFScI1EaGDVrY; Mon, 27 Oct 2008 10:51:05 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m9QNp4wQ001218;
+	Mon, 27 Oct 2008 10:51:05 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	m9QNi11L000684; Mon, 27 Oct 2008 10:44:01 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	m9QNfZWH000508; Mon, 27 Oct 2008 10:41:37 +1100 (EST)
+Received: from mxb.liv.ac.uk (mxb.liv.ac.uk [138.253.100.102])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id
+	m9PCkZon017675; Sat, 25 Oct 2008 23:46:37 +1100 (EST)
+Received: from mailhuba.liv.ac.uk ([138.253.100.36])
+	by mxb.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Floriana@liverpool.ac.uk>)
+	id 1KtiWw-0000WM-9v; Sat, 25 Oct 2008 13:46:10 +0100
+Received: from localhost ([127.0.0.1] helo=mailhuba.liv.ac.uk)
+	by mailhuba.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Floriana@liverpool.ac.uk>)
+	id 1KtiWw-0007ed-6f; Sat, 25 Oct 2008 13:46:10 +0100
+Received: from mail.csc.liv.ac.uk ([138.253.184.237] helo=tethys.csc.liv.ac.uk)
+	by mailhuba.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Floriana@liverpool.ac.uk>)
+	id 1KtiWv-0007ea-Vw; Sat, 25 Oct 2008 13:46:09 +0100
+Received: from csc.liv.ac.uk (floriana@linux1 [10.130.0.6])
+	by tethys.csc.liv.ac.uk (8.11.1 - (Revision 1.09)/LUCS-DTS-4.0M10) with
+	ESMTP id m9PCk9i02220; Sat, 25 Oct 2008 13:46:09 +0100 (BST)
+Received: from localhost (floriana@localhost)
+	by csc.liv.ac.uk (8.14.2/8.14.2/Submit) with ESMTP id m9PCk34C008021;
+	Sat, 25 Oct 2008 13:46:04 +0100
+Date: Sat, 25 Oct 2008 13:46:03 +0100 (BST)
+From: Floriana Grasso <Floriana@liverpool.ac.uk>
+To: lists: ";lists:;"<;;;;;;lists:@ics.mq.edu.au;;;;;;;;;;>
+Message-ID: <alpine.LFD.2.00.0810251342480.7903@linux1.csc.liv.ac.uk>
+User-Agent: Alpine 2.00 (LFD 1167 2008-08-23)
+MIME-Version: 1.0
+X-Mailman-Approved-At: Mon, 27 Oct 2008 10:41:33 +1100
+X-BeenThere: ltg@ics.mq.edu.au
+X-Mailman-Version: 2.1.11
+Precedence: list
+X-Mailman-Approved-At: Mon, 27 Oct 2008 10:43:57 +1100
+X-BeenThere: clt@ics.mq.edu.au
+X-Mailman-Approved-At: Mon, 27 Oct 2008 10:50:48 +1100
+X-ASG-Orig-Subj: [Cltphds] [Clt] [Ltg] 1st call for papers - AISB symposium
+	on	Persuasive	Technologies
+Subject: [Cltphds] [Clt] [Ltg] 1st call for papers - AISB symposium
+	on	Persuasive	Technologies
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/options/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset="us-ascii"; Format="flowed"
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1225065065
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.8806
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+(with apologies for cross-mailing)
+
+FIRST CALL FOR PAPERS
+Symposium on Persuasive Technology and Digital Behaviour Intervention
+April 6-7, 2009 Edinburgh, Scotland, UK
+www.csd.abdn.ac.uk/~jmasthof/Persuasive09/
+
+In conjunction with the AISB 2009 Convention 
+Adaptive and Emergent Behaviour and Complex Systems
+(www.aisb.org.uk/convention/aisb09/index.php)
+
+
+SYMPOSIUM CHAIRS
+
+Judith Masthoff
+Department of Computing Science
+University of Aberdeen
+Aberdeen AB24 3UE, UK
+j.masthoff(AT)abdn.ac.uk
+www.csd.abdn.ac.uk/~jmasthof/
+
+Floriana Grasso
+Department of Computer Science
+University of Liverpool
+Liverpool L69 3BF, UK
+floriana(AT)csc.liv.ac.uk 
+www.csc.liv.ac.uk/~floriana/
+
+
+KEY DATES
+- Paper submission: January 9, 2009
+- Notification: February 6, 2009 
+- Final Copy Due: TBA, 2009 
+- Symposium dates: April 6-7, 2009
+
+
+CALL FOR PAPERS
+
+Can a web site persuade you to be politically active? Can a mobile phone motivate you to exercise? Does instant feedback on petrol use change how people drive? Do online rating systems inspire people to behave better online? This symposium will focus on how digital technology can motivate and influence people (or agents). It will bring together researchers, designers, and developers interested in computers designed to change attitudes and behaviors in positive ways.
+
+In a persuasive communication, a source tries to influence a receiver?s attitudes or behaviours through the use of messages. Each of these three components (the source, the receiver, and the messages) affects the effectiveness of persuasion. In addition, the type of communication (the way the message is delivered) can impact a message?s effectiveness. This symposium will bring together researchers working on all these aspects of persuasion, from persuasive argumentation to persuasive user interfaces.
+
+Persuasive technology has a great practical potential, for instance to improve health (encouraging a reduction in alcohol intake, smoking cessation, an increase in exercise, more healthy eating, and adherence to medical treatment) and to move towards sustainable living (encouraging a reduction in energy consumption, recycling, and use of public transport). There is a growing interest within the research community into persuasive technology, as shown by the emergence of the new Persuasive conference series (in Eindhoven, the Netherlands, 2006; Stanford, US, 2007; Oulu, Finland, 2008; Claremont, US, 2009 persuasive2009.net), as well as the successful series of workshops on Computational Models of Natural Argument (www.csc.liv.ac.uk/~floriana/CMNA7/), which is an area overlapping with persuasion. This symposium follows on from the
+succesful Persuasive Technology Symposium held at the previous AISB (www.csd.abdn.ac.uk/~jmasthof/Persuasive/). In 2008, we brought together researchers from distinct subfields of Computing Science (namely persuasive technology
+and argumentation). Now, we would like to extend this further to include Psychologists. Initial contact with this community has been established at the "Designing digital interventions to help overcome addictive behaviours" workshop in Windsor earlier this year.
+
+The symposium will take place on two consecutive days. In addition to presentation by participants, there will be discussions in smaller groups on topics determined beforehand. We are also hoping to have one or two invited speakers.
+
+TOPICS OF INTEREST
+Submissions are invited on all aspects of Persuasive Technology. This includes, but is not limited to:
+
+- Behaviour intervention methods
+
+- Persuasive argumentation
+ 	- Generating persuasive arguments (identifying discourse goals, choosing argument structure, content selection)
+ 	- Ontologies for persuasion
+ 	- Persuasive discourse processing: understanding what users say in terms of argumentation schemes
+ 	- Computational models of argumentation
+ 	- Rhetoric and affect: the role of emotions, personalities, etc. in models of argumentation.
+ 	- Enhancing receiver involvement
+
+- User modeling
+ 	- Modeling receiver involvement
+ 	- Modeling receiver position
+ 	- Modeling personality and affective state for persuasion
+ 	- Effect of cultural differences on persuasion
+
+- Persuasive User Interfaces
+ 	- Use of (multiple) Embodied Conversational Agents for persuasion
+ 	- Communication settings (e.g. direct versus indirect communication)
+ 	- Timing of persuasive messages/ when to interrupt the user
+ 	- Effective presentation of arguments
+ 	- Online dispute resolution
+ 	- Mobile persuasion, persuasive images, persuasive video, persuasive games
+
+- Peripheral routes of persuasion
+ 	- Humor in persuasion
+ 	- Enhancing source credibility
+ 		- Building trust using natural language
+ 		- Models of on-line trust/credibility
+ 		- Effects of Source appearance, source similarity
+
+- Alternative ways of persuasion
+ 	- Using the influence of peers to persuade
+ 	- Persuasion through incentives and punishment
+
+- Evaluation methods for persuasive technology and behaviour intervention
+- Ethics of persuasive technology
+- Applications of persuasive technology and behaviour intervention, like in healthcare, education, e-commerce, politics
+
+SUBMISSIONS
+Please submit your papers in PDF format via email to both symposium organisors.
+We invite both long papers of up to 6 pages on substantial research results, and short papers of up to 2 pages on more polemic, work-in-progress, burning issue or system description topics. Accepted papers will be published in the AISB proceedings, with an ISBN number. Authors of papers must sign a non-exclusive copyright declaration which gives AISB the right to publish the paper, but does not prevent the author from also publishing it in other venues after. We are investigating the possiblity of publishing the best papers in a special issue of a journal. Paper formatting instructions are provided on the AISB09 website (www.aisb.org.uk/convention/aisb09/downloads.php).
+
+PROGRAMME COMMITTEE
+
+Katie Atkinson, University of Liverpool, UK
+Paul Beatty, University of Manchester, UK
+Timothy Bickmore, Northeastern University, US
+Giuseppe Carenini, University of British Columbia, Canada
+Susan Ferebee, University of Phoenix, US
+Nancy Green, University of North Carolina Greensboro, US
+Helmut Horacek, University of the Saarland, Saarbrucken, Germany
+Cees Midden, Eindhoven University of Technology, Netherlands
+Hien Nguyen, University of Aberdeen, UK
+Chris Reed, University of Dundee, UK
+Fabio Paglieri, ISTC-CNR, Rome, Italy
+Patrick Saint-Dizier, IRIT-CNRS, Toulouse
+Falko Sniehotta, University of Aberdeen, UK
+Oliviero Stock, ITC-IRST, Italy
+Peter de Vries, Twente University, Netherlands
+Doug Walton, University of Winnipeg, Canada
+_______________________________________________
+LTG mailing list
+LTG@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/ltg
+_______________________________________________
+CLT mailing list
+CLT@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/clt
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

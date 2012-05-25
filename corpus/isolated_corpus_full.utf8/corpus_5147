@@ -1,0 +1,278 @@
+From - Thu Dec 10 14:36:46 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs78374fap;
+        Sun, 3 May 2009 04:48:53 -0700 (PDT)
+Received: by 10.210.43.11 with SMTP id q11mr557561ebq.48.1241351331487;
+        Sun, 03 May 2009 04:48:51 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 6si6029628ewy.30.2009.05.03.04.48.49;
+        Sun, 03 May 2009 04:48:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DD90B21C44; Sun,  3 May 2009 13:48:48 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	RDNS_DYNAMIC autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8B4C221922;
+	Sun,  3 May 2009 13:46:23 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6FD053D24;
+	Sun,  3 May 2009 13:46:23 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rJtg2Qze+-AF; Sun,  3 May 2009 13:46:23 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 56F433D67;
+	Sun,  3 May 2009 13:45:52 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E26413D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  1 May 2009 18:13:51 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2y2RKWG5OFxT for <elsnet-list@mailman.elsnet.org>;
+	Fri,  1 May 2009 18:13:51 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A93D63D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  1 May 2009 18:13:31 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 88F4720C0D; Fri,  1 May 2009 18:13:31 +0200 (MEST)
+Received: from acm25-15.acm.org (acm25-15.acm.org [63.118.7.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 100FF209E5
+	for <elsnet-list@ELSNET.ORG>; Fri,  1 May 2009 18:13:22 +0200 (MEST)
+Received: from acm26-1 ([63.118.7.106])
+	by acm25-15.acm.org (StrongMail Enterprise 1.1-3(3.00.316));
+	Fri, 01 May 2009 11:21:22 -0400
+X-VirtualServerGroup: Default
+X-Destination-ID: elsnet-list@ELSNET.ORG
+X-MailingID: 00000::00000::00000::00000::::277215
+X-SMHeaderMap: mid="X-MailingID"
+X-SMFBL: ZWxzbmV0LWxpc3RARUxTTkVULk9SRw==
+X-Mailer: StrongMail Enterprise 1.1-3(3.00.316)
+Received: by LISTSERV.ACM.ORG (LISTSERV-TCP/IP release 15.0) with spool id
+	3435382 for ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG; Fri, 1 May
+	2009 10:43:54 -0400
+Approved-By: lemur.fingers@GMAIL.COM
+Approved-By: A.Nijholt@EWI.UTWENTE.NL
+Received: from [64.18.2.98] by LISTSERV.ACM.ORG (SMTPL release 1.0t) with TCP; 
+	Fri, 1 May 2009 05:14:47 -0400
+Received: from source ([130.89.10.5]) by exprod7mx244.postini.com
+	([64.18.6.14]) with SMTP; Fri, 01 May 2009 04:14:48 CDT
+Received: from EWIEX01.ewi.utwente.nl (ewiex12.ewi.utwente.nl [130.89.10.51])
+	by rotterdam.ewi.utwente.nl (8.13.6/8.13.6) with ESMTP id
+	n419EjE4001324 for <ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG>; Fri,
+	1 May 2009 11:14:46 +0200 (MEST)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Thread-Topic: Call for Participation: INTETAIN 09
+Thread-Index: AcnJu7p1ZRntPVh4QsqmLIQBNY3Z6wAAP7dwAACweAAAAFKV4AAfGRIw
+X-Scanned-By: MIMEDefang 2.52 on 130.89.10.5
+X-Greylist: Sender IP whitelisted,
+	not delayed by milter-greylist-3.0rc3 (rotterdam.ewi.utwente.nl
+	[130.89.10.5]); Fri, 01 May 2009 11:14:46 +0200 (MEST)
+X-pstn-neptune: 0/0/0.00/0
+X-pstn-levels: (S:63.32083/99.90000 CV: 2.7429 FC:95.5390 LC:95.5390
+	R:95.9108 P:95.9108 M:97.0282 C:98.6951 )
+X-pstn-settings: 1 (0.1500:0.1500) CV gt3 gt2 gt1
+X-pstn-addresses: from <A.Nijholt@ewi.utwente.nl> [82/7]
+Message-ID: <FA783DEE7533904091C5F59BF22169AD02D7ED18@EWIEX12.dynamic.ewi.utwente.nl>
+Date: Fri, 1 May 2009 11:14:43 +0200
+From: A.Nijholt@EWI.UTWENTE.NL
+To: ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG
+Precedence: list
+List-Owner: <mailto:ICMI-MULTIMODAL-ANNOUNCE-request@LISTSERV.ACM.ORG>
+X-Mailman-Approved-At: Sun, 03 May 2009 13:45:10 +0200
+Cc: 
+Subject: [Elsnet-list] Call for Participation: INTETAIN 09
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Reply-To: ACM ICMI & MLMI Announcement List
+	<ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG>
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1765616109=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============1765616109==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C9CA3D.450B04D1"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C9CA3D.450B04D1
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+Q2FsbCBmb3IgUGFydGljaXBhdGlvbg0KDQpJTlRFVEFJTiAwOQ0KDQogDQoNClRoZSAzcmQgSW50
+ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIEludGVsbGlnZW50IFRlY2hub2xvZ2llcyBmb3IgSW50
+ZXJhY3RpdmUgRW50ZXJ0YWlubWVudA0KDQpodHRwOi8vaG1pLmV3aS51dHdlbnRlLm5sL2ludGV0
+YWluMDkvIA0KDQogDQoNCkFtc3RlcmRhbSwgdGhlIE5ldGhlcmxhbmRzDQoNCkp1bmUgMjItMjQs
+IDIwMDkNCg0KIA0KDQpUaGUgSHVtYW4gTWVkaWEgSW50ZXJhY3Rpb24gKEhNSSkgZGVwYXJ0bWVu
+dCBvZiB0aGUgVW5pdmVyc2l0eSBvZiBUd2VudGUgaW4gdGhlIE5ldGhlcmxhbmRzIGFuZCB0aGUg
+SW5zdGl0dXRlIGZvciBDb21wdXRlciBTY2llbmNlcywgU29jaWFsLUluZm9ybWF0aWNzIGFuZCBU
+ZWxlY29tbXVuaWNhdGlvbnMgRW5naW5lZXJpbmcgKElDU1QpIGFyZSBwbGVhc2VkIHRvIGFubm91
+bmNlIHRoZSBUaGlyZCBJbnRlcm5hdGlvbmFsIENvbmZlcmVuY2Ugb24gSW50ZWxsaWdlbnQgVGVj
+aG5vbG9naWVzIGZvciBJbnRlcmFjdGl2ZSBFbnRlcnRhaW5tZW50IG9uIEp1bmUgMjItMjQsIDIw
+MDkgaW4gQW1zdGVyZGFtLCB0aGUgTmV0aGVybGFuZHMuIFRoZSBnbG9iYWwgdGhlbWUgb2YgdGhp
+cyB0aGlyZCBlZGl0aW9uIG9mIHRoZSBpbnRlcm5hdGlvbmFsIGNvbmZlcmVuY2UgaXMgIlBsYXlm
+dWwgaW50ZXJhY3Rpb24sIHdpdGggb3RoZXJzIGFuZCB3aXRoIHRoZSBlbnZpcm9ubWVudCIuDQoN
+CiANCg0KVGhlIFBST0dSQU0gb2YgSU5URVRBSU4gMjAwOSBpcyBub3cgYXZhaWxhYmxlLiBWaXNp
+dDogaHR0cDovL2htaS5ld2kudXR3ZW50ZS5ubC9pbnRldGFpbjA5L3Byb2dyYW0gIHRvIHNlZSB0
+aGUgc2NoZWR1bGVkIHByZXNlbnRhdGlvbnMgb24gZ2FtZXMsIGludGVyYWN0aXZlIGFydCwgYm9k
+aWx5IGludGVyYWN0aW9uLCBhbmQgc3Rvcnl0ZWxsaW5nLg0KDQogDQoNCktleW5vdGUgTGVjdHVy
+ZXMNCg0KKiBNYXR0aGlhcyBSYXV0ZXJiZXJnIOKAkyBFbnRlcnRhaW5tZW50IENvbXB1dGluZywg
+U29jaWFsIFRyYW5zZm9ybWF0aW9uIGFuZCB0aGUgUXVhbnR1bSBGaWVsZA0KDQoqIEFudG9uaW8g
+Q2FtdXJyaSDigJMgTm9uLXZlcmJhbCBGdWxsIEJvZHkgRW1vdGlvbmFsIGFuZCBTb2NpYWwgSW50
+ZXJhY3Rpb246IEEgQ2FzZSBTdHVkeSBvbiBNdWx0aW1lZGlhIFN5c3RlbXMgZm9yIEFjdGl2ZSBN
+dXNpYyBMaXN0ZW5pbmcNCg0KKiBNaWNoYWVsIE1hdGVhcyDigJMgSW50ZXJhY3RpdmUgU3Rvcnl0
+ZWxsaW5nDQoNCiANCg0KQWRkaXRpb25hbCBFdmVudHMNCg0KSW4gYWRkaXRpb24gdG8gdGhlIGtl
+eW5vdGUgbGVjdHVyZXMsIGxvbmcgYW5kIHNob3J0IHBhcGVyIHByZXNlbnRhdGlvbnMgYW5kIHBv
+c3RlcnMgdGhlcmUgd2lsbCBiZSBkZW1vbnN0cmF0aW9ucyBvZiBpbnRlcmFjdGl2ZSBlbnRlcnRh
+aW5tZW50IHRlY2hub2xvZ3kuIER1cmluZyB0aGUgY29uZmVyZW5jZSB0aGVyZSB3aWxsIGJlIGFu
+IGludGVyYWN0aXZlIGhhbmRzLW9uIHNlc3Npb24gYWxvbmcgdGhlIGxpbmVzIG9mIHRoZSBEZXNp
+Z24gR2FyYWdlIHRoYXQgd2FzIGhlbGQgYXQgSW50ZXRhaW4gMjAwNS4gSGF2aW5nIEFtc3RlcmRh
+bSBhcyB0aGUgcGxheWdyb3VuZCwgd2UgYXJlIGludmVzdGlnYXRpbmcgaG93IHdlIGNhbiBpbnZv
+bHZlIHRoZSBwYXJ0aWNpcGFudHMgaW4gYW4gdXJiYW4gZ2FtZS4gT25lIHByZXNlbnRhdGlvbiBz
+ZXNzaW9uIHdpbGwgYmUgZGV2b3RlZCB0byByZXNlYXJjaCBwZXJmb3JtZWQgaW4gdGhlIER1dGNo
+IG5hdGlvbmFsIEdBVEUgKGdhbWUgYW5kIHNpbXVsYXRpb24gcmVzZWFyY2gpIHByb2plY3QuDQoN
+CiANCg0KUHVibGljYXRpb24NCg0KVGhlIHByb2NlZWRpbmdzIG9mIElOVEVUQUlOIDIwMDkgd2ls
+bCBiZSBwdWJsaXNoZWQgYnkgU3ByaW5nZXIuIFNlbGVjdGlvbnMgb2YgcmV2aXNlZCBhbmQgZXh0
+ZW5kZWQgcGFwZXJzIHdpbGwgYXBwZWFyIGluIHNwZWNpYWwgaXNzdWVzIG9mIHRoZSBKb3VybmFs
+IG9mIEVudGVydGFpbm1lbnQgQ29tcHV0aW5nIGFuZCB0aGUgSm91cm5hbCBvZiBBcnRzIGFuZCBU
+ZWNobm9sb2d5Lg0KDQogDQoNCg==
+
+------_=_NextPart_001_01C9CA3D.450B04D1
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWwgeG1sbnM6dj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp2bWwiIHhtbG5zOm89InVy
+bjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOm9mZmljZSIgeG1sbnM6dz0idXJuOnNjaGVt
+YXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6d29yZCIgeG1sbnM6bT0iaHR0cDovL3NjaGVtYXMubWlj
+cm9zb2Z0LmNvbS9vZmZpY2UvMjAwNC8xMi9vbW1sIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+VFIvUkVDLWh0bWw0MCI+DQoNCjxoZWFkPg0KPG1ldGEgaHR0cC1lcXVpdj1Db250ZW50LVR5cGUg
+Y29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjxtZXRhIG5hbWU9R2VuZXJhdG9y
+IGNvbnRlbnQ9Ik1pY3Jvc29mdCBXb3JkIDEyIChmaWx0ZXJlZCBtZWRpdW0pIj4NCjxzdHlsZT4N
+CjwhLS0NCiAvKiBGb250IERlZmluaXRpb25zICovDQogQGZvbnQtZmFjZQ0KCXtmb250LWZhbWls
+eTpDYWxpYnJpOw0KCXBhbm9zZS0xOjIgMTUgNSAyIDIgMiA0IDMgMiA0O30NCiAvKiBTdHlsZSBE
+ZWZpbml0aW9ucyAqLw0KIHAuTXNvTm9ybWFsLCBsaS5Nc29Ob3JtYWwsIGRpdi5Nc29Ob3JtYWwN
+Cgl7bWFyZ2luOjBpbjsNCgltYXJnaW4tYm90dG9tOi4wMDAxcHQ7DQoJZm9udC1zaXplOjExLjBw
+dDsNCglmb250LWZhbWlseToiQ2FsaWJyaSIsInNhbnMtc2VyaWYiO30NCmE6bGluaywgc3Bhbi5N
+c29IeXBlcmxpbmsNCgl7bXNvLXN0eWxlLXByaW9yaXR5Ojk5Ow0KCWNvbG9yOmJsdWU7DQoJdGV4
+dC1kZWNvcmF0aW9uOnVuZGVybGluZTt9DQphOnZpc2l0ZWQsIHNwYW4uTXNvSHlwZXJsaW5rRm9s
+bG93ZWQNCgl7bXNvLXN0eWxlLXByaW9yaXR5Ojk5Ow0KCWNvbG9yOnB1cnBsZTsNCgl0ZXh0LWRl
+Y29yYXRpb246dW5kZXJsaW5lO30NCnNwYW4uRS1tYWlsU3RpamwxNw0KCXttc28tc3R5bGUtdHlw
+ZTpwZXJzb25hbDsNCglmb250LWZhbWlseToiQ2FsaWJyaSIsInNhbnMtc2VyaWYiOw0KCWNvbG9y
+OndpbmRvd3RleHQ7fQ0Kc3Bhbi5FLW1haWxTdGlqbDE4DQoJe21zby1zdHlsZS10eXBlOnBlcnNv
+bmFsOw0KCWZvbnQtZmFtaWx5OiJDYWxpYnJpIiwic2Fucy1zZXJpZiI7DQoJY29sb3I6IzFGNDk3
+RDt9DQpzcGFuLkUtbWFpbFN0aWpsMTkNCgl7bXNvLXN0eWxlLXR5cGU6cGVyc29uYWw7DQoJZm9u
+dC1mYW1pbHk6IkNhbGlicmkiLCJzYW5zLXNlcmlmIjsNCgljb2xvcjojMUY0OTdEO30NCnNwYW4u
+RS1tYWlsU3RpamwyMA0KCXttc28tc3R5bGUtdHlwZTpwZXJzb25hbDsNCglmb250LWZhbWlseToi
+Q2FsaWJyaSIsInNhbnMtc2VyaWYiOw0KCWNvbG9yOiMxRjQ5N0Q7fQ0Kc3Bhbi5FLW1haWxTdGlq
+bDIxDQoJe21zby1zdHlsZS10eXBlOnBlcnNvbmFsLXJlcGx5Ow0KCWZvbnQtZmFtaWx5OiJDYWxp
+YnJpIiwic2Fucy1zZXJpZiI7DQoJY29sb3I6IzFGNDk3RDt9DQouTXNvQ2hwRGVmYXVsdA0KCXtt
+c28tc3R5bGUtdHlwZTpleHBvcnQtb25seTsNCglmb250LXNpemU6MTAuMHB0O30NCkBwYWdlIFNl
+Y3Rpb24xDQoJe3NpemU6OC41aW4gMTEuMGluOw0KCW1hcmdpbjoxLjBpbiAxLjBpbiAxLjBpbiAx
+LjBpbjt9DQpkaXYuU2VjdGlvbjENCgl7cGFnZTpTZWN0aW9uMTt9DQotLT4NCjwvc3R5bGU+DQo8
+IS0tW2lmIGd0ZSBtc28gOV0+PHhtbD4NCiA8bzpzaGFwZWRlZmF1bHRzIHY6ZXh0PSJlZGl0IiBz
+cGlkbWF4PSIxMDI2IiAvPg0KPC94bWw+PCFbZW5kaWZdLS0+PCEtLVtpZiBndGUgbXNvIDldPjx4
+bWw+DQogPG86c2hhcGVsYXlvdXQgdjpleHQ9ImVkaXQiPg0KICA8bzppZG1hcCB2OmV4dD0iZWRp
+dCIgZGF0YT0iMSIgLz4NCiA8L286c2hhcGVsYXlvdXQ+PC94bWw+PCFbZW5kaWZdLS0+DQo8L2hl
+YWQ+DQoNCjxib2R5IGxhbmc9RU4tVVMgbGluaz1ibHVlIHZsaW5rPXB1cnBsZT4NCg0KPGRpdiBj
+bGFzcz1TZWN0aW9uMT4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPkNhbGwgZm9yIFBhcnRpY2lwYXRp
+b248bzpwPjwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPklOVEVUQUlOIDA5PG86cD48
+L286cD48L3A+DQoNCjxwIGNsYXNzPU1zb05vcm1hbD48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCg0K
+PHAgY2xhc3M9TXNvTm9ybWFsPlRoZSAzcmQgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9uIElu
+dGVsbGlnZW50IFRlY2hub2xvZ2llcw0KZm9yIEludGVyYWN0aXZlIEVudGVydGFpbm1lbnQ8bzpw
+PjwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPjxhIGhyZWY9Imh0dHA6Ly9obWkuZXdp
+LnV0d2VudGUubmwvaW50ZXRhaW4wOS8iPmh0dHA6Ly9obWkuZXdpLnV0d2VudGUubmwvaW50ZXRh
+aW4wOS88L2E+DQo8bzpwPjwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPjxvOnA+Jm5i
+c3A7PC9vOnA+PC9wPg0KDQo8cCBjbGFzcz1Nc29Ob3JtYWw+QW1zdGVyZGFtLCB0aGUgTmV0aGVy
+bGFuZHM8bzpwPjwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPkp1bmUgMjItMjQsIDIw
+MDk8bzpwPjwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPjxvOnA+Jm5ic3A7PC9vOnA+
+PC9wPg0KDQo8cCBjbGFzcz1Nc29Ob3JtYWw+VGhlIEh1bWFuIE1lZGlhIEludGVyYWN0aW9uIChI
+TUkpIGRlcGFydG1lbnQgb2YgdGhlDQpVbml2ZXJzaXR5IG9mIFR3ZW50ZSBpbiB0aGUgTmV0aGVy
+bGFuZHMgYW5kIHRoZSBJbnN0aXR1dGUgZm9yIENvbXB1dGVyDQpTY2llbmNlcywgU29jaWFsLUlu
+Zm9ybWF0aWNzIGFuZCBUZWxlY29tbXVuaWNhdGlvbnMgRW5naW5lZXJpbmcgKElDU1QpIGFyZQ0K
+cGxlYXNlZCB0byBhbm5vdW5jZSB0aGUgVGhpcmQgSW50ZXJuYXRpb25hbCBDb25mZXJlbmNlIG9u
+IEludGVsbGlnZW50DQpUZWNobm9sb2dpZXMgZm9yIEludGVyYWN0aXZlIEVudGVydGFpbm1lbnQg
+b24gSnVuZSAyMi0yNCwgMjAwOSBpbiBBbXN0ZXJkYW0sDQp0aGUgTmV0aGVybGFuZHMuIFRoZSBn
+bG9iYWwgdGhlbWUgb2YgdGhpcyB0aGlyZCBlZGl0aW9uIG9mIHRoZSBpbnRlcm5hdGlvbmFsDQpj
+b25mZXJlbmNlIGlzICZxdW90O1BsYXlmdWwgaW50ZXJhY3Rpb24sIHdpdGggb3RoZXJzIGFuZCB3
+aXRoIHRoZQ0KZW52aXJvbm1lbnQmcXVvdDsuPG86cD48L286cD48L3A+DQoNCjxwIGNsYXNzPU1z
+b05vcm1hbD48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPlRoZSBQ
+Uk9HUkFNIG9mIElOVEVUQUlOIDIwMDkgaXMgbm93IGF2YWlsYWJsZS4gVmlzaXQ6IDxhDQpocmVm
+PSJodHRwOi8vaG1pLmV3aS51dHdlbnRlLm5sL2ludGV0YWluMDkvcHJvZ3JhbSI+aHR0cDovL2ht
+aS5ld2kudXR3ZW50ZS5ubC9pbnRldGFpbjA5L3Byb2dyYW08L2E+DQombmJzcDt0byBzZWUgdGhl
+IHNjaGVkdWxlZCBwcmVzZW50YXRpb25zIG9uIGdhbWVzLCBpbnRlcmFjdGl2ZSBhcnQsIGJvZGls
+eQ0KaW50ZXJhY3Rpb24sIGFuZCBzdG9yeXRlbGxpbmcuPG86cD48L286cD48L3A+DQoNCjxwIGNs
+YXNzPU1zb05vcm1hbD48bzpwPiZuYnNwOzwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFs
+PktleW5vdGUgTGVjdHVyZXM8bzpwPjwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPiog
+TWF0dGhpYXMgUmF1dGVyYmVyZyDigJMgRW50ZXJ0YWlubWVudCBDb21wdXRpbmcsIFNvY2lhbA0K
+VHJhbnNmb3JtYXRpb24gYW5kIHRoZSBRdWFudHVtIEZpZWxkPG86cD48L286cD48L3A+DQoNCjxw
+IGNsYXNzPU1zb05vcm1hbD4qIEFudG9uaW8gQ2FtdXJyaSDigJMgTm9uLXZlcmJhbCBGdWxsIEJv
+ZHkgRW1vdGlvbmFsIGFuZA0KU29jaWFsIEludGVyYWN0aW9uOiBBIENhc2UgU3R1ZHkgb24gTXVs
+dGltZWRpYSBTeXN0ZW1zIGZvciBBY3RpdmUgTXVzaWMNCkxpc3RlbmluZzxvOnA+PC9vOnA+PC9w
+Pg0KDQo8cCBjbGFzcz1Nc29Ob3JtYWw+KiBNaWNoYWVsIE1hdGVhcyDigJMgSW50ZXJhY3RpdmUg
+U3Rvcnl0ZWxsaW5nPG86cD48L286cD48L3A+DQoNCjxwIGNsYXNzPU1zb05vcm1hbD48bzpwPiZu
+YnNwOzwvbzpwPjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPkFkZGl0aW9uYWwgRXZlbnRzPG86
+cD48L286cD48L3A+DQoNCjxwIGNsYXNzPU1zb05vcm1hbD5JbiBhZGRpdGlvbiB0byB0aGUga2V5
+bm90ZSBsZWN0dXJlcywgbG9uZyBhbmQgc2hvcnQgcGFwZXINCnByZXNlbnRhdGlvbnMgYW5kIHBv
+c3RlcnMgdGhlcmUgd2lsbCBiZSBkZW1vbnN0cmF0aW9ucyBvZiBpbnRlcmFjdGl2ZQ0KZW50ZXJ0
+YWlubWVudCB0ZWNobm9sb2d5LiBEdXJpbmcgdGhlIGNvbmZlcmVuY2UgdGhlcmUgd2lsbCBiZSBh
+biBpbnRlcmFjdGl2ZQ0KaGFuZHMtb24gc2Vzc2lvbiBhbG9uZyB0aGUgbGluZXMgb2YgdGhlIERl
+c2lnbiBHYXJhZ2UgdGhhdCB3YXMgaGVsZCBhdCBJbnRldGFpbg0KMjAwNS4gSGF2aW5nIEFtc3Rl
+cmRhbSBhcyB0aGUgcGxheWdyb3VuZCwgd2UgYXJlIGludmVzdGlnYXRpbmcgaG93IHdlIGNhbg0K
+aW52b2x2ZSB0aGUgcGFydGljaXBhbnRzIGluIGFuIHVyYmFuIGdhbWUuIE9uZSBwcmVzZW50YXRp
+b24gc2Vzc2lvbiB3aWxsIGJlDQpkZXZvdGVkIHRvIHJlc2VhcmNoIHBlcmZvcm1lZCBpbiB0aGUg
+RHV0Y2ggbmF0aW9uYWwgR0FURSAoZ2FtZSBhbmQgc2ltdWxhdGlvbg0KcmVzZWFyY2gpIHByb2pl
+Y3QuPG86cD48L286cD48L3A+DQoNCjxwIGNsYXNzPU1zb05vcm1hbD48bzpwPiZuYnNwOzwvbzpw
+PjwvcD4NCg0KPHAgY2xhc3M9TXNvTm9ybWFsPlB1YmxpY2F0aW9uPG86cD48L286cD48L3A+DQoN
+CjxwIGNsYXNzPU1zb05vcm1hbD5UaGUgcHJvY2VlZGluZ3Mgb2YgSU5URVRBSU4gMjAwOSB3aWxs
+IGJlIHB1Ymxpc2hlZCBieQ0KU3ByaW5nZXIuIFNlbGVjdGlvbnMgb2YgcmV2aXNlZCBhbmQgZXh0
+ZW5kZWQgcGFwZXJzIHdpbGwgYXBwZWFyIGluIHNwZWNpYWwNCmlzc3VlcyBvZiB0aGUgSm91cm5h
+bCBvZiBFbnRlcnRhaW5tZW50IENvbXB1dGluZyBhbmQgdGhlIEpvdXJuYWwgb2YgQXJ0cyBhbmQN
+ClRlY2hub2xvZ3kuPG86cD48L286cD48L3A+DQoNCjxwIGNsYXNzPU1zb05vcm1hbD48c3BhbiBz
+dHlsZT0nZm9udC1zaXplOjEyLjBwdDtmb250LWZhbWlseToiVGltZXMgTmV3IFJvbWFuIiwic2Vy
+aWYiJz48bzpwPiZuYnNwOzwvbzpwPjwvc3Bhbj48L3A+DQoNCjwvZGl2Pg0KDQo8L2JvZHk+DQoN
+CjwvaHRtbD4NCg==
+
+------_=_NextPart_001_01C9CA3D.450B04D1--
+
+
+--===============1765616109==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1765616109==--
+

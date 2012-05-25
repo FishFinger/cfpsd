@@ -1,0 +1,830 @@
+From - Thu Dec 10 14:35:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs32795far;
+        Sun, 15 Feb 2009 04:52:09 -0800 (PST)
+Received: by 10.210.90.20 with SMTP id n20mr3437633ebb.72.1234702329209;
+        Sun, 15 Feb 2009 04:52:09 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 7si7047702eyb.38.2009.02.15.04.52.07;
+        Sun, 15 Feb 2009 04:52:09 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 91A9220E81; Sun, 15 Feb 2009 13:52:07 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 69C711F270;
+	Sun, 15 Feb 2009 13:46:37 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 475E33E8D;
+	Sun, 15 Feb 2009 13:46:37 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 5-xywM3LLNvE; Sun, 15 Feb 2009 13:46:36 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A195C3D59;
+	Sun, 15 Feb 2009 13:45:58 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D57043D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun,  8 Feb 2009 16:44:14 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id qaQ+4Zj8VItP for <elsnet-list@mailman.elsnet.org>;
+	Sun,  8 Feb 2009 16:44:14 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9978F3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun,  8 Feb 2009 16:44:09 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7852920C0D; Sun,  8 Feb 2009 16:44:09 +0100 (MET)
+Received: from ti-out-0910.google.com (ti-out-0910.google.com [209.85.142.190])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1DD2D20B57
+	for <elsnet-list@elsnet.org>; Sun,  8 Feb 2009 16:44:03 +0100 (MET)
+Received: by ti-out-0910.google.com with SMTP id b6so1451158tic.15
+	for <elsnet-list@elsnet.org>; Sun, 08 Feb 2009 07:44:02 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:received:received:sender:from:to:subject:date
+	:message-id:mime-version:content-type:x-mailer:x-ms-tnef-correlator
+	:thread-index:content-language;
+	bh=b8g3aDj++LP9NPEPecpV7O377uMQrvcgkRoKZ+O57zE=;
+	b=P9bei3hSzsn/lfYXYU66IDuc60mq9bwgelZ2UNXBi9nQNQ38dUEnYmnihuvlJC1aJl
+	O2q8CDlxYUnyn4z1dJWjfeg1IVID2QU6TjCC9c/4oFZSgWd74Aq7C8lToAe5+Uh0tdcE
+	VtNvvOR+QxAZmtq7jrr/fIprnqVaBWFzqdWFU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=sender:from:to:subject:date:message-id:mime-version:content-type
+	:x-mailer:x-ms-tnef-correlator:thread-index:content-language;
+	b=KCndgikZb+akvjVM+9SxBUwg83nvvtGY68ib4sB6WwcfZMm2bRt/JXLNqmCjCOXRlO
+	nNiPf9MO3UeCNXK+QIJq4P87cTgSjaIZsJsaanCgWJj1ZrF/jVp6Sg1tvmXShPdizUfW
+	5tQHkKcPRrdpm/Ml6iW3FEaOUCziRx5QqIihc=
+Received: by 10.110.40.8 with SMTP id n8mr6581279tin.5.1234107842106;
+	Sun, 08 Feb 2009 07:44:02 -0800 (PST)
+Received: from aifbkoios ([58.187.141.199])
+	by mx.google.com with ESMTPS id 2sm5071234tif.6.2009.02.08.07.43.43
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Sun, 08 Feb 2009 07:44:00 -0800 (PST)
+From: Tran Thanh <dtr@aifb.uni-karlsruhe.de>
+To: "'ACM'" <events_calendar@acm.org>,
+	"'Aisa Research News'" <info@researchsea.com>,
+	"'Clausthal University of Technology,
+	Germany'" <event@in.tu-clausthal.de>, 
+	"'Columbia University - New York'" <acl@opus.cs.columbia.edu>,
+	"'Deri - KWeb'" <kweb-all@lists.deri.org>,
+	"'Deri - Ontoweb'" <ontoweb-list@lists.deri.org>,
+	"'Deri - SemWeb'" <seweb-list@lists.deri.org>,
+	"'Description Logic'" <dl@dl.kr.org>,
+	"'Digital Culture'" <digicult-forum@digicult.info>,
+	"'Digital Research Libraries'" <diglib@infoserv.inist.fr>,
+	"'Eastern Michigan University - Linguist'" <linguist@linguistlist.org>, 
+	"'EB XML Dev'" <ebxml-dev@lists.ebxml.org>,
+	"'EGroups'" <semanticweb@egroups.com>,
+	"'EGroups - Web Services'" <web-services@egroups.com>,
+	"'ELSNET'" <elsnet-list@elsnet.org>,
+	"'European Conference - OO Programming'" <ecoop-info@ecoop.org>,
+	"'EventSeer'" <cfp@eventseer.net>, "'FIPA - Ontology'" <ontology@fipa.org>,
+	"'Googel Groups - Semantic Web'" <semantic_web@googlegroups.com>,
+	"'Google Groups - SIOC Dev'" <sioc-dev@googlegroups.com>,
+	"'Humanist Discussion Group'" <humanist@princeton.edu>,
+	"'IEEE - Conferences'" <conferences@computer.org>,
+	"'Imperial College London - CompLogic'" <compulog@doc.imperial.ac.uk>, 
+	"'Infoloom - Topic Map'" <topicmapmail@infoloom.com>,
+	"'International Federation of Library Associations mailing list'"
+	<ifla-l@infoserv.inist.fr>, 
+	"'Italian Association for Logic Programming'" <gulp@dimi.uniud.it>,
+	"'Jena Dev Group'" <jena-dev@yahoogroups.com>,
+	"'Karlsruhe Univ. - AIFB'" <wi@aifb.uni-karlsruhe.de>,
+	"'Karlsruhe Univ. - Onto'" <onto@aifb.uni-karlsruhe.de>,
+	"'KIF Mailing List'" <kif@philebus.tamu.edu>,
+	"'Machine Learning Network'" <community@mlnet.org>,
+	"'MultiAgent'" <announce@multiagent.com>,
+	"'Network of Excellence in Computational Logic'" <colognet@ucy.ac.cy>, 
+	"'Ontolog'" <ontolog-forum@ontolog.cim3.net>,
+	"'OntoQuery - Denmark'" <ontoquery@ruc.dk>,
+	"'Open Grid Forum'" <sem-grd@ogf.org>, "'OpenRDF'" <openrdf@philo.at>,
+	"'OptimaNumerics, UK'" <computational.science@lists.OptimaNumerics.com>,
+	"'REWERSE - Reasoning on the Web with Rules and Semantics'"
+	<rewerse-all@rewerse.net>, 
+	"'Semantic Desktop'" <people@semanticdesktop.org>,
+	"'SemWeb List'" <seweb-list@www2-c703.uibk.ac.at>,
+	"'SIG5 Ontoweb'" <ontoweb-lt-info@dfki.de>,
+	"'SOA Yahoo Group'" <service-orientated-architecture@yahoogroups.com>, 
+	"'Stanford - Protege Group'" <protege-discussion@smi.stanford.edu>,
+	"'Univ. Buffalo - Ontology'" <ontology@buffalo.edu>,
+	"'Univ. Colorado - CS Dept'" <seworld@cs.colorado.edu>,
+	"'Univ. Koblenz - Landau'" <fgcscw@uni-koblenz.de>,
+	"'Univ. Manchester, UK - Ontoweb'" <ontoweb-language-sig@cs.man.ac.uk>, 
+	"'Univ. Pisa - Italy'" <grin@di.unipi.it>,
+	"'Univ. Rostock - Germany'" <fg-db@informatik.uni-rostock.de>,
+	"'Univ. So. California - Info Science Inst.'" <loom-forum@isi.edu>,
+	"'Univ. South Carlolina'" <dai-list@ece.sc.edu>,
+	"'universidade de aveiro'" <learningrobots@det.ua.pt>,
+	=?utf-8?Q?'Universit=C3=A0_di_Roma_=22La_Sapienza?=@let.uu.nl,
+	=?utf-8?Q?=22@let.uu.nl:_CS_'?= <aiia@dis.uniroma1.it>,
+	"'University of Alabama in Huntsville - CS Dept.'" <cg@cs.uah.edu>,
+	"'University of Amsterdam'" <kaw@swi.psy.uva.nl>,
+	"'University of Verona - Italy'" <vr@metropolis.sci.univr.it>,
+	"'Unvi. Maryland - Baltimore: CS'" <agents@cs.umbc.edu>,
+	"'UU Net'" <news-announce-conferences@uunet.uu.net>,
+	"'Vijie university'" <seweb-list@cs.vu.nl>,
+	"'W3C - RDF'" <www-rdf-interest@w3.org>,
+	"'W3C - RDF Logic'" <www-rdf-logic@w3.org>,
+	"'W3C - RDF Rules'" <www-rdf-rules@w3.org>,
+	"'W3C - SemanticWeb'" <semantic-web@w3.org>,
+	"'W3C - SWS'" <public-sws-ig@w3.org>,
+	"'W3C - WebOnt'" <www-webont-wg@w3.org>, "'W3C - WS'" <www-ws@w3.org>,
+	"'Yahoo Groups - Computer Book Authors'"
+	<computerbookauthors@yahoogroups.com>, 
+	"'Yahoo Groups - DOLCE'" <dolce@yahoogroups.com>
+Date: Sun, 8 Feb 2009 22:43:46 +0700
+Message-ID: <498efdc0.02066e0a.7edf.fffff2f9@mx.google.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0019_01C98A3E.BE558190"
+X-Mailer: Microsoft Office Outlook 12.0
+X-MS-TNEF-Correlator: 0000000021A81EB6637F0E40ADA15E6193D69D7D24303500
+Thread-Index: AcmKBAdDbDH1FFXCTY69+g1Rc2vbIQ==
+Content-Language: de
+X-Mailman-Approved-At: Sun, 15 Feb 2009 13:45:45 +0100
+Cc: 
+Subject: [Elsnet-list] SEMSEARCH09 2nd Call for Papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Dies ist eine mehrteilige Nachricht im MIME-Format.
+
+------=_NextPart_000_0019_01C98A3E.BE558190
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+(Apologies if you receive multiple copies of this message)
+
+=20
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+=20
+
+2nd Call for Papers SEMSEARCH'09
+
+=20
+
+Semantic Search 2009 Workshop                                            =
+  =20
+
+=20
+
+Located at the 18th Int. World Wide Web Conference WWW2009
+
+=20
+
+April 21, 2009, Madrid, Spain
+
+=20
+
+http://km.aifb.uni-karlsruhe.de/ws/semsearch09
+
+=20
+
+Submission deadline for full papers: March 1st, 2009 (12.00 AM, GMT)
+
+=20
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+=20
+
+In recent years we have witnessed tremendous interest and substantial
+economic exploitation of search technologies, both at web and enterprise
+scale. However, the representation of user queries and resource content =
+in
+existing search appliances is still almost exclusively achieved by =
+simple
+syntax-based descriptions of the resource content and the information =
+need
+such as in the predominant keyword-centric paradigm (i.e. keyword =
+queries
+matched against bag of words document representation).
+
+=20
+
+On the other hand, recent advances in the field of semantic technologies
+have resulted in tools and standards that allow for the articulation of
+domain knowledge in a formal manner at a high level of expressivity. At =
+the
+same time, semantic repositories and reasoning engines have only now
+advanced to a state where querying and processing of this knowledge can
+scale to realistic IR scenarios.
+
+=20
+
+In parallel to these developments, in the past years we have also seen =
+the
+emergence of important results in adapting ideas from IR to the problem =
+of
+search in RDF/OWL data, folksonomies, microformat collections or
+semantically tagged natural text. Common to these scenarios is that the
+search is focused not on a document collection, but on metadata (which =
+may
+be possibly linked to or embedded in textual information). Search and
+ranking in metadata stores is another key topic addressed by the =
+workshop.
+
+=20
+
+As such, semantic technologies are now in a state to provide significant
+contributions to IR problems.=20
+
+In this context, several challenges arise for Semantic Search systems. =
+These
+include, among others:=20
+
+=20
+
+* How can semantic technologies be exploited to capture the information =
+need
+of the user?=20
+
+* How can the information need of the user be translated to expressive
+formal queries without enforcing the user to be capable of handling the
+difficult query syntax?=20
+
+* How can expressive resource descriptions be extracted (acquired) from
+documents (users)?=20
+
+* How can expressive resource descriptions be stored and queried =
+efficiently
+on a large scale?=20
+
+* How can vague information needs and incomplete resource descriptions =
+be
+handled?=20
+
+* How can semantic search systems be evaluated and compared with =
+standard IR
+systems?
+
+-----------------------------------
+
+Topics of Interest
+
+-----------------------------------
+
+=20
+
+Main topics of interest in the areas of Semantic Search include but are =
+not
+limited to:
+
+Tasks and Interaction Paradigms for Semantic Search
+
+=20
+
+* Information Retrieval Tasks on the Semantic Web
+
+* Incentives and Interaction Paradigms for Resource Annotation
+
+* Interaction Paradigms for Semantic Search
+
+* Collaborative Aspects of Semantic Search (Wikis, Social Networks)
+
+=20
+
+Query Construction and Resource Modeling for Semantic Search
+
+=20
+
+* Semantic Technologies for Query Interpretation, Refinement and Routing
+
+* Natural Language Interfaces for Semantic Web Repositories
+
+* Modeling Expressive Resource Descriptions
+
+* Ontology and Metadata Standards for Expressive Resource Descriptions
+
+* Natural Language Processing and Information Extractions for the
+Acquisition of Resource Descriptions
+
+* Semantic Web Mining and Semantic Network Analysis
+
+=20
+
+Algorithms and Infrastructures for Semantic Search
+
+=20
+
+* Scalable Reasoners, Repositories and Infrastructures for Semantic =
+Search
+
+* Crawling, Storing and Indexing of Expressive Resource Descriptions
+
+* Fusion of Semantic Search Results on the Semantic Web
+
+* Algorithms for Matching Expressive Queries and Resource Descriptions
+
+* Algorithms and Reasoning Procedure to Deal With Vagueness, =
+Incompleteness
+and Inconsistencies in Semantic Search
+
+=20
+
+Evaluation of Semantic Search
+
+=20
+
+* Evaluation Methodologies for Semantic Search
+
+* Standard Datasets and Benchmarks for Semantic Search
+
+=20
+
+=20
+
+-----------------------------------
+
+Organizers
+
+-----------------------------------
+
+=20
+
+* Marko Grobelnik, Jo=C5=BEef Stefan Institute, Ljubljana, Slovenia
+
+* Peter Mika, Yahoo! Research, Barcelona, Spain
+
+* Thanh Tran Duc, Institute AIFB, University of Karlsruhe (TH), Germany
+
+* Haofen Wang, Apex Data & Knowledge Management Lab, Shanghai Jiao Tong
+University, China
+
+=20
+
+-----------------------------------
+
+Program Committee
+
+-----------------------------------
+
+=20
+
+* Wray Buntine, NICTA Canberra, Australia
+
+* Pablo Castells, Universidad Aut=C3=B3nonoma de Madrid, Spain
+
+* Alistair Duke, British Telecom, UK
+
+* Blaz Fortuna, Jo=C5=BEef Stefan Institute, Slovenia
+
+* Norbert Fuhr, Universit=C3=A4t Duisburg-Essen, Germany
+
+* Lise Getoor, University Maryland, USA
+
+* Rayid Ghani, Accenture Labs, USA
+
+* Peter Haase, Institute AIFB, University of Karlsruhe, Germany
+
+* Andreas Harth, DERI, Galway, Ireland
+
+* Andreas Hotho, University of Kassel, Germany
+
+* Yiannis Kompatsiaris, Informatics and Telematics Institute, Greece
+
+* Li Ma, IBM Research, Beijing, China
+
+* Eduarda Mendes Rodrigues, Microsoft Research, Cambridge, UK
+
+* Yuzhong Qu, Southeast University, Nanjing, China
+
+* Sergej Sizov, University of Koblenz-Landau, Germany
+
+* Nenad Stojanovic, FZI Karlsruhe, Germany
+
+* Rudi Studer, Institute AIFB, University of Karlsruhe, Germany
+
+* Cao Hoang Tru, HCMC University of Technology, HCMC, Vietnam
+
+* Michael Witbrock, Cycorp, USA and Cycorp Europe, Slovenia
+
+* Yong Yu, Apex Lab, Shanghai Jiao Tong University, China
+
+* Ilya Zaihrayeu, University of Trento, Italy
+
+* Hugo Zaragoza, Yahoo! Research Barcelona, Spain
+
+=20
+
+-----------------------------------
+
+Submission and Proceedings
+
+-----------------------------------
+
+=20
+
+Proceedings will be published for the workshop as part of the CEUR =
+Workshop
+Proceedings (CEUR-WS.org, ISSN 1613-0073). We will pursue a journal =
+special
+issue with the topics of the workshop if we receive an appropriate =
+number of
+high-quality submissions.
+
+=20
+
+Details on the proceedings and camera-ready formatting will be announced
+upon notification of the authors.
+
+=20
+
+For submissions, the following rules apply:
+
+=20
+
+* Papers should be formatted according to the guidelines of the WWW2009
+conference, i.e. according to the ACM Proceedings Style. More =
+information is
+available at http://www.acm.org/sigs/pubs/proceed/template.html.
+
+* Regular research papers are limited to 10 pages.
+
+* Additionally, we invite discussion papers, experimental contributions,
+system and demo descriptions which are limited to 2 pages. In this case,
+please indicate the type of the contribution as subtitle.
+
+* Please use the following link to the submission system to submit your
+paper: Easychair Submission System for SemSearch2009 at
+http://www.easychair.org/conferences/?conf=3Dsemse2009.
+
+=20
+
+=20
+
+=20
+
+-----------------------------------
+
+Important Dates
+
+-----------------------------------
+
+=20
+
+Deadline for submissions: March 1st, 2009 (12.00 AM, GMT)
+
+=20
+
+Notification of acceptance: April 1st, 2009
+
+=20
+
+Camera-ready versions: April 10th, 2009
+
+=20
+
+WWW'09 Conference: April 20th-24th, 2009
+
+=20
+
+Workshop Day: April 21st, 2009
+
+=20
+
+=20
+
+-----------------------------------
+
+Contact
+
+-----------------------------------
+
+=20
+
+The organization committee can be reached via
+<mailto:semsearch09@aifb.uni-karlsruhe.de>
+semsearch09@aifb.uni-karlsruhe.de.
+
+For questions on submission, please contact Tran Duc Thanh via
+<mailto:dtr@aifb.uni-karlsruhe.de> dtr@aifb.uni-karlsruhe.de.
+
+Workshop website at http://km.aifb.uni-karlsruhe.de/ws/semsearch09.=20
+
+=20
+
+=20
+
+
+------=_NextPart_000_0019_01C98A3E.BE558190
+Content-Type: application/ms-tnef;
+	name="winmail.dat"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="winmail.dat"
+
+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
+Yq8AeT40c3muMILwBMN0gG1+b7Y/t0+w1XSAuYDM0HB/u+PEkM3QnTGd3aGwnvQg/kkBMn0RBRCc
+8LpwP/AFkP+c8HxBezAIYcugAV++L8lZ/nlvMMpWu2rMYG9hPdAGQP50e8GfX6BvoX+ij6OfpK//
+pb+mz7EPqO+rT9PfrB+tL/+uP69PsF+xb7J/s49uTMN0v7mgxI/FnwsKPth0oWtz1o89yLxGc+E9
+w3QgeQdAo9SgnWM6IEXXcHnA0K8A0Jo/4S/a5lPkaFO8ZP98cXuAgvDrUJ0SdaN97+hff4APgRHD
+gecEgXN1+IHwP/V18j2c8G2c8HWi22/ccw/YVXNgPwDmoCMxRjT4OTdE2f/bBMlszT/OTP/Jf8qP
+y5/2j/efzs/P39Dv//jP0w/VbwNv1j/XT9hf2W//2n/yT9yf3a9Vf/lvV59Yr/9Zv/rP+9/87/3/
+/w8AHxKv/wI/BJ8b3xzvBn8HjwifCa//Gl8LzwzfDe8O/xAPER8SL/8TPxRPFV8Wbxd/GI8Znxqv
+/xu/Hh81Xx7vH/8hDyIfMs//JD8lTyZfPD8ofymPKp9AL/8svy3PLt8v7zD/Mg9EnzQv/zaPTc83
+XzhvOX86jzufPK/3Pb8+zz/aLVlvWn9An0Gv/0WfRq9Hv0jPSd9K71UvTQ//T29l/1A/UU9SX1Nv
+VH9Vj/dWn1eveNlJgwBqEGeQuxD0IETEIXNbn1yvXb9ez/9f32DvYf9jD21PZS9nj3zf/2hfaW9q
+f2uPbJ9tr26/b8//WL+Iv1rfcs9z33Tvdf93D/94H3kvej97T3xffr+VT3+P/4Cfga+Cv5K/hN+F
+74b/nC//i09CX0NvoB+Mr42/js+P3/+Q75H/pI+UH5Z/rb+XT5hff5lvmn+bj5yfna+ev5/KRP3D
+gGTjkeLS51/tX7TW5FjKc+awTeuiIDGyQMNAIevjKDEyLuvwIEHCTcNAR01UKaCPoZ//pY+mn6ev
+qL+pz6rftR+s//+vX8nPsC+xP7JPs1+0b7V//7aPt5+f37/Pof+jD6QfwS//wj/DT8RfxW/Gf9kP
+yJ/K///iP+NPzN/N787/0A/gv9IvB9M/1E/moHRpZmlj43IwvREgb2a6H7sv6bU76DDoQHBx0ehB
+vtBwcv5p5vC919Vf1m/aX9tv3H//3Y/en9+v6e/hz+Qv/b/k///mD+cf6C/pP+pP61/sb9Sv//O/
+1s/X39jv9R/2L/c/+E//+V/6bwz//I/+7xYvFz8Az38B3wLvA/8UrwYfBy8IP0OAYW1lcmEtcrlh
+7nnvH/AvHaV2IkC9BfJl+DB0aPL/Cf8N7w7/EA//ER8SLxM/HX8VXxe/MQ8yH/8ZnxqvG78czy+P
+Hu8f/yEP/ycPKB8Lbwx/DY8pfyqPK5//LK8tvy7PL98w7zNPSo80H/81LzY/N09H/zlvOn87j1Fk
+eldVwCcm7SOvIWpQIGbdIkBl8hm+ICaALT3AJo//PY9Bf1v/Q59Er0W/Rs9H3/9I70tPSw9lv00v
+Tj9PT1Bf/2MvUn9Tj1SfPN9bvz7/QA//cI9dH14vXz9gT2FfYm9jf/9kj2bvfi9nv2jPad9q72v/
+H20Pbh9vL1VHghBrc2jCb4FQRGF5OlYvVz//hRVZdfLPcT91L48Pd094X/95b3p/e498n37/gA+Y
+z4Df/4Hvgv+ED5Y/hi+HP4hPdN//js9yr3O/o5+QL5E/kk+TX/+Ub5V/lo+Xn5n/sT+az5vf/5zv
+nf+fD6AfoS+iP7gfpF//pW+mf7wPqJ+pr6q/q8+s3/+t78B/sA+yb8mvsz+0T7Vfv7Zvt3+4j7mf
+uq+7vS3Vf//Wj7yvvb/Br8K/w8/E38Xv/8b/0T/JH8t/4g/MT81fzm9/z3/Qj9Gf0q/Tv1gM46Bj
+/nTXr9i/2c/a39vv3P/eD//fH+lf4T/jn/hv5G/lf+aP/+ef6K/pv+rP69/UzwRP1u//7l/vb/B/
+8Y/yn/Ov9L/1z//23/fv+k8Q3/sf/C/9P/5P/w5PAG8BfwKPF78G375vv3//G68IPwlPCl8Lbwx/
+DY8gH/8PrxIPKU8S3xPvFP8WDxcfjxgvGT8aTxtaVGhlil8Xi28wdS1wZzIQaXphDHRpL0AswG9t
+bWnadC5AZSzAMhFiOPBZAIMu8DTwZCB2aWEw3/Q8dS+LdS2wME8xXS3VhThwbC1wOmJsdS9vKzyf
+MYVhK0NoWQBmPQ4iLZBZoC6wOnNlbS9DICbQObCNwEBCwGZiJC51N+AtaybQbHOEcnU08C5kZSI/
+i6BmaWVsZCpyZkZABGluLdB7SFlQRcBSTElOSyBCr0O/mUTGfX1F8UZAcnMcoPBcY2YxPC89Pz5P
+P1//S7ZIT0leIe8i/yQPVB9VLvlSLy9hIc9TH1avWQs7Wv1VeS4cHx0vIR9Y/1oPJE//JV8mb1s/
+KI8q72h/K78sz38t3y7vP/9MXzIfMy9LiUa5bJAgcU6AbPA4MXM1H+c2Lzc2TXF1YjigbCA4MX2N
+gHBtIGwQOPHtpDTQcrFxMUR1YzTRcTBoOf/jQa9H1WR0clDPRO9F//9HD3yPSa9Kv2+fTN9N727v
+/iCBX1GvYZ9ir1YfjL+EX/9YCV4PXx9gL4pvi39jX2Rv/2V/jy9nn2n/my9qz2vfbO+/bf9vD4Tf
+cS9yPxtaV59Q4GtzaG9wdN9176JV/HdlHqA4sDjwOBBCQDjAgHA6Ly9rbS6I7/F+Ai93c5TQUCii
+z5TiA50jhisjMUY0OTf+RKFfXa+Ub5V/HA+R35Lv/7H/sw+WH5cvmD+if5pfnL//vu+dj56fn6+g
+v6HPrX+j7NWuumbtoS138HrEsBsgIC4wcHQ7yUNmYYE4oGx5OiJBcnpAoGwiLCJzo/BzyYDyZcsw
+ZiLFHKWfG/+1j/8eHx8vzj+277f/uQ+6H7sv/7w/vU++X8C/29/Bj8KbxS//2b/HT6SfzU/OX89v
+0H/Rj//Sn9Ov1L/Vz9bf1+/Y/9oPv9sf3X/y/+XG5IDmYS9/0D527K/wz/R/+E/ltzU44erBYm9k
+ebXu+f/8j33l1jfqwaiite3ksf4zfQEBYAAAAAMADTT9P6UGAwAPNP0/pQYCARQ0AQAAABAAAABO
+SVRB+b+4AQCqADfZbgAAAgF/AAEAAAAxAAAAMDAwMDAwMDAyMUE4MUVCNjYzN0YwRTQwQURBMTVF
+NjE5M0Q2OUQ3RDI0MzAzNTAwAAAAAAMABhAovvVHAwAHEEMZAAADABAQAAAAAAMAERABAAAAHgAI
+EAEAAABlAAAAKEFQT0xPR0lFU0lGWU9VUkVDRUlWRU1VTFRJUExFQ09QSUVTT0ZUSElTTUVTU0FH
+RSk9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTJORENBTExGT1JQQVBFUgAAAACW
+oQ==
+
+------=_NextPart_000_0019_01C98A3E.BE558190
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+------=_NextPart_000_0019_01C98A3E.BE558190--
+

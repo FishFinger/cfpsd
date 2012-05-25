@@ -1,0 +1,841 @@
+From - Thu Dec 10 14:37:28 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs191381faq;
+        Fri, 19 Jun 2009 02:23:35 -0700 (PDT)
+Received: by 10.210.134.6 with SMTP id h6mr2890902ebd.35.1245403412779;
+        Fri, 19 Jun 2009 02:23:32 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 26si5922650ewy.59.2009.06.19.02.23.31;
+        Fri, 19 Jun 2009 02:23:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6DA461F7E7; Fri, 19 Jun 2009 11:23:13 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 507B5210BD;
+	Fri, 19 Jun 2009 11:21:27 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id ACB3A3D57;
+	Fri, 19 Jun 2009 11:21:24 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NizbQeNT5EqI; Fri, 19 Jun 2009 11:21:24 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B34C63D3A;
+	Fri, 19 Jun 2009 11:21:18 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B05963D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 16 Jun 2009 15:55:08 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id udaFkBmhGTzN for <elsnet-list@mailman.elsnet.org>;
+	Tue, 16 Jun 2009 15:55:08 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8CE5C3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 16 Jun 2009 15:55:08 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 779FC21564; Tue, 16 Jun 2009 15:55:08 +0200 (MEST)
+X-Greylist: delayed 473 seconds by postgrey-1.28 at newjura;
+	Tue, 16 Jun 2009 15:55:07 MEST
+Received: from mail-ew0-f213.google.com (mail-ew0-f213.google.com
+	[209.85.219.213])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 201E0214D5
+	for <elsnet-list@elsnet.org>; Tue, 16 Jun 2009 15:55:06 +0200 (MEST)
+Received: by ewy9 with SMTP id 9so5422430ewy.13
+	for <elsnet-list@elsnet.org>; Tue, 16 Jun 2009 06:55:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=Uoz8lthP2Po2fkiBRSpaUxXuRQ9j5JB1NTxlPAgud6E=;
+	b=p6jNSvd+ARFN1LASW8CEShseCZBk+Vpz3EOh8q7xiFHS9zROyIuzBzHuk+c/XhazuE
+	CGkrA4rxHWkpGRs/AKyylvZGH7sMr8fWItJYFqGmIGnPpmg+2QP/NtvguUS7sBnvw7Tk
+	oeKu3x0owoaYcjbVOG82ljIO+aLNoqXzkxnW0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=tIe+fE1r80NT7xXssR1mwhM/Mm5AK+/r01exkypIvXpandxi1ldneBijSCxd0LeJeO
+	rCojKt+TJAgTCvPylm9wliivlmDQYrFmE6K83QN9NAFoeImuWedj+Hsl5WbWPzINvD02
+	d7DyG6tHweo9c5Lj6NTJzCq1BMcvKVWvSCIbE=
+MIME-Version: 1.0
+Received: by 10.210.27.20 with SMTP id a20mr4751511eba.67.1245160027360; Tue, 
+	16 Jun 2009 06:47:07 -0700 (PDT)
+Date: Tue, 16 Jun 2009 09:47:07 -0400
+Message-ID: <fcc499200906160647i2f7637cdr953666c2fecdff97@mail.gmail.com>
+From: Susie Stephens <susie.stephens@gmail.com>
+To: susie.stephens@gmail.com
+X-Mailman-Approved-At: Fri, 19 Jun 2009 11:20:40 +0200
+Cc: 
+Subject: [Elsnet-list] Workshop on Semantic Web Applications in Scientific
+	Discourse
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0730162974=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0730162974==
+Content-Type: multipart/alternative; boundary=0015174c0df01e99a2046c776998
+
+--0015174c0df01e99a2046c776998
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+*CALL FOR PAPERS*
+
+* *
+
+*WORKSHOP ON SEMANTIC WEB APPLICATIONS IN SCIENTIFIC DISCOURSE*
+
+
+
+*held in conjunction with*
+
+
+*THE 8th INTERNATIONAL SEMANTIC WEB CONFERENCE *
+
+*OCTOBER 25-29, 2009*
+
+*WASHINGTON DC *
+
+
+
+Scientific research is becoming both increasingly interdisciplinary, and
+dependent on the Web for dissemination. Yet the form of the discourse has
+remained for the most part, a digital analog of the paper research article.
+This situation persists despite the emergence of Web 2.0 paradigms (blogs,
+wikis, online communities), application of Semantic Web technologies to
+problems in biomedicine, and the introduction of virtual research
+environments in certain areas. We will bring together experts in semantic
+technology, scientific informatics, virtual research environments, Web
+communities and scientific publishing to contribute to the development of
+new thinking on how scientific research can be communicated, characterized,
+annotated, searched and shared on the Web.
+
+The availability of Web 3.0 technologies (social web + Semantic Web) now
+makes it possible to fundamentally change the way scientific communications
+take place. This workshop is timely due to the rapidly changing publication
+model, and the volume of scientific knowledge that needs to be organized an=
+d
+managed to enable comprehension of scientific understanding and knowledge.
+
+*Audience: *
+
+The audience will be made up of individuals interested in Semantic Web,
+scientific publication, biomedical web communities, and information
+retrieval. This workshop will attract those interested in the convergence o=
+f
+Web 2.0 and Web 3.0 technologies, and their application to increase the
+velocity and breadth of scientific communications. This workshop will also
+be of interest to those interested in adopting these technologies to their
+own domains of discourse.
+
+
+*Topics of Interest: *
+
+   - Semantic annotation of scientific publications
+   - Metadata and annotation management for digital repositories
+   - Structured digital abstracts
+   - Semantically-enhanced search of the bibliome
+   - Ontologies for biomedical methods and materials
+   - Semantic bookmarking in science
+   - Convergence of bottom-up and top-down ontology construction
+   - Activity-based and pragmatics-based scientific ontologies
+
+*Submissions:*
+Prospective authors are invited to submit research papers in any of the
+areas listed above. Research papers should be 6-10 pages in length and must
+be formatted in the style of Springer.
+
+
+*Important Dates:*
+Paper submission:                              August 7, 2009
+Notification of acceptance:                 September 1, 2009
+
+Final version of accepted papers:       October 2, 2009
+Workshop days:                                October 25-26, 2009
+
+*Program Committee:*
+
+=B7           Christopher Baker, University of New Brunswick
+
+=B7           Colin Batchelor, Royal Society of Chemistry
+
+=B7           Sean Bechhofer, University of Manchester
+
+=B7           Judy Blake, Jackson Labs
+
+=B7           John Breslin, NUI Galway
+
+=B7           Simon Buckingham Shum
+
+=B7           Paolo Ciccarese, Harvard
+
+=B7           Sudeshna Das, Harvard
+
+=B7           Anita de Waard, Elsevier
+
+=B7           Dave de Roure, University of Southampton
+
+=B7           Don Doherty, Brainstage
+
+=B7           Michel Dumontier, Carleton University
+
+=B7           Andrew Gibson, University of Manchester
+
+=B7           Carole Goble, University of Manchester
+
+=B7           William Hayes, BiogenIdec
+
+=B7           Vipul Kashyap, Cigna
+
+=B7           Phillip Lord, University of Newcastle
+
+=B7           John Madden, Duke
+
+=B7           Robin McEntire, Merck
+
+=B7           Mark Musen, Stanford
+
+=B7           Eric Neumann, Clinical Semantics
+
+=B7           David Newman, University of Southampton
+
+=B7           Vit Novacek, DERI
+
+=B7           Chimezie Ogbuji, Cleveland Clinic
+
+=B7           Alex Passant, DERI
+
+=B7           Elgar Pichler, AstraZeneca
+
+=B7           Rosalind Reid, Harvard
+
+=B7           Thomas Rindflesch, NIH
+
+=B7           Patrick Ruch, University of Applied Sciences Geneva
+
+=B7           Matthias Samwald, DERI
+
+=B7           Nigam Shah, Stanford University
+
+=B7           Yimin Wang, Eli Lilly
+
+=B7           Katy Wolstencroft, University of Manchester
+=B7           Jenna Zhou, Eli Lilly
+
+
+*Organizing Committee: *
+
+=B7   Tim Clark, Harvard Medical School/MGH, tim_clark@harvard.edu
+
+=B7   Joanne Luciano, MITRE, jluciano@gmail.com
+
+=B7   M. Scott Marshall, University of Amsterdam, marshall@science.uva.nl
+
+=B7   Eric Prud'hommeaux, W3C, USA, eric@w3.org
+
+=B7   Susie Stephens, Johnson and Johnson, susie.stephens@gmail.com
+
+
+More information about the workshop will be made available at
+http://esw.w3.org/topic/HCLS/ISWC2009/Workshop
+
+--0015174c0df01e99a2046c776998
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><b style=3D"mso-bidi-font-weight: normal"><font size=3D"3"><=
+font face=3D"Times New Roman">CALL FOR PAPERS</font></font></b></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><b style=3D"mso-bidi-font-weight: normal"><font face=3D"Time=
+s New Roman" size=3D"3">=A0</font></b></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><b style=3D"mso-bidi-font-weight: normal"><font size=3D"3"><=
+font face=3D"Times New Roman">WORKSHOP ON SEMANTIC WEB APPLICATIONS IN SCIE=
+NTIFIC DISCOURSE</font></font></b></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SI=
+ZE: 8pt; mso-bidi-font-size: 12.0pt"><font face=3D"Times New Roman">=A0</fo=
+nt></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><i style=3D"mso-bidi-font-style: normal"><font size=3D"3"><f=
+ont face=3D"Times New Roman">held in conjunction with</font></font></i></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><span style=3D"FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><=
+br></span><b style=3D"mso-bidi-font-weight: normal"><font size=3D"3"><font =
+face=3D"Times New Roman">THE 8th INTERNATIONAL SEMANTIC WEB CONFERENCE </fo=
+nt></font></b></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><b style=3D"mso-bidi-font-weight: normal"><font size=3D"3"><=
+font face=3D"Times New Roman">OCTOBER 25-29, 2009</font></font></b></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" al=
+ign=3D"center"><b style=3D"mso-bidi-font-weight: normal"><font size=3D"3"><=
+font face=3D"Times New Roman">WASHINGTON DC </font></font></b></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times Ne=
+w Roman" size=3D"3">=A0</font></p>
+<p class=3D"line874" style=3D"MARGIN: auto 0in"><span lang=3D"EN" style=3D"=
+COLOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times N=
+ew Roman">Scientific research is becoming both increasingly interdisciplina=
+ry, and dependent on the Web for dissemination. Yet the form of the discour=
+se has remained for the most part, a digital analog of the paper research a=
+rticle. This situation persists despite the emergence of Web 2.0 paradigms =
+(blogs, wikis, online communities), application of Semantic Web technologie=
+s to problems in biomedicine, and the introduction of virtual research envi=
+ronments in certain areas. We will bring together experts in semantic techn=
+ology, scientific informatics, virtual research environments, Web communiti=
+es and scientific publishing to contribute to the development of new thinki=
+ng on how scientific research can be communicated, characterized, annotated=
+, searched and shared on the Web. </font></font></span></p>
+
+<p class=3D"line874" style=3D"MARGIN: auto 0in"><span lang=3D"EN" style=3D"=
+COLOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times N=
+ew Roman">The availability of Web 3.0 technologies (social web + Semantic W=
+eb) now makes it possible to fundamentally change the way scientific commun=
+ications take place. This workshop is timely due to the rapidly changing pu=
+blication model, and the volume of scientific knowledge that needs to be or=
+ganized and managed to enable comprehension of scientific understanding and=
+ knowledge.=A0</font></font></span><span style=3D"FONT-SIZE: 8pt; mso-bidi-=
+font-size: 12.0pt"><font face=3D"Times New Roman">=A0</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in =
+0in 0pt; TEXT-ALIGN: justify"><b style=3D"mso-bidi-font-weight: normal"><fo=
+nt size=3D"3"><font face=3D"Times New Roman">Audience: </font></font></b></=
+p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font size=3D"3"><font=
+ face=3D"Times New Roman"><span lang=3D"EN" style=3D"COLOR: black; mso-ansi=
+-language: EN">The audience will be made up of individuals interested in Se=
+mantic Web, scientific publication, biomedical web communities, and informa=
+tion retrieval. This workshop will attract those interested in the converge=
+nce of Web 2.0 and Web 3.0 technologies, and their application to increase =
+the velocity and breadth of scientific communications. This workshop will a=
+lso be of interest to those interested in adopting these technologies to th=
+eir own domains of discourse. </span><span style=3D"mso-spacerun: yes">=A0<=
+/span></font></font></p>
+
+<p class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in =
+0in 0pt; TEXT-ALIGN: justify"><br><b style=3D"mso-bidi-font-weight: normal"=
+><font size=3D"3"><font face=3D"Times New Roman">Topics of Interest: </font=
+></font></b></p>
+<font face=3D"Times New Roman"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">
+<ul style=3D"MARGIN-TOP: 0in" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Semantic annotatio=
+n of scientific publications</li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Metadata and annot=
+ation management for digital repositories</li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Structured digital=
+ abstracts </li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Semantically-enhan=
+ced search of the bibliome</li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Ontologies for bio=
+medical methods and materials</li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Semantic bookmarki=
+ng in science</li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Convergence of bot=
+tom-up and top-down ontology construction</li>
+<li class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; mso-list: l0 level1 lfo1">Activity-based and=
+ pragmatics-based scientific ontologies</li></ul></font></span></font><font=
+ face=3D"Times New Roman" size=3D"3">=A0</font>
+<div class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt"><b><span style=3D"=
+FONT-SIZE: 12pt"><font face=3D"Times New Roman">Submissions:</font></span><=
+/b><font face=3D"Times New Roman"><span style=3D"FONT-SIZE: 12pt"> <br>Pros=
+pective authors are invited to submit research papers in any of the areas l=
+isted above. Research papers should be 6-10 pages in length and must be for=
+matted in the style of Springer.</span></font></div>
+
+<div class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Time=
+s New Roman"><span style=3D"FONT-SIZE: 12pt">=A0</span><span style=3D"FONT-=
+SIZE: 12pt; mso-bidi-font-size: 10.5pt"></span></font></div>
+<p class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt"><b style=3D"mso-bidi=
+-font-weight: normal"><span style=3D"FONT-SIZE: 12pt; mso-bidi-font-size: 1=
+0.5pt"><font face=3D"Times New Roman">Important Dates:</font></span></b><sp=
+an style=3D"FONT-SIZE: 12pt; mso-bidi-font-size: 10.5pt"><font face=3D"Time=
+s New Roman"> <br>
+Paper submission:=A0<span style=3D"mso-tab-count: 3">=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0</span>Au=
+gust 7, 2009<br>Notification of acceptance: <span style=3D"mso-tab-count: 2=
+">=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span>September 1, 2009 </=
+font></span></p>
+
+<p class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-=
+SIZE: 12pt; mso-bidi-font-size: 10.5pt"><font face=3D"Times New Roman">Fina=
+l version of accepted papers:=A0<span style=3D"mso-tab-count: 1">=A0=A0=A0=
+=A0=A0=A0</span>October 2, 2009<br>
+Workshop days:=A0=A0<span style=3D"mso-tab-count: 3">=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0</span=
+>October 25-26, 2009 <br style=3D"mso-special-character: line-break"><br st=
+yle=3D"mso-special-character: line-break"></font></span></p>
+<p class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt"><b><span style=3D"FO=
+NT-SIZE: 12pt; mso-bidi-font-size: 10.5pt"><font face=3D"Times New Roman">P=
+rogram Committee:</font></span></b></p>
+<p class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: =
+-0.3in; mso-list: l1 level1 lfo2; tab-stops: list .6in"><span lang=3D"EN" s=
+tyle=3D"FONT-SIZE: 12pt; COLOR: black; FONT-FAMILY: Symbol; mso-ansi-langua=
+ge: EN; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><spa=
+n style=3D"mso-list: Ignore">=B7<span style=3D"FONT: 7pt &#39;Times New Rom=
+an&#39;">=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"=
+EN" style=3D"FONT-SIZE: 12pt; COLOR: black; mso-ansi-language: EN"><font fa=
+ce=3D"Times New Roman">Christopher Baker, University of New Brunswick </fon=
+t></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Colin Batchelor, Royal Society of Chemistry </font></font></span></=
+p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Sean Bechhofer, University of Manchester </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Judy Blake, Jackson Labs </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">John Breslin, NUI Galway </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Simon Buckingham Shum </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Paolo Ciccarese, Harvard </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Sudeshna Das, Harvard </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Anita de Waard, Elsevier </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Dave de Roure, University of Southampton </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Don Doherty, Brainstage </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Michel Dumontier, Carleton University </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Andrew Gibson, University of Manchester </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Carole Goble, University of Manchester </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 3pt 0in 3pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-list: l1 level1 lfo2; tab-stops: list .6in"><span lang=3D"EN" sty=
+le=3D"COLOR: black; FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast=
+-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-list=
+: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times Ne=
+w Roman&#39;">=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lan=
+g=3D"EN" style=3D"COLOR: black; mso-ansi-language: EN"><font face=3D"Times =
+New Roman" size=3D"3">William Hayes, BiogenIdec</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Vipul Kashyap, Cigna </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Phillip Lord, University of Newcastle </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">John Madden, Duke </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 3pt 0in 3pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-list: l1 level1 lfo2; tab-stops: list .6in"><span lang=3D"EN" sty=
+le=3D"COLOR: black; FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast=
+-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-list=
+: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times Ne=
+w Roman&#39;">=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lan=
+g=3D"EN" style=3D"COLOR: black; mso-ansi-language: EN"><font face=3D"Times =
+New Roman" size=3D"3">Robin McEntire</font><font size=3D"3"><font face=3D"T=
+imes New Roman">, Merck </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Mark Musen, Stanford </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Eric Neumann, Clinical Semantics </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">David Newman, University of Southampton </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Vit Novacek, DERI </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Chimezie Ogbuji, Cleveland Clinic </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Alex Passant, DERI </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 3pt 0in 3pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-list: l1 level1 lfo2; tab-stops: list .6in"><span lang=3D"EN" sty=
+le=3D"COLOR: black; FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast=
+-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-list=
+: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times Ne=
+w Roman&#39;">=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lan=
+g=3D"EN" style=3D"COLOR: black; mso-ansi-language: EN"><font face=3D"Times =
+New Roman" size=3D"3">Elgar Pichler, AstraZeneca</font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Rosalind Reid, Harvard </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Thomas Rindflesch, NIH </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Patrick Ruch, University of Applied Sciences Geneva </font></font><=
+/span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Matthias Samwald, DERI </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Nigam Shah, Stanford University </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Yimin Wang, Eli Lilly </font></font></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: -0=
+.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1 l=
+evel1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black; =
+FONT-FAMILY: Symbol; mso-ansi-language: EN; mso-fareast-font-family: Symbol=
+; mso-bidi-font-family: Symbol"><span style=3D"mso-list: Ignore"><font size=
+=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span lang=3D"EN" style=3D"CO=
+LOR: black; mso-ansi-language: EN"><font size=3D"3"><font face=3D"Times New=
+ Roman">Katy Wolstencroft, University of Manchester </font></font></span></=
+p>
+
+<div class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: =
+-0.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1=
+ level1 lfo2; tab-stops: list .6in"><span style=3D"FONT-FAMILY: Symbol; mso=
+-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"=
+mso-list: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;=
+Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><=
+span lang=3D"EN" style=3D"COLOR: black; mso-ansi-language: EN"><font face=
+=3D"Times New Roman" size=3D"3">Jenna Zhou, Eli Lilly </font></span></div>
+
+<div class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.55in; TEXT-INDENT: =
+-0.3in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l1=
+ level1 lfo2; tab-stops: list .6in"><span lang=3D"EN" style=3D"COLOR: black=
+; mso-ansi-language: EN"><font face=3D"Times New Roman" size=3D"3"></font><=
+/span>=A0</div>
+
+<p class=3D"MsoBodyText" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times =
+New Roman"><b><span style=3D"FONT-SIZE: 12pt; mso-bidi-font-size: 10.5pt">O=
+rganizing Committee: </span></b><span style=3D"FONT-SIZE: 12pt; mso-bidi-fo=
+nt-size: 10.5pt; mso-bidi-font-weight: normal"></span></font></p>
+<font size=3D"3"><span style=3D"FONT-FAMILY: &#39;Times New Roman&#39;,&#39=
+;serif&#39;; mso-ansi-language: EN-US; mso-bidi-font-size: 12.0pt">
+<p class=3D"BodyBullet" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; mso-list: l0 lev=
+el1 lfo1; tab-stops: 0in 27.0pt"><span style=3D"FONT-FAMILY: Symbol; mso-an=
+si-language: EN-US; mso-fareast-font-family: Symbol; mso-bidi-font-family: =
+Symbol; mso-bidi-font-size: 12.0pt"><span style=3D"mso-list: Ignore">=B7<sp=
+an style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0 </span></span></spa=
+n><span style=3D"FONT-FAMILY: &#39;Times New Roman&#39;,&#39;serif&#39;; ms=
+o-ansi-language: EN-US; mso-bidi-font-size: 12.0pt">Tim Clark, Harvard Medi=
+cal School/MGH, </span><span lang=3D"EN-AU" style=3D"FONT-FAMILY: &#39;Time=
+s New Roman&#39;,&#39;serif&#39;; mso-bidi-font-size: 12.0pt"><a href=3D"ma=
+ilto:tim_clark@harvard.edu">tim_clark@harvard.edu</a></span><span style=3D"=
+FONT-FAMILY: &#39;Times New Roman&#39;,&#39;serif&#39;; mso-ansi-language: =
+EN-US; mso-bidi-font-size: 12.0pt"></span></p>
+
+<p class=3D"BodyBullet" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; mso-list: l0 lev=
+el1 lfo1; tab-stops: 0in 27.0pt"><span lang=3D"IT" style=3D"FONT-FAMILY: Sy=
+mbol; mso-ansi-language: IT; mso-fareast-font-family: Symbol; mso-bidi-font=
+-family: Symbol; mso-bidi-font-size: 12.0pt"><span style=3D"mso-list: Ignor=
+e">=B7<span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0 </span></s=
+pan></span><span lang=3D"IT" style=3D"FONT-FAMILY: &#39;Times New Roman&#39=
+;,&#39;serif&#39;; mso-ansi-language: IT; mso-bidi-font-size: 12.0pt">Joann=
+e Luciano, MITRE, </span><span lang=3D"EN-AU" style=3D"FONT-FAMILY: &#39;Ti=
+mes New Roman&#39;,&#39;serif&#39;; mso-bidi-font-size: 12.0pt"><a href=3D"=
+mailto:jluciano@gmail.com">jluciano@gmail.com</a></span><span lang=3D"IT" s=
+tyle=3D"FONT-FAMILY: &#39;Times New Roman&#39;,&#39;serif&#39;; mso-ansi-la=
+nguage: IT; mso-bidi-font-size: 12.0pt"></span></p>
+
+<p class=3D"BodyBullet" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; mso-list: l0 lev=
+el1 lfo1; tab-stops: 0in 27.0pt"><span style=3D"FONT-FAMILY: Symbol; mso-an=
+si-language: EN-US; mso-fareast-font-family: Symbol; mso-bidi-font-family: =
+Symbol; mso-bidi-font-size: 12.0pt"><span style=3D"mso-list: Ignore">=B7<sp=
+an style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0 </span></span></spa=
+n><span lang=3D"EN-AU" style=3D"FONT-FAMILY: &#39;Times New Roman&#39;,&#39=
+;serif&#39;; mso-bidi-font-size: 12.0pt">M. Scott Marshall, University of A=
+msterdam, <a href=3D"mailto:marshall@science.uva.nl">marshall@science.uva.n=
+l</a> </span><span style=3D"FONT-FAMILY: &#39;Times New Roman&#39;,&#39;ser=
+if&#39;; mso-ansi-language: EN-US; mso-bidi-font-size: 12.0pt"></span></p>
+
+<p class=3D"BodyBullet" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; mso-list: l0 lev=
+el1 lfo1; tab-stops: 0in 27.0pt"><span lang=3D"FR" style=3D"FONT-FAMILY: Sy=
+mbol; mso-ansi-language: FR; mso-fareast-font-family: Symbol; mso-bidi-font=
+-family: Symbol; mso-bidi-font-size: 12.0pt"><span style=3D"mso-list: Ignor=
+e">=B7<span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0 </span></s=
+pan></span><span lang=3D"FR" style=3D"FONT-FAMILY: &#39;Times New Roman&#39=
+;,&#39;serif&#39;; mso-ansi-language: FR; mso-bidi-font-size: 12.0pt">Eric =
+Prud&#39;hommeaux, W3C, USA, <a href=3D"mailto:eric@w3.org">eric@w3.org</a>=
+</span></p>
+
+<p class=3D"BodyBullet" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIGN: justify; mso-list: l0 lev=
+el1 lfo1; tab-stops: 0in 27.0pt"><span lang=3D"SV" style=3D"FONT-FAMILY: Sy=
+mbol; mso-ansi-language: SV; mso-fareast-font-family: Symbol; mso-bidi-font=
+-family: Symbol; mso-bidi-font-size: 12.0pt"><span style=3D"mso-list: Ignor=
+e">=B7<span style=3D"FONT: 7pt &#39;Times New Roman&#39;">=A0=A0 </span></s=
+pan></span><span lang=3D"SV" style=3D"FONT-FAMILY: &#39;Times New Roman&#39=
+;,&#39;serif&#39;; mso-ansi-language: SV; mso-bidi-font-size: 12.0pt">Susie=
+ Stephens, Johnson and Johnson, <a href=3D"mailto:susie.stephens@gmail.com"=
+>susie.stephens@gmail.com</a></span></p>
+
+<p class=3D"BodyBullet" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0in=
+ 0in 0pt; TEXT-ALIGN: justify; tab-stops: 0in 27.0pt"></p></span></font>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times Ne=
+w Roman" size=3D"3">=A0</font></p>
+<div class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times =
+New Roman" size=3D"3">More information about the workshop will=A0be made av=
+ailable at=A0</font></div>
+<div class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times =
+New Roman" size=3D"3"><a href=3D"http://esw.w3.org/topic/HCLS/ISWC2009/Work=
+shop">http://esw.w3.org/topic/HCLS/ISWC2009/Workshop</a></font></div>
+<div class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt">=A0</div>
+
+--0015174c0df01e99a2046c776998--
+
+--===============0730162974==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0730162974==--

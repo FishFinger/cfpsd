@@ -1,0 +1,805 @@
+From - Thu Dec 10 14:35:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs295656far;
+        Sun, 8 Mar 2009 16:29:07 -0700 (PDT)
+Received: by 10.210.34.5 with SMTP id h5mr2018995ebh.38.1236554946849;
+        Sun, 08 Mar 2009 16:29:06 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 28si3020931ewy.24.2009.03.08.16.29.05;
+        Sun, 08 Mar 2009 16:29:06 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 073EC20AC0; Mon,  9 Mar 2009 00:28:53 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1912D209D6;
+	Mon,  9 Mar 2009 00:28:40 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E4E833D35;
+	Mon,  9 Mar 2009 00:28:39 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id CH5Nva50gtBx; Mon,  9 Mar 2009 00:28:39 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A0F4A3D2B;
+	Mon,  9 Mar 2009 00:28:37 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 40AB33D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Mar 2009 13:43:07 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2NnzActDLgY7 for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Mar 2009 13:43:07 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 131903D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Mar 2009 13:43:07 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 009E820B9B; Fri,  6 Mar 2009 13:43:06 +0100 (MET)
+X-Greylist: delayed 1243 seconds by postgrey-1.28 at newjura;
+	Fri, 06 Mar 2009 13:42:59 MET
+Received: from mail-fx0-f167.google.com (mail-fx0-f167.google.com
+	[209.85.220.167])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id A208420FC3
+	for <elsnet-list@elsnet.org>; Fri,  6 Mar 2009 13:42:59 +0100 (MET)
+Received: by fxm11 with SMTP id 11so366984fxm.13
+	for <elsnet-list@elsnet.org>; Fri, 06 Mar 2009 04:42:59 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:date
+	:x-google-sender-auth:message-id:subject:from:to:content-type;
+	bh=T1Zvlag/t9kwVTjg1dlgs0PBG6VO9VrXJMQvMCjDbAk=;
+	b=vprpaMcbEzhRNavKxy6yRWG/hy0MBScX3YSQ+tgbcshgb6wjG6hmsByg82ezcw0dfk
+	PsAib1lkCGOJHr3BZD295CnvOOyap8n5h6LxxsJMm3rs/rLH//UXWzHCC+NCQ8K1ieU0
+	2fmD7Uai4KJppevKsIsb/IlDQnxcGHxvcBF/w=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type;
+	b=ZlS/02JnjuWk9zKRh7eghlbB3FFZl/y85EObXP4cGpbmcOFg4Y2izTyjcy99DWk1Hl
+	OoDmPhLePxnl+3m187gy673M+7tDqJNn8+0NHZ/nvd8xenGvHaPVz7tvKr6J8qgMwzfD
+	OCJM6t9zTNb3CAdCVuUC7wINxbhXfZPSxWTY4=
+MIME-Version: 1.0
+Received: by 10.223.111.134 with SMTP id s6mr1972530fap.37.1236342135782; Fri, 
+	06 Mar 2009 04:22:15 -0800 (PST)
+Date: Fri, 6 Mar 2009 12:22:15 +0000
+X-Google-Sender-Auth: 0bdb717aee7acfe3
+Message-ID: <96499b620903060422x3af646e6tbf3d719ffc2acdd9@mail.gmail.com>
+From: "Ankit K. Srivastava" <asrivastava@computing.dcu.ie>
+To: elsnet-list@elsnet.org
+X-Mailman-Approved-At: Mon, 09 Mar 2009 00:28:36 +0100
+Subject: [Elsnet-list] CLUK(I) 12 Extended deadline (Mar 11): Final CFP
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1355636241=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============1355636241==
+Content-Type: multipart/alternative; boundary=001636c5a501d3019f0464725501
+
+--001636c5a501d3019f0464725501
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+****** EXTENDED DEADLINE: now 11 March, 2009 *****
+
+CLUKI 2009 Final Call for Papers
+
+=============================
+
+12th Computational Linguistics in the UK & Ireland Research Colloquium
+Dublin City University, Dublin, Ireland; April 23-24, 2009
+http://www.cngl.ie/cluki
+Submission deadline: Wednesday, 11 March, 2009 (extended)
+
+=============================
+
+The UK special-interest group for Computational Linguistics ( CLUK,
+http://nlp.shef.ac.uk/research/cluk/ ) will venture for the first time
+beyond the UK to be hosted across the water in Dublin, and is renamed CLUKI.
+
+Computational Linguistics UK & Ireland (CLUKI) aims to provide a forum for
+the Computational Linguistics community in the UK and Ireland. The Annual
+CLUKI Colloquium offers PhD students in Natural Language Processing and
+related disciplines an opportunity to present and discuss their work with
+members of the wider research community. Presentations are held in
+conference-style sessions, to which senior established researchers are
+invited, and there will be opportunities for general discussion.
+
+Papers on any topic within the area of Computational Linguistics, Natural
+Language Processing, and Language Engineering are welcome. Proceedings will
+not be publicly available. However the title and abstract of accepted papers
+will be displayed on the website.
+
+
+INVITED SPEAKERS
+Antal van den Bosch, Tilburg University
+Khalil Sima'an, University of Amsterdam
+
+
+IMPORTANT DATES
+First Call for Papers: Tuesday, 13 January, 2009
+Paper Submission Deadline (extended): Wednesday, 11 March, 2009, 11:59 p.m.
+GMT
+Notification of Acceptance: Tuesday, 31 March, 2009
+Camera Ready Papers Due: Friday, 10 April, 2009
+Conference: 23-24 April 2009
+
+
+SUBMISSION GUIDELINES
+Submissions should follow the two-column format of ACL proceedings. Papers
+should be at least four (4) pages long (including diagrams, figures and
+references). The maximum permissible length is eight (8) pages of content
+and one (1) additional page of references.
+
+We strongly recommend the use of ACL LaTeX style files or Microsoft Word
+Style files, available from (
+http://www.ling.ohio-state.edu/acl08/stylefiles.html). To aid impartiality
+in the reviewing process, the paper should not include the authors' names
+and affiliations. Furthermore, self-citations and other references (e.g. to
+projects, corpora, or software) that could reveal the author's identity
+should be avoided. For example, instead of "We previously showed (Smith,
+1991) ...", write "Smith previously showed (Smith, 1991) ...".
+
+
+Submission is by e-mail to cluki09@computing.dcu.ie
+
+CONTACT
+Please send any queries to the afore-mentioned email address.
+
+Yifan He (Dublin City University)
+Gerard Lynch (Trinity College Dublin)
+Ankit Srivastava (Dublin City University)
+
+--001636c5a501d3019f0464725501
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br>
+
+
+
+
+
+
+
+
+
+****** EXTENDED DEADLINE: now 11 March, 2009 *****<br>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+CLUKI 2009 Final Call for Papers <br>
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+12th Computational Linguistics in the UK &amp; Ireland Research Colloquium<=
+br>
+
+
+
+
+
+
+
+
+
+
+
+Dublin City University, Dublin, Ireland; April 23-24, 2009<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href=3D"http://www.cngl.ie/cluki" target=3D"_blank">http://www.cngl.ie/c=
+luki</a><br>
+
+
+
+
+
+
+
+
+
+
+
+Submission deadline: Wednesday, 11 March, 2009 (extended)<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+The UK special-interest group for Computational Linguistics ( CLUK, <a href=
+=3D"http://nlp.shef.ac.uk/research/cluk/" target=3D"_blank">http://nlp.shef=
+.ac.uk/research/cluk/</a> ) will venture for the first time beyond the UK t=
+o be hosted across the water in Dublin, and is renamed CLUKI.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+Computational
+Linguistics UK &amp; Ireland (CLUKI) aims to provide a forum for the
+Computational Linguistics community in the UK and Ireland. The Annual
+CLUKI Colloquium offers PhD students in Natural Language Processing and
+related disciplines an opportunity to present and discuss their work
+with members of the wider research community. Presentations are held in
+conference-style sessions, to which senior established researchers are
+invited, and there will be opportunities for general discussion. <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+Papers on any topic within the area of Computational Linguistics,
+Natural Language Processing, and Language Engineering are welcome.
+Proceedings will not be publicly available. However the title and
+abstract of accepted papers will be displayed on the website.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+INVITED SPEAKERS<br>
+
+
+
+
+
+
+
+
+
+
+
+Antal van den Bosch, Tilburg University<br>
+
+
+
+
+
+
+
+
+
+
+
+Khalil Sima&#39;an, University of Amsterdam<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+IMPORTANT DATES <br>
+
+
+
+
+
+
+
+
+
+
+
+First Call for Papers: Tuesday, 13 January, 2009<br>
+
+
+
+
+
+
+
+
+
+
+
+Paper Submission Deadline (extended): Wednesday, 11 March, 2009, 11:59 p.m.=
+ GMT <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notification of Acceptance: Tuesday, 31 March, 2009 <br>
+
+
+
+
+
+
+
+
+
+
+
+Camera Ready Papers Due: Friday, 10 April, 2009 <br>
+
+
+
+
+
+
+
+
+
+
+
+Conference: 23-24 April 2009 <br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+SUBMISSION GUIDELINES <br>
+
+
+
+
+
+
+
+
+
+
+
+Submissions
+should follow the two-column format of ACL proceedings. Papers should
+be at least four (4) pages long (including diagrams, figures and
+references). The maximum permissible length is eight (8) pages of
+content and one (1) additional page of references. <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+We strongly recommend the use of ACL LaTeX style files or Microsoft Word St=
+yle files, available from (<a href=3D"http://www.ling.ohio-state.edu/acl08/=
+stylefiles.html" target=3D"_blank">http://www.ling.ohio-state.edu/acl08/sty=
+lefiles.html</a>).
+To aid impartiality in the reviewing process, the paper should not
+include the authors&#39; names and affiliations. Furthermore,
+self-citations and other references (e.g. to projects, corpora, or
+software) that could reveal the author&#39;s identity should be avoided.
+For example, instead of &quot;We previously showed (Smith, 1991) ...&quot;,=
+ write
+&quot;Smith previously showed (Smith, 1991) ...&quot;. <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+Submission is by e-mail to <a href=3D"mailto:cluki09@computing.dcu.ie" targ=
+et=3D"_blank">cluki09@computing.dcu.ie</a> <br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+CONTACT<br>
+
+
+
+
+
+
+
+
+
+
+
+Please send any queries to the afore-mentioned email address.<br>
+
+
+
+
+
+
+
+
+
+
+
+=A0<br>
+
+
+
+
+
+
+
+
+
+
+
+Yifan He (Dublin City University)<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gerard Lynch (Trinity College Dublin)<br>
+
+
+
+
+
+
+
+
+
+
+
+Ankit Srivastava (Dublin City University)
+
+--001636c5a501d3019f0464725501--
+
+--===============1355636241==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1355636241==--

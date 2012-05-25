@@ -1,0 +1,529 @@
+From - Thu Dec 10 14:37:19 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs23258faq;
+        Fri, 5 Jun 2009 00:44:15 -0700 (PDT)
+Received: by 10.114.125.15 with SMTP id x15mr5005725wac.217.1244187853400;
+        Fri, 05 Jun 2009 00:44:13 -0700 (PDT)
+Return-Path: <cltphds-bounces@science.mq.edu.au>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 12si9635044pxi.158.2009.06.05.00.44.11;
+        Fri, 05 Jun 2009 00:44:13 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning cltphds-bounces@science.mq.edu.au does not designate 137.111.216.103 as permitted sender) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning cltphds-bounces@science.mq.edu.au does not designate 137.111.216.103 as permitted sender) smtp.mail=cltphds-bounces@science.mq.edu.au
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n557iAn7007516
+	for <jpprost@gmail.com>; Fri, 5 Jun 2009 17:44:10 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n557iA9N009529
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 5 Jun 2009 17:44:10 +1000
+X-ASG-Debug-ID: 1244187840-38d802190000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam & Virus Firewall) with ESMTP
+	id AFD1F2C8B0A7; Fri,  5 Jun 2009 17:44:00 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id 4tPLe4aRDRlohPAD; Fri, 05 Jun 2009 17:44:00 +1000 (EST)
+X-Barracuda-Envelope-From: cltphds-bounces@science.mq.edu.au
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from vacuum1.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n557hxWX007468;
+	Fri, 5 Jun 2009 17:43:59 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n553ZPea020080; 
+	Fri, 5 Jun 2009 13:35:25 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n553ZBst020028; 
+	Fri, 5 Jun 2009 13:35:11 +1000 (EST)
+Received: from verus.ics.mq.edu.au (verus.ics.mq.edu.au [137.111.216.13])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n553Yl4a019935
+	for <science@science.mq.edu.au>; Fri, 5 Jun 2009 13:34:47 +1000 (EST)
+Received: from crackpot.ics.mq.edu.au (crackpot.ics.mq.edu.au [137.111.215.67])
+	(authenticated bits=0)
+	by verus.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n553YllX019560
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO)
+	for <science@science.mq.edu.au>; Fri, 5 Jun 2009 13:34:47 +1000 (EST)
+Message-Id: <34597918-98E9-4573-9ADC-91888EFBBBBA@ics.mq.edu.au>
+From: Linda Kerr <lkerr@ics.mq.edu.au>
+To: science@science.mq.edu.au
+Mime-Version: 1.0 (Apple Message framework v930.3)
+Date: Fri, 5 Jun 2009 13:34:46 +1000
+References: <4A28727C.9000305@science.mq.edu.au>
+X-Mailer: Apple Mail (2.930.3)
+X-BeenThere: science@science.mq.edu.au
+X-Mailman-Version: 2.1.12
+Precedence: list
+Content-Type: multipart/mixed; boundary="===============0589991470=="
+X-BeenThere: comp@science.mq.edu.au
+X-Mailman-Approved-At: Fri, 05 Jun 2009 17:43:48 +1000
+X-ASG-Orig-Subj: [Cltphds] [Comp] [Science] Australian Synchrotron call for
+	proposals for	round 2009/3
+Subject: [Cltphds] [Comp] [Science] Australian Synchrotron call for
+	proposals for	round 2009/3
+X-BeenThere: cltphds@science.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.science.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/options/cltphds>,
+	<mailto:cltphds-request@science.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@science.mq.edu.au>
+List-Help: <mailto:cltphds-request@science.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@science.mq.edu.au?subject=subscribe>
+Sender: cltphds-bounces@science.mq.edu.au
+Errors-To: cltphds-bounces@science.mq.edu.au
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1244187840
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=HTML_MESSAGE, MIME_HTML_MOSTLY
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.76
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+
+--===============0589991470==
+Content-Type: multipart/alternative; boundary=Apple-Mail-29--422285322
+
+
+--Apple-Mail-29--422285322
+Content-Type: text/plain;
+	charset=WINDOWS-1252;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+> fyi Folks,
+>
+> Begin forwarded message:
+>
+> From: User Office <User.Office@synchrotron.org.au>
+> Date: 21 May 2009 5:25:06 PM
+> Subject: Australian Synchrotron call for proposals for round 2009/3
+>
+> Dear Synchrotron User
+> The call for proposals for Australian Synchrotron beamtime for the =20
+> third round of 2009 (September  =96 December) is now open.   This =20
+> round is designated "2009/3" (or =93PX 2009/3 Program=94 for protein =20=
+
+> crystallography program proposals) on the web portal and includes =20
+> beamtime on:
+>
+> IR :          Infrared Microscope and High Res Far-IR               =
+ir@synchrotron.org.au
+> PX :        Protein =20
+> Crystallography                                                 =
+px@synchrotron.org.au
+> PD:         Powder =20
+> Diffraction                                                          =
+powder.diffraction@synchrotron.org.au
+> SXR:       Soft X-ray =20
+> Spectroscopy                                                =
+softxray@synchrotron.org.au
+> SAXS:    Small and Wide Angle =20
+> Scattering                               saxswaxs@synchrotron.org.au
+> XAS:       X-ray Absorption =20
+> Spectroscopy                                 xas@synchrotron.org.au
+> XFM:     X-ray Fluorescence =20
+> Microscopy                                 xfm@synchrotron.org.au
+>
+> Those who wish to use the ANBF in Tsukuba, Japan, should apply for =20
+> time through either the XAS or PD facility and include a case for =20
+> why the ANBF is required.
+>
+> Please refer to the following webpage for current beamline =20
+> capabilities and for proposal =
+guidelines:http://www.synchrotron.org.au/content.asp?Document_ID=3D5480=20=
+
+> .
+>
+> Users are encouraged to contact beamline staff at the given email =20
+> addresses to discuss the technical details of their proposals before =20=
+
+> submission.  Please direct any other questions to the Australian =20
+> Synchrotron User Office (user.office@synchrotron.org.au).
+>
+> The deadline for proposals is: 5pm on Wednesday June 17 2009 =20
+> (Melbourne time).
+>
+> IMPORTANT:
+> Proposals for all the above beamlines must be submitted online via:
+> http://portal.synchrotron.org.au
+>
+> Foundation Investor Access
+> A call for foundation investor (FI) access is running in conjunction =20=
+
+> with the merit based call for proposals for beamtime on:
+> Infra Red Microscope and High Res Far-IR
+> Protein Crystallography (both PX1 and PX2)
+> Powder Diffraction
+> Small and Wide Angle Scattering
+> X-ray Fluorescence Microscopy
+> X-ray Absorption Spectroscopy
+> Soft x-ray spectroscopy (Check with your FI representative for =20
+> specific allocation dates before applying for SXR beam time.)
+>
+> Please refer to the following website to determine how to apply for =20=
+
+> FI time for your particular organisation: =
+http://www.synchrotron.org.au/content.asp?Document_ID=3D5339
+>
+> User Office | Australian Synchrotron
+> p: (03) 8540 4193 or (03) 8540 4217 | f: (03) 8540 4200
+> user.office@synchrotron.org.au | www.synchrotron.org.au
+> 800 Blackburn Road, Clayton, Victoria 3168
+>
+>
+>
+> This message and any attachments may contain proprietary or =20
+> confidential information. If you are not the intended recipient or =20
+> you received the message in error, you must not use, copy or =20
+> distribute the message. Please notify the sender immediately and =20
+> destroy the original message. Thank you.
+>
+>
+>
+
+
+--Apple-Mail-29--422285322
+Content-Type: text/html;
+	charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div><blockquote =
+type=3D"cite"><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: =
+space; -webkit-line-break: after-white-space; "><div><div><font =
+class=3D"Apple-style-span" color=3D"#000000">fyi =
+Folks,<br></font><br><div>Begin forwarded message:</div><br =
+class=3D"Apple-interchange-newline"><div><div style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; "><font =
+face=3D"Helvetica" size=3D"3" color=3D"#000000" style=3D"font: 12.0px =
+Helvetica; color: #000000"><b>From: </b></font><font face=3D"Helvetica" =
+size=3D"3" style=3D"font: 12.0px Helvetica">User Office &lt;<a =
+href=3D"mailto:User.Office@synchrotron.org.au">User.Office@synchrotron.org=
+.au</a>></font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><font face=3D"Helvetica" =
+size=3D"3" color=3D"#000000" style=3D"font: 12.0px Helvetica; color: =
+#000000"><b>Date: </b></font><font face=3D"Helvetica" size=3D"3" =
+style=3D"font: 12.0px Helvetica">21 May 2009 5:25:06 PM</font></div><div =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; "><font face=3D"Helvetica" size=3D"3" color=3D"#000000" =
+style=3D"font: 12.0px Helvetica; color: #000000"><b>Subject: =
+</b></font><font face=3D"Helvetica" size=3D"3" style=3D"font: 12.0px =
+Helvetica"><b>Australian Synchrotron call for proposals for round =
+2009/3</b></font></div><div style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><br></div> =
+</div><span class=3D"Apple-style-span" style=3D"border-collapse: =
+separate; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; =
+font-style: normal; font-variant: normal; font-weight: normal; =
+letter-spacing: normal; line-height: normal; orphans: 2; text-align: =
+auto; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0; "><div lang=3D"EN-AU" link=3D"blue" =
+vlink=3D"purple"><div class=3D"Section1"><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Dear Synchrotron User<o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); ">The call for =
+proposals for<span =
+class=3D"Apple-converted-space">&nbsp;</span><b>Australian =
+Synchrotron<span class=3D"Apple-converted-space">&nbsp;</span></b>beamtime=
+ for the third round of 2009 (September&nbsp; =96 December) is now =
+open.&nbsp;&nbsp; This round is designated "<b>2009/3</b>" (or =93<b>PX =
+2009/3 Program</b>=94 for protein crystallography program proposals) on =
+the web portal and includes beamtime on:<o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;<o:p></o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">IR : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Infrared Microscope and High Res Far-IR =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;<span class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:ir@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; ">ir@synchrotron.org.au</a></span><span =
+style=3D"color: rgb(31, 73, 125); "><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); ">PX : =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Protein Crystallography =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:px@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; =
+">px@synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+">PD:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Powder Diffraction =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:powder.diffraction@synchrotron.org.au" style=3D"color: =
+blue; text-decoration: underline; =
+">powder.diffraction@synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+">SXR:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Soft X-ray Spectroscopy =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:softxray@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; =
+">softxray@synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+">SAXS:&nbsp;&nbsp;&nbsp; Small and Wide Angle =
+Scattering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:saxswaxs@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; =
+">saxswaxs@synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); ">XAS: =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-ray Absorption Spectroscopy =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<span class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:xas@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; =
+">xas@synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+">XFM:&nbsp;&nbsp;&nbsp;&nbsp; X-ray Fluorescence =
+Microscopy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;<span class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"mailto:xfm@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; "><span style=3D"color: rgb(31, 73, 125); =
+text-decoration: none; =
+">xfm@synchrotron.org.au</span></a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+"><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Those who wish to use the ANBF in Tsukuba, Japan, should =
+apply for time through either the XAS or PD facility and include a case =
+for why the ANBF is required.<o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+"><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Please refer to the following webpage for current beamline =
+capabilities and for proposal guidelines:<a =
+href=3D"http://www.synchrotron.org.au/content.asp?Document_ID=3D5480" =
+style=3D"color: blue; text-decoration: underline; "><span style=3D"color: =
+rgb(31, 73, 125); =
+">http://www.synchrotron.org.au/content.asp?Document_ID=3D5480</span></a>.=
+<o:p></o:p></span></div><div style=3D"margin-top: 0cm; margin-right: =
+0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 11pt; =
+font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, 73, =
+125); "><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Users are encouraged to contact beamline staff at the given =
+email addresses to discuss the technical details of their proposals =
+before submission.&nbsp; Please direct any other questions to the =
+Australian Synchrotron User Office (<a =
+href=3D"mailto:user.office@synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; "><span style=3D"color: rgb(31, 73, 125); =
+">user.office@synchrotron.org.au</span></a>).<o:p></o:p></span></div><div =
+style=3D"text-indent: 36pt; margin-top: 0cm; margin-right: 0cm; =
+margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 11pt; font-family: =
+Calibri, sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+"><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><b><span style=3D"color: =
+rgb(31, 73, 125); ">The deadline for proposals is</span></b><span =
+style=3D"color: rgb(31, 73, 125); ">:&nbsp;<b>5pm on</b><span =
+class=3D"Apple-converted-space">&nbsp;</span><b>Wednesday June 17 2009 =
+(Melbourne time).<br><br>IMPORTANT:<br></b>Proposals for all the above =
+beamlines must be submitted<span =
+class=3D"Apple-converted-space">&nbsp;</span><b>online<span =
+class=3D"Apple-converted-space">&nbsp;</span></b>via:<o:p></o:p></span></d=
+iv><div style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); "><a =
+href=3D"http://portal.synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; =
+">http://portal.synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); =
+"><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><b><span style=3D"color: =
+rgb(31, 73, 125); ">Foundation Investor =
+Access<o:p></o:p></span></b></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">A call for foundation investor (FI) access is running in =
+conjunction with the merit based call for proposals for beamtime =
+on:<o:p></o:p></span></div><div style=3D"text-indent: 36pt; margin-top: =
+0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; "><span style=3D"color:=
+ rgb(31, 73, 125); ">Infra Red Microscope and High Res =
+Far-IR<o:p></o:p></span></div><div style=3D"text-indent: 36pt; =
+margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: =
+0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; "><span =
+style=3D"color: rgb(31, 73, 125); ">Protein Crystallography (both PX1 =
+and PX2)<o:p></o:p></span></div><div style=3D"text-indent: 36pt; =
+margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: =
+0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; "><span =
+style=3D"color: rgb(31, 73, 125); ">Powder =
+Diffraction<o:p></o:p></span></div><div style=3D"text-indent: 36pt; =
+margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: =
+0.0001pt; font-size: 11pt; font-family: Calibri, sans-serif; "><span =
+style=3D"color: rgb(31, 73, 125); ">Small and Wide Angle =
+Scattering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"color: rgb(31, 73, 125); ">X-ray =
+Fluorescence Microscopy<o:p></o:p></span></div><div style=3D"margin-top: =
+0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; "><span style=3D"color:=
+ rgb(31, 73, 125); ">X-ray Absorption =
+Spectroscopy<o:p></o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Soft x-ray spectroscopy (Check with your FI representative =
+for specific allocation dates before applying for SXR beam =
+time.)<o:p></o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); "><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: 0cm; =
+margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; font-size: =
+11pt; font-family: Calibri, sans-serif; "><span style=3D"color: rgb(31, =
+73, 125); ">Please refer to the following website to determine how to =
+apply for FI time for your particular organisation:&nbsp;<a =
+href=3D"http://www.synchrotron.org.au/content.asp?Document_ID=3D5339" =
+style=3D"color: blue; text-decoration: underline; =
+">http://www.synchrotron.org.au/content.asp?Document_ID=3D5339</a><o:p></o=
+:p></span></div><div style=3D"margin-top: 0cm; margin-right: 0cm; =
+margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 11pt; font-family: =
+Calibri, sans-serif; "><o:p>&nbsp;</o:p></div><table =
+class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse: collapse; "><tbody><tr><td width=3D"501" =
+valign=3D"top" style=3D"width: 375.65pt; padding-top: 0cm; =
+padding-right: 5.4pt; padding-bottom: 0cm; padding-left: 5.4pt; "><div =
+style=3D"line-height: 12pt; margin-top: 0cm; margin-right: 0cm; =
+margin-left: 0cm; margin-bottom: 0.0001pt; font-size: 11pt; font-family: =
+Calibri, sans-serif; "><span style=3D"font-size: 10pt; font-family: =
+Arial, sans-serif; color: rgb(0, 153, 255); ">User Office | Australian =
+Synchrotron</span><span style=3D"font-size: 10pt; font-family: 'Times =
+New Roman', serif; color: rgb(0, 153, 255); =
+"><o:p></o:p></span></div><div style=3D"line-height: 12pt; margin-top: =
+0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; "><span =
+style=3D"font-size: 10pt; font-family: Arial, sans-serif; color: gray; =
+">p: (03) 8540 4193 or (03) 8540 4217&nbsp;| f: (03) 8540 =
+4200<o:p></o:p></span></div><div style=3D"line-height: 12pt; margin-top: =
+0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; "><span =
+style=3D"font-size: 10pt; font-family: Arial, sans-serif; color: gray; =
+"><a href=3D"mailto:cathy.harland@synchrotron.org.au" style=3D"color: =
+blue; text-decoration: underline; =
+">user.office@synchrotron.org.au</a>&nbsp;|<span =
+class=3D"Apple-converted-space">&nbsp;</span><a =
+href=3D"http://www.synchrotron.org.au" style=3D"color: blue; =
+text-decoration: underline; =
+">www.synchrotron.org.au</a><o:p></o:p></span></div><div =
+style=3D"margin-top: 0cm; margin-right: 0cm; margin-left: 0cm; =
+margin-bottom: 0.0001pt; font-size: 11pt; font-family: Calibri, =
+sans-serif; "><span style=3D"font-size: 10pt; font-family: Arial, =
+sans-serif; color: gray; ">800 Blackburn Road, Clayton, Victoria =
+3168</span><span style=3D"font-size: 10pt; font-family: 'Times New =
+Roman', serif; color: rgb(31, 73, 125); =
+"><o:p></o:p></span></div></td><td width=3D"103" style=3D"width: 77.6pt; =
+padding-top: 0cm; padding-right: 5.4pt; padding-bottom: 0cm; =
+padding-left: 5.4pt; "></td></tr></tbody></table><div style=3D"margin-top:=
+ 0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; "><span =
+lang=3D"EN-US"><o:p>&nbsp;</o:p></span></div><div style=3D"margin-top: =
+0cm; margin-right: 0cm; margin-left: 0cm; margin-bottom: 0.0001pt; =
+font-size: 11pt; font-family: Calibri, sans-serif; =
+"><o:p>&nbsp;</o:p></div></div><br>This message and any attachments may =
+contain proprietary or confidential information. If you are not the =
+intended recipient or you received the message in error, you must not =
+use, copy or distribute the message. Please notify the sender =
+immediately and destroy the original message. Thank =
+you.</div></span></div><br></div></div><br><br></blockquote></div><br></bo=
+dy></html>=
+
+--Apple-Mail-29--422285322--
+
+--===============0589991470==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+Science mailing list
+Science@science.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/science
+
+--===============0589991470==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+comp mailing list
+comp@science.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+
+--===============0589991470==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@science.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds
+
+--===============0589991470==--

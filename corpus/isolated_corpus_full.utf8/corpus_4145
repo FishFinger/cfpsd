@@ -1,0 +1,197 @@
+From - Thu Dec 10 14:34:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.180.230.11 with SMTP id c11cs824496bkh;
+        Wed, 7 Jan 2009 06:27:10 -0800 (PST)
+Received: by 10.210.10.1 with SMTP id 1mr7861881ebj.64.1231338430115;
+        Wed, 07 Jan 2009 06:27:10 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si46640763ewy.50.2009.01.07.06.26.45;
+        Wed, 07 Jan 2009 06:27:10 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 5E3CE20B81; Wed,  7 Jan 2009 15:26:42 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 4E6B720A85;
+	Wed,  7 Jan 2009 15:26:35 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2E8653D2B;
+	Wed,  7 Jan 2009 15:26:35 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 462bWO-6vQFN; Wed,  7 Jan 2009 15:26:34 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 81FC73D2A;
+	Wed,  7 Jan 2009 15:26:33 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E88EB3D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  6 Jan 2009 18:20:07 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 1WZ4GYm11rVE for <elsnet-list@mailman.elsnet.org>;
+	Tue,  6 Jan 2009 18:20:07 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C11FE3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  6 Jan 2009 18:20:07 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A0E471F771; Tue,  6 Jan 2009 18:20:07 +0100 (MET)
+Received: from fk-out-0910.google.com (fk-out-0910.google.com [209.85.128.187])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id CD6B4209E9
+	for <elsnet-list@elsnet.org>; Tue,  6 Jan 2009 18:20:05 +0100 (MET)
+Received: by fk-out-0910.google.com with SMTP id 26so4119335fkx.13
+	for <elsnet-list@elsnet.org>; Tue, 06 Jan 2009 09:20:05 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type:content-transfer-encoding
+	:content-disposition;
+	bh=kegpCISkZtPH8uAYCW+mKVUR+eMnITvA7n0Ibitdx9s=;
+	b=pjyzbNkoSRR5JSZKwiRp3/idO0QaB6i5FatWo+jgzu5k+sLAII7wsSJK3w7z05rISK
+	+HpHeplAhj828Dvz8TfcyEwy56cyCCEdObnkRe7cvcimWtpMhjsLkFT0PneKzjtcoXp3
+	SLwsVat1R6zBApHkaeDgKiEyzR8doIAa1VBHU=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type
+	:content-transfer-encoding:content-disposition;
+	b=n6FZWUh6Pd0WdBGm/PFCaf0knhNwUXoPIpn/utAjHVw+WWPpjplHw0q89i7TOnGmvu
+	aFpEw6S0ZFt7dxkH6PwRCOlLPEWciyemNUNFF3HYBz9THqjPIibmaUj48htzirFk6WI/
+	iIdl4RWV2/uxCEDDadzOe2Ap/NuStRdr/P/JY=
+Received: by 10.223.112.202 with SMTP id x10mr7347943fap.68.1231262405599;
+	Tue, 06 Jan 2009 09:20:05 -0800 (PST)
+Received: by 10.223.123.200 with HTTP; Tue, 6 Jan 2009 09:20:05 -0800 (PST)
+Message-ID: <843980fa0901060920h7aff25c7ka5bd39e931033318@mail.gmail.com>
+Date: Tue, 6 Jan 2009 18:20:05 +0100
+From: "Martijn Wieling" <wieling@gmail.com>
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+X-Mailman-Approved-At: Wed, 07 Jan 2009 15:26:32 +0100
+Subject: [Elsnet-list] 30th International Linguistics Conference: TABU Dag
+	2009 - Call for Abstracts
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+CALL FOR ABSTRACTS
+
+TABU Dag 2009
+30th international linguistics conference
+University of Groningen, The Netherlands
+June 11-12, 2009
+http://www.let.rug.nl/tabudag
+ABSTRACT SUBMISSION DEADLINE: April 1, 2009
+
+The Center for Language and Cognition of the University of Groningen is
+pleased to announce the 30th TABU Dag. To celebrate its 30th anniversary,
+TABU Dag 2009 will last two days and will be held on Thursday, June 11th
+and Friday, June 12th 2009. Researchers and other interested people are
+cordially invited to participate!
+
+TABU Dag is an international broad linguistics conference which offers
+excellent opportunities to meet other linguists and discuss current researc=
+h
+on several areas of linguistics. We strongly encourage participation and
+abstract submission by young researchers.
+
+This year, four plenary speakers will give a talk. We are happy to announce
+that Jack Chambers (University of Toronto), Ken Church (Microsoft Research)
+and Marianne Gullberg (Max Planck Institute for Psycholinguistics) have
+already accepted our invitation. The fourth speaker will be announced at a
+later date.
+
+To mark the TABU Dag anniversary, the "TABU Dag 2009 prize" will be awarded
+to the best presentation of the conference!
+
+We welcome contributions related to the following aspects of linguistics:
+
+Computational Linguistics
+-=09computer-assisted language learning
+-=09dialectometry
+-=09language processing
+-=09machine learning
+-=09parsing and machine translation
+
+Discourse and Communication
+-=09communication in institutions, media, on the internet
+-=09discourse structure
+-=09spoken language communication & intonation
+-=09written, visual, audio-visual conversations
+
+Language and Literacy Development across the Life Span
+-=09bilingualism and bilingual education
+-=09first language acquisition
+-=09language attrition
+-=09language development and aging
+-=09language learning in educational settings
+-=09second language acquisition
+
+Language Variation and Language Change
+-=09dialectology and sociolinguistics
+-=09grammaticalization and degrammaticalization
+-=09language change
+-=09language contact
+-=09synchronic and diachronic language variation
+
+Neurolinguistics
+-=09developmental speech and language disorders
+-=09normal language processing in the brain (neuroimaging techniques =96
+=09ERP, MEG, fMRI, TMS, eye tracking)
+-=09speech and language disorders after brain damage
+
+Syntax and Semantics
+-=09discourse semantics
+-=09perception and understanding (asymmetries in grammar)
+-=09syntactic structure, information structure
+
+In addition, we encourage abstract submissions from other linguistic areas
+which may have remained unmentioned in the overview above.
+
+Abstracts of max 400 words should be submitted via the abstract submission
+system on our website: http://www.let.rug.nl/tabudag.
+
+The deadline for abstract submission is April 1, 2009. Notification of
+acceptance will be sent to you on April 15. The duration of the presentatio=
+ns
+is twenty minutes plus five minutes for discussion. Depending on the number=
+ of
+submissions, some authors may be invited to give a poster presentation. The
+conference language is English.
+
+Further information is available on our website: http://www.let.rug.nl/tabu=
+dag
+
+We are looking forward to see you in Groningen!
+
+Best regards,
+
+The organizers,
+Diana Dimitrova, Myrte Gosen, D=F6rte Hessler, Alexandra Lenz & Martijn Wie=
+ling,
+tabudag@rug.nl
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,351 @@
+From - Thu Dec 10 14:35:21 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs141312far;
+        Sun, 22 Feb 2009 08:18:32 -0800 (PST)
+Received: by 10.210.36.8 with SMTP id j8mr2637210ebj.83.1235319512587;
+        Sun, 22 Feb 2009 08:18:32 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 11si3618267ewy.107.2009.02.22.08.18.29;
+        Sun, 22 Feb 2009 08:18:32 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 94C1323415; Sun, 22 Feb 2009 17:18:28 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id DAC0521BC8;
+	Sun, 22 Feb 2009 16:59:38 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 145C93D39;
+	Sun, 22 Feb 2009 16:59:38 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 8LxFmz6Aojix; Sun, 22 Feb 2009 16:59:37 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 846093D59;
+	Sun, 22 Feb 2009 16:57:57 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E987D3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 21 Feb 2009 20:34:50 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id iyYGgSZ6MwtP for <elsnet-list@mailman.elsnet.org>;
+	Sat, 21 Feb 2009 20:34:50 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BC4BF3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 21 Feb 2009 20:34:50 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 839DC20115; Sat, 21 Feb 2009 20:34:50 +0100 (MET)
+Received: from ag-out-0708.google.com (ag-out-0708.google.com [72.14.246.243])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 468832006C
+	for <elsnet-list@elsnet.org>; Sat, 21 Feb 2009 20:34:48 +0100 (MET)
+Received: by ag-out-0708.google.com with SMTP id 22so825335agd.2
+	for <elsnet-list@elsnet.org>; Sat, 21 Feb 2009 11:34:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=Q0imyWCgYu3cFR9f2GCnck5xH8rWnnU6J5aCda55slI=;
+	b=TacSDQzqWosOWOZeV7eTZ2pM9eIGTHko5qXqatAzxkTJASA5R4LujkitJWEHI3ZQGi
+	Nk7ei29BKxOXDFj3WIkdfy0k0L+P+DgiyxPV46BZvLPlidQbjcgrXCLtmO1v7HKdjB17
+	dzd4yuoWYRpK/+OWqrKQdbfaw0EeFAkTTeZI0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=rsIY33x4FuTGdPkwF3v/BEAcuMtgQIvahRRGZ3OAIrPcJpycYeEcRmVd/Y2jVOlFEV
+	UIfyGzQKS2qSOrOcqkFEmDXKQnjAkD/BOZu0o5QuGEixXypWuxzNbRIJGjcit1h2aqeM
+	iP+GhaTwDL63yW2jEPuMVmrDQdCu0NghS5NyE=
+MIME-Version: 1.0
+Received: by 10.220.72.11 with SMTP id k11mr375058vcj.81.1235243987628; Sat, 
+	21 Feb 2009 11:19:47 -0800 (PST)
+Date: Sat, 21 Feb 2009 14:19:47 -0500
+Message-ID: <a1db5aa90902211119l12c59fd9tabd97f641d4100f4@mail.gmail.com>
+From: Justin Williams <justinwilliams9@gmail.com>
+To: justinwilliams9@gmail.com
+X-Mailman-Approved-At: Sun, 22 Feb 2009 16:57:13 +0100
+Cc: 
+Subject: [Elsnet-list] Last call for papers: MULTICONF-09 (deadline will not
+	be extended further)
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============2138284423=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============2138284423==
+Content-Type: multipart/alternative; boundary=001485f7d99618096e046372a7c3
+
+--001485f7d99618096e046372a7c3
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+*Apologies for cross posting. Kindly share with interested people*
+
+
+
+
+
+Last call for papers: MULTICONF-09 (deadline will not be extended further)
+
+
+
+The deadline for draft paper submission at the 2009 Multi Conference in
+Computer Science, Information Technology and Control systems and
+Computational Science and Computer Engineering (MULTICONF-09) (website:
+http://www.PromoteResearch.org <http://www.promoteresearch.org/>) is
+extended due to numerous requests from the authors and it will not be
+extedned further. The conference will be held during July 13-16 2009 in
+Orlando, FL, USA. We invite draft paper submissions. The event consists of
+the following conferences:
+
+=B7        International Conference on Artificial Intelligence and Pattern
+Recognition (AIPR-09)
+
+=B7        International Conference on Automation, Robotics and Control
+Systems (ARCS-09)
+
+=B7        International Conference on Bioinformatics, Computational Biolog=
+y,
+Genomics and Chemoinformatics (BCBGC-09)
+
+=B7        International Conference on Enterprise Information Systems and W=
+eb
+Technologies (EISWT-09)
+
+=B7        International Conference on High Performance Computing, Networki=
+ng
+and Communication Systems (HPCNCS-09)
+
+=B7        International Conference on Information Security and Privacy
+(ISP-09)
+
+=B7        International Conference on Recent Advances in Information
+Technology and Applications (RAITA-09)
+
+=B7        International Conference on Software Engineering Theory and
+Practice (SETP-09)
+
+=B7        International Conference on Theory and Applications of
+Computational Science (TACS-09)
+
+=B7        International Conference on Theoretical and Mathematical
+Foundations of Computer Science (TMFCS-09)
+
+
+
+The website http://www.PromoteResearch.org <http://www.promoteresearch.org/=
+>
+contains more details.
+
+
+
+Sincerely
+
+Justin Williams
+
+Publicity committee
+
+--001485f7d99618096e046372a7c3
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"MARGIN: 0in 0in 0pt"><a name=3D"OLE_LINK4"></a><a name=3D"OLE_L=
+INK3"><span style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman=
+" size=3D"3">*Apologies for cross posting. Kindly share with interested peo=
+ple*</font></span></a></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-bookmark: OLE_LINK3"><s=
+pan style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman" size=
+=3D"3">&nbsp;</font></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-bookmark: OLE_LINK3"><s=
+pan style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman" size=
+=3D"3">&nbsp;</font></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-bookmark: OLE_LINK3"><s=
+pan style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman" size=
+=3D"3">Last call for papers: MULTICONF-09 (deadline will not be extended fu=
+rther)</font></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-bookmark: OLE_LINK3"><s=
+pan style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman" size=
+=3D"3">&nbsp;</font></span></span></p>
+<p style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-bookmark: OLE_LINK3"><s=
+pan style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman" size=
+=3D"3">The deadline for draft paper submission at the 2009 Multi Conference=
+ in Computer Science, Information Technology and Control systems and Comput=
+ational Science and Computer Engineering (MULTICONF-09) (website: </font></=
+span></span><a href=3D"http://www.promoteresearch.org/"><font size=3D"3"><f=
+ont face=3D"Times New Roman"><span style=3D"mso-bookmark: OLE_LINK3"><span =
+style=3D"mso-bookmark: OLE_LINK4">http://www.PromoteResearch.org</span></sp=
+an><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-bookmark: OLE=
+_LINK4"></span></span></font></font></a><span style=3D"mso-bookmark: OLE_LI=
+NK3"><span style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Times New Roman"=
+ size=3D"3">) is extended due to numerous requests from the authors and it =
+will not be extedned further. The conference will be held during July 13-16=
+ 2009 in Orlando, FL, USA. We invite draft paper submissions. The event con=
+sists of the following conferences:</font></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Artificial Intelligence and Pattern Rec=
+ognition (AIPR-09) </font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Automation, Robotics and Control System=
+s (ARCS-09)</font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Bioinformatics, Computational Biology, =
+Genomics and Chemoinformatics (BCBGC-09)</font></font></span></span></span>=
+</p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Enterprise Information Systems and Web =
+Technologies (EISWT-09)</font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on High Performance Computing, Networking =
+and Communication Systems (HPCNCS-09) </font></font></span></span></span></=
+p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Information Security and Privacy (ISP-0=
+9)</font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Recent Advances in Information Technolo=
+gy and Applications (RAITA-09)</font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Software Engineering Theory and Practic=
+e (SETP-09) </font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Theory and Applications of Computationa=
+l Science (TACS-09)</font></font></span></span></span></p>
+
+<p style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.25in; mso-list: l0 l=
+evel1 lfo1"><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-book=
+mark: OLE_LINK4"><span style=3D"COLOR: black; FONT-FAMILY: Symbol; mso-fare=
+ast-font-family: Symbol; mso-bidi-font-family: Symbol"><span style=3D"mso-l=
+ist: Ignore"><font size=3D"3">=B7</font><span style=3D"FONT: 7pt &#39;Times=
+ New Roman&#39;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><=
+/span><span style=3D"COLOR: black"><font size=3D"3"><font face=3D"Times New=
+ Roman">International Conference on Theoretical and Mathematical Foundation=
+s of Computer Science (TMFCS-09)</font></font></span></span></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-boo=
+kmark: OLE_LINK3"><span style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Tim=
+es New Roman" size=3D"3">&nbsp;</font></span></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-boo=
+kmark: OLE_LINK3"><span style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Tim=
+es New Roman" size=3D"3">The website </font></span></span><a href=3D"http:/=
+/www.promoteresearch.org/"><font size=3D"3"><font face=3D"Times New Roman">=
+<span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-bookmark: OLE_LI=
+NK4">http://www.PromoteResearch.org</span></span><span style=3D"mso-bookmar=
+k: OLE_LINK3"><span style=3D"mso-bookmark: OLE_LINK4"></span></span></font>=
+</font></a><span style=3D"mso-bookmark: OLE_LINK3"><span style=3D"mso-bookm=
+ark: OLE_LINK4"><font size=3D"3"><font face=3D"Times New Roman"><span style=
+=3D"mso-spacerun: yes">&nbsp; </span>contains more details.</font></font></=
+span></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-boo=
+kmark: OLE_LINK3"><span style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Tim=
+es New Roman" size=3D"3">&nbsp;</font></span></span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><span style=3D"mso-boo=
+kmark: OLE_LINK3"><span style=3D"mso-bookmark: OLE_LINK4"><font face=3D"Tim=
+es New Roman" size=3D"3">Sincerely</font></span></span></p><span style=3D"m=
+so-bookmark: OLE_LINK4"></span><span style=3D"mso-bookmark: OLE_LINK3"></sp=
+an>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times Ne=
+w Roman" size=3D"3">Justin Williams</font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times Ne=
+w Roman" size=3D"3">Publicity committee</font></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt"><font face=3D"Times Ne=
+w Roman" size=3D"3">&nbsp;</font></p>
+
+--001485f7d99618096e046372a7c3--
+
+--===============2138284423==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============2138284423==--

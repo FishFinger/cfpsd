@@ -1,0 +1,946 @@
+From - Thu Dec 10 14:34:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.181.31.10 with SMTP id i10cs278384bkj;
+        Tue, 18 Nov 2008 01:32:09 -0800 (PST)
+Received: by 10.210.54.19 with SMTP id c19mr4797612eba.24.1227000728742;
+        Tue, 18 Nov 2008 01:32:08 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id k5si4381311nfd.22.2008.11.18.01.31.49;
+        Tue, 18 Nov 2008 01:32:08 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7A3DD20A2F; Tue, 18 Nov 2008 10:31:48 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1DE1615908;
+	Tue, 18 Nov 2008 10:29:23 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0998E3D3B;
+	Tue, 18 Nov 2008 10:29:19 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wtO-prUIE09y; Tue, 18 Nov 2008 10:29:18 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D6E033D6A;
+	Tue, 18 Nov 2008 10:28:51 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 509203D21
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 17 Nov 2008 13:04:58 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ufzZvb5zaid0 for <elsnet-list@mailman.elsnet.org>;
+	Mon, 17 Nov 2008 13:04:58 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1F53E3D1D
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 17 Nov 2008 13:04:58 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id EE6A51EB1C; Mon, 17 Nov 2008 13:04:57 +0100 (MET)
+Received: from ey-out-2122.google.com (ey-out-2122.google.com [74.125.78.24])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id CA7DD1E2C3
+	for <elsnet-list@elsnet.org>; Mon, 17 Nov 2008 13:04:55 +0100 (MET)
+Received: by ey-out-2122.google.com with SMTP id 25so948718eya.49
+	for <elsnet-list@elsnet.org>; Mon, 17 Nov 2008 04:04:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:from:to:subject:date
+	:mime-version:content-type:x-mailer:thread-index:content-language
+	:message-id; bh=Omz0U3AjhNkyU3dpTw5XyLPUsbBDKKOPCYQBHZc7/GQ=;
+	b=w3QRPJs9QAJhjqS0hyL4Iv7TXWd63AAP3Dddq+DvmLGS0ZoeiRyjMDe16rcNlqGNqQ
+	DBBTW068G5mrGOOTPiV57mDOfdAYGM58507nv55sy2VnqioiOrEXK5VE3MZtblBwhmz4
+	tIVvKSzjzhi+B1ocaDIlyBO1IJp27uzlkCGC4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=from:to:subject:date:mime-version:content-type:x-mailer
+	:thread-index:content-language:message-id;
+	b=cTu2CkrbcDitBRVsElm3CclNHrjTBdlnWXWLdlxuYEFZBUtnM1xtkZjwV86jFIM+GP
+	uHKc6yXtNEvwH6fZFq8LBTdGIdVUUjd3Y0AmoOnlCaDsmULFDYn/6w44QBGQr00QTNsY
+	0R7pU12sHTFVMwmY0o9hs5xaBCQrDZsKuhBUQ=
+Received: by 10.86.29.8 with SMTP id c8mr2229530fgc.19.1226923494607;
+	Mon, 17 Nov 2008 04:04:54 -0800 (PST)
+Received: from LEGOLAS (p54A5C6D7.dip.t-dialin.net [84.165.198.215])
+	by mx.google.com with ESMTPS id d4sm3952399fga.5.2008.11.17.04.04.52
+	(version=SSLv3 cipher=RC4-MD5); Mon, 17 Nov 2008 04:04:53 -0800 (PST)
+From: "Marco Pennacchiotti" <marco.pennacchiotti@gmail.com>
+To: <elsnet-list@elsnet.org>
+Date: Mon, 17 Nov 2008 13:04:51 +0100
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AclIrLHCZoPZoNrSSLu5DFG6IWYloA==
+Content-Language: it
+Message-ID: <49215de5.0437560a.1028.ffff905f@mx.google.com>
+X-Mailman-Approved-At: Tue, 18 Nov 2008 10:28:39 +0100
+Subject: [Elsnet-list] EACL WS: GEMS 2009 - Second Call for Papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0623371503=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Messaggio multipart in formato MIME.
+
+--===============0623371503==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0019_01C948B5.149E02F0"
+Content-Language: it
+
+Messaggio multipart in formato MIME.
+
+------=_NextPart_000_0019_01C948B5.149E02F0
+Content-Type: text/plain;
+	charset="US-ASCII"
+Content-Transfer-Encoding: 7bit
+
+****************************************************************************
+***
+
+                                           2nd CALL FOR PAPERS
+
+ 
+
+                                          EACL 2009 Workshop
+
+                 GEMS : GEometrical Models of Natural Language Semantics
+
+                       Athens, Greece; March 30 or 31, 2009
+
+ 
+
+                                  URL:  <http://art.uniroma2.it/gems/>
+http://art.uniroma2.it/gems/
+
+ 
+
+                     **** Submission Deadline:  December 19, 2008 ****
+
+****************************************************************************
+***
+
+ 
+
+ 
+
+Distributional models and semantic spaces represent a core topic in
+contemporary computational linguistics for their impact on advanced tasks
+and on other knowledge fields (such as social science and the humanities).
+
+ 
+
+The goal of the GEMS workshop is to further stimulate research on semantic
+spaces  and distributional methods for NLP, by adopting an interdisciplinary
+approach to allow a proper exchange of ideas, results and resources among
+often independent  communities. In particular, the workshop will provide a
+common ground for a fruitful discussion among experts of distributional
+approaches, collocational corpus analysis and machine learning; researchers
+interested in the use of statistical models in NLP applications (e.g.
+question answering, summarization and textual entailment) and in other
+fields of science; and experts in formal computational semantics.
+
+ 
+
+The workshop aims at gathering contemporary contributions to large scale
+problems in meaning representation, acquisition and use, based on
+distributional and vector space models. The workshop aims also to shed new
+light on the use of such  techniques  on complex linguistic tasks, such as
+linguistic knowledge acquisition, semantic role labeling, textual entailment
+recognition, question answering, document understanding/summarization and
+ontology learning.
+
+ 
+
+ 
+
+TOPICS OF INTEREST
+
+ 
+
+We invite submissions on any topic of current interest related to the
+application of semantic spaces to NLP and related disciplines, such as:
+
+ 
+
+   - Document-based, Collocational and Syntagmatic spaces
+
+   - Eigenvector methods (e.g. Singular Value and Tucker Decomposition)
+
+   - Higher order tensors and Quantum Logic extensions
+
+   - Feature engineering in machine learning models
+
+   - Computational complexity and evaluation issues
+
+   - Graph-based models over semantic spaces
+
+   - Logic and inference in semantic spaces
+
+   - Psychological and cognitive theories of semantic space models
+
+   - Applications in the humanities and social sciences
+
+ 
+
+We also especially encourage submissions on the empirical  evaluation of the
+above computational models within the  following NLP tasks:
+
+ 
+
+   - Word sense disambiguation and discrimination
+
+   - Selectional preference induction
+
+   - Acquisition of lexicons and linguistic patterns
+
+   - Conceptual clustering
+
+   - Kernels methods for NLP (e.g. relation extraction and textual
+entailment)
+
+   - Quantitative extensions of Formal Concept Analysis
+
+   - Modeling of linguistic theories and ontological knowledge
+
+ 
+
+ 
+
+SUBMISSION INSTRUCTIONS
+
+ 
+
+Authors are invited to submit papers on original, unpublished work in the
+topic area of this workshop. In addition to long papers presenting completed
+work, we also invite short papers and demos:
+
+ 
+
+   - Long papers should present completed work and should not exceed 8
+pages.
+
+   - Short papers/demos can present work in progress or the description of
+
+      a system, and should not exceed 5 pages.
+
+ 
+
+One more page is eventually allowed for bibliographic references only.
+
+As reviewing will be blind, please ensure that papers are  anonymous.  The
+papers  should not include the authors' names and affiliations or any
+references to web sites, project names etc. revealing  the authors'
+identity.
+
+Self-references that reveal the author's identity,  e.g., "We previously
+showed (Smith, 1991) ...", should be avoided.  Each submission will be
+reviewed by at least two members of the program committee.  Accepted papers
+will be published in the workshop proceedings.
+
+ 
+
+All submissions are to be formatted using the EACL 2009 stylefiles (see EACL
+2009 page at:  <http://www.eacl2009.gr/conference/authors>
+http://www.eacl2009.gr/conference/authors).
+
+Submission will be electronic, via the Web-service at:
+
+ <http://art.uniroma2.it/gems/submission.html>
+http://art.uniroma2.it/gems/submission.html
+
+Please consult the Workshop web page for more details.
+
+ 
+
+ 
+
+IMPORTANT DATES
+
+ 
+
+Submission deadline: December 19, 2008
+
+Notification of acceptance: January 30, 2009 Camera-ready papers due:
+February 13, 2009
+
+Workshop: either March 30 or 31, 2009 (to be announced)
+
+ 
+
+ 
+
+WORKSHOP CHAIRS
+
+ 
+
+   - Roberto Basili, University of Roma Tor Vergata, Italy
+
+   - Marco Pennacchiotti, Saarland University, Germany
+
+ 
+
+ 
+
+PROGRAM COMMITTEE
+
+ 
+
+   - Marco Baroni, University of Trento, Italy
+
+   - Johan Bos, University of Roma La Sapienza, Italy
+
+   - Paul Buitelaar, DFKI, Germany
+
+   - John A. Bullinaria, University of Birmingham, UK
+
+   - Rodolfo Dal Monte, University of Venice, Italy
+
+   - Katrin Erk, University of Texas, US
+
+   - Stefan Evert, University of Osnabruck, Germany
+
+   - Alfio Massimiliano Gliozzo, Reinvent Technology Inc., Canada
+
+   - Jerry Hobbs, University of Southern California, US
+
+   - Alessandro Lenci, University of Pisa, Italy
+
+   - Jussi Karlgren, Swedish Institute of Computer Science, Sweden
+
+   - Will Lowe, University of Nottingham, UK
+
+   - Diana McCarthy, University of Sussex, UK
+
+   - Alessandro Moschitti, University of Trento, Italy
+
+   - Saif Mohammad, University of Maryland, US
+
+   - Sebastian Pado, Stanford University, US
+
+   - Patrick Pantel, Yahoo! Research, US
+
+   - Massimo Poesio, University of Trento, Italy
+
+   - Magnus Sahlgren, Swedish institute of Computer Science, Sweden
+
+   - Fabrizio Sebastiani, CNR, Italy
+
+   - Suzanne Stevenson, University of Toronto, Canada
+
+   - Sabine Schulte imWalde, University of Stuttgart, Germany
+
+   - Peter D. Turney, National Research Council Canada, Canada
+
+   - Dominic Widdows, Google Research, US
+
+   - Yorick Wilks, University of Sheffield, UK
+
+   - Fabio Massimo Zanzotto, University of Roma Tor Vergata, Italy
+
+ 
+
+ 
+
+CONTACTS
+
+ 
+
+Roberto Basili (principal contact)
+
+  Department of Computer Science
+
+  University of Roma Tor Vergata
+
+  Italy
+
+  basili@info.uniroma2.it
+
+ 
+
+Marco Pennacchiotti
+
+  Computational Linguistics
+
+  Saarland University
+
+  Germany
+
+  pennacchiotti@coli.uni-sb.de
+
+ 
+
+ 
+
+ 
+
+
+------=_NextPart_000_0019_01C948B5.149E02F0
+Content-Type: text/html;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-priority:99;
+	mso-style-link:"Testo normale Carattere";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.5pt;
+	font-family:Consolas;}
+span.StileMessaggioDiPostaElettronica17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.TestonormaleCarattere
+	{mso-style-name:"Testo normale Carattere";
+	mso-style-priority:99;
+	mso-style-link:"Testo normale";
+	font-family:Consolas;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 2.0cm 2.0cm 2.0cm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DIT link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>************************************************************=
+*******************<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2nd CALL FOR PAPERS<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+EACL 2009 Workshop<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GEMS : GEometrical
+Models of Natural Language Semantics<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+Athens, Greece;
+March 30 or 31, 2009<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; URL: =
+</span><a
+href=3D"http://art.uniroma2.it/gems/"><span =
+lang=3DEN-US>http://art.uniroma2.it/gems/</span></a><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **** =
+Submission
+Deadline:&nbsp; December 19, 2008 ****<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>************************************************************=
+*******************<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Distributional models and =
+semantic
+spaces represent a core topic in contemporary computational linguistics =
+for
+their impact on advanced tasks and on other knowledge fields (such as =
+social
+science and the humanities).<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>The goal of the GEMS workshop =
+is to
+further stimulate research on semantic spaces&nbsp; and distributional =
+methods for
+NLP, by adopting an interdisciplinary approach to allow a proper =
+exchange of
+ideas, results and resources among often independent&nbsp; communities. =
+In
+particular, the workshop will provide a common ground for a fruitful =
+discussion
+among experts of distributional approaches, collocational corpus =
+analysis and
+machine learning; researchers interested in the use of statistical =
+models in
+NLP applications (e.g. question answering, summarization and textual
+entailment) and in other fields of science; and experts in formal =
+computational
+semantics.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>The workshop aims at =
+gathering
+contemporary contributions to large scale problems in meaning =
+representation,
+acquisition and use, based on distributional and vector space models. =
+The workshop
+aims also to shed new light on the use of such&nbsp; techniques&nbsp; on =
+complex
+linguistic tasks, such as linguistic knowledge acquisition, semantic =
+role
+labeling, textual entailment recognition, question answering, document
+understanding/summarization and ontology learning.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>TOPICS OF =
+INTEREST<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>We invite submissions on any =
+topic of
+current interest related to the application of semantic spaces to NLP =
+and
+related disciplines, such as:<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - =
+Document-based, Collocational and
+Syntagmatic spaces<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Eigenvector =
+methods (e.g. Singular
+Value and Tucker Decomposition)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Higher order =
+tensors and Quantum
+Logic extensions<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Feature =
+engineering in machine
+learning models<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Computational =
+complexity and
+evaluation issues<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Graph-based =
+models over semantic spaces<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Logic and =
+inference in semantic
+spaces<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Psychological =
+and cognitive
+theories of semantic space models<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Applications =
+in the humanities and
+social sciences<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>We also especially encourage =
+submissions
+on the empirical&nbsp; evaluation of the above computational models =
+within the&nbsp;
+following NLP tasks:<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Word sense =
+disambiguation and
+discrimination<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Selectional =
+preference induction<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Acquisition of =
+lexicons and
+linguistic patterns<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Conceptual =
+clustering<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Kernels =
+methods for NLP (e.g.
+relation extraction and textual entailment)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Quantitative =
+extensions of Formal
+Concept Analysis<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Modeling of =
+linguistic theories and
+ontological knowledge<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>SUBMISSION =
+INSTRUCTIONS<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Authors are invited to submit =
+papers on
+original, unpublished work in the topic area of this workshop. In =
+addition to
+long papers presenting completed work, we also invite short papers and =
+demos:<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Long papers =
+should present completed
+work and should not exceed 8 pages.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Short =
+papers/demos can present work
+in progress or the description of<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a system, and should not =
+exceed 5
+pages.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>One more page is eventually =
+allowed for
+bibliographic references only.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>As reviewing will be blind, =
+please
+ensure that papers are&nbsp; anonymous.&nbsp; The papers&nbsp; should =
+not include the authors'
+names and affiliations or any references to web sites, project names =
+etc.
+revealing&nbsp; the authors' identity.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Self-references that reveal =
+the author's
+identity,&nbsp; e.g., &quot;We previously showed (Smith, 1991) =
+...&quot;, should be
+avoided.&nbsp; Each submission will be reviewed by at least two members =
+of the
+program committee.&nbsp; Accepted papers will be published in the =
+workshop
+proceedings.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>All submissions are to be =
+formatted
+using the EACL 2009 stylefiles (see EACL 2009 page at: </span><a
+href=3D"http://www.eacl2009.gr/conference/authors"><span =
+lang=3DEN-US>http://www.eacl2009.gr/conference/authors</span></a><span
+lang=3DEN-US>).<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Submission will be =
+electronic, via the
+Web-service at:<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><a =
+href=3D"http://art.uniroma2.it/gems/submission.html"><span
+lang=3DEN-US>http://art.uniroma2.it/gems/submission.html</span></a><span
+lang=3DEN-US><o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Please consult the Workshop =
+web page for
+more details.<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>IMPORTANT =
+DATES<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Submission deadline: December =
+19, 2008<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Notification of acceptance: =
+January 30,
+2009 Camera-ready papers due: February 13, 2009<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Workshop: either March 30 or =
+31, 2009
+(to be announced)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>WORKSHOP =
+CHAIRS<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Roberto =
+Basili, University of Roma
+Tor Vergata, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Marco =
+Pennacchiotti, Saarland
+University, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>PROGRAM =
+COMMITTEE<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Marco Baroni, =
+University of Trento,
+Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Johan Bos, =
+University of Roma La
+Sapienza, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Paul =
+Buitelaar, DFKI, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - John A. =
+Bullinaria, University of
+Birmingham, UK<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Rodolfo Dal =
+Monte, University of
+Venice, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Katrin Erk, =
+University of Texas, US<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Stefan Evert, =
+University of
+Osnabruck, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Alfio =
+Massimiliano Gliozzo,
+Reinvent Technology Inc., Canada<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Jerry Hobbs, =
+University of Southern
+California, US<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; </span>- =
+Alessandro Lenci, University
+of Pisa, Italy<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp;&nbsp; <span lang=3DEN-US>- Jussi =
+Karlgren, Swedish Institute
+of Computer Science, Sweden<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Will Lowe, =
+University of
+Nottingham, UK<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Diana =
+McCarthy, University of
+Sussex, UK<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Alessandro =
+Moschitti, University of
+Trento, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Saif Mohammad, =
+University of
+Maryland, US<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Sebastian =
+Pado, Stanford
+University, US<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Patrick =
+Pantel, Yahoo! Research, US<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Massimo =
+Poesio, University of
+Trento, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Magnus =
+Sahlgren, Swedish institute
+of Computer Science, Sweden<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Fabrizio =
+Sebastiani, CNR, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Suzanne =
+Stevenson, University of
+Toronto, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Sabine Schulte =
+imWalde, University
+of Stuttgart, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Peter D. =
+Turney, National Research
+Council Canada, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Dominic =
+Widdows, Google Research,
+US<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; - Yorick Wilks, =
+University of
+Sheffield, UK<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp;&nbsp; </span>- Fabio =
+Massimo Zanzotto,
+University of Roma Tor Vergata, Italy<o:p></o:p></p>
+
+<p class=3DMsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoPlainText><span =
+lang=3DEN-US>CONTACTS<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>Roberto Basili (principal =
+contact)<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp; Department of Computer =
+Science<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><span lang=3DEN-US>&nbsp; </span>University of =
+Roma Tor Vergata<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp; Italy<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp; <a =
+href=3D"mailto:basili@info.uniroma2.it">basili@info.uniroma2.it</a><o:p><=
+/o:p></p>
+
+<p class=3DMsoPlainText><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoPlainText>Marco Pennacchiotti<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp; Computational Linguistics<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp; Saarland University<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp; Germany<o:p></o:p></p>
+
+<p class=3DMsoPlainText>&nbsp; <a =
+href=3D"mailto:pennacchiotti@coli.uni-sb.de">pennacchiotti@coli.uni-sb.de=
+</a><o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0019_01C948B5.149E02F0--
+
+
+--===============0623371503==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0623371503==--
+

@@ -1,0 +1,260 @@
+From - Thu Dec 10 14:35:39 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.110.146 with SMTP id n18cs191003fap;
+        Tue, 17 Mar 2009 14:31:32 -0700 (PDT)
+Received: by 10.151.45.6 with SMTP id x6mr943186ybj.31.1237325490951;
+        Tue, 17 Mar 2009 14:31:30 -0700 (PDT)
+Return-Path: <sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu>
+Received: from lists2.andrew.cmu.edu (LISTS2.andrew.cmu.edu [128.2.10.216])
+        by mx.google.com with ESMTP id 1si704307gxk.20.2009.03.17.14.31.29;
+        Tue, 17 Mar 2009 14:31:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) client-ip=128.2.10.216;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) smtp.mail=sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+Received: from LISTS2.andrew.cmu.edu (localhost [127.0.0.1])
+	by lists2.andrew.cmu.edu (8.14.1/8.13.8) with ESMTP id n2HLV8wn018074
+	for <jpprost@gmail.com>; Tue, 17 Mar 2009 17:31:29 -0400
+X-Mailman-Handler: $Id: mm-handler,v 1.2 2002/04/05 19:41:09 bwarsaw Exp $
+Received: from email.uni-linz.ac.at (email.edvz.uni-linz.ac.at [140.78.3.58])
+	by lists2.andrew.cmu.edu (8.14.1/8.13.8) with ESMTP id n2HL6gh7014478
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Tue, 17 Mar 2009 17:06:43 -0400
+Received: from vierfach (email.cast.uni-linz.ac.at [140.78.101.19])
+	by email.uni-linz.ac.at (Postfix) with ESMTP id DFA8E43EC1A;
+	Tue, 17 Mar 2009 22:06:39 +0100 (CET)
+Received: from biere by vierfach with local (Exim 4.69)
+	(envelope-from <biere@jku.at>)
+	id 1LjgUg-0005jT-M6; Tue, 17 Mar 2009 22:06:38 +0100
+Date: Tue, 17 Mar 2009 22:06:38 +0100
+From: Armin Biere <biere@jku.at>
+To: announcements@lists.artist-embedded.org, synalp@inrialpes.fr,
+        laas-dependability-announce@laas.fr, fmics@inrialpes.fr,
+        prog-lang@diku.dk, dl@dl.kr.org, agents@cs.umbc.edu,
+        metaprl@metaprl.org, plt-scheme@fast.flux.utah.edu,
+        theorynt@listserv.nodak.edu, theory-a@listserv.nodak.edu,
+        acl2@utlists.utexas.edu, clean-list@cs.kun.nl, elsnet-list@elsnet.org,
+        finite-model-theory@informatik.rwth-aachen.de,
+        finite-model-theory@lists.rwth-aachen.de,
+        hol-info@lists.sourceforge.net, list@prooftheory.org,
+        logic-announce@uclink4.berkeley.edu, logic-list@helsinki.fi,
+        logic@cs.stanford.edu, puml-list@cs.york.ac.uk,
+        senseval-discuss@listserv.hum.gu.se,
+        sigparse-list@lists.andrew.cmu.edu, sig-charme@dcs.gla.ac.uk,
+        pvs@csl.sri.com, cl-all@coli.uni-sb.de, cl-stud@coli.uni-sb.de,
+        petrinet@informatik.uni-hamburg.de, om-announce@openmath.org
+Message-ID: <20090317210638.GA22010@jku.at>
+MIME-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.5.18 (2008-05-17)
+X-PMX-Version: 5.5.2.363555, Antispam-Engine: 2.6.1.350677,
+	Antispam-Data: 2009.3.17.205514
+X-Spam-Clean: 8% (BODY_SIZE_6000_6999 0, BODY_SIZE_7000_LESS 0, __CD 0,
+	__CP_MEDIA_BODY 0, __CP_URI_IN_BODY 0, __CT 0, __CT_TEXT_PLAIN 0,
+	__FRAUD_419_MONEY 0, __FRAUD_419_MONEY_VALUE 0, __HAS_MSGID 0,
+	__MIME_TEXT_ONLY 0, __MIME_VERSION 0, __SANE_MSGID 0,
+	__USER_AGENT 0)
+X-Spam-Score: 8%
+X-SpamAssassin-Clean: (none)
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Mailman-Approved-At: Tue, 17 Mar 2009 17:31:06 -0400
+Subject: SIGParse: Test IV
+X-BeenThere: sigparse-list@lists.andrew.cmu.edu
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: mailing list for parsing interest group of computational linguistics
+	<sigparse-list.lists.andrew.cmu.edu>
+List-Unsubscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=unsubscribe>
+List-Archive: <https://lists.andrew.cmu.edu/mailman/private/sigparse-list>
+List-Post: <mailto:sigparse-list@lists.andrew.cmu.edu>
+List-Help: <mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=help>
+List-Subscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+Errors-To: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+X-Spam-Notice: Not scanning again, previously scanned by 127.0.0.1
+X-SpamAssassin-Notice: not scanning mail from localhost
+
+FMCAD 2009 
+First Call for Papers
+International Conference on Formal Methods in Computer-Aided Design
+
+University of Texas at Austin, Texas, USA
+November 15 - 18, 2009
+
+http://fmv.jku.at/fmcad09
+
+Important Dates
+
+  Abstract Submission: May 15
+
+  Paper Submission: May 22
+
+  Author Notification: July 31
+
+  Final Version: August 21
+
+  Conference: November 15-18
+
+Conference Scope
+
+  FMCAD 2009 is the ninth in a series of conferences on the theory
+  and application of formal methods in hardware and system design and
+  verification.  In 2005, the bi-annual FMCAD and its sister conference
+  CHARME decided to merge to form an annual conference with a unified
+  community. The resulting unified FMCAD provides a leading international
+  forum to researchers and practitioners in academia and industry
+  for presenting and discussing novel methods, technologies,
+  theoretical results, and tools for formally reasoning about 
+  computing systems, as well as open challenges therein.
+
+Topics of Interest
+
+  Foundations
+
+    Advancing Industrial-Strength Technologies in Model Checking, 
+    Theorem Proving, Equivalence Checking, Abstraction and Refinement 
+    Techniques, Property-Preserving Reduction Techniques,
+    Compositional Methods, Decision Procedures, SMT Solvers,
+    Bit-Precise Reasoning, Word-Level Techniques,
+    SAT- and BDD-Based Methods, Probabilistic Methods,
+    Combining Deductive Methods with Decision Procedures.
+
+  Verification Applications
+
+    Tools, Industrial Experience Reports, Case Studies.
+    
+    We encourage the submission of materials relating to novel and
+    challenging industrial-scale applications of formal methods, including
+    problem domains where formal methods worked well or even fell short. We
+    also encourage submissions relating to the development and execution of
+    methodologies for formal and informal verification strategies.
+
+  Applications of Formal Methods in Design
+
+    Topics relating to the application and applicability of
+
+    Assertion-Based Verification, Equivalence Checking,
+    Transaction-Level Verification, Semi-Formal Verification,
+    Runtime Verification, Simulation and Testcase Generation, 
+    Coverage Analysis, Microcode Verification, Embedded Systems,
+    Software Verification, Concurrent Systems, Timing Verification,
+    Formal Approaches to Performance and Power.
+
+  Model-Based Approaches
+
+    Modeling and Specification Languages, 
+    System-Level Design and Verification, 
+    Design Derivation and Transformation,
+    Correct-by-Construction Methods.
+
+  Novel Technologies
+
+    Formal methods for the design and verification of emerging and novel
+    technologies, such as 
+    
+    Nano, Quantum, Biological, Video Gaming, and Multimedia Applications.
+
+Paper Submissions
+
+  Submissions must be made electronically in PDF format
+  via EasyChair.  More details will be provided at
+  http://fmv.jku.at/fmcad09/submissions.html.
+
+  The proceedings are planned to be published by IEEE and ACM and will
+  then be available online in the ACM Digital Library and the IEEE
+  Xplore Digital Library. Two categories of papers can be submitted:
+  regular papers (8 pages), containing original research that has not
+  been previously published, nor concurrently submitted for publication;
+  and short papers (4 pages), describing applications, case studies,
+  industrial experience reports, emerging results, or implemented tools
+  with novel features.
+
+  Regular and short papers must use the IEEE Transactions
+  format on letter-size paper with a 10-point font size (see
+  http://www.ieee.org/portal/pages/pubs/transactions/stylesheets.html). We
+  recommend that self-citations be written in the third person,
+  though authors will be required to identify themselves on their
+  submissions. Submissions must contain original research that
+  has not been previously published, nor concurrently submitted for
+  publication. Any partial overlap with any published or concurrently
+  submitted paper must be clearly indicated.
+
+  If experimental results are reported, authors are strongly encouraged
+  to provide adequate access to their data so that results can be
+  independently verified.
+
+  A small number of accepted papers will be considered for a distinguished
+  paper award.
+
+General Chairs
+
+  Armin Biere, Johannes Kepler University, Linz, Austria 
+  Carl Pixley, Synopsys Inc., Hillsboro, USA
+
+Local Arrangement
+
+  Sandip Ray, University of Texas at Austin, USA
+  Anna Slobodova, Centaur Technology, USA
+
+Steering Commitee
+
+  Jason Baumgartner, IBM, USA
+  Aarti Gupta, NEC Labs America, USA
+  Warren Hunt, University of Texas at Austin, USA
+  Panagiotis Manolios, Northeastern University, USA
+  Mary Sheeran, Chalmers University of Technology, Sweden
+
+Program Committee
+
+  Jason Baumgartner, IBM, USA
+  Armin Biere, Johannes Kepler University, Austria
+  Per Bjesse, Synopsys, USA
+  Roderick Bloem, Graz University of Technology, Austria
+  Gianpiero Cabodi, Politecnico di Torino, Italy
+  Supratik Chakraborty, IIT Bombay, India
+  Alessandro Cimatti, FBK-IRST, Italy
+  Koen Claessen, Chalmers University of Technology, Sweden
+  Leonardo de Moura, Microsoft, USA
+  Wolfgang Ecker, Infineon, Germany
+  Masahiro Fujita, University of Tokyo, Japan
+  Ganesh Gopalakrishnan, University of Utah, USA
+  Aarti Gupta, NEC Labs America, USA
+  Ziyad Hanna, Jasper, USA
+  John Harrison, Intel, USA
+  Alan Hu, University of British Columbia, Canada
+  Warren Hunt, University of Texas at Austin, USA
+  Daniel Kroening, University of Oxford, UK
+  Thomas Kropf, Robert Bosch GmbH, Germany
+  Andreas Kuehlmann, Cadence, USA
+  Wolfgang Kunz, University of Kaiserslautern, Germany
+  Panagiotis Manolios, Northeastern University, USA
+  Joao Marques-Silva, University College Dublin, Ireland
+  Anmol Mathur, Calypto, USA
+  Ken McMillan, Cadence, USA
+  Tom Melham, University of Oxford, UK
+  Ganapathy Parthasarathy, Real Intent, USA
+  Lee Pike, Galois, USA
+  Carl Pixley, Synopsys, Hillsboro, USA
+  Mukul Prasad, Fujitsu, USA
+  Sandip Ray, University of Texas at Austin, USA
+  Anna Slobodova, Centaur Technology, USA
+  Ofer Strichman, Technion, Israel
+  Helmut Veith, Technical University of Darmstadt, Germany
+  Karen Yorav, IBM, Israel
+---------------------------------------------
+* To send mail to the list of all
+-  subscribers, send your message to:
+-    "sigparse-list@lists.andrew.cmu.edu"
+-
+* To send mail to the list administrator,
+-  send your message to:
+-  "owner-sigparse-list@lists.andrew.cmu.edu"
+----------------------------------------------
+-

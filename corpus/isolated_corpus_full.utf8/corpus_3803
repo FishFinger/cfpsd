@@ -1,0 +1,197 @@
+From - Thu Dec 10 14:34:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.181.31.10 with SMTP id i10cs202952bkj;
+        Fri, 7 Nov 2008 15:41:14 -0800 (PST)
+Received: by 10.210.88.7 with SMTP id l7mr2646591ebb.147.1226101273582;
+        Fri, 07 Nov 2008 15:41:13 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si4665637eyd.6.2008.11.07.15.40.52;
+        Fri, 07 Nov 2008 15:41:13 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 39EC81EEDB; Sat,  8 Nov 2008 00:40:52 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5105820A24;
+	Sat,  8 Nov 2008 00:37:33 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 388663D1D;
+	Sat,  8 Nov 2008 00:37:33 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id HjHI0zhZMBl0; Sat,  8 Nov 2008 00:37:32 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id DBAC33D6A;
+	Sat,  8 Nov 2008 00:36:51 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D027A3D21
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Nov 2008 17:45:34 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bp5Y0z143W6j for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Nov 2008 17:45:34 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A53BA3D1D
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  5 Nov 2008 17:45:34 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 96DA11EB4E; Wed,  5 Nov 2008 17:45:34 +0100 (MET)
+X-Greylist: delayed 436 seconds by postgrey-1.28 at newjura;
+	Wed, 05 Nov 2008 17:45:33 MET
+Received: from hermes.cs.kuleuven.be (mailrelay.cs.kuleuven.be [134.58.40.3])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BDD771EAFD
+	for <elsnet-list@elsnet.org>; Wed,  5 Nov 2008 17:45:33 +0100 (MET)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+	by hermes.cs.kuleuven.be  with ESMTP id mA5GcFrp022635
+	for <elsnet-list@elsnet.org>; Wed, 5 Nov 2008 17:38:17 +0100
+Received: from localhost (localhost [127.0.0.1])
+	by dr-zook3.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with
+	ESMTP id mA5GcE9A032003
+	for <elsnet-list@elsnet.org>; Wed, 5 Nov 2008 17:38:14 +0100
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1])
+	by localhost (dr-zook3 [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 31541-03-4 for <elsnet-list@elsnet.org>;
+	Wed, 5 Nov 2008 17:38:14 +0100 (CET)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14])
+	by dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+	ESMTP id mA5Gbrus031950
+	for <elsnet-list@elsnet.org>; Wed, 5 Nov 2008 17:37:53 +0100
+Received: from leo.cs.kuleuven.be (leo.cs.kuleuven.be [134.58.42.20])
+	by nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+	mA5GbqVX012707
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <elsnet-list@elsnet.org>; Wed, 5 Nov 2008 17:37:53 +0100
+Received: from leo.cs.kuleuven.be. (localhost [127.0.0.1])
+	by leo.cs.kuleuven.be (A_Good_MTA/8.14.1/Debian-8ubuntu1) with ESMTP id
+	mA5Gbp4P031254
+	for <elsnet-list@elsnet.org>; Wed, 5 Nov 2008 17:37:51 +0100
+Received: (from dave@localhost)
+	by leo.cs.kuleuven.be. (8.14.1/8.14.1/Submit) id mA5Gbp7Q031253
+	for elsnet-list@elsnet.org; Wed, 5 Nov 2008 17:37:51 +0100
+Date: Wed, 5 Nov 2008 17:37:51 +0100
+From: Dave Clarke <Dave.Clarke@cs.kuleuven.be>
+Message-Id: <200811051637.mA5Gbp7Q031253@leo.cs.kuleuven.be.>
+To: elsnet-list@elsnet.org
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-Mailman-Approved-At: Sat, 08 Nov 2008 00:36:33 +0100
+Subject: [Elsnet-list] ECOOP 2009 Call for Papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+                          ECOOP'2009
+       23rd European Conference on Object Oriented Programming
+              July 6th - 10th 2009, Genova, Italy
+                   http://2009.ecoop.org
+
+                        CALL FOR PAPERS
+
+The ECOOP 2009 conference invites high quality papers presenting research 
+results or experience in all areas relevant to object technology, including 
+work that takes inspiration from, or builds connections to, areas not 
+commonly considered object-oriented. ECOOP wishes to embrace a broad 
+range of topics, therefore the following list of topics is by no means 
+exclusive:
+
+* Analysis, design methods and design patterns
+* Concurrent, real-time or parallel systems
+* Databases, persistence and transactions
+* Distributed and mobile systems
+* Frameworks, product lines and software architectures
+* Language design and implementation
+* Testing and metrics
+* Programming environments and tools
+* Theoretical foundations, type systems, formal methods
+* Versioning, compatibility, software evolution
+* Aspects, Components, Modularity, Reflection
+* Collaboration, Workflow
+
+Research papers should advance the current state of the art, and both 
+experimentally based work and mathematical results are welcome. Experience 
+papers should describe novel insight gained from the practical application 
+of object technology, in such a way that it is of interest to a broad group 
+of researchers and practitioners.
+
+A paper should explain its contributions in both general and technical terms, 
+identifying what has been accomplished, explaining why it is significant, and 
+comparing it with previous work. Authors should strive to make their papers 
+understandable to a broad audience. Papers will be evaluated according to 
+originality and significance, precision and correctness, presentation and 
+clarity, and relevance.
+
+Papers must be written in English, and be no longer than 25 pages, including 
+references, appendices and figures, and written using the LNCS style. For 
+more information about formatting please consult the Springer LNCS web site 
+at http://www.springer.de/comp/lncs/authors.html.
+
+Important Dates
+Paper submission:              20 December 2008
+Authors' response period:   16-18 February 2009
+Notification of Acceptance:       13 March 2009
+ECOOP conference:                6-10 July 2009
+
+During the author response period, authors will be given the opportunity 
+to read and respond to the reviews of their papers. Responses will be at 
+most 500 words, and should be used to answer explicit questions in reviews, 
+or correct factual mistakes.
+
+
+Program Chair
+Sophia Drossopoulou (Imperial College, London, UK)
+
+Program Committee
+Elisa Baniassad (The Chinese University of Hong Kong, China)
+Francoise Baude (University of Nice Sophia Antipolis, France)
+Bernhard Beckert (University of Koblenz, Germany )
+Lodewijk Bergmans (University of Twente, The Netherlands )
+John Tang Boyland (University of Wisconsin-Milwaukee, USA)
+SiobhÃ¡n Clarke (Trinity College Dublin, Ireland)
+William Cook (University of Texas at Austin, USA)
+Eric Eide (University of Utah, USA)
+Erik Ernst (University of Aarhus, Denmark )
+Cormac Flanagan (University of California at Santa Cruz, USA)
+Yossi Gil (Google Haifa and Technion, Israell)
+Neal Glew (Intel, USA)
+Kathryn E. Gray (University of Cambridge, UK)
+GÃ¶rel Hedin (Lund University, Sweden)
+Atsushi Igarashi (Kyoto University, Japan)
+Richard Jones (University of Kent, UK)
+Viktor Kuncak (Ãcole Polytechnique FÃ©dÃ©rale de Lausanne, Switzerland)
+Doug Lea (State University of New York at Oswego, USA)
+Gary T. Leavens (University of Central Florida, USA)
+Oscar Nierstrasz (University of Bern, Switzerland)
+James Noble (University of Wellington, New Zealand)
+Nathaniel Nystrom (IBM Research, USA )
+Awais Rashid (Lancaster University, UK)
+Diomidis Spinellis (Athens University of Economics and Business, Greece)
+Peter Sewell (University of Cambridge, UK)
+Laurence Tratt (Bournemouth University, UK)
+Jan Vitek (Purdue University, USA)
+Matthias Zenger (Google, Switzerland)
+Elena Zucca (University of Genova, Italy)
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

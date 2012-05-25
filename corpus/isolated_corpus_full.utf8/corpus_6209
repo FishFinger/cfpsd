@@ -1,0 +1,469 @@
+From - Thu Dec 10 14:38:35 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.61.201 with SMTP id u9cs31899bkh;
+        Wed, 14 Oct 2009 02:35:10 -0700 (PDT)
+Received: by 10.211.159.19 with SMTP id l19mr3215761ebo.83.1255512908408;
+        Wed, 14 Oct 2009 02:35:08 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 17si4942532ewy.92.2009.10.14.02.35.07;
+        Wed, 14 Oct 2009 02:35:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 3261F240AF; Wed, 14 Oct 2009 11:35:02 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1EE0323A21;
+	Wed, 14 Oct 2009 11:25:07 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id EF1683DA7;
+	Wed, 14 Oct 2009 11:25:06 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eVQ168E2f1vQ; Wed, 14 Oct 2009 11:25:06 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 19FEF3E3B;
+	Wed, 14 Oct 2009 11:23:37 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BD32F3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 14 Oct 2009 04:09:52 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id txFvZ4uFRE5c for <elsnet-list@mailman.elsnet.org>;
+	Wed, 14 Oct 2009 04:09:52 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8C9333D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 14 Oct 2009 04:09:52 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7B3BF23852; Wed, 14 Oct 2009 04:09:52 +0200 (MEST)
+X-Greylist: delayed 380 seconds by postgrey-1.28 at newjura;
+	Wed, 14 Oct 2009 04:09:44 MEST
+Received: from mail-pz0-f176.google.com (mail-pz0-f176.google.com
+	[209.85.222.176])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E045823800
+	for <elsnet-list@let.uu.nl>; Wed, 14 Oct 2009 04:09:44 +0200 (MEST)
+Received: by pzk6 with SMTP id 6so8132136pzk.29
+	for <elsnet-list@let.uu.nl>; Tue, 13 Oct 2009 19:09:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:message-id:subject:from:to:content-type;
+	bh=V9d0S0QtINYeUrz47wQGx7qIjg4ZCf+LsdGL5+Y46TY=;
+	b=j2OzpGwpeMxbXMdKALKIpaxE8GFZ97uCSaHnNVOUFjQZYdym5Nnc15ei/3+nHjpdlK
+	jmMfJS2mAn2pKtJYYZVwX/Zg/sjrpcqfKuDe2IREe3kJc2i/V4tnJN/eCmh2r6qYE/PE
+	ak+5I8Xw2+gW0qysv2xff+uCwoKL604KDmzXY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type;
+	b=JSZYE2dYXS2XUUEafcw07uIIRfeWSgvphppHwXOzOr3sIBlVeeIRgolfV3HSo/bTK9
+	Gecl2qDs31ED4Fh11ygE0OoRqATpljJcvGrvEKC+O2e6ZyRslrIFykYIU3y5sAu7GKtw
+	1AJEMccZ/xF+aRBF/Btm70b3MDbNFpox5v7ko=
+MIME-Version: 1.0
+Received: by 10.143.21.34 with SMTP id y34mr636444wfi.16.1255485782767; Tue, 
+	13 Oct 2009 19:03:02 -0700 (PDT)
+In-Reply-To: <d71c7ca10910102017r88d06fal61a39f53a8b139e8@mail.gmail.com>
+References: <d71c7ca10910102017r88d06fal61a39f53a8b139e8@mail.gmail.com>
+Date: Wed, 14 Oct 2009 10:03:02 +0800
+Message-ID: <d71c7ca10910131903q18cd6e2dmf444e79b4247cb4@mail.gmail.com>
+From: Dacheng Tao <dacheng.tao@gmail.com>
+To: Dacheng Tao <dacheng.tao@ieee.org>
+X-Mailman-Approved-At: Wed, 14 Oct 2009 11:23:00 +0200
+Cc: 
+Subject: [Elsnet-list] CFP: Visual Communications and Image Processing 2010
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0352381332=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0352381332==
+Content-Type: multipart/alternative; boundary=00504502cb1d1a44640475db9067
+
+--00504502cb1d1a44640475db9067
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+* We apologize if you receive this CFP more than once.
+* PLEASE CIRCULATE this CFP among your colleagues and students. Many thanks=
+!
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Call for Papers
+Visual Communications and Image Processing 2010
+
+11-14 July 2010, Huang Shan, China
+Web: http://vcip2010.ustc.edu.cn
+Email: vcip2010@ustc.edu.cn
+
+Hosted by: University of Science and Technology of China
+Co-hosted by: Microsoft Research Asia
+
+Visual communication has become an important engineering area that attracts
+interdisciplinary research interest
+
+and has lead to significant developments in technology and science. This
+conference is designed as a forum for
+
+presenting important research results. Original and unpublished material of
+novel techniques and new developments
+
+are solicited on the following and related topics:
+
+1. Image and Video Coding
+1.1. image/video coding algorithms
+1.2. perceptual image/video coding
+1.3. content-based coding
+1.4. error-resilient image/video coding
+1.5. scalable/layered coding
+1.6. distributed/multi-view coding
+2. Visual Communication Techniques
+2.1. video transmission techniques
+2.2. QoS issue
+2.3. wireless video
+2.4. Internet video
+2.5. interactive/broadband video
+3. Image and Video Analysis
+3.1. image analysis
+3.2. image sequence analysis
+3.3. web-based image and video analysis
+3.4. object segmentation and tracking
+3.5. statistical models
+4. Image and Video Processing
+4.1. multi-resolution processing
+4.2. multi-modal media processing
+4.3. web-based image and video processing
+4.4. restoration, enhancement, and noise reduction
+4.5. sparse-based processing
+4.6. adaptation/transcoding
+5. Image and Video Synthesis and Rendering
+5.1. stereo, multiview, and 3D (virtual reality)
+5.2. synthetic image/video representations
+5.3. graphics techniques in image/video representations
+5.4. audio/video integration
+5.5. image/video conversion
+6. Implementation and Applications
+6.1. VLSI implementation
+6.2. system architecture
+6.3. soft radio technologies
+6.4. video and home networking
+6.5. video and e-commerce/m-commerce
+
+For paper submission, please go to VCIP=922010 Web,
+http://vcip2010.ustc.edu.cn/submission.htm and submit up to 3000
+
+words or four pages papers in PDF format by Dec. 6, 2009.
+
+Proposal for Tutorials, Special Sessions, Panels and Exhibitions VCIP=92201=
+0
+will include a number of special
+
+sessions. Proposals for special sessions should be made according to the
+guidelines in the VCIP=922010 Call for
+
+Special Sessions (http://vcip2010.ustc.edu.cn/special_sessions.htm) and
+submitted by Nov. 7, 2009. All papers for
+special sessions are submitted as regular papers for review by Dec. 6. 2009=
+.
+Tutorials will be held on July 11, 2010. Proposals for tutorials should
+include a title, an outline of the
+
+tutorial and its motivation, contact and bio information for the
+presenter(s), and a short description of the
+
+material to be covered. Proposals for Panel sessions should include the
+title and panel list. Proposals for
+
+tutorials and panels should be submitted by Jan. 25, 2010.
+VCIP=922010 will also feature a demo session. Proposals of technical
+demonstrations should be made according to the
+
+guidelines in VCIP=922010 Call for Demos (
+http://vcip2010.ustc.edu.cn/demos.htm) and submitted by Jan. 25, 2010.
+
+
+Important Deadlines:
+Proposals for Special Sessions Due Date:                 Nov. 7, 2009
+Regular and Special Session papers Submission (3000 words): Due Date:
+Dec. 6, 2009
+Proposals for Tutorials, Panels and Exhibitions: Due Date:         Jan. 25,
+2010
+Author notification: Due Date:                         Feb. 14, 2010
+Final manuscript (8-12 pages) and summary (200 words): Due Date:     Mar.
+14, 2010
+
+
+Best Paper Award
+One award will be given for the best paper. A photocopy of the researcher's
+most current diploma and a letter from
+
+the researcher requesting that his/her paper be considered must be submitte=
+d
+with the final manuscript.
+
+
+Organizing Committee
+Conference Advisors:
+Chang Wen Chen, University at Buffalo (USA)
+Hsiao-Wuen Hon, Microsoft Corporation (China)
+
+General Co-Chairs:
+Shipeng Li, Microsoft Research Asia (China)
+Bernd Girod, Stanford University (USA)
+Guo Wei, Univ. of Sci. and Tech. of China (China)
+
+Program Co-Chairs:
+Pascal Frossard, Swiss Federal Inst. of Tech. (Switzerland)
+Houqiang Li, Univ. of Sci. and Tech. of China (China)
+Feng Wu, Microsoft Research Asia (China)
+
+Local Arrangement Co-Chairs:
+Yan Lu, Microsoft Research Asia (China)
+Nenghai Yu, Univ. of Sci. and Tech. of China (China)
+
+Financial Chairs:
+Xing Xie, Microsoft Research Asia (China)
+Bin Li, Univ. of Sci. and Tech. of China (China)
+
+Tutorial & Panel Co-Chairs:
+Qi Tian, Microsoft Research Asia (China)
+B=E9atrice Pesquet-Popescu, ENST (France)
+
+Special Session Co-Chairs:
+Kevin Yang, National Cheng Kung University (Taiwan)
+Eckehard Steinbach, Technische Universitaet Muenchen (Germany)
+
+Demo Co-Chairs:
+Shaoyi Chien, National Taiwan University (Taiwan)
+Ye-Kui Wang, Huawei Technologies (USA)
+
+Publicity Co-Chair
+Dacheng Tao, Nanyang Technological University (Singapore)
+Ebroul Izquierdo, University of London (United Kingdom)
+Dan Schonfeld, University of Illinois at Chicago (USA)
+
+International Liaison Chair
+Zhihai He, University of Missouri (USA)
+
+European Liaison Chair:
+Fernando Perrira, Instituto Superior T=E9cnico (Portugal)
+
+Asia-Pacific Liaison Chair:
+Jian Zhang, University of New South Wales (Australia)
+
+--=20
+Dacheng TAO
+School of Computer Engineering
+Nanyang Technological University
+Singapore 639798.
+Office: Blk N4,02b-67
+Phone: +65 6790 6250
+Fax: +65 6792 6559
+URL: http://www.ntu.edu.sg/home/dctao
+
+--00504502cb1d1a44640475db9067
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><div class=3D"gmail_quote">* =
+We apologize if you receive this CFP more than once.<br>* PLEASE CIRCULATE =
+this CFP among your colleagues and students. Many thanks!<br>
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+<br>Call for Papers<br>Visual Communications and Image Processing 2010<br><=
+br>11-14 July 2010, Huang Shan, China<br>Web: <a href=3D"http://vcip2010.us=
+tc.edu.cn" target=3D"_blank">http://vcip2010.ustc.edu.cn</a><br>Email: <a h=
+ref=3D"mailto:vcip2010@ustc.edu.cn" target=3D"_blank">vcip2010@ustc.edu.cn<=
+/a><br>
+
+
+<br>Hosted by: University of Science and Technology of China<br>Co-hosted b=
+y: Microsoft Research Asia<br><br>Visual communication has become an import=
+ant engineering area that attracts interdisciplinary research interest <br>
+
+
+<br>and has lead to significant developments in technology and science. Thi=
+s conference is designed as a forum for <br><br>presenting important resear=
+ch results. Original and unpublished material of novel techniques and new d=
+evelopments <br>
+
+
+<br>are solicited on the following and related topics:<br><br>1. Image and =
+Video Coding<br>1.1. image/video coding algorithms<br>1.2. perceptual image=
+/video coding<br>1.3. content-based coding<br>1.4. error-resilient image/vi=
+deo coding<br>
+
+
+1.5. scalable/layered coding<br>1.6. distributed/multi-view coding<br>2. Vi=
+sual Communication Techniques<br>2.1. video transmission techniques<br>2.2.=
+ QoS issue<br>2.3. wireless video<br>2.4. Internet video<br>2.5. interactiv=
+e/broadband video<br>
+
+
+3. Image and Video Analysis<br>3.1. image analysis<br>3.2. image sequence a=
+nalysis<br>3.3. web-based image and video analysis<br>3.4. object segmentat=
+ion and tracking<br>3.5. statistical models<br>4. Image and Video Processin=
+g<br>
+
+
+4.1. multi-resolution processing<br>4.2. multi-modal media processing<br>4.=
+3. web-based image and video processing<br>4.4. restoration, enhancement, a=
+nd noise reduction<br>4.5. sparse-based processing<br>4.6. adaptation/trans=
+coding<br>
+
+
+5. Image and Video Synthesis and Rendering<br>5.1. stereo, multiview, and 3=
+D (virtual reality)<br>5.2. synthetic image/video representations<br>5.3. g=
+raphics techniques in image/video representations<br>5.4. audio/video integ=
+ration<br>
+
+
+5.5. image/video conversion<br>6. Implementation and Applications<br>6.1. V=
+LSI implementation<br>6.2. system architecture<br>6.3. soft radio technolog=
+ies<br>6.4. video and home networking<br>6.5. video and e-commerce/m-commer=
+ce<br>
+
+
+<br>For paper submission, please go to VCIP=922010 Web, <a href=3D"http://v=
+cip2010.ustc.edu.cn/submission.htm" target=3D"_blank">http://vcip2010.ustc.=
+edu.cn/submission.htm</a> and submit up to 3000 <br><br>words or four pages=
+ papers in PDF format by Dec. 6, 2009.<br>
+
+
+<br>Proposal for Tutorials, Special Sessions, Panels and Exhibitions VCIP=
+=922010 will include a number of special <br><br>sessions. Proposals for sp=
+ecial sessions should be made according to the guidelines in the VCIP=92201=
+0 Call for <br>
+
+
+<br>Special Sessions (<a href=3D"http://vcip2010.ustc.edu.cn/special_sessio=
+ns.htm" target=3D"_blank">http://vcip2010.ustc.edu.cn/special_sessions.htm<=
+/a>) and submitted by Nov. 7, 2009. All papers for<br>special sessions are =
+submitted as regular papers for review by Dec. 6. 2009.<br>
+
+
+Tutorials will be held on July 11, 2010. Proposals for tutorials should inc=
+lude a title, an outline of the <br><br>tutorial and its motivation, contac=
+t and bio information for the presenter(s), and a short description of the =
+<br>
+
+
+<br>material to be covered. Proposals for Panel sessions should include the=
+ title and panel list. Proposals for <br><br>tutorials and panels should be=
+ submitted by Jan. 25, 2010.<br>VCIP=922010 will also feature a demo sessio=
+n. Proposals of technical demonstrations should be made according to the <b=
+r>
+
+
+<br>guidelines in VCIP=922010 Call for Demos (<a href=3D"http://vcip2010.us=
+tc.edu.cn/demos.htm" target=3D"_blank">http://vcip2010.ustc.edu.cn/demos.ht=
+m</a>) and submitted by Jan. 25, 2010.<br><br><br>Important Deadlines:<br>P=
+roposals for Special Sessions Due Date: =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=
+=A0=A0 Nov. 7, 2009<br>
+
+
+Regular and Special Session papers Submission (3000 words): Due Date: =A0=
+=A0=A0 Dec. 6, 2009<br>Proposals for Tutorials, Panels and Exhibitions: Due=
+ Date: =A0=A0=A0 =A0=A0=A0 Jan. 25, 2010<br>Author notification: Due Date: =
+=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 Feb. 14, 2010<b=
+r>
+
+
+Final manuscript (8-12 pages) and summary (200 words): Due Date: =A0=A0=A0 =
+Mar. 14, 2010<br><br><br>Best Paper Award<br>One award will be given for th=
+e best paper. A photocopy of the researcher&#39;s most current diploma and =
+a letter from <br>
+
+
+<br>the researcher requesting that his/her paper be considered must be subm=
+itted with the final manuscript.<br><br><br>Organizing Committee<br>Confere=
+nce Advisors:<br>Chang Wen Chen, University at Buffalo (USA)<br>Hsiao-Wuen =
+Hon, Microsoft Corporation (China)<br>
+
+
+<br>General Co-Chairs:<br>Shipeng Li, Microsoft Research Asia (China)<br>Be=
+rnd Girod, Stanford University (USA)<br>Guo Wei, Univ. of Sci. and Tech. of=
+ China (China)<br><br>Program Co-Chairs:<br>Pascal Frossard, Swiss Federal =
+Inst. of Tech. (Switzerland)<br>
+
+
+Houqiang Li, Univ. of Sci. and Tech. of China (China)<br>Feng Wu, Microsoft=
+ Research Asia (China)<br><br>Local Arrangement Co-Chairs:<br>Yan Lu, Micro=
+soft Research Asia (China)<br>Nenghai Yu, Univ. of Sci. and Tech. of China =
+(China)<br>
+
+
+<br>Financial Chairs:<br>Xing Xie, Microsoft Research Asia (China)<br>Bin L=
+i, Univ. of Sci. and Tech. of China (China)<br><br>Tutorial &amp; Panel Co-=
+Chairs:<br>Qi Tian, Microsoft Research Asia (China)<br>B=E9atrice Pesquet-P=
+opescu, ENST (France)<br>
+
+
+<br>Special Session Co-Chairs:<br>Kevin Yang, National Cheng Kung Universit=
+y (Taiwan)<br>Eckehard Steinbach, Technische Universitaet Muenchen (Germany=
+)<br><br>Demo Co-Chairs:<br>Shaoyi Chien, National Taiwan University (Taiwa=
+n)<br>
+
+
+Ye-Kui Wang, Huawei Technologies (USA)<br><br>Publicity Co-Chair<br>Dacheng=
+ Tao, Nanyang Technological University (Singapore)<br>Ebroul Izquierdo, Uni=
+versity of London (United Kingdom)<br>Dan Schonfeld, University of Illinois=
+ at Chicago (USA)<br>
+
+
+<br>International Liaison Chair<br>Zhihai He, University of Missouri (USA)<=
+br><br>European Liaison Chair:<br>Fernando Perrira, Instituto Superior T=E9=
+cnico (Portugal)<br><br>Asia-Pacific Liaison Chair:<br>Jian Zhang, Universi=
+ty of New South Wales (Australia)<br>
+
+
+<br></div>-- <br>Dacheng TAO<br>School of Computer Engineering<br>Nanyang T=
+echnological University<br>Singapore 639798.<br>Office: Blk N4,02b-67<br>Ph=
+one: +65 6790 6250<br>Fax: +65 6792 6559<br>URL: <a href=3D"http://www.ntu.=
+edu.sg/home/dctao" target=3D"_blank">http://www.ntu.edu.sg/home/dctao</a><b=
+r>
+
+
+
+--00504502cb1d1a44640475db9067--
+
+--===============0352381332==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0352381332==--

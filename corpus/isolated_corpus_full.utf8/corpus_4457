@@ -1,0 +1,147 @@
+From - Thu Dec 10 14:35:19 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs43235far;
+        Tue, 17 Feb 2009 06:36:55 -0800 (PST)
+Received: by 10.223.118.15 with SMTP id t15mr338215faq.85.1234881415160;
+        Tue, 17 Feb 2009 06:36:55 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id e17si9987087fke.28.2009.02.17.06.36.47;
+        Tue, 17 Feb 2009 06:36:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1LZR3K-0007QI-W7; Tue, 17 Feb 2009 15:36:03 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1LZR3D-0007Py-SB; Tue, 17 Feb 2009 15:35:55 +0100
+Received: from smtp.lg.ehu.es (lgux65.lgp.ehu.es) [158.227.0.66] 
+	by rolf.uib.no for corpora@hd.uib.no with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69) id 1LZR3D-0001sQ-O6; Tue, 17 Feb 2009 15:36:05 +0100
+Received: from lgux65.lgp.ehu.es (localhost.localdomain [127.0.0.1])
+	by lgux65.lgp.ehu.es (8.14.2/8.14.2) with ESMTP id n1HEZVBK017911
+	for <corpora@hd.uib.no>; Tue, 17 Feb 2009 15:35:31 +0100
+Received: from [158.227.113.88] (u001596.si.ehu.es [158.227.113.88])
+	by lgux65.lgp.ehu.es (8.14.2/8.14.2) with ESMTP id n1HEZVBZ017904
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 17 Feb 2009 15:35:31 +0100
+Message-ID: <499ACB3E.5030505@ehu.es>
+Date: Tue, 17 Feb 2009 15:35:42 +0100
+From: Eneko Agirre <e.agirre@ehu.es>
+User-Agent: Thunderbird 2.0.0.19 (X11/20090105)
+MIME-Version: 1.0
+To: corpora <corpora@hd.uib.no>
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.0
+	(lgux65.lgp.ehu.es [10.0.100.70]);
+	Tue, 17 Feb 2009 15:35:31 +0100 (CET)
+X-checked-clean: by exiscan on rolf
+X-Scanner: c26bd748dd26c5dc929c06c871967083 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ _SUMMARY_
+Subject: [Corpora-List] Call for participation: Robust WSD-CLIR task at
+	CLEF2009
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+
+Apologies for cross-postings
+
+			Call for participation
+
+		       Robust WSD CLIR@CLEF2009
+
+		      Word Sense Disambiguation
+	      for (Cross-Lingual) Information Retrieval
+
+                      http://ixa2.si.ehu.es/clirwsd
+
+
+Following the success of the 2007 joint SemEval-CLEF task and the 2008
+Robust WSD task at CLEF, a follow-up task will be hold in 2009 with the
+aim of exploring the contribution of Word Sense Disambiguation to
+monolingual and multilingual Information Retrieval. The 2009 exercise
+will be very similar to the 2008 one. Those interested in exploring the
+2008 data can check it here:
+http://ixa2.si.ehu.es/clirwsd/index.php?option=3Dcom_content&task=3Dview&id=
+=3D19&Itemid=3D35
+
+The robust task will bring semantic and retrieval evaluation
+together. The participants will be offered topics and document
+collections from previous CLEF campaigns which were annotated by
+systems for word sense disambiguation (WSD). The goal of the task is
+to test whether WSD can be used beneficially for retrieval systems.
+
+The organizers believe that polysemy is among the reasons for
+information retrieval (IR) systems to fail. WSD could allow a more
+targeted retrieval. Robust-WSD at CLEF 2008 showed that some
+top-scoring systems improved their IR and CLIR results with the use of
+WSD tags. See working notes:
+http://www.clef-campaign.org/2008/working_notes/adhoc-final.pdf
+
+The WSD data is based on WordNet version 1.6 and will be supplemented
+with data from the English and Spanish WordNets in order to test
+different expansion strategies. Several leading WSD experts will run
+their systems, and provide those WSD results for the participants to
+use.
+
+Participants are required to submit at least one baseline run without
+WSD and one run using the WSD data. They can submit four further
+baseline runs without WSD and four runs using WSD with in various
+ways.
+
+The robust task will use two languages often used in previous CLEF
+campaigns (English, Spanish). Documents will be in English, and topics
+in both English and Spanish.
+
+The evaluation will be based on Mean Average Precision (MAP) as well
+as Geometric Average Precision (GMAP). The robust measure GMAP intends
+to evaluate stable performance over all topics instead of high average
+performance in Mono- and Cross-Language IR ("ensure that all topics
+obtain minimum effectiveness level" Voorhees 2005 SIGIR Forum).
+
+
+Time Schedule:
+   Registration Opens - 1 February 2009 (closes on 1 May)
+   Data Release - from 15 March 2009
+   Topic Release - 24 April 2009
+   Submission of Runs by Participants - 1 June 2009
+   Release of Relevance Assessments and Individual Results - from 26 June 2=
+009
+   Submission of Paper for Working Notes - around August 2009 (to be announ=
+ced)
+   Workshop - 30 September to 2 October 2009 (collocated with ECDL 2009)
+
+Contact
+   Thomas Mandl, University of Hildesheim, mandl at uni-hildesheim de
+   Eneko Agirre, University of the Basque Country, e.agirre at ehu es
+
+For more details please visit
+   http://ixa2.si.ehu.es/clirwsd
+   http://www.clef-campaign.org
+
+Please join the mailing list:
+   http://groups.google.com/group/clirwsd
+
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

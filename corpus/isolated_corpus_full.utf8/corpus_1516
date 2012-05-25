@@ -1,0 +1,721 @@
+From - Thu Dec 10 14:27:03 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs4600waa;
+        Tue, 15 May 2007 05:35:11 -0700 (PDT)
+Received: by 10.70.23.2 with SMTP id 2mr11573883wxw.1179232511389;
+        Tue, 15 May 2007 05:35:11 -0700 (PDT)
+Return-Path: <sentto-1622440-1176-1179232484-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id h36si12181418wxd.2007.05.15.05.35.08;
+        Tue, 15 May 2007 05:35:11 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-1176-1179232484-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4FCZ7qR008533
+	for <jpprost@gmail.com>; Tue, 15 May 2007 22:35:07 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l4FCZ79Q023795
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 15 May 2007 22:35:07 +1000 (EST)
+X-ASG-Debug-ID: 1179232500-505a001d0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1179232500
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id D42C0A766C9
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 15 May 2007 22:35:00 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4FCYvKD008526
+	for <jpprost@ics.mq.edu.au>; Tue, 15 May 2007 22:34:57 +1000 (EST)
+Received: from n16c.bullet.sp1.yahoo.com (n16c.bullet.sp1.yahoo.com [69.147.64.123])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id l4FCYoVF000171
+	for <jpprost@ics.mq.edu.au>; Tue, 15 May 2007 22:34:56 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=tNTXXPCuuSshxITFdY9su3gQOV98/MTRJKW7Gcnl1vo5vBHB/Ti/U5wRQ5aimhc0pPc6CwO+NKopTd8Sb5LD0h17r5O18evFj3affiImAMnUh9h1IIUdShRzQ+Da/ijQ;
+Received: from [216.252.122.217] by n16.bullet.sp1.yahoo.com with NNFMP; 15 May 2007 12:34:45 -0000
+Received: from [66.218.69.1] by t2.bullet.sp1.yahoo.com with NNFMP; 15 May 2007 12:34:45 -0000
+Received: from [66.218.67.95] by t1.bullet.scd.yahoo.com with NNFMP; 15 May 2007 12:34:45 -0000
+X-Yahoo-Newman-Id: 1622440-m1176
+X-Sender: alain.ghio@lpl.univ-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+Received: (qmail 75000 invoked from network); 15 May 2007 12:33:22 -0000
+Received: from unknown (66.218.66.166)
+  by m38.grp.scd.yahoo.com with QMQP; 15 May 2007 12:33:22 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta5.grp.scd.yahoo.com with SMTP; 15 May 2007 12:33:21 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 9A770275769
+	for <lpl-infos@egroups.com>; Tue, 15 May 2007 14:33:07 +0200 (CEST)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 315603-01 for <lpl-infos@egroups.com>;
+ Tue, 15 May 2007 14:33:06 +0200 (CEST)
+Received: from GHIOFIXE (unknown [147.94.215.172])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 91654D2B71
+	for <lpl-infos@egroups.com>; Tue, 15 May 2007 14:32:32 +0200 (CEST)
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Organization: LPL
+Message-ID: <000201c796ed$18d0a150$acd75e93@GHIOFIXE>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6822
+Importance: Normal
+Thread-Index: AceWx104KySOcLfEQTij+Twj4O49GgAIj7LQ
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: "ghio" <alain.ghio@lpl.univ-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Tue, 15 May 2007 14:32:26 +0200
+X-ASG-Orig-Subj: [lpl-infos] TR : Ecole Recherche Multimodale d'Information, sept. 2007, Var.
+Subject: [lpl-infos] TR : Ecole Recherche Multimodale d'Information, sept. 2007, Var.
+X-Yahoo-Newman-Property: groups-email-ff
+Content-Type: multipart/alternative;
+ boundary="dF1jpCi8IacwxcWVfXzVgaB5hSBG5yYyokluB32"
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.40
+X-Barracuda-Spam-Status: No, SCORE=0.40 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=BSF_SC0_SA085b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.17017
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.40 BSF_SC0_SA085b         URI: Custom Rule SA085b
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+--dF1jpCi8IacwxcWVfXzVgaB5hSBG5yYyokluB32
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+-----Message d'origine-----
+De : glotin [mailto:glotin@univ-tln.fr]=20
+Envoy=E9 : mardi 15 mai 2007 09:54
+=C0 : echos@ens.fr; bull-i3@irit.fr; PourInfos@risc.cnrs.fr; lsis@lsis.org;
+all@univ-tln.fr; parole@ml.univ-avignon.fr; comite@ml.univ-avignon.fr;
+specif-forum-request@essi.fr
+Cc : ermites@univ-tln.fr; glotin@univ-tln.fr
+Objet : CFP: Ecole Recherche Multimodale d'Information, sept. 2007, Var.
+
+
+ 1er appel =E0 participation  -  merci de diffuser
+*************************************************
+
+**  Ecole Recherche Multimodale d'Information  **
+
+*************************************************
+Sp=E9ciale Campagnes Technolangue, Technovision, NIST et TREC.
+
+   http://glotin.univ-tln.fr/ERMITES07
+   du 4 sept au 6 sept 2007
+
+   Presqu'=EEle de Giens - Var
+=3D> Cl=F4ture des inscriptions: 15 juin 2007
+
+Avec les soutiens du LSIS, Conseil R=E9gional PACA, Univ. Sud Toulon Var et
+l'Association Francophone de la Commmunication Parl=E9e (AFCP).
+
+L'Ecole Recherche Multimodale d'Information 2007 porte sur les m=E9thodes e=
+t
+performances des syst=E8mes de recherche d'information inter-modalit=E9s, e=
+n
+s'appuyant sur les campagnes d'=E9valuation Technolangue (parole),
+Technovision (image), NIST et TREC. Des chercheurs y ayant particip=E9
+pr=E9sentent les bases communes entre ces syst=E8mes, et jetent des ponts e=
+ntre
+les diff=E9rentes disciplines. Ces sp=E9cialistes d'analyses conjointes tex=
+tes,
+images, sons ou vid=E9os interviennent sur 3 jours avec discussions et
+d=E9monstrations ouvertes. L'originalit=E9 d'ERMITES est d'insister sur les
+analyses conjointes de modalit=E9s, montrant l'int=E9r=EAt de sortir d'un
+pr=E9-carr=E9 sp=E9cifique. ERMITES permet =E0 faible co=FBt de se familiar=
+iser avec
+plusieurs disciplines sur cette probl=E9matique commune. Le site est le
+superbe VVF de La Badine - Presqu'=EEle de Giens-Var, (acc=E8s TGV
+Toulon) en face du parc naturel de Port-Cros. Cette fin de saison y est tr=
+=E8s
+agr=E9able, d=E9tente: plages ou catamarans au pied du VVF.
+
+** Programme (d=E9tails sur http://glotin.univ-tln.fr/ERMITES07 ):
+
+- Bengio Samy - Research scientist, GOOGLE USA.
+"Apprentissage automatique pour le traitement et recherche d'information
+dans les s=E9quences multimodales".
+
+- Haton Jean-Paul- Pr. LORIA, Membre Institut Univ. de France.
+"Reconnaissance de forme et analyse de sc=E8nes".
+
+- Gallinari Patrick - Pr. LIP6, UMR CNRS.
+"M=E9thodes statistiques pour l'apprentissage de structure".
+
+- Bonastre Jean-Fran=E7ois - LIA, Membre Institut Univ. de France.
+"Reconnaissance du locuteur / indexation de documents audio".
+
+- Moellic Pierre-Alain - CEA LIST Paris.
+"Analyses d'images: derni=E8res avanc=E9es =E0 l'=E9chelle au travers
+d'ImagEval/Technolangues".
+
+- Merialdo Bernard - Pr. EURECOM.
+"Indexation Multim=E9dia".
+
+- Gravier Guillaume - CNRS IRISA.
+"Reconnaissance Automatique de la Parole et applications".
+
+- Paugam-Moisy H=E9l=E8ne - Pr. LIRIS UMR CNRS.
+"M=E9moires associatives multimodales et temporelles".
+
+- Glotin Herv=E9 - LSIS UMR CNRS.
+"Recherche robuste d'information dans des sc=E8nes acoustiques ou visuelles=
+".
+
+- Kermorvant Christopher - PhD R&D,A2IA Paris.
+"Analyse d'image et Intelligence Artificielle".
+
+- Mulhem Philippe - CNRS IMAG.
+"Indexation et recherche s=E9mantique d'images".
+
+- Farinas Jer=F4me - IRIT UMR CNRS.
+"Identification & classification automatique de langues".
+
+** Inscription et site:
+le forfait inclut les actes, l'h=E9bergement (chambre individuelle avec SdB=
+)
+et la restauration vue sur mer au VVF. Inscriptions sur
+http://glotin.univ-tln.fr/ERMITES07
+Cl=F4ture des 16 inscriptions: 15 juin 2007.
+
+** 2 BOURSES de 150 euros sont offertes par l'AFCP **
+(faire la demande lors de votre inscription).
+
+Email : ermites@univ-tln.fr
+Organisateurs : H. Glotin avec J. Le Maitre, LSIS UMR CNRS 6168.
+
+--
+Herv=E9 Glotin
+MC USTV
+http://glotin.univ-tln.fr
+glotin@univ-tln.fr
+
+-------------------------------------------------
+This mail sent through IMP: http://horde.org/imp/
+
+
+
+--dF1jpCi8IacwxcWVfXzVgaB5hSBG5yYyokluB32
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+<!-- Network content -->
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p><br>
+<br>
+-----Message d'origine---<wbr>--<br>
+De : glotin [mailto:<a href=3D"mailto:glotin%40univ-tln.fr">glotin@univ-<wb=
+r>tln.fr</a>] <br>
+Envoy=E9 : mardi 15 mai 2007 09:54<br>
+=C0 : <a href=3D"mailto:echos%40ens.fr">echos@ens.fr</a>; <a href=3D"mailto=
+:bull-i3%40irit.fr">bull-i3@irit.<wbr>fr</a>; <a href=3D"mailto:PourInfos%4=
+0risc.cnrs.fr">PourInfos@risc.<wbr>cnrs.fr</a>; <a href=3D"mailto:lsis%40ls=
+is.org">lsis@lsis.org</a>;<br>
+<a href=3D"mailto:all%40univ-tln.fr">all@univ-tln.<wbr>fr</a>; <a href=3D"m=
+ailto:parole%40ml.univ-avignon.fr">parole@ml.univ-<wbr>avignon.fr</a>; <a h=
+ref=3D"mailto:comite%40ml.univ-avignon.fr">comite@ml.univ-<wbr>avignon.fr</=
+a>;<br>
+<a href=3D"mailto:specif-forum-request%40essi.fr">specif-forum-<wbr>request=
+@essi.<wbr>fr</a><br>
+Cc : <a href=3D"mailto:ermites%40univ-tln.fr">ermites@univ-<wbr>tln.fr</a>;=
+ <a href=3D"mailto:glotin%40univ-tln.fr">glotin@univ-<wbr>tln.fr</a><br>
+Objet : CFP: Ecole Recherche Multimodale d'Information, sept. 2007, Var.<br=
+>
+<br>
+1er appel =E0 participation  -  merci de diffuser<br>
+************<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr>*<=
+br>
+<br>
+**  Ecole Recherche Multimodale d'Information  **<br>
+<br>
+************<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr>*<=
+br>
+Sp=E9ciale Campagnes Technolangue, Technovision, NIST et TREC.<br>
+<br>
+<a href=3D"http://glotin.univ-tln.fr/ERMITES07">http://glotin.<wbr>univ-tln=
+.<wbr>fr/ERMITES07</a><br>
+   du 4 sept au 6 sept 2007<br>
+<br>
+Presqu'=EEle de Giens - Var<br>
+=3D&gt; Cl=F4ture des inscriptions: 15 juin 2007<br>
+<br>
+Avec les soutiens du LSIS, Conseil R=E9gional PACA, Univ. Sud Toulon Var et=
+<br>
+l'Association Francophone de la Commmunication Parl=E9e (AFCP).<br>
+<br>
+L'Ecole Recherche Multimodale d'Information 2007 porte sur les m=E9thodes e=
+t<br>
+performances des syst=E8mes de recherche d'information inter-modalit=E9<wbr=
+>s, en<br>
+s'appuyant sur les campagnes d'=E9valuation Technolangue (parole),<br>
+Technovision (image), NIST et TREC. Des chercheurs y ayant particip=E9<br>
+pr=E9sentent les bases communes entre ces syst=E8mes, et jetent des ponts e=
+ntre<br>
+les diff=E9rentes disciplines. Ces sp=E9cialistes d'analyses conjointes tex=
+tes,<br>
+images, sons ou vid=E9os interviennent sur 3 jours avec discussions et<br>
+d=E9monstrations ouvertes. L'originalit=E9 d'ERMITES est d'insister sur les=
+<br>
+analyses conjointes de modalit=E9s, montrant l'int=E9r=EAt de sortir d'un<b=
+r>
+pr=E9-carr=E9 sp=E9cifique. ERMITES permet =E0 faible co=FBt de se familiar=
+iser avec<br>
+plusieurs disciplines sur cette probl=E9matique commune. Le site est le<br>
+superbe VVF de La Badine - Presqu'=EEle de Giens-Var, (acc=E8s TGV<br>
+Toulon) en face du parc naturel de Port-Cros. Cette fin de saison y est tr=
+=E8s<br>
+agr=E9able, d=E9tente: plages ou catamarans au pied du VVF.<br>
+<br>
+** Programme (d=E9tails sur <a href=3D"http://glotin.univ-tln.fr/ERMITES07"=
+>http://glotin.<wbr>univ-tln.<wbr>fr/ERMITES07</a> ):<br>
+<br>
+- Bengio Samy - Research scientist, GOOGLE USA.<br>
+&quot;Apprentissage automatique pour le traitement et recherche d'informati=
+on<br>
+dans les s=E9quences multimodales&quot;<wbr>.<br>
+<br>
+- Haton Jean-Paul- Pr. LORIA, Membre Institut Univ. de France.<br>
+&quot;Reconnaissance de forme et analyse de sc=E8nes&quot;.<br>
+<br>
+- Gallinari Patrick - Pr. LIP6, UMR CNRS.<br>
+&quot;M=E9thodes statistiques pour l'apprentissage de structure&quot;.<br>
+<br>
+- Bonastre Jean-Fran=E7ois - LIA, Membre Institut Univ. de France.<br>
+&quot;Reconnaissance du locuteur / indexation de documents audio&quot;.<br>
+<br>
+- Moellic Pierre-Alain - CEA LIST Paris.<br>
+&quot;Analyses d'images: derni=E8res avanc=E9es =E0 l'=E9chelle au travers<=
+br>
+d'ImagEval/Technola<wbr>ngues&quot;.<br>
+<br>
+- Merialdo Bernard - Pr. EURECOM.<br>
+&quot;Indexation Multim=E9dia&quot;.<br>
+<br>
+- Gravier Guillaume - CNRS IRISA.<br>
+&quot;Reconnaissance Automatique de la Parole et applications&quot;<wbr>.<b=
+r>
+<br>
+- Paugam-Moisy H=E9l=E8ne - Pr. LIRIS UMR CNRS.<br>
+&quot;M=E9moires associatives multimodales et temporelles&quot;<wbr>.<br>
+<br>
+- Glotin Herv=E9 - LSIS UMR CNRS.<br>
+&quot;Recherche robuste d'information dans des sc=E8nes acoustiques ou visu=
+elles&quot;.<br>
+<br>
+- Kermorvant Christopher - PhD R&amp;D,A2IA Paris.<br>
+&quot;Analyse d'image et Intelligence Artificielle&quot;<wbr>.<br>
+<br>
+- Mulhem Philippe - CNRS IMAG.<br>
+&quot;Indexation et recherche s=E9mantique d'images&quot;.<br>
+<br>
+- Farinas Jer=F4me - IRIT UMR CNRS.<br>
+&quot;Identification &amp; classification automatique de langues&quot;.<br>
+<br>
+** Inscription et site:<br>
+le forfait inclut les actes, l'h=E9bergement (chambre individuelle avec SdB=
+)<br>
+et la restauration vue sur mer au VVF. Inscriptions sur<br>
+<a href=3D"http://glotin.univ-tln.fr/ERMITES07">http://glotin.<wbr>univ-tln=
+.<wbr>fr/ERMITES07</a><br>
+Cl=F4ture des 16 inscriptions: 15 juin 2007.<br>
+<br>
+** 2 BOURSES de 150 euros sont offertes par l'AFCP **<br>
+(faire la demande lors de votre inscription)<wbr>.<br>
+<br>
+Email : <a href=3D"mailto:ermites%40univ-tln.fr">ermites@univ-<wbr>tln.fr</=
+a><br>
+Organisateurs : H. Glotin avec J. Le Maitre, LSIS UMR CNRS 6168.<br>
+<br>
+--<br>
+Herv=E9 Glotin<br>
+MC USTV<br>
+<a href=3D"http://glotin.univ-tln.fr">http://glotin.<wbr>univ-tln.<wbr>fr</=
+a><br>
+<a href=3D"mailto:glotin%40univ-tln.fr">glotin@univ-<wbr>tln.fr</a><br>
+<br>
+------------<wbr>---------<wbr>---------<wbr>---------<wbr>---------<wbr>-<=
+br>
+This mail sent through IMP: <a href=3D"http://horde.org/imp/">http://horde.=
+<wbr>org/imp/</a><br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/234=
+3;_ylc=3DX3oDMTM0ZW9kMW1tBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzIzNDMEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMTc5MjMyNDg0BHRwY=
+0lkAzIzNDM-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwMTcxa2NxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzIzNDMEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMTc5MjMyNDg0?act=3Dreply&me=
+ssageNum=3D2343">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlcjJyaG5hBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTE3OTIzMjQ4NA--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlOW5pOGhrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTE3OTIzMjQ4NA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmNGZidTZpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzExNzkyMzI0ODQ-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlb2cwaDhkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTE3OTIzMjQ4NA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmZzVidmZpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzExNzkyMzI0ODQ-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjYmEycWlmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzExNzkyMzI0ODQ-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmMnEzdHNlBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzExNzkyMzI0ODQ-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlcHBqNTlrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTE3OTIzMjQ4NA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkNTYwdDBnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMTc5MjMyNDg0">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+    <!-- Do not have place to put it yet -->
+    <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+        Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+          </div>
+
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkY2ExNWZ1BF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMTc5MjMyNDg0">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmaTZ1b2hiBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzExNzkyMzI0ODQ-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+amQycDg0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMTc5MjMyNDg0">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+              <div id=3D"vithd">Activit=E9s r=E9centes</div>
+        <ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+                <li style=3D"clear: both;">
+      <div class=3D"ct" style=3D"float: right;"><span style=3D"display:none=
+">&nbsp;</span>2</div>
+      <div class=3D"cat"><a href=3D"http://fr.groups.yahoo.com/group/lpl-in=
+fos/members;_ylc=3DX3oDMTJmMWk4dWk2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jw=
+c3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzExNzkyMzI0ODQ-">Nouve=
+aux membres</a></div>
+    </li>
+=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+        </ul>
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlcWs1dDY0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTE3OTIzMjQ4NA--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Network content -->
+              <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrcHBocDhmBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTE3OTIzMjQ4NA--;_ylg=3D1/SIG=3D120i89lsb/**http%3a//fr.rd.yah=
+oo.com/evt=3D44791/*http%3a//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuNjRnb2I1BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTE3OTIzMjQ4NA--;_ylg=3D1/SIG=3D1239gto63/**http%3a//fr.rd=
+.yahoo.com/evt=3D44790/*http%3a//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvbHVjZ2JzBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzExNzkyMzI0ODQ-;_ylg=3D1/SIG=3D1243ka2s1/**http%3a//fr.rd=
+.yahoo.com/evt=3D44789/*http%3a//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div>   <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440=
+/grpspId=3D2123803216/msgId=3D2343/stime=3D1179232484/nc1=3D1/nc2=3D2/nc3=
+=3D3" width=3D"1" height=3D"1"> <br>
+
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a {
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc {
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o {font-size: 0; }
+.MsoNormal {
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq {margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--dF1jpCi8IacwxcWVfXzVgaB5hSBG5yYyokluB32--

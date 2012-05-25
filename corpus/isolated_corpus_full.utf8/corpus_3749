@@ -1,0 +1,955 @@
+From - Thu Dec 10 14:34:00 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.181.31.10 with SMTP id i10cs179343bkj;
+        Thu, 30 Oct 2008 17:23:27 -0700 (PDT)
+Received: by 10.214.216.19 with SMTP id o19mr662277qag.244.1225412604642;
+        Thu, 30 Oct 2008 17:23:24 -0700 (PDT)
+Return-Path: <academiconference@gmail.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 4si1265333qwe.3.2008.10.30.17.23.21;
+        Thu, 30 Oct 2008 17:23:23 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of academiconference@gmail.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of academiconference@gmail.com) smtp.mail=academiconference@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m9V0NKo7000731
+	for <jpprost@gmail.com>; Fri, 31 Oct 2008 11:23:20 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m9V0NKel017997
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 31 Oct 2008 11:23:20 +1100
+X-ASG-Debug-ID: 1225412592-69c800090000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP
+	id 15AF022E8603; Fri, 31 Oct 2008 11:23:12 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id FtIHJpOPwmlAOEbj; Fri, 31 Oct 2008 11:23:12 +1100 (EST)
+Received: from rv-out-0506.google.com (rv-out-0506.google.com [209.85.198.228])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m9V0N8MM000702;
+	Fri, 31 Oct 2008 11:23:09 +1100 (EST)
+Received: by rv-out-0506.google.com with SMTP id f6so957025rvb.51
+        for <multiple recipients>; Thu, 30 Oct 2008 17:23:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from:reply-to
+         :sender:to:subject:mime-version:content-type:x-google-sender-auth;
+        bh=mTBHrz47d09I+Fwf2YP1sOVXZfxfRBcwjm2BJvHV7lQ=;
+        b=I/pjCjevg4ZvzbGMfd95sM8vrrST5e8177ROQ2jliTFWIDWnxtDQlURdd8jfn49ICP
+         yMQ/aXp8eSl1S4HWmmnXIyA4QxA3Jtado8ylNcftDDJLtN8TFYnP/eHauJTW28UYboL9
+         sZkJhlL/7e3vHcABvs5+qUBJ9VnfyZpJPlec4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=message-id:date:from:reply-to:sender:to:subject:mime-version
+         :content-type:x-google-sender-auth;
+        b=wDZa7XrrkAoQe7vVvSaoA64t9B39NfvII18kpYBjMf0VpYBRAQhdp4bFmBR4H3eT9i
+         hfu7zN02hqhi6h/TaVGnN+QmX0L68+T8P/Spm0z1uTyfVLDRfnWKVeJUkFXILB5znkSS
+         8mazhY8Mco76+bwAEBXGf653ZThNWaobFUnEw=
+Received: by 10.141.41.12 with SMTP id t12mr6215077rvj.282.1225412587858;
+        Thu, 30 Oct 2008 17:23:07 -0700 (PDT)
+Received: by 10.140.147.17 with HTTP; Thu, 30 Oct 2008 17:23:07 -0700 (PDT)
+Message-ID: <13f158e90810301723g11aadc08l8288d74332bd257b@mail.gmail.com>
+Date: Thu, 30 Oct 2008 19:23:07 -0500
+From: "David King" <conference@intellectbase.org>
+Reply-To: conference@intellectbase.org
+Sender: academiconference@gmail.com
+To: chair@intellectbase.org
+X-ASG-Orig-Subj: Call For Academic Papers and Participation
+Subject: Call For Academic Papers and Participation
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13845_14498028.1225412587847"
+X-Google-Sender-Auth: 5cd663826d0dff18
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1225412593
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.9086
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+------=_Part_13845_14498028.1225412587847
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+Dear Professor,
+
+*CALL FOR ACADEMIC PAPERS AND PARTICIPATION*
+
+* **www.intellectbase.org***
+* *
+*Las Vegas**, Nevada***
+*December 15-19, 2008*
+ **
+*Submission Deadline: **November 29, 2008 *
+
+Researchers are invited to exchange ideas, share experiences on research
+challenges, research findings and state-of-the-art solutions.
+
+*All Theoretical and Empirical Papers are invited *in partial fulfillment o=
+f
+the requirements of
+* *
+*Journal Publication & Academic Excellence*
+* *
+*Full Papers, Research-in-Progress, Extended Abstracts, Workshops, Case
+Studies and Posters are invited !!   *
+Email all papers to: *reviewers@intellectbase.org*<reviewers@intellectbase.=
+org>
+
+All submitted papers are peer reviewed by the Reviewers Task Panel (RTP).
+Accepted papers are published in a refereed conference proceeding, and
+outstanding articles will be considered for publication in one of the
+double-blind review journals listed on the Intellectbase International
+Consortium website:
+www.intellectbase.org<http://www.intellectbase.org/journals.php>
+
+
+Intellectbase International Consortium promotes broader intellectual
+resources, understanding, development and exchange of ideas among global
+research professionals and practitioners. Simultaneous tracks in diverse
+disciplines will be held, covering a range of international research topics
+including, but not limited to the following:
+
+   *INTELLECTUAL FOUNDATIONS & PERSPECTIVES*
+ *Administration, Political & Social *
+ *Education & Management*
+ *Science & Technology*
+ Academic Affairs and Administration
+ Marketing
+ Computer Information Systems
+ Intelligence Systems & Practices
+ Economics
+ E-business / E-Commerce
+ Human Resource Systems & Practices
+ Accounting
+ Telecommunication
+ Political Science
+ Supply Chain Management
+ Computer Science
+ Governmental Systems & Practices
+ Operations Management
+ IEEE Innovations
+ Ethical Science
+ Sociology & Social Science
+ Information Science
+ Environmental Issues
+ Art & Creativity
+ Systems Security
+ Hospitality and Hospital Management
+ Communication & Linguistics
+ Industrial Systems
+ Transportation Systems & Logistics
+ Knowledge Systems
+ Engineering / Mathematics
+ World History & Creative Arts
+ Management Information Systems
+ Health Science
+ Developed, Developing & Emerging Countries
+ Organizational & Behavioral Science
+ Health (Care & Management)
+ International Monetary Funds Systems
+ Educational Management
+ Scientific Human Intelligence
+ United Nations and the World
+ Behavioral Science
+ Computational Human Intelligence
+ World Bank & Foreign Aid Projects
+ Academic Affairs & Counseling
+ Research and Development
+ Communications and Psychology
+ Education Systems & Practices
+ Kinesiology Science
+
+
+
+*All Research Philosophies are Encouraged!*
+*(i.e. Hard, Soft, Hybrid and Triangulation approaches are welcome)** *
+
+
+=FC      Intellectbase DOUBLE-BLIND REVIEWED JOURNALS are listed in
+Cabell's<http://www.cabells.com/>directories and are available through
+EbscoHost <http://www.ebscohost.com/> Library Services.
+
+
+=FC      Select Intellectbase Peer-Reviewed Conference Proceedings, Handboo=
+ks,
+Book Chapters are listed with Barnes & Noble <http://www.bn.com/>,
+Amazon.com <http://www.amazon.com/>, and
+Ingram<http://www.ingrambook.com/start/default.asp>websites.
+
+
+=FC      Intellectbase International Consortium publications are in the
+process of being listed in other major Journal databases e.g. ABI/INFORM,
+JOURNALSEEK, ABDC, Thomson SCIENCE and SOCIAL SCIENCE Citation Indexes, etc=
+.
+
+Email all papers to: *reviewers@intellectbase.org*<reviewers@intellectbase.=
+org>
+
+
+*Submission Guidelines:*
+All papers must be accompanied by a *cover sheet* (page 1) with every
+author(s) name, address, phone, e-mail, full affiliation, a 200 - 500 word
+Abstract and keywords. All correspondence will be sent to the first author
+unless otherwise specified.
+
+The paper should not normally exceed 10 single-spaced pages, including all
+sections, figures, tables, etc. Articles that exceed the page limit
+*may*incur a fee of $5 per page over the limit (at the Conference
+Chair's
+Discretion).
+
+Please send your submission in Microsoft Word format by email to
+Reviewers@intellectbase.org by the due date.
+
+Papers should not exceed 10 single-spaced pages including all sections,
+figures and tables.
+
+Manuscripts must contain one single-spaced column, utilize 11 point Arial
+Narrow font, be left justified and contain =BE" margins on all sides.
+
+*TITLE*
+Centered across the top of the first page, 16 point Arial Narrow bold font,
+all letters capitalized.
+
+*Major headings *
+14 point Arial Narrow bold font, left aligned, all letters capitalized.
+
+*First Level Sub-Headings *
+13 point Arial Narrow bold font, left aligned, capitalize each word.
+
+*Second level sub-headings *
+12 point Arial Narrow bold italic font, left aligned, capitalize each word.
+
+*Third level sub-headings *
+12 point Arial Narrow italic font, left aligned, first word capitalized.
+
+No blank line is to appear between the sub-heading and the text. Tables and
+figures should be included in the text, approximately where the author
+thinks that they should appear. Manuscripts must be edited for spelling and
+grammar.
+
+For more information concerning Intellectbase International Consortium (IIC=
+)
+conferences and journal publications, please visit the IIC website at
+www.intellectbase.org <http://www.intellectbase.org/journals.php>. For any
+further questions, please contact the Conference Chair at
+chair@intellectbase.org
+
+We look forward to receiving your submission(s)!
+
+*Sincerely,*
+* *
+*Dr. David King**, **PhD, MCSE, CNA**
+**Conference Chair**
+Intellectbase International Consortium
+*Nashville TN 37208, USA
+Ph: + 1-615-944-3931
+Email: chair@intellectbase.org
+Web: www.intellectbase.org**
+
+------=_Part_13845_14498028.1225412587847
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 11pt">Dear Pro=
+fessor,</span></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 11pt">&nbsp;</=
+span></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-SIZE: 14.5pt">CALL FOR ACADEMIC PAPERS AND PARTICIPATIO=
+N</span></b></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 5pt; COLOR: #333333">&nbsp;</span></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><fo=
+nt size=3D"3"><b><i><span>&nbsp;</span></i></b><i><span style=3D"FONT-SIZE:=
+ 11pt"><a href=3D"http://www.intellectbase.org/" target=3D"_blank"><span st=
+yle=3D"FONT-SIZE: 12pt">www.intellectbase.org</span></a></span></i></font><=
+i><span style=3D"FONT-SIZE: 7pt"></span></i></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-SIZE: 10pt; COLOR: #007f7f">&nbsp;</span></b></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><fo=
+nt size=3D"3"><b><span style=3D"COLOR: #007f7f">Las Vegas</span></b><b><spa=
+n style=3D"COLOR: #007f7f">, Nevada</span></b><b><span style=3D"COLOR: #007=
+f7f"></span></b></font></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><fo=
+nt size=3D"3"><b><span style=3D"COLOR: #007f7f">December 15-19, 2008</span>=
+</b><span></span></font></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 10pt">&nbsp;</span><b><span></span></b></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-SIZE: 13.5pt; COLOR: black">Submission Deadline: </span=
+></b><b><span style=3D"FONT-SIZE: 13.5pt; COLOR: red">November 29, 2008 </s=
+pan></b><span></span></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;</span></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><fo=
+nt size=3D"3"><span style=3D"COLOR: black">Researchers are invited to excha=
+nge ideas,&nbsp;share experiences on&nbsp;research challenges, research fin=
+dings and state-of-the-art solutions. </span><span style=3D"FONT-SIZE: 10pt=
+; FONT-FAMILY: Arial"></span></font></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 10pt; FONT-FAMILY: Arial">&nbsp;</span></div>
+<div style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: 14.4pt; TEXT-ALIGN: center"=
+ align=3D"center"><font size=3D"3"><b><span>All Theoretical and Empirical P=
+apers are invited </span></b><span>in partial fulfillment of the requiremen=
+ts of</span><span style=3D"FONT-SIZE: 10pt"></span></font></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-SIZE: 5pt">&nbsp;</span></b></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-SIZE: 14pt; COLOR: blue">Journal Publication &amp; Acad=
+emic Excellence</span></b><span style=3D"FONT-SIZE: 8pt"></span></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-FAMILY: Arial"><font size=3D"3">&nbsp;</font></span></b=
+></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><b><span><font size=3D"3">Full Papers, R=
+esearch-in-Progress, Extended Abstracts, Workshops, Case Studies and Poster=
+s are <span>invited !!</span>&nbsp;&nbsp;<span style=3D"COLOR: #ff007f"> </=
+span></font></span></b></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt"><font size=3D"3"><span style=3D"COLOR: #=
+ff007f">Email all papers to:</span><span style=3D"COLOR: yellow"> </span><s=
+pan style=3D"COLOR: blue"><a href=3D"mailto:reviewers@intellectbase.org" ta=
+rget=3D"_blank"><i>reviewers@intellectbase.org</i></a></span><span style=3D=
+"FONT-SIZE: 10pt; FONT-FAMILY: Arial"></span></font></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 8pt; FONT-FAMI=
+LY: Arial">&nbsp;</span><span style=3D"FONT-SIZE: 8pt"></span></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 11pt">All subm=
+itted papers are peer reviewed by the Reviewers Task Panel (RTP). Accepted =
+papers are published in a refereed conference proceeding, and outstanding a=
+rticles will be considered for publication in&nbsp;one of the double-blind =
+review&nbsp;journals listed on the Intellectbase International Consortium w=
+ebsite: <span style=3D"COLOR: #ff007f"><a href=3D"http://www.intellectbase.=
+org/journals.php" target=3D"_blank">www.intellectbase.org</a>&nbsp;</span><=
+/span><span style=3D"FONT-SIZE: 11pt; FONT-FAMILY: Arial"></span></div>
+
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 8pt; FONT-FAMI=
+LY: Arial">&nbsp;</span></div>
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: justify"><span style=3D"FONT=
+-SIZE: 11pt">Intellectbase International Consortium promotes broader intell=
+ectual resources, understanding, development and exchange of ideas among gl=
+obal research professionals and practitioners. </span><span style=3D"FONT-S=
+IZE: 11pt; COLOR: black">Simul</span><span style=3D"FONT-SIZE: 11pt">taneou=
+s tracks in diverse disciplines will be held, covering a range of internati=
+onal research topics including, but not limited to the following:</span></d=
+iv>
+
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 8pt; COLOR: bl=
+ack">&nbsp;</span></div>
+<div align=3D"center">
+<table style=3D"MARGIN: auto auto auto 20.2pt; WIDTH: 545.05pt" cellpadding=
+=3D"0" width=3D"727" border=3D"0">
+<tbody>
+<tr style=3D"HEIGHT: 31.85pt">
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 542.05pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: =
+black 1pt solid; HEIGHT: 31.85pt; BACKGROUND-COLOR: transparent" width=3D"7=
+23" colspan=3D"3">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<span style=3D"FONT-SIZE: 13pt; COLOR: black">INTELLECTUAL FOUNDATIONS &amp=
+; PERSPECTIVES</span></b><span style=3D"FONT-SIZE: 13pt"></span></div></td>=
+</tr>
+
+<tr style=3D"HEIGHT: 22.25pt">
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #ff5050; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.7=
+5pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 22.25pt" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<u><span style=3D"FONT-SIZE: 11pt; COLOR: white">Administration, Political =
+&amp; Social&nbsp;</span></u></b></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #ff5050; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid; HEIGHT: 22.25pt" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<u><span style=3D"FONT-SIZE: 11pt; COLOR: white">Education &amp; Management=
+</span></u></b></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #ff5050; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.=
+75pt; BORDER-BOTTOM: black 1pt solid; HEIGHT: 22.25pt" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><b>=
+<u><span style=3D"FONT-SIZE: 11pt; COLOR: white">Science &amp; Technology</=
+span></u></b></div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Academic Affairs and Administr=
+ation </span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Marketing</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Computer Information Systems</sp=
+an></div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Intelligence Systems &amp; Pra=
+ctices </span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Economics</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">E-business / E-Commerce</span></=
+div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Human Resource Systems &amp; P=
+ractices </span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Accounting</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Telecommunication</span></div></=
+td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Political Science</span></div>=
+</td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Supply Chain Management</span><=
+/div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Computer Science</span></div></t=
+d></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Governmental Systems &amp; Pra=
+ctices</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Operations Management</span></d=
+iv></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">IEEE Innovations </span></div></=
+td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Ethical Science</span></div></=
+td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Sociology &amp; Social Science<=
+/span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Information Science</span></div>=
+</td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Environmental Issues</span></d=
+iv></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Art &amp; Creativity</span></di=
+v></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Systems Security</span></div></t=
+d></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Hospitality and Hospital Manag=
+ement</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Communication &amp; Linguistics=
+</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Industrial Systems</span></div><=
+/td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Transportation Systems &amp; L=
+ogistics</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Knowledge Systems</span></div><=
+/td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Engineering / Mathematics</span>=
+</div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">World History &amp; Creative A=
+rts</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Management Information Systems<=
+/span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Health Science</span></div></td>=
+</tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Developed, Developing &amp; Em=
+erging Countries </span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Organizational &amp; Behavioral=
+ Science</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Health (Care &amp; Management)</=
+span></div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">International Monetary Funds S=
+ystems</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Educational Management </span><=
+/div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Scientific Human Intelligence</s=
+pan></div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">United Nations and the World</=
+span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Behavioral Science</span></div>=
+</td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Computational Human Intelligence=
+</span></div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">World Bank &amp; Foreign Aid P=
+rojects</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Academic Affairs &amp; Counseli=
+ng</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Research and Development</span><=
+/div></td></tr>
+<tr>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; PADDING-BOTTOM: 0.75pt; BORDER-L=
+EFT: black 1pt solid; WIDTH: 192.3pt; PADDING-TOP: 0.75pt; BORDER-BOTTOM: b=
+lack 1pt solid; BACKGROUND-COLOR: transparent" width=3D"256">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: #0000bf">Communications and Psychology<=
+/span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: #339966; PADDING-BOT=
+TOM: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 169pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"225">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: yellow">Education Systems &amp; Practic=
+es</span></div></td>
+<td style=3D"BORDER-RIGHT: black 1pt solid; PADDING-RIGHT: 0.75pt; BORDER-T=
+OP: black 1pt solid; PADDING-LEFT: 0.75pt; BACKGROUND: blue; PADDING-BOTTOM=
+: 0.75pt; BORDER-LEFT: black 1pt solid; WIDTH: 177.75pt; PADDING-TOP: 0.75p=
+t; BORDER-BOTTOM: black 1pt solid" width=3D"237">
+
+<div style=3D"MARGIN: 0in 0in 0pt; TEXT-ALIGN: center" align=3D"center"><sp=
+an style=3D"FONT-SIZE: 11pt; COLOR: white">Kinesiology Science</span></div>=
+</td></tr></tbody></table></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 10pt">&nbsp;</=
+span></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 10pt">&nbsp;</=
+span></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 10pt">&nbsp;</=
+span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt; TEXT-ALIGN: center" align=3D"center">=
+<b><span style=3D"FONT-SIZE: 13.5pt; COLOR: black">All Research Philosophie=
+s are Encouraged!</span></b></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt; TEXT-ALIGN: center" align=3D"center">=
+<b><span style=3D"FONT-SIZE: 10pt; COLOR: black">(i.e. Hard, Soft, Hybrid a=
+nd&nbsp;Triangulation approaches are welcome)</span></b><b><span style=3D"F=
+ONT-SIZE: 13.5pt; COLOR: black"> </span></b></div>
+
+<div style=3D"MARGIN: 0in 0.25in 0pt; TEXT-ALIGN: center" align=3D"center">=
+<span><font size=3D"3">&nbsp;</font></span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt; TEXT-ALIGN: center" align=3D"center">=
+<span><font size=3D"3">&nbsp;</font></span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in"><span sty=
+le=3D"FONT-FAMILY: Wingdings"><span><font size=3D"3">=FC</font><span>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span><font size=3D"3">Intell=
+ectbase DOUBLE-BLIND REVIEWED JOURNALS are listed&nbsp;in </font><a href=3D=
+"http://www.cabells.com/" target=3D"_blank"><font size=3D"3">Cabell&#39;s</=
+font></a><font size=3D"3"> directories and are available through </font><a =
+title=3D"EBSCOHOST DIGITAL LIBRARY" href=3D"http://www.ebscohost.com/" targ=
+et=3D"_blank"><font size=3D"3">EbscoHost</font></a><font size=3D"3"> Librar=
+y Services.</font></span></div>
+
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIG=
+N: justify"><span><font size=3D"3">&nbsp;</font></span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in; TEXT-ALIG=
+N: justify"><span><font size=3D"3">&nbsp;</font></span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in"><span sty=
+le=3D"FONT-FAMILY: Wingdings"><span><font size=3D"3">=FC</font><span>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span><font size=3D"3">Select=
+ Intellectbase Peer-Reviewed Conference Proceedings, Handbooks, Book Chapte=
+rs are listed with </font><a title=3D"Barnes&amp;Noble" href=3D"http://www.=
+bn.com/" target=3D"_blank"><font size=3D"3">Barnes &amp; Noble</font></a><f=
+ont size=3D"3">, </font><a title=3D"amazon.com" href=3D"http://www.amazon.c=
+om/" target=3D"_blank"><font size=3D"3">Amazon.com</font></a><font size=3D"=
+3">, and </font><a title=3D"INGRAM BOOKS INTERNATIONAL" href=3D"http://www.=
+ingrambook.com/start/default.asp" target=3D"_blank"><font size=3D"3">Ingram=
+</font></a><font size=3D"3"> websites.</font></span></div>
+
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in"><span><fo=
+nt size=3D"3">&nbsp;</font></span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in"><span><fo=
+nt size=3D"3">&nbsp;</font></span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt 0.5in; TEXT-INDENT: -0.25in"><span sty=
+le=3D"FONT-FAMILY: Wingdings"><span><font size=3D"3">=FC</font><span>&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span><font size=3D"3">Intell=
+ectbase International Consortium publications are in the process of being l=
+isted in other major Journal databases e.g. ABI/INFORM, JOURNALSEEK, ABDC, =
+Thomson SCIENCE and SOCIAL SCIENCE Citation Indexes, etc.</font></span></di=
+v>
+
+<div style=3D"MARGIN: 0in 0.25in 0pt"><span><font size=3D"3">&nbsp;</font><=
+/span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt; TEXT-ALIGN: center" align=3D"center">=
+<span><font size=3D"3">Email all papers to: </font><a href=3D"mailto:review=
+ers@intellectbase.org" target=3D"_blank"><i><font size=3D"3">reviewers@inte=
+llectbase.org</font></i></a></span><span style=3D"FONT-SIZE: 10pt"></span><=
+/div>
+
+<div style=3D"MARGIN: 0in 0.25in 0pt"><span style=3D"FONT-SIZE: 10pt">&nbsp=
+;</span></div>
+<div style=3D"MARGIN: 0in 0.25in 0pt"><span style=3D"FONT-SIZE: 10pt">&nbsp=
+;</span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><b><span style=3D"FONT-SIZE: 14p=
+t">Submission Guidelines:</span></b></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">All paper=
+s must be accompanied by a <b>cover sheet</b> (page 1) with every author(s)=
+ name, address, phone, e-mail, full affiliation, a 200 - 500 word Abstract =
+and keywords. All correspondence will be sent to the first author unless ot=
+herwise specified.</font></span></div>
+
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">The paper=
+ should not normally exceed 10 single-spaced pages, including all sections,=
+ figures, tables, etc. Articles that exceed the page limit <i>may</i> incur=
+ a fee of $5 per page over the limit (at the Conference Chair&#39;s Discret=
+ion).</font></span></div>
+
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">Please se=
+nd your submission in Microsoft Word format by email to </font><a href=3D"m=
+ailto:Reviewers@intellectbase.org" target=3D"_blank"><font size=3D"3">Revie=
+wers@intellectbase.org</font></a><font size=3D"3"> by the due date.</font><=
+/span></div>
+
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">Papers sh=
+ould not exceed 10 single-spaced pages including all sections, figures and =
+tables. </font></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">Manuscrip=
+ts must contain one single-spaced column, utilize 11 point Arial Narrow fon=
+t, be left justified and contain =BE&quot; margins on all sides.</font></sp=
+an></div>
+
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><b><span style=3D"FONT-SIZE: 16p=
+t">TITLE</span></b></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">Centered =
+across the top of the first page, 16 point Arial Narrow bold font, all lett=
+ers capitalized. </font></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span style=3D"FONT-SIZE: 10pt">=
+&nbsp;</span></div>
+<div style=3D"MARGIN: 0in 27pt 6pt 0.25in"><strong><font face=3D"Arial Narr=
+ow" size=3D"5">Major headings </font></strong></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">14 point =
+Arial Narrow bold font, left aligned, all letters capitalized. </font></spa=
+n></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 6pt 0.25in"><strong><font face=3D"Arial Narr=
+ow" size=3D"4">First Level Sub-Headings </font></strong></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">13 point =
+Arial Narrow bold font, left aligned, capitalize each word. </font></span><=
+/div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 3pt 0.25in"><strong><em><font face=3D"Arial =
+Narrow" size=3D"3">Second level sub-headings </font></em></strong></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">12 point =
+Arial Narrow bold italic font, left aligned, capitalize each word. </font><=
+/span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 3pt 0.25in"><em><font face=3D"Arial Narrow" =
+size=3D"3">Third level sub-headings </font></em></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">12 point =
+Arial Narrow italic font, left aligned, first word capitalized. </font></sp=
+an></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">No blank =
+line is to appear between the sub-heading and the text. Tables and figures =
+should be included in the text, approximately where the author thinks that =
+they should appear. Manuscripts must be edited for spelling and grammar.</f=
+ont></span></div>
+
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">For more =
+information concerning Intellectbase International Consortium (IIC) confere=
+nces and journal publications, please visit the IIC website at </font><a hr=
+ef=3D"http://www.intellectbase.org/journals.php" target=3D"_blank"><font si=
+ze=3D"3">www.intellectbase.org</font></a><font size=3D"3">. For</font></spa=
+n><span><font size=3D"3"> any further questions, please contact the Confere=
+nce Chair at <span style=3D"COLOR: blue"><a href=3D"mailto:chair@intellectb=
+ase.org" target=3D"_blank">chair@intellectbase.org</a></span></font></span>=
+</div>
+
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span><font size=3D"3">&nbsp;</f=
+ont></span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><font size=3D"3"><span>We look f=
+orward to receiving your submission(s)! </span><span style=3D"FONT-SIZE: 10=
+pt"></span></font></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><span style=3D"FONT-SIZE: 10pt">=
+&nbsp;</span></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><b><i><span style=3D"FONT-SIZE: =
+11pt; COLOR: blue">Sincerely,</span></i></b></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><b><i><span style=3D"FONT-SIZE: =
+11pt; COLOR: blue">&nbsp;</span></i></b></div>
+<div style=3D"MARGIN: 0in 27pt 0pt 0.25in"><font size=3D"3"><b><span style=
+=3D"COLOR: blue">Dr. David King</span></b><b><span style=3D"COLOR: #333333"=
+>,<i> </i></span></b></font><i><span style=3D"FONT-SIZE: 10pt; COLOR: teal"=
+>PhD, MCSE, CNA</span></i><i><span style=3D"FONT-SIZE: 10pt; COLOR: blue"><=
+br>
+</span></i><b><i><span style=3D"FONT-SIZE: 10pt; COLOR: blue">Conference Ch=
+air</span></i></b><i><span style=3D"FONT-SIZE: 9pt; COLOR: blue; FONT-FAMIL=
+Y: Arial"><br>Intellectbase International Consortium<br></span></i><span st=
+yle=3D"FONT-SIZE: 9pt; COLOR: blue; FONT-FAMILY: Arial">Nashville</span><sp=
+an style=3D"FONT-SIZE: 9pt; COLOR: blue; FONT-FAMILY: Arial"> TN 37208, USA=
+</span><span style=3D"FONT-SIZE: 14pt; COLOR: blue"><br>
+</span><span style=3D"FONT-SIZE: 9pt; COLOR: blue; FONT-FAMILY: Arial">Ph: =
+</span><span style=3D"FONT-SIZE: 9pt; FONT-FAMILY: Arial">+ 1-615-944-3931 =
+<span style=3D"COLOR: blue"><br>Email: </span><a href=3D"mailto:chair@intel=
+lectbase.org" target=3D"_blank">chair@intellectbase.org</a><span style=3D"C=
+OLOR: blue"> <br>
+Web: </span><a href=3D"http://www.intellectbase.org/" target=3D"_blank"><sp=
+an style=3D"COLOR: windowtext; TEXT-DECORATION: none">www.intellectbase.org=
+</span></a><i><span style=3D"COLOR: blue"></span></i></span></div>
+<div style=3D"MARGIN: 0in 0in 0pt"><span style=3D"FONT-SIZE: 16pt"><font fa=
+ce=3D"Times New Roman">&nbsp;</font></span></div>
+
+------=_Part_13845_14498028.1225412587847--

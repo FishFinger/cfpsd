@@ -1,0 +1,352 @@
+From - Thu Dec 10 14:35:47 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.193 with SMTP id e1cs131310far;
+        Sun, 29 Mar 2009 15:27:43 -0700 (PDT)
+Received: by 10.210.30.10 with SMTP id d10mr2122598ebd.33.1238365661592;
+        Sun, 29 Mar 2009 15:27:41 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 18si4789036ewy.45.2009.03.29.15.27.40;
+        Sun, 29 Mar 2009 15:27:41 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4752516CC2; Mon, 30 Mar 2009 00:27:17 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 110092031C;
+	Mon, 30 Mar 2009 00:25:18 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2F82A3D4E;
+	Mon, 30 Mar 2009 00:25:17 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id r1FSoJwqlGJW; Mon, 30 Mar 2009 00:25:16 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id CF6203D54;
+	Mon, 30 Mar 2009 00:24:56 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 145613D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 25 Mar 2009 20:26:42 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jdKEJMkqpfl1 for <elsnet-list@mailman.elsnet.org>;
+	Wed, 25 Mar 2009 20:26:41 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D515F3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 25 Mar 2009 20:26:21 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B58471F23E; Wed, 25 Mar 2009 20:26:21 +0100 (MET)
+Received: from smtp-roam.stanford.edu (smtp-roam2.Stanford.EDU [171.67.219.89])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 556991F25F
+	for <elsnet-list@elsnet.org>; Wed, 25 Mar 2009 20:25:44 +0100 (MET)
+Received: from smtp-roam.stanford.edu (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id B70EF7822A;
+	Wed, 25 Mar 2009 12:25:42 -0700 (PDT)
+Received: from [171.65.114.248] (DNab4172f8.Stanford.EDU [171.65.114.248])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested) (Authenticated sender: ttania)
+	by smtp-roam.stanford.edu (Postfix) with ESMTPSA id 35E8378217;
+	Wed, 25 Mar 2009 12:25:18 -0700 (PDT)
+Message-ID: <49CA851D.8070504@stanford.edu>
+Date: Wed, 25 Mar 2009 12:25:17 -0700
+From: Tania Tudorache <tudorache@stanford.edu>
+Organization: Biomedical Informatics Research
+User-Agent: Thunderbird 2.0.0.21 (X11/20090318)
+MIME-Version: 1.0
+To: acl@opus.cs.columbia.edu, agentcities@fipa.org, aiia@dis.uniroma1.it, 
+	aisb@sussex.ac.uk, chat@fipa.org, colibri@let.uu.nl, colognet@ucy.ac.cy,
+	community@mlnet.org, daml-all@daml.org, dotkom-project@dcs.shef.ac.uk, 
+	eccaiwww@eccai.org, ecoop-info@ecoop.org, editor@knowledgeboard.com, 
+	elsnet-list@elsnet.org, epontell@cs.nmsu.edu, 
+	esperofg-db@informatik.uni-rostock.de, glp@first.fhg.de, 
+	ISWORLD@listserv.heanet.ie, kaw@swi.psy.uva.nl, kweb-all@lists.deri.org,
+	news-announce-conferences@uunet.uu.net, 
+	ontoweb-list@informatik.uibk.ac.at, ontoweb-list@cs.vu.nl, 
+	ontology@fipa.org, onto@aifb.uni-karlsruhe.de, 
+	ontolog-forum@ontolog.cim3.net, protege-owl@lists.stanford.edu, 
+	protege-discussion@lists.stanford.edu, p4-feedback@lists.stanford.edu, 
+	project@aktors.org, public-sws-ig@w3.org, public-owl-dev@w3.org, 
+	semantik@uni-duesseldorf.de, seweb-list@cs.vu.nl, 
+	seweb-list@informatik.uibk.ac.at, sw-announce@semanticplanet.com, 
+	sw-ergo@gui-design.de, swws-list@isoco.com, 
+	wkwi@seda.sowi.uni-bamberg.de, www-rdf-logic@w3.org, 
+	www-rdf-rules@w3.org, www-webont-wg@w3.org, www-ws@w3.org, 
+	semantic-web@w3.org, sem-grd@gridforum.org, www-rdf-interest@w3.org, 
+	dl@dl.kr.org, ontogrid@delicias.dia.fi.upm.es, aepia@dsic.upv.es, 
+	kweb-o2i@listserv.vub.ac.be
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Mailman-Approved-At: Mon, 30 Mar 2009 00:24:29 +0200
+Cc: 
+Subject: [Elsnet-list] K-CAP 2009: Deadlines for research papers and
+ tutorial proposals
+ approaching (The 5th Intl. Conference on Knowledge Capture)
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Apologies for cross-postings. Please forward to interested
+colleagues and mailing lists.
+
+====================================================================
+
+                     K-CAP 2009
+   The 5th International Conference on Knowledge Capture
+                  1-4 September, 2009
+  Crowne Plaza Redondo Beach & Marina Hotel, California, USA
+
+              http://kcap09.stanford.edu
+
+    DEADLINES APPROACHING:
+   -------------------------------------
+     Tutorial submissions: April 1, 2009 (1 week from today)
+     Research paper submission: April 15, 2009 (3 weeks form today)
+
+     See the call for tutorial proposals and call for papers below
+
+    INVITED SPEAKERS
+   -------------------------------------
+     Professor Nigel Shadbolt (University of Southampton)
+     Professor Daniel Weld (University of Washington)
+
+====================================================================
+
+CALL FOR TUTORIALS
+---------------------------
+Web version: http://kcap09.stanford.edu/cft.html
+
+K-CAP tutorials are half-day and should aim to address a specific
+topic within the scope of conference or a topic which is of interest
+for the conference participants. It should provide either a
+introduction into the topic or a comprehensive overview of the topic
+addressed. The audience will mostly be the conference participants.
+The topic should be of sufficient relevance with respect to the
+state of the art. The course can be educational in nature or give a
+survey of state of the art techniques.
+
+Important Dates for Tutorials:
+------------------------------
+
+    * April 1, 2009: Proposal submission deadline
+    * April 25, 2009: Acceptance notification
+    * July 3, 2009: Deadline for camera-ready tutorial materials
+    * September 1, 2009: K-CAP 2009 tutorial
+
+Submitting a Proposal:
+----------------------
+
+Proposals for tutorials should be between two and five pages in
+length, and must include the following information:
+
+    * Contact information of the proposed tutorial lecturer(s) (all
+names, department, university, telephone, fax and e-mail, short bio-sketch)
+    * Tutorial title
+    * Aims and learning objectives including the scope (general topic area)
+    * Relevance to K-CAP attendees
+    * Length of course and estimated attendance
+    * Tutorial abstract (1-2 paragraphs suitable for inclusion in
+conference registration materials)
+    * Full description (1-2 pages to be used for evaluation)
+    * Relevant publications of the proposer(s) with respect to the topic
+and tutorial history (if any)
+    * Will tutorial materials be provided to attendees? If so, are there
+any copyright issues?
+
+Timetable:
+----------
+
+All proposals should be submitted by email to hotho@cs.uni-kassel.de
+(preferably in PDF) by April 1, 2009.
+
+Please send your proposals and any inquiries to:
+Andreas Hotho, hotho@cs.uni-kassel.de
+
+
+CALL FOR PAPERS
+------------------------
+Web version: http://kcap09.stanford.edu/cfp.html
+
+In today's knowledge-driven world, effective access to and use of
+information is a key enabler for progress. Modern technologies not only
+are themselves knowledge-intensive technologies, but also produce
+enormous amounts of new information that we must process and aggregate.
+These technologies require knowledge capture, which involve the
+extraction of useful knowledge from vast and diverse sources of
+information as well as its acquisition directly from users. Driven by
+the demands for knowledge-based applications and the unprecedented
+availability of information on the Web, the study of knowledge capture
+has a renewed importance.
+
+Researchers that work in the area of knowledge capture traditionally
+belong to several distinct research communities, including knowledge
+engineering, machine learning, natural language processing,
+human-computer interaction, artificial intelligence and the Semantic
+Web. K-CAP 2009 will provide a forum that brings together members of
+disparate research communities that are interested in efficiently
+capturing knowledge from a variety of sources and in creating
+representations that can be useful for reasoning, analysis, and other
+forms of machine processing. We solicit high-quality research papers for
+publication and presentation at our conference. Our aim is to promote
+multidisciplinary research that could lead to a new generation of tools
+and methodologies for knowledge capture. K-CAP 2009 follows on the
+success of four previous conferences in 2007 (Whistler, Canada), in 2005
+(Banff, Canada), in 2003 (Florida, USA), and 2001 (Victoria, Canada).
+
+The Fifth International Conference on Knowledge Capture, K-CAP 2009 will
+feature Invited Talks, Technical Papers, Workshops, Posters and Demos on
+a range of topics including:
+
+* Knowledge acquisition tools
+* Authoring tools
+* Knowledge extraction systems
+* Knowledge management environments
+* Knowledge capture for the Semantic Web
+* Collaborative and social approaches to knowledge management and
+acquisition
+* Learning apprentices
+* Mixed-initiative planning and decision-support tools
+* Acquisition of problem-solving knowledge
+* Knowledge-based markup techniques
+* Advice taking systems
+* Knowledge engineering and modeling methodologies
+
+IMPORTANT DATES
+
+Technical papers
+---------------------
+Papers due: April 15, 2009
+Author notification: May 31, 2009
+Camera-ready copy due: June 30, 2009
+
+Posters and demos
+------------------------
+Poster and demo submissions: June 15, 2009
+Author notifications: July 5, 2009
+
+Technical papers
+Complete formatting instructions (including Microsoft Word and Latex
+templates) are available on the conference website. Briefly, submitted
+papers should be 8 pages, two columns, 10-point Times Roman (or
+equivalent), and "US letter" page-size.
+
+Posters and demo descriptions
+Complete formatting instructions (including Microsoft Word and Latex
+templates) are available on the conference website. Briefly, submitted
+papers should be 2 pages, two columns, 10-point Times Roman (or
+equivalent), and "US letter" page-size.
+
+ABOUT THE VENUE
+
+The conference will be held in the beautiful Crowne Plaza Redondo Beach
+& Marina Hotel, which is only 7 miles (11.2 km) away from the Los
+Angeles International Airport (LAX). The location is only steps from the
+Redondo Beach and the bike path that runs along the South Bay in Los
+Angeles. Also within walking distance is a marina that offers
+opportunities for fishing, sailing, and free outdoor concerts.  The
+marina has many restaurants, a water park, and seal flocks.
+
+K-CAP 2009 ORGANIZING COMMITTEE
+
+General Chair: Yolanda Gil, USC Information Sciences Institute, USA
+Program Chair: Natasha Noy, Stanford University, USA
+Workshops and Tutorials Chair:  Andreas Hotho, University of Kassel, Germany
+Technology Chair: Tania Tudorache, Stanford University, USA
+
+K-CAP 2009 PROGRAM COMMITTEE
+
+Eugene Agichtein (Emory University, US)
+Harith Alani (University of Southampton, UK)
+Cecilia Aragon (Lawrence Berkeley Lab, US)
+Lora Aroyo (Free University of Amsterdam, the Netherlands)
+Ken Barker (University of Texas, US)
+Joachim Baumeister (University of Würzburg, Germany)
+Bettina Berendt (K.U.Leuven, Germany)
+Paul Buitelaar (DFKI, Germany)
+Mark Burstein (BBN, US)
+Vinay Chaudhri (SRI International, US)
+Philipp Cimiano (University of Karlsruhe, Germany)
+Peter Clark (Boeing, US)
+Oscar Corcho (Polytechnic University of Madrid, Spain)
+Martin Dzbor (KMi, Open University, UK)
+James Fan (IBM Research, US)
+George Ferguson (University of Rochester, US)
+Ken Forbus (Northwestern University, US)
+Aldo Gangemi (Italian National Research Council, Italy)
+John Gennari (University of Washington, US)
+Asun Gomez-Perez (Polytechnic University of Madrid, Spain)
+Mark Greaves (Vulcan, US)
+Bettina Hoser (University of Karlsruhe, Germany)
+Jane Hunter (The University of Queensland, Australia)
+Robert Jaeschke (University of Kassel, Germany)
+Jihie Kim (USC/ISI, US)
+Ross King (University of Wales at Aberystwyth, UK)
+Tolga Konik (Stanford University, US)
+Rob Kremer (University of Calgary, Canada)
+Ugur Kuter (University of Maryland, College Park, US)
+Juergen Lerner (University of Konstanz, Germany)
+James Lester (North Carolina State University, US)
+Henry Lieberman (MIT Media Laboratory, US)
+Peter Mika (Yahoo, Spain)
+Vibhu Mittal (Google, US)
+Riichiro Mizoguchi (Osaka University, Japan)
+Enrico Motta (The Open University, UK)
+Claudia Müller (University of Stuttgart, Germany)
+Mark Musen (Stanford University, US)
+Karen Myers (SRI International, US)
+Tomas Nordlander (University College Cork, Ireland)
+Tim Oates (University of Maryland Baltimore County, US)
+Alan Rector (University of Manchester, UK)
+Charles Rich (Worcester Polytechnic Institute, US)
+Harald Sack (University of Potsdam, Germany)
+Gianni Semeraro (University of Bari, Italy)
+Jude Shavlik (University of Wisconsin-Madison, US)
+Candy Sidner (BAE Systems, US)
+Richard Sproat (University of Illinois at Urbana-Champaign, US)
+Markus Strohmaier (Graz University of Technology, Austria)
+Gerd Stumme (University of Kassel, Germany)
+Prasad Tadepalli (Oregon State University, US)
+Valentina Tamma (University of Liverpool, UK)
+Dan Tecuci (University of Texas, US)
+Annette ten Teije (Free University Amsterdam, the Netherlands)
+Bob Wielinga (University of Amsterdam, the Netherlands)
+Michael Witbrock (Cycorp, US)
+Peter Yeh (Accenture, US)
+Derek Sleeman (University of Aberdeen, UK)
+Siegfried Handschuh (Digital Enterprise Research Institute, Ireland)
+
+K-CAP STEERING COMMITTEE
+
+Peter Clark (Boeing Company)
+Ken Forbus (Northwestern University)
+Yolanda Gil (USC)
+Rob Kremer (University of Calgary)
+Mark Musen (Stanford University)
+Jude Shavlik (University of Wisconsin at Madison)
+Derek Sleeman (University of Aberdeen)
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

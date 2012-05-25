@@ -1,0 +1,131 @@
+From - Thu Dec 10 14:39:20 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs130163bkq;
+        Fri, 4 Dec 2009 00:06:22 -0800 (PST)
+Received: by 10.213.24.9 with SMTP id t9mr2913955ebb.4.1259913972653;
+        Fri, 04 Dec 2009 00:06:12 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 24si3489769ewy.6.2009.12.04.00.06.10;
+        Fri, 04 Dec 2009 00:06:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1NGT5K-0003ga-Ie; Fri, 04 Dec 2009 09:00:14 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1NGT5I-0003gK-P5; Fri, 04 Dec 2009 09:00:12 +0100
+Received: from mail-fx0-f223.google.com [209.85.220.223] 
+	by rolf.uib.no for CORPORA@uib.no with esmtp  (Exim 4.69)
+	id 1NGT5I-0005pC-B9; Fri, 04 Dec 2009 09:00:12 +0100
+Received: by fxm23 with SMTP id 23so2118682fxm.38
+	for <CORPORA@uib.no>; Fri, 04 Dec 2009 00:00:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:date
+	:x-google-sender-auth:message-id:subject:from:to:content-type;
+	bh=cn9+lvFYDCNz5fxASQy79WrR9tVOFez3YpxG21CtCww=;
+	b=g16BxKe603xGqtzIP0NDenpNo+K9I4Mrev9ZcyX5Pgb9Y691ialAjtuOHTwYSm3M7L
+	nHsLWuBJ1ZgxdgqGy4adwTqYcCsc5WJtM+YPPAjeYrVGrt9Twlqv/pFXssWUYKwcyKpq
+	v8QDq+1mqLqzCz9it80b6cNg6Ui1kJOaHU9IE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type;
+	b=KpJZhX1g+eamVwhZslQ+/o+z7lQ5Zo3ZGBnk+cOKYsDsDfKC6xdIKniGNEX6p3b/dS
+	UfX/LWEug4qRmBDMfmqC68twPGAbmH6N6S/0oFXOo+DzJYfq1uDhPFprv3tGMZrouKH0
+	mzKW4idLq4b96TOdZuMZTZbnBcT5I7WZWSONI=
+MIME-Version: 1.0
+Received: by 10.223.143.21 with SMTP id s21mr431171fau.54.1259913611909; Fri, 
+	04 Dec 2009 00:00:11 -0800 (PST)
+Date: Fri, 4 Dec 2009 08:00:11 +0000
+X-Google-Sender-Auth: ba9bd4b0ab797f49
+Message-ID: <58cb54800912040000l2d4ab766je626d835a7bfbf79@mail.gmail.com>
+From: Philipp Koehn <pkoehn@inf.ed.ac.uk>
+To: CORPORA@uib.no, mt-list@eamt.org, moses-support@mit.edu, 
+	WMT09@googlegroups.com, emplus@dfki.de
+X-checked-clean: by exiscan on rolf
+X-Scanner: 4706c23dec7ede68724b8602c62c0a34 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.1 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+  0.1 BODY: UIB_MAILWON
+Subject: [Corpora-List] Call for Participation: ACL WMT 2010 Machine
+	Translation Shared Task
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+ACL 2010 FIFTH WORKSHOP ON STATISTICAL MACHINE TRANSLATION
+Shared Task: Machine Translation for European Languages
+July 15-16, in conjunction with ACL 2010 in Uppsala, Sweden
+
+http://www.statmt.org/wmt10/translation-task.html
+
+As part of the ACL WMT 2010 workshop, as in previous years, we organize
+a shared task on machine translation between European language pairs.
+
+Translation quality will be evaluated on an unseen test set of news stories.
+We provide a parallel corpus as training data, a baseline system, and
+additional
+resources for download. Participants may augment the baseline system or use
+their own system.
+
+The goals of the shared translation task are:
+    * To investigate the applicability of current MT techniques when
+translating
+       into languages other than English
+    * To examine special challenges in translating between European languag=
+es,
+       including word order differences and morphology
+    * To create publicly available corpora for machine translation and mach=
+ine
+       translation evaluation
+    * To generate up-to-date performance numbers for European languages in
+       order to provide a basis of comparison in future research
+    * To offer newcomers a smooth start with hands-on experience in
+state-of-the-art
+       statistical machine translation methods
+
+We hope that both beginners and established research groups will participate
+in this task.
+
+You may participate in any or all of the following language pairs:
+    * French-English
+    * Spanish-English
+    * German-English
+    * Czech-English
+
+For all language pairs we will test translation in both directions. To have=
+ a
+common framework that allows for comparable results, and also to lower
+the barrier to entry, we provide a common training set and baseline system.
+
+Dates
+    * December 4: Training data released
+    * February 15: Test data released (available on this web site)
+    * February 19: Results submissions
+    * March 26: Short paper submissions (4 pages)
+
+Organizers
+    * Chris Callison-Burch (Johns Hopkins University)
+    * Philipp Koehn (University of Edinburgh)
+    * Christof Monz (University of Amsterdam)
+    * Kay Peterson (NIST)
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

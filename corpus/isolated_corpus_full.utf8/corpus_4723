@@ -1,0 +1,196 @@
+From - Thu Dec 10 14:35:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.110.146 with SMTP id n18cs148515fap;
+        Tue, 17 Mar 2009 02:12:06 -0700 (PDT)
+Received: by 10.100.13.6 with SMTP id 6mr1340876anm.6.1237281124294;
+        Tue, 17 Mar 2009 02:12:04 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id c1si5270561ana.20.2009.03.17.02.12.02;
+        Tue, 17 Mar 2009 02:12:04 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n2H9C0nF029829
+	for <jpprost@gmail.com>; Tue, 17 Mar 2009 20:12:00 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n2H9C0T8029965
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 17 Mar 2009 20:12:00 +1100
+X-ASG-Debug-ID: 1237281119-539f01b40000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 1F86629F0204
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 17 Mar 2009 20:11:59 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id hiDl0omofuXTm1Kp for <jpprost@mailbox.ics.mq.edu.au>; Tue, 17 Mar 2009 20:11:59 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n2H9Bvl1029826
+	for <jpprost@ICS.MQ.EDU.AU>; Tue, 17 Mar 2009 20:11:58 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id B98E94D0D0;
+	Tue, 17 Mar 2009 10:10:50 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 1962011 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Tue, 17 Mar 2009
+          10:10:50 +0100
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 456134CFC8 for <chr@listserv.cc.kuleuven.ac.be>; Tue, 17 Mar 2009
+          10:10:50 +0100 (CET)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 7B83251C01C for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009
+          10:10:36 +0100 (CET)
+Received: from hermes.cs.kuleuven.be (mailrelay.cs.kuleuven.be [134.58.40.3])
+          by cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 51BA0341B1
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 10:10:22 +0100
+          (CET)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id n2H9AHV0032747 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 10:10:17 +0100
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id n2H9AHFI009049 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 10:10:17 +0100
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 08612-02 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17 Mar 2009 10:10:01 +0100
+          (CET)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id n2H98ut7008833 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17
+          Mar 2009 10:08:56 +0100
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.be [134.58.45.101]) by
+          nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          n2H98sNc024988 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT) for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 17
+          Mar 2009 10:08:55 +0100
+X-X-Sender: toms@"ender.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=us-ascii
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=-1.44, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44)
+X-KULeuven-Envelope-From: tom.schrijvers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0903171008360.19269@ender.cs.kuleuven.be.>
+Date:         Tue, 17 Mar 2009 10:08:54 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] PPDP'09 first Call for Papers (fwd)
+Subject: [CHR] PPDP'09 first Call for Papers (fwd)
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1237281119
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.20570
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+Our apology for multiple copies
+
+____________________________________________________________
+
+                         ACM PPDP 2009 -  Call For Papers
+
+             11th ACM-SIGPLAN* International Symposium on
+            Principles and Practice of Declarative Programming
+
+                   Coimbra, Portugal, September 7-9, 2009
+
+                          http://www.dcc.fc.up.pt/ppdp09
+
+____________________________________________________________
+
+IMPORTANT DATES:
+Submission:  May 7, 2009
+Notification:  June 14, 2009
+Conference:  September 7-9, 2009
+
+SCOPE:
+PPDP 2009 is a forum for researchers and practitioners in the declarative 
+programming communities. It solicits papers on all aspects of logic, constraint 
+and functional programming, as well as on related paradigms such as visual 
+programming, executable specification languages, database languages, AI and 
+knowledge representation languages for the semantic web.
+
+MAIN TOPICS:
+Logic, Constraint, and Functional Programming;
+Database, AI and Knowledge Representation Languages;
+Visual Programming; Executable Specification for Languages;
+Applications of Declarative  Programming;
+Methodologies for Program Design and Development;
+Declarative Aspects of Object-Oriented Programming;
+Concurrent Extensions to Declarative Languages;
+Declarative Mobile Computing; Paradigm Integration;
+Proof Theoretic and Semantic Foundations;
+Type and Module Systems;
+Program Analysis and Verification;
+Program Transformation;
+Abstract Machines and Compilation;
+Programming Environments.
+
+PROCEEDINGS:
+The proceedings will be published by ACM Press*
+
+RELATED EVENTS:
+PPDP 2008 will be co-located with the 18th EACSL Annual Conference on Computer 
+Science Logic (CSL 09) and the 19th International Symposium on Logic- Based 
+Program Synthesis and Transformation (LOPSTR 2009).
+
+PROGRAM CHAIR:
+Francisco J. Lopez-Fraguas  (Complutense Univ. Madrid, Spain)
+
+PROGRAM COMMITTEE:
+Sergio Antoy  (Portland State Univ., USA)
+Vitor Santos Costa  (Univ. Porto, Portugal)
+Veronica Dahl  (Simon Fraser Univ., Canada)
+Agostino Dovier  (Univ. Udine, Italy)
+Rachid Echahed  (IMAG Grenoble, France)
+John Gallagher  (Univ. Roskilde, Denmark)
+Michael Hanus  (Univ. Kiel, Germany)
+Ralf Hinze  (Oxford Univ., UK)
+Yukiyoshi Kameyama  (Univ. Tsukuba, Japan)
+Helene Kirchner  (INRIA Bordaux, France)
+Michael Leuschel  (Univ. Dusseldorf, Germany)
+Rita Loogen  (Univ. Maarburg, Germany)
+Francisco J. Lopez-Fraguas (Complutense Univ. Madrid, Spain)
+Lunjin Lu  (Oakland Univ., USA)
+Maria Chiara Meo  (Univ. G. D'annunzio, Italy)
+Gopalan Nadathur (Univ. Minnesota, USA)
+Fernando Orejas  (Technical Univ. Catalunya, Spain)
+Catuscia Palamidessi  (INRIA Saclay, France)
+Rinus Plasmeijer  (Univ. Nijmegen, The Netherlands)
+Antonio Porto  (Univ. Porto, Portugal)
+Grigore Rosu  (Univ. Illinois at Urbana-Champaign, USA)
+Taisuke Sato  (Tokyo Inst. of Tech., Japan)
+Tom Schrijvers  (K. Univ. Leuven, Belgium)
+Peter Stuckey  (Melbourne Univ., Australia)
+German Vidal  (Technical Univ. Valencia, Spain)
+
+SYMPOSIUM CHAIR:
+Antonio Porto  (Univ. Porto, Portugal)
+
+LOCAL CHAIR:
+Ana Paula Tomas  (Univ. Porto, Portugal)
+
+
+*ACM-SIGPLAN approval is pending
+
+********************************
+Francisco J. Lopez Fraguas
+Dep. Sistemas Informaticos y Computacion
+Fac. Informatica U. Complutense Madrid
+C/ Profesor Jose Garcia Santesmases s/n
+28040 Madrid
+Spain
+
+Tel: +34 91 3947630
+********************************

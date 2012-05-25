@@ -1,0 +1,645 @@
+From - Thu Dec 10 14:38:05 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.122.79 with SMTP id k15cs59510bkr;
+        Fri, 21 Aug 2009 01:41:37 -0700 (PDT)
+Received: by 10.210.141.5 with SMTP id o5mr910150ebd.5.1250844093649;
+        Fri, 21 Aug 2009 01:41:33 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 1si2021362ewy.2.2009.08.21.01.41.32;
+        Fri, 21 Aug 2009 01:41:33 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 3AE9524E60; Fri, 21 Aug 2009 10:41:31 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 17CA324E56;
+	Fri, 21 Aug 2009 10:40:33 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id EBD2E3D3D;
+	Fri, 21 Aug 2009 10:40:32 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vJi9P3cN0iLT; Fri, 21 Aug 2009 10:40:32 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2D2D63D2B;
+	Fri, 21 Aug 2009 10:40:31 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8FD393D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 20 Aug 2009 18:28:47 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LtEYzciiMiTF for <elsnet-list@mailman.elsnet.org>;
+	Thu, 20 Aug 2009 18:28:47 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5288A3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 20 Aug 2009 18:28:27 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id F338724BDA; Thu, 20 Aug 2009 18:28:26 +0200 (MEST)
+X-Greylist: delayed 14409 seconds by postgrey-1.28 at newjura;
+	Thu, 20 Aug 2009 18:28:16 MEST
+Received: from smtp01.cityu.edu.hk (smtp01.cityu.edu.hk [144.214.4.70])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BAF5C24B91
+	for <elsnet-list@elsnet.org>; Thu, 20 Aug 2009 18:28:11 +0200 (MEST)
+MIME-version: 1.0
+Received: from pmxchannel-daemon.smtp01.cityu.edu.hk by smtp01.cityu.edu.hk
+	(Sun Java(tm) System Messaging Server 6.3-6.03 (built Mar 14 2008;
+	32bit))
+	id <0KON00500NMK9300@smtp01.cityu.edu.hk> for elsnet-list@elsnet.org;
+	Thu, 20 Aug 2009 11:13:32 +0800 (HKT)
+Received: from ct020032 ([144.214.20.32])
+	by smtp01.cityu.edu.hk (Sun Java(tm) System Messaging Server 6.3-6.03
+	(built Mar 14 2008;
+	32bit)) with ESMTP id <0KON00KJ7NMJIFE0@smtp01.cityu.edu.hk> for
+	elsnet-list@elsnet.org; Thu, 20 Aug 2009 11:13:31 +0800 (HKT)
+Date: Thu, 20 Aug 2009 11:13:31 +0800
+From: Alex Chengyu Fang <acfang@cityu.edu.hk>
+To: elsnet-list@elsnet.org
+Message-id: <A2DF17D29A6644419171B82608AF63BF@ad.cityu.edu.hk>
+X-MIMEOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Mailer: Microsoft Office Outlook 11
+Thread-index: AcohRDHO8ZqIsKgDTyy6H9gvJZN46w==
+X-PMX-Version: 5.5.0.356843
+X-Mailman-Approved-At: Fri, 21 Aug 2009 10:39:28 +0200
+Cc: 
+Subject: [Elsnet-list] CFP: IGCL 2010 *** DEADLINE CHANGE ****
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1567393319=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============1567393319==
+Content-type: multipart/alternative;
+	boundary="Boundary_(ID_0BpsSPUe4Rp2Qb1zdQkSFw)"
+
+This is a multi-part message in MIME format.
+
+--Boundary_(ID_0BpsSPUe4Rp2Qb1zdQkSFw)
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+Announcement and Call for Papers
+
+ICGL2010: The Second International Conference on Global Interoperability for
+Language Resources
+
+City University of Hong Kong
+
+Hong Kong SAR, China
+
+18 - 20 January 2010
+
+http://icgl.ctl.cityu.edu.hk/ 
+
+Language resources, including not only corpora but also lexicons, knowledge
+bases, ontologies, and grammars, support the development of language
+processing applications that are increasingly important to the global
+society. Substantial effort has been devoted to the creation of such
+resources for the world's major languages over the past decades, and new
+projects are developing similar resources for less widely-used languages.
+Some standards and best practices have emerged for representing and linking
+language corpora and annotations. Efforts such as the "Global WordNet" and
+the development of framenets in multiple languages seek to create and link
+specific lexical and semantic resources across languages, and there are
+efforts to integrate such resources into general-purpose ontologies such as
+SUMO.
+
+As the need for cross-lingual studies and applications grows, it is
+increasingly important to develop resources in the world's languages that
+can be compared and linked, used and analyzed with common software, and that
+contain linguistic information for the same or comparable phenomena. We
+envision the eventual development of a "global web" of language resources,
+wherein, for example, linguistically-annotated corpora in multiple languages
+are inter-linked via the use of common categories, or categories that are
+mapped to one another; resources such as wordnets and framenets are linked
+not only to versions in different languages, but also to each other; and
+common representations enable analysis and use of resources in different
+languages and of different types within available systems. Interoperability
+also fosters universal access to language resources, enabling researchers
+who have fewer resources for performing costly and time-consuming
+transductions to have the same capabilities as others.
+
+The Second International Conference on Global Interoperability for Language
+Resources will bring together designers, developers, and users of language
+resources, tools, frameworks, and infrastructures from across the globe, in
+order to:
+
+*         assess the state of the art in methods and schemes for resource
+representation, annotation, processing, interlinkage, and access;
+
+*         consider the ways in which web technologies are and may be used to
+enable resource accessibility, interoperability and inter-linkage;
+
+*         consider the requirements for (and obstacles to) full
+interoperability, especially with regard to multi-lingual and multi-modal
+data;
+
+*         consider the requirements for achieving interoperability among
+multi-lingual resources of different types, including corpora, lexicons,
+knowledge bases, ontologies, etc., as well as the systems and frameworks
+that enable their creation and exploitation;
+
+*         work toward the definition of best practice guidelines and
+standards for language resource representation, annotation, and use that
+will enable interoperability;
+
+*         consider means to map or harmonize linguistic information in order
+to better enable cross-lingual studies;
+
+*         provide direction for developers of resources for less widely used
+languages;
+
+*         promote collaboration and cooperation among developers of language
+resources and tools across the globe;
+
+*         consider ways to provide central or distributed access to language
+resources developed throughout the world. 
+
+This year's conference will include a special focus on the use of web-based
+technologies for interoperability and open access to language resources.
+
+ Topics
+
+Paper submissions are invited on (but not limited to) the following topics:
+
+*      web-based technologies for resource interoperability, inter-linkage,
+and access;
+
+*      multi-lingual and/or multi-modal language resources, with focus on
+the mechanisms enabling interoperability;
+
+*      support for multi-linguality and multi-modality in systems/frameworks
+for resource creation, annotation,  use, and access;
+
+*      existing and proposed standards for language resources, including
+standards for linguistic annotations at any and all linguistics levels;
+
+*      systems, frameworks, and architectures to support the development and
+use of interoperable language resources;
+
+*      evaluation of existing resources, systems and frameworks, and/or
+standards in terms of support for interoperability;
+
+*      harmonization, integration, and/or linking of language resources,
+including corpora, wordnets, framenets, ontologies, etc.;
+
+*      ontologies for language resources, especially for support of
+multi-linguality, multi-culturality, and multi-modality. 
+
+Proceedings
+
+Accepted papers will be included in the conference proceedings. A selection
+of outstanding conference presentations will be published in a special issue
+of the journal Language Resources and Evaluation. 
+
+Submissions
+
+Submissions should be no more than 8 pages in length, including bibliography
+and any appendices. Author instructions will be posted on the conference web
+site. 
+
+Important dates
+
+Paper submission deadline: 15 October 2009
+
+Notification of acceptance: 15 November 2009
+
+Camera-ready papers due: 30 November 2009
+
+Conference dates: 18 - 20 January 2010
+
+ 
+
+Conference Organising Committee:
+
+Conference Convener:              Jonathan Webster, City University of Hong
+Kong
+
+Conference Co-Chairs:             Nancy Ide, Vassar College, USA
+
+Alex Chengyu Fang, City University of Hong Kong
+
+Conference Secretary:              Ernest Lam, City University of Hong Kong
+
+Conference Webmaster:           Kin Tat Ko, City University of Hong Kong
+
+Conference Website:                http:// <http://icgl.ctl.cityu.edu.hk/>
+icgl.ctl.cityu.edu.hk/
+
+Conference Inquiry:                  icgl2010@cityu.edu.hk
+
+ 
+
+
+--Boundary_(ID_0BpsSPUe4Rp2Qb1zdQkSFw)
+Content-type: text/html; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 11 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:&#26032;&#32048;&#26126;&#39636;;
+	panose-1:2 2 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@&#26032;&#32048;&#26126;&#39636;";
+	panose-1:2 2 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Times;
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:navy;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:Arial;
+	color:windowtext;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=navy>
+
+<div class=Section1>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black;font-weight:bold'>Announcement and Call for Papers</span></font></b><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><font
+size=4 color=black face=Times><span style='font-size:14.0pt;font-family:Times;
+color:black;font-weight:bold'>ICGL2010: The Second&nbsp;International
+Conference on Global Interoperability for Language Resources</span></font></b><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>City University of Hong Kong<o:p></o:p></span></font></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+class=apple-style-span><font size=3 color=black face=Times><span
+style='font-size:12.0pt;font-family:Times;color:black'>Hong Kong&nbsp;SAR,
+China</span></font></span><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>18 &#8211; 20&nbsp;January 2010<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>http://icgl.ctl.cityu.edu.hk/&nbsp;</span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Language resources, including not only corpora but also lexicons,
+knowledge bases, ontologies, and grammars, support the development of language
+processing applications that are increasingly important to the global society.
+Substantial effort has been devoted to the creation of such resources for the
+world&#8217;s major languages over the past decades, and new projects are developing
+similar resources for less widely-used languages. Some standards and best
+practices have emerged for representing and linking language corpora and
+annotations. Efforts such as the &#8220;Global WordNet&#8221; and the development of
+framenets in multiple languages seek to create and link specific lexical and
+semantic resources across languages, and there are efforts to integrate such resources
+into general-purpose ontologies such as SUMO.<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'><O:P>As the need for cross-lingual studies and applications grows,
+it is increasingly important to develop resources in the world&#8217;s languages that
+can be compared and linked, used and analyzed with common software, and that
+contain linguistic information for the same or comparable phenomena. We
+envision the eventual development of a &#8220;global web&#8221; of language resources,
+wherein, for example, linguistically-annotated corpora in multiple languages
+are inter-linked via the use of common categories, or categories that are
+mapped to one another; resources such as wordnets and framenets are linked not
+only to versions in different languages, but also to each other; and common
+representations enable analysis and use of resources in different languages and
+of different types within available systems. Interoperability also fosters
+universal access to language resources, enabling researchers who have fewer
+resources for performing costly and time-consuming transductions to have the
+same capabilities as others.</O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+class=apple-style-span><O:P><font size=3 color=black face=Times><span
+style='font-size:12.0pt;font-family:Times;color:black'>The&nbsp;Second&nbsp;International&nbsp;Conference
+on Global Interoperability for Language Resources will bring together
+designers, developers, and users of language resources, tools, frameworks, and
+infrastructures from across the globe, in order to:</O:P></span></font></span><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+class=apple-style-span><O:P><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font></span><span
+class=apple-style-span><font size=1 color=black><span style='font-size:7.0pt;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></span><span
+class=apple-style-span><font color=black face=Times><span style='font-family:
+Times;color:black'>assess the state of the art in methods and schemes for
+resource representation, annotation, processing, interlinkage, and access;</O:P></span></font></span><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>consider the
+ways in which web technologies are and may be used to enable resource accessibility,
+interoperability and inter-linkage;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>consider the
+requirements for (and obstacles to) full interoperability, especially with
+regard to multi-lingual and multi-modal data;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>consider the
+requirements for achieving interoperability among multi-lingual resources of
+different types, including corpora, lexicons, knowledge bases, ontologies,
+etc., as well as the systems and frameworks that enable their creation and
+exploitation;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>work toward
+the definition of best practice guidelines and standards for language resource
+representation, annotation, and use that will enable interoperability;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>consider
+means to map or harmonize linguistic information in order to better enable
+cross-lingual studies;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>provide
+direction for developers of resources for less widely used languages;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>promote
+collaboration and cooperation among developers of language resources and tools
+across the globe;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>consider
+ways to provide central or distributed access to language resources developed
+throughout the world.&nbsp;</span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:24.0pt;text-indent:-24.0pt'><span class=apple-style-span><b><i><font
+size=2 color=black face=Times><span style='font-size:10.5pt;font-family:Times;
+color:black;font-weight:bold;font-style:italic'>This year&#8217;s conference will
+include a special focus on the use of web-based technologies
+for&nbsp;interoperability and open access to language resources.</span></font></i></b></span><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'><O:P>&nbsp;<span class=apple-style-span><b><span style='font-weight:
+bold'>Topics</O:P></span></b></span></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Paper submissions are invited on (but not limited to) the
+following topics:<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+class=apple-style-span><O:P><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font></span><span
+class=apple-style-span><font size=1 color=black><span style='font-size:7.0pt;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></span><span
+class=apple-style-span><font color=black face=Times><span style='font-family:
+Times;color:black'>web-based technologies for resource interoperability,
+inter-linkage, and access;</O:P></span></font></span><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>multi-lingual
+and/or multi-modal language resources, with focus on the mechanisms enabling
+interoperability;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>support for
+multi-linguality and multi-modality in systems/frameworks for resource
+creation, annotation,&nbsp;&nbsp;use, and access;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>existing and
+proposed standards for language resources, including standards for linguistic
+annotations at any and all linguistics levels;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>systems,
+frameworks, and architectures to support the development and use of
+interoperable language resources;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>evaluation
+of existing resources, systems and frameworks, and/or standards in terms of
+support for interoperability;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>harmonization,
+integration, and/or linking of language resources, including corpora, wordnets,
+framenets, ontologies, etc.;<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:18.0pt;text-indent:-18.0pt'><font size=3 color=black face=Symbol><span
+style='font-size:12.0pt;font-family:Symbol;color:black'>&middot;</span></font><font
+size=1 color=black><span style='font-size:7.0pt;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font><font
+color=black face=Times><span style='font-family:Times;color:black'>ontologies
+for language resources, especially for support of&nbsp;&nbsp;multi-linguality,
+multi-culturality, and multi-modality.&nbsp;</span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black;font-weight:bold'>Proceedings<O:P></O:P></span></font></b><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Accepted papers will be included in&nbsp;the&nbsp;conference
+proceedings. A selection of outstanding conference presentations will be
+published in a special issue of the journal&nbsp;<i><span style='font-style:
+italic'>Language Resources and Evaluation</span></i>.&nbsp;</span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black;font-weight:bold'>Submissions<O:P></O:P></span></font></b><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Submissions should be&nbsp;no more than&nbsp;8&nbsp;pages in
+length, including bibliography and any appendices. Author instructions will be
+posted on the conference web site.&nbsp;</span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black;font-weight:bold'>Important dates<O:P></O:P></span></font></b><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Paper submission deadline:&nbsp;15&nbsp;October&nbsp;2009<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Notification of acceptance:&nbsp;15 November 2009<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Camera-ready papers due:&nbsp;30&nbsp;November&nbsp;2009<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference dates:&nbsp;18 &#8211; 20&nbsp;January 2010<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 face="Times New Roman"><span style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+class=apple-style-span><O:P><b><font size=3 color=black face=Times><span
+style='font-size:12.0pt;font-family:Times;color:black;font-weight:bold'>Conference
+Organising Committee:</O:P></span></font></b></span><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference Convener:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jonathan
+Webster, City University of Hong Kong</span></font><o:p></o:p></p>
+
+<O:P></O:P>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference Co-Chairs: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nancy
+Ide, Vassar College, USA<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:108.0pt;text-indent:36.0pt'><font size=3 color=black face=Times><span
+style='font-size:12.0pt;font-family:Times;color:black'>Alex Chengyu Fang, City
+University of Hong Kong<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference Secretary:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ernest
+Lam, City University of Hong Kong</span></font><o:p></o:p></p>
+
+<O:P></O:P>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference Webmaster:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kin
+Tat Ko, City University of Hong Kong<O:P></O:P></span></font><o:p></o:p></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference Website:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+href="http://icgl.ctl.cityu.edu.hk/"
+title="blocked::http://icgl.ctl.cityu.edu.hk/">http://<span
+title="blocked::http://icgl.ctl.cityu.edu.hk/">icgl</span>.<span
+title="blocked::http://icgl.ctl.cityu.edu.hk/">ctl.</span>cityu.edu.hk/</a></span></font><o:p></o:p></p>
+
+<O:P></O:P>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><font
+size=3 color=black face=Times><span style='font-size:12.0pt;font-family:Times;
+color:black'>Conference Inquiry:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+href="mailto:icgl2010@cityu.edu.hk"
+title="blocked::mailto:icgl2010@cityu.edu.hk">icgl2010@cityu.edu.hk</a></span></font><o:p></o:p></p>
+
+<p class=MsoNormal><font size=2 face=Arial><span style='font-size:10.0pt;
+font-family:Arial'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+--Boundary_(ID_0BpsSPUe4Rp2Qb1zdQkSFw)--
+
+--===============1567393319==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1567393319==--

@@ -1,0 +1,179 @@
+From - Thu Dec 10 14:25:59 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.111.11 with SMTP id j11cs110825buc;
+        Thu, 22 Feb 2007 07:48:09 -0800 (PST)
+Received: by 10.67.117.2 with SMTP id u2mr775078ugm.1172159289113;
+        Thu, 22 Feb 2007 07:48:09 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id j1si786393ugf.2007.02.22.07.48.06;
+        Thu, 22 Feb 2007 07:48:09 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1HKGAO-0000lx-70; Thu, 22 Feb 2007 16:47:32 +0100
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1HKGAK-0009VP-Ak; Thu, 22 Feb 2007 16:47:28 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1HKGAJ-0009VK-U8; Thu, 22 Feb 2007 16:47:27 +0100
+Received: from ns.itc.it (lancelot.itc.it) [217.77.80.3] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
+	id 1HKGAD-0005I7-C7; Thu, 22 Feb 2007 16:47:24 +0100
+Received: from lancelot (unknown [127.0.0.1])
+	by lancelot.itc.it (Symantec Mail Security) with ESMTP id ABDC438C1BC
+	for <CORPORA@UIB.NO>; Thu, 22 Feb 2007 16:24:11 +0100 (CET)
+X-AuditID: d94d5003-aed5bbb0000004c3-18-45ddb59bab7f 
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Subject: [Corpora-List] RTE3 OPTIONAL PILOT TASK: EXTENDING THE EVALUATION OF INFERENCES FROM TEXTS - CALL FOR PARTICIPATION
+Date: Thu, 22 Feb 2007 16:24:10 +0100
+Message-ID: <ABFBC9C1086F394AACE0A29152D1F0BAE395A8@ntmail.pc.itc.it>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: RTE3 OPTIONAL PILOT TASK: EXTENDING THE EVALUATION OF INFERENCES FROM TEXTS - CALL FOR PARTICIPATION
+Thread-Index: AcdWlYBBY61sKokqTfuGvkdkZbPyrg==
+From: "Danilo Giampiccolo" <giampiccolo@itc.it>
+To: <CORPORA@UIB.NO>
+X-Brightmail-Tracker: AAAAAA==
+X-checked-clean: by exiscan on rolf
+X-Scanner: 5a96603bda32f4f5573a646693c8c3e7 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 2.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 Received: contains a forged HELO
+  2.0 Subject is all capitals
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+Apologies for cross-postings.
+
+
+RTE3 OPTIONAL PILOT TASK-CALL FOR PARTICIPATION
+EXTENDING THE EVALUATION OF INFERENCES FROM TEXTS
+ (http://www.pascal-network.org/Challenges/RTE3/)
+
+
+PASCAL RTE has successfully trailblazed a path for evaluating the
+capacity of systems to automatically infer information from texts.
+However, it does not presently address all issues in textual entailment.
+At least one new area is already being addressed this year within RTE3:
+trialing the use of longer passage texts. This optional pilot explores
+two other tasks closely related to textual entailment: differentiating
+unknown from false/contradicts and providing justifications for answers.
+This task will piggyback on the existing RTE3 Challenge infrastructure
+and evaluation process by using the same test set but with a later
+submission deadline for answers than the primary task.=20
+
+The goal of making a three-way decision of "YES", "NO" and "UNKNOWN" is
+to drive systems to make more precise informational distinctions.   A
+hypothesis being unknown on the basis of a text should be distinguished
+from a hypothesis being shown false/contradicted by a text.  The goal
+for providing justifications for decisions is to explore how eventual
+users of tools incorporating entailment can be made to understand how
+decisions were reached by a system. Users are unlikely to trust a system
+that gives no explanation for its decisions.
+
+The pilot task seeks participation from all interested parties, and we
+hope that it will be of interest to many PASCAL RTE participants, and
+can help inform the design of the main task for future RTE Challenges.
+The US National Institute of Standards and Technology will perform
+evaluation, using human assessors for the inference task.
+
+
+EXTENDED TASK DESCRIPTION
+
+* Everyone is invited to participate in the extended task.
+* Teams participating in the extended task will be asked to treat the
+RTE3 test data as blind test data until after they submit to the
+extended task.
+* Teams participating in the extended task submit a 3-way answer key for
+the test set used in the primary task. =20
+* Optionally, a team can also submit a justification for how the answer
+was derived for each pair.
+* The 3-way answers use the same format as the standard PASCAL
+submission, but are unranked (and allow 3 answers: YES, UNKNOWN, NO).
+* A justification consists of a set of ASCII strings delimited by
+begin/end tags.  The purpose of the justification is to explain to an
+ordinary person (i.e., not a linguist or logician) why the given answer
+is correct.  True examples should indicate the basis for concluding that
+a hypothesis is true. Otherwise, the justification should indicate at
+least one reason why the hypothesis does not follow from the text. In
+either case, a system should provide any background, lexical, or world
+knowledge that it uses in addressing a pair and indicate which parts of
+the text are used to justify or differentiate from which parts of the
+hypothesis. The format and content of justifications is intentionally
+underspecified since we are interested in learning what makes a good
+justification.
+* People may submit up to 2 answer keys to the pilot task. The answers
+need not be consistent with their submission to the main RTE task.
+* The three-way decisions are made by splitting the "NO" category of the
+primary task's gold standard answer key into NO and UNKNOWN categories.
+The criterion for "NO" mirrors the standard of proof for PASCAL RTE's
+"YES": it is very unlikely that the text and hypothesis could both be
+true. NIST will determine a gold standard answer key, score the
+submitted runs with it, and they will make the gold standard key
+available.
+* The 3-way answer key is scored using two metrics (on unranked
+answers): accuracy and Fbeta=3D3 of precision and recall on the YES and =
+NO
+categories, with the weighting preferring high precision. (This allows a
+system that opts for "UNKNOWN" when it is unsure of the answer to
+receive reasonable credit.)
+* NIST human assessors will also assign scores for some (relatively
+small) subset of the justifications of the test set pairs. The subset to
+use will be selected to include YES, NO, and UNKNOWN pairs.  The size of
+the subset will be largely determined by how many submissions are
+received and how difficult it is to assess the justifications. =20
+* Justifications will be scored on a 5 point scale for each of
+correctness and usability.  'Usability' is whether the assessor can
+comprehend the justification.  If (and only if) the justification
+receives a high-enough score on the usability component, then the
+assessor will assign a score for correctness.  A system will be marked
+down for correctness if it made inferences which clearly do not follow
+from the text and provided background knowledge, or failed to draw
+inferences that were possible.=20
+* It is not possible to construct a gold standard answer key for
+justifications.  NIST will compute some (to be determined) aggregate
+score for the justification=20
+component for submitted runs.
+* A report version of the extended task will be prepared in time for the
+RTE-3 workshop (but separately, not within the usual ACL proceedings
+process), and some time will be made available to discuss it during the
+RTE-3 workshop. The timing would require participants to mostly write a
+report on their systems prior to the release of results.
+
+IMPORTANT DATES
+
+* Guidelines distributed: Feb 23, 2007.
+* A 3-way answer key for the RTE-3 development data is available: Feb
+28, 2007.
+* Sample justifications (8-10 illustrative examples and how they might
+be judged) available: Mar 30, 2007.
+* Submissions for the extended task are due April 30, 2007.
+* Results for both parts of the extended task returned to participants
+no later than June 7.=20
+
+REGISTRATION
+
+For registration, further information and inquiries, please visit the
+RTE3 website:
+http://www.pascal-network.org/Challenges/RTE3/.
+
+ORGANIZING COMMITTEE
+
+This pilot is being organized by Christopher Manning
+<manning@cs.stanford.edu>, Dan Moldovan <moldovan@languagecomputer.com>,
+and Ellen Voorhees=20
+<ellen.voorhees@nist.gov>, with input from the PASCAL RTE Organizers.=20
+
+CONTACTS
+Please direct any questions to the pilot organizers, putting "[RTE3]" in
+the subject header.
+

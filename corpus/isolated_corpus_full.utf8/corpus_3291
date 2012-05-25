@@ -1,0 +1,238 @@
+From - Thu Dec 10 14:32:34 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs191873waa;
+        Thu, 17 Jul 2008 06:09:19 -0700 (PDT)
+Received: by 10.114.38.2 with SMTP id l2mr1556561wal.200.1216300157936;
+        Thu, 17 Jul 2008 06:09:17 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id n32si14629515wag.47.2008.07.17.06.09.16;
+        Thu, 17 Jul 2008 06:09:17 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6HD9F6L001174
+	for <jpprost@gmail.com>; Thu, 17 Jul 2008 23:09:15 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m6HD9Fml021846
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Jul 2008 23:09:15 +1000
+X-ASG-Debug-ID: 1216300153-57b8014b0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 61C441FEFC6B
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Jul 2008 23:09:13 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id GFiLed6WMUs4LA7y for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Jul 2008 23:09:13 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6HD9B25001162
+	for <jpprost@ICS.MQ.EDU.AU>; Thu, 17 Jul 2008 23:09:11 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 8F32F39B20;
+	Thu, 17 Jul 2008 15:09:08 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 8183074 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Thu, 17 Jul 2008
+          15:09:08 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id DD0D2A0A9 for <chr@listserv.cc.kuleuven.ac.be>; Thu, 17 Jul 2008
+          15:09:07 +0200 (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 91A9E51C749 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008
+          15:09:01 +0200 (CEST)
+Received: from hermes.cs.kuleuven.be (hermes.cs.kuleuven.be [134.58.40.3]) by
+          cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 8C179341AE for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:09:01 +0200
+          (CEST)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id m6HD911n025377 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:09:01 +0200
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id m6HD91m8019857 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:09:01 +0200
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 19824-01-5 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17 Jul 2008 15:08:51 +0200
+          (CEST)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id m6HD7QAm019742 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17
+          Jul 2008 15:07:26 +0200
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.be [134.58.45.101]) by
+          nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          m6HD7PdO005053 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT) for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 17
+          Jul 2008 15:07:26 +0200
+X-X-Sender: toms@"ender.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="1686784523-1074288140-1216070795=:8477"
+Content-ID: <alpine.DEB.0.99.0807171507081.3391@ender.cs.kuleuven.be.>
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=-1.44, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44)
+X-KULeuven-Envelope-From: tom.schrijvers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0807171507080.3391@ender.cs.kuleuven.be.>
+Date:         Thu, 17 Jul 2008 15:07:25 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] WLPE'08 -- Call for Papers
+Subject: [CHR] WLPE'08 -- Call for Papers
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1216300154
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.56305
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--1686784523-1074288140-1216070795=:8477
+Content-Type: TEXT/PLAIN; CHARSET=iso-8859-15; FORMAT=flowed
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-ID: <Pine.LNX.4.64.0807142329081.8805@clip.dia.fi.upm.es>
+
+
+                       WLPE'08 -- Call for Papers
+
+The 18th Workshop on Logic-based methods in  Programming Environments
+
+           http://www.clip.dia.fi.upm.es/Conferences/WLPE08/
+
+
+                  December 9th-13th 2008, Udine, Italy
+
+                   (Satellite Workshop of ICLP 2008)
+
+
+
+The 18th  Workshop on Logic-based methods  in Programming Environments
+will  take place in  Udine (Italy),  as a  satellite workshop  of ICLP
+2008,  the 24th  International Conference  on Logic  Programming. This
+workshop  will   continue  the  series   of  successful  international
+workshops on logic programming  environments held in Ohio, USA (1989),
+Eilat,  Israel  (1990), Paris,  France  (1991),  Washington D.C.,  USA
+(1992),  Vancouver,  Canada  (1993),  Santa Margherita  Ligure,  Italy
+(1994), Portland, USA (1995),  Leuven, Belgium (1997), Las Cruces, USA
+(1999),  Paphos, Cyprus  (2001), Copenhagen,  Denmark  (2002), Mumbai,
+India  (2003), Saint  Malo, France  (2004), Sitges  (Barcelona), Spain
+(2005),  Seattle,  USA  (2006)   and  Porto,  Portugal  (2007).   More
+information  about  the series  of  WLPE  workshops  can be  found  at
+http://www.cs.usask.ca/projects/envlop/WLPE/
+
+The  workshop aims at  providing an  informal meeting  for researchers
+working  on  logic-based  methods  and  tools  which  support  program
+development  and  analysis.   This  year,  we  plan  to  continue  and
+consolidate  the shift  in focus  from environmental  tools  for logic
+programming  to  logic-based environmental  tools  for programming  in
+general, so that this workshop can be possibly interesting for a wider
+scientific   community.   In  addition   to  papers   describing  more
+conceptual  and theoretical  work, the  call for  papers  will solicit
+papers describing the implementation of, and the experience with, such
+tools.  Areas  particularly relevant to the workshop  include (but are
+not limited to):
+
+   -  static and dynamic analysis
+   -  debugging and testing
+   -  program verification and validation
+   -  code generation from specifications
+   -  termination and non-termination analysis
+   -  reasoning on occurs-check freeness and determinacy
+   -  profiling and performance analysis
+   -  type- and mode analysis
+   -  module systems
+   -  optimization tools
+
+Authors who are interested in taking part in the workshop, but are
+unsure if their work falls within its scope, are invited to contact
+the organizers and will be given suitable advice.
+
+Workshop Organizers
+-------------------
+     Puri Arenas
+     Facultad de Informatica
+     Universidad Complutense de Madrid
+     28040-Madrid, Spain
+     Email: puri@sip.ucm.es
+     Phone: +34 91 394 76 33
+     Fax: +34 91 336 50 18
+     http://www.clip.dia.fi.upm.es/puri
+
+     Damiano Zanardini
+     Facultad de Informatica
+     Universidad Polit=C3=A9cnica de Madrid
+     28660-Boadilla del Monte, Madrid, Spain
+     Email: damiano@clip.dia.fi.upm.es
+     Phone:  +34 91 336 74 48
+     Fax: +34 91 394 75 29
+     http://www.clip.dia.fi.upm.es/damiano
+
+Program Committee
+-----------------
+
+  - Puri Arenas, Universidad Complutense de Madrid (ws co-chair)
+  - Michael Codish, Ben-Gurion University of the Negev
+  - Roberta Gori, Universita di Pisa
+  - Arnaud Gotlieb, IRISA/CNRS UMR 6074
+  - Patricia Hill, University of Leeds
+  - Jacob Howe, City University, London
+  - Sabina Rossi, Universita Ca' Foscari di Venezia
+  - Tom Schrijvers, K.U.Leuven
+  - Alexander Serebrenik, Technische Universiteit Eindhoven
+  - Wim Vanhoof, University of Namur
+  - German Vidal, Universidad Politecnica de Valencia
+  - Damiano Zanardini, Universidad Politecnica de Madrid,(ws co-chair)
+
+Important Dates
+---------------
+
+   Submission:   September 15th, 2008 (23:59:59 Samoa time (GMT -11))
+   Notification: October 8th, 2008
+   Camera-ready: October 26th, 2008
+   Workshop:     TBA (probably Dec 9th or Dec 13th, half-day)
+
+Submission
+----------
+
+Papers should be submitted to
+
+   http://www.easychair.org/conferences/?conf=3Dwlpe2008
+
+The  length of papers  can range  from 2  to 15  pages in  LNCS style.
+Informal proceedings  will be distributed at the  workshop.  After the
+workshop,  proceedings  will be  available  on-line  in the  Computing
+Research Repository (CoRR).
+
+In  addition to  papers  describing conceptual  and theoretical  work,
+papers describing the implementation  of and the experience with tools
+are welcome.
+
+
+
+
+
+
+--=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Puri Arenas
+Dpto. Sistemas Informaticos y Computacion
+Facultad de Informatica
+Universidad Complutense de Madrid
+C/ Profesor Jose Garcia Santesmases s/n
+28040 Madrid (Spain)
+Tfno. 34 91 394 76 33
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+--1686784523-1074288140-1216070795=:8477--

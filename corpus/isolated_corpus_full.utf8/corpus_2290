@@ -1,0 +1,617 @@
+From - Thu Dec 10 14:28:58 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs56001waa;
+        Thu, 13 Dec 2007 22:24:00 -0800 (PST)
+Received: by 10.86.79.19 with SMTP id c19mr2677789fgb.31.1197613438821;
+        Thu, 13 Dec 2007 22:23:58 -0800 (PST)
+Return-Path: <sympa-request@up.univ-mrs.fr>
+Received: from relay3-v.mail.gandi.net (relay3-v.mail.gandi.net [217.70.178.77])
+        by mx.google.com with ESMTP id y6si20555697mug.2007.12.13.22.23.57;
+        Thu, 13 Dec 2007 22:23:58 -0800 (PST)
+Received-SPF: neutral (google.com: 217.70.178.77 is neither permitted nor denied by best guess record for domain of sympa-request@up.univ-mrs.fr) client-ip=217.70.178.77;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.178.77 is neither permitted nor denied by best guess record for domain of sympa-request@up.univ-mrs.fr) smtp.mail=sympa-request@up.univ-mrs.fr
+Received: from spool.mail.gandi.net (mspool4-v.mgt.gandi.net [10.0.21.74])
+	by relay3-v.mail.gandi.net (Postfix) with ESMTP id 67597BA39
+	for <jpprost@gmail.com>; Fri, 14 Dec 2007 07:23:54 +0100 (CET)
+Received: from localhost (mfilter1-v.gandi.net [217.70.178.35])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 504B32DC051
+	for <jpprost@gmail.com>; Fri, 14 Dec 2007 07:23:54 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mfilter1-v.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.74])
+	by localhost (mfilter1-v.gandi.net [217.70.178.35]) (amavisd-new, port 10024)
+	with ESMTP id I1wCA7i81PfR for <jpprost@gmail.com>;
+	Fri, 14 Dec 2007 07:23:47 +0100 (CET)
+X-GreyListed: 0/3535444 seconds (195.221.207.193:['bad_rcpt'])
+Received: from mso1k193.u-3mrs.fr (mso1k193.u-3mrs.fr [195.221.207.193])
+	by spool.mail.gandi.net (Postfix) with ESMTP id E027C2DC075
+	for <jean-philippe.prost@lpl-aix.fr>; Fri, 14 Dec 2007 07:23:33 +0100 (CET)
+Received: from mail.up.univ-mrs.fr (HELO up.univ-mrs.fr) ([147.94.113.16])
+  by mso1k193.u-3mrs.fr with ESMTP; 14 Dec 2007 07:23:31 +0100
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Ah4FABOwYUeTXnEQh2dsb2JhbACCOI1IAQEBCAopgRSXcQ
+X-IronPort-AV: i="4.24,164,1196636400"; 
+   d="scan'208,150"; a="142981791:sNHT73772951"
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 79F3029C013
+	for <jean-philippe.prost@lpl-aix.fr>; Fri, 14 Dec 2007 07:23:31 +0100 (CET)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 38663-02 for <jean-philippe.prost@lpl-aix.fr>;
+ Fri, 14 Dec 2007 07:23:29 +0100 (CET)
+Received: by up.univ-mrs.fr (Postfix, from userid 107)
+	id 8695C270638; Fri, 14 Dec 2007 07:23:29 +0100 (CET)
+From: SYMPA <sympa-request@up.univ-mrs.fr>
+To: jean-philippe.prost@lpl-aix.fr
+Subject: Votre message pour lpl.doctorants a ete rejete
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+Message-Id: <20071214062329.8695C270638@up.univ-mrs.fr>
+Date: Fri, 14 Dec 2007 07:23:29 +0100 (CET)
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+
+Votre message pour la liste lpl.doctorants a été rejeté.
+Le message vous est donc renvoyé.
+
+Votre message :
+Return-Path: <jpprost@gmail.com>
+X-Original-To: lpl.doctorants@mailup.univ-mrs.fr
+Delivered-To: lpl.doctorants@mailup.univ-mrs.fr
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 98B462AC7D5
+	for <lpl.doctorants@mailup.univ-mrs.fr>; Fri, 14 Dec 2007 07:23:27 +0100 (CET)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 66400-10 for <lpl.doctorants@mailup.univ-mrs.fr>;
+ Fri, 14 Dec 2007 07:23:26 +0100 (CET)
+Received: from shiva.univ-provence.fr (unknown [147.94.113.17])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 2F52C270638
+	for <lpl.doctorants@mailup.univ-aix.fr>; Fri, 14 Dec 2007 07:23:26 +0100 (CET)
+Received: from mso1k193.u-3mrs.fr (mso1k193.u-3mrs.fr [195.221.207.193])
+	by shiva.univ-provence.fr (Postfix) with ESMTP id 1CE69580BA
+	for <lpl.doctorants@mailup.univ-aix.fr>; Fri, 14 Dec 2007 07:23:26 +0100 (CET)
+Received: from ro-out-1112.google.com ([72.14.202.180])
+  by mso1k193.u-3mrs.fr with ESMTP; 14 Dec 2007 07:23:24 +0100
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: Ah4FABOwYUdIDsq0i2dsb2JhbACCOAU1I4xrAQEBCAQEJAWBFpdx
+X-IronPort-AV: i="4.24,164,1196636400"; 
+   d="scan'208,150"; a="142981782:sNHT56229481"
+Received: by ro-out-1112.google.com with SMTP id o35so1251186rog.6
+        for <lpl.doctorants@mailup.univ-aix.fr>; Thu, 13 Dec 2007 22:23:23 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from:sender:to:subject:in-reply-to:mime-version:content-type:references:x-google-sender-auth;
+        bh=m0OqiJL9SXpdqrfwBkZ74TLNJS0m1sfGm2DhXYYflmY=;
+        b=G5UqAedNGbIhr9bN/4DH+tYaus/cNcviej/59QyjOb+AK6EjdvCvo7516l1nX1DBTcAVUqgmIzbuSUfdpgsPhxzsOxWyG+GUur1snXIxpyqrhwTNVjKRm1nwW5JOZzcOenHYhGCa/3a6dBFny1XacpcF6PTtuj1MfoNYiIIFCI4=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=message-id:date:from:sender:to:subject:in-reply-to:mime-version:content-type:references:x-google-sender-auth;
+        b=odbBDvs0MvM9mUBUhrkWpugAAwefLKH/BXWIA98/I12tMwn+uPQ/KTEPN0Fj6gFw0RSRgFYzDMKmBh7rmeOEDpNBMd9EmrnaFvXc9g07/8NsGP5fWKnJXRUDNWtSQtysPb5m/lOoB2vJSD/ZmJJTw4nxFKZ2sOqDBpvQ0Ruf3P4=
+Received: by 10.114.110.1 with SMTP id i1mr3308300wac.112.1197613402882;
+        Thu, 13 Dec 2007 22:23:22 -0800 (PST)
+Received: by 10.114.60.10 with HTTP; Thu, 13 Dec 2007 22:23:22 -0800 (PST)
+Message-ID: <b5e0c390712132223n6d019cc1m7db130ee0c19a5ef@mail.gmail.com>
+Date: Fri, 14 Dec 2007 07:23:22 +0100
+From: "Jean-Philippe Prost" <jean-philippe.prost@lpl-aix.fr>
+Sender: jpprost@gmail.com
+To: lpl-infos <lpl-infos@yahoogroupes.fr>,
+	"LPL personnel" <personl@lpl.univ-aix.fr>,
+	lpl.doctorants@up.univ-aix.fr
+Subject: Fwd: Marie Curie International Research Staff Exchange Scheme (IRSES)
+In-Reply-To: <47620AF4.8020602@feast.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3713_18808735.1197613402873"
+References: <47620AF4.8020602@feast.org>
+X-Google-Sender-Auth: 0bb3a876a056a785
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+
+------=_Part_3713_18808735.1197613402873
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3714_4419032.1197613402873"
+
+------=_Part_3714_4419032.1197613402873
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+Un "petit" sejour en Australie, ca ne tente personne ? Ca parait un peu
+complexe, mais ca peut en interesser certains.
+Jean-Philippe
+
+---------- Forwarded message ----------
+From: Jean-Francois Desvignes-Hicks <info@feast.org>
+Date: Dec 14, 2007 5:47 AM
+Subject: Marie Curie International Research Staff Exchange Scheme (IRSES)
+To: feast@anu.edu.au
+
+
+  [image: FEAST] <http://www.feast.org/>
+ Marie Curie International Research Staff Exchange Scheme (IRSES)
+
+Dear FEAST members,
+the European Commission has released a new Marie Curie scheme, the Marie
+Curie International Research Staff Exchange Scheme (IRSES).
+
+*
+Activities*
+
+IRSES provides support for those Australian research organisations
+participating in a selected partnership, to establish or reinforce long-term
+research co-operation through a coordinated joint and balanced programme of
+exchange for 2 to 4 years, of researchers for periods not exceeding 12
+months. Importantly, technical and management staff may also participate in
+these exchanges.
+
+
+ The European Commission will support the travel and living costs of
+European staff travelling to Australia. In Australia, each organisation is
+expected to cover the mobility costs (i.e. travel and subsistence costs) of
+their outgoing researchers travelling to Europe. Under IRSES, staff
+exchanges are treated as secondments (i.e. exchange participants maintain
+salary in their institution of origin, and have the right to return).
+
+More information at: http://www.feast.org/fp7/?documents/people
+*
+Application*
+
+The proposal must be submitted by a coordinator from a European Member State
+of FP7 Associated Country (list available in the guide for applicants). To
+be eligible, the consortium must include the organisation of the
+coordinator, an organisation from another European country (Member State of
+FP7 Associated Country), and an Australian organisation (or from any Third
+country).
+
+The size of such exchanges is left to the appreciation of the partners and
+the available matching funding from Australia. Consortium from
+Australiawill be competing on a =8025m call with all other third
+countries having a S&T
+agreement with the EC and European neighbours.
+
+
+*Deadline for application is 28 March 2008* (but submission portal will be
+open on 24th December!)
+
+
+ *Funding for European staff*
+
+European staff will receive a monthly subsistence allowance of =801,800 from
+the European Commission, covering all mobility costs (including travel).
+
+*
+Funding for Australian staff*
+
+This Marie Curie action is not totally supported by the European Commission.
+Australian staff will need to seek funding from their own institutions or/
+and any domestic sources. In order to assist participating Australian
+research organisations, the new Commonwealth Department of Innovation,
+Industry, Science an d Research is considering providing some support to
+help cover these mobility costs.
+
+Funding worth $60,000 has been reserved through the strategic policy element
+of the International Science Linkages programme to assist such Australian
+research organisations for this purpose. This funding is intended to support
+travel and subsistence costs for a number of exchanges over the period that
+IRSES is in place, and this initial level of support may be reviewed if
+demand is particularly high. Such funding would be available on a
+competitive basis and, to be eligible for consideration, Australian research
+organisations would need to demonstrate that they are a member of a selected
+partnership under IRSES. In particular, the Department would be interested
+in supporting exchanges in certain research priority areas for collaboration
+with the European Union, including biotechnology and food, energy
+technologies (including clean energy), bioeconomy (including industrial
+biotechnology and agriculture) and climate change. The Department will
+provide further information, through the FEAST website, about this process
+and selection procedures in January 2008.
+
+*Next step*
+
+   1. Review IRSES material for eligibility and selection criteria on
+   Cordis
+    2. If you have key strategic partners in Europe, contact them
+   proposing them this opportunity
+   3. Engage your management, as you may need your institution's backing
+   4. Liaise with other stakeholders as extra funding might be necessary
+    5. Build the consortium
+
+Your sincerely,
+
+Jean-Francois
+
+
+--=20
+Jean-Francois Desvignes-Hicks
+Senior Project Officer
+Forum for European-Australian Science and Technology Cooperation
+Building 67a
+The Australian National University
+Canberra ACT 0200 Australia
+
+P: +61 2 6125 7884
+F: +61 2 6125 7815
+M: 0415 482 650
+E: Jean-Francois.Desvignes-Hicks@anu.edu.au
+W: www.feast.org
+
+CRICOS Provider #00120C
+
+------=_Part_3714_4419032.1197613402873
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+Un &quot;petit&quot; sejour en Australie, ca ne tente personne ? Ca parait =
+un peu complexe, mais ca peut en interesser certains.<br>Jean-Philippe<br><=
+br><div class=3D"gmail_quote">---------- Forwarded message ----------<br>Fr=
+om:=20
+<b class=3D"gmail_sendername">Jean-Francois Desvignes-Hicks</b> &lt;<a href=
+=3D"mailto:info@feast.org">info@feast.org</a>&gt;<br>Date: Dec 14, 2007 5:4=
+7 AM<br>Subject: Marie Curie International Research Staff Exchange Scheme (=
+IRSES)
+<br>To: <a href=3D"mailto:feast@anu.edu.au">feast@anu.edu.au</a><br><br><br>
+
+
+=20=20
+=20=20
+=20=20
+=20=20
+=20=20
+=20=20
+=20=20
+=20=20
+=20=20
+=20=20
+
+<div alink=3D"#ff6600" bgcolor=3D"#e6e6e6" link=3D"#d95a29" text=3D"#666666=
+" vlink=3D"#663399">
+<div>
+<div>
+<div><a href=3D"http://www.feast.org/" target=3D"_blank"><img alt=3D"FEAST"=
+ title=3D"FEAST - Forum for European-Australian Science and Technology coop=
+eration" height=3D"134" width=3D"503"></a></div>
+</div>
+<div>
+<h1>Marie Curie International Research Staff Exchange Scheme (IRSES)</h1>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left">Dear=
+ FEAST members,<span><br>
+the European Commission has released a new
+Marie Curie scheme, the Marie
+Curie International Research Staff Exchange Scheme (IRSES).<br>
+</span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><b><=
+span><br>
+Activities</span></b></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n>IRSES provides support for those
+Australian research organisations
+participating in a selected partnership, to establish or reinforce
+long-term
+research co-operation through a coordinated joint and balanced
+programme of exchange for 2 to
+4 years, of researchers for periods not exceeding 12 months.
+Importantly,
+technical and management staff may also participate in these exchanges.</sp=
+an></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><br>
+<span></span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n>The European Commission will support the
+travel and living costs of
+European staff travelling to </span><span>Australia</span><span>. In </span=
+><span>Australia</span><span>, each organisation
+is expected to cover the mobility costs (i.e. travel and subsistence
+costs) of
+their outgoing researchers travelling to </span><span>Europe</span><span>. =
+Under IRSES, staff
+exchanges are treated as secondments (i.e. exchange participants
+maintain
+salary in their institution of origin, and have the right to return).<br>
+</span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n>More information at: <a href=3D"http://www.feast.org/fp7/?documents/peopl=
+e" target=3D"_blank">http://www.feast.org/fp7/?documents/people</a></span><=
+br>
+
+<b><span>&nbsp;<br>
+Application</span></b></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n>The proposal</span><span style=3D"font-size: 12pt;"> </span><span> must b=
+e submitted by a coordinator from a European Member
+State
+of FP7 Associated Country (list available in the guide for applicants).
+To be eligible,
+the consortium must include the organisation of the coordinator, an
+organisation from another European country (Member State of FP7
+Associated Country),
+and an Australian organisation (or from any Third country).</span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n>The size of such exchanges is
+left to the appreciation of
+the partners and the available matching funding from Australia.
+Consortium
+from </span><span>Australia</span><span> will be competing
+on a =8025m call with all other third countries having a S&amp;T
+agreement with
+the EC and European neighbours.<br>
+</span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n><br>
+<b>Deadline for application is 28 March 2008</b> (but submission portal
+will be open on 24th December!)<br>
+</span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><br>
+<span></span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><b><=
+span>Funding for European staff</span></b></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><spa=
+n>European staff will receive a monthly
+subsistence allowance of =801,800 from the European Commission,
+covering all mobility costs (including travel).<br>
+</span></p>
+<p style=3D"margin-bottom: 0.0001pt; text-align: left;" align=3D"left"><b><=
+span><br>
+Funding for Australian staff</span></b><span></span></p>
+<p><span>This Marie Curie action is not
+totally supported by the European
+Commission. Australian staff will need to seek funding from their own
+institutions or/ and any domestic sources. In order to assist
+participating Australian research organisations, the new
+Commonwealth Department of Innovation, Industry, Science an d Research
+is considering
+providing some support to help cover these mobility costs.</span></p>
+<p><span>Funding worth
+$60,000 has been reserved through the </span><span lang=3D"DE">strategic</s=
+pan><span> policy element of
+the International Science Linkages programme to assist such Australian
+research
+organisations for this purpose. This funding is intended to support
+travel and
+subsistence costs for a number of exchanges over the period that IRSES
+is in place,
+and this initial level of support may be reviewed if demand is
+particularly
+high. Such funding would be available on a competitive basis and, to be
+eligible for consideration, Australian research organisations would
+need to
+demonstrate that they are a member of a selected partnership under
+IRSES. In
+particular, the Department would be interested in supporting exchanges
+in
+certain research priority areas for collaboration with the European
+Union,
+including biotechnology and food, energy technologies (including clean
+energy),
+bioeconomy (including industrial biotechnology and agriculture) and
+climate
+change. The Department will provide further information, through the
+FEAST
+website, about this process and selection procedures in January 2008.<br>
+</span></p>
+<p><span><b>Next step</b><br>
+</span></p>
+<ol>
+  <li>Review IRSES material for eligibility and selection criteria on
+Cordis<br>
+  </li>
+  <li>If you have key strategic partners in Europe, contact them
+proposing them this opportunity</li>
+  <li>Engage your management, as you may need your institution&#39;s backin=
+g</li>
+  <li>Liaise with other stakeholders as extra funding might be necessary<br>
+  </li>
+  <li>Build the consortium<br>
+  </li>
+</ol>
+<p>Your sincerely,</p>
+<p>Jean-Francois</p>
+<div>
+<p><span><br>
+-- <br>
+</span><span>Jean-Francois Desvignes-Hicks</span><br>
+Senior Project Officer<br>
+Forum for European-Australian Science and Technology Cooperation<br>
+Building 67a<br>
+The Australian National University<br>
+Canberra ACT 0200 Australia<br>
+<br>
+P: +61 2 6125 7884<br>
+F: +61 2 6125 7815<br>
+M: 0415 482 650<br>
+E: <a href=3D"mailto:Jean-Francois.Desvignes-Hicks@anu.edu.au" target=3D"_b=
+lank">Jean-Francois.Desvignes-Hicks@anu.edu.au</a><br>
+W: <a href=3D"http://www.feast.org/" target=3D"_blank">www.feast.org</a><br>
+<br>
+CRICOS Provider #00120C
+</p>
+</div>
+</div>
+</div>
+<div>
+<div>&nbsp;</div>
+</div>
+<br>
+</div>
+
+</div><br>
+
+------=_Part_3714_4419032.1197613402873--
+
+------=_Part_3713_18808735.1197613402873
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-ID: <part1.08050906.07020106@feast.org>
+X-Attachment-Id: 0.1
+Content-Disposition: attachment
+
+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
+y+V/BBgADs3wLgDJJfMAAAAASUVORK5CYII=
+
+------=_Part_3713_18808735.1197613402873--

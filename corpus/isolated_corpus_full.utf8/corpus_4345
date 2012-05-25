@@ -1,0 +1,397 @@
+From - Thu Dec 10 14:35:08 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs192682far;
+        Mon, 2 Feb 2009 13:45:10 -0800 (PST)
+Received: by 10.210.54.17 with SMTP id c17mr5282281eba.62.1233611109852;
+        Mon, 02 Feb 2009 13:45:09 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 5si106204ewy.69.2009.02.02.13.44.52;
+        Mon, 02 Feb 2009 13:45:09 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C1E1121C78; Mon,  2 Feb 2009 22:44:51 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8213420728;
+	Mon,  2 Feb 2009 22:38:18 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5D4C83D2B;
+	Mon,  2 Feb 2009 22:38:18 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id UduZxICwgVZe; Mon,  2 Feb 2009 22:38:18 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2193D3D66;
+	Mon,  2 Feb 2009 22:37:37 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7B4E33D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  2 Feb 2009 16:21:28 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id y+N3E14Yt+Y3 for <elsnet-list@mailman.elsnet.org>;
+	Mon,  2 Feb 2009 16:21:28 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4B6453D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  2 Feb 2009 16:21:28 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 32E541FF6D; Mon,  2 Feb 2009 16:21:28 +0100 (MET)
+Received: from yw-out-2324.google.com (yw-out-2324.google.com [74.125.46.30])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6D11E1FF15
+	for <elsnet-list@elsnet.org>; Mon,  2 Feb 2009 16:21:11 +0100 (MET)
+Received: by yw-out-2324.google.com with SMTP id 3so594428ywj.25
+	for <elsnet-list@elsnet.org>; Mon, 02 Feb 2009 07:20:38 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:message-id:subject:from:to:content-type;
+	bh=q1/YgiW4zg/uibRRHdrLuCilHoSt8EyIwlwC2FREazE=;
+	b=vEuLta32OWFdvePkN63wSZ5FTcHwEaL1aCcZ6RROMf7m+yP61/tdS5s3wTiVXNqqrn
+	C5NvUOR6Tzg21Rsoyo14dulPc4J8giUCOgfUwQ/Q94I2VepVERpMPFZwWY+bH64QfvwF
+	PSy9vangWrpVqM4P5fiIaZpC+tOMAt3iXX16A=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type;
+	b=W84sRdF4yBmmE+w5z30p22LkLb1ADwCKIuXv4PGHvVVx0QZoVNo4OWbxM1MwxJGp2t
+	PVO1uU0498TxKXv924CGea2RqalvUNVwTJRGs5b4Jia4/E53K/ZCFCW9ubL8Ivwc8ixg
+	lAKNDUcj9+T6PG1+NJwko7TjD+ovoyFYq6+/Q=
+MIME-Version: 1.0
+Received: by 10.151.112.4 with SMTP id p4mr4543351ybm.44.1233588038482; Mon, 
+	02 Feb 2009 07:20:38 -0800 (PST)
+In-Reply-To: <77d883bb0902020718g61674206h37e9561f277809af@mail.gmail.com>
+References: <77d883bb0902020718g61674206h37e9561f277809af@mail.gmail.com>
+Date: Mon, 2 Feb 2009 15:20:38 +0000
+Message-ID: <77d883bb0902020720x216d0a75wde4528b37cb72227@mail.gmail.com>
+From: Simone Teufel <simone.teufel@googlemail.com>
+To: elsnet-list@elsnet.org
+X-Mailman-Approved-At: Mon, 02 Feb 2009 22:37:21 +0100
+Subject: [Elsnet-list] CFP -- Workshop on text and citation analysis for
+	scholarly digital libraries
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1583931335=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============1583931335==
+Content-Type: multipart/alternative; boundary=001517573dd0d53dbe0461f118fc
+
+--001517573dd0d53dbe0461f118fc
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Workshop on text and citation analysis for scholarly digital libraries
+Call for Papers
+
+http://wing.comp.nus.edu.sg/nlpir4dl/
+
+In recent years, interest in scholarly publications in electronic forms has
+boomed,
+and several large-scale electronic digital libraries and citation indices
+are now used
+everyday by researchers. Current digital libraries collect and allow access
+to digital
+papers and their metadata (including citations), but largely do not attempt
+to analyze
+the items they collect.
+
+The goal of this workshop is to investigate how developments in natural
+language
+processing and information retrieval techniques can advance the
+state-of-the-art
+in scholarly document understanding, analysis and retrival. Full document
+text analysis
+can help design automatic summarization and sentiment detection methods,
+automated
+recommendation and reviewing systems, and may provide data for visualizing
+scientific
+trends and bibliometrics. Citation analysis takes this a step further,
+adding scientific
+social network analysis as another strand of evidence to enhance solutions
+to the above
+challenges. Web based digital libraries add download counts and Web 2.0
+information
+such as tagging.
+
+Aside from researchers, this workshop hopes to interest other stakeholders,
+namely
+implementers, publishers and policymakers. Even within computer science,
+many
+different scholarly sites exist -- ACM Portal, IEEE Xplore, Google Scholar,
+PSU's
+CiteSeerX, MSRA's Libra, Tsinghua's ArnetMiner, Trier's DBLP, UMass' Rexa,
+Hiroshima's PRESRI -- and with this workshop we hope to bring a number of
+these
+contributers together. Today's publishers continue to seek new ways to be
+relevant to their
+consumers, in disseminating the right published works to their audience.
+The fact that formal citation metrics have become an increasingly large
+factor in
+decision-making by universities and funding bodies worldwide makes the need
+for research
+in such topics and for better methods for measuring the impact of work more
+pressing.
+
+We invite stimulating and unpublished submissions on topics including (but
+not limited to)
+full-text analysis, multimedia and multilingual analysis and alignment as
+well as citation-based
+NLP or IR. Specific examples of fields of interests include:
+
+* new information access methods for scientific papers
+* automatic creation of reviews
+* automatic qualitative assessment of submissions
+* summarisation of scientific articles
+* navigation, searching and browsing in scholarly DLs
+* techniques for suggesting and recommending scholarly papers, reviewers,
+citations
+   and publication venues
+* information retrieval for scholarly text, e.g. citation-based IR
+* topical modeling analysis
+* network analysis and citation analysis in scholarly DLs
+* citation function/motivation analysis
+* novel bibliographic metrics
+* niche search in scholarly DLs, e.g., survey paper finding and provenance
+tracing of
+  algorithms)
+* knowledge discovery and analysis of the ancestry of ideas
+* analyses of writing style in scholarly publications
+* multilingual and multimedia analysis and alignment of scholarly works
+* managing digital archives of linguistic corpora; federated access
+* metadata and controlled vocabularies for resource description and
+discovery
+* automatic metadata discovery, e.g., language identification
+* data cleaning and data quality
+* disambiguation issues in scholarly DLs using NLP or IR techniques.
+
+Submission details:
+
+Style files for submissions should following standard ACL-IJCNLP paper
+submission
+style: http://www.acl-ijcnlp-2009.org/main/authors/stylefiles/
+
+Important Dates:
+
+May 1, 2009 Deadline for paper submissions
+Jun 1, 2009 Notification of acceptances
+Jun 7, 2009 Camera-ready copies due
+Aug 7, 2009 ACL-IJCNLP 2009 Workshop
+
+Program Committee:
+
+* Colin Batchelor (Royal Society of Chemistry)
+* Steven Bird (Univ. of Melbourne & Linguistic Data Consortium)
+* Shannon Bradshaw (Drew University)
+* Jason S Chang (National Tsing-hua Univ.)
+* Robert Dale (Macquarie Univ.)
+* Bonnie Dorr (Univ. of Maryland)
+* Curtis Dyreson (Utah State Univ.)
+* C Lee Giles (Pennsylvania State Univ.)
+* Dan Jurafsky (Stanford Univ.)
+* Noriko Kando (National Institute of Informatics, Japan)
+* Dongwon Lee (Pennsylvania State Univ.)
+* Elizabeth Liddy (Syracuse Univ.)
+* Andrew McCallum (Univ. of Massachusetts)
+* Qiaozhu Mei (UIUC)
+* Hidetsugu Nanba (Hiroshima Univ.)
+* Manabu Okumura (Tokyo Institute of Technology)
+* Dragomir Radev (Univ. of Michigan)
+* Anna Ritchie (Cambridge University)
+* Mark Sanderson (Sheffield Univ.)
+* John Swales (Univ. of Michigan)
+* Jie Tang (Tsinghua Univ.)
+* Michael Thelwall (Univ. of Wolverhampton)
+* Howard White (Drexel Univ.)
+* Bonnie Webber (Edinburgh Univ.)
+
+Organizers:
+
+Simone Teufel
+University of Cambridge Computer Laboratory
+William Gates Building, JJ Thompson Ave,
+Cambridge CB3 0FD, United Kingdom.
+
+Simone Teufel is a senior lecturer in the Computer Laboratory at Cambridge
+University,
+where she has worked since 2001. Her main research interests are in
+corpus-linguistic
+approaches to discourse theory, and in the application of such information
+to
+summarisation, information retrieval and citation analysis. She has a
+background in
+computer science (1994 Diploma from University of Stuttgart) and in
+cognitive science
+(2000 PhD from Edinburgh University), and has also experience in medical
+information
+processing and search, from a postdoctoral stay at Columbia University, and
+in
+collocation extraction, from a research post at Xerox Europe. Her latest
+research interests
+include lexical acquisition, and the visualisation and language generation
+of the analysis
+results of scientific articles.
+
+Min-Yen Kan
+AS6 05-12 Computing 1, Law Link
+National University of Singapore
+
+Min-Yen Kan is an assistant professor at the National University of
+Singapore. His research
+interests include digital libraries and applied natural language processing.
+Specific projects
+include work in the areas of citation analysis, document structure
+acquisition, verb analysis,
+and applied text summarization. Prior to joining NUS, he was a graduate
+research assistant
+at Columbia University, and has interned at various industry laboratories,
+including AT&T,
+IBM and Eurospider Technologies in Switzerland.
+
+--001517573dd0d53dbe0461f118fc
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Workshop on text and citation analysis for scholarly digital libraries <br>=
+Call for Papers <br><br><a href=3D"http://wing.comp.nus.edu.sg/nlpir4dl/" t=
+arget=3D"_blank" onclick=3D"return top.js.OpenExtLink(window,event,this)">h=
+ttp://wing.comp.nus.edu.sg/nlpir4dl/</a><br>
+<br>In recent years, interest in scholarly publications in electronic forms=
+ has boomed, <br> and several large-scale electronic digital libraries and =
+citation indices are now used <br>everyday by researchers. Current digital =
+libraries collect and allow access to digital<br>
+ papers and their metadata (including citations), but largely do not attemp=
+t to analyze<br>  the items they collect. <br><br>The goal of this workshop=
+ is to investigate how developments in natural language <br>processing and =
+information retrieval techniques can advance the state-of-the-art <br>
+in scholarly document understanding, analysis and retrival. Full document t=
+ext analysis <br> can help design automatic summarization and sentiment det=
+ection methods, automated <br>recommendation and reviewing systems, and may=
+ provide data for visualizing scientific<br>
+ trends and bibliometrics. Citation analysis takes this a step further, add=
+ing scientific <br> social network analysis as another strand of evidence t=
+o enhance solutions to the above <br>challenges. Web based digital librarie=
+s add download counts and Web 2.0 information<br>
+ such as tagging. <br><br>Aside from researchers, this workshop hopes to in=
+terest other stakeholders, namely<br>  implementers, publishers and policym=
+akers. Even within computer science, many<br> different scholarly sites exi=
+st -- ACM Portal, IEEE Xplore, Google Scholar, PSU&#39;s <br>
+CiteSeerX, MSRA&#39;s Libra, Tsinghua&#39;s ArnetMiner, Trier&#39;s DBLP, U=
+Mass&#39; Rexa, <br> Hiroshima&#39;s PRESRI -- and with this workshop we ho=
+pe to bring a number of these <br>contributers together. Today&#39;s publis=
+hers continue to seek new ways to be relevant to their<br>
+ consumers, in disseminating the right published works to their audience. <=
+br> The fact that formal citation metrics have become an increasingly large=
+ factor in <br>decision-making by universities and funding bodies worldwide=
+ makes the need for research <br>
+in such topics and for better methods for measuring the impact of work more=
+ pressing. <br><br>We invite stimulating and unpublished submissions on top=
+ics including (but not limited to) <br>full-text analysis, multimedia and m=
+ultilingual analysis and alignment as well as citation-based <br>
+NLP or IR. Specific examples of fields of interests include: <br><br>* new =
+information access methods for scientific papers <br>* automatic creation o=
+f reviews <br>* automatic qualitative assessment of submissions <br>* summa=
+risation of scientific articles <br>
+* navigation, searching and browsing in scholarly DLs <br> * techniques for=
+ suggesting and recommending scholarly papers, reviewers, citations<br> &nb=
+sp;&nbsp;&nbsp;and publication venues <br>* information retrieval for schol=
+arly text, e.g. citation-based IR <br>
+* topical modeling analysis <br> * network analysis and citation analysis i=
+n scholarly DLs <br>* citation function/motivation analysis <br>* novel bib=
+liographic metrics <br>* niche search in scholarly DLs, e.g., survey paper =
+finding and provenance tracing of <br>
+ &nbsp;&nbsp;algorithms) <br>* knowledge discovery and analysis of the ance=
+stry of ideas <br>* analyses of writing style in scholarly publications <br=
+>* multilingual and multimedia analysis and alignment of scholarly works <b=
+r>* managing digital archives of linguistic <span id=3D"st" name=3D"st" cla=
+ss=3D"st">corpora</span>; federated access <br>
+ * metadata and controlled vocabularies for resource description and discov=
+ery <br>* automatic metadata discovery, e.g., language identification <br>*=
+ data cleaning and data quality <br>* disambiguation issues in scholarly DL=
+s using NLP or IR techniques. <br>
+<br>Submission details: <br><br>Style files for submissions should followin=
+g standard ACL-IJCNLP paper submission <br>style: <a href=3D"http://www.acl=
+-ijcnlp-2009.org/main/authors/stylefiles/" target=3D"_blank" onclick=3D"ret=
+urn top.js.OpenExtLink(window,event,this)">http://www.acl-ijcnlp-2009.org/m=
+ain/authors/stylefiles/</a> <br>
+<br>Important Dates: <br><br>May 1, 2009 Deadline for paper submissions <br=
+>Jun 1, 2009 Notification of acceptances <br>Jun 7, 2009 Camera-ready copie=
+s due <br>Aug 7, 2009 ACL-IJCNLP 2009 Workshop <br><br>Program Committee: <=
+br>
+<br>* Colin Batchelor (Royal Society of Chemistry) <br>* Steven Bird (Univ.=
+ of Melbourne &amp; Linguistic Data Consortium) <br>* Shannon Bradshaw (Dre=
+w University) <br>* Jason S Chang (National Tsing-hua Univ.) <br>* Robert D=
+ale (Macquarie Univ.) <br>
+ * Bonnie Dorr (Univ. of Maryland) <br>* Curtis Dyreson (Utah State Univ.) =
+<br>* C Lee Giles (Pennsylvania State Univ.) <br>* Dan Jurafsky (Stanford U=
+niv.) <br>* Noriko Kando (National Institute of Informatics, Japan) <br>
+ * Dongwon Lee (Pennsylvania State Univ.) <br>* Elizabeth Liddy (Syracuse U=
+niv.) <br>* Andrew McCallum (Univ. of Massachusetts) <br>* Qiaozhu Mei (UIU=
+C) <br>* Hidetsugu Nanba (Hiroshima Univ.) <br>* Manabu Okumura (Tokyo Inst=
+itute of Technology) <br>
+ * Dragomir Radev (Univ. of Michigan) <br>* Anna Ritchie (Cambridge Univers=
+ity) <br>* Mark Sanderson (Sheffield Univ.) <br>* John Swales (Univ. of Mic=
+higan) <br>* Jie Tang (Tsinghua Univ.) <br>* Michael Thelwall (Univ. of Wol=
+verhampton) <br>
+ * Howard White (Drexel Univ.) <br>* Bonnie Webber (Edinburgh Univ.) <br><b=
+r>Organizers: <br><br>Simone Teufel <br>University of Cambridge Computer La=
+boratory <br>William Gates Building, JJ Thompson Ave, <br>Cambridge CB3 0FD=
+, United Kingdom. <br>
+<br>Simone Teufel is a senior lecturer in the Computer Laboratory at Cambri=
+dge University,<br> where she has worked since 2001. Her main research inte=
+rests are in corpus-linguistic <br>approaches to discourse theory, and in t=
+he application of such information to <br>
+ summarisation, information retrieval and citation analysis. She has a back=
+ground in <br>computer science (1994 Diploma from University of Stuttgart) =
+and in cognitive science <br>(2000 PhD from Edinburgh University), and has =
+also experience in medical information<br>
+  processing and search, from a postdoctoral stay at Columbia University, a=
+nd in <br>collocation extraction, from a research post at Xerox Europe. Her=
+ latest research interests<br> include lexical acquisition, and the visuali=
+sation and language generation of the analysis<br>
+  results of scientific articles. <br><br>Min-Yen Kan <br>AS6 05-12 Computi=
+ng 1, Law Link <br>National University of Singapore <br><br>Min-Yen Kan is =
+an assistant professor at the National University of Singapore. His researc=
+h<br>
+  interests include digital libraries and applied natural language processi=
+ng. Specific projects <br>include work in the areas of citation analysis, d=
+ocument structure acquisition, verb analysis,<br> and applied text summariz=
+ation. Prior to joining NUS, he was a graduate research assistant<br>
+  at Columbia University, and has interned at various industry laboratories=
+, including AT&amp;T,<br> IBM and Eurospider Technologies in Switzerland.=
+=20
+
+--001517573dd0d53dbe0461f118fc--
+
+--===============1583931335==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1583931335==--

@@ -1,0 +1,247 @@
+From - Thu Dec 10 14:34:39 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.14 with SMTP id b14cs306639far;
+        Sun, 21 Dec 2008 14:35:41 -0800 (PST)
+Received: by 10.210.139.15 with SMTP id m15mr6606269ebd.118.1229898940150;
+        Sun, 21 Dec 2008 14:35:40 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 3si10781889ewy.34.2008.12.21.14.35.14;
+        Sun, 21 Dec 2008 14:35:40 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 93E2E1EC13; Sun, 21 Dec 2008 23:35:13 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5A5DC1ED68;
+	Sun, 21 Dec 2008 23:34:54 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id ACFC93D39;
+	Sun, 21 Dec 2008 23:34:53 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NWW9SsTe0-QV; Sun, 21 Dec 2008 23:34:53 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2405B3D2A;
+	Sun, 21 Dec 2008 23:34:52 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 266A33D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Dec 2008 14:38:35 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id J-Iu5T8zJE-K for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Dec 2008 14:38:35 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id F3D043D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Dec 2008 14:38:29 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DCCD51DB76; Fri, 19 Dec 2008 14:38:29 +0100 (MET)
+Received: from mail.itu.dk (pluto.itu.dk [130.226.142.18])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8FFAD1C1FC
+	for <elsnet-list@let.uu.nl>; Fri, 19 Dec 2008 14:38:23 +0100 (MET)
+Received: from adm10-59.itu.dk (unknown [130.226.133.59])
+	by mail.itu.dk (Postfix) with ESMTP id 355C333CD3E;
+	Fri, 19 Dec 2008 13:37:59 +0000 (UTC)
+Message-ID: <494BA3CC.9040605@itu.dk>
+Date: Fri, 19 Dec 2008 14:38:20 +0100
+From: Carsten Schuermann <carsten@itu.dk>
+User-Agent: Thunderbird 2.0.0.12 (Macintosh/20080213)
+MIME-Version: 1.0
+To: ai@cs.man.ac.uk, aiia@di.unito.it, asl@vassar.edu, 
+	concurrency@cwi.nl, fm-discussion@cs.man.ac.uk, 
+	arw-committee@csc.liv.ac.uk, img@cs.man.ac.uk, kr@kr.org, 
+	lics@informatik.hu-berlin.de, loginf@lat.inf.tu-dresden.de, 
+	om-announce@openmath.org, types-announce@lists.seas.upenn.edu, 
+	pvs@csl.sri.com, kgs-list@logic.at, fg121@informatik.tu-muenchen.de, 
+	loco@csc.liv.ac.uk, agents@csc.liv.ac.uk, ki-inf@uni-koblenz.de, 
+	newsletter@aarinc.org, qed@mcs.anl.gov, relmics-l@McMaster.CA, 
+	rewriting@ens-lyon.fr, theorem-provers@ai.mit.edu, 
+	theory-logic@cs.cmu.edu, elsnet-list@let.uu.nl, math.logik@gmx.net, 
+	twelf-list@twelf.org, isabelle-users@cl.cam.ac.uk, 
+	hol-info@lists.sourceforge.net, cade@itu.dk
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Mailman-Approved-At: Sun, 21 Dec 2008 23:34:51 +0100
+Cc: 
+Subject: [Elsnet-list] CADE-22 second call for papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+
+
+                     SECOND CALL FOR PAPERS
+
+                             CADE-22
+     22nd International Conference on Automated Deduction
+               McGill University, Montreal, Canada
+                        August 2-7, 2009
+
+
+                Submission Deadline: 23 Feb 2009
+              http://complogic.cs.mcgill.ca/cade22/
+
+
+GENERAL INFORMATION
+ CADE is the major forum for the presentation of research in all
+ aspects of automated deduction. The conference programme will
+ include invited talks, paper presentations, system
+ descriptions, workshops, tutorials, and system competitions.
+
+SCOPE
+ We invite high-quality submissions on the general topic of
+ automated deduction, including foundations, applications,
+ implementations and practical experiences.
+
+ Logics of interest include, but are not limited to
+
+   o propositional, first-order, equational, higher-order,
+     classical, description, modal, temporal, many-valued,
+     intuitionistic, other non-classical, meta-logics,
+     logical frameworks, type theory and set theory.
+
+ Methods of interest include, but are not limited to
+
+   o saturation, resolution, instance-based, tableaux, sequent
+     calculi, natural deduction, term rewriting, decision
+     procedures, model generation, model checking, constraint
+     solving, induction, unification, proof planning, proof
+     checking, proof presentation and explanation.
+
+ Applications of interest include, but are not limited to
+
+   o program analysis and verification, hardware verification,
+     mathematics, natural language processing, computational
+     linguistics, knowledge representation, ontology reasoning,
+     deductive databases, functional and logic programming,
+     robotics, planning, and other areas of AI.
+
+INVITED SPEAKERS:
+ Konstantin Korovin   The University of Manchester
+ Martin Rinard        Massachusetts Institute of Technology
+ Mark Stickel         SRI International
+
+WORKSHOPS, TUTORIALS, SYSTEM COMPETITION:
+ A two-day workshop and tutorial programme will be co-organized
+ with the conference. In addition, the annual CADE ATP System
+ Competition (CASC) will be held during the conference. Details
+ will be published in separate calls and on the conference
+ website.
+
+PUBLICATION DETAILS:
+ The proceedings of the conference will be published in the
+ Springer LNAI/LNCS series.
+
+SUBMISSION INSTRUCTIONS:
+ Submissions can be made in the categories 'regular papers' and
+ 'system descriptions'. The page limit in Springer LNCS style is
+ 15 pages for regular papers and 5 pages for system
+ descriptions. Full system descriptions that provide in-depth
+ presentation of original ideas in an implemented system can be
+ submitted as regular papers. For the benefit of reviewers,
+ additional material may be provided by a clearly marked
+ appendix or a reference to a manuscript on a website. It is at
+ the discretion of the reviewers whether such supplements will
+ be considered. All regular papers will be evaluated according
+ to the highest standards in terms of originality, significance,
+ technical quality, and readability.
+
+ Submissions must be in English and standard conforming pdf
+ format. Submissions must be unpublished and not submitted for
+ publication elsewhere. Authors are strongly encouraged to
+ produce their papers in LaTeX.
+
+ Formatting instructions and the LNCS style files can be
+ obtained via http://www.springer.de/comp/lncs/authors.html.
+
+ To submit your paper please use the EasyChair submission system
+ at this address:
+ http://www.easychair.org/conferences/?conf=cade22.
+
+IMPORTANT DATES:
+ A paper title and a short abstract of about 100 words must be
+ submitted before the paper.
+
+     16  Feb 2009 Abstract submission deadline
+     23  Feb 2009 Paper submission deadline
+     10  Apr 2009 Notification of paper decisions
+     14  May 2009 Camera-ready papers due
+
+     2-3 Aug 2009 Workshops & Tutorials
+     4-7 Aug 2009 Conference, including CASC
+
+PROGRAM COMMITTEE:
+ Alessandro Armando     Università di Genova
+ Franz Baader           Technische Universität Dresden
+ Peter Baumgartner      NICTA, Canberra
+ Maria Paola Bonacina   Università degli Studi di Verona
+ Bernhard Beckert       Universität Koblenz-Landau
+ Nikolaj Bjørner        Microsoft Research
+ Alessandro Cimatti     Istituto per la Ricerca Scientifica e
+                            Tecnologica, Trento
+ Silvio Ghilardi        Università degli Studi di Milano
+ Jürgen Giesl           RWTH Aachen
+ Rajeev Goré            The Australian National University
+ Reiner Hähnle          Chalmers University of Technology
+ John Harrison          Intel Corporation
+ Miki Hermann           École Polytechnique
+ Ullrich Hustadt        University of Liverpool
+ Katsumi Inoue          National Institute of Informatics, Japan
+ Tommi Junttila         Helsinki University of Technology
+ Deepak Kapur           University of New Mexico
+ Alexander Leitsch      Technische Universität Wien
+ Christopher Lynch      Clarkson University
+ Claude Marché          INRIA Saclay, Parc Orsay Université
+ William McCune         University of New Mexico
+ Aart Middeldorp        Universität Innsbruck
+ Hans de Nivelle        University of Wroclaw
+ Albert Oliveras        Universitat Politècnica de Catalunya
+ Lawrence Paulson       University of Cambridge
+ Brigitte Pientka       McGill University
+ David Plaisted         University of North Carolina
+                            at Chapel Hill
+ Michaël Rusinowitch    LORIA-INRIA-Lorraine
+ Renate Schmidt (Chair) The University of Manchester
+ Carsten Schürmann      IT-Universitetet i København
+ Aaron Stump            The University of Iowa
+ Geoff Sutcliffe        University of Miami
+ Cesare Tinelli         The University of Iowa
+ Andrei Voronkov        The University of Manchester
+ Christoph Weidenbach   Max-Planck-Institut für Informatik
+
+ORGANIZERS:
+ Conference Chair:          
+     Brigitte Pientka   McGill University
+ Workshop & Tutorial Chair:
+     Aaron Stump        The University of Iowa
+ Publicity Chair:           
+     Carsten Schürmann  IT-Universitetet i København
+ PC Chair:                  
+     Renate Schmidt     The University of Manchester
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

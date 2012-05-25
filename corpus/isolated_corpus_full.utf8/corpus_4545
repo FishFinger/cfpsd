@@ -1,0 +1,734 @@
+From - Thu Dec 10 14:35:24 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs69500far;
+        Sat, 28 Feb 2009 10:30:37 -0800 (PST)
+Received: by 10.210.112.4 with SMTP id k4mr3115494ebc.0.1235845836969;
+        Sat, 28 Feb 2009 10:30:36 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 2si15786361ewy.38.2009.02.28.10.30.19;
+        Sat, 28 Feb 2009 10:30:36 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id E33AE211DB; Sat, 28 Feb 2009 19:30:17 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E327E2122D;
+	Sat, 28 Feb 2009 19:27:52 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C151E3DDE;
+	Sat, 28 Feb 2009 19:27:52 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jEdBAkYMc1iW; Sat, 28 Feb 2009 19:27:52 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 24A8E3D43;
+	Sat, 28 Feb 2009 19:27:28 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8C65A3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 25 Feb 2009 17:21:24 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LpYLngHh94BJ for <elsnet-list@mailman.elsnet.org>;
+	Wed, 25 Feb 2009 17:21:24 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5FD4D3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 25 Feb 2009 17:21:24 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 28E5620A72; Wed, 25 Feb 2009 17:21:24 +0100 (MET)
+X-Greylist: delayed 320 seconds by postgrey-1.28 at newjura;
+	Wed, 25 Feb 2009 17:21:13 MET
+Received: from edge.aegean.gr (edge.aegean.gr [195.251.128.7])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B97A01C5E3
+	for <elsnet-list@elsnet.org>; Wed, 25 Feb 2009 17:21:13 +0100 (MET)
+Received: from hermes.aegean.gr (195.251.128.2) by edge.aegean.gr
+	(195.251.128.7) with Microsoft SMTP Server (TLS) id 8.1.340.0;
+	Wed, 25 Feb 2009 18:15:50 +0200
+Received: from StathisPC (195.251.166.66) by smtp.aegean.gr (195.251.128.2)
+	with Microsoft SMTP Server (TLS) id 8.1.340.0; Wed, 25 Feb 2009 18:15:50
+	+0200
+From: Efstathios Stamatatos <stamatatos@aegean.gr>
+To: <elsnet-list@elsnet.org>
+Date: Wed, 25 Feb 2009 18:15:50 +0200
+Message-ID: <00c201c99764$538c7ed0$faa57c70$@gr>
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcmXZFEihVtho7pZRY2fitSfsGeSPg==
+Content-Language: el
+x-cr-hashedpuzzle: AMZ2 AsQU CGYH Cl8Z ECb1 EK95 EdSg FB/e FRwx F6yE GVEE Gk8n
+	HJey IEI5 IJjW JZxn; 1;
+	ZQBsAHMAbgBlAHQALQBsAGkAcwB0AEAAZQBsAHMAbgBlAHQALgBvAHIAZwA=;
+	Sosha1_v1; 7; {D9991990-13E0-40C1-B128-348653E293CF};
+	cwB0AGEAbQBhAHQAYQB0AG8AcwBAAGEAZQBnAGUAYQBuAC4AZwByAA==;
+	Wed, 25 Feb 2009 16:15:47 GMT;
+	QwBGAFAAOgAgAFMAcABlAGMAaQBhAGwAIABJAHMAcwB1AGUAIABvAGYAIABMAGEAbgBnAHUAYQBnAGUAIABSAGUAcwBvAHUAcgBjAGUAcwAgAGEAbgBkACAARQB2AGEAbAB1AGEAdABpAG8AbgAgAG8AbgAgAFAAbABhAGcAaQBhAHIAaQBzAG0AIABhAG4AZAAgAEEAdQB0AGgAbwByAHMAaABpAHAAIABBAG4AYQBsAHkAcwBpAHMA
+x-cr-puzzleid: {D9991990-13E0-40C1-B128-348653E293CF}
+X-Mailman-Approved-At: Sat, 28 Feb 2009 19:27:19 +0100
+Subject: [Elsnet-list] CFP: Special Issue of Language Resources and
+	Evaluation on Plagiarism and Authorship Analysis
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0685406929=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============0685406929==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_00C3_01C99775.17154ED0"
+Content-Language: el
+
+------=_NextPart_000_00C3_01C99775.17154ED0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+(Apologies for multiple postings)
+
+ 
+
+****************************************************************************
+****************
+
+ 
+
+CALL FOR PAPERS
+
+ 
+
+Language Resources and Evaluation Journal
+
+ 
+
+Special Issue on Plagiarism and Authorship Analysis
+
+ 
+
+Guest Editors: Efstathios Stamatatos, Benno Stein, and Moshe Koppel
+
+ 
+
+The vast number of electronic texts available in Internet media (e.g.,
+newspaper articles, blogs, online forum messages, email messages)
+necessitates automated processing of information. However, it also increases
+opportunities for infringement of intellectual property rights. One
+important question is whether a text by a specific author includes another
+author's ideas, language, or writing without proper acknowledgment of the
+original source. Plagiarism analysis is a general term for a variety of
+automated methods for identifying plagiarism and related infringements. In
+connection with text documents, we distinguish between corpus-based and
+intrinsic analysis: the former compares suspicious documents against a set
+of potential original documents, the latter identifies potentially
+plagiarized passages by analyzing the suspicious document with respect to
+changes in writing style. Such passages can then be used as a starting point
+for a Web search or for human inspection. In addition, writing style can
+also be used by authorship analysis tools to extract meta-data for a textual
+document. Thus, by analyzing the stylistic choices of an author, it is
+possible to estimate the author's sex, age, educational level etc. Moreover,
+given that we have examples of the writing style of a set of candidate
+authors, we can identify the most likely author of a new text or verify
+whether this text is written by a specific author. Apart from the
+traditional usage of this technology in the analysis of literary works, such
+information is crucial for forensic applications where part of the evidence
+is electronic text.
+
+ 
+
+This special issue solicits state-of-the-art methods, tools, and
+applications in the area of Plagiarism and Authorship Analysis. The
+following list gives examples from the outlined field for which
+contributions are welcome (but not limited to):
+
+ 
+
+-          Plagiarism detection in general, in Web communities and social
+networks
+
+-          Cross-language plagiarism 
+
+-          Identifying near-duplicate and versioned documents 
+
+-          Technology for high-similarity retrieval such as fingerprinting
+and similarity hashing 
+
+-          Models for authorship identification and verification
+
+-          Writing style analysis and author profiling
+
+-          NLP- and knowledge-based retrieval models to capture personal
+traits and sentiment 
+
+-          Web forensics, community fraud, and new Web infringements 
+
+-          Test corpora, performance measures, and evaluation methods
+
+ 
+
+SUBMISSION GUIDELINES:
+
+ 
+
+Prospective authors should submit their paper according to the directions on
+the LRE Web site following the content and formatting guidelines available
+at
+
+http://www.springer.com/journal/10579/  
+
+Submissions will be reviewed according to the standards of the LRE journal.
+Papers should not have been submitted or published elsewhere but may be
+extended or refined versions of conference papers with significant new,
+original material.
+
+All questions about submissions should be directed to lre@webis.de 
+
+Prospective authors are advised to inform the guest editors about their
+intention to submit a paper as soon as possible.
+
+ 
+
+IMPORTANT DATES: 
+
+ 
+
+Submission of articles: April 30, 2009
+
+Notification to authors: July 1, 2009
+
+Final version of accepted papers: August 31, 2009
+
+ 
+
+GUEST EDITORS:
+
+ 
+
+Efstathios Stamatatos, 
+
+University of the Aegean, Greece
+
+ 
+
+Benno Stein, 
+
+Weimar University, Germany
+
+ 
+
+Moshe Koppel, 
+
+Bar-Ilan University, Israel
+
+ 
+
+
+------=_NextPart_000_00C3_01C99775.17154ED0
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1683512624;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1328414160 -59704850 67633155 67633157 67633153 =
+67633155 67633157 67633153 67633155 67633157;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	mso-margin-top-alt:0cm;
+	margin-right:54.0pt;
+	margin-bottom:0cm;
+	margin-left:54.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:Calibri;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEL link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p style=3D'margin-top:0cm'><span lang=3DEN =
+style=3D'font-size:11.0pt'>(Apologies for
+multiple postings)<o:p></o:p></span></p>
+
+<p style=3D'margin-top:0cm'><span lang=3DEN =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p style=3D'margin-top:0cm'><span lang=3DEN =
+style=3D'font-size:11.0pt'>**********************************************=
+**********************************************<o:p></o:p></span></p>
+
+<p style=3D'margin-top:0cm'><span lang=3DEN =
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'>CALL FOR PAPERS<o:p></o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'>Language Resources and Evaluation =
+Journal<o:p></o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'>Special Issue on Plagiarism and Authorship =
+Analysis<o:p></o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'>Guest Editors: Efstathios Stamatatos, Benno =
+Stein, and
+Moshe Koppel<o:p></o:p></span></p>
+
+<p align=3Dcenter style=3D'margin-top:0cm;text-align:center'><span =
+lang=3DEN
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p style=3D'margin-top:0cm;text-align:justify'><span lang=3DEN =
+style=3D'font-size:
+11.0pt'>The vast number of electronic texts available in Internet media =
+(e.g.,
+newspaper articles, blogs, online forum messages, email messages) =
+necessitates
+automated processing of information. However, it also increases =
+opportunities
+for infringement of intellectual property rights. One important question =
+is
+whether a text by a specific author includes another author&#8217;s =
+ideas,
+language, or writing without proper acknowledgment of the original =
+source. <i>Plagiarism
+analysis</i> is a general term for a variety of automated methods for
+identifying plagiarism and related infringements. In connection with =
+text
+documents, we distinguish between corpus-based and intrinsic analysis: =
+the
+former compares suspicious documents against a set of potential original
+documents, the latter identifies potentially plagiarized passages by =
+analyzing
+the suspicious document with respect to changes in writing style. Such =
+passages
+can then be used as a starting point for a Web search or for human =
+inspection.
+In addition, writing style can also be used by <i>authorship =
+analysis</i> tools
+to extract meta-data for a textual document. Thus, by analyzing the =
+stylistic
+choices of an author, it is possible to estimate the author&#8217;s sex, =
+age,
+educational level etc. Moreover, given that we have examples of the =
+writing
+style of a set of candidate authors, we can identify the most likely =
+author of
+a new text or verify whether this text is written by a specific author. =
+Apart
+from the traditional usage of this technology in the analysis of =
+literary
+works, such information is crucial for forensic applications where part =
+of the
+evidence is electronic text.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>This special issue solicits state-of-the-art =
+methods,
+tools, and applications in the area of Plagiarism and Authorship =
+Analysis. </span><span
+lang=3DEN style=3D'font-size:11.0pt'>The following list gives examples =
+from the
+outlined field for which contributions are welcome (but not limited =
+to):</span><span
+lang=3DEN-US style=3D'font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Plagiarism
+detection in general, in Web communities and social =
+networks<o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Cross-language
+plagiarism <o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Identifying
+near-duplicate and versioned documents <o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Technology
+for high-similarity retrieval such as fingerprinting and similarity =
+hashing <o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Models
+for authorship identification and verification<o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Writing
+style analysis and author profiling<o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>NLP-
+and knowledge-based retrieval models to capture personal traits and =
+sentiment <o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US =
+style=3D'font-size:11.0pt'>Web
+forensics, community fraud, and new Web infringements =
+<o:p></o:p></span></p>
+
+<p class=3DMsoListParagraph =
+style=3D'mso-margin-top-alt:0cm;margin-right:54.0pt;
+margin-bottom:0cm;margin-left:42.55pt;margin-bottom:.0001pt;text-align:ju=
+stify;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if !supportLists]><span
+lang=3DEN-US style=3D'font-size:11.0pt'><span =
+style=3D'mso-list:Ignore'>-<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=3DEN-US>Test corpora, =
+performance
+measures, and evaluation methods</span><span lang=3DEN-US =
+style=3D'font-size:11.0pt'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>SUBMISSION GUIDELINES:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Prospective authors should submit their paper =
+according
+to the directions on the LRE Web site following the content and =
+formatting
+guidelines available at<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><a =
+href=3D"http://www.springer.com/journal/10579/">http://www.springer.com/j=
+ournal/10579/</a>&nbsp;
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Submissions will be reviewed according to the =
+standards
+of the LRE journal. Papers should not have been submitted or published
+elsewhere but may be extended or refined versions of conference papers =
+with
+significant new, original material.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>All questions about submissions should be =
+directed to <a
+href=3D"mailto:lre@webis.de">lre@webis.de</a> <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Prospective authors are advised to inform the =
+guest
+editors about their intention to submit a paper as soon as =
+possible.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>IMPORTANT DATES: <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Submission of articles: April 30, =
+2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Notification to authors: July 1, =
+2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Final version of accepted papers: August 31, =
+2009<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>GUEST EDITORS:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Efstathios Stamatatos, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>University of the Aegean, =
+Greece<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Benno Stein, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Weimar University, =
+Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Moshe Koppel, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-align:justify'><span lang=3DEN-US
+style=3D'font-size:11.0pt'>Bar-Ilan University, =
+Israel<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p>&nbsp;=
+</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_00C3_01C99775.17154ED0--
+
+--===============0685406929==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0685406929==--

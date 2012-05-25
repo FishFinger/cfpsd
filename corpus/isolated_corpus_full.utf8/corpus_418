@@ -1,0 +1,680 @@
+From - Thu Dec 10 14:23:36 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 540f9d0e5ecb83422c8142a9cf06cd09089397c0
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.11.2 with SMTP id o2cs56704pyi;
+        Thu, 6 Jul 2006 17:20:28 -0700 (PDT)
+Received: by 10.64.24.20 with SMTP id 20mr1385765qbx;
+        Thu, 06 Jul 2006 17:20:28 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id f12si15919qba.2006.07.06.17.20.25;
+        Thu, 06 Jul 2006 17:20:28 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k670KJwe022089;
+	Fri, 7 Jul 2006 10:20:23 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070710202105930
+ ; Fri, 07 Jul 2006 10:20:21 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k670KKug022100;
+	Fri, 7 Jul 2006 10:20:20 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k670KDlL025774
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Fri, 7 Jul 2006 10:20:14 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k670KC1c022072;
+	Fri, 7 Jul 2006 10:20:13 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070710201105918
+ ; Fri, 07 Jul 2006 10:20:12 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k670KB9R022070;
+	Fri, 7 Jul 2006 10:20:11 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k670K1DZ022052; Fri, 7 Jul 2006 10:20:01 +1000 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k66NjQmF019932 for <comp-it-announce@ics.mq.edu.au>;
+	Fri, 7 Jul 2006 09:45:26 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k66NjLC23332
+	for <comp-it-announce@ics.mq.edu.au>;
+	Fri, 7 Jul 2006 09:45:22 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Fri, 07 Jul 2006 09:41:27 +1000
+Received: by staff.cs.usyd.edu.au with postie; Thu, 06 Jul 2006 14:31:52 +1100
+Received: from cpu2.cs.usyd.edu.au. [129.78.9.67] by staff.cs.usyd.edu.au.;
+	Thu, 06 Jul 2006 14:31:14 +1000
+Received: from cpu2.cs.usyd.edu.au (localhost.cs.usyd.edu.au [127.0.0.1])
+	by cpu2.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id k664VBj6003665
+	for <itannounce@it.usyd.edu.au>; Thu, 6 Jul 2006 14:31:12 +1000
+Received: (from it-announce@localhost)
+	by cpu2.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id k664V8T8003663
+	for itannounce@it.usyd.edu.au; Thu, 6 Jul 2006 14:31:10 +1000
+Date: Thu, 6 Jul 2006 14:31:03 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20060706043103.GA3633@cpu2.cs.usyd.edu.au>
+Mime-Version: 1.0
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Fri, 07 Jul 2006 09:40:36 +1000
+From: itannounce@mail.it.usyd.edu.au
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1-_rj3.1_ (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+	*  0.6 HOT_NASTY BODY: Possible porn - Hot, Nasty, Wild, Young
+	* 0.5 URIBL_WS_SURBL Contains an URL listed in the WS SURBL blocklist
+	*      [URIs: iadis.org]
+X-Spam-Flag-SoIT: No (Score=2.1, required: 5.0)
+X-Spam-Level-SoIT: **
+X-Mailman-Approved-At: Fri, 07 Jul 2006 10:19:58 +1000
+X-BeenThere: comp@ics.mq.edu.au
+Content-Type: multipart/mixed; boundary="===============1824312955=="
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1 July
+	2006
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+
+--===============1824312955==
+Content-Type: text/plain; charset=unknown-8bit
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by vacuum.ics.mq.edu.au id k670KB9R022070
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 1 for July, 2006. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm.
+
+
+Australian International and Local Conference Announcements
+
+  CCATS 2007 Computing: The Australasian Theory Symposium
+  IEEE International Conference on Intelligent Agents, Web Technologies a=
+nd Internet Commerce
+  PRACTICAL COGNITIVE AGENTS and ROBOTS
+  Open Source Developers' Conference - Melbourne - December 2006
+
+International Conference Announcements
+
+  Service Composition Workshop, 2nd edition (sercomp'06), December 18, 20=
+06, Hong Kong
+  CFP: Intl Conf on Cognition and Exploratory Learning in Digital Age (CE=
+LDA 2006)
+  CfP: 6th Workshop on Domain-Specific Modeling at OOPSLA
+  IEEE/WIC/ACM Web Intelligence 2006
+  (Deadline extended) IFIP SWWS 2006 - due July 10
+  The AVISPA Tool - v1.1
+
+Academic Positions
+
+  Open positions: R&D Software Engineer and APAI PhD Scholarship
+  Two PhD scholarships available for ARC Discovery Project
+  PhD Scholarship University of NSW
+  PhD Scholarship on Relationships in OOP
+  PhD Scholarship in Intelligent Agents and Multi-Agent Systems, Swinburn=
+e University
+  PhD Postgraduate Scholarship in Data Mining: Macquarie University Compu=
+ting
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Australian International and Local Conference Announcements
+
+  CCATS 2007 Computing: The Australasian Theory Symposium
+  Joachim Gudmundsson
+
+CALL FOR PAPER
+
+CATS 2007 Computing: The Australasian Theory Symposium
+January 29 - February 2, 2007, Ballarat, Australia
+http://www-staff.it.uts.edu.au/~cbj/cats0
+
+CATS is the premier theoretical computer science conference i
+Australasia. It is held annually as part of Australasian Compute
+Science Week (ASCW) which comprises many other conferences and i
+overseen by the Computer Research and Education Associatio
+(CORE)
+
+CATS 2007 will be the thirteenth time that CATS has been held. Th
+symposium will consist of invited talks and formal pape
+presentations. All papers will be fully refereed with proceeding
+published by CRPIT
+
+Papers are invited on all aspects of Theoretical Computer Science
+Some representative, but not exclusive, topics include th
+following
+   logic and type system .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.msg0
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  IEEE International Conference on Intelligent Agents, Web Technologies a=
+nd Internet Commerce
+  iawtic@canberra.edu.au
+
+
+                            CALL FOR PAPER
+       International Conference on Intelligent Agents, Web Technologie
+                         and Internet Commerc
+             http://www.ise.canberra.edu.au/conferences/iawtic06
+
+                              Jointly wit
+
+ International Conference on Computational Intelligence for Modelling
+                       Control and Automatio
+                    28 November to 1 December 200
+                         Sydney , Australi
+               http://www.ise.canberra.edu.au/conferences/cimca06
+
+
+Honorary Chair
+Lotfi A. Zadeh, University of California, US
+Stephen Grossberg, Boston University, US
+
+
+Important Dates .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.msg1
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  PRACTICAL COGNITIVE AGENTS and ROBOTS
+  Mary-Anne.Williams@uts.edu.au
+
+International Symposium on PRACTICAL COGNITIVE AGENTS and ROBOT
+   --- Celebrating 50 Years of Artificial Intelligence  --
+
+                    CALL FOR PAPER
+            http://agents.csse.uwa.edu.au/pcar
+          *Paper Submission: September 30, 2006=20
+         27- 28 November, 2006 (Perth, Australia
+
+*INVITED SPEAKERS*
+
+ Masahiro Fujita*- /General Manager, Chief Distinguished Researcher
+ Intelligent Systems Research Laboratory, Information Technologie
+ Laboratories, Sony Corporation/, /Japan. Technical leader of Sony'
+ entertainment robot AIBOand humanoid QRIO
+
+ *Patrick Doherty* - /Professor of Computer Science, Department o
+ Computer and Information Science, Link=F6ping University, and  Directo
+ for LinkLab, a center for Future Aviation Systems, which is a join
+ venture between Saab Aero Systems and Link=F6ping University.
+
+Mobile autonomous robots can perform complex tasks in unstructured an ...=
+..=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.msg2
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  Open Source Developers' Conference - Melbourne - December 2006
+  debbiep-osdc@futzle.com
+       http://www.osdc.com.au/papers/cfp06.html
+
+There are two and a half weeks to go to get your paper in for one of th
+best Australian conferences this year
+
+        The deadline for proposals is 12th July 2006
+
+The Open Source Developers' Conference is an Australian conferenc
+designed for developers, by developers. It covers numerous programmin
+languages across a range of operating systems.  We're seeking papers o
+Open Source languages, technologies, projects and tools as well as  topic
+of interest to Open Source developers
+
+The conference will be held in Melbourne, Victoria (Monash University'
+Caulfield Campus) from the 6th to the 8th of December, 2006.  Each da
+includes three streams of talks, social events and is full
+catered with buffet lunch and morning, afternoon teas
+
+For a list of conference presentations from last year visit
+
+        http://osdc2005.cgpublisher.com/proposals
+
+If you have any questions, or have never submitted a paper proposa .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.msg3
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+International Conference Announcements
+
+  Service Composition Workshop, 2nd edition (sercomp'06), December 18, 20=
+06, Hong Kong
+  dumitru.roman@deri.org
+
+*** First Call for Papers **
+
+-------------------------------------------------------------------------=
+---------------------
+International Workshop on Service Composition, 2nd editio
+(sercomp'06
+http://events.deri.at/sercomp2006
+
+at the 2006 IEEE/WIC/ACM International Conference on Web Intelligenc
+(WI 2006
+http://www.comp.hkbu.edu.hk/iwi0
+
+December 18, 2006, Hong Kon
+-------------------------------------------------------
+
+
+GENERAL OVERVIE
+
+Composition of services in dynamic environments has received muc
+interest for its potential to support Business-to-Business (B2B) o
+Enterprise Application Integration (EAI). One of such dynami
+environments is the World Wide Web, which makes available a hug .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.msg0
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  CFP: Intl Conf on Cognition and Exploratory Learning in Digital Age (CE=
+LDA 2006)
+  kinshuk@ieee.org
+
+Dear colleague
+
+Deadline for submissions: 17 July 2006 (for all contributions
+
+
+                         IADIS International Conference o
+            Cognition and Exploratory Learning in Digital Age (CELDA 2006
+                          December 8-10, 2006 - Barcelona, Spai
+                             (http://www.iadis.org/celda2006)* Importan
+                             Dates
+17 July 2006        - Submission Deadlin
+11 September 2006   - Notification to Author
+16 October 2006     - Final Camera-Ready Submission and Early Registratio
+
+
+* Keynote Speaker (confirmed)
+Professor David Merrill, Brigham Young University Hawaii, US
+Professor Bego=F1a Gros, Universidad de Barcelona, Spai
+
+* Invited Talk (confirmed)
+Dr Marco Marsella, European Commission, DG Information Society .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.msg1
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  CfP: 6th Workshop on Domain-Specific Modeling at OOPSLA
+  jpt@metacase.com
+
+C A L L   F O R   P A P E R=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+The 6th OOPSLA Workshop on Domain-Specific Modelin
+
+October 22, 200
+Portland, Oregon, US
+
+http://www.dsmforum.org/events/DSM0
+
+-------------------------------------------------------------------------=
+-
+Call for Position Papers
+
+Domain-Specific Modeling raises the level of abstraction beyon
+programmin
+by specifying the solution directly using domain concepts. In many cases
+final products can be generated automatically from these high-leve
+specifications. This automation is possible because both the language an
+generators need fit the requirements of only one company and domain
+
+Industrial experiences of DSM consistently show it to be 5-10 times faste=
+ .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.msg2
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  IEEE/WIC/ACM Web Intelligence 2006
+  hujia0601@sina.com
+
+####################################################################
+
+         IEEE/WIC/ACM  WEB INTELLIGENCE 200
+
+                  CALL FOR PAPER
+
+####################################################################
+
+2006 IEEE/WIC/ACM  International Conference o
+Web Intelligence (WI'06
+
+Hong Kong Convention and Exhibition Centre, Hong Kong, China
+18-22 December 2006
+
+Sponsored B
+IEEE Computer Societ
+Web Intelligence Consortium (WIC
+Association for Computing Machinery (ACM
+
+Co-Organized Wit
+Hong Kong Baptist University (HKBU .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.msg3
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  (Deadline extended) IFIP SWWS 2006 - due July 10
+  IFIP SWWS 2006
+
+CALL FOR PAPER
+
+**NEW Deadline** Paper Submission due - July 10, 2006
+
+Second International IFIP WG 2.12 / 12.4 Workshop on Web Semantics (SWW
+'06
+with special tracks on Security & Trust, Fuzzy models and Regulator
+Ontologie
+
+Oct 29 - Nov 3, 2006, Montpellier, Franc
+http://www.cs.rmit.edu.au/fedconf/index.html?page=3Dswws2006cf
+
+In conjunction with OnTheMove Federated Conferences (OTM'06
+http://www.cs.rmit.edu.au/fedcon
+
+Proceedings will be published by Springer LNC
+
+
+Motivatio
+The IFIP Working Group 2.12 & 12.4 on Semantic We
+(http://www.ceebi.curtin.edu.au/IFIP/) is a timely active internationa ..=
+...=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.msg4
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  The AVISPA Tool - v1.1
+  Laurent.Vigneron@loria.fr
+
+[We apologize if you received multiple copies of this message
+
+	     XXX   X	 X  XXXXX   XXXXX  XXXXXX    XX
+	    X	X  X	 X    X    X	 X X	 X  X=09
+	   X	 X X	 X    X    X	   X	 X X	=20
+	   X	 X  X	X     X    X	   X	 X X	=20
+	   XXXXXXX  X	X     X     XXXXX  XXXXXX  XXXXXX
+	   X	 X   X X      X		 X X	   X	=20
+	   X	 X   X X      X		 X X	   X	=20
+	   X	 X    X       X    X	 X X	   X	=20
+	   X	 X    X     XXXXX   XXXXX  X	   X	=20
+
+			 V E R S I O N	  1 .=20
+
+			    (June 30, 2006
+
+
+We are happy to announce the availability of a new version of th
+AVISPA Tool, a push-button tool for the Automatic Validation o
+Internet Security-sensitive Protocols and Applications.  The AVISP
+Tool v1.1 is available a .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.msg5
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+Academic Positions and Scholarships
+
+  Open positions: R&D Software Engineer and APAI PhD Scholarship
+  rkowalczyk@ict.swin.edu.au
+
+R&D Software Engineer/Research Assistant, an
+APAI PhD Scholarship (Australian Postgraduate Award Industry
+
+Two positions are available in a research project on Agent-Enabled Socia
+Networks (AESN). The project is supported by a substantial researc
+grant awarded by the Australian Research Council's Linkage Program i
+collaboration with the industry partner Everyday Interactive Networks
+
+For more information please visi
+http://www.it.swin.edu.au/centres/ciamas
+
+----------------------------------------------------------------
+Prof Ryszard Kowalczy
+Director, Centre for Intelligent Agents and Multi-Agent System
+Faculty of Information and Communication Technologie
+Swinburne University of Technolog
+PO Box 218 Hawthorn, Victoria 3122, Australi
+http://www.it.swin.edu.au/centres/ciama
+Email: rkowalczyk@it.swin.edu.a
+Phone: +61 3 9214 5834 Fax: +61 3 9819 0823 Office: EW10
+---------------------------------------------------------------- .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.msg0
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  Two PhD scholarships available for ARC Discovery Project
+  liyan@usq.edu.au
+
+Two PhD scholarships funded by ARC Discovery Projec
+
+Stipend of $23,886 p.a. (tax free) (2006-2008
+
+Application close: Open until  fille
+
+Contact: Dr Yan L
+Department of Mathematics and Computin
+The University of Southern Queensland
+QLD 4350, Australia
+Email: liyan@usq.edu.a
+URL: http://www.sci.usq.edu.au/staff/liya
+
+Research Areas
+
+Biomedical Engineering (EEG or MRI), Artificial Intelligence and Networke
+Real-time Syste
+
+Prerequisites
+
+A  Honours, Masters degree or equivalent in Computer Science, Electroni .=
+....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.msg1
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  PhD Scholarship University of NSW
+  jxue@cse.unsw.edu.au
+
+A PhD scholarship funded by an ARC grant is available. The intereste
+student please consult the following URL link for detail
+
+http://www.cse.unsw.edu.au/~jxue/xue06.htm
+
+--- Jingling Xu
++------------------------------------------------------------------
+| Tel: +61 2 9385 4889  School of Computer Science and Engineering=20
+| Fax: +61 2 9385 5995           The University of New South Wales=20
+| http://www.cse.unsw.edu.au/~jxue           Sydney 2052 Australia=20
+| UNSW Legal disclaimer:   http://www.eng.unsw.edu.au/emaildis.htm=20
++------------------------------------------------------------------
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.msg2
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  PhD Scholarship on Relationships in OOP
+  david.pearce@mcs.vuw.ac.nz
+
+Applications are invited for a targeted PhD scholarship with th
+Software Engineering Group at Victoria University of Wellington, Ne
+Zealand.  The topic is "First-Class Relationships for Object-Oriente
+Programming Languages" (description below), to be supervised by Dr
+David J. Pearce and Professor James Noble
+
+The Scholarship is valued at $20,000 per annum, plus a contribution t
+tuition fees.  International students will only pay domestic fees
+
+The deadline for applications is 17th July, 2006.  More information can b
+found at: www.vuw.ac.nz/scholarships.  Enquiries about the proposed topi
+should be directed to Dr. David J. Pearce on david.pearce@mcs.vuw.ac.n
+or +64 (0)4 463 583
+
+Project Description
+
+Object-Oriented programming languages, such as Java, use objects as th
+fundamental building blocks for representing the world.  While thi
+approach enables rich representation of the properties and behaviou
+of objects, it provides surprisingly limited support for representin
+relationships in ad-hoc ways, which results in needless errors, cod .....=
+=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.msg3
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  PhD Scholarship in Intelligent Agents and Multi-Agent Systems, Swinburn=
+e University
+  rkowalczyk@swin.edu.au
+
+-------------------------------------------------------------------------=
+---------------------
+PhD Scholarship in Intelligent Agents and Multi-Agent System
+-------------------------------------------------------------------------=
+---------------------
+
+A new PhD Scholarship is available in Intelligent Agents and Multi-Agen
+Systems at the Swinburne Centre for Information Technology Research
+Faculty of Information and Communication Technologies, Swinburn
+University of Technology, Melbourne, Australia
+
+Potential candidates interested in PhD research in the areas o
+qualitative decision-making, argumentation and learning mechanism
+for multi-agent negotiation and coordination are encourage
+to apply. Preference will be given to the candidates with stron
+mathematical, game-theoretical, soft computing, artificial intelligenc
+and/or relevant computer science background and interests. Bot
+Australian and international candidates are encouraged to apply. Preferre
+commencement in 2006
+
+For further information and application forms, please contact Pro
+Ryszard Kowalczyk with the following details
+ .....=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.msg4
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+  PhD Postgraduate Scholarship in Data Mining: Macquarie University Compu=
+ting
+  mehmet@ics.mq.edu.au
+
+PhD Postgraduate Scholarship: Macquarie University Computin
+
+APAI: Prediction and Classification Modelling for Debt Payment Risk for A=
+TO Client
+
+URL: http://www.ro.mq.edu.au/HDRU/forms_scholar/ICSAPAIATO.pd
+
+The Computing Department, Macquarie University are offering one Australia
+Postgraduate Awards (Industry) Scholarship (APAI). The Australia
+Taxation Office (ATO) and Macquarie University have gained funding unde
+the ARC Linkage Projects (LP0561985) to support a research program fo
+the optimisation of tax collections by improving the prediction an
+classification of taxpayer debt payment risk
+
+Predictive models for financial distress and insolvency risk will b
+developed in this project. These models will be used to contribute to th
+understanding taxpayers; circumstances and the choice of appropriat
+collection actions. The successful applicant (PhD student) will conduc
+research in Macquarie's Intelligent Systems Group and collaborate wit
+the Analytics team in the Office of the Chief Knowledge Officer at th
+ATO. The student will spend time at the ATO being briefed by domai
+experts on debt and recovery issues and gaining an understanding of th ..=
+...=20
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.msg5
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+
+--===============1824312955==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+
+--===============1824312955==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds
+
+--===============1824312955==--

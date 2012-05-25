@@ -1,0 +1,431 @@
+From - Thu Dec 10 14:25:29 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.14 with SMTP id l14cs332247bud;
+        Mon, 8 Jan 2007 20:08:25 -0800 (PST)
+Received: by 10.35.107.20 with SMTP id j20mr50236153pym.1168315704351;
+        Mon, 08 Jan 2007 20:08:24 -0800 (PST)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id x56si39040433pyg.2007.01.08.20.08.22;
+        Mon, 08 Jan 2007 20:08:24 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id l0948Cl5002719
+	for <jpprost@gmail.com>; Tue, 9 Jan 2007 15:08:21 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2007010915082009108
+ for <jpprost@gmail.com>; Tue, 09 Jan 2007 15:08:20 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l0948AAs002706
+	for <jpprost@gmail.com>; Tue, 9 Jan 2007 15:08:20 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l0948Ait012720
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 9 Jan 2007 15:08:10 +1100 (EST)
+X-ASG-Debug-ID: 1168315678-25dc00430000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1168315678
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP
+	id 796B7D2699C7; Tue,  9 Jan 2007 15:07:58 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id l0947grT002580;
+	Tue, 9 Jan 2007 15:07:57 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2007010915075709085
+ ; Tue, 09 Jan 2007 15:07:57 +1100
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l0947kt1002601;
+	Tue, 9 Jan 2007 15:07:56 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id
+	l0946YBO002437; Tue, 9 Jan 2007 15:06:34 +1100 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id
+	l092aEYl025885 for <comp-it-announce@ics.mq.edu.au>;
+	Tue, 9 Jan 2007 13:36:14 +1100 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id l092aDg17936
+	for <comp-it-announce@ics.mq.edu.au>;
+	Tue, 9 Jan 2007 13:36:13 +1100 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Tue, 09 Jan 2007 13:33:40 +1100
+Received: by staff.cs.usyd.edu.au with postie; Mon, 08 Jan 2007 15:36:13 +1100
+Received: from cpu0.cs.usyd.edu.au. [129.78.11.42] by serf8.cs.usyd.edu.au.;
+	Mon, 08 Jan 2007 15:36:02 +0000
+Received: from cpu0.cs.usyd.edu.au (localhost.cs.usyd.edu.au [127.0.0.1])
+	by cpu0.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id l084a1ik010161
+	for <itannounce@it.usyd.edu.au>; Mon, 8 Jan 2007 15:36:01 +1100
+Received: (from it-announce@localhost)
+	by cpu0.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id l084a16c010157
+	for itannounce@it.usyd.edu.au; Mon, 8 Jan 2007 15:36:01 +1100
+Date: Mon, 8 Jan 2007 15:36:01 +1100
+To: itannounce@it.usyd.edu.au
+Message-ID: <20070108043601.GA10149@cpu0.cs.usyd.edu.au>
+Mime-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Mon, 08 Jan 2007 15:55:16 +1100
+From: itannounce@mail.it.usyd.edu.au
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Tue, 09 Jan 2007 15:06:22 +1100
+X-BeenThere: comp@ics.mq.edu.au
+X-ASG-Orig-Subj: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1
+	January 2007
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1
+	January 2007
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 2.16
+X-Barracuda-Spam-Status: No, SCORE=2.16 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=DEAR_SOMETHING, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.5693
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 NO_REAL_NAME           From: does not include a real name
+	1.61 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 1 for January, 2007. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+International Conference Announcements
+
+  19th International Conference on Software Engineering and Knowledge Engineering (SEKE'2007)
+  6th IEEE International Conference on Computer and Information Science(ICIS 2007)
+  Mobile Service-oriented Architectures and Ontologies (MoSO) Workshop; 2nd edition
+  CFP Indigenous Knowledge Visualisation
+  SEDE-2007 CFP, July 9-11, Las Vegas, Nevada
+  DAIS 2007: Distributed Applications and Interoperable Systems: Extended submission deadline
+
+Academic Positions
+
+  Computer Science Job South Africa
+  PHD scholarship, Computing Department, Macquarie University
+  APAI PhD Scholarship Available, UTS
+  C++ Software Engineer - Lexxe Search Engine, Sydney, NSW
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+
+International Conference Announcements
+
+  19th International Conference on Software Engineering and Knowledge Engineering (SEKE'2007)
+  Michael.Shin@ttu.edu
+
+CALL FOR PAPERS - 19th International Conference on
+Software Engineering and Knowledge Engineering (SEKE'2007)
+http://www.ksi.edu/seke/seke07.html
+
+Hyatt Harborside at Logan International Airport, Boston, USA
+
+July 9 - July 11, 2007
+Paper submission deadline: February 20, 2007
+
+Organized by Knowledge Systems Institute
+
+
+The Nineteenth International Conference on Software Engineering and
+Knowledge Engineering (SEKE'07) will be held in Hyatt Harborside
+at Boston's Logan Int'l Airport, Boston, USA, July 9-11, 2007.
+The hotel's website is at:
+http://harborside.hyatt.com/hyatt/hotels/index.jsp
+
+The conference aims at bringing together experts in software engineering
+and
+knowledge engineering to discuss on relevant results in either software ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  6th IEEE International Conference on Computer and Information Science(ICIS 2007)
+  r.sarker@adfa.edu.au
+
+Call for Papers
+6th IEEE International Conference on Computer and Information Science(ICIS
+2007), July 11-13, 2007
+Hotel: TBA, Melbourne, Australia
+http://acis.cps.cmich.edu:8080/ICIS2007/
+
+Sponsored by the IEEE Computer Society and ACIS.
+
+6th IEEE International Conference on Computer and Information Science
+brings together scientists, engineers, computer users, and students to
+exchange and share their experiences, new ideas, and research results
+about all aspects (theory, applications and tools) of computer and
+information science, and discuss the practical challenges encountered
+and the solutions adopted. The conference will cover a broad set of
+research topics:
+
+-	Middleware Architectures & Techniques
+-	Communication Systems & Networks
+-	Visual and Multimedia Computing
+-	Web Engineering & Applications
+-	Data Mining, Data Warehousing & Database ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  Mobile Service-oriented Architectures and Ontologies (MoSO) Workshop; 2nd edition
+  dumitru.roman@deri.org
+
+First Call for Submissions
+
+-----------------------------------------------------------------------------------------------
+Mobile Services-oriented Architectures and Ontologies
+(MoSO 2007)
+http://events.deri.at/MoSO2007/
+
+at The 8th International Conference on Mobile Data Management
+(MDM'07)
+http://mdm2007.uni-mannheim.de/
+
+May 7 (tentative), 2007, Mannheim, Germany
+--------------------------------------------------------
+
+THEME OF THE WORKSHOP
+
+The theme of the workshop is the intersection of three major trends
+in today's
+computing:
+
+* mobile computing becomes more and more important. Mobile portable ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  CFP Indigenous Knowledge Visualisation
+  twyeld@itee.uq.edu.au
+
+Dear colleagues,
+below is the first call for papers for a new symposium "World
+Indigenous Peoples' Knowledge Visualisation", part of the
+
+2007 11th European Information Visualisation Conference, at the ETH,
+Zurich, Switzerland, 4 - 6 July.
+
+I hope you will help support this new venture by distributing the
+CFP widely.
+
+Many regards, Theodor G Wyeld.
+
+
+************************************************************************
+International Symposium of "World Indigenous Peoples' Knowledge
+Visualisation", IV07-IKV
+************** http://www.graphicslink.co.uk/IV06/IKV.htm **************
+************************************************************************
+4, 5, 6 July 2007
+ETH - ZURICH - SWITZERLAND
+-------------------------------------------------------------------- ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  SEDE-2007 CFP, July 9-11, Las Vegas, Nevada
+  isca@ipass.net
+
+SEDE-2007 CALL FOR PAPERS
+16th International Conference
+on Software Engineering and Data Engineering
+July 9-11, 2007
+Imperial Palace Hotel, Las Vegas, Nevada  USA
+Sponsored by the International Society for Computers and their
+Applications (ISCA)
+
+The 16th SEDE Conference seeks high quality submissions in all areas
+of Software Engineering (SE) and Data Engineering (DE).  This year the
+conference puts special emphasis on the impact of parallel computing on
+software engineering and data engineering.  Applied case studies will
+report on exemplary solutions deployed in industries like automotive,
+aerospace, telecommunications and finance. In the SE section particular
+emphasis will be placed on techniques for software specification and
+design of software/hardware components and the modeling of system
+architectures. In the DE section, the emphasis this year is on high
+performance algorithms that learn patterns from large volumes of data,
+learn and predict events, adapt to situations, rationalize, provide
+autonomous control, and assist in executive decision-making. The
+conference also includes a BEST PAPER AWARD. The conference will cover a ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  DAIS 2007: Distributed Applications and Interoperable Systems: Extended submission deadline
+  ricky.robinson@nicta.com.au
+
+
+---------------------------------------------------------------------
+Third CALL FOR PAPERS
+
+*EXTENDED SUBMISSION DEADLINE*
+
+DAIS 2007
+
+7th IFIP International Conference on
+Distributed Applications and Interoperable Systems
+
+"Towards Sustainability"
+
+Paphos, Cyprus 6 - 8 June 2007
+
+---------------------------------------------------------------------
+Abstract submission: 15 January 2007
+Paper submission: 22 January 2007
+Work-in-progress papers: 2 February, 2007
+Author notification: 7 March 2007
+Camera-ready copy: 26 March 2007 ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  Computer Science Job South Africa
+  philip@itee.uq.edu.au
+
+The University of the Witwatersrand, Johannesburg, South Africa is
+advertising a position which may be filled at a range of levels up to
+senior lecturer.
+
+If interested, see
+<http://www.itee.uq.edu.au/~philip/_Africa/WitsCS2006.pdf> for
+details. Feel free to email me <mailto:philip@itee.uq.edu.au> if you
+have any questions: I worked there until mid-2002.
+
+Philip Machanick
+School of ITEE, University of Queensland
+
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  PHD scholarship, Computing Department, Macquarie University
+  tao@ics.mq.edu.au
+
+Computing Department, Macquarie University
+(http://www.ics.mq.edu.au/~jian/soc)
+PHD scholarship
+
+
+Services and Service Oriented Architecture (SOA) is at the heart of the
+business process development and distributed computing. The aim of the
+this group is to bring together the researchers in the area to exchange
+ideas and colaborate.
+
+The current research focuses are business process modeling and management,
+web service composition and monitoring, business transaction management,
+service oriented security and trust modeling and management.
+
+The group maintains close collaborations with a number of national and
+international academic research groups, industry and government research
+institutions, and commercial companies.
+
+International Students (with studying fee exemption) are welcome.
+
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
+
+  APAI PhD Scholarship Available, UTS
+  rsteele@it.uts.edu.au
+
+We invite applications for an Australian Research Council APAI PhD
+Scholarship available for starting from the beginning of 2007.
+
+The project is in a leading e-Commerce sector, and is in collaboration
+with our industry partners in the field and will utilize Web
+services technologies, search technologies and Semantic Web
+technologies. Applicants should be Australian citizens or permanent
+residents. A good knowledge of XML and distributed systems is highly
+desirable.
+
+The sholarship amount is at the high end of the typical scholarship
+range. Please contact Associate Professor Robert Steele for more
+information, rsteele@it.uts.edu.au, 9514 7872.
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt2
+
+======================================================================
+
+  C++ Software Engineer - Lexxe Search Engine, Sydney, NSW
+  hong.qiao@lexxe.com
+
+Software Engineer [Job ID: 0604]
+
+All applicants must have work permit to work in Australia.
+
+
+Essential:
+
+BS in Computer Science or equivalent (MS and PhD a plus).
+Several years of software development experience.
+Experience with Unix/Linux, C++ development, distributed systems, machine
+learning, information retrieval, network programming and/or developing
+large software systems a plus.
+Enthusiasm for solving interesting problems.
+Unix system and scripting language (Shell, Perl, Javascript, Python)
+
+
+Desirable:
+
+Knowledge of search engine technology.
+Knowledge of HTML specification.
+Knowledge of Natural Language Processing and statistics. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt3
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

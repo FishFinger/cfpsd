@@ -1,0 +1,190 @@
+From - Thu Dec 10 14:30:28 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs245686waa;
+        Sun, 24 Feb 2008 14:50:05 -0800 (PST)
+Received: by 10.67.29.20 with SMTP id g20mr2309293ugj.54.1203893400841;
+        Sun, 24 Feb 2008 14:50:00 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 27si4089576ugp.19.2008.02.24.14.49.28;
+        Sun, 24 Feb 2008 14:50:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JTPat-00045K-JM; Sun, 24 Feb 2008 23:45:15 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JSXV2-0001Y6-4Y; Fri, 22 Feb 2008 13:59:36 +0100
+Received: from stoat.shef.ac.uk [143.167.2.187] 
+	by rolf.uib.no for corpora@uib.no with esmtp (TLSv1:DES-CBC3-SHA:168)
+	(Exim 4.34) id 1JSXUz-0002iU-Cw; Fri, 22 Feb 2008 13:59:37 +0100
+Received: from va209051.shef.ac.uk ([143.167.209.51] helo=NDR70701)
+	by stoat.shef.ac.uk with esmtp (Exim 4.68)
+	(envelope-from <mark@dcs.shef.ac.uk>)
+	id 1JSXUm-00052E-FR; Fri, 22 Feb 2008 12:59:20 +0000
+From: "Mark Greenwood" <mark@dcs.shef.ac.uk>
+To: <corpora@uib.no>, <elsnet-list@elsnet.org>, <ir@jiscmail.ac.uk>,
+	<trc-qa@nist.gov>, <irlist@sheffield.ac.uk>, <nlp@dcs.shef.ac.uk>
+Date: Fri, 22 Feb 2008 12:59:09 -0000
+Message-ID: <004f01c87552$b76d49a0$2647dce0$@shef.ac.uk>
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Ach1UrX2PARAQjRCSyGisJr03NIMIA==
+Content-Language: en-gb
+X-S0phie-Scan: no
+X-checked-clean: by exiscan on rolf
+X-Scanner: 1ebb37a81a1c2c08487d560ba9704b74 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ nothing
+X-Mailman-Approved-At: Sun, 24 Feb 2008 23:45:09 +0100
+Subject: [Corpora-List] COLING 2008 Information Retrieval for Question
+	Answering (IR4QA) Workshop
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+                          Call for Papers =
+
+
+                         COLING'08 Workshop
+
+THE 2ND INFORMATION RETRIEVAL FOR QUESTION ANSWERING (IR4QA) WORKSHOP
+
+                    August 2008, Manchester, UK
+
+
+Open domain question answering (QA) has become a very active research
+area over the past decade, due in large measure to the stimulus of the
+TREC Question Answering track (now a track within the recently formed
+Text Analysis Conference, TAC). This track addresses the task of
+finding *answers* to natural language (NL) questions (e.g. "How
+tall is the Eiffel Tower?" "Who is Aaron Copland?" "What effect
+does second-hand smoke have on non-smokers?") from large text
+collections. This task stands in contrast to the more conventional IR
+task of retrieving *documents* relevant to a query, where the
+query may be simply a collection of keywords (e.g. "Eiffel Tower",
+"American composer, born Brooklyn NY 1900, ...").
+
+Finding answers requires processing texts at a level of detail that
+cannot be carried out at retrieval time for very large text
+collections. This limitation has led many researchers to rely on,
+broadly, a two stage approach to the QA task. In stage one a subset of
+question-relevant texts are selected from the whole collection.  In stage
+two this subset is subjected to detailed processing for answer
+extraction. Clearly performance at stage two is bounded by performance
+at stage one, and previous work has shown that, despite the
+sophistication of standard IR ranking algorithms, they are not well
+suited to the stage one task of retrieving relevant documents given
+short natural language questions. It is likely that improvements in
+this area will come from linguistic insights into why QA focused IR is
+different from the traditional IR model. =
+
+
+With the continued expansion of QA research into more complex question
+types and with the speed with which answers are returned becoming an
+issue, the importance of having good, QA-focused IR techniques is
+likely to increase. To date this topic has received limited explicit
+attention despite its obvious importance. This 2nd IR4QA workshop aims
+to address this situation by continuing to attract the attention of
+researchers to the specific IR challenges raised by QA.
+
+For this workshop, we solicit papers that address any aspect of
+QA-focussed IR, in order to improve overall system
+performance. Possible topics include, but are not limited to: =
+
+o parameterizations/optimizations of specific IR systems for QA
+o studies of query formation strategies suited to QA, e.g. named
+   entity pre-processing of questions
+o different uses of IR for different question types (eg, factoid,
+   list, definition, event, how, ...)
+o utility of term matching constraints, e.g. term proximity, for QA
+o analyses of differing IR techniques for QA
+o impact of IR performance on overall QA performance
+o QA-orientated corpus pre-processing, e.g. indexing POS tags,
+   named entities, semantically-tagged entities, relationships, etc.
+   rather than simply tokens
+o evaluation measures for assessing IR for QA
+o retrieval from semi-structured data - i.e. QA from Wikipedia
+   articles
+
+
+Important Dates
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Paper Submission Deadline:  28th April
+Notification of Acceptance: 6th June
+Camera-Ready Papers Due:    1st July
+
+
+Submission Instructions
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Authors are invited to submit original, unpublished work on the topic
+areas of the workshop. Submissions should follow the standard two
+column formatting instructions for the main COLING 2008 conference.
+Submitted papers should be no longer than eight (8) pages in length,
+including references. We strongly recommend the use of the Latex and
+Microsoft Word style files which are available from the main
+conference website.
+
+As reviewing will be blind, the paper should not include the authors'
+names and affiliations. Furthermore, self-references that reveal the
+author's identity, e.g., "We previously showed (Smith, 1991) ...",
+should be avoided. Instead, use citations such as "Smith previously
+showed (Smith, 1991) ...". =
+
+
+Submission will be electronic. Details will appear on the workshop web
+site (http://nlp.shef.ac.uk/ir4qa/2008/). =
+
+
+Questions regarding the submission procedure should be directed to
+Mark A. Greenwood (mark@dcs.shef.ac.uk). =
+
+
+
+Workshop Organizers
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Mark A. Greenwood
+Department of Computer Science, University of Sheffield
+
+
+Programme Committee Members
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D
+
+Matthew W. Bilotti    (Carnegie Mellon University)
+Gosse Bouma           (University of Groningen)
+Charles Clarke	    (University of Waterloo)
+Hoa Dang              (NIST)
+Robert Gaizauskas     (University of Sheffield)
+Eduard Hovy           (ISI)
+Jimmy Lin             (University of Maryland)
+John Prager           (IBM)
+Horacio Saggion       (University of Sheffield)
+J=F6rg Tiedemann        (University of Groningen)
+Bonnie Webber         (University of Edinburgh)
+Ralph Weischedel      (BBN)
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

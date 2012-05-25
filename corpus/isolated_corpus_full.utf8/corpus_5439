@@ -1,0 +1,494 @@
+From - Thu Dec 10 14:37:21 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs131014faq;
+        Thu, 11 Jun 2009 05:07:24 -0700 (PDT)
+Received: by 10.210.120.7 with SMTP id s7mr3025894ebc.91.1244722041905;
+        Thu, 11 Jun 2009 05:07:21 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si11703295ewy.89.2009.06.11.05.07.20;
+        Thu, 11 Jun 2009 05:07:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id E062A20742; Thu, 11 Jun 2009 14:07:19 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.7 required=5.0 tests=AWL,BAYES_00,SORTED_RECIPS
+	autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 4575D209BE;
+	Thu, 11 Jun 2009 14:07:05 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2949D3D2A;
+	Thu, 11 Jun 2009 14:07:05 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id VFa0V-Xw7Gjk; Thu, 11 Jun 2009 14:07:04 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 96B5D3D2B;
+	Thu, 11 Jun 2009 14:07:03 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 38B973D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  8 Jun 2009 09:07:38 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id anGuXJisZVsP for <elsnet-list@mailman.elsnet.org>;
+	Mon,  8 Jun 2009 09:07:38 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 104D73D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  8 Jun 2009 09:07:38 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id F295420F08; Mon,  8 Jun 2009 09:07:37 +0200 (MEST)
+Received: from hyperion.ccf.auth.gr (hyperion.ccf.auth.gr [155.207.1.42])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 9653120F15
+	for <elsnet-list@let.uu.nl>; Mon,  8 Jun 2009 09:07:30 +0200 (MEST)
+Received: from [192.168.1.3] (ipa176.22.tellas.gr [84.254.22.176])
+	(authenticated bits=0)
+	by hyperion.ccf.auth.gr (8.14.3/8.14.3) with ESMTP id n5876Cjt022738
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Mon, 8 Jun 2009 10:06:15 +0300
+Message-ID: <4A2CB861.6040509@csd.auth.gr>
+Date: Mon, 08 Jun 2009 10:06:09 +0300
+From: Nick Bassiliades <nbassili@csd.auth.gr>
+User-Agent: Thunderbird 2.0.0.21 (Windows/20090302)
+MIME-Version: 1.0
+To: ehn@cs.cmu.edu, elsnet-list@elsnet.org, elsnet-list@let.uu.nl,
+	epontell@cs.nmsu.edu, event@in.tu-clausthal.de,
+	events_calendar@acm.org, fg-db@informatik.uni-rostock.de,
+	gt-user@globus.org, gwa@lists.ut.ee, ifip113@dti.unimi.it,
+	info-www-search@mailman.isi.edu, irlist-editor@acm.org,
+	irma-l@irma-international.org, itannounce@mail.it.usyd.edu.au,
+	java@globus.org
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.95.1 at artemis
+X-Virus-Status: Clean
+X-Mailman-Approved-At: Thu, 11 Jun 2009 14:07:00 +0200
+Cc: 
+Subject: [Elsnet-list] 3rd International Symposium on Rules,
+ Applications and Interoperability (RuleML-2009)
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+                      [Apologies for multiple postings]
+               
+                               Call for Papers
+                                       
+                                 RuleML 2009
+                                 
+   3rd International Symposium on Rules, Applications and Interoperability
+                  November 5-7 2009, Las Vegas, Nevada, USA
+                  
+                           http://2009.ruleml.org/
+
+                 co-located with the 12th Business Rules Forum
+
+                          ----------------------------
+
+Latest news 
+
+* Student grants of the value of up to $1000 plus free registration 
+* Keynote by Sandro Hawke, W3C RIF Contact - The Future of Rule Interchange
+* New categories in the Challenge with prestigious prizes 
+* Rules standards session, W3C RIF workshop, and joint BRF/RuleML lunch 
+  panel on Web Rules
+
+
+Sponsored by
+===================================================================
+
+Franz Inc
+NICTA (National ICT Australia) Ltd
+Corporate Semantic Web
+Logic Programming Associated Ltd
+ruleCore
+JBoss
+Modelsystems Ltd
+===================================================================
+
+
+Overview and Aim
+===================================================================
+
+The International Symposium on Rules, Applications and Interoperability has
+evolved from an annual series of international workshops since 2002,
+international conferences in 2005 and 2006, and international symposia since
+2007. This year, the 3rd International Symposium on Rules, Applications and
+Interoperability (RuleML-2009) takes place in Las Vegas, Nevada, USA,
+collocated with the 12th Business Rules Forum, the world's largest Business
+Rules event. RuleML-2009 is devoted to practical distributed rule
+technologies and rule-based applications which need language standards for
+rules (inter)operating in, e.g., the Semantic Web, Multi-Agent Systems,
+Event-Driven Architectures, and Service-Oriented Applications. 
+
+The main goal of RuleML-2009 is to stimulate the cooperation and
+interoperability between business and research, by bringing together rule
+system providers, participants in rule standardization efforts, open source
+communities, practitioners, and researchers. The concept of the symposium
+has also advanced continuously in the face of extremely rapid progress in
+practical rule and event processing technologies. As a result, RuleML-2009
+will feature hands-on demonstrations and challenges alongside a wide range
+of thematic tracks, and thus will be an exciting venue to exchange new ideas
+and experiences on all issues related to the engineering, management,
+integration, interoperation and interchange of rules in open distributed
+environments such as the Web.
+
+Conference Theme
+===================================================================
+
+This year, we particularly welcome submissions that address applications of
+Web rule technologies for business and information systems. We invite you to
+share your ideas, results, and experiences: as an industry practitioner,
+rule system provider, technical expert and developer, rule user or
+researcher, exploring foundations, developing systems and applications, or
+using rule-based systems. We invite high-quality submissions related to (but
+not limited to) one or more of the following topics:
+
+Track Topics
+----------------------------------------------------------------------------
+
+Rule Transformation and Extraction
+  - Transformation and extraction with rule standards, such as SBVR, RIF and
+
+    OCL
+  - Extraction of rules from code
+  - Transformation and extraction in the context of frameworks such as KDM
+    (Knowledge Discovery meta-model)
+  - Extraction of rules from natural language
+  - Transformation or rules from one dialect into another
+
+Rules and Uncertainty
+  - Languages for the formalization of uncertainty rules
+  - Probabilistic, fuzzy and other rule frameworks for reasoning with
+    uncertain or incomplete information
+  - Handling inconsistent or disparate rules using uncertainty
+  - Uncertainty extensions of event processing rules, business rules,    
+    reactive rules, causal rules, derivation rules, association rules, or 
+    transformation rules
+
+Rules and Norms
+  - Methodologies for modeling regulations using both ontologies and rules
+  - Defeasibility: modeling rule exceptions and priority relations among 
+    rule
+  - The relationship between rules and legal argumentation schemes
+  - Rule language requirements for the "isomorphic" modeling of legislation
+  - Rule based inference mechanism for legal reasoning
+  - E-contracting and automated negotiations with rule-based declarative
+    strategies
+
+Rule-based Game AI
+  - Rule-based movement, decision making, strategies, behavior design
+  - Rule-based environmental programming, virtual reality
+  - Rules for multi-agent/character games
+  - Rules for serious games
+  - Rule-based agent design
+
+Rule-based Event Processing and Reaction Rules
+  - Reaction rule languages and engines (production rules, ECA rules, logic 
+    event action formalisms, vocabularies/ontologies)
+  - State management approaches and frameworks
+  - Concurrency control and scalability
+  - Event and action definition, detection, consumption, termination, 
+    lifecycle management
+  - Dynamic rule-based workflows and intelligent event processing (rule-
+    based CEP)
+  - Non-functional requirements, use of annotations, metadata to capture 
+    those
+  - Design time and execution time aspects of rule-based (Semantic) Business
+
+    Processes Modeling and Management
+  - Practical and business aspects of rule-based (Semantic) Business Process
+
+    Management (business scenarios, case studies, use cases etc.)
+
+Rules and Cross Industry Standards
+  - Rules in Current Industry Standards, including:
+    - XBRL: Extensible Business Reporting Language
+    - MISMO: Mortgage Industry Standards Maintenance Org
+    - FIXatdl: FIX Algorithmic Trading Definition Language
+    - FpML: Financial products Markup Language
+    - HL7: Health Level 7
+    - Acord: Association for Cooperative Operations Research and Development
+
+      (Insurance Industry)
+  - Rules for Governance, Risk, & Compliance (GRC), e.g., rules for internal
+
+    audit, SOX compliance, enterprise risk management (ERM), operational 
+    risk, etc
+  - Rules and Corporate Actions
+    
+General Rule Topics
+  - Rules and ontologies
+  - Execution models, rule engines, and environments
+  - From rules to FOL to modal logics
+  - Rule-based reasoning with non-monotonic negation, modalities, deontic, 
+    temporal, priority, scoped or other rule qualification
+  - Rule-based default reasoning with default logic, defeasible logic, and 
+    answer set programming
+  - Graphical processing, modelling and rendering of rules
+  - Rules in Semantic Web Technologies
+  - Miscellaneous rule topics
+    
+Case studies, experience reports, and industrial problem statements are
+particularly encouraged.
+
+RuleML-2009 Challenge 
+===================================================================
+
+The RuleML-2009 Demo Challenge is one of the highlights of RuleML-2009. We
+invite submissions of demo papers and demos where rules are used in
+interesting and practically relevant ways to, e.g., derive useful
+information, transform knowledge, provide decision support and provide
+automated rule-based monitoring, enforcement, validation or management of
+the behavioural logic of the application. The Challenge offers participants
+the chance to demonstrate their commercial and open source tools, use cases,
+and applications. Submissions are solicited in these categories:
+
+  - Benchmarks (test cases, suites) with evaluations of (their own, other)
+    rule engines and/or rule translators, possibly drawing on our growing  
+    pool at http://ruleml-challenge.cs.nccu.edu.tw
+  - Case studies (use cases) implemented via engines/translators employing
+    rule standards such as RIF, RuleML, CLIPS, Common Logic, SBVR, and ISO
+    Prolog.
+
+We welcome all demos about tools and applications using rules such as: 
+
+  - Derivation rules, including query and integrity rules  
+  - ECA rules, including production rules, reaction rules, and rule-based 
+    CEP languages
+
+Authors of demo are also invited to submit a Challenge demo paper for
+publications in the conference proceedings, see the submission section below
+for submission details.
+
+Prizes will be awarded to the two best applications from each category. All
+accepted demos will be presented in a special Challenge Session. A
+submission to the RuleML Challenge has to meet the requirement that
+declarative rules explicitly play a central role in the application.
+Basically this means that:
+Rules are explicitly represented in a declarative format and they are
+decoupled from the application (rather than being compiled or hard-coded
+into the application logic). The demo should preferably (but not
+necessarily) be embedded into a web-based or distributed environment so that
+there will be a need for features related to the RuleML conference topics,
+as listed in the call for papers. For more details and the demo site web
+link please consult the RuleML-2009 Challenge website:
+
+                    http://ruleml-challenge.cs.nccu.edu.tw
+
+
+Student Grant Awards
+===================================================================
+
+Two travel grants are available to students who are authors or co-authors of
+papers or demos accepted for presentation at the symposium. The grants
+include free registration and cover travel expenses up to 1000 dollars.
+
+
+Conference Language
+===================================================================
+
+The official language of the conference will be English.
+
+
+Submission
+===================================================================
+
+Authors are invited to submit original contributions of practical relevance
+and technical rigor in the field, experience reports and show case/use case
+demonstrations of effective, practical, deployable rule-based technologies
+or applications in distributed environments. Papers must be in English and
+may be submitted at
+
+            http://www.easychair.org/conferences/?conf=ruleml2009
+
+as:
+
+Full Papers (15 pages in the proceedings)
+Short Papers (8 pages in the proceedings)
+RuleML-2009 Challenge Demo Paper + Show Cases (3-5 pages in the proceedings)
+
+Please upload all submissions as PDF files in LNCS format
+(http://www.springer.de/comp/lncs/authors.html). To ensure high quality,
+submitted papers will be carefully peer-reviewed by 3 PC members based on
+originality, significance, technical soundness, and clarity of exposition.
+Authors are requested to upload the abstracts of their papers before June 9,
+2009 and to upload their complete papers by June 16, 2009. The selected
+papers will be published in book form in the Springer Lecture Notes in
+Computer Science (LNCS) series along with a CD with demo software and
+documents. The best paper from all submissions will be determined by the PC
+and a Best Paper Award will be handed over at the Symposium by a Sponsor.
+All submissions must be done electronically. A selection of revised papers
+will be resubmitted to a special issue of a journal.
+ 
+Submissions to the RuleML Challenge 2009 consist of a demo paper of 3-5
+pages, describing the demo show case, and a link to more information about
+the demo/show case, e.g. a project site, an online demonstration, a
+presentation about the demonstration, or a download site for the
+demonstration. In case of product demos, the link can be password-protected:
+please submit a password for anonymous login from any Web browser, giving us
+the permission to pass the password on to 3 PC members. The submissions
+should satisfy the minimal requirements defined in the topics of interest
+and preferably exhibit some of the additional desiderata. The more
+desiderata are met by an application, the higher the score will be. The
+demos will be evaluated by the RuleML-2009 Program Committee and prizes will
+be awarded to the two best applications, sponsored by the RuleML Inc.
+non-profit organization.
+
+ 
+Review Process
+===================================================================
+
+The submitted papers will pass the blind review process. At least three
+members of the Program Committee will review each submission.
+
+ 
+Important Dates:
+===================================================================
+
+Abstract submission deadline: June 9, 2009
+Paper Submission deadline:    June 16, 2009
+Notification of acceptance:   July 18, 2009
+Camera ready due:             August 9, 2009
+Symposium dates:              November 5-7, 2009
+RuleML Challenge:             November 5, 2009
+
+
+Conference Venue
+===================================================================
+
+RuleML-2009 will take place at the Bellagio in Las Vegas collocated with the
+Business Rules Forum.
+
+
+Keynote Speakers
+===================================================================
+- Sandro Hawke, W3C RIF Team Contact
+  The Future of Rule Interchange
+- TBA
+
+
+Programme Committee
+===================================================================
+
+General Chair
+--------------------
+Adrian Paschke, Freie Universitaet Berlin, Germany
+
+Program Chairs
+--------------------
+Guido Governatori, NICTA, Australia
+John Hall, Model Systems, UK
+
+Liaison Chair
+--------------------
+Hai Zhuge, Chinese Academy of Sciences
+
+Publicity Chair
+--------------------
+William Langley, NRC-IRAP, Canada
+
+Track Chairs
+
+Rule Transformation and Extraction
+--------------------
+Erik Putrycz, Canada
+Mark Linehan, IBM, USA
+
+Rules and Uncertainty
+--------------------
+Matthias Nickles, University of Bath, UK 
+Davide Sottara, University Bologna, Italy
+
+Rules and Norms
+--------------------
+Thomas Gordon, Fraunhofer FOKUS, Germany 
+Antonino Rotolo, CIRSFID, University of Bologna, Italy
+
+Rule-based Game AI
+--------------------
+Benjamin Craig, National Research Council, Canada 
+Weichang Du, University of New Brunswick, Canada
+
+Rule-based Event Processing and Reaction Rules
+--------------------
+Alex Kozlenkov, Betfair Ltd., UK 
+Adrian Paschke, Free Univ. Berlin, Germany
+
+Rules and Cross Industry Standards
+--------------------
+Tracy Bost, Valocity, USA 
+Robert Golan, DBMind, USA
+
+RuleML Challenge
+--------------------
+Yuh-Jong Hu, National Chengchi University, Taiwan 
+Ching-Long Yeh, Tatung University, Taiwan 
+Wolfgang Laun, Thales Rail Signalling Solutions GesmbH, Austria
+
+Program Committee Members
+--------------------
+http://2009.ruleml.org/pc
+
+
+
+RuleML 2009 Sponsors
+===================================================================
+
+Silver Sponsors
+--------------------
+NICTA (National ICT Australia) Ltd
+Corporate Semantic Web
+Franz Inc
+
+Bronze Sponsors
+--------------------
+Logic Programming Associated Ltd
+ruleCore
+jBoss
+Modelsystems Ltd
+
+
+RuleML 2009 Partners
+===================================================================
+W3C, World Wide Web Consortium
+OMG, Object Management Group
+ACM, Association for Computer Machinery
+AAAI
+ECCAI
+International Association for Artificial Intelligence and Law
+ACM SigMis
+ACM SigArt
+Belgian Business Rules Forum
+MIT Sloan CIO Symposium
+EPTS, Event Processing Technical Society
+BPM Forum Belgium
+October Rules Fest
+SKG2009 5th International Conference on Semantic, Knowledge and Grid
+
+RR-2009 3rd International Conference on Web Reasoning and Rule Systems
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

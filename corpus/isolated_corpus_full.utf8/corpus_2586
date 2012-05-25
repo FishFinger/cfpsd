@@ -1,0 +1,186 @@
+From - Thu Dec 10 14:29:52 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs194774waa;
+        Mon, 4 Feb 2008 12:24:55 -0800 (PST)
+Received: by 10.66.217.20 with SMTP id p20mr406417ugg.51.1202156691325;
+        Mon, 04 Feb 2008 12:24:51 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 23si282377ugf.24.2008.02.04.12.24.20;
+        Mon, 04 Feb 2008 12:24:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JM7me-0007Y6-8M; Mon, 04 Feb 2008 21:19:16 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JM7mU-0007XV-TJ; Mon, 04 Feb 2008 21:19:06 +0100
+Received: from hartman.uits.indiana.edu [129.79.1.194] 
+	by rolf.uib.no for corpora@uib.no with esmtp (TLSv1:AES256-SHA:256)
+	(Exim 4.34) id 1JM7mT-0005qe-0W; Mon, 04 Feb 2008 21:19:07 +0100
+Received: from mail-relay.iu.edu (stjoseph.uits.indiana.edu [129.79.1.78])
+	by hartman.uits.indiana.edu (8.13.8/8.13.8/IU Messaging Team) with
+	ESMTP id m14KJ2n6024796
+	for <corpora@uib.no>; Mon, 4 Feb 2008 15:19:02 -0500
+Received: from [129.79.142.9] (q.ling.indiana.edu [129.79.142.9])
+	(authenticated bits=0)
+	by mail-relay.iu.edu (8.13.6/8.12.10/IUPO) with ESMTP id m14KJ1mQ027617
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NO)
+	for <corpora@uib.no>; Mon, 4 Feb 2008 15:19:02 -0500 (EST)
+Mime-Version: 1.0 (Apple Message framework v753)
+Message-Id: <ED64375E-8436-476E-92AD-D44A4796F645@indiana.edu>
+To: corpora <corpora@uib.no>
+From: Sandra Kuebler <skuebler@indiana.edu>
+Date: Mon, 4 Feb 2008 15:18:59 -0500
+X-Mailer: Apple Mail (2.753)
+X-checked-clean: by exiscan on rolf
+X-Scanner: 0bdf784f3f4b36ef7fdd345db25c4a0a http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -14.9 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 Received: contains a forged HELO
+	-15 From is listed in 'whitelist_SA'
+Subject: [Corpora-List] call for papers: ACL Workshop on Parsing German
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+			ACL 2008
+	 WORKSHOP ON PARSING GERMAN
+		   June 19 or 20, 2008
+		      Columbus, Ohio
+
+   		1st CALL FOR PAPERS
+
+German possesses an interesting set of configurational properties on
+the syntactic level which make it far less flexible with respect to
+word order than other free word order languages.  Analyses of these
+properties, which have formed a part of the traditional syntax of
+German since the early 19th century, only re-entered the mainstream of
+generative linguistics research within the last twenty years or so.
+In computational linguistics, however, their realization has varied
+quite widely: "topological fields" in HPSG-style analyses, multiple
+parse trees, special constraints on liberation in constraint-based
+dependency-style analyses, various hybrid "deep/shallow" approaches,
+and agnostic parameter estimation over graphs.  This variation can
+also acutely be felt in the annotation of German treebanks.  Many
+corpora have historically elected to annotate only a few of the
+different senses of the term "constituent" inherent to German syntax,
+resulting in standards that make German appear either more like
+English or more like Czech.
+
+The aim of this workshop is to provide a forum for theoretical
+discussion as well as a shared task, based on the TIGER and TueBa-D/Z
+German treebanks, for these various approaches to make their case on
+empirical grounds.  This combination we believe to be essential to
+balancing the considerations of what structure merits learning versus
+the ease with which it can be learned.  Both treebanks are annotated
+collections of German newspaper text on similar topics. They are
+annotated with POS, morphology, phrase structure, and grammatical
+functions. TueBa-D/Z additionally uses topological fields to describe
+fundamental word order restrictions in German clauses.  The treebanks
+differ significantly in their annotation schemes, however: while TIGER
+relies on crossing branches to describe long distance relationships,
+TueBa-D/Z uses pure tree structures with designated labels for long
+distance relationships. Additionally, the annotation is TIGER is flat
+on the phrasal level while TueBa-D/Z annotates phrasal structure more
+hierarchically.
+
+TOPICS
+
+* constituent based approaches to parsing German
+* dependency based approaches to parsing German
+* treatment of long-distance relationships in German
+* comparisons of parsing results for German to other free word order  =
+
+languages
+
+SHARED TASK
+
+The workshop will feature a shared task on parsing German. We will
+provide the following data sets:
+
+* TIGER in constituent structure
+* TIGER in dependency structure
+* TueBa-D/Z in constituent structure
+* TueBa-D/Z in dependency structure
+
+The task will be to parse both treebanks using one structural
+encoding. The final ranking of systems will be based on averages
+computed between both treebanks. The data sets will be made available
+free of charge for the shared task, but they do require a license.
+
+In order to take part in the shared task, participants should register
+their intent to participate by sending an email to
+skuebler@indiana.edu. More information will be made available to
+registered participants.
+
+IMPORTANT DATES
+
+Release of training data:				February 5, 2008
+Release of test data:					March 5, 2008
+Submission of test results:               		March 10, 2008
+Evaluation results available:             	March 12, 2008
+
+Workshop Paper Submission deadline:	March 17, 2008
+Notifications sent to authors:            		April  4, 2008
+Camera ready due:  					April 18, 2008
+Workshop Dates:                           		June 19 or 20, 2008
+
+PAPER SUBMISSION INFORMATION
+
+Submissions will consist of regular full papers of max. 8 pages,
+formatted following the ACL 2008 main session guidelines. In addition,
+shared task participants will be invited to submit short papers
+(max. 4 pages) describing their systems and/or their evaluation
+metrics. Both submission and review processes will be handled via the
+START system.
+
+PROGRAM COMMITTEE
+
+Berthold Crysman, Bonn
+Amit Dubey, Edinburgh
+Anette Frank, Heidelberg
+Erhard Hinrichs, Tuebingen
+Julia Hockenmeier, Illinois
+Laura Kallmeyer, Tuebingen
+Frank Keller, Edinburgh
+Sandra Kuebler (co-chair)
+Wolfgang Menzel, Hamburg
+Stefan Mueller, Berlin
+Stefan Oepen, Oslo
+Gerald Penn (co-chair)
+Helmut Schmid, Stuttgart
+Gerold Schneider, Zuerich
+Hans Uszkoreit, Saarbruecken
+Josef van Genabith, Dublin
+
+WORKSHOP ORGANIZERS
+
+Sandra Kuebler					=
+
+Indiana University
+skuebler@indiana.edu
+
+Gerald Penn
+University of Toronto
+gpenn@cs.toronto.edu
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

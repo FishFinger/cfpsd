@@ -1,0 +1,952 @@
+From - Thu Dec 10 14:38:21 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.56.133 with SMTP id y5cs146128bkg;
+        Mon, 21 Sep 2009 02:35:48 -0700 (PDT)
+Received: by 10.211.157.7 with SMTP id j7mr5331231ebo.2.1253525743965;
+        Mon, 21 Sep 2009 02:35:43 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 28si7274858ewy.40.2009.09.21.02.35.43;
+        Mon, 21 Sep 2009 02:35:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id E2B5C23836; Mon, 21 Sep 2009 11:35:29 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D74F223622;
+	Mon, 21 Sep 2009 11:34:33 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7E6993D24;
+	Mon, 21 Sep 2009 11:34:33 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id x0IHLz1i-Skr; Mon, 21 Sep 2009 11:34:33 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C3C043D33;
+	Mon, 21 Sep 2009 11:34:31 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C27B93D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 14 Sep 2009 09:15:16 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id EciPn28T-Uuj for <elsnet-list@mailman.elsnet.org>;
+	Mon, 14 Sep 2009 09:15:16 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 909AE3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 14 Sep 2009 09:14:56 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 340FA20D5E; Mon, 14 Sep 2009 09:14:56 +0200 (MEST)
+Received: from correo-bck.tid.es (correo-bck.tid.es [195.235.93.200])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5D96A20D5E
+	for <elsnet-list@elsnet.org>; Mon, 14 Sep 2009 09:14:47 +0200 (MEST)
+Received: from vanvan (localhost [127.0.0.1])
+	by tid.hi.inet (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8
+	2006))
+	with ESMTP id <0KPY00J8A9GEXB@tid.hi.inet> for elsnet-list@elsnet.org;
+	Mon, 14 Sep 2009 09:14:38 +0200 (MEST)
+Received: from correo.tid.es (mailhost.hi.inet [10.95.64.100])
+	by tid.hi.inet (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8
+	2006))
+	with ESMTPS id <0KPY00J789GDXB@tid.hi.inet> for elsnet-list@elsnet.org;
+	Mon, 14 Sep 2009 09:14:38 +0200 (MEST)
+Received: from EXCLU2K7.hi.inet ([10.95.67.65])
+	by htcasmad2.hi.inet ([192.168.0.2]) with mapi;
+	Mon, 14 Sep 2009 09:14:37 +0200
+Date: Mon, 14 Sep 2009 09:14:35 +0200
+From: XAVIER ANGUERA MIRO <xanguera@tid.es>
+To: XAVIER ANGUERA MIRO <xanguera@tid.es>
+Message-id: <B348B152E5F11640B2247E54304E53FC08E2D24DA0@EXCLU2K7.hi.inet>
+MIME-version: 1.0
+Content-language: es-ES
+Accept-Language: es-ES, en-US
+Thread-topic: CFP -- DEADLINE EXTENSION -- MIR 2010
+Thread-index: Aco1CwOf+bdqpNhaRJie1TcgfeeNsw==
+acceptlanguage: es-ES, en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-Mailman-Approved-At: Mon, 21 Sep 2009 11:33:44 +0200
+Cc: 
+Subject: [Elsnet-list] CFP -- DEADLINE EXTENSION -- MIR 2010
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0177124328=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+--===============0177124328==
+Content-type: multipart/alternative;
+	boundary="Boundary_(ID_RwxlZdl+hMeDRJugFntqxA)"
+Content-language: es-ES
+
+
+--Boundary_(ID_RwxlZdl+hMeDRJugFntqxA)
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+                        EXTENDED DEADLINE FOR CFP AND Special Sessions TO September 22nd
+
+                                (Apologies if you receive multiple copies)
+
+**************************************************************
+                               ACM SIGMM International Conference on
+                                       Multimedia Information Retrieval
+                                  (http://riemann.ist.psu.edu/mir2010)
+
+                                                      ACM MIR-2010
+                                                      Call for Papers
+
+                                    Philadelphia, Pennsylvania, USA
+                                                  March 29-31, 2010
+
+**************************************************************
+
+Call for Papers
+http://riemann.ist.psu.edu/mir2010/cfp.pdf
+
+
+Multimedia information retrieval is a cross-cutting field. Extending
+beyond the borders of culture, art, and science, the search for digital
+information is one of the major challenges of our time. Digital libraries,
+bio-computing & medical science, the Internet and social networking sites,
+streaming video, multimedia databases, cultural heritage collections and
+P2P networks have created a worldwide need for new paradigms and techniques
+on how to browse, search and summarize multimedia collections and more
+generally how to afford efficient multimedia content consumption.
+
+The 11th ACM International Conference on Multimedia Information Retrieval
+(MIR) is the premier scientific meeting for discussing the latest advances
+in the area of multimedia retrieval. MIR 2010 is on its second year as a
+full ACM conference, following nine successful years as a workshop held in
+conjunction with the ACM Multimedia Conference. The growth of MIR is a result
+the growing importance of multimedia content in our lives. In MIR 2008, there
+were 308 submitted papers with an overall (full and short papers) acceptance
+rate of 18%. The conference was attended by more than 150 registered
+participants.
+
+The purpose of MIR 2010 is to bring together researchers and practitioners
+from academia and industry. We are soliciting original papers that address
+a wide range of issues in multimedia information exploration, summarization
+and retrieval including, but not limited to:
+
+-- Analysis, Indexing, Search and Retrieval of multimedia data: images,
+video, audio, music, other data types, multi-modal systems
+-- Multimedia Data Mining
+-- Personal Multimedia Content Management: analysis, search, retrieval,
+summarization
+-- Learning, personalization and relevance feedback in multimedia retrieval
+-- Scalable indexing, search and structuring
+-- Novel Interfaces for multimedia management, search and retrieval
+-- Exploration of media archives: browsing, experiential computing Interfaces
+and User Experience for multimedia exploration, visualization,
+-- Digital Life Experience analysis and retrieval - life logs, digital
+immortality, life bits Video surveillance browsing and retrieval,
+-- Context and content-based approaches to multimedia retrieval
+-- Mobile multimedia indexing, search and retrieval applications
+-- Identification and monitoring: Trademark search, multimedia copy detection,
+multimedia watermarking techniques
+-- Application domains: Scientific multimedia, environmental studies,
+bio-computing and medical multimedia analysis and indexing (MRI/CT, microscopic
+images, satellite imaging, sensors, etc.), Preserving cultural heritage.
+
+Special Sessions
+---------------------
+Special Sessions for emerging frontier theories or applications in MIR. Note
+that the novelty requirement in these sessions is much higher than the regular
+paper submissions.  Information about these sessions will be available on the
+conference Website.
+
+Paper Submission
+---------------------
+Full papers (10 pages in the ACM style sheet in English) should be submitted
+through the website submission system. Each author can be involved in at most
+two submissions to this conference.  The authors may choose to submit manuscripts
+for double-blind review.  If that is the case, we recommend that the authors not
+give any indications of authorship in the text.
+
+General Chairs
+------------------
+James Z. Wang (Penn State University, jwang@psu.edu)
+Nozha Boujemaa (INRIA, France, Nozha.Boujemaa@inria.fr)
+
+Technical Program Co-Chairs
+-----------------------------------
+Nuria Oliver (Telefonica Research, Spain, nuriao@tid.es)
+Apostol Natsev, IBM Research
+
+Special Sessions Chair
+--------------------------
+Jia Li (Penn State University, jiali@psu.edu)
+
+Panel Chair
+--------------
+Alan Hanjalic, (Delft University of Technology, The Netherlands, A.Hanjalic@tudelft.nl)
+
+Important Dates
+--------------------
+September 22, 2009      Paper Submission
+November 20, 2009 Acceptance Notification
+December 15, 2009       Camera Ready Papers Due
+
+
+*************************************************************************************
+*************************************************************************************
+
+
+Call for Special Session Proposals
+http://riemann.ist.psu.edu/mir2010/specialsession.html
+
+ACM SIGMM International Conference on Multimedia Information Retrieval (MIR)
+2010 will include special sessions for emerging frontier theories or applications
+in the program. Work included in the special sessions is expected to represent
+the state-of-the-art and high-impact research directions in multimedia information
+retrieval.
+
+Each special session will contain 4 - 6 invited papers. The session organizer(s)
+will be responsible for the selection of these papers. The session may begin with
+an overview paper on the topic being addressed and then be followed by the papers
+with specific technical contributions on the topic.
+
+The following information should be included in the session proposal:
+
+-- Title of the proposed session
+-- Session abstract (state significance of topic and rationale for proposed session)
+-- Names/affiliation of the organizer(s) (including brief bio and contact info)
+-- List of invited contributions, each with
+-- Author names
+-- A tentative title
+-- An abstract (below 1000 words)
+
+Proposals will be evaluated based on the timeliness of the topic and relevance to
+MIR, as well as the qualifications of the organizers and quality of the paper
+abstracts in the proposed session.
+
+The organizers of an accepted special session will be responsible for ensuring the
+quality of the final papers included in the session as these papers would not otherwise
+receive peer reviews.
+
+Important Dates
+--------------------
+
+Sep 22, 2009: Special session proposals due
+
+Sep 30, 2009: Decisions made on special session proposals
+
+Nov 10, 2010: Submission of manuscripts to the chair of the special sessions
+
+Nov 25, 2010: Feedbacks on the manuscripts provided by the chair
+
+Dec 15, 2010: Final camera-ready manuscripts due
+
+Submission Procedure for Special Sessions
+----------------------------------------------------
+
+Proposal adhering to the above requirements should be sent by email to Jia Li
+(jiali at psu dot edu). All the papers in the special sessions should follow the same
+style as the regular MIR papers. More details on http://riemann.ist.psu.edu/mir2010
+
+Jia Li
+Department of Statistics
+The Pennsylvania State University
+(Office) +1-814-863-3074
+(email) jiali at psu dot edu
+(Web) http://www.stat.psu.edu/~jiali
+
+
+
+--Boundary_(ID_RwxlZdl+hMeDRJugFntqxA)
+Content-type: text/html; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=us-ascii">
+<meta name=Generator content="Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ES link=blue vlink=purple>
+
+<div class=Section1>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>EXTENDED DEADLINE FOR CFP
+AND Special Sessions TO September 22nd <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(Apologies if you receive multiple copies)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>**************************************************************<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ACM SIGMM International Conference on <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Multimedia Information Retrieval<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(http://riemann.ist.psu.edu/mir2010)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ACM MIR-2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Call for Papers<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Philadelphia,
+Pennsylvania, USA<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+March 29-31, 2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>**************************************************************<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Call for Papers<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>http://riemann.ist.psu.edu/mir2010/cfp.pdf<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Multimedia information
+retrieval is a cross-cutting field. Extending <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>beyond the borders of
+culture, art, and science, the search for digital <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>information is one of the
+major challenges of our time. Digital libraries, <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>bio-computing &amp; medical
+science, the Internet and social networking sites, <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>streaming video, multimedia
+databases, cultural heritage collections and <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>P2P networks have created a
+worldwide need for new paradigms and techniques <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>on how to browse, search and
+summarize multimedia collections and more <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>generally how to afford
+efficient multimedia content consumption. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>The 11th ACM International
+Conference on Multimedia Information Retrieval <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>(MIR) is the premier
+scientific meeting for discussing the latest advances <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>in the area of multimedia
+retrieval. MIR 2010 is on its second year as a <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>full ACM conference,
+following nine successful years as a workshop held in <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>conjunction with the ACM
+Multimedia Conference. The growth of MIR is a result <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>the growing importance of
+multimedia content in our lives. In MIR 2008, there <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>were 308 submitted papers
+with an overall (full and short papers) acceptance <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>rate of 18%. The conference
+was attended by more than 150 registered <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>participants.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>The purpose of MIR 2010 is
+to bring together researchers and practitioners <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>from academia and industry.
+We are soliciting original papers that address <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>a wide range of issues in
+multimedia information exploration, summarization <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>and retrieval including, but
+not limited to: <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Analysis, Indexing,
+Search and Retrieval of multimedia data: images, <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>video, audio, music, other
+data types, multi-modal systems<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Multimedia Data Mining<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Personal Multimedia
+Content Management: analysis, search, retrieval, <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>summarization<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Learning, personalization
+and relevance feedback in multimedia retrieval <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Scalable indexing, search
+and structuring<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Novel Interfaces for
+multimedia management, search and retrieval<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Exploration of media
+archives: browsing, experiential computing Interfaces <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>and User Experience for
+multimedia exploration, visualization,<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Digital Life Experience
+analysis and retrieval - life logs, digital <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>immortality, life bits Video
+surveillance browsing and retrieval,<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Context and content-based
+approaches to multimedia retrieval <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Mobile multimedia
+indexing, search and retrieval applications<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Identification and
+monitoring: Trademark search, multimedia copy detection, <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>multimedia watermarking
+techniques<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Application domains:
+Scientific multimedia, environmental studies, <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>bio-computing and medical
+multimedia analysis and indexing (MRI/CT, microscopic <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>images, satellite imaging,
+sensors, etc.), Preserving cultural heritage.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Special Sessions<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>---------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Special Sessions for
+emerging frontier theories or applications in MIR. Note <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>that the novelty requirement
+in these sessions is much higher than the regular <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>paper submissions.&nbsp;
+Information about these sessions will be available on the <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>conference Website.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Paper Submission <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>---------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Full papers (10 pages in the
+ACM style sheet in English) should be submitted <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>through the website
+submission system. Each author can be involved in at most <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>two submissions to this
+conference.&nbsp; The authors may choose to submit manuscripts <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>for double-blind review.&nbsp; If
+that is the case, we recommend that the authors not <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>give any indications of
+authorship in the text. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>General Chairs<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>James Z. Wang (Penn State
+University, jwang@psu.edu) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:"Courier New"'>Nozha Boujemaa (INRIA, France, Nozha.Boujemaa@inria.fr)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Technical Program Co-Chairs<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-----------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Nuria Oliver (Telefonica
+Research, Spain, nuriao@tid.es) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Apostol Natsev, IBM Research<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Special Sessions Chair<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>--------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Jia Li (Penn State
+University, jiali@psu.edu)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Panel Chair<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>--------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Alan Hanjalic, (Delft
+University of Technology, The Netherlands, A.Hanjalic@tudelft.nl)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Important Dates<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>--------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>September 22, 2009 &nbsp;&nbsp;&nbsp;&nbsp; Paper
+Submission<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>November 20, 2009 Acceptance
+Notification<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>December 15, 2009 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Camera
+Ready Papers Due<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>*************************************************************************************<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>*************************************************************************************<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Call for Special Session
+Proposals<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>http://riemann.ist.psu.edu/mir2010/specialsession.html<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>ACM SIGMM International
+Conference on Multimedia Information Retrieval (MIR) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>2010 will include special
+sessions for emerging frontier theories or applications <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>in the program. Work
+included in the special sessions is expected to represent <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>the state-of-the-art and
+high-impact research directions in multimedia information <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>retrieval.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Each special session will
+contain 4 - 6 invited papers. The session organizer(s) <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>will be responsible for the
+selection of these papers. The session may begin with <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>an overview paper on the
+topic being addressed and then be followed by the papers <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>with specific technical
+contributions on the topic.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>The following information
+should be included in the session proposal:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Title of the proposed
+session<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Session abstract (state
+significance of topic and rationale for proposed session)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Names/affiliation of the
+organizer(s) (including brief bio and contact info)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- List of invited
+contributions, each with<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- Author names<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- A tentative title<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>-- An abstract (below 1000
+words)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Proposals will be evaluated
+based on the timeliness of the topic and relevance to <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>MIR, as well as the
+qualifications of the organizers and quality of the paper <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>abstracts in the proposed
+session.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>The organizers of an
+accepted special session will be responsible for ensuring the <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>quality of the final papers
+included in the session as these papers would not otherwise <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>receive peer reviews.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Important Dates<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>--------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:"Courier New"'>Sep 22, 2009: Special session proposals due<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span style='font-size:10.0pt;
+font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Sep 30, 2009: Decisions made
+on special session proposals<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Nov 10, 2010: Submission of
+manuscripts to the chair of the special sessions<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Nov 25, 2010: Feedbacks on
+the manuscripts provided by the chair<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Dec 15, 2010: Final
+camera-ready manuscripts due<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Submission Procedure for
+Special Sessions<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>----------------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Proposal adhering to the
+above requirements should be sent by email to Jia Li <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>(jiali at psu dot edu). All
+the papers in the special sessions should follow the same <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>style as the regular MIR
+papers. More details on http://riemann.ist.psu.edu/mir2010<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Jia Li<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>Department of Statistics<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>The Pennsylvania State
+University<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>(Office) +1-814-863-3074<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>(email) jiali at psu dot edu<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'>(Web)
+http://www.stat.psu.edu/~jiali<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-autospace:none'><span lang=EN-US
+style='font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+--Boundary_(ID_RwxlZdl+hMeDRJugFntqxA)--
+
+--===============0177124328==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0177124328==--

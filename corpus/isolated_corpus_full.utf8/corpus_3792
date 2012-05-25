@@ -1,0 +1,172 @@
+From - Thu Dec 10 14:34:04 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.181.31.10 with SMTP id i10cs143446bkj;
+        Thu, 6 Nov 2008 22:25:00 -0800 (PST)
+Received: by 10.67.29.4 with SMTP id g4mr1096067ugj.73.1226039099840;
+        Thu, 06 Nov 2008 22:24:59 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id x37si4469141ugc.50.2008.11.06.22.24.52;
+        Thu, 06 Nov 2008 22:24:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1KyKeT-0005ce-3b; Fri, 07 Nov 2008 07:17:01 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1KyKeL-0005cV-JE; Fri, 07 Nov 2008 07:16:53 +0100
+Received: from fk-out-0910.google.com [209.85.128.186] 
+	by rolf.uib.no for corpora@hd.uib.no with esmtp  (Exim 4.69)
+	id 1KyKeC-00044k-Ja; Fri, 07 Nov 2008 07:16:57 +0100
+Received: by fk-out-0910.google.com with SMTP id 18so1188525fkq.5
+	for <corpora@hd.uib.no>; Thu, 06 Nov 2008 22:16:39 -0800 (PST)
+Received: by 10.181.60.13 with SMTP id n13mr926593bkk.92.1226038599038;
+	Thu, 06 Nov 2008 22:16:39 -0800 (PST)
+Received: by 10.180.225.18 with HTTP; Thu, 6 Nov 2008 22:16:38 -0800 (PST)
+Message-ID: <c10461b80811062216n1b7c1b2et6278a9385de6f71@mail.gmail.com>
+Date: Fri, 7 Nov 2008 15:16:38 +0900
+From: "Sebastian Riedel" <sebastian.riedel@gmail.com>
+To: corpora@hd.uib.no
+MIME-Version: 1.0
+Content-Disposition: inline
+X-checked-clean: by exiscan on rolf
+X-Scanner: 6be836c59628a42e2bdd9c4567b1e483 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ _SUMMARY_
+Subject: [Corpora-List] CfP: Workshop on Integer Linear Programming for NLP
+	at NAACL HLT 2009
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+NAACL HLT 2009 Workshop on
+Integer Linear Programming for Natural Language Processing
+
+June 4 or 5, 2009, Boulder, Colorado, USA
+http://www-tsujii.is.s.u-tokyo.ac.jp/ilpnlp/
+
+Call for Papers
+(Submission deadline: March 6, 2009)
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D
+Integer Linear Programming (ILP) has recently attracted much attention
+within the NLP community.  Formulating problems using ILP has several
+advantages.  It allows us to focus on the modelling of problems,
+rather than engineering new search algorithms; provides the
+opportunity to incorporate generic global constraints; and guarantees
+exact inference.  This and the availability of off-the-shelf solvers
+has lead to a large variety of natural language processing tasks being
+formulated in the ILP framework, including semantic role labelling,
+syntactic parsing, summarisation and joint information extraction.
+
+The use of ILP brings many benefits and opportunities but there are
+still challenges for the community; these include: formulations of new
+applications, dealing with large-scale problems and understanding the
+interaction between learning and inference at training and decision
+time. The purpose of this workshop is to bring together researchers
+interested in exploiting ILP for NLP applications and tackling the
+issues involved. We are interested in a broad range of topics
+including, but not limited to:
+
+- Novel ILP formulations of NLP tasks.  This includes: the
+introduction of ILP formulations of tasks yet to be tackled within the
+framework; and novel formulations, such as equivalent LP relaxations,
+that are more efficient to process than previous formulations.
+
+- Learning and Inference.  This includes issues relating to:
+decoupling of learning (e.g., learning through local classifiers) and
+inference, learning with exact  (e.g., ILP) or approximate inference,
+learning of constraints, learning weights for soft constraints, and
+the impact of ignoring various constraints during learning.
+
+- The utility of global hard and soft constraints in NLP.  Sometimes
+constraints do not increase accuracy (and can even decrease it), when
+and why do global constraints become useful?  For example, do global
+constraints become more important if we have less data?
+
+- Formulating and solving large NLP problems.  Applying ILP to hard
+problems (such as parsing, machine translation and solving several NLP
+tasks at once) often results in very large formulations which can be
+impossible to solve directly by the ILP engine.  This may require
+exploring different ILP solving methods (such as, approximate ILP
+solvers/methods) or cutting plane and pricing techniques.
+
+- Alternative declarative approaches.  A variety of other modeling
+frameworks exist, of which ILP is just one instance.  Using other
+approaches, such as weighted MAX-SAT, Constraint Satisfaction Problems
+(CSP) or Markov Networks, could be more suitable than ILP in some
+cases. It can also be helpful to model a problem in one framework
+(e.g., Markov Networks) and solve them with another (e.g., ILP) by
+using general mappings between representations.
+
+- First Order Modelling Languages.  ILP, and other essentially
+propositional languages, require the creation of wrapper code to
+generate an ILP formulation for each problem instance. First (Higher)
+Order languages, such as Learning Based Java and Markov Logic, reduce
+this overhead and can also aid the solver to be more efficient.
+Moreover, with such languages the automatic exploration of the model
+space is easier.
+
+We encourage submissions addressing the above questions and topics or
+other relevant issues.  Papers are limited to 8 pages; the
+corresponding style files will be made available soon. Note that
+reviewing will be blind and hence no author information should be
+included in the papers.
+
+IMPORTANT DATES:
+March 6, 2009: Submission deadline
+March 30, 2009: Notification of acceptance
+April 12, 2009: Camera-ready copies due
+June 4 or 5, 2009: Workshop held in conjunction with NAACL HLT (exact
+date to be announced)
+
+INVITED SPEAKER: Dan Roth (University of Illinois at Urbana-Champaign)
+
+PROGRAM COMMITTEE:
+- Dan Roth (University of Illinois at Urbana-Champaign)
+- Mirella Lapata (University of Edinburgh)
+- Scott Yih (Microsoft Research)
+- Nick Rizzolo (University of Illinois at Urbana-Champaign)
+- Ming-Wei Chang (University of Illinois at Urbana-Champaign)
+- Ivan Meza-Ruiz (University of Edinburgh)
+- Ryan McDonald (Google Research)
+- Jenny Rose Finkel (Stanford University)
+- Pascal Denis (INRIA Paris-Rocquencourt)
+- Manfred Klenner (University of Zurich)
+- Hal Daume III (University of Utah)
+- Daniel Marcu (University of Southern California)
+- Kevin Knight (University of Southern California)
+- Katja Filippova (EML Research)
+- Mark Dras (Macquarie University)
+
+ORGANIZERS AND CONTACT:
+- James Clarke (University of Illinois at Urbana-Champaign)
+- Sebastian Riedel (University of Tokyo)
+
+Email: ilpnlp2009@gmail.com
+Website: http://www-tsujii.is.s.u-tokyo.ac.jp/ilpnlp/
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

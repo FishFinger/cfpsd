@@ -1,0 +1,838 @@
+From - Thu Dec 10 14:33:23 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs206310muh;
+        Mon, 29 Sep 2008 04:23:30 -0700 (PDT)
+Received: by 10.150.155.13 with SMTP id c13mr655410ybe.79.1222687404310;
+        Mon, 29 Sep 2008 04:23:24 -0700 (PDT)
+Return-Path: <owner-sigmetrics@listserv.utk.edu>
+Received: from panther.mail.utk.edu (panther.mail.utk.edu [160.36.178.33])
+        by mx.google.com with ESMTP id 8si8152109gxk.42.2008.09.29.04.23.02;
+        Mon, 29 Sep 2008 04:23:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sigmetrics@listserv.utk.edu designates 160.36.178.33 as permitted sender) client-ip=160.36.178.33;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-sigmetrics@listserv.utk.edu designates 160.36.178.33 as permitted sender) smtp.mail=owner-sigmetrics@listserv.utk.edu
+Received: from listserv.utk.edu (listserv.utk.edu [160.36.178.161])
+	by panther.mail.utk.edu (8.13.6/8.13.4) with ESMTP id m8T7ax6t015157;
+	Mon, 29 Sep 2008 07:21:14 -0400
+Received: by LISTSERV.UTK.EDU (LISTSERV-TCP/IP release 14.5) with spool id
+          162442 for SIGMETRICS@LISTSERV.UTK.EDU; Mon, 29 Sep 2008 07:20:57
+          -0400
+Received: from aspirin.dii.utk.edu (aspirin.dii.utk.edu [160.36.0.81]) by
+          listserv.utk.edu (8.12.11/8.12.11) with ESMTP id m8TBKu5Y001609 for
+          <SIGMETRICS@listserv.utk.edu>; Mon, 29 Sep 2008 07:20:56 -0400 (EDT)
+Received: from mufasa.mail.utk.edu (mufasa.mail.utk.edu [160.36.178.84]) by
+          aspirin.dii.utk.edu (8.13.6/8.13.4) with ESMTP id m8TBKtsw016844 for
+          <SIGMETRICS@listserv.utk.edu>; Mon, 29 Sep 2008 07:20:55 -0400
+Received: from mailout02.t-online.de (mailout02.t-online.de [194.25.134.17]) by
+          mufasa.mail.utk.edu (8.14.1/8.14.1) with ESMTP id m8TBKrGk019036 for
+          <SIGMETRICS@listserv.utk.edu>; Mon, 29 Sep 2008 07:20:54 -0400
+Received: from fwd02.aul.t-online.de by mailout02.sul.t-online.de with smtp id
+          1KkGo9-000388-00; Mon, 29 Sep 2008 13:20:53 +0200
+Received: from localhost
+          (ZZmM3eZeYh91CoYaNMQpWCxWd7i9hew4qPRzsWZhUZXC+Sc4XmfrMol6+LZSsx6QXO@[172.20.101.250]) by
+          fwd02.aul.t-online.de with esmtp id 1KkGo3-0BfCcq0; Mon, 29 Sep 2008
+          13:20:47 +0200
+MIME-Version: 1.0
+Received: from 84.189.53.195:62356 by cmpweb09.aul.t-online.de with HTTP/1.1
+          (Kommunikationscenter V9-2-19 on API V3-3-11)
+References: <LISTSERV%200809181356033200.15D6@LISTSERV.UTK.EDU>
+X-UMS: email
+X-Mailer: TOI Kommunikationscenter V9-2-19
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-ID: ZZmM3eZeYh91CoYaNMQpWCxWd7i9hew4qPRzsWZhUZXC+Sc4XmfrMol6+LZSsx6QXO@t-dialin.net
+X-TOI-MSGID: f2d6814d-4781-4601-950f-aa483d257152
+X-Proofpoint-Virus-Version: vendor=fsecure
+                         engine=1.12.7160:2.4.4,1.2.40,4.0.166
+                         definitions=2008-09-29_04:2008-09-19,2008-09-29,2008-09-29
+                         signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+                         ipscore=0 phishscore=0 bulkscore=0 adultscore=0
+                         classifier=spam adjust=0 reason=mlx
+                         engine=5.0.0-0805090000 definitions=main-0809290043
+X-Not-Scanned: Message passed to aspirin.dii.utk.edu from known scanner
+               (mufasa.mail.utk.edu)
+X-Scanned-By: MIMEDefang 2.53 on 160.36.178.33
+X-Scanned-By: MIMEDefang 2.53 on 160.36.0.81
+Message-ID:  <1KkGo3-0BfCcq0@fwd02.aul.t-online.de>
+Date:         Mon, 29 Sep 2008 13:20:47 +0200
+Reply-To: "kretschmer.h@t-online.de" <kretschmer.h@T-ONLINE.DE>
+Sender: ASIS&T Special Interest Group on Metrics <SIGMETRICS@listserv.utk.edu>
+From: "kretschmer.h@t-online.de" <kretschmer.h@T-ONLINE.DE>
+Subject: [SIGMETRICS] 1st Announcement 5th Int Conf Webometrics Informetrics Scientometrics & 10th COLLNET Meeting
+To: SIGMETRICS@listserv.utk.edu
+In-Reply-To:  <LISTSERV%200809181356033200.15D6@LISTSERV.UTK.EDU>
+Precedence: list
+List-Help: <http://listserv.utk.edu/cgi-bin/wa?LIST=SIGMETRICS>,
+           <mailto:LISTSERV@LISTSERV.UTK.EDU?body=INFO SIGMETRICS>
+List-Unsubscribe: <mailto:SIGMETRICS-unsubscribe-request@LISTSERV.UTK.EDU>
+List-Subscribe: <mailto:SIGMETRICS-subscribe-request@LISTSERV.UTK.EDU>
+List-Owner: <mailto:SIGMETRICS-request@LISTSERV.UTK.EDU>
+List-Archive: <http://listserv.utk.edu/cgi-bin/wa?LIST=SIGMETRICS>
+X-Spam-Status: Message recipients not local.
+
+Adminstrative info for SIGMETRICS (for example unsubscribe):
+http://web.utk.edu/~gwhitney/sigmetrics.html
+<font style=3D"font-family: arial,helvetica,sans-serif;" size=3D"2"><p
+style=3D"margin:0px;">Please, apology for cross-posting!</p><p
+style=3D"margin:0px;"><br /></p><div class=3D"Section1"><p class=3D"MsoNorm=
+al"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"><font
+size=3D"3"><font face=3D"Times New Roman">1<sup>st</sup> Announcement <br
+/></font></font></span></i></b></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 14pt; mso-bidi-font-size:
+12.0pt"><p style=3D"margin:0px;"><font face=3D"Times New
+Roman">=A0</font></p></span></b></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 14pt; mso-bidi-font-size:
+12.0pt"><p style=3D"margin:0px;"><font face=3D"Times New
+Roman">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><font face=3D"Times
+New Roman">Call for Papers<br /></font></span></b></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><p
+style=3D"margin:0px;"><font face=3D"Times New
+Roman">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 14pt; mso-bidi-font-size:
+12.0pt"><p style=3D"margin:0px;"><font face=3D"Times New
+Roman">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center"
+style=3D"margin:0px;"><font face=3D"Times New Roman"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt">Fifth International
+Conference on Webometrics, Informetrics and Scientometrics (<state
+w:st=3D"on"><place w:st=3D"on"
+style=3D"margin:0px;">WIS</place></state>)</span></b><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 18pt"><br
+/></span></i></b></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><font face=3D"Times
+New Roman"><span style=3D"mso-spacerun: yes">=A0</span>&amp; <br
+/></font></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt=
+;
+TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><font face=3D"Times
+New Roman">Tenth COLLNET Meeting <br /></font></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center"
+align=3D"center" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 14pt; mso-bidi-font-size:
+12.0pt"><p style=3D"margin:0px;"><font face=3D"Times New
+Roman">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><font face=3D"Times
+New Roman"><span style=3D"mso-spacerun: yes">=A0</span>13-16 September,
+2009, <place w:st=3D"on" style=3D"margin:0px;"><city
+w:st=3D"on">Dalian</city>, <country-region
+w:st=3D"on">China</country-region></place><br /></font></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center"
+align=3D"center" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 14pt; mso-bidi-font-size:
+12.0pt"><p style=3D"margin:0px;"><font face=3D"Times New
+Roman">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center"
+style=3D"margin:0px;"><b><span lang=3D"EN-US"><p style=3D"margin:0px;"><fon=
+t
+face=3D"Times New Roman" size=3D"3"><br/></font></p></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center"
+align=3D"center" style=3D"margin:0px;"><b><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3"><br/></font></p></span></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center"
+style=3D"margin:0px;"><b><span lang=3D"EN-US"><p style=3D"margin:0px;"><fon=
+t
+face=3D"Times New Roman" size=3D"3"><br/></font></p></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center"
+align=3D"center" style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times=
+ New
+Roman"><b><span lang=3D"EN-US">Host: <place w:st=3D"on"
+style=3D"margin:0px;"><placename w:st=3D"on"
+style=3D"margin:0px;">Dalian</placename> <placetype w:st=3D"on"
+style=3D"margin:0px;">University</placetype></place> of
+Technology</span></b><b style=3D"mso-bidi-font-weight: normal"><span
+lang=3D"EN-US"><br /></span></b></font></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center"
+style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><span
+lang=3D"EN-US"><p style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MAR=
+GIN:
+0cm 0cm 0pt; TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"FONT-FAMILY: "Arial","sans-serif""><shapetype id=3D"_x0000_t75"
+stroked=3D"f" filled=3D"f" path=3D"m@4@5l@4@11@9@11@9@5xe"
+o:preferrelative=3D"t" o:spt=3D"75" coordsize=3D"21600,21600"><stroke
+joinstyle=3D"miter" /><formulas><f eqn=3D"if lineDrawn pixelLineWidth 0"
+/><f eqn=3D"sum @0 1 0" /><f eqn=3D"sum 0 0 @1" /><f eqn=3D"prod @2 1 2" />=
+<f
+eqn=3D"prod @3 21600 pixelWidth" /><f eqn=3D"prod @3 21600 pixelHeight" /><=
+f
+eqn=3D"sum @0 0 1" /><f eqn=3D"prod @6 1 2" /><f eqn=3D"prod @7 21600
+pixelWidth" /><f eqn=3D"sum @8 21600 0" /><f eqn=3D"prod @7 21600
+pixelHeight" /><f eqn=3D"sum @10 21600 0" /></formulas><path
+o:connecttype=3D"rect" gradientshapeok=3D"t" o:extrusionok=3D"f" /
+style=3D"margin:0px;"><lock aspectratio=3D"t" v:ext=3D"edit" /></shapetype>=
+<br
+/></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt;
+TEXT-ALIGN: center" align=3D"center" style=3D"margin:0px;"><font size=3D"3"=
+><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US" style=3D"COLOR:
+red; FONT-FAMILY: "Arial","sans-serif""><br /></span></b></font></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center"
+align=3D"center" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"FONT-FAMILY: "Arial","sans-serif""><p
+style=3D"margin:0px;"><font size=3D"3"><br/></font></p></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: center"
+align=3D"center" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"FONT-SIZE: 14pt; mso-bidi-font-size:
+12.0pt"><p style=3D"margin:0px;"><font face=3D"Times New
+Roman"><br/></font></p></span></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US"><p style=3D"margin:0px;"><font face=3D"Times N=
+ew
+Roman" size=3D"3">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US"><font face=3D"Times New Roman"
+size=3D"3">Scope</font></span></i></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><f=
+ont
+face=3D"Times New Roman" size=3D"3">Quantitative aspects of science of
+science. Collaboration and communication in science and in technology.
+Science policy. Combination and integration of qualitative and
+quantitative approaches. </font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"MsoNormal" style=3D"MARGIN:=
+ 0cm
+0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New
+Roman" size=3D"3">Theoretical, methodological and applied aspects, for
+example:</font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt 36pt; TEXT-INDENT: -18pt; mso-list: l1 level1 lfo1; tab-stops: list
+36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Emerging issues in
+scientometrics/informetrics/webometrics and
+history</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo2; tab-stops:
+list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Science Policy and
+collaboration</font></span></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1
+lfo2; tab-stops: list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New
+Roman"><span lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New
+Roman""><span style=3D"mso-list: Ignore"><font size=3D"3">-</font><span
+style=3D"FONT: 7pt "Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></=
+span></span><span
+lang=3D"EN-US"><font size=3D"3">Collaboration Studies for Science &amp;
+Society</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo2; tab-stops:
+list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Collaboration, Knowledge Management &amp;
+Industrial Partnership</font></span></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1
+lfo2; tab-stops: list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New
+Roman"><span lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New
+Roman""><span style=3D"mso-list: Ignore"><font size=3D"3">-</font><span
+style=3D"FONT: 7pt "Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></=
+span></span><span
+lang=3D"EN-US"><font size=3D"3">Collaborative Bridge between Academic
+Research and Industry</font></span></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1
+lfo2; tab-stops: list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New
+Roman"><span lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New
+Roman""><span style=3D"mso-list: Ignore"><font size=3D"3">-</font><span
+style=3D"FONT: 7pt "Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></=
+span></span><span
+lang=3D"EN-US"><font size=3D"3">Techniques for Collaboration
+Studies</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l0 level1 lfo2; tab-stops:
+list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Visualization Techniques in Collaboration
+Studies</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l1 level1 lfo1; tab-stops:
+list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Quantiatative analysis of<span
+style=3D"mso-spacerun: yes">=A0 </span>S&amp;T
+innovations</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l1 level1 lfo1;
+tab-stops: list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New
+Roman"><span lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New
+Roman""><span style=3D"mso-list: Ignore"><font size=3D"3">-</font><span
+style=3D"FONT: 7pt "Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></=
+span></span><span
+lang=3D"EN-US"><font size=3D"3">Informetric laws and distributions,
+mathematical models of communication or
+collaboration</font></span></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l1 level1
+lfo1; tab-stops: list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New
+Roman"><span lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New
+Roman""><span style=3D"mso-list: Ignore"><font size=3D"3">-</font><span
+style=3D"FONT: 7pt "Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></=
+span></span><span
+lang=3D"EN-US"><font size=3D"3">Nature and growth of science and of
+collaboration in science and its relation with technological
+output</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt 36pt; TEXT-INDENT: -18pt; mso-list: l1 level1 lfo1; tab-stops:
+list 36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Evaluation indicators
+</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0p=
+t
+36pt; TEXT-INDENT: -18pt; mso-list: l1 level1 lfo1; tab-stops: list
+36.0pt" style=3D"margin:0px;"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"mso-fareast-font-family: "Times New Roman""><span
+style=3D"mso-list: Ignore"><font size=3D"3">-</font><span style=3D"FONT: 7p=
+t
+"Times New Roman"">=A0=A0=A0=A0=A0=A0=A0=A0=A0 </span></span></span><span
+lang=3D"EN-US"><font size=3D"3">Collaboration in science and in technology
+from both quantitative and qualitative points of
+view</font></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0c=
+m
+0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New Rom=
+an"
+size=3D"3">Please, note that these examples listed above give a broad
+outline of the scope of the workshop theme but do not limit
+it.</font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"
+style=3D"margin:0px;"><span lang=3D"EN-US"><p style=3D"margin:0px;"><font
+face=3D"Times New Roman" size=3D"3">=A0</font></p></span></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US"><font size=3D"3"><font face=3D"Times New
+Roman">Dalian University of Technology and WISELAB<br
+/></font></font></span></i></b></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times New
+Roman"><placename w:st=3D"on" style=3D"margin:0px;"><span
+lang=3D"EN-US">Dalian</span></placename><span lang=3D"EN-US"> <placetype
+w:st=3D"on" style=3D"margin:0px;">University</placetype> of Technology (DUT=
+)
+is located in the beautiful coastal city of <city
+w:st=3D"on">Dalian</city>, in northeastern <country-region
+w:st=3D"on">China</country-region>'s <place w:st=3D"on"
+style=3D"margin:0px;"><placename w:st=3D"on"
+style=3D"margin:0px;">Liaoning</placename> <placetype w:st=3D"on"
+style=3D"margin:0px;">Province</placetype></place>. It is one of the key
+universities under the direct leadership of the State Ministry of
+Education. The campus is green, shady and peaceful. Many state leaders
+have visited the university. Since its foundation in 1949, DUT has
+experienced the severe trials of over half a century and gone through
+the persistent efforts of several generations. DUT has developed into a
+comprehensive university of science and technology, with engineering as
+its main concentration, other departments including applied sciences and
+economic management sciences, as well as humanities disciplines, such as
+social sciences and law. With the support of &quot;the 985 Project&quot;
+and &quot;the 211 Project&quot;, bringing forth the spirit of
+innovation, DUT is engaged in grasping the historic opportunity of
+rejuvenating the old northeastern industrial base, and carrying out a
+talent-training strategy in the hope of building DUT into a world-famous
+and research-oriented university. </span></font></font></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><span lang=3D"EN-US"><font
+face=3D"Times New Roman" size=3D"3">Based on the Doctoral Program in Scienc=
+e
+Studies and S&amp;T Management, WISE LAB of <place w:st=3D"on"
+style=3D"margin:0px;"><placename w:st=3D"on"
+style=3D"margin:0px;">Dalian</placename> <placetype w:st=3D"on"
+style=3D"margin:0px;">University</placetype></place> of Technology is an
+international lab established in September 21, 2005. =91WISE=92 is combined
+by four capital letters of Webometrics, Informetrics, Scientometrics and
+Econometrics. WISE LAB is under supervision of Research Center of
+S&amp;T Ethic and Management of Dalian University of Technology, which
+is based on Innovation Base of Philosophy and Social Sciences to
+Ministry of Education 985 Project 2 and Key Research Base for Humanities
+Science of Universities in <place w:st=3D"on"
+style=3D"margin:0px;"><placename w:st=3D"on"
+style=3D"margin:0px;">Liaoning</placename> <placetype w:st=3D"on"
+style=3D"margin:0px;">Province</placetype></place>. The directors of the
+academic committee of WISE LAB are Dr. Hildrun Kretschmer and Prof. Liu
+Zeyuan. There are 28 members in our lab.</font></span></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><span lang=3D"EN-US"><font
+face=3D"Times New Roman" size=3D"3">Using methods of scientometrics,
+webometrics, informetrics and econometrics, we investigate on the rules,
+strategies, programming, policy and management of S&amp;T in the field
+of theories of science studies and S&amp;T management. The main research
+fields are as follows: </font></span></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><span lang=3D"EN-US"
+style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times New Roman";
+mso-hansi-font-family: "Times New Roman"">&#9632;</span><span
+lang=3D"EN-US"><font face=3D"Times New Roman">Basic theory of science
+studies</font></span></font></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><span lang=3D"EN-US"
+style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times New Roman";
+mso-hansi-font-family: "Times New Roman"">&#9632;</span><span
+lang=3D"EN-US"><font face=3D"Times New Roman">Scientometrics and mapping
+knowledge domains </font></span></font></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><span lang=3D"EN-US"
+style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times New Roman";
+mso-hansi-font-family: "Times New Roman"">&#9632;</span><span
+lang=3D"EN-US"><font face=3D"Times New Roman">Management of S&amp;T,
+management of innovation, management of
+knowledge</font></span></font></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><span lang=3D"EN-US"
+style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times New Roman";
+mso-hansi-font-family: "Times New Roman"">&#9632;</span><span
+lang=3D"EN-US"><font face=3D"Times New Roman">Policy and strategy of
+science, technology and development</font></span></font></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><font size=3D"3"><span
+lang=3D"EN-US" style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times
+New Roman"; mso-hansi-font-family: "Times New
+Roman"">&#9632;</span><span lang=3D"EN-US"><font face=3D"Times New
+Roman">Economics of innovation, regional
+economics</font></span></font></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><span lang=3D"EN-US"
+style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times New Roman";
+mso-hansi-font-family: "Times New Roman"">&#9632;</span><span
+lang=3D"EN-US"><font face=3D"Times New Roman">Management of environment,
+studies on sustainable development</font></span></font></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><font size=3D"3"><span
+lang=3D"EN-US" style=3D"FONT-FAMILY: SimSun; mso-ascii-font-family: "Times
+New Roman"; mso-hansi-font-family: "Times New
+Roman"">&#9632;</span><span lang=3D"EN-US"><font face=3D"Times New
+Roman">Ethics of S&amp;T management, management of higher
+education</font></span></font></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times New
+Roman"><span lang=3D"EN-US">The lab strengthened the construction of basic
+establishment and we have more than 40 computers and other equipments.
+We established the website of the lab: www.wiselab.cn</span><span
+lang=3D"EN-US" style=3D"mso-fareast-language: ZH-CN">&nbsp;</span><span
+lang=3D"EN-US">(<span class=3D"MsoHyperlink"><span style=3D"COLOR:
+blue"><u>http://www.wiselab.cn/</u></span></span>), which becomes the
+platform of international communication. </span></font></font></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><font size=3D"3"><span
+lang=3D"EN-US"><font face=3D"Times New Roman">Using software like
+UCINET</font></span><span lang=3D"EN-US" style=3D"FONT-FAMILY: SimSun;
+mso-ascii-font-family: "Times New Roman"; mso-hansi-font-family: "Times
+New Roman"">&#65292;</span><span lang=3D"EN-US"><font face=3D"Times New
+Roman">PAJEK</font></span><span lang=3D"EN-US" style=3D"FONT-FAMILY: SimSun=
+;
+mso-ascii-font-family: "Times New Roman"; mso-hansi-font-family: "Times
+New Roman"">&#65292;</span><span lang=3D"EN-US"><font face=3D"Times New
+Roman"> BIBLIEXCEL, CITESPACE and SPSS, we have adapted integrated
+methods, including mapping knowledge domains, social network analysis
+(SNA), co-occurrence analysis, co-citation analysis, co-word analysis,
+MDS, cluster analysis, factor analysis, and frequency analysis of words.
+Since 2000, we have assumed and completed 34 research projects,
+including 7 Projects of the National Natural Science Foundation of
+China, 4 Projects of National Social Science Foundation of China, 6 Key
+Projects in the Ministry of Education. Since 2005, all the members of
+the lab have published more than 120 peer-reviewed articles or
+contributions in national and international journals or proceedings,
+several non-peer reviewed publications. </font></span></font></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><span lang=3D"EN-US"><font
+face=3D"Times New Roman" size=3D"3">The members of lab use the methods of
+mapping of knowledge domains and information visualization to draw
+serials of maps of the research fronts of science and
+technology:</font></span></p><p class=3D"MsoNormal" style=3D"TEXT-JUSTIFY:
+inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN: justify"
+style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New Roman"
+size=3D"3">We established intimate communication and cooperation with the
+scholars from <country-region w:st=3D"on">Germany</country-region>,
+<country-region w:st=3D"on">Belgium</country-region>, <country-region
+w:st=3D"on">France</country-region>, <country-region
+w:st=3D"on">USA</country-region>, <place w:st=3D"on"
+style=3D"margin:0px;"><country-region
+w:st=3D"on">UK</country-region></place>, and Japanese in the field of
+scientometrics, S&amp;T policy and Management and so on. We established
+formal cooperative relations with the Philosophische Fakult=E4t I of
+Humboldt-Universit=E4t zu <place w:st=3D"on" style=3D"margin:0px;"><state
+w:st=3D"on">Berlin</state></place> in 2006. Dr Chaomei Chen was appointed
+as the Chang Jiang Scholars of WISELAB of Dalian University of
+Technology in 2008. Dr. Hildrun Kretschmer was appointed as the =93Sea-sky
+Scholar=94 privileged professor of our university and Dr. Ronald Rousseau,
+the President of ISSI, as our guest professor.</font></span></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><span lang=3D"EN-US"><font
+face=3D"Times New Roman" size=3D"3">The lab invited several scholars from
+abroad: R. Rousseau from KHBO, W. Glanzel from ISSRU, M. Mayer from
+SPRU, F. Heinz from Humboldt-University, J.C. Lamirel from <place
+w:st=3D"on" style=3D"margin:0px;"><country-region
+w:st=3D"on">France</country-region></place>, H. Etzkowitz from NY State
+University, etc.We attended several international conferences in the
+field of scientometrics and S&amp;T policy, like ISSI, COLLNET meeting,
+and International Triple Helix Conference. Meanwhile, we also organized
+national and international conference like the 2nd National Conference
+on S&amp;T Policy and Management &amp; International Forum on Science
+Studies and Scientometrics, national conference on theories and
+discipline construction of science studies, cross-straits conference on
+STS and sustainable development.</font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN"><p style=3D"margin:0px;"><font
+face=3D"Times New Roman" size=3D"3">=A0</font></p></span></p><p
+class=3D"MsoNormal" style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: justify" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US"><p style=3D"margin:0px;"><font face=3D"Times N=
+ew
+Roman" size=3D"3">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"><font
+size=3D"3"><font face=3D"Times New Roman">COLLNET and ISSI <br
+/></font></font></span></i></b></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New
+Roman" size=3D"3">COLLNET is a global interdisciplinary research network
+of scholars who are concerned to study aspects of collaboration in
+science and in technology (see COLLNET web site at: </font><a
+href=3D"http://www.collnet.de/"><font face=3D"Times New Roman"
+color=3D"#800080" size=3D"3">http://www.collnet.de/</font></a><font
+face=3D"Times New Roman" size=3D"3">). This network of interdisciplinary
+scholars was established in January <chmetcnv w:st=3D"on" tcsc=3D"0"
+numbertype=3D"1" negative=3D"False" hasspace=3D"True" sourcevalue=3D"2000"
+unitname=3D"in">2000 in</chmetcnv> <place w:st=3D"on"
+style=3D"margin:0px;"><state w:st=3D"on">Berlin</state></place> with Hildru=
+n
+Kretschmer as coordinator. Since that time there have been <span
+style=3D"COLOR: black">9 </span>meetings: the first in Berlin, September
+2000, the 2<sup>nd</sup> in New Delhi, February 2001 and the
+3<sup>rd</sup> in Sydney (in association with the 8<sup>th</sup> ISSI
+Conference), July 2001. The former ISSI President Mari Davis has
+mentioned in the Newsletter, July 2003: Importantly, ISSI needs alliance
+with other groups, such as COLLNET, for broader reach among a range of
+interdisciplinary researchers and to encourage new thinking and
+perspectives on investigations in science and in technology. The
+4<sup>th</sup> COLLNET Meeting took place on August 29<sup>th</sup> in
+<chmetcnv w:st=3D"on" tcsc=3D"0" numbertype=3D"1" negative=3D"False"
+hasspace=3D"True" sourcevalue=3D"2003" unitname=3D"in">2003 in</chmetcnv>
+Beijing in conjunction with the 9<sup>th</sup> International ISSI
+Conference; the International Workshop on Webometrics, Informetrics and
+Scientometrics and 5<sup>th</sup> COLLNET Meeting in Roorkee, India, in
+March 2004. The 6<sup>th</sup> COLLNET Meeting took place in association
+with the 10<sup>th</sup> ISSI Conference in <city
+w:st=3D"on">Stockholm</city>, <country-region
+w:st=3D"on">Sweden</country-region>, in July 2005 and the International
+Workshop on Webometrics, Informetrics and Scientometrics and
+7<sup>th</sup> COLLNET Meeting in <place w:st=3D"on"
+style=3D"margin:0px;"><city w:st=3D"on">Nancy</city>, <country-region
+w:st=3D"on">France</country-region></place>, in May 2006. The Third
+International Conference on Webometrics, Informetrics, Scientometrics
+and Science and Society &amp; Eighth COLLNET Meeting took place in <city
+w:st=3D"on">New Delhi</city>, <country-region
+w:st=3D"on">India</country-region>, in March 2007 (</font><a
+href=3D"http://www.collnet-delhi.de/"><font face=3D"Times New Roman"
+size=3D"3">http://www.collnet-delhi.de</font></a><font face=3D"Times New
+Roman" size=3D"3">) and the Fourth International Conference on
+Webometrics, Informetrics and Scientometrics &amp; Ninth COLLNET Meeting
+in <place w:st=3D"on" style=3D"margin:0px;"><city w:st=3D"on">Berlin</city>=
+,
+<country-region w:st=3D"on">Germany</country-region></place> in July 2008
+(</font><a href=3D"http://www.collnet-berlin.de/"><font face=3D"Times New
+Roman" color=3D"#800080"
+size=3D"3">http://www.collnet-berlin.de</font></a><font face=3D"Times New
+Roman" size=3D"3">).</font></span></p><p class=3D"MsoNormal"
+style=3D"TEXT-JUSTIFY: inter-ideograph; MARGIN: 0cm 0cm 0pt; TEXT-ALIGN:
+justify" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p></div><span lang=3D"EN-US"
+style=3D"FONT-SIZE: 12pt; FONT-FAMILY: "Times New Roman","serif";
+mso-fareast-font-family: SimSun; mso-ansi-language: EN-US;
+mso-fareast-language: EN-US; mso-bidi-language: AR-SA"><br
+style=3D"PAGE-BREAK-BEFORE: always; mso-break-type: section-break"
+clear=3D"all" /></span><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"
+style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><font
+size=3D"3"><font face=3D"Times New Roman"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US">Program Chair</span></i><span lang=3D"EN-US">:
+Hildrun Kretschmer (<country-region w:st=3D"on">Germany</country-region>,
+<country-region w:st=3D"on"><place w:st=3D"on"
+style=3D"margin:0px;">China</place></country-region>) <br
+/></span></font></font></b></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><font size=3D"3"><font
+face=3D"Times New Roman"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US">Program Co-
+Chair</span></i><span lang=3D"EN-US">: </span></b><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN">Liu Zeyuan </span><span
+lang=3D"EN-US">(<country-region w:st=3D"on"><place w:st=3D"on"
+style=3D"margin:0px;">China</place></country-region>)</span></b><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN"><br
+/></span></b></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"mso-fareast-language: ZH-CN"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MAR=
+GIN:
+0cm 0cm 0pt" style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times New
+Roman"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN">Academic Committee </span><span
+lang=3D"EN-US">Chair</span></i></b><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"mso-fareast-language: ZH-CN">: Chen
+Chaomei (<country-region w:st=3D"on">USA</country-region>, <country-region
+w:st=3D"on"><place w:st=3D"on"
+style=3D"margin:0px;">China</place></country-region>)<br
+/></span></b></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US"><p style=3D"margin:0px;"><font face=3D"Times N=
+ew
+Roman" size=3D"3">=A0</font></p></span></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><font size=3D"3"><font
+face=3D"Times New Roman"><b style=3D"mso-bidi-font-weight: normal"><span
+lang=3D"EN-US">Organising Chair:<span style=3D"COLOR: red">&nbsp;</span>Din=
+g
+Kun</span></b><b style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US=
+"
+style=3D"mso-fareast-language: ZH-CN">&nbsp;</span><span
+lang=3D"EN-US">(<country-region w:st=3D"on"><place w:st=3D"on"
+style=3D"margin:0px;">China</place></country-region>)<span style=3D"COLOR:
+red"><br /></span></span></b></font></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"><a
+href=3D"mailto:dingk@dlut.edu.cn"><font face=3D"Times New Roman"
+size=3D"3">dingk@dlut.edu.cn</font></a><br /></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><i style=3D"mso-bidi-font-style:
+normal"><span lang=3D"EN-US" style=3D"mso-fareast-language: ZH-CN"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></i></b></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><font size=3D"3"><font face=3D"Times
+New Roman"><i style=3D"mso-bidi-font-style: normal"><span
+lang=3D"EN-US">Programme Committee</span></i><span lang=3D"EN-US">:<br
+/></span></font></font></b></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US"><font size=3D"3"><font face=3D"Times New
+Roman">COLLNET Members<br /></font></font></span></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"><font
+size=3D"3"><font face=3D"Times New Roman">(www.collnet.de)<br
+/></font></font></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN"><p style=3D"margin:0px;"><font
+face=3D"Times New Roman" size=3D"3">=A0</font></p></span></i></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><fo=
+nt
+size=3D"3"><font face=3D"Times New Roman"><b style=3D"mso-bidi-font-weight:
+normal"><i style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN">Academic
+Committee:</span></i></b><span lang=3D"EN-US" style=3D"mso-fareast-language=
+:
+ZH-CN"><br /></span></font></font></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt 12.05pt; TEXT-INDENT: -12.05pt;
+mso-char-indent-count: -1.0" style=3D"margin:0px;"><b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"
+style=3D"mso-fareast-language: ZH-CN"><font size=3D"3"><font face=3D"Times =
+New
+Roman">Hildrun Kretschmer, Jin Bihui, Jiang Guohua, Jiang Zhaohua, Liang
+liming, Liu Zeyuan, Qiu junping, Mu Rongping, Wang Xukun, Wu Yishan,<br
+/></font></font></span></b></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"mso-fareast-language: ZH-CN"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MAR=
+GIN:
+0cm 0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><i style=3D"mso-bidi-font-style: normal"><span lang=3D"EN-US"><font
+size=3D"3"><font face=3D"Times New Roman">Conference Fee: <br
+/></font></font></span></i></b></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times
+New Roman" size=3D"3">- Foreign Participants: 100 Euro</font></span></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><sp=
+an
+lang=3D"EN-US"><font face=3D"Times New Roman" size=3D"3">- Foreign Students=
+ 50
+Euro</font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"
+style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New Roman"
+size=3D"3">- Foreign Accompanying persons:</font></span></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><sp=
+an
+lang=3D"IT" style=3D"mso-ansi-language: IT"><font size=3D"3"><font face=3D"=
+Times
+New Roman"><span style=3D"mso-spacerun: yes">=A0=A0 </span>50 Euro<br
+/></font></font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt" style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times New
+Roman"><span lang=3D"IT" style=3D"mso-ansi-language: IT">- Chinese
+participants: </span><span lang=3D"IT" style=3D"mso-ansi-language: IT;
+mso-fareast-language: ZH-CN">1000RMB<br /></span></font></font></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><fo=
+nt
+size=3D"3"><font face=3D"Times New Roman"><span lang=3D"IT"
+style=3D"mso-ansi-language: IT">- Chinese students: </span><span lang=3D"IT=
+"
+style=3D"mso-ansi-language: IT; mso-fareast-language: ZH-CN">500RMB<br
+/></span></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><font size=3D"3"><font
+face=3D"Times New Roman">The fee includes coffee break, lunches, Inaugural
+Cocktail, dinner and banquet. <span style=3D"mso-spacerun:
+yes">=A0</span></font></font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><f=
+ont
+face=3D"Times New Roman" size=3D"3">Proceedings are included in the
+conference fee for participants and students but not for accompanying
+persons.</font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New Rom=
+an"
+size=3D"3">The sightseeing tour of <city w:st=3D"on"><place w:st=3D"on"
+style=3D"margin:0px;">Dalian</place></city> is included in the conference
+fee. </font></span></p><p class=3D"WW-BodyText3" style=3D"MARGIN: 0cm 0cm
+0pt; TEXT-ALIGN: left" align=3D"left" style=3D"margin:0px;"><span
+lang=3D"EN-US" style=3D"mso-ansi-language: EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"WW-BodyText3" style=3D"MARG=
+IN:
+0cm 0cm 0pt; TEXT-ALIGN: left" align=3D"left" style=3D"margin:0px;"><font
+size=3D"3"><span lang=3D"EN-US" style=3D"mso-ansi-language: EN-US"><font
+face=3D"Times New Roman">For persons who are interested in, a special
+extended </font></span><span lang=3D"EN-US" style=3D"FONT-FAMILY:
+"Arial","sans-serif"; mso-ansi-language: EN-US">Tour</span><span
+lang=3D"EN-US" style=3D"mso-ansi-language: EN-US"><font face=3D"Times New
+Roman"> will be programmed at the last day (with additional
+fees).</font></span><span lang=3D"EN-US" style=3D"FONT-FAMILY:
+"Arial","sans-serif"; mso-ansi-language: EN-US"> <br
+/></span></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"
+style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times New Roman"><span
+lang=3D"EN-US" style=3D"COLOR: black">For more information please contact:
+</span><b style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"><a
+href=3D"mailto:dingk@dlut.edu.cn">dingk@dlut.edu.cn</a><br
+/></span></b></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"EN-US" style=3D"mso-fareast-language: ZH-CN"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></b></p><p class=3D"MsoNormal" style=3D"MAR=
+GIN:
+0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"
+style=3D"mso-bidi-font-weight: bold"><p style=3D"margin:0px;"><font
+face=3D"Times New Roman" size=3D"3">=A0</font></p></span></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><sp=
+an
+lang=3D"EN-US"><p style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"MsoNormal" style=3D"MARGIN:=
+ 0cm
+0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"MsoNormal" style=3D"MARGIN:=
+ 0cm
+0cm 0pt" style=3D"margin:0px;"><b style=3D"mso-bidi-font-weight: normal"><i
+style=3D"mso-bidi-font-style: normal"><span lang=3D"FR"
+style=3D"mso-ansi-language: FR"><font size=3D"3"><font face=3D"Times New
+Roman">Important Dates:<br /></font></font></span></i></b></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><fo=
+nt
+size=3D"3"><font face=3D"Times New Roman"><b style=3D"mso-bidi-font-weight:
+normal"><span lang=3D"FR" style=3D"mso-ansi-language: FR">Extended Abstract
+(3 pages</span></b><span lang=3D"FR" style=3D"mso-ansi-language: FR">): <br
+/></span></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt" style=3D"margin:0px;"><span lang=3D"FR" style=3D"mso-ansi-language:
+FR"><font size=3D"3"><font face=3D"Times New Roman">March 15, 2009
+(deadline)<br /></font></font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><font size=3D"3"><font
+face=3D"Times New Roman"><b style=3D"mso-bidi-font-weight: normal"><span
+lang=3D"EN-US">Acceptance :</span></b><span lang=3D"EN-US"> April 15
+2009</span></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0c=
+m
+0pt" style=3D"margin:0px;"><font size=3D"3"><font face=3D"Times New Roman">=
+<b
+style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US">Full
+Paper</span></b><span lang=3D"EN-US"> : July 15, 2009
+(deadline)</span></font></font></p><p class=3D"MsoNormal" style=3D"MARGIN:
+0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-GB"
+style=3D"mso-ansi-language: EN-GB"><font size=3D"3"><font face=3D"Times New
+Roman">(camera-ready version, maximum 10 pages including tables,
+figures, references)<br /></font></font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><f=
+ont
+face=3D"Times New Roman" size=3D"3">Both abstracts and full papers will be
+peer reviewed by the Programme Committee. The accepted full papers will
+be published in the proceedings.</font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"MsoNormal" style=3D"MARGIN:=
+ 0cm
+0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New
+Roman" size=3D"3">Please send your extended abstracts
+to:</font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt"
+style=3D"margin:0px;"><span lang=3D"EN-US"><font face=3D"Times New Roman"
+size=3D"3">Hildrun Kretschmer</font></span></p><p class=3D"MsoNormal"
+style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"><a
+href=3D"mailto:Kretschmer.h@onlinehome.de"><font face=3D"Times New Roman"
+size=3D"3">Kretschmer.h@onlinehome.de</font></a></span></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><sp=
+an
+lang=3D"EN-US" style=3D"mso-bidi-font-weight: bold"><p
+style=3D"margin:0px;"><font face=3D"Times New Roman"
+size=3D"3">=A0</font></p></span></p><p class=3D"MsoNormal" style=3D"MARGIN:=
+ 0cm
+0cm 0pt" style=3D"margin:0px;"><span lang=3D"EN-US"
+style=3D"mso-bidi-font-weight: bold"><p style=3D"margin:0px;"><font
+face=3D"Times New Roman" size=3D"3">=A0</font></p></span></p><p
+class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm 0pt" style=3D"margin:0px;"><sp=
+an
+lang=3D"EN-US" style=3D"mso-bidi-font-weight: bold"><font size=3D"3"><font
+face=3D"Times New Roman">Please send also a copy to: <br
+/></font></font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt" style=3D"margin:0px;"><span lang=3D"EN-US" style=3D"mso-bidi-font-weig=
+ht:
+bold"><font size=3D"3"><font face=3D"Times New Roman">Ding Kun<br
+/></font></font></span></p><p class=3D"MsoNormal" style=3D"MARGIN: 0cm 0cm
+0pt" style=3D"margin:0px;"><span lang=3D"EN-US" style=3D"mso-bidi-font-weig=
+ht:
+bold"><a href=3D"mailto:dingk@dlut.edu.cn"><font face=3D"Times New Roman"
+size=3D"3">dingk@dlut.edu.cn</font></a><br /></span></p></font>

@@ -1,0 +1,490 @@
+From - Thu Dec 10 14:35:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs111964far;
+        Fri, 16 Jan 2009 03:18:57 -0800 (PST)
+Received: by 10.210.57.5 with SMTP id f5mr3043847eba.14.1232104736470;
+        Fri, 16 Jan 2009 03:18:56 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 3si1324053ewy.70.2009.01.16.03.18.38;
+        Fri, 16 Jan 2009 03:18:56 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 5CD4C213A5; Fri, 16 Jan 2009 12:18:37 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 744751FABF;
+	Fri, 16 Jan 2009 12:11:03 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5AAEC3D2B;
+	Fri, 16 Jan 2009 12:11:03 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wi7WfTt7ZqDr; Fri, 16 Jan 2009 12:11:03 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A3A2E3D82;
+	Fri, 16 Jan 2009 12:09:52 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 353673D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 Jan 2009 01:26:28 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id VFtddOi1AevA for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 Jan 2009 01:26:28 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id F31A33D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 Jan 2009 01:26:27 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id D8CB41E8C1; Fri, 16 Jan 2009 01:26:27 +0100 (MET)
+Received: from mail-qy0-f22.google.com (mail-qy0-f22.google.com
+	[209.85.221.22])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BEB871E7E9
+	for <elsnet-list@elsnet.org>; Fri, 16 Jan 2009 01:26:19 +0100 (MET)
+Received: by qyk3 with SMTP id 3so285957qyk.13
+	for <elsnet-list@elsnet.org>; Thu, 15 Jan 2009 16:26:18 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=Tj+1b7R6IwqqH9lq+aE66vSWeywgEOslD6o7H7pt72M=;
+	b=UwM1WXrdjw5hI9LNa1GdW/2ENX3o71mM0spAt1kgwLi1sY9MlGfkowOr6zsFO7Tsnc
+	oledzjhWYD/f6yoFyFTvyDYdK4ekxMiLm2ALsQo42BEmu2WJWo7wyJCXwhw1it2mjetA
+	QjFpOoMVuvsWy58wmAbFX0NSA9XKWoW1yG3Oo=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=DlNA0LmQUUCnxkJO0BRLtXT/Et745Gr0onlhGWrG3Y/CYEth4dNoqPPtY6O3eN/GkA
+	YuXmjKimRZyv7Tj0i0K3gGtAIamRqulUKXquYrIv++r18JOu0G71ms0CmIrvTqRBJa0X
+	ap0BG825o2P6DsJ0GV0RryzSv8dRh40Z59c4A=
+MIME-Version: 1.0
+Received: by 10.142.254.2 with SMTP id b2mr398289wfi.287.1232065409415; Thu, 
+	15 Jan 2009 16:23:29 -0800 (PST)
+Date: Thu, 15 Jan 2009 20:23:29 -0400
+Message-ID: <8dd933e30901151623t1e306deelec005ab0dd85314@mail.gmail.com>
+From: Christopher Baker <bmcmutations@gmail.com>
+To: bakerc@unb.ca
+X-Mailman-Approved-At: Fri, 16 Jan 2009 12:09:23 +0100
+Cc: 
+Subject: [Elsnet-list] BMC Bioinformatics Special Issue: CALL FOR PAPERS -
+	Mutations
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0677244494=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============0677244494==
+Content-Type: multipart/alternative; boundary=00504502c54c11842e04608e958a
+
+--00504502c54c11842e04608e958a
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ BMC Bioinformatics Special Issue: CALL FOR PAPERS
+
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+
+
+ A special issue of the Journal will showcase original
+
+ papers that address themes relevant to the:
+
+ Annotation, Interpretation and Management of Mutations
+ http://www.ebi.ac.uk/Rebholz-srv/aimm.html
+
+
+ Mutations play a key role in the understanding of genetic mechanisms
+
+ and complex diseases. A number of bioinformatics initiatives gather
+
+ and store mutational relevant information (OMIM, GAD, HapMap, 1000
+
+ Genomces project, COSMIC, UniProtKb, PDB), but the challenge for
+
+ data integration initiatives is to facilitate the interpretion
+
+ of phenotypic / impact changes induced by the mutations. Solutions are
+
+ required in the domains of:
+
+
+
+ (i) text mining - for the identification of phenotypic / impact
+
+ annotations,
+
+ (ii) data warehousing and machine learning =96 to allow better
+
+ integration of mutation relevant information into a bioinformatics
+
+ infrastructure (e.g., ontologies, workflows, databases, machine
+
+ learning techniques). Synergistic use of these technologies should
+
+ facilitate inferences of knowledge from sequence to structure to
+
+ function and to phenotypes. Authors may also focus on methods for
+
+ the prediction of phenotypic effects induced by mutations,
+
+ infrastructure to support clinical decision processes involving
+
+ mutations as well as the management and aggregation of mutations
+
+ with annotations from different digital or text resources.
+
+
+
+ Suggested themes (but not limted to):
+
+
+
+ -             Mutation Databases and Metadata: Design, Content, Accuracy.
+
+ -             Extraction of mutations and annotations from literature
+
+ -             Methods and systems for predicting the impacts of Mutations
+
+ -             Mutation Data Integration, Phenotype Ontologies, Semantic
+Support
+
+ and Reuse
+
+
+
+ Published manuscripts will include a clear and motivating description
+
+ of the specific challenge and biological context that they address
+
+ and a lucid illustration of the proposed solution.
+
+
+
+ Article-processing charges:
+
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ Please note that the standard BMC Bioinformatics publication
+
+ processing fees apply to submissions to this special issue.
+
+ Please refer to http://www.biomedcentral.com/bmcbioinformatics/ifora/
+
+ for further information.
+
+
+
+ Important Dates:
+
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ Submissions open: Dec 25th 2008
+
+ Submissions due*: February 14th 2009
+
+ Revised manuscript submitted: March 31st 2009
+
+
+
+ Submissions:
+
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ Pre-submission enquiries and variations to the deadlines above may be
+
+ made in consultation with the Special Issue Editor bakerc@unb.ca
+
+
+
+ * Author instructions can be obtained by sending an email to
+
+ bmcmutations@gmail.com an automated reply will sent and
+
+ complete submissions should also be sent to
+
+ bmcmutations@gmail.com but with AIMM in the subject line.
+
+
+
+ Special Issue Editors:
+
+ =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ Christopher J. O. Baker - University of New Brunswick, Canada
+
+ Dietrich Rebholz-Schuhmann, European Bioinformatics Institute, UK
+
+--00504502c54c11842e04608e958a
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></fon=
+t></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>BMC Bioin=
+formatics Special Issue: CALL FOR PAPERS</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></fon=
+t></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>A special=
+ issue of the Journal will showcase original</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>papers th=
+at address themes relevant to the:</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Annotatio=
+n, Interpretation and Management of Mutations</font></font></p>
+<div style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><f=
+ont face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span><a href=
+=3D"http://www.ebi.ac.uk/Rebholz-srv/aimm.html">http://www.ebi.ac.uk/Rebhol=
+z-srv/aimm.html</a></font></font></div>
+
+<div style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" fa=
+ce=3D"Calibri"></font>&nbsp;</div>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Mutations=
+ play a key role in the understanding of genetic mechanisms</font></font></=
+p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>and compl=
+ex diseases. A number of bioinformatics initiatives gather</font></font></p=
+>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>and store=
+ mutational relevant information (OMIM, GAD, HapMap, 1000</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Genomces =
+project, COSMIC, UniProtKb, PDB), but the challenge for</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>data inte=
+gration initiatives is to facilitate the interpretion</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>of phenot=
+ypic / impact changes induced by the mutations. Solutions are</font></font>=
+</p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>required =
+in the domains of:</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>(i) text =
+mining - for the identification of phenotypic / impact<span style=3D"mso-sp=
+acerun: yes">&nbsp; </span></font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>annotatio=
+ns,</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>(ii) data=
+ warehousing and machine learning =96 to allow better</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>integrati=
+on of mutation relevant information into a bioinformatics</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>infrastru=
+cture (e.g., ontologies, workflows, databases, machine</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>learning =
+techniques). Synergistic use of these technologies should</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>facilitat=
+e inferences of knowledge from sequence to structure to</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>function =
+and to phenotypes. Authors may also focus on methods for</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>the predi=
+ction of phenotypic effects induced by mutations,</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>infrastru=
+cture to support clinical decision processes involving</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>mutations=
+ as well as the management and aggregation of mutations</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>with anno=
+tations from different digital or text resources.</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Suggested=
+ themes (but not limted to):</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>-<span st=
+yle=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; </span>Mutation Databases and Metadata: Design, Cont=
+ent, Accuracy.</font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>-<span st=
+yle=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; </span>Extraction of mutations and annotations from =
+literature</font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>-<span st=
+yle=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; </span>Methods and systems for predicting the impact=
+s of Mutations</font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>-<span st=
+yle=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; </span>Mutation Data Integration, Phenotype Ontologi=
+es, Semantic Support<span style=3D"mso-spacerun: yes">&nbsp; </span></font>=
+</font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>and Reuse=
+</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Published=
+ manuscripts will include a clear and motivating description</font></font><=
+/p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>of the sp=
+ecific challenge and biological context that they address</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>and a luc=
+id illustration of the proposed solution.</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Article-p=
+rocessing charges:</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></font><=
+/p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Please no=
+te that the standard BMC Bioinformatics publication</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>processin=
+g fees apply to submissions to this special issue.</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Please re=
+fer to <a href=3D"http://www.biomedcentral.com/bmcbioinformatics/ifora/">ht=
+tp://www.biomedcentral.com/bmcbioinformatics/ifora/</a></font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>for furth=
+er information.</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Important=
+ Dates:</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Submissio=
+ns open: Dec 25th 2008</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Submissio=
+ns due*: February 14th 2009</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Revised m=
+anuscript submitted: March 31st 2009</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Submissio=
+ns:</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Pre-submi=
+ssion enquiries and variations to the deadlines above may be</font></font><=
+/p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>made in c=
+onsultation with the Special Issue Editor <a href=3D"mailto:bakerc@unb.ca">=
+bakerc@unb.ca</a></font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>* Author =
+instructions can be obtained by sending an email to</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span><a href=
+=3D"mailto:bmcmutations@gmail.com">bmcmutations@gmail.com</a> an automated =
+reply will sent and</font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>complete =
+submissions should also be sent to</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span><a href=
+=3D"mailto:bmcmutations@gmail.com">bmcmutations@gmail.com</a> but with AIMM=
+ in the subject line.</font></font></p>
+
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3" face=
+=3D"Calibri">&nbsp;</font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Special I=
+ssue Editors:</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Christoph=
+er J. O. Baker - University of New Brunswick, Canada</font></font></p>
+<p style=3D"MARGIN: 0cm 0cm 10pt" class=3D"MsoNormal"><font size=3D"3"><fon=
+t face=3D"Calibri"><span style=3D"mso-spacerun: yes">&nbsp;</span>Dietrich =
+Rebholz-Schuhmann, European Bioinformatics Institute, UK</font></font></p>
+
+--00504502c54c11842e04608e958a--
+
+--===============0677244494==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0677244494==--

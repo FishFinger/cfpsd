@@ -1,0 +1,833 @@
+From - Thu Dec 10 14:25:57 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.111.11 with SMTP id j11cs177178buc;
+        Sun, 18 Feb 2007 20:54:12 -0800 (PST)
+Received: by 10.35.125.16 with SMTP id c16mr5916542pyn.1171860851671;
+        Sun, 18 Feb 2007 20:54:11 -0800 (PST)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 15si33765063nzn.2007.02.18.20.54.10;
+        Sun, 18 Feb 2007 20:54:11 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l1J4s8MN007019
+	for <jpprost@gmail.com>; Mon, 19 Feb 2007 15:54:09 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l1J4s8Mi015761
+	for <jpprost@mailbox.ics.mq.edu.au>; Mon, 19 Feb 2007 15:54:08 +1100 (EST)
+X-ASG-Debug-ID: 1171860808-529600590000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1171860808
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP
+	id 5801A3ED753; Mon, 19 Feb 2007 15:53:28 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l1J4rSrD006956;
+	Mon, 19 Feb 2007 15:53:28 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id
+	l1J4rLuC006949; Mon, 19 Feb 2007 15:53:21 +1100 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id
+	l1J4oTa6006821 for <comp-it-announce@ics.mq.edu.au>;
+	Mon, 19 Feb 2007 15:50:29 +1100 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id l1J4oSg06379
+	for <comp-it-announce@ics.mq.edu.au>;
+	Mon, 19 Feb 2007 15:50:28 +1100 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Mon, 19 Feb 2007 15:47:40 +1100
+Received: by staff.cs.usyd.edu.au with postie; Mon, 19 Feb 2007 15:30:20 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Mon, 19 Feb 2007 15:30:07 +0000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id l1J4U7sp024021
+	for <itannounce@it.usyd.edu.au>; Mon, 19 Feb 2007 15:30:07 +1100
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id l1J4U76a024019
+	for itannounce@it.usyd.edu.au; Mon, 19 Feb 2007 15:30:07 +1100
+Date: Mon, 19 Feb 2007 15:30:07 +1100
+To: itannounce@it.usyd.edu.au
+Message-ID: <20070219043007.GA23970@flexal3.cs.usyd.edu.au>
+Mime-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Mon, 19 Feb 2007 15:47:09 +1100
+From: itannounce@sun1.cs.usyd.edu.au
+X-BeenThere: itannounce@pop.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Mon, 19 Feb 2007 15:53:07 +1100
+X-BeenThere: comp@ics.mq.edu.au
+X-ASG-Orig-Subj: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2
+	February 2007
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2
+	February 2007
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 2.44
+X-Barracuda-Spam-Status: No, SCORE=2.44 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=DEAR_SOMETHING, MAILTO_TO_SPAM_ADDR, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.9070
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.55 NO_REAL_NAME           From: does not include a real name
+	1.61 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+	0.28 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 2 for February, 2007. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  CFP Special Session on Negotiation and Market Platforms; GDN2007
+  Call for Papers: ACM SenSys 2007
+  BPM 2007 (5th International Conference on Business Process Management)
+
+International Conference Announcements
+
+  1st International Conference on Spatial and Spatio-Temporal Data Management for Visualization, Analysis and Mining (SSTDM-VAM) 2007
+  7th IEEE International Conference on Advanced Learning Technologies (ICALT2007)
+  Call for paper of AIS-ADM-07 (agent-mining interaction)
+  CFP: Agent Based Systems for Human Learning and Entertainment Workshop at AAMAS'07
+  Final Call for Papers of SOCASE 2007
+  CFP: The First International Workshop on RFID Technology 
+  Modeling, Design, and Analysis for Service-oriented Architectures Workshop; 2nd edition
+  The 32nd Annual IEEE Conference on Local Computer Networks 2007 (CFP)
+  Web Information Systems Engineering WISE'07-CFP
+  extended Call for Papers - Service-Oriented Computing SOCASE 2007
+  SEKE2007 - Deadline extended to March 1, 2007 
+  CfP Complex Open Distributed Systems CODS07
+  IEEE/WIC/ACM Intelligent Agent Technology 2007
+  IEEE/WIC/ACM Web Intelligence 2007
+  CFP: 2nd Int'l WS on Service- and Process-Oriented Software Engineering 
+
+Academic Positions
+
+  PhD/MPhil Positions in Knowledge Acquisition / Agent Technology / Virtual Reality
+  Vacancy at the University of Wollongong
+  APAI Scholarship at QUT
+  John Lions Chair in Computer Science
+  Lecturer/Senior Lecturer - Computer Science and Engineering, UNSW
+  Research Fellow in User Modelling and Language Technology, University of Melbourne
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  CFP Special Session on Negotiation and Market Platforms; GDN2007
+  jbrzostowski@it.swin.edu.au
+
+Dear All,
+
+Attached is call for papers and demonstrations for Special Session on
+Negotiation and Market Platfomrs; GDN2007.
+
+Best wishes,
+
+Jakub Brzostowski
+Research Group for Intelligent Agents and Multi-Agent Systems Faculty
+of Information and Communication Technologies Swinburne University of
+Technology John St, Hawthorn, 3122 Australia
+Phone: +61 3 9214 5623
+Fax: +61 3 9819 0823
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt0
+
+======================================================================
+
+  Call for Papers: ACM SenSys 2007
+  guoqiang@ee.usyd.edu.au
+
+=====================================================================
+ACM SenSys 2007: Call for Papers
+The 5th ACM Conference on Embedded Networked Sensor Systems
+November 6-9, 2007* (subject to confirmation)
+Sydney, Australia
+http://sensys.acm.org/2007/
+=============================================================================
+
+Sponsored by ACM SIGCOMM, SIGMOBILE, SIGARCH, SIGOPS, SIGMETRICS and
+SIGBED (approval pending); with support from NSF.
+
+The 5th ACM Conference on Embedded Networked Sensor Systems (SenSys)
+is a highly selective, single-track forum for the presentation of
+research results on systems issues in the area of embedded, networked
+sensors. Distributed systems based on networked sensors and actuators
+with embedded computation capabilities enable an instrumentation
+of the physical world at an unprecedented scale and density, thus
+enabling a new generation of monitoring and control applications. This
+conference provides an ideal venue to address the research challenges
+facing the design, deployment, use, and fundamental limits of these
+systems. Sensor networks require contributions from many fields, from ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt1
+
+======================================================================
+
+  BPM 2007 (5th International Conference on Business Process Management)
+  cliu@ict.swin.edu.au
+
+Call for Papers - BPM 2007
+
+5th INTERNATIONAL CONFERENCE ON BUSINESS PROCESS MANAGEMENT
+http://bpm07.fit.qut.edu.au
+
+Brisbane, Australia, 24-27 September 2007
+Organized by the
+BPM Research Group
+Faculty of Information Technology
+Queensland University of Technology
+
+
+BPM 2007 is the fifth in a conference series that provides one of the most prestigious forums for researchers and practitioners in all aspects of business process management. The conference has a record of attracting innovative research of the highest quality related to all aspects of business process management (theory, frameworks, methods, techniques, software architectures, empirical findings).
+
+One explicit aim of BPM 2007 will be to provide a unique forum for bridging the viewpoints of leading research outcomes with practical demands. In addition to the main research track, BPM 2007 will include an industrial papers track. For this, the conference encourages industry practitioners to submit experience and application papers reporting on innovative industrial implementations and applications of business process management methods and techniques, with particular focus on their impact on current information technology or business practice. These papers have to go beyond mature prototypes and potentially applicable methodologies and techniques but have to be based on industry experiences or empirical data.
+
+Awards will be given to the best papers in different categories. In addition, selected papers will be invited to submit extended versions to a special issue of the journal Data and Knowledge Engineering.
+
+BPM 2007 will be held in Brisbane, Australia and will be organized by the Business Process Management Research Group, Faculty of Information Technology of the Queensland University of Technology (QUT). The event will be conducted at the Gardens Point Campus of QUT. The campus is located in the Central Business District of Brisbane, the fastest growing town in Australia. With 1,7 mio. people, Brisbane offers all the infrastructure and facilities of a global hub for technology and tourism.
+
+Topics include, but are not limited to: ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt2
+
+======================================================================
+
+
+International Conference Announcements
+
+  1st International Conference on Spatial and Spatio-Temporal Data Management for Visualization, Analysis and Mining (SSTDM-VAM) 2007
+  chawla@it.usyd.edu.au
+
+Call for Papers:
+
+1st International Workshop on Spatial and Spatio-Temporal Data Management
+for Visualization, Analysis and Mining (SSTDM-VAM) 2007.
+(In conjunction with DASFAA 2007)
+
+http://www.dasfaa07.ait.ac.th/SSTDM-VAM.htm
+
+April 9, 2007.
+
+Ambassador Hotel, Bangkok, Thailand.
+
+Submission of papers by: 29 January 2007.
+(Details in the webpage)
+
+
+Workshop Co-Chairs:
+
+Sanjay Chawla, University of Sydney (chawla@it.usyd.edu.au)
+Sameep Mehta, IBM, India Research Labs (sameepmehta@in.ibm.com)
+Ranga Raju Vatsavai, Oak Ridge National Laboratory (vatsavairr@ornl.gov) ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  7th IEEE International Conference on Advanced Learning Technologies (ICALT2007)
+  kinshuk@ieee.org
+
+7th IEEE International Conference on Advanced Learning Technologies
+(ICALT 2007)
+July 18-20, 2007
+Niigata, Japan
+http://lttf.ieee.org/icalt2007/
+http://www.ask.iti.gr/icalt/2007/
+
+
+
+* Important Dates
+
+February 5, 2007 - Paper submission
+March 16, 2007	 - Notification of acceptance
+April 6, 2007	 - Copyright form submission
+April 6, 2007	 - Final camera-ready manuscript
+April 16, 2007	 - Author registration deadline
+
+
+
+** Proceedings will be published by the IEEE Computer Society Press. **
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  Call for paper of AIS-ADM-07 (agent-mining interaction)
+  lbcao@it.uts.edu.au
+
+The Call for Papers
+AIS-ADM-07:
+The International Workshop on Autonomous Intelligent Systems: Agents
+and Data Mining
+June 3-5, 2007, St. Petersburg, Russia
+http://space.iias.spb.su/ais07
+
+Sponsors
+1. European Office of Aerospace Research and Development, USA
+2. Office of Naval Research Global, USA
+3. Russian Foundation for Basic Research
+
+Organizers
+1. St. Petersburg Institute for Informatics and Automation of the Russian
+Academy of Sciences (SPIIRAS)
+2. St. Petersburg Scientific Center of the Russian Academy of Sciences
+3. Binghamton University (State University of New York)
+
+1. Title and scope: "Autonomous Intelligent Systems: Agents and Data Mining"
+Since early 1990, multi-agent systems (MAS) and data mining and knowledge
+discovery (KDD) have remained areas of high interest for the research and ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  CFP: Agent Based Systems for Human Learning and Entertainment Workshop at AAMAS'07
+  richards@ics.mq.edu.au
+
+Agent-Based Systems for Human Learning and Entertainment (ABSHLE)
+Workshop at AAMAS 2007
+May 14 or 15, 2007
+Honolulu Hawaii USA
+http://agents.sci.brooklyn.cuny.edu/abshle07
+
+
+
+
+Overview
+--------
+Interest in the role of artificial intelligence in interactive systems
+has grown rapidly in recent years, in part because increasingly powerful
+consumer hardware makes research-level AI usable in real-world games
+and/or immersive learning environments. Accompanying this, there has
+been a sharp escalation in the number of research questions related
+to the use of agent technologies to shape human experiences in complex
+environments. A number of tensions accompany the use of agents in these
+contexts, since the goal is not to simulate autonomous agents for their
+own sake, but to use them to
+create an interactive experience with a pre-defined goal for the human ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  Final Call for Papers of SOCASE 2007
+  imueller@ict.swun.edu.au
+                       FINAL CALL FOR PAPERS
+
+The Workshop on
+Service-Oriented Computing: Agents, Semantics, and Engineering (SOCASE 2007)
+
+www.ict.swin.edu.au/conferences/socase2007
+
+to be held at
+
+The Sixth International Joint Conference on
+Autonomous Agents and Multiagent Systems (AAMAS 2007)
+Hawaii Convention Center in Honolulu, Hawai'i.
+May 14-18, 2007
+www.aamas2007.org
+
+
+DESCRIPTION
+
+The purpose of this workshop is to present and discuss the recent
+significant developments at the intersections of Multiagent Systems,
+Semantic Technology, and Service-oriented Computing, and to promote
+cross-fertilization of techniques. In particular, the workshop aims at
+identifying techniques from Multiagent System and Semantic Technology ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  CFP: The First International Workshop on RFID Technology 
+  qsheng@cs.adelaide.edu.au
+
+Call for Papers - IWRT'07
+
+The First International Workshop on
+RFID Technology - Concepts, Applications, Challenges
+12 June 2007, Funchal, Madeira, Portugal
+
+http://www.iceis.org/workshops/iwrt/iwrt2007-cfp.html
+
+In conjunction with the 9th International Conference on Enterprise
+Information Systems (ICEIS'07)
+
+
+
+Workshop Background and Goals
+-----------------------------
+Radio Frequency Identification (RFID) is a wireless communication
+technology that uses radio-frequency waves to transfer information
+between tagged objects and readers without line of sight. This creates
+tremendous opportunities for linking various objects from real world.
+These objects are numbered, identified, catalogued, and tracked.
+In recent years, RFID has gained a significant momentum and is emerging ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+  Modeling, Design, and Analysis for Service-oriented Architectures Workshop; 2nd edition
+  dumitru.roman@deri.org
+
+***Apologies for multiple postings***
+
+
+Call for Submissions
+
+-----------------------------------------------------------------------------------------------
+Modeling, Design, and Analysis for Service-oriented Architectures Workshop; 2nd edition
+(mda4soa'07)
+http://events.deri.at/mda4soa2007/
+
+co-located with the 2007 IEEE International Conferences on
+Services Computing (SCC 2007) and Web Services (ICWS 2007)
+
+July 13, 2007, Salt Lake City, Utah, USA
+--------------------------------------------------------
+
+GENERAL OVERVIEW
+
+A new paradigm  'service-orientation'  is currently emerging for distributed computing
+and e-business processing; it has evolved from object-oriented and component-based
+computing to enable building agile networks of collaborating business applications ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt6
+
+======================================================================
+
+  The 32nd Annual IEEE Conference on Local Computer Networks 2007 (CFP)
+  sjha@cse.unsw.edu.au
+
+LCN 2007
+The 32nd Annual IEEE Conference on
+Local Computer Networks (LCN)
+http://www.ieeelcn.org
+
+Sponsored by the IEEE Computer Society and
+the IEEE Computer Society Technical Committee
+on Computer Communications (TCCC)
+
+with support from the Telecommunications
+Software & Systems Group (TSSG)/
+Waterford Institute of Technology
+
+Dublin, Ireland
+October 15-18, 2007
+
+CALL FOR PAPERS
+
+LCN invites you to Europe for the second time in its history! The IEEE LCN
+conference is the premier conference on the leading edge of practical
+computer ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt7
+
+======================================================================
+
+  Web Information Systems Engineering WISE'07-CFP
+  qsheng@cs.adelaide.edu.au
+
+*** CALL FOR RESEARCH AND INDUSTRY PAPERS, WORKSHOPS, AND TUTORIALS ***
+
+WISE 2007
+The 8th International Conference on Web Information Systems Engineering
+December 3-7, 2007
+Nancy, France
+http://wise2007.loria.fr/
+
+
+The aim of this conference is to provide an international forum for researchers,
+professionals, and industrial practitioners to share their knowledge in the rapidly
+growing area of Web technologies, methodologies and applications. Previous WISE
+conferences were held in Hong Kong, China (2000), Kyoto, Japan (2001), Singapore
+(2002), Roma, Italy (2003), Brisbane, Australia (2004), New York, USA (2005), and
+Wuhan, China (2006).
+
+
+
+===RESEARCH AND INDUSTRY TRACKS===
+There will be two independent tracks for Research and Industrial papers, each
+managed by a different program committee and with a different set of evaluation ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt8
+
+======================================================================
+
+  extended Call for Papers - Service-Oriented Computing SOCASE 2007
+  imueller@ict.swin.edu.au
+                      EXTENDED CALL FOR PAPERS
+
+The Workshop on
+Service-Oriented Computing: Agents, Semantics, and Engineering (SOCASE 2007)
+
+www.ict.swin.edu.au/conferences/socase2007
+
+to be held at
+
+The Sixth International Joint Conference on
+Autonomous Agents and Multiagent Systems (AAMAS 2007)
+Hawaii Convention Center in Honolulu, Hawai'i.
+May 14-18, 2007
+www.aamas2007.org
+
+! extended deadline February 15 !
+
+DESCRIPTION
+
+The purpose of this workshop is to present and discuss the recent significant
+developments at the intersections of Multiagent Systems, Semantic Technology,
+and Service-oriented Computing, and to promote cross-fertilization of
+techniques. In particular, the workshop aims at identifying techniques from ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt9
+
+======================================================================
+
+  SEKE2007 - Deadline extended to March 1, 2007 
+  Michael Shin
+
+---------------------------------------------------
+Deadline extended to March 1, 2007
+---------------------------------------------------
+The Nineteenth International Conference on Software Engineering and
+Knowledge Engineering
+
+
+SEKE'2007
+Hyatt Harborside at Logan Int'l Airport, Boston, USA
+July 9 - July 11, 2007
+http://www.ksi.edu/seke/seke07.html
+
+
+Organized by Knowledge Systems Institute
+
+
+
+CALL FOR PAPERS
+
+The Nineteenth International Conference on Software Engineering and
+Knowledge Engineering (SEKE'07) will be held in Hyatt Harborside ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt10
+
+======================================================================
+
+  CfP Complex Open Distributed Systems CODS07
+  egomes@ict.swin.edu.au
+
+======================================================================
+Call For Papers
+
+2007 International Conference on Complex Open Distributed Systems (CODS'2007)
+Chengdu, China, 22-24 July 2007
+
+http://xiaglow-research.org.uk/CODS2007/
+
+Technical Co-Sponsored by
+IEEE Systems, Man, and Cybernetics Society (pending)
+System and Information Sciences Notes (SISN Journal, ISSN 1753-2310)
+======================================================================
+
+
+One of the most distinguishing requirements upon Information and
+Communication Technologies is today's ever-changing, highly open
+dynamic environments in which large-scale ICT systems are placed to
+operate. Challenges for ICT systems engineering immediately arise
+including, e.g., systems scalability, systems ultra-dependability,
+systems convergence against uncertainty and emergence, and so forth. In
+recent years, emergence, adaptation, self-organization, self-management, ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt11
+
+======================================================================
+
+  IEEE/WIC/ACM Intelligent Agent Technology 2007
+  lbcao@it.uts.edu.au
+
+[Apologies if you receive this more than once]
+
+#####################################################################
+IEEE/WIC/ACM Intelligent Agent Technology 2007
+CALL FOR PAPERS
+#####################################################################
+
+2007 IEEE/WIC/ACM International Conference on
+Intelligent Agent Technology (IAT'07)
+
+Silicon Valley, USA, November 2-5, 2007
+http://www.cs.sjsu.edu/wi07/iat/
+(to be collocated with BIBM'07 and GrC'07)
+
+Sponsored By
+IEEE Computer Society
+Web Intelligence Consortium (WIC)
+Association for Computing Machinery (ACM)
+
+#####################################################################
+# Conference Chair ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt12
+
+======================================================================
+
+  IEEE/WIC/ACM Web Intelligence 2007
+  lbcao@it.uts.edu.au
+
+#####################################################################
+IEEE/WIC/ACM WEB INTELLIGENCE 2007
+CALL FOR PAPERS
+#####################################################################
+
+2007 IEEE/WIC/ACM International Conference on
+Web Intelligence (WI'07)
+
+Silicon Valley, USA, November 2-5, 2007
+http://www.cs.sjsu.edu/wi07/wi/
+(to be collocated with BIBM'07 and GrC'07)
+
+Sponsored By
+IEEE Computer Society
+Web Intelligence Consortium (WIC)
+Association for Computing Machinery (ACM)
+
+######################################################################
+# Conference Chair
+#    Andrei Broder, VP, Yahoo Fellow, Yahoo! Research
+# ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt13
+
+======================================================================
+
+  CFP: 2nd Int'l WS on Service- and Process-Oriented Software Engineering 
+  mmrb95@uow.edu.au
+
+Call for Papers
+*******************************************************************
+
+SOPOSE'07 Call for Papers
+2nd International Workshop on Service- and Process-Oriented
+Software Engineering (SOPOSE-07)
+
+To be held in conjunction with the 2007 IEEE Services Congress,
+incoporating the IEEE International Conference on Web Services (ICWS 2007)
+and IEEE
+
+International Conference on Services Computing
+(SCC 2007), Salt Lake City, Utah, USA, July 9-13,
+2007(http://conferences.computer.org/services/2007/).
+
+WORKSHOP WEBPAGE: http://www.dsl.uow.edu.au/sopose
+
+
+THEME:
+It is now widely recognized that service-oriented computing will be the
+dominant computing paradigm for at least the next decade. Businesses ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt14
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  PhD/MPhil Positions in Knowledge Acquisition / Agent Technology / Virtual Reality
+  richards@ics.mq.edu.au
+
+PhD / Knowledge Acquisition / Training Simulation / Virtual Reality
+
+The Department of Computing at Macquarie University, Sydney, Australia is
+seeking candidates to fill one or two vacant research positions:
+
+*  Researchers holding an MSc degree or Diploma in Information
+Technology / Electrical Engineering / Computer Science / Cognitive
+Science.
+
+The applicants will work towards a PhD degree (3 years) or possibly an
+MPhil (2 years). Consideration will also be given
+to a research assistant or postdoc (1-2 years).
+
+The Department houses a Virtual Reality Lab for experimental studies. The
+position/s are funded by a competitive
+Australian Research Council (ARC) Discovery Grant. The general research
+topic is virtual training environment for risk
+assessment and spans the fields of Game Technology / Knowledge Acquisition
+/ Language Technology / Training Simulation /
+Virtual Reality. Other researchers are already working on this and
+related projects. An indicative list of possible ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  Vacancy at the University of Wollongong
+  nps@uow.edu.au
+
+Associate Research Fellow / Fellow
+Telecommunications & Information Technology Research Institute (TITR)
+http://employment.uow.edu.au/cgi-bin/job_details.cgi?id=21603
+
+Fixed Term (2 years), Full Time Appointment
+
+UOW's TITR is seeking to appoint a suitably qualified individual to
+undertake research and development in the area of multi-media signal
+processing and content delivery.
+
+To succeed, you will have a PhD or Masters Degree in Computer Engineering
+or Computer Science (or related field) and knowledge of image and
+multimedia signal processing and pattern recognition. You will have
+advanced skills in programming, software development and system
+integration and research & development experience in multimedia systems.
+
+In addition, you will have the ability to liaise with commercial
+partners and possess demonstrated competence in report writing/manuscript
+preparation and conference presentation.
+
+Candidates must address the Selection Criteria specified in the ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
+
+  APAI Scholarship at QUT
+  m.dumas@qut.edu.au
+
+An APAI (Australian Postgraduate Award Industry) scholarship
+is available for PhD studies to be undertaken at Queensland
+University of Technology (QUT). The successful applicant
+will contribute to a project dealing with the management and
+improvement of business processes in large organisations based on
+service-oriented architectures. Further details can be found at:
+http://www.bpm.fit.qut.edu.au/opportunities/phdscholarship.jsp
+
+Applicants must be Australian citizens or permanent residents and must
+be available to commence in February or March 2007.
+
+Expressions of interest and enquiries should be addressed to Associate
+Professor Marlon Dumas (m.dumas@qut.edu.au, 07-3138-9483).
+
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt2
+
+======================================================================
+
+  John Lions Chair in Computer Science
+  kathym@cse.unsw.edu.au
+
+The following advertisement can be viewed on line at :
+http://www.hr.unsw.edu.au/services/recruitment/jobs/19010701.html
+(Note: you will need to visit this site to access the information package
+for the positon)
+
+
+John Lions Chair in Computer Science
+FACULTY OF ENGINEERING
+SCHOOL OF COMPUTER SCIENCE AND ENGINEERING
+REF. 4722
+
+
+The School of Computer Science & Engineering is looking to appoint
+an outstanding individual in the newly created John Lions Chair in
+Computer Science. As one of the largest computing schools in Australia,
+it delivers an extensive research and development program in addition to
+a wide range of Undergraduate and Postgraduate degrees. The John Lions
+Chair is a full time five-year renewable position with the option to vary
+the focus of the appointment each five years.  The successful applicant
+will hold a substantive continuing appointment as Professor.
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt3
+
+======================================================================
+
+  Lecturer/Senior Lecturer - Computer Science and Engineering, UNSW
+  Kathym@cse.unsw.edu.au
+
+Details on how to apply for this position appear at:
+http://www.hr.unsw.edu.au/services/recruitment/jobs/19010704.html
+
+The University of New South Wales
+
+Position Title: Lecturer (B) / Senior Lecturer	(Level C)
+Faculty Engineering
+School	Computer Science and Engineering
+Reports to:	Head of School
+
+Job Purpose
+
+The person will provide leadership in developing a teaching and research
+profile in the discipline of  Computer Engineering. The person should
+be able to research and teach in one or more of the following areas:
+embedded systems, digital design, computer architecture, VLSI, electronic
+design automation methods and algorithms, and multiprocessor systems.
+
+School/position statement
+
+The School is one of the largest computing schools in Australia. It offers ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt4
+
+======================================================================
+
+  Research Fellow in User Modelling and Language Technology, University of Melbourne
+  tim@csse.unimelb.edu.au
+
+$65,630 - $77,934 p.a. (Research Fellow, Level B), plus superannuation
+contributions of 9 percent
+Term:		12 months full time in the first instance, with the
+possibility of a 12 month extension
+
+
+Position Summary:
+
+The appointee will apply techniques from user modelling and language
+technology to help people navigate information rich, physical environments,
+focusing on the museum domain. Specifically, the appointee will work at the
+interface between user modelling and language technology, in developing and
+implementing collaborative and content-based user modeling techniques, and
+amalgamative language modelling/content delivery techniques.
+
+This position is sponsored by the Australian Research Council (ARC) as a
+collaborative effort between the User Modeling and Natural Language Group at
+Monash University, and the Language Technology, Agent Research and
+Interaction Design Groups at the University of Melbourne. The appointee
+will divide his/her time between Monash University and the University of
+Melbourne. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt5
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

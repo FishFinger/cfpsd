@@ -1,0 +1,282 @@
+From - Thu Dec 10 14:35:07 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs29395far;
+        Fri, 30 Jan 2009 08:55:13 -0800 (PST)
+Received: by 10.223.107.198 with SMTP id c6mr1269363fap.32.1233334512451;
+        Fri, 30 Jan 2009 08:55:12 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 9si1442705fxm.91.2009.01.30.08.55.06;
+        Fri, 30 Jan 2009 08:55:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1LSwVo-0000YF-Pq; Fri, 30 Jan 2009 17:46:36 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1LSwVb-0000Xu-OI; Fri, 30 Jan 2009 17:46:24 +0100
+Received: from mallory.itri.bton.ac.uk (mailhost.itri.brighton.ac.uk)
+	[194.81.196.98] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
+	id 1LSwVU-0002aF-O5; Fri, 30 Jan 2009 17:46:30 +0100
+Received: from stark.itri.bton.ac.uk ([194.81.196.88]
+	helo=stark.itri.brighton.ac.uk)
+	by mailhost.itri.brighton.ac.uk with esmtp (Exim 4.44)
+	id 1LSwMs-0000Xf-NB
+	for corpora@uib.no; Fri, 30 Jan 2009 16:37:22 +0000
+Received: from localhost (asb@localhost)
+	by stark.itri.brighton.ac.uk (8.11.6+Sun/8.11.6) with ESMTP id
+	n0UGk8J24122 for <corpora@uib.no>; Fri, 30 Jan 2009 16:46:08 GMT
+X-Authentication-Warning: stark.itri.brighton.ac.uk: asb owned process doing
+	-bs
+Date: Fri, 30 Jan 2009 16:46:08 +0000 (GMT)
+From: Anja Belz <a.s.belz@itri.brighton.ac.uk>
+To: corpora@uib.no
+Message-ID: <Pine.GSO.4.56.0901301642190.23695@stark.itri.brighton.ac.uk>
+MIME-Version: 1.0
+X-checked-clean: by exiscan on rolf
+X-Scanner: dc583510d2d3d0db0f60e8b95b172528 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ _SUMMARY_
+Subject: [Corpora-List] ACL-IJCNLP'09 Workshop on Language Generation and
+ Summarisation: Announcement and First Call for Papers
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+
+ACL-IJCNLP'09 Workshop on Language Generation and Summarisation
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+ANNOUNCEMENT AND CALL FOR PAPERS
+
+
+Language Generation and Summarisation (UCNLG+Sum) is a post-conference
+workshop at ACL-IJCNLP 2009, Singapore, on 6 August 2009.
+
+
+Background
+----------
+
+There are many branches of NLP research which involve the generation
+of language (summarisation, MT, human-computer dialogue, application
+front-ends, data-to-text generation, document authoring, etc.).
+However, it is not always easy to identify common ground among the
+generation components of these application areas, which has sometimes
+made it difficult for generic research in `Natural Language
+Generation' (NLG) to engage with them effectively.  Recent advances in
+corpus-based approaches across many of these areas, and in particular
+in NLG itself, offer a new perspective on this problem and the
+opportunity to explore synergies and differences from the common
+grounding of corpus data.
+
+This workshop is the third in an occasional series seeking to exploit
+this opportunity by providing a forum for discussing NLG and its links
+with these closely related fields from a corpus-oriented perspective.
+These workshops have the general aims:
+
+  1. to provide a forum for reporting and discussing corpus-oriented
+     methods for generating language;
+  2. to foster cross-fertilisation between NLG and other fields of
+     research involving generation of language; and
+  3. to promote the sharing of data and methods in all research that
+     involves the generation of language.
+
+Each of these workshops has a special theme: at the first workshop (at
+Corpus Linguistics in 2005) it was the use of corpora in NLG, at the
+second (at MT Summit XI in 2007) it was Language Generation and Machine
+Translation.  The special theme of the 2009 workshop is Language
+Generation and Summarisation.
+
+
+Aims of this Workshop
+---------------------
+
+There are two basic approaches to text summarisation: abstractive,
+where texts are analysed, and a more condensed version is regenerated,
+and extractive, where key passages of the input texts themselves are
+identified and then `glued together' to form a shorter text.
+Extractive summarisation is less dependent on analysis and
+regeneration techniques, but tends to produce summaries that are not
+very coherent and whose referring expressions are not very clear (so
+for example, extractive systems often score low on the DUC human
+assessment criteria of Coherence and Referential Clarity).
+
+The relevance of NLG techniques to abstractive summarisation is clear,
+but recently there has also been increasing interest in regeneration
+as a post-process for extractive summaries.  Work by Otterbacher et
+al., Steinberger et al. and Nenkova et al., for example, shows how
+regeneration of (parts of) extractive summaries may help to increase
+their coherence, referential clarity or fluency.  At the same time, NLG
+researchers are investigating techniques that could be used to improve
+extractive summaries by regenerating them (in particular in the
+subfield of referring expression generation, see for example the GREC
+Shared Task papers at INLG 2008).
+
+The core aim of this workshop is to provide a forum for NLG and
+summarisation researchers to examine the similarities and differences
+between their current approaches to generating language, and to explore
+the potential for cross-fertilisation.
+
+
+Topics of Interest
+------------------
+
+We invite submissions on all aspects of using corpora in the generation
+of language, with a particular interest in relevance to text
+summarisation.  Specific topics include, but are not limited to:
+
+  - generation techniques in abstractive summarisation
+  - regeneration/rewriting/post-processing techniques for extractive
+    summarisation
+  - generation of references to named entities in discourse context
+  - annotating corpora for language generation and summarisation
+  - uses of corpora in the evaluation of language generation and
+    summarisation systems
+  - reuse of corpus resources developed for NLU (e.g. treebanks) in
+    language generation and summarisation
+  - domain-specific vs. general-purpose corpora for language generation
+    and summarisation
+  - statistical approaches to language generation and summarisation
+  - machine learning methods for language generation and summarisation
+
+
+Requirements
+------------
+
+Papers should describe original and unpublished work, emphasizing actual
+rather than intended work, and should indicate clearly the state of
+completion of the reported work.  Wherever appropriate, concrete
+evaluation results should be included.  Papers that are being submitted
+to other conferences or workshops should indicate this.
+
+
+Submission information
+----------------------
+
+Submissions should be no longer than 8 (eight) pages, and should follow
+the ACL-IJCNLP 2009 guidelines using the style files provided at
+http://www.acl-ijcnlp-2009.org/main/authors/stylefiles/. Papers
+should be submitted in PDF format using the START submission website for
+the workshop at https://www.softconf.com/acl-ijcnlp09/UCNLGSum/. The
+deadline for submission is 1 May 2009.
+
+Each paper will be reviewed by at least three programme committee
+members.  Final decisions on the technical programme will be made by
+the workshop organisers.
+
+As reviewing will be blind, papers should not include the authors'
+names and affiliations.  Self-references that reveal the authors'
+identity, e.g., "We previously showed (Smith, 1991) ...", should be
+avoided. Instead, use citations such as "Smith previously showed
+(Smith, 1991) ...".  Acknowledgments sections should be removed before
+submission.
+
+
+Proceedings
+-----------
+
+The proceedings of the workshop will be edited by the workshop
+organisers and published by the ACL-IJCNLP 2009 conference organisers.
+
+
+Important Dates
+---------------
+
+01 May 2009      Deadline for paper submissions
+22 May 2009      Notification of acceptance to authors of workshop papers
+07 June 2009     Camera-ready copies due
+06 August 2009   UCNLG+SUM workshop in Singapore
+
+
+Invited Speaker
+---------------
+
+Kathy McKeown, Columbia University, USA.
+
+
+Panel on Common Ground between Summarisation and Language Generation
+--------------------------------------------------------------------
+
+Panelists t.b.a.
+
+
+GREC'09 Challenges Special Session
+----------------------------------
+
+UCNLG+Sum will host the results session of this year's GREC Shared
+Task Competitions which are part of the Generation Challenges
+initiative.  The first is the GREC-MSR (Main Subject Reference) Task
+which uses the GREC-2.0 Corpus of 2,000 Wikipedia introduction
+sections in which references to the main subject of the Wikipedia
+article have been annotated, and the task is to develop a system that
+can select (from a given list) an MSR that is appropriate in the
+context.  The second is the GREC-NEG (Named Entity Generation) Task
+which uses the new GREC-People Corpus of 1,000 Wikipedia introduction
+sections about people in which single and plural references to all
+people mentioned in the text have been annotated.  The task in GREC-NEG
+is to select appropriate referential expressions for all mentions
+(singular and plural) of people.  For full details including the
+GREC'09 call for participation, please go to the GREC'09 homepage at
+http://www.nltg.brighton.ac.uk/research/genchal09/grec.
+
+
+Programme Committee
+-------------------
+
+Enrique Alfonseca, Google Zurich, Switzerland
+Srinivas Bangalore, AT&T, USA
+Robert Dale, Macquarie University, Australia
+Daniel Marcu, ISI, University of Southern California, USA
+Chris Mellish, University of Aberdeen, UK
+Ani Nenkova, University of Pennsylvania, USA
+Amanda Stent, SUNY, USA
+Michael Strube, EML Research, Germany
+Stephen Wan, Macquarie University, Australia
+Mike White, Ohio State University, USA
+Jianguo Xiao, Peking University, China
+
+
+Workshop organisers
+-------------------
+
+Anja Belz, NLTG, University of Brighton, UK
+Sebastian Varges, Information Engineering and Computer Science,
+    University of Trento, Italy
+Roger Evans, NLTG, University of Brighton, UK
+
+
+Workshop website
+----------------
+
+http://www.nltg.brighton.ac.uk/ucnlg/ucnlg09
+
+
+Contact email
+-------------
+
+ucnlg@itri.brighton.ac.uk
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

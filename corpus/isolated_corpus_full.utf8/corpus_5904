@@ -1,0 +1,622 @@
+From - Thu Dec 10 14:38:08 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.51.79 with SMTP id c15cs21014bkg;
+        Thu, 27 Aug 2009 02:48:15 -0700 (PDT)
+Received: by 10.204.21.12 with SMTP id h12mr4650949bkb.20.1251366488189;
+        Thu, 27 Aug 2009 02:48:08 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 5si12944092bwz.49.2009.08.27.02.48.02;
+        Thu, 27 Aug 2009 02:48:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@rocketmail.com
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1MgbWO-0003Ja-Bu; Thu, 27 Aug 2009 11:43:56 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1MgbWM-0003JG-W5; Thu, 27 Aug 2009 11:43:54 +0200
+Received: from web57611.mail.re1.yahoo.com [66.196.100.93] 
+	by rolf.uib.no for CORPORA@UIB.NO with smtp  (Exim 4.69)
+	id 1MgbWL-0007GM-Hw; Thu, 27 Aug 2009 11:43:54 +0200
+Received: (qmail 30490 invoked by uid 60001); 27 Aug 2009 09:37:11 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=rocketmail.com; s=s1024;
+	t=1251365831; bh=SGu8RwBLsJe+uVQ/0PWdfYHmMzew8e8WUiy3I39Aep4=;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+	b=JS1HimOaOLX2U8ScLhDToPNI8jcobIGSj/xVPicfC+NpAnF1BP1jhMTMu0Eqx9SkkaQ8gTmlD7V83fwVqvz7p14Eh6AwBIg4XnXRsCQqL/EfjYlpX55GuEyVDxYpcUYUCdJ0H4OZ3F0IFg01A0W71lkm9stL81451q/4jJ2wNPg=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=rocketmail.com;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type;
+	b=dxlbOx5NRhlEcBmjOAC4EVULZRQyYm+oQf/UaF3OAFWqkCGcz8OgZaUSi078ZHXA8y94fslKcKwvNN63ovvjh4TJOUp9WfIRe/D9LZ8RJb8dKFB6IRskAepcBGepyJZOLDl2dbFR77XPnzknV89fA+U4zcwOtHxY8PNDRX9DI88=;
+Message-ID: <489988.30430.qm@web57611.mail.re1.yahoo.com>
+X-YMail-OSG: dVxmlQYVM1lrUvunOhCl06XNfSD8wKYizU8lyJU6aogAnrzbaLICPYZNqZOLodumH6cL.5O7ipFljkp8q7o0i3YG0_wnfz94SL7axGE8q_f_B.TyPKbTUaT6JmolaTP9vlPLKSXrBQQ4f3vsmglKO_15N6eXRoQAMEAhhiaaJh8V8PpsVzMcFjLmhd1mLdYotvtTNDpl.J7SB_mgjD5wYhgBrbF_4hFAkwoNScpkhrGsM17tMgGMYXzjBxpbMq5N8ioIMnnhR0IlWX8M7dw1egRSXtaXjbkermKZdFZy820tDVbqoOvDpEiVDgQxNlp4ufFU7wMI6jbo7ElPfuo6PIJgCCOGG6rpnQVxJ.AzWDVM4YlKKIeBJA--
+Received: from [84.97.24.16] by web57611.mail.re1.yahoo.com via HTTP;
+	Thu, 27 Aug 2009 02:37:11 PDT
+X-Mailer: YahooMailClassic/6.1.2 YahooMailWebService/0.7.338.2
+Date: Thu, 27 Aug 2009 02:37:11 -0700 (PDT)
+From: Charles Hall <CharlesHall@rocketmail.com>
+To: CORPORA@UIB.NO
+MIME-Version: 1.0
+X-checked-clean: by exiscan on rolf
+X-Scanner: 0d8043f4c489e3736e172fcd60e095f3 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -5.9 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; -6.0 another conference
+	0.0 BODY: HTML included in message
+Subject: [Corpora-List] Call for papers: AI and Second Language Learning,
+	FLAIRS, May 2010, Daytona Beach FL USA
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1762662284=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+--===============1762662284==
+Content-Type: multipart/alternative; boundary="0-751017437-1251365831=:30430"
+
+--0-751017437-1251365831=:30430
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+=0A=0A=0A=0ACall for Papers: AI and Second Language Learning=A0=A0=A0 http:=
+//tinyurl.com/mcs663=0A=0ASpecial Track at the 23rd=0AInternational FLAIRS =
+Conference in cooperation with the American Association=0Afor Artificial In=
+telligence, Daytona Beach, Florida, USA May 19th- 21st,=0A2010=0A=0A=A0=0A=
+=0ATypes of Submission=0A=0A2-page papers for posters=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=0A=0A=0A6-page=
+ papers for talks=0A=0APaper submission deadline: November 23rd,=0A2009.=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 =0A=0ANotifications: January 22nd, 2010.=
+=0A=0ACamera ready=A0version due: February 22, 2010=0A=0A=0AAll accepted pa=
+pers will be published as FLAIRS proceedings by the AAAI.=0A=0A=A0=0A=0AWha=
+t is AI and Second Language Learning [AI=0A& SSL]? Second language learning=
+=0Arefers to any natural language (e.g. English, Spanish, Hindi) that is le=
+arned=0Aby way of study. The AI & SSL track is particularly interested in h=
+ow=0Atechnology (e.g. software programs, packages, ITSs, or any computation=
+al=0Adevice) facilitates or otherwise affects that learning.=0A=0A=A0=0A=0A=
+Who might be interested? Second language curriculum developers, materials d=
+evelopers, language=0Aschools, ITS creators, language teachers, commercial =
+word processing=0Adevelopers, and language learners=0A=0A=A0=0A=0AWhat kind=
+ of studies will be of interest? Papers and contributions and encourages fo=
+r any work that relates=0Ato second language learning, ESL/EFL/ESP, or rela=
+ted subjects to AI. Topics of=0Ainterest may include (but are in no way lim=
+ited to) =0A=0A1. ITS Shells for ESP [English for Specific Purposes] Needs=
+=0A=0A2. Using AI for L2 Reading, Speaking, Writing, Listening, or=0AGramma=
+ring=0A=0A3. AI and CBI [Content Based Instruction] in Language Learning=0A=
+=0A4. Diagnostics, Assessment, and AI=0A=0A5. Moving beyond the Moodle: CMS=
+ for Language Learning=0A=0A6. Corpus Linguistics, AI, and Global English=
+=0A=0A7. Intercultural Simulations with Avatars=0A=0A8. Games that Teach an=
+d Learn=0A=0A=A0=0A=0A=A0Leading papers will also be considered for=0Apubli=
+cation as chapters in the forthcoming book: Applied Natural Language=0AProc=
+essing and Content Analysis: Advances in Identification, Investigation, and=
+=0AResolution=0A=0A=A0=0A=0ASubmission Guidelines for the ANLP track=0A=0AP=
+apers must be submitted according to AAAI formatting=0Aguidelines. The pape=
+rs should be original work (i.e., not submitted,=0Ain submission, or submit=
+ted to another conference while in review) and are due=0Aby November 23rd, =
+2009. Papers must be submitted as PDF through the=0AEasyChair conference sy=
+stem (http://www.FLAIRS-23.info).=0AAuthors should indicate the special tra=
+ck of ANLP for submissions. At least one=0Aauthor of each accepted paper is=
+ required to register, attend, and present the=0Apaper at FLAIRS. =0A=0A=A0=
+=0A=0AFurther Information=0A=0AQuestions regarding the ANLP Special Track=
+=0Ashould be addressed to the track co-chairs:=0A=0ACharles Hall, cehall@me=
+mphis.edu=A0=A0=A0=A0=A0=A0=A0 Philip McCarthy,=0Aphilmccarthy1@gmail.com=
+=0A=0A=A0=0A=0AConference Web Sites=0A=0APaper submission site: follow the =
+link for=0Asubmissions at http://www.FLAIRS-23.info
+=0AFLAIRS-2010 conference web page: http://www.flairs-23.info/
+=0AFlorida AI Research Society (FLAIRS): http://www.flairs.com=A0=0A=0A
+
+*************
+=0ACharles Hall, Ph.D., dr. h.c.
+=0AUniversity of Memphis, Department of English
+=0AApplied Linguistics and EFL/ESL
+=0A901.313.4496
+=0A
+=0Awww.charleshall.info       www.l4law.org=0A=0A=0A      
+--0-751017437-1251365831=:30430
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;"><meta http-equiv=3D"Content-Type" content=3D"=
+text/html; charset=3Dutf-8"><meta name=3D"ProgId" content=3D"Word.Document"=
+><meta name=3D"Generator" content=3D"Microsoft Word 12"><meta name=3D"Origi=
+nator" content=3D"Microsoft Word 12"><link rel=3D"File-List" href=3D"file:/=
+//C:%5CUsers%5CCharles%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_=
+filelist.xml"><link rel=3D"Preview" href=3D"file:///C:%5CUsers%5CCharles%5C=
+AppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_preview.wmf"><!--[if gte =
+mso 9]><xml>=0A <o:DocumentProperties>=0A  <o:Version>12.00</o:Version>=0A =
+</o:DocumentProperties>=0A</xml><![endif]--><link rel=3D"themeData" href=3D=
+"file:///C:%5CUsers%5CCharles%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%=
+5Cclip_themedata.thmx"><link rel=3D"colorSchemeMapping" href=3D"file:///C:%=
+5CUsers%5CCharles%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_color=
+schememapping.xml"><!--[if gte mso 9]><xml>=0A <w:WordDocument>=0A  <w:View=
+>Normal</w:View>=0A  <w:Zoom>0</w:Zoom>=0A  <w:TrackMoves/>=0A  <w:TrackFor=
+matting/>=0A  <w:PunctuationKerning/>=0A  <w:ValidateAgainstSchemas/>=0A  <=
+w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>=0A  <w:IgnoreMixedContent>fal=
+se</w:IgnoreMixedContent>=0A  <w:AlwaysShowPlaceholderText>false</w:AlwaysS=
+howPlaceholderText>=0A  <w:DoNotPromoteQF/>=0A  <w:LidThemeOther>EN-US</w:L=
+idThemeOther>=0A  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>=0A  <w:LidTheme=
+ComplexScript>X-NONE</w:LidThemeComplexScript>=0A  <w:Compatibility>=0A   <=
+w:BreakWrappedTables/>=0A   <w:SnapToGridInCell/>=0A   <w:WrapTextWithPunct=
+/>=0A   <w:UseAsianBreakRules/>=0A   <w:DontGrowAutofit/>=0A   <w:SplitPgBr=
+eakAndParaMark/>=0A   <w:DontVertAlignCellWithSp/>=0A   <w:DontBreakConstra=
+inedForcedTables/>=0A   <w:DontVertAlignInTxbx/>=0A   <w:Word11KerningPairs=
+/>=0A   <w:CachedColBalance/>=0A  </w:Compatibility>=0A  <w:BrowserLevel>Mi=
+crosoftInternetExplorer4</w:BrowserLevel>=0A  <m:mathPr>=0A   <m:mathFont m=
+:val=3D"Cambria Math"/>=0A   <m:brkBin m:val=3D"before"/>=0A   <m:brkBinSub=
+ m:val=3D"&#45;-"/>=0A   <m:smallFrac m:val=3D"off"/>=0A   <m:dispDef/>=0A =
+  <m:lMargin m:val=3D"0"/>=0A   <m:rMargin m:val=3D"0"/>=0A   <m:defJc m:va=
+l=3D"centerGroup"/>=0A   <m:wrapIndent m:val=3D"1440"/>=0A   <m:intLim m:va=
+l=3D"subSup"/>=0A   <m:naryLim m:val=3D"undOvr"/>=0A  </m:mathPr></w:WordDo=
+cument>=0A</xml><![endif]--><!--[if gte mso 9]><xml>=0A <w:LatentStyles Def=
+LockedState=3D"false" DefUnhideWhenUsed=3D"true"=0A  DefSemiHidden=3D"true"=
+ DefQFormat=3D"false" DefPriority=3D"99"=0A  LatentStyleCount=3D"267">=0A  =
+<w:LsdException Locked=3D"false" Priority=3D"0" SemiHidden=3D"false"=0A   U=
+nhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Normal"/>=0A  <w:LsdExcept=
+ion Locked=3D"false" Priority=3D"9" SemiHidden=3D"false"=0A   UnhideWhenUse=
+d=3D"false" QFormat=3D"true" Name=3D"heading 1"/>=0A  <w:LsdException Locke=
+d=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"heading 2"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"heading =
+3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" N=
+ame=3D"heading 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"9" QFo=
+rmat=3D"true" Name=3D"heading 5"/>=0A  <w:LsdException Locked=3D"false" Pri=
+ority=3D"9" QFormat=3D"true" Name=3D"heading 6"/>=0A  <w:LsdException Locke=
+d=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"heading 7"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"heading =
+8"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" N=
+ame=3D"heading 9"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"39" Na=
+me=3D"toc 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D=
+"toc 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc =
+3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 4"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 5"/>=0A  =
+<w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 6"/>=0A  <w:Ls=
+dException Locked=3D"false" Priority=3D"39" Name=3D"toc 7"/>=0A  <w:LsdExce=
+ption Locked=3D"false" Priority=3D"39" Name=3D"toc 8"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"39" Name=3D"toc 9"/>=0A  <w:LsdException Lock=
+ed=3D"false" Priority=3D"35" QFormat=3D"true" Name=3D"caption"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"10" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" QFormat=3D"true" Name=3D"Title"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"1" Name=3D"Default Paragraph Font"/>=0A  <w:LsdE=
+xception Locked=3D"false" Priority=3D"11" SemiHidden=3D"false"=0A   UnhideW=
+henUsed=3D"false" QFormat=3D"true" Name=3D"Subtitle"/>=0A  <w:LsdException =
+Locked=3D"false" Priority=3D"22" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" QFormat=3D"true" Name=3D"Strong"/>=0A  <w:LsdException Locked=3D=
+"false" Priority=3D"20" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" =
+QFormat=3D"true" Name=3D"Emphasis"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"59" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"T=
+able Grid"/>=0A  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Placeholder Text"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"1" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" =
+Name=3D"No Spacing"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"60" =
+SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Shading"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" Name=3D"Light List"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Light Grid"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"63" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium S=
+hading 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A   Un=
+hideWhenUsed=3D"false" Name=3D"Medium List 1"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Medium List 2"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium G=
+rid 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D=
+"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2"/>=0A  <w:LsdEx=
+ception Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A   UnhideWh=
+enUsed=3D"false" Name=3D"Medium Grid 3"/>=0A  <w:LsdException Locked=3D"fal=
+se" Priority=3D"70" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Dark List"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"71" SemiH=
+idden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful List"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Colorful Grid"/>=0A  <w:LsdException Locked=3D"false" Pr=
+iority=3D"60" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Li=
+ght Shading Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"61=
+" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light List Acc=
+ent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D=
+"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 1"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A   Un=
+hideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 1"/>=0A  <w:LsdExcep=
+tion Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A   UnhideWhenU=
+sed=3D"false" Name=3D"Medium Shading 2 Accent 1"/>=0A  <w:LsdException Lock=
+ed=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fa=
+lse" Name=3D"Medium List 1 Accent 1"/>=0A  <w:LsdException Locked=3D"false"=
+ UnhideWhenUsed=3D"false" Name=3D"Revision"/>=0A  <w:LsdException Locked=3D=
+"false" Priority=3D"34" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" =
+QFormat=3D"true" Name=3D"List Paragraph"/>=0A  <w:LsdException Locked=3D"fa=
+lse" Priority=3D"29" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFo=
+rmat=3D"true" Name=3D"Quote"/>=0A  <w:LsdException Locked=3D"false" Priorit=
+y=3D"30" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" QFormat=3D"true=
+" Name=3D"Intense Quote"/>=0A  <w:LsdException Locked=3D"false" Priority=3D=
+"66" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List=
+ 2 Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHid=
+den=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 1"=
+/>=0A  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false=
+"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 1"/>=0A  <w:Ls=
+dException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A   Unhid=
+eWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 1"/>=0A  <w:LsdException L=
+ocked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D=
+"false" Name=3D"Dark List Accent 1"/>=0A  <w:LsdException Locked=3D"false" =
+Priority=3D"71" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"=
+Colorful Shading Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful=
+ List Accent 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"73" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent=
+ 1"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 2"/>=0A  <w=
+:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A   Un=
+hideWhenUsed=3D"false" Name=3D"Light List Accent 2"/>=0A  <w:LsdException L=
+ocked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D=
+"false" Name=3D"Light Grid Accent 2"/>=0A  <w:LsdException Locked=3D"false"=
+ Priority=3D"63" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D=
+"Medium Shading 1 Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"64" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium S=
+hading 2 Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"65" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Acc=
+ent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D=
+"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 2"/>=0A =
+ <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A  =
+ UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 2"/>=0A  <w:LsdExcep=
+tion Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A   UnhideWhenU=
+sed=3D"false" Name=3D"Medium Grid 2 Accent 2"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Medium Grid 3 Accent 2"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"70" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"D=
+ark List Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"71" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading =
+Accent 2"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 2"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 2"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" Name=3D"Light Shading Accent 3"/>=0A  <w:LsdException Lo=
+cked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"=
+false" Name=3D"Light List Accent 3"/>=0A  <w:LsdException Locked=3D"false" =
+Priority=3D"62" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"=
+Light Grid Accent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"63"=
+ SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading =
+1 Accent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidd=
+en=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent =
+3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"fal=
+se"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 3"/>=0A  <w:=
+LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A   Unh=
+ideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 3"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Medium Grid 1 Accent 3"/>=0A  <w:LsdException Locked=3D"=
+false" Priority=3D"68" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" N=
+ame=3D"Medium Grid 2 Accent 3"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"69" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Mediu=
+m Grid 3 Accent 3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"70" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent =
+3"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"fal=
+se"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 3"/>=0A  =
+<w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A   =
+UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 3"/>=0A  <w:LsdExcept=
+ion Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUs=
+ed=3D"false" Name=3D"Colorful Grid Accent 3"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Light Shading Accent 4"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"61" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"L=
+ight List Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"62" =
+SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accen=
+t 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"f=
+alse"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A =
+  UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 4"/>=0A  <w:LsdE=
+xception Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A   UnhideW=
+henUsed=3D"false" Name=3D"Medium List 1 Accent 4"/>=0A  <w:LsdException Loc=
+ked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"f=
+alse" Name=3D"Medium List 2 Accent 4"/>=0A  <w:LsdException Locked=3D"false=
+" Priority=3D"67" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Medium Grid 1 Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"68" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium G=
+rid 2 Accent 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"69" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent=
+ 4"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 4"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" Name=3D"Colorful Shading Accent 4"/>=0A  <w:LsdException=
+ Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Colorful List Accent 4"/>=0A  <w:LsdException Locked=3D"=
+false" Priority=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" N=
+ame=3D"Colorful Grid Accent 4"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"60" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light=
+ Shading Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"61" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light List Accent=
+ 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 5"/>=0A  <w:Ls=
+dException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A   Unhid=
+eWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 5"/>=0A  <w:LsdExceptio=
+n Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A   UnhideWhenUsed=
+=3D"false" Name=3D"Medium Shading 2 Accent 5"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Medium List 1 Accent 5"/>=0A  <w:LsdException Locked=3D"false" P=
+riority=3D"66" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"M=
+edium List 2 Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"6=
+7" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1=
+ Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidde=
+n=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 5"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 5"/>=0A  <w:Lsd=
+Exception Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A   Unhide=
+WhenUsed=3D"false" Name=3D"Dark List Accent 5"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Colorful Shading Accent 5"/>=0A  <w:LsdException Locked=3D"false=
+" Priority=3D"72" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Colorful List Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=
+=3D"73" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful=
+ Grid Accent 5"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"60" Semi=
+Hidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent=
+ 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"fa=
+lse"=0A   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 6"/>=0A  <w:Ls=
+dException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A   Unhid=
+eWhenUsed=3D"false" Name=3D"Light Grid Accent 6"/>=0A  <w:LsdException Lock=
+ed=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fa=
+lse" Name=3D"Medium Shading 1 Accent 6"/>=0A  <w:LsdException Locked=3D"fal=
+se" Priority=3D"64" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=
+=3D"Medium Shading 2 Accent 6"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"65" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Mediu=
+m List 1 Accent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"66" S=
+emiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Acc=
+ent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D=
+"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 6"/>=0A =
+ <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A  =
+ UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 6"/>=0A  <w:LsdExcep=
+tion Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A   UnhideWhenU=
+sed=3D"false" Name=3D"Medium Grid 3 Accent 6"/>=0A  <w:LsdException Locked=
+=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"fals=
+e" Name=3D"Dark List Accent 6"/>=0A  <w:LsdException Locked=3D"false" Prior=
+ity=3D"71" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Color=
+ful Shading Accent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"72=
+" SemiHidden=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful List =
+Accent 6"/>=0A  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=
+=3D"false"=0A   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 6"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"19" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Emphasis"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"21" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Emphasis"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"31" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Reference"/>=
+=0A  <w:LsdException Locked=3D"false" Priority=3D"32" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Reference"/=
+>=0A  <w:LsdException Locked=3D"false" Priority=3D"33" SemiHidden=3D"false"=
+=0A   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Book Title"/>=0A  <=
+w:LsdException Locked=3D"false" Priority=3D"37" Name=3D"Bibliography"/>=0A =
+ <w:LsdException Locked=3D"false" Priority=3D"39" QFormat=3D"true" Name=3D"=
+TOC Heading"/>=0A </w:LatentStyles>=0A</xml><![endif]--><style>=0A<!--=0A /=
+* Font Definitions */=0A @font-face=0A=09{font-family:"Cambria Math";=0A=09=
+panose-1:2 4 5 3 5 4 6 3 2 4;=0A=09mso-font-charset:0;=0A=09mso-generic-fon=
+t-family:roman;=0A=09mso-font-pitch:variable;=0A=09mso-font-signature:-1610=
+611985 1107304683 0 0 159 0;}=0A@font-face=0A=09{font-family:Calibri;=0A=09=
+panose-1:2 15 5 2 2 2 4 3 2 4;=0A=09mso-font-charset:0;=0A=09mso-generic-fo=
+nt-family:swiss;=0A=09mso-font-pitch:variable;=0A=09mso-font-signature:-161=
+0611985 1073750139 0 0 159 0;}=0A /* Style Definitions */=0A p.MsoNormal, l=
+i.MsoNormal, div.MsoNormal=0A=09{mso-style-unhide:no;=0A=09mso-style-qforma=
+t:yes;=0A=09mso-style-parent:"";=0A=09margin-top:0in;=0A=09margin-right:0in=
+;=0A=09margin-bottom:10.5pt;=0A=09margin-left:0in;=0A=09line-height:115%;=
+=0A=09mso-pagination:widow-orphan;=0A=09font-size:11.0pt;=0A=09font-family:=
+"Calibri","sans-serif";=0A=09mso-fareast-font-family:Calibri;=0A=09mso-bidi=
+-font-family:"Times New Roman";}=0Aa:link, span.MsoHyperlink=0A=09{mso-styl=
+e-priority:99;=0A=09color:blue;=0A=09text-decoration:underline;=0A=09text-u=
+nderline:single;}=0Aa:visited, span.MsoHyperlinkFollowed=0A=09{mso-style-no=
+show:yes;=0A=09mso-style-priority:99;=0A=09color:purple;=0A=09mso-themecolo=
+r:followedhyperlink;=0A=09text-decoration:underline;=0A=09text-underline:si=
+ngle;}=0A.MsoChpDefault=0A=09{mso-style-type:export-only;=0A=09mso-default-=
+props:yes;=0A=09font-size:10.0pt;=0A=09mso-ansi-font-size:10.0pt;=0A=09mso-=
+bidi-font-size:10.0pt;=0A=09mso-ascii-font-family:Calibri;=0A=09mso-fareast=
+-font-family:Calibri;=0A=09mso-hansi-font-family:Calibri;}=0A@page Section1=
+=0A=09{size:8.5in 11.0in;=0A=09margin:1.0in 1.0in 1.0in 1.0in;=0A=09mso-hea=
+der-margin:.5in;=0A=09mso-footer-margin:.5in;=0A=09mso-paper-source:0;}=0Ad=
+iv.Section1=0A=09{page:Section1;}=0A-->=0A</style><!--[if gte mso 10]>=0A<s=
+tyle>=0A /* Style Definitions */=0A table.MsoNormalTable=0A=09{mso-style-na=
+me:"Table Normal";=0A=09mso-tstyle-rowband-size:0;=0A=09mso-tstyle-colband-=
+size:0;=0A=09mso-style-noshow:yes;=0A=09mso-style-priority:99;=0A=09mso-sty=
+le-qformat:yes;=0A=09mso-style-parent:"";=0A=09mso-padding-alt:0in 5.4pt 0i=
+n 5.4pt;=0A=09mso-para-margin:0in;=0A=09mso-para-margin-bottom:.0001pt;=0A=
+=09mso-pagination:widow-orphan;=0A=09font-size:11.0pt;=0A=09font-family:"Ca=
+libri","sans-serif";=0A=09mso-ascii-font-family:Calibri;=0A=09mso-ascii-the=
+me-font:minor-latin;=0A=09mso-fareast-font-family:"Times New Roman";=0A=09m=
+so-fareast-theme-font:minor-fareast;=0A=09mso-hansi-font-family:Calibri;=0A=
+=09mso-hansi-theme-font:minor-latin;=0A=09mso-bidi-font-family:"Times New R=
+oman";=0A=09mso-bidi-theme-font:minor-bidi;}=0A</style>=0A<![endif]-->=0A=
+=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: no=
+rmal;"><b><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;ser=
+if&quot;; color: black;">Call for Papers: AI and Second Language Learning<s=
+pan style=3D"">&nbsp;&nbsp;&nbsp; </span><a href=3D"http://tinyurl.com/mcs6=
+63" target=3D"_blank">http://tinyurl.com/mcs663</a><o:p></o:p></span></b></=
+p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-heigh=
+t: normal;"><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;s=
+erif&quot;; color: black;">Special Track at the 23<sup>rd</sup>=0AInternati=
+onal FLAIRS Conference in cooperation with the American Association=0Afor A=
+rtificial Intelligence, <a href=3D"http://en.wikipedia.org/wiki/Daytona_Bea=
+ch,_Florida"><span style=3D"color: black; text-decoration: none;">Daytona B=
+each, Florida, USA</span></a> May 19<sup>th</sup>- 21<sup>st</sup>,=0A2010<=
+b><o:p></o:p></b></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bo=
+ttom: 0.0001pt; line-height: normal;"><span style=3D"font-family: &quot;Tim=
+es New Roman&quot;,&quot;serif&quot;; color: black;"><o:p>&nbsp;</o:p></spa=
+n></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-h=
+eight: normal;"><b><span style=3D"font-family: &quot;Times New Roman&quot;,=
+&quot;serif&quot;; color: black;">Types of Submission</span></b><span style=
+=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: blac=
+k;"><o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bott=
+om: 0.0001pt; line-height: normal;"><span style=3D"font-family: &quot;Times=
+ New Roman&quot;,&quot;serif&quot;; color: black;">2-page papers for poster=
+s<span style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=0A</span><o:p></o:p></span></p>=0A=0A<p clas=
+s=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: normal;"><sp=
+an style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; col=
+or: black;">6-page papers for talks<o:p></o:p></span></p>=0A=0A<p class=3D"=
+MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: normal;"><span st=
+yle=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: b=
+lack;">Paper submission deadline: November 23<sup>rd</sup>,=0A2009.&nbsp;<s=
+pan style=3D"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp; </span><o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"m=
+argin-bottom: 0.0001pt; line-height: normal;"><span style=3D"font-family: &=
+quot;Times New Roman&quot;,&quot;serif&quot;; color: black;">Notifications:=
+ January 22<sup>nd</sup>, 2010.<o:p></o:p></span></p>=0A=0A<p class=3D"MsoN=
+ormal" style=3D"margin-bottom: 0.0001pt; line-height: normal;"><span style=
+=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: blac=
+k;">Camera ready&nbsp;version due: February 22, 2010<b>=0A<o:p></o:p></b></=
+span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; lin=
+e-height: normal;"><i style=3D""><span style=3D"font-family: &quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;; color: black;">All accepted papers will be=
+ published as FLAIRS proceedings by the AAAI</span></i><i style=3D""><span =
+style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color:=
+ black;">.<o:p></o:p></span></i></p>=0A=0A<p class=3D"MsoNormal" style=3D"m=
+argin-bottom: 0.0001pt; line-height: normal;"><span style=3D"font-family: &=
+quot;Times New Roman&quot;,&quot;serif&quot;; color: black;"><o:p>&nbsp;</o=
+:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt=
+; line-height: normal;"><b><span style=3D"font-family: &quot;Times New Roma=
+n&quot;,&quot;serif&quot;; color: black;">What is AI and Second Language Le=
+arning [AI=0A&amp; SSL]? S</span></b><span style=3D"font-family: &quot;Time=
+s New Roman&quot;,&quot;serif&quot;; color: black;">econd language learning=
+=0Arefers to any natural language (e.g. English, Spanish, Hindi) that is le=
+arned=0Aby way of study. The AI &amp; SSL track is particularly interested =
+in how=0Atechnology (e.g. software programs, packages, ITSs, or any computa=
+tional=0Adevice) facilitates or otherwise affects that learning.<b><o:p></o=
+:p></b></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.00=
+01pt; line-height: normal;"><b><span style=3D"font-family: &quot;Times New =
+Roman&quot;,&quot;serif&quot;; color: black;">&nbsp;</span></b><span style=
+=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: blac=
+k;"><o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bott=
+om: 0.0001pt; line-height: normal;"><b><span style=3D"font-family: &quot;Ti=
+mes New Roman&quot;,&quot;serif&quot;; color: black;">Who might be interest=
+ed?</span></b><span style=3D"font-family: &quot;Times New Roman&quot;,&quot=
+;serif&quot;; color: black;"> Second language curriculum developers, materi=
+als developers, language=0Aschools, ITS creators, language teachers, commer=
+cial word processing=0Adevelopers, and language learners<o:p></o:p></span><=
+/p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-heig=
+ht: normal;"><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;=
+serif&quot;; color: black;">&nbsp;<o:p></o:p></span></p>=0A=0A<p class=3D"M=
+soNormal" style=3D"margin-bottom: 0.0001pt; line-height: normal;"><b><span =
+style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color:=
+ black;">What kind of studies will be of interest?</span></b><span style=3D=
+"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;"=
+> Papers and contributions and encourages for any work that relates=0Ato se=
+cond language learning, ESL/EFL/ESP, or related subjects to AI. Topics of=
+=0Ainterest may include (but are in no way limited to) <o:p></o:p></span></=
+p>=0A=0A<p class=3D"MsoNormal" style=3D"margin: 0in 0in 0.0001pt 0.75in; te=
+xt-indent: -0.25in; line-height: normal;"><span style=3D"font-family: &quot=
+;Times New Roman&quot;,&quot;serif&quot;; color: black;">1. ITS Shells for =
+ESP [English for Specific Purposes] Needs<o:p></o:p></span></p>=0A=0A<p cla=
+ss=3D"MsoNormal" style=3D"margin: 0in 0in 0.0001pt 0.75in; text-indent: -0.=
+25in; line-height: normal;"><span style=3D"font-family: &quot;Times New Rom=
+an&quot;,&quot;serif&quot;; color: black;">2. Using AI for L2 Reading, Spea=
+king, Writing, Listening, or=0AGrammaring<o:p></o:p></span></p>=0A=0A<p cla=
+ss=3D"MsoNormal" style=3D"margin: 0in 0in 0.0001pt 0.75in; text-indent: -0.=
+25in; line-height: normal;"><span style=3D"font-family: &quot;Times New Rom=
+an&quot;,&quot;serif&quot;; color: black;">3. AI and CBI [Content Based Ins=
+truction] in Language Learning<o:p></o:p></span></p>=0A=0A<p class=3D"MsoNo=
+rmal" style=3D"margin: 0in 0in 0.0001pt 0.75in; text-indent: -0.25in; line-=
+height: normal;"><span style=3D"font-family: &quot;Times New Roman&quot;,&q=
+uot;serif&quot;; color: black;">4. Diagnostics, Assessment, and AI<o:p></o:=
+p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin: 0in 0in 0.0001pt=
+ 0.75in; text-indent: -0.25in; line-height: normal;"><span style=3D"font-fa=
+mily: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;">5. Movi=
+ng beyond the Moodle: CMS for Language Learning<o:p></o:p></span></p>=0A=0A=
+<p class=3D"MsoNormal" style=3D"margin: 0in 0in 0.0001pt 0.75in; text-inden=
+t: -0.25in; line-height: normal;"><span style=3D"font-family: &quot;Times N=
+ew Roman&quot;,&quot;serif&quot;; color: black;">6. Corpus Linguistics, AI,=
+ and Global English<o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=
+=3D"margin: 0in 0in 0.0001pt 0.75in; text-indent: -0.25in; line-height: nor=
+mal;"><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&q=
+uot;; color: black;">7. Intercultural Simulations with Avatars<o:p></o:p></=
+span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin: 0in 0in 0.0001pt 0.7=
+5in; text-indent: -0.25in; line-height: normal;"><span style=3D"font-family=
+: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;">8. Games th=
+at Teach and Learn<o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=
+=3D"margin-bottom: 0.0001pt; line-height: normal;"><span style=3D"font-fami=
+ly: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;"><o:p>&nbs=
+p;</o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0=
+001pt; line-height: normal;"><b><span style=3D"font-family: &quot;Times New=
+ Roman&quot;,&quot;serif&quot;; color: black;">&nbsp;Leading papers will al=
+so be considered for=0Apublication as chapters in the forthcoming book: <i>=
+Applied Natural Language=0AProcessing and Content Analysis: Advances in Ide=
+ntification, Investigation, and=0AResolution</i></span></b><span style=3D"f=
+ont-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;"><=
+o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0=
+.0001pt; line-height: normal;"><span style=3D"font-family: &quot;Times New =
+Roman&quot;,&quot;serif&quot;; color: black;"><o:p>&nbsp;</o:p></span></p>=
+=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height:=
+ normal;"><b><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;=
+serif&quot;; color: black;">Submission Guidelines for the ANLP track</span>=
+</b><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quo=
+t;; color: black;"><o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=
+=3D"margin-bottom: 0.0001pt; line-height: normal;"><span style=3D"font-fami=
+ly: &quot;Times New Roman&quot;,&quot;serif&quot;; color: black;">Papers mu=
+st be submitted according to <a href=3D"http://www.aaai.org/Publications/Au=
+thor/author.php" title=3D"http://www.aaai.org/Publications/Author/author.ph=
+p"><span style=3D"color: black; text-decoration: none;">AAAI formatting=0Ag=
+uidelines</span></a>. The papers should be original work (i.e., not submitt=
+ed,=0Ain submission, or submitted to another conference while in review) an=
+d are due=0Aby November 23<sup>rd</sup>, 2009. Papers must be submitted as =
+PDF through the=0AEasyChair conference system (<a href=3D"http://www.FLAIRS=
+-23.info"><span style=3D"color: black; text-decoration: none;">http://www.F=
+LAIRS-23.info</span></a>).=0AAuthors should indicate the special track of A=
+NLP for submissions. At least one=0Aauthor of each accepted paper is requir=
+ed to register, attend, and present the=0Apaper at FLAIRS. <o:p></o:p></spa=
+n></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-h=
+eight: normal;"><span style=3D"font-family: &quot;Times New Roman&quot;,&qu=
+ot;serif&quot;; color: black;">&nbsp;<o:p></o:p></span></p>=0A=0A<p class=
+=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: normal;"><b><=
+span style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; c=
+olor: black;">Further Information</span></b><span style=3D"font-family: &qu=
+ot;Times New Roman&quot;,&quot;serif&quot;; color: black;"><o:p></o:p></spa=
+n></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-h=
+eight: normal;"><span style=3D"font-family: &quot;Times New Roman&quot;,&qu=
+ot;serif&quot;; color: black;">Questions regarding the ANLP Special Track=
+=0Ashould be addressed to the track co-chairs:<o:p></o:p></span></p>=0A=0A<=
+p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; line-height: normal=
+;"><span style=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot=
+;; color: black;">Charles Hall, cehall@memphis.edu<span style=3D"">&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Philip McCarthy,=0Aphilmccarthy1@=
+gmail.com<o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin=
+-bottom: 0.0001pt; line-height: normal;"><span style=3D"font-family: &quot;=
+Times New Roman&quot;,&quot;serif&quot;; color: black;">&nbsp;<o:p></o:p></=
+span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-bottom: 0.0001pt; lin=
+e-height: normal;"><b><span style=3D"font-family: &quot;Times New Roman&quo=
+t;,&quot;serif&quot;; color: black;">Conference Web Sites</span></b><span s=
+tyle=3D"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; color: =
+black;"><o:p></o:p></span></p>=0A=0A<p class=3D"MsoNormal" style=3D"margin-=
+bottom: 0.0001pt; line-height: normal;"><span style=3D"font-family: &quot;T=
+imes New Roman&quot;,&quot;serif&quot;; color: black;">Paper submission sit=
+e: follow the link for=0Asubmissions at <a href=3D"http://www.FLAIRS-23.inf=
+o"><span style=3D"color: black; text-decoration: none;">http://www.FLAIRS-2=
+3.info</span></a><br>=0AFLAIRS-2010 conference web page: http://www.flairs-=
+23.info/<br>=0AFlorida AI Research Society (FLAIRS): <a href=3D"http://www.=
+flairs.com/" title=3D"http://www.flairs.com/"><span style=3D"color: black; =
+text-decoration: none;">http://www.flairs.com</span></a>&nbsp;<o:p></o:p></=
+span></p>=0A=0A<br><br>*************<br>=0ACharles Hall, Ph.D., dr. h.c.<br=
+>=0AUniversity of Memphis, Department of English<br>=0AApplied Linguistics =
+and EFL/ESL<br>=0A901.313.4496<br>=0A<br>=0Awww.charleshall.info       www.=
+l4law.org</td></tr></table><br>=0A=0A      
+--0-751017437-1251365831=:30430--
+
+
+--===============1762662284==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============1762662284==--
+

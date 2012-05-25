@@ -1,0 +1,846 @@
+From - Thu Dec 10 14:33:20 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs95212muh;
+        Fri, 19 Sep 2008 11:55:13 -0700 (PDT)
+Received: by 10.210.110.5 with SMTP id i5mr477230ebc.138.1221850512801;
+        Fri, 19 Sep 2008 11:55:12 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 23si2208426eya.7.2008.09.19.11.54.11;
+        Fri, 19 Sep 2008 11:55:12 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7F93E209E5; Fri, 19 Sep 2008 20:54:11 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.1 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY,MSGID_MULTIPLE_AT autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 54FF720C11;
+	Fri, 19 Sep 2008 20:51:17 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7E75B3D50;
+	Fri, 19 Sep 2008 20:51:13 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id J-Vj-akYmV3t; Fri, 19 Sep 2008 20:51:13 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 619B83DAC;
+	Fri, 19 Sep 2008 20:50:27 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A0F243D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Sep 2008 17:06:02 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 03A0FyjiZM2o for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Sep 2008 17:06:02 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 747A83D08
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Sep 2008 17:06:02 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 604701956B; Fri, 19 Sep 2008 17:06:02 +0200 (MEST)
+X-Greylist: delayed 3443 seconds by postgrey-1.28 at newjura;
+	Fri, 19 Sep 2008 17:05:59 MEST
+Received: from icst.org (icst.org [72.51.37.154])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B0E2716DF9
+	for <elsnet-list@let.uu.nl>; Fri, 19 Sep 2008 17:05:56 +0200 (MEST)
+Received: from roberticst (isa.wla.hu [84.21.0.141]) (authenticated bits=0)
+	by icst.org (8.13.1/8.13.1) with ESMTP id m8JDViVw022276;
+	Fri, 19 Sep 2008 08:31:46 -0500
+From: "Robert Varga" <robert.varga@icst.org>
+To: <robert.varga@icst.org>
+Date: Fri, 19 Sep 2008 15:31:45 +0200
+Organization: ICST
+Message-ID: <007701c91a5c$4c469fa0$e4d3dee0$@varga@icst.org>
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-index: AckaXA0d8cn7x77tTym7RomtMLsLFw==
+Content-Language: hu
+x-cr-hashedpuzzle: AHRy Anfx BLvM Dv/Q FI6V Fp40 FrAO F7g7 HREz HUh8 HtkO H+o0
+	IMNe JjGj KmKJ KphA; 1;
+	cgBvAGIAZQByAHQALgB2AGEAcgBnAGEAQABpAGMAcwB0AC4AbwByAGcA;
+	Sosha1_v1; 7; {208AB7EE-BAB7-478B-A8FF-1881F8938B73};
+	cgBvAGIAZQByAHQALgB2AGEAcgBnAGEAQABpAGMAcwB0AC4AbwByAGcA;
+	Fri, 19 Sep 2008 13:31:41 GMT;
+	QwBhAGwAbAAgAGYAbwByACAAUABhAHAAZQByAHMAIAAtACAASQBUACAAUgBlAHYAbwBsAHUAdABpAG8AbgBzACAAMgAwADAAOAA=
+x-cr-puzzleid: {208AB7EE-BAB7-478B-A8FF-1881F8938B73}
+X-Mailman-Approved-At: Fri, 19 Sep 2008 20:50:08 +0200
+Cc: 
+Subject: [Elsnet-list] Call for Papers - IT Revolutions 2008
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: robert.varga@icst.org
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0414582931=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multipart message in MIME format.
+
+--===============0414582931==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0078_01C91A6D.0FCF6FA0"
+Content-Language: hu
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0078_01C91A6D.0FCF6FA0
+Content-Type: text/plain;
+	charset="US-ASCII"
+Content-Transfer-Encoding: 7bit
+
+=*=*=*=*=*=*=*=*=*=*=*
+
+ 
+
+IT REVOLUTIONS 2008
+
+ 
+
+=*=*=*=*=*=*=*=*=*=*=*
+
+ 
+
+17th -19th December, 2008, Venice, Italy
+
+ 
+
+Sponsored by ICST, Technically Co-Sponsored by IEEE and Create-Net
+
+ 
+
+CALL FOR PAPERS
+
+====================
+
+ 
+
+General Chair: Prof. Mihaela Ulieru, Canada Research Chair, Canada
+
+Honorary Chair: Imrich Chlamtac, President of CreateNet, Italy 
+
+ 
+
+Keynote Speakers: 
+
+                * Prof. John Boardman, Stevens Institute of Technology, USA
+
+                * Heinz Luediger, IMST GmbH, Germany
+
+                * Bill St. Arnaud, Canarie, Canada
+
+ 
+
+SCOPE
+
+ 
+
+Mitigating Paradox at the eSociety Tipping Point
+
+ 
+
+IT Revolutions will bring together funding agencies and government
+representatives from around the world - with companies and the most
+visionary academic contributors to the IT Revolutions - to set the future
+directions in ensuring a smooth transition while enabling IT to unleash its
+full power in serving the world. This premier conference of the Institute
+for Computer Sciences, Social-Informatics and Telecommunications (ICST) - IT
+Revolutions - will account yearly on the progress made in building critical
+mass for the radical shift towards an IT-driven future while ensuring that
+we embark responsibly onto the momentum that will be turning the world
+around. 
+
+ 
+
+The Conference is clustered around major Themes concerned with the
+disconnect between old and new ways reshaping critical aspects of our world
+at this turning point - in search for innovative solutions that can
+capitalize on the impact of the tumultuous IT enabled transformations.
+
+ 
+
+Championed by a prominent leader each Theme will:
+
+ 
+
+* Evaluate where we are on the path to turnover. 
+
+As this requires coordinated efforts -  government S&T representatives and
+research funding agencies from all continents will address the major areas
+of concern in dedicated panels whose deliberations will be published as
+joint recommendations
+
+* Ensure a smooth transition. 
+
+Exploring the core elements needed to encourage sustainable change as new
+systems are introduced and grounded in the practice environment.
+Motivational factors, incentives to embrace the change as well as alignment
+with the societal needs will be debated in panels and workshops with
+industry and academia including funding agency and government
+representatives. 
+
+* Point to the Future. 
+
+Foresight presentations from most visionary contributors to the major areas
+will push the limits of the achievable through keynotes and position papers
+that underline factors enabling the IT revolution to redesign the world
+economy and society.
+
+ 
+
+THEMES/CHAIRS
+
+ 
+
+E-HEALTH Chair: Christian Couturier, National Research Council Institute for
+Information Technology, Canada  
+
+E-LEARNING Chair: Philip Long, MIT, USA, University of Queensland, Australia
+
+
+E-COMMERCE Chair: Neel Sundaresan, eBay Research Labs, USA 
+
+SOCIAL INTERACTION Chair: David Benyon, Napier University, UK
+
+21st CENTURY CULTURE Chair: Ebon Fisher, Stevens Institute of Technology,
+USA
+
+APPROACHING REALITY Chair: Andres Sousa-Poza, USA 
+
+SAFETY AND SECURITY Chair: Tim Rosenberg, White Wolf Security, USA
+Co-Chair:Jack Smith, Defence R&D, Canada
+
+UTILITY SUPPLY Chair: Marija Ilic, Carnegie Mellon University, USA
+
+URBAN DEVELOPMENT Chair: Unho Choi, Korea Logistics Network, Korea
+
+CLIMATE CHANGE Chair: Richard Somerville, Scripps Institute, USA 
+
+COMPLEXITY Chair: Yaneer Bar-Yam, NECSI, USA Co-Chair: Rene Doursat,
+Institute de Systemes Complexes de Paris, France 
+
+SOCIO-ECONOMIC SYSTEMS Chair: Walter Derzko, Smart Economy, Canada Co-Chair:
+Mike Hollinshead, Facing-The-Future, Canada  
+
+CYBER-PHYSICAL SYSTEMS Chair: D K Arvind, University of Edinburgh, UK  
+
+AUTOMATION 2.0 Chair: Jose Lastra, Tampere University of Technology, Finland
+
+
+NANOTECHNOLOGY Chair: Allan Syms, AntNano, UK  
+
+E-NETWORK DESIGN Chair: Peter Chapman, Canada 
+
+GRID&CLOUD COMPUTING Chair: Wolfgang Gentzsch, DEISA Project and Open Grid
+Forum, Germany
+
+AI 2.0 Chair: Peter Palensky, University of Pretoria, South Africa  
+
+ 
+
+=====================
+
+TECHNICAL INFORMATION
+
+ 
+
+Position Papers debating the paradox as it relates to a Theme as well as
+Technical Papers clearly identifying how the specific contributions fit to
+an overall working solution, are solicited.  The Position Papers will be
+presented in the Forum plenary, while the Technical Papers will be presented
+in the Workshops dedicated to each Theme. All submitted papers and posters
+will be rigorously reviewed by the committee set up by the Theme Chairs. 
+
+ 
+
+Conference language is English.  All paper submissions will be handled
+electronically. Please visit the conference website - www.itrevolutions.org
+- for submission details related to each Theme. 
+
+ 
+
+Publication: The peer reviewed Technical Papers will be published in the
+IEEE IT Revolutions Proceedings before the conference. The Position Papers
+will be published post-conference in a Book "IT Revolutions" by Springer in
+the series of Lecture Notes of ICST  (LNICST). The Book will conclude with
+the recommendations and guidelines resulted from the Forum Panels and
+deliberations.    
+
+At least one listed author on the final paper must register for and attend
+the IT Revolutions Forum.
+
+ 
+
+Exhibit: In addition to the Workshops and Panels - industry will have the
+opportunity to expose their latest products and present to corporate
+attendees, industries and the highest level of academics, forging the way
+for the IT Revolution in society.  For further information about the Exhibit
+please contact ICST at exhibition@icst.org
+
+ 
+
+=======================
+
+SUBMISSION INSTRUCTIONS 
+
+ 
+
+For *POSITION PAPERS* please prepare your paper using the guidelines and
+templates in DOC or PDF format, or format downloaded from Springer's LNICST
+website:
+ftp://ftp.springer.de/pub/tex/latex/lnicst/author/instructions/typeinst.pdf
+and from www.itrevolutions.org
+
+ 
+
+For *TECHNICAL PAPERS* please prepare your paper in general IEEE format. You
+may read the detailed guidelines for IEEE publications in the IEEE Author's
+Kit to be found on www.itrevolutions.org website.
+
+ 
+
+You may find further information and the complete Author's Kits here:
+www.itrevolutions.org
+
+ 
+
+==============================================
+
+IMPORTANT DATES
+
+ 
+
+Submission deadline:  30th September, 2008
+
+Acceptance notification:  1st November, 2008
+
+Camera Ready:  1st December, 2008
+
+==============================================
+
+ 
+
+SPONSORS/PARTNERS
+
+ 
+
+Technical Co-Sponsors: IEEE and Create-Net
+
+ 
+
+FOR FURTHER INFORMATION please send a message to: itrevolutions@icst.org or
+visit: www.itrevolutions.org
+
+
+------=_NextPart_000_0078_01C91A6D.0FCF6FA0
+Content-Type: text/html;
+	charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DHU link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*<o:p></o:p></spa=
+n></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US style=3D'font-family:"Courier =
+New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span lang=3DEN-US>IT REVOLUTIONS =
+2008</span></b><b><span
+lang=3DEN-US><o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*=3D*<o:p></o:p></spa=
+n></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>17th -19th December, 2008, =
+Venice, Italy<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Sponsored by ICST, Technically =
+Co-Sponsored
+by IEEE and Create-Net<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span lang=3DEN-US>CALL FOR =
+PAPERS<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>General Chair: Prof. Mihaela =
+Ulieru, Canada
+Research Chair, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Honorary Chair: Imrich Chlamtac, =
+President
+of CreateNet, Italy <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Keynote Speakers: =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Prof. John Boardman, Stevens Institute of Technology, =
+USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Heinz Luediger, IMST GmbH, Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* Bill St. Arnaud, Canarie, Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span =
+lang=3DEN-US>SCOPE<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Mitigating Paradox at the =
+eSociety Tipping
+Point<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>IT Revolutions will bring =
+together funding
+agencies and government representatives from around the world - with =
+companies
+and the most visionary academic contributors to the IT Revolutions - to =
+set the
+future directions in ensuring a smooth transition while enabling IT to =
+unleash
+its full power in serving the world. This premier conference of the =
+Institute
+for Computer Sciences, Social-Informatics and Telecommunications (ICST) =
+- IT
+Revolutions - will account yearly on the progress made in building =
+critical
+mass for the radical shift towards an IT-driven future while ensuring =
+that we
+embark responsibly onto the momentum that will be turning the world =
+around. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>The Conference is clustered =
+around major
+Themes concerned with the disconnect between old and new ways reshaping
+critical aspects of our world at this turning point - in search for =
+innovative
+solutions that can capitalize on the impact of the tumultuous IT enabled
+transformations.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Championed by a prominent leader =
+each Theme
+will:<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>* Evaluate where we are on the =
+path to
+turnover. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><span lang=3DEN-US>As =
+this requires
+coordinated efforts -&nbsp; government S&amp;T representatives and =
+research
+funding agencies from all continents will address the major areas of =
+concern in
+dedicated panels whose deliberations will be published as joint =
+recommendations<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>* Ensure a smooth transition. =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><span =
+lang=3DEN-US>Exploring the
+core elements needed to encourage sustainable change as new systems are
+introduced and grounded in the practice environment. Motivational =
+factors,
+incentives to embrace the change as well as alignment with the societal =
+needs
+will be debated in panels and workshops with industry and academia =
+including
+funding agency and government representatives. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>* Point to the Future. =
+<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'margin-left:35.4pt'><span =
+lang=3DEN-US>Foresight
+presentations from most visionary contributors to the major areas will =
+push the
+limits of the achievable through keynotes and position papers that =
+underline
+factors enabling the IT revolution to redesign the world economy and =
+society.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span =
+lang=3DEN-US>THEMES/CHAIRS<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>E-HEALTH Chair: Christian =
+Couturier,
+National Research Council Institute for Information Technology, =
+Canada&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>E-LEARNING Chair: Philip Long, =
+MIT, USA,
+University of Queensland, Australia&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>E-COMMERCE Chair: Neel =
+Sundaresan, eBay
+Research Labs, USA <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>SOCIAL INTERACTION Chair: David =
+Benyon,
+Napier University, UK<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>21st CENTURY CULTURE Chair: Ebon =
+Fisher, Stevens
+Institute of Technology, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>APPROACHING REALITY Chair: =
+Andres
+Sousa-Poza, USA <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>SAFETY AND SECURITY Chair: Tim =
+Rosenberg,
+White Wolf Security, USA Co-Chair:Jack Smith, Defence R&amp;D, =
+Canada<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>UTILITY SUPPLY Chair: Marija =
+Ilic, Carnegie
+Mellon University, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>URBAN DEVELOPMENT Chair: Unho =
+Choi, Korea
+Logistics Network, Korea<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>CLIMATE CHANGE Chair: Richard =
+Somerville,
+Scripps Institute, USA <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>COMPLEXITY Chair: Yaneer =
+Bar-Yam, NECSI,
+USA Co-Chair: Rene Doursat, Institute de Systemes Complexes de Paris, =
+France <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>SOCIO-ECONOMIC SYSTEMS Chair: =
+Walter
+Derzko, Smart Economy, Canada Co-Chair: Mike Hollinshead, =
+Facing-The-Future,
+Canada&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>CYBER-PHYSICAL SYSTEMS Chair: D =
+K Arvind,
+University of Edinburgh, UK&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>AUTOMATION 2.0 Chair: Jose =
+Lastra, Tampere
+University of Technology, Finland&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>NANOTECHNOLOGY Chair: Allan =
+Syms, AntNano,
+UK&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>E-NETWORK DESIGN Chair: Peter =
+Chapman,
+Canada <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>GRID&amp;CLOUD COMPUTING Chair: =
+Wolfgang
+Gentzsch, DEISA Project and Open Grid Forum, =
+Germany<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>AI 2.0 Chair: Peter Palensky, =
+University of
+Pretoria, South Africa&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><b><span lang=3DEN-US>TECHNICAL =
+INFORMATION<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Position Papers debating the =
+paradox as it
+relates to a Theme as well as Technical Papers clearly identifying how =
+the
+specific contributions fit to an overall working solution, are =
+solicited.
+&nbsp;The Position Papers will be presented in the Forum plenary, while =
+the
+Technical Papers will be presented in the Workshops dedicated to each =
+Theme.
+All submitted papers and posters will be rigorously reviewed by the =
+committee
+set up by the Theme Chairs. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Conference language is =
+English.&nbsp; All
+paper submissions will be handled electronically. Please visit the =
+conference
+website - <a =
+href=3D"http://www.itrevolutions.org">www.itrevolutions.org</a> -
+for submission details related to each Theme. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Publication: The peer reviewed =
+Technical
+Papers will be published in the IEEE IT Revolutions Proceedings before =
+the
+conference. The Position Papers will be published post-conference in a =
+Book
+&quot;IT Revolutions&quot; by Springer in the series of Lecture Notes of
+ICST&nbsp; (LNICST). The Book will conclude with the recommendations and
+guidelines resulted from the Forum Panels and =
+deliberations.&nbsp;&nbsp;&nbsp; <o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>At least one listed author on =
+the final
+paper must register for and attend the IT Revolutions =
+Forum.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Exhibit: In addition to the =
+Workshops and
+Panels - industry will have the opportunity to expose their latest =
+products and
+present to corporate attendees, industries and the highest level of =
+academics,
+forging the way for the IT Revolution in society. &nbsp;For further =
+information
+about the Exhibit please contact ICST at <a =
+href=3D"mailto:exhibition@icst.org">exhibition@icst.org</a><o:p></o:p></s=
+pan></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><b><span lang=3DEN-US>SUBMISSION INSTRUCTIONS =
+<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>For *POSITION PAPERS* please =
+prepare your
+paper using the guidelines and templates in DOC or PDF format, or format
+downloaded from Springer's LNICST website: <a
+href=3D"ftp://ftp.springer.de/pub/tex/latex/lnicst/author/instructions/ty=
+peinst.pdf">ftp://ftp.springer.de/pub/tex/latex/lnicst/author/instruction=
+s/typeinst.pdf</a>
+and from <a =
+href=3D"http://www.itrevolutions.org">www.itrevolutions.org</a><o:p></o:p=
+></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>For *TECHNICAL PAPERS* please =
+prepare your
+paper in general IEEE format. You may read the detailed guidelines for =
+IEEE
+publications in the IEEE Author's Kit to be found on <a
+href=3D"http://www.itrevolutions.org">www.itrevolutions.org</a> =
+website.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>You may find further information =
+and the
+complete Author's Kits here: <a =
+href=3D"http://www.itrevolutions.org">www.itrevolutions.org</a><o:p></o:p=
+></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><b><span lang=3DEN-US>IMPORTANT =
+DATES<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Submission deadline:&nbsp; 30th =
+September,
+2008<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Acceptance notification:&nbsp; =
+1st
+November, 2008<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Camera Ready:&nbsp; 1st =
+December, 2008<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span =
+lang=3DEN-US>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span =
+lang=3DEN-US>SPONSORS/PARTNERS<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US>Technical Co-Sponsors: IEEE and =
+Create-Net<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><b><span lang=3DEN-US>FOR FURTHER =
+INFORMATION</span></b><span
+lang=3DEN-US> please send a message to: <a =
+href=3D"mailto:itrevolutions@icst.org">itrevolutions@icst.org</a>
+or visit: <a =
+href=3D"http://www.itrevolutions.org">www.itrevolutions.org</a></span><o:=
+p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0078_01C91A6D.0FCF6FA0--
+
+
+--===============0414582931==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0414582931==--
+

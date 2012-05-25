@@ -1,0 +1,324 @@
+From - Thu Dec 10 14:32:45 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs765280waa;
+        Fri, 25 Jul 2008 13:15:35 -0700 (PDT)
+Received: by 10.114.12.9 with SMTP id 9mr2544510wal.121.1217016935045;
+        Fri, 25 Jul 2008 13:15:35 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id n32si18044131wag.47.2008.07.25.13.15.33;
+        Fri, 25 Jul 2008 13:15:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6PKFWf2007789
+	for <jpprost@gmail.com>; Sat, 26 Jul 2008 06:15:32 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m6PKFWdc027599
+	for <jpprost@mailbox.ics.mq.edu.au>; Sat, 26 Jul 2008 06:15:32 +1000
+X-ASG-Debug-ID: 1217016930-0e4a02150000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id E73842284876
+	for <jpprost@mailbox.ics.mq.edu.au>; Sat, 26 Jul 2008 06:15:30 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id 2UUMcqbGni7dpZDL for <jpprost@mailbox.ics.mq.edu.au>; Sat, 26 Jul 2008 06:15:30 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6PKFSj0007775
+	for <jpprost@ICS.MQ.EDU.AU>; Sat, 26 Jul 2008 06:15:29 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 467EF39BAB;
+	Fri, 25 Jul 2008 22:15:24 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 8184454 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Fri, 25 Jul 2008
+          22:15:23 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit01.kulnet.kuleuven.be (cavuit01.kulnet.kuleuven.be
+          [134.58.240.43]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 9FE5139193 for <chr@listserv.cc.kuleuven.ac.be>; Fri, 25 Jul 2008
+          22:15:23 +0200 (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit01.kulnet.kuleuven.be (Postfix) with ESMTP
+          id E22137B9D7B for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25 Jul 2008
+          22:15:17 +0200 (CEST)
+Received: from hermes.cs.kuleuven.be (hermes.cs.kuleuven.be [134.58.40.3]) by
+          cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id D7B98341AE for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25 Jul 2008 22:15:17 +0200
+          (CEST)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id m6PKFCsv030831 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25 Jul 2008 22:15:12 +0200
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id m6PKFC5L009602 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25 Jul 2008 22:15:12 +0200
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 09546-01-2 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25 Jul 2008 22:15:08 +0200
+          (CEST)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id m6PKExiG009551 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25
+          Jul 2008 22:14:59 +0200
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.be [134.58.45.101]) by
+          nifl.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          m6PKEvAh001603 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT) for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 25
+          Jul 2008 22:14:58 +0200
+X-X-Sender: toms@"ender.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="8323329-878149829-1217016898=:8100"
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=0.366, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44, SUBJ_ALL_CAPS 1.81)
+X-KULeuven-Envelope-From: tom.schrijvers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0807252214170.8100@ender.cs.kuleuven.be.>
+Date:         Fri, 25 Jul 2008 22:14:57 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] CFP: CICLOPS 2008
+Subject: [CHR] CFP: CICLOPS 2008
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1217016931
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.846
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--8323329-878149829-1217016898=:8100
+Content-Type: TEXT/PLAIN; format=flowed; charset=iso-8859-15
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+                     C A L L   F O R   P A P E R S
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D
+
+
+                              CICLOPS 2008
+
+                      Colloquium on Implementation
+              of Constraint and LOgic Programming Systems
+
+     (URL: http://www.clip.dia.fi.upm.es/Conferences/CICLOPS-2008/)
+
+         to be held in Udine (Italy) at the occasion of ICLP'08
+
+
+                             December, 2008
+
+
+
+Important dates and other relevant information
+----------------------------------------------
+
+   * Abstract submission: September 1
+   * Paper submission: September 8
+   * Notification of acceptance: October 1
+   * Final version due: October 17
+   * Workshop dates: TBD
+
+Submission will be done through EasyChair using the URL
+http://www.easychair.org/conferences/?conf=3Dciclops08 .
+
+
+Topics of interest
+------------------
+
+This  workshop aims  at discussing  and exchanging  experience  on the
+design, implementation, and  optimization of logic, constraint (logic)
+programming  systems, and  systems intimately  related to  logic  as a
+means  to   express  computations.   Experience  backed  up   by  real
+implementations and their evaluation will be given preference, as well
+as descriptions of work in progress in that direction.
+
+Topics include, but are not limited to:
+
+   * Standard and alternative sequential implementation schemes (e.g.,
+     generalization / modification of the WAM, translation to
+     lower-level and/or general-purpose languages, etc.)
+
+   * Implementation of parallel and concurrent logic and constraint
+     programming systems.
+
+   * Compile-time analysis and its application to code generation.
+
+   * Interaction between high-level optimizations / transformations /
+     specialization and low-level issues.
+
+   * Memory management, indexing, and garbage collection issues.
+
+   * Balance between compile-time effort and run-time machinery.
+
+   * Implementation techniques for declarative programming paradigms
+     with basis on, or extending, logic and constraint programming,
+     such as non-monotonic reasoning, inductive logic programming,
+     co-inductive logic programming, contextual logic programming, etc.
+
+
+   * Implementation of systems closely related to, or based on, logic,
+     such as theorem provers and natural language processing systems.
+
+   * Automatic performance evaluation of logic and constraint
+     programming systems.
+
+   * User-oriented tools for performance evaluation and enhancement.
+
+   * Software design with / for LP/CP systems: components, code
+     patterns and rules, etc.
+
+   * Design and implementation of programming environments.
+
+   * Experiences from using systems in real-life applications.
+
+
+Workshop Goals
+--------------
+
+Our  intent is  to  bring  together, in  an  informal setting,  people
+involved  in  research   on  sequential  and  parallel  implementation
+technologies  for  logic  and  constraint  programming  languages  and
+systems, in  order to  promote the exchange  of ideas and  feedback on
+recent developments. We hope that  the workshop will provide a meeting
+point for  people working  on implementation technology  for different
+aspects of logic and constraint-based languages and systems.
+
+
+Rationale and History
+---------------------
+
+Progress in computing technology,  including the now readily available
+multicore processors, increased  memory capacity and bandwidth, faster
+networking  technology,  and   O.S.  support  for  cluster  computing,
+combined  with recent  advances  in compilation  technologies and  the
+wider  adoption   of  alternative  constraint/logic-based  programming
+languages,  are making  high-level languages  to be  regarded  as good
+candidates for programming  complex, demanding applications. A witness
+of this  very interesting  trend is the  interest of Intel  with their
+sponsorship  of the DAMP  series of  workshops. Logic  Programming and
+Constraint  Programming,   in  particular,  offer  one   of  the  best
+alternatives, as  they couple a very  high level of  abstraction and a
+declarative nature with flexibility  its execution model, which can be
+adapted to different scenarios.
+
+An orthogonal but synergistic  issue in the pursue of high-performance
+and  high-level  languages   comes  from  advances  in  implementation
+techniques for logic and constraint languages. These techniques aim at
+achieving  both design flexibility  and good  performance in  terms of
+speed and memory consumption,  thus making those languages and systems
+more  amenable  than ever  for  real  world applications.  Maintaining
+flexibility without  unnecessarily sacrificing performance,  and while
+retaining a  high level which  relieves the programmer  from burdening
+tasks,  requires   sophisticated  technology  whose   exploration  and
+development is one the aims of this workshop.
+
+This  workshop  continues  a  tradition  of  successful  workshops  on
+Implementations of Logic Programming  Systems, previously held with in
+Budapest  (1993) and  Ithaca  (1994), the  Compulog  Net workshops  on
+Parallelism and  Implementation Technologies held in  Madrid (1993 and
+1994), Utrecht (1995) and Bonn (1996), the Workshop on Parallelism and
+Implementation Technology for (Constraint) Logic Programming Languages
+held in  Port Jefferson (1997), Manchester (1998),  Las Cruces (1999),
+and London (2000), and  more recently the Colloquium on Implementation
+of Constraint and LOgic  Programming Systems in Paphos (Cyprus, 2001),
+Copenhagen (2002),  Mumbai (2003),  Saint Malo (France,  2004), Sitges
+(Spain, 2005), Seattle (U.S.A., 2006) and Porto (Portugal, 2007).
+
+
+Submission Information
+----------------------
+
+Authors  are invited  to  submit  papers written  in  English and  not
+exceeding 12 pages and using  LNCS format. Authors who wish to prepare
+papers in formats other than LaTeX are kindly requested to contact the
+organization beforehand in  order to make sure that  we have available
+the  right tools  to process  the files  (if needed),  or in  order to
+receive detailed format instructions otherwise.
+
+
+Organization
+------------
+
+Program Committee:
+
+   * Slim Abdennadher (Egypt)
+   * Roberto Bagnara (Italy)
+   * Amadeo Casas (U.S.A.)
+   * Henning Christiansen (Denmark)
+   * Gregory Duck (Australia)
+   * Hai-Feng Guo (U.S.A.)
+   * Remy Haemmerle (Spain)
+   * Jos=E9 F. Morales (Spain)
+   * Ulrich Neumerkel (Austria)
+   * Phuong-Lan Nguyen (France)
+   * Ricardo Rocha (Portugal)
+   * Tom Schrijvers (Belgium)
+   * Paul Tarau (U.S.A.)
+   * Jan Wielemaker (The Netherlands)
+   * Manuel Carro (Spain)
+   * Bart Demoen (Belgium)
+
+
+Workshop Coordinators:
+
+Manuel Carro                            Bart Demoen
+http://clip.dia.fi.upm.es/~mcarro/      http://www.cs.kuleuven.be/~bmd/
+Phone: +34-91-3367455                   Phone: +32 (0)16 327547
+
+Please address any question regarding the workshop organization to the
+address ciclops-org =3Dat=3D clip.dia.fi.upm.es
+
+
+Invited Speaker:
+
+TBD
+
+
+Proceedings
+-----------
+
+We plan for the informal  workshop proceedings to be available on-line
+at the Computing Research Repository after the workshop. An electronic
+copy will also be distributed during the conference.
+
+Acknowledgments and Support
+---------------------------
+
+The organizers  wish to  thank the School  of Computer Science  of the
+UPM, the Computer  Science Department of KU Leuven  for their support,
+and the CLIP Lab of the UPM for the hosting and facilities provided.
+
+
+
+
+
+Message:     Address:                               Action:
+help         majordomo@clip.dia.fi.upm.es           Info. on useful command=
+s
+subscribe    ciao-users-request@clip.dia.fi.upm.es  Subscribe to this list
+unsubscribe  ciao-users-request@clip.dia.fi.upm.es  Unsubscribe from this l=
+ist
+<whatever>   ciao-users@clip.dia.fi.upm.es          Send message to list
+---------------------------------------------------------------------------=
+--
+Archived messages: http://www.clip.dia.fi.upm.es/Mail/ciao-users/
+---------------------------------------------------------------------------=
+--
+--8323329-878149829-1217016898=:8100--

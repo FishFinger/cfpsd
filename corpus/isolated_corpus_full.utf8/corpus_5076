@@ -1,0 +1,243 @@
+From - Thu Dec 10 14:36:35 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs50180fap;
+        Fri, 24 Apr 2009 07:41:57 -0700 (PDT)
+Received: by 10.151.75.3 with SMTP id c3mr2604404ybl.86.1240584117029;
+        Fri, 24 Apr 2009 07:41:57 -0700 (PDT)
+Return-Path: <sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu>
+Received: from lists2.andrew.cmu.edu (LISTS2.andrew.cmu.edu [128.2.10.216])
+        by mx.google.com with ESMTP id 1si2047628gxk.92.2009.04.24.07.41.56;
+        Fri, 24 Apr 2009 07:41:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) client-ip=128.2.10.216;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) smtp.mail=sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from LISTS2.andrew.cmu.edu (localhost [127.0.0.1])
+	by lists2.andrew.cmu.edu (8.14.1/8.13.8) with ESMTP id n3OEfNwm014491
+	for <jpprost@gmail.com>; Fri, 24 Apr 2009 10:41:56 -0400
+X-Mailman-Handler: $Id: mm-handler,v 1.2 2009/03/26 12:45:11 dave64 Exp $
+Received: from mail-bw0-f157.google.com (mail-bw0-f157.google.com
+	[209.85.218.157])
+	by lists2.andrew.cmu.edu (8.14.1/8.13.8) with ESMTP id n3OCMsfD005024
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Fri, 24 Apr 2009 08:22:55 -0400
+Received: by bwz1 with SMTP id 1so1283812bwz.1
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Fri, 24 Apr 2009 05:22:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:date
+	:x-google-sender-auth:message-id:subject:from:to:content-type;
+	bh=N00XEr6/xsilryl/8NX/F/bVfoxDQByUIsRxkH7tU94=;
+	b=mKhguQ2+pP+kgs7L3xSHxGVdDMLr8AdJbIb3kHJTSDik/NbccGRw3jWTLe8vsbbVaK
+	fQxjMPRw8N27ClC6lYIhcij480cxvkaNroqTtLOlCtY9WB2t92SrT0MKA5NTyVWOB9iY
+	7wXG10GWk9KPx6tbTWuVVevMNnJ0qUCamIvOQ=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type;
+	b=rJJypoCs5UGQaAV8irOUcneBz8yGEe1LjGUYengxy6Fvn+42oqz6Yz/+Yxfj14KFN5
+	2zMb73A0enAWlCtJ0F5rOTUxi2rFJVBDaMz1rLShPoshTuJU60jK5TLzRQh/YINzH+fk
+	aKbLJC3vnBLKHIZWy9Kcts56qVR9AQ2iXNvQI=
+MIME-Version: 1.0
+Received: by 10.223.119.84 with SMTP id y20mr702165faq.14.1240575773969; Fri, 
+	24 Apr 2009 05:22:53 -0700 (PDT)
+Date: Fri, 24 Apr 2009 14:22:53 +0200
+X-Google-Sender-Auth: 48a38c9a57981cde
+Message-ID: <fc76b9ca0904240522t70196830xbaec062e526cdc9d@mail.gmail.com>
+From: Laura Kallmeyer <lk@sfs.uni-tuebingen.de>
+To: sigsem@aclweb.org, sigparse-list@lists.andrew.cmu.edu,
+        sigphon@cs.swarthmore.edu, CORPORA@uib.no, mol@cs.earlham.edu,
+        acl-news@krusty.si.umich.edu
+X-PMX-Version: 5.5.2.363555, Antispam-Engine: 2.6.1.350677,
+	Antispam-Data: 2009.4.24.121045
+X-Spam-Clean: 12% (CTYPE_MULTIPART_NO_QUOTE 0.5, WEBMAIL_REPLYTO_NOT_FROM 0.5,
+	BODY_SIZE_6000_6999 0, BODY_SIZE_7000_LESS 0, TO_NO_NAME 0,
+	WEBMAIL_SOURCE 0, __CP_URI_IN_BODY 0, __CT 0,
+	__CTYPE_HAS_BOUNDARY 0, __CTYPE_MULTIPART 0,
+	__CTYPE_MULTIPART_ALT 0, __FRAUD_419_WEBMAIL 0,
+	__FRAUD_419_WEBMAIL_SENDER 0, __HAS_HTML 0, __HAS_MSGID 0,
+	__HELO_GMAIL 0, __MIME_HTML 0, __MIME_VERSION 0, __RDNS_GMAIL 0,
+	__SANE_MSGID 0, __STOCK_PHRASE_7 0, __TO_MALFORMED_2 0)
+X-Spam-Score: 12%
+X-SpamAssassin-Clean: (HTML_10_20,HTML_MESSAGE,SPF_PASS)
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Mailman-Approved-At: Fri, 24 Apr 2009 10:41:22 -0400
+Subject: SIGParse: FG 09 deadline extension
+X-BeenThere: sigparse-list@lists.andrew.cmu.edu
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: mailing list for parsing interest group of computational linguistics
+	<sigparse-list.lists.andrew.cmu.edu>
+List-Unsubscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=unsubscribe>
+List-Archive: <https://lists.andrew.cmu.edu/mailman/private/sigparse-list>
+List-Post: <mailto:sigparse-list@lists.andrew.cmu.edu>
+List-Help: <mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=help>
+List-Subscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1975745908=="
+Sender: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+Errors-To: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+X-Spam-Notice: Not scanning again, previously scanned by 127.0.0.1
+X-SpamAssassin-Notice: not scanning mail from localhost
+
+--===============1975745908==
+Content-Type: multipart/alternative; boundary=001636c5c1d6530db604684c0e93
+
+--001636c5c1d6530db604684c0e93
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+++++++++++++++
+DEADLINE for paper submission
+EXTENDED to May 3rd, 2009
+++++++++++++++
+
+The 14th conference on Formal Grammar
+
+Bordeaux, France. July 25-26, 2009
+
+Call for papers
+
+Aims and Scope
+
+FG provides a forum for the presentation of new and original research on
+formal grammar, mathematical linguistics and the application of formal
+and mathematical methods to the study of natural language. Themes of
+interest include, but are not limited to,
+
+   * formal and computational phonology, morphology, syntax, semantics
+     and pragmatics;
+   * model-theoretic and proof-theoretic methods in linguistics;
+   * logical aspects of linguistic structure;
+   * constraint-based and resource-sensitive approaches to grammar;
+   * learnability of formal grammar;
+   * integration of stochastic and symbolic models of grammar;
+   * foundational, methodological and architectural issues in grammar;
+   * mathematical foundations of statistical approaches to linguistic
+     analysis.
+
+
+Previous conferences in this series have welcomed papers from a wide
+variety of frameworks.
+
+Proceedings
+
+Submissions will be reviewed anonymously by at least three reviewers.
+Accepted papers will be published after the conference as volume number
+5591 in the Springer series Lecture Notes in Computer Science (under the
+FoLLI LNAI subline).
+
+Submission Details
+
+We invite electronic submissions of original, unpublished 30-minute
+papers (including questions, comments, and discussion). Papers should
+report original work which was not presented in other conferences.
+However, simultaneous submission is allowed, provided that the authors
+indicate other conference to which the work was submitted on the paper
+submission form. Note that accepted papers can only be presented in one
+of the venues.
+
+
+Authors are invited to submit anonymous papers presenting original and
+unpublished research. Papers should not exceed 16 pages and should be
+formatted according to the usual LNCS article style. The needed style
+files are available at
+ftp://ftp.springer.de/pub/tex/latex/llncs/latex2e/llncs2e.zip.
+
+
+The submission deadline is May 3rd, 2009. Papers must be submitted
+electronically at http://www.easychair.org/conferences/?conf=fg09.
+
+Important Dates
+
+   * May 3rd, 2009: Deadline for paper submission.
+   * June 5th, 2009: Notification of acceptance.
+   * June 28th, 2009: Final version due.
+   * July 25-26, 2009: Conference dates.
+
+-- 
+Laura Kallmeyer
+http://www.sfs.uni-tuebingen.de/~lk/<http://www.sfs.uni-tuebingen.de/%7Elk/>
+SFB 441, Universitaet Tuebingen
+Nauklerstr. 35, 72074 Tuebingen, Germany
+Phone +49 (0)7071 2977513, Fax +49 (0)7071 295830
+
+--001636c5c1d6530db604684c0e93
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+++++++++++++++<br>DEADLINE for paper submission <br>EXTENDED to May 3rd, 20=
+09<br>++++++++++++++<br><br>The 14th conference on Formal Grammar<br><br>Bo=
+rdeaux, France. July 25-26, 2009<br><br>Call for papers<br><br>Aims and Sco=
+pe<br>
+<br>FG provides a forum for the presentation of new and original research o=
+n<br>formal grammar, mathematical linguistics and the application of formal=
+<br>and mathematical methods to the study of natural language. Themes of<br=
+>
+interest include, but are not limited to,<br><br>=A0=A0 * formal and comput=
+ational phonology, morphology, syntax, semantics<br>=A0=A0=A0=A0 and pragma=
+tics;<br>=A0=A0 * model-theoretic and proof-theoretic methods in linguistic=
+s;<br>=A0=A0 * logical aspects of linguistic structure;<br>
+=A0=A0 * constraint-based and resource-sensitive approaches to grammar;<br>=
+=A0=A0 * learnability of formal grammar;<br>=A0=A0 * integration of stochas=
+tic and symbolic models of grammar;<br>=A0=A0 * foundational, methodologica=
+l and architectural issues in grammar;<br>
+=A0=A0 * mathematical foundations of statistical approaches to linguistic<b=
+r>=A0=A0=A0=A0 analysis.<br><br><br>Previous conferences in this series hav=
+e welcomed papers from a wide<br>variety of frameworks.<br><br>Proceedings<=
+br><br>Submissions will be reviewed anonymously by at least three reviewers=
+.<br>
+Accepted papers will be published after the conference as volume number<br>=
+5591 in the Springer series Lecture Notes in Computer Science (under the<br=
+>FoLLI LNAI subline).<br><br>Submission Details<br><br>We invite electronic=
+ submissions of original, unpublished 30-minute<br>
+papers (including questions, comments, and discussion). Papers should<br>re=
+port original work which was not presented in other conferences.<br>However=
+, simultaneous submission is allowed, provided that the authors<br>indicate=
+ other conference to which the work was submitted on the paper<br>
+submission form. Note that accepted papers can only be presented in one<br>=
+of the venues.<br><br><br>Authors are invited to submit anonymous papers pr=
+esenting original and<br>unpublished research. Papers should not exceed 16 =
+pages and should be<br>
+formatted according to the usual LNCS article style. The needed style <br>f=
+iles are available at<br><a href=3D"ftp://ftp.springer.de/pub/tex/latex/lln=
+cs/latex2e/llncs2e.zip">ftp://ftp.springer.de/pub/tex/latex/llncs/latex2e/l=
+lncs2e.zip</a>.<br>
+<br><br>The submission deadline is May 3rd, 2009. Papers must be submitted<=
+br>electronically at <a href=3D"http://www.easychair.org/conferences/?conf=
+=3Dfg09">http://www.easychair.org/conferences/?conf=3Dfg09</a>.<br><br>Impo=
+rtant Dates<br>
+<br>=A0=A0 * May 3rd, 2009: Deadline for paper submission.<br>=A0=A0 * June=
+ 5th, 2009: Notification of acceptance.<br>=A0=A0 * June 28th, 2009: Final =
+version due.<br>=A0=A0 * July 25-26, 2009: Conference dates.<br><br>-- <br>=
+Laura Kallmeyer<br>
+<a href=3D"http://www.sfs.uni-tuebingen.de/%7Elk/" target=3D"_blank">http:/=
+/www.sfs.uni-tuebingen.de/~lk/</a><br>SFB 441, Universitaet Tuebingen<br>Na=
+uklerstr. 35, 72074 Tuebingen, Germany<br>Phone +49 (0)7071 2977513, Fax +4=
+9 (0)7071 295830<br>
+
+
+
+--001636c5c1d6530db604684c0e93--
+
+--===============1975745908==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+---------------------------------------------
+* To send mail to the list of all
+-  subscribers, send your message to:
+-    "sigparse-list@lists.andrew.cmu.edu"
+-
+* To send mail to the list administrator,
+-  send your message to:
+-  "owner-sigparse-list@lists.andrew.cmu.edu"
+----------------------------------------------
+-
+--===============1975745908==--

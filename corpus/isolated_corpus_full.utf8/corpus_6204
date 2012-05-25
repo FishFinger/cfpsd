@@ -1,0 +1,233 @@
+From - Thu Dec 10 14:38:35 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.61.201 with SMTP id u9cs31308bkh;
+        Wed, 14 Oct 2009 02:24:12 -0700 (PDT)
+Received: by 10.211.173.20 with SMTP id a20mr10115047ebp.33.1255512249392;
+        Wed, 14 Oct 2009 02:24:09 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 7si6571228ewy.58.2009.10.14.02.24.06;
+        Wed, 14 Oct 2009 02:24:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A253723E32; Wed, 14 Oct 2009 11:24:06 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00 autolearn=ham
+	version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5A99123AF3;
+	Wed, 14 Oct 2009 11:23:03 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 194A83D3B;
+	Wed, 14 Oct 2009 11:23:03 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 8SOFDe5XHmYf; Wed, 14 Oct 2009 11:23:02 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 23F933D2A;
+	Wed, 14 Oct 2009 11:23:01 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C93AD3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  5 Oct 2009 15:19:14 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id p2RujzP8sWlm for <elsnet-list@mailman.elsnet.org>;
+	Mon,  5 Oct 2009 15:19:14 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 969023D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  5 Oct 2009 15:18:54 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 74AB224396; Mon,  5 Oct 2009 15:18:54 +0200 (MEST)
+X-Greylist: delayed 1177 seconds by postgrey-1.28 at newjura;
+	Mon, 05 Oct 2009 15:18:49 MEST
+Received: from mxf.liv.ac.uk (mxf.liv.ac.uk [138.253.100.60])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C9C6624035
+	for <elsnet-list@let.uu.nl>; Mon,  5 Oct 2009 15:18:49 +0200 (MEST)
+Received: from mailhubd.liv.ac.uk ([138.253.100.81])
+	by mxf.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <mjw@liverpool.ac.uk>) id 1Mun9j-0006Yt-UZ
+	for elsnet-list@let.uu.nl; Mon, 05 Oct 2009 13:59:11 +0100
+Received: from localhost ([127.0.0.1] helo=mailhubd.liv.ac.uk)
+	by mailhubd.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <mjw@liverpool.ac.uk>) id 1Mun9j-00007A-TA
+	for elsnet-list@let.uu.nl; Mon, 05 Oct 2009 13:59:11 +0100
+Received: from bhex7hub01.livad.liv.ac.uk ([138.253.252.158])
+	by mailhubd.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <mjw@liverpool.ac.uk>) id 1Mun9j-000076-PO
+	for elsnet-list@let.uu.nl; Mon, 05 Oct 2009 13:59:11 +0100
+Received: from STAFFMBX2.livad.liv.ac.uk ([fe80::71f5:c41c:9afe:951d]) by
+	BHEX7HUB01.livad.liv.ac.uk ([fe80::551d:92a9:4271:52a0%10]) with mapi;
+	Mon, 5 Oct 2009 13:59:11 +0100
+From: "Wooldridge, Michael" <mjw@liverpool.ac.uk>
+To: "elsnet-list@let.uu.nl" <elsnet-list@let.uu.nl>
+Date: Mon, 5 Oct 2009 13:59:10 +0100
+Thread-Topic: PAIS-2010 -- 6th Conf on Prestigious Applications of
+	Intelligent Systems
+Thread-Index: AcpFu6GnV+Bat+zzQaOxVZwHjDSSIA==
+Message-ID: <48BBE53F-4A56-48B1-98C4-9E9CB07E98AB@liverpool.ac.uk>
+Accept-Language: en-GB
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-GB
+MIME-Version: 1.0
+X-Mailman-Approved-At: Wed, 14 Oct 2009 11:23:00 +0200
+Cc: "Wooldridge, Michael" <mjw@liverpool.ac.uk>
+Subject: [Elsnet-list] CfP: PAIS-2010 -- 6th Conf on Prestigious
+ Applications of Intelligent Systems
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1943343168=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============1943343168==
+Content-Language: en-US
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+DQojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjDQojIyBQQUlTLTIwMTAgIyMgICAgICBQcmVsaW1pbmFyeSBDYWxsIGZv
+ciBQYXBlcnMgICAgICAgIyMgUEFJUy0yMDEwICMjDQojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQoNClRoZSBTaXh0
+aCBDb25mZXJlbmNlIG9uIFByZXN0aWdpb3VzIEFwcGxpY2F0aW9ucyBvZiBJbnRlbGxpZ2VudCBT
+eXN0ZW1zDQoNCjE2LTIwIEF1Z3VzdCAyMDEwICMjIExpc2JvbiwgUG9ydHVnYWwNCg0KaHR0cDov
+L2VjYWkyMDEwLmFwcGlhLnB0Lw0KDQpEZWFkbGluZSBmb3Igc3VibWlzc2lvbiBvZiBhYnN0cmFj
+dHM6ICAgMTUgRmVicnVhcnkgMjAxMA0KRGVhZGxpbmUgZm9yIHN1Ym1pc3Npb24gb2YgZnVsbCBw
+YXBlcnM6IDIyIEZlYnJ1YXJ5IDIwMTANCg0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KIyMgSU5UUk9EVUNUSU9O
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIw0K
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIw0KDQpUaGUgUEFJUyAyMDEwIFByb2dyYW0gQ29tbWl0dGVlIGludml0ZXMg
+cGFwZXJzIGRlc2NyaWJpbmcgaW5ub3ZhdGl2ZQ0KYXBwbGljYXRpb25zIG9mIEFJIHRlY2huaXF1
+ZXMgdG8gcmVhbC13b3JsZCBzeXN0ZW1zIGFuZCBwcm9ibGVtcyBmb3INCnRoZSBUZWNobmljYWwg
+UHJvZ3JhbSBvZiB0aGUgNnRoIEludGVybmF0aW9uYWwgQ29uZmVyZW5jZSBvbiB0aGUNClByZXN0
+aWdpb3VzIEFwcGxpY2F0aW9ucyBvZiBJbnRlbGxpZ2VudCBTeXN0ZW1zIOKIkiBhIHN1Yi1jb25m
+ZXJlbmNlIG9mDQp0aGUgMTl0aCBFdXJvcGVhbiBDb25mZXJlbmNlIG9uIEFydGlmaWNpYWwgSW50
+ZWxsaWdlbmNlIChFQ0FJLTIwMTApLg0KDQpBcnRpZmljaWFsIEludGVsbGlnZW5jZSAoQUkpIGlz
+IGEgY2VudHJhbCB0b3BpYyBpbiBjb250ZW1wb3JhcnkNCmNvbXB1dGVyIHNjaWVuY2UgYW5kIGlu
+Zm9ybWF0aWNzLiAgVGhlIGZydWl0cyBvZiBmaWZ0eSB5ZWFycyBvZiBBSQ0KcmVzZWFyY2ggaGF2
+ZSBiZW5lZml0ZWQgYXBwbGljYXRpb24gZG9tYWlucyBhcyBkaXNwYXJhdGUgYXMgaW5kdXN0cmlh
+bA0Kc3lzdGVtcyBjb250cm9sIGFuZCBtZWRpY2luZS4gIFRoZSBtaWxlc3RvbmUgZXZlbnRzIGlu
+IEFJIHJlc2VhcmNoIGFyZQ0KaW5jcmVhc2luZ2x5IHJlZ2FyZGVkIGFzIG1pbGVzdG9uZXMgaW4g
+aHVtYW4gc2NpZW50aWZpYyBhbmQNCnRlY2hub2xvZ2ljYWwgZGV2ZWxvcG1lbnQ6IGZyb20gdGhl
+IGZpcnN0IGNoZXNzIHBsYXlpbmcgcHJvZ3JhbSB0bw0KZGVmZWF0IGEgcmVpZ25pbmcgd29ybGQg
+Y2hhbXBpb24gdW5kZXIgc3RhbmRhcmQgY2hlc3MgdG91cm5hbWVudA0KcnVsZXMsIHRvIHRoZSBm
+aXJzdCByb2JvdCB0byBhdXRvbm9tb3VzbHkgdHJhdmVyc2UgMTUwIG1pbGVzIG9mIHJvdWdoDQp0
+ZXJyYWluLiBUZWNobmlxdWVzLCByZXN1bHRzLCBhbmQgY29uY2VwdHMgZGV2ZWxvcGVkIHVuZGVy
+IHRoZSBiYW5uZXINCm9mIEFJIHJlc2VhcmNoIGhhdmUgcHJvdmVkIHRvIGJlIG9mIGZ1bmRhbWVu
+dGFsIGltcG9ydGFuY2UgaW4gYXJlYXMNCnN1Y2ggYXMgZWNvbm9taWNzLCBwaGlsb3NvcGh5LCBs
+aW5ndWlzdGljcywgcHN5Y2hvbG9neSwgYW5kIGxvZ2ljYWwNCmFuYWx5c2lzLiBBbmQgb2YgY291
+cnNlLCBBSSByZW1haW5zIGEgdG9waWMgb2YgcGVyZW5uaWFsIGZhc2NpbmF0aW9uDQppbiBwb3B1
+bGFyIGN1bHR1cmUuDQoNClBhcGVycyBoaWdobGlnaHRpbmcgYWxsIGFzcGVjdHMgb2YgdGhlIGFw
+cGxpY2F0aW9uIG9mIGludGVsbGlnZW50DQpzeXN0ZW0gdGVjaG5vbG9neSBhcmUgbW9zdCB3ZWxj
+b21lLiBPdXIgYWltIGlzIHRvIHByb3ZpZGUgYSBmb3J1bSBmb3INCmFjYWRlbWljIGFuZCBpbmR1
+c3RyaWFsIHJlc2VhcmNoZXJzIGFuZCBwcmFjdGl0aW9uZXJzIHRvIHNoYXJlDQpleHBlcmllbmNl
+IGFuZCBpbnNpZ2h0cyBvbiB0aGUgYXBwbGljYWJpbGl0eSwgZGV2ZWxvcG1lbnQgYW5kDQpkZXBs
+b3ltZW50IG9mIGludGVsbGlnZW50IHN5c3RlbXMuIFBBSVMgaXMgdGhlIGxhcmdlc3Qgc2hvd2Nh
+c2UgaW4NCkV1cm9wZSBvZiByZWFsIGFwcGxpY2F0aW9ucyB1c2luZyBBSSB0ZWNobm9sb2d5IGFu
+ZCB0aGUgaWRlYWwgcGxhY2UgdG8NCm1lZXQgd2l0aCB0aG9zZSB3b3JraW5nIHRvIG1ha2Ugc3Vj
+Y2Vzc2Z1bCBhcHBsaWNhdGlvbnMuDQoNClBBSVMtMjAxMC9FQ0FJLTIwMTAgd2lsbCBiZSBoZWxk
+IGluIHRoZSBiZWF1dGlmdWwgYW5kIGhpc3RvcmljIGNpdHkgb2YNCkxpc2JvbiwgUG9ydHVnYWwu
+IFdpdGggZXhjZWxsZW50IG9wcG9ydHVuaXRpZXMgZm9yIHNpZ2h0c2VlaW5nIGFuZA0KZ2FzdHJv
+bm9teSwgTGlzYm9uIHByb21pc2VzIHRvIGJlIGEgd29uZGVyZnVsIHZlbnVlIGZvciBhIG1lbW9y
+YWJsZQ0KY29uZmVyZW5jZS4NCg0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KIyMgVE9QSUNTIE9GIElOVEVSRVNU
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIw0KIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIw0KDQpQYXBlcnMgYXJlIHdlbGNvbWUgb24gYWxsIG5vdmVsIGFuZCBzaWduaWZpY2Fu
+dCBhcHBsaWNhdGlvbnMgb2YNCmludGVsbGlnZW50IHN5c3RlbXMgLS0gdGhlIGZvbGxvd2luZyBs
+aXN0IG9mIGFwcGxpY2F0aW9uIGFyZWFzIGlzDQppbmRpY2F0aXZlIG9ubHk6DQoNCiogQUkgJiBB
+dXRvbm9tb3VzIFZlaGljbGVzDQoqIEFJICYgRWR1Y2F0aW9uDQoqIEFJICYgTGlmZSBTY2llbmNl
+cy9NZWRpY2luZQ0KKiBBSSAmIE1vYmlsZSBJVA0KKiBBSSAmIHRoZSBJbnRlcm5ldA0KKiBBSSAm
+IHRoZSBTZW1hbnRpYyBXZWINCiogQUkgJiBTZW5zb3IgTmV0d29ya3MNCg0KIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+Iw0KIyMgSU1QT1JUQU5UIERBVEVTICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAjIw0KIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIw0KDQpEZWFkbGluZSBmb3IgZWxlY3Ryb25p
+YyBhYnN0cmFjdHM6CQ0KCU1vbmRheSwJMTUgRmVicnVhcnkgMjAxMA0KDQpQYXBlciBzdWJtaXNz
+aW9uIGRlYWRsaW5lOgkNCglNb25kYXksCTIyIEZlYnJ1YXJ5IDIwMTANCg0KQXV0aG9yIHJlc3Bv
+bnNlIHBlcmlvZDoNCiAgCTE1LTE2IEFwcmlsIDIwMTANCg0KTm90aWZpY2F0aW9uIG9mIGFjY2Vw
+dGFuY2UvcmVqZWN0aW9uOgkNCglGcmlkYXksIDMwIEFwcmlsIDIwMTANCg0KQ29uZmVyZW5jZToN
+CgkxNi0yMCBBdWd1c3QgMjAxMA0KDQojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjDQojIyBTVUJNSVNTSU9OIElORk9S
+TUFUSU9OICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICMjDQojIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjDQoNClN1Ym1pc3Npb25zICBtdXN0ICAgbm90ICBleGNlZWQgICAqU0lYKiAgKDYp
+ICBwYWdlcyAgIGluICBjYW1lcmEtcmVhZHkNCmZvcm1hdC4gICBPdmVyLWxlbmd0aCAgICBzdWJt
+aXNzaW9ucyAgIHdpbGwgICBiZSAgICByZWplY3RlZCAgIHdpdGhvdXQNCnJldmlldy4gUGFwZXJz
+IHNob3VsZCBiZSBzdWJtaXR0ZWQgdXNpbmcgdGhlIEVDQUkgZm9ybWF0dGluZyBzdHlsZSwgdG8N
+CmJlIGF2YWlsYWJsZSBzb29uICBvbiB0aGUgY29uZmVyZW5jZSB3ZWJzaXRlICh0aGlzICB3aWxs
+IGJlIHZlcnkgY2xvc2UNCnRvIHByZXZpb3VzICBFQ0FJIHN0eWxlcykuIEVhY2ggIGFjY2VwdGVk
+IHBhcGVyIHdpbGwgYmUgIGFsbG9jYXRlZCBzaXgNCnBhZ2VzIGluIHRoZSBwcm9jZWVkaW5ncy4N
+Cg0KQWxsIHN1Ym1pc3Npb25zIHdpbGwgYmUgc3ViamVjdCB0byBwZWVyIHJldmlldyBieSB0aGUg
+UEFJUy0yMDEwDQpQcm9ncmFtbWUgQ29tbWl0dGVlLCBhbmQgZXZhbHVhdGVkIG9uIHRoZSBiYXNp
+cyBvZjogcmVsZXZhbmNlOw0Kc2lnbmlmaWNhbmNlIG9mIGNvbnRyaWJ1dGlvbjsgdGVjaG5pY2Fs
+IHF1YWxpdHk7IHNjaG9sYXJzaGlwOyBhbmQNCnF1YWxpdHkgb2YgcHJlc2VudGF0aW9uLg0KDQpS
+ZXZpZXdpbmcgZm9yIFBBSVMtMjAxMCB3aWxsIGJlIGJsaW5kOiByZXZpZXdlcnMgd2lsbCBub3Qg
+YmUgcHJlc2VudGVkDQp3aXRoIHRoZSBpZGVudGl0eSBvZiBwYXBlciBhdXRob3JzLiBUbyBhbGxv
+dyBmb3IgYmxpbmQgcmV2aWV3LCBhdXRob3INCm5hbWVzIGluIGEgc3VibWl0dGVkIHBhcGVyIG9y
+IHBvc3RlciBzaG91bGQgYmUgcmVwbGFjZWQgYnkgdGhlIHVuaXF1ZQ0KdHJhY2tpbmcgbnVtYmVy
+IGFzc2lnbmVkIGJ5IHRoZSBjb25mZXJlbmNlIHdlYnNpdGUgYXQgdGhlIHN1Ym1pc3Npb24NCm9m
+IGFuIGVsZWN0cm9uaWMgYWJzdHJhY3QuICBBdXRob3JzIHNob3VsZCBhdm9pZCB3cml0aW5nIGFu
+eXRoaW5nIHRoYXQNCm1ha2VzIHRoZWlyIGlkZW50aXR5IG9idmlvdXMgaW4gdGhlIHRleHQuICBT
+dWJtaXNzaW9ucyBzaG91bGQgYmUNCm9yaWdpbmFsLCBhbmQgaW4gcGFydGljdWxhciBzaG91bGQg
+bm90IHByZXZpb3VzbHkgaGF2ZSBiZWVuIGZvcm1hbGx5DQpwdWJsaXNoZWQuIChBcyBhIHJ1bGUg
+b2YgdGh1bWIsIGFueSBwdWJsaWNhdGlvbiB2ZW51ZSB3aXRoIGFuIElTQk4gb3INCklTU04gbnVt
+YmVyIGNvdW50cyBhcyBhIGZvcm1hbCBwdWJsaWNhdGlvbi4pIFN1Ym1pc3Npb25zIHNob3VsZCBu
+b3QgYmUNCnN1Ym1pdHRlZCBlbHNld2hlcmUgZHVyaW5nIHRoZSBQQUlTLTIwMTAgcmV2aWV3IHBo
+YXNlLg0KDQpUaGUgIHByaW1hcnkgICBhdXRob3JzICBvZiAgc3VibWl0dGVkICBwYXBlcnMgIHdp
+bGwgICBiZSAgb2ZmZXJlZCAgdGhlDQpvcHBvcnR1bml0eSAgdG8gcmVzcG9uZCAgdG8gdGhlICBy
+ZXZpZXdzIGZvciAgdGhlaXIgcGFwZXJzICBiZWZvcmUgdGhlDQpmaW5hbCBkZWNpc2lvbiBvbiBh
+Y2NlcHRhbmNlIG9yIG90aGVyd2lzZSBpcyBtYWRlLiBUaGUgYXV0aG9yIGZlZWRiYWNrDQpwaGFz
+ZSB3aWxsIGxhc3QgdHdvIGRheXMuDQoNClRoZSBwcm9jZWVkaW5ncyBvZiB0aGUgUEFJUyBjb25m
+ZXJlbmNlLCB0b2dldGhlciB3aXRoIHRob3NlIG9mIGl0cw0KYXNzb2NpYXRlZCBzeW1wb3NpYSwg
+RUNBSSBhbmQgU1RBSVJTLCB3aWxsIGJlIHB1Ymxpc2hlZCBhbmQNCmRpc3RyaWJ1dGVkIGJ5IElP
+UyBQcmVzcyBhcyBhIGJvb2sgYW5kIGFzIGEgQ0QtUk9NLiBUaGUgYXV0aG9ycyB3aWxsDQpiZSBy
+ZXNwb25zaWJsZSBmb3IgcHJvZHVjaW5nIGNhbWVyYS1yZWFkeSBjb3BpZXMgb2YgcGFwZXJzLCBj
+b25mb3JtaW5nDQp0byB0aGUgRUNBSS0yMDEwIGZvcm1hdHRpbmcgZ3VpZGVsaW5lcyBmb3IgaW5j
+bHVzaW9uIGluIHRoZQ0KcHJvY2VlZGluZ3MuICBBdCBsZWFzdCBvbmUgYXV0aG9yIG9mIGVhY2gg
+YWNjZXB0ZWQgcGFwZXIgb3IgcG9zdGVyIGlzDQpyZXF1aXJlZCB0byBhdHRlbmQgdGhlIGNvbmZl
+cmVuY2UgdG8gcHJlc2VudCB0aGUgY29udHJpYnV0aW9uLg0KDQoNCiMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCiMj
+IE9SR0FOSVNBVElPTgkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIyMNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMNCg0KUEFJUyBDb25mZXJlbmNlIENoYWlyOg0KDQoJ
+UnVkaSBTdHVkZXIgKEthcmxzcnVoZSBJbnN0aXR1dGUgb2YgVGVjaG5vbG9neSBbS0lUXSwgR2Vy
+bWFueSkNCgltYWlsdG86cnVkaS5zdHVkZXJAa2l0LmVkdQ0KDQpMb2NhbCBPcmdhbmlzYXRpb24g
+Y28tY2hhaXJzOg0KDQoJTHVpcyBBbnR1bmVzIChVbml2ZXJzaXR5IG9mIExpc2JvbiAmIEFQUElB
+LCBQb3J0dWdhbCkNCglKb8OjbyBCYWxzYSAoVW5pdmVyc2l0eSBvZiBMaXNib24sIFBvcnR1Z2Fs
+KQ0KDQoNCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMNCg0KDQo=
+
+--===============1943343168==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1943343168==--

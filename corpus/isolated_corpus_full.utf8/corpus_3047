@@ -1,0 +1,687 @@
+From - Thu Dec 10 14:31:46 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs64198waa;
+        Thu, 15 May 2008 02:29:48 -0700 (PDT)
+Received: by 10.115.59.4 with SMTP id m4mr2289841wak.104.1210843788155;
+        Thu, 15 May 2008 02:29:48 -0700 (PDT)
+Return-Path: <sentto-1622440-2593-1210843777-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id k21si5113310waf.8.2008.05.15.02.29.46;
+        Thu, 15 May 2008 02:29:48 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2593-1210843777-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.16;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2593-1210843777-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2593-1210843777-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; domainkeys=hardfail header.From=lpl-infos@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m4F9TjmZ027075
+	for <jpprost@gmail.com>; Thu, 15 May 2008 19:29:45 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id m4F9Tibh024774
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 15 May 2008 19:29:44 +1000 (EST)
+X-ASG-Debug-ID: 1210843756-5c9a00100000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 217E3D278A80
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 15 May 2008 19:29:16 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra1.its.mq.edu.au with ESMTP id J4tNplyRvjpyPnkY for <jpprost@mailbox.ics.mq.edu.au>; Thu, 15 May 2008 19:29:16 +1000 (EST)
+Received: from n40c.bullet.mail.sp1.yahoo.com (n40c.bullet.mail.sp1.yahoo.com [66.163.168.174])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with SMTP id m4F9Tc56027057
+	for <jpprost@ics.mq.edu.au>; Thu, 15 May 2008 19:29:39 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=ggMUlzwgOAjge+SiDrPUadse8Xd3G4Uc7Gsw38lkYvkDObR+mvvo0DhiqbqKx5QoV7MW8i3uGGbugoVs+EI44F0qstZAWEeakAzrN9nzjm+22UK7gtkTjskm0f9g92bz;
+Received: from [216.252.122.218] by n40.bullet.mail.sp1.yahoo.com with NNFMP; 15 May 2008 09:29:38 -0000
+Received: from [66.218.69.1] by t3.bullet.sp1.yahoo.com with NNFMP; 15 May 2008 09:29:38 -0000
+Received: from [66.218.67.103] by t1.bullet.scd.yahoo.com with NNFMP; 15 May 2008 09:29:38 -0000
+X-Yahoo-Newman-Id: 1622440-m2593
+X-Sender: bernarbel@gmail.com
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 16467 invoked from network); 15 May 2008 09:29:34 -0000
+X-Received: from unknown (66.218.67.94)
+  by m42.grp.scd.yahoo.com with QMQP; 15 May 2008 09:29:34 -0000
+X-Received: from unknown (HELO fk-out-0910.google.com) (209.85.128.189)
+  by mta15.grp.scd.yahoo.com with SMTP; 15 May 2008 09:29:33 -0000
+X-Received: by fk-out-0910.google.com with SMTP id 18so205208fkq.10
+        for <lpl-infos@yahoogroupes.fr>; Thu, 15 May 2008 02:29:32 -0700 (PDT)
+X-Received: by 10.124.68.13 with SMTP id q13mr1078482mka.170.1210843772345;
+        Thu, 15 May 2008 02:29:32 -0700 (PDT)
+X-Received: from ?192.168.0.198? ( [212.76.37.196])
+        by mx.google.com with ESMTPS id d6sm2793757fga.2.2008.05.15.02.29.31
+        (version=SSLv3 cipher=RC4-MD5);
+        Thu, 15 May 2008 02:29:31 -0700 (PDT)
+Message-Id: <p06230904c451b2a758ca@[192.168.0.198]>
+To: lpl-infos@yahoogroupes.fr
+X-Originating-IP: 209.85.128.189
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Bernard Bel <bernarbel@gmail.com>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Thu, 15 May 2008 11:28:53 +0200
+X-ASG-Orig-Subj: [lpl-infos] Literature_Conference_Athens_Greece
+Subject: [lpl-infos] Literature_Conference_Athens_Greece
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="nI92rIyJqynDCS4IEpqPqW6A244W5ioYQUaaR3T"
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1210843758
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.25
+X-Barracuda-Spam-Status: No, SCORE=0.25 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=BSF_SC0_MJ019, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.50413
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.25 BSF_SC0_MJ019          Custom Rule MJ019
+
+--nI92rIyJqynDCS4IEpqPqW6A244W5ioYQUaaR3T
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+From: "ATINER" <atiner@atiner.gr>
+Subject: Literature_Conference_Athens_Greece
+Date: Thu, 15 May 2008 10:25:03 +0300
+
+=20
+FINAL CALL FOR PAPERS AND PARTICIPATION
+INTERNATIONAL CONFERENCE ON
+PHILOLOGY, LITERATURES AND LINGUISTICS
+28-31 JULY 2008, ATHENS, GREECE
+=20
+The Athens Institute for Education and Research (AT.IN.E.R.) is organizing =
+its
+1st International conference on Philology, i.e. languages, literatures and
+linguistics, 28-31 July 2008. For more information about the conference and=
+ the
+institute please visit: <http://www.atiner.gr/docs/Literature.htm>www.atine=
+r.gr/docs/Literature.htm
+=20
+There are two types of conference registration fees. The first one is a bas=
+ic
+fee of 250 euro, covering access to all sessions, 2 lunches, coffee breaks =
+and
+conference materials. The second one, a full registration fee of 450 euro,
+covers access to all sessions, 2 lunches, coffee breaks, conference materia=
+ls, a
+Greek night of food and entertainment, a dinner, a half-day tour to an
+archaeological site in the Prefecture of Attica, and a special one-day crui=
+se to
+several Greek islands. Special arrangements will be made with local hotels =
+for a
+limited number of rooms at a special conference rate.
+=20
+The aim of the conference is to bring together scholars and students of
+languages, literatures and linguistics.  Areas of interest include (but are=
+ not
+confined to):
+=B7       Literatures and Languages
+-        Classics
+-        Medieval and Renaissance Literature
+-        Contemporary Literature
+-        Comparative Literature
+-        Drama, Film, Television, and other Media
+-        Poetry and Prose (Fictional and Non-fictional)
+-        Translation
+=B7       Linguistics
+-        Theoretical Linguistics
+-        Language Acquisition
+-        Teaching of Foreign Languages (including Technology in the classro=
+om)
+-        Sociolinguistics
+=20
+Selected papers will be published in Special Volumes of Conference Proceedi=
+ngs.
+=20
+Please submit a 300-word abstract by May 26th, 2008, by email <mailto:atine=
+r@atiner.gr>atiner@atiner.gr
+or mail, to: Dr. Gilda Socarras, Academic Member, ATINER & Assistant Profes=
+sor,
+Auburn University, USA.  Abstracts should include: Title of Paper, Family N=
+ame
+(s), First Name (s), Institutional Affiliation, Current Position, an email
+address and at least 3 keywords that best describe the subject of your
+submission.
+ If you want to participate without presenting a paper, i.e. chair a sessio=
+n,
+organize a panel, evaluate papers to be included in the conference proceedi=
+ngs
+or books, contribute to the editing, or any other offer to help please send=
+ an
+email to Dr. Gregory T. Papanikos, <mailto:gtp@atiner.gr>gtp@atiner.gr Dire=
+ctor, ATINER.
+=20
+=20
+
+
+--nI92rIyJqynDCS4IEpqPqW6A244W5ioYQUaaR3T
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>From: &quot;ATINER&quot; &lt;<a href=3D"mailto:atiner%40atin=
+er.gr">atiner@atiner.<wbr>gr</a>&gt;<br>
+Subject: Literature_Conferen<wbr>ce_Athens_<wbr>Greece<br>
+Date: Thu, 15 May 2008 10:25:03 &#43;0300<br>
+<br>
+FINAL CALL FOR PAPERS AND PARTICIPATION<br>
+INTERNATIONAL CONFERENCE ON<br>
+PHILOLOGY, LITERATURES AND LINGUISTICS<br>
+28-31 JULY 2008, ATHENS, GREECE<br>
+ <br>
+The Athens Institute for Education and Research (AT.IN.E.R.) is organizing =
+its<br>
+1st International conference on Philology, i.e. languages, literatures and<=
+br>
+linguistics, 28-31 July 2008. For more information about the conference and=
+ the<br>
+institute please visit: &lt;<a href=3D"http://www.atiner.gr/docs/Literature=
+.htm">http://www.atiner.<wbr>gr/docs/Literatu<wbr>re.htm</a>&gt;www.atiner.=
+<wbr>gr/docs/Literatu<wbr>re.htm<br>
+ <br>
+There are two types of conference registration fees. The first one is a bas=
+ic<br>
+fee of 250 euro, covering access to all sessions, 2 lunches, coffee breaks =
+and<br>
+conference materials. The second one, a full registration fee of 450 euro,<=
+br>
+covers access to all sessions, 2 lunches, coffee breaks, conference materia=
+ls, a<br>
+Greek night of food and entertainment, a dinner, a half-day tour to an<br>
+archaeological site in the Prefecture of Attica, and a special one-day crui=
+se to<br>
+several Greek islands. Special arrangements will be made with local hotels =
+for a<br>
+limited number of rooms at a special conference rate.<br>
+ <br>
+The aim of the conference is to bring together scholars and students of<br>
+languages, literatures and linguistics.  Areas of interest include (but are=
+ not<br>
+confined to):<br>
+=B7       Literatures and Languages<br>
+-        Classics<br>
+-        Medieval and Renaissance Literature<br>
+-        Contemporary Literature<br>
+-        Comparative Literature<br>
+-        Drama, Film, Television, and other Media<br>
+-        Poetry and Prose (Fictional and Non-fictional)<br>
+-        Translation<br>
+=B7       Linguistics<br>
+-        Theoretical Linguistics<br>
+-        Language Acquisition<br>
+-        Teaching of Foreign Languages (including Technology in the classro=
+om)<br>
+-        Sociolinguistics<br>
+ <br>
+Selected papers will be published in Special Volumes of Conference Proceedi=
+ngs.<br>
+ <br>
+Please submit a 300-word abstract by May 26th, 2008, by email &lt;mailto:<a=
+ href=3D"mailto:atiner%40atiner.gr">atiner@atiner.<wbr>gr</a>&gt;<a href=3D=
+"mailto:atiner%40atiner.gr">atiner@atiner.<wbr>gr</a><br>
+or mail, to: Dr. Gilda Socarras, Academic Member, ATINER &amp; Assistant Pr=
+ofessor,<br>
+Auburn University, USA.  Abstracts should include: Title of Paper, Family N=
+ame<br>
+(s), First Name (s), Institutional Affiliation, Current Position, an email<=
+br>
+address and at least 3 keywords that best describe the subject of your<br>
+submission.<br>
+ If you want to participate without presenting a paper, i.e. chair a sessio=
+n,<br>
+organize a panel, evaluate papers to be included in the conference proceedi=
+ngs<br>
+or books, contribute to the editing, or any other offer to help please send=
+ an<br>
+email to Dr. Gregory T. Papanikos, &lt;mailto:<a href=3D"mailto:gtp%40atine=
+r.gr">gtp@atiner.gr</a>&gt;<a href=3D"mailto:gtp%40atiner.gr">gtp@atiner.gr=
+</a> Director, ATINER.<br>
+ <br>
+ <br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/259=
+3;_ylc=3DX3oDMTM0ODlwcGZyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI1OTMEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjEwODQzNzc3BHRwY=
+0lkAzI1OTM-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwbjFjaGt0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI1OTMEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjEwODQzNzc3?act=3Dreply&me=
+ssageNum=3D2593">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNmxnbXA1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIxMDg0Mzc3Nw--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlanJmY2tlBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIxMDg0Mzc3Nw--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmaTBvcGYyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMTA4NDM3Nzc-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlc2EyODQzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIxMDg0Mzc3Nw--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJma3BkdTVkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMTA4NDM3Nzc-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjZjRkbDNxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMTA4NDM3Nzc-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmbTRjbzhrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMTA4NDM3Nzc-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlNmJqanFoBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIxMDg0Mzc3Nw--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkYmhscm5rBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjEwODQzNzc3">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkODA2NmJtBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjEwODQzNzc3">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmbHJ0ZHM2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMTA4NDM3Nzc-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+bTNyYzNnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjEwODQzNzc3">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background:white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital">
+	      		<div id=3D"vithd">Activit=E9s r=E9centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+		        <li style=3D"clear: both;">
+      <div class=3D"ct" style=3D"float: right;"><span style=3D"display:none=
+">&nbsp;</span>1</div>
+      <div class=3D"cat"><a href=3D"http://fr.groups.yahoo.com/group/lpl-in=
+fos/members;_ylc=3DX3oDMTJmOWtrcG41BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jw=
+c3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzEyMTA4NDM3Nzc-">Nouve=
+aux membres</a></div>
+    </li>
+=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlaW40NmRkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIxMDg0Mzc3Nw--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	          <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJramQzc2lyBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIxMDg0Mzc3Nw--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuNGRiN205BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIxMDg0Mzc3Nw--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvdmhnZWhlBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMTA4NDM3Nzc-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2593/stime=3D1210843777/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<span  style=3D"color: white;">__,_._,___</span>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+	#ygrp-tpmsgs{
+	    font-family: Arial;=09
+	    clear: both;
+	}
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-actbar{
+		clear: both;
+		margin: 25px 0;
+		white-space:nowrap;
+		color: #666;
+		text-align: right;
+	}
+	#ygrp-actbar .left{
+		float: left;
+		white-space:nowrap;
+	}
+	.bld{font-weight:bold;}
+	#ygrp-grft{
+		font-family: Verdana;
+		font-size: 77%;
+		padding: 15px 0;
+	}
+	#ygrp-ft{
+	  font-family: verdana;
+	  font-size: 77%;
+	  border-top: 1px solid #666;=20
+	  padding: 5px 0;=20
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-grpname{
+        font-weight: bold;
+        margin-top: 10px;
+  	}
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital{
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+		padding: 2px 0 8px 8px;
+	}
+	#ygrp-vital #vithd{
+		font-size: 77%;
+		font-family: Verdana;
+		font-weight: bold;
+		color: #333;
+		text-transform: uppercase;
+	}
+	#ygrp-vital ul{
+		padding: 0;
+		margin: 2px 0;
+	}
+	#ygrp-vital ul li{
+	  list-style-type: none;
+	  clear: both;
+	  border: 1px solid #e0ecee;=20=20
+	}
+	#ygrp-vital ul li .ct{
+	  font-weight: bold;
+	  color: #ff7900;
+	  float: right;
+	  width: 2em;
+	  text-align:right;
+	  padding-right: .5em;
+	}
+	#ygrp-vital ul li .cat{
+	  font-weight: bold;
+	}
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #hd{
+		color: #999;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov{
+		padding: 6px 13px;
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+	}
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--nI92rIyJqynDCS4IEpqPqW6A244W5ioYQUaaR3T--

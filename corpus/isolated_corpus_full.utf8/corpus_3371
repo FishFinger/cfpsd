@@ -1,0 +1,270 @@
+From - Thu Dec 10 14:32:49 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs570356waa;
+        Thu, 14 Aug 2008 11:58:54 -0700 (PDT)
+Received: by 10.67.91.13 with SMTP id t13mr1119184ugl.11.1218740332317;
+        Thu, 14 Aug 2008 11:58:52 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id s7si6847382uge.26.2008.08.14.11.58.42;
+        Thu, 14 Aug 2008 11:58:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1KThua-0003ft-58; Thu, 14 Aug 2008 20:51:04 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1KThuT-0003fT-LL; Thu, 14 Aug 2008 20:50:57 +0200
+Received: from gv-out-0910.google.com [216.239.58.184] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
+	id 1KThuM-0007kO-Me; Thu, 14 Aug 2008 20:51:00 +0200
+Received: by gv-out-0910.google.com with SMTP id n40so299083gve.5
+	for <corpora@uib.no>; Thu, 14 Aug 2008 11:50:47 -0700 (PDT)
+Received: by 10.187.171.8 with SMTP id y8mr86610fao.62.1218739846383;
+	Thu, 14 Aug 2008 11:50:46 -0700 (PDT)
+Received: by 10.187.252.18 with HTTP; Thu, 14 Aug 2008 11:50:46 -0700 (PDT)
+Message-ID: <a739b07c0808141150kb83f91aq3a7a1467a62cb10d@mail.gmail.com>
+Date: Thu, 14 Aug 2008 11:50:46 -0700
+From: "Stefan Th. Gries" <stgries@gmail.com>
+To: corpora@uib.no
+MIME-Version: 1.0
+Content-Disposition: inline
+X-checked-clean: by exiscan on rolf
+X-Scanner: 73e189e30c5872e5196634edacbbf8c9 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.8 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 BODY: UIB_MAILWON
+	0.1 BODY: hvorfor herfra?
+	0.7 RAW: Contains a line >= 199 long
+Subject: [Corpora-List] Bootcamp: 'Quantitative Corpus Linguistics with R'--
+	re Louw's endorsement
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+Now that matters of substance are being discussed, let me chime in
+again (this time only on my behalf). There are two issues I am
+concerned with here, one having to do with software, the other having
+to do with theoretical orientation.
+
+As to the former, it is interesting that the use of a particular
+software tool appears to be in part responsible for so many concerns.
+Let me quote a part of Wolfgang's posting
+> For R-software, it does no matter what kind of strings of information
+> bit are processed. It could be language, but it could also be DNA
+> sequences or the ciphers behind the "3." in the number pi. To me it
+> seems that much of what will be presented at the camp is relatively
+> application-free. Language is just one of many possible applications.
+
+Well, last time I checked that is true of any concordancing software
+or of any scripting language: any concordancer (most notably those
+that can handle Unicode) can process any sequence of strings so I fail
+to see in what way this particular characteristic makes R special. A
+more general but just as correct version of Wolfgang's paragraph is
+therefore this:
+> For Perl, Python, R, and in fact any other concordancer, it does no
+> matter what kind of strings of information bit are processed.
+> It could be language, but it could also be DNA sequences or the
+> ciphers behind the "3." in the number pi. To me it seems that much
+> of what will be presented at the camp is relatively application-free.
+> Language is just one of many possible applications.
+
+This raises two interesting questions, the first tongue-in-cheek, the
+other more substantive:
+(i) If what we offered had been a Bootcamp 'Corpus Linguistics with
+AntConc' - would that have raised less resistance? ;-)
+(ii) What, then, is special about R? More specifically, (iia) what is
+special about R compared to concordancing software, and (iib) what is
+special about R compared to other programming languages?
+
+As for (iia), R is different in the sense that it is much more
+powerful than any concordancer can be (which is no critique of these
+tools, after all I link to all I know on my own website).
+(a) No concordance tool can do this (since Wolfgang mentioned morphology):
+- download Adam Kilgarriff's BNC frequency list from the web;
+- retrieve from it all words tagged as adjectives and their
+frequencies as well as the number of files in they occur;
+- contrast the frequencies and the number of files they occur in of
+the adjectives ending in -ic with those ending in -ical in a graph and
+with a statistical test;
+- contrast the frequencies of the nouns followed by adjectives ending
+in -ic with those ending in -ical in a graph and with a statistical
+test.
+(This issue was first raised by Marchand, and -ic/-ical adjectives
+were investigated in several studies, most recently by Mark Kaunisto
+(e.g., in /English Studies/) and myself (in /ICAME Journal/ and
+/Internt; J of Corp Ling/); whoever looks at these studies will find
+meaning is discussed a lot in them.)
+
+(b) No ready-made concordance tool can do this (since Wolfgang
+mentioned language acquisition):
+- load the all files for one child from the language acquisition
+corpus data base CHILDES;
+- clean them up in terms of line breaks etc.;
+- either generate concordances on them; or
+- transform all the data for one child into an Excel-readable table to
+perform searches and many different levels of annotation at the same
+time (e.g., find the use of sleep but only when it's used as a verb in
+a loud voice).
+(I know no line-based concordancer that can handle this kind of
+multi-tiered annotation)
+
+(c) No ready-made concordance tool can do this: to compile web corpora
+- send a search word to Google and collect up to 1,000
+filetype-specific links regarding that search word;
+- download all the files to which Google linked onto the hard drive;
+- harvest all the links on these files; and
+- crawl the web along these links to download all the documents that
+are not further than three links away from the original link.
+
+
+As for (iib), of course other scripting languages can do these things,
+too. However, as someone who also uses Perl (and would like to learn
+more Python if he had the time), what is particulary appealing about R
+is that, from my personal experience,
+- it is much simpler than, say, Perl because (this is now for co-geeks
+;-)) it has several high-level functions that do things for which you
+need to write subroutines for in Perl and it is optimized for handling
+vectors. Once you load a corpus into a vector, you just write
+"sort(table(corpus))" and have a sorted frequency list - you don't
+need to loop over an array and dump stuff into a to-be-sorted hash.
+- as I will mention in my masterclass in Granada, R can provide
+virtually all the technical functionality corpus linguists need *in a
+single environment* (frequency lists for those who don't get duped by
+them, concordances, collocations, dispersion plots, lexical frequency
+profiles, gravity, concgrams, Unicode and XML file handling,
+interaction with MySQL databases, you name it) but at the same time,
+it can perform all the statistical tests you have seen in
+corpus-linguistic research (Biber's factor analyses for register
+variation, Leech et al's loglinear analysis on genitives, Geisler's
+logistic regression, again you name it), and it has powerful graphical
+capabilities; for example, the table on my website linking to the
+bootcamp page has the same structure as all tables, but (i) the sizes
+in which the numbers are plotted reflects the size of the residuals
+(i.e., bigger observed numbers deviate more from the expected
+frequencies than smaller numbers, where bigger and smaller are to be
+understood in terms of plotting size), and (ii) the coloring indicates
+how the observed frequencies deviate from the expected ones: blue and
+red indicate the observed frequencies are larger and smaller than the
+expected ones, which immediately gives all the structure in the data
+away. To sum up, you don't need to use one or more concordancers to
+get the corpus data you want, then use Excel to get them into shape
+for a statistical analysis with SPSS, then put the SPSS results into
+whatever to create your graphs, ... you do it all in one and the same
+environment. Yes, there is a learning curve, but (i) it's only one
+learning curve because it's only one software, and (ii) every software
+has a learning curve.
+
+> Dagmar S. Divjak's and Stefan Gries' boot camp is, as I see it, not about=
+ discussing corpus linguistics
+That is correct, it's about *doing* corpus linguistics.
+
+> To me it seems that much of what will be presented at the camp is relativ=
+ely application-free.
+That is incorrect: if the above examples are not corpus-linguistic
+applications, then I do not know what a corpus-linguistic application
+is. (This does not mean we're gonna do exactly these things, which
+will depend on the participants' ideas, too.)
+
+
+Let me now turn to the more theoretical implications of Wolfgang's
+posting. I will begin with a few necessary paraphrases.
+
+> The journal he co-edits bears the name Corpus Linguistics and Linguistic =
+Theory. The only language theory that Gries accepts is cognitive linguistic=
+s.
+This may be a bit of nit-picking, but let me change that to what I
+think is a more correct characterization of my theoretical beliefs:
+"The theoretical approach that Gries is most associated with is that
+of cognitively-inspired approaches."
+
+> Meaning, for Gries, is a theoretical and therefore a cognitive concept. I=
+t plays no role in his version of corpus linguistics.
+I actually believe something else: "Meaning, for Gries, is a cognitive
+entity and he thinks it is useful to examine it not in a theoretical
+vaccum but from a cognitively-inspired perspective." It is unclear how
+one can read Stefanowitsch's and my collostructional stuff or my
+papers on polysemy and near synonymy (the latter with the co-organizer
+of this bootcamp) and say meaning plays no role - last time I checked,
+polysemy, synonymy, and  constructional semantics were issues of
+meaning. Are they not?
+
+> Old-fashioned corpus linguists like myself have to accept that the label =
+corpus linguistics has, over the last decade, been hijacked by theoretical =
+linguists of all feathers.
+Again a paraphrase that does away with the negative semantic prosody
+(an important concept in corpus linguistics! :-) ): "Corpus linguists
+like myself are glad to see corpus linguistic methods are now applied
+by (theoretical) linguists of all feathers."
+
+> Its role is to provide empirical data that will then be interpreted from =
+the theoretical platform of cognitive linguistics.
+I wonder whether Harald Baayen, Tom Wasow, John Hawkins, Joan Bresnan,
+Marianne Hundt, Christian Mair and a zillion others who undoubtedly
+make descriptively AND theoretically relevant observations would
+consider themselves cognitive linguists. Yes, scholars such as Doris
+Schoenefeld, Michael Barlow, Suzanne Kemmer, and myself have argued
+for a greater interaction between corpus linguistics and
+cognitively-inspired approaches, but singling out cognitive
+linguistics as the only platform is an overly narrow perspective of
+the range of theories to which corpus linguistics can contribute.
+
+> Cognitive linguistics tells Stefan Gries what a morpheme, a word, a phras=
+e or a pattern is.
+It does??? I don't think so ... And I thought each of us has an idea
+of what a morpheme, a word, a phrase or a pattern is. It's been a
+while since I came across a corpus-linguistic paper which started out
+by questioning what a morpheme is.
+
+> This, then, is his input into the toolbox that he and many others now cal=
+l corpus linguistics.
+Well, a concordancer or a scripting language requires some input what
+to search for, doesn't it? In a recent paper, Louw provides a
+concordance display of all sorts of. Surely he could only get these
+data by entering "all sorts of into a software tool. (I think "all
+sorts of" could be called, let's say, "unit of meaning") This, this is
+not *my* input, any corpus linguist who doesn't simply read the whole
+corpus inputs something into a tool.
+
+Let me thank Wolfgang for his thoughts and I would like to end this
+treatise (thanks to those who bore with me so long) with a quote from
+his website to which I full-heartedly agree:
+
+"The word is not privileged in terms of meaning. [exactly the claim of
+cognitive linguists!] The corpus linguist posits endocentric entities,
+formally held together by some local grammar, and calls these entities
+(complex) lexical items or, alternatively, units of meaning. Lexical
+items can be single words, compounds, multi-word units, phrases, and
+even idioms. Just like single words, (complex) lexical items tend to
+recur in a discourse. This is why statistical procedures [!!] can be
+used for detecting them in a reasonably large corpus, as significant
+[!!] co-occurrences of the same entities."
+(<http://www.english.bham.ac.uk/who/myversion.htm>, accessed 5 seconds
+ago)
+
+STG
+--
+Stefan Th. Gries
+-----------------------------------------------
+University of California, Santa Barbara
+http://www.linguistics.ucsb.edu/faculty/stgries
+-----------------------------------------------
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

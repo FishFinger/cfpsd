@@ -1,0 +1,183 @@
+From - Thu Dec 10 14:28:10 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.61.12 with SMTP id j12cs3723waa;
+        Thu, 13 Sep 2007 09:19:53 -0700 (PDT)
+Received: by 10.141.33.21 with SMTP id l21mr71423rvj.1189700393146;
+        Thu, 13 Sep 2007 09:19:53 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id g39si13971882rvb.2007.09.13.09.19.51;
+        Thu, 13 Sep 2007 09:19:53 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l8DGJo9Q000204
+	for <jpprost@gmail.com>; Fri, 14 Sep 2007 02:19:50 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l8DGJoR9026494
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 14 Sep 2007 02:19:50 +1000 (EST)
+X-ASG-Debug-ID: 1189700389-350300660000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1189700389
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 7558B1F7BFAC5
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 14 Sep 2007 02:19:49 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l8DGJmJa000201
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 14 Sep 2007 02:19:48 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with ESMTP id l8DGJkrm022894
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 14 Sep 2007 02:19:47 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 5970A179CF;
+	Thu, 13 Sep 2007 18:19:38 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 7416126 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Thu, 13 Sep 2007
+          18:19:37 +0200
+X-Original-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Delivered-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Received: from nibbel.kulnet.kuleuven.ac.be (nibbel.kulnet.kuleuven.ac.be
+          [134.58.240.41]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id B2BC8179CC for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007
+          18:19:37 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1]) by
+          nibbel.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 740A14D81E for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007 18:19:28 +0200
+          (CEST)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by nibbel.kulnet.kuleuven.ac.be (Postfix) with ESMTP
+          id 7B9A14D875 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007
+          18:19:27 +0200 (CEST)
+Received: from hermes.cs.kuleuven.be (hermes.cs.kuleuven.ac.be [134.58.40.3])
+          by cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 4F5A020145
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007 18:19:27 +0200
+          (CEST)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id l8DGJRlU008597 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007 18:19:27 +0200
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id l8DGJQxF000670 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007 18:19:26 +0200
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 00485-02-6 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007 18:19:25 +0200
+          (CEST)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.ac.be [134.58.41.14]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id l8DGIx90000595 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13
+          Sep 2007 18:18:59 +0200
+Received: from ender.cs.kuleuven.ac.be (ender.cs.kuleuven.ac.be
+          [134.58.45.101]) by nifl.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id l8DGIwX5018144
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 13 Sep 2007 18:18:59 +0200
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-Virus-Scanned: by KULeuven Antivirus Cluster
+X-Spam-Status: No, hits=0.0 tagged_above=-9999.0 required=5.0 tests=
+X-Spam-Level: 
+Message-ID:  <Pine.LNX.4.63.0709131818400.25129@ender.cs.kuleuven.be>
+Date:         Thu, 13 Sep 2007 18:18:58 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] CfP: Recent Advances in Constraint Handling Rules
+Subject: [CHR] CfP: Recent Advances in Constraint Handling Rules
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.28318
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+                 Call for Papers
+==================================================
+
+       Lecture Notes on Artifical Intelligence
+
+                Special Issue on
+
+     Recent Advances in Constraint Handling Rules
+
+==================================================
+
+Editors:
+      Thom Fruehwirth (Thom.Fruehwirth at uni-ulm.de)
+      Tom Schrijvers (Tom.Schrijvers at cs.kuleuven.be)
+
+The Constraint Handling Rules (CHR) language saw the light more than 15 years
+ago.  Since then, it has become a major declarative specification and
+implementation language for constraint-based algorithms and applications.  In
+recent years, the Workshops on Constraint Handling Rules have spurred the
+exchange of ideas within the CHR community, which has led to increased
+international collaboration, new theoretical results and optimized
+implementations.
+
+The aim of this issue of Lecture Notes in Computer Science is to attract
+high-quality research papers on these recent advances in Constraint  Handling
+Rules.
+
+TOPICS
+
+Topics of interest, on all aspects of CHR, include but are not limited to:
+
+      *  Semantics
+      *  Logical Algorithms
+      *  Constraint Solvers
+      *  Expressivity and Complexity
+      *  Program Analysis
+      *  Programming tools
+      *  Implementations and Optimization
+      *  Program Transformation and Generation
+      *  Language Extensions (Types, Modules)
+      *  Retractable Constraints
+      *  Programming Pearls
+      *  Programming Environments (Debugging)
+      *  Applications
+      *  Critical Assessment
+      *  Comparisons with Related Approaches
+
+SUBMISSIONS
+
+Revised and enhanced versions of papers published at the Workshops on
+Constraint Handling Rules and other occasions that have not appeared in
+archival journals are eligible for submission.  Papers describing important
+past research in this area which have not been published in archival journal
+papers are also solicited.  New work, surveys and comparison of state of the
+art techniques are also solicited. None of the submissions should have been
+published in any form prior to 2002.
+
+When submitting already published papers with minor changes only,  authors are
+responsible for ensuring copyright clearance with the  previous publisher by
+obtaining a written permission to republish.
+
+For any doubt regarding the appropriateness of the topic of a paper for this
+special issue please email one of the editors.
+
+Papers should be written in English, and formatted using the LaTeX style files
+developed by Springer Verlag for LNCS. Theycan be downloaded from
+http://www.springer.de/comp/lncs/index.html
+
+To submit please send your paper in pdf format only to both editors. For
+further information, please look at:
+http://www.cs.kuleuven.be/~toms/chr_lncs_collection
+
+IMPORTANT DATES
+
+First call for papers
+ 	September, 2007
+Submission
+ 	December 15, 2007
+Notification
+ 	April 1, 2008
+Final version due:
+ 	June 1, 2008
+Publication
+ 	2008/2009

@@ -1,0 +1,528 @@
+From - Thu Dec 10 14:35:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs32990far;
+        Sun, 15 Feb 2009 05:00:05 -0800 (PST)
+Received: by 10.210.76.4 with SMTP id y4mr921478eba.176.1234702804836;
+        Sun, 15 Feb 2009 05:00:04 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si12641988eyz.50.2009.02.15.05.00.03;
+        Sun, 15 Feb 2009 05:00:04 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 69D512215D; Sun, 15 Feb 2009 14:00:03 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.5 required=5.0 tests=BAYES_00,HTML_MESSAGE,
+	SORTED_RECIPS autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 2449920B5B;
+	Sun, 15 Feb 2009 13:47:40 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9C0AF3D2B;
+	Sun, 15 Feb 2009 13:47:39 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id GsZ1d51Ct4wz; Sun, 15 Feb 2009 13:47:39 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 964103D82;
+	Sun, 15 Feb 2009 13:46:19 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E33FB3D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Feb 2009 17:55:02 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id dRFnJM+cM1iU for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Feb 2009 17:55:02 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B29F13D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Feb 2009 17:54:57 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 97D841FE4B; Thu, 12 Feb 2009 17:54:57 +0100 (MET)
+Received: from mail-bw0-f167.google.com (mail-bw0-f167.google.com
+	[209.85.218.167])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 2BEAD1FD75
+	for <elsnet-list@elsnet.org>; Thu, 12 Feb 2009 17:54:48 +0100 (MET)
+Received: by bwz11 with SMTP id 11so530730bwz.13
+	for <elsnet-list@elsnet.org>; Thu, 12 Feb 2009 08:54:47 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:reply-to:date:message-id
+	:subject:from:to:content-type;
+	bh=a6yOXpV5H5k5e+VdNQuIDa6znOnDyq0Kikl7vytE0Ec=;
+	b=a7EgZmIDQqj7TlbJJ/DSQ+urIf3dOwX3ZYLzUq0ESCi/bIxaIkUCc/K7sweNgs6GZK
+	50Vj4OW8meqiUjsA3QE3Q/Tm6BNdkxcbPQOr1Hcxuuy1IJyXxVt6GnCfTpoJut6cdijr
+	hxwM9lDQ/GdlGrQwe4YMRaG59RYfJHJ77LxJ0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=mime-version:reply-to:date:message-id:subject:from:to:content-type;
+	b=xsFfNDSDxp2ppoACiwtWIufINcjAkH57BR+I9Op72oqPMDDX3+RJolSpXvRAkFSWtC
+	BCoN8cSiKhyoN+c8JHaGFv6Lf8COUpYLJMS2PURNVBGpBa61mbjWDv7yu4bdyPm1MEkX
+	66uD97r14xuVP39sFzMZ3V90sVE/1mIW7aOFM=
+MIME-Version: 1.0
+Received: by 10.180.229.17 with SMTP id b17mr362467bkh.156.1234457687678; Thu, 
+	12 Feb 2009 08:54:47 -0800 (PST)
+Date: Thu, 12 Feb 2009 17:54:47 +0100
+Message-ID: <52c479f40902120854yb1a89bay51523ed46492c31f@mail.gmail.com>
+From: ARCOE-09 <arcoe2009@googlemail.com>
+To: conferences@computer.org, digicult-forum@digicult.info, 
+	ecoop-info@ecoop.org, editor@agentlink.org, elsnet-list@elsnet.org, 
+	events_calendar@acm.org, linguist@linguistlist.org, 
+	ontolog-forum@ontolog.cim3.net, potokte@ornl.gov, project@aktors.org, 
+	public-owl-dev@w3.org, public-rif-wg@w3.org, public-semweb-lifesci@w3.org, 
+	ruleml-all@ruleml.org, semantic-web@w3.org, semanticweb@egroups.com, 
+	semanticweb@yahoogroups.com, web-semantics-italia@yahoogroups.com, 
+	www-rdf-logic@w3.org, www-rdf-rules@w3.org, www-ws@w3.org
+X-Mailman-Approved-At: Sun, 15 Feb 2009 13:45:45 +0100
+Cc: 
+Subject: [Elsnet-list] ARCOE-09 Third Call for Participation
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: arcoe-09@aifb.uni-karlsruhe.de
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1448270378=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============1448270378==
+Content-Type: multipart/alternative; boundary=00504502b630f6dfbd0462bb93ed
+
+--00504502b630f6dfbd0462bb93ed
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+Apologies for Multiple Postings
+
+=======================
+CALL FOR PARTICIPATION
+
+ARCOE-09 at IJCAI-09
+
+July 11-12, 2009
+Pasadena, CA, USA
+=======================
+
+
+The IJCAI-09 Workshop on
+
+Automated Reasoning about Context and Ontology Evolution (ARCOE-09)
+http://km.aifb.uni-karlsruhe.de/ws/ARCOE-09
+
+July 11-12, 2009
+Pasadena, California, USA
+
+held at the International Joint Conference on Artificial Intelligence
+(IJCAI-09)
+http://ijcai-09.org
+
+
+ARCOE-09 Highlights: McGuinness' and Baader's Invited Talks; IJCAI set
+workshop dates to July 11-12, 2009
+
+
+-- Description of the workshop --
+
+Methods of automated reasoning have solved a large number of problems in
+Computer Science by using formal ontologies expressed in logic. Over the
+years, though, each problem or class of problems has required a different
+ontology, and sometimes a different version of logic. Moreover, the
+processes of conceiving, controlling and maintaining an ontology and its
+versions have turned out to be inherently complex. All this has motivated
+much investigation in a wide range of disparate disciplines -- from
+logic-based Knowledge Representation and Reasoning to Software Engineering,
+from Databases to Multimedia -- about how to relate ontologies to one
+another.
+
+ARCOE-09 aims at bringing together researchers and practitioners from core
+areas of Artificial Intelligence (Knowledge Representation and Reasoning,
+Contexts, and Ontologies) to discuss these kinds of problems and relevant
+results. Historically, there have been at least three different, yet
+interdependent motivations behind this type of research: defining the
+relationship between an ontology and its context, providing support to
+ontology engineers, enhancing problem solving and communication for software
+agents.
+
+Ontology and Context.  Most application areas have recognised the need for
+representing and reasoning about knowledge that is distributed over many
+resources. Such knowledge depends on its context, i.e., on the syntactic
+and/or semantic structure of such resources. Research on information
+integration, distributed knowledge management, the semantic web, multi-agent
+and distributed reasoning have pinned down different aspects of how
+ontologies relate to and/or develop within their context.
+
+Ontology Engineering.  Ontology engineers are not supposed to succeed right
+from the beginning when (individually or collaboratively) developing an
+ontology. Despite their expertise and any assistance from domain experts,
+revision cycles are the rule. Research on the automation of the process of
+engineering an ontology has improved efficiency and reduced the introduction
+of unintended meanings by means of interactive ontology editors. Moreover,
+ontology matching has studied the process of manual, off-line alignment of
+two or more known ontologies.
+
+Problem Solving and Communication for Agents.  Agents that communicate with
+one another without having full access to their respective ontologies or
+that are programmed to face new non-classifiable situations must change
+their own ontology dynamically at run-time -- they cannot rely on human
+intervention. Research on this problem has either concentrated on
+non-monotonic reasoning and belief revision or on changes of signature,
+i.e., of the grammar of the ontology's language, with a minimal disruption
+to the original theory.
+
+ARCOE-09 will provide a multi-disciplinary forum, where differences in
+methodologies, representation languages and techniques are over-arched and
+hopefully overcome. Accordingly, the workshop will be structured into four
+tracks: three of them will focus on specific areas, the fourth one will
+foster links and integration.
+
+Track 1:  Context and Ontology
+This track will select and present works about Context and Ontology, a
+well-established research area that has mainly concentrated on the
+relationship between contexts and ontologies for distributed information and
+for the enhancement of software agents.
+
+Track 2:  Common Sense and Non-Monotonic Reasoning for Ontologies
+This track will select and present works about logic-based Knowledge
+Representation and Reasoning, a classic area of AI, which since its origins
+has produced remarkable results on logic-based methods for supporting
+knowledge engineers and for enhancing software agents.
+
+Track 3:  Automated Ontology Evolution
+This track will select and present works about Automated Ontology Evolution,
+an area which in recent years has been drawing the attention of Artificial
+Intelligence and Knowledge Representation and Reasoning on the automation of
+ontology evolution.
+
+Track 4: Links and integration
+This track will foster links and integration by means of invited talks and
+(panel) discussions. Topics that are likely to be covered are: the
+formalisation of software engineering concepts for ontology development; the
+relationship between automated reasoning and information retrieval;
+relationships between representation languages; relationships between
+canonical domains; relationships between contexts and ontology evolution and
+between Non-Monotonic Reasoning and ontology evolution. Prof. Deborah
+McGuinness and prof. Franz Baader have recently accepted ARCOE-09's
+invitation to deliver an invited talk. The titles of their contributions
+will be made available after the submission deadline.
+
+ARCOE-09 will bring the participants to position the various approaches with
+respect to one another. Hopefully, though, the workshop will also start a
+process of cross-pollination and set out the constitution of a truly
+interdisciplinary research-community dedicated to automated reasoning about
+contexts and ontology evolution.
+
+
+-- Topics --
+
+Track 1: Context and Ontology
+Submissions are welcome on the role of context and ontology in areas that
+include but are not limited to the following ones:
+
+- Information Integration
+- The role of context and ontology in Distributed Reasoning and Knowledge
+Management
+- The role of context and ontology in Semantic Web
+- Multi-Agent Systems
+- Data Grid and Grid Computing
+- Pervasive Computing and Ambient Intelligence
+- Peer-to-peer Information Systems
+- Comparison of uses of contexts and ontologies
+
+Track 2: Common Sense and Non-Monotonic Reasoning
+Submissions are welcome on the role of common sense and non-monotonic
+reasoning for ontologies in areas that include but are not limited to the
+following ones:
+
+- Ontology Debugging, Update and Merging
+- Inconsistency Handling, Belief Revision and Theory Change for DL
+ontologies
+- Uncertainty Handling, Defeasible Reasoning and Argumentation in ontologies
+
+- Heuristic and Approximate Reasoning
+- Planning and Reasoning about Action and Change on the Semantic Web
+- Rules and Ontologies
+- Temporal and Spatial Reasoning
+
+Track 3: Automated Ontology Evolution
+Submissions are welcome on the role of automated ontology evolution in areas
+that include but are not limited to the following ones:
+
+- Ontology fault diagnosis and repair
+- Problem Solving
+- Agent Communication
+- Persistent Agents in Changing Environment
+- Multimedia on the Web
+- IT and Automated Reasoning
+
+
+-- Attendance --
+
+Following IJCAI-09 policy, the total number of participants in ARCOE-09 will
+be limited to 75 people. This includes organisers, PC members, invited
+speakers, authors and attendees. Authors will be selected on significance of
+their submission and will be preferred to simple attendees. Attendees will
+be selected on a first-come-first-served basis. Please check
+http://ijcai-09.org for registration procedure and fees.
+
+
+-- Submission Requirements and Dates --
+
+ARCOE-09 will accept submissions of long abstracts, for both long
+presentations and poster presentations. The distinction during the
+selection-phase will be based on the significance and the quality of
+submissions as well as oriented towards fostering cross-pollination and
+discussions during the event. All selected abstracts will be included in the
+IJCAI-09 Working Notes. Authors are kindly requested to provide keywords
+upon submission. The format for submissions is the same as that of IJCAI-09.
+Please check http://ijcai-09.org for the style files. Submissions should be
+no longer than 3 pages.
+
+- Submission deadline: March 6, 2009
+- Notification to authors: April 17, 2009
+- Camera-ready version: May 8, 2009
+- Workshop dates: July 11-12, 2009
+
+
+-- Submit to --
+
+Please submit to http://www.easychair.org/conferences/?conf=arcoe09
+
+
+-- Workshop Co-Chairs --
+
+- Alan Bundy
+School of Informatics, University of Edinburgh, Informatics Forum, 10
+Crichton Street, Edinburgh EH8 9AB, UK. Tel: +44-131-650-2716, Fax No.:
++44-131-650-6899.
+
+- Jos Lehmann
+School of Informatics, University of Edinburgh, Informatics Forum, 10
+Crichton Street, Edinburgh EH8 9AB, UK. Tel: +44-131-650-2725, Fax No.:
++44-131-650-6899.
+
+- Guilin Qi
+Institute AIFB, Universitaet Karlsruhe, D-76128 Karlsruhe, Germany. Tel:
++49-721-608-6038.
+
+- Ivan Jose Varzinczak
+Meraka Institute, Meiring Naude Road, CSIR, 0001 Pretoria, South Africa.
+Tel: +27-12-841-33-23.
+
+
+Please send all enquiries and communications to:
+
+arcoe-09@aifb.uni-karlsruhe.de
+
+
+-- Program Committee --
+
+- Richard Booth (Mahasarakham University, Thailand)
+- Paolo Bouquet (University of Trento, Italy)
+- Jerome Euzenat (INRIA Grenoble Rhone-Alpes, France)
+- Chiara Ghidini (FBK Fondazione Bruno Kessler, Italy)
+- Alain Leger (France Telecom R&D, France)
+- Deborah McGuinness (Rensselaer Polytechnic Institute, USA)
+- Thomas Meyer (Meraka Institute, South Africa)
+- Maurice Pagnucco (The University of New South Wales, Australia)
+- Valeria de Paiva (Palo Alto Research Center (PARC), USA)
+- Luciano Serafini (FBK Fondazione Bruno Kessler, Italy)
+- Pavel Shvaiko (Informatica Trentina S.P.A., Italy)
+- John F. Sowa (VivoMind Intelligence, Inc., USA)
+- Holger Wache (University of Applied Sciences, Northwestern Switzerland)
+- Renata Wassermann (Universidade de Sao Paulo, Brasil)
+
+--00504502b630f6dfbd0462bb93ed
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for Multiple Postings<br>&nbsp;<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>CALL FOR PARTICIPATION<br>&nbsp;=
+<br>ARCOE-09 at IJCAI-09<br><br>July 11-12, 2009<br>Pasadena, CA, USA<br>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br><b=
+r><br>The IJCAI-09 Workshop on<br>
+&nbsp;<br>Automated Reasoning about Context and Ontology Evolution (ARCOE-0=
+9)<br><a href=3D"http://km.aifb.uni-karlsruhe.de/ws/ARCOE-09">http://km.aif=
+b.uni-karlsruhe.de/ws/ARCOE-09</a><br><br>July 11-12, 2009<br>Pasadena, Cal=
+ifornia, USA<br>
+<br>held at the International Joint Conference on Artificial Intelligence (=
+IJCAI-09) <br><a href=3D"http://ijcai-09.org">http://ijcai-09.org</a> <br><=
+br><br>ARCOE-09 Highlights: McGuinness&#39; and Baader&#39;s Invited Talks;=
+ IJCAI set workshop dates to July 11-12, 2009 <br>
+<br><br>-- Description of the workshop --<br><br>Methods of automated reaso=
+ning have solved a large number of problems in Computer Science by using fo=
+rmal ontologies expressed in logic. Over the years, though, each problem or=
+ class of problems has required a different ontology, and sometimes a diffe=
+rent version of logic. Moreover, the processes of conceiving, controlling a=
+nd maintaining an ontology and its versions have turned out to be inherentl=
+y complex. All this has motivated much investigation in a wide range of dis=
+parate disciplines -- from logic-based Knowledge Representation and Reasoni=
+ng to Software Engineering, from Databases to Multimedia -- about how to re=
+late ontologies to one another. <br>
+<br>ARCOE-09 aims at bringing together researchers and practitioners from c=
+ore areas of Artificial Intelligence (Knowledge Representation and Reasonin=
+g, Contexts, and Ontologies) to discuss these kinds of problems and relevan=
+t results. Historically, there have been at least three different, yet inte=
+rdependent motivations behind this type of research: defining the relations=
+hip between an ontology and its context, providing support to ontology engi=
+neers, enhancing problem solving and communication for software agents. <br=
+>
+<br>Ontology and Context.&nbsp; Most application areas have recognised the =
+need for representing and reasoning about knowledge that is distributed ove=
+r many resources. Such knowledge depends on its context, i.e., on the synta=
+ctic and/or semantic structure of such resources. Research on information i=
+ntegration, distributed knowledge management, the semantic web, multi-agent=
+ and distributed reasoning have pinned down different aspects of how ontolo=
+gies relate to and/or develop within their context.<br>
+<br>Ontology Engineering.&nbsp; Ontology engineers are not supposed to succ=
+eed right from the beginning when (individually or collaboratively) develop=
+ing an ontology. Despite their expertise and any assistance from domain exp=
+erts, revision cycles are the rule. Research on the automation of the proce=
+ss of engineering an ontology has improved efficiency and reduced the intro=
+duction of unintended meanings by means of interactive ontology editors. Mo=
+reover, ontology matching has studied the process of manual, off-line align=
+ment of two or more known ontologies.<br>
+<br>Problem Solving and Communication for Agents.&nbsp; Agents that communi=
+cate with one another without having full access to their respective ontolo=
+gies or that are programmed to face new non-classifiable situations must ch=
+ange their own ontology dynamically at run-time -- they cannot rely on huma=
+n intervention. Research on this problem has either concentrated on non-mon=
+otonic reasoning and belief revision or on changes of signature, i.e., of t=
+he grammar of the ontology&#39;s language, with a minimal disruption to the=
+ original theory.<br>
+<br>ARCOE-09 will provide a multi-disciplinary forum, where differences in =
+methodologies, representation languages and techniques are over-arched and =
+hopefully overcome. Accordingly, the workshop will be structured into four =
+tracks: three of them will focus on specific areas, the fourth one will fos=
+ter links and integration.<br>
+<br>Track 1:&nbsp; Context and Ontology<br>This track will select and prese=
+nt works about Context and Ontology, a well-established research area that =
+has mainly concentrated on the relationship between contexts and ontologies=
+ for distributed information and for the enhancement of software agents.<br=
+>
+<br>Track 2:&nbsp; Common Sense and Non-Monotonic Reasoning for Ontologies<=
+br>This track will select and present works about logic-based Knowledge Rep=
+resentation and Reasoning, a classic area of AI, which since its origins ha=
+s produced remarkable results on logic-based methods for supporting knowled=
+ge engineers and for enhancing software agents.<br>
+<br>Track 3:&nbsp; Automated Ontology Evolution<br>This track will select a=
+nd present works about Automated Ontology Evolution, an area which in recen=
+t years has been drawing the attention of Artificial Intelligence and Knowl=
+edge Representation and Reasoning on the automation of ontology evolution. =
+<br>
+<br>Track 4: Links and integration<br>This track will foster links and inte=
+gration by means of invited talks and (panel) discussions. Topics that are =
+likely to be covered are: the formalisation of software engineering concept=
+s for ontology development; the relationship between automated reasoning an=
+d information retrieval; relationships between representation languages; re=
+lationships between canonical domains; relationships between contexts and o=
+ntology evolution and between Non-Monotonic Reasoning and ontology evolutio=
+n. Prof. Deborah McGuinness and prof. Franz Baader have recently accepted A=
+RCOE-09&#39;s invitation to deliver an invited talk. The titles of their co=
+ntributions will be made available after the submission deadline.<br>
+<br>ARCOE-09 will bring the participants to position the various approaches=
+ with respect to one another. Hopefully, though, the workshop will also sta=
+rt a process of cross-pollination and set out the constitution of a truly i=
+nterdisciplinary research-community dedicated to automated reasoning about =
+contexts and ontology evolution. <br>
+<br><br>-- Topics -- <br><br>Track 1: Context and Ontology <br>Submissions =
+are welcome on the role of context and ontology in areas that include but a=
+re not limited to the following ones: <br><br>- Information Integration<br>
+- The role of context and ontology in Distributed Reasoning and Knowledge M=
+anagement <br>- The role of context and ontology in Semantic Web <br>- Mult=
+i-Agent Systems <br>- Data Grid and Grid Computing <br>- Pervasive Computin=
+g and Ambient Intelligence <br>
+- Peer-to-peer Information Systems <br>- Comparison of uses of contexts and=
+ ontologies <br><br>Track 2: Common Sense and Non-Monotonic Reasoning&nbsp;=
+ <br>Submissions are welcome on the role of common sense and non-monotonic =
+reasoning for ontologies in areas that include but are not limited to the f=
+ollowing ones: <br>
+<br>- Ontology Debugging, Update and Merging<br>- Inconsistency Handling, B=
+elief Revision and Theory Change for DL ontologies <br>- Uncertainty Handli=
+ng, Defeasible Reasoning and Argumentation in ontologies <br>- Heuristic an=
+d Approximate Reasoning <br>
+- Planning and Reasoning about Action and Change on the Semantic Web<br>- R=
+ules and Ontologies <br>- Temporal and Spatial Reasoning<br>&nbsp;&nbsp;&nb=
+sp; &nbsp;<br>Track 3: Automated Ontology Evolution <br>Submissions are wel=
+come on the role of automated ontology evolution in areas that include but =
+are not limited to the following ones: <br>
+<br>- Ontology fault diagnosis and repair <br>- Problem Solving <br>- Agent=
+ Communication <br>- Persistent Agents in Changing Environment <br>- Multim=
+edia on the Web <br>- IT and Automated Reasoning<br><br><br>-- Attendance -=
+- <br>
+<br>Following IJCAI-09 policy, the total number of participants in ARCOE-09=
+ will be limited to 75 people. This includes organisers, PC members, invite=
+d speakers, authors and attendees. Authors will be selected on significance=
+ of their submission and will be preferred to simple attendees. Attendees w=
+ill be selected on a first-come-first-served basis. Please check <a href=3D=
+"http://ijcai-09.org">http://ijcai-09.org</a> for registration procedure an=
+d fees.<br>
+<br><br>-- Submission Requirements and Dates --<br><br>ARCOE-09 will accept=
+ submissions of long abstracts, for both long presentations and poster pres=
+entations. The distinction during the selection-phase will be based on the =
+significance and the quality of submissions as well as oriented towards fos=
+tering cross-pollination and discussions during the event. All selected abs=
+tracts will be included in the IJCAI-09 Working Notes. Authors are kindly r=
+equested to provide keywords upon submission. The format for submissions is=
+ the same as that of IJCAI-09. Please check <a href=3D"http://ijcai-09.org"=
+>http://ijcai-09.org</a> for the style files. Submissions should be no long=
+er than 3 pages.<br>
+<br>- Submission deadline: March 6, 2009 <br>- Notification to authors: Apr=
+il 17, 2009<br>- Camera-ready version: May 8, 2009 <br>- Workshop dates: Ju=
+ly 11-12, 2009<br><br><br>-- Submit to -- <br><br>Please submit to <a href=
+=3D"http://www.easychair.org/conferences/?conf=3Darcoe09">http://www.easych=
+air.org/conferences/?conf=3Darcoe09</a><br>
+<br><br>-- Workshop Co-Chairs --<br><br>- Alan Bundy <br>School of Informat=
+ics, University of Edinburgh, Informatics Forum, 10 Crichton Street, Edinbu=
+rgh EH8 9AB, UK. Tel: +44-131-650-2716, Fax No.: +44-131-650-6899.<br><br>
+- Jos Lehmann <br>School of Informatics, University of Edinburgh, Informati=
+cs Forum, 10 Crichton Street, Edinburgh EH8 9AB, UK. Tel: +44-131-650-2725,=
+ Fax No.: +44-131-650-6899.<br><br>- Guilin Qi <br>Institute AIFB, Universi=
+taet Karlsruhe, D-76128 Karlsruhe, Germany. Tel: +49-721-608-6038.<br>
+<br>- Ivan Jose Varzinczak <br>Meraka Institute, Meiring Naude Road, CSIR, =
+0001 Pretoria, South Africa. Tel: +27-12-841-33-23.<br><br><br>Please send =
+all enquiries and communications to:<br><br><a href=3D"mailto:arcoe-09@aifb=
+.uni-karlsruhe.de">arcoe-09@aifb.uni-karlsruhe.de</a> <br>
+<br><br>-- Program Committee -- <br><br>- Richard Booth (Mahasarakham Unive=
+rsity, Thailand)<br>- Paolo Bouquet (University of Trento, Italy)<br>- Jero=
+me Euzenat (INRIA Grenoble Rhone-Alpes, France)<br>- Chiara Ghidini (FBK Fo=
+ndazione Bruno Kessler, Italy)<br>
+- Alain Leger (France Telecom R&amp;D, France)<br>- Deborah McGuinness (Ren=
+sselaer Polytechnic Institute, USA)<br>- Thomas Meyer (Meraka Institute, So=
+uth Africa)<br>- Maurice Pagnucco (The University of New South Wales, Austr=
+alia)<br>
+- Valeria de Paiva (Palo Alto Research Center (PARC), USA)<br>- Luciano Ser=
+afini (FBK Fondazione Bruno Kessler, Italy)<br>- Pavel Shvaiko (Informatica=
+ Trentina S.P.A., Italy)<br>- John F. Sowa (VivoMind Intelligence, Inc., US=
+A)<br>
+- Holger Wache (University of Applied Sciences, Northwestern Switzerland)<b=
+r>- Renata Wassermann (Universidade de Sao Paulo, Brasil)<br><br>
+
+--00504502b630f6dfbd0462bb93ed--
+
+--===============1448270378==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1448270378==--

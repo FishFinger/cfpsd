@@ -1,0 +1,146 @@
+From - Thu Dec 10 14:30:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs255998waa;
+        Mon, 17 Mar 2008 07:59:23 -0700 (PDT)
+Received: by 10.114.170.1 with SMTP id s1mr844523wae.54.1205765953675;
+        Mon, 17 Mar 2008 07:59:13 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id s10si8191238muh.11.2008.03.17.07.58.39;
+        Mon, 17 Mar 2008 07:59:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JbGaA-0007PW-SU; Mon, 17 Mar 2008 15:44:58 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JbGa3-0007P7-Fu; Mon, 17 Mar 2008 15:44:51 +0100
+Received: from outgoing.csail.mit.edu [128.30.2.149] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1JbGZz-0006aE-Nl; Mon, 17 Mar 2008 15:44:51 +0100
+Received: from sabin.csail.mit.edu ([128.30.29.231])
+	by outgoing.csail.mit.edu with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.63) (envelope-from <ozlem@mit.edu>)
+	id 1JbGZx-0001jt-IK; Mon, 17 Mar 2008 10:44:45 -0400
+Received: from ozlem (helo=localhost)
+	by sabin.csail.mit.edu with local-esmtp (Exim 4.50)
+	id 1JbGZx-00032e-7o; Mon, 17 Mar 2008 10:44:45 -0400
+Date: Mon, 17 Mar 2008 10:44:45 -0400 (EDT)
+From: Ozlem Uzuner <ozlem@mit.edu>
+X-X-Sender: ozlem@sabin.csail.mit.edu
+To: nlp-sig@mailman.amia.org, corpora@uib.no, elsnet@let.uu.nl, 
+	rasmusse@ptd.net
+In-Reply-To: <Pine.LNX.4.62.0802140936380.5499@sabin.csail.mit.edu>
+Message-ID: <Pine.LNX.4.62.0803171040100.23880@sabin.csail.mit.edu>
+References: <Pine.LNX.4.62.0802140936380.5499@sabin.csail.mit.edu>
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED;
+	BOUNDARY="511764253-1674005282-1205765085=:23880"
+X-checked-clean: by exiscan on rolf
+X-Scanner: c8b28071038763a8bf54213859300fdc http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -15 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   -15 From is listed in 'whitelist_SA'
+Cc: nlpchallenge@hms.harvard.edu
+Subject: [Corpora-List] Announcement of Data Release
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--511764253-1674005282-1205765085=:23880
+Content-Type: TEXT/PLAIN; charset=iso-8859-1; format=flowed
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+
+           Announcement of Data Release and Final Call for Participation
+
+                     Second i2b2 Shared-Task and Workshop
+         Challenges in Natural Language Processing for Clinical Data
+        Obesity Challenge (A Shared-Task on Obesity): Who's obese and what
+  =09=09co-morbidities do they (definitely/likely) have?
+
+                    Data Release: 15 March, 2008 ** Data is released!!!**
+
+                         Evaluation: 23-25 June, 2008
+                     Paper Submission: 1 September, 2008
+                 Workshop: 7 November, 2008 in Washington, DC
+
+  =09Organizer: Informatics for Integrating Biology and the Bedside,
+  =09=09i2b2, a National Center for Biomedical Computing
+  =09=09=09Website: https://www.i2b2.org/NLP
+
+  The obesity challenge is a multi-class, multi-label classification task
+  focused on obesity and its co-morbidities. The data for the challenge con=
+sist
+  of discharge summaries from Partners Healthcare. All records have been fu=
+lly
+  de-identified. Obesity information and co-morbidities have been marked at=
+ a
+  document level as present, absent, questionable, or unmentioned in the
+  documents. For each patient, both textual judgments, i.e., what the text
+  explicitly states about obesity and co-morbidities, and intuitive judgmen=
+ts,
+  i.e., what the text implies about obesity and co-morbidities, are provide=
+d.
+  The goal of the challenge is to evaluate systems on their ability to
+  recognize whether a patient is obese and what co-morbidities they exhibit=
+=2E
+
+  The obesity challenge opened to preregistration on February 1, 2008. Trai=
+ning
+  data for the challenge will be released in installments; the first
+  installment was released on March 15, 2008. The rest of the installments
+  will follow soon after. Test data are scheduled to be released for only t=
+hree
+  days and will be used only for evaluation purposes. The results of the
+  challenge will be presented at the workshop organized by i2b2.
+
+  Schedule
+  February 1, 2008=A0=A0=A0 Preregistration Open
+  March 15, 2008=A0=A0=A0 Training Data Release
+  April 15, 2008=A0=A0=A0 Commitment to Participate in Challenge
+  June 23, 2008=A0=A0=A0 Test Data Release at 9am EST
+  June 25, 2008=A0=A0=A0 Output Due at Midnight EST
+  August 1, 2008=A0=A0=A0 Notification of Results to Each Participant
+  September 1, 2008=A0=A0=A0 Short Papers Due
+  October 1, 2008=A0=A0=A0 Invitations to Present at the Workshop
+  November 7, 2008=A0=A0=A0 Workshop
+
+  Organizing Committee:
+  Ozlem Uzuner, Chair, SUNY at Albany and Middle East Technical University
+  Northern Cyprus Campus
+  Peter Szolovits, MIT CSAIL
+  Isaac Kohane, Partners Healthcare
+
+  Questions on the challenge can be addressed to Ozlem Uzuner,
+  i2b2nlp@albany.edu.
+
+  =A0
+--511764253-1674005282-1205765085=:23880
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--511764253-1674005282-1205765085=:23880--
+

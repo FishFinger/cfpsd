@@ -1,0 +1,599 @@
+From - Thu Dec 10 14:32:47 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs149898waa;
+        Tue, 5 Aug 2008 02:09:30 -0700 (PDT)
+Received: by 10.90.71.16 with SMTP id t16mr1104230aga.47.1217927369267;
+        Tue, 05 Aug 2008 02:09:29 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 7si11390594agb.34.2008.08.05.02.09.05;
+        Tue, 05 Aug 2008 02:09:29 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8BA2520E99; Tue,  5 Aug 2008 11:09:04 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.7 required=5.0 tests=AWL,BAYES_00,FB_CIALIS_LEO3
+	autolearn=no version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D5EC720D6F;
+	Tue,  5 Aug 2008 11:08:40 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id A895C3D3C;
+	Tue,  5 Aug 2008 11:08:40 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4YWEiorGBrLZ; Tue,  5 Aug 2008 11:08:40 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 096C43D3D;
+	Tue,  5 Aug 2008 11:08:39 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id ACA093D3C
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  4 Aug 2008 19:15:37 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jgLIN0fkOtp3 for <elsnet-list@mailman.elsnet.org>;
+	Mon,  4 Aug 2008 19:15:37 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 82C053D22
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  4 Aug 2008 19:15:37 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6DA592062E; Mon,  4 Aug 2008 19:15:37 +0200 (MEST)
+X-Greylist: delayed 2417 seconds by postgrey-1.28 at newjura;
+	Mon, 04 Aug 2008 19:15:27 MEST
+Received: from mailslv1.informatik.hu-berlin.de
+	(mailslv1.informatik.hu-berlin.de [141.20.20.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id F16A120AC0;
+	Mon,  4 Aug 2008 19:15:22 +0200 (MEST)
+Received: from riemann.informatik.hu-berlin.de
+	(riemann.informatik.hu-berlin.de [141.20.28.79])
+	by mailslv1.informatik.hu-berlin.de
+	(8.13.8+Sun/8.13.8/INF-2.0-MA-SOLARIS-2.10-25) with ESMTP id
+	m74GO8TM000645; Mon, 4 Aug 2008 18:24:09 +0200 (CEST)
+Received: by riemann.informatik.hu-berlin.de (Postfix, from userid 2053)
+	id 1C4636F4415; Mon,  4 Aug 2008 18:24:07 +0200 (CEST)
+To: LICS List <lics@informatik.hu-berlin.de>
+From: Kreutzer + Schweikardt <lics@informatik.hu-berlin.de>
+Message-Id: <20080804162408.1C4636F4415@riemann.informatik.hu-berlin.de>
+Date: Mon,  4 Aug 2008 18:24:07 +0200 (CEST)
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0
+	(mailslv1.informatik.hu-berlin.de [141.20.20.51]);
+	Mon, 04 Aug 2008 18:24:24 +0200 (CEST)
+X-Mailman-Approved-At: Tue, 05 Aug 2008 11:08:37 +0200
+Cc: 
+Subject: [Elsnet-list] LICS Newsletter 116
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: lics@informatik.hu-berlin.de
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+Newsletter 116
+August 1, 2008
+
+*******************************************************************
+* Past issues of the newsletter are available at
+  http://www.informatik.hu-berlin.de/lics/newsletters/
+* Instructions for submitting an announcement to the newsletter
+  can be found at
+  http://www.informatik.hu-berlin.de/lics/newsletters/inst.html
+* To unsubscribe, send an email with "unsubscribe" in the 
+  subject line to lics@informatik.hu-berlin.de
+*******************************************************************
+
+TABLE OF CONTENTS
+* CONFERENCES AND WORKSHOPS
+  ICDT 2009 - Call for Papers
+  LaSh08 - Last Call for Papers
+  ESSLLI 2009 - Second Call for Course and Workshop Proposals
+  SEC 2008 - Call for Participation 
+  AiML 2008 - Call for Participation
+  Colloquium Logicum 2008 - Call for Participation
+  LPAR 2008 Workshops - Call for Papers
+  RDP 2009 - Call for Workshop Proposals
+  ICLP'08 - Call for Posters Submissions
+  LFCS 2009 - Call for Papers
+* JOURNALS
+  Review Of Symbolic Logic - New Journal
+  Special Issue of Journal of Automated Reasoning - Call for Papers
+
+
+
+ICDT 2009 - 12th INTERNATIONAL CONFERENCE ON DATABASE THEORY
+  Call for Papers
+  March 23-25, 2009, St. Petersburg, Russia
+  http://www.math.spbu.ru/edbticdt/
+* The series of ICDT conferences provides a biennial, international
+  forum for the communication of research advances on the principles
+  of database systems. This year, for the first time, ICDT will be
+  held jointly with EDBT (The 12th International Conference on
+  Extending Database Technology).
+* ICDT 2009 - Important Dates:
+  - Abstract Submission Deadline  .  7 Aug. 2008
+  - Paper Submission Deadline . . . 14 Aug. 2008
+  - Notification Deadline . . . . .  6 Nov. 2008
+  - Camera Ready Deadline . . . . .  8 Dec. 2008
+  - Conference  . . . . . . . .  23-25 Mar. 2009
+* Suggested, but not exclusive, topics of interest for ICDT
+  submissions include: Access methods and physical design; Active
+  databases; Complexity and performance; Constraint databases;
+  Data exchange, data integration and interoperability; Data mining;
+  Data models; Database programming and query languages; Databases
+  and information retrieval; Probabilistic Databases; Databases and
+  workflow; Databases and the Semantic Web; Databases in e-commerce;
+  Databases in e-services; Deductive databases and knowledge bases;
+  Distributed databases; Integrity and security; Logic and databases;
+  Multimedia databases; Query optimization; Query processing;
+  Real-time databases; Semi-structured, XML, and Web data; Spatial
+  data; Temporal data; Concurrency and recovery; Transaction
+  management; Views and data warehousing.
+* Keynote Speakers:
+  Georg Gottlob (Oxford U), Victor Vianu (UC San Diego)
+* Detailed information can be found in the ICDT'09 Call For Papers:
+  http://www.math.spbu.ru/edbticdt/icdt09cfp.pdf
+  Submission website:
+  http://www.easychair.org/conferences/?conf=icdt2009
+
+
+LASH08 - WORKSHOP ON LOGIC AND SEARCH
+   Computation of structures from declarative descriptions
+   Final Call For Papers
+   Leuven, Belgium, November 6-7, 2008
+   http://www.cs.kuleuven.be/~dtai/LaSh08
+* IMPORTANT DATES
+  Submission: August 15, 2008
+  Notification: September 15, 2008
+  Workshop: November 6-7, 2008
+* Objectives
+  LaSh08 aims to offer a discussion forum for research in SAT, ASP and
+  CP that focuses on the computation of structures from declarative
+  descriptions.  We invite contributions on modeling languages,
+  methodologies, theoretical analysis, techniques, algorithms and
+  systems. The forum is an occasion to exchange ideas on the
+  state-of-the-art; to discuss specific technical problems; to formulate
+  challenges and opportunities ahead; to analyse differences and
+  simularities between the different areas; to study opportunities for
+  synergy and integration.
+  In particular, we would like to foster exchange at least on the
+  following topics:
+  - integrations of  SAT, ASP and/or CP technologies
+  - comparisons of modeling languages
+  - criteria for choice of modeling languages
+         (for modeling convenience or efficiency)
+  - new algorithm directions
+  - efficient modeling  strategies
+  - new  applications
+  - complexity results, tractable subsets
+  - completeness results (e.g. capturing complexity classes)
+  - methods for taking advantage of tractability results
+  - SAT modulo theories
+  - solver implementation techniques,
+  - algorithms for grounding
+  - modeling languages and constructs
+      (aggregates, global constraints,..)
+  - search control and heuristics in the context of model generation
+  - symmetry breaking in model construction
+  - optimisation problems in model construction:
+    - languages for optimality criteria;
+    - algorithms for computing optimal models
+* Systems and Tools:
+  LaSh08 will also provide an opportunity for presentation of implemented
+  systems and tools at a demo session. Thus, we invite submissions of
+  systems and tools that reflect the above ideas, and aim at facilitating
+  declarative problem solving, and making it practical and used.
+* Workshop format:
+  The workshops objective is to create an informal, stimulating
+  atmosphere for exchange of ideas. We invite also reports of work in
+  progress. There will be informal proceedings.
+* Invited speakers
+  - Pascal Van Hentenryck, Brown University,
+    "Constraint Programming at Work ".
+  - Robert Nieuwenhuis, Technical University of Catalonia,
+    "The Barcelogic approach to search: fast and robust but expressive".
+* Program Chair
+  -  Marc Denecker, K.U.Leuven
+* Program Committee
+  - Peter Baumgartner, The Australian National University
+  - Francesco Calimeri, University of Calabria
+  - Koen Claessen,  Chalmers University of Technology
+  - Thomas Eiter, Vienna University of Technology
+  - Wolfgang Faber, University of Calabria
+  - Pierre Flener, Uppsala University
+  - Alan Frisch, University of York
+  - Enrico Giunchiglia, University of Genova
+  - Daniel LeBerre,  Universite d'Artois
+  - Fangzen Lin, Hong kong University of Science and Technology
+  - Ines Lynce, Universidade Tecnica de Lisboa
+  - Tony Mancini, Sapienza Universita di Roma
+  - Victor Marek, University of Kentucky
+  - David Mitchell, Simon Fraser University
+  - Pierre Marquis, Universite d'Artois
+  - Ilkka Niemela, Helsinki University of Technology
+  - Karem Sakallah, University of Michigan
+  - Torsten Schaub, University of Potsdam
+  - Barry O'Sullivan, University College Cork
+  - Eugenia Ternovska  Simon Fraser University
+  - Mirek Truszcznski, University of Kentucky
+  - Pascal Van Hentenryck, Brown University
+  - Toby Walsh, University of New South Wales
+* Local organisation
+  - Marc Denecker, K.U.Leuven
+  - Joost Vennekens, K.U.Leuven
+
+
+  
+EUROPEAN SUMMER SCHOOL IN LOGIC, LANGUAGE AND INFORMATION (ESSLLI) 2009
+   Monday, 20 July --- Friday, 31 July 2009
+   bordeaux, France
+   Call For Course And Workshop Proposals
+* The European Summer School in Logic, Language and Information (ESSLLI)
+  is organized every year by the Association for Logic, Language and
+  Information (FoLLI, http://www.folli.org) in different sites around
+  Europe.
+  The main focus of ESSLLI is on the interface between linguistics,
+  logic and computation.  ESSLLI offers foundational, introductory and
+  advanced courses, as well as workshops, covering a wide variety of
+  topics within the three areas of interest: Language and Computation,
+  Language and Logic, and Logic and Computation.
+  Previous summer schools have been highly successful, attracting up to
+  500 students from Europe and elsewhere.  The school has developed into
+  an important meeting place and forum for discussion for students and
+  researchers interested in the interdisciplinary study of Logic,
+  Language and Information.
+  The ESSLLI 2009 Program Committee invites proposals for
+  foundational, introductory, and advanced courses, and for workshops
+  for the 21st annual Summer School in the broad interdisciplinary
+  area connecting logic, linguistics, computer science and the
+  cognitive sciences. The Summer School program is organized around
+  the components.
+  - Language and Computation
+  - Language and Logic
+  - Logic and Computation
+  We also welcome proposals that do not exactly fit one of these
+  there categories.
+* PROPOSAL SUBMISSION: 
+  Proposals should be submitted through a web form
+  available at http://www.folli.org/submission.php
+  All proposals should be submitted no later than
+  ******* Monday, September 1, 2008 *******
+  Authors of proposals will be notified of the committee's decision no
+  later than Wednesday October 15, 2008.  Proposers should follow the
+  guidelines below while preparing their submissions; proposals that
+  deviate can not be considered.
+*GUIDELINES FOR SUBMISSION: 
+  Anyone interested in lecturing or
+  organizing a workshop during ESSLLI-2009, please read the following
+  information carefully.
+  ALL COURSES: Courses consists of five sessions (a one-week course),
+  each session lasting 90 minutes.  Lecturers who want to offer a long,
+  two-week course should submit two independent one-week courses (for
+  example an introductory course in the first week of ESSLLI, and a
+  more advanced course during the second).  The ESSLLI program committee
+  has the right to select only one of the two proposed courses.
+* Timetable for Course Proposal Submission:
+  Sept 1, 2008: Proposal Submission Deadline
+  Oct 15, 2008: Notification
+  June 1, 2009: Deadline for receipt of camera-ready course
+                 material (by ESSLLI Local Organizers)
+* WORKSHOPS: 
+  The aim of the workshops is to provide a forum for advanced
+  Ph.D. students and other researchers to present and discuss their
+  work.  Workshops should have a well defined theme, and workshop
+  organizers should be specialists in the theme of the workshop. It is a
+  strict requirement that organizers give a general introduction to the
+  theme during the first session of the workshop.  They are also
+  responsible for the organization and program of the workshop
+  including inviting the submission of papers, reviewing, expenses of
+  invited speakers, etc. In particular, each workshop organizer will be
+  responsible for sending out a Call for Papers for the workshop by
+  November 17, 2008.  The call must make it clear that the workshop is
+  open to all members of the ESSLLI community.  It should also note that
+  all workshop contributors must register for the Summer School.
+* Timetable for Workshop Proposal Submissions
+  Sept 1, 2008: Proposal Submission Deadline
+  Oct 15, 2008: Notification
+  Nov 10, 2008: Deadline for receipt of Call for Papers
+                 (by ESSLLI PC chair)
+  Nov 17, 2008: Workshop organizers send out (First) Call for Papers
+  Jan  7, 2008: Workshop organizers send out Second Call for Papers
+  Feb  2, 2008: Workshop organizers send out Third Call for Papers
+  Feb 15, 2009: Deadline for Papers
+  Apr 15, 2009: Notification of Workshop Contributors
+  June 1, 2009: Deadline for receipt of camera-ready copy of Workshop
+                 Proceedings (by ESSLLI Local Organizers)
+  
+  Notice that workshop speakers will be required to register for the
+  Summer School; however, they will be able to register at a reduced
+  rate to be determined by the Local Organizers.
+* PROGRAM COMMITTEE:
+  Chair:  Uwe Moennich (SfS, Tuebingen)
+        Seminar fuer Sprachwissenschaft
+        Universitat Tuebingen
+        Arbeitsbereich Theoretische Computerlinguistik
+        Wilhelmstrasse 19
+        D-72074 Tuebingen, Germany
+        phone  : +49-7071-29-74035
+  	e-mail : um@sfs.uni-tuebingen.de
+  	www    : http://tcl.sfs.uni-tuebingen.de/~um/
+  Local co-chair:
+        Richard Moot (LaBRI, Bordeaux)
+  Area Specialists:
+        Marco Baroni and Claire Gardent (Language and Computation)
+        Paul Egre and Kjell Johan Saeboe (Language and Logic)
+  	Alex Rabinovich and Ulrike Sattler (Logic and Computation)
+* ORGANIZING COMMITTEE:
+  	Christian Retore
+* FURTHER INFORMATION: The website for ESSLLI 2009 will become  
+  operational in the second half of 2008.  For this year's summer school,
+  please see the web site at http://www.illc.uva.nl/ESSLLI2008/.
+  
+  
+23rd INTERNATIONAL INFORMATION SECURITY CONFERENCE (SEC 2008)
+   Call for Participation 
+   http://sec2008.dti.unimi.it
+* The Twenty-third Conference on International Information Security
+   Conference (SEC 2008) will take place on Milano Convention Centre,
+   Milano, Italy
+   from Monday, September 8 through Wednesday, September 10, 2008.
+* IFIP International Information Security Conference is the IFIP
+   TC-11 (Technical Committee on Security & Protection in
+   Information Processing Systems) flagship conference. The conference
+   is an international forum for information security researchers and
+   attracts an international audience from the academic, industrial,
+   and governmental communities.
+   The 2008 edition is co-located with IFIP World Computer Congress
+   2008 and will take place in Milan, Italy, at Milano Convention
+   Centre.
+
+  
+  
+  
+  
+  
+ADVANCES in MODAL LOGIC (AiML) 2008
+  Call For Participation
+  9-12 September 2008, LORIA, Nancy, France
+  http://aiml08.loria.fr
+* PRELIMINARY PROGRAM NOW ON-LINE
+  http://aiml08.loria.fr/programme.php
+* Advances in Modal Logic is an initiative aimed at presenting
+  an up-to-date picture of the state of the art in modal logic
+  and its many applications. The initiative consists of a
+  conference series together with volumes based on the conferences.
+  AiML-2008 is the seventh conference in the series.
+* REGISTRATION
+  Registration to AiML is now open at:
+  http://aiml08.loria.fr/registration.php
+* INVITED SPEAKERS
+  Invited speakers at AiML-2008 will include the following:
+  - Mai Gehrke, Radboud Universiteit Nijmegen
+    http://www.math.ru.nl/~mgehrke/
+    Using duality theory to export methods from modal logic
+  - Guido Governatori, NICTA, Australia
+    http://www.governatori.net
+    Labelled modal tableaux
+  - Agi Kurucz, King's College London
+    http://www.dcs.kcl.ac.uk/staff/kuag/
+    Axiomatising many-dimensional modal logics
+  - Lawrence Moss, Indiana University
+    http://www.indiana.edu/~iulg/moss/
+    Relational syllogistic logics, and other connections
+    between modal logic and natural logic
+  - Michael Zakharyaschev, Birkbeck College
+    http://www.dcs.bbk.ac.uk/~michael/
+    Topology, connectedness, and modal logi
+* Further information available at:
+  http://aiml08.loria.fr/invited.php
+* ACCEPTED PAPERS
+  Complete list of accepted papers and abstracts is now
+  available at: http://aiml08.loria.fr/accepted.php
+
+
+
+COLLOQUIUM LOGICUM 2008 
+  September 10-12, 
+  TU Darmstadt, Germany
+  www.mathematik.tu-darmstadt.de/fbereiche/logik/events/collogicum
+* The scientific programme comprises
+  Herbrand Centenary Lecture:
+     Georg Kreisel, F.R.S., Salzburg
+* Invited plenary lectures by:
+  - Hans Adler (Leeds)
+  - Sergei Goncharov (Novosibirsk)
+  - Joel David Hamkins (New York)
+  - Robert Lubarsky (Florida)
+  - Nicole Schweikardt (Frankfurt)
+  - Michiel van Lambalgen (Amsterdam)
+
+
+
+LPAR'08 WORKSHOPS
+  22nd November 2008
+  preceding LPAR'08, the 15th International Conference on Logic for
+                     Programming, Artificial Intelligence and Reasoning
+  November 23-27, 2008, 
+  Carnegie Mellon University, Doha, Qatar
+  http://www.qatar.cmu.edu/lpar08
+1. APS-4 - Analytic Proof Systems 4
+   Organizers: Matthias Baaz  and Christian Fermueller
+   Submission deadline: October 18, 2008
+   Submission: 1-2 pages abstract
+   Web: http://www.logic.at/staff/chrisf/ws/LPAR-AS-4.html
+2. ALICS - Applications of Logic in Computer Security
+   Organizer:  Catherine Meadows
+   Submission deadline: October 18, 2008
+   Submission: 1-5 pages abstract
+   Web: http://chacs.nrl.navy.mil/projects/ALICS08/
+3. IWIL - International Workshop on Implementations of Logic
+   Organizers:  Boris Konev, Renate Schmidt, and Stephan Schulz
+   Submission deadline: September 21, 2008
+   Submission: 10 pages abstract
+   Web: http://www.csc.liv.ac.uk/~konev/iwil2008/
+4. KEAPPA - Knowledge Exchange: Automated Provers and Proof Assistants
+   Organizers: Piotr Rudnickiand Geoff Sutcliffe 
+   Submission deadline: October 18, 2008
+   Submission: 10 pages abstract
+   Web:  http://www.cs.ualberta.ca/~piotr/KEAPPA08/
+
+
+
+                                    
+
+RDP'09 - Federated Conference on Rewriting, Deduction, and Programming
+  Call For Workshop Proposals	
+  28/6/2009 - 3/7/2009, Brasilia, Brazil
+* RDP'09 is a federated event comprising the 20th International
+  Conference on Rewriting Techniques and Applications (RTA'09) and the
+  9th International Conference on Typed Lambda Calculi and
+  Applications (TLCA'09). In addition, the School on Rewriting, Type
+  Theory, and Applications will take place the week before RDP.
+* Workshop proposals are solicited. Details and submission instructions:
+  http://www.pps.jussieu.fr/~treinen/rdp09/cfwp.html
+* Workshop Selection Committee:  Mauricio Ayala Rincon, Pierre-Louis
+  Curien, Ralf Treinen.
+* Important dates: Deadline for proposals November 17, 2008;
+  Notification of acceptance November 28, 2008.
+
+
+
+
+24TH INTERNATIONAL CONFERENCE ON LOGIC PROGRAMMING
+  Udine, Italy, December 9th-13th, 2008
+  http://iclp08.dimi.uniud.it
+  DEADLINE: August 15th, 2008
+* Within  the  scope  of  the  general  call  for  papers  for  the upcoming 24th
+  International  Conference  on  Logic  Programming,  we  would like to draw your
+  attention  on  the  opportunity  to  submit an extended abstract to the Posters
+  Track of the conference.
+  Posters  are  ideal for presenting work-in-progress, speculative, late-breaking
+  results  or  for introducing the audience to new research directions, projects,
+  and  initiatives. Posters are intended to provide authors and participants with
+  the  ability  to connect with each other and to engage in discussions about the
+  work.
+  Posters will be allocated a separate session during the conference, composed of
+  a standing poster demonstration and a lightning talk presentation.
+* SUBMISSION:
+  Poster  submissions are in the form of extended abstracts. They are expected to
+  be  succinct  and  clear, presenting the key ideas, possibly in an informal and
+  widely understandable manner.
+  All submissions must be written in English. 
+* Application papers must not exceed 5 pages in the Springer LNCS format
+                   (see http://www.springeronline.com/lncs/)
+  The  primary  means  of  submission  will  be electronic, through the Easychair
+  submission system. The submission page is available at
+               http://www.easychair.org/conferences/?conf=ICLP08
+* REVIEW PROCESS:
+  All  submissions  will  be  peer-reviewed  by  an international panel. Accepted
+  extended   abstracts  will  be  allocated  time  for  presentation  during  the
+  conference.  At  least  one  author  of each accepted submission is expected to
+  register  and participate in the event. Each accepted extended abstract will be
+  allocated 5 pages in the conference proceedings.
+* PUBLICATION
+  The  proceedings  of the conference will be published by Springer-Verlag in the
+  LNCS series.
+* IMPORTANT DATES
+  Abstract submission deadline    August 15th (strict)
+  Notification of authors         September 1st
+  Camera-ready copy due           September 15th
+  Early-bird Registration         TBA
+  Conference                      December 9-13, 2008
+* For further information: iclp08@cs.nmsu.edu
+      http://iclp08.dimi.uniud.it
+
+
+
+
+SYMPOSIUM ON LOGICAL FOUNDATIONS OF COMPUTER SCIENCE (LFCS'09) 
+  Call For Papers
+  Deerfield Beach, Florida, 
+  January 3-6, 2009 
+  www.lfcs.info
+* The LFCS series provides an outlet for the fast-growing body of work in 
+  the logical foundations of computer science, e.g., areas of fundamental
+  theoretical logic related to computer science. The LFCS series began 
+  with Logic at Botik, Pereslavl-Zalessky, 1989, and was co-organized by Albert  
+  R. Meyer (MIT) and  Michael Taitslin (Tver), after which organization 
+  passed to Anil Nerode.
+* LFCS Steering Committee:
+  Anil Nerode (General Chair); Stephen Cook; Dirk van Dalen; Yuri
+  Matiyasevich; John McCarthy; J. Alan Robinson; Gerald Sacks; Dana Scott.
+* LFCS'09 Program Committee:
+  Sergei Artemov (PC Chair); Matthias Baaz; Andreas Blass; Samuel Buss; 
+  Rod Downey; Ruy de Queiroz; Petr Hajek; Denis Hirschfeldt; Rosalie Iemhoff;
+  Bakhadyr Khoussainov; Yves Lafont; Daniel Leivant; Robert Lubarsky; 
+  Victor Marek; Franco Montagna; Anil Nerode; Philip Scott; Anatol Slissenko; 
+  Alex Simpson; Michael Rathjen; Alasdair Urquhart; Rineke Verbrugge.
+* Submission details. 
+  Proceedings will be published in the LNCS series.
+  There will be a post-conference volume of selected works published in 
+  the Annals of Pure and Applied Logic. Submissions should be made 
+  electronically via http://www.easychair.org/LFCS09/. Submitted papers must be in 
+  pdf/12pt format and of no more than 15 pages, present work not previously 
+  published, and must not be submitted concurrently to another conference with 
+  refereed proceedings.
+* Submissions deadline (firm): September 14, 2008
+* More details on topics, deadlines, venue, and lodging at www.lfcs.info
+  <http://www.lfcs.info/> .
+
+
+
+REVIEW OF SYMBOLIC LOGIC (RSL)
+  New Journal
+* The Association of Symbolic Logic (ASL) has just launched a new
+  journal, the Review of Symbolic Logic (RSL).  It is published by
+  Cambridge University Press.  
+* The first issue has just appeared and you can see the table of contents 
+  and download articles from the journal's CUP homepage at:
+  http://journals.cambridge.org/action/displayIssue?jid=RSL&volumeId=1&issueId=01#
+* RSL is devoted to philosophical and non-classical logics and their
+  applications, history and philosophy of logic, and philosophy and
+  methodology of mathematics. Submissions are welcome.
+
+
+
+SPECIAL ISSUE ON OPERATING SYSTEMS VERIFICATION JOURNAL OF
+AUTOMATED REASONING 
+  Call for Papers
+  http://www.cse.unsw.edu.au/~kleing/JAR-OSV-08/
+* This special issue will be devoted to the formal verification
+  of operating systems and similar low-level systems code. The
+  emphasis is on techniques and methods that provide real
+  solutions to real software problems. A real solution is one
+  that is applicable to the problem in industry and not one that
+  only applies to an abstract, academic toy version of it. 
+* Topics that fit the special issue are
+  - model checking
+  - automated and interactive theorem proving
+  - embedded systems development
+  - programming languages
+  - verifying compilers
+  - software certification
+* Guest editors: Gerwin Klein (NICTA), Ralf Huuck (NICTA),
+  Bastian Schlich (RWTH Aachen)
+* Important dates:  Paper submission: Sep 15 2008, 
+  Notification: Dec 15 2008, Final version: Jan 15 2008
+
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

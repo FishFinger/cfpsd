@@ -1,0 +1,361 @@
+From - Thu Dec 10 14:38:44 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.60.195 with SMTP id q3cs79875bkh;
+        Wed, 28 Oct 2009 02:03:16 -0700 (PDT)
+Received: by 10.211.155.16 with SMTP id h16mr2453586ebo.55.1256720594035;
+        Wed, 28 Oct 2009 02:03:14 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 5si4449501ewy.80.2009.10.28.02.03.13;
+        Wed, 28 Oct 2009 02:03:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A66A823965; Wed, 28 Oct 2009 10:03:11 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B1CC3238C9;
+	Wed, 28 Oct 2009 09:59:12 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 326A13E2F;
+	Wed, 28 Oct 2009 09:59:12 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uEs+0lbqYArg; Wed, 28 Oct 2009 09:59:11 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 3A62F3D56;
+	Wed, 28 Oct 2009 09:58:43 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4753F3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 Oct 2009 07:30:13 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id sVs3jsn1ZjuT for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 Oct 2009 07:30:13 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1EAE23D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 16 Oct 2009 07:30:13 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 06A4423CBF; Fri, 16 Oct 2009 07:30:12 +0200 (MEST)
+X-Greylist: delayed 1365 seconds by postgrey-1.28 at newjura;
+	Fri, 16 Oct 2009 07:30:11 MEST
+Received: from Smtpinque.AI.SRI.COM (Smtpinque.AI.SRI.COM [130.107.67.122])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 0EC1423CBB
+	for <elsnet-list@elsnet.org>; Fri, 16 Oct 2009 07:30:10 +0200 (MEST)
+Received: from smsinscan.ai.sri.com (Smsinscan.AI.SRI.COM [130.107.67.99])
+	by Smtpinque.AI.SRI.COM (8.14.2/8.14.2/Debian-2build1) with ESMTP id
+	n9G4qecA017688; Thu, 15 Oct 2009 21:52:40 -0700
+X-AuditID: 826b4363-b7baeae000000b1c-e4-4ad7fc185a0e
+Received: from smtpsx.AI.SRI.COM (Smtpsx.AI.SRI.COM [130.107.67.123])
+	by smsinscan.ai.sri.com (Symantec Mail Security) with SMTP id
+	C8.2B.02844.81CF7DA4; Thu, 15 Oct 2009 21:52:40 -0700 (PDT)
+Received: from c-98-210-100-72.hsd1.ca.comcast.net ([98.210.100.72]
+	helo=[192.168.1.104])
+	by smtpsx.AI.SRI.COM with esmtpsa (TLS-1.0:DHE_RSA_AES_256_CBC_SHA1:32)
+	(Exim 4.69) (envelope-from <martin@ai.sri.com>)
+	id 1Myenv-00067A-H6; Thu, 15 Oct 2009 21:52:39 -0700
+Message-ID: <4AD7FC0E.2090601@ai.sri.com>
+Date: Thu, 15 Oct 2009 21:52:30 -0700
+From: David Martin <martin@AI.SRI.COM>
+User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
+MIME-Version: 1.0
+To: cl@philebus.tamu.edu
+References: <317B40DA788E894D8FDD440D2835F5F701CD08DE@DEMAIL.docomolab-euro.com>
+In-Reply-To: <317B40DA788E894D8FDD440D2835F5F701CD08DE@DEMAIL.docomolab-euro.com>
+X-Brightmail-Tracker: AAAAAA==
+X-Mailman-Approved-At: Wed, 28 Oct 2009 09:58:34 +0100
+Cc: kif@philebus.tamu.edu, ontolweb-lists@deri.org, compulog@doc.imperial.ac.uk,
+	agents@cs.umbc.edu, ebxml-dev@lists.ebxml.org, www-ws@w3.org,
+	kweb-all@lists.de, jena-dev@yahoogroups.com,
+	kr2004org@it.uts.edu, sw-announce@semanticplanet.com,
+	semantic-web@w3.org, community@mlnet.org, loom-forum@isi.edu,
+	semantic_web@googlegroups.com, taboo-list@deis.unibo.it,
+	sioc-dev@googlegroups.com, dai-list@ece.sc.edu,
+	info-ic@listes.irisa.fr, dl@dl.kr.org,
+	seweb-list@www2-c703.uibk.ac.at, www-webont-wg@w3.org,
+	www-rdf-interest@w3.org, compulognet-parimp@dia.fi.upm.es,
+	aila@disi.unige.it, aisb@cogs.sussex.ac.uk,
+	wi@aifb.uni-karlsruhe.de, cladv@iccl.tu-dresden.de,
+	semanticweb@yahoogroups.com, acl@opus.cs.columbia.edu,
+	cg@cs.uah.edu, esap-news@disputatio.com, bull_i3@univ-tln.fr,
+	semweb-lists@lists.deri.org, e-eu-contact@dfki.de,
+	www-rdf-logic@w3.org, semanticweb@egroups.com,
+	ontolog-forum@ontolog.cim3.net,
+	protege-discussion@smi.irt-dr.med.stanford.edu,
+	cl-adverts@spock.inf.tu-dresden.de, gulp@dimi.uniud.it,
+	seweb-list@cs.vu.nl, cadeinc@cs.albany.edu,
+	ai-sges@jiscmail.ac.uk, swing-project@set.sintef.no,
+	kaw@swi.psy.uva.nl, elsnet-list@elsnet.org,
+	news-announce-conferences@uunet.uu.net,
+	noe_interop@drimm.u-bordeaux1.fr, ontology@buffalo.edu,
+	public-sws-ig@w3.org, topicmapmail@infoloom.com,
+	diglib@infoserv.inist.fr, ieeesb-vr@metropolis.sci.univr.it,
+	dbitaly@dia.uniroma3.it, rewerse-all@rewerse.net,
+	folli@coli.uni-sb.de, www-rdf-rules@w3.org, colognet@ucy.ac.cy,
+	grin@di.unipi.it, colognet-all@janeway.inf.tu-dresden.de,
+	public-owl-dev@w3.org, event@in.tu-clausthal.de,
+	swws-list@isoco.com, ontoweb-language-sig@cs.man.ac.uk
+Subject: [Elsnet-list] Call for Participation: Service Matchmaking and
+ Resource Retrieval in the Semantic Web
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0354918919=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0354918919==
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<div class="moz-text-html" lang="x-western">
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1" />
+ </o:shapelayout></xml><![endif]-->
+<div class="Section1">
+<p class="MsoPlainText"><span
+ style="font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;" lang="FR">Apologies
+for cross-postings<o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;" lang="FR">--------------------------------------------------------------------------<br>
+CALL FOR PARTICIPATION<br>
+--------------------------------------------------------------------------<br>
+<br>
+</span><b><span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">SMR2-2009</span></b><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB"> <o:p>&nbsp;</o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">Third
+International Workshop on<o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">Service
+Matchmaking and Resource
+Retrieval in the Semantic Web<o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB"><a
+ href="http://www-ags.dfki.uni-sb.de/%7Eklusch/smr2-09/">http://www-ags.dfki.uni-sb.de/~klusch/smr2-09/</a><o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">&nbsp; 8th
+International Semantic Web
+Conference (ISWC 2009)<o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">October 25,
+2009 <o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: center;" align="center"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">Washington DC,
+USA<o:p></o:p></span></p>
+<p class="MsoPlainText"><b><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB"><o:p>&nbsp;</o:p></span></b></p>
+<p class="MsoPlainText"><b><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">Aim
+&amp; Scope</span></b><span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"
+ lang="EN-GB"><o:p></o:p></span></p>
+<p class="MsoPlainText" style="text-align: justify;"><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB"><o:p></o:p></span>The
+primary objective of this workshop is to bring together researchers and
+practitioners from industry who tackle semantic service discovery from
+various points of view. This year's workshop will especially focus on
+building bridges to the software engineering and model-driven
+development communities in order to share requirements, technologies,
+and experiences that might be helpful in advancing the state of the art
+in semantic service matchmaking and resource retrieval.<br>
+</p>
+<p class="MsoPlainText" style="text-align: justify;"><b><i><span
+ style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR">Going
+to Practice: The Third Semantic Service Selection (S3) Contest</span></i></b></p>
+In addition, this year's workshop integrates the third edition of the
+open international contest on semantic service selection (S3). The S3
+contest focuses on the comparative evaluation of classic retrieval
+performance of ready to use Semantic Web service matchmakers over given
+test collections for semantic service formats such as OWL-S, WSML, and
+the standard SA-WSDL.
+<p class="MsoPlainText" style="text-align: justify;"><span
+ style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR"></span><span
+ style="font-size: 9.5pt; font-family: &quot;Arial&quot;,&quot;sans-serif&quot;; color: black;"><o:p></o:p></span></p>
+<p><b><i><span style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;"
+ lang="FR"></span></i></b></p>
+<p class="MsoPlainText"><b><span
+ style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;" lang="EN-GB">Scientific
+Program</span></b><br>
+<i><span style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR"><o:p></o:p></span></i></p>
+<p class="MsoPlainText" style="text-align: justify;"><span
+ style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR"><o:p>8:45
+- 9:00 Opening<br>
+<br>
+9:00 - 10:00 Session 1: Supporting Service Mashups<br>
+<br>
+Mashup Development for Everybody: A Planning-Based Approach.<br>
+Christian Kubczak, Tiziana Margaria and Bernhard Steffen.<br>
+<br>
+Policy-Aware Pipes: Support Accountability in Mashup Service of Linked
+Data.<br>
+Fuming Shih Shih and Lalana Kagal. <br>
+<br>
+10:00 - 10:30 Invited Talk I<br>
+<br>
+BioSky: An Approach to Discover the Best Services Efficiently.<br>
+Maria-Esther Vidal (Universidad Sim&oacute;n Bol&iacute;var, Venezuela).<br>
+<br>
+10:30 - 11:00 Coffee break<br>
+<br>
+11:00 - 12:30 Session 2: Service Discovery<br>
+<br>
+OWLS-MX3: An Adaptive Hybrid Semantic Service Matchmaker for OWL-S&nbsp;&nbsp; &nbsp;<br>
+Matthias Klusch and Patrick Kapahnke.<br>
+<br>
+Semantic Matchmaking for Job Recruitment: An Ontology-Based Hybrid
+Approach.<br>
+Maryam Fazel-Zarandi and Mark S. Fox.<br>
+<br>
+Discovering Pervasive Services Based on their Expected Use.<br>
+Raman Kazhamiakin, Volha Kehert, Massimo Paolucci Marco Pistore and
+Matthias Wagner.<br>
+<br>
+12:30 - 14:00 Lunch<br>
+<br>
+14:00 - 14:45 Session 3: <br>
+The 3rd International Semantic Service Selection Contest: Final Results.<br>
+Matthias Klusch, Ulrich K&uuml;ster.<br>
+<br>
+Track 1: OWL-S Service Matchmakers<br>
+Track 2: SAWSDL Service Matchmakers<br>
+Track 3: Initial Cross-Evaluation<br>
+<br>
+S3 contest page: <a class="moz-txt-link-freetext" href="http://www.dfki.de/~klusch/s3/">http://www.dfki.de/~klusch/s3/</a><br>
+<br>
+14:45 - 15:15 Invited Talk II<br>
+<br>
+The Role of Semantic Web Service Matching <br>
+in the Context of Business Process Implementation - an Industry
+Perspective. <br>
+Rama Akkiraju (IBM Research, USA).<br>
+<br>
+15:15 - 16:00 Open Discussion:&nbsp; "Semantic Services in Practice: Quo
+Vadis?"<br>
+Moderation: Massimo Paolucci<br>
+<br>
+16:00 - 16:30 Coffee break<br>
+<br>
+16:30 - 18:00 Session 4: Service Representation and Querying<br>
+<br>
+Supporting the Creation of Semantic RESTful Service Descriptions.<br>
+Maria Maleshkova, Carlos Pedrinaci and John Domingue. <br>
+<br>
+Using Queries for Semantic-based Service Utilization.<br>
+Mohammad-Reza Tazari.<br>
+<br>
+Measuring the Weight of Relations Between Entities.<br>
+Mizuki Oka and Yutaka Matsuo.<br>
+<br>
+18:00 Closing<br>
+<br>
+</o:p></span><b><span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"
+ lang="EN-GB">Registration</span></b><span
+ style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR"><o:p><br>
+<br>
+Registration to the SMR2-2009 workshop is through the Web page <br>
+of the hosting conference ISWC 2009.<br>
+&nbsp;<br>
+Please register to the workshop (second page) here: <br>
+<a class="moz-txt-link-freetext" href="http://iswc2009.semanticweb.org/wiki/index.php/ISWC_2009_Registration">http://iswc2009.semanticweb.org/wiki/index.php/ISWC_2009_Registration</a><br>
+<br>
+At this page you are given the choice to register <br>
+for only one or both events (workshop, conference). <br>
+<br>
+The virtual participation in the S3 contest in general<br>
+(via submission of your entry/entries online) is free of charge. <br>
+<br>
+</o:p></span><b><span style="font-family: &quot;Arial&quot;,&quot;sans-serif&quot;;"
+ lang="EN-GB">Organization</span></b><span
+ style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR"><o:p><br>
+<br>
+<i>Program Co-Chairs</i></o:p></span></p>
+<p class="MsoPlainText" style="text-align: justify;"><span
+ style="font-family: &quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;" lang="FR"><o:p>&nbsp;
+Alain L&eacute;ger (France Telecom Research, France)<br>
+&nbsp; Tiziana Margaria (U Potsdam, Germany)<br>
+&nbsp; David Martin (SRI International, USA)<br>
+&nbsp; Massimo Paolucci (NTT DoCoMo Research Europe, Germany)<br>
+<br>
+<i>Steering Committee</i><br>
+<br>
+&nbsp; Abraham Bernstein (U Zurich, Switzerland)<br>
+&nbsp; Tommaso Di Noia (TU Bari, Italy)<br>
+&nbsp; Takahiro Kawamura (Toshiba, Japan)<br>
+&nbsp; Matthias Klusch (DFKI, Germany) <br>
+&nbsp; Ulrich K&uuml;ster (U Jena, Germany)<br>
+&nbsp; Ruben Lara (Telefonica R&amp;D, Spain)<br>
+&nbsp; Alain Leger (France Telecom Research, France)<br>
+&nbsp; David Martin (SRI International, USA)<br>
+&nbsp; Terry Payne (U Southampton, UK)<br>
+&nbsp; Axel Polleres (DERI Galway, Ireland)<br>
+&nbsp; Massimo Paolucci (NTT DoCoMo Europe, Germany)<br>
+&nbsp; Ioan Toma (STI, Austria)<br>
+<br>
+<i>Program Committee</i><br>
+<br>
+&nbsp; Sudhir Agarwal (U Karlsruhe, Germany)<br>
+&nbsp; Rama Akkiraju (IBM Research, USA)<br>
+&nbsp; Eugenio Di Sciascio (Politecnico di Bari, Italy)<br>
+&nbsp; Toumani Farouk (Blaise Pascal University, France)<br>
+&nbsp; Takahiro Kawamura (Toshiba Research, Japan) <br>
+&nbsp; Matthias Klusch (DFKI, Germany)<br>
+&nbsp; Ulrich K&uuml;ster (U Jena, Germany) <br>
+&nbsp; Freddy Lecue (U Manchester, UK)<br>
+&nbsp; Alain L&eacute;ger (France Telecom Research, France)<br>
+&nbsp; Tiziana Margaria (U Potsdam, Germany)<br>
+&nbsp; David Martin (SRI International, USA)<br>
+&nbsp; Massimo Paolucci (NTT DoCoMo Research Europe, Germany)<br>
+&nbsp; Axel Polleres (DERI Galway, Ireland) <br>
+&nbsp; Dumitru Roman (STI Innsbruck, Austria) <br>
+&nbsp; Bernhard Steffen (TU Dortmund, Germany)<br>
+&nbsp; Eran Toch (Carnegie-Mellon U, USA)<br>
+&nbsp; Ioan Toma (STI Innsbruck, Austria) <br>
+</o:p></span><br>
+</p>
+</div>
+</div>
+</body>
+</html>
+
+--===============0354918919==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0354918919==--

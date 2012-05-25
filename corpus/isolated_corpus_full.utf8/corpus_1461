@@ -1,0 +1,306 @@
+From - Thu Dec 10 14:26:47 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs127993waa;
+        Thu, 3 May 2007 01:59:24 -0700 (PDT)
+Received: by 10.67.10.18 with SMTP id n18mr1764665ugi.1178182762777;
+        Thu, 03 May 2007 01:59:22 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id j3si2296024ugd.2007.05.03.01.59.21;
+        Thu, 03 May 2007 01:59:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1HjX9c-0001NR-4o; Thu, 03 May 2007 10:59:12 +0200
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1HjX9Z-000J5k-Ds; Thu, 03 May 2007 10:59:09 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1HjX9T-000J5f-Nn; Thu, 03 May 2007 10:59:03 +0200
+Received: from mallory.itri.bton.ac.uk (mailhost.itri.brighton.ac.uk) [194.81.196.98] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1HjX9O-0005oX-8L; Thu, 03 May 2007 10:59:03 +0200
+Received: from stark.itri.bton.ac.uk ([194.81.196.88] helo=stark.itri.brighton.ac.uk)
+	by mailhost.itri.brighton.ac.uk with esmtp (Exim 4.44)
+	id 1HjWXs-0001AM-LY
+	for corpora@uib.no; Thu, 03 May 2007 09:20:12 +0100
+Received: from localhost (asb@localhost)
+	by stark.itri.brighton.ac.uk (8.11.6+Sun/8.11.6) with ESMTP id l438bhC07307
+	for <corpora@uib.no>; Thu, 3 May 2007 09:37:44 +0100 (BST)
+X-Authentication-Warning: stark.itri.brighton.ac.uk: asb owned process doing -bs
+Date: Thu, 3 May 2007 09:37:43 +0100 (BST)
+From: Anja Belz <a.s.belz@itri.brighton.ac.uk>
+To: corpora@uib.no
+Subject: [Corpora-List] First NLG Shared-Task Challenge on Attribute Selection for GRE: Call
+ for Participation
+Message-ID: <Pine.GSO.4.56.0705030920210.7297@stark.itri.brighton.ac.uk>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-checked-clean: by exiscan on rolf
+X-Scanner: a26a2d02e965bfc973f7ca7a1889755a http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 1.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 Received: contains a forged HELO
+  1.0 BODY: UIB_MAILWON
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+
+CALL FOR PARTICIPATION
+
+First NLG Challenge on Attribute Selection for Referring Expressions
+Generation
+
+
+The field of Natural Language Generation (NLG) has strong evaluation
+traditions, in particular in user-based evaluation of applied
+systems.  However, while in most other NLP fields shared-task
+evaluation now plays an important role, there are few results of this
+kind in NLG.  The Shared Task Evaluation Campaign (STEC) in Generation
+of Referring Expressions (GRE) is intended to be a first step in the
+direction of exploring what is required for shared-task evaluation in
+NLG.  Under the umbrella of this GRE STEC, we are planning to organise
+a series of evaluation events, involving, over time, a wide range of
+GRE task definitions, data resources and evaluation methods.
+
+As a first step, and in order to gauge community interest, we are
+setting up a pilot evaluation in the spirit of a feasibility test: the
+Attribute Selection for Referring Expressions Generation Challenge.
+This Challenge will be presented and discussed at this year's UCNLG+MT
+Workshop in Copenhagen, on 11 September, at MT Summit XI.  If
+successful, we plan to organise a larger-scale event in 2008,
+extending the remit to cover aspects of GRE beyond attribute selection
+as well as more data resources and evaluation methods.
+
+With this call, we would like to invite researchers from all
+backgrounds to participate in the Attribute Selection for Referring
+Expressions Generation Challenge.  The focus will be on selecting
+attributes for generation of distinguishing descriptions, and
+submissions will be evaluated against a shared data set of
+human-authored descriptions elicited in a visual domain (see below for
+more details).
+
+
+Background
+----------
+
+The GRE STEC initiative arose as a direct result of the NSF Workshop
+on Shared Tasks and Comparative Evaluation in NLG held in Arlington,
+US, in April 2007 (http://www.ling.ohio-state.edu/~mwhite/nlgeval07/).
+The workshop provided a forum for discussion on the prospects, pros
+and cons of STECs in NLG, and the related question of shared resources.
+
+During the Arlington Workshop, several of the position papers made
+reference to GRE as a prime candidate for a STEC, since this area has
+been the focus of intensive research over the past decade, leading to
+greater consensus over basic problem definition, inputs and outputs
+than in most NLG subfields.  One of the break-out groups at the
+workshop was given the task of working out how a GRE STEC could be
+organised, and our plans described below represent the output of the
+break-out group's work.
+
+The report on the workshop, jointly authored by the participants and
+due to be published later this year, reflects the variety of opinion
+on the subject of shared-task evaluations in NLG, including concerns
+that a restrictive selection of tasks and evaluation methods may
+narrow a particular field's research focus and produce misleading
+evaluation results, respectively.  Our plans for the GRE STEC address
+these concerns through strategies for ensuring diversity in tasks and
+evaluation methods as well as grass-roots community involvement.
+
+
+The GRE STEC
+------------
+
+We conceive of the GRE STEC as one element of a possible constellation
+of shared tasks in NLG, each focusing on different aspects of the
+field.  We are committed to addressing a wide range of task
+definitions (attribute selection, pronominalisation and other
+anaphoric reference, realisation, etc.), different data resources
+(COCONUT, TUNA, GREC, etc.), and different evaluation methods
+(correlation measures, set overlap, surface similarity metrics, as
+well as user-oriented evaluations).  Most importantly, we will
+encourage grass-roots involvement through calls for the submission of
+task proposals, data resources and evaluation methods.
+
+
+The Attribute Selection for GRE Challenge at UCNLG+MT
+-----------------------------------------------------
+
+The Attribute Selection for GRE Challenge has the role of a pilot
+challenge for the longer-term GRE STEC.  The choice of shared task is
+motivated by the fact that much of the research in GRE has focussed on
+the task of selecting attributes for intended referents in a knowledge
+base, in such a way that all potential `distractors' are ruled out:
+
+"Given a symbol corresponding to an intended referent, how do we
+work out the semantic content of a referring expression that uniquely
+identifies the entity in question?" (Bohnet and Dale, 2005, p. 1004)
+
+The Shared Task:
+- - - - - - - -
+
+Data: The data is from the TUNA corpus of referring expressions.  This
+choice is mainly motivated by the fact that the corpus was designed
+specifically to address attribute selection in GRE.  Instances in the
+corpus comprise (a) the kind of information required in the input to
+attribute selection for GRE (referent type and ID, possible attributes
+and potential distractors), and (b) output sets of attributes as
+derived from human-authored descriptions for the intended referent.
+More details on the TUNA corpus can be obtained from the URLs listed
+at the end of this message.
+
+Task: Submitted systems should implement the task of mapping a given
+input representation to a (single) attribute set that identifies the
+intended referent.  The aim here may be either to select any
+distinguishing set of attributes, or the minimal number of attributes
+that uniquely identifies the referent, or to select attribute sets as
+humans would (outputs will be evaluated against both minimal sets and
+human-produced sets).
+
+Evaluation:  We will be using two default methods for evaluation:
+
+  a. The Dice coefficient of similarity used to compare system outputs
+  to (i) attribute sets derived from human-produced descriptions
+  (these are of the same type as the outputs included in the training
+  and development data); and (ii) minimal distinguishing attribute
+  sets (the TUNA domain has unique minimal sets for each domain
+  entity);
+
+  b. A small-scale human-based experiment for evaluating submitted
+  system-generated descriptions, in which subjects are given the task
+  of identifying referents given system-generated descriptions.
+
+We may also use additional evaluation methods submitted by
+participants under the Evaluation Methods Track (see below).
+Participants in the Shared-Task Track will be notified of any
+additional evaluation methods that will be used, and may opt out of
+these additional evaluations.
+
+Submission Procedure and Tracks:
+- - - - - - - - - - - - - - - -
+
+We will release a Participants' Pack including a sample of the data
+(paired inputs and outputs) to registered participants on 15
+May, and thereafter to new participants on registration.  The
+corresponding training and development sets will be available immediately
+after the registration deadline, and the test set (inputs only) will
+be made available for download three weeks before the deadline for the
+final submission of results.  During the three weeks between release
+of test data and final submission deadline, participants will have one
+week from the time of download to generate and submit their
+outputs.  Prior to downloading the test data, participants are required
+to submit a description of their method and development set results
+(the idea is that the method is not changed during the week available
+for generating test data outputs).
+
+We invite submissions in one or more of the following three tracks:
+
+1. The shared task proper: Participants are asked to create automatic
+methods for selecting attribute sets for given inputs as described
+above.  Participation involves submitting a description of the method
+and results for the development set just before downloading the test
+data, and submitting (single) outputs for each input in the test data
+set by the final results deadline (for provisional timeline see below),
+taking no more than one week from the time of download.
+
+2. Open submission category: Participants may also devise their own
+task definition using the training and development data, and submit a
+research paper reporting their method and results in this open
+category.  In this first evaluation round we will not invite multiple
+submissions for the same task under this track.  However, we may
+include task definitions submitted under this tack as shared tasks in
+future evaluation rounds.
+
+3. Evaluation techniques: We also invite proposals for evaluation
+methods to be used in the evaluation of attribute selection for GRE.
+Here, we distinguish two subtracks:
+
+  a. Research papers describing GRE evaluation methods and, optionally,
+  results for development data: participants may devise any evaluation
+  method for GRE, apply it to some data and submit a paper reporting
+  the results under this subtrack.  We are planning to make available
+  development data output sets from the Shared Task Track for use in
+  this subtrack.
+
+  b. Ready-to-use Perl scripts or executable java jar files:
+  participants may submit evaluation scripts which we will use to
+  evaluate the test set outputs, provided the scripts are fully
+  documented and only use standard libraries (however, if there are
+  problems executing a script we cannot guarantee that we will use
+  it).  Scripts will need to operate on outputs and reference
+  attribute sets (a precise specification of the output format will be
+  distributed with the Participants Pack).
+
+
+Proceedings and presentations
+-----------------------------
+
+Paper submissions under all three tracks will be included in the
+proceedings of the UCNLG+MT Workshop which will be published by the MT
+Summit XI organisers.  Papers will not undergo a selection procedure with
+multiple reviews, but the organisers reserve the right to reject material
+which is not appropriate given the participation guidelines.  Page limits
+are the same for all tracks: papers should not exceed three (3) pages in
+length, including diagrams and bibliography.
+
+Participants who are able to attend the UCNLG+MT Workshop will be invited
+to give a short presentation based on their paper.
+
+
+Participation
+-------------
+
+At this point we would like anybody who is potentially interested in
+participating in the Attribute Selection for GRE Challenge to send us
+an email at the address below in order to register.  We will
+distribute a Participants' Pack on 15 May, which will give full
+details of the Challenge, including input and output specifications
+for shared task and evaluation methods.
+
+
+Provisional timeline
+--------------------
+
+1-31 May        Registration open
+15 May          Release of Participants' Packs
+1 June          Release of training and development data
+7-28 July       Test data download and submission of test data outputs;
+                This is a 3-step process:
+                  1. Submission of 3-page papers describing approach and
+                     development set results
+                  2. Test data made available for download
+                  3. Test data results due 1 week after download, but
+                     no later than 28 July
+28 July         Final submission deadline for test set outputs
+11 September    Attribute Selection for GRE Session at UCNLG+MT
+
+
+Organisers
+----------
+
+Anja Belz, Brighton University, UK
+Albert Gatt, Aberdeen University, UK
+Ehud Reiter, Aberdeen University, UK
+Jette Viethen, Macquarie University, Australia
+
+
+Contact email address
+---------------------
+
+gre-stec (at) itri.brighton.ac.uk
+
+
+Websites
+--------
+
+Attribute Selection for GRE Challenge: http://www.csd.abdn.ac.uk/research/evaluation/
+
+UCNLG+MT: http://www.itri.brighton.ac.uk/ucnlg
+
+TUNA Corpus: http://www.csd.abdn.ac.uk/research/tuna/corpus/
+
+

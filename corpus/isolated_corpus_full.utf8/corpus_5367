@@ -1,0 +1,548 @@
+From - Thu Dec 10 14:37:15 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.105.199 with SMTP id u7cs848006fao;
+        Sat, 30 May 2009 15:19:19 -0700 (PDT)
+Received: by 10.210.92.8 with SMTP id p8mr2011726ebb.9.1243721957194;
+        Sat, 30 May 2009 15:19:17 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 11si4443233ewy.98.2009.05.30.15.19.14;
+        Sat, 30 May 2009 15:19:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 0FAC320CCC; Sun, 31 May 2009 00:19:13 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 32C871FED9;
+	Sun, 31 May 2009 00:18:01 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B746C3D3B;
+	Sun, 31 May 2009 00:17:59 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id x2QVLebwJ+gB; Sun, 31 May 2009 00:17:59 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1D73C3D2B;
+	Sun, 31 May 2009 00:17:58 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D7C3E3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 28 May 2009 21:11:14 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ujUQYOkxyUge for <elsnet-list@mailman.elsnet.org>;
+	Thu, 28 May 2009 21:11:14 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9D09C3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 28 May 2009 21:10:54 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 3498520F30; Thu, 28 May 2009 21:10:54 +0200 (MEST)
+Received: from mail1.unitn.it (mail1.unitn.it [193.205.206.53])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B942F20E59
+	for <elsnet-list@elsnet.org>; Thu, 28 May 2009 21:10:46 +0200 (MEST)
+Received: from mail1.unitn.it (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id 563FC5438A;
+	Thu, 28 May 2009 21:10:45 +0200 (CEST)
+Received: from mailhub2.unitn.it (mailhub2.unitn.it [192.168.206.47])
+	by mail1.unitn.it (Postfix) with ESMTP id C284154339;
+	Thu, 28 May 2009 21:09:54 +0200 (CEST)
+Received: from disi.unitn.it (disi.unitn.it [193.205.194.4])
+	by mailhub2.unitn.it (Postfix) with ESMTP id A2BC6B0D3DC;
+	Thu, 28 May 2009 21:09:54 +0200 (CEST)
+Received: from IT0AC1A0736 (host20-110-dynamic.4-87-r.retail.telecomitalia.it
+	[87.4.110.20]) (authenticated bits=0)
+	by disi.unitn.it (8.13.8/8.13.8) with ESMTP id n4SJ6nde020348
+	(version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NO);
+	Thu, 28 May 2009 21:06:49 +0200
+Message-ID: <8CDB8EAB368D425681EDF9823D68322D@IT0AC1A0736>
+From: "Pavel Shvaiko" <pavel@dit.unitn.it>
+To: <pavel.shvaiko@infotn.it>
+Date: Thu, 28 May 2009 21:06:24 +0200
+MIME-Version: 1.0
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5512
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Mailman-Approved-At: Sun, 31 May 2009 00:17:36 +0200
+Cc: 
+Subject: [Elsnet-list] 1st CFP: ISWC'09 workshop on Ontology Matching
+	(OM-2009) 
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0637050174=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============0637050174==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0011_01C9DFD8.28C4B5C0"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0011_01C9DFD8.28C4B5C0
+Content-Type: text/plain;
+	charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for cross-postings
+
+-------------------------------------------------------------------------=
+-
+                             CALL FOR PAPERS
+-------------------------------------------------------------------------=
+-
+
+
+                   The Fourth International Workshop on=20
+                            ONTOLOGY MATCHING
+                                (OM-2009)
+                   http://om2009.ontologymatching.org/
+=20
+    October 25, 2009, ISWC'09 Workshop Program, Washington DC., USA=20
+
+
+BRIEF DESCRIPTION AND OBJECTIVES
+Ontology matching is a key interoperability enabler for the Semantic =
+Web,=20
+as well as a useful tactic in some classical data integration tasks.=20
+It takes the ontologies as input and determines as output an alignment,=20
+that is, a set of correspondences between the semantically=20
+related entities of those ontologies. These correspondences can be used=20
+for various tasks, such as ontology merging and data translation.=20
+Thus, matching ontologies enables the knowledge and data expressed=20
+in the matched ontologies to interoperate.=20
+
+The workshop has three goals:=20
+1. To bring together leaders from academia, industry and user =
+institutions=20
+to assess how academic advances are addressing real-world requirements.=20
+The workshop will strive to improve academic awareness of industrial=20
+and final user needs, and therefore, direct research towards those =
+needs.=20
+Simultaneously, the workshop will serve to inform industry and user=20
+representatives about existing research efforts that may meet their
+requirements. The workshop will also investigate how the ontology=20
+matching technology is going to evolve.
+
+2. To conduct an extensive and rigorous evaluation of ontology matching=20
+approaches through the OAEI (Ontology Alignment Evaluation Initiative)=20
+2009 campaign. This year's OAEI campaign introduces two new tracks about =
+
+oriented alignments and about instance matching (a timely topic for=20
+the linked data community). Therefore, the ontology matching evaluation=20
+initiative itself will provide a solid ground for discussion of how well =
+
+the current approaches are meeting business needs.=20
+
+3. To examine similarities and differences from database schema =
+matching,=20
+which has received decades of attention but is just beginning to =
+transition=20
+to mainstream tools.=20
+
+
+TOPICS of interest include but are not limited to:=20
+    Business cases for matching;=20
+    Requirements to matching from specific domains;=20
+    Application of matching techniques in real-world scenarios;=20
+    Formal foundations and frameworks for ontology matching;=20
+    Large-scale ontology matching evaluation;=20
+    Performance of matching techniques;=20
+    Matcher selection and self-configuration;=20
+    Uncertainty in ontology matching;=20
+    User involvement (including both technical and organizational =
+aspects);=20
+    Explanations in matching;=20
+    Social and collaborative matching;=20
+    Alignment management;=20
+    Reasoning with alignments;=20
+    Matching for traditional applications (e.g., information =
+integration);=20
+    Matching for dynamic applications (e.g., peer-to-peer, =
+web-services).
+
+
+
+SUBMISSIONS
+Contributions to the workshop can be made in terms of technical papers =
+and=20
+posters/statements of interest addressing different issues of ontology =
+matching=20
+as well as participating in the OAEI 2009 campaign. Technical papers =
+should=20
+be not longer than 12 pages using the LNCS Style:
+http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-164-2-72376-0,0=
+0.html
+Posters/statements of interest should not exceed 2 pages and=20
+should be handled according to the guidelines for technical papers.=20
+All contributions should be prepared in PDF format and should be =
+submitted=20
+through the workshop submission site at:=20
+
+http://www.easychair.org/conferences/?conf=3Dom20090=20
+
+Contributors to the OAEI 2009 campaign have to follow the campaign =
+conditions=20
+and schedule at http://oaei.ontologymatching.org/2009/.=20
+
+
+***TENTATIVE*** IMPORTANT DATES FOR TECHNICAL PAPERS:=20
+August 11, 2009: Deadline for the submission of papers.=20
+September 15, 2009: Deadline for the notification of =
+acceptance/rejection.=20
+October 2, 2009: Workshop camera ready copy submission.=20
+October 25, 2009: OM-2009, Westfields Conference Center, Washington DC., =
+USA.=20
+
+
+ORGANIZING COMMITTEE
+1. Pavel Shvaiko (Main contact)
+TasLab, Informatica Trentina SpA, Italy
+
+2. Jerome Euzenat=20
+INRIA & LIG, France
+
+3. Fausto Giunchiglia=20
+University of Trento, Italy
+
+4. Heiner Stuckenschmidt=20
+University of Mannheim, Germany=20
+
+5. Natasha Noy=20
+Stanford Center for Biomedical Informatics Research, USA=20
+
+6. Arnon Rosenthal=20
+The MITRE Corporation, USA=20
+
+
+PROGRAM COMMITTEE
+Yuan An, Drexel University, USA=20
+Zohra Bellahsene, LIRMM, France=20
+Paolo Besana, University of Edinburgh, UK=20
+Olivier Bodenreider, National Library of Medicine, USA=20
+Isabel Cruz, University of Illinois at Chicago, USA=20
+Avigdor Gal, Technion, Israel=20
+Hyoil Han, Drexel University, USA=20
+Jingshan Huang, University of South Alabama, USA=20
+Wei Hu, Southeast University, China=20
+Ryutaro Ichise, National Institute of Informatics, Japan=20
+Antoine Isaac, Vrije Universiteit Amsterdam, Netherlands=20
+Krzysztof Janowicz, University of Muenster, Germany=20
+Chiara Ghidini, Fondazione Bruno Kessler (IRST), Italy=20
+Bin He, IBM, USA=20
+Yannis Kalfoglou, Ricoh Europe plc, UK=20
+Monika Lanzenberger, Vienna University of Technology, Austria=20
+Patrick Lambrix, Linkopings Universitet, Sweden=20
+Maurizio Lenzerini, University of Rome - Sapienza, Italy=20
+Enzo Maltese, University of Trento, Italy=20
+Fiona McNeill, University of Edinburgh, UK=20
+Christian Meilicke, University of Mannheim, Germany=20
+Luca Mion, TasLab, Informatica Trentina SpA, Italy=20
+Peter Mork, The MITRE Corporation, USA=20
+Leo Obrst, The MITRE Corporation, USA=20
+Massimo Paolucci, DoCoMo Labs, Germany=20
+Francois Scharffe, INRIA, France=20
+Umberto Straccia, ISTI-C.N.R., Italy=20
+York Sure, University of Koblenz, Germany=20
+Andrei Tamilin, Fondazione Bruno Kessler (IRST), Italy=20
+Lorenzino Vaccari, PAT, Italy=20
+Ludger van Elst, DFKI, Germany=20
+Frank van Harmelen, Vrije Universiteit Amsterdam, Netherlands=20
+Yannis Velegrakis, University of Trento, Italy=20
+Baoshi Yan, Bosch Research, USA=20
+Rui Zhang, University of Trento, Italy=20
+Songmao Zhang, Chinese Academy of Sciences, China=20
+
+-------------------------------------------------------
+Download the OM-2009 flyer:
+http://om2009.ontologymatching.org/Pictures/CfP_OM2009_flyer.pdf
+-------------------------------------------------------
+
+More about ontology matching:=20
+http://www.ontologymatching.org/
+http://book.ontologymatching.org/
+
+Best Regards,
+Pavel
+
+
+
+-------------------------------------------------------
+Pavel Shvaiko, PhD
+Innovation and Research Project Manager
+TasLab, Informatica Trentina SpA, Italy
+http://www.ontologymatching.org/
+http://www.dit.unitn.it/~pavel/
+http://www.infotn.it/=20
+
+------=_NextPart_000_0011_01C9DFD8.28C4B5C0
+Content-Type: text/html;
+	charset="koi8-r"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Dkoi8-r" http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT size=3D2 face=3DVerdana>
+<DIV>Apologies for cross-postings</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>--------------------------------------------------------------------=
+------<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+CALL FOR=20
+PAPERS<BR>---------------------------------------------------------------=
+-----------</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+The Fourth International Workshop on=20
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;=20
+ONTOLOGY=20
+MATCHING<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+(OM-2009)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+<A=20
+href=3D"">http://om2009.ontologymatching.org/</A><BR>&nbsp;<BR>&nbsp;&nbs=
+p;&nbsp;=20
+October 25, 2009, ISWC'09 Workshop Program, Washington DC., USA </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>BRIEF DESCRIPTION AND OBJECTIVES<BR>Ontology matching is a key=20
+interoperability enabler for the Semantic Web, <BR>as well as a useful =
+tactic in=20
+some classical data integration tasks. <BR>It takes the ontologies as =
+input and=20
+determines as output an alignment, <BR>that is, a set of correspondences =
+between=20
+the semantically <BR>related entities of those ontologies. These =
+correspondences=20
+can be used <BR>for various tasks, such as ontology merging and data=20
+translation. <BR>Thus, matching ontologies enables the knowledge and =
+data=20
+expressed <BR>in the matched ontologies to interoperate. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>The workshop has three goals: <BR>1. To bring together leaders from =
+
+academia, industry and user institutions <BR>to assess how academic =
+advances are=20
+addressing real-world requirements. <BR>The workshop will strive to =
+improve=20
+academic awareness of industrial <BR>and final user needs, and =
+therefore, direct=20
+research towards those needs. <BR>Simultaneously, the workshop will =
+serve to=20
+inform industry and user <BR>representatives about existing research =
+efforts=20
+that may meet their<BR>requirements. The workshop will also investigate =
+how the=20
+ontology <BR>matching technology is going to evolve.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>2. To conduct an extensive and rigorous evaluation of ontology =
+matching=20
+<BR>approaches through the OAEI (Ontology Alignment Evaluation =
+Initiative)=20
+<BR>2009 campaign. This year's OAEI campaign introduces two new tracks =
+about=20
+<BR>oriented alignments and about instance matching (a timely topic for =
+<BR>the=20
+linked data community). Therefore, the ontology matching evaluation=20
+<BR>initiative itself will provide a solid ground for discussion of how =
+well=20
+<BR>the current approaches are meeting business needs. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>3. To examine similarities and differences from database schema =
+matching,=20
+<BR>which has received decades of attention but is just beginning to =
+transition=20
+<BR>to mainstream tools. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>TOPICS of interest include but are not limited to:=20
+<BR>&nbsp;&nbsp;&nbsp; Business cases for matching; =
+<BR>&nbsp;&nbsp;&nbsp;=20
+Requirements to matching from specific domains; <BR>&nbsp;&nbsp;&nbsp;=20
+Application of matching techniques in real-world scenarios;=20
+<BR>&nbsp;&nbsp;&nbsp; Formal foundations and frameworks for ontology =
+matching;=20
+<BR>&nbsp;&nbsp;&nbsp; Large-scale ontology matching evaluation;=20
+<BR>&nbsp;&nbsp;&nbsp; Performance of matching techniques;=20
+<BR>&nbsp;&nbsp;&nbsp; Matcher selection and self-configuration;=20
+<BR>&nbsp;&nbsp;&nbsp; Uncertainty in ontology matching; =
+<BR>&nbsp;&nbsp;&nbsp;=20
+User involvement (including both technical and organizational aspects);=20
+<BR>&nbsp;&nbsp;&nbsp; Explanations in matching; <BR>&nbsp;&nbsp;&nbsp; =
+Social=20
+and collaborative matching; <BR>&nbsp;&nbsp;&nbsp; Alignment management; =
+
+<BR>&nbsp;&nbsp;&nbsp; Reasoning with alignments; <BR>&nbsp;&nbsp;&nbsp; =
+
+Matching for traditional applications (e.g., information integration);=20
+<BR>&nbsp;&nbsp;&nbsp; Matching for dynamic applications (e.g., =
+peer-to-peer,=20
+web-services).</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>SUBMISSIONS<BR>Contributions to the workshop can be made in terms =
+of=20
+technical papers and <BR>posters/statements of interest addressing =
+different=20
+issues of ontology matching <BR>as well as participating in the OAEI =
+2009=20
+campaign. Technical papers should <BR>be not longer than 12 pages using =
+the LNCS=20
+Style:<BR><A=20
+href=3D"">http://www.springeronline.com/sgw/cda/frontpage/0,11855,5-164-2=
+-72376-0,00.html</A><BR>Posters/statements=20
+of interest should not exceed 2 pages and <BR>should be handled =
+according to the=20
+guidelines for technical papers. <BR>All contributions should be =
+prepared in PDF=20
+format and should be submitted <BR>through the workshop submission site =
+at:=20
+</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><A =
+href=3D"">http://www.easychair.org/conferences/?conf=3Dom20090</A> =
+</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Contributors to the OAEI 2009 campaign have to follow the campaign=20
+conditions <BR>and schedule at <A=20
+href=3D"">http://oaei.ontologymatching.org/2009/</A>. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>***TENTATIVE*** IMPORTANT DATES FOR TECHNICAL PAPERS: =
+<BR>August 11,=20
+2009: Deadline for the submission of papers. <BR>September 15, 2009: =
+Deadline=20
+for the notification of acceptance/rejection. <BR>October 2, 2009: =
+Workshop=20
+camera ready copy submission. <BR>October 25, 2009: OM-2009, Westfields=20
+Conference Center, Washington DC., USA. </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>ORGANIZING COMMITTEE<BR>1. Pavel Shvaiko (Main =
+contact)<BR>TasLab,=20
+Informatica Trentina SpA, Italy</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>2. J&eacute;r&ocirc;me Euzenat <BR>INRIA &amp; LIG, France</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>3. Fausto Giunchiglia <BR>University of Trento, Italy</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>4. Heiner Stuckenschmidt <BR>University of Mannheim, Germany </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>5. Natasha Noy <BR>Stanford Center for Biomedical Informatics =
+Research, USA=20
+</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>6. Arnon Rosenthal <BR>The MITRE Corporation, USA </DIV>
+<DIV>&nbsp;</DIV>
+<DIV><BR>PROGRAM COMMITTEE<BR>Yuan An, Drexel University, USA <BR>Zohra=20
+Bellahsene, LIRMM, France <BR>Paolo Besana, University of Edinburgh, UK=20
+<BR>Olivier Bodenreider, National Library of Medicine, USA <BR>Isabel =
+Cruz,=20
+University of Illinois at Chicago, USA <BR>Avigdor Gal, Technion, Israel =
+
+<BR>Hyoil Han, Drexel University, USA <BR>Jingshan Huang, University of =
+South=20
+Alabama, USA <BR>Wei Hu, Southeast University, China <BR>Ryutaro Ichise, =
+
+National Institute of Informatics, Japan <BR>Antoine Isaac, Vrije =
+Universiteit=20
+Amsterdam, Netherlands <BR>Krzysztof Janowicz, University of Muenster, =
+Germany=20
+<BR>Chiara Ghidini, Fondazione Bruno Kessler (IRST), Italy <BR>Bin He, =
+IBM, USA=20
+<BR>Yannis Kalfoglou, Ricoh Europe plc, UK <BR>Monika Lanzenberger, =
+Vienna=20
+University of Technology, Austria <BR>Patrick Lambrix, Link&ouml;pings =
+Universitet,=20
+Sweden <BR>Maurizio Lenzerini, University of Rome - Sapienza, Italy =
+<BR>Enzo=20
+Maltese, University of Trento, Italy <BR>Fiona McNeill, University of =
+Edinburgh,=20
+UK <BR>Christian Meilicke, University of Mannheim, Germany <BR>Luca =
+Mion,=20
+TasLab, Informatica Trentina SpA, Italy <BR>Peter Mork, The MITRE =
+Corporation,=20
+USA <BR>Leo Obrst, The MITRE Corporation, USA <BR>Massimo Paolucci, =
+DoCoMo Labs,=20
+Germany <BR>Fran&ccedil;ois Scharffe, INRIA, France <BR>Umberto =
+Straccia, ISTI-C.N.R.,=20
+Italy <BR>York Sure, University of Koblenz, Germany <BR>Andrei Tamilin,=20
+Fondazione Bruno Kessler (IRST), Italy <BR>Lorenzino Vaccari, PAT, Italy =
+
+<BR>Ludger van Elst, DFKI, Germany <BR>Frank van Harmelen, Vrije =
+Universiteit=20
+Amsterdam, Netherlands <BR>Yannis Velegrakis, University of Trento, =
+Italy=20
+<BR>Baoshi Yan, Bosch Research, USA <BR>Rui Zhang, University of Trento, =
+Italy=20
+<BR>Songmao Zhang, Chinese Academy of Sciences, China </DIV>
+<DIV>&nbsp;</DIV>
+<DIV>-------------------------------------------------------<BR>Download =
+the=20
+OM-2009 flyer:<BR><A=20
+href=3D"">http://om2009.ontologymatching.org/Pictures/CfP_OM2009_flyer.pd=
+f</A><BR>-------------------------------------------------------</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>More about ontology matching: <BR><A=20
+href=3D"">http://www.ontologymatching.org/</A><BR><A=20
+href=3D"">http://book.ontologymatching.org/</A></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>Best Regards,<BR>Pavel</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV>-------------------------------------------------------<BR>Pavel =
+Shvaiko,=20
+PhD<BR>Innovation and Research Project Manager<BR>TasLab, Informatica =
+Trentina=20
+SpA, Italy<BR><A href=3D"">http://www.ontologymatching.org/</A><BR><A=20
+href=3D"">http://www.dit.unitn.it/~pavel/</A><BR><A=20
+href=3D"">http://www.infotn.it/</A> =
+<BR></DIV></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_0011_01C9DFD8.28C4B5C0--
+
+
+--===============0637050174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0637050174==--
+

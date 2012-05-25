@@ -1,0 +1,504 @@
+From - Thu Dec 10 14:37:44 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.102.203 with SMTP id h11cs172926bko;
+        Mon, 20 Jul 2009 02:58:35 -0700 (PDT)
+Received: by 10.210.62.3 with SMTP id k3mr3397247eba.52.1248083912267;
+        Mon, 20 Jul 2009 02:58:32 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 21si8649962ewy.114.2009.07.20.02.58.31;
+        Mon, 20 Jul 2009 02:58:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B8E2E15BCE; Mon, 20 Jul 2009 11:58:05 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	WEIRD_PORT autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E361220ED8;
+	Mon, 20 Jul 2009 11:52:26 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C63873D33;
+	Mon, 20 Jul 2009 11:52:26 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id T3+G-N3Dz9XJ; Mon, 20 Jul 2009 11:52:26 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0A9BB3DCC;
+	Mon, 20 Jul 2009 11:51:25 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 883403D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 18 Jul 2009 15:33:21 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0+LLYw5DANEf for <elsnet-list@mailman.elsnet.org>;
+	Sat, 18 Jul 2009 15:33:21 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4DA903D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 18 Jul 2009 15:33:01 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2B5471E47F; Sat, 18 Jul 2009 15:33:01 +0200 (MEST)
+X-Greylist: delayed 5921 seconds by postgrey-1.28 at newjura;
+	Sat, 18 Jul 2009 15:32:50 MEST
+Received: from ferreiros.cin.ufpe.br (ferreiros.cin.ufpe.br [150.161.2.199])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 39C2D1D74A
+	for <elsnet-list@elsnet.org>; Sat, 18 Jul 2009 15:32:49 +0200 (MEST)
+Received: from condado.cin.ufpe.br (condado.cin.ufpe.br [172.17.33.8])
+	by ferreiros.cin.ufpe.br (8.13.6/8.13.6) with ESMTP id n6IBs6Zs069367
+	for <elsnet-list@elsnet.org>; Sat, 18 Jul 2009 08:54:07 -0300 (BRT)
+	(envelope-from ruy@cin.ufpe.br)
+Received: (qmail 85115 invoked by uid 83); 18 Jul 2009 11:53:34 -0000
+Received: from unknown (HELO ?127.0.0.1?) (ruy@189.1.29.255)
+	by condado.cin.ufpe.br with SMTP; 18 Jul 2009 11:53:34 -0000
+Message-ID: <4A61B795.5080508@cin.ufpe.br>
+Date: Sat, 18 Jul 2009 08:52:53 -0300
+From: Ruy de Queiroz <ruy@cin.ufpe.br>
+User-Agent: Thunderbird 2.0.0.22 (Windows/20090605)
+MIME-Version: 1.0
+To: wollic@cin.ufpe.br
+References: <48FE1E64.7030401@cin.ufpe.br> <496DFF98.8070200@cin.ufpe.br>
+	<49996B30.8070701@cin.ufpe.br>
+In-Reply-To: <49996B30.8070701@cin.ufpe.br>
+X-Mailman-Approved-At: Mon, 20 Jul 2009 11:49:51 +0200
+Cc: 
+Subject: [Elsnet-list] WoLLIC 2010 - Call for Papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0299151482=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+--===============0299151482==
+Content-Type: multipart/alternative;
+	boundary="------------020800070801000801070503"
+
+This is a multi-part message in MIME format.
+--------------020800070801000801070503
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+(please circulate; apologies for any cross-postings)*/
+
+WoLLIC 2010 
+17^th  Workshop on Logic, Language, Information and Computation /*
+*July 6^th  to 9^th , 2010
+*
+
+*Universidade de Brasília,
+Brasília, Brazil*
+
+*Scientific Sponsorship* 
+/Interest Group in Pure and Applied Logics (IGPL 
+<http://www.cin.ufpe.br/%7Eigpl/>)/ 
+/The Association for Logic, Language and Information (FoLLI 
+<http://www.folli.org>)/ 
+/Association for Symbolic Logic (ASL <http://www.aslonline.org/>)/ 
+/European Association for Theoretical Computer Science (EATCS 
+<http://www.eatcs.org>)/ 
+/Sociedade Brasileira de Computação (SBC <http://www.sbc.org.br/>)/ 
+/Sociedade Brasileira de Lógica (SBL <http://www.cle.unicamp.br/sbl/>)/
+
+*Funding* 
+(tbc) 
+
+*Special: 
+A screening of /I want to be a mathematician: A conversation with Paul 
+Halmos/ <http://zalafilms.com/films/halmos.html>*
+
+
+*Organisation* 
+/Department of Mathematics <http://www.mat.unb.br/>, Universidade de 
+Brasília <http://www.mat.unb.br>, Brazil 
+Centro de Informática <http://www.cin.ufpe.br/>, Universidade Federal de 
+Pernambuco <http://www.ufpe.br>, Brazil /
+
+------------------------------------------------------------------------
+
+
+  Call for Papers
+
+WoLLIC <http://wollic.org> is an annual international forum on 
+inter-disciplinary research involving formal logic, computing and 
+programming theory, and natural language and reasoning. Each meeting 
+includes invited talks and tutorials as well as contributed papers. The 
+Seventeenth WoLLIC will be held in Brasília, Brazil, from July 6th to 
+9th, 2010. It is sponsored by theAssociation for Symbolic Logic 
+<http://www.aslonline.org> (ASL), the Interest Group in Pure and Applied 
+Logics <http://www.cin.ufpe.br/%7Eigpl> (IGPL), the The Association for 
+Logic, Language and Information <http://www.folli.org> (FoLLI), 
+the European Association for Theoretical Computer Science 
+<http://www.eatcs.org> (EATCS), the Sociedade Brasileira de Computação 
+<http://www.sbc.org.br> (SBC), and the Sociedade Brasileira de Lógica 
+<http://www.cle.unicamp.br/sbl/> (SBL).
+
+*Special Event*
+2010 will mark the 50-th anniversary of the first publication of Paul 
+Halmos' classic book /Naïve Set Theory/ by Springer Verlag. WoLLIC will 
+celebrate this by screening the documentary about Paul Halmos which was 
+directed by George Csicsery: "I want to be a mathematician. A 
+conversation with Paul Halmos" http://zalafilms.com/films/halmos.html
+
+*Paper submission*
+Contributions are invited on all pertinent subjects, with particular 
+interest in cross-disciplinary topics. Typical but not exclusive areas 
+of interest are: foundations of computing and programming; novel 
+computation models and paradigms; broad notions of proof and belief; 
+formal methods in software and hardware development; logical approach to 
+natural language and reasoning; logics of programs, actions and 
+resources; foundational aspects of information organization, search, 
+flow, sharing, and protection. Proposed contributions should be in 
+English, and consist of a scholarly exposition accessible to the 
+non-specialist, including motivation, background, and comparison with 
+related works. They must not exceed 10 pages (in font 10 or higher), 
+with up to 5 additional pages for references and technical appendices. 
+The paper's main results must not be published or submitted for 
+publication in refereed venues, including journals and other scientific 
+meetings. It is expected that each accepted paper be presented at the 
+meeting by one of its authors. Papers must be submitted electronically 
+at the WoLLIC 2010 EasyChair website (soon to be announced). A title and 
+single-paragraph abstract should be submitted by February 28, and the 
+full paper by March 7 (firm date). Notifications are expected by April 
+12, and final papers for the proceedings will be due by May 3 (firm date).
+
+*Proceedings*
+The proceedings of WoLLIC 2010, including both invited and contributed 
+papers, will be published in advance of the meeting as a volume in 
+Springer's LNCS <http://www.springer.com/lncs> series (TBC). In 
+addition, abstracts will be published in the Conference Report section 
+of the Logic Journal of the IGPL, and selected contributions will be 
+published as a special post-conference WoLLIC 2010 issue of a scientific 
+journal (soon to be announced).
+
+*Invited Speakers*
+(tba) 
+
+*Student Grants*
+ASL sponsorship of WoLLIC 2010 will permit ASL student members to apply 
+for a modest travel grant (deadline: April 1, 2010). 
+Seehttp://www.aslonline.org/studenttravelawards.html for details.
+
+*Important Dates*
+
+# February 28, 2010: Paper title and abstract deadline
+# March 7, 2010: Full paper deadline (firm)
+# April 12, 2010: Author notification
+# May 3, 2010: Final version deadline (firm)
+
+*Programme Committee*
+
+      *Verónica Becher*
+      <http://www-2.dc.uba.ar/profesores/becher/> (Buenos Aires) 
+      *Rafaella Bernardi* <http://www.inf.unibz.it/%7Ebernardi/> (Bolzano) 
+      *Ricardo Bianconi* <http://www.ime.usp.br/%7Ebianconi/> (São Paulo) 
+      *Vasco Brattka* <http://cca-net.de/vasco/> (Cape Town) 
+      *Balder ten Cate* <http://staff.science.uva.nl/%7Ebcate/> (ENS,
+      Cachan) 
+      *Bob Coecke* <http://www.comlab.ox.ac.uk/people/bob.coecke/> (Oxford) 
+      *Adriana Compagnoni* <http://www.cs.stevens.edu/%7Eabc/> (Stevens) 
+      *Marcelo Coniglio*
+      <http://www.cle.unicamp.br/prof/coniglio/> (Campinas) 
+      *Anuj Dawar* <http://www.cl.cam.ac.uk/%7Ead260/> (Cambridge), chair 
+      *Valentin Goranko* <http://www2.imm.dtu.dk/%7Evfgo/> (Copenhagen) 
+      *Masahito Hasegawa*
+      <http://www.kurims.kyoto-u.ac.jp/%7Ehassei/> (Kyoto U, Japan) 
+      *Rosalie Iemhoff*
+      <http://www.phil.uu.nl/%7Eiemhoff/eigen.html> (Utrecht) 
+      *Makoto Kanazawa*
+      <http://research.nii.ac.jp/%7Ekanazawa/> (National Institute of
+      Informatics, Japan) 
+      *Giuseppe Longo* <http://www.di.ens.fr/%7Elongo/> (CNRS & ENS, Paris) 
+      *Mike Mislove* <http://www.entcs.org/mislove.html> (Tulane) 
+      *Michael Norrish* <http://nicta.com.au/people/norrishm> (NICTA,
+      Canberra) 
+      *Bart Selman* <http://www.cs.cornell.edu/selman/> (Cornell) 
+      *Scott Weinstein* <http://www.cis.upenn.edu/%7Eweinstei/> (Penn) 
+
+*Organising Committee*
+
+      Mauricio Ayala-Rincon <http://www.mat.unb.br/%7Eayala/> (U
+      Brasília, Brazil) (co-chair) 
+      Flávio L. C. Moura
+      <http://www.cic.unb.br:9080/sitecic/departamento/docentes/flavio> (U
+      Brasília, Brazil) 
+      Claudia Nalon
+      <http://www.cic.unb.br:9080/sitecic/departamento/docentes/cn> (U
+      Brasília, Brazil) 
+      Anjolina G. de Oliveira <http://www.cin.ufpe.br/%7Eago> (U Fed
+      Pernambuco, Brazil) 
+      Ruy de Queiroz <http://www.cin.ufpe.br/%7Eruy> (U Fed Pernambuco,
+      Brazil) (co-chair) 
+
+*Further information*
+Contact one of the Co-Chairs of the Organising Committee.
+
+*Web page*
+http://wollic.org/wollic2010/
+
+
+  Steering committee
+
+Samson Abramsky, Johan van Benthem, Joe Halpern, Wilfrid Hodges, Daniel 
+Leivant, Angus Macintyre, Grigori Mints, Hiroakira Ono, Ruy de Queiroz
+
+--------------020800070801000801070503
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<span class="Apple-style-span"
+ style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'times new roman'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span
+ class="Apple-style-span" style="font-family: Arial;"><small><font
+ size="+2"><small>(please circulate; apologies for any cross-postings)</small></font></small><b><i><font
+ size="+2"><br>
+<br>
+WoLLIC 2010<span class="Apple-converted-space">&nbsp;</span><br>
+17<sup>th</sup><span class="Apple-converted-space">&nbsp;</span>Workshop on
+Logic, Language, Information and Computation<span
+ class="Apple-converted-space">&nbsp;</span></font></i></b><br>
+<b><font size="+2">July 6<sup>th</sup><span
+ class="Apple-converted-space">&nbsp;</span>to 9<sup>th</sup>, 2010<br>
+</font></b>
+<p><b><font size="+1">Universidade de Bras&iacute;lia,<br>
+Bras&iacute;lia, Brazil</font></b></p>
+<p><b>Scientific Sponsorship</b><span class="Apple-converted-space">&nbsp;</span><br>
+<i>Interest Group in Pure and Applied Logics (<a
+ href="http://www.cin.ufpe.br/%7Eigpl/">IGPL</a>)</i><span
+ class="Apple-converted-space">&nbsp;</span><br>
+<i>The Association for Logic, Language and Information (<a
+ href="http://www.folli.org">FoLLI</a>)</i><span
+ class="Apple-converted-space">&nbsp;</span><br>
+<i>Association for Symbolic Logic (<a href="http://www.aslonline.org/">ASL</a>)</i><span
+ class="Apple-converted-space">&nbsp;</span><br>
+<i>European Association for Theoretical Computer Science (<a
+ href="http://www.eatcs.org">EATCS</a>)</i><span
+ class="Apple-converted-space">&nbsp;</span><br>
+<i>Sociedade Brasileira de Computa&ccedil;&atilde;o (<a href="http://www.sbc.org.br/">SBC</a>)</i><span
+ class="Apple-converted-space">&nbsp;</span><br>
+<i>Sociedade Brasileira de L&oacute;gica (<a
+ href="http://www.cle.unicamp.br/sbl/">SBL</a>)</i></p>
+<p><b>Funding</b><span class="Apple-converted-space">&nbsp;</span><br>
+(tbc)<span class="Apple-converted-space">&nbsp;</span><br>
+</p>
+<center><font size="+2"><b>Special:<span class="Apple-converted-space">&nbsp;</span><br>
+A screening of<span class="Apple-converted-space">&nbsp;</span><a
+ href="http://zalafilms.com/films/halmos.html"><em>I want to be a
+mathematician: A conversation with Paul Halmos</em></a></b></font></center>
+<br>
+<p><b>Organisation</b><span class="Apple-converted-space">&nbsp;</span><br>
+<i><font face="Arial,Helvetica,Sans-Serif"><a
+ href="http://www.mat.unb.br/">Department of Mathematics</a>,<span
+ class="Apple-converted-space">&nbsp;</span><a href="http://www.mat.unb.br">Universidade
+de Bras&iacute;lia</a>, Brazil<span class="Apple-converted-space">&nbsp;</span><br>
+<a href="http://www.cin.ufpe.br/">Centro de Inform&aacute;tica</a>,<span
+ class="Apple-converted-space">&nbsp;</span><a href="http://www.ufpe.br">Universidade
+Federal de Pernambuco</a>, Brazil<span class="Apple-converted-space">&nbsp;</span></font></i><font
+ face="Arial,Helvetica,Sans-Serif"><br>
+</font></p>
+<font face="Arial,Helvetica,Sans-Serif">
+<hr>
+<h1>Call for Papers</h1>
+<a href="http://wollic.org">WoLLIC</a><span
+ class="Apple-converted-space">&nbsp;</span>is an annual international forum
+on inter-disciplinary research involving formal logic, computing and
+programming theory, and natural language and reasoning. Each meeting
+includes invited talks and tutorials as well as contributed papers. The
+Seventeenth WoLLIC will be held in Bras&iacute;lia, Brazil, from July 6th to
+9th, 2010. It is sponsored by the<a href="http://www.aslonline.org">Association
+for Symbolic Logic</a><span class="Apple-converted-space">&nbsp;</span>(ASL),
+the<span class="Apple-converted-space">&nbsp;</span><a
+ href="http://www.cin.ufpe.br/%7Eigpl">Interest Group in Pure and
+Applied Logics</a><span class="Apple-converted-space">&nbsp;</span>(IGPL),
+the<span class="Apple-converted-space">&nbsp;</span><a
+ href="http://www.folli.org">The Association for Logic, Language and
+Information</a><span class="Apple-converted-space">&nbsp;</span>(FoLLI), the<span
+ class="Apple-converted-space">&nbsp;</span><a href="http://www.eatcs.org">European
+Association for Theoretical Computer Science</a><span
+ class="Apple-converted-space">&nbsp;</span>(EATCS), the<span
+ class="Apple-converted-space">&nbsp;</span><a href="http://www.sbc.org.br">Sociedade
+Brasileira de Computa&ccedil;&atilde;o</a><span class="Apple-converted-space">&nbsp;</span>(SBC),
+and the<span class="Apple-converted-space">&nbsp;</span><a
+ href="http://www.cle.unicamp.br/sbl/">Sociedade Brasileira de L&oacute;gica</a><span
+ class="Apple-converted-space">&nbsp;</span>(SBL).
+<p><b>Special Event</b><br>
+2010 will mark the 50-th anniversary of the first publication of Paul
+Halmos' classic book<span class="Apple-converted-space">&nbsp;</span><em>Na&iuml;ve
+Set Theory</em><span class="Apple-converted-space">&nbsp;</span>by Springer
+Verlag. WoLLIC will celebrate this by screening the documentary about
+Paul Halmos which was directed by George Csicsery: "I want to be a
+mathematician. A conversation with Paul Halmos"
+<a class="moz-txt-link-freetext"
+ href="http://zalafilms.com/films/halmos.html">http://zalafilms.com/films/halmos.html</a></p>
+<p><b>Paper submission</b><br>
+Contributions are invited on all pertinent subjects, with particular
+interest in cross-disciplinary topics. Typical but not exclusive areas
+of interest are: foundations of computing and programming; novel
+computation models and paradigms; broad notions of proof and belief;
+formal methods in software and hardware development; logical approach
+to natural language and reasoning; logics of programs, actions and
+resources; foundational aspects of information organization, search,
+flow, sharing, and protection. Proposed contributions should be in
+English, and consist of a scholarly exposition accessible to the
+non-specialist, including motivation, background, and comparison with
+related works. They must not exceed 10 pages (in font 10 or higher),
+with up to 5 additional pages for references and technical appendices.
+The paper's main results must not be published or submitted for
+publication in refereed venues, including journals and other scientific
+meetings. It is expected that each accepted paper be presented at the
+meeting by one of its authors. Papers must be submitted electronically
+at the WoLLIC 2010 EasyChair website (soon to be announced). A title
+and single-paragraph abstract should be submitted by February 28, and
+the full paper by March 7 (firm date). Notifications are expected by
+April 12, and final papers for the proceedings will be due by May 3
+(firm date).</p>
+<p><b>Proceedings</b><br>
+The proceedings of WoLLIC 2010, including both invited and contributed
+papers, will be published in advance of the meeting as a volume in
+Springer's<span class="Apple-converted-space">&nbsp;</span><a
+ href="http://www.springer.com/lncs">LNCS</a><span
+ class="Apple-converted-space">&nbsp;</span>series (TBC). In addition,
+abstracts will be published in the Conference Report section of the
+Logic Journal of the IGPL, and selected contributions will be published
+as a special post-conference WoLLIC 2010 issue of a scientific journal
+(soon to be announced).</p>
+<p><b>Invited Speakers</b><br>
+(tba)<span class="Apple-converted-space">&nbsp;</span><br>
+</p>
+<p><b>Student Grants</b><br>
+ASL sponsorship of WoLLIC 2010 will permit ASL student members to apply
+for a modest travel grant (deadline: April 1, 2010). See<a
+ href="http://www.aslonline.org/studenttravelawards.html">http://www.aslonline.org/studenttravelawards.html</a><span
+ class="Apple-converted-space">&nbsp;</span>for details.</p>
+<p><b>Important Dates</b></p>
+<li>February 28, 2010: Paper title and abstract deadline</li>
+<li>March 7, 2010: Full paper deadline (firm)</li>
+<li>April 12, 2010: Author notification</li>
+<li>May 3, 2010: Final version deadline (firm)
+  <p><a name="pc"><b>Programme Committee</b></a></p>
+  <ul>
+    <a href="http://www-2.dc.uba.ar/profesores/becher/"><b>Ver&oacute;nica
+Becher</b></a><span class="Apple-converted-space">&nbsp;</span>(Buenos Aires)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.inf.unibz.it/%7Ebernardi/"><b>Rafaella Bernardi</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Bolzano)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.ime.usp.br/%7Ebianconi/"><b>Ricardo Bianconi</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(S&atilde;o Paulo)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://cca-net.de/vasco/"><b>Vasco Brattka</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Cape Town)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://staff.science.uva.nl/%7Ebcate/"><b>Balder ten Cate</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(ENS, Cachan)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.comlab.ox.ac.uk/people/bob.coecke/"><b>Bob
+Coecke</b></a><span class="Apple-converted-space">&nbsp;</span>(Oxford)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cs.stevens.edu/%7Eabc/"><b>Adriana Compagnoni</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Stevens)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cle.unicamp.br/prof/coniglio/"><b>Marcelo
+Coniglio</b></a><span class="Apple-converted-space">&nbsp;</span>(Campinas)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cl.cam.ac.uk/%7Ead260/"><b>Anuj Dawar</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Cambridge), chair<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www2.imm.dtu.dk/%7Evfgo/"><b>Valentin Goranko</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Copenhagen)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.kurims.kyoto-u.ac.jp/%7Ehassei/"><b>Masahito
+Hasegawa</b></a><span class="Apple-converted-space">&nbsp;</span>(Kyoto U,
+Japan)<span class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.phil.uu.nl/%7Eiemhoff/eigen.html"><b>Rosalie
+Iemhoff</b></a><span class="Apple-converted-space">&nbsp;</span>(Utrecht)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://research.nii.ac.jp/%7Ekanazawa/"><b>Makoto Kanazawa</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(National Institute of
+Informatics, Japan)<span class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.di.ens.fr/%7Elongo/"><b>Giuseppe Longo</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(CNRS &amp; ENS, Paris)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.entcs.org/mislove.html"><b>Mike Mislove</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Tulane)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://nicta.com.au/people/norrishm"><b>Michael Norrish</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(NICTA, Canberra)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cs.cornell.edu/selman/"><b>Bart Selman</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Cornell)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cis.upenn.edu/%7Eweinstei/"><b>Scott Weinstein</b></a><span
+ class="Apple-converted-space">&nbsp;</span>(Penn)
+  </ul>
+  <p><b>Organising Committee</b></p>
+  <ul>
+    <a href="http://www.mat.unb.br/%7Eayala/">Mauricio Ayala-Rincon</a><span
+ class="Apple-converted-space">&nbsp;</span>(U Bras&iacute;lia, Brazil) (co-chair)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a
+ href="http://www.cic.unb.br:9080/sitecic/departamento/docentes/flavio">Fl&aacute;vio
+L. C. Moura</a><span class="Apple-converted-space">&nbsp;</span>(U Bras&iacute;lia,
+Brazil)<span class="Apple-converted-space">&nbsp;</span><br>
+    <a
+ href="http://www.cic.unb.br:9080/sitecic/departamento/docentes/cn">Claudia
+Nalon</a><span class="Apple-converted-space">&nbsp;</span>(U Bras&iacute;lia,
+Brazil)<span class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cin.ufpe.br/%7Eago">Anjolina G. de Oliveira</a><span
+ class="Apple-converted-space">&nbsp;</span>(U Fed Pernambuco, Brazil)<span
+ class="Apple-converted-space">&nbsp;</span><br>
+    <a href="http://www.cin.ufpe.br/%7Eruy">Ruy de Queiroz</a><span
+ class="Apple-converted-space">&nbsp;</span>(U Fed Pernambuco, Brazil)
+(co-chair)
+  </ul>
+  <p><b>Further information</b><br>
+Contact one of the Co-Chairs of the Organising Committee.</p>
+  <p><b>Web page</b><br>
+  <a href="http://wollic.org/wollic2010/">http://wollic.org/wollic2010/</a></p>
+</li>
+</font></span></span><span class="Apple-style-span"
+ style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'times new roman'; font-size: 16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span
+ class="Apple-style-span" style="font-family: Arial;">
+<h1><small><small>Steering committee</small></small></h1>
+Samson Abramsky, Johan van Benthem, Joe Halpern, Wilfrid Hodges, Daniel
+Leivant, Angus Macintyre, Grigori Mints, Hiroakira Ono, Ruy de Queiroz</span></span><br>
+</body>
+</html>
+
+--------------020800070801000801070503--
+
+--===============0299151482==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0299151482==--

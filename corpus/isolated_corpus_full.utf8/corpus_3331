@@ -1,0 +1,1264 @@
+From - Thu Dec 10 14:32:46 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs206321waa;
+        Tue, 29 Jul 2008 16:05:40 -0700 (PDT)
+Received: by 10.115.54.7 with SMTP id g7mr7507370wak.212.1217372739801;
+        Tue, 29 Jul 2008 16:05:39 -0700 (PDT)
+Return-Path: <suninnercircle@mail.communications.sun.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id m17si368574waf.35.2008.07.29.16.05.37;
+        Tue, 29 Jul 2008 16:05:39 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning suninnercircle@mail.communications.sun.com does not designate 137.111.216.16 as permitted sender) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=softfail (google.com: domain of transitioning suninnercircle@mail.communications.sun.com does not designate 137.111.216.16 as permitted sender) smtp.mail=suninnercircle@mail.communications.sun.com; dkim=hardfail header.i=@mail.communications.sun.com
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6TN5asq013799
+	for <jpprost@gmail.com>; Wed, 30 Jul 2008 09:05:36 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m6TN5aTP009279
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 30 Jul 2008 09:05:36 +1000
+X-ASG-Debug-ID: 1217372733-1f6600f60000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 9DE2C22B6E9C
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 30 Jul 2008 09:05:33 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id GD1x8LdhYv3HKeTZ for <jpprost@mailbox.ics.mq.edu.au>; Wed, 30 Jul 2008 09:05:33 +1000 (EST)
+Received: from mh.sunmicrosystemsinc.m0.net (mh.sunmicrosystemsinc.m0.net [209.11.164.54])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m6TN2MS2013439
+	for <jpprost@ics.mq.edu.au>; Wed, 30 Jul 2008 09:05:32 +1000 (EST)
+X-DKIM: Ecelerity dkim_sign implementing draft-ietf-dkim-base-00
+DKIM-Signature: a=rsa-sha1; d=mail.communications.sun.com; s=sun1; t=1217372732;
+	c=simple/simple; q=dns; i=@mail.communications.sun.com;
+	h=From;
+	b=AOFOVEw8XmScKIrJpr9O2FRf2UUXR1ieWDYbsUqy1Wu512OO+qAKAdBIEZ4OuK5I
+	PCsAt9u2/zPIEbnRpTJE8YhHI6N+Vcgd6HeXJjfZWjcXGVah9uMK01ydhPk3Ma8H
+DomainKey-Status: good
+X-DomainKeys: Ecelerity dk_sign implementing draft-delany-domainkeys-base-01
+DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+	s=sun1; d=mail.communications.sun.com;
+	h=Received:Date:From:Reply-to:To:Message-ID:Subject:Errors-to:MIME-Version:Content-Type:X-eid:X-pid;
+	b=xpKjuVZmCq6m7VuBZI5rJEjkjMa9m8O3zi+Sx/mtyHV8YOhENlbUsFR1tgI3/Ah5
+	2dMm3xdRCZPwCokBInM2MHb+L7sBbKIgGc06yE7ZI0W91v/1u0Men3u558CNazeC
+Received: from [192.168.138.41] ([192.168.138.41:44238] helo=fc4a2.dc1.prod)
+	by oms5.dc1.prod (ecelerity 2.1.1.24 r(19486)) with ESMTP
+	id B8/F8-27546-C32AF884 for <jpprost@ics.mq.edu.au>; Tue, 29 Jul 2008 16:05:32 -0700
+Date: Tue, 29 Jul 2008 16:05:32 -0700 (PDT)
+From: "Bob Worrall, CIO Sun Microsystems" <suninnercircle@mail.communications.sun.com>
+Reply-To: suninnercircle@mail.communications.sun.com
+To: jpprost@ics.mq.edu.au
+Message-ID: <13049322532.1217372732278@delivery.net>
+X-ASG-Orig-Subj: Sun Inner Circle: Find Out How Sun Employees Drive IT Transformation and Boost Morale
+Subject: Sun Inner Circle: Find Out How Sun Employees Drive IT Transformation and Boost Morale
+Errors-To: suninnercircle@mail.communications.sun.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="---=_NEXT_11b7111bb2e"
+X-eid: 2.5.3J1.2U2.11JSRo.C9pDma..N..24EW.CGEOENN0
+X-pid: 541600
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1217372733
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.1231
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+-----=_NEXT_11b7111bb2e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+You are receiving this email at jpprost@ics.mq.edu.au
+because you have subscribed to the Sun Inner Circle newsletter. To
+update your communications preferences, please see the links at the
+bottom of this message. We respect your privacy and post our privacy
+policy prominently on our Web site: 
+http://www.sun.com/privacy 
+__________________________________________________ 
+ 
+SUN INNER CIRCLE -- ANZ
+For Business and Technology Leaders
+July/August 2008
+
+Sun Inner Circle via RSS
+http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4g.24EW.DPYUEWa0
+
+__________________________________________________ 
+ 
+* Jonathan Talks Open Source Cost Savings
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFm.24EW.DRXMEXQ0
+
+* Open Source Stack Debuts
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFk.24EW.DRRYEXO0
+
+* Employees Shape IT Transformation
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFY.24EW.DPfEEWc0
+
+* Cut Training Time in Half 
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFg.24EW.DRGQEXK0
+
+__________________________________________________ 
+ 
+DRIVE COST SAVINGS WITH OPEN SOURCE
+
+By Jonathan Schwartz
+Under growing pressure to cut and consolidate, CIOs are reducing 
+spending by deploying open source database technology in their 
+datacenters. Per-project savings average between $250,000 and
+$500,000 - with estimated savings of up to $10 million for large 
+enterprise deployments.
+
+* Full Story
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FOzM.24EW.DTVaEYF0
+
+__________________________________________________
+
+SUN'S NEW OPEN STORAGE SYSTEMS
+
+Newly launched Sun Open Storage systems are helping change the 
+economics of storage. Get details on new Sun Storage J4000 arrays 
+and the next-generation Sun Fire X4540 storage server and how you 
+can scale to 480 TB while reducing costs by up to 90 percent.
+
+* Full story
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4m.24EW.DQJQEXA0
+
+* Visit the Sun News Center
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4o.24EW.DQPEEXC0
+
+__________________________________________________
+
+SOLARIS + AMP = SCALABILITY AND PERFORMANCE FOR THE WEB TIER
+
+As open source Web applications move into mission-critical roles, 
+infrastructure performance and security becomes more important 
+than ever. Enter Sunâs expanded AMP stack - Apache, MySQL, and 
+PHP/Perl/Python optimized for Solaris OS technology and chip 
+multithreading, and fully backed by Sun support.
+
+* Full story
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGI.24EW.DOVAEWN0
+
+__________________________________________________
+
+THE CIO PERSPECTIVE:
+Employees Shape IT Transformation
+
+If you want to elevate IT performance, look to the grassroots. 
+At Sun, we engaged passionate employees to drive IT transformation 
+- boosting morale and reducing turnover at the same time. 
+
+Bob Worrall
+CIO, Sun Microsystems
+Write me at cio@sun.com
+
+* Full story
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNPo.24EW.DSZYEXc0
+
+__________________________________________________ 
+ 
+JONATHAN'S BLOG: ZFS MEETS FLASH
+
+ZFS file system, meet Flash memory. We're converging the two for 
+a hybrid storage tier and server/storage appliances enormously 
+faster than the status quo. With low cost and energy efficiency, 
+it's breakthrough innovation that will have an even bigger impact 
+on datacenter economics than virtualization.
+
+* Read Jonathan's blog
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FO7S.24EW.DOGCEWI0
+
+__________________________________________________ 
+ 
+ANZ: INSIDER'S VIEW
+Intel, Sun Smash Server Stats
+
+By Duncan Bennet
+Half the size, 72 per cent cooler, 54 per cent more energy 
+efficient, and up to 70 per cent lighter â the statistics 
+show that Sun servers running Intel pay off. The Sun/Intel 
+alliance drew hundreds of customers to recent road shows and 
+contributed to a gain in Sunâs ANZ server market share
+
+* Full story
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4k.24EW.DQDcEWe0
+
+__________________________________________________
+
+YOUR EVENTS
+
+* ANZ Green Datacentre Briefings
+  Get insights into how to green your datacentre without
+  compromising performance at a Letâs Talk breakfast briefing, 
+  in ANZ cities 5-20 August.
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4q.24EW.DQUYEXE0
+
+* Virtualization Changes Everything
+  Tune in to this Net Talk Webcast for a look at virtualization 
+  technologies and trends and a Top 10 list of best practices.
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4s.24EW.DQaMEXG0
+
+* Open Road to SOA
+  Find out how new features in Sun Java CAPS 6 enrich SOA 
+  deployments in this brief Net Talk Webcast.
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4u.24EW.DRAAEXI0
+
+* Gartner Web Innovation Summit
+  Learn the latest on Web 2.0 development and deployment. 
+  September 15-17, Los Angeles.
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4w.24EW.DRFUEXK0
+
+* See all events
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4y.24EW.DRLIEXM0
+
+__________________________________________________
+
+ OFFERS & RESOURCES
+
+* Cut Training Time in Half with Sun Fast Track
+  Get a jumpstart with Sun Fast Track training. Our accelerated 
+  programs build your Solaris OS, Java, and Web component 
+  technology skills in just five days - half the time of 
+  conventional training.
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FQBI.24EW.DOPOEWL0
+
+* Save 25% with Upgrades to T2 Servers   
+  Trade up from your current Sun, IBM, HP, or other server for 
+  a 25 percent trade-in allowance towards an eco-efficient 
+  Sun SPARC Enterprise T5120 or T5220 server.   
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNF%5f.24EW.DQQAEXC0
+
+* White Paper: Keys to Datacenter Energy Efficiency   
+  How much is your company spending to power its datacenter? 
+  The answer might stun even the most seasoned CIOs. This new 
+  CIO2CIO Perspectives white paper outlines keys to 
+  energy efficiency.  
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNG0.24EW.DMOWEVU0
+
+__________________________________________________ 
+ 
+DOWNLOADS
+
+* Cool Stack for Solaris OS
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGS.24EW.DPREEWX0
+
+* New! Identity Manager 8.0
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGU.24EW.DPWYEWZ0
+
+* Lustre File System
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGW.24EW.DPcMEWb0
+
+* Solaris 10 OS
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGY.24EW.DQCAEWd0
+
+* See all downloads
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGa.24EW.DQYQEXF0
+
+__________________________________________________
+
+INDUSTRY SUCCESS STORY
+
+Excellence Awards for Sun SPARC Servers
+
+Stunning performance, virtualization flexibility, and energy 
+efficiency translate into a pair of 2008 Excellence Awards for 
+Sun SPARC Enterprise T5120 and T5220 servers.
+
+* eWeek Excellence Award
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFs.24EW.DSIIEXW0
+
+* ServerWatch Excellence Award
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFu.24EW.DSNcEXY0
+
+University Launches Online E-Learning Environment 
+
+With a reliable Sun server and storage platform, SIM University 
+in Singapore supplies 24/7 e-learning solutions for more than 
+6300 students. 
+
+* Read more
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFo.24EW.DRdAEXS0
+
+__________________________________________________
+
+CONTACT SUN
+
+* Contact us for product information or call 
+  +61 02 9844 5000.
+
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP50.24EW.DLAaEVE0
+
+__________________________________________________
+
+ CUSTOMIZE YOUR CONTENT
+
+* Our records show that your language preference is English. 
+  Update your profile.
+   http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FPEk.24EW.DRUYEXP0
+
+__________________________________________________ 
+ 
+INNER CIRCLE NEWSLETTER ARCHIVE
+
+* View archive
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP52.24EW.DLGOEVG0 
+
+* Choose content
+  http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP54.24EW.DLMCEVI0
+
+__________________________________________________ 
+ 
+(c) 2008 Sun Microsystems, Inc. All rights reserved. For 
+information on Sun's trademarks see:
+http://www.sun.com/suntrademarks
+
+To unsubscribe from this list, reply to this message with 
+"Unsubscribe" in the subject line or use this link.
+http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNjA.24EW.DRDEEXI0
+
+To manage your Sun subscriptions, visit the 
+Subscription Center.
+http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNjA.24EW.DRDEEXI0
+
+Sun Microsystems, 828 Pacific Hwy, 
+GORDON NSW 2072, Australia 
+
+Please add the suninnercircle@mail.communications.sun.com 
+to your address book to ensure you keep receiving your Sun 
+Inner Circle newsletter.
+
+If you have any questions or feedback, please send 
+a message to innercircle@sun.com
+
+ 
+ 
+   
+ 
+ 
+  
+
+-----=_NEXT_11b7111bb2e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<HTML>
+  <BODY bgcolor="#ffffff">
+<img alt="Read the July-August Sun Inner Circle: Open source cost savings, new open storage systems, SAMP stack debuts, Jonathanâs blog, transforming IT" src="http://a676.g.akamaitech.net/f/676/773/90m/images.delivery.net/cm50content/18570/090081018061e537/a.gif" border="0" height="1" width="1"> <table border="0" cellpadding="0" cellspacing="0"><tr><td><table border="0" cellpadding="0" cellspacing="0" width="600"> <tr><td><font color="#000000" face="arial,helvetica,sans-serif" size="1">
+<table border="0" cellpadding="0" cellspacing="0" width="600"><tr><td><font color="#333333" face="arial,helvetica,sans-serif" originaltag="yes" size="1">You are receiving this email at jpprost@ics.mq.edu.au because you have subscribed to the Sun <i>Inner Circle</i> newsletter. To update your communications preferences, please see the links at the bottom of this message. We respect your privacy and post our privacy policy prominently on our Web site: <a style="text-decoration:none;" color="#35556B" href="http://www.sun.com/privacy"><font face="arial,helvetica,sans-serif" size="1" color="#35556B">http://www.sun.com/privacy</font></a></font></td></tr></table>
+<BR>
+ </font></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4i.24EW.DPeIEWc0"><img alt="Sun Inner Circle. For Business &amp; Technology Leaders." border="0" height="62" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19608/icmastheadenaunz.jpg" style="display: block;" width="600"></A> 
+ </td>
+</tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td valign="top" width="240"><table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td style="font-size:0px;line-height:0px" width="100%"><img height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="1"></td> </tr> <tr> <td style="font-size:0px;line-height:0px" width="100%"><img height="9" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/boxtoctop.gif" width="240"></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td bgcolor="#dee6e8" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#dee6e8" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18838/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#dee6e8" width="100%">
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>July/August 2008</strong> 
+</font> 
+ </td>
+<td bgcolor="#dee6e8" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18838/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18838/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tr><td style="font-size:0px;line-height:0px"><img src="http://a676.g.akamaitech.net/f/676/773/90m/images.delivery.net/cm50content/18570/090081018061e537/a.gif" border="0" height="1" width="1"></td></tr></table>
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18797/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18797/a.gif" style="display: block;" width="12"></td>
+<td width="12"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;&#160;</strong></font><BR>
+</td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFm.24EW.DRXMEXQ0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Jonathan Talks Open<BR>
+Source Cost Savings</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#dee6e8" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18797/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18797/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18797/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tr><td style="font-size:0px;line-height:0px"><img src="http://a676.g.akamaitech.net/f/676/773/90m/images.delivery.net/cm50content/18570/090081018061e537/a.gif" border="0" height="1" width="1"></td></tr></table>
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18801/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18801/a.gif" style="display: block;" width="12"></td>
+<td width="12"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;&#160;</strong></font><BR>
+</td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFk.24EW.DRRYEXO0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Open Source Stack Debuts</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#dee6e8" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18801/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18801/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18801/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tr><td style="font-size:0px;line-height:0px"><img src="http://a676.g.akamaitech.net/f/676/773/90m/images.delivery.net/cm50content/18570/090081018061e537/a.gif" border="0" height="1" width="1"></td></tr></table>
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18825/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18825/a.gif" style="display: block;" width="12"></td>
+<td width="12"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;&#160;</strong></font><BR>
+</td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFY.24EW.DPfEEWc0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Employees Shape<BR>
+IT Transformation</strong> 
+</font><BR>
+ 
+</A> 
+ </td>
+<td bgcolor="#dee6e8" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18825/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18825/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18825/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tr><td style="font-size:0px;line-height:0px"><img src="http://a676.g.akamaitech.net/f/676/773/90m/images.delivery.net/cm50content/18570/090081018061e537/a.gif" border="0" height="1" width="1"></td></tr></table>
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18809/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18809/a.gif" style="display: block;" width="12"></td>
+<td width="12"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;&#160;</strong></font><BR>
+</td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFg.24EW.DRGQEXK0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Cut Training Time in Half </strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#dee6e8" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18809/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+
+<table bgcolor="#dee6e8" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18809/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18809/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td style="font-size:0px;line-height:0px"><img height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="1"></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<img alt="Customize Your Content" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19711/hdrcustomize.gif" style="display: block;" width="240"> 
+ </td>
+</tr>
+<tr>
+<td bgcolor="#ed9b4f"><img alt="" height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19711/a.gif" style="display: block;" width="1"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#ed9b4f" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19711/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#ed9b4f" width="100%">
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ Our records show that your language preference is English. 
+</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FPEk.24EW.aT1qcHByb3N0QGljcy5tcS5lZHUuYXU%5fBYNcHOa0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ Update your profile. 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#ed9b4f" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19711/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="100%"><img alt="" height="9" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19711/boxtocbottom.gif" style="display: block;" width="240"></td></tr>
+<tr><td width="100%"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19711/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4k.24EW.DQDcEWe0" STYLE="text-decoration:none;">
+ <img alt="ANZ: Insider&rsquo;s View" border="0" height="67" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/hdrinsideraunz.jpg" style="display: block;" width="240"> 
+</A> 
+ </td>
+</tr>
+<tr>
+<td width="100%"><img alt="" height="9" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/boxsidebartop.gif" style="display: block;" width="240"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4k.24EW.DQDcEWe0" STYLE="text-decoration:none;">
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Intel, Sun Smash Server Stats</strong> 
+</font> 
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font> 
+</A> 
+ <BR>
+<BR>
+
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <em>By Duncan Bennet</em> 
+<BR>
+ 
+ Half the size, 72 per cent cooler, 54 per cent more energy efficient, and up to 70 per cent lighter &mdash; the statistics show that Sun servers running Intel pay off. The Sun/Intel alliance drew hundreds of customers to recent road shows and contributed to a gain in Sunâs ANZ server market share 
+</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4k.24EW.DQDcEWe0" STYLE="text-decoration:none;">
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font> 
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Full&#160;story</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee" width="100%"><img alt="" height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/a.gif" style="display: block;" width="12"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="15" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/a.gif" style="display: block;" width="12"></td></tr>
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19604/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<img alt="The CIO Perspective" border="0" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/hdrcio.gif" style="display: block;" width="240"> 
+ </td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNPo.24EW.DSZYEXc0" STYLE="text-decoration:none;">
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+<BR>
+ 
+ <strong>Employees Shape IT Transformation</strong> 
+</font> 
+</A> 
+ <BR>
+<BR>
+
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNPo.24EW.DSZYEXc0" STYLE="text-decoration:none;">
+ <img align="right" alt="Bob Worrall" border="0" height="79" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/bobw59x79.jpg" style="display:block;" width="59"> 
+</A> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ If you want to elevate IT performance, look to the grassroots. At Sun, we engaged passionate employees to drive IT transformation &mdash; boosting morale and reducing turnover at the same time. 
+</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNPo.24EW.DSZYEXc0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font><strong>&#160;Full&#160;story</strong> 
+</font> 
+</A> 
+ <font originaltag="yes" size="1"><BR>
+<BR>
+</font> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ Bob Worrall<BR>
+
+ CIO, Sun Microsystems<BR>
+
+ Write me at 
+ <a description="en_EN_sponsor_email_0708" href="mailto:cio@sun.com" style="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">cio@sun.com</font> 
+</a> 
+</font> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/a.gif" style="display: block;" width="12"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/a.gif" style="display: block;" width="12"></td></tr>
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18866/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%"><img alt="Contact Us" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19588/hdrcontact.gif" style="display: block;" width="240"></td>
+</tr>
+<tr>
+<td bgcolor="#e9edee"><img alt="" height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19588/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19588/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP50.24EW.DLAaEVE0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Contact us</strong> 
+</font> 
+</A> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ for product information or call +61 02 9844 5000. 
+</font> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19588/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19588/a.gif" style="display: block;" width="12"></td></tr>
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19588/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%"><img alt="Downloads" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/hdrdownloads.gif" style="display: block;" width="240"></td>
+</tr>
+<tr>
+<td bgcolor="#e9edee" width="100%"><img alt="" height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGS.24EW.DPREEWX0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Cool Stack for Solaris OS </strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGU.24EW.DPWYEWZ0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>New! Identity Manager 8.0</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGW.24EW.DPcMEWb0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Lustre File System</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGY.24EW.DQCAEWd0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Solaris 10 OS</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table bgcolor="#e9edee" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+<td align="right" valign="top">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGa.24EW.DQYQEXF0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>See all downloads</strong> 
+</font> 
+</A> 
+ </td>
+<td width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18729/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%"><img alt="Events" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/hdrevents.gif" style="display: block;" width="240"></td>
+</tr>
+<tr>
+<td bgcolor="#e9edee"><img alt="" height="12" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="1"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee" width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4q.24EW.DQUYEXE0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>ANZ Green Datacentre Briefings</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table bgcolor="#e9edee" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="24">
+<img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="24"> 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">Get insights into how to green your datacentre without compromising performance at a Letâs Talk breakfast briefing, in ANZ cities 5-20 August.</font> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="12" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee" width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4s.24EW.DQaMEXG0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Virtualization Changes Everything</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table bgcolor="#e9edee" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="24">
+<img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="24"> 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">Tune in to this Net Talk Webcast for a look at virtualization technologies and trends and a Top 10 list of best practices.</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4s.24EW.DQaMEXG0"><img alt="Watch now" border="0" height="11" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/ic_webcast.gif" width="15"></A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="12" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee" width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4u.24EW.DRAAEXI0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Open Road to SOA</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table bgcolor="#e9edee" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="24">
+<img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="24"> 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">Find out how new features in Sun Java CAPS 6 enrich SOA deployments in this brief Net Talk Webcast.</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4u.24EW.DRAAEXI0"><img alt="Watch now" border="0" height="11" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/ic_webcast.gif" width="15"></A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="12" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+<td bgcolor="#e9edee" valign="top" width="12">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td bgcolor="#e9edee" width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4w.24EW.DRFUEXK0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Gartner Web Innovation Summit</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table bgcolor="#e9edee" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="24">
+<img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="24"> 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">Learn the latest on Web 2.0 development and deployment. September 15-17, Los Angeles.</font> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="12" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td bgcolor="#e9edee" width="24"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+<td align="right" bgcolor="#e9edee" width="100%">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4y.24EW.DRLIEXM0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>See all events</strong> 
+</font> 
+</A> 
+ </td>
+<td bgcolor="#e9edee" width="12"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="12"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td bgcolor="#e9edee"><img alt="" height="3" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19596/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+
+<table width="1" cellpadding="0" cellspacing="0" border="0"><tr><td style="font-size:0px;line-height:0px"><img src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/5820/boxsidebarbottom.gif" border="0" height="9" width="240"></td></tr></table></td> </tr> </table>  <table border="0" cellpadding="0" cellspacing="0" width="240"> <tr> <td style="font-size:0px;line-height:0px"><img height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="1"></td> </tr> </table></td> <td style="font-size:0px;line-height:0px" width="11"><img height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="11"></td> <td valign="top" width="349"><table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td style="font-size:0px;line-height:0px" width="100%"><img height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50co!
+ 
+ ntent/18570/18833/a.gif" width="1"></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="100%"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19584/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP56.24EW.DLRWEVK0"><img align="right" alt="RSS Feed" border="0" height="14" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19584/rss14x14.gif" style="display: block;" width="14"></A> 
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="1">&raquo;</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP52.24EW.DLGOEVG0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="1">View archive</font> 
+</A> 
+ &#160; &#160; 
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="1">&raquo;</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP54.24EW.aT1qcHByb3N0QGljcy5tcS5lZHUuYXU%5fBNXGHMT0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="1">Choose content</font> 
+</A> 
+ </td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="100%"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19584/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"></td>  </tr> </table>   <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FOzM.24EW.DTVaEYF0"><img align="right" alt="Jonathan Schwartz" border="0" height="74" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19550/john77x74.jpg" width="77"></A> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FOzM.24EW.DTVaEYF0" STYLE="text-decoration:none;">
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="5">
+ <strong>Drive Cost Savings<BR>
+with Open&#160;Source</strong><BR>
+<BR>
+
+</font> 
+</A> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><em>By Jonathan Schwartz</em><BR>
+
+ Under growing pressure to cut and consolidate, CIOs are reducing spending by deploying open source database technology in their datacenters. Per-project savings average between $250,000 and $500,000 &mdash; with estimated savings of up to $10 million for large enterprise deployments.<BR>
+
+</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FOzM.24EW.DTVaEYF0" STYLE="text-decoration:none;"><font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font><strong>&#160;Full&#160;story</strong></font></A> 
+ </td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19550/a.gif" style="display: block;" width="1"></td></tr>
+<tr><td bgcolor="#bdbec0" width="100%"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19550/a.gif" style="display: block;" width="1"></td></tr>
+<tr><td width="100%"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19550/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4m.24EW.DQJQEXA0" STYLE="text-decoration:none;">
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="3">
+ <strong>Sun's New Open Storage Systems</strong> 
+</font> 
+</A> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+<BR>
+ Newly launched Sun Open Storage systems are helping change the economics of storage. Get details on new Sun Storage J4000 arrays and the next-generation Sun Fire X4540 storage server and how you can scale to 480 TB while reducing costs by up to 90 percent.<BR>
+
+</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4m.24EW.DQJQEXA0" STYLE="text-decoration:none;"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font><font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&#160;Full&#160;story</strong></font></A> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19600/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FP4o.24EW.DQPEEXC0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Visit the Sun News Center</strong> 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19600/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19600/a.gif" style="display: block;" width="1"></td></tr>
+<tr><td bgcolor="#bdbec0" width="100%"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19600/a.gif" style="display: block;" width="1"></td></tr>
+<tr><td width="100%"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19600/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGI.24EW.DOVAEWN0" STYLE="text-decoration:none;">
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="3">
+ <strong>Solaris + AMP = Scalability and<BR>
+Performance for the Web Tier<BR>
+</strong> 
+</font> 
+</A> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ As open source Web applications move into mission-critical roles, infrastructure performance and security becomes more important than ever. Enter Sun's expanded AMP stack &mdash; Apache, MySQL, and PHP/Perl/Python optimized for Solaris OS technology and chip multithreading, and fully backed by Sun support.<BR>
+
+</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNGI.24EW.DOVAEWN0" STYLE="text-decoration:none;"><font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font><font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&#160;Full&#160;story</strong></font></A> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18745/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18745/a.gif" style="display: block;" width="1"></td></tr>
+<tr><td bgcolor="#bdbec0" width="100%"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18745/a.gif" style="display: block;" width="1"></td></tr>
+<tr><td width="100%"><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18745/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td>  </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FO7S.24EW.DOGCEWI0" STYLE="text-decoration:none;">
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="3">
+ <strong>Jonathan's Blog: ZFS Meets Flash</strong> 
+</font> 
+</A> 
+ <BR>
+
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FO7S.24EW.DOGCEWI0" STYLE="text-decoration:none;">
+ <img align="right" alt="Server/storage appliances" border="0" height="68" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19374/0708harddrives.jpg" style="display: inline;" width="91"> 
+</A> 
+ <font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ ZFS file system, meet Flash memory. We're converging the two for a hybrid storage tier and server/storage appliances enormously faster than the status quo. With low cost and energy efficiency, it's breakthrough innovation that will have an even bigger impact on datacenter economics than virtualization.</font> 
+ <A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FO7S.24EW.DOGCEWI0" STYLE="text-decoration:none;">
+ <font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font><font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&#160;Read&#160;Jonathan&rsquo;s&#160;blog</strong></font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19374/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/19374/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td>  </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="100%">
+<img alt="Offers &amp; Resources" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18761/hdroffers.gif" style="display: block;" width="349"> 
+ </td>
+</tr>
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18761/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FQBI.24EW.DOPOEWL0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Cut Training Time in Half with Sun Fast Track</strong> 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/20483/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+&#160; 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ Get a jumpstart with Sun Fast Track training. Our accelerated programs build your Solaris OS, Java, and Web component technology skills in just five days &mdash; half the time of conventional training. 
+</font> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/20483/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/20483/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNF%5f.24EW.DQQAEXC0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Save 25% with Upgrades to T2 Servers</strong> 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18769/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+&#160; 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ Trade up from your current Sun, IBM, HP, or other server for a 25 percent trade-in allowance towards an eco-efficient Sun SPARC Enterprise T5120 or T5220 server. 
+</font> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18769/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18769/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNG0.24EW.DMOWEVU0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>White Paper: Keys to Datacenter Energy Efficiency</strong> 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18769/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+&#160; 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ How much is your company spending to power its datacenter? The answer might stun even the most seasoned CIOs. This new CIO2CIO Perspectives white paper outlines keys to energy efficiency. 
+</font> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18769/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18769/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td>  </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18781/a.gif" style="display: block;" width="1"></td>
+</tr>
+<tr>
+<td width="100%">
+<img alt="Industry Success Story" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18781/hdrsuccess.gif" style="display: block;" width="349"> 
+ </td>
+</tr>
+<tr>
+<td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18781/a.gif" style="display: block;" width="1"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+&#160; 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>Excellence Awards for Sun SPARC Servers</strong> 
+</font> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18785/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+&#160; 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ Stunning performance, virtualization flexibility, and energy efficiency translate into a pair of 2008 Excellence Awards for Sun SPARC Enterprise T5120 and T5220 servers.</font> 
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFs.24EW.DSIIEXW0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <em>eWeek</em> Excellence Award 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18785/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFu.24EW.DSNcEXY0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ ServerWatch Excellence Award 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18785/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+</td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18785/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18785/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+<font color="#e76f00" face="arial,helvetica,sans-serif" originaltag="yes" size="2"><strong>&raquo;</strong></font>&#160; 
+ </td>
+<td>
+<A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNFo.24EW.DRdAEXS0" STYLE="text-decoration:none;">
+ <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ <strong>University Launches Online<BR>
+E-Learning Environment</strong> 
+</font> 
+</A> 
+ </td>
+<td width="10"><img alt="" height="22" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18793/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top" width="10">
+&#160; 
+ </td>
+<td>
+<font color="#000000" face="arial,helvetica,sans-serif" originaltag="yes" size="2">
+ With a reliable Sun server and storage platform, SIM University in Singapore supplies 24/7 e-learning solutions for more than 6300 students. 
+</font> 
+ </td>
+<td width="10"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18793/a.gif" style="display: block;" width="10"></td>
+</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><img alt="" height="10" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18793/a.gif" style="display: block;" width="1"></td></tr>
+</table>
+</td>  </tr> </table></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0" width="100%"> <tr> <td style="font-size:0px;line-height:0px" width="100%"><img height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="1"></td> </tr> <tr> <td bgcolor="#bdbec0" style="font-size:0px;line-height:0px" width="100%"><img border="0" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="1"></td> </tr> <tr> <td style="font-size:0px;line-height:0px" width="100%"><img height="5" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/18833/a.gif" width="1"></td> </tr> </table> <table border="0" cellpadding="0" cellspacing="0"> <tr> <td width="600"><font color="#999999" face="arial,helvetica,sans-serif" size="1">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td><font color="#999999" face="arial,helvetica,sans-serif" originaltag="yes" size="1">
+ &#169; 2008 Sun Microsystems, Inc. All rights reserved. For information on Sun&rsquo;s trademarks see: <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="1"><a style="text-decoration:none;" color="#35556B" href="http://www.sun.com/suntrademarks"><font face="arial,helvetica,sans-serif" size="1" color="#35556B">http://www.sun.com/suntrademarks</font></a></font><BR>
+<BR>
+
+ To unsubscribe from this list, reply to this message with "Unsubscribe" in the subject line or <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="1"><A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNjA.24EW.aT1qcHByb3N0QGljcy5tcS5lZHUuYXU%5fBXOIHOT0"><font style='text-decoration:none;' face='arial,helvetica,sans-serif' size='1' color='#35556B'>use this link</font></A></font>.<BR>
+<BR>
+
+ To manage your Sun subscriptions, visit the <font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="1"><A HREF="http://communications1.sun.com/r/c/r?2.1.3J1.2U2.11JSRo.C9pDma..N.FNjA.24EW.aT1qcHByb3N0QGljcy5tcS5lZHUuYXU%5fBXOIHOT0"><font style='text-decoration:none;' face='arial,helvetica,sans-serif' size='1' color='#35556B'>Subscription Center</font></A></font>.<BR>
+<BR>
+Sun Microsystems, 828 Pacific Hwy, GORDON NSW 2072, Australia<BR>
+<BR>
+
+ Please add the suninnercircle@mail.communications.sun.com to your address book to ensure you keep receiving your Sun <em>Inner Circle</em> newsletter.<BR>
+<BR>
+
+ If you have any questions or feedback, please send a message to <a href="mailto:innercircle@sun.com" style="text-decoration:none;"><font color="#35556b" face="arial,helvetica,sans-serif" originaltag="yes" size="1">innercircle@sun.com</font></a><BR>
+<BR>
+
+</font> </td>
+<td width="20"><img alt="" height="1" src="http://a676.g.akamaitech.net/f/676/773/60m/images.delivery.net/cm50content/18570/17463/a.gif" style="display: block;" width="20"></td>
+</tr>
+</table>
+<BR>
+ <BR>
+ </font></td> </tr> </table></td> </tr> </table>   <BR>
+ <BR>
+ <BR>
+<font color="#666666" face="Verdana,Helvetica" originaltag="yes" size="1">  </font><BR>
+<img width="1" height="1" src="http://open.delivery.net/o?2.2.3J1.2U2.11JSRo.C9pDma..N..24EW.ZD00NzE0NTY%5fCIbIFJf0" alt=" ">
+</BODY>
+</HTML>
+
+-----=_NEXT_11b7111bb2e--

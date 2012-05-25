@@ -1,0 +1,217 @@
+From - Thu Dec 10 14:34:40 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.14 with SMTP id b14cs307086far;
+        Sun, 21 Dec 2008 14:56:26 -0800 (PST)
+Received: by 10.210.65.17 with SMTP id n17mr6610788eba.136.1229900185844;
+        Sun, 21 Dec 2008 14:56:25 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 8si22357393ewy.56.2008.12.21.14.56.19;
+        Sun, 21 Dec 2008 14:56:25 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 97CFF23194; Sun, 21 Dec 2008 23:55:32 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 848B221726;
+	Sun, 21 Dec 2008 23:40:31 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 696773D24;
+	Sun, 21 Dec 2008 23:40:31 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id buCUTxtgjdta; Sun, 21 Dec 2008 23:40:31 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 82FB53E32;
+	Sun, 21 Dec 2008 23:38:48 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 72B983D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Dec 2008 22:16:19 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6GkH548rH9av for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Dec 2008 22:16:19 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4D51B3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 19 Dec 2008 22:16:18 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DF4BD1DE8F; Fri, 19 Dec 2008 22:16:18 +0100 (MET)
+Received: from an-out-0708.google.com (an-out-0708.google.com [209.85.132.241])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D82A91DC99
+	for <elsnet-list@elsnet.org>; Fri, 19 Dec 2008 22:16:15 +0100 (MET)
+Received: by an-out-0708.google.com with SMTP id d40so412795and.25
+	for <elsnet-list@elsnet.org>; Fri, 19 Dec 2008 13:16:14 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type:content-transfer-encoding
+	:content-disposition;
+	bh=mqSO9Cu7citfVpD4nJw2oVT2Wa5H5IDtcHMCuy8RR6A=;
+	b=LC5v0ZZbaca+BH3/6LmrSaEm3K2DXzqFaIUu1lxdqmRE2Gv3nxnLcP8kOvZPakUmw+
+	CZ0xohe/zfnm9dYDw5mZGshEgC9HSgxPz2dk30Vwucrp2ayWMsqAbOSt+YR7rBgDOvGr
+	/4SMAfW45MSFjKtZlPBqb8rKNV+SAzRQaEMTs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type
+	:content-transfer-encoding:content-disposition;
+	b=R0EFezGbPrXVlF/A+vElpWXOs/z4vNZDNTx+vLtDKBfEBv1g0WM2dM1jIjQcKOYbNn
+	APIZ7EL35MUUiG7jgh1RAyHmVXKdQDMAdT9oI6ov0xRlNWmQ+lnZRp1vOqh1SmE3+QWA
+	y7ZUFAOqCZ046lrS6wylJbnuPugkjUr5LBrCo=
+Received: by 10.65.133.12 with SMTP id k12mr2737337qbn.65.1229721374186;
+	Fri, 19 Dec 2008 13:16:14 -0800 (PST)
+Received: by 10.65.213.17 with HTTP; Fri, 19 Dec 2008 13:16:14 -0800 (PST)
+Message-ID: <8b6e0fee0812191316x708055bej9e8113c9e902c63b@mail.gmail.com>
+Date: Sat, 20 Dec 2008 01:16:14 +0400
+From: "Prof_Khaled Shaalan" <khaled.shaalan@gmail.com>
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+X-Mailman-Approved-At: Sun, 21 Dec 2008 23:38:04 +0100
+Subject: [Elsnet-list] Reminder - Special Issue of Arabic Natural Language
+	Processing
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+---------------------------------------------------------------------------=
+-------------
+         Sorry, if you received this message more than once.
+    Feel free to distribute it to those who might be interested.
+---------------------------------------------------------------------------=
+-------------
+
+
+~~~~~~~~~~~~~~~~~~~~~~~ CALL For Papers ~~~~~~~~~~~~~~~~~~~~~~~
+Special Issue on Arabic Natural Language Processing (ANLP)
+International Journal of Computer Processing of Oriental Languages (IJCPOL)
+World Scientific http://www.worldscinet.com/ijcpol
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Arabic is a Semitic language spoken by over 250 million people, in an
+area extending from the Arabian Gulf in the east to the Atlantic Ocean
+in the west. It is one of the six official languages of the United
+Nations. It is also the language in which some of the world's greatest
+works of literature, science, and history have been written.
+
+Arabic is a strongly structured and highly derivational language.
+Arabic language processing requires the treatment of the language
+constituents at all levels. Each level requires extensive study and
+exploitation of the associated linguistic characteristics. Over the
+last few years, Arabic natural language processing (ANLP) has been
+gaining increasing importance, and has found a wide range of
+applications including: machine translation, information extraction,
+and tutoring systems. These applications require developing innovative
+approaches and techniques for natural language analysis, natural
+language generation, and linguistic resources.
+
+Various forums have been dedicated to ANLP:
+=95 Special track on Natural Language Processing, The  International
+Conference on Informatics and Systems (NLP-INFOS 2008), Cairo Univ.,
+Egypt.
+=95 Workshop on HLT & NLP within the Arabic world: Arabic Language and
+local languages processing: Status Updates and Prospects, LREC, 2008
+=95 Computational Approaches to Arabic Script-based Languages, workshop
+series (04, 07).
+=95 International Conference on Arabic Language Resources and Tools
+(NEMLAR 2004), Cairo Egypt,
+
+This special issue of the International Journal of Computer Processing
+of Oriental Languages is intended to present the state-of-the-art in
+research on Arabic natural language processing, Arabic computational
+linguistics, applied Arabic linguistics and related areas. This call
+is intended to be as broad as possible. We solicit original research
+papers on topics including, but not limited to:
+=95 Linguistic resources (corpora, electronic dictionaries, treebanks, etc.=
+)
+=95 Transliteration, transcription and diacritization
+=95 Part of speech tagging
+=95 Morphological analysis and generation
+=95 Shallow and deep parsing
+=95 Machine translation
+=95 Word sense and syntactic disambiguation
+=95 Semantic analysis
+=95 Information extraction and retrieval
+=95 Question answering
+=95 Text clustering, and classification
+=95 Text summarization
+=95 Text and web content  mining
+=95 Named entity recognition
+=95 Colloquial-based language processing
+
+>>>>Important Dates <<<<<
+=95 Submissions due for review: 15 Jan 2009
+=95 Notification of 1st decision: 30 April 2009
+=95 Revisions due: 30 May 2009
+=95 Notification of acceptance: 30 June 2009
+=95 Final version submitted: 15 July 2009
+=95 Issue publication: 2010
+
+>>>>>Submission Guidelines <<<<<
+Submissions should be 3,000 to 7,500 words (counting a standard figure
+or table as 200 words) and should follow the journal's style and
+presentation guidelines (see
+http://www.worldscinet.com/ijcpol/mkt/guidelines.shtml). References
+should be limited to 10 citations. To submit a manuscript, access the
+Journal online submission system at
+http://www.worldscinet.com/ijcpol/editorial/submitpaper.shtml.  In the
+message to editors, please state clearly that the paper is submitted
+to the special issue on Arabic NLP.  An electronic version of the
+paper should also be submitted directly to the Guest Editor by e-mail
+at the same time.
+
+               * * * * *
+
+For further information, contact Guest Editor  Prof. Khaled Shaalan
+- (Fellow) School of Informatics University of Edinburgh, UK
+- Faculty of Informatics, British Univ. in Dubai
+- Faculty of Computers & Information, Cairo University:
+k.shaalan_AT_fci-cu.edu.eg.
+
+For a PDF version of this Call for papers upload
+http://www.buid.ac.ae/shaalan/arabnlpcfp.pdf
+
+--=20
+Regards,
+Khaled
+___________________________________________________________________________=
+_____________
+Prof. Khaled Shaalan
+Computer Science Dept.
+Faculty of Computers & Information
+Cairo Univ.
+
+5 Ahmed Zewel St.,
+Orman, Dokki, Giza
+12613 Egypt
+
+Email: k.shaalan@fci-cu.edu.eg
+Personal Email: khaled.shaalan@gmail.com
+
+(Fellow) School of Informatics
+University of Edinburgh, UK
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

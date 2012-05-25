@@ -1,0 +1,146 @@
+From - Thu Dec 10 14:30:33 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs107274waa;
+        Tue, 4 Mar 2008 03:38:18 -0800 (PST)
+Received: by 10.67.15.15 with SMTP id s15mr5564921ugi.27.1204630693695;
+        Tue, 04 Mar 2008 03:38:13 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id b35si9834816ugd.33.2008.03.04.03.37.38;
+        Tue, 04 Mar 2008 03:38:13 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JWVMN-0006ff-LH; Tue, 04 Mar 2008 12:31:03 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JWVMG-0006f7-GP; Tue, 04 Mar 2008 12:30:56 +0100
+Received: from lgsx16.lg.ehu.es [158.227.2.16] 
+	by rolf.uib.no for corpora@hd.uib.no with esmtp (TLSv1:AES256-SHA:256)
+	(Exim 4.34) id 1JWVMD-0007Xq-KO; Tue, 04 Mar 2008 12:30:57 +0100
+Received: from lgsx16.lg.ehu.es (localhost [127.0.0.1])
+	by lgsx16.lg.ehu.es (8.14.0/8.14.0) with ESMTP id m24BUoph023141
+	for <corpora@hd.uib.no>; Tue, 4 Mar 2008 12:30:50 +0100 (CET)
+Received: from [158.227.115.184] (sipe84.si.ehu.es [158.227.115.184])
+	by lgsx16.lg.ehu.es (8.14.0/8.14.0) with ESMTP id m24BUntE023129
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 4 Mar 2008 12:30:50 +0100 (CET)
+Message-ID: <47CD326E.9090206@ehu.es>
+Date: Tue, 04 Mar 2008 12:28:46 +0100
+From: Eneko Agirre <e.agirre@ehu.es>
+User-Agent: Thunderbird 2.0.0.12 (X11/20080227)
+MIME-Version: 1.0
+To: corpora <corpora@hd.uib.no>
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0
+	(lgsx16.lg.ehu.es [158.227.2.16]);
+	Tue, 04 Mar 2008 12:30:50 +0100 (CET)
+X-checked-clean: by exiscan on rolf
+X-Scanner: bb71e2ad17837ed642e659b2ed96a73f http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ nothing
+Subject: [Corpora-List] Call for participation: Robust WSD-CLIR task at
+	CLEF2008
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+
+Apologies for cross-postings
+
+
+
+			Call for participation
+
+		       Robust WSD CLIR@CLEF2008
+
+		      Word Sense Disambiguation
+	      for (Cross-Lingual) Information Retrieval
+
+                      http://ixa2.si.ehu.es/clirwsd
+
+
+The robust task will bring semantic and retrieval evaluation
+together. The participants will be offered topics and document
+collections from previous CLEF campaigns which were annotated by
+systems for word sense disambiguation (WSD). The goal of the task is
+to test whether WSD can be used beneficially for retrieval systems.
+Note that there will be another related task on WSD and Question
+Answering (http://ixa2.si.ehu.es/qawsd).
+
+The organizers believe that polysemy is among the reasons for
+information retrieval (IR) systems to fail. WSD could allow a more
+targeted retrieval. Last year, the campaigns SemEval and CLEF
+cooperated and created a task (http://ixa2.si.ehu.es/semeval-clir)
+where participants were required to provide WSD on CLEF data
+collections. In a retrieval experiment by the organizers the WSD data
+was used for retrieval but did not lead to improvement. This year,
+participants are given the WSD data (or can derive their own) and can
+run their own retrieval experiments with various retrieval strategies.
+
+The WSD data is based on WordNet version 1.6 and will be supplemented
+with data from the English and Spanish WordNets in order to test
+different expansion strategies. Several leading WSD experts will run
+their systems, and provide those WSD results for the participants to
+use.
+
+Participants are required to submit at least one baseline run without
+WSD and one run using the WSD data. They can submit four further
+baseline runs without WSD and four runs using WSD with in various
+ways.
+
+The robust task will use two languages often used in previous CLEF
+campaigns (English, Spanish). Documents will be in English, and topics
+in both English and Spanish.
+
+A subset of highly ambiguous topics will be identified by the
+organizers and used for a separate evaluation to see how WSD works for
+these hard topics.
+
+The evaluation will be based on Mean Average Precision (MAP) as well
+as Geometric Average Precision (GMAP). The robust measure GMAP intends
+to evaluate stable performance over all topics instead of high average
+performance in Mono- and Cross-Language IR ("ensure that all topics
+obtain minimum effectiveness level" Voorhees 2005 SIGIR Forum).
+
+
+Time Schedule:
+   Registration Opens - 10 February 2008 (closes 1 May 2008)
+   Data Release - from 1 March 2008
+   Topic Release - from 1 May 2008
+   Submission of Runs by Participants - 15 June 2008
+   Release of Relevance Assessments and Individual Results - 15 July 2008
+   Submission of Paper for Working Notes - 15 August 2008
+   Workshop - 17-19 September 2008
+
+Contact
+   Thomas Mandl, University of Hildesheim, mandl at uni-hildesheim de
+   Eneko Agirre, University of the Basque Country, e.agirre at ehu es
+
+For more details please visit http://ixa2.si.ehu.es/clirwsd
+
+Please join the mailing list:
+   http://groups.google.com/group/clirwsd
+
+
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

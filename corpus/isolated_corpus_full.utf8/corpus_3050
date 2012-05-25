@@ -1,0 +1,530 @@
+From - Thu Dec 10 14:31:46 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs229358waa;
+        Sat, 17 May 2008 05:29:51 -0700 (PDT)
+Received: by 10.125.148.7 with SMTP id a7mr3740633mko.128.1211027383649;
+        Sat, 17 May 2008 05:29:43 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 4si5771126fge.5.2008.05.17.05.29.02;
+        Sat, 17 May 2008 05:29:43 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7B846A4F6; Sat, 17 May 2008 14:29:02 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 600933308B;
+	Sat, 17 May 2008 14:28:41 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 3F7E53D3B;
+	Sat, 17 May 2008 14:28:41 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WYwn1N+DFjxn; Sat, 17 May 2008 14:28:40 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 107AF3D3C;
+	Sat, 17 May 2008 14:28:40 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 70EA93D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 12 May 2008 19:36:51 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id h91R0kRukrbq for <elsnet-list@mailman.elsnet.org>;
+	Mon, 12 May 2008 19:36:51 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 3ED323CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 12 May 2008 19:36:31 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 26F078AC6; Mon, 12 May 2008 19:36:31 +0200 (MEST)
+Received: from hyperion.ccf.auth.gr (hyperion.ccf.auth.gr [155.207.1.42])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 177E861C38
+	for <elsnet-list@let.uu.nl>; Mon, 12 May 2008 19:36:19 +0200 (MEST)
+Received: from [192.168.1.5] (ipa102.17.tellas.gr [84.254.17.102])
+	(authenticated bits=0)
+	by hyperion.ccf.auth.gr (8.14.2/8.14.1) with ESMTP id m4CHYhFm017766
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Mon, 12 May 2008 20:34:44 +0300
+Message-ID: <48287FB0.6010004@csd.auth.gr>
+Date: Mon, 12 May 2008 20:34:40 +0300
+From: Nick Bassiliades <nbassili@csd.auth.gr>
+User-Agent: Thunderbird 2.0.0.14 (Windows/20080421)
+MIME-Version: 1.0
+To: ehn@cs.cmu.edu, elsnet-list@elsnet.org, elsnet-list@let.uu.nl,
+	epontell@cs.nmsu.edu, event@in.tu-clausthal.de,
+	events_calendar@acm.org, fg-db@informatik.uni-rostock.de,
+	gt-user@globus.org, gwa@lists.ut.ee, ifip113@dti.unimi.it,
+	info-www-search@mailman.isi.edu, irlist-editor@acm.org,
+	irma-l@irma-international.org, ISWC2004_adv_e00@ei.sanken.osaka-u.ac.jp,
+	itannounce@mail.it.usyd.edu.au, java@globus.org
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: ClamAV 0.92.1/7103/Mon May 12 18:58:42 2008 on
+	cronus.ccf.auth.gr
+X-Virus-Status: Clean
+X-Mailman-Approved-At: Sat, 17 May 2008 14:28:38 +0200
+Cc: 
+Subject: [Elsnet-list] 2nd CFP: RuleML-2008 (2008 International RuleML
+ Symposium on Rule Interchange and Applications)
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+[ our apologies should you receive this message more than one time ]
+
+            2008 International RuleML Symposium
+       on Rule Interchange and Applications (RuleML-2008)
+
+          October 30-31, 2008, Orlando, Florida
+               http://2008.ruleml.org
+
+--------------------------------------------------------------------
+Deadlines are approaching: June 2
+
+Proceedings published by Springer LNCS
+
+Submission Site is open:
+       http://www.easychair.org/conferences/?conf=ruleml2008
+
+PRESS RELEASE: http://www.targetwire.com/vpo/rm/
+
+Sponsoring opportunities: http://2008.ruleml.org/sponsoring/
+--------------------------------------------------------------------
+
+=====================================================================
+Co-located with:
+
+         The 11th International Business Rules Forum
+              http://www.businessrulesforum.com
+=====================================================================
+Sponsored by:
+
+Silver level: Model Systems
+Bronze level: STI Innsbruck, ruleCore, JBoss
+=====================================================================
+In Co-operation with:
+
+AAAI, W3C, BPM-Forum, Business Rules Forum , ECCAI, OASIS, OMG,
+European Business Rules Conference, Belgium Business Rules Forum,
+MIT Sloan CIO Symposium,
+ACM, ACM SIGART, ACM SIGMIS, ACM SIGWEB, Open Research Society,
+IEEE Systems Man and Cybernetics Society
+IEEE SMCS TC on Intelligent Internet Systems
+IEEE SMCS TC on Distributed Intelligent Systems
+IEEE Computer Society TC on Autonomous and Autonomic Systems
+=====================================================================
+Media Partners:
+
+                  Springer LNCS, MoDo Marketing
+=====================================================================
+
+
+Call for Papers
+
+Collocated with the 11th International Business Rules Forum, the 2008
+International Symposium on Rule Interchange and Applications 
+(RuleML-2008) is
+the second symposium (after last year's highly successful RuleML-2007 -
+http://2007.ruleml.org/) devoted to work on practical distributed rule
+technologies and rule-based applications which need language standards for
+rules operating in the context of, e.g., the Semantic Web, Intelligent 
+Multi-
+Agent Systems, Event-Driven Architectures and Service-Oriented Computing
+Applications. The RuleML symposium is a new kind of event where the Web 
+Rules
+and Logic community joins the established, practically oriented Forum of the
+Business Rules community (http://www.businessrulesforum.com) to help cross-
+fertilizing between Web and Business Logic technology.
+
+The goal of RuleML-2008 is to bring together rule system providers,
+representatives of, and participants in, rule standardization efforts (e.g.,
+SBVR, RuleML, RIF, PRR, CL) and open source rules communities (e.g., jBoss
+Rules, CLIPS/Jess, Prova, OO jDrew, Mandarax, XSB, XQuery), 
+practitioners and
+technical experts, developers, users, and researchers. They will be offered
+an exciting venue to exchange new ideas, practical developments and
+experiences on issues pertinent to the interchange and application of rules
+in open distributed environments such as the Web.
+
+The Symposium gives emphasis on practical issues such as technical
+contributions and show case demonstrations of effective, practical,
+deployable rule-based technologies, rule interchange formats and 
+applications
+as well as discussions of lessons learned that have to be taken into account
+when employing rule-based technologies in distributed, (partially) open,
+heterogeneous environments. We also welcome groundwork that helps to 
+build an
+effective, practical, and deployable rule standard, improve rule technology,
+provide better understanding of the integration and interchange of 
+rules, and
+make the current generation of rule engines and rule technology more usable
+for advanced Web and Service Oriented Architectures.
+
+RuleML-2008 highlights include:
+- Plenary keynotes, highlight/lightning session, and a joint Boxed Lunch 
+Panel
+  about "Rules on the Web" together with the Business Rules Forum featuring
+  prominent and visionary speakers.
+- Keynote speakers:
+  * Michael Kifer (State University of New York at Stony Brook, USA),
+    on W3C's Rule Interchange Format (RIF). Joint keynote between 
+RuleML-2008
+    and RR2008.
+  * David Luckham (Stanford University, USA) on complex event processing.
+  * 3rd keynote speaker from industry.
+- A RuleML-2008 Challenge with prizes to demonstrate tools, use cases, and
+  applications
+- Industry, demo and scientific research & development papers and
+  presentations advancing and assessing the state of the art in event and
+  rule- based systems selected in a peer-reviewed fashion by an 
+international
+  program committee
+- Invited talks given by leaders from industry and world-class experts
+  featuring practical topics on event and rule-based computing and industry
+  success stories
+- Social events to promote networking among the symposium delegates in an
+  informal setting.
+
+
+Topics of Interest
+------------------
+
+We invite industry practitioners, rule system providers, technical experts
+and developers, rule users, and researchers who are using rule-based 
+systems,
+developing systems and applications, or exploring problems and best 
+practices
+(especially in the areas of system interoperability, rule interchange, or
+business agility), to share their ideas, results, and experiences. We invite
+submissions related (but not limited to) to one or more of the following
+topics:
+
+- Representation and meta-annotation of rules and rule sets (modules) for
+  publication and interchange
+- Collaborative authoring, modeling and engineering of rule specifications
+  and rule repositories
+- Information integration of external data and domain knowledge into rules
+- Homogeneous and heterogeneous integration of  rules and ontologies
+- Rules in Web 2.0 and Web 3.0
+- Rules in Semantic Web Technologies
+- Rules in Web Intelligence Research
+- Hybrid rule systems
+- Management and maintenance of distributed rule bases and rule repositories
+  during their lifecycle
+- Interchange and refactoring of rule bases in heterogeneous execution
+  environments
+- Verification and validation of interchanged rule bases in heterogeneous
+  execution environments
+- Contributions on effective, practical, and deployable Web standards on
+  rules as well as special purpose, vertical domain rule languages
+- Rule-based agility and its role in middleware
+- Communication between rule based systems using interchange formats and
+  processing / communication middleware
+- Applications, products, research, and development in rule-based,
+  distributed complex event processing, event communication and reaction
+  rules
+- Event-driven/action rule languages and models
+- Rule-based Event Processing Languages and rule-based CEP
+- Rule patterns and CEP patterns
+- Practical solutions tackling the real-world Software Engineering
+  requirements of rule-based systems in open, distributed environments
+- Modeling of executable rule specifications and tool support
+- Execution models, rule engines, and environments
+- Compilation vs. interpretation approaches of rules
+- Applications and integration of rules in web standards
+- Rule-based software agents and (web) services
+- Applications of rules in the Semantic Web and Pragmatic Web
+- Comparing and advancing the state of current business rules engines and
+  management system tools
+- Rule interchange standards and related industry interchange formats
+- Interoperation between different rule formats and ontological domain
+  conceptualization
+- Applications based on (Semantic) Web rule standardization or standards-
+  proposing efforts
+- Translation of interchangeable and domain-independent rule formats and 
+rule
+  models into executable technical rule specifications
+- Extraction and reengineering of platform-independent, interchangeable 
+rules
+  and rule models from existing platform-specific resources
+- Natural-language processing of rules
+- Graphical processing, modelling and rendering of rules
+- Incorporation of rule technology into distributed enterprise application
+  architectures
+- Rule-based policies and electronic contracts: their specification,
+  execution and management
+- Languages for exchanging and processing information through the web
+- E-contracting and automated negotiations with rule-based declarative
+  strategies
+- Applications of rules in e.g. legal reasoning, compliance rules, security,
+  IT government, security, risk management, trust and proof reasoning, etc.
+- Rule-based (multi-valued) reasoning with and representing uncertain and
+  fuzzy information
+- Rule-based reasoning with non-monotonic negation, modalities, deontic,
+  temporal, priority, scoped or other rule qualifications
+- Rule-based default reasoning with default logic, defeasible logic, and
+  answer set programming
+
+
+RuleML-2008 Challenge
+---------------------
+
+The RuleML-2008 Challenge is one of the highlights of RuleML-2008. It
+addresses the system demonstration for practical use of rule technologies in
+distributed and/or Web-based environments. The focus of the challenge is on
+rule technologies (including rule languages and engines), interoperation and
+interchange. The challenge offers participants the chance to demonstrate
+their commercial and open source tools, use cases, and applications. Prizes
+will be awarded to the two best applications. All accepted demos will be
+presented in a special Challenge Session.
+
+A submission to RuleML challenge has to meet the requirement that 
+declarative
+rules explicitly play a central role in the application. Basically this 
+means
+that:
+- Rules are explicitly represented in a declarative format and they are
+  decoupled from the application (rather than being compiled or hard-coded
+  into the application logic).
+- Rules are used in interesting and practically relevant ways to, e.g.,
+  derive useful information, transform knowledge, provide decision support,
+  provide automated rule-based monitoring, enforcement, validation or
+  management of the behavioural logic of the application.
+
+The demo should preferably (but not necessarily) be embedded into a 
+web-based
+or distributed environment so that there will be a need for features related
+to the RuleML conference topics, as listed in the call for papers.
+
+For more details please consult the RuleML-2008 Challenge website
+(http://ruleml-challenge.cs.nccu.edu.tw).
+
+
+Important Dates
+---------------
+
+- Paper Submissions due        June 2, 2008
+- Notification of acceptance    July 18, 2008
+- Final submissions due        August 9, 2008
+- Symposium date        October 30-31, 2008
+- RuleML Challenge        October 30, 2008
+
+
+Symposium Proceedings and Submission Details
+--------------------------------------------
+
+Authors are invited to submit original contributions of practical relevance
+and technical rigor in the field, experience reports and show case / use 
+case
+demonstrations of effective, practical, deployable rule-based 
+technologies or
+applications in distributed environments. Papers must be in English and may
+be submitted at http://www.easychair.org/conferences/?conf=ruleml2008 as:
+
+- Full Papers (15 pages in the proceedings)
+- Short Papers (8 pages in the proceedings)
+- RuleML-2008 Challenge Demo Paper + Show Cases (up to 8 pages in the
+  proceedings)
+
+Please upload all submissions as PDF files in LNCS format
+(http://www.springer.de/comp/lncs/authors.html). To ensure high quality,
+submitted papers will be carefully peer-reviewed by 3 PC members based on
+originality, significance, technical soundness, and clarity of exposition.
+Authors are requested to upload their complete papers by June 2, 2008. The
+selected papers will be published in book form in the Springer Lecture Notes
+in Computer Science (LNCS) series along with a CD with demo software and
+documents. The best paper from all submissions will be determined by the PC
+and a Best Paper Award will be handed over at the Symposium by a 
+Sponsor. All
+submissions must be done electronically via
+http://www.easychair.org/conferences/?conf=ruleml2008. We will pursue the
+publication of a selection of revised papers to a special issue of a high-
+quality journal.
+
+Submissions to the RuleML Challenge 2008 consist of a demo paper of up to 8
+pages, describing the demo show case, and a link to more information about
+the demo/show case, e.g. a project site, an online demonstration, a
+presentation, or a download site. Demo papers should contain a substantial
+presentation of the system to enable a proper evaluation of the techniques
+used. The content of papers should be sufficiently substantial for
+publication in the conference proceedings. The demo paper should be 
+submitted
+at http://www.easychair.org/conferences/?conf=ruleml2008, while the demo 
+link
+should be submitted at http://ruleml-challenge.cs.nccu.edu.tw/, and it 
+will be
+immediately publicly available. If the link is password-protected, then
+please submit a password for anonymous login from any Web browser, giving us
+the permission to pass the password on to 3 PC members. The submissions
+should satisfy the minimal requirements defined in the topics of interest.
+The demos will be evaluated during RuleML-2008 and prizes will be awarded to
+the first two best applications.
+
+Please do not hesitate to email to the appropriate Symposium Chair(s), 
+if you
+have any questions.
+
+
+Organizing Committee
+--------------------
+
+General Chair
+
+Adrian Paschke, Technical University Dresden, Germany
+       adrian.paschke AT biotec.tu-dresden.de
+
+Program Co-Chairs
+
+Nick Bassiliades, Aristotle University of Thessaloniki, Greece
+       nbassili AT csd.auth.gr
+Guido Governatori, University of Queensland, Australia
+       guido AT itee.uq.edu.au
+
+Challenge Co-Chairs
+
+Costin Badica, University of Craiova, Romania
+       badica_costin AT software.ucv.ro
+Yuh-Jong Hu, National Chengchi University, Taiwan
+       hu AT cs.nccu.edu.tw
+
+Panel Co-Chairs
+
+John Hall, Model Systems, UK
+       john.hall AT modelsys.com
+Axel Polleres, DERI Galway, Ireland
+       axel AT polleres.net
+
+Liaison Co-Chairs
+
+Mark Proctor, JBoss Rules, UK
+       mproctor AT redhat.com
+Rainer von Ammon, CITT GmbH, Germany
+       vonammon AT t-online.de
+Jan Vanthienen, Katholieke Universiteit Leuven, Belgium
+       Jan.Vanthienen AT econ.kuleuven.be
+
+
+Publicity Co-Chairs
+
+Matthias Nickles, University of Bath, UK
+       M.L.Nickles AT cs.bath.ac.uk
+Tracy Bost, Valocity, USA
+       tbost AT valocity.com
+(Sponsoring levels: http://2008.ruleml.org/sponsoring/)
+
+Web Chair
+
+Suzanne Embury, University of Manchester, UK
+       Suzanne.Embury AT manchester.ac.uk
+
+
+Program Committee
+--------------------
+
+- Asaf Adi, IBM, Israel
+- Grigoris Antoniou, University of Crete-FORTH, Greece
+- Sidney Bailin, Knowledge Evolution, USA
+- Matteo Baldoni, University of Torino, Italy
+- Cristina Baroglio, University of Torino, Italy
+- Claudio Bartolini, HP Labs
+- Tim Bass, SilkRoad Inc.
+- Bernhard Bauer, University of Augsburg, Germany
+- Mikael Berndtsson, University of Skovde, Sweden
+- Leopoldo Bertossi, Carleton University, Canada
+- Pedro Bizarro, University of Coimbra, Portugal
+- Peter Bollen, University of Maastricht, Netherlands
+- Christian Brelage, SAP Research, Germany
+- Donald Chapin, Business Semantics Ltd, UK
+- Shyi-Ming Chen, National Taiwan University of Science and Technology,
+  Taiwan
+- Jorge Cuellar, Siemens, Germany
+- Mike Dean, BBN Technologies, USA
+- Stan Devitt, Agfa Healthcare, Ontario, Canada
+- Jens Dietrich, Massey University, New Zeeland
+- Jurgen Dix, Technische Universitaet Clausthal, Germany
+- Schahram Dustdar, Vienna University of Technology, Austria
+- Andreas Eberhart, fluid Operations, Germany
+- Opher Etzion, IBM Research Laboratory Haifa, Israel
+- Dieter Fensel, DERI Innsbruck, Austria
+- Dragan Gasevic, Athabasca University, Canada
+- Adrian Giurca, Brandenburg University of Technology at Cottbus, Germany
+- Stijn Goedertier, Katholieke Universiteit Leuven, Belgium
+- Robert Golan, DBmind Technologies, USA
+- Christine Golbreich, University of Versailles, France
+- Tom Gordon, Fraunhofer Institute for Open Communication Systems, Germany
+- Marek Hatala, Simon Fraser University, Canada
+- Ioannis Hatzilygeroudis, University of Patras, Greece
+- Martin Hepp, University of Innsbruck, Austria
+- Elisa Kendall, Sandpiper Software, USA
+- Yiannis Kompatsiaris, Informatics and Telematics Institute, Greece
+- Manolis Koubarakis, National and Kapodistrian University of Athens, Greece
+- Alex Kozlenkov, Betfair Ltd., UK
+- Holger Lausen, DERI Innsbruck, Austria
+- John Lee, Polytechnic University, Hong Kong
+- Mark Linehan, IBM Research, USA
+- Heiko Ludwig, IBM Watson Research, USA
+- Mirko Malekovic, University of Zagreb, Croatia
+- Christopher J. Matheus, Vistology, USA
+- Craig McKenzie, Science Applications International, USA
+- Jing Mei, IBM Research Lab China, China
+- Zoran Milosevic, Deontik Inc, Australia
+- Jang Minsu, E&T Research Institute, Korea
+- Leora Morgenstern, Stanford, USA
+- Gero Muehl, Technische Universitat Berlin, Germany
+- Jorg Muller, TU Clausthal, Germany
+- Chieko Nakabasami, Toyo University, Japan
+- Ilkka Niemela, Helsinki University of Technology, Finland
+- Bart Orriens, Tilburg University, Netherlands
+- Jeff Pan, University of Aberdeen, UK
+- Paula-Lavinia Patranjan, Skytec AG, Germany
+- Jon Pellant, Pega Systems Inc., USA
+- Jeff Pollock, Oracle, USA
+- Alun Preece, Cardiff University, UK
+- Maher Rahmouni, HP Labs
+- Girish Ranganathan, University of New Brunswick, Canada
+- Dave Reynolds, HP, England
+- Graham Rong, MIT Sloan School of Management, USA
+- Antonio Rotolo, CIRSFID, University of Bologna, Italy
+- Norman Sadeh, Carnegie Mellon University, USA
+- Christian de Sainte Marie, ILOG, France
+- Marco Seirio, ruleCore, Sweden
+- Timos Sellis, Institute for the Management of Information Systems and
+  National Technical University of Athens, Greece
+- Michael Sintek, DFKI, Germany
+- Silvie Spreeuwenberg, LibRT, The Netherlands
+- Giorgos Stamou, National Technical University of Athens, Greece
+- Giorgos Stoilos, National Technical University of Athens, Greece
+- Terrance Swift, XSB Inc., USA
+- Kuldar Taveter, University of Melbourne, Australia
+- James Taylor, Fair Isaac Corp., USA
+- Vagan Terziyan, University of Jyvaskyla, Finland
+- Paul Vincent, TIBCO Software, USA
+- George Vouros, University of the Aegean, Greece
+- Kewen Wang, Griffith University, Australia
+- Mehmet Emre Yegen, Ygntec Inc., USA
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

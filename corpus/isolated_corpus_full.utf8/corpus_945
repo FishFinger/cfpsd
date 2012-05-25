@@ -1,0 +1,106 @@
+From - Thu Dec 10 14:25:27 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.14 with SMTP id l14cs181821bud;
+        Sat, 6 Jan 2007 11:53:10 -0800 (PST)
+Received: by 10.67.117.18 with SMTP id u18mr19760314ugm.1168113190809;
+        Sat, 06 Jan 2007 11:53:10 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 5si31194576ugc.2007.01.06.11.53.07;
+        Sat, 06 Jan 2007 11:53:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1H3Har-00023c-AV; Sat, 06 Jan 2007 20:52:41 +0100
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1H3Hao-0006uG-Jn; Sat, 06 Jan 2007 20:52:38 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1H3Haj-0006uB-60; Sat, 06 Jan 2007 20:52:33 +0100
+Received: from dsfex1.ad.uiuc.edu [128.174.68.234] 
+	by rolf.uib.no for corpora@hit.uib.no with esmtp  (Exim 4.34)
+	id 1H3Hab-0000rE-O8; Sat, 06 Jan 2007 20:52:30 +0100
+Received: from [192.168.1.174] ([89.138.148.120]) by dsfex1.ad.uiuc.edu over TLS secured channel with Microsoft SMTPSVC(6.0.3790.1830);
+	 Sat, 6 Jan 2007 13:40:18 -0600
+Message-ID: <459FFAFE.9020909@cs.uiuc.edu>
+Date: Sat, 06 Jan 2007 13:39:42 -0600
+From: Dan Roth <danr@cs.uiuc.edu>
+User-Agent: Thunderbird 1.5.0.9 (Windows/20061207)
+MIME-Version: 1.0
+To:  corpora@hit.uib.no
+Subject: [Corpora-List] JNLE Special Issue on Textual Entailment - Preliminary Announcement
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-OriginalArrivalTime: 06 Jan 2007 19:40:19.0542 (UTC) FILETIME=[7F7D4760:01C731CA]
+X-checked-clean: by exiscan on rolf
+X-Scanner: baa9ac2f832c4e760f3f63a483774939 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -15 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   -15 From is listed in 'whitelist_SA'
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+                 Journal of Natural Language Engineering
+                   Special Issue on Textual Entailment
+
+                Preliminary Announcement (CFP on April 2007)
+
+The goal of identifying textual entailment - whether one piece of
+text can be plausibly inferred from another - has emerged in recent
+years as a generic core problem in Natural Language Understanding.
+For instance, in order to answer the question "Who killed Kennedy?",
+a QA system may need to recognize that "Oswald killed Kennedy" can
+be inferred from "the assassination of Kennedy by Oswald".
+
+Work in this area has been largely driven by the PASCAL Recognizing
+Textual Entailment (RTE) challenges, a series of annual competitive
+meetings (http://www.pascal-network.org/Challenges/RTE3). This work
+exhibits strong ties to some earlier lines of research, particularly
+automatic acquisition of paraphrases and lexical semantic
+relationships and unsupervised inference in applications such as
+question answering, information extraction and summarization. It
+has also opened the way to newer lines of research on more involved
+inference methods, on knowledge representations needed to support
+this natural language understanding challenge and on the use of
+learning methods in this context. RTE has fostered an active and
+growing community of researchers focused on the problem of applied
+entailment. The special issue of JNLE will provide an opportunity to
+showcase some of the most important work in this emerging area.
+
+The call for papers is anticipated in April 2007 with paper
+submission deadline several months later. This schedule would allow
+participants of the PASCAL RTE-3 Challenge to include their most recent
+results, following the RTE-3 workshop. However, papers will be invited
+on all aspects of textual entailment, aiming at a broader scope than
+exhibited within the RTE challenges. Topics include, but are not
+limited to:
+
+* Representation levels, such as
+    - Lexical, n-gram, and substring overlap
+    - Linguistic annotations (POS tags, syntactic structure,
+      semantic dependencies)
+* Utilizing background knowledge, e.g. inference rules, paraphrase 
+templates, lexical relations
+* Knowledge acquisition methods
+   - From corpora/Web, including construction of entailment/paraphrasing 
+corpora
+   - From semantic resources like FrameNet, PropBank, VerbNet, 
+NOMLEX/NOMBANK
+* Inference mechanisms, such as
+    - Similarity/subsumption metrics
+    - Tree-based distances and transformations
+    - Machine learning
+    - Logical inference using theorem provers
+* The impact of entailment capabilities on applications
+* Evaluation methods
+* Data analysis
+
+Guest Editors:
+Ido Dagan          (Bar Ilan University, Israel)
+Bill Dolan         (Microsoft Research, USA)
+Bernardo Magnini   (ITC-irst, Italy)
+Dan Roth           (UIUC, USA)
+

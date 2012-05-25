@@ -1,0 +1,239 @@
+From - Thu Dec 10 14:37:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs422582faq;
+        Wed, 3 Jun 2009 06:28:06 -0700 (PDT)
+Received: by 10.114.72.1 with SMTP id u1mr1522639waa.154.1244035684441;
+        Wed, 03 Jun 2009 06:28:04 -0700 (PDT)
+Return-Path: <sentto-1622440-2803-1244035672-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 42si1788707pxi.54.2009.06.03.06.28.01;
+        Wed, 03 Jun 2009 06:28:03 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2803-1244035672-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2803-1244035672-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2803-1244035672-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n53DRxXQ028526
+	for <jpprost@gmail.com>; Wed, 3 Jun 2009 23:27:59 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n53DRxOJ023954
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 3 Jun 2009 23:27:59 +1000
+X-ASG-Debug-ID: 1244035676-262302be0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id 90B26298F49D
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed,  3 Jun 2009 23:27:56 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id btwnjyscEHFGRYqs for <jpprost@mailbox.ics.mq.edu.au>; Wed, 03 Jun 2009 23:27:56 +1000 (EST)
+X-Barracuda-Envelope-From: sentto-1622440-2803-1244035672-jpprost=ics.mq.edu.au@returns.groups.yahoo.com
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from n8-vm8.bullet.mail.sp2.yahoo.com (n8-vm8.bullet.mail.sp2.yahoo.com [67.195.135.116])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with SMTP id n53DRtnH028512
+	for <jpprost@ics.mq.edu.au>; Wed, 3 Jun 2009 23:27:55 +1000 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1244035674; bh=rziAPfIFLGGAeaC8/L0Iu80nb8gfwL7lNay7jEuAaHA=; h=Received:Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:Message-Id:To:X-Mailer:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type:Content-Transfer-Encoding; b=MHHmedHaBEgPh4VwLb5ueKHyta23tjbB2+ILJFyYeh98P57fTyYgoF2nAJ2NfReTquHt3cbAEEBingCj43wtXxSG5I1YQI3o4/MCnSCU5bPUnD8+QNus86rNLDXfGG7k
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=Wp/UADmMcgbsz5Mom4vQOFiOSbgondhABicwhypMvXsDtU9tQJXLszcgrbd+gsc2ejGlZXEcsccmE6snBPyuDhwGixJ2I6zBDUSub7/gDcYGLUq/F6DVtAMcO09auNDV;
+Received: from [67.195.134.238] by n8.bullet.mail.sp2.yahoo.com with NNFMP; 03 Jun 2009 13:27:54 -0000
+Received: from [69.147.65.149] by t3.bullet.mail.sp2.yahoo.com with NNFMP; 03 Jun 2009 13:27:54 -0000
+Received: from [98.137.34.37] by t9.bullet.mail.sp1.yahoo.com with NNFMP; 03 Jun 2009 13:27:54 -0000
+X-Yahoo-Newman-Id: 1622440-m2803
+X-Sender: webmestre@lpl-aix.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 89272 invoked from network); 3 Jun 2009 13:27:50 -0000
+X-Received: from unknown (69.147.108.202)
+  by m1.grp.sp2.yahoo.com with QMQP; 3 Jun 2009 13:27:50 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta3.grp.re1.yahoo.com with SMTP; 3 Jun 2009 13:27:50 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AqEYAHoXJkqTXsTo/2dsb2JhbACEI4MsiEiFBr1IhAsF
+X-IronPort-AV: E=Sophos;i="4.41,298,1241388000"; 
+   d="scan'208";a="3127578"
+X-Received: from unknown (HELO [147.94.196.232]) ([147.94.196.232])
+  by mso1k206.u-3mrs.fr with ESMTP; 03 Jun 2009 15:27:06 +0200
+Message-Id: <3470A7E3-23CD-44F7-9D76-99D49D332D64@lpl-aix.fr>
+To: lpl-infos@yahoogroupes.fr, personl@lpl-aix.fr,
+        lpl-seminaires@yahoogroupes.fr
+X-Mailer: Apple Mail (2.753.1)
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: LPL databases <webmestre@lpl-aix.fr>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Wed, 3 Jun 2009 15:27:04 +0200
+X-ASG-Orig-Subj: [lpl-infos] 5 June 2009 - last days - NIPS 2009 - Twenty-Third Annual Conferenceon Neural Information Processing Systems
+Subject: [lpl-infos] 5 June 2009 - last days - NIPS 2009 - Twenty-Third Annual Conferenceon Neural Information Processing Systems
+X-Yahoo-Newman-Property: groups-email-tradt-u
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1244035677
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.27472
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+L'=E9v=E9nement suivant se terminera dans quelques jours (5/6/2009) :
+The following event is bound to be over in a few days (5/6/2009):
+-------
+Appel =C0 Contribution :
+NIPS 2009 - TWENTY-THIRD ANNUAL CONFERENCEON NEURAL INFORMATION=20=20
+PROCESSING SYSTEMS
+
+=95 Lieu / location : Vancouver
+=95 Info : http://nips.cc/Conferences/2009/
+=95 Contact : http://nips.cc/Conferences/2009/
+
+------
+The NIPS Conference features a single track program, with=20=20
+contributions from a large number of intellectual communities.=20=20
+Presentation topics include: Algorithms and Architectures;=20=20
+Applications; Brain Imaging; Cognitive Science and Artificial=20=20
+Intelligence; Control and Reinforcement Learning; Emerging=20=20
+Technologies; Learning Theory; Neuroscience; Speech and Signal=20=20
+Processing; and Visual Processing.
+
+------
+Submissions are solicited for the Twenty-Third Annual Conference on=20=20
+Neural Information Processing Systems, an interdisciplinary=20=20
+conference that brings together researchers in all aspects of neural=20=20
+and statistical information processing and computation. The=20=20
+conference is a highly selective, single track meeting that includes=20=20
+invited talks as well as oral and poster presentations of refereed=20=20
+papers. Submissions by authors who are new to NIPS are encouraged.=20=20
+Preceding the main conference will be one day of tutorials (December=20=20
+7), and following will be two days of workshops at the Whistler/=20
+Blackcomb ski resort (December 11-12).
+
+------
+Technical Areas: Papers are solicited in all areas of neural=20=20
+information processing and statistical learning, including, but not=20=20
+limited to:
+
+     * Algorithms and Architectures: statistical learning algorithms,=20=20
+kernel methods, graphical models, Gaussian processes, neural=20=20
+networks, dimensionality reduction and manifold learning, model=20=20
+selection, combinatorial optimization, relational and structured=20=20
+learning.
+     * Applications: innovative applications or fielded systems that=20=20
+use machine learning, including systems for time series prediction,=20=20
+bioinformatics, systems biology, text/web analysis, multimedia=20=20
+processing, and robotics.
+     * Brain Imaging: neuroimaging, cognitive neuroscience, EEG=20=20
+(electroencephalogram), ERP (event related potentials), MEG=20=20
+(magnetoencephalogram), fMRI (functional magnetic resonance imaging),=20=20
+brain mapping, brain segmentation, brain computer interfaces.
+     * Cognitive Science and Artificial Intelligence: theoretical,=20=20
+computational, or experimental studies of perception, psychophysics,=20=20
+human or animal learning, memory, reasoning, problem solving, natural=20=20
+language processing, and neuropsychology.
+     * Control and Reinforcement Learning: decision and control,=20=20
+exploration, planning, navigation, Markov decision processes, game=20=20
+playing, multi-agent coordination, computational models of classical=20=20
+and operant conditioning.
+     * Hardware Technologies: analog and digital VLSI, neuromorphic=20=20
+engineering, computational sensors and actuators, microrobotics,=20=20
+bioMEMS, neural prostheses, photonics, molecular and quantum computing.
+     * Learning Theory: generalization, regularization and model=20=20
+selection, Bayesian learning, spaces of functions and kernels,=20=20
+statistical physics of learning, online learning and competitive=20=20
+analysis, hardness of learning and approximations, statistical=20=20
+theory, large deviations and asymptotic analysis, information theory.
+     * Neuroscience: theoretical and experimental studies of=20=20
+processing and transmission of information in biological neurons and=20=20
+networks, including spike train generation, synaptic modulation,=20=20
+plasticity and adaptation.
+     * Speech and Signal Processing: recognition, coding, synthesis,=20=20
+denoising, segmentation, source separation, auditory perception,=20=20
+psychoacoustics, dynamical systems, recurrent networks, language=20=20
+models, dynamic and temporal models.
+     * Visual Processing: biological and machine vision, image=20=20
+processing and coding, segmentation, object detection and=20=20
+recognition, motion detection and tracking, visual psychophysics,=20=20
+visual scene analysis and interpretation.
+     * Papers that balance new algorithmic contributions with a more=20=20
+applied focus, with substantial evaluation on real-world problems,=20=20
+are particularly encouraged.
+
+
+Evaluation Criteria: Submissions will be refereed on the basis of=20=20
+technical quality, novelty, potential impact, and clarity.
+
+Submission Instructions: All submissions will be made electronically,=20=20
+in PDF format. As in previous years, reviewing will be double-blind=20=20
+-- the reviewers will not know the identities of the authors. Papers=20=20
+are limited to eight pages, including figures and tables, in the NIPS=20=20
+style. However, this year an additional ninth page containing only=20=20
+cited references is allowed. Complete submission and formatting=20=20
+instructions, including style files, are available from the NIPS=20=20
+website, http://nips.cc. Electronic submissions will be accepted=20=20
+until June 5, 2009, 23:59 Universal Time (4:59 pm Pacific Daylight=20=20
+Time). Note that this year, final papers will be due in advance of=20=20
+the conference.
+
+Demonstrations: There is a separate Demonstration track at NIPS.=20=20
+Authors wishing to submit to the Demonstration track should consult=20=20
+the Call for Demonstrations.
+
+Policy on Dual Submissions: Submissions that are substantially=20=20
+similar to papers that have been previously published or accepted for=20=20
+publication, in either a journal or conference proceedings, are not=20=20
+acceptable. During the NIPS review period, a submitted paper may not=20=20
+be under review in parallel for another conference with a published=20=20
+Proceedings; the NIPS review period begins June 19 and ends September=20=20
+4, 2009. Submission is permitted of a short version of a paper that=20=20
+has been submitted, but not yet accepted, to a journal.
+
+Workshops: The workshops will be held at the Whistler/Blackcomb ski=20=20
+resort from December 11-12. The upcoming workshop proposal will=20=20
+provide details.
+-------------
+Ce message vous est envoy=E9 par la base de donn=E9es 'Ev=E9nements' du =
+=20
+Laboratoire Parole et Langage, Aix-en-Provence.
+This is an automatic message sent by the event manager database of=20=20
+Laboratoire Parole et Langage, Aix-en-Provence.
+
+Vous pouvez consulter cette base en cliquant le lien 'Calendrier' sur=20=20
+la page d'accueil <http://www.lpl.univ-aix.fr>.
+You may check the database following the 'Calendrier' link on our=20=20
+homepage <http://www.lpl.univ-aix.fr>.
+
+------------------------------------
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Vos options mail=A0:
+    Mail individuel | Traditionnel
+
+<*> Pour modifier vos options avec le Web, allez sur=A0:
+    http://fr.groups.yahoo.com/group/lpl-infos/join
+    ((Compte Yahoo! requis)=20
+
+<*> Pour modifier vos options par mail=A0:
+    mailto:lpl-infos-digest@yahoogroupes.fr=20
+    mailto:lpl-infos-fullfeatured@yahoogroupes.fr
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+

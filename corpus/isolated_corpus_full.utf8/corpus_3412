@@ -1,0 +1,386 @@
+From - Thu Dec 10 14:33:02 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs20978muh;
+        Wed, 27 Aug 2008 01:46:34 -0700 (PDT)
+Received: by 10.210.122.5 with SMTP id u5mr3048701ebc.166.1219826793250;
+        Wed, 27 Aug 2008 01:46:33 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 3si7969481eyi.5.2008.08.27.01.45.55;
+        Wed, 27 Aug 2008 01:46:33 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4FF651FA16; Wed, 27 Aug 2008 10:45:44 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.8 required=5.0 tests=AWL,BAYES_00,SORTED_RECIPS
+	autolearn=no version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 453ED1F030;
+	Wed, 27 Aug 2008 10:45:27 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 257A13D3C;
+	Wed, 27 Aug 2008 10:45:27 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WFnYOofwV6tX; Wed, 27 Aug 2008 10:45:26 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 8CFC63D3D;
+	Wed, 27 Aug 2008 10:45:25 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 6BE1E3D3C
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 26 Aug 2008 16:00:36 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id nKgqlWsUjkMY for <elsnet-list@mailman.elsnet.org>;
+	Tue, 26 Aug 2008 16:00:36 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 444DB3D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 26 Aug 2008 16:00:36 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 326E21EA78; Tue, 26 Aug 2008 16:00:36 +0200 (MEST)
+Received: from hyperion.ccf.auth.gr (hyperion.ccf.auth.gr [155.207.1.42])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 63E951C1FC
+	for <elsnet-list@let.uu.nl>; Tue, 26 Aug 2008 16:00:30 +0200 (MEST)
+Received: from [127.0.0.1] (startrek.csd.auth.gr [155.207.113.177])
+	(authenticated bits=0)
+	by hyperion.ccf.auth.gr (8.14.3/8.14.3) with ESMTP id m7QDxP6Z024071
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Tue, 26 Aug 2008 16:59:26 +0300
+Message-ID: <48B40C3C.8060407@csd.auth.gr>
+Date: Tue, 26 Aug 2008 16:59:24 +0300
+From: Nick Bassiliades <nbassili@csd.auth.gr>
+User-Agent: Thunderbird 2.0.0.16 (Windows/20080708)
+MIME-Version: 1.0
+To: ehn@cs.cmu.edu, elsnet-list@elsnet.org, elsnet-list@let.uu.nl,
+	epontell@cs.nmsu.edu, event@in.tu-clausthal.de,
+	events_calendar@acm.org, fg-db@informatik.uni-rostock.de,
+	gt-user@globus.org, gwa@lists.ut.ee, ifip113@dti.unimi.it,
+	info-www-search@mailman.isi.edu, irlist-editor@acm.org,
+	irma-l@irma-international.org, itannounce@mail.it.usyd.edu.au,
+	java@globus.org
+Content-Type: text/plain; charset=ISO-8859-7; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: ClamAV 0.93.3/8090/Tue Aug 26 13:30:04 2008 on
+	cronus.ccf.auth.gr
+X-Virus-Status: Clean
+X-Mailman-Approved-At: Wed, 27 Aug 2008 10:45:23 +0200
+Cc: 
+Subject: [Elsnet-list] RuleML-2008: Call for Participation
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+[ our apologies should you receive this message more than one time ]
+
+=====================================================================
+                      CALL FOR PARTICIPATION
+
+                2008 International RuleML Symposium
+         on Rule Interchange and Applications (RuleML-2008)
+
+                October 30-31, 2008, Orlando, Florida
+                      http://2008.ruleml.org
+
+
+  ***   The early registration deadline is on 19 September 2008 ***
+              Register by September 19, receive $100 off.
+                 Special team discounts also available  
+
+=====================================================================
+
+                        Open Calls
+                            for
+           RuleML-2008 Challenge/Showcase Demos,
+        Lightning/Highlight Talks & Fast Abstracts
+           http://2008.ruleml.org/lightning.php
+             Submission deadline: September 15
+
+=====================================================================
+
+We invite you to attend the 2008 International RuleML Symposium on Rule
+Interchange and Applications (RuleML-2008) to be held during October 30-31,
+2008 in Orlando, Florida. As this is a relatively new event, being only its
+2nd year, participants can make a difference about shaping the future
+direction and structure of the field, including about rule standards
+supporting their own approaches and about their own possible involvement in
+the organization of future events.
+
+Co-located with the 11th International Business Rules Forum, RuleML-2008
+provides a unique opportunity to exchange your ideas about practical
+distributed rule technologies and rule-based applications. Meet the Web 
+rules
+experts and discuss with them status and progress of the rules technology.
+Discuss your recent work with colleagues in the informal atmosphere of the
+symposium. You should not miss the high-quality technical presentations, the
+innovative applications presented in detail and the state of the art reports
+of the plenary speakers. RuleML-2008 is a must for all people active in 
+rules
+technologies or entering the field.
+
+The scope of RuleML-2008 covers all topics relevant to rule-based
+technologies, rule interchange formats and rule-based applications as 
+well as
+discussions of lessons learned that have to be taken into account when
+employing rule-based technologies in distributed, (partially) open,
+heterogeneous environments.
+
+
+=======================
+Technical Program
+=======================
+
+The symposium will feature a strong, single-track technical program
+consisting of:
+
+* Keynote speakers:
+  o Michael Kifer (State University of New York at Stony Brook), on "Rule
+    Interchange Format: Not Just Syntax".
+    Joint keynote between RuleML-2008 and RR2008.
+  o David Luckham (Stanford University, USA) on "The Power of Events: An
+    Introduction to Complex Event Processing in Distributed Enterprise
+    Systems".
+  o Paul Haley (Haley Systems, Inc) on "Event and Process Semantics will
+    Rule".
+  o Benjamin Grosof (Vulcan, Inc.) on the SILK KRR system of the
+    HALO project.
+* Joint Lunch Panel held in conjunction with the co-located Business Rules
+  Forum on "Rules on the Web".
+* Lightning talks/Highlight talks
+* A RuleML-2008 Challenge with prizes to demonstrate tools, use cases, and
+  applications.
+* Industry, demo and scientific research & development papers and
+  presentations advancing and assessing the state of the art in event and
+  rule-based systems selected in a peer-reviewed fashion by an
+  international program committee.
+* Papers will be published as a Springer LNCS proceedings. A special issue
+  (IEEE TKDE pending) will be forthcoming.
+* Social events to promote networking among the symposium delegates in an
+  informal setting.
+ 
+The full symposium program is available at:
+http://2008.ruleml.org/program.php
+
+==========================
+RuleML-2008 Registration
+==========================
+
+Early Registration Deadline:   September 19, 2008
+Late Registration Deadline:    after September 19, 2008
+RuleML-2008 Symposium:         October 30-31, 2008
+
+The registration page is available at:
+http:/2008.ruleml.org/registration.php
+
+As shown there, special discounts are available for our collaboration
+partners and sponsors, as well as a group discount.
+
+The symposium will be held at the Buena Vista Palace in Orlando,
+Florida, near the Walt Disney World Resort. Information about
+the symposium venue are available here:
+
+http://2008.ruleml.org/venue.php
+
+==========================
+RuleML-2008 Challenge
+==========================
+
+The new RuleML-2008 Challenge provides an excellent opportunity to
+demonstrate rule-based tools, use cases, and applications (and to win a
+prestigious prize). Late-breaking demos for the RuleML-2008 Challenge are
+welcome. Please send title, author(s) and brief description by September,
+15th to ruleml2008@easychair.org
+
+More detail can be cound at:
+http://www.cs.manchester.ac.uk/ruleML/lightning.php#soft
+
+
+=======================
+Program Committee
+=======================
+
+Asaf Adi, IBM, Israel
+Grigoris Antoniou, University of Crete-FORTH, Greece
+Sidney Bailin, Knowledge Evolution, USA
+Matteo Baldoni, University of Torino, Italy
+Cristina Baroglio, University of Torino, Italy
+Claudio Bartolini, HP Labs
+Tim Bass, SilkRoad Inc.
+Bernhard Bauer, University of Augsburg, Germany
+Mikael Berndtsson, University of Skovde, Sweden
+Leopoldo Bertossi, Carleton University, Canada
+Pedro Bizarro, University of Coimbra, Portugal
+Peter Bollen, University of Maastricht, Netherlands
+Christian Brelage, SAP Research, Germany
+Donald Chapin, Business Semantics Ltd, UK
+Shyi-Ming Chen, National Taiwan University of Science and Technology, Taiwan
+Jorge Cuellar, Siemens, Germany
+Mike Dean, BBN Technologies, USA
+Stan Devitt, Agfa Healthcare, Ontario, Canada
+Jens Dietrich, Massey University, New Zeeland
+Jurgen Dix, Technische Universitaet Clausthal, Germany
+Schahram Dustdar, Vienna University of Technology, Austria
+Andreas Eberhart, fluid Operations, Germany
+Opher Etzion, IBM Research Laboratory Haifa, Israel
+Dieter Fensel, DERI Innsbruck, Austria
+Dragan Gasevic, Athabasca University, Canada
+Adrian Giurca, Brandenburg University of Technology at Cottbus, Germany
+Stijn Goedertier, Katholieke Universiteit Leuven, Belgium
+Robert Golan, DBmind Technologies, USA
+Christine Golbreich, University of Versailles, France
+Tom Gordon, Fraunhofer Institute for Open Communication Systems, Germany
+Marek Hatala, Simon Fraser University, Canada
+Ioannis Hatzilygeroudis, University of Patras, Greece
+Martin Hepp, University of Innsbruck, Austria
+Elisa Kendall, Sandpiper Software, USA
+Yiannis Kompatsiaris, Informatics and Telematics Institute, Greece
+Manolis Koubarakis, National and Kapodistrian University of Athens, Greece
+Alex Kozlenkov, Betfair Ltd., UK
+Holger Lausen, DERI Innsbruck, Austria
+John Lee, Polytechnic University, Hong Kong
+Mark Linehan, IBM Research, USA    
+Heiko Ludwig, IBM Watson Research, USA
+Mirko Malekovic, University of Zagreb, Croatia
+Christopher J. Matheus, Vistology, USA
+Craig McKenzie, SAIC Ltd., UK
+Jing Mei, IBM Research Lab China, China
+Zoran Milosevic, Deontik Inc, Australia
+Jang Minsu, E&T Research Institute, Korea
+Leora Morgenstern, Stanford, USA
+Gero Muehl, Technische Universitat Berlin, Germany
+Jorg Muller, TU Clausthal, Germany
+Chieko Nakabasami, Toyo University, Japan
+Ilkka Niemela, Helsinki University of Technology, Finland
+Bart Orriens, Tilburg University, Netherlands
+Jeff Pan, University of Aberdeen, UK
+Paula-Lavinia Patranjan, Skytec AG, Germany
+Jon Pellant, Pega Systems Inc., USA
+Jeff Pollock, Oracle, USA
+Alun Preece, Cardiff University, UK
+Maher Rahmouni, HP Labs
+Girish Ranganathan, University of New Brunswick, Canada
+Dave Reynolds, HP, England
+Graham Rong, MIT Sloan School of Management, USA
+Antonio Rotolo, CIRSFID, University of Bologna, Italy
+Norman Sadeh, Carnegie Mellon University, USA
+Christian de Sainte Marie, ILOG, France
+Marco Seirio, ruleCore, Sweden
+Timos Sellis, Institute for the Management of Information Systems and 
+National Technical University of Athens, Greece
+Michael Sintek, DFKI, Germany
+Silvie Spreeuwenberg, LibRT, The Netherlands
+Giorgos Stamou, National Technical University of Athens, Greece
+Giorgos Stoilos, National Technical University of Athens, Greece
+Terrance Swift, XSB Inc., USA
+Kuldar Taveter, University of Melbourne, Australia
+James Taylor, Fair Isaac Corp., USA
+Vagan Terziyan, University of Jyvaskyla, Finland
+Paul Vincent, TIBCO Software, USA
+George Vouros, University of the Aegean, Greece
+Kewen Wang, Griffith University, Australia
+Mehmet Emre Yegen, Ygntec Inc., USA
+
+
+=======================
+Organizing Committee
+=======================
+
+General Chair
+
+Adrian Paschke, Technical University Dresden, Germany
+       adrian.paschke AT biotec.tu-dresden.de
+
+Program Co-Chairs
+
+Nick Bassiliades, Aristotle University of Thessaloniki, Greece
+       nbassili AT csd.auth.gr
+Guido Governatori, University of Queensland, Australia
+       guido AT itee.uq.edu.au
+
+Challenge Co-Chairs
+
+Costin Badica, University of Craiova, Romania
+       badica_costin AT software.ucv.ro
+Yuh-Jong Hu, National Chengchi University, Taiwan
+       hu AT cs.nccu.edu.tw
+
+Panel Co-Chairs
+
+John Hall, Model Systems, UK
+       john.hall AT modelsys.com
+Axel Polleres, DERI Galway, Ireland
+       axel AT polleres.net
+
+Liaison Co-Chairs
+
+Mark Proctor, JBoss Rules, UK
+       mproctor AT redhat.com
+Rainer von Ammon, CITT GmbH, Germany
+       vonammon AT t-online.de
+Jan Vanthienen, Katholieke Universiteit Leuven, Belgium
+       Jan.Vanthienen AT econ.kuleuven.be
+
+
+Publicity Co-Chairs
+
+Matthias Nickles, University of Bath, UK
+       M.L.Nickles AT cs.bath.ac.uk
+Tracy Bost, Valocity, USA
+       tbost AT valocity.com
+(Sponsoring levels: http://2008.ruleml.org/sponsoring/)
+
+Web Chair
+
+Suzanne Embury, University of Manchester, UK
+       Suzanne.Embury AT manchester.ac.uk
+
+=====================================================================
+Co-located with:
+
+         The 11th International Business Rules Forum
+              http://www.businessrulesforum.com
+=====================================================================
+Sponsored by:
+
+Gold level  : Vulcan Inc
+Silver level: Model Systems
+Bronze level: STI Innsbruck, ruleCore, JBoss
+
+Sponsoring opportunities: http://2008.ruleml.org/sponsoring/
+=====================================================================
+In Co-operation with:
+
+AAAI, W3C, BPM-Forum, Business Rules Forum, ECCAI, OASIS, OMG, Dallas Rules
+Group, Belgium Business Rules Forum, MIT Sloan CIO Symposium, Complex Event
+Processing Technical Society, ACM, ACM SIGART, ACM SIGMIS, ACM SIGWEB, Open
+Research Society, IEEE Computer Society, IEEE Systems Man and Cybernetics
+Society, IEEE SMCS TC on Intelligent Internet Systems, IEEE SMCS TC on
+Distributed Intelligent Systems, IEEE Computer Society TC on Autonomous and
+Autonomic Systems, Event Processing Technical Society
+=====================================================================
+Media Partners:
+                  Springer LNCS, MoDo Marketing
+=====================================================================
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

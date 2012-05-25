@@ -1,0 +1,223 @@
+From - Thu Dec 10 14:35:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs32698far;
+        Sun, 15 Feb 2009 04:47:34 -0800 (PST)
+Received: by 10.210.86.10 with SMTP id j10mr3408924ebb.189.1234702053755;
+        Sun, 15 Feb 2009 04:47:33 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 28si10674973eye.49.2009.02.15.04.47.32;
+        Sun, 15 Feb 2009 04:47:33 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 19D8420A72; Sun, 15 Feb 2009 13:47:32 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 06D7C1CE16;
+	Sun, 15 Feb 2009 13:46:19 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 20D133E2F;
+	Sun, 15 Feb 2009 13:46:13 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZftX3j7NLDUg; Sun, 15 Feb 2009 13:46:12 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E824F3D43;
+	Sun, 15 Feb 2009 13:45:52 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C87273D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat,  7 Feb 2009 00:42:39 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3Q+oO-4YwHoh for <elsnet-list@mailman.elsnet.org>;
+	Sat,  7 Feb 2009 00:42:39 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9E2053D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat,  7 Feb 2009 00:42:39 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4907A21A9C; Sat,  7 Feb 2009 00:42:39 +0100 (MET)
+X-Greylist: delayed 561 seconds by postgrey-1.28 at newjura;
+	Sat, 07 Feb 2009 00:42:31 MET
+Received: from hermes.jacobs-university.de (hermes.jacobs-university.de
+	[212.201.44.23])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3CD5A218C4
+	for <elsnet-list@let.uu.nl>; Sat,  7 Feb 2009 00:42:31 +0100 (MET)
+Received: from localhost (demetrius4.jacobs-university.de [212.201.44.49])
+	by hermes.jacobs-university.de (Postfix) with ESMTP id 103A1C005B;
+	Sat,  7 Feb 2009 00:33:10 +0100 (CET)
+X-Virus-Scanned: amavisd-new at jacobs-university.de
+Received: from hermes.jacobs-university.de ([212.201.44.23])
+	by localhost (demetrius4.jacobs-university.de [212.201.44.32])
+	(amavisd-new, port 10024)
+	with ESMTP id TzjGOLMNHU2T; Sat,  7 Feb 2009 00:33:01 +0100 (CET)
+Received: from [192.168.1.50] (f053157148.adsl.alicedsl.de [78.53.157.148])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by hermes.jacobs-university.de (Postfix) with ESMTP id E7329C0005;
+	Sat,  7 Feb 2009 00:32:54 +0100 (CET)
+Date: Sat, 07 Feb 2009 00:32:54 +0100
+From: Florian Rabe <f.rabe@jacobs-university.de>
+To: ai@cs.man.ac.uk, aiia@di.unito.it, asl@vassar.edu, concurrency@cwi.nl,
+	fm-discussion@cs.man.ac.uk, arw-committee@csc.liv.ac.uk,
+	img@cs.man.ac.uk, kr@kr.org, 
+	lics@informatik.hu-berlin.de, loginf@lat.inf.tu-dresden.de,
+	om-announce@openmath.org, 
+	types-announce@lists.seas.upenn.edu, pvs@csl.sri.com, kgs-list@logic.at,
+	fg121@informatik.tu-muenchen.de, 
+	loco@csc.liv.ac.uk, agents@csc.liv.ac.uk, ki-inf@uni-koblenz.de,
+	newsletter@aarinc.org, 
+	qed@mcs.anl.gov, relmics-l@McMaster.CA, rewriting@ens-lyon.fr,
+	theorem-provers@ai.mit.edu, 
+	theory-logic@cs.cmu.edu, elsnet-list@let.uu.nl, math.logik@gmx.net,
+	twelf-list@twelf.org, 
+	isabelle-users@cl.cam.ac.uk, hol-info@lists.sourceforge.net,
+	coq-club@pauillac.inria.fr, 
+	agda@lists.chalmers.se, projects-mkm-ig@jacobs-university.de
+Message-ID: <F0B4EC662EB6589597211F0D@[192.168.1.50]>
+X-Mailer: Mulberry/4.0.8 (Win32)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+X-Mailman-Approved-At: Sun, 15 Feb 2009 13:45:45 +0100
+Cc: 
+Subject: [Elsnet-list] First call for papers: Module and Libraries for Proof
+	Assistants
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+		   First International Workshop on
+	  Modules and Libraries for Proof Assistants
+			      (MLPA'09)
+	    http://www.itu.dk/~carsten/mlpa-09.html
+
+		       Affiliated with CADE-22
+		 Montreal, Canada, August 2-7, 2009
+
+			   CALL FOR PAPERS
+
+-----------------------------------------------------------------------
+
+Important Dates:
+
+Abstract Submission     27 April  2009
+Submission deadline:     4 May    2009
+Author Notification:     8 June   2009
+Final Version:           6 July   2009
+Workshop day             3 August 2009
+
+-----------------------------------------------------------------------
+
+MLPA'09 is the first international workshop on modules and libraries
+for proof assistants.
+
+Over the last twenty years, users of proof assistants and automated
+theorem provers have created large libraries of formal proofs and
+mathematical knowledge.  Module systems help with the tedious tasks of
+organizing, sharing, and maintaining libraries.  In the view of the
+ever increasing complexity of this network of information, module
+systems offer many of the answers to the practical problems that proof
+assistant system developers face today and can therefore be seen as an
+emerging research for the automated deduction community.
+
+The proposed workshop aims to attract and bring together researchers
+and practitioners with background and experience in module systems from
+different logic based systems, such as theorem provers, proof
+assistants, and programming languages.  Because it is affiliated with
+CADE, the workshop will provide the fertile venue for the exchange of
+ideas and experiences and has the potential to impact the way we organize
+proofs and programs in the future.
+
+The broad aim of the proposed workshop is to run a short, but highly
+focused meeting, which will provide researchers with a forum to review
+state-of-the-art results and techniques, from theory to practice of
+module systems and to present recent and new progress in:
+
+* The design of module systems for programming languages and proof
+  systems.
+
+* The implementation of formal digital libraries.
+
+* System descriptions of existing module systems, for example ML
+  modules, type classes, Coq's, or Agda's module system.
+
+* Case studies regarding information retrieval, sharing, and
+  management of change.
+
+* Experience reports of industrial practitioners, using HOL,
+  Isabell/HOL, PVS, or other proof assistants.
+
+Program Committee:
+
+    * Stefan Berghofer, Technische Universit=C3=A4t M=C3=BCnchen, Germany
+    * Derek Dreyer, MPI-SWS, Saarbruecken, Germany
+    * Hugo Herbelin, INRIA, France
+    * Conor McBride, University of Nottingham, Great Britain
+    * Till Mossakowski, German Research Center for Artificial Intelligence
+    * Ulf Norell, Chalmers University, Sweden
+    * Randy Pollack, University of Edinburgh, Great Britain
+    * Florian Rabe, Jacobs University, Bremen, Germany
+    * Carsten Schuermann, IT University of Copenhagen, Denmark
+
+Paper Submissions:
+
+http://www.easychair.org/conferences/?conf=3Dmlpa09
+
+Three categories of papers are solicited:
+
+* Category A: Detailed and technical accounts of new research: up to
+  fifteen pages including bibliography.
+
+* Category B: Shorter accounts of work in progress and proposed
+  further directions, including discussion papers: up to eight pages
+  including bibliography and appendices.
+
+* Category C: System descriptions presenting an implemented tool and
+  its novel features: up to six pages. A demonstration is expected to
+  accompany the presentation.
+
+Submission is electronic in postscript or PDF format. Submitted papers
+must conform to the ENTCS style preferrably using LaTeX2e. For further
+information and submission instructions, see the MLPA web page:
+http://www.itu.dk/~carsten/mlpa-09.html
+
+Proceedings are to be published as a volume in the Electronic Notes in
+Theoretical Computer Science (ENTCS) series and will be available to
+participants at the workshop.
+
+Authors of accepted papers are expected to present their paper at
+the workshop.
+
+Organizers:
+
+Florian Rabe                        Carsten Schuermann
+f.rabe at jacobs-university.de      carsten at itu.dk
+Jacobs University                   IT University of Copenhagen
+Bremen, Germany		      	Copenhagen, Denmark
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

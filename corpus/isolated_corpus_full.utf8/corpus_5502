@@ -1,0 +1,758 @@
+From - Thu Dec 10 14:37:26 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs26388faq;
+        Wed, 17 Jun 2009 02:17:41 -0700 (PDT)
+Received: by 10.114.113.16 with SMTP id l16mr15184437wac.188.1245230259900;
+        Wed, 17 Jun 2009 02:17:39 -0700 (PDT)
+Return-Path: <sentto-1622440-2895-1245230231-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 6si496210pxi.163.2009.06.17.02.17.36;
+        Wed, 17 Jun 2009 02:17:38 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2895-1245230231-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2895-1245230231-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2895-1245230231-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n5H9HYWG029522
+	for <jpprost@gmail.com>; Wed, 17 Jun 2009 19:17:34 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n5H9HYJo022723
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 17 Jun 2009 19:17:34 +1000
+X-ASG-Debug-ID: 1245230247-123f00660000-RCdhz5
+X-Barracuda-URL: http://137.111.1.21:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id BAF56AA1C34
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 17 Jun 2009 19:17:27 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra1.its.mq.edu.au with ESMTP id YqH3RXPFv4T9muG2 for <jpprost@mailbox.ics.mq.edu.au>; Wed, 17 Jun 2009 19:17:27 +1000 (EST)
+X-Barracuda-Envelope-From: sentto-1622440-2895-1245230231-jpprost=ics.mq.edu.au@returns.groups.yahoo.com
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from n62c.bullet.mail.sp1.yahoo.com (n62c.bullet.mail.sp1.yahoo.com [98.136.45.61])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with SMTP id n5H9HQUj029511
+	for <jpprost@ics.mq.edu.au>; Wed, 17 Jun 2009 19:17:26 +1000 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1245230245; bh=li+nSPQLdQujzpHu0IQS1tJL+4inknVO/byQHH1O9hM=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:To:Message-ID:X-Priority:X-MSMail-Priority:X-Mailer:X-MimeOLE:Importance:Thread-Index:X-Originating-IP:X-eGroups-Msg-Info:From:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=nnWX+GEELlJiAAR+6EFxyPQff9N8jRB2Sv+ox8+vI6W6KSG72tB8r0IhfsQ/OqLGJUf9jkVXS/Thc2RgkjONkcp5OCDpQPkl+moNnJznP7qdCt7yQT2ewacuOFof58G4
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=EngjrNso1Hpk3EqT003RJYVFP6FXImmJuzp9fy5q7o1gJYAV7l+tgfJlTLtwv2rwvzvvxQRYzqoshWFJiv4JLg6YN39hbi3CyI6ENiJ5Vqon9orKaWdt0A+JhBUHY8ce;
+Received: from [69.147.65.150] by n62.bullet.mail.sp1.yahoo.com with NNFMP; 17 Jun 2009 09:17:25 -0000
+Received: from [98.137.34.38] by t7.bullet.mail.sp1.yahoo.com with NNFMP; 17 Jun 2009 09:17:24 -0000
+X-Yahoo-Newman-Id: 1622440-m2895
+X-Sender: alain.ghio@lpl-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+X-Received: (qmail 54658 invoked from network); 17 Jun 2009 09:17:08 -0000
+X-Received: from unknown (69.147.108.202)
+  by m2.grp.sp2.yahoo.com with QMQP; 17 Jun 2009 09:17:08 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta3.grp.re1.yahoo.com with SMTP; 17 Jun 2009 09:17:08 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AkAMAC9ROEqTXsWz/2dsb2JhbACBSokbyR2ECwU
+X-IronPort-AV: E=Sophos;i="4.42,235,1243807200"; 
+   d="scan'208";a="5076392"
+X-Received: from unknown (HELO GHIOFIXE) ([147.94.197.179])
+  by mso1k206.u-3mrs.fr with ESMTP; 17 Jun 2009 11:16:27 +0200
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Message-ID: <144E13575AF646739176862E6AD72DC5@LPL.dom>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+Importance: Normal
+Thread-Index: Acnu3m8Mq7Kj009TSn+v1VU8H3Eh8AAPwfgg
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "Alain Ghio" <alain.ghio@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Wed, 17 Jun 2009 11:16:23 +0200
+X-ASG-Orig-Subj: [lpl-infos] TR : 2010 IEEE ICASSP - International Conference on Acoustics, Speech, and Signal Processing - Call for Papers
+Subject: [lpl-infos] TR : 2010 IEEE ICASSP - International Conference on Acoustics, Speech, and Signal Processing - Call for Papers
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="458Kik3qyY5CidlukVEmJKq3M3-7ANmSWVIX-mk"
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1245230248
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=FORGED_OUTLOOK_TAGS, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.1072
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 FORGED_OUTLOOK_TAGS    Outlook can't send HTML in this format
+
+--458Kik3qyY5CidlukVEmJKq3M3-7ANmSWVIX-mk
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+
+                            IEEE ICASSP 2010
+  International Conference on Acoustics, Speech, and Signal Processing
+                           March 15 - 19, 2010
+               Sheraton Dallas Hotel * Dallas, Texas, U.S.A.
+                        http://www.icassp2010.com/
+
+The 35th International Conference on Acoustics, Speech, and Signal
+Processing (ICASSP) will be held at the Sheraton Dallas Hotel, March 15 -
+19, 2010. The ICASSP meeting is the world's largest and most comprehensive
+technical conference focused on signal processing and its applications. The
+conference will feature world-class speakers, tutorials, exhibits, and over
+120 lecture and poster sessions on the following topics:
+
+ * Audio and electroacoustics
+ * Bio imaging and signal processing
+ * Design and implementation of signal processing systems
+ * Image and multidimensional signal processing
+ * Industry technology tracks
+ * Information forensics and security
+ * Machine learning for signal processing
+ * Multimedia signal processing
+ * Sensor array and multichannel systems
+ * Signal processing education
+ * Signal processing for communications
+ * Signal processing theory and methods
+ * Speech processing
+ * Spoken language processing
+
+Welcome to Texas, Y'All! Dallas is known for living large and thinking big.
+As the nation's ninth-largest city, Dallas is exciting, diverse and friendl=
+y
+- factors that contribute to its success as a leading leisure and conventio=
+n
+destination. There's a whole "new" vibrant Dallas to enjoy-new entertainmen=
+t
+districts, dining, shopping, hotels, arts and cultural institutions- with
+more on the way. There's never been a more exciting time to visit Dallas
+than now.
+
+Submission of Papers: Prospective authors are invited to submit full-length=
+,
+four-page papers, including figures and references, to the ICASSP Technical
+Committee. All ICASSP papers will be handled and reviewed electronically.
+The ICASSP 2010 website www.icassp2010.com will provide you with further
+details. Please note that all submission deadlines are strict.
+
+Tutorial and Special Session Proposals: Tutorials will be held on March 14
+and 15, 2010. Brief proposals should be submitted by July 31, 2009, through
+the ICASSP 2010 website and must include title, outline, contact informatio=
+n
+for the presenter, and a description of the tutorial and material to be
+distributed to participants. Special sessions proposals should be submitted
+by July 31, 2009, through the ICASSP 2010 website and must include a topica=
+l
+title, rationale, session outline, contact information, and a list of
+invited papers. Tutorial and special session authors are referred to the
+ICASSP website for additional information regarding submissions.
+
+* Important Deadlines *
+
+Special Session & Tutorial Proposals Due
+     July 31, 2009
+
+Notification of Special Session & Tutorial Acceptance
+     September 04, 2009
+
+Submission of Camera-Ready Papers
+     September 14, 2009
+
+Notification of Paper Acceptance
+     December 11, 2009
+
+Revised Paper Upload Deadline
+     January 8, 2010
+
+Author's Registration Deadline
+     January 15, 2010
+
+For more detailed information, please visit the ICASSP 2010 official
+website, http://www.icassp2010.com/.
+
+----------------------------
+(85413 alain.ghio@lpl-aix.fr)
+TO BE REMOVED FROM THIS LIST
+You are receiving this email because you have participated in an event
+sponsored by the IEEE Signal Processing Society. If you would like to be
+removed from this email contact list, please reply to this message,
+including the text of the entire message above in the body of your email
+message, and the words 'REMOVE ME' in the subject line.  This email should
+be addressed to: IEEESPSAdMailer@securecms.com. You will be removed from
+this list when we receive your reply.
+
+
+
+--458Kik3qyY5CidlukVEmJKq3M3-7ANmSWVIX-mk
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text" >
+            <!--~-|**|PrettyHtmlStart|**|-~-->
+            <br><br>
+      <!--~-|**|PrettyHtmlEnd|**|-~-->
+      <p><br>
+                            IEEE ICASSP 2010<br>
+  International Conference on Acoustics, Speech, and Signal Processing<br>
+                           March 15 - 19, 2010<br>
+               Sheraton Dallas Hotel * Dallas, Texas, U.S.A.<br>
+                        <a href=3D"http://www.icassp2010.com/">http://www.i=
+cassp20<wbr>10.com/</a><br>
+<br>
+The 35th International Conference on Acoustics, Speech, and Signal<br>
+Processing (ICASSP) will be held at the Sheraton Dallas Hotel, March 15 -<b=
+r>
+19, 2010. The ICASSP meeting is the world's largest and most comprehensive<=
+br>
+technical conference focused on signal processing and its applications. The=
+<br>
+conference will feature world-class speakers, tutorials, exhibits, and over=
+<br>
+120 lecture and poster sessions on the following topics:<br>
+<br>
+* Audio and electroacoustics<br>
+ * Bio imaging and signal processing<br>
+ * Design and implementation of signal processing systems<br>
+ * Image and multidimensional signal processing<br>
+ * Industry technology tracks<br>
+ * Information forensics and security<br>
+ * Machine learning for signal processing<br>
+ * Multimedia signal processing<br>
+ * Sensor array and multichannel systems<br>
+ * Signal processing education<br>
+ * Signal processing for communications<br>
+ * Signal processing theory and methods<br>
+ * Speech processing<br>
+ * Spoken language processing<br>
+<br>
+Welcome to Texas, Y'All! Dallas is known for living large and thinking big.=
+<br>
+As the nation's ninth-largest city, Dallas is exciting, diverse and friendl=
+y<br>
+- factors that contribute to its success as a leading leisure and conventio=
+n<br>
+destination. There's a whole &quot;new&quot; vibrant Dallas to enjoy-new en=
+tertainment<br>
+districts, dining, shopping, hotels, arts and cultural institutions- with<b=
+r>
+more on the way. There's never been a more exciting time to visit Dallas<br=
+>
+than now.<br>
+<br>
+Submission of Papers: Prospective authors are invited to submit full-length=
+,<br>
+four-page papers, including figures and references, to the ICASSP Technical=
+<br>
+Committee. All ICASSP papers will be handled and reviewed electronically.<b=
+r>
+The ICASSP 2010 website www.icassp2010.<wbr>com will provide you with furth=
+er<br>
+details. Please note that all submission deadlines are strict.<br>
+<br>
+Tutorial and Special Session Proposals: Tutorials will be held on March 14<=
+br>
+and 15, 2010. Brief proposals should be submitted by July 31, 2009, through=
+<br>
+the ICASSP 2010 website and must include title, outline, contact informatio=
+n<br>
+for the presenter, and a description of the tutorial and material to be<br>
+distributed to participants. Special sessions proposals should be submitted=
+<br>
+by July 31, 2009, through the ICASSP 2010 website and must include a topica=
+l<br>
+title, rationale, session outline, contact information, and a list of<br>
+invited papers. Tutorial and special session authors are referred to the<br=
+>
+ICASSP website for additional information regarding submissions.<br>
+<br>
+* Important Deadlines *<br>
+<br>
+Special Session &amp; Tutorial Proposals Due<br>
+     July 31, 2009<br>
+<br>
+Notification of Special Session &amp; Tutorial Acceptance<br>
+     September 04, 2009<br>
+<br>
+Submission of Camera-Ready Papers<br>
+     September 14, 2009<br>
+<br>
+Notification of Paper Acceptance<br>
+     December 11, 2009<br>
+<br>
+Revised Paper Upload Deadline<br>
+     January 8, 2010<br>
+<br>
+Author's Registration Deadline<br>
+     January 15, 2010<br>
+<br>
+For more detailed information, please visit the ICASSP 2010 official<br>
+website, <a href=3D"http://www.icassp2010.com/.">http://www.icassp20<wbr>10=
+.com/.</a><br>
+<br>
+------------<wbr>---------<wbr>-------<br>
+(85413 <a href=3D"mailto:alain.ghio%40lpl-aix.fr">alain.ghio@lpl-<wbr>aix.f=
+r</a>)<br>
+TO BE REMOVED FROM THIS LIST<br>
+You are receiving this email because you have participated in an event<br>
+sponsored by the IEEE Signal Processing Society. If you would like to be<br=
+>
+removed from this email contact list, please reply to this message,<br>
+including the text of the entire message above in the body of your email<br=
+>
+message, and the words 'REMOVE ME' in the subject line.  This email should<=
+br>
+be addressed to: <a href=3D"mailto:IEEESPSAdMailer%40securecms.com">IEEESPS=
+AdMailer@<wbr>securecms.<wbr>com</a>. You will be removed from<br>
+this list when we receive your reply.<br>
+<br>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20
+=20=20
+=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/289=
+5;_ylc=3DX3oDMTM0am5majVxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI4OTUEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjQ1MjMwMjQ0BHRwY=
+0lkAzI4OTU-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwZHR1YjViBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI4OTUEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjQ1MjMwMjQ0?act=3Dreply&me=
+ssageNum=3D2895">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlZjFvZGZxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTI0NTIzMDI0NA--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlZDZybGVhBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTI0NTIzMDI0NA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmb3R0azVxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyNDUyMzAyNDQ-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlb2pqbHFjBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTI0NTIzMDI0NA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmZTZpNXRrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyNDUyMzAyNDQ-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjN2xzYzZ2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyNDUyMzAyNDQ-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmOTA5dm5vBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyNDUyMzAyNDQ-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlYWM1ZW11BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTI0NTIzMDI0NA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkZW9sNGhrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjQ1MjMwMjQ0">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkNWdwZDUzBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjQ1MjMwMjQ0">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmMXNub2N1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyNDUyMzAyNDQ-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+bTZkaWQ2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjQ1MjMwMjQ0">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlZWs4aWMyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTI0NTIzMDI0NA--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrYmFvcnY5BF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTI0NTIzMDI0NA--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuNWx1aXE0BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTI0NTIzMDI0NA--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvbnZmMWZwBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyNDUyMzAyNDQ-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2895/stime=3D1245230244/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+		font-weight: normal;
+		color: #000000;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p#attach-count {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--458Kik3qyY5CidlukVEmJKq3M3-7ANmSWVIX-mk--

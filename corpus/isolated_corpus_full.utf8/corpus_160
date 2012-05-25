@@ -1,0 +1,289 @@
+From - Thu Dec 10 14:22:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 947c8af0ddf1d31614e2a04accd1c829ae568d12
+Delivered-To: jpprost@gmail.com
+Received: by 10.65.231.15 with SMTP id i15cs9219qbr;
+        Wed, 7 Dec 2005 03:01:05 -0800 (PST)
+Received: by 10.48.12.11 with SMTP id 11mr46969nfl;
+        Wed, 07 Dec 2005 03:01:03 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id i1si288029nfe.2005.12.07.03.00.46;
+        Wed, 07 Dec 2005 03:01:03 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local  (Exim 4.34)
+	id 1Ejwlz-0005ot-TN; Wed, 07 Dec 2005 11:43:44 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp  (Exim 4.34)
+	id 1Ejwlz-0005ol-B0; Wed, 07 Dec 2005 11:43:43 +0100
+Received: from imap.science.uva.nl [146.50.4.51] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1Ejwlt-0005Vd-3e; Wed, 07 Dec 2005 11:43:43 +0100
+Received: from tyrell.science.uva.nl [146.50.0.48]
+          by imap.science.uva.nl with ESMTP (sendmail 8.11.6p2/config 11.36).
+          id jB7AhY811162; Wed, 7 Dec 2005 11:43:34 +0100
+X-Organisation: Faculty of Science, University of Amsterdam, The Netherlands
+X-URL: http://www.science.uva.nl/
+Date: Wed, 7 Dec 2005 11:43:34 +0100 (MET)
+From: Erik Tjong Kim Sang <erikt@science.uva.nl>
+To: corpora@uib.no
+Subject: [Corpora-List] CoNLL-X: First Call for Papers
+Message-ID: <Pine.LNX.4.58.0512071142030.19873@tyrell.science.uva.nl>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=X-UNKNOWN
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+X-Virus-Scanned: by amavisd-new
+X-checked-clean: by exiscan on rolf
+X-Scanner: 217c574c378afa3d6a35f6cc82651734 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -15 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   -15 From is listed in 'whitelist_SA'
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+CoNLL-X
+The Tenth Conference on Computational Natural Language Learning
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+New York City, June 8-9, 2006
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+First Call for Papers
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+CoNLL is the yearly conference organized by SIGNLL (the ACL Special
+Interest Group on Natural Language Learning). Previous CoNLL meetings
+were held in Madrid (1997), Sydney (1998), Bergen (1999), Lisbon
+(2000), Toulouse (2001), Taipei (2002), Edmonton (2003), Boston
+(2004), and Ann Arbor (2005). This year, CoNLL will be collocated with
+HLT-NAACL in New York City.
+
+See http://staff.science.uva.nl/~erikt/signll/ and
+http://staff.science.uva.nl/~erikt/signll/conll/ for more
+information about SIGNLL and CoNLL. The official Web of CoNLL-X
+can be found at http://www.cnts.ua.ac.be/conll/
+
+CoNLL is an international conference for research on natural language
+learning. We invite submission of papers about natural language
+learning topics, including, but not limited to:
+
+ * Computational models of human language acquisition
+ * Computational models of the evolution of language
+ * Machine learning methods applied to natural language
+   processing tasks (speech processing, phonology, morphology,
+   syntax, semantics, discourse processing, language
+   engineering applications)
+ * Statistical methods (Bayesian learning, graphical models,
+   kernel methods, statistical models for structured problems)
+ * Symbolic learning methods (rule induction and decision
+   tree learning, lazy learning, inductive logic programming,
+   analytical learning, transformation-based error-driven learning)
+ * Biologically-inspired methods (Neural Networks, Evolutionary Computing)
+ * Reinforcement learning
+ * Active learning, ensemble methods, meta-learning
+ * Learning architectures for structural and relational NLP tasks
+ * Computational learning theory analysis of language learning
+ * Empirical and theoretical comparisons of language learning methods
+ * Models of induction and analogy in linguistics
+
+
+Special Topic of Interest
+-------------------------
+Apart from the topics listed above, this year we wish to encourage the
+submission of papers that propose learning theories, architectures,
+algorithms, methods, or techniques for improving the robustness of
+learning-based NLP systems.
+
+One important type of brittleness in current learning-based NLP
+systems is domain dependence. Since learning is mainly performed in a
+supervised setting, even slight differences between training corpora
+and test corpora (text genre, style, new vocabulary, etc.) may cause
+substantial degradation in the performance of a system. This fact has
+been widely reported in the NLP literature and also was clearly
+observed in the CoNLL-2005 shared task evaluation on Semantic Role
+Labeling.
+
+In this direction, we encourage the submission of papers addressing
+the portability and adaptation of learning-based systems to changing
+application domains. Transfer learning, domain adaptation,
+bootstrapping, semi-supervised learning, active learning, etc. are
+some keywords that might apply here.
+
+Moreover, the traditional decomposition of natural language processing
+into a pipeline of specialized linguistic analyzers can also make
+end-to-end systems fragile. The assumption that each level can be
+satisfactory resolved before advancing to the following processor is
+clearly false given the current state-of-the-art for most
+tasks. Experience suggests that error propagation through cascades of
+processors may in aggregate severely degrade performance on the final
+task. One obvious and appealing solution (but also more complex) is to
+try to jointly model several subtasks at the same time, both at the
+learning and inference stages. This can allow systems to capture
+correlations between stages, searching for global solutions, rather
+than greedily maximizing local quality. However, practical constraints
+argue that some decomposition is necessary for efficient learning and
+inference. Thus, papers addressing the issues involved in processing
+across multiple linguistic layers will be also welcome.
+
+
+Shared Task: Multilingual Dependency Parsing
+--------------------------------------------
+The shared task of CoNLL-X will be multi-lingual grammatical relation
+finding (dependency parsing). Following previous CoNLL shared tasks
+(NP bracketing, chunking, clause identification, language independent
+named-entity recognition, and semantic role labeling), this task aims
+to define and extend the current state of the art in dependency
+parsing - a technology which complements the previous tasks by
+producing a different kind of syntactic description of input text.
+
+Ideally, a parser should be trainable for any language, possibly by
+adjusting a small number of hyperparameters. The CoNLL-X shared task
+will provide the community with a benchmark for evaluating their
+parsers across different languages. Because of the variety of
+languages and the interest in parser performance across languages, the
+focus of the CoNLL-X shared task will be on qualitative evaluation
+(along with the quantitative scores as before). We will require the
+participants to provide an informative error analysis and will
+ourselves perform a cross-system comparison. This, we expect, will
+result in a clear picture of the problems that lie ahead for
+multilingual parsing and the kind of work necessary for adapting
+existing parsing architectures across languages.
+
+A detailed description of the shared task and further information
+regarding scheduling, datasets, paper submission, etc. are available
+from http://www.cnts.ua.ac.be/conll/st.html
+
+
+Invited Speakers
+----------------
+(to be announced)
+
+
+Main Session Submissions
+------------------------
+
+A paper submitted to CoNLL-X must describe original, unpublished
+work. Submit a full paper of no more than 8 pages in PDF format by
+March 5 2006, electronically through the web form at:
+http://www.softconf.com/start/CoNLL06/submit.html
+
+Only electronic submissions will be accepted. The submitted paper
+should be in two column format and follow the HLT-NAACL style (see
+http://nlp.cs.nyu.edu/hlt-naacl06/cfp.html). Authors who cannot submit
+a PDF file electronically should contact the program co-chairs.
+
+Since reviewing will be blind, the paper should not include the
+authors' names and affiliations, and there should be no
+self-references that reveal the authors' identity. In the submission
+form, you will be asked for the following information: paper title,
+authors' names, affiliations, and email addresses, contact author's
+email address, a list of keywords, abstract, and an indication of
+whether the paper has been simultaneously submitted to other
+conferences (and if so which conferences). The contact author of an
+accepted paper under multiple submissions should inform the program
+co-chairs immediately whether he or she intends the accepted paper to
+appear in CoNLL-X. A paper that appears in CoNLL-X must be withdrawn
+from other conferences.
+
+Authors of accepted submissions are to produce a final paper to be
+published in the proceedings of the conference, which will be
+available at the conference for participants, and distributed
+afterwards by ACL. Final papers must follow the HLT-NAACL style and
+are due April 21, 2006.
+
+
+Shared Task Submissions
+-----------------------
+See the shared task web page (http://www.cnts.ua.ac.be/conll/st.html)
+for updated information
+
+
+Important Dates
+---------------
+Deadline for paper submission: March 5, 2006
+Notification of acceptance of papers: April 9, 2006
+Deadline for camera-ready papers: April 21, 2006
+Conference: June 8-9, 2006
+
+
+Conference Organizers
+---------------------
+Llu=EDs M=E0rquez
+Software Department
+Polytechnical University of Catalunya
+Barcelona, Catalunya, Spain
+lluism (at) lsi.upc.edu
+
+Dan Klein
+Computer Science Division
+University of California at Berkeley
+Berkeley, CA, USA
+klein (at) cs.berkeley.edu
+
+
+Shared Task Organizers
+----------------------
+Sabine Buchholz
+Toshiba Research Europe Ltd (UK)
+sabine.buchholz (at) crl.toshiba.co.uk
+
+Amit Dubey
+University of Edinburgh (UK)
+adubey (at) inf.ed.ac.uk
+
+Yuval Krymolowski
+University of Haifa (Israel)
+yuval (at) cs.haifa.ac.il
+
+Erwin Marsi
+Tilburg University (The Netherlands)
+E.C.Marsi (at) uvt.nl
+
+
+Information Officer
+-------------------
+Erik Tjong Kim Sang
+University of Amsterdam (The Netherlands)
+erikt (at) science.uva.nl
+
+Program Committee
+
+ * Eneko Agirre, University of the Basque Country, Spain
+ * Regina Barzilay, Massachusetts Institute of Technology, USA
+ * Thorsten Brants, Google Inc, USA
+ * Xavier Carreras, Polytechnical University of Catalunya, Spain
+ * Eugene Charniak, Brown University, USA
+ * James Cussens, University of York, UK
+ * Walter Daelemans, University of Antwerp, Belgium
+ * Radu Florian, IBM, USA
+ * Dayne Freitag, Fair Isaac Corporation, USA
+ * Philipp Koehn, University of Edinburgh, UK
+ * Rob Malouf, San Diego State University, USA
+ * Yuji Matsumoto, Nara Institute of Science and Technology, Japan
+ * Andrew McCallum, University of Massachusetts Amherst, USA
+ * Rada Mihalcea, University of North Texas, USA
+ * Alessandro Moschitti, University of Rome Tor Vergata, Italy
+ * John Nerbonne, University of Groningen, The Netherlands
+ * Hwee-Tou Ng, National University of Singapore, Singapore
+ * Franz Josef Och, Google, Inc., USA
+ * Miles Osborne, University of Edinburgh, UK
+ * David Powers, Flinders University, Australia
+ * Ellen Riloff, University of Utah, USA
+ * Dan Roth, University of Illinois at Urbana-Champaign, USA
+ * Anoop Sarkar, Simon Fraser University, Canada
+ * Suzanne Stevenson, University of Toronto, Canada
+ * Mihai Surdeanu, Polytechnical University of Catalunya, Spain
+ * Charles Sutton, University of Massachusetts Amherst, USA
+ * Antal van den Bosch, Tilburg University, The Netherlands
+ * Janyce Wiebe, University of Pittsburgh, USA
+ * Dekai Wu, The Hong Kong University of Science & Technology, Hong Kong
+

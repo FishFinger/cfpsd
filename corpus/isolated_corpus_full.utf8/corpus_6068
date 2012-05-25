@@ -1,0 +1,294 @@
+From - Thu Dec 10 14:38:21 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.56.133 with SMTP id y5cs146461bkg;
+        Mon, 21 Sep 2009 02:42:28 -0700 (PDT)
+Received: by 10.204.48.194 with SMTP id s2mr4061120bkf.210.1253526145609;
+        Mon, 21 Sep 2009 02:42:25 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si6733623fxm.77.2009.09.21.02.42.24;
+        Mon, 21 Sep 2009 02:42:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 25F9E23A24; Mon, 21 Sep 2009 11:42:21 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6A97A23A24;
+	Mon, 21 Sep 2009 11:35:54 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 48B3F3D39;
+	Mon, 21 Sep 2009 11:35:54 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id RCaF7Fl4WG2o; Mon, 21 Sep 2009 11:35:54 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9D2AB3D80;
+	Mon, 21 Sep 2009 11:35:07 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8914E3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 16 Sep 2009 21:30:16 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PPJ6d0uupCZ7 for <elsnet-list@mailman.elsnet.org>;
+	Wed, 16 Sep 2009 21:30:16 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 64F9D3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed, 16 Sep 2009 21:30:16 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 50B552333C; Wed, 16 Sep 2009 21:30:16 +0200 (MEST)
+X-Greylist: delayed 3150 seconds by postgrey-1.28 at newjura;
+	Wed, 16 Sep 2009 21:29:56 MEST
+Received: from smtp2.cict.fr (smtp2.cict.fr [195.220.59.17])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5527923340
+	for <elsnet-list@let.uu.nl>; Wed, 16 Sep 2009 21:29:51 +0200 (MEST)
+Received: from smtp2.cict.fr (localhost.localdomain [127.0.0.1])
+	by smtp2.cict.fr (8.14.2/8.14.2) with ESMTP id n8GIbJN5006100
+	for <elsnet-list@let.uu.nl>; Wed, 16 Sep 2009 20:37:19 +0200
+Received: from dell2.irit.fr (dell2.irit.fr [141.115.4.22])
+	by smtp2.cict.fr (8.14.2/8.14.2) with ESMTP id n8GIbIdP006097
+	for <elsnet-list@let.uu.nl>; Wed, 16 Sep 2009 20:37:19 +0200
+Received: from extra.irit.fr (extra [141.115.28.2])
+	by dell2.irit.fr (8.14.3/8.14.2) with ESMTP id n8GIbDce007077
+	for <elsnet-list@let.uu.nl>; Wed, 16 Sep 2009 20:37:18 +0200
+Received: from extra.irit.fr (localhost [127.0.0.1])
+	by extra.irit.fr (8.14.3/8.12.8) with ESMTP id n8GIbDdl009818
+	for <elsnet-list@let.uu.nl>; Wed, 16 Sep 2009 20:37:13 +0200
+Received: (from web@localhost)
+	by extra.irit.fr (8.14.3/8.14.1/Submit) id n8GIbD2s009817;
+	Wed, 16 Sep 2009 20:37:13 +0200
+Date: Wed, 16 Sep 2009 20:37:13 +0200
+Message-Id: <200909161837.n8GIbD2s009817@extra.irit.fr>
+To: elsnet-list@let.uu.nl
+From: riao2010_review@irit.fr
+X-Mailman-Approved-At: Mon, 21 Sep 2009 11:33:44 +0200
+Cc: 
+Subject: [Elsnet-list] [RIAO 2010] Call for Papers and Applications
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: riao2010_review@irit.fr
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+
+
+(apologies for multiple postings)
+
+Call for Papers and Applications
+RIAO 2010 - 9th RIAO Conference
+Adaptivity, Personalization and Fusion of Heterogeneous Information
+28-30 April, 2010
+Paris, France (Bibliothèque Nationale de France)
+http://www.riao2010.org/
+
+Important dates :
+Paper submission deadline November 30, 2009
+Notification to authors February 5, 2010
+Camera-Ready copies due March 1, 2010
+Conference dates April 28-30, 2010
+
+History
+
+This triannual international conference is the 9th RIAO conference. 
+Previous editions were held at Grenoble (1985), MIT (1988), Barcelona (1991), Rockefeller University (1994), Montreal (1997), Paris (2000), Avignon (2004), and Carnegie Mellon University (2007).
+RIAO conferences have always treated robust and large-scale scientific and industrial solutions to information processing. The conferences are composed of peer-reviewed scientific sessions and demonstrations of innovative industrial applications and advanced research prototypes.
+
+Scope of the Conference
+
+Submissions are invited which present recent, original and unpublished research on the theme of RIAO 2010: adapting, personalizing and merging heterogeneous information.
+Submissions may address one or more of the following subjects:
+
+Formal Models, Theory
+Information filtering
+. Content based filtering
+. Collaborative filtering
+. Recommender systems
+. Spam, protection of minors
+Personalized IR and User modelling
+. Adaptive IR
+. Collaborative IR
+. Interfaces
+Information fusion
+. Mash Ups
+. Aggregated search
+. Systems for watch, business decision
+Web Search and Advertising
+. Adversial IR
+. Advertising
+. Link analysis
+Machine Learning for IR
+. Learning to rank
+. Probabilistic topic models
+. All kinds of learning techniques applied to IR
+Information extraction and natural language processing, multilinguality
+. Summarization
+. Question answering
+. Entity/relation extraction
+. Cross-Language IR, Machine translation for IR
+Multimedia Information Retrieval
+. Image IR
+. Video IR
+. Speech/audio IR
+. Music IR, analysis of multimedia content
+Applications
+. Cultural heritage
+. Trademark search
+. Scientific media
+. Bio-computing and medical
+. Database offloading
+Evaluation, benchmarking
+Social networks
+. Folksonomies, tagging
+. Blogs
+. Social search
+. Communities
+. Opinion and sentiment
+
+Paper Submission
+
+We welcome submissions from both research and industrial communities addressing the main conference themes.
+Submitted papers must describe an unpublished origal work, emphasizing completed or advanced research, possibly with releted experiments. A parallel submission to other venues should be clearly indicated to the program committee.
+All submissions will be reviewed by at least three program committee members. The submissions will be judged on the basis of originality, relevance, technical quality, and presentation.
+Papers can be submitted in two categories: full papers and short papers, where full papers are appropriate for describing substantial research with related evaluations and short papers will typically describe ongoing research and preliminary results. All accepted papers in both categories will be published in the conference proceedings. At the conference, full papers will be presented as a talk and short papers will be presented as a poster.
+Long papers must not exceed 12 pages (5000 words), in one column format, starting with an abstract. Short papers must not exceed 6 pages (2500 words), in one column, starting with an abstract.
+Submissions should be in Microsoft Word format or in PDF.
+The conference proceedings will be available to conference attendees, and through the CID after the conference.
+
+
+
+CALL FOR APPLICATIONS
+
+The RIAO conferences are meeting places for both scientific and industrial specialists in information retrieval.
+The facilities allow to present high-level peer-reviewed scientific research conferences and prototypes and of innovative products, selected by a special call for innovative applications. The displayed products 
+are chosen uniquely on the basis of their innovativeness. The general topic of the Call for Applications is:
+
+INNOVATIVE TOOLS PROVIDING PERSONNALIZED ACCESS TO MULTIMEDIA AND/OR 
+MULTILINGUAL DATA.
+
+Companies whose product fulfills the criteria of novelty and of innovativeness can fill in a submission document designed by the conference organizers that describes their submitted product. In addition to the submission document, product submitters will have to provide access to an online or CD version of the product that demonstrates the claimed innovative functionalities of the product.
+Every chosen company will be provided with a demonstration space (including table and chair) free of charge. Each company may also be given a special time slot (15 minutes) to give a short presentation 
+about the product. Descriptions of the products demonstrated during RIAO 2010 will be published in the proceedings. The selected companies will also be invited to an event organized with Cap Digital business cluster 
+(http://www.capdigital.com) providing B2B meetings with top members of the cluster followed by a networking event at La Cantine coworking space 
+http://lacantine.org/
+
+Program Chairs
+Gabriella Pasi (Europe)
+Tie-Yan Liu (Asia)
+Prabhakar Raghavan (Americas)
+
+Program committee:
+Agosti Maristella, University of Padova, Italy
+Amati Giambattista, Fondazione Ugo Bordoni, Italy
+Amitay Einat, IBM Research, Haifa Lab, Israel
+Bailey Alex, Google Switzerland GmbH, Switzerland
+Berendt Bettina, Katholieke Universiteit Leuven, Belgium
+Boldi Paolo, Consigio Nazionale delle Ricerche, Italy
+Bordogna Gloria, Università degli Studi di Milano, Italy
+Boughanem Mohand, Université Paul Sabatier, France
+Brisaboa Nieves, Universidad de la Coruna, Spain
+Bruza Peter, Queensland University of Technology, Brisbane, Australia
+Bruzilovski Peter, University of Pittsburgh, USA
+Chen Hsin-Hsi, National Taiwan University, Taiwan
+Clarke Charles L.A., University of Waterloo, Canada
+Crestani Fabio, University of Lugano, Switzerland
+Croft Bruce, University of Massachusetts, Amherst, USA
+Currin Cathal, Dublin University, Ireland
+de Rijke Maarten, University of Amsterdam, Netherland
+Dumais Susan, Microsoft research, USA
+Efthimiadis Efthimis N., University of Washington, USA
+David A. Evans, JustSystems Evans Research Corporation
+Fernandez-Luna Juan M., University of Granada, Spain
+Fluhr Christian, Cadege, France
+Gallinari Patrick, University of Paris 6, France
+Gaussier Eric, Universit de Grenoble, France
+Grefenstette Gregory, Exalead, France
+Grossman David Adam, ITT, USA
+Harman Donna, NIST, USA
+Jarvelin Kalervo, University of Tampere, Finland
+Joho Hideo, University of Glasgow, United Kingdom
+Jones Gareth, Dublin City University, United Kingdom
+Jones Rosie, Yahoo! Inc., USA
+Jose Joemon M, University of Glasgow, United Kingdom
+Kando Noriko, National Institute of Informatics, Japan
+Lam Wai, University of Hong Kong, Hong-Kong
+Li Yuefeng, Queensland University of Technology, Brisbane, Australia
+Liddy Liz, Syracuse University, USA
+Lin Chin-Yew, Microsoft Research, China
+Maarek Yoelle, Google (Haifa Engineering Center), Israel
+Marchand-Maillet Stephane, University of Geneva, Switzerland
+Melucci Massimo, Università di Padova, Italy
+Mitra Mandar, Indian Statistical Institute, India
+Moens Marie-Francine, Katholieke Universiteit Leuven, Belgium
+Moffat Alistair, University of Melbourne, Australia
+Mothe Josiane, IRIT - CNRS, Toulouse, France
+Murdock Vanessa, Yahoo! Research, Spain
+Myaeng Sung Hyon, Information and Communication University, Korea
+Nie Jian-Yun, University of Montreal, Canada
+Nrnberger Andreas, Otto-von-Guericke-University Magdeburg, Germany
+Oard Douglas, University of Maryland, USA
+Ounis Iadh, University of Glasgow, United Kingdom
+Pasi Gabriella, Università degli Studi di Milano Bicocca, Italy
+Peters Carol, Istituto di Elaborazione della Informazione (IEI) -CNR, Italy
+Piwowarski Benjamin, University of Glasgow, United Kingdom
+Quénot Georges, IMAG, France
+Raghavan Prabhakar, Yahoo research, USA
+Roelleke Thomas, Queen Mary University, United Kingdom
+Ruthven Ian, University of Strathclyde, United Kingdom
+Sakai Tetsuya, NewsWatch, Japan 
+Shaoping Ma, Tsinghua University, China
+Silvestri Fabrizio, Istituto di Scienza e Tecnologie dell'Informazione, Italy
+Smeaton Alan, Dublin City University, Ireland
+Soulé-Dupuy Chantal, University of Toulouse 1, France 
+Vigna Sebastiano, Università degli Studi di Milano, Italy 
+Vinciarelli Alessandro, IDIAP, Switzerland
+Wilkinson Ross, CSIRO ICT Centre, Australia
+Zaragoza Hugo, Yahoo! Research Barcelona, Spain 
+Zweigenbaum Pierre, Limsi/CNRS, France
+
+
+Application chairs:
+Philippe Roy, Cap Digital, France (Chair)
+Josiane Mothe, IRIT, France (co-Chair)
+
+Application committee:
+Irina Blomquist, Digibusiness, Finland
+Marie Buhot Launay, ARD, France
+Marie-Odile Charaudeau, Aproged, France
+David Evans, JustSystems Evans Research, USA
+Alain Garnier, Jamespot, France
+Catherine Gouttas, Thalès, France
+Fabrice Lacroix, Antidot, France
+Agnès Lainé, CFI, France
+Marc Michel Pic, Advestigo, France
+Cyril Rollinde, Freelance, Pondichery, India
+Bernard Schmid, Vienna IT Enterprises , Austria
+Jacqueline Thomas, CFI, France
+
+-------------------------
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,260 @@
+From - Thu Dec 10 14:25:25 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.12 with SMTP id l12cs107902bud;
+        Wed, 20 Dec 2006 04:00:28 -0800 (PST)
+Received: by 10.67.101.10 with SMTP id d10mr9154322ugm.1166616027780;
+        Wed, 20 Dec 2006 04:00:27 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id s1si10553786uge.2006.12.20.04.00.24;
+        Wed, 20 Dec 2006 04:00:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1Gx076-0000iq-23; Wed, 20 Dec 2006 13:00:00 +0100
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1Gx073-000CTa-48; Wed, 20 Dec 2006 12:59:57 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1Gx072-000CTV-N2; Wed, 20 Dec 2006 12:59:56 +0100
+Received: from ns.itc.it (lancelot.itc.it) [217.77.80.3] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
+	id 1Gx06u-00023d-TE; Wed, 20 Dec 2006 12:59:53 +0100
+Received: from lancelot (unknown [127.0.0.1])
+	by lancelot.itc.it (Symantec Mail Security) with ESMTP id 10AA638C1BC
+	for <CORPORA@UIB.NO>; Wed, 20 Dec 2006 12:40:13 +0100 (CET)
+X-AuditID: d94d5003-abb56bb0000004c3-7a-4589211c8cb0 
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Subject: [Corpora-List] 3rd PASCAL TEXTUAL ENTAILMENT CHALLENGE AND RESOURCE POOL - CALL FOR PARTICIPATION
+Date: Wed, 20 Dec 2006 12:40:11 +0100
+Message-ID: <ABFBC9C1086F394AACE0A29152D1F0BACA1F54@ntmail.pc.itc.it>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: 3rd PASCAL TEXTUAL ENTAILMENT CHALLENGE AND RESOURCE POOL - CALL FOR PARTICIPATION
+Thread-Index: AcckK5ucHZKqT05fTCyU0vfS5hRIpw==
+From: "Danilo Giampiccolo" <giampiccolo@itc.it>
+To: <CORPORA@UIB.NO>
+X-Brightmail-Tracker: AAAAAA==
+X-checked-clean: by exiscan on rolf
+X-Scanner: 78d80e0259ce60e62d9c640ffe8e5fa8 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 1.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 Received: contains a forged HELO
+  1.0 BODY: UIB_MAILWON
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+Apologies for cross-postings.
+
+
+3rd PASCAL TEXTUAL ENTAILMENT CHALLENGE AND RESOURCE POOL - CALL FOR
+PARTICIPATION
+(http://www.pascal-network.org/Challenges/RTE3/)
+
+
+INTRODUCTION
+
+Textual entailment recognition, i.e. the task of deciding, given two
+texts, whether the meaning of one text can be plausibly inferred from
+the other, has gained growing popularity recently following the two
+previous rounds of the PASCAL Recognizing Textual Entailment (RTE)
+challenge. One of the key elements of this success is probably the fact
+that textual entailment may serve as a unifying generic framework for
+applied modeling of semantic inference, and captures generically a broad
+range of inferences that are relevant for different application, such as
+Question Answering (QA), Information Extraction (IE), Summarization,
+Machine Translation, paraphrasing, and for certain types of queries in
+Information Retrieval (IR). More specifically, the RTE challenge aims to
+focus research and evaluation on this shared underlying semantic
+inference task and isolate it from other application specific problems.=20
+
+The goal of the first RTE challenge was to provide a new benchmark to
+test progress in recognizing textual entailment, and to compare the
+achievements of different groups. This goal has proven to be of great
+interest, and the community response encouraged us to gradually extend
+the scope of the original task. The second RTE Challenge built on the
+success of the first, with 23 participating groups from around the world
+(as compared to 17 for the first challenge). The number of participants
+and their contributions to the discussion at the Workshop in April 2006
+(Venice, Italy) demonstrated that Textual Entailment is a quickly
+growing field of NLP research. Already, the workshops have spawned an
+impressive number of publications in major conferences, with more work
+in progress and about 150 downloads to date of the RTE-2 dataset (see
+http://aclweb.org/aclwiki/index.php?title=3DTextual_Entailment for a
+comprehensive reference list).=20
+
+RTE 3 follows the same basic structure of the previous campaign, in
+order to facilitate the participation of newcomers and to allow
+"veterans" to assess the improvements of their systems. Nevertheless, a
+couple of innovations are introduced:
+
+*	A limited number (about 20%) of longer texts - i.e. one
+paragraph long - are introduced as a first step towards addressing
+broader settings which require discourse analysis.=20
+*	An RTE Resource Pool has been created as a shared central
+location for resource contributors and users (see below).
+
+
+TASK AND DATA DESCRIPTION
+--------------------
+The input to the challenge task consists of pairs of text units, termed
+T(ext) - the entailing text, and H(ypothesis) - the candidate entailed
+text. The task consists of recognizing a directional relation between
+the two text fragments, deciding whether T entails H or not. More
+specifically, we say that T entails H if, typically, a human reading T
+would infer that H is most likely true. System results will be compared
+to a human-annotated gold-standard test set.=20
+
+The following H/T pairs exemplify the task proposed in the challenge:
+
+T: The flights begin at San Diego's Lindbergh Field in April, 2002 and
+follow the Lone Eagle's 1927 flight plan to St. Louis, New York, and
+Paris.
+H: Lindbergh began his flight from Paris to New York in 2002.
+(FALSE)
+
+T: The world will never forget the epic flight of Charles Lindbergh
+across the Atlantic from New York to Paris in May 1927, a feat still
+regarded as one of the greatest in aviation history.
+H: Lindbergh began his flight from New York to Paris in 1927.
+(TRUE)
+
+T: Medical science indicates increased risks of tumors, cancer, genetic
+damage and other health problems from the use of cell phones.
+H: Cell phones pose health risks.
+(TRUE)
+
+T: The available scientific reports do not show that any health problems
+are associated with the use of wireless phones.
+H: Cell phones pose health risks.
+(FALSE)
+
+The development and test sets are based on multiple data sources and are
+intended to be representative of typical problems encountered by applied
+text understanding systems. Examples are mostly based on entailment
+cases that were/were not handled successfully by existing systems, and
+also include a small proportion of manually created examples that
+simulate an application scenario. While most of the text pairs are drawn
+from the domain of political and business news, other domains, such as
+sports, science, and technology are also represented, even though any
+domain-specific language is avoided and the vocabulary used is that of
+an average educated person. =09
+=09
+As in RTE-2, data types corresponding to the following application areas
+are used (see website for details on mapping application data to an RTE
+task):
+
+a.	Question Answering (QA)
+b.	"Propositional" Information Retrieval (IR)
+c.	Information Extraction/Relation Extraction (IE)
+d.	Summarization (SUM) (including PYRAMID-based data)
+
+This year, a limited proportion of longer texts - up to a short
+paragraph - are included, allowing for discourse analysis. However, the
+majority of examples remain similar to those in the previous challenges,
+providing pairs with relatively short texts.=20
+
+In order to avoid copyright problems, data is limited to either what has
+already been publicly released by official competitions or else is drawn
+from freely available sources such as Wikinews and Wikipedia.
+
+
+THE TEXTUAL ENTAILMENT RESOURCE POOL
+
+One of the key conclusions at the 2nd RTE Challenge Workshop was that
+entailment modeling requires vast knowledge resources that correspond to
+different types of entailment reasoning. Examples of useful knowledge
+include ontological and lexical relationships, paraphrases and
+entailment rules, meaning entailing syntactic transformations and
+certain types of world knowledge. Textual entailment systems also
+utilize general NLP tools such as POS taggers, parsers and named-entity
+recognizers, sometimes posing specialized requirements to such tools.
+With so many resources being continuously released and improved, it can
+be difficult to know which particular resource to use when developing a
+system. In response, RTE-3 includes a new activity for building a
+Textual Entailment Resource Pool, which will serve as a portal and forum
+for publicizing and tracking resources and reporting on their use.=20
+
+We actively solicit both RTE participants and other members of the NLP
+community who develop or use relevant resources to contribute to the
+Textual Entailment Resource Pool. Contributions include links and
+descriptions of relevant resources as well as informational postings
+regarding resource use and accumulated experience. RTE-3 participants
+who utilize such resources are expected to cite them and evaluate their
+impact while the overall utility of noticeable resources will be
+reviewed in the RTE-3 organizers paper, which we hope will reward
+contributors of useful resources.
+
+The Textual Entailment Resource Pool is hosted as a sub-zone of the ACL
+Wiki for Computational Linguistics. The resource pool has been seeded
+with a few resources, however its usefulness relies on the community's
+(including your!) contributions. The Textual Entailment Resource Pool is
+available at
+http://aclweb.org/aclwiki/index.php?title=3DTextual_Entailment_Resource_P=
+o
+ol.
+
+
+Note: JNLE SPECIAL ISSUE
+
+We would like to draw attention to a preliminary announcement, which is
+currently being circulated, for a special issue of the Journal for
+Natural Language Engineering on Textual Entailment. The call for the
+special issue is anticipated for April 2007 with submission deadline
+several months later. This schedule will allow interested participants
+of RTE-3 to report their recent results, following the RTE-3 workshop.
+The call for the special issue will be open, covering a broader scope
+than exhibited in the RTE challenge.
+
+
+IMPORTANT DATES:
+
+      Development Set Release: 			20 December 2006
+      Test Set Release:				1 March 2007
+      Deadline for participants' submissions:	12 March 2007
+      Release of individual results: 			16 March 2007
+      Deadline for participants' reports:		2 April 2007
+      Camera-ready version of reports:		9 May 2007
+      Workshop: 					Early summer,
+2007
+(We have proposed having the RTE-3 workshop as an ACL 2007 workshop, to
+be held at the end of June in Prague.)
+
+
+ORGANIZING COMMITEE
+Danilo Giampiccolo, CELCT (Trento), Italy (coordinator)
+Bernardo Magnini, ITC-irst (Trento), Italy (advisor)
+Ido Dagan, Bar Ilan University, Israel (supervisor and advisor)
+Bill Dolan, Microsoft Research, USA
+Patrick Pantel, ISI, USA (Textual Entailment Resource Pool)
+
+
+SUPPORT =20
+The preparation and running of this challenge has been supported by the
+EU-funded PASCAL Network of Excellence on Pattern Analysis, Statistical
+Modeling and Computational Learning.=20
+
+ The data sets have been created and annotated by the Butler Hill Group
+(Microsoft) and CELCT.
+
+
+REGISTRATION
+
+For registration, further information and inquiries, please visit the
+challenge website:
+
+http://www.pascal-network.org/Challenges/RTE3/
+
+
+CONTACT: Danilo Giampiccolo <info at celct.it>, with [RTE3] in the
+subject header.
+
+

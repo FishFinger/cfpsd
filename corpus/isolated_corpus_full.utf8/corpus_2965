@@ -1,0 +1,663 @@
+From - Thu Dec 10 14:31:18 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs54000waa;
+        Thu, 17 Apr 2008 00:56:52 -0700 (PDT)
+Received: by 10.142.71.2 with SMTP id t2mr319644wfa.344.1208419012015;
+        Thu, 17 Apr 2008 00:56:52 -0700 (PDT)
+Return-Path: <sentto-1622440-2579-1208418984-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 22si19937983wfi.12.2008.04.17.00.56.49;
+        Thu, 17 Apr 2008 00:56:52 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2579-1208418984-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.16;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2579-1208418984-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2579-1208418984-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; domainkeys=hardfail header.From=lpl-infos@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m3H7umq3026278
+	for <jpprost@gmail.com>; Thu, 17 Apr 2008 17:56:48 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id m3H7ulGN006934
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Apr 2008 17:56:47 +1000 (EST)
+X-ASG-Debug-ID: 1208418996-0936017c0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 52FDC19F3F10
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Apr 2008 17:56:39 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id PAM7oLcn95Gy8RzP for <jpprost@mailbox.ics.mq.edu.au>; Thu, 17 Apr 2008 17:56:36 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m3H7uYOW026249
+	for <jpprost@ics.mq.edu.au>; Thu, 17 Apr 2008 17:56:34 +1000 (EST)
+Received: from n8b.bullet.mail.re1.yahoo.com (n8b.bullet.mail.re1.yahoo.com [69.147.103.219])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id m3H7uVl9029093
+	for <jpprost@ics.mq.edu.au>; Thu, 17 Apr 2008 17:56:33 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=sU0VaX6WwiGOtM+f69hRrQLFIs7a6nCwoR5BHkmxWi0O4VcSlldtRVy7O6hO1ObaWSyIp0+Jc20QA4aH8EjWDbStIlOKTxdQQ0keWUsU5YoVgbxY+ETyLrovKxjeecoq;
+Received: from [68.142.237.88] by n8.bullet.mail.re1.yahoo.com with NNFMP; 17 Apr 2008 07:56:25 -0000
+Received: from [66.218.69.6] by t4.bullet.re3.yahoo.com with NNFMP; 17 Apr 2008 07:56:24 -0000
+Received: from [66.218.67.93] by t6.bullet.scd.yahoo.com with NNFMP; 17 Apr 2008 07:56:24 -0000
+X-Yahoo-Newman-Id: 1622440-m2579
+X-Sender: alain.ghio@lpl-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+X-Received: (qmail 32970 invoked from network); 17 Apr 2008 07:56:21 -0000
+X-Received: from unknown (66.218.66.70)
+  by m36.grp.scd.yahoo.com with QMQP; 17 Apr 2008 07:56:21 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta12.grp.scd.yahoo.com with SMTP; 17 Apr 2008 07:56:21 -0000
+X-Received: from unknown (HELO GHIOFIXE) ([147.94.215.172])
+  by mso1k193.u-3mrs.fr with ESMTP; 17 Apr 2008 09:56:06 +0200
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEAPSfBkiTXtes/2dsb2JhbACtJQ
+X-IronPort-AV: i="4.25,670,1199660400"; 
+   d="scan'208"; a="171880757:sNHT25023999"
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Organization: LPL
+Message-ID: <002501c8a060$7d159490$acd75e93@GHIOFIXE>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3198
+Importance: Normal
+Thread-Index: AciejqkfwoLP51aSTfGcQZ0mCGlJ9gB0WF8A
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "ghio" <alain.ghio@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Thu, 17 Apr 2008 09:56:04 +0200
+X-ASG-Orig-Subj: [lpl-infos] TR : [parole] CALL FOR PAPERS SIGIR 2008 workshop SSCS
+Subject: [lpl-infos] TR : [parole] CALL FOR PAPERS SIGIR 2008 workshop SSCS
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="niIKwO1-Vp9ETM8LOsH0w1CtDb1n3tQWdPk9SCF"
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1208418999
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.48017
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+--niIKwO1-Vp9ETM8LOsH0w1CtDb1n3tQWdPk9SCF
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+
+CALL FOR PAPERS
+
+SIGIR 2008 workshop: Searching Spontaneous Conversational Speech, 24 July
+2008, Singapore http://ilps.science.uva.nl/SSCS2008
+
+Large scale use and commercial application of retrieval technology for
+spoken content requires a sustained effort focused on merging speech
+recognition, audio analysis and information retrieval into a concerted
+discipline with a common vision. After the success of the 2007 Search in
+Spontaneous Conversational Speech workshop (SSCS 2007; cf.
+http://hmi.ewi.utwente.nl/sscs), a second workshop, SSCS 2008, will be held
+in conjunction with ACM SIGIR 2008 in order to further the cross-pollinatio=
+n
+between the speech research community and the information retrieval
+community. The workshop addresses application domains including:
+conversational broadcast, podcasts, meetings, lectures, discussions,
+debates, interviews and cultural heritage archives.
+
+We welcome contributions on a range of cross-cutting issues, including:
+
+-Representation of spoken content for optimal search (e.g., LVCSR, word
+lattice search, STD on phone lattice)=20
+-Exploitation of evidence beyond word-level (e.g., emotional state, speaker
+characteristics, topic shifts, audio events)
+
+-Application of text IR techniques to the speech domain
+-Speech mining in multimedia data
+-Multimodality (integrating features from associated non-speech content)
+-Search effectiveness (e.g., evidence combination, expansion) -Access to
+large scale collections -Evaluation resources and benchmarking activities
+-Multi-/cross-lingual retrieval -Cross-media mining (e.g., coupling images
+or text fragments to speech) -Interaction design and system development
+(e.g., query formulation, result  presentation, search strategies) -Spoken
+audio visualization (e.g. results lists, individual results) -Spoken query
+search
+
+Contributions for oral presentations (8 pages) poster presentations (2
+pages), demonstration descriptions (2 pages) and position papers for
+selection of panel members (2 pages) will be accepted. Further information
+including submission guidelines can be found on the workshop website
+http://ilps.science.uva.nl/SSCS2008
+
+
+Important Dates
+16 May: Paper submission deadline
+6 Jun: Notification of acceptance
+20 Jun: Camera-ready papers due
+24 July: SSCS 2008 Workshop at SIGIR 2008
+
+Organizers
+Joachim Koehler, Fraunhofer IAIS, Germany
+Martha Larson, University of Amsterdam, The Netherlands Franciska de Jong,
+University of Twente, The Netherlands Roeland Ordelman, University of
+Twente, The Netherlands Wessel Kraaij, TNO, The Netherlands
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+                                                 =
+=20
+
+--niIKwO1-Vp9ETM8LOsH0w1CtDb1n3tQWdPk9SCF
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p><br>
+CALL FOR PAPERS<br>
+<br>
+SIGIR 2008 workshop: Searching Spontaneous Conversational Speech, 24 July<b=
+r>
+2008, Singapore <a href=3D"http://ilps.science.uva.nl/SSCS2008">http://ilps=
+.<wbr>science.uva.<wbr>nl/SSCS2008</a><br>
+<br>
+Large scale use and commercial application of retrieval technology for<br>
+spoken content requires a sustained effort focused on merging speech<br>
+recognition, audio analysis and information retrieval into a concerted<br>
+discipline with a common vision. After the success of the 2007 Search in<br=
+>
+Spontaneous Conversational Speech workshop (SSCS 2007; cf.<br>
+<a href=3D"http://hmi.ewi.utwente.nl/sscs">http://hmi.ewi.<wbr>utwente.nl/<=
+wbr>sscs</a>), a second workshop, SSCS 2008, will be held<br>
+in conjunction with ACM SIGIR 2008 in order to further the cross-pollinatio=
+n<br>
+between the speech research community and the information retrieval<br>
+community. The workshop addresses application domains including:<br>
+conversational broadcast, podcasts, meetings, lectures, discussions,<br>
+debates, interviews and cultural heritage archives.<br>
+<br>
+We welcome contributions on a range of cross-cutting issues, including:<br>
+<br>
+-Representation of spoken content for optimal search (e.g., LVCSR, word<br>
+lattice search, STD on phone lattice) <br>
+-Exploitation of evidence beyond word-level (e.g., emotional state, speaker=
+<br>
+characteristics, topic shifts, audio events)<br>
+<br>
+-Application of text IR techniques to the speech domain<br>
+-Speech mining in multimedia data<br>
+-Multimodality (integrating features from associated non-speech content)<br=
+>
+-Search effectiveness (e.g., evidence combination, expansion) -Access to<br=
+>
+large scale collections -Evaluation resources and benchmarking activities<b=
+r>
+-Multi-/cross-<wbr>lingual retrieval -Cross-media mining (e.g., coupling im=
+ages<br>
+or text fragments to speech) -Interaction design and system development<br>
+(e.g., query formulation, result  presentation, search strategies) -Spoken<=
+br>
+audio visualization (e.g. results lists, individual results) -Spoken query<=
+br>
+search<br>
+<br>
+Contributions for oral presentations (8 pages) poster presentations (2<br>
+pages), demonstration descriptions (2 pages) and position papers for<br>
+selection of panel members (2 pages) will be accepted. Further information<=
+br>
+including submission guidelines can be found on the workshop website<br>
+<a href=3D"http://ilps.science.uva.nl/SSCS2008">http://ilps.<wbr>science.uv=
+a.<wbr>nl/SSCS2008</a><br>
+<br>
+Important Dates<br>
+16 May: Paper submission deadline<br>
+6 Jun: Notification of acceptance<br>
+20 Jun: Camera-ready papers due<br>
+24 July: SSCS 2008 Workshop at SIGIR 2008<br>
+<br>
+Organizers<br>
+Joachim Koehler, Fraunhofer IAIS, Germany<br>
+Martha Larson, University of Amsterdam, The Netherlands Franciska de Jong,<=
+br>
+University of Twente, The Netherlands Roeland Ordelman, University of<br>
+Twente, The Netherlands Wessel Kraaij, TNO, The Netherlands<br>
+ <br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/257=
+9;_ylc=3DX3oDMTM0b2RkcTJsBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI1NzkEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjA4NDE4OTg0BHRwY=
+0lkAzI1Nzk-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwODF1YnVzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI1NzkEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjA4NDE4OTg0?act=3Dreply&me=
+ssageNum=3D2579">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlZzMwZzhtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIwODQxODk4NA--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlOXBnaHZ2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIwODQxODk4NA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmc3JlbjViBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMDg0MTg5ODQ-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbjRycDA1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIwODQxODk4NA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmaDQ5YzByBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMDg0MTg5ODQ-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjc25iM2RyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMDg0MTg5ODQ-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmbXZ0N2NuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMDg0MTg5ODQ-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJldjI1ZmRkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIwODQxODk4NA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkOW12ajY2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjA4NDE4OTg0">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkdjhhbGJsBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjA4NDE4OTg0">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmNDhkMDhqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMDg0MTg5ODQ-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+cjVpZWRqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjA4NDE4OTg0">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background:white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital">
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlMW90OTVjBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIwODQxODk4NA--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	          <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrYTAzMXRjBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIwODQxODk4NA--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuc3JmYWd0BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIwODQxODk4NA--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvZ2tjdjlwBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMDg0MTg5ODQ-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2579/stime=3D1208418984/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<span  style=3D"color: white;">__,_._,___</span>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+	#ygrp-tpmsgs{
+	    font-family: Arial;=09
+	    clear: both;
+	}
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-actbar{
+		clear: both;
+		margin: 25px 0;
+		white-space:nowrap;
+		color: #666;
+		text-align: right;
+	}
+	#ygrp-actbar .left{
+		float: left;
+		white-space:nowrap;
+	}
+	.bld{font-weight:bold;}
+	#ygrp-grft{
+		font-family: Verdana;
+		font-size: 77%;
+		padding: 15px 0;
+	}
+	#ygrp-ft{
+	  font-family: verdana;
+	  font-size: 77%;
+	  border-top: 1px solid #666;=20
+	  padding: 5px 0;=20
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-grpname{
+        font-weight: bold;
+        margin-top: 10px;
+  	}
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital{
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+		padding: 2px 0 8px 8px;
+	}
+	#ygrp-vital #vithd{
+		font-size: 77%;
+		font-family: Verdana;
+		font-weight: bold;
+		color: #333;
+		text-transform: uppercase;
+	}
+	#ygrp-vital ul{
+		padding: 0;
+		margin: 2px 0;
+	}
+	#ygrp-vital ul li{
+	  list-style-type: none;
+	  clear: both;
+	  border: 1px solid #e0ecee;=20=20
+	}
+	#ygrp-vital ul li .ct{
+	  font-weight: bold;
+	  color: #ff7900;
+	  float: right;
+	  width: 2em;
+	  text-align:right;
+	  padding-right: .5em;
+	}
+	#ygrp-vital ul li .cat{
+	  font-weight: bold;
+	}
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #hd{
+		color: #999;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov{
+		padding: 6px 13px;
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+	}
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--niIKwO1-Vp9ETM8LOsH0w1CtDb1n3tQWdPk9SCF--

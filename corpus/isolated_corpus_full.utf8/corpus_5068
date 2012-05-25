@@ -1,0 +1,317 @@
+From - Thu Dec 10 14:36:35 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs192381fap;
+        Thu, 23 Apr 2009 07:55:24 -0700 (PDT)
+Received: by 10.90.73.17 with SMTP id v17mr1306151aga.73.1240498522214;
+        Thu, 23 Apr 2009 07:55:22 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 34si252287agc.0.2009.04.23.07.55.19;
+        Thu, 23 Apr 2009 07:55:22 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n3NEtI6o000590
+	for <jpprost@gmail.com>; Fri, 24 Apr 2009 00:55:18 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n3NEtIw3008450
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 24 Apr 2009 00:55:18 +1000
+X-ASG-Debug-ID: 1240498516-08b7008e0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id ADBBF1A35511
+	for <jpprost@mailbox.ics.mq.edu.au>; Fri, 24 Apr 2009 00:55:16 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id y7gBL5fjOHydxbAN for <jpprost@mailbox.ics.mq.edu.au>; Fri, 24 Apr 2009 00:55:16 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n3NEtEPp000575
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 24 Apr 2009 00:55:15 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id A89905207F;
+	Thu, 23 Apr 2009 16:55:10 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 2541391 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Thu, 23 Apr 2009
+          16:55:10 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit01.kulnet.kuleuven.be (cavuit01.kulnet.kuleuven.be
+          [134.58.240.43]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 35F5D4EE28 for <chr@listserv.cc.kuleuven.ac.be>; Thu, 23 Apr 2009
+          16:55:10 +0200 (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit01.kulnet.kuleuven.be (Postfix) with ESMTP
+          id D6D207B8054 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 23 Apr 2009
+          16:55:04 +0200 (CEST)
+Received: from trita.unife.it (trita.unife.it [192.167.219.25]) by
+          cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id AC2A7341B0 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 23 Apr 2009 16:54:54 +0200
+          (CEST)
+Received: from trita.unife.it (localhost.localdomain [127.0.0.1]) by localhost
+          (Email Security Appliance) with SMTP id BB806101EAF9_9F07F78B; Thu,
+          23 Apr 2009 14:47:20 +0000 (GMT)
+Received: from dns.unife.it (dns.unife.it [192.167.219.2]) by trita.unife.it
+          (Sophos Email Appliance) with ESMTP id 787511018A77_9F07F74F; Thu, 23
+          Apr 2009 14:47:16 +0000 (GMT)
+Received: from [137.204.45.208] (edu208.deis.unibo.it [137.204.45.208]) (using
+          TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits)) (No client
+          certificate requested) by dns.unife.it (Postfix) with ESMTP id
+          C2A4072DE7; Thu, 23 Apr 2009 16:48:13 +0200 (CEST)
+User-Agent: Thunderbird 2.0.0.21 (X11/20090318)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=0, required 5,
+               autolearn=disabled)
+X-KULeuven-Envelope-From: marco.gavanelli@unife.it
+Message-ID:  <49F07FAD.4050204@unife.it>
+Date:         Thu, 23 Apr 2009 16:48:13 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Marco Gavanelli <marco.gavanelli@UNIFE.IT>
+X-ASG-Orig-Subj: [CHR] RCRA 2009 events-Call for Papers
+Subject: [CHR] RCRA 2009 events-Call for Papers
+Comments: To: eclipse-users@crosscoreop.com, sicstus-users@sics.se
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1240498516
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.23985
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+[apologies for multiple postings]
+
+* ______________________________________________________________________   *
+
+     The RCRA group (Knowledge Representation & Automated Reasoning) of the
+            AI*IA (Italian Association for Artificial Intelligence)
+                               http://rcra.aixia.it
+
+                                    organises
+
+                            the special RCRA session on
+                  "Experimentation of Combinatorial Algorithms"
+                           at the XI Conference of the
+           Italian Association for Artificial Intelligence (AI*IA 2009)
+
+                                    and the
+
+                              16th RCRA workshop:
+                Experimental evaluation of algorithms for solving
+                problems with combinatorial explosion  (RCRA 2009)
+
+
+     Email:               rcra.aixia.09@gmail.com
+     RCRA group web site: http://rcra.aixia.it/
+     Workshop web site:   http://rcra.aixia.it/rcra2009
+
+* ______________________________________________________________________   *
+
+     These events follow the series of the RCRA (Knowledge Representation
+     and Automated Reasoning) annual meetings, held since 1994.
+     The success of the previous events shows that RCRA is becoming a major
+     forum for exchanging ideas and proposing experimentation methodologies
+     for algorithms in artificial intelligence.
+
+* ______________________________________________________________________   *
+
+NEWS!!!
+  This year the RCRA working group organises two events:
+  - RCRA Session @AI*IA 2009. A special session of the XI Conference of the
+    Italian Association for Artificial Intelligence (AI*IA 2009), with 
+formal
+    proceedings published on Springer LNAI
+
+  - RCRA 2009. The 16th International RCRA workshop with original and
+    already published papers.
+
+As in previous editions, authors of papers presented at either event
+will have the opportunity to participate to the selection of a special issue
+that will appear on a highly prestigious international journal.
+The organizers are currently in contact with the publisher.
+
+
+DATES
+  11-12 december 2008, co-located with AI*IA 2009
+  http://www.aixia09.unimore.it/
+
+VENUE
+  Reggio Emilia, Italy
+
+AIMS AND SCOPE
+   Many problems in Artificial Intelligence show an exponential 
+explosion of the
+   search space.  Although stemming from different research areas in AI, 
+such
+   problems are often addressed with algorithms that have a common goal: the
+   effective exploration of huge state spaces.  Many algorithms 
+developed in one
+   research area are applicable to other problems, or can be hybridised with
+   techniques in other areas. Artificial Intelligence tools often exploit or
+   hybridise techniques developed by other research communities, such as
+   Operations Research.
+   In recent years, research in AI has more and more focussed on 
+experimental
+   evaluation of algorithms, the development of suitable methodologies for
+   experimentation and analysis, the study of languages and the 
+implementation of
+   systems for the definition and solution of problems.
+
+   Scope of the workshop is fostering the cross-fertilisation of ideas 
+stemming
+   from different areas, proposing benchmarks for new challenging problems,
+   comparing models and algorithms from an experimental viewpoint, and, in
+   general, comparing different approaches with respect to efficiency, 
+problem
+   modelling, and ease of development.
+
+   Topics of interest include, but are not limited to:
+   * Experimental evaluation of algorithms for
+        o knowledge representation
+        o automated reasoning
+        o planning
+        o scheduling
+        o machine learning
+        o model checking
+        o boolean satisfiability (SAT)
+        o constraint programming
+        o constraint satisfaction
+        o quantified boolean formulae and quantified constraints
+        o modal logics
+        o logic programming
+        o disjunctive logic programming
+        o temporal reasoning
+        o combinatorial optimization
+   * Definition and construction of benchmarks
+   * Experimentation methodologies
+   * Metaheuristics
+   * Algorithm hybridisation
+   * Static analysis of combinatorial problems
+   * Languages and systems for definition and solution of problems
+   * Comparisons between systems and algorithms
+   * Application experiences
+
+
+WORKSHOP CHAIRS
+  * Marco Gavanelli, Università degli Studi di Ferrara, Italy
+  * Toni Mancini, Sapienza Università di Roma, Italy
+
+WORKSHOP PROGRAM COMMITTEE
+     To Be Announced
+
+HOST ORGANIZATION
+  Università di Modena e Reggio-Emilia, Italy
+
+LOCAL COMMITTEE
+  * To be announced
+
+
+SUBMISSIONS
+   This year RCRA will have a regular session in the conference AI*IA 2009,
+   plus an informal workshop. Authors of papers appearing either in the 
+RCRA session
+   of AI*IA or in the RCRA workshop will be invited to submit to a 
+special issue of the
+   Journal of Algorithms in Logic, Informatics and Cognition (cf. below).
+
+RCRA Session @AI*IA 2009
+   Authors interested in the RCRA session of AI*IA 2009 are encouraged 
+to submit
+   to AI*IA, indicating clearly that the main topic of the paper is
+
+                         "Experimentation of Combinatorial Algorithms".
+
+   Papers must describe original work; deadline 15 May 2009.
+   Submission details are available on
+
+   http://www.aixia09.unimore.it/
+
+   Papers accepted to the AI*IA conference will be published as a volume 
+of the
+   Springer Lecture Notes in Artificial Intelligence series.
+
+
+RCRA Workshop
+   Authors are invited to submit either original papers, or papers that 
+appear on
+   conference proceedings (different than AI*IA 2009).
+
+   Publications showing negative results are welcome, provided that the 
+approach
+   was original and very promising in principle, the experimentation was
+   well-conducted, the results obtained were unforeseeable and gave 
+important
+   hints in the comprehension of the target problem, helping other 
+researchers to
+   avoid unsuccessful paths.
+
+   At the time of submission, authors are requested to clearly specify 
+whether their
+   submission is original or already published.
+
+   Workshop submissions must be in PDF format, do not exceed 15 pages, 
+and should be
+   written in LaTeX, using the RCRA 2009 style available on the workshop 
+web site.
+   Submissions will be reviewed by at least three members of the
+   program committee.
+   Papers accepted at the workshop will be electronically published on the
+   workshop web site and as an issue of the CEUR Workshop Proceedings 
+series.
+
+   Final and detailed submission instructions will be available on the 
+workshop
+   web site soon.
+
+
+SELECTION FOR THE POST-PROCEEDINGS
+   Few weeks after the workshop, authors of papers presented either at the
+   RCRA workshop, or at the RCRA session of AI*IA will have the
+   opportunity to participate to the selection for the post-proceedings
+   by submitting an extended version of their work.
+
+   As the previous years, workshop post-proceedings will appear in a special
+   issue of a highly prestigious international journal.
+
+   All candidate articles must be original: they cannot have already 
+been published
+   in journals, and must contain significant additional material with 
+respect to any
+   previous version already published in formal conference proceedings
+   (including the proceedings of AI*IA 2009).
+
+   Such papers will go through a second formal selection process, and 
+will be
+   reviewed by at least three reviewers. The selection process will be 
+kept very
+   short, and at most one re-submission stage will be allowed (cf. important
+   dates). Hence, authors are invited to work on their paper mainly 
+before the
+   workshop date.
+
+
+
+IMPORTANT DATES
+   * Submission to RCRA session @AI*IA:         15 May 2009
+   * Papers for RCRA workshop:                   1 September 2009
+   * Notification of acceptance/reject:         15 October 2009
+   * Final version due:                         15 November 2009
+   * RCRA session@AI*IA:                        11 December 2009
+   * RCRA workshop:                             12 December 2009
+
+   SELECTION FOR POST-PROCEEDINGS
+
+   * Extended papers submission deadline:       15 January 2010
+   * Notification of reviews of the 1st round:  28 February 2010
+   * Re-submission deadline
+     (for papers not accepted with minor rev.): 15 April 2010
+
+   * Final notification of acceptance:           1 May 2010
+   * Final version due:                         15 May 2010

@@ -1,0 +1,730 @@
+From - Thu Dec 10 14:36:34 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs31797fap;
+        Tue, 21 Apr 2009 10:38:17 -0700 (PDT)
+Received: by 10.90.96.1 with SMTP id t1mr5683961agb.83.1240335496513;
+        Tue, 21 Apr 2009 10:38:16 -0700 (PDT)
+Return-Path: <sentto-1622440-2767-1240335485-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 9si13021556agc.62.2009.04.21.10.38.12;
+        Tue, 21 Apr 2009 10:38:15 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2767-1240335485-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2767-1240335485-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2767-1240335485-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n3LHcBto022811
+	for <jpprost@gmail.com>; Wed, 22 Apr 2009 03:38:11 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n3LHcBp5012488
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 22 Apr 2009 03:38:11 +1000
+X-ASG-Debug-ID: 1240335490-361700de0000-RCdhz5
+X-Barracuda-URL: http://137.111.1.21:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id B3EF7CD2146
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 22 Apr 2009 03:38:10 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra1.its.mq.edu.au with ESMTP id w9uYydldHZDcXS9w for <jpprost@mailbox.ics.mq.edu.au>; Wed, 22 Apr 2009 03:38:10 +1000 (EST)
+Received: from n50c.bullet.mail.sp1.yahoo.com (n50c.bullet.mail.sp1.yahoo.com [66.163.168.184])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with SMTP id n3LHc8rD022806
+	for <jpprost@ics.mq.edu.au>; Wed, 22 Apr 2009 03:38:09 +1000 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1240335487; bh=qAJW7zJylZHAMWJq+klSE76IcRgOBZRCMzc4eLOAZKg=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-Received:X-Received:X-Received:Message-Id:To:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=S4BAcPXGynnDf7gayMB+kWxyy7L2BRwqEVUZcANtMDGh8t17BBBUp7UQwUUoWwf/qoOqkvrI1dKxRFUc4pzqhcfJ2oWU16K//rrkjC2zum7cKRiMIqBDWsd6rTTpt9yT
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=gQ6adUNvhhzuR4fwHZg6TbNmCd2lEQmxiyo7+9XiAKHX7IWM7cIwFbG8D48ZeC1LAKAzT3vWUVs1jc5ONEhIGHnQrpHa5JeYbsL8CjOQcKS9w3nsedGZ9pFruvb07+5W;
+Received: from [69.147.65.148] by n50.bullet.mail.sp1.yahoo.com with NNFMP; 21 Apr 2009 17:38:07 -0000
+Received: from [69.147.108.194] by t11.bullet.mail.sp1.yahoo.com with NNFMP; 21 Apr 2009 17:38:07 -0000
+X-Yahoo-Newman-Id: 1622440-m2767
+X-Sender: bernarbel@gmail.com
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 4033 invoked from network); 21 Apr 2009 17:38:00 -0000
+X-Received: from unknown (69.147.108.201)
+  by m3.grp.re1.yahoo.com with QMQP; 21 Apr 2009 17:38:00 -0000
+X-Received: from unknown (HELO mail-ew0-f157.google.com) (209.85.219.157)
+  by mta2.grp.re1.yahoo.com with SMTP; 21 Apr 2009 17:38:00 -0000
+X-Received: by ewy1 with SMTP id 1so2306095ewy.26
+        for <lpl-infos@yahoogroupes.fr>; Tue, 21 Apr 2009 10:36:59 -0700 (PDT)
+X-Received: by 10.210.39.8 with SMTP id m8mr5229952ebm.73.1240335419613;
+        Tue, 21 Apr 2009 10:36:59 -0700 (PDT)
+X-Received: from ?192.168.2.6? (lns-bzn-35-82-250-229-138.adsl.proxad.net [82.250.229.138])
+        by mx.google.com with ESMTPS id 5sm2839431eyh.15.2009.04.21.10.36.58
+        (version=SSLv3 cipher=RC4-MD5);
+        Tue, 21 Apr 2009 10:36:59 -0700 (PDT)
+Message-Id: <p06230907c613b4723c0d@[192.168.2.6]>
+To: lpl-infos <lpl-infos@yahoogroupes.fr>
+X-Originating-IP: 209.85.219.157
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Bernard Bel <bernarbel@gmail.com>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Tue, 21 Apr 2009 19:36:32 +0200
+X-ASG-Orig-Subj: [lpl-infos] Call for Papers: Speech Prosody 2010
+Subject: [lpl-infos] Call for Papers: Speech Prosody 2010
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="-SxXeQzyJ1X55CJMUcRveiYYXbR77EHbStnBQ3X"
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1240335490
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.23820
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+---SxXeQzyJ1X55CJMUcRveiYYXbR77EHbStnBQ3X
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+===============================================================
+SPEECH PROSODY 2010
+===============================================================
+Every Language, Every Style: Globalizing the Science of Prosody
+===============================================================
+Call For Papers
+===============================================================
+
+Prosody is, as far as we know, a universal characteristic of human
+speech, founded on the cognitive processes of speech production and
+perception. Adequate modeling of prosody has been shown to improve
+human-computer interface, to aid clinical diagnosis, and to improve
+the quality of second language instruction, among many other
+applications.
+
+Speech Prosody 2010, the fifth international conference on speech
+prosody, invites papers addressing any aspect of the science and
+technology of prosody. Speech Prosody is the only recurring
+international conference focused on prosody as an organizing principle
+for the social, psychological, linguistic, and technological aspects
+of spoken language. Speech Prosody 2010 seeks, in particular, to
+discuss the universality of prosody. To what extent can the observed
+scientific and technological benefits of prosodic modeling be ported
+to new languages, and to new styles of spoken language? Toward this
+end, Speech Prosody 2010 especially welcomes papers that create or
+adapt models of prosody to languages, dialects, sociolects, and/or
+communicative situations that are inadequately addressed by the
+current state of the art.
+
+=======
+TOPICS
+=======
+
+Speech Prosody 2010 will include keynote presentations, oral sessions,
+and poster sessions covering topics including:
+
+* Prosody of under-resourced languages and dialects
+* Communicative situation and speaking style
+* Dynamics of prosody: structures that adapt to new situations
+* Phonology and phonetics of prosody
+* Rhythm and duration
+* Syntax, semantics, and pragmatics
+* Meta-linguistic and para-linguistic communication
+* Signal processing
+* Automatic speech synthesis, recognition and understanding
+* Prosody of sign language
+* Prosody in face-to-face interaction: audiovisual modeling and analysis
+* Prosodic aspects of speech and language pathology
+* Prosody in language contact and second language acquisition
+* Prosody and psycholinguistics
+* Prosody in computational linguistics
+* Voice quality, phonation, and vocal dynamics
+
+====================
+SUBMISSION OF PAPERS
+====================
+
+Prospective authors are invited to submit full-length, four-page
+papers, including figures and references, at
+<http://speechprosody2010.org.>http://speechprosody2010.org. All Speech Prosody papers will be
+handled and reviewed electronically.
+
+===================
+VENUE
+===================
+
+The Doubletree Hotel Magnificent Mile is located two blocks from North
+Michigan Avenue, and three blocks from Navy Pier, at the cultural
+center of Chicago. The Windy City has been the center of American
+innovation since the mid nineteenth century, when a railway link
+connected Chicago to the west coast, civil engineers reversed the
+direction of the Chicago river, Chicago financiers invented commodity
+corn (maize), and the Great Chicago Fire destroyed almost every
+building in the city. The Magnificent Mile hosts scores of galleries
+and museums, and hundreds of world-class restaurants and boutiques.
+
+===================
+IMPORTANT DATES
+===================
+
+Submission of Papers (<http://speechprosody2010.org>http://speechprosody2010.org): October 15, 2009
+Notification of Acceptance: December 15, 2009
+Conference: May 11-14, 2010
+
+
+
+---SxXeQzyJ1X55CJMUcRveiYYXbR77EHbStnBQ3X
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text" >
+            <!--~-|**|PrettyHtmlStart|**|-~-->
+            <br><br>
+      <!--~-|**|PrettyHtmlEnd|**|-~-->
+      <p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=
+=3D=3D<br>
+SPEECH PROSODY 2010<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D<b=
+r>
+Every Language, Every Style: Globalizing the Science of Prosody<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D<b=
+r>
+Call For Papers<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D<b=
+r>
+<br>
+Prosody is, as far as we know, a universal characteristic of human<br>
+speech, founded on the cognitive processes of speech production and<br>
+perception. Adequate modeling of prosody has been shown to improve<br>
+human-computer interface, to aid clinical diagnosis, and to improve<br>
+the quality of second language instruction, among many other<br>
+applications.<br>
+<br>
+Speech Prosody 2010, the fifth international conference on speech<br>
+prosody, invites papers addressing any aspect of the science and<br>
+technology of prosody. Speech Prosody is the only recurring<br>
+international conference focused on prosody as an organizing principle<br>
+for the social, psychological, linguistic, and technological aspects<br>
+of spoken language. Speech Prosody 2010 seeks, in particular, to<br>
+discuss the universality of prosody. To what extent can the observed<br>
+scientific and technological benefits of prosodic modeling be ported<br>
+to new languages, and to new styles of spoken language? Toward this<br>
+end, Speech Prosody 2010 especially welcomes papers that create or<br>
+adapt models of prosody to languages, dialects, sociolects, and/or<br>
+communicative situations that are inadequately addressed by the<br>
+current state of the art.<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D<br>
+TOPICS<br>
+=3D=3D=3D=3D=3D=3D=3D<br>
+<br>
+Speech Prosody 2010 will include keynote presentations, oral sessions,<br>
+and poster sessions covering topics including:<br>
+<br>
+* Prosody of under-resourced languages and dialects<br>
+* Communicative situation and speaking style<br>
+* Dynamics of prosody: structures that adapt to new situations<br>
+* Phonology and phonetics of prosody<br>
+* Rhythm and duration<br>
+* Syntax, semantics, and pragmatics<br>
+* Meta-linguistic and para-linguistic communication<br>
+* Signal processing<br>
+* Automatic speech synthesis, recognition and understanding<br>
+* Prosody of sign language<br>
+* Prosody in face-to-face interaction: audiovisual modeling and analysis<br=
+>
+* Prosodic aspects of speech and language pathology<br>
+* Prosody in language contact and second language acquisition<br>
+* Prosody and psycholinguistics<br>
+* Prosody in computational linguistics<br>
+* Voice quality, phonation, and vocal dynamics<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D<br>
+SUBMISSION OF PAPERS<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D<br>
+<br>
+Prospective authors are invited to submit full-length, four-page<br>
+papers, including figures and references, at<br>
+&lt;<a href=3D"http://speechprosody2010.org.">http://speechprosod<wbr>y2010=
+.org.</a>&gt;<a href=3D"http://speechprosody2010.org.">http://speechprosod<=
+wbr>y2010.org.</a> All Speech Prosody papers will be<br>
+handled and reviewed electronically.<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D<br>
+VENUE<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D<br>
+<br>
+The Doubletree Hotel Magnificent Mile is located two blocks from North<br>
+Michigan Avenue, and three blocks from Navy Pier, at the cultural<br>
+center of Chicago. The Windy City has been the center of American<br>
+innovation since the mid nineteenth century, when a railway link<br>
+connected Chicago to the west coast, civil engineers reversed the<br>
+direction of the Chicago river, Chicago financiers invented commodity<br>
+corn (maize), and the Great Chicago Fire destroyed almost every<br>
+building in the city. The Magnificent Mile hosts scores of galleries<br>
+and museums, and hundreds of world-class restaurants and boutiques.<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D<br>
+IMPORTANT DATES<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D<br>
+<br>
+Submission of Papers (&lt;<a href=3D"http://speechprosody2010.org">http://s=
+peechprosod<wbr>y2010.org</a>&gt;<a href=3D"http://speechprosody2010.org">h=
+ttp://speechprosod<wbr>y2010.org</a>): October 15, 2009<br>
+Notification of Acceptance: December 15, 2009<br>
+Conference: May 11-14, 2010<br>
+<br>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20
+=20=20
+=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/276=
+7;_ylc=3DX3oDMTM0ODExdjdlBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI3NjcEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjQwMzM1NDg2BHRwY=
+0lkAzI3Njc-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwdm1oMTNwBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI3NjcEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjQwMzM1NDg2?act=3Dreply&me=
+ssageNum=3D2767">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlamFtcWJxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTI0MDMzNTQ4Ng--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlMGwzNjZnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTI0MDMzNTQ4Ng--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJma251cTMxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyNDAzMzU0ODY-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlczBodWF1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTI0MDMzNTQ4Ng--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJma2N1OTQxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyNDAzMzU0ODY-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjYjlhMDZsBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyNDAzMzU0ODY-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmbGtqaGZyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyNDAzMzU0ODY-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlM29hcWRkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTI0MDMzNTQ4Ng--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJka2NoOXJzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjQwMzM1NDg2">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkc212djVjBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjQwMzM1NDg2">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmMWRncTR1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyNDAzMzU0ODY-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+ZG5qcHFmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjQwMzM1NDg2">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlZDZudTVzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTI0MDMzNTQ4Ng--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJra205bzllBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTI0MDMzNTQ4Ng--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJudXQ2ajQ5BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTI0MDMzNTQ4Ng--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvNzlhbWRrBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyNDAzMzU0ODY-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2767/stime=3D1240335486/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+		font-weight: normal;
+		color: #000000;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p#attach-count {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+---SxXeQzyJ1X55CJMUcRveiYYXbR77EHbStnBQ3X--

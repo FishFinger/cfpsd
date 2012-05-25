@@ -1,0 +1,232 @@
+From - Thu Dec 10 14:27:05 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs853796waa;
+        Thu, 24 May 2007 00:23:53 -0700 (PDT)
+Received: by 10.35.52.18 with SMTP id e18mr2633222pyk.1179991431326;
+        Thu, 24 May 2007 00:23:51 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 15si6234637nzn.2007.05.24.00.23.49;
+        Thu, 24 May 2007 00:23:51 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be)
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4O7NmD2000522
+	for <jpprost@gmail.com>; Thu, 24 May 2007 17:23:49 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l4O7NmjQ005824
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 24 May 2007 17:23:48 +1000 (EST)
+X-ASG-Debug-ID: 1179991422-3cd6005d0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1179991422
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id AAEE7D004356
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 24 May 2007 17:23:42 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4O7Nehd000514
+	for <jpprost@ICS.MQ.EDU.AU>; Thu, 24 May 2007 17:23:41 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with ESMTP id l4O7Nc6F027381
+	for <jpprost@ICS.MQ.EDU.AU>; Thu, 24 May 2007 17:23:39 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 8E0FD16C80;
+	Thu, 24 May 2007 09:23:30 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 6598846 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Thu, 24 May 2007
+          09:23:30 +0200
+X-Original-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Delivered-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Received: from nibbel.kulnet.kuleuven.ac.be (nibbel.kulnet.kuleuven.ac.be
+          [134.58.240.41]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 7BD621510E for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007
+          09:21:11 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1]) by
+          nibbel.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 62AD34D6B5 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:21:11 +0200
+          (CEST)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by nibbel.kulnet.kuleuven.ac.be (Postfix) with ESMTP
+          id 34E734D692 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007
+          09:21:10 +0200 (CEST)
+Received: from hermes.cs.kuleuven.be (hermes.cs.kuleuven.ac.be [134.58.40.3])
+          by cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id F1A9F341B4
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:21:09 +0200
+          (CEST)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id l4O7L4Pk012238 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:21:04 +0200
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id l4O7L4ms016782 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:21:04 +0200
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 16739-01 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:21:01 +0200
+          (CEST)
+Received: from mail.cs.kuleuven.be (pop.cs.kuleuven.ac.be [134.58.41.11]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id l4O7KA38016709 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24
+          May 2007 09:20:10 +0200
+Received: from ender.cs.kuleuven.be (ender.cs.kuleuven.ac.be [134.58.45.101])
+          by mail.cs.kuleuven.be (A_Good_MTA/0.6.11) with ESMTP id l4O7K9V02456
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:20:09 +0200
+          (MEST)
+Received: from ender.cs.kuleuven.be (localhost [127.0.0.1]) by
+          ender.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id
+          l4O7K9lU011468 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007
+          09:20:09 +0200
+Received: from localhost (toms@localhost) by ender.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Submit) with ESMTP id l4O7K9d9011465 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Thu, 24 May 2007 09:20:09 +0200
+X-Authentication-Warning: ender.cs.kuleuven.be: toms owned process doing -bs
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="981886253-1562821125-1179991209=:11389"
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-Virus-Scanned: by KULeuven Antivirus Cluster
+X-Spam-Status: No, hits=0.0 tagged_above=-9999.0 required=5.0 tests=
+X-Spam-Level: 
+Message-ID:  <Pine.LNX.4.63.0705240919330.11389@ender.cs.kuleuven.be>
+Date:         Thu, 24 May 2007 09:20:09 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Tom Schrijvers <Tom.Schrijvers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] CHR'2007 Second call for papers (fwd)
+Subject: [CHR] CHR'2007 Second call for papers (fwd)
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.17829
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+--981886253-1562821125-1179991209=:11389
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+
+---------- Forwarded message ----------
+From: Gregory James DUCK <gjd@csse.unimelb.edu.au>
+
+
+ =09=09*********** DEADLINE EXTENDED  *************
+
+    ------------------------------------------------------------
+            Fourth Workshop on Constraint Handling Rules
+                                CHR 2007
+
+                           September 8, 2007
+                            Porto, Portugal
+
+                   http://chr2007.workshops.free.fr
+
+           Co-located with the International Conference on
+           Logic Programming (ICLP 2007)
+    ------------------------------------------------------------
+
+   Introduction
+   ------------
+
+The Constraint Handling Rules (CHR) language has become a major
+declarative specification and implementation language for constraint
+reasoning algorithms and applications.  Algorithms are often
+specified using inference rules, rewrite rules, sequents, proof rules
+or logical axioms that can be directly written in CHR.  Its clean
+semantics facilitates program design, analysis and transformation.
+See the CHR website (http://www.cs.kuleuven.be/~dtai/projects/CHR/)
+for more information.
+
+Previous Workshops on Constraint Handling Rules were organized in
+May 2004 in Ulm (Germany), in October 2005 in Sitges (Spain) and in
+July 2006 Venice (Italy).
+
+   Topics of Interest
+   ------------------
+
+The workshop calls for full papers and short papers describing
+ongoing work, on all aspects of CHR, including topics such as:
+
+     -  Semantics
+     -  Logical Algorithms
+     -  Constraint Solvers
+     -  Expressivity and Complexity
+     -  Program Analysis
+     -  Programming tools
+     -  Implementations and Optimization
+     -  Program Transformation and Generation
+     -  Language Extensions (Types, Modules)
+     -  Retractable Constraints
+     -  Programming Pearls
+     -  Programming Environments (Debugging)
+     -  Applications
+     -  Critical Assessment
+     -  Comparisons with Related Approaches
+
+   Submission Information
+   ----------------------
+
+All papers must be written in English and not exceed 15 pages
+in Springer LNCS format. The authors are encouraged, although
+not obliged, to submit their papers already in Springer LNCS
+format. General information about the Springer LNCS series and
+the LNCS authors' instructions are available at the Springer
+LNCS/LNAI home page (http://www.springer.de/comp/lncs/index.html).
+
+Submissions should be sent to chr2007.workshops@free.fr and mention
+'CHR 2007 Submission' in the subject. Every submission should
+include the names and e-mail addresses of the authors (with the
+corresponding author indicated), the paper abstract in ASCII format
+and the actual paper in postscript or PDF format. The submission
+should also indicate whether it is a full paper or a short paper.
+
+Accepted papers will be published in a technical report.
+
+   Important dates
+   ---------------
+
+     * submission deadline: June 22, 2007
+     * notification of acceptance: July 22, 2007
+     * final version due: August 12, 2007
+     * workshop date: September 8, 2007
+
+   Organization
+   ------------
+
+   Program Committee:
+
+     * Slim Abdennadher, German University in Cairo (Egypt)
+     * Henning Christiansen, Roskilde University (Denmark)
+     * Khalil Djelloul, University of Ulm (Germany)
+     * Gregory Duck, NICTA Victoria Laboratory (Australia)
+     * Fran=E7ois Fages, INRIA Rocquencourt (France)
+     * Thom Fruehwirth, University of Ulm (Germany)
+     * Maurizio Gabbrielli, Universita di Bologna (Italy)
+     * Michael Maher, NICTA Victoria Laboratory (Australia)
+     * Jacques Robin, Universidade Federal de Pernambuco (Brazil)
+     * Tom Schrijvers, K.U.Leuven  (Belgium)
+     * Martin Sulzmann, National University of Singapore (Republic of
+Singapore)
+
+   Workshop Coordinators:
+
+     * Khalil Djelloul (contact person)
+       Faculty of computer science.University of Ulm. Germany
+       http://khalil.djelloul.free.fr
+
+     * Gregory J. Duck
+       NICTA Victoria Laboratory. University of Melbourne. Australia
+       http://www.cs.mu.oz.au/~gjd/
+
+     * Martin Sulzmann
+       Department of Computer Science. National university of Singapore.
+       Republic of Singapore
+       http://www.comp.nus.edu.sg/~sulzmann/
+
+
+
+--981886253-1562821125-1179991209=:11389--

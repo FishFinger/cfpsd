@@ -1,0 +1,225 @@
+From - Thu Dec 10 14:38:04 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.122.79 with SMTP id k15cs928420bkr;
+        Sun, 16 Aug 2009 06:36:11 -0700 (PDT)
+Received: by 10.211.194.4 with SMTP id w4mr1992407ebp.41.1250429768708;
+        Sun, 16 Aug 2009 06:36:08 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si8275138ewy.17.2009.08.16.06.36.07;
+        Sun, 16 Aug 2009 06:36:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@mpi-sb.mpg.de
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 32E1223F3A; Sun, 16 Aug 2009 15:36:07 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3560F23D05;
+	Sun, 16 Aug 2009 15:32:02 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 78F273D2B;
+	Sun, 16 Aug 2009 15:32:02 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wtd6BHuVkX9y; Sun, 16 Aug 2009 15:32:02 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7B54A3D7D;
+	Sun, 16 Aug 2009 15:31:20 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 466283D2B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 14 Aug 2009 02:04:06 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bjhlmengd7sr for <elsnet-list@mailman.elsnet.org>;
+	Fri, 14 Aug 2009 02:04:06 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0E5583D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 14 Aug 2009 02:03:45 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DCCBE23320; Fri, 14 Aug 2009 02:03:45 +0200 (MEST)
+X-Greylist: delayed 362 seconds by postgrey-1.28 at newjura;
+	Fri, 14 Aug 2009 02:03:32 MEST
+Received: from hera.mpi-sb.mpg.de (infao0809.mpi-sb.mpg.de [139.19.1.49])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id EFF1023324
+	for <elsnet-list@elsnet.org>; Fri, 14 Aug 2009 02:03:24 +0200 (MEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=mpi-sb.mpg.de; s=mail200803; h=Message-Id:From:To:Content-Type:
+	Content-Transfer-Encoding:Mime-Version:Subject:Date; bh=uZChZvOD
+	HSnVdl4b7xtJ+MiKoRj8hMkfanMKSa/5F/c=; b=sxiLshH6WrXK7mSsNy1aZoIb
+	ooc3q/7IvY09svaJWXVGehsQlrlGVzftj0HbXihr13DAdj7d/fkDSbBk2NuMBp05
+	KVhwwMdIzi6ohGnSKb+oTV6rAsMYm2GL3VEyL/xxxWtStbGU3N42t7HLWmwoyr8T
+	+9G4xwDKfoQ+I7/bJto=
+Received: from infao0525.mpi-sb.mpg.de ([139.19.1.26]:54046
+	helo=newmaniac.mpi-sb.mpg.de)
+	by hera.mpi-sb.mpg.de (envelope-from <koller@mmci.uni-saarland.de>) 
+	with esmtp (Exim 4.69) id 1MbkAb-0002Kx-5p
+	for elsnet-list@elsnet.org; Fri, 14 Aug 2009 01:57:24 +0200
+Received: from 66-90-167-83.dyn.grandenetworks.net ([66.90.167.83]:54708
+	helo=[192.168.1.104]) by newmaniac.mpi-sb.mpg.de with esmtpsa
+	(TLS-1.0:RSA_AES_128_CBC_SHA1:16) (Exim 4.63)
+	(envelope-from <koller@mmci.uni-saarland.de>) id 1MbkAa-0002Kg-EG
+	for elsnet-list@elsnet.org; Fri, 14 Aug 2009 01:57:21 +0200
+Message-Id: <3345F7E3-5C68-42B6-AEBA-E354DDAE1641@mmci.uni-saarland.de>
+From: Alexander Koller <koller@mmci.uni-saarland.de>
+To: elsnet-list@elsnet.org
+Content-Type: text/plain; charset=US-ASCII; format=flowed
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (Apple Message framework v936)
+Date: Thu, 13 Aug 2009 18:57:20 -0500
+X-Mailer: Apple Mail (2.936)
+X-Mailman-Approved-At: Sun, 16 Aug 2009 15:30:46 +0200
+Cc: 
+Subject: [Elsnet-list] GIVE-2: The Second NLG Challenge on Generating
+	Instructions in Virtual Environments
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+Second NLG Challenge on Generating Instructions in Virtual Environments
+			       (GIVE-2)
+
+                Second Call for NLG System Submissions
+
+		  Part of Generation Challenges 2010
+	       Endorsed by SIGGEN, SIGDIAL, and SIGSEM
+
+	       http://www.give-challenge.org/research/
+
+
+We invite contributions to the second round of the Challenge on
+Generating Instructions in Virtual Environments (GIVE-2). See below
+for details of the challenge and a timeline, or check our website.
+
+You can try out a prototype of the GIVE-2 client with a
+proof-of-concept NLG system here: http://www.give-challenge.org/give2
+
+
+Overview
+--------
+
+The Challenge on Generating Instructions in Virtual Environments
+(GIVE) is a novel approach to the notoriously hard problem of
+evaluating NLG systems. In this scenario, a human user performs a
+"treasure hunt" task in a virtual 3D environment. The NLG system's job
+is to generate, in real time, a sequence of natural-language
+instructions that will help the user perform this task. The crucial
+thing is that users connect to the generation systems over the
+Internet. By logging how well they were able to follow the system's
+instructions, we can evaluate the quality of these instructions in
+terms of task completion rates and times, subjective measures such as
+helpfulness and friendliness, and runtime performance. Because the
+user and the system don't need to be physically in the same place,
+access to experimental subjects over the Internet becomes easy.
+
+GIVE is a theory-neutral, end-to-end evaluation effort for NLG
+systems. It involves research opportunities in text planning, sentence
+planning, realization, and situated communication. One particularly
+interesting aspect of situating the generation problem in a virtual
+environment is that spatial and relational expressions play a bigger
+role than in other NLG tasks. Beyond NLG, GIVE can be interesting as a
+testbed for improving the NLG components of dialogue systems, and for
+computational semanticists working on spatial language.
+
+
+GIVE-2
+------
+
+In the GIVE-1 Challenge, which we ran last year, five NLG systems were
+evaluated using data from almost 1200 game runs. To our knowledge,
+this made GIVE-1 the largest ever NLG evaluation effort in terms of
+the number of experimental subjects. We presented the results of the
+evaluation at the ENLG Workshop, and have verified that these results
+are consistent with (but more detailed than) the results that could be
+obtained from a traditional lab-based evaluation.
+
+Now we invite you to develop a GIVE NLG system and participate in
+GIVE-2. The main novelty in GIVE-2 is that where GIVE-1 used discrete
+worlds (which were based on square tiles, and the user could only jump
+from the center of one tile to the center of the next, and turn in 90
+degree steps), GIVE-2 will permit free, continuous movements in the
+worlds. This will make the generation task more challenging because
+simple instructions of the form "walk three steps forward" are no
+longer possible.
+
+Anyone is invited to submit an NLG system to participate in the GIVE-2
+Challenge. We particularly invite contributions from students and
+student teams. All participating systems will be evaluated, and the
+results will be presented at INLG 2010. To get an idea of what this
+involves, you may want to go to the GIVE website mentioned above and
+take a look at our EACL 2009 demo paper describing the software
+architecture, or download the GIVE-1 software and look at it in more
+detail.
+
+
+Timeline
+--------
+
+We plan to release a first version of the GIVE-2 software package by
+the end of this month. You will then have time until February to
+develop your systems. From February to April, we will run the
+evaluation; at this time, users will connect to the NLG systems over
+the Internet, through a central matchmaking service which we will
+provide. You will then have the opportunity to write a research report
+about your system, which will be presented together with the
+evaluation results at the Generation Challenges session of the INLG
+conference in July 2010.
+
+Important dates:
+
+August 2009            materials distributed to participants
+February-April 2010    evaluation period
+July 2010              presentation of results at INLG
+
+If you are interested in participating, please let us know as soon as
+you can at koller@mmci.uni-saarland.de. We look forward to hearing
+from you!
+
+
+GIVE-2.5
+--------
+
+We plan to repeat GIVE-2 with minor modifications in 2010-11. If you
+happen not to have time or available students this summer, this means
+you get a second chance to participate. In addition, GIVE-2
+participants will have an opportunity to improve their systems based
+on their experiences in the GIVE-2 evaluation.
+
+
+Organizing committee
+--------------------
+
+Donna Byron, Northeastern University
+Justine Cassell, Northwestern University
+Robert Dale, Macquarie University
+Alexander Koller, Saarland University
+Johanna Moore, University of Edinburgh
+Jon Oberlander, University of Edinburgh
+Kristina Striegnitz, Union College
+
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

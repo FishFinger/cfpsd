@@ -1,0 +1,1130 @@
+From - Thu Dec 10 14:28:36 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs233411waa;
+        Mon, 5 Nov 2007 15:48:14 -0800 (PST)
+Received: by 10.140.250.14 with SMTP id x14mr2711437rvh.1194306494578;
+        Mon, 05 Nov 2007 15:48:14 -0800 (PST)
+Return-Path: <sentto-1622440-2456-1194306471-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id k2si15281411rvb.2007.11.05.15.48.07;
+        Mon, 05 Nov 2007 15:48:14 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2456-1194306471-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.16;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2456-1194306471-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2456-1194306471-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; domainkeys=hardfail header.From=lpl-infos@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id lA5Nm508002860
+	for <jpprost@gmail.com>; Tue, 6 Nov 2007 10:48:05 +1100 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id lA5Nm5WI028612
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 6 Nov 2007 10:48:05 +1100 (EST)
+X-ASG-Debug-ID: 1194306481-456800290000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1194306481
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id D8BF27995E3
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue,  6 Nov 2007 10:48:01 +1100 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id lA5Nm0Vv002852
+	for <jpprost@ics.mq.edu.au>; Tue, 6 Nov 2007 10:48:00 +1100 (EST)
+Received: from n37d.bullet.mail.sp1.yahoo.com (n37d.bullet.mail.sp1.yahoo.com [66.163.168.191])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id lA5Nlw9k023783
+	for <jpprost@ics.mq.edu.au>; Tue, 6 Nov 2007 10:47:59 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=gyj3ZTH0Uue9QS9fACxGGm6iPDaHQkgQblGscTJAytfkilfZV/BBFTmt9K66OUZO4UBQDpS2wJrL0myBVIYbYSo4fyX2VzFIlHDQZ7QYGbVYh1bsUCUAa3Cxq0RBx2fD;
+Received: from [216.252.122.218] by n37.bullet.mail.sp1.yahoo.com with NNFMP; 05 Nov 2007 23:47:52 -0000
+Received: from [66.218.69.6] by t3.bullet.sp1.yahoo.com with NNFMP; 05 Nov 2007 23:47:52 -0000
+Received: from [66.218.67.108] by t6.bullet.scd.yahoo.com with NNFMP; 05 Nov 2007 23:47:52 -0000
+X-Yahoo-Newman-Id: 1622440-m2456
+X-Sender: bernarbel@gmail.com
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 33799 invoked from network); 5 Nov 2007 23:47:50 -0000
+X-Received: from unknown (66.218.67.97)
+  by m44.grp.scd.yahoo.com with QMQP; 5 Nov 2007 23:47:50 -0000
+X-Received: from unknown (HELO nf-out-0910.google.com) (64.233.182.190)
+  by mta18.grp.scd.yahoo.com with SMTP; 5 Nov 2007 23:47:49 -0000
+X-Received: by nf-out-0910.google.com with SMTP id k4so1456753nfd
+        for <lpl-infos@yahoogroupes.fr>; Mon, 05 Nov 2007 15:47:48 -0800 (PST)
+X-Received: by 10.86.99.9 with SMTP id w9mr377151fgb.1194306468064;
+        Mon, 05 Nov 2007 15:47:48 -0800 (PST)
+X-Received: from ?192.168.2.2? ( [82.250.221.139])
+        by mx.google.com with ESMTPS id j2sm15987170mue.2007.11.05.15.47.42
+        (version=SSLv3 cipher=OTHER);
+        Mon, 05 Nov 2007 15:47:46 -0800 (PST)
+Message-Id: <p06230902c3555bae6b9f@[192.168.2.2]>
+To: lpl-infos@yahoogroupes.fr
+X-Originating-IP: 64.233.182.190
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Bernard Bel <bernarbel@gmail.com>
+X-Yahoo-Profile: belbernard
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Tue, 6 Nov 2007 00:46:50 +0100
+X-ASG-Orig-Subj: [lpl-infos] Music and Language II: Save the Date and Call for Papers
+Subject: [lpl-infos] Music and Language II: Save the Date and Call for Papers
+X-Yahoo-Newman-Property: groups-email-ff-m
+Content-Type: multipart/mixed;
+ boundary="============_-1017816033==_============"
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.40
+X-Barracuda-Spam-Status: No, SCORE=0.40 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=BSF_SC0_SA085b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.33075
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.40 BSF_SC0_SA085b         URI: Custom Rule SA085b
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+
+--============_-1017816033==_============
+Content-Type: multipart/alternative;
+ boundary="NB-IcCd0Bfft7j8KtNr97vDDEXX2rsGW1Bh2ue7"
+
+--NB-IcCd0Bfft7j8KtNr97vDDEXX2rsGW1Bh2ue7
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+Date: Mon, 05 Nov 2007 14:22:30 -0500
+From: Office of the provost <provost@tufts.edu>
+Organization: Tufts University
+To: musiclanguage@elist.tufts.edu
+
+Save the Date and Call for Papers for Music and Language II, a conference at Tufts University, Medford, MA, July 10-13, 2008
+
+Tufts University is hosting a conference on music and language July 10-13, 2008 at the Perry and Marty Granoff Music Center.  Music and Language II follows the successful conference held at Cambridge University, UK in May 2007 on music and language as cognitive systems.
+
+We invite presenters and participants from all fields (music, psychology, linguistics, cognitive science, anthropology, etc) to submit paper and poster abstracts and/or attend.  Paper and poster submissions are due December 1, 2007.  Please visit our website at: http://musicandlanguage.tufts.edu/ or use the attached form to submit an abstract.
+
+We will also be honoring Ray Jackendoff, Seth Merrin Professor of Philosophy at Tufts, and Fred Lerdahl, Fritz Reiner Professor of Music at Columbia University.  This year marks the 25th anniversary of their seminal work 'A Generative Theory of Tonal Music'.
+
+More information regarding registration and program specifics will be forthcoming.  Please mark your calendars and check our website for more updates.  If you have any questions, please contact the Office of the Provost at 617-627-3931.
+
+
+
+
+--NB-IcCd0Bfft7j8KtNr97vDDEXX2rsGW1Bh2ue7
+Content-Type: text/html; charset=US-ASCII
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>Date: Mon, 05 Nov 2007 14:22:30 -0500<br>
+From: Office of the provost &lt;<a href=3D"mailto:provost%40tufts.edu">prov=
+ost@tufts.<wbr>edu</a>&gt;<br>
+Organization: Tufts University<br>
+To: <a href=3D"mailto:musiclanguage%40elist.tufts.edu">musiclanguage@<wbr>e=
+list.tufts.<wbr>edu</a><br>
+<br>
+Save the Date and Call for Papers for Music and Language II, a conference a=
+t Tufts University, Medford, MA, July 10-13, 2008<br>
+<br>
+Tufts University is hosting a conference on music and language July 10-13, =
+2008 at the Perry and Marty Granoff Music Center.  Music and Language II fo=
+llows the successful conference held at Cambridge University, UK in May 200=
+7 on music and language as cognitive systems.<br>
+<br>
+We invite presenters and participants from all fields (music, psychology, l=
+inguistics, cognitive science, anthropology, etc) to submit paper and poste=
+r abstracts and/or attend.  Paper and poster submissions are due December 1=
+, 2007.  Please visit our website at: <a href=3D"http://musicandlanguage.tu=
+fts.edu/">http://musicandlang<wbr>uage.tufts.<wbr>edu/</a> or use the attac=
+hed form to submit an abstract.<br>
+<br>
+We will also be honoring Ray Jackendoff, Seth Merrin Professor of Philosoph=
+y at Tufts, and Fred Lerdahl, Fritz Reiner Professor of Music at Columbia U=
+niversity.  This year marks the 25th anniversary of their seminal work 'A G=
+enerative Theory of Tonal Music'.<br>
+<br>
+More information regarding registration and program specifics will be forth=
+coming.  Please mark your calendars and check our website for more updates.=
+  If you have any questions, please contact the Office of the Provost at 61=
+7-627-3931.<br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/245=
+6;_ylc=3DX3oDMTM0aWw2bG9tBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI0NTYEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMTk0MzA2NDcyBHRwY=
+0lkAzI0NTY-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwODY0MGl1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI0NTYEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMTk0MzA2NDcy?act=3Dreply&me=
+ssageNum=3D2456">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlcWR1amtiBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTE5NDMwNjQ3Mg--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlYWdhOGcyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTE5NDMwNjQ3Mg--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmY2pmcGExBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzExOTQzMDY0NzI-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJldWhlZ3NjBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTE5NDMwNjQ3Mg--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmMnZlZ2sxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzExOTQzMDY0NzI-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjZG40bXQxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzExOTQzMDY0NzI-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmcGxxN2VyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzExOTQzMDY0NzI-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlZWtydnJqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTE5NDMwNjQ3Mg--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkNWVpMGV2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMTk0MzA2NDcy">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkMWlzNnJpBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMTk0MzA2NDcy">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmNzM1a2M0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzExOTQzMDY0NzI-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+cXE2NzlzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMTk0MzA2NDcy">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlczJjMGw1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTE5NDMwNjQ3Mg--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Network content -->
+              <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrYnRraDkzBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTE5NDMwNjQ3Mg--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuMGFpMzk0BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTE5NDMwNjQ3Mg--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvN29tZXBpBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzExOTQzMDY0NzI-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div>   <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440=
+/grpspId=3D2123803216/msgId=3D2456/stime=3D1194306472/nc1=3D1/nc2=3D2/nc3=
+=3D3" width=3D"1" height=3D"1"> <br>
+
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a{
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc{
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o{font-size: 0; }
+.MsoNormal{
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq{margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--NB-IcCd0Bfft7j8KtNr97vDDEXX2rsGW1Bh2ue7--
+
+--============_-1017816033==_============
+Content-Id: <p06230902c3555bae6b9f@[192.168.2.2].0.0>
+Content-Type: application/msword; name="Paper.Poster Submission Form_Final.doc"
+ ; x-mac-type="5744424E"
+ ; x-mac-creator="C74943C8"
+Content-Disposition: attachment; filename="Paper.Poster Submission Form_Final.doc"
+Content-Transfer-Encoding: base64
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAPgADAP7/CQAGAAAAAAAAAAAAAAABAAAANAAA
+AAAAAAAAEAAANgAAAAEAAAD+////AAAAADMAAAD/////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+///spcEAI2AJBAAA+BK/AAAAAAAAEAAAAAAABgAAgB0AAA4AYmpialwuXC4AAAAAAAAA
+AAAAAAAAAAAAAAAJBBYANCAAAD5EAQA+RAEAZQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAD//w8AAAAAAAAAAAD//w8AAAAAAAAAAAD//w8AAAAAAAAAAAAAAAAAAAAA
+AKQAAAAAANwDAAAAAAAA3AMAANwDAAAAAAAA3AMAAAAAAADcAwAAAAAAANwDAAAAAAAA
+3AMAABQAAAAAAAAAAAAAAPADAAAAAAAAOAsAAAAAAAA4CwAAAAAAADgLAAAAAAAAOAsA
+ACQAAABcCwAAFAAAAPADAAAAAAAAXBAAALYAAAB8CwAA3AAAAFgMAAAAAAAAWAwAAAAA
+AABYDAAAAAAAAFgMAAAAAAAAMw0AAHYAAACpDQAATAAAAPUNAAAoAAAAtw8AAAIAAAC5
+DwAAAAAAALkPAAAAAAAAuQ8AAAAAAAC5DwAAAAAAALkPAAAAAAAAuQ8AACQAAAASEQAA
+aAIAAHoTAACGAAAA3Q8AADkAAAAAAAAAAAAAAAAAAAAAAAAA3AMAAAAAAAAdDgAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAzDQAAAAAAADMNAAAAAAAAHQ4AAAAAAAAdDgAAAAAAAN0P
+AAAAAAAAAAAAAAAAAADcAwAAAAAAANwDAAAAAAAAWAwAAAAAAAAAAAAAAAAAAFgMAADb
+AAAAFhAAABYAAABfDwAAAAAAAF8PAAAAAAAAXw8AAAAAAAAdDgAALgAAANwDAAAAAAAA
+WAwAAAAAAADcAwAAAAAAAFgMAAAAAAAAtw8AAAAAAAAAAAAAAAAAAF8PAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQ4AAAAA
+AAC3DwAAAAAAAAAAAAAAAAAAXw8AAAAAAAAAAAAAAAAAAF8PAAAAAAAA3AMAAAAAAADc
+AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAXw8AAAAAAABYDAAAAAAAAHALAAAMAAAAwENpteoFyAEAAAAAAAAA
+ADgLAAAAAAAASw4AACIAAABfDwAAAAAAAAAAAAAAAAAAtw8AAAAAAAAsEAAAMAAAAFwQ
+AAAAAAAAXw8AAAAAAAAAFAAAAAAAAG0OAADcAAAAABQAAAAAAABfDwAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAADcAwAAAAAAAF8PAABYAAAAHQ4A
+AAAAAAAdDgAAAAAAAF8PAAAAAAAAHQ4AAAAAAAAdDgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAHQ4AAAAAAAAdDgAAAAAAAB0OAAAAAAAA3Q8AAAAAAADd
+DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASQ8AABYAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0OAAAAAAAAHQ4AAAAAAAAdDgAAAAAA
+AFwQAAAAAAAAHQ4AAAAAAAAdDgAAAAAAAB0OAAAAAAAAHQ4AAAAAAAAAAAAAAAAAAPAD
+AAAAAAAA8AMAAAAAAADwAwAARAQAADQIAAAEAwAA8AMAAAAAAADwAwAAAAAAAPADAAAA
+AAAANAgAAAAAAADwAwAAAAAAAPADAAAAAAAA8AMAAAAAAADcAwAAAAAAANwDAAAAAAAA
+3AMAAAAAAADcAwAAAAAAANwDAAAAAAAA3AMAAAAAAAD/////AAAAAAIADAEAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAFBhcGVyL1Bvc3RlciBTdWJtaXNzaW9uIEZvcm0NDVBsZWFzZSBzdWJt
+aXQgdGhlIGNvbXBsZXRlZCBwYXBlci9wb3N0ZXIgYWJzdHJhY3Qgc3VibWlzc2lvbiBm
+b3JtIHRvIHRoZSBUdWZ0cyBVbml2ZXJzaXR5IE9mZmljZSBvZiB0aGUgUHJvdm9zdCBi
+eSBlbWFpbGluZyATIEhZUEVSTElOSyAibWFpbHRvOkplc3NpY2EuU2hlcGFyZEB0dWZ0
+cy5lZHUiIAEUSmVzc2ljYS5TaGVwYXJkQHR1ZnRzLmVkdRUgYnkgRGVjZW1iZXIgMSwg
+MjAwNy4gQWxsIGZpZWxkcyBiZWxvdyBhcmUgcmVxdWlyZWQsIGFuZCBvbmx5IGVsZWN0
+cm9uaWMgY29waWVzIG9mIHRoZSBzdWJtaXNzaW9uIGZvcm0gd2lsbCBiZSBhY2NlcHRl
+ZC4gVGhlcmUgd2lsbCBiZSBhIGxpbWl0ZWQgbnVtYmVyIG9mIHNsb3RzIGF2YWlsYWJs
+ZSBmb3IgcGFwZXJzLCBwbGVhc2UgaW5kaWNhdGUgeW91ciBwcmVmZXJlbmNlIGZvciBt
+b2RlIG9mIHByZXNlbnRhdGlvbiBhbmQgaWYgeW91IHdvdWxkIGJlIHdpbGxpbmcgdG8g
+cHJlc2VudCB5b3VyIHdvcmsgaW4gYSBwb3N0ZXIgc2Vzc2lvbi4gUE9TVEVSUyBDQU5O
+T1QgRVhDRUVEIDKSeDOSIElOIFNJWkUuIElmIHlvdSBoYXZlIHF1ZXN0aW9ucywgcGxl
+YXNlIGNvbnRhY3QgdGhlIE9mZmljZSBvZiB0aGUgUHJvdm9zdCBhdCA2MTctNjI3LTM5
+MzEuDQ1QbGVhc2UgaW5kaWNhdGUgeW91ciBwcmVmZXJlbmNlKHMpIGZvciBtb2RlIG9m
+IHByZXNlbnRhdGlvbjogC1BhcGVyIBMgRk9STUNIRUNLQk9YIAEVCVBvc3RlciATIEZP
+Uk1DSEVDS0JPWCABFQ0NDVBvc3RlciBJbmZvcm1hdGlvbjoNU2l6ZSBvZiBQb3N0ZXI6
+CQkJUG9zdGVyIHdpbGwgYmUgcHJlc2VudGVkOiAgICAgTGVuZ3Rod2lzZSATIEZPUk1D
+SEVDS0JPWCABFSAJICBXaWR0aHdpc2UgEyBGT1JNQ0hFQ0tCT1ggARUNDQ1UaXRsZSBv
+ZiBBYnN0cmFjdDogEyBGT1JNVEVYVCABFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAACIAIgAiACIAIgFQANAA0ADQBOAGEAbQBlACgAcwApACAAbwBm
+ACAAQQB1AHQAaABvAHIAcwAoAHMAKQAgACgARgBpAHIAcwB0ACAATgBhAG0AZQAsACAA
+TABhAHMAdAAgAE4AYQBtAGUALAAgAFQAaQB0AGwAZQAsACAASQBuAHMAdABpAHQAdQB0
+AGkAbwBuAGEAbAAgAEEAZgBmAGkAbABpAGEAdABpAG8AbgApADoAIAATACAARgBPAFIA
+TQBUAEUAWABUACAAAQAUAAIgAiACIAIgAiAVAA0ADQANAFAAcgBlAHMAZQBuAHQAZQBk
+ACAAYgB5ACAAKABGAGkAcgBzAHQAIABOAGEAbQBlACwAIABMAGEAcwB0ACAATgBhAG0A
+ZQAsACAAVABpAHQAbABlACwAIABJAG4AcwB0AGkAdAB1AHQAaQBvAG4AYQBsACAAQQBm
+AGYAaQBsAGkAYQB0AGkAbwBuACkAOgAgABMAIABGAE8AUgBNAFQARQBYAFQAIAABABQA
+AiACIAIgAiACIBUADQANAA0AUABsAGUAYQBzAGUAIABpAG4AZABpAGMAYQB0AGUAIABp
+AGYAIABjAHUAcgByAGUAbgB0AGwAeQAgAGEAIABnAHIAYQBkAHUAYQB0AGUAIABzAHQA
+dQBkAGUAbgB0ADoAIAAJAFkAZQBzACAAEwAgAEYATwBSAE0AQwBIAEUAQwBLAEIATwBY
+ACAAAQAVACAACQBOAG8AIAATACAARgBPAFIATQBDAEgARQBDAEsAQgBPAFgAIAABABUA
+DQANAA0ARQBtAGEAaQBsACAAYQBkAGQAcgBlAHMAcwA6ACAAEwAgAEYATwBSAE0AVABF
+AFgAVAAgAAEAFAACIAIgAiACIAIgFQAJAAkACQAgACAAIAAgACAAIAAgACAAIAAgACAA
+VABlAGwAZQBwAGgAbwBuAGUAIABOAHUAbQBiAGUAcgA6ACAAEwAgAEYATwBSAE0AVABF
+AFgAVAAgAAEAFAACIAIgAiACIAIgFQANAA0ADQBFAHEAdQBpAHAAbQBlAG4AdAAgAG4A
+ZQBlAGQAcwAgACgAUABsAGUAYQBzAGUAIABuAG8AdABlACAAdABoAGEAdAAgAHQAaABl
+ACAAcwBlAHMAcwBpAG8AbgAgAHIAbwBvAG0AcwAgAHcAaQBsAGwAIABiAGUAIABvAHUA
+dABmAGkAdAB0AGUAZAAgAHcAaQB0AGgAIABhAG4AIABMAEMARAAgAHAAcgBvAGoAZQBj
+AHQAbwByACAAYQBuAGQAIABzAGMAcgBlAGUAbgAgAGEAcwAgAHcAZQBsAGwAIABhAHMA
+IABhACAAaABpAGcAaAAgAHEAAAYAAAYIAAAMCAAADQgAABgIAAAdCAAAOggAAD8IAABG
+CAAAXwgAAGcIAAB4CAAAmggAAJsIAADJCAAAyggAAMsIAADkCAAA5QgAAOkIAAD5CAAA
+OAkAAEsJAABeCQAAGwoAADcKAAA+CgAAQAoAAJIKAADOCgAA1goAANcKAADlCgAA5goA
+AOcKAADvCgAA8AoAAP4KAAD/CgAAAAsAAAELAAADCwAAFwsAAPbt4djh1NDM0NTQ1MTU
+ucSwxNSs1KjUpKCcoNSUpIykgYykjKR2jKSgcQAAAAAAAAAAAAAAAAkWaN9hIwA1CIEV
+AgiBA2pfAQAABggBFmhoGXwAVQgBFQIIgQNq6wAAAAYIARZoaBl8AFUIAQ8DagAAAAAW
+aGgZfABVCAEPFWhsZ+4AFmhoGXwANQiBBhZogVL3AAAGFmjfYSMAAAYWaGgZfAAABhZo
+sxejAAAGFmiQVj8AABAVaNQTDQAWaOgJFgAwSg8AABUCCIEDagAAAAAGCAEWaOgJFgBV
+CAEPA2oAAAAAFmjoCRYAVQgBBhZoUkLCAAAGFmimTrEAAAYWaOgJFgAAERZoSHlyADUI
+gUNKHABhShwAFxVo6AkWABZo6AkWADUIgUNKHABhShwAERZoElJkADUIgUNKHABhShwA
+ERZoaBl8ADUIgUNKHABhShwAACoABgAAHQgAAB4IAACRCgAAkgoAAAELAAACCwAAAwsA
+ABcLAACDCwAAhAsAAIULAAAODAAAEAwAABIMAADcDAAA3gwAAOAMAACYDQAAmg0AAJwN
+AABYDgAAWg4AAFwOAAAIDwAACg8AAAwPAAAEHQAA9wAAAAAAAAAAAAAAAPIAAAAAAAAA
+AAAAAADyAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAADyAAAAAAAA
+AAAAAAAA8gAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAADtAAAAAAAAAAAAAAAA8gAAAAAA
+AAAAAAAAAPIAAAAAAAAAAAAAAADyAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAPIAAAAA
+AAAAAAAAAADyAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAADyAAAA
+AAAAAAAAAAAA8gAAAAAAAAAAAAAAAPIAAAAAAAAAAAAAAADyAAAAAAAAAAAAAAAA8gAA
+AAAAAAAAAAAAAPIAAAAAAAAAAAAAAADyAAAAAAAAAAAAAAAA8gAAAAAAAAAAAAAAAPIA
+AAAAAAAAAAAAAADyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAZ2TfYSMAAAQAAGdk
+6AkWAAAHAAADJAFhJAFnZOgJFgAAGwAGAACAHQAA/QAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAABAQAAQEBFwsAACYLAAAqCwAAQgsAAFILAABTCwAAYQsA
+AGILAABjCwAAcQsAAHILAACACwAAgQsAAIILAACDCwAAhAsAAIULAACYCwAAmQsAAKML
+AACkCwAAAAwAAAoMAAAMDAAAQAwAAGoMAAB4DAAArgwAALAMAACyDAAAtAwAALYMAADK
+DAAAzAwAAM4MAADYDAAA2gwAANwMAAD8DAAAJg0AAPn1+fXt9eLt9e311+31+dLNwrut
+wqXCoJuWkYqgzcK7fMJrwmSgmwAMFWiFNzMAFmjoCRYAACADagAAAAAVaIU3MwAWaIU3
+MwBVCAFtSAAEbkgABHUIAQAbAgiBA2ovAwAABggBFWiFNzMAFmimTrEAVQgBDBVo8U26
+ABZo6AkWAAAJFmiQVj8ANgiBCRZosxejADYIgQkWaOgJFgA2CIEJFmjoCRYANQiBDwNq
+AAAAABZoaBl8AFUIARsCCIEDarsCAAAGCAEVaIU3MwAWaKZOsQBVCAEMFWiFNzMAFmiF
+NzMAABUDagAAAAAVaIU3MwAWaIU3MwBVCAEJFmiFNzMANQiBCRZoaBl8ADUIgRUCCIED
+akcCAAAGCAEWaN9hIwBVCAEVAgiBA2rTAQAABggBFmjfYSMAVQgBDwNqAAAAABZo32Ej
+AFUIAQYWaN9hIwAADBVo32EjABZo32EjACcmDQAANA0AAGoNAABsDQAAbg0AAHANAABy
+DQAAhg0AAIgNAACKDQAAlA0AAJYNAACYDQAAmg0AAJwNAAD+DQAAAA4AAAYOAAAIDgAA
+Cg4AACYOAAAoDgAAKg4AADQOAAA2DgAAUg4AAFQOAABWDgAAWA4AAFoOAAB4DgAAeg4A
+AHwOAACQDgAAkg4AAJQOAACeDgAAoA4AAKYOAAC8DgAA3g4AAOAOAAD69e7p5NnSxNmz
+2a+q6aqlnqWWkoeWkpaSfJZ4qunk2dJq2bPZ6eTp5AAAABsCCIEDav8EAAAGCAEVaIU3
+MwAWaKZOsQBVCAEGFmiQVj8AABUCCIEDaosEAAAGCAEWaFJCwgBVCAEVAgiBA2oXBAAA
+BggBFmhSQsIAVQgBBhZoUkLCAAAPA2oAAAAAFmhSQsIAVQgBDBVoUkLCABZoUkLCAAAJ
+FmhSQsIANQiBCRZokFY/ADUIgQYWaOgJFgAAIANqAAAAABVohTczABZohTczAFUIAW1I
+AARuSAAEdQgBABsCCIEDaqMDAAAGCAEVaIU3MwAWaKZOsQBVCAEMFWiFNzMAFmiFNzMA
+ABUDagAAAAAVaIU3MwAWaIU3MwBVCAEJFmiFNzMANQiBCRZo6AkWADUIgQwVaPFNugAW
+aOgJFgAACRZokFY/ADYIgQkWaLMXowA2CIEAKeAOAADiDgAA9g4AAPgOAAD6DgAABA8A
+AAYPAAAsDwAALg8AAFYPAABoDwAAcA8AAHIPAAAAEAAAABwAAJgcAADWHAAA2BwAANoc
+AADcHAAA3hwAAPIcAAD0HAAA9hwAAAAdAAACHQAABB0AAAYdAAAIHQAAHB0AAB4dAABM
+HQAATh0AAFAdAABSHQAAVB0AAGgdAABqHQAAbB0AAHYdAAB4HQAAfh0AAIAdAAD07d/0
+zvTJxcC7wLvAucC0raWg9O2S9M70rcmNycW0icmg9O179M70yXMAAAAAAAAAAAAAAAAA
+AAAADxVo6AkWABZo6AkWADUIgRsCCIEDalsGAAAGCAEVaIU3MwAWaKZOsQBVCAEGFmjx
+TboAAAkWaPFNugA1CIEbAgiBA2rnBQAABggBFWiFNzMAFmimTrEAVQgBCRZohTczADUI
+gQ8VaPFNugAWaPFNugA1CIEMFWjxTboAFmjoCRYAAAkWaPFNugA2CIEDVQgBCRZokFY/
+ADYIgQkWaOgJFgA2CIEGFmjoCRYAAAkWaOgJFgA1CIEgA2oAAAAAFWiFNzMAFmiFNzMA
+VQgBbUgABG5IAAR1CAEAGwIIgQNqcwUAAAYIARVohTczABZopk6xAFUIAQwVaIU3MwAW
+aIU3MwAAFQNqAAAAABVohTczABZohTczAFUIAQAqdQBhAGwAaQB0AHkAIABzAG8AdQBu
+AGQAIABzAHkAcwB0AGUAbQAuACAAVwBlACAAdwBpAGwAbAAgAGgAYQB2AGUAIABhACAA
+bABhAHAAdABvAHAAIABvAG4AIABoAGEAbgBkACwAIABiAHUAdAAgAHAAbABlAGEAcwBl
+ACAAaQBuAGQAaQBjAGEAdABlACAAaQBmACAAeQBvAHUAIAB3AG8AdQBsAGQAIABwAHIA
+ZQBmAGUAcgAgAHQAbwAgAHUAcwBlACAAeQBvAHUAcgAgAG8AdwBuACkAOgAgABMAIABG
+AE8AUgBNAFQARQBYAFQAIAABABQAAiACIAIgAiACIBUADQANAA0ADQBBAGIAcwB0AHIA
+YQBjAHQAIAAoAEEAcABwAHIAbwB4AGkAbQBhAHQAZQBsAHkAIAA1ADAAMAAgAHcAbwBy
+AGQAcwApADoAIAATACAARgBPAFIATQBUAEUAWABUACAAAQAUAAIgAiACIAIgAiAVAA0A
+DQANAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEHQAABh0AAAgdAAAKHQAAeh0A
+AHwdAAB+HQAAgB0AAPoAAAAAAAAAAAAAAAD6AAAAAAAAAAAAAAAA+gAAAAAAAAAAAAAA
+APoAAAAAAAAAAAAAAAD6AAAAAAAAAAAAAAAA+gAAAAAAAAAAAAAAAPoAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAABnZOgJFgAABzIAMZBoATpwhTczAB+w0C8g
+sOA9IbDwAyKw8AMjkDgEJJA4BCWwAAAXsNACGLDQAgyQ0AIAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6wAAAEQAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA0Mnqefm6zhGMggCqAEupCwIAAAAXAAAAGgAAAEoAZQBzAHMAaQBjAGEALgBTAGgA
+ZQBwAGEAcgBkAEAAdAB1AGYAdABzAC4AZQBkAHUAAADgyep5+brOEYyCAKoAS6kLQgAA
+AG0AYQBpAGwAdABvADoASgBlAHMAcwBpAGMAYQAuAFMAaABlAHAAYQByAGQAQAB0AHUA
+ZgB0AHMALgBlAGQAdQAAAHQAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wEAAAAUAAYAQwBoAGUA
+YwBrADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdAAAAEQAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////
+AQAAABQABgBDAGgAZQBjAGsAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AAAARAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAP////8BAAAAFAAGAEMAaABlAGMAawAxAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAHQAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wEAAAAUAAYAQwBoAGUAYwBrADEAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAdAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAABQABQBU
+AGUAeAB0ADEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AP////8AAAAAFAAFAFQAZQB4AHQAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQA
+AABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA/////wAAAAAUAAUAVABlAHgAdAAzAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAdAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AQAAABQABgBDAGgAZQBjAGsA
+MQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8BAAAA
+FAAGAEMAaABlAGMAawAxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAABEAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAA/////wAAAAAUAAUAVABlAHgAdAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAdAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAABQABQBUAGUAeAB0ADUAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAFAAFAFQAZQB4
+AHQANwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAABEAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////
+/wAAAAAUAAUAVABlAHgAdAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AIYCEAASAAEAnAAPAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAEDx/wIAQAAMBAAA
+AAAAAAAABgBOAG8AcgBtAGEAbAAAAAIAAAAYAENKGABfSAEEYUoYAG1ICQRzSAkEdEgJ
+BAAAAAAAAAAAAAAAAAAAAAAAAEQAQUDy/6EARAAMBQAAAAAAAAAAFgBEAGUAZgBhAHUA
+bAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0AAAAAABSAGkA8/+zAFIADAUA
+AAAAAAAAAAwAVABhAGIAbABlACAATgBvAHIAbQBhAGwAAAAcABf2AwAANNYGAAEKA2wA
+NNYGAAEFAwAAYfYDAAACAAsAAAAoAGsA9P/BACgAAAUAAAAAAAAAAAcATgBvACAATABp
+AHMAdAAAAAIAAAAAAAAANgBVQKIA8QA2AAwEAADoCRYAAAAJAEgAeQBwAGUAcgBsAGkA
+bgBrAAAADAA+KgFCKgJwaAAA/wAAAAAAZQYAAAUAACAAAAAA/////wAAAAAdAAAAHgAA
+AJECAACSAgAAAQMAAAIDAAADAwAAFwMAAIMDAACEAwAAhQMAAKwDAACtAwAArgMAABME
+AAAUBAAAFQQAAHEEAAByBAAAcwQAANEEAADSBAAA0wQAACkFAAAqBQAAKwUAACcGAAAo
+BgAAKQYAACoGAABiBgAAYwYAAGQGAABnBgAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAA
+AAAAAJgAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAA
+AAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACA
+AAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAA
+AAAAAIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAA
+ADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAA
+AJgAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAA
+AAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACAAAAA
+gAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAA
+AIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAA
+AAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgA
+AAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAA
+AAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACAAAAAgAAA
+AAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAA
+AACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAA
+AAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgAAAAA
+MAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAA
+mAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAAAACAAAAAgAAAAAAA
+AAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACA
+AAAAAAAAAAAAAAAAAAAdAAAAHgAAAJECAACSAgAArAMAAK0DAACuAwAAEwQAABQEAAAV
+BAAAcgQAANIEAADTBAAAKQUAACoFAAArBQAAJwYAACgGAAApBgAAKgYAAGIGAABjBgAA
+ZAYAAGcGAACaAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAHmAAAAAAwAAAAAAAAAIAA
+AACAAAAAAAAAAAAAAJIAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAAeYAAAAADAAAAAA
+AAAAgAAAAIAAAAAAAAAAAAAAmgAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAB5gAAAAA
+MAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAA
+mgAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAB5gAAAAAMAAAAAAAAACAAAAAgAAAAAAA
+AAAAAACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmgAAAAAwAAAAAAAAAIAAAACA
+AAAAAAAAAAAAB5oAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAAeYAAAAADAAAAAAAAAA
+gAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJoAAAAAMAAA
+AAAAAACAAAAAgAAAAAAAAAAAAAeYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmgAA
+AAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAB5gAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAA
+AACYAAAAADAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAA
+AAAAAAAAAJgAAAAAMAAAAAAAAACAAAAAgAAAAAAAAAAAAACYAAAAADAAAAAAAAAAgAAA
+AIAAAAAAAAAAAAAAmAAAAAAwAAAAAAAAAIAAAACAAAAAAAAAAAAAAJgAAAAAMAAAAAAA
+AACAAAAAgAAAAAAAAAAAAAAABgAAFwsAACYNAADgDgAAgB0AAAgAAAALAAAADAAAAA0A
+AAAABgAABB0AAIAdAAAJAAAADwAAAAAGAACAHQAACgAAAJoAAADKAAAA5AAAANYCAADm
+AgAA7wIAAP8CAABSAwAAYgMAAHEDAACBAwAAmAMAAKQDAACqAwAA/wMAAAsEAAARBAAA
+XQQAAGkEAABvBAAAqQQAALkEAAC/BAAAzwQAAOIEAADuBAAA9AQAABUFAAAhBQAAJwUA
+ABMGAAAfBgAAJQYAAE4GAABaBgAAYAYAAGUGAAATWBT/FYATR5UgE0eVIBNHlSQTR5Uk
+E0YU/5WME0YU/5WEE0YU/5WEE0eVJBNHlSQTRhT/lYQTRhT/lYQTRhT/lYQTRhT/lYQP
+AADwOAAAAAAABvAYAAAAAggAAAIAAAABAAAAAQAAAAEAAAACAAAAQAAe8RAAAAD//wAA
+AAD/AICAgAD3AAAQAA8AAvCSAAAAEAAI8AgAAAABAAAAAQQAAA8AA/AwAAAADwAE8CgA
+AAABAAnwEAAAAAAAAAAAAAAAAAAAAAAAAAACAArwCAAAAAAEAAAFAAAADwAE8EIAAAAS
+AArwCAAAAAEEAAAADgAAUwAL8B4AAAC/AQAAEADLAQAAAAD/AQAACAAEAwkAAAA/AwEA
+AQAAABHwBAAAAAEAAAD//wkAAAAGAEMAaABlAGMAawAxAAYAQwBoAGUAYwBrADIABQBU
+AGUAeAB0ADEABQBUAGUAeAB0ADIABQBUAGUAeAB0ADMABQBUAGUAeAB0ADQABQBUAGUA
+eAB0ADUABQBUAGUAeAB0ADcABQBUAGUAeAB0ADgA1wIAAPACAACZAwAAAAQAAF4EAADj
+BAAAFgUAABQGAABPBgAAZwYAAAAAAAABAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAHAAAA
+CAAAAOcCAAAAAwAAqwMAABIEAABwBAAA9QQAACgFAAAmBgAAYQYAAGcGAAAAAAAAmgAA
+AOUAAADmAAAA6AAAAOkAAADxAAAAZwYAAAcAAwAHAAMABwADAAcAAAAAAB4AAAD7AAAA
+QQQAAE4EAABnBgAABwADAAcAMwAHAAAAAAAMAAAADQAAAA0AAAA/AAAARgAAAJoAAADl
+AAAA6QAAAPkAAABeAQAAQAIAAGoCAABqAgAAkQIAAIUDAAClAwAAqgMAAOEDAAD8AwAA
+PwQAAFoEAABwBAAAcQQAAHIEAADRBAAA0wQAACkFAAApBQAAKwUAAFAFAABZBQAAXQUA
+AF4FAAAqBgAAZAYAAGcGAAAEAAcABAAHAAQABwAEAAcABAAHAAQABwAEAAcABAAHAAQA
+BwAEAAcABAAHAAQABwAEAAcABQAEAAUABwAEAAcABAAHAAUABwAAAAAAmgAAAOUAAABn
+BgAABwADAAcAEAAAAAQAAAAIAAAA5QAAAAAAAAAPAAAA6AkWAN9hIwCcKigAhTczAJBW
+PwCTGU0AElJkAEh5cgBoGXwAsxejAKZOsQChKrUA8U26AFJCwgCBUvcALG35AP9AA4AB
+AGQGAABkBgAA5LFJAQEAAABkBgAAAAAAAGQGAAAAAAAAAjQAAAAAAAAApQMAAKUEAACl
+BQAAZQYAAFAAABAAQAAAUAAADAAAAABQAAAOAAAAAFAAABwAAAAA//8BAAAABwBVAG4A
+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
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7/AAAFAQIAAAAAAAAA
+AAAAAAAAAAAAAAIAAAAC1c3VnC4bEJOXCAArLPmuRAAAAAXVzdWcLhsQk5cIACss+a5Q
+AQAADAEAAAwAAAABAAAAaAAAAA8AAABwAAAABQAAAIAAAAAGAAAAiAAAABEAAACQAAAA
+FwAAAJgAAAALAAAAoAAAABAAAACoAAAAEwAAALAAAAAWAAAAuAAAAA0AAADAAAAADAAA
+AOsAAAACAAAA5AQAAB4AAAAIAAAAVFVGVFMAAAADAAAACwAAAAMAAAADAAAAAwAAAGIG
+AAADAAAAqx8LAAsAAAAAAAAACwAAAAAAAAALAAAAAAAAAAsAAAAAAAAAHhAAAAEAAAAf
+AAAAUGFwZXIgU3VibWlzc2lvbiBBYnN0cmFjdCBGb3JtAAwQAAACAAAAHgAAAAYAAABU
+aXRsZQADAAAAAQAAAAAAAMQAAAADAAAAAAAAACAAAAABAAAAOAAAAAIAAABAAAAAAQAA
+AAIAAAAMAAAAX1BJRF9ITElOS1MAAgAAAOQEAABBAAAAfAAAAAYAAAADAAAAcAARAAMA
+AAAAAAAAAwAAAAAAAAADAAAABQAAAB8AAAAhAAAAbQBhAGkAbAB0AG8AOgBKAGUAcwBz
+AGkAYwBhAC4AUwBoAGUAcABhAHIAZABAAHQAdQBmAHQAcwAuAGUAZAB1AAAAAAAfAAAA
+AQAAAAAAUQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAABAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAHAAAACAAAAAkAAAAKAAAACwAAAAwAAAAN
+AAAADgAAAA8AAAAQAAAA/v///xIAAAATAAAAFAAAABUAAAAWAAAAFwAAABgAAAD+////
+GgAAABsAAAAcAAAAHQAAAB4AAAAfAAAAIAAAACEAAAAiAAAA/v///yQAAAAlAAAAJgAA
+ACcAAAAoAAAAKQAAACoAAAD+////LAAAAC0AAAAuAAAALwAAADAAAAAxAAAAMgAAAP7/
+///9////NQAAAP7////+/////v//////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+/////1IAbwBvAHQAIABFAG4AdAByAHkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAWAAUB//////////8DAAAABgkCAAAAAADAAAAAAAAARgAA
+AAAAAAAAAAAAAKAMerXqBcgBNwAAAIAAAAAAAAAARABhAHQAYQAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAgH/////
+//////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAABAA
+AAAAAAAxAFQAYQBiAGwAZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAADgACAQEAAAAGAAAA/////wAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAABkAAAAAFAAAAAAAAFcAbwByAGQARABvAGMAdQBtAGUA
+bgB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAIBAgAA
+AAUAAAD/////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQg
+AAAAAAAABQBTAHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAACgAAgH///////////////8AAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAjAAAAABAAAAAAAAAFAEQAbwBjAHUAbQBlAG4AdABT
+AHUAbQBtAGEAcgB5AEkAbgBmAG8AcgBtAGEAdABpAG8AbgAAAAAAAAAAAAAAOAACAQQA
+AAD//////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACsAAAAA
+EAAAAAAAAAEAQwBvAG0AcABPAGIAagAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAASAAIA////////////////AAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/
+//////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAA/v//////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+/////////////wEA/v8DCgAA/////wYJAgAAAAAAwAAAAAAAAEYfAAAATWljcm9zb2Z0
+IE9mZmljZSBXb3JkIERvY3VtZW50AAoAAABNU1dvcmREb2MAEAAAAFdvcmQuRG9jdW1l
+bnQuOAD0ObJxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA
+--============_-1017816033==_============--

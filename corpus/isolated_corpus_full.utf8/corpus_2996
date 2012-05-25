@@ -1,0 +1,219 @@
+From - Thu Dec 10 14:31:22 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs43595waa;
+        Tue, 29 Apr 2008 09:00:25 -0700 (PDT)
+Received: by 10.142.69.11 with SMTP id r11mr1147769wfa.266.1209484824453;
+        Tue, 29 Apr 2008 09:00:24 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 28si67438wfg.17.2008.04.29.09.00.23;
+        Tue, 29 Apr 2008 09:00:24 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.16;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m3TG0Mlp001928
+	for <jpprost@gmail.com>; Wed, 30 Apr 2008 02:00:22 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.14.1/8.14.1) with ESMTP id m3TG0LFU027650
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 30 Apr 2008 02:00:21 +1000 (EST)
+X-ASG-Debug-ID: 1209484809-46fa035d0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id DE49C1DD00EF
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 30 Apr 2008 02:00:09 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id Kkq9EEY2kbVYieJI for <jpprost@mailbox.ics.mq.edu.au>; Wed, 30 Apr 2008 02:00:09 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m3TG0I5t001924
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 30 Apr 2008 02:00:18 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with ESMTP id m3TG0CQP003607
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 30 Apr 2008 02:00:17 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 4B3E138565;
+	Tue, 29 Apr 2008 18:00:00 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 8103767 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Tue, 29 Apr 2008
+          17:59:59 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit01.kulnet.kuleuven.be (cavuit01.kulnet.kuleuven.be
+          [134.58.240.43]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id D623336E33 for <chr@listserv.cc.kuleuven.ac.be>; Tue, 29 Apr 2008
+          17:49:58 +0200 (CEST)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by cavuit01.kulnet.kuleuven.be (Postfix) with ESMTP
+          id D813C7B8077 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 29 Apr 2008
+          17:49:39 +0200 (CEST)
+Received: from mail.uni-ulm.de (mail.uni-ulm.de [134.60.1.11]) by
+          cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP id B593D2014A for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 29 Apr 2008 17:49:34 +0200
+          (CEST)
+Received: from [134.60.74.7] (minerva.informatik.uni-ulm.de [134.60.74.7]) by
+          mail.uni-ulm.de (8.14.2/8.14.2) with ESMTP id m3TFjmET028819 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue, 29 Apr 2008 17:45:48 +0200
+          (MEST)
+User-Agent: Thunderbird 2.0.0.6 (X11/20070801)
+MIME-Version: 1.0
+X-Enigmail-Version: 0.95.3
+OpenPGP: id=ED1C6485
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-DCC-URT-Metrics: poseidon 1060; Body=3 Fuz1=3 Fuz2=3
+X-Virus-Scanned: by amavisd-new
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=0, required 5,
+               autolearn=disabled)
+X-KULeuven-Envelope-From: frank.raiser@uni-ulm.de
+Message-ID:  <481742AC.7070205@uni-ulm.de>
+Date:         Tue, 29 Apr 2008 17:45:48 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Frank Raiser <frank.raiser@UNI-ULM.DE>
+X-ASG-Orig-Subj: [CHR] Final CfP: CHR 2008 Workshop
+Subject: [CHR] Final CfP: CHR 2008 Workshop
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1209484809
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.28
+X-Barracuda-Spam-Status: No, SCORE=0.28 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=MAILTO_TO_SPAM_ADDR
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.49190
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.28 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+
+Apologies if you receive multiple copies
+________________________________________
+
+
+                        Final Call for Papers
+
+   ------------------------------------------------------------
+           Fifth Workshop on Constraint Handling Rules
+                             CHR 2008
+
+                           July 14, 2008
+                         Hagenberg, Austria
+
+          Co-located with the International Conference on
+          Rewriting Techniques and Applications (RTA 2008)
+    ------------------------------------------------------------
+
+        http://www.uni-ulm.de/in/pm/research/events/chr2008
+
+  Introduction
+  ------------
+
+  The Constraint Handling Rules (CHR) language has become a
+  major declarative specification and implementation language for
+  constraint reasoning algorithms and applications. Algorithms
+  are often specified using inference rules, rewrite rules,
+  sequents, proof rules or logical axioms that can be directly
+  written in CHR.  Its clean semantics facilitates program
+  design, analysis and transformation.  See the CHR website
+  (http://www.cs.kuleuven.be/~dtai/projects/CHR/) for more
+  information.
+
+  Previous Workshops on Constraint Handling Rules were organized in
+  May 2004 in Ulm (Germany), in October 2005 in Sitges (Spain) at
+  ICLP, in July 2006 in Venice (Italy) at ICALP, and in September
+  2007 in Porto (Portgual) at ICLP.
+
+
+  Topics of Interest
+  ------------------
+
+  The workshop calls for full papers and short papers describing
+  ongoing work, on all aspects of CHR, including topics such as:
+
+   - (Logical) Algorithms
+   - Applications
+   - Comparisons with Related Approaches
+   - Constraint Solvers
+   - Critical Assessment
+   - Expressivity and Complexity
+   - Implementations and Optimization
+   - Language Extensions (Types, Modules)
+   - Program Analysis
+   - Program Transformation and Generation
+   - Programming Environments (Debugging)
+   - Programming Pearls
+   - Retractable Constraints
+   - Semantics
+   - Programming Tools
+   - Language Extensions (Debugging)
+
+
+  Submission Information
+  ----------------------
+
+  All papers must be written in English and not exceed 15 pages
+  in Springer LNCS format. The authors are encouraged, although
+  not obliged, to submit their papers already in Springer LNCS
+  format. General information about the Springer LNCS series and
+  the LNCS authors' instructions are available at the Springer
+  LNCS/LNAI home page.
+
+  Submissions should be sent to chr2008@uni-ulm.de and mention
+  'CHR 2008 Submission' in the subject. Every submission should
+  include the names and e-mail addresses of the authors (with the
+  corresponding author indicated), the paper abstract in ASCII format
+  and the actual paper in postscript or PDF format. The submission
+  should also indicate whether it is a full paper or a short paper.
+
+  Accepted papers will be published in a technical report.
+
+  Important Dates
+  ---------------
+
+    * submission:                    May 5, 2008
+    * notification of acceptance:    June 2, 2008
+    * final version due:             June 16, 2008
+    * workshop date:                 July 14, 2008
+
+
+  Organization
+  ------------
+
+  Program Committee:
+
+     * FranÃ§ois Fages, INRIA Rocquencourt
+     * Peter J. Stuckey, NICTA Victoria Laboratory
+     * Jacques Robin, Universidade Federal de Pernambuco
+     * Martin Sulzmann, National University of Singapore
+     * Maurizio Gabbrielli, Universita di Bologna
+     * Slim Abdennadher, German University in Cairo
+     * Thom FrÃ¼hwirth, UniversitÃ¤t Ulm
+     * Tom Schrijvers, Katholieke Universiteit Leuven
+     * Armin Wolf, Fraunhofer FIRST, Berlin
+     * VerÃ³nica Dahl, Simon Fraser University in Vancouver
+     * Beata Sarna-Starosta, Michigan State University
+     * Evelina Lamma, UniversitÃ  di Ferrara
+
+
+
+  Workshop Coordinators:
+
+  chr2008@uni-ulm.de
+
+  Tom Schrijvers (contact person)
+  Department of Computer Science
+  K.U.Leuven
+  http://www.cs.kuleuven.be/~toms/
+
+
+  Thom FrÃ¼hwirth
+  Faculty of Engineering and Computer Science
+  University Ulm
+  http://www.informatik.uni-ulm.de/pm/mitarbeiter/fruehwirth/
+
+
+  Frank Raiser
+  Faculty of Engineering and Computer Science
+  University Ulm
+  http://www.uni-ulm.de/in/pm/mitarbeiter/raiser.html

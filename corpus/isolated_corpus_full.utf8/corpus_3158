@@ -1,0 +1,176 @@
+From - Thu Dec 10 14:32:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139385waa;
+        Sun, 15 Jun 2008 02:48:05 -0700 (PDT)
+Received: by 10.210.92.8 with SMTP id p8mr4825797ebb.182.1213523284036;
+        Sun, 15 Jun 2008 02:48:04 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id y37si6814253iky.8.2008.06.15.02.47.35;
+        Sun, 15 Jun 2008 02:48:04 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 107741558A; Sun, 15 Jun 2008 11:47:35 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.1 required=5.0 tests=AWL,BAYES_00 autolearn=ham
+	version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 28C3EDB05;
+	Sun, 15 Jun 2008 11:42:07 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id DE4463D3C;
+	Sun, 15 Jun 2008 11:42:06 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Kk-M3FJ0xPoR; Sun, 15 Jun 2008 11:42:06 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id C7AAB3DAC;
+	Sun, 15 Jun 2008 11:41:15 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 55F423D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 10:46:53 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fWkOYsb3Duh6 for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 10:46:53 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 268533CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 10:46:53 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 188F9A7DA; Tue, 10 Jun 2008 10:46:53 +0200 (MEST)
+Received: from rotterdam.ewi.utwente.nl (rotterdam.ewi.utwente.nl
+	[130.89.10.5])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 25B7F8812
+	for <elsnet-list@elsnet.org>; Tue, 10 Jun 2008 10:46:25 +0200 (MEST)
+Received: from leeuwarden.cs.utwente.nl (leeuwarden.ewi.utwente.nl
+	[130.89.10.54])
+	by rotterdam.ewi.utwente.nl (8.13.6/8.13.6) with ESMTP id
+	m5A8bVhw010456; Tue, 10 Jun 2008 10:37:31 +0200 (MEST)
+Received: from [10.0.0.150] (ip51cf3859.direct-adsl.nl [81.207.56.89])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by leeuwarden.cs.utwente.nl (Postfix) with ESMTP id D86B237C802;
+	Tue, 10 Jun 2008 10:37:32 +0200 (CEST)
+Message-ID: <484E3D4A.5050104@cs.utwente.nl>
+Date: Tue, 10 Jun 2008 10:37:30 +0200
+From: Zsofia Ruttkay <zsofi@cs.utwente.nl>
+User-Agent: Thunderbird 2.0.0.14 (Windows/20080421)
+MIME-Version: 1.0
+To: ECA <eca_list@vhml.org>, announce@emotion-research.net,
+	la-announcements@siggraph.org, elsnet-list@elsnet.org,
+	agents@cs.umbc.edu, ARVR-EUROPE@LISTSERV.DFN.DE, aisb@aisb.org.uk,
+	bcs-hci-request@jiscmail.ac.uk, AI-SGES@jiscmail.ac.uk,
+	UKVRSIG@jiscmail.ac.uk, ED-3D@jiscmail.ac.uk, VR-ART@jiscmail.ac.uk,
+	VIRTUALREALITY@jiscmail.ac.uk, BCS-HCI@jiscmail.ac.uk,
+	cluk@dcs.shef.ac.uk, therieh@cogs.susx.ac.uk, mumin@cst.dk,
+	nodali@helsinki.fi, EU-GAMESRESEARCH@uta.fi, siggen@ics.mq.edu.au,
+	ln@cines.fr, zsofia Ruttkay <zsofi@cs.utwente.nl>
+References: <47F5F24E.6070309@cs.utwente.nl>
+	<6.1.2.0.0.20080521155802.01deba80@imap1.ewi.utwente.nl>
+In-Reply-To: <6.1.2.0.0.20080521155802.01deba80@imap1.ewi.utwente.nl>
+Content-Type: multipart/mixed; boundary="------------070800010000070002030003"
+X-Scanned-By: MIMEDefang 2.52 on 130.89.10.5
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0rc3
+	(rotterdam.ewi.utwente.nl [130.89.10.5]);
+	Tue, 10 Jun 2008 10:38:08 +0200 (MEST)
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:40:57 +0200
+Cc: 
+Subject: [Elsnet-list] GALA 2008 submission deadline extended to 1 JULY
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: zsofi@cs.utwente.nl
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+--------------070800010000070002030003
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Dear Colleagues,
+
+The GALA08 submission deadline has been extended to *1 July 2008*.
+
+So far we have not received enough submissions, in spite of the fact 
+that I had heard from several people  that they were planning to submit, 
+many for the first time.
+
+It would be a pity to break a tradition.  There is much work to be 
+shown. Past years GALA Finals were a valuable reference for the 
+community and real fun.  So I hope we will have a similar event in 
+September 2008 in Tokyo too. We need your contribution for this.
+
+As you know, the submission is basically a movie of 2-4 minutes, 
+demonstrating your reporter, your embodied agent-related application or 
+tool. Details of the call are to be found at:
+
+http://hmi.ewi.utwente.nl/gala/
+
+ So you are kindly asked::
+
+-          *to let me know asap of your intention* of using the extended 
+deadline 
+(mail to: zsofi@cs.utwente.nl <mailto:zsofi@cs.utwente.nl>).
+
+-         * **to make your submission by 1 July*, according to the 
+details on the GALA website.
+
+ With regards,
+
+Zsofia Ruttkay
+co-chair of GALA08
+
+
+--------------070800010000070002030003
+Content-Type: text/x-vcard; charset=utf-8;
+ name="zsofi.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+ filename="zsofi.vcf"
+
+begin:vcard
+fn;quoted-printable:Zs=C5=91fia  Ruttkay
+n;quoted-printable:Ruttkay;Zs=C5=91fia 
+org:Dept. of Computer Science;Human Media Interaction
+adr:;;University of Twente;;;;The Netherlands
+email;internet:z.m.ruttkay@ewi.utwente.nl
+title:Associate Professor
+tel;work:00 31 053 489 2836 
+tel;fax:00 31 053 489 3503
+x-mozilla-html:TRUE
+url:http://hmi.ewi.utwente.nl
+version:2.1
+end:vcard
+
+
+--------------070800010000070002030003
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--------------070800010000070002030003--

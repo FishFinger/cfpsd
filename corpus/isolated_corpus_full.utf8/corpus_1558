@@ -1,0 +1,574 @@
+From - Thu Dec 10 14:27:05 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.5 with SMTP id i5cs766963waa;
+        Wed, 23 May 2007 04:42:48 -0700 (PDT)
+Received: by 10.65.107.10 with SMTP id j10mr1140845qbm.1179920567521;
+        Wed, 23 May 2007 04:42:47 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 38si2500116nza.2007.05.23.04.42.45;
+        Wed, 23 May 2007 04:42:47 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be)
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4NBgiuN023475
+	for <jpprost@gmail.com>; Wed, 23 May 2007 21:42:44 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l4NBgh4H006524
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 23 May 2007 21:42:43 +1000 (EST)
+X-ASG-Debug-ID: 1179920561-5edc003f0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1179920561
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 07F37ACCEDA
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 23 May 2007 21:42:41 +1000 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l4NBgabX023473
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 23 May 2007 21:42:36 +1000 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id l4NBgXO18148
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 23 May 2007 21:42:34 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 28101150E0;
+	Wed, 23 May 2007 13:42:11 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 6588500 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Wed, 23 May 2007
+          13:42:10 +0200
+X-Original-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Delivered-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Received: from thumbler.kulnet.kuleuven.ac.be (thumbler.kulnet.kuleuven.ac.be
+          [134.58.240.45]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 960A6150D2 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 23 May 2007
+          13:42:10 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1]) by
+          thumbler.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 0A2E413841C
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 23 May 2007 13:41:49 +0200
+          (CEST)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by thumbler.kulnet.kuleuven.ac.be (Postfix) with
+          ESMTP id CF0C71384E3 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 23
+          May 2007 13:41:43 +0200 (CEST)
+Received: from smtp.ruc.dk (smtp2.ruc.dk [130.225.220.22]) by
+          cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 9795220143 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 23 May 2007 13:41:43 +0200
+          (CEST)
+Received: from localhost (localhost.localdomain [127.0.0.1]) by smtp.ruc.dk
+          (Postfix) with ESMTP id 7EA392C2C9 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 23 May 2007 13:41:43 +0200
+          (CEST)
+X-Virus-Scanned: Debian amavisd-new at smtp.ruc.dk
+Received: from smtp.ruc.dk ([127.0.0.1]) by localhost (smtp2.ruc.dk
+          [127.0.0.1]) (amavisd-new,
+          port 10024) with ESMTP id B+64tnV+04q8 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed, 23 May 2007 13:41:43 +0200
+          (CEST)
+Received: from [130.226.197.213] (1053914.ruc.dk [130.226.197.213]) (using
+          TLSv1 with cipher AES128-SHA (128/128 bits)) (No client certificate
+          requested) (Authenticated sender: henning) by smtp.ruc.dk (Postfix)
+          with ESMTP id 5043C2C2C0 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Wed,
+          23 May 2007 13:41:43 +0200 (CEST)
+Mime-Version: 1.0 (Apple Message framework v752.3)
+Content-Type: multipart/alternative; boundary=Apple-Mail-32--250160624
+X-Mailer: Apple Mail (2.752.3)
+X-Virus-Scanned: by KULeuven Antivirus Cluster
+X-Spam-Status: No, hits=0.4 tagged_above=-9999.0 required=5.0 tests=HTML_50_60,
+               HTML_FONTCOLOR_GREEN, HTML_FONTCOLOR_UNSAFE, HTML_MESSAGE
+X-Spam-Level: 
+Message-ID:  <DB09800B-8223-44EC-97CF-110C709EB27B@ruc.dk>
+Date:         Wed, 23 May 2007 13:41:42 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Henning Christiansen <henning@RUC.DK>
+X-ASG-Orig-Subj: [CHR] Final call for papers: CSLP@Context07 - EXTENDED DEADLINE
+Subject: [CHR] Final call for papers: CSLP@Context07 - EXTENDED DEADLINE
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.20
+X-Barracuda-Spam-Status: No, SCORE=0.20 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=HTML_MESSAGE, PR0N_SUBJECT
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.17780
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 PR0N_SUBJECT           Subject has letters around special characters (pr0n)
+
+--Apple-Mail-32--250160624
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	format=flowed
+
+Final call for papers: CSLP@Context07
+
+
+4th International Workshop on Constraints and Language Processing
+               20-21 August 2007, Roskilde, Denmark
+
+                http://control.ruc.dk/CSLP2007.html
+
+
+Affiliated with CONTEXT07, http://context-07.ruc.dk
+
+
+DEADLINE for submissions: May 29, 2007 - EXTENDED
+
+The CSLP@Context07 workshop considers the role of constraints in
+the representation of language and the implementation of language
+processing. This theme should be interpreted inclusively:
+contributions from linguistics, computer science, psycholinguistics
+and related areas are welcome, and an interdisciplinary perspective
+is of particular interest.
+
+The collocation with the CONTEXT07 conference underlines the
+application of constraints for context comprehension and discourse
+modelling.
+
+Motivation
+----------
+Constraints are widely used in linguistics, computer science, and
+psychology. How they are used, however, varies widely according to the
+research domain: knowledge representation, cognitive modelling,
+problem solving mechanisms, etc. These different perspectives are
+complementary, each one adding a piece to the puzzle. For example,
+linguistics proposes in-depth descriptions implementing constraints
+in order to filter out structures by means of description languages,
+constraint ranking, etc. The constraint programming paradigm, on the
+other hand, shows that constraints have to be taken as a systematic
+whole and can thus play a role in building the structures (or can even
+replace structures). Finally, psycholinguistics investigates the role
+of constraint systems for cognitive processes in comprehension and
+production as well as addressing how they can be acquired.
+
+Invited speakers:
+-----------------
+2 or 3 distinguished researchers will be announced on the workshop
+web pages.
+
+Topics
+------
+The workshop seeks contributions from different areas working with
+constraints in relation to language including, but not limited to the
+topics
+
+  . Constraints in human language comprehension and production
+  . Context modelling and discourse interpretation
+  . Acquisition of constraints
+  . Constraints and learning
+  . Cross-theoretical view of the notion of constraint
+  . New advances in constraint-based linguistic theories
+  . Constraint satisfaction (CS) technologies for NLP
+  . Linguistic analysis and linguistic theories biased towards CS or
+    constraint logic programming (CLP)
+  . Application of CS or CLP for NLP
+  . CS and CLP for other than textual or spoken languages, e.g.,
+      sign languages and biological, multimodal human-computer
+      interaction, visual languages,
+  . Probabilistic constraint-based reasoning
+
+Submissions
+-----------
+Authors are invited to submit extended abstract or a full paper of up
+to 12 pages. Papers should be prepared as PDF files using the format
+for Springer's LNCS/LNAI series,
+http://www.springer.de/comp/lncs/authors.html
+
+Each submission will be commented by two or three reviewers.
+
+Preliminary proceedings are distributed at the workshop and,
+depending on number and quality of submissions, a volume of revised
+and selected papers are under considerations at an international
+publisher.
+
+Please submit papers as PDF files, following the guidelines
+at http://control.ruc.dk/CSLP2007.html
+
+Important dates
+---------------
+Submission deadline May 29, 2007 - EXTENDED
+Notification June 14, 2007
+Final version July 5, 2007
+Workshop 20 and-or 21 August 2007
+
+Registration
+------------
+Registration is done through the CONTEXT conference website, and
+the fee covers the conference and all workshops.
+    http://context-07.ruc.dk
+At least one author of each accepted paper must register and present
+the paper at the workshop.
+
+
+Program Committee
+-----------------
+
+Philippe Blache (Provence University, France)
+Henning Christiansen (Roskilde University, Denmark), co-chair
+Veronica Dahl (Simon Fraser University, Canada)
+Denys Duchier (INRIA, France)
+John Gallagher (Roskilde University, Denmark)
+Claire Gardent (University of Nancy, France)
+Barbara Hemforth (Provence University, France)
+Jerry Hobbs (University of Southern California, USA)
+M. Dolores Jim=E9nez-L=F3pez (Tarragona, Spain)
+Michael Johnston (AT&T, USA)
+Lars Konieczny (Freiburg university, Germany)
+Shalom Lappin (King's College, UK)
+Detmar Meurers (Ohio State University, USA)
+V=E9ronique Moriceau (Universit=E9 Paul Sabatier, Toulouse, France)
+Gerald Penn (University of Toronto, Canada)
+Kiril Simov (Bulgarian Academy of Sciences, Bulgaria)
+J=F8rgen Villadsen (Technical University of Denmark), co-chair
+Eric Villemonte de la Clergerie (INRIA, France)
+
+Organizing committee
+---------------------
+Philippe Blache (Provence University, France)
+Henning Christiansen (Roskilde University, Denmark), co-chair
+Veronica Dahl (Simon Fraser University, Canada)
+J=F8rgen Villadsen (Technical University of Denmark), co-chair
+
+Inquiries
+---------
+For any questions related to the workshop, do not hesitate to
+write to workshop co-chair Henning Christiansen, henning@ruc.dk
+
+More information at http://control.ruc.dk/CSLP2007.html
+---
+
+Henning Christiansen
+professor of  Computer Science, ph.d.
+Research group PLIS: Programming, Logic and Intelligent Systems
+Department of Communication, Business and Information Technologies
+Roskilde University
+P.O.Box 260, DK-4000 Roskilde, DENMARK
+
+http://www.ruc.dk/~henning
+---------------------------------------
+CONTEXT conference at Roskilde: http://context-07.ruc.dk
+
+
+
+
+
+
+--Apple-Mail-32--250160624
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=ISO-8859-1
+
+<HTML><BODY style=3D"word-wrap: break-word; -khtml-nbsp-mode: space; =
+-khtml-line-break: after-white-space; "><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Final call =
+for papers: CSLP@Context07</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><BR></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">4th International Workshop on Constraints and =
+Language Processing</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">=A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+20-21 August 2007, Roskilde, Denmark</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0=A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+<A =
+href=3D"http://control.ruc.dk/CSLP2007.html">http://control.ruc.dk/CSLP200=
+7.html</A></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><BR></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+">Affiliated with CONTEXT07, <A =
+href=3D"http://context-07.ruc.dk">http://context-07.ruc.dk</A></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">DEADLINE for =
+submissions: May 29, 2007 - EXTENDED</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">The CSLP@Context07 workshop =
+considers the role of constraints in</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">the =
+representation of language and the implementation of language</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">processing. This theme should be interpreted =
+inclusively:</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">contributions from linguistics, =
+computer science, psycholinguistics</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">and related =
+areas are welcome, and an interdisciplinary perspective</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">is of particular interest.</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">The =
+collocation with the CONTEXT07 conference underlines the</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">application of constraints for context comprehension =
+and discourse</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">modelling.</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+">Motivation</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">----------</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Constraints are widely used in linguistics, computer =
+science, and</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">psychology. How they are used, =
+however, varies widely according to the</DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">research =
+domain: knowledge representation, cognitive modelling,</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">problem solving mechanisms, etc. These different =
+perspectives are</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">complementary, each one adding a =
+piece to the puzzle. For example,</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">linguistics =
+proposes in-depth descriptions implementing constraints</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">in order to filter out structures by means of =
+description languages,</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">constraint ranking, etc. =
+The constraint programming paradigm, on the</DIV><DIV style=3D"margin-top:=
+ 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">other =
+hand, shows that constraints have to be taken as a systematic</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">whole and can thus play a role in building the =
+structures (or can even</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">replace =
+structures). Finally, psycholinguistics investigates the role</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">of constraint systems for cognitive processes in =
+comprehension and</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">production as well as addressing =
+how they can be acquired.</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Invited speakers:</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">-----------------</DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">2 or 3 =
+distinguished researchers will be announced on the workshop</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">web pages.</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Topics</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">------</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">The workshop =
+seeks contributions from different areas working with</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">constraints in relation to language including, but =
+not limited to the</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">topics</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">=A0. =
+Constraints in human language comprehension and production</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">=A0. Context modelling and discourse =
+interpretation</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0. Acquisition of =
+constraints</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0. Constraints and =
+learning</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0. Cross-theoretical view of =
+the notion of constraint</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">=A0. New =
+advances in constraint-based linguistic theories</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">=A0. Constraint satisfaction (CS) technologies for =
+NLP</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0. Linguistic analysis and =
+linguistic theories biased towards CS or</DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">=A0=A0 =
+constraint logic programming (CLP)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">=A0. =
+Application of CS or CLP for NLP</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">=A0. CS and =
+CLP for other than textual or spoken languages, e.g.,</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">=A0=A0 =A0 sign languages and biological, multimodal =
+human-computer</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0=A0 =A0 interaction, visual =
+languages,</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">=A0. Probabilistic =
+constraint-based reasoning</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Submissions</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">-----------</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Authors are =
+invited to submit extended abstract or a full paper of up</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">to 12 pages. Papers should be prepared as PDF files =
+using the format</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">for Springer's LNCS/LNAI =
+series,</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; "><A =
+href=3D"http://www.springer.de/comp/lncs/authors.html">http://www.springer=
+.de/comp/lncs/authors.html</A></DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Each submission will be =
+commented by two or three reviewers.</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; min-height: =
+14px; "><BR></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Preliminary proceedings are =
+distributed at the workshop and,</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">depending on =
+number and quality of submissions, a volume of revised</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">and selected papers are under considerations at an =
+international</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">publisher.</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Please =
+submit papers as PDF files, following the guidelines</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">at <A =
+href=3D"http://control.ruc.dk/CSLP2007.html">http://control.ruc.dk/CSLP200=
+7.html</A></DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><BR></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Important dates</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+">---------------</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Submission deadline May 29, 2007 =
+- EXTENDED</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Notification June 14, =
+2007</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Final version July 5, =
+2007</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Workshop 20 and-or 21 August =
+2007</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><BR></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Registration</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+">------------</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Registration is done through the =
+CONTEXT conference website, and</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">the fee =
+covers the conference and all workshops.</DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">=A0=A0 =
+<A =
+href=3D"http://context-07.ruc.dk">http://context-07.ruc.dk</A></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">At least one author of each accepted paper must =
+register and present</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">the paper at the =
+workshop.</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; min-height: 14px; "><BR></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Program =
+Committee</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">-----------------</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Philippe =
+Blache (Provence University, France)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Henning =
+Christiansen (Roskilde University, Denmark), co-chair</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Veronica Dahl (Simon Fraser University, =
+Canada)</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Denys Duchier (INRIA, =
+France)</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">John Gallagher (Roskilde =
+University, Denmark)</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">Claire Gardent (University =
+of Nancy, France)</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Barbara Hemforth (Provence =
+University, France)</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">Jerry Hobbs (University of =
+Southern California, USA)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">M. Dolores =
+Jim=E9nez-L=F3pez (Tarragona, Spain)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Michael =
+Johnston (AT&amp;T, USA)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Lars =
+Konieczny (Freiburg university, Germany)</DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Shalom =
+Lappin (King's College, UK)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Detmar =
+Meurers (Ohio State University, USA)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">V=E9ronique =
+Moriceau (Universit=E9 Paul Sabatier, Toulouse, France)</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Gerald Penn (University of Toronto, =
+Canada)</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Kiril Simov (Bulgarian Academy =
+of Sciences, Bulgaria)</DIV><DIV style=3D"margin-top: 0px; margin-right: =
+0px; margin-bottom: 0px; margin-left: 0px; ">J=F8rgen Villadsen =
+(Technical University of Denmark), co-chair</DIV><DIV style=3D"margin-top:=
+ 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Eric =
+Villemonte de la Clergerie (INRIA, France)</DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Organizing =
+committee</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">---------------------</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">Philippe Blache (Provence University, =
+France)</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">Henning Christiansen (Roskilde =
+University, Denmark), co-chair</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">Veronica Dahl =
+(Simon Fraser University, Canada)</DIV><DIV style=3D"margin-top: 0px; =
+margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">J=F8rgen =
+Villadsen (Technical University of Denmark), co-chair</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; =
+">Inquiries</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">---------</DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; ">For any questions related to the workshop, do not =
+hesitate to</DIV><DIV style=3D"margin-top: 0px; margin-right: 0px; =
+margin-bottom: 0px; margin-left: 0px; ">write to workshop co-chair =
+Henning Christiansen, <A =
+href=3D"mailto:henning@ruc.dk">henning@ruc.dk</A></DIV><DIV =
+style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; =
+margin-left: 0px; min-height: 14px; "><BR></DIV><DIV style=3D"margin-top: =
+0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; ">More =
+information at <A =
+href=3D"http://control.ruc.dk/CSLP2007.html">http://control.ruc.dk/CSLP200=
+7.html</A></DIV>---<DIV><BR><DIV> <SPAN class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; border-spacing: 0px 0px; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; text-align: auto; =
+-khtml-text-decorations-in-effect: none; text-indent: 0px; =
+-apple-text-size-adjust: auto; text-transform: none; orphans: 2; =
+white-space: normal; widows: 2; word-spacing: 0px; "><DIV>Henning =
+Christiansen</DIV><DIV>professor of=A0=A0Computer =
+Science,=A0ph.d.</DIV><DIV>Research group PLIS: Programming, Logic and =
+Intelligent Systems</DIV><DIV>Department of Communication, Business and =
+Information Technologies</DIV><DIV>Roskilde University</DIV><DIV>P.O.Box =
+260, DK-4000 Roskilde, DENMARK</DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><A =
+href=3D"http://www.ruc.dk/~henning">http://www.ruc.dk/~henning</A></DIV><D=
+IV>---------------------------------------</DIV><DIV><FONT =
+class=3D"Apple-style-span" color=3D"#5BE30F"><SPAN =
+class=3D"Apple-style-span" style=3D"color: rgb(91, 227, 15); ">CONTEXT =
+conference at Roskilde: <A =
+href=3D"http://context-07.ruc.dk">http://context-07.ruc.dk</A></SPAN></FON=
+T></DIV><DIV></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><DIV><BR =
+class=3D"khtml-block-placeholder"></DIV><BR =
+class=3D"Apple-interchange-newline"></SPAN> =
+</DIV><BR></DIV></BODY></HTML>=
+
+--Apple-Mail-32--250160624--

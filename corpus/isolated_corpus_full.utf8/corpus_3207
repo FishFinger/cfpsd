@@ -1,0 +1,358 @@
+From - Thu Dec 10 14:32:30 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs170526waa;
+        Sat, 21 Jun 2008 02:19:40 -0700 (PDT)
+Received: by 10.90.75.13 with SMTP id x13mr6098185aga.44.1214039979177;
+        Sat, 21 Jun 2008 02:19:39 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id x55si2194177hsx.5.2008.06.21.02.19.07;
+        Sat, 21 Jun 2008 02:19:39 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id BD331B96D; Sat, 21 Jun 2008 11:19:06 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 required=5.0 tests=AWL,BAYES_00,SORTED_RECIPS
+	autolearn=no version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 4A3AFB625;
+	Sat, 21 Jun 2008 11:18:45 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id F41D63D3B;
+	Sat, 21 Jun 2008 11:18:44 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eGosOiM+-WCY; Sat, 21 Jun 2008 11:18:44 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 6746E3D3C;
+	Sat, 21 Jun 2008 11:18:43 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id B9BB43D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Jun 2008 15:08:58 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Ct3iH21Ro82E for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Jun 2008 15:08:58 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 9605D3CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Jun 2008 15:08:58 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 89545B585; Fri, 20 Jun 2008 15:08:58 +0200 (MEST)
+Received: from hyperion.ccf.auth.gr (hyperion.ccf.auth.gr [155.207.1.42])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 88014B51A
+	for <elsnet-list@elsnet.org>; Fri, 20 Jun 2008 15:08:42 +0200 (MEST)
+Received: from [127.0.0.1] (startrek.csd.auth.gr [155.207.113.177])
+	(authenticated bits=0)
+	by hyperion.ccf.auth.gr (8.14.3/8.14.3) with ESMTP id m5KD8GxY011352
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Fri, 20 Jun 2008 16:08:16 +0300
+Message-ID: <485BABBB.7020305@csd.auth.gr>
+Date: Fri, 20 Jun 2008 16:08:11 +0300
+From: Nick Bassiliades <nbassili@csd.auth.gr>
+User-Agent: Thunderbird 2.0.0.14 (Windows/20080421)
+MIME-Version: 1.0
+To: ehn@cs.cmu.edu, elsnet-list@elsnet.org, elsnet-list@let.uu.nl,
+	epontell@cs.nmsu.edu, event@in.tu-clausthal.de,
+	events_calendar@acm.org, fg-db@informatik.uni-rostock.de,
+	gt-user@globus.org, gwa@lists.ut.ee, ifip113@dti.unimi.it,
+	info-www-search@mailman.isi.edu, irlist-editor@acm.org,
+	irma-l@irma-international.org, itannounce@mail.it.usyd.edu.au,
+	java@globus.org
+Content-Type: text/plain; charset=ISO-8859-7; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: ClamAV 0.93.1/7515/Fri Jun 20 15:27:29 2008 on
+	cronus.ccf.auth.gr
+X-Virus-Status: Clean
+X-Mailman-Approved-At: Sat, 21 Jun 2008 11:18:42 +0200
+Cc: 
+Subject: [Elsnet-list] RuleML-2008: Call for Lightning/Highlight Talks &
+	Fast Abstracts
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+[ our apologies should you receive this message more than one time ]
+
+=====================================================================
+Due to a number of requests we have decided to extend
+the submission deadline for challenge/demo papers by 2 weeks.
+
+      NEW deadline for challenge/demo paper submission: July 2
+     
+Accepted demo papers are published in Springer LNCS Proceedings.
+=====================================================================
+
+            2008 International RuleML Symposium
+       on Rule Interchange and Applications (RuleML-2008)
+
+          October 30-31, 2008, Orlando, Florida
+               http://2008.ruleml.org
+
+===================================================
+Call for Lightning/Highlight Talks & Fast Abstracts
+===================================================
+
+Lightning Talks
+---------------
+A lightning talk is a five-minute presentation on any topic of interest to
+the RuleML community; it can be a new idea, a technology, an evaluation, an
+observation, a complaint, an explanation, a suggestion, a report of success
+or failure, a call to action, a description of a technique, or a lament. In
+general, it is supposed to be a short visionary talk which should initiate
+discussion. If you are a rule developer working on an exciting project and
+you do not have the time to submit a full paper, Lightning talks are a
+great way to interact with the RuleML community and receive feedback on
+your ideas. Lightning talks are presented back-to-back with a strictly
+enforced five minute limit, so make sure that you can fit your presentation
+within this time span.
+
+People interested at giving a lightning talk during RuleML-2008 should show
+their their interest by sending an email to ruleml2008@easychair.org by
+August 13, 2008, including a title and a 250-word abstract of their
+intended talk.
+
+Decisions will be notified by September 1st.
+
+
+Highlight Talks
+---------------
+
+We invite the submission of outstanding full papers that have been
+published between 2007 and the submission deadline (August 13,2008).
+Publications that are "in press" and already linked on the journal web site
+are also welcome. A group of experts will select the papers to be presented
+at the meeting considering the impact of the work on the field, the
+likelihood that the work makes a good presentation, and the relevance for
+the topics of RuleML-2008, in general.
+
+Submissions should be sent directly to the RuleML-2008 chairs at
+ruleml2008@easychair.org by August 13, 2008, and must include the
+following:
+
+* Name/affiliation/email of submitter (assumed to be the presenter; note
+  that the presenter cannot change because the identity and ability to
+  present of that person will be an essential selection criterion).
+* Names/affiliations/email of ALL coauthors (note: any name appearing on a
+  published paper has to be added here). Note that all co-authors have to
+  agree to the submission and that it is the responsibility of the
+  submitter to guarantee that all co- author email addresses are correct
+  (email notifications of the submission will be sent to all co-authors).
+* Additional contact information (for presenter).
+* A 250-word abstract-like argument that explains how the submitted
+  paper(s) suit the goal of presenting highlights that impacted the field.
+* Sources of original publication(s) (Year, Journal, Vol., pages).
+* PDF with paper(s) (note: in case of the submission of 2 papers, both have
+  to be merged into one single PDF; all reviews will be based on the
+  content of this PDF).
+* Optional: link to Google Video demonstrating presentation skills of
+  presenter.
+* Note that we will need PDF submissions; the system will neither be able
+  to handle ASCII, nor Word, nor LaTeX, nor anything other than standard
+  PDF. It is the responsibility of the submitter to verify that the PDF is
+  completely viewable/printable by all major operating systems (LINUX,
+  MacOS, Windows).
+* Each presenter can submit a maximum of one application to present a
+  highlight. The maximal number of submissions per author/co-author is 5.
+
+All submissions will be evaluated by a group of reviewers.
+Reviewers will consider the following criteria:
+
+* Relevance, interest, and value of the topic to RuleML-2008 attendees,
+* Impact of the paper(s) on rules (while the impact of papers on science is
+  not fully reflected by ISI/Google-like impact factors or high number of
+  downloads, high values in such factors will clearly stand as a strong
+  argument for acceptance),
+* "Presentability" of the work to a large, diverse audience,
+* Quality of oral presentations by the submitter (if none).
+
+These "soft" criteria attempt to capture the underlying concept, namely the
+presentation of exciting and thought-provoking seminars that will both
+contribute to the success and attraction-value of RuleML-2008 and to the
+impact the meeting has on advancing rule interchange and applications. The
+criterion of "presentability" accounts for the fact that some papers that
+will completely change the field, or will become citation records may not
+translate to exciting seminars.
+
+The selected Highlights will be presented in a special track during the
+RuleML-2008 Symposium. All presentations will have to be completed within
+20 minutes and will be followed by 5-minute discussions. While presenters
+are expected to focus mostly on the chosen paper(s), short infusions of
+more recent data are welcome.
+
+Decisions will be notified by September 1st.
+
+
+Fast Abstracts
+--------------
+
+Fast Abstracts at RuleML-2008 are short presentations, either on new ideas
+or work in progress, or radical opinions that can address any issue
+relevant to RuleML-2008. Fast Abstracts provide an opportunity to receive
+early feedback from the community. Contributions are particularly solicited
+from industrial practitioners and academics that may not have been able to
+prepare full papers, but seek an opportunity to engage with the RuleML
+community.
+
+Fast Abstracts should be 4-pages long, and must be formatted in LNCS format
+(http://www.springer.de/comp/lncs/authors.html).
+The submission deadline is August 13, 2008.
+Submissions should be sent directly by email to ruleml2008@easychair.org,
+and they will be refereed on the relevance to RuleML 2008, but also on
+their novelty of idea and/oor on their capacity to stimulate and intrigue
+the reader. Accepted contributions will be published in electronic form (at
+the Symposium's Web site and on CD), and an author will deliver a short
+talk in the Fast Abstracts track at the conference. Decisions will be
+notified by September 1st. Authors of accepted fast abstracts must provide
+the camera ready version by September 15. At least one author of each
+accepted Fast Abstract is expected to register to the conference before or
+on September 15.
+
+-------------------------------------------------------------------------
+
+=========================
+The RuleML-2008 Symposium
+=========================
+
+Collocated with the 11th International Business Rules Forum, the 2008
+International Symposium on Rule Interchange and Applications (RuleML-2008)
+is the second symposium (after last year's highly successful RuleML-2007 -
+http://2007.ruleml.org/) devoted to work on practical distributed rule
+technologies and rule-based applications which need language standards for
+rules operating in the context of, e.g., the Semantic Web, Intelligent
+Multi-Agent Systems, Event-Driven Architectures and Service-Oriented
+Computing Applications. The RuleML symposium is a new kind of event where
+the Web Rules and Logic community joins the established, practically
+oriented Forum of the Business Rules community (
+http://www.businessrulesforum.com) to help cross- fertilizing between Web
+and Business Logic technology.
+
+The goal of RuleML-2008 is to bring together rule system providers,
+representatives of, and participants in, rule standardization efforts
+(e.g., SBVR, RuleML, RIF, PRR, CL) and open source rules communities (e.g.,
+jBoss Rules, CLIPS/Jess, Prova, OO jDrew, Mandarax, XSB, XQuery),
+practitioners and technical experts, developers, users, and researchers.
+They will be offered an exciting venue to exchange new ideas, practical
+developments and experiences on issues pertinent to the interchange and
+application of rules in open distributed environments such as the Web.
+
+The Symposium gives emphasis on practical issues such as technical
+contributions and show case demonstrations of effective, practical,
+deployable rule-based technologies, rule interchange formats and
+applications as well as discussions of lessons learned that have to be
+taken into account when employing rule-based technologies in distributed,
+(partially) open, heterogeneous environments. We also welcome groundwork
+that helps to build an effective, practical, and deployable rule standard,
+improve rule technology, provide better understanding of the integration
+and interchange of rules, and make the current generation of rule engines
+and rule technology more usable for advanced Web and Service Oriented
+Architectures.
+
+--------------------------------------------------------------------
+RuleML-2008 Highlights
+
+* Keynote speakers:
+  o Michael Kifer (State University of New York at Stony Brook), on WC3's
+    Rule Interchange Format (RIF). Joint keynote between RuleML-2008 and
+    RR2008.
+  o David Luckham (Stanford University, USA) on complex event
+    processing.
+  o Paul Haley (Haley Systems, Inc) on business rules.
+  o Benjamin Grosof (Vulcan, Inc.) on the SILK KRR system of the
+    HALO project.
+* Joint Lunch Panel held in conjunction with the co-located Business Rules
+  Forum on "Rules on the Web".
+* Lightning talks/Highlight talks
+* A RuleML-2008 Challenge with prizes to demonstrate tools, use cases, and
+  applications.
+* Industry, demo and scientific research & development papers and
+  presentations advancing and assessing the state of the art in event and
+  rule-based systems selected in a peer-reviewed fashion by an
+  international program committee.
+* Papers will be published as a Springer LNCS proceedings. A special issue
+  (IEEE TKDE pending) will be forthcoming.
+* Social events to promote networking among the symposium delegates in an
+  informal setting.
+
+--------------------------------------------------------------------
+RuleML-2008 Challenge
+
+The RuleML-2008 Challenge is one of the highlights of RuleML-2008. It
+addresses the system demonstration for practical use of rule technologies
+in distributed and/or Web-based environments. The focus of the challenge is
+on rule technologies (including rule languages and engines), interoperation
+and interchange. The challenge offers participants the chance to
+demonstrate their commercial and open source tools, use cases, and
+applications. Prizes will be awarded to the two best applications. All
+accepted demos will be presented in a special Challenge Session.
+
+Submissions to the RuleML Challenge 2008 consist of a demo paper (up to 8
+pages), describing the demo show case, and a link to more information about
+the demo/show case, e.g. a project site, an online demonstration, a
+presentation, or a download site. Demo papers should contain a substantial
+presentation of the system to enable a proper evaluation of the techniques
+used. The content of papers should be sufficiently substantial for
+publication in the conference proceedings. The demo paper should be
+submitted through EasyChair, while the demo link should be submitted
+through the Challenge Website, after which it will be publicly available
+immediately.
+
+NEW deadline for challenge/demo paper submission: July 2
+
+More details in: http://2008.ruleml.org/challenge.php
+
+--------------------------------------------------------------------
+
+
+=====================================================================
+Co-located with:
+
+         The 11th International Business Rules Forum
+              http://www.businessrulesforum.com
+=====================================================================
+Sponsored by:
+
+Gold level  : Vulcan Inc
+Silver level: Model Systems
+Bronze level: STI Innsbruck, ruleCore, JBoss
+
+Sponsoring opportunities: http://2008.ruleml.org/sponsoring/
+=====================================================================
+In Co-operation with:
+
+AAAI, W3C, BPM-Forum, Business Rules Forum , ECCAI, OASIS, OMG,
+Dallas Rules Group, Belgium Business Rules Forum,
+MIT Sloan CIO Symposium,
+ACM, ACM SIGART, ACM SIGMIS, ACM SIGWEB, Open Research Society,
+IEEE Systems Man and Cybernetics Society
+IEEE SMCS TC on Intelligent Internet Systems
+IEEE SMCS TC on Distributed Intelligent Systems
+IEEE Computer Society TC on Autonomous and Autonomic Systems
+=====================================================================
+Media Partners:
+                  Springer LNCS, MoDo Marketing
+=====================================================================
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

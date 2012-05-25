@@ -1,0 +1,137 @@
+From - Thu Dec 10 14:35:02 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs207790far;
+        Tue, 20 Jan 2009 12:44:59 -0800 (PST)
+Received: by 10.151.156.7 with SMTP id i7mr6187223ybo.16.1232484295776;
+        Tue, 20 Jan 2009 12:44:55 -0800 (PST)
+Return-Path: <owner-sigmetrics@listserv.utk.edu>
+Received: from panther.mail.utk.edu (panther.mail.utk.edu [160.36.178.33])
+        by mx.google.com with ESMTP id m30si13950502elf.12.2009.01.20.12.43.59;
+        Tue, 20 Jan 2009 12:44:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-sigmetrics@listserv.utk.edu designates 160.36.178.33 as permitted sender) client-ip=160.36.178.33;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-sigmetrics@listserv.utk.edu designates 160.36.178.33 as permitted sender) smtp.mail=owner-sigmetrics@listserv.utk.edu
+Received: from listserv.utk.edu (listserv.utk.edu [160.36.178.161])
+	by panther.mail.utk.edu (8.13.6/8.13.4) with ESMTP id n0KIEpjA020494;
+	Tue, 20 Jan 2009 15:34:30 -0500
+Received: by LISTSERV.UTK.EDU (LISTSERV-TCP/IP release 14.5) with spool id 8344
+          for SIGMETRICS@LISTSERV.UTK.EDU; Tue, 20 Jan 2009 15:19:54 -0500
+Received: from panther.mail.utk.edu (panther.mail.utk.edu [160.36.178.33]) by
+          listserv.utk.edu (8.12.11/8.12.11) with ESMTP id n0KK9stG008271 for
+          <sigmetrics@listserv.utk.edu>; Tue, 20 Jan 2009 15:09:54 -0500 (EST)
+Received: from mufasa.mail.utk.edu (mufasa.mail.utk.edu [160.36.178.84]) by
+          panther.mail.utk.edu (8.13.6/8.13.4) with ESMTP id n0KK9sTP013889 for
+          <sigmetrics@listserv.utk.edu>; Tue, 20 Jan 2009 15:09:54 -0500
+Received: from ip2mta.uwm.edu (ip2mta.uwm.edu [129.89.7.20]) by
+          mufasa.mail.utk.edu (8.14.1/8.14.1) with ESMTP id n0KK9rQN017203
+          (version=TLSv1/SSLv3 cipher=RC4-SHA bits=128 verify=NOT) for
+          <sigmetrics@listserv.utk.edu>; Tue, 20 Jan 2009 15:09:53 -0500
+Received: from mta01.pantherlink.uwm.edu ([129.89.7.81]) by ip2mta.uwm.edu with
+          ESMTP; 20 Jan 2009 14:09:53 -0600
+Received: from localhost (localhost.localdomain [127.0.0.1]) by
+          mta01.pantherlink.uwm.edu (Postfix) with ESMTP id 47E1EC188AA for
+          <sigmetrics@listserv.utk.edu>; Tue, 20 Jan 2009 14:09:53 -0600 (CST)
+X-Virus-Scanned: amavisd-new at
+X-Spam-Flag: NO
+X-Spam-Score: -1.44
+X-Spam-Status: Message recipients not local.
+Received: from mta01.pantherlink.uwm.edu ([127.0.0.1]) by localhost
+          (mta01.pantherlink.uwm.edu [127.0.0.1]) (amavisd-new,
+          port 10024) with ESMTP id 4LBj6nGHYu3F for
+          <sigmetrics@listserv.utk.edu>; Tue, 20 Jan 2009 14:09:52 -0600 (CST)
+Received: from mail01.pantherlink.uwm.edu (mail01.pantherlink.uwm.edu
+          [129.89.7.216]) by mta01.pantherlink.uwm.edu (Postfix) with ESMTP id
+          EA2BCC188A2 for <sigmetrics@listserv.utk.edu>; Tue, 20 Jan 2009
+          14:09:52 -0600 (CST)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+X-Originating-IP: [129.89.7.92]
+X-Mailer: Zimbra 5.0.10_GA_2638.RHEL4_64 (ZimbraWebClient - IE7
+          (Win)/5.0.10_GA_2638.RHEL4_64)
+X-Authenticated-User: dwolfram@uwm.edu
+X-Proofpoint-Virus-Version: vendor=fsecure
+                         engine=1.12.7400:2.4.4,1.2.40,4.0.166
+                         definitions=2009-01-20_08:2009-01-18,2009-01-20,2009-01-20
+                         signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+                         ipscore=0 phishscore=0 bulkscore=7 adultscore=0
+                         classifier=spam adjust=0 reason=mlx
+                         engine=5.0.0-0811170000 definitions=main-0901200126
+X-Already-Virus-Scanned: Message already virus scanned by mufasa.mail.utk.edu.
+X-Not-Scanned: Message passed to panther.mail.utk.edu from known scanner
+               (mufasa.mail.utk.edu)
+X-Scanned-By: MIMEDefang 2.53 on 160.36.178.33
+X-Scanned-By: MIMEDefang 2.53 on 160.36.178.33
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by listserv.utk.edu id
+                      n0KK9stG008272
+Message-ID:  <1339560453.25871232482192918.JavaMail.root@mail01.pantherlink.uwm.edu>
+Date:         Tue, 20 Jan 2009 14:09:52 -0600
+Reply-To: ASIS&T Special Interest Group on Metrics
+              <SIGMETRICS@LISTSERV.UTK.EDU>
+Sender: ASIS&T Special Interest Group on Metrics <SIGMETRICS@LISTSERV.UTK.EDU>
+From: Dietmar Wolfram <dwolfram@UWM.EDU>
+Subject: [SIGMETRICS] CFP - Metrics Pre-conference Symposium at ASIST Annual Meeting
+To: SIGMETRICS@LISTSERV.UTK.EDU
+In-Reply-To:  <2107814786.6161232481263225.JavaMail.root@mail01.pantherlink.uwm.edu>
+Precedence: list
+List-Help: <http://listserv.utk.edu/cgi-bin/wa?LIST=SIGMETRICS>,
+           <mailto:LISTSERV@LISTSERV.UTK.EDU?body=INFO SIGMETRICS>
+List-Unsubscribe: <mailto:SIGMETRICS-unsubscribe-request@LISTSERV.UTK.EDU>
+List-Subscribe: <mailto:SIGMETRICS-subscribe-request@LISTSERV.UTK.EDU>
+List-Owner: <mailto:SIGMETRICS-request@LISTSERV.UTK.EDU>
+List-Archive: <http://listserv.utk.edu/cgi-bin/wa?LIST=SIGMETRICS>
+
+Adminstrative info for SIGMETRICS (for example unsubscribe):
+http://web.utk.edu/~gwhitney/sigmetrics.html
+
+[Apologies for any cross postings]
+
+Call for Papers
+ASIST & ISSI Pre-Conference Symposium on Informetrics and Scientometrics
+
+Date: Saturday, November 7, 2009
+Location: Hyatt Regency, Vancouver, BC, Canada
+
+This ASIST Annual Meeting pre-conference, co-sponsored with the International Society for Scientometrics and Informetrics (ISSI), will provide a focused day for metrics researchers to present their recent projects and to discuss issues of interest to the field. 
+
+Scope
+Proposals addressing any topic of relevance to bibliometrics, scientometrics, webometrics, cybermetrics and allied areas are encouraged. Examples of topics include, but are not limited to: informetric laws, aspects of inequality or concentration and diffusion, growth and obsolescence, citation theory, linking theory, indicators, open access and electronic publishing, evaluation techniques for scientific output, visualization and mapping of science, and applications for information system content, use and management (e.g., information retrieval, libraries).
+
+Submission Process
+
+Full papers of up to 12 single-spaced pages are welcome and are to include a title, name(s) of the author(s), and an informative abstract of up to 300 words. Papers are to be submitted electronically to the symposium submission system at: http://www.softconf.com/asis/MetricsPreCon/ 
+
+and should follow the formatting guidelines used for ASIST Annual Meeting submissions (http://www.asis.org/Conferences/editorial_guidelines.html).
+
+Submissions will be double blind-refereed. Priority will be given to papers that represent completed or ongoing research. Submissions by students are encouraged. Proposals will be evaluated based on relevance to the field, originality, significance, organization, and clarity. 
+
+Accepted papers will be made electronically available to attendees of the symposium. Authors of accepted papers are expected to be in attendance to present their work during the symposium. High ranking papers will be invited for submission to a special issue of the Journal of Informetrics. 
+
+Important Dates
+o	Deadline for paper submissions â April 15, 2009 
+o	Acceptance decisions â May 29, 2009
+o	Final papers due â August 15, 2009
+
+(Note: ASIST member registration rates for the ASIST Annual Meeting will also apply to ISSI members.)
+
+For further details, please contact: 
+
+Ronald Rousseau
+KHBO - Association K.U. Leuven
+Industrial Sciences and Technology
+Zeedijk 101 -  8400  Oostende,  Belgium
+E-mail: ronald.rousseau@khbo.be
+
+OR
+
+Dietmar Wolfram
+School of Information Studies 
+University of Wisconsin-Milwaukee
+P.O. Box 413, Milwaukee, WI USA  53201
+E-mail: dwolfram@uwm.edu
+
+Additional information about the symposium will be made available at: http://www.sois.uwm.edu/MetricsPreCon/ 
+
+For more information about the ASIST Annual Meeting see http://www.asis.org/Conferences/AM09/am09cfp.html 

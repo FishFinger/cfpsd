@@ -1,0 +1,780 @@
+From - Thu Dec 10 14:24:47 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: f767e378b25c3ed831a2fa0bb07487be5a4e2228
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs25857pyn;
+        Fri, 10 Nov 2006 01:03:19 -0800 (PST)
+Received: by 10.65.216.19 with SMTP id t19mr2767001qbq.1163149399478;
+        Fri, 10 Nov 2006 01:03:19 -0800 (PST)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id e17si1763784qbe.2006.11.10.01.03.17;
+        Fri, 10 Nov 2006 01:03:19 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id kAA93GI4007463
+	for <jpprost@gmail.com>; Fri, 10 Nov 2006 20:03:16 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006111020031515171
+ for <jpprost@gmail.com>; Fri, 10 Nov 2006 20:03:15 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id kAA9356Z007458
+	for <jpprost@gmail.com>; Fri, 10 Nov 2006 20:03:05 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id kAA934RV012407
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 10 Nov 2006 20:03:05 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id kAA9345o007455
+	for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 10 Nov 2006 20:03:04 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006111020030315170
+ for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 10 Nov 2006 20:03:03 +1100
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id kAA92qSH007451
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 10 Nov 2006 20:02:52 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id kAA92m306710
+	for <jpprost@ICS.MQ.EDU.AU>; Fri, 10 Nov 2006 20:02:49 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id F0EF42DA08;
+	Fri, 10 Nov 2006 10:02:41 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 5630515 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Fri, 10 Nov 2006
+          10:02:41 +0100
+X-Original-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Delivered-To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Received: from thumbler.kulnet.kuleuven.ac.be (thumbler.kulnet.kuleuven.ac.be
+          [134.58.240.45]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 5ACFF2DA02 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 10 Nov 2006
+          10:02:41 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1]) by
+          thumbler.kulnet.kuleuven.ac.be (Postfix) with ESMTP id D66EB138CCC
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 10 Nov 2006 10:02:38 +0100
+          (CET)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by thumbler.kulnet.kuleuven.ac.be (Postfix) with
+          ESMTP id 6A5C2138059 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 10
+          Nov 2006 10:02:33 +0100 (CET)
+Received: from smtp2.ruc.dk (smtp2.ruc.dk [130.225.220.22]) by
+          cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP id 3357420149 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 10 Nov 2006 10:02:33 +0100
+          (CET)
+Received: by smtp2.ruc.dk (Postfix, from userid 1005) id 3D00E238045; Fri, 10
+          Nov 2006 09:41:05 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.1.7 (2006-10-05) on smtp2.ruc.dk
+Received: from [130.226.196.65] (g4-dat-15.ruc.dk [130.226.196.65]) (using
+          TLSv1 with cipher RC4-SHA (128/128 bits)) (No client certificate
+          requested) by smtp2.ruc.dk (Postfix) with ESMTP id 64011238089 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Fri, 10 Nov 2006 09:40:55 +0100
+          (CET)
+Mime-Version: 1.0 (Apple Message framework v752.2)
+Content-Type: multipart/alternative; boundary=Apple-Mail-1-157255025
+X-Mailer: Apple Mail (2.752.2)
+X-Virus-Scanned: by KULeuven Antivirus Cluster
+X-Spam-Status: No, hits=0.6 tagged_above=-9999.0 required=5.0 tests=HTML_40_50,
+               HTML_MESSAGE, LINES_OF_YELLING, LINES_OF_YELLING_2
+X-Spam-Level: *
+Message-ID:  <648E9CA3-73B7-4FEE-A54F-2F5C77964FEE@ruc.dk>
+Date:         Fri, 10 Nov 2006 09:40:48 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Henning Christiansen <henning@RUC.DK>
+Subject: [CHR] CONTEXT'07, call for papers
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+
+--Apple-Mail-1-157255025
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	delsp=yes;
+	format=flowed
+
+
+                   FIRST CALL FOR PAPERS
+
+------------------------------------------------------------------------=20=
+
+-
+                      CONTEXT'07
+
+The Sixth International and Interdisciplinary Conference on
+              Modeling and Using Context
+
+                  August 20-24, 2007
+             Roskilde University, Denmark
+
+                Submissions deadlines:
+          Full papers:                        March 15, 2007
+          Poster and Demonstration abstracts: March 15, 2007
+
+                http://context-07.ruc.dk/
+------------------------------------------------------------------------=20=
+
+-
+
+The Sixth International and Interdisciplinary Conference on Modeling and
+Using Context (CONTEXT'07) will provide a forum for presenting and
+discussing high-quality research and applications on context. The
+conference will include paper and poster presentations, system
+demonstrations, workshops, and a doctoral consortium. The conference
+invites researchers and practitioners to share insights and cutting-edge
+results from a wide range of disciplines including:
+
+      Computer Science, especially
+           Artificial Intelligence and Ubiquitous Computing
+
+      Cognitive Science           Linguistics
+
+      Organizational Sciences     Philosophy
+
+      Psychology
+
+      Application areas such as Medicine and Law
+
+Context affects a wide range of activities in humans and animals as well
+as in artificial agents and other systems. The importance of context is
+widely acknowledged, and "context" has become an area of study in its
+own right, as evidenced by numerous workshops, symposia, seminars, and
+conferences on this area. CONTEXT, the oldest conference series focusing
+on context, is unique in its emphasis on interdisciplinary research.
+Previous CONTEXT conferences have been held in Rio de Janeiro, Brazil
+(CONTEXT'97), Trento, Italy (CONTEXT'99, LNCS 1688), Dundee, Scotland
+(CONTEXT'01, LNCS 2116), Palo Alto, U.S.A. (CONTEXT'03, LNCS 2680), and
+Paris, France (CONTEXT'05, LNCS 3554).
+Each of these brought together researchers and practitioners from many
+disparate fields to discuss and report on context-related research and
+projects.
+
+
+TOPICS OF INTEREST
+------------------
+
+The following list illustrates sample research areas whose =20
+perspectives on
+context are solicited for the conference. This is not an exhaustive =20
+list,
+and contributions addressing context from other perspectives are =20
+welcome.
+The conference scope includes the contextual issues related to areas =20
+such
+as:
+
+   Analogy and Case-Based Reasoning    Intelligent/Semantic Web Systems
+   Autonomous Agents and Agent-based   Knowledge Engineering and =20
+Management
+       Systems                         Knowledge Representation
+   Cognitive Modeling                  Language Understanding and =20
+Production
+   Concepts and Categorization         Learning
+   Context-Aware Applications and      Memory, Representation and Access
+       Systems                         Multiagent Systems and Interagent
+   Databases                               Communication
+   Distributed Information Systems     Neuroscience
+   Formal Semantics and Pragmatics
+   Formal Theories of Context          Ontology Management
+   Heterogeneous Information           Organizational Theory and Design
+       Integration                     Perception
+   Human Decision-Making and Decision  Philosophical Foundations of =20
+Context
+   Support Systems                     Problem Solving and Planning
+   Human-Centered Computing            Reasoning
+   Human-Computer Interaction          Relevance Computation and =20
+Relevance
+   Information Management                  Theories
+   Intelligent Tutoring Systems        Situated and Distributed =20
+Cognition
+   Intelligent User Interfaces         Ubiquitous Computing
+
+
+CONFERENCE EVENTS
+-----------------
+
+CONTEXT'07 will include paper presentation sessions, a poster and
+demonstration session, two days of workshops, and a doctoral
+consortium. Workshops and the doctoral consortium will circulate =20
+separate
+calls for papers and participation, which will also be available at the
+conference web site.
+
+
+ACCEPTANCE CRITERIA AND SUBMISSION CATEGORIES
+---------------------------------------------
+
+Because CONTEXT'07 will be an interdisciplinary forum, all =20
+submissions will
+be evaluated both for their technical merit and for their =20
+accessibility to
+an interdisciplinary audience. Works that transcend disciplinary =20
+boundaries
+are especially encouraged.
+
+Submissions may be for full papers, poster abstracts, or demonstration
+abstracts. Full papers will be accepted either for oral presentation =20
+or for
+presentation at a poster session. All accepted full paper submissions =20=
+
+will
+be published in the proceedings. Accepted posters and demonstrations =20
+will be
+presented at the poster session, and the associated abstracts will be
+published in a brochure distributed to attendees. For additional details
+see the conference web site.
+
+For a paper to appear in the proceedings, at least one author must =20
+register
+for the conference by the deadline for camera-ready copy.
+
+
+SUBMISSION PROCEDURES
+---------------------
+
+Papers must be submitted electronically as PDF files. Submissions cannot
+exceed 14 pages in the Springer LNAI format. Detailed formatting and
+submissions instructions, as well as LaTeX and Word templates, will be
+available in the author instructions section of the conference Web
+site.
+
+All accepted authors will have the option of presenting a system
+demonstration at the poster session. Authors wishing to present a
+demonstration without an accompanying paper must submit a demonstration
+abstract. Demonstration abstracts should describe cutting-edge =20
+systems not
+described in paper submissions. Demonstration abstracts should summarize
+the system's behavior and significance, and should include at least one
+screen shot. If desired, they may also include the URL of an informal =20=
+
+video
+on the web. Demonstration abstracts should be at most 2 pages long.
+
+
+MULTIPLE SUBMISSIONS POLICY
+---------------------------
+
+CONTEXT'07 will not accept any paper which, at the time of =20
+submission, is
+under review for or has already been published or accepted for =20
+publication
+in a journal or another conference. This restriction does not apply to
+submissions for workshops and other venues with a limited audience.
+
+
+IMPORTANT DATES
+---------------
+
+Deadline for workshop proposal submissions                   January =20
+31, 2007
+Deadline for paper submissions                               March =20
+15, 2007
+Deadline for poster and demonstration abstract submissions   March =20
+15, 2007
+Notification of acceptance/rejection for paper submissions   May 7, 2007
+Suggested deadline for workshop paper submission             May 15, =20
+2007
+Deadline for final versions of accepted papers               May 31, =20
+2007
+Workshop days                                            August =20
+20-21, 2007
+Main conference (including poster and demo sessions)     August =20
+22-24, 2007
+
+
+CONFERENCE ORGANIZERS
+---------------------
+
+CONFERENCE CHAIR
+     Boicho Kokinov, New Bulgarian University, Bulgaria
+
+PROGRAM CO-CHAIRS
+     Daniel C. Richardson, UCSC, USA
+     Thomas R. Roth-Berghofer, DFKI, Germany
+     Laure Vieu, IRIT-CNRS, France, and ISTC-CNR, Italy
+
+WORKSHOPS CHAIR
+     Stefan Schulz, The e-Spirit Company GmbH, Dortmund, Germany
+
+ORGANIZING COMMITTEE
+     Henning Christiansen, Roskilde University, Denmark (Chair)
+     Troels Andreasen, Roskilde University, Denmark
+     John Gallagher, Roskilde University, Denmark
+     Mads Rosendahl, Roskilde University, Denmark
+     J=F8rgen Villadsen, Technical University of Denmark (Publicity =
+Chair)
+
+STEERING COMMITTEE
+     Chiara Ghidini, ITC-irst, Italy (Chair)
+     Varol Akman, Bilkent University, Turkey
+     Massimo Benerecetti, University of Naples, Italy
+     Paolo Bouquet, University of Trento, Italy
+     Patrick Br=E9zillon, University of Paris 6, France
+     Anind Dey, Carnegie Mellon University, USA
+     Fausto Giunchiglia, ITC-irst, Italy
+     Boicho Kokinov, New Bulgarian University, Bulgaria
+     David Leake, Indiana University, USA
+     Luciano Serafini, Trentino Cultural Institute (ITC), Italy
+     Rich Thomason, University of Michigan, USA
+     Roy Turner, University of Maine, USA
+     Roger A. Young, University of Dundee, UK
+
+
+FOR ADDITIONAL INFORMATION
+---------------------------
+
+Please see http://context-07.ruc.dk/ for additional information on the
+conference, complete committee information, and contacts for questions.
+
+Henning Christiansen
+professor, ph.d.
+Computer Science Section, Bldg. 42.1
+Roskilde University
+P.O.Box 260, DK-4000 Roskilde, DENMARK
+
+http://www.ruc.dk/~henning
+
+
+--Apple-Mail-1-157255025
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html;
+	charset=ISO-8859-1
+
+<HTML><BODY style=3D"word-wrap: break-word; -khtml-nbsp-mode: space; =
+-khtml-line-break: after-white-space; "><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 FIRST CALL FOR PAPERS</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" =
+face=3D"Courier">---------------------------------------------------------=
+----------------</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 =
+CONTEXT'07</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">The Sixth International and =
+Interdisciplinary Conference on</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0=A0 =
+Modeling and Using Context</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0=A0 August 20-24, 2007</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0 =
+Roskilde University, Denmark</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=
+ Submissions deadlines:</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 =A0 =A0=A0 Full papers:=A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 March 15, 2007</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0=A0 Poster =
+and Demonstration abstracts: March 15, 2007</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=
+ <A =
+href=3D"http://context-07.ruc.dk">http://context-07.ruc.dk</A>/</FONT></DI=
+V><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------------------------------------------------=
+----------------</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">The Sixth International and =
+Interdisciplinary Conference on Modeling and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Using Context (CONTEXT'07) =
+will provide a forum for presenting and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">discussing high-quality =
+research and applications on context. The</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">conference will include =
+paper and poster presentations, system</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">demonstrations, workshops, =
+and a doctoral consortium. The conference</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">invites researchers and =
+practitioners to share insights and cutting-edge</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">results from a wide range of =
+disciplines including:</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0=A0 Computer Science, =
+especially</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 =A0 =A0 =A0 Artificial Intelligence and =
+Ubiquitous Computing</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0=A0 Cognitive =
+Science=A0 =A0 =A0 =A0 =A0=A0 Linguistics</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0=A0 Organizational =
+Sciences=A0 =A0=A0 Philosophy</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0=A0 Psychology=A0 =A0 =
+=A0 =A0=A0 </FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0=A0 Application areas =
+such as Medicine and Law</FONT></DIV><DIV><FONT class=3D"Apple-style-span"=
+ face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Context affects a wide range =
+of activities in humans and animals as well</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">as in artificial agents and =
+other systems. The importance of context is</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">widely acknowledged, and =
+"context" has become an area of study in its</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">own right, as evidenced by =
+numerous workshops, symposia, seminars, and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">conferences on this area. =
+CONTEXT, the oldest conference series focusing</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">on context, is unique in its =
+emphasis on interdisciplinary research.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Previous CONTEXT conferences =
+have been held in Rio de Janeiro, Brazil</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">(CONTEXT'97), Trento, Italy =
+(CONTEXT'99, LNCS 1688), Dundee, Scotland</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">(CONTEXT'01, LNCS 2116), =
+Palo Alto, U.S.A. (CONTEXT'03, LNCS 2680), and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Paris, France (CONTEXT'05, =
+LNCS 3554).</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Each of these brought together researchers and =
+practitioners from many</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">disparate fields to discuss and report on =
+context-related research and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" =
+face=3D"Courier">projects.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">TOPICS OF =
+INTEREST</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">------------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">The following list =
+illustrates sample research areas whose perspectives =
+on</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">context are solicited for the conference. This is not =
+an exhaustive list,</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">and contributions addressing context from other =
+perspectives are welcome.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">The conference scope =
+includes the contextual issues related to areas =
+such</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">as:</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Analogy and Case-Based =
+Reasoning=A0 =A0 Intelligent/Semantic Web Systems =
+</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0 =
+Autonomous Agents and Agent-based=A0=A0 Knowledge Engineering and =
+Management</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 =A0 Systems=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0=A0 Knowledge Representation </FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Cognitive Modeling=A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 Language Understanding and =
+Production</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Concepts and Categorization=A0 =A0 =A0 =A0=A0 =
+Learning </FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Context-Aware Applications and=A0 =A0 =A0 Memory, =
+Representation and Access </FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 Systems=A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 Multiagent Systems and =
+Interagent </FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Databases=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0=A0 Communication</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Distributed Information =
+Systems=A0 =A0=A0 Neuroscience </FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Formal Semantics and =
+Pragmatics</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Formal Theories of Context=A0 =A0 =A0 =A0 =A0 =
+Ontology Management </FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Heterogeneous Information=A0 =A0 =A0 =A0 =A0=A0 =
+Organizational Theory and Design </FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 =A0 Integration=A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 Perception </FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Human Decision-Making =
+and Decision=A0 Philosophical Foundations of =
+Context</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Support Systems=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0=A0 Problem Solving and Planning</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Human-Centered =
+Computing=A0 =A0 =A0 =A0 =A0 =A0 Reasoning</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Human-Computer =
+Interaction=A0 =A0 =A0 =A0 =A0 Relevance Computation and =
+Relevance</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Information Management=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 Theories</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 Intelligent Tutoring Systems=A0 =A0 =A0 =A0 =
+Situated and Distributed Cognition</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 Intelligent User =
+Interfaces=A0 =A0 =A0 =A0=A0 Ubiquitous Computing</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">CONFERENCE =
+EVENTS</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">-----------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">CONTEXT'07 will include =
+paper presentation sessions, a poster and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">demonstration session, two =
+days of workshops, and a doctoral</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">consortium. Workshops and =
+the doctoral consortium will circulate separate</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">calls for papers and =
+participation, which will also be available at =
+the</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">conference web site.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">ACCEPTANCE CRITERIA AND =
+SUBMISSION CATEGORIES</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------------------------------------</FONT></DIV=
+><DIV><FONT class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Because CONTEXT'07 will be =
+an interdisciplinary forum, all submissions will</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">be evaluated both for their =
+technical merit and for their accessibility to</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">an interdisciplinary =
+audience. Works that transcend disciplinary =
+boundaries</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">are especially encouraged.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Submissions may be for full =
+papers, poster abstracts, or demonstration</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">abstracts. Full papers will =
+be accepted either for oral presentation or for</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">presentation at a poster =
+session. All accepted full paper submissions will</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">be published in the =
+proceedings. Accepted posters and demonstrations will =
+be</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">presented at the poster session, and the associated =
+abstracts will be</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">published in a brochure distributed to attendees. For =
+additional details</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">see the conference web site.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">For a paper to appear in the =
+proceedings, at least one author must register</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">for the conference by the =
+deadline for camera-ready copy.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">SUBMISSION =
+PROCEDURES</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Papers must be submitted =
+electronically as PDF files. Submissions cannot</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">exceed 14 pages in the =
+Springer LNAI format. Detailed formatting and</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">submissions instructions, as =
+well as LaTeX and Word templates, will be</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">available in the author =
+instructions section of the conference Web</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">site.</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">All accepted authors will =
+have the option of presenting a system</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">demonstration at the poster =
+session. Authors wishing to present a</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">demonstration without an =
+accompanying paper must submit a demonstration</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">abstract. Demonstration =
+abstracts should describe cutting-edge systems =
+not</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">described in paper submissions. Demonstration abstracts =
+should summarize</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">the system's behavior and significance, and should =
+include at least one</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">screen shot. If desired, they may also include the URL =
+of an informal video</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">on the web. Demonstration abstracts should be at most 2 =
+pages long.</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">MULTIPLE SUBMISSIONS =
+POLICY</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">CONTEXT'07 will not accept =
+any paper which, at the time of submission, is</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">under review for or has =
+already been published or accepted for =
+publication</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">in a journal or another conference. This restriction =
+does not apply to</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">submissions for workshops and other venues with a =
+limited audience.</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">IMPORTANT =
+DATES</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Deadline for workshop =
+proposal submissions=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 January 31, =
+2007</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Deadline for paper submissions=A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 March 15, =
+2007</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Deadline for poster and demonstration abstract =
+submissions=A0=A0 March 15, 2007</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Notification of =
+acceptance/rejection for paper submissions=A0=A0 May 7, =
+2007</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Suggested deadline for workshop paper submission=A0 =A0 =
+=A0 =A0 =A0 =A0=A0 May 15, 2007</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Deadline for final versions =
+of accepted papers=A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 May 31, =
+2007</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Workshop days=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 August 20-21, =
+2007</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Main conference (including poster and demo sessions)=A0 =
+=A0=A0 August 22-24, 2007</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">CONFERENCE =
+ORGANIZERS</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">CONFERENCE =
+CHAIR</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Boicho Kokinov, New Bulgarian University, =
+Bulgaria</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">PROGRAM =
+CO-CHAIRS</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Daniel C. Richardson, UCSC, =
+USA</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Thomas R. Roth-Berghofer, DFKI, Germany</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 Laure Vieu, =
+IRIT-CNRS, France, and ISTC-CNR, Italy</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">WORKSHOPS =
+CHAIR</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Stefan Schulz, The e-Spirit Company GmbH, Dortmund, =
+Germany</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">ORGANIZING =
+COMMITTEE</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Henning Christiansen, Roskilde University, =
+Denmark (Chair)</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Troels Andreasen, Roskilde University, =
+Denmark</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 John Gallagher, Roskilde University, =
+Denmark</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Mads Rosendahl, Roskilde University, =
+Denmark</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 J=F8rgen Villadsen, Technical University of =
+Denmark (Publicity Chair)</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">STEERING =
+COMMITTEE</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Chiara Ghidini, ITC-irst, Italy =
+(Chair)</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Varol Akman, Bilkent University, =
+Turkey</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Massimo Benerecetti, University of Naples, =
+Italy</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Paolo Bouquet, University of Trento, Italy</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 Patrick Br=E9zillon, =
+University of Paris 6, France</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 Anind Dey, Carnegie =
+Mellon University, USA</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 Fausto Giunchiglia, ITC-irst, =
+Italy</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Boicho Kokinov, New Bulgarian University, =
+Bulgaria</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">=A0 =A0 David Leake, Indiana University, =
+USA</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Luciano Serafini, Trentino Cultural Institute (ITC), =
+Italy</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier">=A0=
+ =A0 Rich Thomason, University of Michigan, USA</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">=A0 =A0 Roy Turner, =
+University of Maine, USA</FONT></DIV><DIV><FONT class=3D"Apple-style-span"=
+ face=3D"Courier">=A0 =A0 Roger A. Young, University of Dundee, =
+UK</FONT></DIV><DIV><FONT class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">FOR ADDITIONAL =
+INFORMATION</FONT></DIV><DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier">---------------------------</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR =
+class=3D"khtml-block-placeholder"></FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">Please see <A =
+href=3D"http://context-07.ruc.dk">http://context-07.ruc.dk</A>/ for =
+additional information on the</FONT></DIV><DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier">conference, complete =
+committee information, and contacts for questions.</FONT></DIV><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR></FONT><DIV> <SPAN =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+-khtml-border-horizontal-spacing: 0px; -khtml-border-vertical-spacing: =
+0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; =
+line-height: normal; -khtml-text-decorations-in-effect: none; =
+text-indent: 0px; -apple-text-size-adjust: auto; text-transform: none; =
+orphans: 2; white-space: normal; widows: 2; word-spacing: 0px; "><SPAN =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; =
+-khtml-border-horizontal-spacing: 0px; -khtml-border-vertical-spacing: =
+0px; color: rgb(0, 0, 0); font-variant: normal; letter-spacing: normal; =
+line-height: normal; -khtml-text-decorations-in-effect: none; =
+text-indent: 0px; -apple-text-size-adjust: auto; text-transform: none; =
+orphans: 2; white-space: normal; widows: 2; word-spacing: 0px; "><FONT =
+style=3D"font: 12.0px Helvetica"><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Henning Christiansen</FONT></FONT><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR></FONT><FONT =
+style=3D"font: 12.0px Helvetica"><FONT class=3D"Apple-style-span" =
+face=3D"Courier">professor, ph.d.</FONT></FONT><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR></FONT><FONT =
+style=3D"font: 12.0px Helvetica"><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Computer Science Section, Bldg. 42.1</FONT></FONT><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR></FONT><FONT =
+style=3D"font: 12.0px Helvetica"><FONT class=3D"Apple-style-span" =
+face=3D"Courier">Roskilde University</FONT></FONT><FONT =
+class=3D"Apple-style-span" face=3D"Courier"><BR></FONT><FONT =
+style=3D"font: 12.0px Helvetica"><FONT class=3D"Apple-style-span" =
+face=3D"Courier">P.O.Box 260, DK-4000 Roskilde, =
+DENMARK</FONT></FONT><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR></FONT><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><FONT style=3D"font: 12.0px =
+Helvetica"></FONT><BR></FONT><FONT style=3D"font: 12.0px =
+Helvetica"><FONT class=3D"Apple-style-span" face=3D"Courier"><A =
+href=3D"http://www.ruc.dk/~henning">http://www.ruc.dk/~henning</A></FONT><=
+/FONT><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR></FONT></SPAN></SPAN><FONT class=3D"Apple-style-span"=
+ face=3D"Courier"> </FONT></DIV><FONT class=3D"Apple-style-span" =
+face=3D"Courier"><BR></FONT></BODY></HTML>=
+
+--Apple-Mail-1-157255025--

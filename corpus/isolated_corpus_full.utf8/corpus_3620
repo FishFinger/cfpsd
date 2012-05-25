@@ -1,0 +1,180 @@
+From - Thu Dec 10 14:33:40 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.102.247.5 with SMTP id u5cs238696muh;
+        Mon, 6 Oct 2008 06:38:00 -0700 (PDT)
+Received: by 10.181.6.5 with SMTP id j5mr3589138bki.34.1223300280577;
+        Mon, 06 Oct 2008 06:38:00 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id h2si10773698fkh.11.2008.10.06.06.37.52;
+        Mon, 06 Oct 2008 06:38:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1KmqDD-0002oZ-8u; Mon, 06 Oct 2008 15:33:23 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1KmqD3-0002nA-6f; Mon, 06 Oct 2008 15:33:13 +0200
+Received: from smtp.cims.nyu.edu [128.122.80.9] 
+	by rolf.uib.no for corpora@uib.no with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69) id 1KmqCs-0001d6-6M; Mon, 06 Oct 2008 15:33:16 +0200
+Received: from [128.122.140.130] (128-122-140-130.DYNAPOOL.NYU.EDU
+	[128.122.140.130] (may be forged)) (authenticated bits=0)
+	by smtp.cims.nyu.edu (8.14.3/8.13.8) with ESMTP id m96DWdsV024583;
+	Mon, 6 Oct 2008 09:32:39 -0400 (EDT)
+Date: Mon, 06 Oct 2008 09:32:39 -0400
+From: Satoshi Sekine <sekine@cs.nyu.edu>
+To: corpora@uib.no, admin@ai-gakkai.or.jp, sai-ann@iijnet.or.jp,
+	nlp_announce@nacos.com, ipsj-nl-announce@r.dl.itc.u-tokyo.ac.jp,
+	i-explosion@nii.ac.jp
+Organization: New York University
+In-Reply-To: <20080721135118.E959.SEKINE@cs.nyu.edu>
+References: <487B69CB.5060509@cs.nyu.edu>
+	<20080721135118.E959.SEKINE@cs.nyu.edu>
+Message-Id: <20081006093134.F3A4.SEKINE@cs.nyu.edu>
+MIME-Version: 1.0
+X-Mailer: Becky! ver. 2.31 [ja]
+X-checked-clean: by exiscan on rolf
+X-Scanner: a68cb8fa6c2307c2ee3f9f06db522e70 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -14.3 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; -15 From is listed in 'whitelist_SA'
+	0.7 RAW: Contains a line >= 199 long
+Subject: [Corpora-List] Second Web People Search Evaluation Workshop: Call
+	for Participation
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+Reply-To: sekine@cs.nyu.edu
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+   Second Web People Search Evaluation Workshop =
+
+             *Call for Participation*
+             http://nlp.uned.es/weps
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+
+Finding information about people in the World Wide Web is one of the most
+common activities of Internet users. Person names, however, are highly
+ambiguous. In most cases, the results for a person name search are a mix of
+pages about different people sharing the same name. The user is then forced
+either to add terms to the query (probably losing recall and focusing on one
+single aspect of the person), or to browse every document in order to filter
+the information about the person he/she is actually looking for. In an ideal
+system the user would simply type a person name, and receive search results
+clustered according to the different people sharing that name.
+
+In 2007 the Web People Search Task (Artiles et al. 2007
+<http://nlp.uned.es/%7Ejavier/docs/weps2007.pdf>)
+was the first competitive evaluation focused on this problem. The 16
+participating systems received a set of web pages for a person name, and
+they had to cluster them into different entities. This second evaluation
+provides a new testbed corpus, improved evaluation metrics, and an
+additional attribute extraction subtask.
+
+Task definitions =
+
+----------------
+[Clustering]
+In this task systems receive as input a set of web search results obtained
+when performing a query for an (ambiguous) person name. The expected output
+is a clustering of the web pages, where each cluster is assumed to contain
+all (and only those) pages that refer to the same individual.
+ =
+
+[Attribute Extraction]
+This subtask consists of extracting 18 kinds of "attribute values" for
+target individuals whose names appear on each of the provided Web pages. The
+organizers will distribute the target Web pages in their original format
+(i.e., html), and the participant systems have to extract attribute values
+from each page.
+
+[Complete guidelines and data]
+- Clustering task guideline http://nlp.uned.es/weps/weps2/WePS2_Clustering.=
+pdf
+- Attribute Extraction task guideline http://nlp.uned.es/weps/weps2/WePS2_A=
+ttribute_Extraction.pdf
+- Training/development data http://nlp.uned.es/weps/weps-2-data
+
+Participation
+-------------
+The clustering and the attribute extraction task will be regarded as two
+separate subtasks, and therefore a team can choose to participate in only
+one or both of them. The organizers will provide annotated data for
+developing/training systems. On a second stage, an unannotated corpus will
+be distributed, systems output will be collected and evaluation results
+returned to the participants. Each team can submit up to five runs. Every
+team is expected to write a paper describing their system and discussing the
+evaluation results.
+
+
+How to register
+----------------
+Please send an email expressing your interest to the task organizers (
+weps-organizers@lsi.uned.es).
+
+Important Dates
+---------------
+   - October 2008: Distribute the training data + CFP
+   - December 1-8, 2008: Evaluation
+   - December 17, 2008: Return the evaluation result
+   - February 2009: Papers due.
+   - April 2x, 2009: Workshop in Madrid.
+
+Workshop Organizers
+-------------------
+   - Javier Artiles, NLP & IR Group (UNED)
+   - Julio Gonzalo, NLP & IR Group (UNED)
+   - Satoshi Sekine, Proteus Project (NYU)
+
+Program Committee
+-----------------
+   - Eneko Agirre, UBC
+   - Breck Balwin, Alias-i
+   - Andrew Borthwick, Spock
+   - Jeremy Ellman, Northumbria University
+   - Donna Harman, National Institute of Standards and Technology (NIST)
+   - Eduard Hovy, ISI
+   - Dmitri Kalashnikov, University of California, Irvine
+   - Paul Kalmar, Fair Issac
+   - Bernardo Magnini, FBK-irst, Italy
+   - Gideon Mann, Google
+   - Yutaka Matsuo, Tokyo University
+   - Manabu Okumura, Tokyo Inst. of Tech.
+   - Ted Pedersen, University of Minnesota
+   - Massimo Poesio, University of Essex
+   - Maarten de Rijke, University of Amsterdam
+   - Mark Sanderson, University of Sheffield
+   - Arjen P. de Vries, Centrum Wiskunde & Informatica
+
+
+Updated information about the task can be found at the WePS web site (
+http://nlp.uned.es/weps).
+
+
+Best Regards,
+Satoshi Sekine
+
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

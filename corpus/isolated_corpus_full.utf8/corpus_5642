@@ -1,0 +1,255 @@
+From - Thu Dec 10 14:37:40 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs439177faq;
+        Thu, 9 Jul 2009 01:25:14 -0700 (PDT)
+Received: by 10.210.57.3 with SMTP id f3mr570244eba.91.1247127911490;
+        Thu, 09 Jul 2009 01:25:11 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 28si5679972ewy.0.2009.07.09.01.25.10;
+        Thu, 09 Jul 2009 01:25:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4425B216E4; Thu,  9 Jul 2009 10:25:10 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 353202140F;
+	Thu,  9 Jul 2009 10:24:47 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1055D3D3A;
+	Thu,  9 Jul 2009 10:24:47 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZAGhlxH3yQRN; Thu,  9 Jul 2009 10:24:46 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6DCBB3D2B;
+	Thu,  9 Jul 2009 10:24:45 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A1A5C3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  7 Jul 2009 10:31:03 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id D3IKzDM-zyIj for <elsnet-list@mailman.elsnet.org>;
+	Tue,  7 Jul 2009 10:31:03 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6EB7E3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  7 Jul 2009 10:30:43 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4A94F2105F; Tue,  7 Jul 2009 10:30:43 +0200 (MEST)
+X-Greylist: delayed 2557 seconds by postgrey-1.28 at newjura;
+	Tue, 07 Jul 2009 10:30:36 MEST
+Received: from diomedes.noc.ntua.gr (diomedes.noc.ntua.gr [147.102.222.220])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 0AF5120FF4
+	for <elsnet-list@elsnet.org>; Tue,  7 Jul 2009 10:30:35 +0200 (MEST)
+Received: from manolito.image.ece.ntua.gr
+	([IPv6:2001:648:2000:b:20d:60ff:fe50:49f2])
+	by diomedes.noc.ntua.gr (8.14.3/8.14.3) with ESMTP id n677lULg007593
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Tue, 7 Jul 2009 10:47:30 +0300 (EEST)
+	(envelope-from smap-publicity@image.ntua.gr)
+Received: from manolito.image.ece.ntua.gr (localhost [127.0.0.1])
+	by manolito.image.ece.ntua.gr (8.13.8/8.13.6) with ESMTP id
+	n677lU3n016395
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 7 Jul 2009 10:47:30 +0300
+Received: from localhost (www@localhost)
+	by manolito.image.ece.ntua.gr (8.13.8/8.13.8/Submit) with SMTP id
+	n677lLNc016380; Tue, 7 Jul 2009 10:47:21 +0300
+Date: Tue, 7 Jul 2009 10:47:21 +0300
+From: smap-publicity@image.ntua.gr
+X-Authentication-Warning: manolito.image.ece.ntua.gr: www owned process doing
+	-bs
+Received: by manolito.image.ece.ntua.gr (bulk_mailer v1.13);
+	Tue, 7 Jul 2009 10:46:37 +0300
+To: undisclosed-recipients:;
+Message-ID: <bulk.16343.20090707104637@manolito.image.ece.ntua.gr>
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.0.1
+	(diomedes.noc.ntua.gr [IPv6:2001:648:2000:de::220]);
+	Tue, 07 Jul 2009 10:47:34 +0300 (EEST)
+X-Virus-Scanned: ClamAV version 0.94.2,
+	clamav-milter version 0.94.2 on diomedes.noc.ntua.gr
+X-Virus-Status: Clean
+X-Mailman-Approved-At: Thu, 09 Jul 2009 10:24:22 +0200
+Subject: [Elsnet-list] SMAP 2009 - 3rd Call for Papers (deadline extended to
+	July 24, 2009)
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+[Apologies for cross-postings. Please forward this e-mail to anyone interested.]
+
+---------------------------------------------------------------------------------------
+CALL FOR PAPERS
+4th International Workshop on Semantic Media Adaptation and Personalization (SMAP 2009)
+December 14-15, 2009
+San Sebastian, Spain
+http://www.smap2009.org
+---------------------------------------------------------------------------------------
+
+*CALL FOR PAPERS*
+-----------------
+The Semantic Media Adaptation and Personalization (SMAP) Initiative was founded during the summer of 2006 in an effort to discuss the state of the art, recent advances and future perspectives for semantic media adaptation. After three successful workshops, SMAP 2006 (Athens, Greece), SMAP 2007 (London, United Kingdom), and SMAP 2008 (Prague, Czech Republic) the Semantic Media Adaptation and Personalization workshop series has consolidated as a reference event in order to discuss about the newest advances in the field, including a 2-days main track of high-quality scientific papers. Thus, the 4th SMAP workshop 
+   * will be held in San Sebastian, Spain
+   * will be hosted by VICOMTech-IK4 Applied Research Centre (http://www.vicomtech.org)
+   * will take place on Monday and Tuesday, December 14th and 15th, 2009.
+
+We strive to have a diverse academic audience, varying from young researchers working on PhD level to experts in the field. The workshop aims to provide a platform for exchanging fresh ideas and expertise, and for obtaining feedback on ongoing research. As with previous SMAPs, plans are in place to have all the papers presented at the workshop published by the IEEE Computer Society and selected papers to appear either in an edited volume or in a special journal issue.
+
+
+*WORKSHOP TOPICS*
+-----------------
+SMAP 2009 will aim to address several issues of semantic multimedia technologies in multilingual environments such as, but not limited to:
+    * Semantic content creation and modelling
+    * Semantic-driven multimedia indexing and retrieval
+    * Multimedia ontologies, reasoning and Semantic Web adaptation technologies
+    * Content customization and adaptation
+    * Multilingual content navigation
+    * Social multimedia tagging and multimedia content communities
+    * Multimedia content annotation tools
+    * Intelligent search, content retrieval and filtering
+    * User modelling, intelligent personalized interfaces and dynamic profiling
+    * Multimedia and open standards
+    * Semantic context modelling and extraction
+    * Context-aware multimedia applications
+    * and so on
+
+
+*WHO CAN PARTICIPATE*
+---------------------
+The 2009 Workshop aims not only to bring back together the researchers and practitioners from 2006, 2007 and 2008, but also to welcome new ones in order to explore recent and emerging developments in the field of semantic media adaptation and personalization, building on the achievements of the previous Workshops. Specifically, SMAP 2009 will consolidate any prior efforts to advance beyond a workshop meeting to a focused meeting of a society of researchers and practitioners.
+
+
+*IMPORTANT DATES*
+-----------------
+Submission of full papers:                                    *July 24, 2009* 
+Notification of acceptance/rejection:                          August 17, 2009 
+Submission of camera-ready papers and author registration:     September 8, 2009 
+Workshop:                                                      December 14-15, 2009 
+
+
+
+*WORKSHOP ORGANIZERS AND CHAIRS*
+--------------------------------
+Local Chairs
+    * Maria Teresa Linaza, VICOMTech, Spain
+    * Jorge Posada, VICOMTech, Spain
+
+General Chairs
+    * Phivos Mylonas, National Technical University of Athens, Greece
+    * Manolis Wallace, University of Peloponnese, Greece
+    * Ioannis Anagnostopoulos, University of the Aegean, Greece
+
+Sessions Chair
+    * Malamati Louta, Harokopio University of Athens, Greece
+    * Ioannis Anagnostopoulos, University of the Aegean, Greece
+    * Angelos Michalas, University of Western Macedonia, Greece
+
+
+*PROGRAM COMMITTEE*
+-------------------
+    * Harry Agius, Brunel University, United Kingdom
+    * Ioannis Anagnostopoulos, University of the Aegean, Greece
+    * Yannis Avrithis, National Technical University of Athens, Greece
+    * Adrian S. Barb, Penn State University, USA
+    * Maria Bielikova, Slovak University of Technology, Slovak Republic
+    * Matt-Mouley Bouamrane, University of Manchester, United Kingdom
+    * Claudia Buzzi, Italian National Research Council, Institute of Informatics and Telematics, Italy
+    * Silvia Calegari, University of Milano-Bicocca, Italy
+    * Ivan Cantador, Universidad Autonoma de Madrid, Spain
+    * Pablo Castells, Universidad Autonoma de Madrid, Spain
+    * Xiaochun Cheng, Middlesex University, UK
+    * Jaime Delgado, Universidad Politecnica de Cataluna, Spain
+    * Mario Doller, University of Passau, Germany
+    * Yaniv Eytani, University of Illinois, USA
+    * Nastaran Fatemi, Haute Ecole d'Ingenierie et de Gestion du Canton de Vaud, Switzerland
+    * Junbin Gao, Charles Sturt University, Australia
+    * Sabine Graf, Vienna University of Technology, Austria
+    * William I. Grosky, University of Michigan-Dearborn, USA
+    * Jesus Herrero, Fundacion Robotiker-Tecnalia, Spain
+    * Yiannis Kompatsiaris, Centre of Research and Technology Hellas, Informatics and Telematics Institute, Greece
+    * Sebastien Laborie, INRIA, France
+    * Chang-Shing Lee, National University of Tainan, Taiwan (China)
+    * John W.T. Lee, Hong Kong Polytechnic University, Hong Kong
+    * Kris Luyten, Hasselt University, Belgium
+    * Ilias Maglogiannis, University of the Aegean, Greece
+    * Ferran Marques, Universitat Politecnica de Catalunya, Spain
+    * Vasileios Mezaris, Centre of Research and Technology Hellas, Informatics and Telematics Institute, Greece
+    * George Paliouras, Demokritos National Centre for Scientific Research, Greece
+    * Viviana Patti, Universita' di Torino , Italy
+    * Jose Juan Pazos, Universidad de Vigo, Spain
+    * Petr Saloun, University of Ostrava, Czech Republic
+    * Maria Teresa Linaza, VICOMTech, Spain
+    * Nicolas Tsapatsoulis, Cyprus University of Technology, Cyprus
+    * David Vallet, Universidad Autonoma de Madrid, Spain
+    * Paulo Villegas, Telefonica I+D, Spain
+  	
+
+
+*SUBMISSION PROCEDURE*
+----------------------
+Prospective contributors are invited to submit research papers at the EasyChair Online SMAP'09 Submission site (http://www.easychair.org/conferences/?conf=smap2009). A peer review process will be applied to all submissions, provided by the workshop's Program Committee members, being selected among well-known researchers in the area.
+
+
+*WORKSHOP PROCEEDINGS*
+----------------------
+The Workshop proceedings will be published by the *IEEE Computer Society* and made available through IEEE Xplore and the IEEE Computer Society Digital Library. Papers must be formatted according to the IEEE Computer Society standards and their length must be between 4 and 6 IEEE double column style pages. Only IEEE Xplore - compliant PDF files will be accepted. 
+
+
+*EDITED VOLUME*
+---------------
+Like in all previous SMAP Workshops, deserving papers will be solicited for inclusion in an Edited Volume.
+
+
+*JOURNAL SPECIAL ISSUE*
+-----------------------
+In addition, exceptional papers will be solicited for inclusion in an international, peer-reviewed journal special issue after extension and re-evaluation. 
+
+
+*VENUE/ACCOMODATION*
+--------------------
+SMAP 2009 will be held in Donostia/San Sebastian in the Technology Park of San Sebastian. A combination of Nature, Technology and Art characterises San Sebastian Technology Park, an ideal meeting point for the interchange of ideas and knowledgement. It is located within a privileged natural setting in the Miramon Park, just five minutes from the centre of San Sebastian, the capital of Gipuzkoa (Basque Country). San Sebastian Technology Park's excellent infraestructures and the services it provides, have made it into a First Class location for holding conferences, exhibitions, workshops and gala events. It offers the most advanced audiovisual resources. The restaurant Arbelaitz Miramon (1 Michelin Star 2008!) completes the global offer of the Park.
+
+
+*CONTACT*
+---------
+For any further information, please send an email to: 
+larraitz@lankor.com
+or 
+smap@image.ntua.gr
+
+
+
+
+
+
+
+
+* IMPORTANT NOTICE*
+-------------------
+If you no longer wish to receive emails about future SMAP events, please send an email to smap@image.ntua.gr with "UNSUBSCRIBE your@email.address" in the Subject field.
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

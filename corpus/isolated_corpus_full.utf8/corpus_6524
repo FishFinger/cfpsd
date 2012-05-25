@@ -1,0 +1,252 @@
+From - Thu Dec 10 14:39:10 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs21167bkq;
+        Tue, 17 Nov 2009 01:40:41 -0800 (PST)
+Received: by 10.90.41.29 with SMTP id o29mr2364780ago.101.1258450840265;
+        Tue, 17 Nov 2009 01:40:40 -0800 (PST)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 11si23113377iwn.81.2009.11.17.01.40.38;
+        Tue, 17 Nov 2009 01:40:40 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id nAH9eXGe021205
+	for <jpprost@ICS.MQ.EDU.AU>; Tue, 17 Nov 2009 20:40:34 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 9BA1361DB2;
+	Tue, 17 Nov 2009 10:40:29 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 6264870 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Tue, 17 Nov 2009
+          10:40:29 +0100
+X-Original-To: chr@listserv.cc.kuleuven.be
+Delivered-To: chr@listserv.cc.kuleuven.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id 1404537390 for <chr@listserv.cc.kuleuven.be>; Tue, 17 Nov 2009
+          10:40:29 +0100 (CET)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 0FDCA51C032 for <chr@listserv.cc.kuleuven.be>; Tue, 17 Nov 2009
+          10:40:17 +0100 (CET)
+Received: from hermes3.cs.kuleuven.be (mailrelay.cs.kuleuven.be [134.58.40.3])
+          by cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id F1BC8341AE
+          for <chr@listserv.cc.kuleuven.be>; Tue, 17 Nov 2009 10:40:06 +0100
+          (CET)
+Received-SPF: pass (hermes3.cs.kuleuven.be.: domain of
+              Peter.VanWeert@cs.kuleuven.be designates 127.0.0.1 as permitted
+              sender) receiver=hermes3.cs.kuleuven.be.; client-ip=127.0.0.1;
+              helo=hermes3.cs.kuleuven.be.;
+              envelope-from=Peter.VanWeert@cs.kuleuven.be; x-software=spfmilter
+              0.97 http://www.acme.com/software/spfmilter/ with libspf-unknown;
+Received: from hermes3.cs.kuleuven.be. (localhost [127.0.0.1]) by
+          hermes3.cs.kuleuven.be.  with ESMTP id nAH9e2Gp023644 for
+          <chr@listserv.cc.kuleuven.be>; Tue, 17 Nov 2009 10:40:06 +0100
+Received: (from defang@localhost) by hermes3.cs.kuleuven.be.
+          (8.14.2/8.14.2/Submit) id nAH9QnJo021463 for
+          <chr@listserv.cc.kuleuven.be>; Tue, 17 Nov 2009 10:26:49 +0100
+X-Authentication-Warning: hermes3.cs.kuleuven.be.: defang set sender to
+                         <Peter.VanWeert@cs.kuleuven.be> using -f
+Received: from dr-zook.cs.kuleuven.be. (dr-zook.cs.kuleuven.be [134.58.41.20])
+          by hermes.cs.kuleuven.be (envelope-sender
+          <Peter.VanWeert@cs.kuleuven.be>) (MIMEDefang) with ESMTP id
+          nAH9Qljp021440; Tue, 17 Nov 2009 10:26:49 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1]) by dr-zook.cs.kuleuven.be.
+          (8.14.2/8.14.2/Debian-2build1) with ESMTP id nAH9Ql9C018342; Tue, 17
+          Nov 2009 10:26:47 +0100
+X-Virus-Scanned: Debian amavisd-new at dr-zook.cs.kuleuven.be.
+Received: from dr-zook.cs.kuleuven.be. ([127.0.0.1]) by localhost
+          (dr-zook.cs.kuleuven.be [127.0.0.1]) (amavisd-new,
+          port 10024) with LMTP id XnIWwOttEzjr; Tue, 17 Nov 2009 10:26:36
+          +0100 (CET)
+Received: from nifl.cs.kuleuven.be (nifl.cs.kuleuven.be [134.58.41.14]) by
+          dr-zook.cs.kuleuven.be. (8.14.2/8.14.2/Debian-2build1) with ESMTP id
+          nAH9QYM9018337 (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA
+          bits=256 verify=NOT); Tue, 17 Nov 2009 10:26:34 +0100
+Received: from [134.58.45.71] (jefke.cs.kuleuven.be [134.58.45.71])
+          (authenticated bits=0) by nifl.cs.kuleuven.be
+          (A_Good_MTA/8.14.2/Debian-2build1) with ESMTP id nAH9QUfK015399; Tue,
+          17 Nov 2009 10:26:31 +0100
+User-Agent: Thunderbird 2.0.0.23 (X11/20090817)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="------------050007080905020006090005"
+X-Scanned-By: MIMEDefang 2.63 on 127.0.1.1
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=-1.441, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44, SPF_PASS -0.00)
+X-KULeuven-Envelope-From: peter.vanweert@cs.kuleuven.be
+Message-ID:  <4B026C46.2070001@cs.kuleuven.be>
+Date:         Tue, 17 Nov 2009 10:26:30 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Comments:     RFC822 error: <W> Incorrect or incomplete address field found and
+              ignored.
+From: Peter Van Weert <Peter.VanWeert@CS.KULEUVEN.BE>
+Organization: K.U.Leuven, Department of Computer Science
+Subject: [CHR] CfP: CHR 2010
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Synonym: Copied by Synonym (http://www.modulo.ro/synonym) to: archiver
+
+This is a multi-part message in MIME format.
+--------------050007080905020006090005
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+=========================================================================
+
+                             Call for Papers
+       Seventh International Workshop on Constraint Handling Rules
+                                CHR 2010
+
+               http://www.cs.kuleuven.be/~petervw/CHR2010/
+                   Edinburgh (Scotland), July 20, 2010
+             (co-located with ICLP 2010, part of FLOC 2010)
+
+=========================================================================
+
+
+Introduction
+
+The CHR 2010 Workshop will be held July 20, 2010 in Edinburgh (Scotland)
+at the occasion of the 26th International Conference on Logic
+Programming (ICLP 2010), the premier international venue for presenting
+research in logic programming. This year, ICLP is held as part of the
+Fifth Federated Logic Conference (FLoC 2010). More information on the
+venue and co-located conferences can be found on the FLOC website
+(http://www.floc-conference.org/).
+
+The Constraint Handling Rules (CHR) language has become a major declara-
+tive specification formalism and implementation language for constraint
+reasoning algorithms and applications. Algorithms specified using infe-
+rence rules, rewrite rules, sequents, proof rules, or logical axioms can
+often be directly written in CHR. Its clean semantics facilitates pro-
+gram design, analysis, and transformation. For more information, please
+visit the CHR website (http://www.cs.kuleuven.be/~dtai/projects/CHR/).
+
+The aim of the CHR workshop series is to stimulate and promote interna-
+tional research and collaboration on topics related to the CHR language.
+The workshop is a lively, friendly forum for presenting and discussing
+new results, interesting applications, and work in progress.
+Previous Workshops on Constraint Handling Rules were organized in 2004
+in Ulm (Germany), in 2005 in Sitges (Spain) at ICLP, in 2006 in Venice
+(Italy) at ICALP, in 2007 in Porto (Portgual) at ICLP, in 2008 in Hagen-
+berg (Austria) at RTA, and in 2009 in Pasadena (California, US) at ICLP.
+
+
+Topics of Interest
+
+The workshop calls for contributions on all aspects of CHR,
+including topics such as:
+
+   - (Operational) semantics
+   - Program analysis (confluence, termination, ...)
+   - Comparisons with related approaches
+   - Expressivity and complexity
+   - Language extensions (negation, modules, ...)
+   - Constraint solvers
+   - Implementation and optimization
+   - Concurrency & parallelism
+   - Program transformation and generation
+   - Programming environments (debugging, confluence checking, ...)
+   - Programming pearls
+
+Application papers that describe experience with (industrial)
+applications, are especially welcome.
+
+
+Important dates
+
+   - Abstract submission deadline: April 14, 2010
+   - Paper submission deadline: April 20, 2010
+   - Notification of acceptance: May 11, 2010
+   - Final version due: May 23, 2010
+   - Workshop date: July 20, 2010
+
+
+Submission Information
+
+The four broad categories for submissions are:
+
+   1. technical papers for describing technically sound, innovative
+      ideas that can advance the state of the art of CHR
+   2. application papers, where the emphasis will be on the use of CHR
+      in the application, on the impact on the application domain, and
+      the lessons learned from this application
+   3. system and tool papers, empasising the novelty, practicality,
+      usability and general availability of the systems and tools
+      described
+   4. short papers, for ongoing work not yet ready for full publication
+      and research project overviews.
+
+All papers must describe original, previously unpublished research, and
+must not simultaneously be submitted for publication elsewhere.
+They must be written in English. Technical papers must not exceed 15
+pages. The limit for short papers is 7 pages, as is the standard page
+limit for application papers, and system and tool papers. However,
+particularly strong contributions in the latter two areas may be
+submitted as technical paper as well.
+
+All papers must be in the Springer LNCS format. General information
+about the Springer LNCS series and the LNCS authors' instructions are
+available at the Springer LNCS home page
+(http://www.springer.com/computer/lncs?SGWID=0-164-7-72376-0).
+
+Submissions must be made via the Easychair submission system, available
+at http://www.easychair.org/conferences/?conf=chr10
+
+
+Programme Committee
+
+   - Sebastian Brand, National ICT Australia, and the University
+     of Melbourne, Victoria, Australia
+   - Henning Christiansen, Roskilde University, Denmark
+   - Vernica Dahl, Simon Fraser University, Canada
+   - Leslie De Koninck, Victoria Research Laboratory, NICTA, Australia
+     (co-chair)
+   - Thom Frhwirth Ulm University, Germany
+   - Marco Gavanelli, University of Ferrara, Italy
+   - Maria-Chiara Meo, "Gabriele d'Annunzio" University, Italy
+   - Paolo Pilozzi K.U.Leuven, Belgium
+   - Frank Raiser, Ulm University, Germany
+   - Peter Van Weert, K.U.Leuven, Belgium (co-chair)
+   - Jairson Vitorino, Federal University of Pernambuco, Brazil
+   - Armin Wolf, Fraunhofer FIRST, Germany
+
+
+Workshop Coordinators
+
+Contact: chr2010@easychair.org
+
+Peter Van Weert
+Department of Computer Science, K.U.Leuven
+Leuven, Belgium
+http://www.cs.kuleuven.be/~petervw/
+
+Leslie De Koninck
+Victoria Research Laboratory, NICTA
+Melbourne, Australia
+http://www.cs.kuleuven.be/~leslie/
+
+--------------050007080905020006090005
+Content-Type: text/x-vcard; charset=utf-8;
+ name="Peter_VanWeert.vcf"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment;
+ filename="Peter_VanWeert.vcf"
+
+begin:vcard
+fn:Peter Van Weert
+n:Van Weert;Peter
+org:K.U.Leuven;Computer Science
+adr:;;Celestijnenlaan 200A;Heverlee (Leuven);;3001;Belgium
+tel;work:003216327665
+url:http://www.cs.kuleuven.be/~petervw/
+version:2.1
+end:vcard
+
+
+--------------050007080905020006090005--

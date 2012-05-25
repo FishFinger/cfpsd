@@ -1,0 +1,515 @@
+From - Thu Dec 10 14:37:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs146230faq;
+        Sun, 5 Jul 2009 05:31:40 -0700 (PDT)
+Received: by 10.210.61.8 with SMTP id j8mr3670447eba.25.1246797098029;
+        Sun, 05 Jul 2009 05:31:38 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 8si10290775ewy.37.2009.07.05.05.31.37;
+        Sun, 05 Jul 2009 05:31:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id EE74D210DB; Sun,  5 Jul 2009 14:31:35 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3CECF20BDD;
+	Sun,  5 Jul 2009 14:30:53 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 215E33D33;
+	Sun,  5 Jul 2009 14:30:53 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lnvznygJlmz2; Sun,  5 Jul 2009 14:30:52 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 556163D39;
+	Sun,  5 Jul 2009 14:30:47 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.let.uu.nl
+Delivered-To: elsnet-list@mailman.let.uu.nl
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9A9C33D2A
+	for <elsnet-list@mailman.let.uu.nl>;
+	Tue, 30 Jun 2009 21:42:28 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id A0qBVvABS6eT for <elsnet-list@mailman.let.uu.nl>;
+	Tue, 30 Jun 2009 21:42:28 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6FEDE3D24
+	for <elsnet-list@mailman.let.uu.nl>;
+	Tue, 30 Jun 2009 21:42:28 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 59EDF20A54; Tue, 30 Jun 2009 21:42:28 +0200 (MEST)
+Received: from mail-bw0-f225.google.com (mail-bw0-f225.google.com
+	[209.85.218.225])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 738F72098F
+	for <elsnet-list@mailman.let.uu.nl>;
+	Tue, 30 Jun 2009 21:42:16 +0200 (MEST)
+Received: by bwz25 with SMTP id 25so368598bwz.14
+	for <elsnet-list@mailman.let.uu.nl>;
+	Tue, 30 Jun 2009 12:42:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:in-reply-to:references
+	:date:message-id:subject:from:to:content-type;
+	bh=RpXvRY6a8HlCrzaslXQ7acD9T6iiSPi1pekMSDIJdes=;
+	b=cPpccaq1KnNEvM2psebffC4eXV9TL9IsHdu8nA0GoHc8k+iAHKsxFhUfxHgee46NkK
+	HOv8z6IrBknH+SXMTzC25Y9UtvYLlFeJ4hZDH3P43W/Nyjjp12EcioeFt458xC4noiK1
+	biVEFJMnwv11axfPjmHQqxtTyhh3mlVAQt0gA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type;
+	b=Hf0Zr+DiK+I6A7wRDFKjGMl481gQcVaKzjgRHFuUa9OBufG37AmM6hvtkfJ5cH+Fmk
+	n1bUM2vG0DyI87q93QrMQs6ZE7LWpyCkFKJx5nifIYf/XiEAcYMymgSVbx5TkEo3H1Bu
+	bEEvNKHTC2hjD6nqz2lYdJnlJpOt6FGexOzpA=
+MIME-Version: 1.0
+Received: by 10.103.1.5 with SMTP id d5mr5052767mui.113.1246390551459; Tue, 30 
+	Jun 2009 12:35:51 -0700 (PDT)
+In-Reply-To: <8ea5fa030906301211i70292615xaf0d6357383716ea@mail.gmail.com>
+References: <8ea5fa030906300711m6c619cd0w36970c871afc36d8@mail.gmail.com>
+	<8ea5fa030906301211i70292615xaf0d6357383716ea@mail.gmail.com>
+Date: Tue, 30 Jun 2009 21:35:51 +0200
+Message-ID: <8ea5fa030906301235p1cc4004bqe08ea2059d15365a@mail.gmail.com>
+From: =?ISO-8859-1?Q?David_D=EDaz_Pardo_de_Vera?= <daviddpdv@gmail.com>
+To: elsnet-list@mailman.let.uu.nl
+X-Mailman-Approved-At: Sun, 05 Jul 2009 14:30:22 +0200
+Subject: [Elsnet-list] 2nd CFP YRRSDS'2009 - DEADLINE EXTENDED until July 10
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0862366064=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0862366064==
+Content-Type: multipart/alternative; boundary=0016e65c88d21238f0046d95ea38
+
+--0016e65c88d21238f0046d95ea38
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Call for Papers and Participation
+(***Deadline extended until 10th July.***)
+
+
+Young Researchers' Roundtable on Spoken Dialogue Systems 2009
+
+13th-14th September, at Queen Mary University of London
+
+
+
+*Overview and goals*
+
+The Young Researchers' Roundtable on Spoken Dialogue Systems (YRRSDS)
+is an annual workshop designed for post-graduate students, post-docs
+and junior researchers working in research related to spoken dialogue
+systems in both academia and industry. The roundtable provides an open
+forum where participants can discuss their research interests, current
+work and future plans. The workshop has three main goals:
+- to offer an interdisciplinary forum for creative thinking about
+current issues in spoken dialogue systems research
+- to provide young researchers with career advice from senior
+researchers and professionals from both academic and industrial
+backgrounds
+- to develop a stronger international network of young researchers
+working in the field.
+
+(Important note: There is no age restriction for participating in the
+workshop; the word 'young' is meant to indicate that it is targeted
+towards researchers who are at a relatively early stage in their
+career.)
+
+
+*Topics and sessions*
+
+Potential roundtable discussion topics include: best practices for
+conducting and evaluating user studies of spoken dialogue systems, the
+prosody of conversation, methods of analysis for dialogue systems,
+conversational agents and virtual characters, cultural adaptation of
+dialogue strategies, and user modelling.
+
+Previous workshops were held in Columbus (ACL 2008), Antwerp
+(INTERSPEECH 2007), Pittsburgh (INTERSPEECH 2006) and Lisbon
+(INTERSPEECH 2005).
+
+YRRSDS=E2=80=9909 will feature:
+- a senior researcher panel (both academia and industry)
+- a demo and poster session
+- a special session on frameworks and grand challenges for dialogue
+system evaluation
+- a special session on EU projects related to spoken dialogue systems.
+
+Confirmed speakers and panelists:
+- Alan Black, Carnegie Mellon University
+- Philippe Bretier, Orange Labs
+- Maxine Eskenazi, Carnegie Mellon University
+- Michael McTear, University of Ulster
+- Sebastian M=C3=B6ller, Deutsche Telekom Laboratories
+- Tim Paek, Microsoft Research
+
+- Jason Williams, AT&T
+
+
+*Workshop date*
+
+YRRSDS'09 will take place on September 13th and 14th, 2009
+(immediately after Interspeech and SIGDial 2009).
+
+
+*Workshop location*
+
+The 2009 YRRSDS will be held at Queen Mary University of London, one
+of the UK's leading research-focused higher education institutions.
+Queen Mary=E2=80=99s Mile End campus began life in 1887 as the People's
+Palace, a philanthropic endeavour to provide east Londoners with
+education and social activities, and is located in the heart of
+London's vibrant East End.
+
+
+*Grants*
+
+YRRSDS 2009 will be supported this year by ISCA, the International
+Speech Communication Association. ISCA will consider applications for
+a limited number of travel grants. Applications should be send
+directly to grants@isca-speech.org, details of the application process
+and forms are available from http://www.isca-speech.org/grants.html.
+
+
+*Endorsements*
+
+YRR'09 is endorsed by the Special Interest Group on Discourse and
+Dialogue (SIGDial) of the Association for Computational Linguistics
+(ACL) and of the International Speech Communication Association
+(ISCA); by ISCA; and by "Dialogs on Dialogs" students reading group;
+and is supported by the IEEE Speech and Language Technical Committee.
+
+
+*Sponsors*
+
+Orange, Microsoft Research, AT&T
+
+
+*Submission process*
+
+Participants will be asked to submit a 2-page position paper based on
+a template provided by the organising committee. In their papers,
+authors will include a short biographical sketch, a brief statement of
+research interests, a description of their research work, and a short
+discussion of what they believe to be the most significant and
+interesting issues in spoken dialogue systems today and in the near
+future. Participants will also provide three suggestions for
+discussion topics.
+
+Workshop attendance will be limited to 50 participants. Submissions
+will be accepted on a first-come-first-served basis. Submissions will
+be collated and made available to participants. We also plan to
+publish the position papers and presentations from the workshop on the
+web, subject to any sponsor or publisher constraints.
+
+*Important Dates*
+
+- Submissions open: May 15, 2009
+- Submissions deadline: *EXTENDED until July 10, 2009*
+
+- Final notification: July 31, 2009
+
+- Registration begins: TBD
+- Registration deadline: TBD
+
+- Interspeech: 6-10 September 2009
+- SIGDial: 11-12 September, 2009
+- YRR:  13-14 September, 2009
+
+
+*More information on related websites*
+
+- Young Researchers' Roundtable website: http://www.yrrsds.org/
+- SIGDIAL 2009 conference website:
+http://www.sigdial.org/workshops/workshop10/
+- Interspeech 2009 website: http://www.interspeech2009.org/
+
+
+*Organising Committee*
+
+- David D=C3=ADaz Pardo de Vera, Polytechnic University of Madrid, Spain
+- Milica Ga=C5=A1i=C4=87, Cambridge University, UK
+- Fran=C3=A7ois Mairesse, Cambridge University, UK
+- Matthew Marge, Carnegie Mellon University, USA
+- Joana Paulo Pardal, IST Technical University Lisbon / L2F INESC-ID,
+Portugal
+- Ricardo Ribeiro, ISCTE / L2F INESC-ID, Portugal
+
+*Local Organisers*
+
+- Arash Eshghi, Queen Mary University of London, UK
+- Christine Howes, Queen Mary University of London, UK
+- Gregory Mills, Queen Mary University of London, UK
+
+
+*Scientific Advisory Committee*
+
+- Hua Ai, University of Pittsburgh, USA
+- James Allen, University of Rochester, USA
+- Alan Black, Carnegie Mellon University, USA
+- Dan Bohus, Microsoft Research, USA
+- Philippe Bretier, Orange Labs, France
+- Robert Dale, Macquarie University, Australia
+- Maxine Eskenazi, Carnegie Mellon University, USA
+- Sadaoki Furui, Tokyo Institute of Technology, Japan
+- Luis Hern=C3=A1ndez G=C3=B3mez, Polytechnic University of Madrid, Spain
+- Carlos G=C3=B3mez Gallo, University of Rochester, USA
+- Kristiina Jokinen, University of Helsinki, Finland
+- Nuno Mamede, IST Technical University Lisbon / L2F INESC-ID, Portugal
+- David Martins de Matos, IST Technical University Lisbon / L2F INESC-
+ID, Portugal
+- Jo=C3=A3o Paulo Neto, IST Technical University Lisbon / L2F INESC-ID /
+Voice Interaction, Portugal
+- Tim Paek, Microsoft Research, USA
+- Antoine Raux, Honda Research, USA
+- Robert J. Ross, Universitat Bremen, Germany
+- Alexander Rudnicky, Carnegie Mellon University, USA
+- Mary Swift, University of Rochester, USA
+- Isabel Trancoso, IST Technical University Lisbon / L2F INESC-ID,
+Portugal
+- Tim Weale, The Ohio State University, USA
+- Jason Williams, AT&T, USA
+- Sabrina Wilske, Lang Tech and Cognitive Sys at Saarland University,
+Germany
+- Andi Winterboer, Universiteit van Amsterdam, Netherlands
+- Craig Wootton, University of Ulster, Belfast, Northern Ireland
+- Steve Young, University of Cambridge, United Kingdom
+
+--0016e65c88d21238f0046d95ea38
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gmail_q=
+uote"><div><div></div><div class=3D"h5">
+<br>
+<br>
+Call for Papers and Participation<br>(***Deadline extended until 10th July.=
+***)<br>
+<br><br>
+Young Researchers&#39; Roundtable on Spoken Dialogue Systems 2009<br>
+<br>
+13th-14th September, at Queen Mary University of London<br>
+<br><br>
+<br>
+*Overview and goals*<br>
+<br>
+The Young Researchers&#39; Roundtable on Spoken Dialogue Systems (YRRSDS)<b=
+r>
+is an annual workshop designed for post-graduate students, post-docs<br>
+and junior researchers working in research related to spoken dialogue<br>
+systems in both academia and industry. The roundtable provides an open<br>
+forum where participants can discuss their research interests, current<br>
+work and future plans. The workshop has three main goals:<br>
+- to offer an interdisciplinary forum for creative thinking about<br>
+current issues in spoken dialogue systems research<br>
+- to provide young researchers with career advice from senior<br>
+researchers and professionals from both academic and industrial<br>
+backgrounds<br>
+- to develop a stronger international network of young researchers<br>
+working in the field.<br>
+<br>
+(Important note: There is no age restriction for participating in the<br>
+workshop; the word &#39;young&#39; is meant to indicate that it is targeted=
+<br>
+towards researchers who are at a relatively early stage in their<br>
+career.)<br>
+<br>
+<br>
+*Topics and sessions*<br>
+<br>
+Potential roundtable discussion topics include: best practices for<br>
+conducting and evaluating user studies of spoken dialogue systems, the<br>
+prosody of conversation, methods of analysis for dialogue systems,<br>
+conversational agents and virtual characters, cultural adaptation of<br>
+dialogue strategies, and user modelling.<br>
+<br>
+Previous workshops were held in Columbus (ACL 2008), Antwerp<br>
+(INTERSPEECH 2007), Pittsburgh (INTERSPEECH 2006) and Lisbon<br>
+(INTERSPEECH 2005).<br>
+<br>
+YRRSDS=E2=80=9909 will feature:<br>
+- a senior researcher panel (both academia and industry)<br>
+- a demo and poster session<br>
+- a special session on frameworks and grand challenges for dialogue<br>
+system evaluation<br>
+- a special session on EU projects related to spoken dialogue systems.<br>
+<br>
+Confirmed speakers and panelists:<br>
+- Alan Black, Carnegie Mellon University<br>
+- Philippe Bretier, Orange Labs<br>- Maxine Eskenazi, Carnegie Mellon Unive=
+rsity<br>
+- Michael McTear, University of Ulster<br></div></div><div class=3D"im">
+
+- Sebastian M=C3=B6ller, Deutsche Telekom Laboratories<br></div>
+- Tim Paek, Microsoft Research<div><div></div><div class=3D"h5"><br>- Jason=
+ Williams, AT&amp;T<br>
+<br><br>
+*Workshop date*<br>
+<br>
+YRRSDS&#39;09 will take place on September 13th and 14th, 2009<br>
+(immediately after Interspeech and SIGDial 2009).<br>
+<br>
+<br>
+*Workshop location*<br>
+<br>
+The 2009 YRRSDS will be held at Queen Mary University of London, one<br>
+of the UK&#39;s leading research-focused higher education institutions.<br>
+Queen Mary=E2=80=99s Mile End campus began life in 1887 as the People&#39;s=
+<br>
+Palace, a philanthropic endeavour to provide east Londoners with<br>
+education and social activities, and is located in the heart of<br>
+London&#39;s vibrant East End.<br>
+<br>
+<br>
+*Grants*<br>
+<br>
+YRRSDS 2009 will be supported this year by ISCA, the International<br>
+Speech Communication Association. ISCA will consider applications for<br>
+a limited number of travel grants. Applications should be send<br>
+directly to <a href=3D"mailto:grants@isca-speech.org" target=3D"_blank">gra=
+nts@isca-speech.org</a>, details of the application process<br>
+and forms are available from <a href=3D"http://www.isca-speech.org/grants.h=
+tml" target=3D"_blank">http://www.isca-speech.org/grants.html</a>.<br>
+<br>
+<br>
+*Endorsements*<br>
+<br>
+YRR&#39;09 is endorsed by the Special Interest Group on Discourse and<br>
+Dialogue (SIGDial) of the Association for Computational Linguistics<br>
+(ACL) and of the International Speech Communication Association<br>
+(ISCA); by ISCA; and by &quot;Dialogs on Dialogs&quot; students reading gro=
+up;<br>
+and is supported by the IEEE Speech and Language Technical Committee.<br>
+<br>
+<br>
+*Sponsors*<br>
+<br>
+Orange, Microsoft Research, AT&amp;T<br>
+<br>
+<br>
+*Submission process*<br>
+<br>
+Participants will be asked to submit a 2-page position paper based on<br>
+a template provided by the organising committee. In their papers,<br>
+authors will include a short biographical sketch, a brief statement of<br>
+research interests, a description of their research work, and a short<br>
+discussion of what they believe to be the most significant and<br>
+interesting issues in spoken dialogue systems today and in the near<br>
+future. Participants will also provide three suggestions for<br>
+discussion topics.<br><br>
+Workshop attendance will be limited to 50 participants. Submissions<br>
+will be accepted on a first-come-first-served basis. Submissions will<br>
+be collated and made available to participants. We also plan to<br>
+publish the position papers and presentations from the workshop on the<br>
+web, subject to any sponsor or publisher constraints.<br>
+<br>
+*Important Dates*<br>
+<br>
+- Submissions open: May 15, 2009<br></div></div>
+- Submissions deadline: *EXTENDED until July 10, 2009*<div><div></div><div =
+class=3D"h5"><br>
+- Final notification: July 31, 2009<br>
+<br>
+- Registration begins: TBD<br>
+- Registration deadline: TBD<br>
+<br>
+- Interspeech: 6-10 September 2009<br>
+- SIGDial: 11-12 September, 2009<br>
+- YRR: =C2=A013-14 September, 2009<br>
+<br>
+<br>
+*More information on related websites*<br><br>
+- Young Researchers&#39; Roundtable website: <a href=3D"http://www.yrrsds.o=
+rg/" target=3D"_blank">http://www.yrrsds.org/</a><br>
+- SIGDIAL 2009 conference website: <a href=3D"http://www.sigdial.org/worksh=
+ops/workshop10/" target=3D"_blank">http://www.sigdial.org/workshops/worksho=
+p10/</a><br>
+- Interspeech 2009 website: <a href=3D"http://www.interspeech2009.org/" tar=
+get=3D"_blank">http://www.interspeech2009.org/</a><br>
+<br><br>
+*Organising Committee*<br><br>
+- David D=C3=ADaz Pardo de Vera, Polytechnic University of Madrid, Spain<br=
+>
+- Milica Ga=C5=A1i=C4=87, Cambridge University, UK<br>
+- Fran=C3=A7ois Mairesse, Cambridge University, UK<br>
+- Matthew Marge, Carnegie Mellon University, USA<br>
+- Joana Paulo Pardal, IST Technical University Lisbon / L2F INESC-ID,<br>
+Portugal<br>
+- Ricardo Ribeiro, ISCTE / L2F INESC-ID, Portugal<br>
+<br>
+*Local Organisers*<br><br>
+- Arash Eshghi, Queen Mary University of London, UK<br>
+- Christine Howes, Queen Mary University of London, UK<br>
+- Gregory Mills, Queen Mary University of London, UK<br>
+<br><br>
+*Scientific Advisory Committee*<br><br>
+- Hua Ai, University of Pittsburgh, USA<br>
+- James Allen, University of Rochester, USA<br>
+- Alan Black, Carnegie Mellon University, USA<br>
+- Dan Bohus, Microsoft Research, USA<br>
+- Philippe Bretier, Orange Labs, France<br>
+- Robert Dale, Macquarie University, Australia<br>
+- Maxine Eskenazi, Carnegie Mellon University, USA<br>
+- Sadaoki Furui, Tokyo Institute of Technology, Japan<br>
+- Luis Hern=C3=A1ndez G=C3=B3mez, Polytechnic University of Madrid, Spain<b=
+r>
+- Carlos G=C3=B3mez Gallo, University of Rochester, USA<br>
+- Kristiina Jokinen, University of Helsinki, Finland<br>
+- Nuno Mamede, IST Technical University Lisbon / L2F INESC-ID, Portugal<br>
+- David Martins de Matos, IST Technical University Lisbon / L2F INESC-<br>
+ID, Portugal<br>
+- Jo=C3=A3o Paulo Neto, IST Technical University Lisbon / L2F INESC-ID /<br=
+>
+Voice Interaction, Portugal<br>
+- Tim Paek, Microsoft Research, USA<br>
+- Antoine Raux, Honda Research, USA<br>
+- Robert J. Ross, Universitat Bremen, Germany<br>
+- Alexander Rudnicky, Carnegie Mellon University, USA<br>
+- Mary Swift, University of Rochester, USA<br>
+- Isabel Trancoso, IST Technical University Lisbon / L2F INESC-ID,<br>
+Portugal<br>
+- Tim Weale, The Ohio State University, USA<br>
+- Jason Williams, AT&amp;T, USA<br>
+- Sabrina Wilske, Lang Tech and Cognitive Sys at Saarland University,<br>
+Germany<br>
+- Andi Winterboer, Universiteit van Amsterdam, Netherlands<br>
+- Craig Wootton, University of Ulster, Belfast, Northern Ireland<br>
+- Steve Young, University of Cambridge, United Kingdom<br>
+<br>
+</div></div></div>
+</div><br>
+</div><br>
+
+--0016e65c88d21238f0046d95ea38--
+
+--===============0862366064==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0862366064==--

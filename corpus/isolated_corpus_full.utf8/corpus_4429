@@ -1,0 +1,331 @@
+From - Thu Dec 10 14:35:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs32670far;
+        Sun, 15 Feb 2009 04:46:24 -0800 (PST)
+Received: by 10.210.13.17 with SMTP id 17mr1857611ebm.130.1234701983875;
+        Sun, 15 Feb 2009 04:46:23 -0800 (PST)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 5si13251958eyf.52.2009.02.15.04.46.22;
+        Sun, 15 Feb 2009 04:46:23 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@yahoo.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id AA4A5171A1; Sun, 15 Feb 2009 13:46:02 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E12BA16C46;
+	Sun, 15 Feb 2009 13:45:49 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BFC233D39;
+	Sun, 15 Feb 2009 13:45:49 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id L+R2jSgX-x2s; Sun, 15 Feb 2009 13:45:49 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 87E323D2A;
+	Sun, 15 Feb 2009 13:45:47 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8A0C53D25
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Feb 2009 07:51:12 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0IsNwI3o7KYQ for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Feb 2009 07:51:12 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 5B6523D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Feb 2009 07:51:12 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 44B8021AEB; Fri,  6 Feb 2009 07:51:12 +0100 (MET)
+X-Greylist: delayed 400 seconds by postgrey-1.28 at newjura;
+	Fri, 06 Feb 2009 07:51:03 MET
+Received: from web55008.mail.re4.yahoo.com (web55008.mail.re4.yahoo.com
+	[206.190.58.142])
+	by mailhost.let.uu.nl (Postfix) with SMTP id 5BDA021A9C
+	for <elsnet-list@elsnet.org>; Fri,  6 Feb 2009 07:51:03 +0100 (MET)
+Received: (qmail 34250 invoked by uid 60001); 6 Feb 2009 06:44:21 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s1024;
+	t=1233902661; bh=WLbZS81oCjeDg6tkK21EDT3IUQ1wwqyyXnVFmp7+DnM=;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+	b=IcjytpgHyOtm8/nLfn1d3G0ikm2AweoN5F4cDY8RUZLw4paxjm1urJ6ylFXaUexVVv+n76p3xSze+WTQCU5hTlWDntZ4xllFJT8LEloiHqJrxnhOsUJKZeT6bGACzWC8vjwMazXrQtMAocxl8LNEcTD34itTxVBC2iZWnLBIhfE=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.com;
+	h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Reply-To:Subject:To:MIME-Version:Content-Type;
+	b=Q4I1t27IORYhIq2CS5OmlxVhbpZc+ytNH3WKO0W9ink5wM4Kt9PLuFg9YjQVfOGJHeTHq0EbCFfy3Zjewf/t7zMiW6A7dCDEOEecM5UNfUFLD4Ih9++gYHJE//lNQEnZMZHnEZLF+rFPHrwrIGylJezhWRigdNIiJkvi2aEfW9Q=;
+Message-ID: <843160.32929.qm@web55008.mail.re4.yahoo.com>
+X-YMail-OSG: mv1bmWsVM1lSRMx64lE0RD5jPY4K.OsGGJ1n7PzbG6Ri08dkzY.y5OhONnYR.e8tWQqjN8nMiVuRICzQBgav8tvhoB1F5Zkw3mHrsESefNLwVwPkGz6GNQY0Ut_97YoBDFCnNHB2ltNiFYWaNNKuZxp5vb91gxLJa20TloGbxF3avP_AdPGXvfyKG5cj9EoNLp8_orx8vmOJfj5E3boec6DxYX4OFoo-
+Received: from [203.197.118.118] by web55008.mail.re4.yahoo.com via HTTP;
+	Thu, 05 Feb 2009 22:44:21 PST
+X-Mailer: YahooMailWebService/0.7.289.1
+Date: Thu, 5 Feb 2009 22:44:21 -0800 (PST)
+From: Sivaji Bandyopadhyay <sivaji_cse_ju@yahoo.com>
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+X-Mailman-Approved-At: Sun, 15 Feb 2009 13:45:45 +0100
+Subject: [Elsnet-list] cfp:CLIAWS3: NAACL-HLT 2009 Third International
+	Workshop on Cross Lingual Information Access
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: sivaji_cse_ju@yahoo.com
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0322331576=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+
+--===============0322331576==
+Content-Type: multipart/alternative; boundary="0-1418547636-1233902661=:32929"
+
+
+--0-1418547636-1233902661=:32929
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+=A0SECOND CALL FOR PAPERS=A0
+
+NAACL-HLT 2009=A0
+
+Third International Workshop on Cross Lingual Information Access: Addressin=
+g the Information Need of=A0
+Multilingual Societies (CLIAWS3)
+
+Boulder, Colorado; June 04,2009=A0
+
+http://search.iiit.ac.in/CLIA2009/
+
+Submission Deadline: March 06, 2009=A0
+
+
+
+
+WORKSHOP DESCRIPTION=A0
+
+Cross-Language Information Access is concerned with any/all technologies th=
+at let users express their query in=A0
+their native language, and irrespective of the language in which the inform=
+ation is available, present the=A0
+information in the user-preferred language or set of languages, in a manner=
+ that satisfies the user's information=A0
+needs. The additional processing may take the form of machine translation o=
+f snippets, summarization and=A0
+subsequent translation of summaries and/or information extraction.
+
+This workshop aims to bring together various trends in multi-source, cross =
+and multilingual information retrieval=A0
+and access, and provide a venue for researchers and practitioners from acad=
+emia, government, and industry to=A0
+interact and share a broad spectrum of ideas, views and applications. The w=
+orkshop will consist of a set of=A0
+invited talks and presentations of technical papers that will be selected a=
+fter peer review from the submissions=A0
+received.
+
+We solicit submissions describing research on all aspects of "Cross Lingual=
+ Information Access and Retrieval".=A0
+Topics of interest include but are not limited to:
+
+* Semantic approaches to cross lingual information access
+* Cross-language cross media search (speech, video, audio)
+* Uses of (statistical) Machine Translation and Transliteration in multilin=
+gual information access
+* Search based on language independent forms
+* Cross-language text categorization
+* Multilingual / Cross-lingual named entity recognition
+* Cross-document and crosslingual entity and event coreference
+* Multilingual digital libraries
+* Scalability issues in multilingual information access/ system evaluation
+* Cross Lingual/ Multilingual question answering
+* Appropriate methods to detect similar/complementary/contradictory informa=
+tion across multiple languages
+* Multilingual Summarization
+* Multilingual Opinion Mining and Sentiment Analysis
+* Multilingual Information Extraction
+* Practical systems on various domains
+* Acquisition of parallel and comparable corpora in multiple languages
+* Morphology and Shallow Parsing for CLIR
+* Query Translation, Query Expansion, Multiword handling and Lightweight WS=
+D for CLIR
+* Other CLIR research issues, user studies / interactive CLIA=A0
+
+
+SUBMISSION INFORMATION=A0
+
+Authors are invited to submit a full paper of up to 8 pages in electronic, =
+PDF format (with up to 1 additional=A0
+page for references). Previously published papers cannot be accepted. The s=
+ubmissions will be reviewed by the=A0
+program committee. As reviewing will be blind, please ensure that papers ar=
+e anonymous. Self-references that=A0
+reveal the author's identity, e.g., "We previously showed (Smith, 1991) ...=
+", should be avoided. Instead, use=A0
+citations such as "Smith previously showed (Smith, 1991) ...".
+
+Papers will be accepted on or before 6 March 2009 in PDF format via the STA=
+RT system at https://www.softconf.com/=A0
+naacl-hlt09/CLIAWS2009/. Submissions should follow the NAACL HLT 2009 lengt=
+h and formatting requirements for full=A0
+papers , found at http://clear.colorado.edu/NAACLHLT2009/stylefiles.html.
+
+
+
+IMPORTANT DATES=A0
+
+Submission deadline: March 06, 2009=A0
+Notification of acceptance: March 30, 2009=A0
+Camera-ready papers due: April 12, 2009=A0
+Workshop: June 04, 2009
+
+
+
+
+
+ORGANIZING COMMITTEE
+
+* Sivaji Bandyopadhyay, Jadavpur University, Kolkata, India (Primary Contac=
+t)
+* Pushpak Bhattacharya, IIT Bombay, India
+* Vasudeva Varma, IIIT Hyderabad, India=A0
+* Sudeshna Sarkar, IIT Kharagpur, India
+* A Kumaran, Microsoft Research, India
+* Raghavendra Udupa, Microsoft Research, India
+
+PROGRAM COMMITTEE
+
+* Carol Peters, Istituto di Scienza e Tecnologie dell'Informazione and CLEF=
+ campaign, Italy
+* Kumaran A, Microsoft Research, Bangalore , India
+* Mandar Mitra, ISI Kolkata , India
+* Paolo Rosso, Universidad Politecnica de Valencia (UPV), Spain
+* Patrick Saint Dizier, IRIT, Universite Paul Sabatier, Toulouse, France
+* Paul McNamee, Johns Hopkins University , USA
+* Pushpak Bhattacharya, IIT Bombay, India=A0
+* Raghavendra Udupa, Microsoft Research, India
+* Ralf Steinberger, European Commission - Joint Research Centre, Italy
+* Sivaji Bandyopadhyay, Jadavpur University , Kolkata , India
+* Sobha L, AU-KBC, Chennai, India
+* Sudeshna Sarkar, IIT Kharagpur , India
+* Vasudeva Varma, IIIT Hyderabad , India
+
+Professor Sivaji Bandyopadhyay
+Computer Science & Engineering Department
+Jadavpur University
+Kolkata - 700 032
+INDIA
+Phone: +913324146648 (Office)
++913324149690 (Residence)
++919433579595 (Mobile)
+Fax: +913324146648 (Office)
+E-mail: sivaji_cse_ju@yahoo.com
+sbandyopadhyay@cse.jdvu.ac.in=0A=0A=0A      
+--0-1418547636-1233902661=:32929
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ><tr><td valign=3D"=
+top" style=3D"font: inherit;">&nbsp;SECOND CALL FOR PAPERS&nbsp;<BR><BR>NAA=
+CL-HLT 2009&nbsp;<BR><BR>Third International Workshop on Cross Lingual Info=
+rmation Access: Addressing the Information Need of&nbsp;<BR>Multilingual So=
+cieties (CLIAWS3)<BR><BR>Boulder, Colorado; June 04,2009&nbsp;<BR><BR><A hr=
+ef=3D"http://search.iiit.ac.in/CLIA2009/">http://search.iiit.ac.in/CLIA2009=
+/</A><BR><BR>Submission Deadline: March 06, 2009&nbsp;<BR><BR><BR><BR><BR>W=
+ORKSHOP DESCRIPTION&nbsp;<BR><BR>Cross-Language Information Access is conce=
+rned with any/all technologies that let users express their query in&nbsp;<=
+BR>their native language, and irrespective of the language in which the inf=
+ormation is available, present the&nbsp;<BR>information in the user-preferr=
+ed language or set of languages, in a manner that satisfies the user's info=
+rmation&nbsp;<BR>needs. The additional processing may take the form of mach=
+ine
+ translation of snippets, summarization and&nbsp;<BR>subsequent translation=
+ of summaries and/or information extraction.<BR><BR>This workshop aims to b=
+ring together various trends in multi-source, cross and multilingual inform=
+ation retrieval&nbsp;<BR>and access, and provide a venue for researchers an=
+d practitioners from academia, government, and industry to&nbsp;<BR>interac=
+t and share a broad spectrum of ideas, views and applications. The workshop=
+ will consist of a set of&nbsp;<BR>invited talks and presentations of techn=
+ical papers that will be selected after peer review from the submissions&nb=
+sp;<BR>received.<BR><BR>We solicit submissions describing research on all a=
+spects of "Cross Lingual Information Access and Retrieval".&nbsp;<BR>Topics=
+ of interest include but are not limited to:<BR><BR>* Semantic approaches t=
+o cross lingual information access<BR>* Cross-language cross media search (=
+speech, video, audio)<BR>* Uses of (statistical) Machine Translation
+ and Transliteration in multilingual information access<BR>* Search based o=
+n language independent forms<BR>* Cross-language text categorization<BR>* M=
+ultilingual / Cross-lingual named entity recognition<BR>* Cross-document an=
+d crosslingual entity and event coreference<BR>* Multilingual digital libra=
+ries<BR>* Scalability issues in multilingual information access/ system eva=
+luation<BR>* Cross Lingual/ Multilingual question answering<BR>* Appropriat=
+e methods to detect similar/complementary/contradictory information across =
+multiple languages<BR>* Multilingual Summarization<BR>* Multilingual Opinio=
+n Mining and Sentiment Analysis<BR>* Multilingual Information Extraction<BR=
+>* Practical systems on various domains<BR>* Acquisition of parallel and co=
+mparable corpora in multiple languages<BR>* Morphology and Shallow Parsing =
+for CLIR<BR>* Query Translation, Query Expansion, Multiword handling and Li=
+ghtweight WSD for CLIR<BR>* Other CLIR research issues, user studies
+ / interactive CLIA&nbsp;<BR><BR><BR>SUBMISSION INFORMATION&nbsp;<BR><BR>Au=
+thors are invited to submit a full paper of up to 8 pages in electronic, PD=
+F format (with up to 1 additional&nbsp;<BR>page for references). Previously=
+ published papers cannot be accepted. The submissions will be reviewed by t=
+he&nbsp;<BR>program committee. As reviewing will be blind, please ensure th=
+at papers are anonymous. Self-references that&nbsp;<BR>reveal the author's =
+identity, e.g., "We previously showed (Smith, 1991) ...", should be avoided=
+. Instead, use&nbsp;<BR>citations such as "Smith previously showed (Smith, =
+1991) ...".<BR><BR>Papers will be accepted on or before 6 March 2009 in PDF=
+ format via the START system at https://www.softconf.com/&nbsp;<BR>naacl-hl=
+t09/CLIAWS2009/. Submissions should follow the NAACL HLT 2009 length and fo=
+rmatting requirements for full&nbsp;<BR>papers , found at http://clear.colo=
+rado.edu/NAACLHLT2009/stylefiles.html.<BR><BR><BR><BR>IMPORTANT
+ DATES&nbsp;<BR><BR>Submission deadline: March 06, 2009&nbsp;<BR>Notificati=
+on of acceptance: March 30, 2009&nbsp;<BR>Camera-ready papers due: April 12=
+, 2009&nbsp;<BR>Workshop: June 04, 2009<BR><BR><BR><BR><BR><BR>ORGANIZING C=
+OMMITTEE<BR><BR>* Sivaji Bandyopadhyay, Jadavpur University, Kolkata, India=
+ (Primary Contact)<BR>* Pushpak Bhattacharya, IIT Bombay, India<BR>* Vasude=
+va Varma, IIIT Hyderabad, India&nbsp;<BR>* Sudeshna Sarkar, IIT Kharagpur, =
+India<BR>* A Kumaran, Microsoft Research, India<BR>* Raghavendra Udupa, Mic=
+rosoft Research, India<BR><BR>PROGRAM COMMITTEE<BR><BR>* Carol Peters, Isti=
+tuto di Scienza e Tecnologie dell'Informazione and CLEF campaign, Italy<BR>=
+* Kumaran A, Microsoft Research, Bangalore , India<BR>* Mandar Mitra, ISI K=
+olkata , India<BR>* Paolo Rosso, Universidad Politecnica de Valencia (UPV),=
+ Spain<BR>* Patrick Saint Dizier, IRIT, Universite Paul Sabatier, Toulouse,=
+ France<BR>* Paul McNamee, Johns Hopkins University , USA<BR>*
+ Pushpak Bhattacharya, IIT Bombay, India&nbsp;<BR>* Raghavendra Udupa, Micr=
+osoft Research, India<BR>* Ralf Steinberger, European Commission - Joint Re=
+search Centre, Italy<BR>* Sivaji Bandyopadhyay, Jadavpur University , Kolka=
+ta , India<BR>* Sobha L, AU-KBC, Chennai, India<BR>* Sudeshna Sarkar, IIT K=
+haragpur , India<BR>* Vasudeva Varma, IIIT Hyderabad , India<BR><BR>Profess=
+or Sivaji Bandyopadhyay<BR>Computer Science &amp; Engineering Department<BR=
+>Jadavpur University<BR>Kolkata - 700 032<BR>INDIA<BR>Phone: +913324146648 =
+(Office)<BR>+913324149690 (Residence)<BR>+919433579595 (Mobile)<BR>Fax: +91=
+3324146648 (Office)<BR>E-mail: sivaji_cse_ju@yahoo.com<BR>sbandyopadhyay@cs=
+e.jdvu.ac.in</td></tr></table><br>=0A=0A      
+--0-1418547636-1233902661=:32929--
+
+--===============0322331576==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0322331576==--

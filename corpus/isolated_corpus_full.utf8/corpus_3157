@@ -1,0 +1,552 @@
+From - Thu Dec 10 14:32:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139366waa;
+        Sun, 15 Jun 2008 02:47:34 -0700 (PDT)
+Received: by 10.210.30.1 with SMTP id d1mr4875023ebd.26.1213523252736;
+        Sun, 15 Jun 2008 02:47:32 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id z40si6801861ikz.7.2008.06.15.02.47.02;
+        Sun, 15 Jun 2008 02:47:32 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8DEAA151C1; Sun, 15 Jun 2008 11:47:01 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 49C02B670;
+	Sun, 15 Jun 2008 11:42:01 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 2EAA83D47;
+	Sun, 15 Jun 2008 11:42:01 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fuIGVuEdOZ-L; Sun, 15 Jun 2008 11:42:00 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 2F1AF3D3C;
+	Sun, 15 Jun 2008 11:41:14 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 5E3E33D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 09:33:44 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id khAbwSdiFGsX for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 09:33:44 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 308963CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 09:33:44 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 213378C4F; Tue, 10 Jun 2008 09:33:44 +0200 (MEST)
+Received: from yw-out-2324.google.com (yw-out-2324.google.com [74.125.46.30])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id A1CF6A6D8
+	for <elsnet-list@elsnet.org>; Tue, 10 Jun 2008 09:33:10 +0200 (MEST)
+Received: by yw-out-2324.google.com with SMTP id 3so1256031ywj.25
+	for <elsnet-list@elsnet.org>; Tue, 10 Jun 2008 00:33:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type;
+	bh=o9U8+Nwew2KU8wimiIWJTPwKyZrsDWzjIgnuPTEwJVk=;
+	b=jQP4mNlxzzENWZkeEE3cjvLe3t+UWKv+1Vvry9EDbXw6n7nsPLnrKS9VugqjHTx7rm
+	zLpo/BLWKo2P/QqDwy7Hinvo09htuLMceY/yyMoGxISmfNIiUIXwQVmodolrcHU8rRri
+	umSd8iizS7Q5GcipO3AL++5UXhFZshDl7XFdg=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type;
+	b=T0ICodP1xk6VsA0JsjA37MJ90RTb54bYWuekOH9En14Ah9zCbSfqttTZaA/6a7ZuVK
+	V/9ag0ehGIy1ehQgEmGCG6emWdt5GbAWMeuv8xGrO18lP4+UNSosir2STIxMd3VVOK7t
+	NDGZvuZZM1ZM+zr20WjFJyPMz3KnBnfZOSER0=
+Received: by 10.151.9.1 with SMTP id m1mr7893691ybi.247.1213083188975;
+	Tue, 10 Jun 2008 00:33:08 -0700 (PDT)
+Received: by 10.150.148.4 with HTTP; Tue, 10 Jun 2008 00:33:08 -0700 (PDT)
+Message-ID: <873e283c0806100033y81bb6c5o41181a03262ee7b9@mail.gmail.com>
+Date: Tue, 10 Jun 2008 15:33:08 +0800
+From: "s zhao" <zsx.zhao@gmail.com>
+To: jena-dev@yahoogroups.com, pakm@dke.univie.ac.at, 
+	pandorabots-general@list.pandorabots.com, public-semweb-ui@w3.org, 
+	sem-grd@ogf.org, semantic-web@w3.org, seweb-list@lists.deri.org, 
+	sw-announce@semanticplanet.com, wekalist@list.scms.waikato.ac.nz, 
+	www-annotation@w3.org, general@simile.mit.edu, 
+	elsnet-list@elsnet.org, swportal@lists.deri.org, 
+	alicebot-general@list.alicebot.org, swoop@lists.mindswap.org, 
+	kaw@science.uva.nl
+MIME-Version: 1.0
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:40:57 +0200
+Cc: 
+Subject: [Elsnet-list] Reminder -- Abstract Submission due June 15 -- CFP:
+	4th IFIP SWWS 2008
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0294938583=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============0294938583==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_20639_16309589.1213083188974"
+
+------=_Part_20639_16309589.1213083188974
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+Apologies for cross-postings.
+
+Just a reminder that Abstract Submission is due June 15
+
+******************************** Call for Paper
+********************************
+
+       Fourth IFIP Semantic Web & Web Semantics (SWWS) 2008
+
+                   (9-14th November 2008, Monterrey Mexico)
+
+***************************************************************************=
+******
+
+With special tracks on:
+
+Security & Trust, Fuzzy Semantics, Biomedical Informatics, Context-driven
+Methods for Ontologies and Ontology Learning and Evolution
+
+In conjunction with OnTheMove Federated Conferences (OTM 2008)
+
+http://www.cs.rmit.edu.au/fedconf
+
+*********** Proceedings will be published by Springer LNCS ***********
+
+
+*********** Motivation ***********
+
+The IFIP Working Group 2.12 & 12.4 on Semantic Web (
+http://www.ifipsemanticweb.curtin.edu.au/) is a timely active international
+community of scientists, engineers, and practitioners dedicated to advancin=
+g
+the state of the art of research and practice in the emerging field of
+Semantic Web, and meanwhile providing input and guidance on the direction,
+scope, and importance of different aspects of artificial intelligence, data
+modelling, and software theory and practice to Web semantics. It is unique
+in that it targets to synthesize the concepts from these diverse fields in =
+a
+comprehensive fashion in the context of the semantics Web.
+
+The Web has now been in existence for quite some time and its pervasive in
+its influence on all aspects of society and commerce. It has also produced =
+a
+major shift in our thinking on the nature and scope of information
+processing. However in its technological nature and its supporting
+theoretical foundations, it has remained relatively rudimentary, being
+currently largely suitable for information dissemination. It is rapidly
+moving away from this, to application deployment and knowledge deployment
+that require complex interactions and properly structured underlying
+semantics. This has been a sudden upsurge of research activity in the
+problems associated with adding semantics to the Web. This work on semantic=
+s
+will involve data, knowledge, and process semantics. The 4th IFIP SWWS 2008
+will provide a forum for presenting original, unpublished research results,
+and innovative ideas related to this voluminous quantity of research.
+
+In SWWS 2008, as a complementary to the main OTM 2008 conference themes,
+special focus is aimed at looking four evolving areas of interest for the
+Semantic Web, namely Security & Trust, Fuzzy Semantics, Biomedical
+Informatics, Context-driven Methods for Ontologies and Ontology Learning an=
+d
+Evolution. The intention of the SWWS 2008 is to bring together a community
+of researchers and practitioners who will provide a collection of work that
+is of utmost importance to the advancement of the web semantics and its
+future, reviewed by the top experts and minds in the field, in an area of
+the utmost importance to business, IT and industry.
+
+Who Should Attend
+
+The workshop is intended for researchers, academic, practitioners, IFIP
+working group WG 2.12/12.4 members and organizations who are actively
+involved in present and upcoming semantic web technologies. Moreover, the
+workshop concepts covered is a good reference point for academic and
+industrial researchers who want to familiarize themselves with emerging
+trends in semantic web research, technologies and applications.
+
+*********** TOPICS OF INTEREST ***********
+
+Topics of special tracks include one or more of the following (but are not
+limited to) themes;
+
+* Security & Trust
+
+* Fuzzy Semantics
+
+* Biomedical Informatics
+
+* Context-driven Methods for Ontologies
+
+* Ontology Learning and Evolution
+
+The following topics related to these themes including, but are not limited
+to:
+
+=95 Formal and practical knowledge representation and inference for the
+semantic Web
+=95 Design, evaluation, and use of ontology
+=95 Metadata and knowledge markup
+=95 Special track on Fuzzy sets
+            o Providing semantics for the web using Fuzzy set methods
+            o Fuzzy models for the Semantic Web
+            o Protoforms
+=95 Special track on Security and Trust
+            o Security and trust for the Semantic Web
+            o Reputation Systems for the Semantic Web
+=95 Special track on Context-driven Methods for Ontologies
+            o Engineering of regulatory ontologies: conceptual analysis,
+representation, modularization and layering, reusability, evolution and
+dynamics, etc;
+            o Multilingual and terminological aspects of regulatory
+ontologies;
+            o Models of legal reasoning (from ontological viewpoint):
+regulatory compliance, case-based reasoning, reasoning with uncertainty,
+etc.
+            o Sensitivity on and harmonization of regulations;
+            o Regulatory metadata and content standardization (e.g.
+legal-XML/LeXML, ADR/ODR-XML,...);
+            o Regulatory ontologies of: property rights, persons and
+organizations, legal procedures, contracts, legal causality, etc;
+            o Task models for socially regulated activities;
+            o Experiences with projects and applications involving
+regulatory ontologies in legal knowledge based systems, legal information
+retrieval, e-governments, e-commerce;
+=95 Special Track on Biomedical Informatics
+            o Biomedical Ontologies for Genetics, Proteomics, Diseases,
+Privacy etc.
+            o Conceptual Models for Biological and Medical Data
+            o Semantics in Biological Data Modeling
+            o Use of semantics to manage Interoperation in Biomedical
+Databases
+            o Semantic Web technologies and formalisms for Biomedical Data
+            o Ontology representation and exchange languages for
+Bioinformatics
+            o Support of Ontologies for Biological Information Retrieval an=
+d
+Web Services
+            o Change Management in Biomedical Ontologies
+            o Tools for Development and Management of Biomedical Ontologies
+=95 Interoperability of data and Web services
+=95 Semantics of agent and Web interaction
+=95 Automated extraction of Information from regulatory documents.
+=95 Content-based information and knowledge retrieval
+=95 Information extraction, automatic, and semi-automatic generation of
+metadata
+=95 Database technologies for the Semantic Web
+=95 Multimodality and visualization technologies for the Semantic Web
+=95 Applications on mobile devices
+=95 Human centred aspects specifically for the Semantic Web
+=95 Impact of Semantic Web computing on organizations and society
+=95 Evaluation of the quality of Web semantics
+=95 Context-awareness for the Semantic Web
+=95 Semantics for ubiquitous computing
+=95 Bioinformatics
+
+*********** SUBMISSION REQUIREMENTS ***********
+
+All submitted papers will be carefully evaluated based on originality,
+significance, technical soundness, clarity of expression, and relevance to
+IFIP WG 2.12 & WG 12.4. All submissions must be in English, and will be
+refereed by a program committee comprising members of the Working Group.
+Research submissions must not exceed 10 pages following the Springer format=
+.
+Submissions should be made in PDF format. Detailed formatting instructions
+can be found at:
+
+http://www.springer.de/comp/lncs/authors.html
+
+The paper submission site is located at:
+
+http://www.cs.rmit.edu.au/fedconf/swws/2008/papers/
+
+The final proceedings will be published by Springer Verlag as LNCS (pending
+approval). Failure to commit to presentation at the conference automaticall=
+y
+excludes a paper from the proceedings.
+
+***************** IMPORTANT DATES *****************
+
+Abstract Submission Deadline               June 15, 2008
+Paper Submission Deadline                  June 30, 2008
+Acceptance Notification                    August 15, 2008
+Final Version Due                          August 25, 2008
+OTM Conferences and workshops              November 9-14, 2008
+
+*********** ORGANISATION COMMITTEE ***********
+
+IFIP WG 2.12/12.4 Chair
+
+Tharam S. Dillon (Tharam.Dillon@cbs.curtin.edu.au)
+DEBII, Curtin University of Technology, Australia.
+
+Program Co-Chairs
+
+Ernesto Damiani (edamiani@crema.unimi.it)
+Computer Science Department, Milan University, Italy
+
+Elizabeth Chang (Elizabeth.Chang@cbs.curtin.edu.au)
+DEBII, Curtin University of Technology, Australia
+
+Vice Program Co-Chairs
+
+Paolo Ceravolo (ceravolo@dti.unimi.it)
+Computer Science Department, Milan University, Italy
+
+Amandeep S. Sidhu (Amandeep.Sidhu@cbs.curtin.edu.au)
+DEBII, Curtin University of Technology, Australia.
+
+Special Track Chairs
+
+=95 Security & Trust - Elizabeth Chang
+=95 Fuzzy Semantics - Ernesto Damiani
+=95 Biomedical Informatics =96 Amandeep Sidhu
+=95 Context-driven Methods for Ontologies - Riccardo Albertoni, Elena Camos=
+si
+=95 Ontology Learning and Evolution - TBA
+
+Publicity Chair
+
+Shuxin Zhao (Shuxin.Zhao@cbs.curtin.edu.au)
+DEBII, Curtin University of Technology, Australia.
+
+Program Committee Members
+
+IFIP Working Group 2.12/12.4 Members
+
+------=_Part_20639_16309589.1213083188974
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<div>Apologies for cross-postings.</div>
+<div>&nbsp;</div>
+<div>Just a reminder that Abstract Submission is due June 15 </div>
+<div><br>******************************** Call for Paper ******************=
+**************</div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fourth IFIP Semantic Web &amp; Web =
+Semantics (SWWS) 2008 </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (9-14th November 2008, Monterrey Mexic=
+o)</p>
+<p>************************************************************************=
+*********</p>
+<p>With special tracks on: </p>
+<p>Security &amp; Trust, Fuzzy Semantics, Biomedical Informatics, Context-d=
+riven Methods for Ontologies and Ontology Learning and Evolution</p>
+<p>In conjunction with OnTheMove Federated Conferences (OTM 2008)</p>
+<p><a href=3D"http://www.cs.rmit.edu.au/fedconf" target=3D"_blank">http://w=
+ww.cs.rmit.edu.au/fedconf</a> </p>
+<p>*********** Proceedings will be published by Springer LNCS ***********</=
+p>
+<p><br>*********** Motivation ***********</p>
+<p>The IFIP Working Group 2.12 &amp; 12.4 on Semantic Web (<a href=3D"http:=
+//www.ifipsemanticweb.curtin.edu.au/" target=3D"_blank">http://www.ifipsema=
+nticweb.curtin.edu.au/</a>) is a timely active international community of s=
+cientists, engineers, and practitioners dedicated to advancing the state of=
+ the art of research and practice in the emerging field of Semantic Web, an=
+d meanwhile providing input and guidance on the direction, scope, and impor=
+tance of different aspects of artificial intelligence, data modelling, and =
+software theory and practice to Web semantics. It is unique in that it targ=
+ets to synthesize the concepts from these diverse fields in a comprehensive=
+ fashion in the context of the semantics Web. </p>
+
+<p>The Web has now been in existence for quite some time and its pervasive =
+in its influence on all aspects of society and commerce. It has also produc=
+ed a major shift in our thinking on the nature and scope of information pro=
+cessing. However in its technological nature and its supporting theoretical=
+ foundations, it has remained relatively rudimentary, being currently large=
+ly suitable for information dissemination. It is rapidly moving away from t=
+his, to application deployment and knowledge deployment that require comple=
+x interactions and properly structured underlying semantics. This has been =
+a sudden upsurge of research activity in the problems associated with addin=
+g semantics to the Web. This work on semantics will involve data, knowledge=
+, and process semantics. The 4th IFIP SWWS 2008 will provide a forum for pr=
+esenting original, unpublished research results, and innovative ideas relat=
+ed to this voluminous quantity of research. </p>
+
+<p>In SWWS 2008, as a complementary to the main OTM 2008 conference themes,=
+ special focus is aimed at looking four evolving areas of interest for the =
+Semantic Web, namely Security &amp; Trust, Fuzzy Semantics, Biomedical Info=
+rmatics, Context-driven Methods for Ontologies and Ontology Learning and Ev=
+olution. The intention of the SWWS 2008 is to bring together a community of=
+ researchers and practitioners who will provide a collection of work that i=
+s of utmost importance to the advancement of the web semantics and its futu=
+re, reviewed by the top experts and minds in the field, in an area of the u=
+tmost importance to business, IT and industry. </p>
+
+<p>Who Should Attend</p>
+<p>The workshop is intended for researchers, academic, practitioners, IFIP =
+working group WG 2.12/12.4 members and organizations who are actively invol=
+ved in present and upcoming semantic web technologies. Moreover, the worksh=
+op concepts covered is a good reference point for academic and industrial r=
+esearchers who want to familiarize themselves with emerging trends in seman=
+tic web research, technologies and applications.</p>
+
+<p>*********** TOPICS OF INTEREST ***********</p>
+<p>Topics of special tracks include one or more of the following (but are n=
+ot limited to) themes; </p>
+<p>* Security &amp; Trust</p>
+<p>* Fuzzy Semantics</p>
+<p>* Biomedical Informatics</p>
+<p>* Context-driven Methods for Ontologies</p>
+<p>* Ontology Learning and Evolution</p>
+<p>The following topics related to these themes including, but are not limi=
+ted to:</p>
+<p>=95 Formal and practical knowledge representation and inference for the =
+semantic Web <br>=95 Design, evaluation, and use of ontology <br>=95 Metada=
+ta and knowledge markup <br>=95 Special track on Fuzzy sets <br>&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Providing semanti=
+cs for the web using Fuzzy set methods <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Fuzzy =
+models for the Semantic Web<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp; o Protoforms<br>=95 Special track on Security and Tr=
+ust <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+o Security and trust for the Semantic Web <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Reputation Systems for the Semantic=
+ Web<br>
+=95 Special track on Context-driven Methods for Ontologies <br>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Engineering of reg=
+ulatory ontologies: conceptual analysis, representation, modularization and=
+ layering, reusability, evolution and dynamics, etc; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Multil=
+ingual and terminological aspects of regulatory ontologies; <br>&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Models of legal r=
+easoning (from ontological viewpoint): regulatory compliance, case-based re=
+asoning, reasoning with uncertainty, etc. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Sensit=
+ivity on and harmonization of regulations; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Regulatory metadata and content st=
+andardization (e.g. legal-XML/LeXML, ADR/ODR-XML,...); <br>&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Regulatory ontologies =
+of: property rights, persons and organizations, legal procedures, contracts=
+, legal causality, etc; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Task m=
+odels for socially regulated activities; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Experiences with projects and applic=
+ations involving regulatory ontologies in legal knowledge based systems, le=
+gal information retrieval, e-governments, e-commerce; <br>
+=95 Special Track on Biomedical Informatics<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Biomedical Ontologies for Genetics=
+, Proteomics, Diseases, Privacy etc.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Conceptual Models for Biological and Medi=
+cal Data<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; o Semantics in Biological Data Modeling<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Use of=
+ semantics to manage Interoperation in Biomedical Databases<br>&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Semantic Web techn=
+ologies and formalisms for Biomedical Data<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Ontology representation and exchang=
+e languages for Bioinformatics<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Suppor=
+t of Ontologies for Biological Information Retrieval and Web Services<br>&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Change M=
+anagement in Biomedical Ontologies<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o Tools for Development and Management of Bio=
+medical Ontologies<br>
+=95 Interoperability of data and Web services <br>=95 Semantics of agent an=
+d Web interaction <br>=95 Automated extraction of Information from regulato=
+ry documents.<br>=95 Content-based information and knowledge retrieval <br>=
+=95 Information extraction, automatic, and semi-automatic generation of met=
+adata <br>
+=95 Database technologies for the Semantic Web <br>=95 Multimodality and vi=
+sualization technologies for the Semantic Web <br>=95 Applications on mobil=
+e devices <br>=95 Human centred aspects specifically for the Semantic Web <=
+br>=95 Impact of Semantic Web computing on organizations and society <br>
+=95 Evaluation of the quality of Web semantics <br>=95 Context-awareness fo=
+r the Semantic Web <br>=95 Semantics for ubiquitous computing&nbsp; <br>=95=
+ Bioinformatics </p>
+<p>*********** SUBMISSION REQUIREMENTS ***********</p>
+<p>All submitted papers will be carefully evaluated based on originality, s=
+ignificance, technical soundness, clarity of expression, and relevance to I=
+FIP WG 2.12 &amp; WG 12.4. All submissions must be in English, and will be =
+refereed by a program committee comprising members of the Working Group. Re=
+search submissions must not exceed 10 pages following the Springer format. =
+Submissions should be made in PDF format. Detailed formatting instructions =
+can be found at:</p>
+
+<p><a href=3D"http://www.springer.de/comp/lncs/authors.html" target=3D"_bla=
+nk">http://www.springer.de/comp/lncs/authors.html</a></p>
+<p>The paper submission site is located at:</p>
+<p><a href=3D"http://www.cs.rmit.edu.au/fedconf/swws/2008/papers/" target=
+=3D"_blank">http://www.cs.rmit.edu.au/fedconf/swws/2008/papers/</a></p>
+<p>The final proceedings will be published by Springer Verlag as LNCS (pend=
+ing approval). Failure to commit to presentation at the conference automati=
+cally excludes a paper from the proceedings. </p>
+<p>***************** IMPORTANT DATES *****************</p>
+<p>Abstract Submission Deadline&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 15, 2008 <br>Paper Submission=
+ Deadline&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; June 30, 2008<br>Acceptance Notificati=
+on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; August 15, 2008<br>Final Version =
+Due&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; August 25, 2008<br>
+OTM Conferences and workshops&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; November 9-14, 2008</p>
+<p>*********** ORGANISATION COMMITTEE ***********</p>
+<p>IFIP WG 2.12/12.4 Chair </p>
+<p>Tharam S. Dillon (<a href=3D"mailto:Tharam.Dillon@cbs.curtin.edu.au" tar=
+get=3D"_blank">Tharam.Dillon@cbs.curtin.edu.au</a>) <br>DEBII, Curtin Unive=
+rsity of Technology, Australia.</p>
+<p>Program Co-Chairs</p>
+<p>Ernesto Damiani (<a href=3D"mailto:edamiani@crema.unimi.it" target=3D"_b=
+lank">edamiani@crema.unimi.it</a>)<br>Computer Science Department, Milan Un=
+iversity, Italy</p>
+<p>Elizabeth Chang (<a href=3D"mailto:Elizabeth.Chang@cbs.curtin.edu.au" ta=
+rget=3D"_blank">Elizabeth.Chang@cbs.curtin.edu.au</a>)<br>DEBII, Curtin Uni=
+versity of Technology, Australia</p>
+<p>Vice Program Co-Chairs</p>
+<p>Paolo Ceravolo (<a href=3D"mailto:ceravolo@dti.unimi.it" target=3D"_blan=
+k">ceravolo@dti.unimi.it</a>)<br>Computer Science Department, Milan Univers=
+ity, Italy</p>
+<p>Amandeep S. Sidhu (<a href=3D"mailto:Amandeep.Sidhu@cbs.curtin.edu.au" t=
+arget=3D"_blank">Amandeep.Sidhu@cbs.curtin.edu.au</a>) <br>DEBII, Curtin Un=
+iversity of Technology, Australia.</p>
+<p>Special Track Chairs</p>
+<p>=95 Security &amp; Trust - Elizabeth Chang<br>=95 Fuzzy Semantics - Erne=
+sto Damiani<br>=95 Biomedical Informatics =96 Amandeep Sidhu<br>=95 Context=
+-driven Methods for Ontologies - Riccardo Albertoni, Elena Camossi<br>=95 O=
+ntology Learning and Evolution - TBA</p>
+
+<p>Publicity Chair</p>
+<p>Shuxin Zhao (<a href=3D"mailto:Shuxin.Zhao@cbs.curtin.edu.au" target=3D"=
+_blank">Shuxin.Zhao@cbs.curtin.edu.au</a>) <br>DEBII, Curtin University of =
+Technology, Australia.</p>
+<p>Program Committee Members</p>
+<p>IFIP Working Group 2.12/12.4 Members</p>
+
+------=_Part_20639_16309589.1213083188974--
+
+--===============0294938583==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0294938583==--

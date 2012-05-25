@@ -1,0 +1,969 @@
+From - Thu Dec 10 14:25:29 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.14 with SMTP id l14cs12951bud;
+        Wed, 10 Jan 2007 01:35:45 -0800 (PST)
+Received: by 10.35.39.13 with SMTP id r13mr236265pyj.1168421745157;
+        Wed, 10 Jan 2007 01:35:45 -0800 (PST)
+Return-Path: <sentto-1622440-2191-1168421724-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id u2si39927999pyb.2007.01.10.01.35.42;
+        Wed, 10 Jan 2007 01:35:45 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by manual fallback record for domain of sentto-1622440-2191-1168421724-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id l0A9ZaiZ008307
+	for <jpprost@gmail.com>; Wed, 10 Jan 2007 20:35:41 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2007011020354120704
+ for <jpprost@gmail.com>; Wed, 10 Jan 2007 20:35:41 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l0A9Ze5E008315
+	for <jpprost@gmail.com>; Wed, 10 Jan 2007 20:35:40 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l0A9ZelD016418
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 20:35:40 +1100 (EST)
+X-ASG-Debug-ID: 1168421737-3176004d0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1168421737
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 42350D155AFF
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 20:35:37 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with SMTP id l0A9ZaiV008307
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 20:35:37 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2007011020353620702
+ for <jpprost@mailbox.ics.mq.edu.au>; Wed, 10 Jan 2007 20:35:36 +1100
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l0A9ZaXI008305
+	for <jpprost@ics.mq.edu.au>; Wed, 10 Jan 2007 20:35:36 +1100 (EST)
+Received: from n29.bullet.scd.yahoo.com (n29.bullet.scd.yahoo.com [66.94.237.22])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id l0A9ZX8i015784
+	for <jpprost@ics.mq.edu.au>; Wed, 10 Jan 2007 20:35:35 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=agYRpq/udkmT8ca293LEBdDDPj8GjK7MuTQkGeZPLyc1EbbR7Dua70xSuggRfoD5vivmau+1gC9ZDPZvlG3lnNxOMwsRBFLsqIPosxbxQV63C/0peMP9lLt0aeYgCHEc;
+Received: from [66.218.69.4] by n29.bullet.scd.yahoo.com with NNFMP; 10 Jan 2007 09:35:25 -0000
+Received: from [66.218.66.33] by t4.bullet.scd.yahoo.com with NNFMP; 10 Jan 2007 09:35:25 -0000
+X-Yahoo-Newman-Id: 1622440-m2191
+X-Sender: aline@up.univ-mrs.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 51116 invoked from network); 10 Jan 2007 09:35:23 -0000
+Received: from unknown (66.218.67.33)
+  by m27.grp.scd.yahoo.com with QMQP; 10 Jan 2007 09:35:23 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta7.grp.scd.yahoo.com with SMTP; 10 Jan 2007 09:35:22 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 6FDBA6B42E
+	for <lpl-infos@yahoogroupes.fr>; Wed, 10 Jan 2007 10:35:13 +0100 (CET)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 09716-05 for <lpl-infos@yahoogroupes.fr>;
+ Wed, 10 Jan 2007 10:35:06 +0100 (CET)
+Received: from [147.94.213.137] (unknown [147.94.213.137])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 6CC16201081
+	for <lpl-infos@yahoogroupes.fr>; Wed, 10 Jan 2007 10:35:06 +0100 (CET)
+Message-Id: <v04210101c1ca557ea6ba@[147.94.213.137]>
+X-Priority: 1 (Highest)
+To: lpl-infos@yahoogroupes.fr
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: Aline =?iso-8859-1?Q?P=E9lissier?= <aline@up.univ-mrs.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Wed, 10 Jan 2007 10:34:27 +0200
+X-ASG-Orig-Subj: [lpl-infos] [coll] Prague:  Student Research Workshop at ACL 2007: 2nd CFP,
+ fin 23 janvier
+Subject: [lpl-infos] [coll] Prague:  Student Research Workshop at ACL 2007: 2nd CFP,
+ fin 23 janvier
+X-Yahoo-Newman-Property: groups-email-ff
+Content-Type: multipart/alternative;
+ boundary="DXAImbEQT0k9Z6GjjRHpCcfGDfcDkHICY7iYN5S"
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 1.95
+X-Barracuda-Spam-Status: No, SCORE=1.95 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=BSF_SC0_SA085b, HTML_MESSAGE, HTML_TINY_FONT, X_PRIORITY_HIGH
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.5806
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.12 X_PRIORITY_HIGH        Sent with 'X-Priority' set to high
+	0.40 BSF_SC0_SA085b         URI: Custom Rule SA085b
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.43 HTML_TINY_FONT         RAW: body contains 1 or 0-point font
+
+--DXAImbEQT0k9Z6GjjRHpCcfGDfcDkHICY7iYN5S
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>
+>
+>De : Roselyne Cantarel=20
+><<mailto:Roselyne.Cantarel@paris4.sorbonne.fr>Roselyne.Cantarel@paris4=20
+>.sorbonne.fr>
+>
+>
+>Student Research Workshop at ACL-07: 2nd CFP
+>*********************************************************************
+>CALL FOR PAPERS
+>STUDENT RESEARCH WORKSHOP at ACL-07
+>June 24th-29th 2007
+>Prague, Czech Republic
+>Submission deadline: January 23, 2007
+>URL:=20
+><http://ufal.mff.cuni.cz/acl2007/srw/>http://ufal.mff.cuni.cz/acl2007/=20
+>srw/
+>*********************************************************************
+>
+>1. General Invitation for Submissions
+>The Student Research Workshop is an established tradition at ACL
+>conferences. The workshop provides a venue for student researchers
+>investigating topics in Computational Linguistics and Natural Language
+>Processing to present their work and to receive feedback
+>both from the general audience and from selected panelists --
+>experienced researchers who prepare in-depth comments and questions in
+>advance of the presentation.
+>
+>We invite all student researchers to submit their work to the
+>workshop. As the main goal of the workshop is to provide feedback, the
+>emphasis is on work in progress. Original and unpublished research is
+>therefore invited on all aspects of computational linguistics
+>including, but not limited to, the following topic areas:
+>.. pragmatics and discourse
+>.. semantics and lexicons
+>.. syntax and grammars
+>.. phonetics, phonology and morphology
+>.. linguistic, mathematical and psychological models of language
+>.. information retrieval, information extraction and question answering
+>.. summarization and paraphrasing
+>.. speech recognition and speech synthesis
+>.. corpus-based language modeling
+>.. multi-lingual processing, machine translation and translation aids
+>.. spoken and written natural language interfaces and dialogue systems
+>.. multi-modal language processing and multimedia systems
+>.. narrative understanding systems
+>The main conference also features tutorials, workshops, and demos.
+>More information
+>on these can be found at the workshop page=20
+><http://ufal.mff.cuni.cz/acl2007/srw/>http://ufal.mff.cuni.cz/acl2007/=20
+>srw/ or at the main ACL-07 page,=20
+><http://www.acl2007.org/>http://www.acl2007.org/ .
+>
+>2. Submission Requirements
+>The emphasis of the workshop is to provide beginner researchers with
+>the opportunity of presenting their work in a formal setting.
+>Submission will therefore normally be open only to students who have
+>settled on their thesis direction but who still have significant
+>research left to do; those students in the final stages of their
+>thesis and those who have already presented at an ACL/EACL/NAACL
+>Student Research Workshop should submit to the main
+>conference instead.
+>
+>The papers should describe original work, still in progress. Papers
+>should clearly indicate directions for future research wherever
+>appropriate. The papers may have more than one author; however, all
+>authors MUST be students (graduate or undergraduate). Papers submitted
+>are eligible only if they have not been presented at any other meeting
+>with publicly available published proceedings. Papers that are being
+>submitted in parallel to other conferences or workshops must indicate
+>this on the submission page.
+>
+>3. Submission Procedure
+>Submissions should follow the two-column format of ACL proceedings and
+>should not exceed six (6) pages, including references. We strongly
+>recommend the use of ACL LaTeX style files or Microsoft Word Style
+>files tailored for this year's conference. These will be available
+>from the web pages of ACL-07. A description of the format is also
+>available in case you are unable to use these style files directly.
+>Submission must be electronic. The only accepted format for submitted
+>papers is Adobe PDF. More details regarding the submission procedure
+>will be posted on the workshop website.
+>
+>4. Reviewing Procedure
+>Reviewing of papers submitted to the Student Workshop will be managed
+>by the Student Workshop Co-Chairs, with the assistance of a team of
+>reviewers. Each submission will be matched with a mixed panel of
+>student and senior researchers for review. The final acceptance
+>decision will be based on the results of the review.
+>
+>Note that reviewing of papers will be blind; therefore, please make
+>sure your paper shows the title, but no author information. You should
+>likewise not have any self-identifying references anywhere in the
+>paper submitted for review. For example, rather than this: "We showed
+>previously (Smith, 2001), ...", use citations such as: "Smith (2001)
+>previously showed ...".
+>
+>5. Schedule
+>The papers must be submitted no later than 5pm US Eastern time January
+>23, 2007 (10pm GMT January 23, 2007). Late submissions will be
+>automatically disqualified. Acknowledgment will be e-mailed soon after
+>receipt. Notification of acceptance will be sent to authors (by
+>e-mail) on March 23, 2007. Detailed formatting guidelines for the
+>preparation of the final camera-ready copy will be provided to authors
+>with their acceptance notice.
+>
+>Important Dates:
+>Paper submissions deadline: January 23, 2007
+>Notification of acceptance: March 23, 2007
+>Camera ready papers due: April 27, 2007
+>Conference date: June 24-29, 2007
+>
+>6. Travel Grants
+>Some funding will be available for students whose work is accepted to
+>the Student Research Workshop. For more information about travel
+>grants, please contact the co-chairs of the Student Research Workshop.
+>
+>7. Contact Information
+>If you need to contact the co-chairs of the Student Workshop, please
+>use: <mailto:srw@acl2007.org>srw@acl2007.org
+>An e-mail sent to this address will be forwarded to all co-chairs.
+>
+>
+>Workshop Chairs:
+>----------------
+>Violeta Seretan
+>Language Technology Laboratory, Linguistics Department
+>University of Geneva, Switzerland
+>
+>Chris Biemann
+>Faculty of Mathematics and Computer Science, NLP Department
+>University of Leipzig, Germany
+>
+>Ellen Riloff (Faculty Advisor)
+>School of Computing
+>University of Utah, U.S.A.
+>
+>
+>Program Committee:
+>------------------
+>Laura Alonso i Alemany, Universidad de la Rep=FAblica, Uruguay and=20
+>Universidad Nacional de C=F3rdoba, Argentina
+>Galia Angelova, Bulgarian Academy of Sciences, Bulgaria
+>Timothy Baldwin, University of Melbourne, Australia
+>Roberto Basili, University of Roma, Tor Vergata, Italy
+>Raffaela Bernardi, Free University of Bozen-Bolzano, Italy
+>Stefan Bloehdorn, University of Karlsruhe, Germany
+>Gemma Boleda, Pompeu Fabra University, Spain
+>Kalina Bontcheva, University of Sheffield, UK
+>Monojit Choudhury, Indian Institute of Technology, Kharagpur, India
+>Philipp Cimiano, University of Karlsruhe, Germany
+>Alexander Clark, Royal Holloway, University of London, UK
+>Ga=EBl Harry Dias, University of Beira Interior, Portugal
+>Katrin Erk, University of Texas at Austin, USA
+>Stefan Evert, University of Osnabr=FCck, Germany
+>Afsaneh Fazly, University of Toronto, Canada
+>Alexander Gelbukh, National Polytechnic Institute, Mexico
+>Alfio Gliozzo, ITC-irst, Trento, Italy
+>Yoav Goldberg, Ben Gurion University, Israel
+>Jean-Philippe Goldmann, University of Geneva, Switzerland
+>G=FCnther G=F6rz, University of Erlangen, Germany
+>Iryna Gurevych, Darmstadt University of Technology, Germany
+>Catalina Hallett, The Open University, UK
+>Laura Hasler, University of Wolverhampton, UK
+>Janne Bondi Johannessen, University of Oslo, Norway
+>Philipp Koehn, University of Edinburgh, UK
+>Zornitsa Kozareva, University of Alicante, Spain
+>Chin-Yew Lin, Microsoft Corp., USA
+>Berenike Loos, European Media Laboratory GmbH, Heidelberg, Germany
+>Bernardo Magnini, ITC-irst, Trento, Italy
+>Irina Matveeva, University of Chicago, USA
+>Rada Mihalcea, University of North Texas, USA
+>Andrea Mulloni, University of Wolverhampton, UK
+>Roberto Navigli, University of Roma "La Sapienza", Italy
+>Malvina Nissim, CNR, Rome, Italy
+>Joakim Nivre, V=E4xj=F6 University and Uppsala University, Sweden
+>Constantin Orasan, University of Wolverhampton, UK
+>Rainer Osswald, FernUniversit=E4t in Hagen, Germany
+>Sebastian Pad=F3, Saarland University, Germany
+>Adam Przepi=F3rkowski, Polish Academy of Sciences, Poland
+>Reinhard Rapp, Universitat Rovira i Virgili, Tarragona, Spain
+>Bettina Schrader, University of Osnabr=FCck, Germany
+>Sabine Schulte im Walde, Universit=E4t Stuttgart, Germany
+>Serge Sharoff, University of Leeds, UK
+>Yihai Shen, The Hong Kong University of Science and Technology, Hong Kong
+>Anders S=F8gaard, University of Copenhagen, Denmark
+>Lucia Specia, Universidade de Sao Paulo, Brasil
+>Joel Tetreault, University of Pittsburgh, USA
+>Reut Tsarfaty, University of Amsterdam, The Netherlands
+>Bego=F1a Villada Moir=F3n, University of Groningen, The Netherlands
+>Stephen Wan, Macquarie University, Australia
+>Janyce M. Wiebe, University of Pittsburg, USA
+>Hans Friedrich Witschel, University of Leipzig, Germany
+>Bing Zhao, Carnegie Mellon University, USA
+>
+>
+>
+>BEGIN:VCARD
+>VERSION:2.1
+>N:Rasmussen;Priscilla
+>FN:Priscilla Rasmussen
+>ORG:ACL/AMTA/ARCS/dg.o
+>TITLE:ACL/AMTA Business Manager and ARCS President
+>TEL;WORK;VOICE:+1-570-476-8006
+>TEL;WORK;FAX:+1-570-476-0860
+>ADR;WORK:;;209 N. Eighth Street;Stroudsburg;PA;18360;USA
+>LABEL;WORK;ENCODING=3DQUOTED-PRINTABLE:209 N. Eighth=20
+>Street=3D0D=3D0AStroudsburg, PA 18360=3D0D=3D0AUSA
+><mailto:EMAIL;PREF;INTERNET:rasmusse@ptd.net>EMAIL;PREF;INTERNET:rasm=20
+>usse@ptd.net
+><mailto:EMAIL;INTERNET:rasmusse@ptd.net>EMAIL;INTERNET:rasmusse@ptd.net
+>REV:20061220T194529Z
+>END:VCARD
+>
+>--
+>____________________________________________________
+>Roselyne Cantarel
+>Institut des Sciences Humaines Appliqu=E9es (ISHA)
+>Laboratoire LaLICC - CNRS - PARIS-SORBONNE (Paris IV)
+>28 rue Serpente 75005 Paris
+>t=E9l. 01 53 10 58 25 - fax 01 53 10 58 48
+>e-mail :=20
+><mailto:Roselyne.Cantarel@paris4.sorbonne.fr>Roselyne.Cantarel@paris4.=20
+>sorbonne.fr
+><http://www.lalic.paris4.sorbonne.fr/>http://www.lalic.paris4.sorbonne.fr/
+>
+
+
+[Les parties de ce message comportant autre chose que du texte seul ont =E9=
+t=E9 supprim=E9es]
+
+
+--DXAImbEQT0k9Z6GjjRHpCcfGDfcDkHICY7iYN5S
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+<!-- Network content -->
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>&gt;<br>
+&gt;<br>
+&gt;De : Roselyne Cantarel <br>
+&gt;&lt;&lt;mailto:<a href=3D"mailto:Roselyne.Cantarel%40paris4.sorbonne.fr=
+">Roselyne.Cantarel@<wbr>paris4.sorbonne.<wbr>fr</a>&gt;Roselyne.Cantarel@<=
+wbr>paris4 <br>
+&gt;.sorbonne.fr&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;Student Research Workshop at ACL-07: 2nd CFP<br>
+&gt;***********<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr=
+>*********<wbr>*********<wbr>****<br>
+&gt;CALL FOR PAPERS<br>
+&gt;STUDENT RESEARCH WORKSHOP at ACL-07<br>
+&gt;June 24th-29th 2007<br>
+&gt;Prague, Czech Republic<br>
+&gt;Submission deadline: January 23, 2007<br>
+&gt;URL: <br>
+&gt;&lt;<a href=3D"http://ufal.mff.cuni.cz/acl2007/srw/">http://ufal.<wbr>m=
+ff.cuni.<wbr>cz/acl2007/<wbr>srw/</a>&gt;<a href=3D"http://ufal.mff.cuni.cz=
+/acl2007/">http://ufal.<wbr>mff.cuni.<wbr>cz/acl2007/</a> <br>
+&gt;srw/<br>
+&gt;***********<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr=
+>*********<wbr>*********<wbr>****<br>
+&gt;<br>
+&gt;1. General Invitation for Submissions<br>
+&gt;The Student Research Workshop is an established tradition at ACL<br>
+&gt;conferences. The workshop provides a venue for student researchers<br>
+&gt;investigating topics in Computational Linguistics and Natural Language<=
+br>
+&gt;Processing to present their work and to receive feedback<br>
+&gt;both from the general audience and from selected panelists --<br>
+&gt;experienced researchers who prepare in-depth comments and questions in<=
+br>
+&gt;advance of the presentation.<br>
+&gt;<br>
+&gt;We invite all student researchers to submit their work to the<br>
+&gt;workshop. As the main goal of the workshop is to provide feedback, the<=
+br>
+&gt;emphasis is on work in progress. Original and unpublished research is<b=
+r>
+&gt;therefore invited on all aspects of computational linguistics<br>
+&gt;including, but not limited to, the following topic areas:<br>
+&gt;.. pragmatics and discourse<br>
+&gt;.. semantics and lexicons<br>
+&gt;.. syntax and grammars<br>
+&gt;.. phonetics, phonology and morphology<br>
+&gt;.. linguistic, mathematical and psychological models of language<br>
+&gt;.. information retrieval, information extraction and question answering=
+<br>
+&gt;.. summarization and paraphrasing<br>
+&gt;.. speech recognition and speech synthesis<br>
+&gt;.. corpus-based language modeling<br>
+&gt;.. multi-lingual processing, machine translation and translation aids<b=
+r>
+&gt;.. spoken and written natural language interfaces and dialogue systems<=
+br>
+&gt;.. multi-modal language processing and multimedia systems<br>
+&gt;.. narrative understanding systems<br>
+&gt;The main conference also features tutorials, workshops, and demos.<br>
+&gt;More information<br>
+&gt;on these can be found at the workshop page <br>
+&gt;&lt;<a href=3D"http://ufal.mff.cuni.cz/acl2007/srw/">http://ufal.<wbr>m=
+ff.cuni.<wbr>cz/acl2007/<wbr>srw/</a>&gt;<a href=3D"http://ufal.mff.cuni.cz=
+/acl2007/">http://ufal.<wbr>mff.cuni.<wbr>cz/acl2007/</a> <br>
+&gt;srw/ or at the main ACL-07 page, <br>
+&gt;&lt;<a href=3D"http://www.acl2007.org/">http://www.acl2007.<wbr>org/</a=
+>&gt;<a href=3D"http://www.acl2007.org/">http://www.acl2007.<wbr>org/</a> .=
+<br>
+&gt;<br>
+&gt;2. Submission Requirements<br>
+&gt;The emphasis of the workshop is to provide beginner researchers with<br=
+>
+&gt;the opportunity of presenting their work in a formal setting.<br>
+&gt;Submission will therefore normally be open only to students who have<br=
+>
+&gt;settled on their thesis direction but who still have significant<br>
+&gt;research left to do; those students in the final stages of their<br>
+&gt;thesis and those who have already presented at an ACL/EACL/NAACL<br>
+&gt;Student Research Workshop should submit to the main<br>
+&gt;conference instead.<br>
+&gt;<br>
+&gt;The papers should describe original work, still in progress. Papers<br>
+&gt;should clearly indicate directions for future research wherever<br>
+&gt;appropriate. The papers may have more than one author; however, all<br>
+&gt;authors MUST be students (graduate or undergraduate)<wbr>. Papers submi=
+tted<br>
+&gt;are eligible only if they have not been presented at any other meeting<=
+br>
+&gt;with publicly available published proceedings. Papers that are being<br=
+>
+&gt;submitted in parallel to other conferences or workshops must indicate<b=
+r>
+&gt;this on the submission page.<br>
+&gt;<br>
+&gt;3. Submission Procedure<br>
+&gt;Submissions should follow the two-column format of ACL proceedings and<=
+br>
+&gt;should not exceed six (6) pages, including references. We strongly<br>
+&gt;recommend the use of ACL LaTeX style files or Microsoft Word Style<br>
+&gt;files tailored for this year's conference. These will be available<br>
+&gt;from the web pages of ACL-07. A description of the format is also<br>
+&gt;available in case you are unable to use these style files directly.<br>
+&gt;Submission must be electronic. The only accepted format for submitted<b=
+r>
+&gt;papers is Adobe PDF. More details regarding the submission procedure<br=
+>
+&gt;will be posted on the workshop website.<br>
+&gt;<br>
+&gt;4. Reviewing Procedure<br>
+&gt;Reviewing of papers submitted to the Student Workshop will be managed<b=
+r>
+&gt;by the Student Workshop Co-Chairs, with the assistance of a team of<br>
+&gt;reviewers. Each submission will be matched with a mixed panel of<br>
+&gt;student and senior researchers for review. The final acceptance<br>
+&gt;decision will be based on the results of the review.<br>
+&gt;<br>
+&gt;Note that reviewing of papers will be blind; therefore, please make<br>
+&gt;sure your paper shows the title, but no author information. You should<=
+br>
+&gt;likewise not have any self-identifying references anywhere in the<br>
+&gt;paper submitted for review. For example, rather than this: &quot;We sho=
+wed<br>
+&gt;previously (Smith, 2001), ...&quot;, use citations such as: &quot;Smith=
+ (2001)<br>
+&gt;previously showed ...&quot;.<br>
+&gt;<br>
+&gt;5. Schedule<br>
+&gt;The papers must be submitted no later than 5pm US Eastern time January<=
+br>
+&gt;23, 2007 (10pm GMT January 23, 2007). Late submissions will be<br>
+&gt;automatically disqualified. Acknowledgment will be e-mailed soon after<=
+br>
+&gt;receipt. Notification of acceptance will be sent to authors (by<br>
+&gt;e-mail) on March 23, 2007. Detailed formatting guidelines for the<br>
+&gt;preparation of the final camera-ready copy will be provided to authors<=
+br>
+&gt;with their acceptance notice.<br>
+&gt;<br>
+&gt;Important Dates:<br>
+&gt;Paper submissions deadline: January 23, 2007<br>
+&gt;Notification of acceptance: March 23, 2007<br>
+&gt;Camera ready papers due: April 27, 2007<br>
+&gt;Conference date: June 24-29, 2007<br>
+&gt;<br>
+&gt;6. Travel Grants<br>
+&gt;Some funding will be available for students whose work is accepted to<b=
+r>
+&gt;the Student Research Workshop. For more information about travel<br>
+&gt;grants, please contact the co-chairs of the Student Research Workshop.<=
+br>
+&gt;<br>
+&gt;7. Contact Information<br>
+&gt;If you need to contact the co-chairs of the Student Workshop, please<br=
+>
+&gt;use: &lt;mailto:<a href=3D"mailto:srw%40acl2007.org">srw@acl2007.<wbr>o=
+rg</a>&gt;<a href=3D"mailto:srw%40acl2007.org">srw@acl2007.<wbr>org</a><br>
+&gt;An e-mail sent to this address will be forwarded to all co-chairs.<br>
+&gt;<br>
+&gt;<br>
+&gt;Workshop Chairs:<br>
+&gt;-----------<wbr>-----<br>
+&gt;Violeta Seretan<br>
+&gt;Language Technology Laboratory, Linguistics Department<br>
+&gt;University of Geneva, Switzerland<br>
+&gt;<br>
+&gt;Chris Biemann<br>
+&gt;Faculty of Mathematics and Computer Science, NLP Department<br>
+&gt;University of Leipzig, Germany<br>
+&gt;<br>
+&gt;Ellen Riloff (Faculty Advisor)<br>
+&gt;School of Computing<br>
+&gt;University of Utah, U.S.A.<br>
+&gt;<br>
+&gt;<br>
+&gt;Program Committee:<br>
+&gt;-----------<wbr>-------<br>
+&gt;Laura Alonso i Alemany, Universidad de la Rep=FAblica, Uruguay and <br>
+&gt;Universidad Nacional de C=F3rdoba, Argentina<br>
+&gt;Galia Angelova, Bulgarian Academy of Sciences, Bulgaria<br>
+&gt;Timothy Baldwin, University of Melbourne, Australia<br>
+&gt;Roberto Basili, University of Roma, Tor Vergata, Italy<br>
+&gt;Raffaela Bernardi, Free University of Bozen-Bolzano, Italy<br>
+&gt;Stefan Bloehdorn, University of Karlsruhe, Germany<br>
+&gt;Gemma Boleda, Pompeu Fabra University, Spain<br>
+&gt;Kalina Bontcheva, University of Sheffield, UK<br>
+&gt;Monojit Choudhury, Indian Institute of Technology, Kharagpur, India<br>
+&gt;Philipp Cimiano, University of Karlsruhe, Germany<br>
+&gt;Alexander Clark, Royal Holloway, University of London, UK<br>
+&gt;Ga=EBl Harry Dias, University of Beira Interior, Portugal<br>
+&gt;Katrin Erk, University of Texas at Austin, USA<br>
+&gt;Stefan Evert, University of Osnabr=FCck, Germany<br>
+&gt;Afsaneh Fazly, University of Toronto, Canada<br>
+&gt;Alexander Gelbukh, National Polytechnic Institute, Mexico<br>
+&gt;Alfio Gliozzo, ITC-irst, Trento, Italy<br>
+&gt;Yoav Goldberg, Ben Gurion University, Israel<br>
+&gt;Jean-Philippe Goldmann, University of Geneva, Switzerland<br>
+&gt;G=FCnther G=F6rz, University of Erlangen, Germany<br>
+&gt;Iryna Gurevych, Darmstadt University of Technology, Germany<br>
+&gt;Catalina Hallett, The Open University, UK<br>
+&gt;Laura Hasler, University of Wolverhampton, UK<br>
+&gt;Janne Bondi Johannessen, University of Oslo, Norway<br>
+&gt;Philipp Koehn, University of Edinburgh, UK<br>
+&gt;Zornitsa Kozareva, University of Alicante, Spain<br>
+&gt;Chin-Yew Lin, Microsoft Corp., USA<br>
+&gt;Berenike Loos, European Media Laboratory GmbH, Heidelberg, Germany<br>
+&gt;Bernardo Magnini, ITC-irst, Trento, Italy<br>
+&gt;Irina Matveeva, University of Chicago, USA<br>
+&gt;Rada Mihalcea, University of North Texas, USA<br>
+&gt;Andrea Mulloni, University of Wolverhampton, UK<br>
+&gt;Roberto Navigli, University of Roma &quot;La Sapienza&quot;, Italy<br>
+&gt;Malvina Nissim, CNR, Rome, Italy<br>
+&gt;Joakim Nivre, V=E4xj=F6 University and Uppsala University, Sweden<br>
+&gt;Constantin Orasan, University of Wolverhampton, UK<br>
+&gt;Rainer Osswald, FernUniversit=E4<wbr>t in Hagen, Germany<br>
+&gt;Sebastian Pad=F3, Saarland University, Germany<br>
+&gt;Adam Przepi=F3rkowski, Polish Academy of Sciences, Poland<br>
+&gt;Reinhard Rapp, Universitat Rovira i Virgili, Tarragona, Spain<br>
+&gt;Bettina Schrader, University of Osnabr=FCck, Germany<br>
+&gt;Sabine Schulte im Walde, Universit=E4t Stuttgart, Germany<br>
+&gt;Serge Sharoff, University of Leeds, UK<br>
+&gt;Yihai Shen, The Hong Kong University of Science and Technology, Hong Ko=
+ng<br>
+&gt;Anders S=F8gaard, University of Copenhagen, Denmark<br>
+&gt;Lucia Specia, Universidade de Sao Paulo, Brasil<br>
+&gt;Joel Tetreault, University of Pittsburgh, USA<br>
+&gt;Reut Tsarfaty, University of Amsterdam, The Netherlands<br>
+&gt;Bego=F1a Villada Moir=F3n, University of Groningen, The Netherlands<br>
+&gt;Stephen Wan, Macquarie University, Australia<br>
+&gt;Janyce M. Wiebe, University of Pittsburg, USA<br>
+&gt;Hans Friedrich Witschel, University of Leipzig, Germany<br>
+&gt;Bing Zhao, Carnegie Mellon University, USA<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;BEGIN:VCARD<br>
+&gt;VERSION:2.1<br>
+&gt;N:Rasmussen;<wbr>Priscilla<br>
+&gt;FN:Priscilla Rasmussen<br>
+&gt;ORG:ACL/AMTA/<wbr>ARCS/dg.o<br>
+&gt;TITLE:ACL/AMTA Business Manager and ARCS President<br>
+&gt;TEL;WORK;VOICE:<wbr>&#43;1-570-476-<wbr>8006<br>
+&gt;TEL;WORK;FAX:<wbr>&#43;1-570-476-<wbr>0860<br>
+&gt;ADR;WORK:;;<wbr>209 N. Eighth Street;Stroudsburg;<wbr>PA;18360;<wbr>USA=
+<br>
+&gt;LABEL;WORK;<wbr>ENCODING=3D<wbr>QUOTED-PRINTABLE<wbr>:209 N. Eighth <br=
+>
+&gt;Street=3D0D=3D0AStroud<wbr>sburg, PA 18360=3D0D=3D0AUSA<br>
+&gt;&lt;mailto:EMAIL;<wbr>PREF;INTERNET:<a href=3D"mailto:rasmusse%40ptd.ne=
+t">rasmusse@ptd.<wbr>net</a>&gt;EMAIL;PREF;<wbr>INTERNET:<wbr>rasm <br>
+&gt;<a href=3D"mailto:usse%40ptd.net">usse@ptd.net</a><br>
+&gt;&lt;mailto:EMAIL;<wbr>INTERNET:<a href=3D"mailto:rasmusse%40ptd.net">ra=
+smusse@ptd.<wbr>net</a>&gt;EMAIL;INTERNET:<a href=3D"mailto:rasmusse%40ptd.=
+net">rasmusse@ptd.<wbr>net</a><br>
+&gt;REV:20061220T19452<wbr>9Z<br>
+&gt;END:VCARD<br>
+&gt;<br>
+&gt;--<br>
+&gt;___________<wbr>_________<wbr>_________<wbr>_________<wbr>_________<wbr=
+>_____<br>
+&gt;Roselyne Cantarel<br>
+&gt;Institut des Sciences Humaines Appliqu=E9es (ISHA)<br>
+&gt;Laboratoire LaLICC - CNRS - PARIS-SORBONNE (Paris IV)<br>
+&gt;28 rue Serpente 75005 Paris<br>
+&gt;t=E9l. 01 53 10 58 25 - fax 01 53 10 58 48<br>
+&gt;e-mail : <br>
+&gt;&lt;mailto:<a href=3D"mailto:Roselyne.Cantarel%40paris4.sorbonne.fr">Ro=
+selyne.Cantarel@<wbr>paris4.sorbonne.<wbr>fr</a>&gt;Roselyne.Cantarel@<wbr>=
+paris4. <br>
+&gt;sorbonne.fr<br>
+&gt;&lt;<a href=3D"http://www.lalic.paris4.sorbonne.fr/">http://www.lalic.<=
+wbr>paris4.sorbonne.<wbr>fr/</a>&gt;<a href=3D"http://www.lalic.paris4.sorb=
+onne.fr/">http://www.lalic.<wbr>paris4.sorbonne.<wbr>fr/</a><br>
+&gt;<br>
+<br>
+[Les parties de ce message comportant autre chose que du texte seul ont =E9=
+t=E9 supprim=E9es]<br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/223=
+0;_ylc=3DX3oDMTM0ZWk0bW03BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzIyMzAEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMTY4NDIxNzI1BHRwY=
+0lkAzIyMzA-">
+            Messages pour ce th=E8me          </a> (<span class=3D"bld">1</=
+span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwcDVvNWZnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzIyMzAEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMTY4NDIxNzI1?act=3Dreply&me=
+ssageNum=3D2230">
+          <span class=3D"bld">
+            R=E9pondre          </span> (par envoi Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlbzFqN2xuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTE2ODQyMTcyNQ--" class=3D"bld">
+          Commencer un nouveau th=E8me        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlYzUwMWtnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTE2ODQyMTcyNQ--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmanEyZWhpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzExNjg0MjE3MjU-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlajJvYXRvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTE2ODQyMTcyNQ--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmcjE5ZWtpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzExNjg0MjE3MjU-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjOG8zcTVkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzExNjg0MjE3MjU-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmdTJhY3FkBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzExNjg0MjE3MjU-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlZzNqNGVzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTE2ODQyMTcyNQ--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkYTcwcDluBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMTY4NDIxNzI1">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+    <!-- Do not have place to put it yet -->
+    <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+        Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+          </div>
+
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkMnBvZGFwBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMTY4NDIxNzI1">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmNWpkNzBzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzExNjg0MjE3MjU-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+Ym5zNTh0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMTY4NDIxNzI1">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlMHRhbjE4BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTE2ODQyMTcyNQ--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20
+    <!-- Network content -->
+                <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrZWtwYjk2BF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTE2ODQyMTcyNQ--;_ylg=3D1/SIG=3D120i89lsb/**http%3a//fr.rd.yah=
+oo.com/evt=3D44791/*http%3a//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJucmM4YnY2BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTE2ODQyMTcyNQ--;_ylg=3D1/SIG=3D1239gto63/**http%3a//fr.rd=
+.yahoo.com/evt=3D44790/*http%3a//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvYTU3cTBwBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzExNjg0MjE3MjU-;_ylg=3D1/SIG=3D1243ka2s1/**http%3a//fr.rd=
+.yahoo.com/evt=3D44789/*http%3a//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div> <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440/g=
+rpspId=3D2123803216/msgId=3D2230/stime=3D1168421725/nc1=3D1/nc2=3D2/nc3=3D3=
+" width=3D"1" height=3D"1"> <br>
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a {
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc {
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o {font-size: 0; }
+.MsoNormal {
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq {margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--DXAImbEQT0k9Z6GjjRHpCcfGDfcDkHICY7iYN5S--

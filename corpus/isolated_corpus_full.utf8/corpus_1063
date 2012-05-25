@@ -1,0 +1,641 @@
+From - Thu Dec 10 14:25:43 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.12 with SMTP id l12cs25138bud;
+        Tue, 6 Feb 2007 04:33:56 -0800 (PST)
+Received: by 10.100.177.16 with SMTP id z16mr5525928ane.1170765235690;
+        Tue, 06 Feb 2007 04:33:55 -0800 (PST)
+Return-Path: <sentto-1622440-2222-1170765219-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 66si15011119wra.2007.02.06.04.33.53;
+        Tue, 06 Feb 2007 04:33:55 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2222-1170765219-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l16CXqru009177
+	for <jpprost@gmail.com>; Tue, 6 Feb 2007 23:33:52 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l16CXp0q020617
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue, 6 Feb 2007 23:33:51 +1100 (EST)
+X-ASG-Debug-ID: 1170765229-330c00400000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1170765229
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 995D6D3C4262
+	for <jpprost@mailbox.ics.mq.edu.au>; Tue,  6 Feb 2007 23:33:49 +1100 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.7+Sun/8.13.7) with ESMTP id l16CXmCj009174
+	for <jpprost@ics.mq.edu.au>; Tue, 6 Feb 2007 23:33:48 +1100 (EST)
+Received: from n29.bullet.scd.yahoo.com (n29.bullet.scd.yahoo.com [66.94.237.22])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id l16CXk0A004619
+	for <jpprost@ics.mq.edu.au>; Tue, 6 Feb 2007 23:33:47 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=dSmMq/8phbIH28/9gRqCwYYgWEadRkoo5D8Y7ikp9pbPJq99T1v4T8ivuo1V/8XbdLjc57IiTuq6kT0oVmCXdxyRHZ57ayXnz+YSxj5Us86E+CPqqlXPzKfQxc9c0X6v;
+Received: from [66.218.69.5] by n29.bullet.scd.yahoo.com with NNFMP; 06 Feb 2007 12:33:40 -0000
+Received: from [66.218.66.33] by t5.bullet.scd.yahoo.com with NNFMP; 06 Feb 2007 12:33:40 -0000
+X-Yahoo-Newman-Id: 1622440-m2222
+X-Sender: alain.ghio@lpl.univ-aix.fr
+X-Apparently-To: lpl-infos@egroups.com
+Received: (qmail 92163 invoked from network); 6 Feb 2007 12:33:38 -0000
+Received: from unknown (66.218.66.166)
+  by m27.grp.scd.yahoo.com with QMQP; 6 Feb 2007 12:33:38 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta5.grp.scd.yahoo.com with SMTP; 6 Feb 2007 12:33:37 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id D4FAF74B60
+	for <lpl-infos@egroups.com>; Tue,  6 Feb 2007 13:32:36 +0100 (CET)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 355658-03 for <lpl-infos@egroups.com>;
+ Tue,  6 Feb 2007 13:32:33 +0100 (CET)
+Received: from GHIOFIXE (unknown [147.94.215.172])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 684251CE62B
+	for <lpl-infos@egroups.com>; Tue,  6 Feb 2007 13:32:33 +0100 (CET)
+To: "LPL-INFOS" <lpl-infos@yahoogroupes.fr>
+Organization: LPL
+Message-ID: <006101c749ea$e051a350$acd75e93@GHIOFIXE>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6822
+Importance: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+thread-index: AcdJLYLKZHbOdltVQ2+y3eEaHtbaMwAu6P7A
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: "ghio" <alain.ghio@lpl.univ-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Tue, 6 Feb 2007 13:32:28 +0100
+X-ASG-Orig-Subj: [lpl-infos] TR : Interspeech 2007
+Subject: [lpl-infos] TR : Interspeech 2007
+X-Yahoo-Newman-Property: groups-email-ff
+Content-Type: multipart/alternative;
+ boundary="RuLZIj6J23sAgQfG4StUJFDWSqm2IRrowNipD2a"
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 1.83
+X-Barracuda-Spam-Status: No, SCORE=1.83 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=BSF_SC0_SA085b, HTML_MESSAGE, HTML_TINY_FONT
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.7896
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.40 BSF_SC0_SA085b         URI: Custom Rule SA085b
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.43 HTML_TINY_FONT         RAW: body contains 1 or 0-point font
+
+--RuLZIj6J23sAgQfG4StUJFDWSqm2IRrowNipD2a
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+=20
+
+apologies for multiple copies)
+Interspeech 2007=20
+August 27--31, 2007=20
+Antwerp, Belgium=20
+---------- CALL FOR PAPERS (PAPER SUBMISSION IS NOW OPEN) -----------
+
+Interspeech is the world's largest and most comprehensive conference=20
+on Speech Science and Speech Technology and it solicits papers in the=20
+following areas and topics:
+Human speech production, perception and communication=20
+Phonology and phonetics=20
+Discourse and dialogue=20
+Prosody (production, perception, prosodic structure)=20
+Paralinguistic and nonlinguistic cues (e.g. emotion and expression)=20
+Speech production=20
+Speech perception=20
+Physiology and pathology=20
+Spoken language acquisition, development and learning
+Speech and Language technology=20
+Speech and audio processing=20
+Speech enhancement=20
+Speech coding and transmission=20
+Spoken language generation and synthesis=20
+Speech recognition=20
+Spoken language understanding=20
+Accent and language identification=20
+Cross-lingual and multi-lingual processing=20
+Multimodal/multimedia signal processing=20
+Speaker characterization and recognition
+Spoken language systems and applications=20
+Dialogue systems=20
+Systems for information retrieval=20
+Systems for translation=20
+Applications for aged and handicapped persons=20
+Applications for learning and education=20
+Other applications
+Resources, standardization and evaluation=20
+Spoken language resources and annotation=20
+Evaluation and standardization
+
+PAPER SUBMISSION
+Prospective authors are invited to submit full-length, four-page=20
+papers (including figures and references) via the conference=20
+website by March 23, 2007 midnight at the International Date=20
+Line West. Since the conference takes place early this year, the=20
+paper submission deadline will not be postponed by any significant=20
+amount of time.
+The paper preparation guidelines can be found on the conference=20
+website. They stipulate that authors may submit multimedia files=20
+to illustrate their contribution. These multimedia files will=20
+have to be incorporated in one ZIP archive.
+The conference will host several Special Sessions (see conference=20
+website). If authors want their paper to be considered for one=20
+of these Sessions, they can specify that during paper submission.=20
+Irrespective of this specification, all papers will follow the same=20
+electronic review procedure.
+Authors will have to declare that their contribution is original=20
+and not being submitted for publication elsewhere (e.g., another=20
+conference, workshop, or journal).
+Each corresponding author will be notified by e-mail of the acceptance=20
+or rejection of his paper by May 25, 2007. Minor updates of accepted=20
+papers will be allowed during May 25 - June 3, 2007.
+More information is available on the conference website at=20
+http://www.interspeech2007. <http://www.interspeech2007.org/> org
+<http://www.interspeech2007.org/>=20
+
+IMPORTANT DATES:
+Full paper submission deadline: March 23, 2007=20
+Notification of paper acceptance/rejection May 25, 2007=20
+Early registration deadline: June 22, 2007
+
+Dirk Van Compernolle, Lou Boves Conference Chairs=20
+Jean-Pierre Martens, Helmer Strik Technical Program Chairs=20
+
+
+
+
+
+
+------------------------------------------------
+
+
+
+
+[Les parties de ce message comportant autre chose que du texte seul ont =E9=
+t=E9 supprim=E9es]
+
+
+--RuLZIj6J23sAgQfG4StUJFDWSqm2IRrowNipD2a
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+<!-- Network content -->
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p> <br>
+<br>
+apologies for multiple copies)<br>
+Interspeech 2007 <br>
+August 27--31, 2007 <br>
+Antwerp, Belgium <br>
+---------- CALL FOR PAPERS (PAPER SUBMISSION IS NOW OPEN) -----------<br>
+<br>
+Interspeech is the world's largest and most comprehensive conference <br>
+on Speech Science and Speech Technology and it solicits papers in the <br>
+following areas and topics:<br>
+Human speech production, perception and communication <br>
+Phonology and phonetics <br>
+Discourse and dialogue <br>
+Prosody (production, perception, prosodic structure) <br>
+Paralinguistic and nonlinguistic cues (e.g. emotion and expression) <br>
+Speech production <br>
+Speech perception <br>
+Physiology and pathology <br>
+Spoken language acquisition, development and learning<br>
+Speech and Language technology <br>
+Speech and audio processing <br>
+Speech enhancement <br>
+Speech coding and transmission <br>
+Spoken language generation and synthesis <br>
+Speech recognition <br>
+Spoken language understanding <br>
+Accent and language identification <br>
+Cross-lingual and multi-lingual processing <br>
+Multimodal/multimed<wbr>ia signal processing <br>
+Speaker characterization and recognition<br>
+Spoken language systems and applications <br>
+Dialogue systems <br>
+Systems for information retrieval <br>
+Systems for translation <br>
+Applications for aged and handicapped persons <br>
+Applications for learning and education <br>
+Other applications<br>
+Resources, standardization and evaluation <br>
+Spoken language resources and annotation <br>
+Evaluation and standardization<br>
+<br>
+PAPER SUBMISSION<br>
+Prospective authors are invited to submit full-length, four-page <br>
+papers (including figures and references) via the conference <br>
+website by March 23, 2007 midnight at the International Date <br>
+Line West. Since the conference takes place early this year, the <br>
+paper submission deadline will not be postponed by any significant <br>
+amount of time.<br>
+The paper preparation guidelines can be found on the conference <br>
+website. They stipulate that authors may submit multimedia files <br>
+to illustrate their contribution. These multimedia files will <br>
+have to be incorporated in one ZIP archive.<br>
+The conference will host several Special Sessions (see conference <br>
+website). If authors want their paper to be considered for one <br>
+of these Sessions, they can specify that during paper submission. <br>
+Irrespective of this specification, all papers will follow the same <br>
+electronic review procedure.<br>
+Authors will have to declare that their contribution is original <br>
+and not being submitted for publication elsewhere (e.g., another <br>
+conference, workshop, or journal).<br>
+Each corresponding author will be notified by e-mail of the acceptance <br>
+or rejection of his paper by May 25, 2007. Minor updates of accepted <br>
+papers will be allowed during May 25 - June 3, 2007.<br>
+More information is available on the conference website at <br>
+<a href=3D"http://www.interspeech2007.">http://www.interspe<wbr>ech2007.</a=
+> &lt;<a href=3D"http://www.interspeech2007.org/">http://www.interspe<wbr>e=
+ch2007.org/</a>&gt; org<br>
+&lt;<a href=3D"http://www.interspeech2007.org/">http://www.interspe<wbr>ech=
+2007.org/</a>&gt; <br>
+<br>
+IMPORTANT DATES:<br>
+Full paper submission deadline: March 23, 2007 <br>
+Notification of paper acceptance/rejectio<wbr>n May 25, 2007 <br>
+Early registration deadline: June 22, 2007<br>
+<br>
+Dirk Van Compernolle, Lou Boves Conference Chairs <br>
+Jean-Pierre Martens, Helmer Strik Technical Program Chairs <br>
+<br>
+------------<wbr>---------<wbr>---------<wbr>---------<wbr>---------<br>
+<br>
+[Les parties de ce message comportant autre chose que du texte seul ont =E9=
+t=E9 supprim=E9es]<br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/226=
+1;_ylc=3DX3oDMTM0N25kOGFxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzIyNjEEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMTcwNzY1MjIwBHRwY=
+0lkAzIyNjE-">
+            Messages pour ce th=E8me          </a> (<span class=3D"bld">1</=
+span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwZm5sYnI3BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzIyNjEEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMTcwNzY1MjIw?act=3Dreply&me=
+ssageNum=3D2261">
+          <span class=3D"bld">
+            R=E9pondre          </span> (par envoi Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNXE2NjdqBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTE3MDc2NTIyMA--" class=3D"bld">
+          Commencer un nouveau th=E8me        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlNzdxcHUzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTE3MDc2NTIyMA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmZGMzaXF1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzExNzA3NjUyMjA-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlMXYyZDNpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTE3MDc2NTIyMA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmZ3Y5bmFiBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzExNzA3NjUyMjA-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjc2NoNnA5BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzExNzA3NjUyMjA-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmZGZ1a3BhBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzExNzA3NjUyMjA-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlcmw4bWpmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTE3MDc2NTIyMA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkamZzbjEwBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMTcwNzY1MjIw">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+    <!-- Do not have place to put it yet -->
+    <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+        Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+          </div>
+
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkdDk5dG1uBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMTcwNzY1MjIw">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmOTNsZTFlBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzExNzA3NjUyMjA-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+aHAyb3FnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMTcwNzY1MjIw">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+              <div id=3D"vithd">Activit=E9s r=E9centes</div>
+        <ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+                <li style=3D"clear: both;">
+      <div class=3D"ct" style=3D"float: right;"><span style=3D"display:none=
+">&nbsp;</span>1</div>
+      <div class=3D"cat"><a href=3D"http://fr.groups.yahoo.com/group/lpl-in=
+fos/members;_ylc=3DX3oDMTJmdTdrYzlvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jw=
+c3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzExNzA3NjUyMjA-">Nouve=
+aux membres</a></div>
+    </li>
+=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+        </ul>
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlbHZxbzYyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTE3MDc2NTIyMA--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20
+    <!-- Network content -->
+                <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrNG5mZjFvBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTE3MDc2NTIyMA--;_ylg=3D1/SIG=3D120i89lsb/**http%3a//fr.rd.yah=
+oo.com/evt=3D44791/*http%3a//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuc3FuN2Y4BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTE3MDc2NTIyMA--;_ylg=3D1/SIG=3D1239gto63/**http%3a//fr.rd=
+.yahoo.com/evt=3D44790/*http%3a//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvOXU4bzJvBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzExNzA3NjUyMjA-;_ylg=3D1/SIG=3D1243ka2s1/**http%3a//fr.rd=
+.yahoo.com/evt=3D44789/*http%3a//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div> <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440/g=
+rpspId=3D2123803216/msgId=3D2261/stime=3D1170765220/nc1=3D1/nc2=3D2/nc3=3D3=
+" width=3D"1" height=3D"1"> <br>
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a {
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc {
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o {font-size: 0; }
+.MsoNormal {
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq {margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--RuLZIj6J23sAgQfG4StUJFDWSqm2IRrowNipD2a--

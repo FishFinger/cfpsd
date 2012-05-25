@@ -1,0 +1,407 @@
+From - Thu Dec 10 14:35:47 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.193 with SMTP id e1cs131352far;
+        Sun, 29 Mar 2009 15:28:47 -0700 (PDT)
+Received: by 10.211.178.8 with SMTP id f8mr2601521ebp.55.1238365723943;
+        Sun, 29 Mar 2009 15:28:43 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 18si4797836ewy.21.2009.03.29.15.28.43;
+        Sun, 29 Mar 2009 15:28:43 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 7EE0E2117C; Mon, 30 Mar 2009 00:28:35 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 38DDE20B8C;
+	Mon, 30 Mar 2009 00:25:45 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8F0D53DCA;
+	Mon, 30 Mar 2009 00:25:36 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rhbXNbzwZZ+D; Mon, 30 Mar 2009 00:25:36 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E955C3DAD;
+	Mon, 30 Mar 2009 00:25:01 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id EF6B33D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 27 Mar 2009 08:45:06 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Z0JNhmz2RI0P for <elsnet-list@mailman.elsnet.org>;
+	Fri, 27 Mar 2009 08:45:06 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B501B3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 27 Mar 2009 08:44:46 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 95D531F2B3; Fri, 27 Mar 2009 08:44:46 +0100 (MET)
+Received: from fred.zcu.cz (fred.zcu.cz [147.228.57.19])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id A1BA21F25F
+	for <elsnet-list@elsnet.org>; Fri, 27 Mar 2009 08:44:05 +0100 (MET)
+Received: from eryx2.localdomain (eryx.zcu.cz [147.228.52.224])
+	by fred.zcu.cz (Postfix) with ESMTP id 3027CA0003E1
+	for <elsnet-list@elsnet.org>; Fri, 27 Mar 2009 08:44:03 +0100 (CET)
+Received: by eryx2.localdomain (Postfix, from userid 1332)
+	id 0BDACD79A6; Fri, 27 Mar 2009 08:44:02 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by eryx2.localdomain (Postfix) with ESMTP id F1E97D79A5
+	for <elsnet-list@elsnet.org>; Fri, 27 Mar 2009 08:44:02 +0100 (CET)
+Date: Fri, 27 Mar 2009 08:44:02 +0100 (CET)
+From: Vaclav Matousek <matousek@kiv.zcu.cz>
+X-X-Sender: matousek@eryx2.zcu.cz
+To: elsnet-list@elsnet.org
+Message-ID: <alpine.DEB.1.10.0903270841450.19049@eryx2.zcu.cz>
+User-Agent: Alpine 1.10 (DEB 962 2008-03-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed;
+	BOUNDARY="-460070860-355942507-1237191337=:28408"
+Content-ID: <alpine.DEB.1.10.0903270841451.19049@eryx2.zcu.cz>
+X-ZCU-MailScanner-ID: 3027CA0003E1.E6560
+X-ZCU-MailScanner: Found to be clean
+X-ZCU-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-101.413, required 5, ALL_TRUSTED -1.44, AWL 0.03,
+	USER_IN_WHITELIST -100.00)
+X-ZCU-MailScanner-From: matousek@kiv.zcu.cz
+X-Mailman-Approved-At: Mon, 30 Mar 2009 00:24:29 +0200
+Subject: [Elsnet-list] TSD 2009 Conference - Call for Papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---460070860-355942507-1237191337=:28408
+Content-Type: TEXT/PLAIN; format=flowed; charset=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.DEB.1.10.0903270841452.19049@eryx2.zcu.cz>
+
+
+############################################################################
+
+       		       TSD 2009 - LAST CALL FOR PAPERS
+            An International Conference on TEXT, SPEECH and DIALOGUE
+
+            Primavera Hotel & Congress centre, Plzen, Czech Republic
+
+            September 13-18, 2009 (after Interspeech-Eurospeech 2009)
+                         http://www.tsdconference.org/
+
+############################################################################
+
+[Our apologies for possible duplicates of this message]
+[Our apologies if you are in our list by mistake, in this case  please,
+simply reply STOP in the subject line]
+
+The conference is organized by the Faculty of Applied Sciences, University
+of West Bohemia, Pilsen, and the Faculty of Informatics, Masaryk University,
+Brno.  TSD 2009 will be supported by International Speech Communication
+Association (ISCA) and Czech Society for Cybernetics and Informatics (CSKI).
+
+
+TSD SERIES
+
+TSD series evolved as a prime forum for interaction between researchers
+in both spoken and written language processing from the former East Block
+countries and their Western colleagues. Proceedings of TSD form a book
+published by Springer-Verlag in their Lecture Notes in Artificial
+Intelligence (LNAI) series.
+
+
+TOPICS
+
+Topics of the international conference will include
+(but are not limited to):
+ 	text corpora and tagging
+ 	transcription problems in spoken corpora
+ 	sense disambiguation
+ 	links between text and speech oriented systems
+ 	parsing issues
+ 	parsing problems in spoken texts
+ 	multi-lingual issues
+ 	multi-lingual dialogue systems
+ 	information retrieval and information extraction
+ 	text/topic summarization
+ 	machine translation
+ 	semantic networks and ontologies
+ 	semantic web
+ 	speech modeling
+ 	speech segmentation
+ 	speech recognition
+ 	search in speech for IR and IE
+ 	text-to-speech synthesis
+ 	dialogue systems
+ 	development of dialogue strategies
+ 	prosody in dialogues
+ 	emotions and personality modeling
+ 	user modeling
+ 	knowledge representation in relation to dialogue systems
+ 	assistive technologies based on speech and dialogue
+ 	applied systems and software
+ 	facial animation
+ 	visual speech synthesis
+
+The keynote topic of TSD 2009 conference is Modern approaches in semantic
+analysis.
+
+
+OFFICIAL LANGUAGE
+
+The official language of the event will be English, but papers on processing
+in languages other than English are strongly encouraged.
+
+
+PROGRAM COMMITTEE
+
+     Frederick Jelinek, USA (general chair)
+     Hynek Hermansky, Switzerland (executive chair)
+     Eneko Agirre, Spain
+     Genevieve Baudoin, France
+     Jan Cernocky, Czech Republic
+     Attila Ferencz, Romania
+     Alexander Gelbukh, Mexico
+     Louise Guthrie, GB
+     Jan Hajic,  Czech Republic
+     Eva Hajicova, Czech Republic
+     Patrick Hanks, Czech Republic
+     Ludwig Hitzenberger, Germany
+     Jaroslava Hlavacova, Czech Republic
+     Ales Horak, Czech Republic
+     Eduard Hovy, USA
+     Ivan Kopecek, Czech Republic
+     Steven Krauwer, The Netherlands
+     Siegfried Kunzmann, Germany
+     Natalija Loukachevitch, Russia
+     Vaclav Matousek, Czech Republic
+     Hermann Ney, Germany
+     Elmar Noeth, Germany
+     Karel Oliva, Austria, Czech Republic
+     Karel Pala, Czech Republic
+     Nikola Pavesic, Slovenia
+     Vladimir Petkevic, Czech Republic
+     Fabio Pianesi, Italy
+     Adam Przepiorkowski, Poland
+     Josef Psutka, Czech Republic
+     James Pustejovsky, USA
+     Leon J.M. Rothkrantz, The Netherlands
+     Ernst G. Schukat-Talamazzini, Germany
+     Pavel Skrelin, Russia
+     Pavel Smrz, Czech Republic
+     Petr Sojka, Czech Republic
+     Marko Tadic, Croatia
+     Tamas Varadi, Hungary
+     Zygmunt Vetulani, Poland
+     Taras Vintsiuk, Ukraine
+     Yorick Wilks, GB
+     Victor Zacharov, Russia
+
+
+FORMAT OF THE CONFERENCE
+
+The conference program will include presentation of invited papers, oral
+presentations, and poster/demonstration sessions. Papers will be presented
+in plenary or topic oriented sessions. A preliminary conference program
+will be published at the conference www pages. One day of the conference will 
+be dedicated for tutorials and workshops.
+
+Social events including a trip in the vicinity of Plzen will allow for
+additional informal interactions.
+
+
+SUBMISSION OF PAPERS
+
+Authors are invited to submit a full paper not exceeding 8 pages formatted
+in the LNCS style (see below). Those accepted will be presented either
+orally or as posters. The decision about the presentation format will be
+based on the recommendation of three reviewers. The authors are asked to
+submit their papers using the on-line form accessible from the conference
+website.
+
+Papers submitted to TSD 2009 must not be under review by any other
+conference or publication during the TSD review cycle, and must not be
+previously published or accepted for publication elsewhere.
+
+As reviewing will be blind, the paper should not include the authors'
+names and affiliations. Furthermore, self-references that reveal the
+author's identity, e.g., "We previously showed (Smith, 1991) ...", should be 
+avoided. Instead, use citations such as "Smith previously showed (Smith, 1991) 
+...".  Papers that do not conform to the requirements above are subject to be 
+rejected without review.
+
+The authors are strongly encouraged to write their papers in TeX or LaTeX
+formats. These formats are necessary for the final versions of the papers
+that will be published in the Springer Lecture Notes. Authors using a WORD
+compatible software for the final version must use the LNCS template for
+WORD and within the submit process ask the Proceedings Editors to convert
+the paper to LaTeX format.  For this service a service-and-license fee of
+CZK 1500 will be levied automatically.
+
+The paper format for review has to be either PDF or PostScript file with all 
+required fonts included. Upon notification of acceptance, presenters will 
+receive further information on submitting their camera-ready and electronic 
+sources (for detailed instructions on the final paper format see 
+http://www.springer.de/comp/lncs/authors.html#Proceedings.)
+
+Authors are also invited to present actual projects, developed software or
+interesting material relevant to the topics of the conference.  The
+presenters of the demonstration should provide the abstract not exceeding
+one page. The demonstration abstracts will not appear in the conference
+proceedings.
+
+
+LOCATION
+
+Plzen (Pilsen) is located in Western Bohemia on the confluence of four
+rivers. With 170 thousand inhabitants it is the fourth largest city in the
+Czech Republic and an important industrial, commercial, cultural, and
+administrative center.
+
+Plzen is well known for its brewing tradition. The trademark Pilsner-Urquell
+penetrated all over the world thanks to the traditional recipe, high quality
+hops and good wells. Beer lovers will also appreciate a visit to the brewery
+museum or the Brewery itself.
+
+Apart from its famous beer, Plzen has a lot of hidden treasures in its core.
+Plzen can pride itself on the second largest synagogue in Europe. The old
+city center is dominated by a 13th-century Gothic church which features the
+highest tower in Bohemia (102.34 m). It is possible to go up the stairs and
+admire the panorama. Not far from the church is a splendid Renaissance Town
+Hall from 1558 and plenty of pleasant cafes and pubs.
+
+Plzen has also a beautiful historical underground - under the city center
+there are 25 km of tunnels. Visitors can pass through the most beautiful
+part of this labyrinth.
+
+It is also recommended to visit the Zoo having the second largest space for
+bears in Europe and keeping the Komodo dragons - large lizards existing in
+only a few Zoos in the world..
+
+In the neighborhood of the city there are castle RadynÄ and hunting-seat
+Kozel. St. Peter's Rotunda in StarÃ½ Plzenec was built in the 10th century.
+
+The University of West Bohemia in Plzen provides a variety of courses for
+both Czech and international students. It is the only institution of higher 
+education in this part of the country which prepares students for careers in 
+engineering (electrical and mechanical), science (computer science, applied 
+mathematics, physics, and mechanics), education (both primary and secondary), 
+economics, philosophy, politology, archaeology, anthropology, foreign 
+languages, law and public administration, art and design.
+
+
+GETTING THERE
+
+The city has an access from the D5 highway connecting Prague (Praha) with
+Germany. Plzen has a very good bus and train connections with the capital
+Prague (takes about 1 - 1.5 hour). From the international airport Prague -
+Ruzyne you can reach Plzen by frequent public transport in 1.5 - 2 hours.
+
+
+IMPORTANT DATES
+
+March 31, 2009		Submission of full papers
+May 15, 2009 		Notification of acceptance
+May 31, 2009		Final papers (camera-ready) submission and
+                         registration
+Sept. 13-18, 2009	TSD 2009 Conference
+
+The contributions to the conference will be published in proceedings that
+will be made available to participants at the time of the conference.
+
+
+CONFERENCE FEES
+
+The conference fee depends on the date of payment and on your status. It
+includes meals at the main conference time (Sept. 14-16), one copy of the
+proceedings, refreshments, social events and organizing costs. The fee does
+not include accommodation.
+
+Full participant:
+     Early payment (by May 31):      CZK  9000
+     Late payment (by August 15):    CZK 11000
+     On-site payment:                CZK 13000
+
+Student:
+     Early payment (by May 31):      CZK  7500
+     Late payment (by August 15):    CZK  9500
+     On-site payment:                CZK 11500
+
+The payment may be refunded up until August 15, at the cost of CZK 1500.
+No refund is possible after this date.
+
+All costs are in Czech Crowns (Czech Koruna, CZK), see e.g.
+http://www.xe.com/ucc/ for the current exchange rate.
+
+At least one of the authors has to register and pay the registration fee by May 
+31, 2009 for their paper to be included in the conference proceedings. Only one 
+paper of up to 8 pages is included in the regular registration fee. The 
+additional paper and page charge is CZK 1000 per page. An author with more than 
+one paper pays the additional paper(s) rates unless a co-author has also 
+registered and paid the full registration fee.
+
+The organizing committee will provide discounts and grants for participants
+from East European countries (Russia, Belarus, Ukraine, ...). To apply for
+a grant, send an email to tsd2009@tsdconference.org with subject 'Grant
+Application', in which you briefly describe the reasons for your
+application.  Each applicant must send a separate e-mail.
+
+
+ACCOMMODATION
+
+The organizing committee has arranged accommodation at reasonable prices in the 
+Primavera hotel and student dormitories. The current prices of the
+accommodation will be available at the conference website.
+
+
+ADDRESS
+
+All correspondence regarding the conference should be addressed to:
+
+Mrs. Helena Ptackova
+University of West Bohemia in Pilsen
+Faculty of Applied Sciences
+Department of Computer Science
+Univerzitni 8
+CZ - 306 14  PLZEN
+Czech Republic
+
+Tel:    +420 377 632 401         Fax:   +420 377 632 402
+E-mail: tsd@kiv.zcu.cz
+
+TSD 2009 conference web site: http://www.tsdconference.org/
+
+-----
+---460070860-355942507-1237191337=:28408
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+---460070860-355942507-1237191337=:28408--

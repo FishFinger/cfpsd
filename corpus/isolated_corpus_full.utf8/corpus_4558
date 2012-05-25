@@ -1,0 +1,664 @@
+From - Thu Dec 10 14:35:25 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs129577far;
+        Mon, 2 Mar 2009 02:03:27 -0800 (PST)
+Received: by 10.210.13.17 with SMTP id 17mr4639237ebm.3.1235988206067;
+        Mon, 02 Mar 2009 02:03:26 -0800 (PST)
+Return-Path: <sentto-1622440-2737-1235988197-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com>
+Received: from relay2-v.mail.gandi.net (relay2-v.mail.gandi.net [217.70.178.76])
+        by mx.google.com with ESMTP id 10si17984890ewy.108.2009.03.02.02.03.24;
+        Mon, 02 Mar 2009 02:03:25 -0800 (PST)
+Received-SPF: neutral (google.com: 217.70.178.76 is neither permitted nor denied by domain of sentto-1622440-2737-1235988197-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) client-ip=217.70.178.76;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 217.70.178.76 is neither permitted nor denied by domain of sentto-1622440-2737-1235988197-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2737-1235988197-jean-philippe.prost=lpl-aix.fr@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from spool.mail.gandi.net (mspool4-v.mgt.gandi.net [10.0.21.74])
+	by relay2-v.mail.gandi.net (Postfix) with ESMTP id 2BAC2135E0
+	for <jpprost@gmail.com>; Mon,  2 Mar 2009 11:03:24 +0100 (CET)
+Received: from localhost (mfilter4-v.gandi.net [217.70.178.38])
+	by spool.mail.gandi.net (Postfix) with ESMTP id 1B2BA2DC05B
+	for <jpprost@gmail.com>; Mon,  2 Mar 2009 11:03:24 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mfilter4-v.mgt.gandi.net
+Received: from spool.mail.gandi.net ([10.0.21.74])
+	by localhost (mfilter4-v.mgt.gandi.net [217.70.178.38]) (amavisd-new, port 10024)
+	with ESMTP id 6QMaPEWTyhbN for <jpprost@gmail.com>;
+	Mon,  2 Mar 2009 11:03:23 +0100 (CET)
+Received: from n66c.bullet.mail.sp1.yahoo.com (n66c.bullet.mail.sp1.yahoo.com [98.136.45.65])
+	by spool.mail.gandi.net (Postfix) with SMTP id 32BC22DC067
+	for <jean-philippe.prost@lpl-aix.fr>; Mon,  2 Mar 2009 11:03:22 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1235988198; bh=/hgWUO/mOEVFivJJNo2JmjSv3CDp0y34oMzAVlmimC8=; h=Received:Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:To:Message-Id:X-Mailer:X-Originating-IP:X-eGroups-Msg-Info:From:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=bDpEiqY5A/698dSi0d7BpjHh1TiUgAELDSDAyuWQIpq61oquELzWh7rZ/9eznqV+qH+16tQSYSNAEOkLinPD/D11nR7YK+i88+/wlSb7+SZKRUBUVH1IHBaS2WlpDEEA
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=ZAkTzoED0WwWVtF/eKPDKYYvSnxt0vv0NDnGTbfP5euXFzsvGAd1prSDPBUlmRzGpBrhRdjFDkxX+l2Yk7yumht9EqafYR9NZLG6KGsWZRGFkzifwu1CQGfGilRoec8r;
+Received: from [69.147.65.174] by n66.bullet.mail.sp1.yahoo.com with NNFMP; 02 Mar 2009 10:03:18 -0000
+Received: from [66.218.69.6] by t12.bullet.mail.sp1.yahoo.com with NNFMP; 02 Mar 2009 10:03:18 -0000
+Received: from [66.218.66.159] by t6.bullet.scd.yahoo.com with NNFMP; 02 Mar 2009 10:03:18 -0000
+X-Yahoo-Newman-Id: 1622440-m2737
+X-Sender: sophie.herment@univ-provence.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 16665 invoked from network); 2 Mar 2009 10:03:15 -0000
+X-Received: from unknown (66.218.67.96)
+  by m55.grp.scd.yahoo.com with QMQP; 2 Mar 2009 10:03:15 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta17.grp.scd.yahoo.com with SMTP; 2 Mar 2009 10:03:14 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AqIHAN89q0mTXv4K/2dsb2JhbACCMCyMCYMMw0GEGgY
+X-IronPort-AV: E=Sophos;i="4.38,288,1233529200"; 
+   d="scan'208,217";a="222074192"
+X-Received: from unknown (HELO [147.94.254.10]) ([147.94.254.10])
+  by mso1k206.u-3mrs.fr with ESMTP; 02 Mar 2009 11:03:11 +0100
+To: LPL-INFOS <lpl-infos@yahoogroupes.fr>
+Message-Id: <5F3F14C7-FB8A-4650-95FB-7B0BC7009EDE@univ-provence.fr>
+X-Mailer: Apple Mail (2.753.1)
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 2:3:4:0:0
+From: Sophie Herment <sophie.herment@univ-provence.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Mon, 2 Mar 2009 11:03:09 +0100
+Subject: [lpl-infos] Call for Papers : PAC workshop Aix 2009
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail-3--17048129"
+
+--Apple-Mail-3--17048129
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=WINDOWS-1252;
+	delsp=yes;
+	format=flowed
+
+Bonjour,
+veuillez trouver ci-dessous l'appel =E0 communications pour les=20=20
+journ=E9es d'=E9tude PAC qui auront lieu au lpl en septembre.
+Bien cordialement.
+Gabor et Sophie.
+
+PAC WORKSHOP 2009
+
+MODELS, VARIATION & PHONOLOGICAL CORPORA
+
+
+We are pleased to announce that the PAC Workshop =91Models, variation & =
+=20
+phonological corpora=92 is due to take place from Thursday 10 to Friday =
+=20
+11 September 2009 in Aix-en-Provence and will be hosted this year by=20=20
+the Universit=E9 de Provence and the Laboratoire Parole et Langage (LPL =
+=20
+CNRS UMR 6057).
+
+Our guest speaker will be Michel Viel (Paris 4 Sorbonne)
+The PAC Project (http://w3.pac.univ-tlse2.fr/), =91La Phonologie de=20=20
+l=92Anglais Contemporain: usages, vari=E9t=E9s et structure : The Phonology=
+=20=20
+of Contemporary English: usage, varieties and structure=92 is a project =
+=20
+coordinated by Philip Carr and Jacques Durand. Among other things it=20=20
+aims at:
+
+=B7  giving a better picture of spoken English in its unity and=20=20
+diversity (geographical, social and stylistic);
+
+=B7  testing phonological and phonetic models from a synchronic and=20=20
+diachronic point of view, making room for the systematic study of=20=20
+variation,
+
+=B7  favouring communication between specialists in speech and in=20=20
+phonological theory,
+
+=B7  providing data and analyses which will help improve the teaching=20=20
+of English as a foreign language.
+
+Participants do not have to belong to the PAC project to submit  a=20=20
+paper and all researchers interested in the phonology and phonetics=20=20
+of English are invited to submit proposals for talks (20 mins + 10=20=20
+mins discussion). Other things being equal, priority will however be=20=20
+given to papers specifically devoted to the theoretical description=20=20
+of oral English making room for variation on the basis of corpora.
+
+The deadline for sending a title with a short abstract is 29/04/2009.=20=20
+Please send your proposal to :
+gabor.turcsan@univ-provence.fr
+  &
+sophie.herment@univ-provence.fr
+
+Notification of acceptance will be sent by late May
+
+Organisers :
+Gabor Turcsan & Sophie Herment (Aix-en-Provence).
+Jacques Durand (Toulouse).
+Phil Carr (Montpellier).
+
+The workshop will be run with the support of Universit=E9 de Provence,=20=20
+LPL CNRS UMR 6057, Institut Universitaire de France, CLLE-ERSS=20=20
+UMR5263 Toulouse 2, CELA Montpellier 3.
+
+
+
+--Apple-Mail-3--17048129
+Content-Type: text/html; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>
+Bonjour,=A0<div>veuillez trouver ci-dessous l'appel =E0 communications pour=
+ les journ=E9es d'=E9tude PAC qui auront lieu au lpl en septembre.=A0</div>=
+<div>Bien cordialement.=A0</div><div>Gabor et Sophie.</div><div><br></div><=
+div><!--StartFragment--><p class=3D"MsoNormal" align=3D"center" style=3D"te=
+xt-align:center;"><span lang=3D"EN-US">PAC WORKSHOP 2009<o></o></span></p><=
+p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center;"><span l=
+ang=3D"EN-US">MODELS, VARIATION &amp; PHONOLOGICAL CORPORA<o></o></span></p=
+> <!--EndFragment--> <div><br></div><div><!--StartFragment--> <div class=3D=
+"MsoNormal"><span lang=3D"EN-US">We are pleased to announce that the PAC Wo=
+rkshop =91Models, variation &amp; phonological corpora=92 is due to take pl=
+ace from Thursday 10 to Friday 11 September 2009 in Aix-en-Provence and wil=
+l be hosted this year by the Universit=E9 de Provence and the Laboratoire P=
+arole et Langage (LPL CNRS UMR 6057).<o></o></span></div> <div class=3D"Mso=
+Normal"><span lang=3D"EN-US">=A0<o></o></span></div> <div class=3D"MsoNorma=
+l"><span lang=3D"EN-US">Our guest speaker will be Michel Viel (Paris 4 Sorb=
+onne) <o></o></span></div><p class=3D"MsoNormal" style=3D"text-align:justif=
+y;"><span lang=3D"EN-US">The PAC Project (</span><a href=3D"http://w3.pac.u=
+niv-tlse2.fr/"><span lang=3D"EN-US">http://w3.pac.<wbr>univ-tlse2.<wbr>fr/<=
+/span></a><span lang=3D"EN-US">), =91</span><span lang=3D"EN-GB">La Phonolo=
+gie de l=92Anglais Contemporain: usages, vari=E9t=E9s et structure : The Ph=
+onology of Contemporary English: usage, varieties and structure=92<b> </b><=
+/span><span lang=3D"EN-GB">is a project coordinated by Philip Carr and Jacq=
+ues Durand. Among other things it aims at:<o></o></span></p><p class=3D"Mso=
+Normal" style=3D"text-align:justify;"><span lang=3D"EN-US" style=3D"font-si=
+ze:10.0pt;font-family:Symbol;">=B7<span style=3D"font:7.0pt &quot;Times New=
+ Roman&quot;;"> </span></span><span lang=3D"EN-GB">=A0giving a better pictu=
+re of spoken English in its unity and diversity (geographical, social and s=
+tylistic);</span><span lang=3D"EN-US"> <o></o></span></p><p class=3D"MsoNor=
+mal" style=3D"text-align:justify;"><span lang=3D"EN-GB" style=3D"font-size:=
+10.0pt;font-family:Symbol;">=B7<span style=3D"font:7.0pt &quot;Times New Ro=
+man&quot;;"> </span></span><span lang=3D"EN-GB">=A0testing phonological and=
+ phonetic models from a synchronic and diachronic point of view, making roo=
+m for the systematic study of variation, <o></o></span></p><p class=3D"MsoN=
+ormal" style=3D"text-align:justify;"><span lang=3D"EN-GB" style=3D"font-siz=
+e:10.0pt;font-family:Symbol;">=B7<span style=3D"font:7.0pt &quot;Times New =
+Roman&quot;;"> </span></span><span lang=3D"EN-GB">=A0favouring communicatio=
+n between specialists in speech and in phonological theory, <o></o></span><=
+/p><p class=3D"MsoNormal" style=3D"text-align:justify;"><span lang=3D"EN-GB=
+" style=3D"font-size:10.0pt;font-family:Symbol;">=B7<span style=3D"font:7.0=
+pt &quot;Times New Roman&quot;;"> </span></span><span lang=3D"EN-GB">=A0pro=
+viding data and analyses which will help improve the teaching of English as=
+ a foreign language. <o></o></span></p> <div class=3D"MsoNormal"><span lang=
+=3D"EN-US">Participants do not have to belong to the PAC project to submit<=
+span>=A0 </span>a paper and all researchers interested in the phonology and=
+ phonetics of English are invited to submit proposals for talks (20 mins + =
+10 mins discussion). Other things being equal, priority will however be giv=
+en to papers specifically devoted to the theoretical description of oral En=
+glish making room for variation on the basis of corpora.<o></o></span></div=
+> <div class=3D"MsoNormal"><span lang=3D"EN-US">=A0<o></o></span></div> <di=
+v class=3D"MsoNormal"><span lang=3D"EN-US">The deadline for sending a title=
+ with a short abstract is 29/04/2009. Please send your proposal to=A0:<o></=
+o></span></div> <div class=3D"MsoNormal"><a href=3D"mailto:gabor.turcsan@un=
+iv-provence.fr"><span lang=3D"EN-US">gabor.turcsan@<wbr>univ-provence.<wbr>=
+fr</span></a><span lang=3D"EN-US"><o></o></span></div> <div class=3D"MsoNor=
+mal"><span lang=3D"EN-US"><span>=A0</span>&amp; <o></o></span></div> <div c=
+lass=3D"MsoNormal"><a href=3D"mailto:sophie.herment@univ-provence.fr"><span=
+ lang=3D"EN-US">sophie.herment@<wbr>univ-provence.<wbr>fr</span></a><span l=
+ang=3D"EN-US"><o></o></span></div> <div class=3D"MsoNormal"><span lang=3D"E=
+N-US">=A0<o></o></span></div> <div class=3D"MsoNormal"><span lang=3D"EN-US"=
+>Notification of acceptance will be sent by late May<o></o></span></div> <d=
+iv class=3D"MsoNormal"><span lang=3D"EN-US">=A0<o></o></span></div> <div cl=
+ass=3D"MsoNormal"><b>Organisers</b><span style=3D"font-weight:normal;">=A0:=
+</span></div> <div class=3D"MsoNormal">Gabor Turcsan &amp; Sophie Herment (=
+Aix-en-Provence)<wbr>.</div> <div class=3D"MsoNormal">Jacques Durand (Toulo=
+use).</div> <div class=3D"MsoNormal">Phil Carr (Montpellier)<wbr>.</div> <d=
+iv class=3D"MsoNormal">=A0<o></o></div> <div class=3D"MsoNormal">The worksh=
+op will be run with the support of=A0Universit=E9 de Provence, LPL CNRS UMR=
+ 6057, Institut Universitaire de France, CLLE-ERSS UMR5263 Toulouse 2, CELA=
+ Montpellier 3.</div> <div class=3D"MsoNormal">=A0<o></o></div> <!--EndFrag=
+ment--> <br></div></div></p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/273=
+7;_ylc=3DX3oDMTM0ZHFqcjZyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI3MzcEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjM1OTg4MTk3BHRwY=
+0lkAzI3Mzc-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwMGJscG1pBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI3MzcEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjM1OTg4MTk3?act=3Dreply&me=
+ssageNum=3D2737">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlamszNjBmBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIzNTk4ODE5Nw--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlcmppNmw1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIzNTk4ODE5Nw--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmYmpyM3NyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMzU5ODgxOTc-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJldjJtNnFvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIzNTk4ODE5Nw--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmcDRwb2piBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMzU5ODgxOTc-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjYzkzY212BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMzU5ODgxOTc-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmZjQ2aG05BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMzU5ODgxOTc-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlMWQxamQ0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIzNTk4ODE5Nw--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkcDJxa3FxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjM1OTg4MTk3">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkcjAxMDMwBF9TAzk=
+3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjM1OTg4MTk3">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmazlzcTRsBF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMzU5ODgxOTc-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+aGwydmEzBF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjM1OTg4MTk3">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlMTFmNDdvBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIzNTk4ODE5Nw--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrOGYwdG0xBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIzNTk4ODE5Nw--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuc3VsbTg4BF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIzNTk4ODE5Nw--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvbzBsc2loBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMzU5ODgxOTc-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2737/stime=3D1235988197/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--Apple-Mail-3--17048129--

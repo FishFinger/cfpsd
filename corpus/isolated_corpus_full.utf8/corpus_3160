@@ -1,0 +1,804 @@
+From - Thu Dec 10 14:32:17 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139441waa;
+        Sun, 15 Jun 2008 02:49:39 -0700 (PDT)
+Received: by 10.210.138.7 with SMTP id l7mr4850511ebd.108.1213523377505;
+        Sun, 15 Jun 2008 02:49:37 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id z34si6823671ikz.9.2008.06.15.02.49.04;
+        Sun, 15 Jun 2008 02:49:37 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2B606158C0; Sun, 15 Jun 2008 11:49:04 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id F2CDBAAEC;
+	Sun, 15 Jun 2008 11:42:23 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 4CD503DA6;
+	Sun, 15 Jun 2008 11:42:17 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fXc8EVEpiMik; Sun, 15 Jun 2008 11:42:17 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 26E5F3DC4;
+	Sun, 15 Jun 2008 11:41:19 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 18F173D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 20:32:47 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZdUNxslc6cAY for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 20:32:46 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id DD0503CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 10 Jun 2008 20:32:46 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id BFBB0A7A0; Tue, 10 Jun 2008 20:32:46 +0200 (MEST)
+X-Greylist: delayed 1078 seconds by postgrey-1.28 at newjura;
+	Tue, 10 Jun 2008 20:32:29 MEST
+Received: from mailserver.biotec.tu-dresden.de
+	(mailserver.biotec.tu-dresden.de [141.30.193.4])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 03847A7B1
+	for <elsnet-list@elsnet.org>; Tue, 10 Jun 2008 20:32:08 +0200 (MEST)
+Received: from bioinf2504 (bioinfws8.biotec.tu-dresden.de [192.168.194.108])
+	by mailserver.biotec.tu-dresden.de (Postfix) with ESMTP id 63F4570000D9;
+	Tue, 10 Jun 2008 20:13:42 +0200 (CEST)
+From: "Adrian Paschke" <adrian.paschke@biotec.tu-dresden.de>
+To: <hr.at@deri.org>
+Date: Tue, 10 Jun 2008 20:13:52 +0200
+MIME-Version: 1.0
+X-Mailer: Microsoft Office Outlook, Build 11.0.5510
+In-Reply-To: <4805F394.1050502@sti2.at>
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3198
+Thread-Index: Acifx1j3VIRv1/PHTDyJ1Ep1A0fUTgrXg/jw
+Message-Id: <20080610181342.63F4570000D9@mailserver.biotec.tu-dresden.de>
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:40:57 +0200
+Cc: kif@philebus.tamu.edu, compulog@doc.imperial.ac.uk, agents@cs.umbc.edu,
+	daml-all@daml.org, ontoweb-list@www1-c703.uibk.ac.at,
+	community@mlnet.org, loom-forum@isi.edu,
+	seweb-list@www1-c703.uibk.ac.at, isworld@lyris.isworld.org,
+	info-ic@biomath.jussieu.fr, dl@dl.kr.org,
+	esap-news@disputatio.com, aila@disi.unige.it,
+	aisb@cogs.sussex.ac.uk, kweb-all@lists.deri.org,
+	cladv@iccl.tu-dresden.de, acl@opus.cs.columbia.edu,
+	cg@cs.uah.edu, cl@philebus.tamu.edu,
+	compulognet-parimp@dia.fi.upm.es, kr2004org@it.uts.edu.au,
+	bull_i3@univ-tln.fr, e-eu-contact@dfki.de,
+	semanticweb@egroups.com, news-announce-conferences@uunet.uu.net,
+	cl-adverts@spock.inf.tu-dresden.de, gulp@dimi.uniud.it,
+	cadeinc@cs.albany.edu, dai-list@mcc.com, ai-sges@jiscmail.ac.uk,
+	swing-project@set.sintef.no, kaw@swi.psy.uva.nl,
+	elsnet-list@elsnet.org, iswc2003-list@www1-c703.uibk.ac.at,
+	cl-adverts@janeway.inf.tu-dresden.de,
+	noe_interop@drimm.u-bordeaux1.fr, aiia@dis.uniroma1.it,
+	topicmapmail@infoloom.com, ieeesb-vr@metropolis.sci.univr.it,
+	dbitaly@dia.uniroma3.it, folli@coli.uni-sb.de,
+	colognet@ucy.ac.cy, grin@di.unipi.it,
+	colognet-all@janeway.inf.tu-dresden.de, event@in.tu-clausthal.de,
+	ontoweb-language-sig@cs.man.ac.uk
+Subject: [Elsnet-list] RuleML-2008: One week left for submissions!
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1170401375=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+--===============1170401375==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0306_01C8CB36.80DE3D60"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0306_01C8CB36.80DE3D60
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+[ our apologies should you receive this message more than one time ]
+
+ 
+
+             2008 International RuleML Symposium
+
+        on Rule Interchange and Applications (RuleML-2008)
+
+ 
+
+           October 30-31, 2008, Orlando, Florida
+
+                http://2008.ruleml.org
+
+ 
+
+Latest news:
+
+--------------------------------------------------------------------
+
+Deadlines are approaching: June 16 (one week left!)
+
+ 
+
+- RuleML-2008 Keynote speakers:
+
+   * Michael Kifer (State University of New York at Stony Brook, USA),
+
+     on "Rule Interchange Format: Not Just Syntax".
+
+     Joint keynote between RuleML-2008 and RR2008.
+
+   * David Luckham (Stanford University, USA) on complex event
+
+     processing.
+
+   * Paul Haley (Haley Ltd) on business rules.
+
+   * Benjamin Grosof (Vulcan Inc, USA) on the SILK KRR system of the HALO
+
+     project.
+
+- Joint Lunch Panel with the Business Rules Forum about "Rules on the
+
+   Web"
+
+- RuleML-2008 Challenge with prestigious prices
+
+- Lightning talks / Highlight talks
+
+ 
+
+Accepted papers will be published in Springer LNCS proceedings and
+
+a journal special issue (IEEE TKDE pending) is forthcoming.
+
+ 
+
+PRESS RELEASE: http://www.targetwire.com/vpo/rm/
+
+--------------------------------------------------------------------
+
+ 
+
+Call for Papers:
+
+      http://2008.ruleml.org/cfp.pdf
+
+Submission Site:
+
+         http://www.easychair.org/conferences/?conf=ruleml2008
+
+Submission guidelines:
+
+      http://2008.ruleml.org/submissions.php
+
+Topics of Interest:
+
+      http://2008.ruleml.org/topics.php
+
+Organizing Committee:
+
+      http://2008.ruleml.org/oc.php
+
+Program Committee:
+
+      http://2008.ruleml.org/pc.php
+
+ 
+
+=====================================================================
+
+Co-located with:
+
+ 
+
+          The 11th International Business Rules Forum
+
+               http://www.businessrulesforum.com
+
+=====================================================================
+
+Sponsored by:
+
+ 
+
+Gold level  : Vulcan Inc
+
+Silver level: Model Systems
+
+Bronze level: STI Innsbruck, ruleCore, JBoss
+
+ 
+
+Sponsoring opportunities: http://2008.ruleml.org/sponsoring/
+
+=====================================================================
+
+In Co-operation with:
+
+ 
+
+AAAI, W3C, BPM-Forum, Business Rules Forum , ECCAI, OASIS, OMG,
+
+Dallas Rules Group, Belgium Business Rules Forum,
+
+MIT Sloan CIO Symposium,
+
+ACM, ACM SIGART, ACM SIGMIS, ACM SIGWEB, Open Research Society,
+
+IEEE Systems Man and Cybernetics Society
+
+IEEE SMCS TC on Intelligent Internet Systems
+
+IEEE SMCS TC on Distributed Intelligent Systems
+
+IEEE Computer Society TC on Autonomous and Autonomic Systems
+
+=====================================================================
+
+Media Partners:
+
+                   Springer LNCS, MoDo Marketing
+
+=====================================================================
+
+ 
+
+ 
+
+
+------=_NextPart_000_0306_01C8CB36.80DE3D60
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:st1=3D"urn:schemas-microsoft-com:office:smarttags" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 11 (filtered medium)">
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"PlaceType"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"country-region"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"City"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"State"/>
+<o:SmartTagType =
+namespaceuri=3D"urn:schemas-microsoft-com:office:smarttags"
+ name=3D"place"/>
+<!--[if !mso]>
+<style>
+st1\:*{behavior:url(#default#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	color:black;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	color:windowtext;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	color:black;}
+span.E-MailFormatvorlage19
+	{mso-style-type:personal-reply;
+	font-family:Arial;
+	color:navy;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 77.95pt 72.0pt 77.95pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:2029719614;
+	mso-list-template-ids:-1162060252;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:2115862303;
+	mso-list-template-ids:854468130;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=3Dwhite lang=3DEN-US link=3Dblue vlink=3Dblue>
+
+<div class=3DSection1>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>[ our apologies should you receive this message more than one =
+time ]<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp; 2008 International RuleML Symposium<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; on Rule Interchange =
+and Applications (RuleML-2008)<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+</span></font><span lang=3DPT-BR>October 30-31, 2008, Orlando,
+Florida<o:p></o:p></span></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+lang=3DPT-BR
+style=3D'font-size:10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://2008.ruleml.org<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+lang=3DPT-BR
+style=3D'font-size:10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Latest news:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>-----------------------------------------------------------------=
+---<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Deadlines are approaching: June 16 (one week =
+left!)<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>- RuleML-2008 Keynote speakers:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp; * Michael Kifer (<st1:PlaceType =
+w:st=3D"on">State</st1:PlaceType> <st1:PlaceType
+w:st=3D"on">University</st1:PlaceType> of <st1:State w:st=3D"on">New =
+York</st1:State>
+at Stony <st1:place w:st=3D"on"><st1:City w:st=3D"on">Brook</st1:City>, =
+<st1:country-region
+ =
+w:st=3D"on">USA</st1:country-region></st1:place>),<o:p></o:p></span></fon=
+t></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; on &quot;Rule Interchange Format: Not =
+Just Syntax&quot;.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; Joint keynote between RuleML-2008 and =
+RR2008.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp; * David Luckham (<st1:place w:st=3D"on"><st1:City =
+w:st=3D"on">Stanford
+  University</st1:City>, <st1:country-region =
+w:st=3D"on">USA</st1:country-region></st1:place>)
+on complex event<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; =
+processing.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp; * Paul Haley (Haley Ltd) on business =
+rules.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp; * Benjamin Grosof (Vulcan Inc, <st1:country-region =
+w:st=3D"on"><st1:place
+ w:st=3D"on">USA</st1:place></st1:country-region>) on the SILK KRR =
+system of the
+HALO<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp; &nbsp;project.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>- Joint Lunch Panel with the Business Rules Forum about =
+&quot;Rules on
+the<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp; Web&quot;<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>- RuleML-2008 Challenge with prestigious =
+prices<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>- Lightning talks / Highlight talks<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Accepted papers will be published in Springer LNCS proceedings =
+and<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>a journal special issue (IEEE TKDE pending) is =
+forthcoming.<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>PRESS RELEASE: =
+http://www.targetwire.com/vpo/rm/<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>-----------------------------------------------------------------=
+---<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Call for Papers:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://2008.ruleml.org/cfp.pdf<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Submission Site:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://www.easychair.org/conferences/?conf=3Druleml2008<o:p></o:p></span>=
+</font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Submission guidelines:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://2008.ruleml.org/submissions.php<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Topics of Interest:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://2008.ruleml.org/topics.php<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Organizing Committee:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://2008.ruleml.org/oc.php<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Program Committee:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+http://2008.ruleml.org/pc.php<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></=
+o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Co-located with:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The 11th =
+International Business Rules Forum<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp; =
+http://www.businessrulesforum.com<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></=
+o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Sponsored by:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Gold level&nbsp; : Vulcan Inc<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Silver level: Model Systems<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Bronze level: STI <st1:City w:st=3D"on"><st1:place =
+w:st=3D"on">Innsbruck</st1:place></st1:City>,
+ruleCore, JBoss<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Sponsoring opportunities: =
+http://2008.ruleml.org/sponsoring/<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></=
+o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>In Co-operation with:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>AAAI, W3C, BPM-Forum, Business Rules Forum , ECCAI, OASIS, =
+OMG,<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>Dallas Rules Group, <st1:country-region w:st=3D"on"><st1:place =
+w:st=3D"on">Belgium</st1:place></st1:country-region>
+Business Rules Forum,<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>MIT Sloan CIO Symposium,<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>ACM, ACM SIGART, ACM SIGMIS, ACM SIGWEB, Open Research =
+Society,<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>IEEE Systems Man and Cybernetics =
+Society<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>IEEE SMCS TC on Intelligent Internet =
+Systems<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>IEEE SMCS TC on Distributed Intelligent =
+Systems<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>IEEE Computer Society TC on Autonomous and Autonomic =
+Systems<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+lang=3DNO-BOK
+style=3D'font-size:10.0pt'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+lang=3DNO-BOK
+style=3D'font-size:10.0pt'>Media Partners:<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+lang=3DNO-BOK
+style=3D'font-size:10.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Springer =
+LNCS, MoDo Marketing<o:p></o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></=
+o:p></span></font></p>
+
+<p class=3DMsoPlainText><font size=3D2 face=3D"Courier New"><span =
+style=3D'font-size:
+10.0pt'><o:p>&nbsp;</o:p></span></font></p>
+
+<p class=3DMsoNormal><font size=3D2 color=3Dnavy face=3DArial><span =
+style=3D'font-size:
+10.0pt;font-family:Arial;color:navy'><o:p>&nbsp;</o:p></span></font></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0306_01C8CB36.80DE3D60--
+
+
+--===============1170401375==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1170401375==--
+

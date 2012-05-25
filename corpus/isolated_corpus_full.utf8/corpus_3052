@@ -1,0 +1,412 @@
+From - Thu Dec 10 14:31:46 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs229542waa;
+        Sat, 17 May 2008 05:33:26 -0700 (PDT)
+Received: by 10.125.112.4 with SMTP id p4mr3745766mkm.13.1211027598381;
+        Sat, 17 May 2008 05:33:18 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id d4si5777716fga.4.2008.05.17.05.32.37;
+        Sat, 17 May 2008 05:33:18 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B53ECD6DF; Sat, 17 May 2008 14:32:36 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.9 required=5.0 tests=AWL,BAYES_00,FUZZY_VPILL
+	autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B2DF4A7B0;
+	Sat, 17 May 2008 14:31:24 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 90AC53D4C;
+	Sat, 17 May 2008 14:31:24 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id prhHNFJS9B5v; Sat, 17 May 2008 14:31:24 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id EBBCC3D4E;
+	Sat, 17 May 2008 14:31:16 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 2B04A3D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 12 May 2008 21:40:56 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0+Cci+idhRDj for <elsnet-list@mailman.elsnet.org>;
+	Mon, 12 May 2008 21:40:56 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 00DAB3CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 12 May 2008 21:40:55 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DBB904A05; Mon, 12 May 2008 21:40:55 +0200 (MEST)
+Received: from mx2.jrc.it (mx2.jrc.it [139.191.1.110])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id A37ECA6BE
+	for <elsnet-list@elsnet.org>; Mon, 12 May 2008 21:40:18 +0200 (MEST)
+Received: from irelay.jrc.it (irelay.jrc.it [139.191.254.63])
+	by mx2.jrc.it (LMC5614Amx2) with ESMTP id m4CJda37024727
+	for <elsnet-list@elsnet.org>; Mon, 12 May 2008 21:39:40 +0200 (CEST)
+Received: from ipsc-dmn1.jrc.it (ipsc-dmn1-ldp.jrc.it [139.191.243.178])
+	by irelay.jrc.it (LMC5614Ainternal) with ESMTP id m4CJdSGa001696
+	for <elsnet-list@elsnet.org>; Mon, 12 May 2008 21:39:32 +0200 (MEST)
+Received: from jrc.it ([139.191.243.195])
+	by ipsc-sc-msg.jrc.it (Sun Java System Messaging Server 6.2-6.01 (built
+	Apr 3 2006)) with ESMTP id <0K0R00LYIT9LQV00@ipsc-sc-msg.jrc.it> for
+	elsnet-list@elsnet.org; Mon, 12 May 2008 21:39:21 +0200 (MEST)
+Received: from [139.191.243.195] (Forwarded-For: 79.31.144.229)
+	by ipsc-sc-msg.jrc.it (mshttpd); Mon, 12 May 2008 21:39:21 +0200
+Date: Mon, 12 May 2008 21:39:21 +0200
+From: Jakub.Piskorski@jrc.it
+To: elsnet-list@elsnet.org
+Message-id: <f67dfdac459f.4828b909@jrc.it>
+MIME-version: 1.0
+X-Mailer: Sun Java(tm) System Messenger Express 6.2-6.01 (built Apr  3 2006)
+Content-type: text/plain; charset=utf-8
+Content-language: pl
+Content-transfer-encoding: quoted-printable
+Content-disposition: inline
+X-Accept-Language: pl
+Priority: normal
+X-Mailman-Approved-At: Sat, 17 May 2008 14:31:13 +0200
+Subject: [Elsnet-list] Extended paper submission deadline FSMNLP 2008
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+
+
+
+------------------------------------------------------------------------=
+--------------------------
+
+        Finite-State Methods and Natural Language Processing
+                                  FSMNLP 2008
+                       Seventh International Workshop
+
+                        FINAL  CALL  FOR  PAPERS
+ =
+
+                     11-12 September 2008=2C Ispra=2C Italy
+
+    =
+
+    ***  EXTENDED PAPER SUBMISSION DEADLINE=3A 18 May  ***
+
+      =
+
+                    http=3A//langtech=2Ejrc=2Eit/FSMNLP2008 =
+
+                   contact=3A fsmnlp2008 =5Bad=5D jrc =5Bdot=5D it
+
+------------------------------------------------------------------------=
+---------------------------
+
+
+This year FSMNLP is merged with the FASTAR
+(Finite Automata Systems - Theoretical and Applied Research)
+workshop (http=3A//www=2Efastar=2Eorg)=2E
+
+
+AIM AND SCOPE
+
+The aim of the FSMNLP 2008 is to bring together members of the
+research and industrial community working on finite-state
+based models in language technology=2C computational linguistics=2C
+web mining=2C linguistics=2C and cognitive science or on related
+theory and methods in fields such as computer science and mathematics=2E=
+
+The workshop will be a forum for researchers and practicioners working
+
+  * on NLP applications=2C
+  * on the theoretical and implementation aspects=2C or
+  * on their combination=2E
+
+The special theme of FSMNLP 2008 centers around high performance
+finite-state devices in large-scale natural language text processing sys=
+tems
+and applications=2E We invite in particular novel high-quality papers re=
+lated
+to the topics including=3A
+ =
+
+  * practices and experience in deployment of finite-state techniques
+     in real-world applications processing massive amount of natural lan=
+guage data
+  * industrial-strength finite-state pattern engines for information ret=
+rieval=2C
+     information extraction and related text-mining tasks
+  * scalability issues in FS-based large-scale text processing systems
+  * efficient finite-state methods in search engines
+  * implementation=2C construction=2C compression and processing techniq=
+ues for huge finite-state
+     devices and networks
+  * novel application and efficiency-oriented finite-state paradigms (co=
+mpilation and processing)=2C
+     e=2Eg=2E=2C finite-state devices with rich label annotatations=2C u=
+nification-based finite-state devices
+  * comparative studies of time and space efficient finite-state methods=
+ (vs=2E other techniques)
+     utilized in NLP applications
+  * novel appllication areas for finite-state devices in text processing=
+
+     and information management systems
+  * design patterns for implementing finite-state devices and toolkits
+
+We also invite submissions that are related to the traditional FSMNLP th=
+emes
+including but not limited to=3A
+
+1=2E NLP applications and linguistic aspects of finite-state methods
+
+The topic includes but is not restricted to=3A
+
+  * speech=2C sign language=2C phonology=2C hyphenation=2C prosody=2C
+  * scripts=2C text normalization=2C segmentation=2C tokenization=2C ind=
+exing=2C
+  * morphology=2C stemming=2C lemmatisation=2C information retrieval=2C =
+web mining=2C spelling correction=2C
+  * syntax=2C POS tagging=2C partial parsing=2C disambiguation=2C inform=
+ation extraction=2C question answering
+  * machine translation=2C translation memories=2C glossing=2C dialect a=
+daptation=2C
+  * annotated corpora and treebanks=2C semi-automatic annotation=2C erro=
+r mining=2C searching
+
+2=2E Finite-state models of language
+
+With this more focused topic (inside 1) we invite papers on aspects
+that motivate sufficiency of finite-state methods or their subsets for
+capturing various requirements of natural language processing=2E The
+topic includes but is not restricted to=3A
+
+  * performance=2C linguistic applicability=2C finite-state hypotheses
+  * Zipf=27s law and coverage=2C model checking against finite corpora
+  * regular approximations under parameterized complexity=2C limitations=
+ and definitions of relevant
+     complexities such as ambiguity=2C recursion=2C crossings=2C rule ap=
+plications=2C constraint violations=2C
+     reduplication=2C exponents=2C discontinuity=2C path-width=2C and in=
+duction depth
+  * similarity inferences=2C dissimilation=2C segmental length=2C counte=
+r-freeness=2C asynchronous machines
+  * garden-path sentences=2C deterministic parsing=2C expected parses=2C=
+ Markov chains
+  * incremental parsing=2C uncertainty=2C reliability/variance in stocha=
+stic parsing=2C
+     linear sequential machines
+
+3=2E Practices for building lexical transducers for the world=27s langua=
+ges=2E
+
+The topic accounts for usability of finite-state methods in NLP=2E It
+includes but is not restricted to=3A
+
+  * required user training and consultation=2C learning curve of non-spe=
+cialists
+  * questionnaires=2C discovery methods=2C adaptive computer-aided gloss=
+ing and interlinearization
+  * example-based grammars=2C unsupervised learning=2C semi-automatic le=
+arning=2C user-driven learning
+     (see topic 5 too)
+  * low literacy level and restricted availability of training data=2C w=
+riting systems/phonology
+     under development=2C new non-Roman scripts=2C endangered languages
+  * linguist=27s workbenches=2C stealth-to-wealth parser development
+  * experiences of using existing tools (e=2Eg=2E TWOL) for computationa=
+l morphology and phonology
+
+4=2E Specification and implementation of sets=2C relations and
+multiplicities in NLP using finite state devices
+
+The topic includes but is not restricted to=3A
+
+  * regular rule formalisms=2C grammar systems=2C expressions=2C operati=
+ons=2C closure properties=2C
+     complexities
+  * algorithms for compilation=2C approximation=2C manipulation=2C optim=
+ization=2C
+     and lazy evaluation of finite machines
+  * finite string and tree automata=2C transducers=2C morphisms and bimo=
+rphisms
+  * weights=2C registers=2C multiple tapes=2C alphabets=2C state covers =
+and partitions=2C representations
+  * locality=2C constraint propagation=2C star-free languages=2C data vs=
+=2E query complexity
+  * logical specification=2C MSO(SLR=2Cmatches)=2C FO(Str=2C=3C)=2C LTL=2C=
+ generalized restriction=2C local grammars
+  * multi-tape automata=2C same-length relations and partition-based mor=
+phology=2C Semitic morphology
+  * autosegmental phonology=2C shuffle=2C trajectories=2C synchronizatio=
+n=2C segmental anchoring=2C
+     alignment constraints=2C syllable structure=2C partial-order reduct=
+ions
+  * varieties of regular languages and relations=2C
+     descriptive complexity of finite-state based grammars
+  * automaton-based approaches to declarative constraint grammars=2C
+     constraints in optimality theory
+  * parallel corpus annotations=2C register automata=2C acyclic timed au=
+tomata
+
+5=2E Machine learning of finite-state models of natural language
+
+This topic includes but is not restricted to=3A
+
+  * learning regular rule systems=2C learning topologies of finite autom=
+ata and transducers
+  * parameter estimation and smoothing=2C lexical openness
+  * computer-driven grammar writing=2C user-driven grammar learning=2C d=
+iscovery procedures
+  * data scarcity=2C realistic variations of Gold=27s model=2C learnabil=
+ity and cognitive science
+  * incompletely specified finite-state networks
+  * model-theoretic grammars=2C gradient well/ill-formedness
+
+6=2E Finite-state manipulation software (with relevance to the above the=
+mes)
+
+This topic includes but is not restricted to
+
+  * regular expression pre-compilers such as regexopt=2C xfst2fsa=2C sta=
+ndards and interfaces
+     for finite-state based software components=2C conversion tools
+  * tools such as LEXC=2C Lextools=2C Intex=2C XFST=2C FSM=2C GRM=2C WFS=
+C=2C FIRE Engine=2C FADD=2C FSA/UTR=2C
+     SRILM=2C FIRE Station and Grail
+  * free or almost free software such as MIT FST=2C Carmel=2C RWTH FSA=2C=
+ FSA Utilities=2C FSM=3C2=2E0=3E=2C
+     Unitex=2C OpenFIRE=2C OpenFST=2C Vaucanson=2C SFST=2C PCKIMMO=2C MO=
+NA=2C Hopskip=2C ASTL=2C UCFSM=2C
+     HaLeX=2C SML=2C and WFST (see http=3A//forums=2Ecsc=2Efi/kitwiki/pi=
+lot/view/KitWiki/FsmReg for more
+     examples)
+  * results obtainable with such exploration tools as automata=2C Autogr=
+aphe=2C Amore=2C and TESTAS
+  * visualization tools such as Graphviz and Vaucanson-G
+  * language-specific resources and descriptions=2C freely available ben=
+chmarking resources
+
+The descriptions of the topics above are not meant to be complete=2C and=
+
+should extend to cover all traditional FSMNLP topics=2E Submitted papers=
+
+or abstracts may fall in several categories=2E
+
+
+SUBMISSION
+
+We expect three kinds of submissions=3A
+
+- full papers=2C
+- short papers=2C and
+- interactive software demos=2E
+
+Submissions are electronic and in PDF format via a web-based submission =
+server=2E
+Authors are encouraged to use Springer LNCS style (Proceedings and Other=
+ Multiauthor Volumes)
+for LaTeX in producing the PDF document=2E More information on this styl=
+e can be found at=3A
+http=3A//www=2Espringer=2Ecom/east/home/computer/lncs=3FSGWID=3D5-164-7-=
+72376-0
+The page limit for full papers is 12 pages=2C whereas short papers and
+software demo descriptions are limited to 6 pages=2E The information abo=
+ut the author(s)
+should be omitted in the submitted papers since the review process wil b=
+e blind=2E
+More detailed information about submission is available on=3A
+http=3A//langtech=2Ejrc=2Eit/FSMNLP2008/m/submission=2Ehtml
+
+
+PUBLICATION
+
+The papers and abstracts will be published in FSMNLP 2008 proceedings (p=
+aper version)=2E
+We are currently negotiating publishing the postproceedings with a scien=
+tific press company=2E
+Publication of extended and revised versions of the papers in a special =
+journal issue
+is planned too=2E
+
+
+IMPORTANT DATES
+
+Paper submissions due=3A  18 May (extended)
+Notification of acceptance=3A  11 June
+Camera-ready versions due=3A 30 June
+
+
+PROGRAM COMMITTEE
+
+Cyril Allauzen (Google Research=2C New York=2C USA)
+Francisco Casacuberta (Instituto Tecnologico De Inform=C3=A1tica=2C Vale=
+ncia=2C Spain)
+Jean-Marc Champarnaud (Universit=C3=A9 de Rouen=2C France)
+Maxime Crochemore (Department of Computer Science=2C King=27s College Lo=
+ndon=2C U=2EK=2E)
+Jan Daciuk (Gda=C5=84sk University of Technology=2C Poland)
+Karin Haenelt (Fraunhofer Gesellschaft and University of Heidelberg=2C G=
+ermany)
+Thomas Hanneforth (University of Potsdam=2C Germany)
+Colin de la Higuera (Jean Monnet University=2C Saint-Etienne=2C France)
+Andr=C3=A9 Kempe (Yahoo Search Technologies=2C Paris=2C France)
+Derrick Kourie (Dept=2E of Computer Science=2C University of Pretoria=2C=
+ South Africa)
+Andras Kornai (Budapest Institute of Technology=2C Hungary and MetaCarta=
+=2C Cambridge=2C USA)
+Marcus Kracht (Univeristy of California=2C Los Angeles=2C USA)
+Hans-Ulrich Krieger (DFKI GmbH=2C Saarbr=C3=BCcken=2C Germany)
+Eric Laporte (Universit=C3=A9 de Marne-la-Vall=C3=A9e=2C France)
+Stoyan Mihov (Bulgarian Academy of Sciences=2C Sofia=2C Bulgaria)
+Herman Ney (RWTH Aachen University=2C Germany)
+Kemal Oflazer (Sabanci University=2C Turkey and Carnegie Mellon Universi=
+ty=2C Pittsburgh=2C USA)
+Jakub Piskorski (Joint Research Center of the European Commission=2C Ita=
+ly)
+Michael Riley (Google Research=2C New York=2C USA)
+Strahil Ristov (Ruder Boskovic Institute=2C Zagreb=2C Croatia)
+Wojciech Rytter (Warsaw University=2C Poland)
+Jacques Sakarovitch (Ecole nationale sup=C3=A9rieure des T=C3=A9l=C3=A9c=
+ommunications=2C Paris=2C France)
+Max Silberztein (Universit=C3=A9 de Franche-Comt=C3=A9=2C France)
+Wojciech Skut (Google Research=2C Mountain View=2C USA)
+Bruce Watson (Dept=2E of Computer Science=2C University of Pretoria=2C S=
+outh Africa)
+Shuly Wintner (University of Haifa=2C Israel)
+Atro Voutilainen (Connexor Oy=2C Finland)
+Anssi Yli Jyr=C3=A4 (University of Helsinki and CSC =E2=80=93 Scientific=
+ Computing Ltd=2E=2C Espoo=2C Finland)
+Sheng Yu (University of Western Ontario=2C Canada)
+Lynette van Zijl (Stellenbosch University=2C South Africa)
+
+
+PC-CHAIRS=3A
+
+Bruce Watson (Dept=2E of Computer Science=2C University of Pretoria=2C S=
+outh Africa)
+Anssi Yli Jyr=C3=A4 (University of Helsinki and CSC =E2=80=93 Scientific=
+ Computing Ltd=2E=2C Espoo=2C Finland)
+
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

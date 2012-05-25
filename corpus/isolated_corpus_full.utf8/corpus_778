@@ -1,0 +1,737 @@
+From - Thu Dec 10 14:24:46 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: c1ae139ddba8cc2f7df5718ea52652f85482eb85
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs33459pyn;
+        Thu, 9 Nov 2006 02:57:22 -0800 (PST)
+Received: by 10.78.23.16 with SMTP id 16mr814812huw.1163069842100;
+        Thu, 09 Nov 2006 02:57:22 -0800 (PST)
+Return-Path: <sentto-1622440-2143-1163069800-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 18si869891hue.2006.11.09.02.57.19;
+        Thu, 09 Nov 2006 02:57:22 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2143-1163069800-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id kA9AvDcr017869
+	for <jpprost@gmail.com>; Thu, 9 Nov 2006 21:57:18 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006110921571708524
+ for <jpprost@gmail.com>; Thu, 09 Nov 2006 21:57:17 +1100
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id kA9Av77Q017866
+	for <jpprost@gmail.com>; Thu, 9 Nov 2006 21:57:07 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id kA9Av4ns001430
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Thu, 9 Nov 2006 21:57:05 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id kA9Av4xS017857
+	for <jpprost@vesuvius.ics.mq.edu.au>; Thu, 9 Nov 2006 21:57:04 +1100 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006110921570308520
+ for <jpprost@vesuvius.ics.mq.edu.au>; Thu, 09 Nov 2006 21:57:03 +1100
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id kA9Aur2O017852
+	for <jpprost@ics.mq.edu.au>; Thu, 9 Nov 2006 21:56:53 +1100 (EST)
+Received: from n19a.bullet.sc5.yahoo.com (n19a.bullet.sc5.yahoo.com [66.163.187.162])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id kA9Aupf08336
+	for <jpprost@ics.mq.edu.au>; Thu, 9 Nov 2006 21:56:51 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=PlFZ02hVIWGbeVV3Pu1j7UGzI/4yTF5jEWTQOtxCcfrS+EAG1aPM7cYCfQqQ7cysmGSrKlieVAqYqbK9PvG9Dp33kN24RUB5zFdV6yNnAMGGAz+bqe8/KE0ct64i6Z5p;
+Received: from [66.163.187.120] by n19.bullet.sc5.yahoo.com with NNFMP; 09 Nov 2006 10:56:40 -0000
+Received: from [66.218.69.3] by t1.bullet.sc5.yahoo.com with NNFMP; 09 Nov 2006 10:56:40 -0000
+Received: from [66.218.66.32] by t3.bullet.scd.yahoo.com with NNFMP; 09 Nov 2006 10:56:40 -0000
+X-Yahoo-Newman-Id: 1622440-m2143
+X-Sender: aline@up.univ-mrs.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 79779 invoked from network); 9 Nov 2006 10:56:39 -0000
+Received: from unknown (66.218.66.216)
+  by m26.grp.scd.yahoo.com with QMQP; 9 Nov 2006 10:56:39 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta1.grp.scd.yahoo.com with SMTP; 9 Nov 2006 10:56:38 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id ABE80130F04
+	for <lpl-infos@yahoogroupes.fr>; Thu,  9 Nov 2006 11:56:07 +0100 (CET)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 144919-01-4 for <lpl-infos@yahoogroupes.fr>;
+ Thu,  9 Nov 2006 11:56:05 +0100 (CET)
+Received: from [147.94.213.137] (unknown [147.94.213.137])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 59D928ADF4
+	for <lpl-infos@yahoogroupes.fr>; Thu,  9 Nov 2006 11:55:33 +0100 (CET)
+Message-Id: <v04210105c178ab2d8ad3@[147.94.213.137]>
+X-Priority: 1 (Highest)
+To: lpl-infos@yahoogroupes.fr
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: Aline =?iso-8859-1?Q?P=E9lissier?=  <aline@up.univ-mrs.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Thu, 9 Nov 2006 11:54:30 +0200
+Subject: [lpl-infos] [coll] Appel: GL2007 (Approches =?iso-8859-1?Q?G=E9n=E9ratives?= du 
+ Lexique), 2nd appel, fin 1e =?iso-8859-1?Q?f=E9vrier?=
+X-Yahoo-Newman-Property: groups-email-ff
+Content-Type: multipart/alternative;
+ boundary="0wRaH9ehn8BdNdiC12bUFrGrM1UCdmz25K1t5N8"
+
+--0wRaH9ehn8BdNdiC12bUFrGrM1UCdmz25K1t5N8
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>
+>
+>From: Pierrette Bouillon <Pierrette.Bouillon@issco.unige.ch>
+>
+>
+>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007
+>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>Second appel =E0 communications
+>
+>4=E8me Atelier International sur les Approches G=E9n=E9ratives du Lexique
+>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>
+>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>Second call for paper
+>
+>4st International Workshop on Generative Approaches to the Lexicon
+>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007
+>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+>
+>Organizers:
+>Pierrette Bouillon (ETI/TIM/ISSCO, University of Geneva, Switzerland)
+>Laurence Danlos (Universit=E9 de Paris VII, Paris, France)
+>Kyoko Kanzaki (National Institute of Information and Communications
+>Technology,
+>NICT, Japan)
+>
+>Date:
+>May 10-11 2007
+>
+>Location:
+>Minist=E8re de la Recherche, Paris, France
+>
+>Topic:
+>The aim of GL workshops is to bring together diverse contributions in
+>philosophy, linguistics, computer science and lexicography to explore
+>the lexicon from the point of view of generativity. The discussions
+>will be centered, but are not limited to, the emerging view of
+>"Generative Lexicon Theory" (Pustejovsky). Topics include:
+>
+>- Philosophical foundations of a generative approach
+>- Generative lexicon theory and representation of word meaning
+>- Analysis of linguistic phenomena in a generative perspective
+>- Frameworks for lexical semantics
+>- Philosophical differences between frameworks
+>- Critical perspectives and evaluation
+>
+>In this fourth workshop we would like to keep all the above
+>perspectives, but put more of the focus on building on-line GL
+>resources for NLP tasks, in particular:
+>
+>- Arguments and counter-arguments in favour of a GL resource
+>- Acquiring lexical information: methodology, tools, resources
+>- Maintaining and evaluating GL resources on systematic grounds
+>- Scalability for different NLP tasks
+>
+>Papers can make reference to any semantic lexicons (Wordnet, Framenet,
+>Meaning-text theory, etc.), but a link to Generative Lexicon theory is
+>desirable (Pustejovsky, 1995). Key topics are:
+>
+>- How to build a Generative Lexicon?
+>- How a Generative Lexicon can be extracted from existing resources or
+>corpora?
+>- How to connect qualia structures with other lexical information?
+>- How to use qualia structures in NLP applications?
+>
+>The conference will be held over a period of two days. Both posters
+>and presentations are foreseen and will be published in the
+>proceedings.  Invited speakers include Alain Polgu=E8re, James Pustejovksy
+>and Robin Cooper.
+>
+>Submission procedure: Authors should submit an anonymous paper of at
+>most 7 single-column pages (including references) using a 12' body
+>font size together with a separate page specifying the author's name,
+>affiliation, address, e-mail address, title and type of paper (normal
+>presentation or poster). The minimum size is 3 pages for a poster
+>paper and 5 pages for a normal paper. The papers should be submitted
+>electronically (in postscript, rtf or pdf format) to both:
+>kanzaki@nict.go.jp and pierrette.bouillon@issco.unige.ch.
+>
+>Language: All papers must be submitted and presented in
+>English. Accepted papers will be published in the proceedings of the
+>workshop.
+>
+>Important dates:
+>Paper due: 1st of February 2007
+>Acceptance/rejection notice: End of February 2007
+>Final version due: April 15th, 2007
+>Conference: May 10-11, 2007
+>
+>For any information, please contact:
+>
+>Pierrette Bouillon
+>ETI/TIM/ISSCO
+>40, bvd du Pont-d'Arve
+>CH-1211 Geneva 4 (Switzerland)
+>
+>email : Pierrette.Bouillon@issco.unige.ch
+>Tel: +41/22/705 86 79
+>Fax: +41/22/705 86 89
+>http://www.issco.unige.ch/gl2007.html
+>--
+>Pierrette Bouillon             | E-mail: Pierrette.Bouillon@issco.unige.ch
+>University of Geneva           | WWW: http://issco-www.unige.ch/
+>TIM/ISSCO                      | Tel: +41/22/379 86 79
+>40, bvd du Pont-d'Arve         | Fax: +41/22/379 86 89
+>CH-1211 Geneva 4 (Switzerland) |
+>
+>
+>--
+>Pierrette Bouillon             | E-mail: Pierrette.Bouillon@issco.unige.ch
+>University of Geneva           | WWW: http://issco-www.unige.ch/
+>TIM/ISSCO                      | Tel: +41/22/379 86 79
+>40, bvd du Pont-d'Arve         | Fax: +41/22/379 86 89
+>CH-1211 Geneva 4 (Switzerland) |
+>
+>-------
+
+
+--0wRaH9ehn8BdNdiC12bUFrGrM1UCdmz25K1t5N8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+<!-- Network content -->
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>&gt;<br>
+&gt;<br>
+&gt;From: Pierrette Bouillon &lt;<a href=3D"mailto:Pierrette.Bouillon%40iss=
+co.unige.ch">Pierrette.Bouillon@<wbr>issco.unige.<wbr>ch</a>&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<wbr>=3D=3D=3D=3D=3D<br>
+&gt;GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007<br>
+&gt;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D<br>
+&gt;Second appel =E0 communications<br>
+&gt;<br>
+&gt;4=E8me Atelier International sur les Approches G=E9n=E9ratives du Lexiq=
+ue<br>
+&gt;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<wbr>=3D=3D=3D=3D=3D<br>
+&gt;<br>
+&gt;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D<br>
+&gt;Second call for paper<br>
+&gt;<br>
+&gt;4st International Workshop on Generative Approaches to the Lexicon<br>
+&gt;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<wbr>=3D=3D=3D=3D<br>
+&gt;GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007 GL2007<br>
+&gt;=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<wbr>=3D=3D=3D=3D=3D=3D<br>
+&gt;<br>
+&gt;Organizers:<br>
+&gt;Pierrette Bouillon (ETI/TIM/ISSCO, University of Geneva, Switzerland)<b=
+r>
+&gt;Laurence Danlos (Universit=E9 de Paris VII, Paris, France)<br>
+&gt;Kyoko Kanzaki (National Institute of Information and Communications<br>
+&gt;Technology,<br>
+&gt;NICT, Japan)<br>
+&gt;<br>
+&gt;Date:<br>
+&gt;May 10-11 2007<br>
+&gt;<br>
+&gt;Location:<br>
+&gt;Minist=E8re de la Recherche, Paris, France<br>
+&gt;<br>
+&gt;Topic:<br>
+&gt;The aim of GL workshops is to bring together diverse contributions in<b=
+r>
+&gt;philosophy, linguistics, computer science and lexicography to explore<b=
+r>
+&gt;the lexicon from the point of view of generativity. The discussions<br>
+&gt;will be centered, but are not limited to, the emerging view of<br>
+&gt;&quot;Generative Lexicon Theory&quot; (Pustejovsky)<wbr>. Topics includ=
+e:<br>
+&gt;<br>
+&gt;- Philosophical foundations of a generative approach<br>
+&gt;- Generative lexicon theory and representation of word meaning<br>
+&gt;- Analysis of linguistic phenomena in a generative perspective<br>
+&gt;- Frameworks for lexical semantics<br>
+&gt;- Philosophical differences between frameworks<br>
+&gt;- Critical perspectives and evaluation<br>
+&gt;<br>
+&gt;In this fourth workshop we would like to keep all the above<br>
+&gt;perspectives, but put more of the focus on building on-line GL<br>
+&gt;resources for NLP tasks, in particular:<br>
+&gt;<br>
+&gt;- Arguments and counter-arguments in favour of a GL resource<br>
+&gt;- Acquiring lexical information: methodology, tools, resources<br>
+&gt;- Maintaining and evaluating GL resources on systematic grounds<br>
+&gt;- Scalability for different NLP tasks<br>
+&gt;<br>
+&gt;Papers can make reference to any semantic lexicons (Wordnet, Framenet,<=
+br>
+&gt;Meaning-text theory, etc.), but a link to Generative Lexicon theory is<=
+br>
+&gt;desirable (Pustejovsky, 1995). Key topics are:<br>
+&gt;<br>
+&gt;- How to build a Generative Lexicon?<br>
+&gt;- How a Generative Lexicon can be extracted from existing resources or<=
+br>
+&gt;corpora?<br>
+&gt;- How to connect qualia structures with other lexical information?<br>
+&gt;- How to use qualia structures in NLP applications?<br>
+&gt;<br>
+&gt;The conference will be held over a period of two days. Both posters<br>
+&gt;and presentations are foreseen and will be published in the<br>
+&gt;proceedings.  Invited speakers include Alain Polgu=E8re, James Pustejov=
+ksy<br>
+&gt;and Robin Cooper.<br>
+&gt;<br>
+&gt;Submission procedure: Authors should submit an anonymous paper of at<br=
+>
+&gt;most 7 single-column pages (including references) using a 12' body<br>
+&gt;font size together with a separate page specifying the author's name,<b=
+r>
+&gt;affiliation, address, e-mail address, title and type of paper (normal<b=
+r>
+&gt;presentation or poster). The minimum size is 3 pages for a poster<br>
+&gt;paper and 5 pages for a normal paper. The papers should be submitted<br=
+>
+&gt;electronically (in postscript, rtf or pdf format) to both:<br>
+&gt;<a href=3D"mailto:kanzaki%40nict.go.jp">kanzaki@nict.<wbr>go.jp</a> and=
+ <a href=3D"mailto:pierrette.bouillon%40issco.unige.ch">pierrette.bouillon@=
+<wbr>issco.unige.<wbr>ch</a>.<br>
+&gt;<br>
+&gt;Language: All papers must be submitted and presented in<br>
+&gt;English. Accepted papers will be published in the proceedings of the<br=
+>
+&gt;workshop.<br>
+&gt;<br>
+&gt;Important dates:<br>
+&gt;Paper due: 1st of February 2007<br>
+&gt;Acceptance/<wbr>rejection notice: End of February 2007<br>
+&gt;Final version due: April 15th, 2007<br>
+&gt;Conference: May 10-11, 2007<br>
+&gt;<br>
+&gt;For any information, please contact:<br>
+&gt;<br>
+&gt;Pierrette Bouillon<br>
+&gt;ETI/TIM/ISSCO<br>
+&gt;40, bvd du Pont-d'Arve<br>
+&gt;CH-1211 Geneva 4 (Switzerland)<br>
+&gt;<br>
+&gt;email : <a href=3D"mailto:Pierrette.Bouillon%40issco.unige.ch">Pierrett=
+e.Bouillon@<wbr>issco.unige.<wbr>ch</a><br>
+&gt;Tel: &#43;41/22/705 86 79<br>
+&gt;Fax: &#43;41/22/705 86 89<br>
+&gt;<a href=3D"http://www.issco.unige.ch/gl2007.html">http://www.issco.<wbr=
+>unige.ch/<wbr>gl2007.html</a><br>
+&gt;--<br>
+&gt;Pierrette Bouillon             | E-mail: <a href=3D"mailto:Pierrette.Bo=
+uillon%40issco.unige.ch">Pierrette.Bouillon@<wbr>issco.unige.<wbr>ch</a><br=
+>
+&gt;University of Geneva           | WWW: <a href=3D"http://issco-www.unige=
+.ch/">http://issco-<wbr>www.unige.<wbr>ch/</a><br>
+&gt;TIM/ISSCO                      | Tel: &#43;41/22/379 86 79<br>
+&gt;40, bvd du Pont-d'Arve         | Fax: &#43;41/22/379 86 89<br>
+&gt;CH-1211 Geneva 4 (Switzerland) |<br>
+&gt;<br>
+&gt;<br>
+&gt;--<br>
+&gt;Pierrette Bouillon             | E-mail: <a href=3D"mailto:Pierrette.Bo=
+uillon%40issco.unige.ch">Pierrette.Bouillon@<wbr>issco.unige.<wbr>ch</a><br=
+>
+&gt;University of Geneva           | WWW: <a href=3D"http://issco-www.unige=
+.ch/">http://issco-<wbr>www.unige.<wbr>ch/</a><br>
+&gt;TIM/ISSCO                      | Tel: &#43;41/22/379 86 79<br>
+&gt;40, bvd du Pont-d'Arve         | Fax: &#43;41/22/379 86 89<br>
+&gt;CH-1211 Geneva 4 (Switzerland) |<br>
+&gt;<br>
+&gt;-------<br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/218=
+2;_ylc=3DX3oDMTM0MDJscWdzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzIxODIEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMTYzMDY5ODAwBHRwY=
+0lkAzIxODI-">
+            Messages pour ce th=E8me          </a> (<span class=3D"bld">1</=
+span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwaGM1M2RjBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzIxODIEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMTYzMDY5ODAw?act=3Dreply&me=
+ssageNum=3D2182">
+          <span class=3D"bld">
+            R=E9pondre          </span> (par envoi Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNWI5M3AyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTE2MzA2OTgwMA--" class=3D"bld">
+          Commencer un nouveau th=E8me        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlanA4bWF1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTE2MzA2OTgwMA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmMzMzbGE5BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzExNjMwNjk4MDA-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbThtb2FxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTE2MzA2OTgwMA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmNTkzYTM4BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzExNjMwNjk4MDA-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjZzRmZjRiBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzExNjMwNjk4MDA-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmbGlmcWpuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzExNjMwNjk4MDA-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlNGg3MmdpBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTE2MzA2OTgwMA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkbTFjYmk4BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMTYzMDY5ODAw">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+    <!-- Do not have place to put it yet -->
+    <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+        Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+          </div>
+
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkOTFtaTk1BF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMTYzMDY5ODAw">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmMjA4cW9xBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzExNjMwNjk4MDA-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+dm5sZW5tBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMTYzMDY5ODAw">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlYjdjNzZnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTE2MzA2OTgwMA--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20
+    <!-- Network content -->
+                <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrdm5idnJwBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTE2MzA2OTgwMA--;_ylg=3D1/SIG=3D120i89lsb/**http%3a//fr.rd.yah=
+oo.com/evt=3D44791/*http%3a//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJucnU4YjdmBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTE2MzA2OTgwMA--;_ylg=3D1/SIG=3D1239gto63/**http%3a//fr.rd=
+.yahoo.com/evt=3D44790/*http%3a//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvZHFjbmVvBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzExNjMwNjk4MDA-;_ylg=3D1/SIG=3D1243ka2s1/**http%3a//fr.rd=
+.yahoo.com/evt=3D44789/*http%3a//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div> <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440/g=
+rpspId=3D2123803216/msgId=3D2182/stime=3D1163069800/nc1=3D1/nc2=3D2/nc3=3D3=
+" width=3D"1" height=3D"1"> <br>
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a {
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc {
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o {font-size: 0; }
+.MsoNormal {
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq {margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--0wRaH9ehn8BdNdiC12bUFrGrM1UCdmz25K1t5N8--
+

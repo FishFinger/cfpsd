@@ -1,0 +1,242 @@
+From - Thu Dec 10 14:38:35 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.61.201 with SMTP id u9cs31690bkh;
+        Wed, 14 Oct 2009 02:31:40 -0700 (PDT)
+Received: by 10.211.132.28 with SMTP id j28mr10084836ebn.95.1255512697497;
+        Wed, 14 Oct 2009 02:31:37 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 27si4618168ewy.95.2009.10.14.02.31.36;
+        Wed, 14 Oct 2009 02:31:37 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C903D23F5C; Wed, 14 Oct 2009 11:31:35 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 68F6423F96;
+	Wed, 14 Oct 2009 11:24:39 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4CACF3D2B;
+	Wed, 14 Oct 2009 11:24:39 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WyEpV+kT3z8L; Wed, 14 Oct 2009 11:24:39 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1ADA63DE1;
+	Wed, 14 Oct 2009 11:23:29 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.let.uu.nl
+Delivered-To: elsnet-list@mailman.let.uu.nl
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D2EDB3D2A
+	for <elsnet-list@mailman.let.uu.nl>;
+	Sun, 11 Oct 2009 19:45:41 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id HhjvdVLt-h-Z for <elsnet-list@mailman.let.uu.nl>;
+	Sun, 11 Oct 2009 19:45:41 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A28C53D24
+	for <elsnet-list@mailman.let.uu.nl>;
+	Sun, 11 Oct 2009 19:45:21 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6496123723; Sun, 11 Oct 2009 19:45:21 +0200 (MEST)
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.159])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 0210023786
+	for <elsnet-list@mailman.let.uu.nl>;
+	Sun, 11 Oct 2009 19:45:14 +0200 (MEST)
+Received: by fg-out-1718.google.com with SMTP id 22so100545fge.2
+	for <elsnet-list@mailman.let.uu.nl>;
+	Sun, 11 Oct 2009 10:45:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:from:date:message-id
+	:subject:to:content-type;
+	bh=Jh1uAFA8gR6N3ndS9fQnNAazsOlp12qW4sCmbcWPUJY=;
+	b=IguOhDUxDyjLb7CSggTaI8XcVKigAbFceKnrW8kyeavuNJya/3f+qmK1tDoUVo2sWq
+	n2rA70Frp6gasvJrK1B5GwemL1DDFgF3SjLTCVkJTTYXWRC1a+LqkBLdeFYHDX3nipKu
+	C2UjkRrthpI7FBB//ra4C7f9e/PQv8VbJ104U=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:from:date:message-id:subject:to:content-type;
+	b=at75xFwF0HCyaz1/Us1EXjNh11MGvDKrNBhXDXWdywQ9mtBDEXFjG9MO27CA3fWYLx
+	rAfQq8sGu71QfnDz6H3D/FHwTqK1EalAehXxbXEEx3iriRXXZYRHqu+bAQIzwOdiW0D7
+	7FzA+HQmPf2QKYlaR1XpAurvAyWV4Sz4jxtHI=
+MIME-Version: 1.0
+Received: by 10.86.247.18 with SMTP id u18mr4505037fgh.43.1255283111120; Sun, 
+	11 Oct 2009 10:45:11 -0700 (PDT)
+From: Jie Bao <baojie@gmail.com>
+Date: Sun, 11 Oct 2009 13:44:50 -0400
+Message-ID: <b6b357670910111044l7a20eb54yb31bfd9238becbd4@mail.gmail.com>
+To: agents@cs.umbc.edu, ai-and-web-in-china@googlegroups.com, 
+	AI-SGES@jiscmail.ac.uk, cfp@eventseer.net, cg@conceptualgraphs.org, 
+	colognet@ucy.ac.cy, DAI-List@mcc.com, diglib@infoserv.inist.fr,
+	dl@dl.kr.org, dm-discuss@yahoogroups.com, dolce@yahoogroups.com, 
+	elsnet-list@mailman.let.uu.nl, event@in.tu-clausthal.de, grin@di.unipi.it, 
+	ifla-l@infoserv.inist.fr, ISWORLD@listserv.heanet.ie, 
+	isworld@lyris.isworld.org, jena-dev@yahoogroups.com, kaw@science.uva.nl,
+	kif@philebus.tamu.edu, loom-forum@isi.edu,
+	obo-discuss@lists.sourceforge.net, 
+	ontolog-forum@ontolog.cim3.net, ontology@buffalo.edu, 
+	ontoware-list@ontoware.org, owl@lists.mindswap.org, 
+	pellet-users@lists.owldl.com, people@semanticdesktop.org, 
+	protege-discussion@lists.stanford.edu, protege-owl@lists.stanford.edu, 
+	public-lod@w3.org, public-media-annotation@w3.org, public-owl-dev@w3.org,
+	rewerse-all@rewerse.net, semantic_web@googlegroups.com, 
+	semanticdesktop@lists.deri.org, semantic-web@w3.org, 
+	semantic-web@yahoogroups.com, sem-grd@ogf.org, 
+	service-orientated-architecture@yahoogroups.com,
+	swikig@aifb.uni-karlsruhe.de, 
+	W3China@yahoogroups.com, web-services@yahoogroups.com, 
+	WI@aifb.uni-karlsruhe.de, www-rdf-interest@w3.org, www-rdf-logic@w3.org,
+	www-rdf-rules@w3.org, www-webont-wg@w3.org, www-ws@w3.org, 
+	public-semweb-lifesci@w3.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Mailman-Approved-At: Wed, 14 Oct 2009 11:22:59 +0200
+Cc: 
+Subject: [Elsnet-list] Call for Papers - 4th Int. Workshop on Modular
+	Ontologies
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+( WE APOLOGIZE IF YOU RECEIVE MULTIPLE COPIES OF THIS MESSAGE )
+
+=========================================================
+    4th Int. Workshop on Modular Ontologies (WoMO)
+             Toronto, Canada, May 11, 2010
+    co-located with FOIS, KR, AAMAS, ICAPS, NMR, and DL
+             --- 1st Call for Papers ---
+=========================================================
+
+http://www.informatik.uni-bremen.de/~okutz/womo4
+
+MODULARITY, as studied for many years in software engineering, allows
+mechanisms for easy and flexible reuse, generalization, structuring,
+maintenance, design patterns, and comprehension. Applied to ontology
+engineering, modularity is central not only to reduce the complexity
+of understanding ontologies, but also to facilitate ontology
+maintenance and ontology reasoning.
+
+Recent research on ontology modularity shows substantial progress in
+foundations of modularity, techniques of modularization and modular
+development, distributed reasoning and empirical evaluation. These
+results provide a foundation for further research and development.
+
+The workshop follows a series of successful events that have been an
+excellent venue for practitioners and researchers to discuss latest
+work and current problems, and is this time organised as a satellite
+workshop of FOIS 2010, as well as being co-located with several other
+relevant events, namely KR, AAMAS, ICAPS, NMR, and DL.
+
+TOPICS include, but are not limited to:
+
+- What is Modularity: Kinds of modules and their properties; modules
+vs. contexts; design patterns; granularity of representation;
+
+- Logical/Foundational Studies: Conservativity; modular ontology
+languages (e.g., DDL, E-Connections, P-DL); reconciling
+inconsistencies across modules; formal structuring of modules;
+heterogeneity;
+
+- Algorithmic Approaches: distributed reasoning; modularization and
+module extraction; (selective) sharing and re-using, linking and
+importing; hiding and privacy; evaluation of modularization
+approaches; complexity of reasoning; reasoners or implemented systems;
+
+- Applications: Semantic Web; Life Sciences; Bio-Ontologies; Natural
+Language Processing; ontologies of space and time; Ambient
+Intelligence; collaborative ontology development; etc.
+
+IMPORTANT DATES
+
+Paper Submission: January 29, 2010
+Notification:  March 1, 2010
+Camera ready: March 11, 2010
+Workshop day: May 11, 2010
+
+SUBMISSION GUIDELINES:
+
+The workshop welcomes submission of high quality original and
+previously unpublished papers.
+
+Contributions should not exceed 13 pages in length and must be
+formatted according to IOS Press style (see
+http://www.iospress.nl/authco/instruction_crc.html ).
+Contributions should be prepared in PDF format and submitted not later
+than January 29 2010 through the EasyChair Submission System (see
+http://www.informatik.uni-bremen.de/~okutz/womo4 ).
+
+Submitted papers will be peer-reviewed by members of the program
+committee. Accepted papers may be extended up to 16 pages and will be
+published as chapters in an IOS Press book in the series 'Frontiers in
+Artificial Intelligence and Applications'.
+
+The authors of accepted papers are also welcome to submit
+substantially extended versions to a planned special issue on
+'Modularity in Ontologies' of the international journal 'Applied
+Ontology' (IOS Press).
+
+WORKSHOP CO-CHAIRS:
+
+Oliver Kutz (Research Center on Spatial Cognition (SFB/TR 8), Bremen, Germany)
+Joana Hois (Research Center on Spatial Cognition (SFB/TR 8), Bremen, Germany)
+Jie Bao (Tetherless World Constellation & Department of Computer
+Science, Rensselaer Polytechnic Institute, USA)
+Bernardo Cuenca Grau (University of Oxford, UK)
+
+PROGRAM COMMITTEE
+
+Mathieu d'Aquin (Knowledge Media Institute, Open University of Milton
+Keynes, UK)
+Alex Borgida (Department of Computer Science, Rutgers University, USA)
+Stefano Borgo (Laboratory for Applied Ontology, CNR, Trento, Italy)
+Martin Dzbor (Knowledge Media Institute, Open University of Milton Keynes, UK)
+Fred Freitas (Universidade Federal de Pernambuco, Caixa Postal, Brazil)
+Silvio Ghilardi (Department of Computer Science, University of Milan, Italy)
+John Goodwin (Ordnance Survey, Southampton, UK)
+Peter Haase (fluid Operations GmbH, Germany)
+Heinrich Herre (Institute for Medical Informatics, Statistics and
+Epidemiology, University of Leipzig, Germany)
+Pascal Hitzler (Kno.e.sis Center, Wright State University, USA)
+Vasant Honovar (Artificial Intelligence Research Laboratory, Iowa
+State University, USA)
+Roman Kontchakov (School of Computer Science and Information Systems,
+Birkbeck College, London, UK)
+Carsten Lutz (Department of Computer Science, University of Bremen, Germany)
+Till Mossakowski (German Research Center for Artificial Intelligence,
+Lab Bremen, Germany)
+Alan Rector (University of Manchester, UK)
+Anne Schlicht (KR & KM Research Group, University of Mannheim, Germany)
+Thomas Schneider (Department of Computer Science, University of Manchester, UK)
+Luciano Serafini (Centro Per la Ricerca Scientifica e Tecnologica,
+Trento, Italy)
+Stefano Spaccapietra (School of Computer and Communication Sciences,
+Lausanne, Switzerland)
+Heiner Stuckenschmidt (KR & KM Research Group, University of Mannheim, Germany)
+Andrei Tamilin (Fondazione Bruno Kessler - IRST, Italy)
+Dirk Walther (Department of Computer Science, Universidad Politecnica
+de Madrid, Spain)
+Frank Wolter (Department of Computer Science, University of Liverpool, UK)
+Michael Zakharyaschev (School of Computer Science and Information
+Systems, Birkbeck College, London, UK)
+Antoine Zimmermann (DERI, National University of Ireland, Galway, Ireland)
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

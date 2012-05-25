@@ -1,0 +1,526 @@
+From - Thu Dec 10 14:29:11 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.60.10 with SMTP id i10cs758612waa;
+        Wed, 2 Jan 2008 08:47:52 -0800 (PST)
+Received: by 10.66.249.8 with SMTP id w8mr13468027ugh.75.1199292467834;
+        Wed, 02 Jan 2008 08:47:47 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id e33si48171918ugd.80.2008.01.02.08.47.04;
+        Wed, 02 Jan 2008 08:47:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1JA6aZ-00034h-Nw; Wed, 02 Jan 2008 17:37:07 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.34)
+	id 1JA5es-0005MB-Sp; Wed, 02 Jan 2008 16:37:30 +0100
+Received: from corp-206.dfki.uni-sb.de (mail.dfki.de) [134.96.188.26] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1JA5ek-0001IV-EJ; Wed, 02 Jan 2008 16:37:29 +0100
+Received: from mail.dfki.de (localhost.dfki.uni-sb.de [127.0.0.1])
+	by localhost (Postfix) with ESMTP id 300DCE47B2
+	for <corpora@uib.no>; Wed,  2 Jan 2008 16:29:09 +0100 (CET)
+Received: from [134.96.187.12] (clerk.dfki.uni-sb.de [134.96.187.12])
+	by mail.dfki.de (Postfix) with ESMTP id 1A74FE47B1
+	for <corpora@uib.no>; Wed,  2 Jan 2008 16:29:09 +0100 (CET)
+Message-ID: <477BADC5.9030403@dfki.de>
+Date: Wed, 02 Jan 2008 16:29:09 +0100
+From: Declerck <declerck@dfki.de>
+User-Agent: Thunderbird 2.0.0.9 (Windows/20071031)
+MIME-Version: 1.0
+To: corpora@uib.no
+X-checked-clean: by exiscan on rolf
+X-Scanner: af86502faa87aaccc00b7deb84b6a56b http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.3 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 Received: contains a forged HELO
+	0.0 BODY: Message is 60% to 70% HTML
+	0.0 BODY: HTML included in message
+	0.2 BODY: HTML has "tbody" tag
+Subject: [Corpora-List] CfP: The second OntoImage Workshop
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1136250420=="
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+This is a multi-part message in MIME format.
+--===============1136250420==
+Content-Type: multipart/alternative;
+	boundary="------------070005060709020301080900"
+
+This is a multi-part message in MIME format.
+--------------070005060709020301080900
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+			Call for Papers
+
+         The 2nd International Workshop on Language Resources for 
+		Content-based Image Retrieval (OntoImage 2008)
+
+		Held in conjunction with LREC 2008
+                           Marrakech, Morocco
+			afternoon of May 26, 2008
+
+
+
+
+*Scope *
+
+* *
+
+There are two computer-aided methods for accessing images:
+
+    * indexing textual descriptions (done mostly by public retrieval
+      engines)
+          o assigned manually on community sharing sites, e.g. Flickr;
+          o extracted from the text of the web page associated with the
+            image , e.g. Google
+          o extracting textual information inside the image using OCR
+            techniques
+    * indexing low-level visual features (colour, texture, etc.) of the
+      images (called Content Based Image Retrieval - CBIR). 
+
+ 
+
+Combining these two methods is currently a hot topic since it involves 
+developing hybrid approaches using automatic image tagging from text 
+along with low level visual features from an image to produce text 
+metadata. One of the main limitations within state-of-the-art CBIR 
+resides in the mismatch (the "Semantic Gap" in image analysis) between 
+low-level visual descriptors and the human-understood semantics of 
+picture similarity. There are problems of vocabulary at all levels in 
+the description of an image. There is a mismatch between the text found 
+around an image, between the keywords that people assign to an image, 
+and between the objects that can be recognized in an image.  How can 
+available language resources (terminology, thesauri, ontologies, etc.) 
+help? How much must they be altered to reduce the semantic gap? 
+
+ 
+
+This half-day workshop will present up to 9 papers examining the 
+intersection of language resources and image analysis and retrieval.
+
+ 
+
+We welcome submissions addressing the following questions:
+
+    * What elements in a lexicon correspond to picturable objects?
+    * How can language resources be used to organize and improve user
+      contributed image annotations?
+    * Which are the roles of language resources in image retrieval?
+    * How should language resources and image processing techniques be
+      integrated?
+    * How can current language resources be adapted for content-based
+      image retrieval in real-world applications, like the Web search?
+    * Can language resources and low-level visual descriptors be
+      organized into a joint knowledge infrastructure?
+    * Do we need new semantic structures (ontologies, thesauri) for
+      CBIR? Can we build them (semi)automatically?
+    * What visual characteristics of objects can be discovered by text
+      processing (color, size, location, shape, texture)?
+    * What is the relation between the lexicon and image indexing and
+      retrieval? What words should be associated with an image? Can this
+      be automated?
+    * How to combine speech and textual resources related to image data?
+    * What are some application areas where this research can be evaluated?
+
+*
+*
+
+*Submissions *
+
+We expect extended abstracts describing research addressing one of the 
+above questions of about 1500 words to be submitted as WORD, PDF or 
+ASCII documents per email to the following address: 
+adrian.popescu@cea.fr <mailto:adrian.popescu@cea.fr>
+
+A reception notification will be sent to the authors within 48 hours. 
+The final papers should have no more than 6 pages.
+
+ 
+
+*Important dates*
+
+Deadline for Abstracts
+
+	
+
+February 20, 2008
+
+Notification of acceptance
+
+	
+
+March 10, 2008
+
+Final Papers
+
+	
+
+March 31, 2008
+
+Workshop
+
+	
+
+May 26, 2008 (afternoon session)
+
+ 
+
+*Location*
+
+*Palais des Congrès Mansour Eddahbi, *Marrakech (Morocco)**
+
+Co-located with LREC'2008 http://www.lrec-conf.org/lrec2008 **
+
+* *
+
+*Organizing committee*
+
+Thierry Declerck, Deutsches Forschungszentrum für Künstliche 
+Intelligenz, Germany
+
+Adrian Popescu, Commissariat à l'Energie Atomique LIST, France
+
+Allan Hanbury, Vienna University of Technology, Austria
+
+Judith L. Klavans, University of Maryland, USA
+
+ 
+
+*Questions *
+
+Questions about the workshop can be addressed to: declerck@dfki.de 
+<mailto:declerck@dfki.de> or adrian.popescu@cea.fr 
+<mailto:adrian.popescu@cea.fr>
+
+ 
+
+*URL of the workshop: http://www.dfki.de/~declerck/ontoimage.html 
+<http://www.dfki.de/%7Edeclerck/ontoimage.html>*
+
+ 
+
+The Workshop is endorsed by the European Networks of Excellence K-Space 
+(www.k-space.eu <http://www.k-space.eu/>) and MUSCLE 
+(http://www.muscle-noe.org/)
+
+             
+
+-- 
+Thierry Declerck,
+Senior Consultant at DFKI GmbH, Language Technology Lab
+Stuhlsatzenhausweg, 3
+D-66123 Saarbruecken
+Tel: +49 (0)681 302 5358
+Fax: +49 (0)681 302 5338
+email: declerck@dfki.de
+
+-------------------------------------------------------------
+Deutsches Forschungszentrum fuer Kuenstliche Intelligenz GmbH
+Firmensitz: Trippstadter Strasse 122, D-67663 Kaiserslautern
+
+Geschaeftsfuehrung:
+Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender)
+Dr. Walter Olthoff
+
+Vorsitzender des Aufsichtsrats:
+Prof. Dr. h.c. Hans A. Aukes
+
+Amtsgericht Kaiserslautern, HRB 2313
+-------------------------------------------------------------
+
+
+
+
+--------------070005060709020301080900
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<pre wrap="">			Call for Papers
+
+         The 2nd International Workshop on Language Resources for 
+		Content-based Image Retrieval (OntoImage 2008)</pre>
+<pre wrap=""></pre>
+<pre wrap="">		Held in conjunction with LREC 2008
+                           Marrakech, Morocco
+			afternoon of May 26, 2008
+
+
+
+</pre>
+<p class="MsoNormal"><b style=""><span style="" lang="EN-GB">Scope <o:p></o:p></span></b></p>
+<p class="MsoNormal"><b style=""><span style="" lang="EN-GB"><o:p>&nbsp;</o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">There are two computer-aided methods for
+accessing images: <o:p></o:p></span></p>
+<ul style="margin-top: 0cm;" type="disc">
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">indexing textual descriptions (done mostly by public
+retrieval engines) <o:p></o:p></span></li>
+  <ul style="margin-top: 0cm;" type="circle">
+    <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">assigned manually on community sharing sites, e.g.
+Flickr; <o:p></o:p></span></li>
+    <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">extracted from the text of the web page associated with
+the image , e.g. Google<o:p></o:p></span></li>
+    <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">extracting textual information inside the image using OCR
+techniques <o:p></o:p></span></li>
+  </ul>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">indexing low-level visual features (colour, texture,
+etc.) of the images (called Content Based Image Retrieval - CBIR).<span
+ style="">&nbsp; </span><o:p></o:p></span></li>
+</ul>
+<p class="MsoNormal" style="margin-left: 18pt; text-align: justify;"><span
+ style="" lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Combining these two methods is currently a hot
+topic since it involves developing hybrid approaches using automatic
+image
+tagging from text along with low level visual features from an image to
+produce
+text metadata. One of the main limitations within state-of-the-art CBIR
+resides
+in the mismatch (the &#8220;Semantic Gap&#8221; in image analysis) between
+low-level visual
+descriptors and the human-understood semantics of picture similarity.
+There are
+problems of vocabulary at all levels in the description of an image.
+There is a
+mismatch between the text found around an image, between the keywords
+that
+people assign to an image, and between the objects that can be
+recognized in an
+image.<span style="">&nbsp; </span>How can available language
+resources (terminology, thesauri, ontologies, etc.) help? How much must
+they be
+altered to reduce the semantic gap?<span style="">&nbsp; </span><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">This half-day workshop will present up to 9
+papers examining the intersection of language resources and image
+analysis and
+retrieval. <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">We welcome submissions addressing the following
+questions:<o:p></o:p></span></p>
+<ul style="margin-top: 0cm;" type="disc">
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">What elements in a lexicon correspond to picturable
+objects?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">How can language resources be used to organize and
+improve user contributed image annotations?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Which are the roles of language resources in image
+retrieval?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">How should language resources and image processing
+techniques be integrated?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">How can current language resources be adapted for
+content-based image retrieval in real-world applications, like the Web
+search?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Can language resources and low-level visual descriptors
+be organized into a joint knowledge infrastructure?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Do we need new semantic structures (ontologies, thesauri)
+for CBIR? Can we build them (semi)automatically?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">What visual characteristics of objects can be discovered
+by text processing (color, size, location, shape, texture)?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">What is the relation between the lexicon and image
+indexing and retrieval? What words should be associated with an image?
+Can this be automated?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">How to combine speech and textual resources related to
+image data?<o:p></o:p></span></li>
+  <li class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">What are some application areas where this research can
+be evaluated?<o:p></o:p></span></li>
+</ul>
+<b style=""><span
+ style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;" lang="EN-GB"><br
+ style="page-break-before: always;" clear="all">
+</span></b>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="" lang="EN-GB">Submissions <o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">We expect extended abstracts describing
+research addressing one of the above questions of about 1500 words to
+be
+submitted as WORD, PDF or ASCII documents per email to the following
+address: <a href="mailto:adrian.popescu@cea.fr">adrian.popescu@cea.fr</a><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">A reception notification will be sent to the
+authors within 48 hours. The final papers should have no more than 6
+pages.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span
+ style="font-size: 10pt;" lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="" lang="EN-GB">Important dates<o:p></o:p></span></b></p>
+<table class="MsoNormalTable" style="width: 96%;" border="0"
+ cellpadding="0" width="96%">
+  <tbody>
+    <tr style="">
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">Deadline for Abstracts<o:p></o:p></span></p>
+      </td>
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">February 20, 2008<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr style="">
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">Notification of acceptance<o:p></o:p></span></p>
+      </td>
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">March 10, 2008<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr style="">
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">Final Papers<o:p></o:p></span></p>
+      </td>
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">March 31, 2008<o:p></o:p></span></p>
+      </td>
+    </tr>
+    <tr style="">
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">Workshop<o:p></o:p></span></p>
+      </td>
+      <td style="padding: 0.75pt;">
+      <p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="FR">May 26, 2008 (afternoon session)<o:p></o:p></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="" lang="EN-GB">Location<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><strong><span
+ style="font-weight: normal;" lang="FR">Palais des Congr&egrave;s Mansour
+Eddahbi, </span></strong><span lang="FR">Marrakech (Morocco)<b style=""><o:p></o:p></b></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Co-located with&nbsp;LREC&#8217;2008 <a
+ href="http://www.lrec-conf.org/lrec2008">http://www.lrec-conf.org/lrec2008</a>
+<b style=""><o:p></o:p></b></span></p>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="" lang="EN-GB"><o:p>&nbsp;</o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="">Organizing committee<o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><span style="">Thierry
+Declerck, Deutsches Forschungszentrum f&uuml;r
+K&uuml;nstliche Intelligenz, Germany<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="PL">Adrian Popescu, </span><span style="" lang="EN-GB">Commissariat
+&agrave;
+l&#8217;Energie Atomique </span><span style="" lang="PL">LIST, France<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Allan Hanbury, <st1:City w:st="on">Vienna</st1:City>
+<st1:City w:st="on"><st1:place w:st="on"><st1:City w:st="on">University
+of Technology</st1:City>, <st1:country-region w:st="on">Austria</st1:country-region></st1:place></st1:City><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Judith L. Klavans, <st1:place w:st="on"><st1:City
+ w:st="on">University of Maryland</st1:City>, <st1:place w:st="on">USA</st1:place></st1:place><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="PL"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="" lang="EN-GB">Questions <o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">Questions about the workshop can be addressed
+to: <a href="mailto:declerck@dfki.de">declerck@dfki.de</a> or <a
+ href="mailto:adrian.popescu@cea.fr">adrian.popescu@cea.fr</a> <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><b style=""><span
+ style="" lang="EN-GB">URL of the workshop: <a
+ href="http://www.dfki.de/%7Edeclerck/ontoimage.html">http://www.dfki.de/~declerck/ontoimage.html</a><o:p></o:p></span></b></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="text-align: justify;"><span style=""
+ lang="EN-GB">The Workshop is endorsed by the European
+Networks of Excellence K-Space (<a href="http://www.k-space.eu/">www.k-space.eu</a>)
+and MUSCLE (<a class="moz-txt-link-freetext" href="http://www.muscle-noe.org/">http://www.muscle-noe.org/</a>)<o:p></o:p></span></p>
+<pre wrap="">             </pre>
+<pre class="moz-signature" cols="72">-- 
+Thierry Declerck,
+Senior Consultant at DFKI GmbH, Language Technology Lab
+Stuhlsatzenhausweg, 3
+D-66123 Saarbruecken
+Tel: +49 (0)681 302 5358
+Fax: +49 (0)681 302 5338
+email: <a class="moz-txt-link-abbreviated" href="mailto:declerck@dfki.de">declerck@dfki.de</a>
+
+-------------------------------------------------------------
+Deutsches Forschungszentrum fuer Kuenstliche Intelligenz GmbH
+Firmensitz: Trippstadter Strasse 122, D-67663 Kaiserslautern
+
+Geschaeftsfuehrung:
+Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (Vorsitzender)
+Dr. Walter Olthoff
+
+Vorsitzender des Aufsichtsrats:
+Prof. Dr. h.c. Hans A. Aukes
+
+Amtsgericht Kaiserslautern, HRB 2313
+-------------------------------------------------------------
+
+
+</pre>
+</body>
+</html>
+
+--------------070005060709020301080900--
+
+
+--===============1136250420==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+--===============1136250420==--
+

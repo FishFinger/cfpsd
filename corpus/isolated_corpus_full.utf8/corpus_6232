@@ -1,0 +1,260 @@
+From - Thu Dec 10 14:38:36 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.61.201 with SMTP id u9cs3599bkh;
+        Fri, 16 Oct 2009 00:16:06 -0700 (PDT)
+Received: by 10.210.3.18 with SMTP id 18mr439780ebc.80.1255677358234;
+        Fri, 16 Oct 2009 00:15:58 -0700 (PDT)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 10si2370168ewy.75.2009.10.16.00.15.48;
+        Fri, 16 Oct 2009 00:15:58 -0700 (PDT)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1MygvN-0001dC-IE; Fri, 16 Oct 2009 09:08:29 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1MygvM-0001cr-02; Fri, 16 Oct 2009 09:08:28 +0200
+Received: from mail-ew0-f224.google.com [209.85.219.224] 
+	by rolf.uib.no for Corpora@uib.no with esmtp  (Exim 4.69)
+	id 1MygvL-0005Vl-CS; Fri, 16 Oct 2009 09:08:27 +0200
+Received: by ewy24 with SMTP id 24so1696400ewy.22
+	for <Corpora@uib.no>; Fri, 16 Oct 2009 00:08:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:from:content-type
+	:content-transfer-encoding:date:subject:to:message-id:mime-version
+	:x-mailer; bh=Dv9r/8vviIkwa4xw2AYcLGvWmzGIqzgqMry5FXZ+8V4=;
+	b=KG2IMDey4LZXIIV7YilbZ/POPNZRvCVHArvZxw6wYKlmnLzmjd68KUttCCnfIFPOPH
+	LR2egMwuKJzsVmPtWF1VC8Z2EdMFc69UWe8TrOcCog5uxub4wN8Fw/7k1MNhwgFsgPWb
+	cOavQwx3QjcQVgtU6qdtC5cj9LdNAy77lXzvY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=from:content-type:content-transfer-encoding:date:subject:to
+	:message-id:mime-version:x-mailer;
+	b=uOcGb93Dwz9gAA3DIgrjRNiEY3eN50EHVWpI/cwR+8u1pXPU/fIPM4GtrEpaJ7W+1+
+	a6OOgR0R8Vn9s6JKP8WS891/eRMSlr64COnT8WZXqsfy04oGXth6LQE/bpPrxfqAwblG
+	6UFsp0YUCjlbSsOnfXoe3/8X3QgkwCArX6h/o=
+Received: by 10.211.132.37 with SMTP id j37mr1045505ebn.76.1255676571376;
+	Fri, 16 Oct 2009 00:02:51 -0700 (PDT)
+Received: from ?192.168.2.15? (adsl-217-114.dsl.uva.nl [146.50.217.114])
+	by mx.google.com with ESMTPS id 23sm6472849eya.12.2009.10.16.00.02.47
+	(version=TLSv1/SSLv3 cipher=RC4-MD5);
+	Fri, 16 Oct 2009 00:02:50 -0700 (PDT)
+From: Edgar Meij <edgar.meij@gmail.com>
+Date: Fri, 16 Oct 2009 09:02:45 +0200
+To: Corpora@uib.no
+Message-Id: <0EEDB70D-C4F5-4510-B4D6-AC98325066ED@gmail.com>
+Mime-Version: 1.0 (Apple Message framework v1076)
+X-Mailer: Apple Mail (2.1076)
+X-checked-clean: by exiscan on rolf
+X-Scanner: 95758f5b0dd57315f28236d16ddfa562 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 1.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; 0.1 BODY: UIB_MAILWON
+	0.9 Contains an URI of a new domain (Day Old Bread)
+	[URIs: clef2010.org]
+Subject: [Corpora-List] CLEF 2010 Call for Lab Proposals
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"; Format="flowed"
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+CLEF 2010
+Conference on Multilingual and Multimodal Information Access Evaluation
+http://clef2010.org
+
+Call for Lab Proposals
+
+The CLEF 2010 conference is the continuation of the popular CLEF
+campaigns and workshops that have run for the past ten years
+(2000-2009).  It will cover a broad range of issues from fields
+of multilingual and multimodal information access evaluation.
+One of the two main parts of CLEF 2010 will be a series of
+"labs".  Two different forms of labs will be offered: labs can
+either be run "campaign-style" during the twelve month period
+preceding the conference, or adopt a more "workshop"-style format
+that can explore issues of information access evaluation and
+related fields.  The labs will culminate in sessions of a
+half-day, one full day or two days at the CLEF 2010 conference.
+
+Researchers and practitioners from all segments of the
+information access and related communities are invited to submit
+proposals for review.
+
+SCOPE
+
+Proposals are accepted for two different types of "labs":
+
+=B7 Labs that are a "campaign-style" evaluation for (a) specific
+  information access problem(s).  These labs will be very similar
+  to the current CLEF campaign "tracks" in their nature.  Topics
+  covered by campaign-style labs can be any information
+  access-related task(s).
+=B7 Labs that follow a more classical "workshop" pattern, exploring
+  issues of evaluation methodology, metrics, processes etc.  in
+  information access and closely related fields, such as natural
+  language processing, machine translation, and human-computer
+  interaction.
+
+In both cases, it is expected that lab sessions at the conference
+will contain ample time for general discussion and engagement by
+all participants - not just those presenting campaign results and
+papers.  Organizers should plan time for panels, demos, etc.
+where applicable.
+
+LOCATION
+
+Two days of the four-day CLEF 2010 conference have been reserved
+exclusively for lab sessions.  The lab sessions will take place
+at the site of the conference at the University of Padua, Padua,
+Italy.  The potential for labs to present their overall results
+("overview presentations") during the scientific paper session of
+the conference is presently being explored.
+
+PROPOSAL SUBMISSION
+
+Lab proposals should provide sufficient information for the lab
+organizing committee to be able to judge the importance, quality,
+and benefits for the research community.
+
+Each lab should have one or more organizers responsible for the
+execution of the lab.  Proposals should be 2-4 pages long and
+should provide the following information:
+
+=B7 Title of the proposed lab.
+=B7 The planned format of the lab, i.e. campaign-style ("track") or
+  workshop.
+=B7 Planned length of the lab session at the conference: half-day,
+  one day, two days.
+=B7 Names and full addresses, including contact details, of the lab
+  organizer(s).
+=B7 A brief description of the lab topic and goals, its relevance
+  to CLEF 2010 and significance for the research field.
+=B7 A statement on the intended development/growth path if the
+  proposal is for a continuation of activities previously
+  undertaken at CLEF workshops.
+=B7 A list of the main goals of the proposed labs, together with
+  indications as to how the proposed tasks/actions contribute to
+  their implementation
+=B7 A description of the target audience, areas from which the
+  participants are expected to come, an analysis of the potential
+  for participants (number, statements of intent to participate
+  where applicable), potential industry stakeholders, strategy for
+  publicizing the lab
+=B7 Arrangements for the organization of the lab campaign, if
+  applicable, including a brief outline of the campaign milestones,
+  test data to be used, indications of the size of the data
+  collections, issues of scalability, tasks to be proposed to
+  participants, and format of presentation at the conference.
+=B7 If the lab proposes to set up a steering committee to oversee
+  its activities, include names, addresses, and home page links of
+  people who have agreed to be part of the steering committee if
+  the lab proposal is accepted.  This list should ideally include
+  people from at least three different countries.
+=B7 A brief description of the organizers' experience and
+  background in the topic, and links to web pages of the lab
+  organizers.
+
+REVIEWING PROCESS
+
+Each submitted proposal will be reviewed by the CLEF2010 lab
+organizing committee.  The decision will be sent by email to the
+responsible organizer by November 10, 2009.  The final length of
+the lab session will be determined based on the overall
+organization of the conference and the number of submissions
+received by a lab.  Due to space restrictions, only a limited
+number of lab sessions can be conducted in parallel at the
+conference.  The reviewers may suggest modifications to the
+proposed lab programme in order to fit it with the above
+reviewing criteria and the overall organization of CLEF 2010.
+
+Reviewing criteria for the "campaign-style" labs include:
+
+=B7 Soundness of methodology, feasibility of task
+=B7 Use case (description of the underlying problems), business
+  case/industrial stakeholders (potential for market)
+=B7 Number of potential participants, critical mass
+=B7 Clear movement along a growth path, development of field
+=B7 Others factors such as: innovation, minimize overlap with other
+  evaluation initiatives or events, focus (appropriate number of
+  subtasks, avoid "inflation" of labs), interdisciplinary character
+
+Reviewing criteria for the "workshop-style" labs include:
+
+=B7 The appropriateness of the workshop-style lab to the overall
+  information access agenda pursued by CLEF
+=B7 Number of potential participants, critical mass
+=B7 Likelihood that the outcomes of the workshop will constitute a
+  significant contribution to the field.  Is the workshop focused
+  enough that useful conclusions are likely?
+=B7 Other factores such as: innovation, minimize overalp with other
+  evaluation initiatives and events, vision for a potential
+  continuation, interdisciplinary character
+
+LAB ORGANIZER'S TASKS:
+=B7 Producing a "Call for Participation" for the camapaign-style
+  lab or a "Call for Papers" for a workshop-style lab and
+  disseminating it through all appropriate means.  Please provide a
+  web page URL which can be linked into the CLEF 2010 home page
+  asap.
+=B7 Providing a brief description of the lab for the conference
+  program.
+=B7 Signing up campaign participants, and executing the campaign in
+  the case of campaign-style labs
+=B7 Reviewing/accepting submitted papers and position papers in
+  case of workshop-style labs
+=B7 Scheduling lab session activities in collaboration with the
+  local organizers and the lab chairs.
+=B7 Sending the lab schedule and other lab material, all in PDF
+  format, to the lab chairs (deadline to be defined).
+=B7 The lab material (papers, presentations etc.)  will be
+  distributed by the CLEF 2010 organization to the conference
+  participants in electronic format (copyright will not be asked
+  for from the authors, but only permission to publish and
+  disseminate).
+=B7 Organization of post-conference publication of lab results in
+  appropriate form (special issue, lab proceedings, etc.)
+
+PUBLICATION
+
+The working notes of the labs will be published online in time
+for the conference.  It is foreseen that this online publication
+will have an ISBN number and be indexed in relevant services.  It
+is the responsibility of lab organizers to arrange for
+appropriate post-conference publication of the lab results.
+
+IMPORTANT DATES
+
+=B7 Final lab proposals: 31 October 2009
+=B7 Notification of lab acceptance: 10 November 2009
+=B7 Lab web page on the conference site: tbd
+
+SUBMISSION DETAILS
+
+Lab proposals should be submitted via e-mail (either plain text
+or PDF format) to both Lab Organizing Committee Chairs:
+
+Martin Braschler, Zurich University of Applied Sciences, bram@zhaw.ch
+Donna Harman, National Institute of Standards and Technology, donna.harman@=
+nist.gov
+
+Please direct all questions to the lab chairs.
+
+Preliminary information about CLEF 2010 can be found at
+http://clef2010.org
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

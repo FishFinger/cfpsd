@@ -1,0 +1,567 @@
+From - Thu Dec 10 14:32:18 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139636waa;
+        Sun, 15 Jun 2008 02:54:45 -0700 (PDT)
+Received: by 10.210.11.13 with SMTP id 13mr4837512ebk.142.1213523680902;
+        Sun, 15 Jun 2008 02:54:40 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id y34si6783501iky.10.2008.06.15.02.54.19;
+        Sun, 15 Jun 2008 02:54:40 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 85FD915AF4; Sun, 15 Jun 2008 11:54:18 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 84693110F7;
+	Sun, 15 Jun 2008 11:43:16 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 6815C3CEF;
+	Sun, 15 Jun 2008 11:43:16 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 9raUKRFZCExI; Sun, 15 Jun 2008 11:43:16 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id DE16A3E38;
+	Sun, 15 Jun 2008 11:41:39 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 6FFBB3D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Jun 2008 13:08:45 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id dg9G0A-Hly+F for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Jun 2008 13:08:45 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 403DF3CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Jun 2008 13:08:45 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2F67475D8; Thu, 12 Jun 2008 13:08:45 +0200 (MEST)
+Received: from mxa.liv.ac.uk (mxa.liv.ac.uk [138.253.100.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1692C75DA
+	for <elsnet-list@elsnet.org>; Thu, 12 Jun 2008 13:08:15 +0200 (MEST)
+Received: from mailhubb.liv.ac.uk ([138.253.100.37])
+	by mxa.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <knsimms@liverpool.ac.uk>) id 1K6kf8-0005IG-MF
+	for elsnet-list@elsnet.org; Thu, 12 Jun 2008 12:08:14 +0100
+Received: from localhost ([127.0.0.1] helo=mailhubb.liv.ac.uk)
+	by mailhubb.liv.ac.uk with esmtp (Exim 4.54) id 1K6kf8-0007Gw-Ja
+	for elsnet-list@elsnet.org; Thu, 12 Jun 2008 12:08:14 +0100
+Received: from bhsmtp.livad.liv.ac.uk ([138.253.252.160])
+	by mailhubb.liv.ac.uk with esmtp (Exim 4.54) id 1K6kf8-0007Gt-Iw
+	for elsnet-list@elsnet.org; Thu, 12 Jun 2008 12:08:14 +0100
+Received: from EVSSTAFF1.livad.liv.ac.uk ([138.253.252.135]) by
+	bhsmtp.livad.liv.ac.uk with Microsoft SMTPSVC(6.0.3790.1830); 
+	Thu, 12 Jun 2008 12:08:14 +0100
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Date: Thu, 12 Jun 2008 12:08:14 +0100
+Message-ID: <0926678AE60C1C4BB61CC7C9AC17C18CB4FC06@EVSSTAFF1.livad.liv.ac.uk>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: CFP: Corpus Linguistics Conference 2009
+Thread-Index: AcjMfJ0LVcBA2VVXSzmC4Hc49EZbng==
+From: "Simms, Karl" <knsimms@liverpool.ac.uk>
+To: <elsnet-list@elsnet.org>
+X-OriginalArrivalTime: 12 Jun 2008 11:08:14.0244 (UTC)
+	FILETIME=[9BD41E40:01C8CC7C]
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:40:58 +0200
+Subject: [Elsnet-list] CFP: Corpus Linguistics Conference 2009
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1846977828=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+This is a multi-part message in MIME format.
+
+--===============1846977828==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C8CC7C.9BE11DF8"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C8CC7C.9BE11DF8
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Corpus Linguistics Conference
+
+=20
+
+First Call for Papers
+
+=20
+
+Following the Corpus Linguistics Conferences at Lancaster and =
+Birmingham, the Fifth Corpus Linguistics Conference 2009 will be held at =
+the University of Liverpool.=20
+
+We are looking forward to an interesting programme and invite abstracts =
+for papers, posters, work-in-progress reports, as well as workshops and =
+colloquia covering any aspect of corpus linguistics. The conference =
+begins with a workshop and colloquium day on Monday 20 July, the main =
+conference runs from Tuesday 21 to Thursday 23 July, with the conference =
+dinner on Wednesday 22 July.
+
+=20
+
+Plenary Speakers
+
+Svenja Adolphs (University of Nottingham)
+
+Douglas Biber  (Northern Arizona University)
+
+Michael Hoey (University of Liverpool)=20
+
+Joybrato Mukherjee (University of Giessen)
+
+Mike Scott (University of Liverpool)
+
+=20
+
+Call for Papers
+
+We invite submissions covering any aspect of corpus linguistics.=20
+
+Papers  will be allocated 20 minutes plus 10 minutes for questions. =
+Paper abstracts should be between 300 and 500 words (excluding word =
+count for references).=20
+
+Work-in-progress reports will be 10 minutes plus 5 minutes for =
+questions. Abstracts should be no longer than 300 words (excluding word =
+count for references).=20
+
+Poster abstracts should be no more than 200 words (excluding word count =
+for references).
+
+Colloquia usually take the form of between 4 and 8 papers, with time for =
+audience discussion. We will accommodate short colloquia (2 hours, about =
+4 speakers) and longer colloquia (4 hours, about 8 speakers). Proposals =
+should be no more than 1000 words (for colloquia of 2 hours) or 2000 =
+words (for colloquia of 4 hours). The proposal should include a =
+rationale for the colloquium, an indication of how much of the time will =
+be allocated to audience discussion, and an abstract for each of the =
+proposed papers.
+
+Workshops usually include one or two short presentations and substantial =
+audience participation. Workshops  can take 1 or 2 hours. Proposals =
+should be no more than 500 words (for a 1-hour workshop) or 750 words =
+(for a 2-hour workshop) and should describe the organisation of the =
+workshop and the nature of the audience participation. Additionally, =
+information on technical requirements should be provided.
+
+For colloquia and workshops we would encourage you to contact us ahead =
+of the deadline if you have any questions.
+
+=20
+
+The language of the conference is English.
+
+=20
+
+Online submission for abstracts will open in mid-June 2008 at =
+http://www.liv.ac.uk/english/CL2009. Closing date for abstracts: 31 =
+December 2008.
+
+For more information please contact the Organising Committee:
+
+=B7         E-mail: HYPERLINK =
+"mailto:CL2009@liverpool.ac.uk"CL2009@liverpool.ac.uk
+
+=B7         Post: CL2009, School of English, Modern Languages Building, =
+University of Liverpool, Chatham Street, Liverpool L69 7ZR
+
+=B7         Telephone: 0151 794 3032
+
+=B7         Fax: 0151 794 2730
+
+=20
+
+=20
+
+Dr Karl Simms
+
+School of English
+
+Modern Languages Building
+
+University of Liverpool
+
+Chatham Street
+
+Liverpool L69 7ZR
+
+=20
+
+
+No virus found in this outgoing message.
+Checked by AVG.=20
+Version: 7.5.524 / Virus Database: 270.3.0/1498 - Release Date: =
+11/06/2008 19:13
+=20
+
+------_=_NextPart_001_01C8CC7C.9BE11DF8
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Diso-8859-1">
+
+
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1168404446;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-641943490 134807553 134807555 134807557 =
+134807553 134807555 134807557 134807553 134807555 134807557;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-GB link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:24.0pt'>Corpus =
+Linguistics
+Conference<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span =
+style=3D'font-size:24.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:24.0pt'>First Call for =
+Papers<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal><b><span =
+style=3D'font-size:24.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=3DMsoNormal>Following the Corpus Linguistics Conferences at =
+Lancaster
+and Birmingham, the Fifth Corpus Linguistics Conference 2009 will be =
+held at
+the University of Liverpool. <span =
+style=3D'font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>We
+are looking forward to an interesting programme and invite abstracts for
+papers, posters, work-in-progress reports, as well as workshops and =
+colloquia
+covering any aspect of corpus linguistics. The conference begins with a
+workshop and colloquium day on Monday 20 July, the main conference runs =
+from
+Tuesday 21 to Thursday 23 July, with the conference dinner on Wednesday =
+22
+July.<o:p></o:p></p>
+
+<p class=3DMsoNormal><span =
+style=3D'color:#8E53B3'>&nbsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><b><span style=3D'font-size:16.0pt'>Plenary =
+Speakers</span></b><span
+style=3D'font-size:16.0pt'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Svenja
+Adolphs </b><i>(University of Nottingham)</i><span =
+style=3D'font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Douglas
+Biber&nbsp;</b> <i>(Northern Arizona University)</i><o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Michael
+Hoey</b> <i>(University of Liverpool) </i><o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Joybrato
+Mukherjee</b><i> (University of Giessen)</i><o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b>Mike
+Scott</b> <i>(University of Liverpool)<o:p></o:p></i></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><o:p>&nbsp;<=
+/o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><b><span
+style=3D'font-size:16.0pt'>Call for Papers<o:p></o:p></span></b></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>We
+invite submissions covering any aspect of corpus linguistics. <span
+style=3D'font-size:12.0pt'><o:p></o:p></span></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Papers
+&nbsp;will be allocated 20 minutes plus 10 minutes for questions. Paper
+abstracts should be between 300 and 500 words (excluding word count for
+references). <o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Work-in-prog=
+ress
+reports will be 10 minutes plus 5 minutes for questions. Abstracts =
+should be no
+longer than 300 words (excluding word count for references). =
+<o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Poster
+abstracts should be no more than 200 words (excluding word count for
+references).<o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Colloquia
+usually take the form of between 4 and 8 papers, with time for audience
+discussion. We will accommodate short colloquia (2 hours, about 4 =
+speakers) and
+longer colloquia (4 hours, about 8 speakers). Proposals should be no =
+more than
+1000 words (for colloquia of 2 hours) or 2000 words (for colloquia of 4 =
+hours).
+The proposal should include a rationale for the colloquium, an =
+indication of
+how much of the time will be allocated to audience discussion, and an =
+abstract
+for each of the proposed papers.<o:p></o:p></p>
+
+<p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'>Workshops
+usually include one or two short presentations and substantial audience
+participation. Workshops &nbsp;can take 1 or 2 hours. Proposals should =
+be no
+more than 500 words (for a 1-hour workshop) or 750 words (for a 2-hour
+workshop) and should describe the organisation of the workshop and the =
+nature
+of the audience participation. Additionally, information on technical
+requirements should be provided.<o:p></o:p></p>
+
+<p class=3DMsoNormal>For colloquia and workshops we would encourage you =
+to
+contact us ahead of the deadline if you have any =
+questions.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>The language of the conference is =
+English.<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Online submission for abstracts will open in =
+mid-June 2008
+at <b>http://www.liv.ac.uk/english/CL2009</b>. Closing date for =
+abstracts: 31
+December 2008.<o:p></o:p></p>
+
+<p style=3D'margin-bottom:0cm;margin-bottom:.0001pt'>For more =
+information please
+contact the Organising Committee:<o:p></o:p></p>
+
+<p style=3D'mso-margin-top-alt:0cm;margin-right:0cm;margin-bottom:5.0pt;
+margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo1'><![if =
+!supportLists]><span
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><i>E-mail</i>: <a
+href=3D"mailto:CL2009@liverpool.ac.uk">CL2009@liverpool.ac.uk</a><o:p></o=
+:p></p>
+
+<p =
+style=3D'margin-left:36.0pt;text-align:justify;text-indent:-18.0pt;mso-li=
+st:
+l0 level1 lfo1'><![if !supportLists]><span =
+style=3D'font-family:Symbol'><span
+style=3D'mso-list:Ignore'>=B7<span style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><i>Post</i>: CL2009, School of English, =
+Modern
+Languages Building, University of Liverpool, Chatham Street, Liverpool =
+L69 7ZR<o:p></o:p></p>
+
+<p style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><i>Telephone</i>:&nbsp;0151 794 =
+3032<o:p></o:p></p>
+
+<p style=3D'margin-left:36.0pt;text-indent:-18.0pt;mso-list:l0 level1 =
+lfo1'><![if !supportLists]><span
+style=3D'font-family:Symbol'><span style=3D'mso-list:Ignore'>=B7<span
+style=3D'font:7.0pt "Times New =
+Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><i>Fax</i>: 0151 794 2730<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=3DMsoNormal>Dr Karl Simms<o:p></o:p></p>
+
+<p class=3DMsoNormal>School of English<o:p></o:p></p>
+
+<p class=3DMsoNormal>Modern Languages Building<o:p></o:p></p>
+
+<p class=3DMsoNormal>University of Liverpool<o:p></o:p></p>
+
+<p class=3DMsoNormal>Chatham Street<o:p></o:p></p>
+
+<p class=3DMsoNormal>Liverpool L69 7ZR<o:p></o:p></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+<BR>
+
+<P><FONT SIZE=3D2>No virus found in this outgoing message.<BR>
+Checked by AVG.<BR>
+Version: 7.5.524 / Virus Database: 270.3.0/1498 - Release Date: =
+11/06/2008 19:13<BR>
+</FONT> </P>
+
+------_=_NextPart_001_01C8CC7C.9BE11DF8--
+
+--===============1846977828==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1846977828==--

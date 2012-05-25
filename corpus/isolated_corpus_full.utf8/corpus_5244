@@ -1,0 +1,545 @@
+From - Thu Dec 10 14:37:03 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs107888fap;
+        Sat, 16 May 2009 02:49:54 -0700 (PDT)
+Received: by 10.210.17.2 with SMTP id 2mr1965839ebq.80.1242467394051;
+        Sat, 16 May 2009 02:49:54 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 26si2590856ewy.11.2009.05.16.02.49.52;
+        Sat, 16 May 2009 02:49:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2D3C121A39; Sat, 16 May 2009 11:48:09 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E82E120B26;
+	Sat, 16 May 2009 11:45:58 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BE6AF3DEF;
+	Sat, 16 May 2009 11:45:58 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rA1aA4e-M8wl; Sat, 16 May 2009 11:45:58 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C5D493D51;
+	Sat, 16 May 2009 11:45:30 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BC9093D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  6 May 2009 12:54:06 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lwxoympOoa1f for <elsnet-list@mailman.elsnet.org>;
+	Wed,  6 May 2009 12:54:06 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 813753D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  6 May 2009 12:53:43 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6F768221E1; Wed,  6 May 2009 12:53:43 +0200 (MEST)
+Received: from sun60.bham.ac.uk (sun60.bham.ac.uk [147.188.128.137])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6D92B2217C
+	for <elsnet-list@elsnet.org>; Wed,  6 May 2009 12:53:35 +0200 (MEST)
+Received: from [147.188.128.54] (helo=bham.ac.uk)
+	by sun60.bham.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <M.J.RUSSELL@bham.ac.uk>) id 1M1eko-0002K0-P3
+	for elsnet-list@elsnet.org; Wed, 06 May 2009 11:53:34 +0100
+Received: from exhub3.bham.ac.uk ([147.188.126.33] helo=exhub3.adf.bham.ac.uk)
+	by bham.ac.uk with esmtp (Exim 4.43) id 1M1eko-0004Sw-IJ
+	for elsnet-list@elsnet.org; Wed, 06 May 2009 11:53:34 +0100
+Received: from engmail.adf.bham.ac.uk ([147.188.144.120]) by
+	exhub3.adf.bham.ac.uk ([147.188.126.33]) with mapi;
+	Wed, 6 May 2009 11:53:34 +0100
+From: Martin Russell <M.J.RUSSELL@bham.ac.uk>
+To: "elsnet-list@elsnet.org" <elsnet-list@elsnet.org>
+Date: Wed, 6 May 2009 11:53:32 +0100
+Thread-Topic: SLaTE 2009 - FINAL CALL FOR PAPERS 
+Thread-Index: AcnOOOXjfWHApH6gTa69g8lOgPP2Eg==
+Message-ID: <918A8817DF90E445974DB355C3961B5C0C50C8F95E@engmail.adf.bham.ac.uk>
+Accept-Language: en-US, en-GB
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: en-US, en-GB
+MIME-Version: 1.0
+X-Mailman-Approved-At: Sat, 16 May 2009 11:45:20 +0200
+Cc: 
+Subject: [Elsnet-list] SLaTE 2009 - FINAL CALL FOR PAPERS 
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0957479547=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0957479547==
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_918A8817DF90E445974DB355C3961B5C0C50C8F95Eengmailadfbha_"
+
+--_000_918A8817DF90E445974DB355C3961B5C0C50C8F95Eengmailadfbha_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+**** SLaTE 2009 - FINAL CALL FOR PAPERS ****
+
+Second ISCA Workshop on Speech and Language Technology in Education
+
+3rd - 5th September 2009, Wroxall Abbey Estate, Warwickshire, England
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+FULL 4-PAGE PAPERS SHOULD BE SUBMITTED AS PDF ATTACHMENTS TO AN
+EMAIL WITH SUBJECT 'SLaTE 2009 submission' TO MARTIN RUSSELL
+(m.j.russell@bham.ac.uk<mailto:m.j.russell@bham.ac.uk>) BY MAY 8, 2009.
+
+You are cordially invited to submit papers for presentation at SLaTE 2009.
+The ISCA (International Speech Communication Association) Special Interest =
+Group
+on Speech and Language Technology in Education (SLaTE) promotes the use of
+speech and natural language processing for education, and provides a forum
+for exchanging news of recent research developments and other matters of in=
+terest
+in this topic. For further information see the SLaTE website:  http://www.s=
+igslate.org
+
+SLaTE 2009 is the second ISCA Workshop on Speech and Language Technology in
+Education.  It follows SLaTE 2007, held in Farmington, Pennsylvania, USA, a=
+nd has
+its origins in the STiLL meeting organized by KTH in Marholmen, Sweden, in =
+1998.
+The SLaTE 2009 workshop website can be accessed from the SLaTE website, or
+directly at http://www.eee.bham.ac.uk/SLaTE2009
+
+The workshop will focus on research issues, applications, development tools=
+ and
+collaboration.  It will be concerned with all topics which concern speech a=
+nd
+language technology for education. Papers will discuss theories, applicatio=
+ns,
+evaluation, limitations, persistent difficulties, general research tools an=
+d techniques.
+Papers that critically evaluate approaches or processing strategies will be=
+ especially
+welcome, as will prototype demonstrations of real-world applications.
+
+The scope of acceptable topic interests includes but is not limited to:
+
+ * Use of speech recognition for education
+ * Use of natural language processing for education
+ * Use of spoken language dialogue for education
+ * Applications using speech and/or natural language processing for educati=
+on
+ * Intelligent tutoring systems using speech and natural language
+ * Tutor assessment
+
+There will be oral and poster sessions as well as demonstrations of softwar=
+e.
+Further information for authors, together with MS Word and LaTeX paper temp=
+lates,
+can be found under the CALL FOR PAPERS at the SLaTE 2009 website.
+
+IMPORTANT DATES:
+Full 4-page papers should be submitted as PDF attachments to an email with =
+subject
+'SLaTE 2009 submission' to Martin Russell (m.j.russell@bham.ac.uk<mailto:m.=
+j.russell@bham.ac.uk>) by May 8, 2009.
+Notification of acceptance or rejection of papers will be given by July 8, =
+2009
+
+SLaTE 2009 will be held at Wroxall Abbey Estate, in Warwickshire England,
+immediately before Interspeech 2009 (http://www.interspeech2009.org).
+
+The workshop fee will include all accommodation and meals at Wroxall Abbey.
+Situated in 27 acres of open parkland, the Estate occupies a unique setting=
+ amidst
+the peace and tranquillity of the Warwickshire countryside. Once the countr=
+y seat of
+Sir Christopher Wren, Wroxall boasts a magnificent collection of listed bui=
+ldings and
+private grounds, which made it an ideal venue for the workshop. Wroxall is =
+situated
+just 10 miles from Birmingham International Airport, 13 miles from Stratfor=
+d-upon-
+Avon and 6 miles from Warwick. It is anticipated that visits to Stratford a=
+nd Warwick
+will be included in the social programme.
+
+
+Professor Martin Russell
+School of Electronic, Electrical & Computer Engineering
+University of Birmingham
+Edgbaston
+Birmingham
+B15 2TT
+
+Tel: +44 121 414 3093
+Fax: +44 121 414 4291
+email: m.j.russell@bham.ac.uk<mailto:m.j.russell@bham.ac.uk>
+
+
+--_000_918A8817DF90E445974DB355C3961B5C0C50C8F95Eengmailadfbha_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:p=3D"urn:schemas-m=
+icrosoft-com:office:powerpoint" xmlns:a=3D"urn:schemas-microsoft-com:office=
+:access" xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:s=3D"=
+uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:rs=3D"urn:schemas-microsof=
+t-com:rowset" xmlns:z=3D"#RowsetSchema" xmlns:b=3D"urn:schemas-microsoft-co=
+m:office:publisher" xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadshee=
+t" xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" xmlns=
+:odc=3D"urn:schemas-microsoft-com:office:odc" xmlns:oa=3D"urn:schemas-micro=
+soft-com:office:activation" xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" xmlns:D=3D"DAV:" xmln=
+s:mt=3D"http://schemas.microsoft.com/sharepoint/soap/meetings/" xmlns:x2=3D=
+"http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ois=3D"http://sc=
+hemas.microsoft.com/sharepoint/soap/ois/" xmlns:dir=3D"http://schemas.micro=
+soft.com/sharepoint/soap/directory/" xmlns:ds=3D"http://www.w3.org/2000/09/=
+xmldsig#" xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint/dsp" xmlns:u=
+dc=3D"http://schemas.microsoft.com/data/udc" xmlns:xsd=3D"http://www.w3.org=
+/2001/XMLSchema" xmlns:sub=3D"http://schemas.microsoft.com/sharepoint/soap/=
+2002/1/alerts/" xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#" xmlns:sp=3D"=
+http://schemas.microsoft.com/sharepoint/" xmlns:sps=3D"http://schemas.micro=
+soft.com/sharepoint/soap/" xmlns:xsi=3D"http://www.w3.org/2001/XMLSchema-in=
+stance" xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/soap" xmlns:udc=
+xf=3D"http://schemas.microsoft.com/data/udc/xmlfile" xmlns:udcp2p=3D"http:/=
+/schemas.microsoft.com/data/udc/parttopart" xmlns:wf=3D"http://schemas.micr=
+osoft.com/sharepoint/soap/workflow/" xmlns:dsss=3D"http://schemas.microsoft=
+.com/office/2006/digsig-setup" xmlns:dssi=3D"http://schemas.microsoft.com/o=
+ffice/2006/digsig" xmlns:mdssi=3D"http://schemas.openxmlformats.org/package=
+/2006/digital-signature" xmlns:mver=3D"http://schemas.openxmlformats.org/ma=
+rkup-compatibility/2006" xmlns:m=3D"http://schemas.microsoft.com/office/200=
+4/12/omml" xmlns:mrels=3D"http://schemas.openxmlformats.org/package/2006/re=
+lationships" xmlns:spwp=3D"http://microsoft.com/sharepoint/webpartpages" xm=
+lns:ex12t=3D"http://schemas.microsoft.com/exchange/services/2006/types" xml=
+ns:ex12m=3D"http://schemas.microsoft.com/exchange/services/2006/messages" x=
+mlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/SlideLibrary/" x=
+mlns:spsl=3D"http://microsoft.com/webservices/SharePointPortalServer/Publis=
+hedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" xmlns:st=3D"&#1;" x=
+mlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</span><o:p></o:p></p=
+>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>**** SLaTE 2009 &#8211; FINAL CALL FOR PAPERS ****</span><o:p>=
+</o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>Second ISCA Workshop on Speech and Language Technology in
+Education</span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>3rd &#8211; 5th September 2009, Wroxall Abbey Estate,
+Warwickshire, England</span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<o:p></o:p></span></p=
+>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>FULL 4-PAGE PAPERS SHOULD BE SUBMITTED AS PDF ATTACHMENTS TO A=
+N<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>EMAIL WITH SUBJECT &#8216;SLaTE 2009 submission&#8217; TO MART=
+IN
+RUSSELL<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>(<a href=3D"mailto:m.j.russell@bham.ac.uk">m.j.russell@bham.ac=
+.uk</a>)
+BY MAY 8, 2009.<br>
+</span><span style=3D'font-size:10.0pt;font-family:"Arial","sans-serif"'>&n=
+bsp;<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>You are cordially invited to submit papers for presentation at
+SLaTE 2009.</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>The ISCA (International Speech Communication Association) Spec=
+ial
+Interest Group<br>
+on Speech and Language Technology in Education (SLaTE) promotes the use of<=
+br>
+speech and natural language processing for education, and provides a forum =
+<br>
+for exchanging news of recent research developments and other matters of
+interest<br>
+in this topic. For further information see the SLaTE website:&nbsp; <a
+href=3D"http://www.sigslate.org">http://www.sigslate.org</a><br>
+&nbsp;<br>
+SLaTE 2009 is the second ISCA Workshop on Speech and Language Technology in=
+<br>
+Education.&nbsp; It follows SLaTE 2007, held in Farmington, Pennsylvania, U=
+SA,
+and has<br>
+its origins in the STiLL meeting organized by KTH in Marholmen, Sweden, in
+1998. <br>
+The SLaTE 2009 workshop website can be accessed from the SLaTE website, or<=
+br>
+directly at <a href=3D"http://www.eee.bham.ac.uk/SLaTE2009">http://www.eee.=
+bham.ac.uk/SLaTE2009</a></span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>The workshop will focus on research issues, applications,
+development tools and<br>
+collaboration.&nbsp; It will be concerned with all topics which concern spe=
+ech
+and<br>
+language technology for education. Papers will discuss theories, applicatio=
+ns, <br>
+evaluation, limitations, persistent difficulties, general research tools an=
+d
+techniques.<br>
+Papers that critically evaluate approaches or processing strategies will be
+especially<br>
+welcome, as will prototype demonstrations of real-world applications.</span=
+><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>The scope of acceptable topic interests includes but is not
+limited to:</span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>&nbsp;* Use of speech recognition for education <br>
+&nbsp;* Use of natural language processing for education <br>
+&nbsp;* Use of spoken language dialogue for education <br>
+&nbsp;* Applications using speech and/or natural language processing for
+education <br>
+&nbsp;* Intelligent tutoring systems using speech and natural language <br>
+&nbsp;* Tutor assessment </span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>There will be oral and poster sessions as well as demonstratio=
+ns
+of software.</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>Further information for authors, together with MS Word and LaT=
+eX
+paper templates,<br>
+can be found under the CALL FOR PAPERS at the SLaTE 2009 website.</span><o:=
+p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>IMPORTANT DATES:</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>Full 4-page papers should be submitted as PDF attachments to a=
+n
+email with subject<br>
+&#8216;SLaTE 2009 submission&#8217; to Martin Russell (<a
+href=3D"mailto:m.j.russell@bham.ac.uk">m.j.russell@bham.ac.uk</a>) by May 8=
+, 2009.<br>
+Notification of acceptance or rejection of papers will be given by July 8, =
+2009<br>
+&nbsp;<br>
+SLaTE 2009 will be held at Wroxall Abbey Estate, in Warwickshire England,<b=
+r>
+immediately before Interspeech 2009 (<a href=3D"http://www.interspeech2009.=
+org">http://www.interspeech2009.org</a>).<br>
+&nbsp;<br>
+The workshop fee will include all accommodation and meals at Wroxall Abbey.=
+<br>
+Situated in 27 acres of open parkland, the Estate occupies a unique setting
+amidst<br>
+the peace and tranquillity of the Warwickshire countryside. Once the countr=
+y
+seat of<br>
+Sir Christopher Wren, Wroxall boasts a magnificent collection of listed
+buildings and<br>
+private grounds, which made it an ideal venue for the workshop. Wroxall is
+situated<br>
+just 10 miles from Birmingham International Airport, 13 miles from Stratfor=
+d-upon-<br>
+Avon and 6 miles from Warwick. It is anticipated that visits to Stratford a=
+nd
+Warwick <br>
+will be included in the social programme.</span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif";
+color:black'>Professor Martin Russell</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>School
+of Electronic, Electrical &amp; Computer Engineering</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>University
+of Birmingham</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Edgbaston</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Birmingham</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>B15
+2TT</span><o:p></o:p></p>
+
+<p class=3DMsoNormal>&nbsp;<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Tel:
++44 121 414 3093</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>Fax:
++44 121 414 4291</span><o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:10.0pt;font-family:"Arial","s=
+ans-serif"'>email:
+<a href=3D"mailto:m.j.russell@bham.ac.uk">m.j.russell@bham.ac.uk</a></span>=
+<o:p></o:p></p>
+
+<p class=3DMsoNormal><span style=3D'font-size:11.0pt;font-family:"Calibri",=
+"sans-serif"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+--_000_918A8817DF90E445974DB355C3961B5C0C50C8F95Eengmailadfbha_--
+
+--===============0957479547==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0957479547==--

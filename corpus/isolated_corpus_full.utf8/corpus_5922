@@ -1,0 +1,342 @@
+From - Thu Dec 10 14:38:09 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.51.79 with SMTP id c15cs106222bkg;
+        Tue, 1 Sep 2009 08:42:23 -0700 (PDT)
+Received: by 10.204.24.2 with SMTP id t2mr5694434bkb.65.1251819743264;
+        Tue, 01 Sep 2009 08:42:23 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 6si6926932bwz.26.2009.09.01.08.42.21;
+        Tue, 01 Sep 2009 08:42:23 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n81FgJC4018078
+	for <jpprost@gmail.com>; Wed, 2 Sep 2009 01:42:19 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n81FgJkg000404
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 2 Sep 2009 01:42:19 +1000
+X-ASG-Debug-ID: 1251819735-21d100980000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id 05D4030745F8
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed,  2 Sep 2009 01:42:15 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id EflB2DZNWgkcfcsp for <jpprost@mailbox.ics.mq.edu.au>; Wed, 02 Sep 2009 01:42:15 +1000 (EST)
+X-Barracuda-Envelope-From: owner-chr@LISTSERV.CC.KULEUVEN.AC.BE
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n81FgCng018043
+	for <jpprost@ICS.MQ.EDU.AU>; Wed, 2 Sep 2009 01:42:13 +1000 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id 41B36589A4;
+	Tue,  1 Sep 2009 17:42:11 +0200 (CEST)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 4625391 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Tue, 1 Sep 2009
+          17:42:10 +0200
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id AAB7D58982 for <chr@listserv.cc.kuleuven.ac.be>; Tue,  1 Sep 2009
+          17:42:10 +0200 (CEST)
+Received: from cavin03.kulnet.kuleuven.ac.be (crassus.kulnet.kuleuven.ac.be
+          [134.58.240.63]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 2A95151C009 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue,  1 Sep 2009
+          17:41:59 +0200 (CEST)
+Received: from mail.first.fraunhofer.de (mail.first.fraunhofer.de
+          [194.95.169.2]) by cavin03.kulnet.kuleuven.ac.be (Postfix) with ESMTP
+          id 04BCB20146 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Tue,  1 Sep 2009
+          17:41:58 +0200 (CEST)
+Received: from [10.146.68.188] (mahlzahn.first.fraunhofer.de [10.146.68.188])
+          (authenticated bits=0) by mail.first.fraunhofer.de (8.14.3/8.14.3)
+          with ESMTP id n81FTndd055369 (version=TLSv1/SSLv3
+          cipher=DHE-RSA-AES256-SHA bits=256 verify=NO); Tue, 1 Sep 2009
+          17:29:49 +0200 (CEST) (envelope-from Armin.Wolf@first.fraunhofer.de)
+User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-15; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Greylist: Sender succeeded SMTP AUTH,
+            not delayed by milter-greylist-4.2.3 (mail.first.fraunhofer.de
+            [194.95.169.2]); Tue, 01 Sep 2009 17:29:55 +0200 (CEST)
+X-Virus-Scanned: clamav-milter 0.95.2 at clacks.first.fraunhofer.de
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.2.5 (2008-06-10) on
+                        clacks.first.fraunhofer.de
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=0, required 5,
+               autolearn=disabled)
+X-KULeuven-Envelope-From: armin.wolf@first.fraunhofer.de
+Message-ID:  <4A9D3DEC.60304@first.fraunhofer.de>
+Date:         Tue, 1 Sep 2009 17:29:48 +0200
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Comments:     RFC822 error: <W> Incorrect or incomplete address field found and
+              ignored.
+From: Armin Wolf <Armin.Wolf@FIRST.FRAUNHOFER.DE>
+X-ASG-Orig-Subj: [CHR] WLP 2009 - Call for Participation
+Subject: [CHR] WLP 2009 - Call for Participation
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1251819736
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.7826
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+
+...please excuse multiple copies ...
+
+
+               Call for Participation
+               =======================
+
+      23rd Workshop on (Constraint) Logic Programming
+      ===============================================
+
+         Potsdam, Germany, September 15/16, 2009
+
+     URL: http://www.constraint-programming.de/wlp2009/
+
+      co-located with
+      LPNMR'09 - 10th International Conference
+      on Logic Programming and Nonmonotonic Reasoning
+      URL: http://www.cs.uni-potsdam.de/lpnmr09
+
+General
+-------
+
+The workshops on (constraint) logic programming are the annual meeting
+of the Society of Logic Programming (GLP e.V.)  and bring together
+researchers interested in logic programming, constraint programming,
+and related areas like databases, artificial intelligence and
+operations research. Previous workshops have been held in Germany,
+Austria and Switzerland.  The technical program of the workshop will
+include an invited talk, presentations of refereed papers and demo
+presentations.
+
+Previous workshops took place in Dresden (2008), Würzburg (2007),
+Vienna (2006), Ulm (2005), Potsdam(2004), Dresden(2002), Kiel (2001),
+...
+
+Topics
+------
+
+Contributions are welcome on all theoretical, experimental, and
+application aspects of constraint programming (CP) and logic
+programming (LP), including, but not limited to (the order does not
+reflect priorities):
+
+ * Foundations of Constraint/Logic Programming
+ * Constraint Solving and Optimization
+ * Extensions: Functional Logic Programming, Objects
+ * Deductive Databases, Data Mining
+ * Nonmonotonic Reasoning
+ * Dynamics, Updates, States, Transactions
+ * Interaction of CP/LP with other formalisms like Agents, XML, JAVA
+ * Program Analysis, Program Transformation, Program Verification,
+   Meta Programming
+ * Parallelism and Concurrency
+ * Answer-set Programming
+ * Implementation Techniques
+ * Software Techniques (e.g., Types, Modularity, Design Patterns)
+ * Applications (e.g., in Production, Environment, Education, Internet)
+ * Constraint/Logic Programming for Semantic Web Systems and Applications
+ * Reasoning on the Semantic Web
+ * Data Modeling for the Web, Semistructured Data, and Web Query Languages
+
+The primary focus is on new and original research results but
+submissions describing innovative products, prototypes under
+development, interesting experiments (e.g., benchmarks) or ongoing
+scientific work are also encouraged.
+
+Important Note: Co-submission to the LPNMR'09 are possible, however,
+the submitted material can be presented on at most one of both events.
+
+Proceedings
+-----------
+
+The proceedings will be published as a technical report of the
+Institute of Computer Science, Potsdam University.
+
+Registration
+------------
+
+To register for WLP 2009 please consider the LPNMR'09 registration 
+information
+at http://www.cs.uni-potsdam.de/lpnmr09/index.php?page=registration and its
+registration form at 
+http://www.cs.uni-potsdam.de/lpnmr09/index.php?page=registform .
+
+Local info
+----------
+
+For information on travel please consider LPNMR'09 "Getting to Potsdam" at
+http://www.cs.uni-potsdam.de/lpnmr09/index.php?page=getting-to-potsdamand
+for accommodation suggestions visit the LPNMR'09 accommodation web page at
+http://www.cs.uni-potsdam.de/lpnmr09/index.php?page=accommodation.
+
+Preliminary Program
+-------------------
+
+
+Tuesday, September 15:
+======================
+   
+08:30 -- 09:30 Invited Talk at LPNMR
+------------------------------------
+
+Ilkka Niemelä: Integrating Answer Set Programming and Satisfiability 
+Modulo Theories
+
+   
+09:30 -- 10:20 Databases
+------------------------
+
+Michael Hanus and Sven Koschnicke: An ER-based Framework for Declarative 
+Web Programming   
+
+Dietmar Seipel. Practical Applications of Extended Deductive Databases 
+in Datalog^s   
+
+
+10:20 -- 10:40 Coffee Break
+
+
+10:40 -- 11:55 Answer Set Programming
+-------------------------------------
+
+Martin Gebser, Henrik Hinrichs, Torsten Schaub and Sven Thiele: xpanda: 
+A (Simple) Preprocesser for Adding Multi-valued Propositions to ASP
+
+Pedro Cabalar: Existential Quantifiers in the Rule Body   
+
+Johannes Oetsch, Martin Schwengerer and Hans Tompits: Kato: A 
+Plagiarism-Detection Tool for Answer-Set Programs
+
+
+11:55 -- 12:20 Theory of Logic Programming
+------------------------------------------
+
+Heinrich Herre and Axel Hummel: A Paraconsistent Semantics for 
+Generalized Logic Programs
+
+
+12:20 -- 13:30 Lunch Break
+
+
+13:30 -- 14:20 Invited Talk at WLP
+----------------------------------
+
+Neng-Fa Zhou: What I have learned from all these solver competitions
+
+
+14:20 -- 15:35 Theory (of Logic Programming)
+--------------------------------------------
+
+Heinrich Herre and Axel Hummel: Stationary Generated Models of 
+Generalized Logic Programs
+
+John Gallagher and Gourinath Banda: Constraint-Based Abstraction of a 
+Model Checker for Infinite State Systems
+
+Stefan Brass: Range Restriction for General Formulas
+
+
+15:35 -- 16:00 Coffee Break
+
+
+16:00 -- 17:15 GLP Meeting
+--------------------------
+
+17:20 Sanssouci Tour
+--------------------
+
+
+Wednesday, September 16
+========================
+   
+08:30 -- 09:30 Invited Talk WLP
+-------------------------------
+
+Tom Schrijvers: Monadic Constraint Programming
+ 
+   
+09:30 -- 10:20 CHR
+------------------
+
+Slim Abdennadher, Haythem Ismail and Frederick Khoury: Transforming 
+Imperative Algorithms to Constraint Handling Rules   
+
+Hariolf Betz, Frank Raiser and Thom Fruehwirth: Persistent Constraints 
+in Constraint Handling Rules
+
+
+10:20 -- 10:40 Coffee Break
+
+
+10:40 -- 11:30 Practice of LP
+-----------------------------
+
+Hans-Joachim Goltz and Norbert Pieth: A Tool for Generating Partition 
+Schedules of Multiprocessor Systems
+
+Ulrich Geske and Hans-Joachim Goltz: Efficiency of Difference-List 
+Programming
+
+
+... continued by the LPNMR'09 program at 
+http://www.cs.uni-potsdam.de/lpnmr09/index.php?page=conference-program
+
+
+
+Program committee
+-----------------
+
+Slim Abdennadher (German University Cairo) Christoph Beierle (FernUniv. 
+Hagen)
+Stefan Brass (MLU Halle-Wittenberg) Jürgen Dix (Clausthal University of 
+Technology)
+Tim Furche (LMU München)
+Ulrich Geske (Univ. Potsdam)
+Hans-Joachim Goltz (Fraunhofer FIRST)
+Michael Hanus (CAU Kiel)
+Heinrich Herre (Univ. Leipzig) Steffen Hölldobler (TU Dresden)
+Petra Hofstedt (TU Berlin)
+Ulrich John (SIR Plan GmbH)
+Michael Leuschel (Univ. Düsseldorf)
+Ulrich Neumerkel (TU Wien)
+Frank Raiser (Univ. Ulm)
+Georg Ringwelski (Hochschule Zittau/Görlitz)
+Sibylle Schwarz (Hochschule Zwickau)
+Dietmar Seipel (Univ. Würzburg)
+Michael Thielscher (TU Dresden)
+Hans Tompits (TU Wien)
+Armin Wolf (Fraunhofer FIRST)
+
+
+Chair (Contact)
+---------------
+
+Dr. Armin Wolf
+e-mail: armin.wolf@first.fraunhofer.de
+
+Fraunhofer-Institut für Rechnerarchitektur
+und Softwaretechnik, FIRST
+Kekuléstraße 7
+12489 Berlin
+
+ 
+Prof. Dr. Ulrich Geske
+e-mail: ulrich.geske@uni-potsdam.de
+
+Universität Potsdam
+Institut für Informatik
+Haus 4 August-Bebel-Straße 89
+14482 Potsdam

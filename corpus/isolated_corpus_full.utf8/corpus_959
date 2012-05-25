@@ -1,0 +1,129 @@
+From - Thu Dec 10 14:25:30 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.82.138.14 with SMTP id l14cs193051bud;
+        Fri, 12 Jan 2007 04:47:14 -0800 (PST)
+Received: by 10.66.221.6 with SMTP id t6mr819952ugg.1168606034778;
+        Fri, 12 Jan 2007 04:47:14 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id l40si1803058ugc.2007.01.12.04.47.10;
+        Fri, 12 Jan 2007 04:47:14 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1H5LoC-0005Zc-SQ; Fri, 12 Jan 2007 13:47:00 +0100
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1H5Lo9-000DMS-AW; Fri, 12 Jan 2007 13:46:57 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1H5Lo8-000DMN-Uh; Fri, 12 Jan 2007 13:46:56 +0100
+Received: from ipex1.johnshopkins.edu [162.129.8.141] 
+	by rolf.uib.no for corpora@hd.uib.no with esmtp (TLSv1:RC4-SHA:128) (Exim 4.34)
+	id 1H5Lo4-0003gr-2y; Fri, 12 Jan 2007 13:46:53 +0100
+Received: from pool-70-16-23-151.balt.east.verizon.net (HELO tree.cs.jhu.edu) ([70.16.23.151])
+  by ipex1.johnshopkins.edu with ESMTP/TLS/AES256-SHA; 12 Jan 2007 06:46:31 -0500
+X-BrightmailFiltered: true
+X-Brightmail-Tracker: AAAAAA==
+X-IronPort-AV: i="4.13,178,1167627600"; 
+   d="scan'208"; a="110883310:sNHT24064104"
+Received: from tree.cs.jhu.edu (localhost.localdomain [127.0.0.1])
+	by tree.cs.jhu.edu (8.13.8/8.13.8) with ESMTP id l0CBkC9t029187
+	for <corpora@hd.uib.no>; Fri, 12 Jan 2007 06:46:12 -0500
+Received: (from jason@localhost)
+	by tree.cs.jhu.edu (8.13.8/8.13.8/Submit) id l0CBkCeu029186;
+	Fri, 12 Jan 2007 06:46:12 -0500
+X-Authentication-Warning: tree.cs.jhu.edu: jason set sender to jason@cs.jhu.edu using -f
+To: corpora@hd.uib.no
+From: Joakim Nivre <nivre@msi.vxu.se>
+Reply-To: conll07st@uvt.nl
+Subject: [Corpora-List] CFP: CoNLL Shared Task 2007
+From: Jason Eisner <jason@cs.jhu.edu>
+Date: Fri, 12 Jan 2007 06:46:12 -0500
+Message-ID: <m3ps9kcvsr.fsf@tree.cs.jhu.edu>
+User-Agent: Gnus/5.1008 (Gnus v5.10.8) Emacs/21.4 (gnu/linux)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-checked-clean: by exiscan on rolf
+X-Scanner: 183fd2aa98398b3c1ad0bef147af8583 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -13.9 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 Received: contains a forged HELO
+  -15 From is listed in 'whitelist_SA'
+  1.0 BODY: UIB_MAILWON
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+                 CoNLL Shared Task 2007
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+        Second and Final Call for Participation
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20
+The shared task of the Conference on Computational Natural=20
+Language Learning (CoNLL) 2007 will for the second year=20
+running be devoted to dependency parsing. Unlike in 2006,
+there will be two separate tracks:
+
+1. Multilingual Track: The first track of the shared task=20
+   will be organized in the same way as the 2006 task (see
+   http://nextens.uvt.nl/~conll/) with annotated training=20
+   and test data from a wide range of languages, which should
+   be processed with one and the same parsing system. The=20
+   languages this year will be Arabic, Basque, Catalan, Chinese,
+   Czech, English, Greek, Hungarian, Italian, and Turkish.
+
+2. Domain Adaptation Track: The second track of the shared
+   task will investigate techniques for adapting current parsing=20
+   technologies to domains outside of the data from which they=20
+   were trained. The single language for this track will be=20
+   English and the data will consist of 1) a large annotated=20
+   training set of news related text, 2) a small annotated=20
+   development data set of non-news text, 3) one or more small=20
+   test data sets of non-news text, 4) large unlabeled=20
+   corpora extracted from the domains of the training,=20
+   development and test data.
+
+The shared task will be part of the joint EMNLP-CoNLL conference=20
+to be held in conjunction with ACL-07 in Prague, June 28-30, 2007.=20
+The important dates for the shared task are as follows (please
+note that some dates have been shifted slightly since the first
+call):
+
+Registration of participants                    January 20, 2007
+Release of training (and development) data      January 29, 2007
+Release of test data                            March 26, 2007
+Submission of test runs                         March 30, 2007
+Submission of papers                            April 14, 2007
+Notification of acceptance                      April 25, 2007
+Submission of final version of papers           May 9, 2007
+EMNLP-CoNLL conference                          June 28-30, 2007
+=20
+In order to receive future calls and other information about=20
+the shared task, participants should register their intent to=20
+participate, in either or both of the two tracks, by sending=20
+an e-mail to conll07st@uvt.nl. Although the deadline for=20
+registration is not until January 20, 2007, we recommend=20
+participants to register as early as possible, in order not=20
+to miss any information.
+
+The website for the CoNLL shared task 2007 will be=20
+http://depparse.uvt.nl/depparse-wiki/SharedTaskWebsite.
+This site will be updated continually, so please make sure
+to check it out from time to time.=20
+
+Questions about the CoNLL shared task 2007 can be sent to
+conll07st@uvt.nl.
+
+The organizers
+
+Joakim Nivre
+Johan Hall
+Sandra K=C3=BCbler
+Ryan McDonald
+Jens Nilsson
+Sebastian Riedel
+Deniz Yuret
+

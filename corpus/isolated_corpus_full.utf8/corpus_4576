@@ -1,0 +1,480 @@
+From - Thu Dec 10 14:35:27 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.125.203 with SMTP id z11cs30618far;
+        Tue, 3 Mar 2009 07:01:02 -0800 (PST)
+Received: by 10.86.76.20 with SMTP id y20mr471851fga.62.1236092461883;
+        Tue, 03 Mar 2009 07:01:01 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.google.com with ESMTP id 27si2715886fxm.69.2009.03.03.07.01.00;
+        Tue, 03 Mar 2009 07:01:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) client-ip=129.177.30.12;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.12 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (noralf.uib.no) [127.0.0.1] 
+	by noralf.uib.no  with esmtp  (Exim 4.69)
+	id 1LeVzy-0005O9-J1; Tue, 03 Mar 2009 15:53:34 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1LeTdl-0007gE-3L; Tue, 03 Mar 2009 13:22:29 +0100
+Received: from fred.zcu.cz [147.228.57.19] 
+	by rolf.uib.no for corpora@hd.uib.no with esmtp  (Exim 4.69)
+	id 1LeTde-0002HX-8Z; Tue, 03 Mar 2009 13:22:38 +0100
+Received: from eryx2.localdomain (eryx.zcu.cz [147.228.52.224])
+	by fred.zcu.cz (Postfix) with ESMTP id 9C1ADA00040F;
+	Tue,  3 Mar 2009 13:15:14 +0100 (CET)
+Received: by eryx2.localdomain (Postfix, from userid 1332)
+	id 4E026D79A6; Tue,  3 Mar 2009 13:15:14 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by eryx2.localdomain (Postfix) with ESMTP id 3C3C0D79A5;
+	Tue,  3 Mar 2009 13:15:14 +0100 (CET)
+Date: Tue, 3 Mar 2009 13:15:14 +0100 (CET)
+From: Vaclav Matousek <matousek@kiv.zcu.cz>
+X-X-Sender: matousek@eryx2.zcu.cz
+To: "Ontoweb-list@lists.deri.org" <Ontoweb-list@lists.deri.org>, 
+	"semanticweb@yahoogroups.com" <semanticweb@yahoogroups.com>, 
+	"w3c-announce@w3.org" <w3c-announce@w3.org>, 
+	"sw-announce@semanticplanet.com" <sw-announce@semanticplanet.com>, 
+	"AI-SGES@JISCMAIL.AC.UK" <AI-SGES@JISCMAIL.AC.UK>, 
+	"dl@dl.kr.org" <dl@dl.kr.org>, "ontology@fipa.org" <ontology@fipa.org>, 
+	"agents@cs.umbc.edu" <agents@cs.umbc.edu>, 
+	"kaw@science.uva.nl" <kaw@science.uva.nl>, 
+	"isworld@lyris.isworld.org" <isworld@lyris.isworld.org>, 
+	"info@folli.org" <info@folli.org>, 
+	"www-webont-wg@w3.org" <www-webont-wg@w3.org>, 
+	"cg@cs.uah.edu" <cg@cs.uah.edu>, "dai-list@mcc.com" <dai-list@mcc.com>, 
+	"diglib@infoserv.inist.fr" <diglib@infoserv.inist.fr>, 
+	"ISWORLD@listserv.heanet.ie" <ISWORLD@listserv.heanet.ie>, 
+	"ifla.listserv@infoserv.inist.fr" <ifla.listserv@infoserv.inist.fr>, 
+	"swws-list@isoco.com" <swws-list@isoco.com>, 
+	"kweb-all@lists.deri.org" <kweb-all@lists.deri.org>, 
+	"ontology@atl.lmco.com" <ontology@atl.lmco.com>, 
+	"topicmapmail@infoloom.com" <topicmapmail@infoloom.com>, 
+	"tccc@cs.columbia.edu" <tccc@cs.columbia.edu>, 
+	"koskenni@ling.Helsinki.FI" <koskenni@ling.Helsinki.FI>, 
+	"act-r-users@act-r.psy.cmu.edu" <act-r-users@act-r.psy.cmu.edu>, 
+	"chi-Announcements@acm.org" <chi-Announcements@acm.org>, 
+	"collab@sims.berkeley.edu" <collab@sims.berkeley.edu>, 
+	"agents-owner@cs.umbc.edu" <agents-owner@cs.umbc.edu>, 
+	"semantic-web@w3c.org" <semantic-web@w3c.org>, 
+	"seweb-list@cs.vu.nl" <seweb-list@cs.vu.nl>, 
+	"itssmily@yahoo.co.in" <itssmily@yahoo.co.in>, 
+	"agents@cs.umbc.edu" <agents@cs.umbc.edu>, 
+	"fipa-chat@IEEE.ORG" <fipa-chat@IEEE.ORG>, 
+	"cluk@dcs.shef.ac.uk" <cluk@dcs.shef.ac.uk>, 
+	"project@aktors.org" <project@aktors.org>, 
+	"seweb-list@www1-c703.uibk.ac.at" <seweb-list@www1-c703.uibk.ac.at>, 
+	"eccaiwww@eccai.org" <eccaiwww@eccai.org>, 
+	"ml@dcs.shef.ac.uk" <ml@dcs.shef.ac.uk>, 
+	"aiia@dis.uniroma1.it" <aiia@dis.uniroma1.it>, 
+	"elsnet-list@elsnet.org" <elsnet-list@elsnet.org>, 
+	"irlist-editor@sigir.org" <irlist-editor@sigir.org>, 
+	"community@mlnet.org" <community@mlnet.org>, 
+	"elsnet-list@mailman.elsnet.org" <elsnet-list@mailman.elsnet.org>, 
+	"ml@isle.org" <ml@isle.org>, "web-semantics-italia@yahoogroups.com"
+	<web-semantics-italia@yahoogroups.com>, 
+	"public-sws-ig@w3.org" <public-sws-ig@w3.org>, 
+	"ruleml-all@ruleml.org" <ruleml-all@ruleml.org>, 
+	"announce@sigart.acm.org" <announce@sigart.acm.org>, 
+	"semantic-web@w3.org" <semantic-web@w3.org>, 
+	"www-rdf-logic@w3.org" <www-rdf-logic@w3.org>, 
+	"semanticweb@egroups.com" <semanticweb@egroups.com>, 
+	"www-rdf-rules@w3.org" <www-rdf-rules@w3.org>, 
+	"sw-announce@semanticplanet.com" <sw-announce@semanticplanet.com>, 
+	"corpora@hd.uib.no" <corpora@hd.uib.no>, 
+	"salt@dcs.shef.ac.uk" <salt@dcs.shef.ac.uk>, 
+	"mlnet@ais.fraunhofer.de" <mlnet@ais.fraunhofer.de>, 
+	"nlp@dcs.shef.ac.uk" <nlp@dcs.shef.ac.uk>, 
+	"ir@sheffield.ac.uk" <ir@sheffield.ac.uk>, 
+	"public-sws-ig@w3.org" <public-sws-ig@w3.org>, 
+	"www-ws@w3c.org" <www-ws@w3c.org>, 
+	"BUSINESS-INFORMATION-ALL@JISCMAIL.AC.UK"
+	<BUSINESS-INFORMATION-ALL@JISCMAIL.AC.UK>, 
+	"sw-ergo@gui-design.de" <sw-ergo@gui-design.de>, 
+	"agentcities@fipa.org" <agentcities@fipa.org>, 
+	"announce@sigart.acm.org" <announce@sigart.acm.org>, 
+	"community@mlnet.org" <community@mlnet.org>, 
+	"rewerse-all@rewerse.net" <rewerse-all@rewerse.net>, 
+	"sem-grd@gridforum.org" <sem-grd@gridforum.org>, 
+	"fg-db@informatik.uni-rostock.de" <fg-db@informatik.uni-rostock.de>, 
+	"fgwm@uni-trier.de" <fgwm@uni-trier.de>, 
+	"ankuendigungen-gimod@liste.es.e-technik.tu-darmstadt.de"
+	<ankuendigungen-gimod@liste.es.e-technik.tu-darmstadt.de>, 
+	"CSCW-ALL@JISCMAIL.AC.UK" <CSCW-ALL@JISCMAIL.AC.UK>, 
+	"www-annotation@w3.org" <www-annotation@w3.org>, 
+	"acl@opus.cs.columbia.edu" <acl@opus.cs.columbia.edu>, 
+	"public-sws-ig-request@w3.org" <public-sws-ig-request@w3.org>, 
+	"IFIPWG82@LISTSERV.SYR.EDU" <IFIPWG82@LISTSERV.SYR.EDU>, 
+	"tm-pubsubj@lists.oasis-open.org" <tm-pubsubj@lists.oasis-open.org>, 
+	"ecoop-info@ecoop.org" <ecoop-info@ecoop.org>, 
+	"conferences@computer.org" <conferences@computer.org>, 
+	"dotkom-project@dcs.shef.ac.uk" <dotkom-project@dcs.shef.ac.uk>, 
+	"info@openegovernment.org" <info@openegovernment.org>, 
+	"entr-egovo@cec.eu.int" <entr-egovo@cec.eu.int>, 
+	"egovbulletin@headstar.com" <egovbulletin@headstar.com>, 
+	"weekly@egovmonitor.com" <weekly@egovmonitor.com>, 
+	"web-semantica-ayuda@es.tldp.org" <web-semantica-ayuda@es.tldp.org>, 
+	"bull_i3@univ-tln.fr" <bull_i3@univ-tln.fr>, 
+	"uai@cs.orst.edu" <uai@cs.orst.edu>, 
+	"admin@ai-gakkai.or.jp" <admin@ai-gakkai.or.jp>, 
+	"jsai-ann@iijnet.or.jp" <jsai-ann@iijnet.or.jp>, 
+	"acl@opus.cs.columbia.edu" <acl@opus.cs.columbia.edu>, 
+	"iswc2003-list@www1-c703.uibk.ac.at" <iswc2003-list@www1-c703.uibk.ac.at>, 
+	"public-sws-ig@w3.org" <public-sws-ig@w3.org>, 
+	"deri.ie-iswc2005@lists.deri.org" <deri.ie-iswc2005@lists.deri.org>, 
+	"sem-grd@gridforum.org" <sem-grd@gridforum.org>, 
+	"ambient-intelligence@lists.andrew.cmu.edu"
+	<ambient-intelligence@lists.andrew.cmu.edu>, 
+	"soc-eusai@icp.inpg.fr" <soc-eusai@icp.inpg.fr>, 
+	"uai@ENGR.ORST.EDU" <uai@ENGR.ORST.EDU>, 
+	"announce@aosd.net" <announce@aosd.net>, 
+	"p2pmpi@u-strasbg.fr" <p2pmpi@u-strasbg.fr>, 
+	"openknowledge@inf.ed.ac.uk" <openknowledge@inf.ed.ac.uk>
+Message-ID: <alpine.DEB.1.10.0903031312210.29077@eryx2.zcu.cz>
+User-Agent: Alpine 1.10 (DEB 962 2008-03-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed;
+	BOUNDARY="-460070860-1032693544-1236079979=:29077"
+Content-ID: <alpine.DEB.1.10.0903031312211.29077@eryx2.zcu.cz>
+X-ZCU-MailScanner-ID: 9C1ADA00040F.68E8B
+X-ZCU-MailScanner: Found to be clean
+X-ZCU-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-101.414, required 5, ALL_TRUSTED -1.44, AWL 0.03,
+	USER_IN_WHITELIST -100.00)
+X-ZCU-MailScanner-From: matousek@kiv.zcu.cz
+X-Spam-Status: No
+X-checked-clean: by exiscan on rolf
+X-Scanner: 9f0a3bda636008cc668e2e0e90f6621a http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+ _SUMMARY_
+X-Mailman-Approved-At: Tue, 03 Mar 2009 15:53:26 +0100
+Subject: [Corpora-List] TSD 2009 Conference - Call for Papers
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---460070860-1032693544-1236079979=:29077
+Content-Type: TEXT/PLAIN; format=flowed; charset=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.DEB.1.10.0903031312212.29077@eryx2.zcu.cz>
+
+
+############################################################################
+
+       		         TSD 2009 - CALL FOR PAPERS
+            An International Conference on TEXT, SPEECH and DIALOGUE
+
+            Primavera Hotel & Congress centre, Plzen, Czech Republic
+
+            September 13-18, 2009 (after Interspeech-Eurospeech 2009)
+                         http://www.tsdconference.org/
+
+############################################################################
+
+[Our apologies for possible duplicates of this message]
+[Our apologies if you are in our list by mistake, in this case  please, simply 
+reply STOP in the subject line]
+
+The conference is organized by the Faculty of Applied Sciences, University
+of West Bohemia, Pilsen, and the Faculty of Informatics, Masaryk University,
+Brno.  TSD 2009 will be supported by International Speech Communication
+Association (ISCA) and Czech Society for Cybernetics and Informatics (CSKI).
+
+
+TSD SERIES
+
+TSD series evolved as a prime forum for interaction between researchers in both 
+spoken and written language processing from the former East Block
+countries and their Western colleagues. Proceedings of TSD form a book
+published by Springer-Verlag in their Lecture Notes in Artificial
+Intelligence (LNAI) series.
+
+
+TOPICS
+
+Topics of the international conference will include (but are not limited to):
+ 	text corpora and tagging
+ 	transcription problems in spoken corpora
+ 	sense disambiguation
+ 	links between text and speech oriented systems
+ 	parsing issues
+ 	parsing problems in spoken texts
+ 	multi-lingual issues
+ 	multi-lingual dialogue systems
+ 	information retrieval and information extraction
+ 	text/topic summarization
+ 	machine translation
+ 	semantic networks and ontologies
+ 	semantic web
+ 	speech modeling
+ 	speech segmentation
+ 	speech recognition
+ 	search in speech for IR and IE
+ 	text-to-speech synthesis
+ 	dialogue systems
+ 	development of dialogue strategies
+ 	prosody in dialogues
+ 	emotions and personality modeling
+ 	user modeling
+ 	knowledge representation in relation to dialogue systems
+ 	assistive technologies based on speech and dialogue
+ 	applied systems and software
+ 	facial animation
+ 	visual speech synthesis
+
+The keynote topic of TSD 2009 conference is Modern approaches in semantic
+analysis.
+
+
+OFFICIAL LANGUAGE
+
+The official language of the event will be English, but papers on processing
+in languages other than English are strongly encouraged.
+
+
+PROGRAM COMMITTEE
+
+     Frederick Jelinek, USA (general chair)
+     Hynek Hermansky, Switzerland (executive chair)
+     Eneko Agirre, Spain
+     Genevieve Baudoin, France
+     Jan Cernocky, Czech Rep.
+     Attila Ferencz, Romania
+     Alexander Gelbukh, Mexico
+     Louise Guthrie, GB
+     Jan Hajic,  Czech Rep.
+     Eva Hajicova, Czech Rep.
+     Patrick Hanks, Czech Republic
+     Ludwig Hitzenberger, Germany
+     Jaroslava Hlavacova, Czech Rep.
+     Ales Horak, Czech Rep.
+     Eduard Hovy, USA
+     Ivan Kopecek, Czech Rep.
+     Steven Krauwer, The Netherlands
+     Siegfried Kunzmann, Germany
+     Natalija Loukachevitch, Russia
+     Vaclav Matousek, Czech Rep.
+     Hermann Ney, Germany
+     Elmar Noeth, Germany
+     Karel Oliva, Austria, Czech Rep.
+     Karel Pala, Czech Rep.
+     Nikola Pavesic, Slovenia
+     Vladimir Petkevic, Czech Rep.
+     Fabio Pianesi, Italy
+     Adam Przepiorkowski, Poland
+     Josef Psutka, Czech Rep.
+     James Pustejovsky, USA
+     Leon J.M. Rothkrantz, The Netherlands
+     Ernst G. Schukat-Talamazzini, Germany
+     Pavel Skrelin, Russia
+     Pavel Smrz, Czech Rep.
+     Marko Tadic, Croatia
+     Tamas Varadi, Hungary
+     Zygmunt Vetulani, Poland
+     Taras Vintsiuk, Ukraine
+     Yorick Wilks, GB
+     Victor Zacharov, Russia
+
+
+FORMAT OF THE CONFERENCE
+
+The conference program will include presentation of invited papers, oral
+presentations, and poster/demonstration sessions. Papers will be presented
+in plenary or topic oriented sessions. A preliminary conference program will
+be published at the conference www pages. One day of the conference will be
+dedicated for tutorials and workshops.
+
+Social events including a trip in the vicinity of Plzen will allow for
+additional informal interactions.
+
+
+SUBMISSION OF PAPERS
+
+Authors are invited to submit a full paper not exceeding 8 pages formatted
+in the LNCS style (see below). Those accepted will be presented either
+orally or as posters. The decision about the presentation format will be
+based on the recommendation of three reviewers. The authors are asked to
+submit their papers using the on-line form accessible from the conference
+website.
+
+Papers submitted to TSD 2009 must not be under review by any other
+conference or publication during the TSD review cycle, and must not be
+previously published or accepted for publication elsewhere.
+
+As reviewing will be blind, the paper should not include the authors'
+names and affiliations. Furthermore, self-references that reveal the
+author's identity, e.g., "We previously showed (Smith, 1991) ...", should
+be avoided. Instead, use citations such as "Smith previously showed (Smith, 
+1991) ...".  Papers that do not conform to the requirements above are subject 
+to be rejected without review.
+
+The authors are strongly encouraged to write their papers in TeX or LaTeX
+formats. These formats are necessary for the final versions of the papers
+that will be published in the Springer Lecture Notes. Authors using a WORD
+compatible software for the final version must use the LNCS template for
+WORD and within the submit process ask the Proceedings Editors to convert
+the paper to LaTeX format.  For this service a service-and-license fee of
+CZK 1500 will be levied automatically.
+
+The paper format for review has to be either PDF or PostScript file with all
+required fonts included. Upon notification of acceptance, presenters will
+receive further information on submitting their camera-ready and electronic
+sources (for detailed instructions on the final paper format see
+http://www.springer.de/comp/lncs/authors.html#Proceedings.)
+
+Authors are also invited to present actual projects, developed software or
+interesting material relevant to the topics of the conference.  The
+presenters of the demonstration should provide the abstract not exceeding
+one page. The demonstration abstracts will not appear in the conference
+proceedings.
+
+
+LOCATION
+
+Plzen (Pilsen) is located in Western Bohemia on the confluence of four
+rivers. With 170 thousand inhabitants it is the fourth largest city in the
+Czech Republic and an important industrial, commercial, cultural, and
+administrative center.
+
+Plzen is well known for its brewing tradition. The trademark Pilsner-Urquell
+penetrated all over the world thanks to the traditional recipe, high quality
+hops and good wells. Beer lovers will also appreciate a visit to the brewery
+museum or the Brewery itself.
+
+Apart from its famous beer, Plzen has a lot of hidden treasures in its core.
+Plzen can pride itself on the second largest synagogue in Europe. The old
+city center is dominated by a 13th-century Gothic church which features the
+highest tower in Bohemia (102.34 m). It is possible to go up the stairs and
+admire the panorama. Not far from the church is a splendid Renaissance Town
+Hall from 1558 and plenty of pleasant cafes and pubs.
+
+Plzen has also a beautiful historical underground - under the city center
+there are 25 km of tunnels. Visitors can pass through the most beautiful
+part of this labyrinth.
+
+It is also recommended to visit the Zoo having the second largest space for
+bears in Europe and keeping the Komodo dragons - large lizards existing in
+only a few Zoos in the world..
+
+In the neighborhood of the city there are castle RadynÄ and hunting-seat
+Kozel. St. Peter's Rotunda in StarÃ½ Plzenec was built in the 10th century.
+
+The University of West Bohemia in Plzen provides a variety of courses for
+both Czech and international students. It is the only institution of higher
+education in this part of the country which prepares students for careers in
+engineering (electrical and mechanical), science (computer science, applied
+mathematics, physics, and mechanics), education (both primary and
+secondary), economics, philosophy, politology, archaeology, anthropology,
+foreign languages, law and public administration, art and design.
+
+
+GETTING THERE
+
+The city has an access from the D5 highway connecting Prague (Praha) with
+Germany. Plzen has a very good bus and train connections with the capital
+Prague (takes about 1 - 1.5 hour). From the international airport Prague -
+Ruzyne you can reach Plzen by frequent public transport in 1.5 - 2 hours.
+
+
+IMPORTANT DATES
+
+March 22, 2009		Submission of full papers
+May 15, 2009 		Notification of acceptance
+May 31, 2009		Final papers (camera-ready) submission and
+                         registration
+Sept. 13-18, 2009	TSD 2009 Conference
+
+The contributions to the conference will be published in proceedings that
+will be made available to participants at the time of the conference.
+
+
+CONFERENCE FEES
+
+The conference fee depends on the date of payment and on your status. It
+includes meals at the main conference time (Sept. 15-17), one copy of the
+proceedings, refreshments, social events and organizing costs. The fee does
+not include accommodation.
+
+Full participant:
+     Early payment (by May 31):      CZK  9000
+     Late payment (by August 15):    CZK 11000
+     On-site payment:                CZK 13000
+
+Student:
+     Early payment (by May 31):      CZK  7500
+     Late payment (by August 15):    CZK  9500
+     On-site payment:                CZK 11500
+
+The payment may be refunded up until August 15, at the cost of CZK 1500. No 
+refund is possible after this date.
+
+All costs are in Czech Crowns (Czech Koruna, CZK), see e.g.
+http://www.xe.com/ucc/ for the current exchange rate.
+
+At least one of the authors has to register and pay the registration fee by
+May 31, 2009 for their paper to be included in the conference proceedings.
+Only one paper of up to 8 pages is included in the regular registration fee.
+The additional paper and page charge is CZK 1000 per page. An author with
+more than one paper pays the additional paper(s) rates unless a co-author
+has also registered and paid the full registration fee.
+
+The organizing committee will provide discounts and grants for participants
+from East European countries (Russia, Belarus, Ukraine, ...). To apply for a 
+grant, send an email to tsd2009@tsdconference.org with subject 'Grant
+Application', in which you briefly describe the reasons for your
+application.  Each applicant must send a separate e-mail.
+
+
+ACCOMMODATION
+
+The organizing committee has arranged accommodation at reasonable prices in
+the Primavera hotel and student dormitories. The current prices of the
+accommodation will be available at the conference website.
+
+
+ADDRESS
+
+All correspondence regarding the conference should be addressed to:
+
+Mrs. Helena Ptackova
+University of West Bohemia in Pilsen
+Faculty of Applied Sciences
+Department of Computer Science
+Univerzitni 8
+CZ - 306 14  PLZEN
+Czech Republic
+
+Tel:    +420 377 632 401         Fax:   +420 377 632 402
+E-mail: tsd@kiv.zcu.cz
+
+TSD 2009 conference web site: http://www.tsdconference.org/
+
+-----
+---460070860-1032693544-1236079979=:29077
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora
+
+---460070860-1032693544-1236079979=:29077--
+

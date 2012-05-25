@@ -1,0 +1,187 @@
+From - Thu Dec 10 14:36:52 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.111.136 with SMTP id s8cs52242fap;
+        Wed, 6 May 2009 07:51:53 -0700 (PDT)
+Received: by 10.224.67.206 with SMTP id s14mr1690211qai.289.1241621512899;
+        Wed, 06 May 2009 07:51:52 -0700 (PDT)
+Return-Path: <sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu>
+Received: from lists2.andrew.cmu.edu (LISTS2.andrew.cmu.edu [128.2.10.216])
+        by mx.google.com with ESMTP id 31si10395258qyk.14.2009.05.06.07.51.52;
+        Wed, 06 May 2009 07:51:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) client-ip=128.2.10.216;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) smtp.mail=sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from LISTS2.andrew.cmu.edu (localhost [127.0.0.1])
+	by lists2.andrew.cmu.edu (8.14.1/8.14.3) with ESMTP id n46EpXZH026955
+	for <jpprost@gmail.com>; Wed, 6 May 2009 10:51:51 -0400
+X-Mailman-Handler: $Id: mm-handler,v 1.2 2009/03/26 12:45:11 dave64 Exp $
+Received: from yx-out-2324.google.com (yx-out-2324.google.com [74.125.44.29])
+	by lists2.andrew.cmu.edu (8.14.1/8.14.3) with ESMTP id n46EpUbS026946
+	for <sigparse-list@lists.andrew.cmu.edu>; Wed, 6 May 2009 10:51:31 -0400
+Received: by yx-out-2324.google.com with SMTP id 8so78374yxg.19
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Wed, 06 May 2009 07:51:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:cc:content-type:content-transfer-encoding;
+	bh=IjZjrh7IQyuwSqDVAWqGcgk70YN6r7JIFOv8VFJYKT4=;
+	b=CdLdb+1SDP+nuM3UHh3j/7ny+2WmdkHxvUeSqxRsIPH9QAqFtuMrlTCT2dJD/zDHrb
+	vfjDFFMnTo+OvPviFnQOVxbCP8+Phpni+dKBmCnQSO6vrVasEhLj2rwNa8locG8B4hb+
+	rTZIHGPLGUA2OetUkvs9sNzZ+LSmdM8wxU6k4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:cc:content-type
+	:content-transfer-encoding;
+	b=mf/ItUvDttkpj4DYitzEfBvsk/9ahN5I8Tb2IS0J+h+hL0Aw+EmQhaXgHBZWgB4QE1
+	QDNHvSGPIVzmUcXzLJCVRvvzi3JVytDHpawgRy/97Aj32aUKmtqqa6Z0z43CosVHP4cp
+	X0YwnOPZnJamwV8rB0TlC0LdjhN5po53KUT3o=
+MIME-Version: 1.0
+Received: by 10.151.135.5 with SMTP id m5mr804676ybn.70.1241621490545; Wed, 06 
+	May 2009 07:51:30 -0700 (PDT)
+Date: Wed, 6 May 2009 07:51:30 -0700
+Message-ID: <d6db8a880905060751r57544e11re26f013d1ef11c9f@mail.gmail.com>
+From: Tracy Holloway King <tracyhollowayking@gmail.com>
+To: lfg@listserv.linguistlist.org, hpsg-l@lists.stanford.edu,
+        sigparse-list@lists.andrew.cmu.edu
+X-PMX-Version: 5.5.2.363555, Antispam-Engine: 2.6.1.350677,
+	Antispam-Data: 2009.5.6.144019
+X-Spam-Clean: 8% (BODY_SIZE_3000_3999 0, BODY_SIZE_5000_LESS 0,
+	BODY_SIZE_7000_LESS 0, TO_NO_NAME 0, WEBMAIL_SOURCE 0,
+	__C230066_P5 0, __CP_URI_IN_BODY 0, __CT 0, __CTE 0,
+	__CT_TEXT_PLAIN 0, __FRAUD_419_WEBMAIL 0,
+	__FRAUD_419_WEBMAIL_FROM 0, __FROM_GMAIL 0, __HAS_MSGID 0,
+	__HELO_GMAIL 0, __MIME_TEXT_ONLY 0, __MIME_VERSION 0,
+	__PHISH_SPEAR_STRUCTURE_1 0, __RDNS_GMAIL 0, __SANE_MSGID 0,
+	__TO_MALFORMED_2 0)
+X-Spam-Score: 8%
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+Cc: Tracy Holloway King <tracyhollowayking@gmail.com>,
+        Marianne Santaholma <Marianne.Santaholma@unige.ch>
+Subject: SIGParse: GEAF09 demo call: June 8th extension
+X-BeenThere: sigparse-list@lists.andrew.cmu.edu
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: mailing list for parsing interest group of computational linguistics
+	<sigparse-list.lists.andrew.cmu.edu>
+List-Unsubscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=unsubscribe>
+List-Archive: <https://lists.andrew.cmu.edu/mailman/private/sigparse-list>
+List-Post: <mailto:sigparse-list@lists.andrew.cmu.edu>
+List-Help: <mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=help>
+List-Subscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+Errors-To: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+X-Spam-Notice: Not scanning again, previously scanned by 127.0.0.1
+
+*** ACCEPTING DEMO SESSION REQUESTS. Submission deadline June 8, 2009. ***
+
+  Workshop on Grammar Engineering Across Frameworks - GEAF2009
+
+       August 6 at the ACL/IJCNLP 2009 Conference, Singapore
+       http://www.issco.unige.ch/en/events/workshop/GEAF09/
+
+
+- Workshop Topics:
+
+    This workshop aims to bring together grammar engineers from
+different frameworks to compare research and methodologies,
+particularly around the themes of evaluation, modularity,
+maintainability, relevance to theoretical and computational
+linguistics, and applications of "deep" grammars to real-world domains
+and NLP tasks.
+
+    Recent years have seen the development of techniques and resources
+to support robust, deep grammatical analysis of natural language in
+real-world domains and applications. The demands of these types of
+tasks have resulted in significant advances in areas such as parser
+efficiency, hybrid statistical/symbolic approaches to disambiguation,
+and the acquisition of large-scale lexicons. The effective
+acquisition, development, maintenance and enhancement of grammars is a
+central issue in such efforts, and the size and complexity of
+realistic grammars makes these tasks extremely challenging; indeed,
+these tasks are often tackled in ways that have much in common with
+software engineering. This workshop aims to bring together grammar
+engineers from different frameworks --- for example LFG, HPSG, TAG,
+CCG, dependency grammar --- to compare their research and
+methodologies.
+
+
+- Demo Session:
+
+The demo session is meant to allow grammar engineers to describe and
+demonstrate implemented grammar-based applications and tools, their
+design, development, functionality etc. in an interactive setting.
+Demo session will comprise a "quick fire"  presentation of each demo
+after which the workshop participants have time to check out the demos
+individually.
+
+Submission of demo requests:
+
+The requests should contain a one page description of the demo.
+All demo requests must be submitted via the START system at:
+
+    https://www.softconf.com/acl-ijcnlp09/GEAF/submit.html
+
+Please submit pdf (not Word).
+
+Demo session requests will not be published in the proceedings but
+will be listed in the program.
+
+
+- Important Dates:
+
+    Demo session requests due:         8 June, 2009
+    ACL-IJCNLP 2009 Workshops:     6 Aug, 2009
+
+
+- Programme Committee:
+
+  * Emily Bender, Washington
+  * Miriam Butt, Konstanz
+  * John Carroll, Sussex
+  * Stephen Clark, Oxford
+  * Ann Copestake, Cambridge
+  * Berthold Crysmann, Bonn
+  * Mary Dalrymple, Oxford
+  * Stefanie Dipper, Bochum
+  * Dan Flickinger, Stanford
+  * Josef van Genabith, Dublin
+  * Julia Hockenmaier, Illinois
+  * Ron Kaplan, Powerset
+  * Montserrat Marimon, Barcelona
+  * Gertjan van Noord, Groningen
+  * Yusuke Miyao, Tokyo
+  * Jun'ichi Tsujii, Tokyo / Manchester
+
+
+- Organizers and Contacts for Inquiries:
+
+  * Tracy Holloway King, Microsoft / Powerset: Tracy.King@microsoft.com
+  * Marianne Santaholma, Geneva University: Marianne.Santaholma@unige.ch
+
+
+ For more general information about the workshop see:
+http://www.issco.unige.ch/en/events/workshop/GEAF09/
+
+
+
+
+
+
+-- 
+Natural Language Engineering | Microsoft Live Search | +1 415 848-7276
+http://www.linkedin.com/in/tracyhollowayking
+---------------------------------------------
+* To send mail to the list of all
+-  subscribers, send your message to:
+-    "sigparse-list@lists.andrew.cmu.edu"
+-
+* To send mail to the list administrator,
+-  send your message to:
+-  "owner-sigparse-list@lists.andrew.cmu.edu"
+----------------------------------------------
+-

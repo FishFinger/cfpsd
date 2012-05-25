@@ -1,0 +1,333 @@
+From - Thu Dec 10 14:32:43 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs434795waa;
+        Mon, 21 Jul 2008 07:55:46 -0700 (PDT)
+Received: by 10.210.68.17 with SMTP id q17mr3401508eba.53.1216652144218;
+        Mon, 21 Jul 2008 07:55:44 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id y34si7699644iky.10.2008.07.21.07.55.12;
+        Mon, 21 Jul 2008 07:55:44 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id D6C201592E; Mon, 21 Jul 2008 16:55:11 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1C3F8109DE;
+	Mon, 21 Jul 2008 16:54:17 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 014B93D22;
+	Mon, 21 Jul 2008 16:54:17 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id lRh7EeSNH-mq; Mon, 21 Jul 2008 16:54:16 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id AD0A63D47;
+	Mon, 21 Jul 2008 16:54:09 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 8EE7E3D3C
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 18 Jul 2008 14:25:57 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LmElfVo7ai0L for <elsnet-list@mailman.elsnet.org>;
+	Fri, 18 Jul 2008 14:25:57 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 633343D22
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 18 Jul 2008 14:25:57 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 374C415AC3; Fri, 18 Jul 2008 14:25:57 +0200 (MEST)
+Received: from minas.ics.muni.cz (minas.ics.muni.cz [147.251.4.40])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 2070715A7B
+	for <elsnet-list@elsnet.org>; Fri, 18 Jul 2008 14:25:48 +0200 (MEST)
+Received: from aurora.fi.muni.cz (aurora.fi.muni.cz [147.251.45.16])
+	by minas.ics.muni.cz (8.13.8/8.13.8/SuSE Linux 0.8) with ESMTP id
+	m6ICPkl1012476
+	(version=TLSv1/SSLv3 cipher=AES256-SHA bits=256 verify=NO)
+	for <elsnet-list@elsnet.org>; Fri, 18 Jul 2008 14:25:47 +0200
+Received: from turnus02.fi.muni.cz ([147.251.45.111])
+	by aurora.fi.muni.cz with esmtp (Exim 4.63)
+	(envelope-from <xrambous@aurora.fi.muni.cz>) id 1KJnzk-0006LL-0g
+	for elsnet-list@elsnet.org; Fri, 18 Jul 2008 13:19:36 +0200
+Received: from xrambous by turnus02.fi.muni.cz with local (Exim 4.67 #1
+	(Debian)) id 1KJnRm-0002UQ-Je
+	for <elsnet-list@elsnet.org>; Fri, 18 Jul 2008 12:44:22 +0200
+From: TSD 2008 <tsd2008@tsdconference.org>
+To: tsd2008@tsdconference.org
+Message-Id: <E1KJnRm-0002UQ-Je@turnus02.fi.muni.cz>
+Date: Fri, 18 Jul 2008 12:44:22 +0200
+X-SA-Exim-Connect-IP: 147.251.45.111
+X-SA-Exim-Mail-From: xrambous@aurora.fi.muni.cz
+X-SA-Exim-Version: 4.2.1 (built Thu, 07 Dec 2006 04:40:56 +0000)
+X-SA-Exim-Scanned: Yes (on aurora.fi.muni.cz)
+X-Muni-Spam-TestIP: 147.251.45.16
+X-Muni-Envelope-From: xrambous@aurora.fi.muni.cz
+X-Muni-Virus-Test: Clean
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0
+	(minas.ics.muni.cz [147.251.4.35]);
+	Fri, 18 Jul 2008 14:25:47 +0200 (CEST)
+X-Mailman-Approved-At: Mon, 21 Jul 2008 16:54:06 +0200
+Cc: 
+Subject: [Elsnet-list] TSD 2008 Call for Demonstrations and Participation
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: xrambous@aurora.fi.muni.cz
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+      *********************************************************
+	 TSD 2008 - CALL FOR DEMONSTRATIONS AND PARTICIPATION
+      *********************************************************
+
+Eleventh International Conference on TEXT, SPEECH and DIALOGUE (TSD 2008)
+	      Brno, Czech Republic, 8-12 September 2008
+		    http://www.tsdconference.org/
+
+The conference is organized by the Faculty of Informatics, Masaryk
+University, Brno, and the Faculty of Applied Sciences, University of
+West Bohemia, Pilsen.  The conference is supported by International
+Speech Communication Association.
+
+Venue: Brno, Czech Republic
+
+
+SUBMISSION OF DEMONSTRATION ABSTRACTS
+
+Authors are invited to present actual projects, developed software and
+hardware or interesting material relevant to the topics of the
+conference. The authors of the demonstrations should provide the
+abstract not exceeding one page as plain text. The submission must be
+made using an online form available at the conference www pages.
+
+The accepted demonstrations will be presented during a special
+Demonstration Session (see the Demo Instructions at
+www.tsdconference.org).  Demonstrators can present their contribution
+with their own notebook with an Internet connection provided by the
+organisers or the organisers can prepare a PC computer with multimedia
+support for demonstrators.
+
+
+IMPORTANT DATES
+
+July 31 2008 ............. Submission of demonstration abstracts
+August 7 2008 ............ Notification of acceptance for
+                           demonstrations sent to the authors
+September 8-12 2008 ...... Conference date
+
+The demonstration abstracts will not appear in the Proceedings of TSD
+2008 but they will be published electronically at the conference website.
+
+
+TSD SERIES
+
+TSD series evolved as a prime forum for interaction between
+researchers in both spoken and written language processing from the
+former East Block countries and their Western colleagues. Proceedings
+of TSD form a book published by Springer-Verlag in their Lecture Notes
+in Artificial Intelligence (LNAI) series.
+
+
+TOPICS
+
+Topics of the conference will include (but are not limited to):
+
+    text corpora and tagging
+    transcription problems in spoken corpora
+    sense disambiguation
+    links between text and speech oriented systems
+    parsing issues
+    parsing problems in spoken texts
+    multi-lingual issues
+    multi-lingual dialogue systems
+    information retrieval and information extraction
+    text/topic summarization
+    machine translation
+    semantic networks and ontologies
+    semantic web
+    speech modeling
+    speech segmentation
+    speech recognition
+    search in speech for IR and IE
+    text-to-speech synthesis
+    dialogue systems
+    development of dialogue strategies
+    prosody in dialogues
+    emotions and personality modeling
+    user modeling
+    knowledge representation in relation to dialogue systems
+    assistive technologies based on speech and dialogue
+    applied systems and software
+    facial animation
+    visual speech synthesis
+
+Papers on processing languages other than English are strongly
+encouraged.
+
+
+PROGRAM COMMITTEE
+
+    Frederick Jelinek, USA (general chair)
+    Hynek Hermansky, Switzerland (executive chair)
+    Eneko Agirre, Spain
+    Genevieve Baudoin, France
+    Jan Cernocky, Czech Republic
+    Attila Ferencz, Romania
+    Alexander Gelbukh, Mexico
+    Louise Guthrie, GB
+    Jan Hajic, Czech Republic
+    Eva Hajicova, Czech Republic
+    Patrick Hanks, Czech Republic
+    Ludwig Hitzenberger, Germany
+    Jaroslava Hlavacova, Czech Republic
+    Ales Horak, Czech Republic
+    Eduard Hovy, USA
+    Ivan Kopecek, Czech Republic
+    Steven Krauwer, The Netherlands
+    Siegfried Kunzmann, Germany
+    Natalija Loukachevitch, Russia
+    Vaclav Matousek, Czech Republic
+    Hermann Ney, Germany
+    Elmar Noeth, Germany
+    Karel Oliva, Czech Republic
+    Karel Pala, Czech Republic
+    Nikola Pavesic, Slovenia
+    Vladimir Petkevic, Czech Republic
+    Fabio Pianesi, Italy
+    Josef Psutka, Czech Republic
+    James Pustejovsky, USA
+    Leon Rothkrantz, The Netherlands
+    Ernst G. Schukat-Talamazzini, Germany
+    Pavel Skrelin, Russia
+    Pavel Smrz, Czech Republic
+    Marko Tadic, Croatia
+    Tamas Varadi, Hungary
+    Zygmunt Vetulani, Poland
+    Taras Vintsiuk, Ukraine
+    Yorick Wilks, GB
+    Victor Zakharov, Russia
+
+
+KEYNOTE SPEAKERS
+
+    Jerry Hobbs, ISI USC, USA
+    Deep Lexical Semantics
+
+    Elizabeth Shriberg, SRI, USA
+    Practical Prosody: Modeling Language Beyond the Words
+
+    Graeme Hirst, University of Toronto, Canada
+    The Future of Text-Meaning in Computational Linguistics
+
+
+FORMAT OF THE CONFERENCE
+
+The conference program will include presentation of invited papers,
+oral presentations, and poster/demonstration sessions. Papers will
+be presented in plenary or topic oriented sessions.
+
+Social events including a trip in the vicinity of Brno will allow
+for additional informal interactions.
+
+
+OFFICIAL LANGUAGE
+
+The official language of the conference is English.
+
+
+CONFERENCE FEES
+
+The conference fee depends on the date of payment and on your status.
+It includes one copy of the proceedings, refreshments, local
+transport, social events and organizing costs. The fee does not
+include accommodation.
+
+Full participant:
+    Late payment (by August 15):    CZK 10000
+    On-site payment:                CZK 12000
+
+Student:
+    Late payment (by August 15):    CZK  8500
+    On-site payment:                CZK 10000
+
+The payment may be refunded up until August 15, at the cost
+of CZK 1500. No refund is possible after this date.
+
+All costs are in Czech Crowns (Czech Koruna, CZK), see e.g.
+http://www.xe.com/ucc/ for the current exchange rate.
+
+
+ACCOMMODATION
+
+The organizing committee will arrange discounts on accommodation in
+the 3-star hotel at the conference venue. The current prices of the
+accommodation are available at the conference website.
+
+
+ADDRESS
+
+All correspondence regarding the conference should be
+addressed to
+    
+    Dana Hlavackova, TSD 2008
+    Faculty of Informatics, Masaryk University
+    Botanicka 68a, 602 00 Brno, Czech Republic
+    phone: +420-5-49 49 33 29
+    fax: +420-5-49 49 18 20
+    email: tsd2008@tsdconference.org
+
+The official TSD 2008 homepage is: http://www.tsdconference.org/
+
+
+LOCATION
+
+Brno is the second largest city in the Czech Republic with a
+population of almost 400.000. The city is the country's judiciary and
+trade-fair center. Brno is the capital of Moravia, which is in the
+south-east part of the Czech Republic. Brno had been a Royal City
+since 1347 and with its six universities it forms also a cultural
+center of the region.
+
+Brno can be reached easily by direct flights from London, Moscow,
+Barcelona and Prague and by trains or buses from Prague (200 km) or
+Vienna (130 km).
+
+For the participants with some extra time, some nearby places may also
+be of interest.  Local ones include: Brno Castle now called Spilberk,
+Veveri Castle, the Old and New City Halls, the Augustine Monastery
+with St. Thomas Church and crypt of Moravian Margraves, Church of St.
+James, Cathedral of St. Peter & Paul, Cartesian Monastery in Kralovo
+Pole, the famous Villa Tugendhat designed by Mies van der Rohe along
+with other important buildings of between-war Czech architecture.
+
+For those willing to venture out of Brno, Moravian Karst with Macocha
+Chasm and Punkva caves, battlefield of Battle of three emperors
+(Napoleon, Russian Alexander and Austrian Franz - Battle by
+Austerlitz), Chateau of Slavkov (Austerlitz), Pernstejn Castle,
+Buchlov Castle, Lednice Chateau, Buchlovice Chateau, Letovice Chateau,
+Mikulov with one of the largest Jewish cemeteries in Central Europe,
+Telc - a town on the UNESCO heritage list, and many others are all
+within easy reach.
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

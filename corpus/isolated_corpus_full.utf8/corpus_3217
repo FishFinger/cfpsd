@@ -1,0 +1,837 @@
+From - Thu Dec 10 14:32:30 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs407658waa;
+        Wed, 25 Jun 2008 04:35:11 -0700 (PDT)
+Received: by 10.114.154.1 with SMTP id b1mr5492912wae.4.1214393711445;
+        Wed, 25 Jun 2008 04:35:11 -0700 (PDT)
+Return-Path: <sentto-1622440-2616-1214393698-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id l22si6737581waf.26.2008.06.25.04.35.08;
+        Wed, 25 Jun 2008 04:35:11 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2616-1214393698-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.16;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2616-1214393698-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2616-1214393698-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; domainkeys=hardfail header.From=lpl-infos@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id m5PBZ74h006775
+	for <jpprost@gmail.com>; Wed, 25 Jun 2008 21:35:07 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id m5PBZ7o6021079
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 25 Jun 2008 21:35:07 +1000
+X-ASG-Debug-ID: 1214393701-50f001fa0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam Firewall) with ESMTP id 0DF0D1E80127
+	for <jpprost@mailbox.ics.mq.edu.au>; Wed, 25 Jun 2008 21:35:01 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16]) by barra2.its.mq.edu.au with ESMTP id 1i3aLA95vRJ5BNYS for <jpprost@mailbox.ics.mq.edu.au>; Wed, 25 Jun 2008 21:35:01 +1000 (EST)
+Received: from n34c.bullet.mail.sp1.yahoo.com (n34c.bullet.mail.sp1.yahoo.com [66.163.168.168])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with SMTP id m5PBYxIL006759
+	for <jpprost@ics.mq.edu.au>; Wed, 25 Jun 2008 21:35:00 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=e8oFnI19Zz8JdlO2yyY/x2JbChusWXdAvrTC/pNJCwCgUlIDI+FxSzqU/ED4QbC6SRJx9/BVbdjSgIZpZdzhmGO3iCBoZ2I1FgQOnszg4doa02pFLg6VInE4cXCIE+Mz;
+Received: from [216.252.122.217] by n34.bullet.mail.sp1.yahoo.com with NNFMP; 25 Jun 2008 11:34:58 -0000
+Received: from [209.73.164.86] by t2.bullet.sp1.yahoo.com with NNFMP; 25 Jun 2008 11:34:58 -0000
+Received: from [66.218.66.97] by t8.bullet.scd.yahoo.com with NNFMP; 25 Jun 2008 11:34:58 -0000
+X-Yahoo-Newman-Id: 1622440-m2616
+X-Sender: noel.nguyen@lpl-aix.fr
+X-Apparently-To: lpl-infos@yahoogroups.com
+X-Received: (qmail 74457 invoked from network); 25 Jun 2008 11:34:54 -0000
+X-Received: from unknown (66.218.67.95)
+  by m57.grp.scd.yahoo.com with QMQP; 25 Jun 2008 11:34:54 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta16.grp.scd.yahoo.com with SMTP; 25 Jun 2008 11:34:54 -0000
+X-Received: from unknown (HELO [147.94.215.216]) ([147.94.215.216])
+  by mso1k193.u-3mrs.fr with ESMTP; 25 Jun 2008 13:34:52 +0200
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: ApoEAM3JYUiTXtfY/2dsb2JhbACyMg
+X-IronPort-AV: i="4.27,702,1204498800"; 
+   d="scan'208"; a="182006084:sNHT19940788"
+Message-Id: <08BFDE5B-C531-4EE0-B2B1-64681B01E792@lpl-aix.fr>
+To: lpl-infos@yahoogroupes.fr
+X-Mailer: Apple Mail (2.919.2)
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Noel Nguyen <Noel.Nguyen@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Wed, 25 Jun 2008 13:34:51 +0200
+X-ASG-Orig-Subj: [lpl-infos] JEL'2009 - (dis)continu - Preliminary CFP / Appel a communication preliminaire
+Subject: [lpl-infos] JEL'2009 - (dis)continu - Preliminary CFP / Appel a communication preliminaire
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="NK2p4E4Xbt6yoeOLD3JGAOSlOhxonIRlfzOa1DU"
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1214393703
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.25
+X-Barracuda-Spam-Status: No, SCORE=0.25 using per-user scores of TAG_LEVEL=2.5 QUARANTINE_LEVEL=3.0 KILL_LEVEL=6.0 tests=BSF_SC0_MJ019, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.54292
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.25 BSF_SC0_MJ019          Custom Rule MJ019
+
+--NK2p4E4Xbt6yoeOLD3JGAOSlOhxonIRlfzOa1DU
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+(dis)continu - VI^=E8mes Journ=E9es d'=C9tudes Linguistiques de Nantes=20=20
+(JEL'2009)
+
+   LLING - EA3827
+
+########################################################################
+
+				 JEL'2009
+       Preliminary Call for Papers - Premier Appel =E0 Communication
+
+########################################################################
+	      English version at the bottom of this message
+
+	   Apologies for multiple copies due to cross postings.
+	    Please send to interested colleagues and students.
+
+########################################################################
+
+Appel =E0 communication
+
+   Les 6^=E8mes Journ=E9es d'=C9tudes Linguistiques de Nantes (JEL'2009) =
+=20
+auront
+   lieu les 18 et 19 juin 2009. Elles seront organis=E9es par Olivier
+   Crouzet et Ali Tifrit du Laboratoire de Linguistique de Nantes
+   (LLING - EA3827). Dans le cadre historique (et amical) des
+   confrontations nantaises entre phon=E9ticiens et phonologues, le=20=20
+th=E8me et
+   titre de ces journ=E9es sera =AB(dis)continu=BB.
+
+   La question des relations entre substance et forme est au coeur du
+   dialogue entre phon=E9tique et phonologie. Si cette dichotomie a=20=20
+toujours
+   permis =E0 ces deux disciplines de se nourrir mutuellement, ce dialogue
+   se trouve aujourd'hui renouvell=E9 par l'=E9mergence de propositions
+   th=E9oriques qui pourraient modifier profond=E9ment les relations=20=20
+qu'elles
+   entretiennent. Ainsi, aussi bien du point de vue de la phonologie
+   (nature continue vs. discontinue des formes phonologiques, m=E9canismes
+   probabilistes vs. symboliques, interrogations sur la distinction=20=20
+entre
+   forme et substance...) que de celui de la phon=E9tique (discontinuit=E9s
+   articulatoires-acoustiques et acoustiques-perceptives, traitements
+   exemplaristes cherchant =E0 rendre compte de ph=E9nom=E8nes
+   phonologiques...), les fronti=E8res entre le continu et le discontinu
+   semblent parfois s'estomper.
+
+   Vous =EAtes convi=E9(e)s =E0 proposer des r=E9sum=E9s (2 pages maximum,
+   bibliographie incluse, format A4) interrogeant le continu et le
+   discontinu dans les formes sonores du langage :
+     * Continu en phonologie, Discontinu en phon=E9tique ;
+     * Relations entre substance et forme dans la production et la
+       perception de la parole ;
+     * Substance prosodique et interpr=E9tation linguistique ;
+     * Acquisition, D=E9veloppement, Apprentissage ;
+     * Structure du lexique, Relations phonologie / lexique, mod=E8les =E0
+       exemplaire ;
+     * Reconnaissance Automatique de la parole, Synth=E8se vocale ;
+     * etc.
+
+   (cette liste n'est en aucune mani=E8re limitative).
+
+   Tous les informations concernant le colloque et les modalit=E9s de
+   soumission de vos propositions de communication seront disponibles =E0
+   partir du 1er Octobre 2008 sur le site internet d=E9di=E9 au colloque :
+
+   http://www.lettres.univ-nantes.fr/lling/jel2009/
+
+Calendrier
+
+     * Date limite de soumission : 28 Novembre 2008
+     * Notification des acceptations: 26 Mars 2009
+     * R=E9ception des articles d=E9finitifs pour inclusion dans les actes =
+:
+       21 Mai 2009
+     * Programme d=E9finitif: 4 Juin 2009
+     * Colloque (JEL'2009): 18-19 juin 2009.
+
+
+
+
+########################################################################
+
+########################################################################
+
+   (dis)continu - 6th Nantes Conference in Linguistics (JEL'2009)
+
+   LLING - EA3827
+
+Call for papers
+
+   The 6th Journ=E9es d'=C9tudes Linguistiques de Nantes (JEL'2009) will =
+=20
+take
+   place on June, 18-19th 2009. They will be organized by Olivier
+   Crouzet and Ali Tifrit (Laboratoire de Linguistique de Nantes, LLING
+   - EA3827). In the historical (and friendly) context of discussion=20=20
+that
+   has taken place regularly in Nantes between phoneticians and
+   phonologists, the theme and title of this workshop will be :
+   "(dis)continu" (eng.: (dis)continuous).
+
+   The relationship between form and substance is at the heart of the
+   dialogue between phonetics and phonology. If these disciplines have
+   always been mutually enriched by this dichotomy, their dialogue is
+   nowadays renewed by the emergence of theoretical approaches that may
+   profoundly modify their relationships. Indeed, from the phonological
+   side (continuous vs. discontinuous nature of phonological forms,
+   probabilistic vs. symbolic mechanisms, interrogations concerning the
+   distinction between form and substance) as well as from the=20=20
+phonectics
+   side (articulatory-acoustic and acoustic-perceptual discontinuities,
+   exemplar-based processes aimed at accounting for phonological
+   mechanisms...), the boundaries between continuity and discontinuity
+   sometimes seem to vanish.
+
+   You're invited to submit summaries (maximum 2 pages, including
+   references, A4 paper) addressing any issue related to the=20=20
+relationship
+   between continuity and discontinuity in the sound structure of
+   language:
+     * Continuity in phonology, discontinuity in phonetics;
+     * Relationship between form and substance in speech production and
+       perception;
+     * Prosodic substance and linguistic interpretation;
+     * Acquisition, Development, Learning;
+     * Structure of the lexicon, Relationships between phonology and the
+       lexicon, examplar-based models;
+     * Automatic speech processing, Speech synthesis;
+     * etc.
+
+   (this list is not restrictive).
+
+   All information concerning the conference and the submission process
+   will be available on the conference website from October, 1st 2008:
+
+   http://www.lettres.univ-nantes.fr/lling/jel2009/
+
+Schedule
+
+     * Submission deadline: November, 28th 2008
+     * Notification of acceptation: March, 26th 2009
+     * Reception of final papers for inclusion into the proceedings:=20=20
+May,
+       21st 2009
+     * Final programme: June, 4th 2009
+     * Conference (JEL'2009): June, 18th-19th 2009.
+--NK2p4E4Xbt6yoeOLD3JGAOSlOhxonIRlfzOa1DU
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>(dis)continu - VI^=E8mes Journ=E9es d'=C9tudes Linguistiques=
+ de Nantes  <br>
+(JEL'2009)<br>
+<br>
+LLING - EA3827<br>
+<br>
+############<wbr>#########<wbr>#########<wbr>#########<wbr>#########<wbr>##=
+#######<wbr>#########<wbr>######<br>
+<br>
+				 JEL'2009<br>
+       Preliminary Call for Papers - Premier Appel =E0 Communication<br>
+<br>
+############<wbr>#########<wbr>#########<wbr>#########<wbr>#########<wbr>##=
+#######<wbr>#########<wbr>######<br>
+	      English version at the bottom of this message<br>
+<br>
+	   Apologies for multiple copies due to cross postings.<br>
+	    Please send to interested colleagues and students.<br>
+<br>
+############<wbr>#########<wbr>#########<wbr>#########<wbr>#########<wbr>##=
+#######<wbr>#########<wbr>######<br>
+<br>
+Appel =E0 communication<br>
+<br>
+Les 6^=E8mes Journ=E9es d'=C9tudes Linguistiques de Nantes (JEL'2009)  <br>
+auront<br>
+   lieu les 18 et 19 juin 2009. Elles seront organis=E9es par Olivier<br>
+   Crouzet et Ali Tifrit du Laboratoire de Linguistique de Nantes<br>
+   (LLING - EA3827). Dans le cadre historique (et amical) des<br>
+   confrontations nantaises entre phon=E9ticiens et phonologues, le  <br>
+th=E8me et<br>
+   titre de ces journ=E9es sera =AB(dis)continu=BB<wbr>.<br>
+<br>
+La question des relations entre substance et forme est au coeur du<br>
+   dialogue entre phon=E9tique et phonologie. Si cette dichotomie a  <br>
+toujours<br>
+   permis =E0 ces deux disciplines de se nourrir mutuellement, ce dialogue<=
+br>
+   se trouve aujourd'hui renouvell=E9 par l'=E9mergence de propositions<br>
+   th=E9oriques qui pourraient modifier profond=E9ment les relations  <br>
+qu'elles<br>
+   entretiennent. Ainsi, aussi bien du point de vue de la phonologie<br>
+   (nature continue vs. discontinue des formes phonologiques, m=E9canismes<=
+br>
+   probabilistes vs. symboliques, interrogations sur la distinction  <br>
+entre<br>
+   forme et substance...<wbr>) que de celui de la phon=E9tique (discontinui=
+t=E9<wbr>s<br>
+   articulatoires-<wbr>acoustiques et acoustiques-<wbr>perceptives, traitem=
+ents<br>
+   exemplaristes cherchant =E0 rendre compte de ph=E9nom=E8nes<br>
+   phonologiques.<wbr>..), les fronti=E8res entre le continu et le disconti=
+nu<br>
+   semblent parfois s'estomper.<br>
+<br>
+Vous =EAtes convi=E9(e)s =E0 proposer des r=E9sum=E9s (2 pages maximum,<br>
+   bibliographie incluse, format A4) interrogeant le continu et le<br>
+   discontinu dans les formes sonores du langage :<br>
+     * Continu en phonologie, Discontinu en phon=E9tique ;<br>
+     * Relations entre substance et forme dans la production et la<br>
+       perception de la parole ;<br>
+     * Substance prosodique et interpr=E9tation linguistique ;<br>
+     * Acquisition, D=E9veloppement, Apprentissage ;<br>
+     * Structure du lexique, Relations phonologie / lexique, mod=E8les =E0<=
+br>
+       exemplaire ;<br>
+     * Reconnaissance Automatique de la parole, Synth=E8se vocale ;<br>
+     * etc.<br>
+<br>
+(cette liste n'est en aucune mani=E8re limitative).<br>
+<br>
+Tous les informations concernant le colloque et les modalit=E9s de<br>
+   soumission de vos propositions de communication seront disponibles =E0<b=
+r>
+   partir du 1er Octobre 2008 sur le site internet d=E9di=E9 au colloque :<=
+br>
+<br>
+<a href=3D"http://www.lettres.univ-nantes.fr/lling/jel2009/">http://www.let=
+tres.<wbr>univ-nantes.<wbr>fr/lling/<wbr>jel2009/</a><br>
+<br>
+Calendrier<br>
+<br>
+* Date limite de soumission : 28 Novembre 2008<br>
+     * Notification des acceptations: 26 Mars 2009<br>
+     * R=E9ception des articles d=E9finitifs pour inclusion dans les actes =
+:<br>
+       21 Mai 2009<br>
+     * Programme d=E9finitif: 4 Juin 2009<br>
+     * Colloque (JEL'2009): 18-19 juin 2009.<br>
+<br>
+############<wbr>#########<wbr>#########<wbr>#########<wbr>#########<wbr>##=
+#######<wbr>#########<wbr>######<br>
+<br>
+############<wbr>#########<wbr>#########<wbr>#########<wbr>#########<wbr>##=
+#######<wbr>#########<wbr>######<br>
+<br>
+(dis)continu - 6th Nantes Conference in Linguistics (JEL'2009)<br>
+<br>
+LLING - EA3827<br>
+<br>
+Call for papers<br>
+<br>
+The 6th Journ=E9es d'=C9tudes Linguistiques de Nantes (JEL'2009) will  <br>
+take<br>
+   place on June, 18-19th 2009. They will be organized by Olivier<br>
+   Crouzet and Ali Tifrit (Laboratoire de Linguistique de Nantes, LLING<br>
+   - EA3827). In the historical (and friendly) context of discussion  <br>
+that<br>
+   has taken place regularly in Nantes between phoneticians and<br>
+   phonologists, the theme and title of this workshop will be :<br>
+   &quot;(dis)continu&quot; (eng.: (dis)continuous)<wbr>.<br>
+<br>
+The relationship between form and substance is at the heart of the<br>
+   dialogue between phonetics and phonology. If these disciplines have<br>
+   always been mutually enriched by this dichotomy, their dialogue is<br>
+   nowadays renewed by the emergence of theoretical approaches that may<br>
+   profoundly modify their relationships. Indeed, from the phonological<br>
+   side (continuous vs. discontinuous nature of phonological forms,<br>
+   probabilistic vs. symbolic mechanisms, interrogations concerning the<br>
+   distinction between form and substance) as well as from the  <br>
+phonectics<br>
+   side (articulatory-<wbr>acoustic and acoustic-perceptual discontinuities=
+,<br>
+   exemplar-based processes aimed at accounting for phonological<br>
+   mechanisms..<wbr>.), the boundaries between continuity and discontinuity=
+<br>
+   sometimes seem to vanish.<br>
+<br>
+You're invited to submit summaries (maximum 2 pages, including<br>
+   references, A4 paper) addressing any issue related to the  <br>
+relationship<br>
+   between continuity and discontinuity in the sound structure of<br>
+   language:<br>
+     * Continuity in phonology, discontinuity in phonetics;<br>
+     * Relationship between form and substance in speech production and<br>
+       perception;<br>
+     * Prosodic substance and linguistic interpretation;<br>
+     * Acquisition, Development, Learning;<br>
+     * Structure of the lexicon, Relationships between phonology and the<br=
+>
+       lexicon, examplar-based models;<br>
+     * Automatic speech processing, Speech synthesis;<br>
+     * etc.<br>
+<br>
+(this list is not restrictive)<wbr>.<br>
+<br>
+All information concerning the conference and the submission process<br>
+   will be available on the conference website from October, 1st 2008:<br>
+<br>
+<a href=3D"http://www.lettres.univ-nantes.fr/lling/jel2009/">http://www.let=
+tres.<wbr>univ-nantes.<wbr>fr/lling/<wbr>jel2009/</a><br>
+<br>
+Schedule<br>
+<br>
+* Submission deadline: November, 28th 2008<br>
+     * Notification of acceptation: March, 26th 2009<br>
+     * Reception of final papers for inclusion into the proceedings:  <br>
+May,<br>
+       21st 2009<br>
+     * Final programme: June, 4th 2009<br>
+     * Conference (JEL'2009): June, 18th-19th 2009.</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/261=
+6;_ylc=3DX3oDMTM0ZHBhamszBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI2MTYEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjE0MzkzNjk4BHRwY=
+0lkAzI2MTY-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwNDZuZDRxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI2MTYEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjE0MzkzNjk4?act=3Dreply&me=
+ssageNum=3D2616">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlZmIyN3JjBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTIxNDM5MzY5OA--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlM3R1ZzhuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTIxNDM5MzY5OA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmdTgzb2gzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyMTQzOTM2OTg-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbjIwampnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTIxNDM5MzY5OA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmbGVyODVhBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyMTQzOTM2OTg-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjM2lsN3N1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyMTQzOTM2OTg-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmbm5ic280BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyMTQzOTM2OTg-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlcnAyOWlzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTIxNDM5MzY5OA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkcGd2ajg5BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjE0MzkzNjk4">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkcmQ5dGJjBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjE0MzkzNjk4">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmbmw4YjZ1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyMTQzOTM2OTg-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+a291dmM4BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjE0MzkzNjk4">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background:white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital">
+	      		<div id=3D"vithd">Activit=E9s r=E9centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+		        <li style=3D"clear: both;">
+      <div class=3D"ct" style=3D"float: right;"><span style=3D"display:none=
+">&nbsp;</span>1</div>
+      <div class=3D"cat"><a href=3D"http://fr.groups.yahoo.com/group/lpl-in=
+fos/members;_ylc=3DX3oDMTJmbmF2aW1yBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jw=
+c3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzEyMTQzOTM2OTg-">Nouve=
+aux membres</a></div>
+    </li>
+=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlZGtlNTFtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTIxNDM5MzY5OA--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	          <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrMjNmaHYzBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTIxNDM5MzY5OA--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuazFvcXQwBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTIxNDM5MzY5OA--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvY2o3bmR0BF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyMTQzOTM2OTg-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2616/stime=3D1214393698/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<span  style=3D"color: white;">__,_._,___</span>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+	#ygrp-tpmsgs{
+	    font-family: Arial;=09
+	    clear: both;
+	}
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-actbar{
+		clear: both;
+		margin: 25px 0;
+		white-space:nowrap;
+		color: #666;
+		text-align: right;
+	}
+	#ygrp-actbar .left{
+		float: left;
+		white-space:nowrap;
+	}
+	.bld{font-weight:bold;}
+	#ygrp-grft{
+		font-family: Verdana;
+		font-size: 77%;
+		padding: 15px 0;
+	}
+	#ygrp-ft{
+	  font-family: verdana;
+	  font-size: 77%;
+	  border-top: 1px solid #666;=20
+	  padding: 5px 0;=20
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-grpname{
+        font-weight: bold;
+        margin-top: 10px;
+  	}
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital{
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+		padding: 2px 0 8px 8px;
+	}
+	#ygrp-vital #vithd{
+		font-size: 77%;
+		font-family: Verdana;
+		font-weight: bold;
+		color: #333;
+		text-transform: uppercase;
+	}
+	#ygrp-vital ul{
+		padding: 0;
+		margin: 2px 0;
+	}
+	#ygrp-vital ul li{
+	  list-style-type: none;
+	  clear: both;
+	  border: 1px solid #e0ecee;=20=20
+	}
+	#ygrp-vital ul li .ct{
+	  font-weight: bold;
+	  color: #ff7900;
+	  float: right;
+	  width: 2em;
+	  text-align:right;
+	  padding-right: .5em;
+	}
+	#ygrp-vital ul li .cat{
+	  font-weight: bold;
+	}
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #hd{
+		color: #999;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov{
+		padding: 6px 13px;
+		background-color: #e0ecee;
+		margin-bottom: 20px;
+	}
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+--NK2p4E4Xbt6yoeOLD3JGAOSlOhxonIRlfzOa1DU--

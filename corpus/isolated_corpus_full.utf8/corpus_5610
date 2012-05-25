@@ -1,0 +1,228 @@
+From - Thu Dec 10 14:37:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.5 with SMTP id c5cs146203faq;
+        Sun, 5 Jul 2009 05:31:11 -0700 (PDT)
+Received: by 10.210.80.12 with SMTP id d12mr1592278ebb.79.1246797069107;
+        Sun, 05 Jul 2009 05:31:09 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 27si10426006ewy.51.2009.07.05.05.31.08;
+        Sun, 05 Jul 2009 05:31:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C4AC920CE2; Sun,  5 Jul 2009 14:31:07 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.4 required=5.0 tests=AWL,BAYES_00,RDNS_DYNAMIC
+	autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8837320A59;
+	Sun,  5 Jul 2009 14:30:47 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 671953D3A;
+	Sun,  5 Jul 2009 14:30:47 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LP0yogHxNBfQ; Sun,  5 Jul 2009 14:30:47 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7D0AC3D2B;
+	Sun,  5 Jul 2009 14:30:45 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0BC2D3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 30 Jun 2009 21:27:54 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uCrJz2WBfzPZ for <elsnet-list@mailman.elsnet.org>;
+	Tue, 30 Jun 2009 21:27:53 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id CC7353D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue, 30 Jun 2009 21:27:29 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B336020AEB; Tue, 30 Jun 2009 21:27:29 +0200 (MEST)
+Received: from acm25-15.acm.org (acm25-15.acm.org [63.118.7.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 3545820A6E
+	for <elsnet-list@ELSNET.ORG>; Tue, 30 Jun 2009 21:27:24 +0200 (MEST)
+Received: from acm26-1 ([63.118.7.106])
+	by acm25-15.acm.org (StrongMail Enterprise 1.1-3(3.00.316));
+	Tue, 30 Jun 2009 15:27:20 -0400
+X-VirtualServerGroup: Default
+X-Destination-ID: elsnet-list@ELSNET.ORG
+X-MailingID: 00000::00000::00000::00000::::21639
+X-SMHeaderMap: mid="X-MailingID"
+X-SMFBL: ZWxzbmV0LWxpc3RARUxTTkVULk9SRw==
+X-Mailer: StrongMail Enterprise 1.1-3(3.00.316)
+Received: by LISTSERV.ACM.ORG (LISTSERV-TCP/IP release 15.5) with spool id
+	5090633 for ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG; Tue, 30 Jun
+	2009 15:27:30 -0400
+Approved-By: yivanov@MERL.COM
+Approved-By: A.Nijholt@EWI.UTWENTE.NL
+Received: from [64.18.2.89] by LISTSERV.ACM.ORG (SMTPL release 1.0w) with TCP; 
+	Tue, 30 Jun 2009 14:43:41 -0400
+Received: from source ([130.89.10.5]) by exprod7mx197.postini.com
+	([64.18.6.14]) with SMTP; Tue, 30 Jun 2009 14:43:27 EDT
+Received: from EWIEX01.ewi.utwente.nl (ewiex12.ewi.utwente.nl [130.89.10.51])
+	by rotterdam.ewi.utwente.nl (8.13.6/8.13.6) with ESMTP id
+	n5UIhPMS012587 for <ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG>; Tue,
+	30 Jun 2009 20:43:25 +0200 (MEST)
+X-MimeOLE: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: text/plain; charset="US-ASCII"
+Content-Transfer-Encoding: quoted-printable
+Thread-Topic: 2nd CfP Use of Context in Vision Processing Workshop
+Thread-Index: AcnHGdDjCnQrtfAuS3ieik+NEaOrwAAJj8hAAPZAdsAAABd+UAs00bBAAHE3mFAAAEBaoA==
+X-Scanned-By: MIMEDefang 2.52 on 130.89.10.5
+X-Greylist: Sender IP whitelisted,
+	not delayed by milter-greylist-3.0rc3 (rotterdam.ewi.utwente.nl
+	[130.89.10.5]); Tue, 30 Jun 2009 20:43:25 +0200 (MEST)
+X-pstn-neptune: 0/0/0.00/0
+X-pstn-levels: (S:37.83118/99.90000 CV:99.9000 FC:95.5390 LC:95.5390
+	R:95.9108 P:95.9108 M:97.0282 C:98.6951 )
+X-pstn-settings: 1 (0.1500:0.1500) cv gt3 gt2 gt1
+X-pstn-addresses: from <A.Nijholt@ewi.utwente.nl> [82/7]
+Message-ID: <FA783DEE7533904091C5F59BF22169AD030FBA2B@EWIEX12.dynamic.ewi.utwente.nl>
+Date: Tue, 30 Jun 2009 20:43:26 +0200
+From: A.Nijholt@EWI.UTWENTE.NL
+To: ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG
+Precedence: list
+List-Owner: <mailto:ICMI-MULTIMODAL-ANNOUNCE-request@LISTSERV.ACM.ORG>
+X-Mailman-Approved-At: Sun, 05 Jul 2009 14:30:22 +0200
+Cc: 
+Subject: [Elsnet-list] 2nd CfP Use of Context in Vision Processing Workshop
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Reply-To: ACM ICMI & MLMI Announcement List
+	<ICMI-MULTIMODAL-ANNOUNCE@LISTSERV.ACM.ORG>
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+2nd Call for Papers
+Workshop on Use of Context in Vision Processing (UCVP)
+
+http://hmi.ewi.utwente.nl/ucvp09  =20
+
+in conjunction with
+Eleventh International Conference on Multimodal Interfaces and Workshop
+on Machine Learning for Multi-modal Interaction (ICMI-MLMI 2009)
+
+http://icmi2009.acm.org/ =20
+Boston, USA, November 2-6, 2009
+=20
+
+Background. The Workshop on Use of Context in Vision Processing (UCVP)
+offers a timely opportunity for the exchange of recent work on employing
+contextual information in problems of Computer Vision. Recent efforts in
+defining ambient intelligence applications based on user-centric
+concepts, the advent of technology in different sensing modalities, as
+well as the expanding interest in multi-modal information fusion,
+situation-aware and dynamic vision processing algorithms have created a
+common motivation across different research disciplines to utilize
+context as a key enabler of application-oriented vision. Improved
+robustness, efficient use of sensing and computing resources, dynamic
+task assignment to different operating modules, as well as adaptation to
+event and user behavior models are among the benefits a vision
+processing system can gain through the utilization of contextual
+information.
+
+Aims and scope. UCVP aims to address the opportunities in incorporating
+contextual information in algorithm design for single or multi-camera
+vision systems, as well as systems in which vision is complemented with
+other sensing modalities, such as audio, motion, proximity, occupancy,
+and others. The objective of the workshop is to gather high-quality
+contributions describing leading-edge research in the use of context in
+vision processing. The workshop further aims to stimulate interaction
+among the participants through a panel discussion.
+
+Topics of interest to the workshop include:
+*   Sources of context (multi-camera networks, multi-modal sensing
+systems, long-term observation, behavior models, spatial or temporal
+relationships of objects and events, interaction of user with objects,
+internet resources as knowledge-base for context extraction)
+*   User-centric context (demographic information, activity, user's
+emotional state, stated preferences, explicit and implicit interfaces,
+interaction between users)
+*   Uses of context (context-driven event interpretation, active vision,
+multi-modal activation, service provision and switching based on
+context, response and interaction with user, detection of abnormal
+behavior, active sensing, task assignment to different sensing modules,
+guided vision based on high-level reasoning, user behavior modeling,
+applications in smart environments, human-computer interfaces)=20
+
+The workshop aims to encourage collaboration between researchers in
+different areas of computer vision and related disciplines. In addition,
+by introducing topics of emerging applications in smart environments,
+multi-camera networks, and multi-modal sensing as sources of context in
+vision, the workshop aims to extend the notion of context-based vision
+processing to include high-level and application-driven information
+extraction and fusion.
+
+Paper submission. The workshop solicits original and unpublished papers
+that address a wide range of issues concerning the use of context in
+vision processing. Authors should submit papers not exceeding six (6)
+pages in total in ACM format
+(http://www.acm.org/sigs/pubs/proceed/template.html). Submissions must
+be sent in PDF to the following email address: ucvp09@cs.utwente.nl.=20
+
+Accepted papers will be presented at the workshop and will appear in the
+ACM Digital Libraries. A hardcopy proceedings will be available during
+the workshop. At least one author of each paper must register and attend
+the workshop to present the paper.=20
+
+Important dates.
+Paper submission: July 15, 2009
+Author notification: September 1, 2009
+Camera-ready due: September 25, 2009
+Workshop: November 5, 2009
+
+Registration. Please note that registration is needed in order to
+include an accepted paper to the proceedings. Please refer to the main
+ICMI 2009 website for more details.
+
+Organizing team.
+Hamid Aghajan (Stanford University, USA)
+Ralph Braspenning (Philips Research, The Netherlands)
+Yuri Ivanov (MERL, USA)
+Louis-Philippe Morency (USC, USA)
+Anton Nijholt (University of Twente, The Netherlands)
+Maja Pantic (Imperial College, London UK; University of Twente, The
+Netherlands)
+Ming-Hsuan Yang (Univ. of California Merced, USA)
+
+Program committee
+Stan Birchfield, Clemson University, USA
+Yang Cai, CMU, USA
+Tanzeem Choudhury, Dartmouth College, USA
+Bill Christmas, University of Surrey, UK
+Maurice Chu, PARC, Palo Alto, USA
+David Demirdjian, MIT, USA
+Abhinav Gupta, University of Maryland, USA
+Ronald Poppe, TU Delft, The Netherlands
+Paolo Remagnino, Kingston University, UK
+Neil Robinson, Heriot-Watt University, UK
+Michael S. Ryoo, ETRI, Korea=20
+Stan Sclaroff, Boston University, USA
+Rainer Stiefelhagen, University of Karlsruhe, Germany
+YingLi Tian, CCNY, New York
+Fernando de la Torre, CMU, USA
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,497 @@
+From - Thu Dec 10 14:32:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139137waa;
+        Sun, 15 Jun 2008 02:40:58 -0700 (PDT)
+Received: by 10.210.38.17 with SMTP id l17mr4873880ebl.30.1213522857147;
+        Sun, 15 Jun 2008 02:40:57 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id c25si6791248ika.11.2008.06.15.02.39.56;
+        Sun, 15 Jun 2008 02:40:57 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 1295BAFE6; Sun, 15 Jun 2008 11:39:56 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 38918B1AE;
+	Sun, 15 Jun 2008 11:39:01 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 18CFE3D44;
+	Sun, 15 Jun 2008 11:39:01 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 9al8OfO3l7mS; Sun, 15 Jun 2008 11:39:00 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 3F71B3D3C;
+	Sun, 15 Jun 2008 11:38:59 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 481E83D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Jun 2008 23:36:14 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6GXPbHxvvTjK for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Jun 2008 23:36:14 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 1AEC23CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Jun 2008 23:36:14 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 02854A887; Fri,  6 Jun 2008 23:36:13 +0200 (MEST)
+Received: from po-out-1718.google.com (po-out-1718.google.com [72.14.252.158])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id F34F3A828
+	for <elsnet-list@elsnet.org>; Fri,  6 Jun 2008 23:35:40 +0200 (MEST)
+Received: by po-out-1718.google.com with SMTP id y22so2411057pof.0
+	for <elsnet-list@elsnet.org>; Fri, 06 Jun 2008 14:35:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type;
+	bh=jHzgBDpbzusPccPvU5FjXtbJVXKzxIo4pklPH8+j3Fs=;
+	b=SvH1I40Sw/nMYCQOQix2jcX7mvwgWDLmVaQUbsfqDaitEkbShE2TDR7Lzvt1N7AAz2
+	C94BqkJ7E2zkruDdCiOAz5h9D+kWoYvuurzRUfD6YHWaIwOogbTrbkcLv+b/ALL5Du2K
+	GCqkW+bFk0hVVhuvu9J5cPjtunQ3Nr3bmbNNE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type;
+	b=JpoEjfQRT60JXfgPYyB22UMxpymE+7DSVo8bf4qpDQuspX4cwG9xII0S0cMT2Nftu5
+	db5tJiWAPOLFiP7mo+x/AK/Cft2lYX4/QDaYfZWJrdCMUuy6ZMdHLZqPpp57z51yKZio
+	eMMyVu9Q2pUAtzUYzi/vxWflFyonePPrnFGJw=
+Received: by 10.141.23.7 with SMTP id a7mr395017rvj.5.1212788139496;
+	Fri, 06 Jun 2008 14:35:39 -0700 (PDT)
+Received: by 10.141.41.10 with HTTP; Fri, 6 Jun 2008 14:35:39 -0700 (PDT)
+Message-ID: <188ce3cb0806061435s7194191j3abb370733c25c9c@mail.gmail.com>
+Date: Sat, 7 Jun 2008 00:35:39 +0300
+From: "Mustafa Jarrar" <jarrar.groups@gmail.com>
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:38:55 +0200
+Subject: [Elsnet-list] OnToContent 2008 Workshop
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1067554105=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============1067554105==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_133_499977.1212788139485"
+
+------=_Part_133_499977.1212788139485
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+(Apologies for cross posting!)
+
+OnToContent 2008 Workshop
+Ontology Content, Semantic Mashups, eHealth Ontologies, HR ontologies,
+http://ontocontent2008.mature-ip.eu
+  ******************************************************************
+*** Proceedings published by Springer LNCS
+*** Invited Speaker: To be announced
+*** Submission Deadline: June 30, 2008
+*** Research Papers (10 Pages) Position Papers (6 Papers)
+******************************************************************
+In conjunction of the International Federated Conferences (OTM '08)
+Monterrey, Mexico, November 9-14, 2008
+
+*Call For Papers*
+Under the buzz word Semantic Web a lot of research has been going on in
+recent years, exploring formalisms for expressing ontologies, reasoning
+algorithms for inferencing hidden knowledge in an open world, but also on
+"semantifying" different types of problems. But outside the Semantic Web
+research community, there has been little uptake so far. This is also due t=
+o
+the fact that the concept of ontology is more about content than formalism,
+and we are in dire need for content-related research and experiences. As [1=
+]
+stated, a "good" ontology is a balance of the degree of social agreement,
+the level of formality, and the appropriateness for the problem at hand tha=
+t
+is supposed to be solved with ontologies. In line with this view, the
+workshop is looking for experiences and empirical results on which formalis=
+m
+is better suited, how to achieve or measure social agreement, and how to
+judge whether an ontology is appropriate. It is the mission of ! this
+workshop to report on these e!
+xperiences and to reflect them back to the Semantic Web community.
+
+In the area of system design, there is currently a major shift taking place
+towards user-centered design, and the workshop aims to foster use-centered
+ontology-based system design. Therefore, we also welcome research and
+experiences on participatory and evolutionary approaches (i.e., with a
+continuously high degree of involvement of the actual users) to building an=
+d
+maintaining ontologies that pave the way towards a Web 3.0, bringing
+together users and semantics.
+
+We also strongly encourage to submit critical papers deriving lessons from
+failures with "ontologies in the wild", not only stereotypical success
+reports!
+
+[1] Braun, Schmidt, Walter, Zacharias: The Ontology Maturing Approach to
+Collaborative and Work-Integrated Ontology Development: Evaluation Results
+and Future Directions. In: Emergent Semantics and Ontology Evolution 2007 a=
+t
+ISWC 2007, Busan, Korea, 2007 Workshop Structure and Topics
+
+The workshop will consists of three main parts: a general part on Web 3.0
+and ontology engineering, a special track on ontologies in Human Resources
+and a special track on ontologies in e-health and ambient-assisted living.
+
+*Towards Web 3.0*
+- Semantic Data Mashup
+- lessons from Web 2.0 for ontology engineering
+- participatory and evolutionary approaches to ontology engineering (e.g.,
+based on social software)
+- lightweight ontology formalisms (e.g., SKOS) and microformats
+- challenges/requirements for the maintenance and evolution of ontologies
+- experiences/empirical results on lightweight vs. heavy-weight ontologies
+- experiences/empirical results on graphical modeling of ontologies
+- good, best, and bad practices
+
+*Methods for assessing ontologies*
+- Ontology evaluation
+- Quality measures for ontologies
+- assessment of ontologies with regard to social agreement, formality, and
+appropriateness
+- experiences with assessment and evaluations methods
+
+*Ontologies in Human Resources* (Recruiting, Development, Employability)
+- modeling and representation of: Jobs, CVs, Competencies, Skills,
+Employees, People, Organizations, Social Events, etc.
+- HR upper level concepts
+- E-Portfolio (standards) and ontologies
+- Semantics of HR-XML
+- Semantic metadata for HR applications
+- Semantics in job matching
+- Semantics in learning technologies
+- Good/Best practices for semantics in HR
+- Maintenance of ontologies in HR
+
+*Ontologies in E-Health and Ambient Assisted Living* (AAL)
+- Upper level concepts of healthcare and life sciences ontologies.
+- Ontologies of diseases, nursing, therapeutics, drug, etc.
+- Ontologies and ontology-driven approaches in Ambient-Assisted Living
+- Maintenance of ontologies in e-health and AAL
+
+If you feel that something fits into the theme of the workshop, but is not
+listed here, just contact the organizers.
+Submissions
+
+Types of papers include:
+- research papers (max. 10 pages)
+- case studies experience reports (preferably from industry) (max. 10 pages=
+)
+- position papers, clearly analyzing current state of practice for future
+challenges of research (max. 6 pages)
+
+Papers will be published in an LNCS volume by Springer as part of OTM 2008
+proceedings.
+
+Papers submitted to OntoContent 2008 must not have been accepted for
+publication elsewhere or be under review for another workshop or conference=
+.
+All submitted papers will be evaluated by at least three members of the
+program committee, based on originality, significance, technical soundness,
+and clarity of expression.
+
+Papers will be published in an LNCS volume by Springer as part of OTM 2008
+proceedings. Excellent papers will be considered for a journal publication
+or as book chapters
+
+*Organizers*
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Andreas Schmidt <http://andreas.schmidt.name/>, FZI Research Center for
+Information Technologies, Karlsruhe, Germany [main contact]
+andreas.schmidt@fzi.de
+Mustafa Jarrar <http://www.jarrar.info/>, University of Cyprus
+Werner Ceusters <http://www.org.buffalo.edu/RTU/ceusters_vita.html>,
+University of Buffalo, USA
+
+*Program Committee*
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+Ernst Biesalski (EnBW AG, Germany)
+Simone Braun (FZI Research Center for Information Technologies, Germany)
+Christopher Brewster (University of Sheffield, UK)
+Thanasis Bouras, National Technical University of Athens, Greece
+Michael Brown (Skillsnet.Com)
+Yannis Charalabidis (National Technical University of Athens, Greece)
+Ernesto Damiani (Computer Science Department, Milan University, Italy)
+Panagiotis Gouvas, National Technical University of Athens, Greece
+Giancarlo Guizzardi (University of Twente, The Netherlands)
+Mohand-Said Hacid (University Claude Bernard Lyon 1 LIRIS - Villeurbanne,
+France)
+Martin Hepp (Bundeswehr University, Germany)
+Stijn Heymans (University of Innsbruck, Austria)
+Christine Kunzmann (Kompetenzorientierte Personalentwicklung, Germany)
+Stefanie Lindstaedt (Know-Center Graz, Austria)
+Tobias Ley (Know-Center Graz, Austria)
+Clementina Marinoni (Fondazione Politecnico di Milano, Italy)
+Alessandro Oltramari (Laboratory for Applied Ontology, ISTC-CNR, Trento,
+Italy)
+Viktoria Pammer (Know-Center Graz, Austria) Paul Piwek (Open University, UK=
+)
+
+Christophe Roche (Universit=E9 de Savoie, France)
+Peter Scheir (Know-Center Graz, Austria)
+Pavel Shvaiko (University of Trento, Italy)
+Miguel-Angel Sicilia (University of Alcal=E1, Spain)
+Barry Smith (State University of New York at Buffalo, USA)
+Armando Stellato (University of Roma, Italy)
+Karl Stroetmann (Empirica, Germany)
+Mohammed-Reza Tazari (Fraunhofer IGD, Germany)
+Sergio Tessaris (Free University of Bozen-Bolzano, Italy)
+Robert Tolksdorf (Free University of Berlin, Germany)
+Luk Vervenne (Synergetics, Belgium)
+
+*Sponsoring institutions/projects*
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+- The OOA (http://www.ontology-advisory.org) is an international
+not-for-profit association that consists of industry, government, and
+research leaders and innovators with respect to ontology development, use,
+or education. The general mission of the OOA is to develop strategies for
+ontology recommendation and standardization, and promote the ontology
+technology to industry.
+- The MATURE IP (http://mature-ip.eu) is a large-scale integrating European
+project (FP7) in the field of technology-enhanced learning aiming at suppor=
+t
+of knowledge maturing processes within and across companies, including in
+particular ontology maturing.
+- The SOPRANO IP (http://www.soprano-ip.org) is an integrated European
+project (FP6) in the field of ambient-assisted living and follows an
+ontology-driven service-oriented approach to construct a flexible and
+affordable platform for in-house ambient-assisted living solutions.
+-The SEARCHiN (http://grid.ucy.ac.cy/SEARCHiN/index.html), EU Marie Curie
+actions, developing a dvanced methods for SEARCHing In a Networked world.
+
+------=_Part_133_499977.1212788139485
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+<div>
+  <p>  (Apologies for cross posting!)</p>
+  <p>    OnToContent 2008 Workshop <br>
+    Ontology Content, Semantic Mashups, eHealth Ontologies, HR ontologies, =
+<br>
+    <a href=3D"http://ontocontent2008.mature-ip.eu/" target=3D"_blank">http=
+://ontocontent2008.mature-ip.eu</a>&nbsp;<br>
+    &nbsp;
+    ******************************************************************<br>
+    *** Proceedings published by Springer LNCS<br>
+    *** Invited Speaker: To be announced<br>
+    *** Submission Deadline: June 30, 2008<br>
+    *** Research Papers (10 Pages) Position Papers (6 Papers)<br>
+    ******************************************************************<br>
+    In conjunction of the International Federated Conferences (OTM &#39;08)=
+<br>
+    Monterrey, Mexico, November 9-14, 2008<br>
+  </p>
+<p><strong>Call For Papers</strong><br> Under the buzz word Semantic
+Web a lot of research has been going on in recent years, exploring
+formalisms for expressing ontologies, reasoning algorithms for
+inferencing hidden knowledge in an open world, but also on
+&quot;semantifying&quot; different types of problems. But outside the Seman=
+tic
+Web research community, there has been little uptake so far. This is
+also due to the fact that the concept of ontology is more about content
+than formalism, and we are in dire need for content-related research
+and experiences. As [1] stated, a &quot;good&quot; ontology is a balance of=
+ the
+degree of social agreement, the level of formality, and the
+appropriateness for the problem at hand that is supposed to be solved
+with ontologies. In line with this view, the workshop is looking for
+experiences and empirical results on which formalism is better suited,
+how to achieve or measure social agreement, and how to judge whether an
+ontology is appropriate. It is the mission of ! this workshop to report
+on these e!<br>
+  xperiences and to  reflect them back to the Semantic Web community.</p>
+<p>In the area of system design, there is currently a major shift
+taking place towards user-centered design, and the workshop aims to
+foster use-centered ontology-based system design. Therefore, we also
+welcome research and experiences on participatory and evolutionary
+approaches (i.e., with a continuously high degree of involvement of the
+actual users) to building and maintaining ontologies that pave the way
+towards a Web 3.0, bringing together users and semantics.</p>
+<p>We also strongly encourage to submit critical papers deriving
+lessons from failures with &quot;ontologies in the wild&quot;, not only
+stereotypical success reports!</p>
+<p>[1] Braun, Schmidt, Walter, Zacharias: The Ontology Maturing
+Approach to Collaborative and Work-Integrated Ontology Development:
+Evaluation Results and Future Directions. In: Emergent Semantics and
+Ontology Evolution 2007 at ISWC 2007, Busan, Korea, 2007 Workshop
+Structure and Topics</p>
+<p>The workshop will consists of three main parts: a general part on
+Web 3.0 and ontology engineering, a special track on ontologies in
+Human Resources and a special track on ontologies in e-health and
+ambient-assisted living.</p>
+<p><strong>Towards Web 3.0</strong><br>
+  - Semantic Data Mashup<br>
+  - lessons from Web 2.0 for ontology engineering<br>
+  - participatory and evolutionary approaches to ontology  engineering (e.g=
+., based on social software)<br>
+  - lightweight ontology formalisms (e.g., SKOS) and  microformats<br>
+  - challenges/requirements for the maintenance and  evolution of ontologie=
+s<br>
+  - experiences/empirical results on lightweight vs.  heavy-weight ontologi=
+es<br>
+  - experiences/empirical results on graphical modeling of  ontologies<br>
+  - good, best, and bad practices</p>
+<p><strong>Methods for  assessing ontologies</strong><br>
+  - Ontology evaluation<br>
+  - Quality measures for ontologies<br>
+  - assessment of ontologies with regard to social  agreement, formality, a=
+nd appropriateness<br>
+  - experiences with assessment and evaluations methods</p>
+<p><strong>Ontologies in  Human Resources</strong> (Recruiting, Development=
+, Employability)<br>
+  - modeling and representation of: Jobs, CVs, Competencies,  Skills, Emplo=
+yees, People, Organizations, Social Events, etc.<br>
+  - HR upper level concepts<br>
+  - E-Portfolio (standards) and ontologies<br>
+  - Semantics of HR-XML<br>
+  - Semantic metadata for HR applications<br>
+  - Semantics in job matching<br>
+  - Semantics in learning technologies<br>
+  - Good/Best practices for semantics in HR<br>
+  - Maintenance of ontologies in HR</p>
+<p><strong>Ontologies in  E-Health and Ambient Assisted Living</strong> (AA=
+L)<br>
+  - Upper level concepts of healthcare and life sciences  ontologies.<br>
+  - Ontologies of diseases, nursing, therapeutics, drug,  etc.<br>
+  - Ontologies and ontology-driven approaches in  Ambient-Assisted Living<b=
+r>
+  - Maintenance of ontologies in e-health and AAL</p>
+<p>If you feel that something fits into the theme of the  workshop, but is =
+not listed here, just contact the organizers.<br>
+  Submissions</p>
+<p>Types of papers include:<br>
+  - research papers (max. 10 pages)<br>
+  - case studies experience reports (preferably from  industry) (max. 10 pa=
+ges)<br>
+  - position papers, clearly analyzing current state of  practice for futur=
+e challenges of research (max. 6 pages)</p>
+<p>Papers will be published in an LNCS volume by Springer as  part of OTM 2=
+008 proceedings.</p>
+<p>Papers submitted to OntoContent 2008 must not have been accepted for
+publication elsewhere or be under review for another workshop or
+conference.<br> All submitted papers will be evaluated by at least
+three members of the program committee, based on originality,
+significance, technical soundness, and clarity of expression.</p>
+<p>Papers will be published in an LNCS volume by Springer as part of
+OTM 2008 proceedings. Excellent papers will be considered for a journal
+publication or as book chapters</p>
+<p><strong>Organizers</strong><br>
+  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+  <a href=3D"http://andreas.schmidt.name/" target=3D"_blank">Andreas Schmid=
+t</a>,  FZI Research Center for Information Technologies, Karlsruhe, German=
+y [main  contact] <a href=3D"mailto:andreas.schmidt@fzi.de" target=3D"_blan=
+k">andreas.schmidt@fzi.de</a><br>
+
+  <a href=3D"http://www.jarrar.info/" target=3D"_blank">Mustafa Jarrar</a>,=
+  University of Cyprus<br>
+  <a href=3D"http://www.org.buffalo.edu/RTU/ceusters_vita.html" target=3D"_=
+blank">Werner Ceusters</a>,  University of Buffalo, USA</p>
+<p><strong>Program Committee</strong><br>
+  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D<br>
+  Ernst Biesalski (EnBW AG, Germany)<br>
+  Simone Braun (FZI Research Center for Information  Technologies, Germany)=
+ <br>
+  Christopher Brewster (University of Sheffield, UK) <br>
+  Thanasis Bouras, National Technical University of Athens,  Greece <br>
+  Michael Brown (Skillsnet.Com) <br>
+  Yannis Charalabidis (National Technical University of  Athens, Greece) <b=
+r>
+  Ernesto Damiani (Computer Science Department, Milan  University, Italy) <=
+br>
+  Panagiotis Gouvas, National Technical University of  Athens, Greece <br>
+  Giancarlo Guizzardi (University of Twente, The  Netherlands) <br>
+  Mohand-Said Hacid (University Claude Bernard Lyon 1 LIRIS  - Villeurbanne=
+, France)<br>
+  Martin Hepp (Bundeswehr University, Germany) <br>
+  Stijn Heymans (University of Innsbruck, Austria) <br>
+  Christine Kunzmann (Kompetenzorientierte  Personalentwicklung, Germany) <=
+br>
+  Stefanie Lindstaedt (Know-Center Graz, Austria) <br>
+  Tobias Ley (Know-Center Graz, Austria) <br>
+  Clementina Marinoni (Fondazione Politecnico di Milano,  Italy) <br>
+  Alessandro Oltramari (Laboratory for Applied Ontology,  ISTC-CNR, Trento,=
+ Italy)<br>
+  Viktoria Pammer (Know-Center Graz, Austria) Paul Piwek  (Open University,=
+ UK) <br>
+  Christophe Roche (Universit=E9 de Savoie, France)<br>
+  Peter Scheir (Know-Center Graz, Austria) <br>
+  Pavel Shvaiko (University of Trento, Italy) <br>
+  Miguel-Angel Sicilia (University of Alcal=E1, Spain) <br>
+  Barry Smith (State University of New York at Buffalo,  USA)<br>
+  Armando Stellato (University of Roma, Italy) <br>
+  Karl Stroetmann (Empirica, Germany) <br>
+  Mohammed-Reza Tazari (Fraunhofer IGD, Germany) <br>
+  Sergio Tessaris (Free University of Bozen-Bolzano, Italy) <br>
+  Robert Tolksdorf (Free University of Berlin, Germany) <br>
+  Luk Vervenne (Synergetics, Belgium)</p>
+<p><strong>Sponsoring  institutions/projects</strong><br>
+  =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
+  - The OOA (<a href=3D"http://www.ontology-advisory.org/" target=3D"_blank=
+">http://www.ontology-advisory.org</a>)
+is an international not-for-profit association that consists of
+industry, government, and research leaders and innovators with respect
+to ontology development, use, or education. The general mission of the
+OOA is to develop strategies for ontology recommendation and
+standardization, and promote the ontology technology to industry.<br>
+  - The MATURE IP (<a href=3D"http://mature-ip.eu/" target=3D"_blank">http:=
+//mature-ip.eu</a>)
+is a large-scale integrating European project (FP7) in the field of
+technology-enhanced learning aiming at support of knowledge maturing
+processes within and across companies, including in particular ontology
+maturing.<br>
+  - The SOPRANO IP (<a href=3D"http://www.soprano-ip.org/" target=3D"_blank=
+">http://www.soprano-ip.org</a>)
+is an integrated European project (FP6) in the field of
+ambient-assisted living and follows an ontology-driven service-oriented
+approach to construct a flexible and affordable platform for in-house
+ambient-assisted living solutions.<br>
+  -The SEARCHiN (<a href=3D"http://grid.ucy.ac.cy/SEARCHiN/index.html" targ=
+et=3D"_blank">http://grid.ucy.ac.cy/SEARCHiN/index.html</a>), EU Marie Curi=
+e actions, developing a dvanced methods for  SEARCHing In a Networked world=
+.</p>
+
+</div>
+
+------=_Part_133_499977.1212788139485--
+
+--===============1067554105==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1067554105==--

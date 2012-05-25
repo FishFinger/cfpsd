@@ -1,0 +1,180 @@
+From - Thu Dec 10 14:38:01 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.62.208 with SMTP id y16cs569936bkh;
+        Sun, 9 Aug 2009 10:45:25 -0700 (PDT)
+Received: by 10.210.59.5 with SMTP id h5mr4130149eba.48.1249839922372;
+        Sun, 09 Aug 2009 10:45:22 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si8667877ewy.51.2009.08.09.10.45.21;
+        Sun, 09 Aug 2009 10:45:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C540F1FF6B; Sun,  9 Aug 2009 19:45:03 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 4C92821956;
+	Sun,  9 Aug 2009 19:43:04 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0A7DA3DDF;
+	Sun,  9 Aug 2009 19:43:02 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Kaedth+quZj1; Sun,  9 Aug 2009 19:43:01 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 957BF3D4D;
+	Sun,  9 Aug 2009 19:42:33 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D703B3D2F
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  3 Aug 2009 18:39:05 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id GrbQIRNa4onZ for <elsnet-list@mailman.elsnet.org>;
+	Mon,  3 Aug 2009 18:39:05 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A4CF53D2B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon,  3 Aug 2009 18:38:45 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8943B20B6C; Mon,  3 Aug 2009 18:38:45 +0200 (MEST)
+Received: from hermes2.cs.kuleuven.be (hermes2.cs.kuleuven.be [134.58.40.2])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D16B520AA9
+	for <elsnet-list@elsnet.org>; Mon,  3 Aug 2009 18:38:37 +0200 (MEST)
+Received-SPF: pass (hermes2.cs.kuleuven.be.: domain of
+	joost.vennekens@cs.kuleuven.be designates 134.58.41.22 as
+	permitted sender) receiver=hermes2.cs.kuleuven.be.;
+	client-ip=134.58.41.22; helo=dr-zook3.cs.kuleuven.be;
+	envelope-from=joost.vennekens@cs.kuleuven.be;
+	x-software=spfmilter 0.97 http://www.acme.com/software/spfmilter/ with
+	libspf-unknown; 
+Received: from dr-zook3.cs.kuleuven.be (notused.cs.kuleuven.be [134.58.41.22]
+	(may be forged))
+	by hermes2.cs.kuleuven.be.  with ESMTP id n73Fbhua024626
+	for <elsnet-list@elsnet.org>; Mon, 3 Aug 2009 17:37:43 +0200
+Received: from localhost (localhost [127.0.0.1])
+	by dr-zook3.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with
+	ESMTP id n73FbhvD001972
+	for <elsnet-list@elsnet.org>; Mon, 3 Aug 2009 17:37:43 +0200
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1])
+	by localhost (dr-zook3 [127.0.0.1]) (amavisd-new, port 10024)
+	with LMTP id 01745-01-3 for <elsnet-list@elsnet.org>;
+	Mon, 3 Aug 2009 17:37:43 +0200 (CEST)
+Received: from hel.cs.kuleuven.be (imap2.cs.kuleuven.be [134.58.41.12])
+	by dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+	ESMTP id n73FaJr2001441
+	for <elsnet-list@elsnet.org>; Mon, 3 Aug 2009 17:36:19 +0200
+Received: from brundij.cs.kuleuven.be (brundij.cs.kuleuven.be [134.58.45.79])
+	by hel.cs.kuleuven.be (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP
+	id n73FZnaj018223
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+	for <elsnet-list@elsnet.org>; Mon, 3 Aug 2009 17:36:19 +0200
+Received: from brundij.cs.kuleuven.be. (localhost [127.0.0.1])
+	by brundij.cs.kuleuven.be (A_Good_MTA/8.14.2/Debian-2build1) with ESMTP
+	id n73FCkBr007936
+	for <elsnet-list@elsnet.org>; Mon, 3 Aug 2009 17:12:46 +0200
+Received: (from joost@localhost)
+	by brundij.cs.kuleuven.be. (8.14.2/8.14.2/Submit) id n73FCkvk007935
+	for elsnet-list@elsnet.org; Mon, 3 Aug 2009 17:12:46 +0200
+Date: Mon, 3 Aug 2009 17:12:46 +0200
+From: Joost Vennekens <joost.vennekens@cs.kuleuven.be>
+Message-Id: <200908031512.n73FCkvk007935@brundij.cs.kuleuven.be.>
+To: elsnet-list@elsnet.org
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-Disclaimer: http://www.kuleuven.be/cwis/email_disclaimer.htm
+Content-Type: text/plain
+MIME-Version: 1.0
+Content-Disposition: inline
+X-Mailman-Approved-At: Sun, 09 Aug 2009 19:41:58 +0200
+Cc: 
+Subject: [Elsnet-list] CFP KR 2010 Doctoral Consortium
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: joost.vennekens+KR@cs.kuleuven.be
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+		     KR 2010 Doctoral Consortium
+
+			http://kr.org/KR2010/
+
+1) Aims and Scope
+
+The Doctoral Consortium is a student mentoring program that introduces
+students to senior researchers with research similar interests. The
+aims of the consortium are:
+
+- to provide a forum for students to present their current research,
+  and receive feedback from other students and senior researchers
+
+- to promote contacts among PhD students working in similar areas
+
+- to support students with information and advice on academic,
+  research and industrial careers
+
+We encourage submissions from PhD students at any level, and from any
+topic area within Knowledge Representation and Reasoning.
+
+Students accepted into the Doctoral Consortium may apply for some
+financial support for partly covering their KR-2010 conference travel
+expenses. Details will be announced later.
+
+2) Application
+
+Applications must be submitted via our online submission site (see
+below). Each application must contain the following materials:
+
+- Thesis summary. A description of the problem being addressed, your
+motivation for addressing the problem, proposed plan of research, the
+progress to date (what you have already achieved and what remains to
+be done), and related work. It must be four pages maximum in double
+column format like the papers in previous KR proceedings.
+
+- Letter of recommendation. A letter from your thesis advisor that
+states that he/she supports your participation in the DC.
+
+The most preferred way of submission is to combine the thesis summary
+and letter of recommendation into a single PDF document. If you cannot
+do that, archive the two documents into a single zip file. In either
+case, the resulting single file has to be submitted via the EasyChair
+system at
+
+http://www.easychair.org/conferences/?conf=kr10dc
+
+3) Important Dates
+
+January 31, 2010: Deadline for application 
+March 5: Acceptance notification 
+May 9-13, 2010: Doctoral consortium @ K-2010
+
+
+For further information, please contact the Doctoral Consortium chair: 
+
+Yan Zhang 
+University of Western Sydney, Australia 
+yan@scm.uws.edu.au
+
+Disclaimer: http://www.kuleuven.be/cwis/email_disclaimer.htm
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

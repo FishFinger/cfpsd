@@ -1,0 +1,210 @@
+From - Thu Dec 10 14:37:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs407041faq;
+        Wed, 3 Jun 2009 01:38:13 -0700 (PDT)
+Received: by 10.210.119.5 with SMTP id r5mr5147508ebc.1.1244018291299;
+        Wed, 03 Jun 2009 01:38:11 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 18si10978027ewy.21.2009.06.03.01.38.10;
+        Wed, 03 Jun 2009 01:38:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 0DAB7209B7; Wed,  3 Jun 2009 10:38:04 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.7 required=5.0 tests=BAYES_00,INVALID_MSGID
+	autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BB7A220A21;
+	Wed,  3 Jun 2009 10:37:50 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 49A6B3D24;
+	Wed,  3 Jun 2009 10:37:50 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ym2j9KCy0LWJ; Wed,  3 Jun 2009 10:37:49 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 839643D2B;
+	Wed,  3 Jun 2009 10:37:48 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9F8063D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  2 Jun 2009 13:11:41 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BhRi8aAWRFYd for <elsnet-list@mailman.elsnet.org>;
+	Tue,  2 Jun 2009 13:11:41 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 6C2163D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Tue,  2 Jun 2009 13:11:21 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id F3457204AB; Tue,  2 Jun 2009 13:11:20 +0200 (MEST)
+X-Greylist: delayed 15832 seconds by postgrey-1.28 at newjura;
+	Tue, 02 Jun 2009 13:11:11 MEST
+Received: from chopinette.imag.fr (chopinette.imag.fr [129.88.34.204])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 0152D203C2
+	for <elsnet-list@elsnet.org>; Tue,  2 Jun 2009 13:11:06 +0200 (MEST)
+Received: from chopinette.imag.fr (localhost.localdomain [127.0.0.1])
+	by chopinette.imag.fr (8.12.11.20060308/8.12.11/ImagV2.1) with ESMTP id
+	n526i0K1014986; Tue, 2 Jun 2009 08:44:00 +0200
+Received: (from sympa@localhost)
+	by chopinette.imag.fr (8.12.11.20060308/8.12.11/Submit) id
+	n526hvdO014979; Tue, 2 Jun 2009 08:43:57 +0200
+X-Sympa-To: vvps09-pub@imag.fr
+Received: from shiva.imag.fr (shiva.imag.fr [129.88.30.5])
+	by chopinette.imag.fr (8.12.11.20060308/8.12.11/ImagV2.1) with ESMTP id
+	n526V4gW004947
+	for <vvps09-pub@chopinette.imag.fr>; Tue, 2 Jun 2009 08:31:04 +0200
+Received: from chopinette.imag.fr (chopinette.imag.fr [129.88.34.204])
+	by shiva.imag.fr (8.13.8/8.13.8) with ESMTP id n526Qdgw006483
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <vvps09-pub@imag.fr>; Tue, 2 Jun 2009 08:26:39 +0200
+Received: from chopinette.imag.fr (localhost.localdomain [127.0.0.1])
+	by chopinette.imag.fr (8.12.11.20060308/8.12.11/ImagV2.1) with ESMTP id
+	n526V4SE004943
+	for <vvps09-pub@imag.fr>; Tue, 2 Jun 2009 08:31:04 +0200
+Received: (from sympa@localhost)
+	by chopinette.imag.fr (8.12.11.20060308/8.12.11/Submit) id
+	n526V49i004939 for vvps09-pub@imag.fr; Tue, 2 Jun 2009 08:31:04 +0200
+Date: Tue, 2 Jun 2009 08:31:04 +0200
+To: vvps09-pub@imag.fr
+From: info.vvps09@imag.fr
+In-Reply-To: 
+Message-ID: sympa.1243924143.8362.742@imag.fr
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.0.1
+	(shiva.imag.fr [129.88.30.5]);
+	Tue, 02 Jun 2009 08:26:39 +0200 (CEST)
+X-Validation-by: ylies.falcone@imag.fr
+X-Loop: vvps09-pub@imag.fr
+X-Sequence: 2
+Precedence: list
+X-no-archive: yes
+List-Owner: <mailto:vvps09-pub-request@imag.fr>
+X-Mailman-Approved-At: Wed, 03 Jun 2009 10:37:46 +0200
+Cc: 
+Subject: [Elsnet-list] [vvps09-pub ] Second Call for Paper VVPS'09
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+[Apologies for duplicate]
+
+Second Call for Papers
+
+                        VVPS'09
+
+                    2nd Workshop on
+            Verification and Validation of
+           Planning and Scheduling Systems
+
+             http://www-vvps09.imag.fr
+
+                  September 20, 2009
+                 Thessaloniki, Greece
+
+Held in conjunction with the International Conference on Automated
+Planning and Scheduling, ICAPS 2009, September 19-23, 2009:
+
+ http://icaps09.icaps-conference.org
+
+
+Topic and Objectives:
+
+Verification techniques, such as model checking, and planning
+techniques have many commonalities. Planning and scheduling (P&S)
+systems are finding increased application in safety- and
+mission-critical systems that require a high level of assurance.
+Experience has shown that most errors are in domain models, which can
+be inconsistent, incomplete or inaccurate models of the target
+domains. However tools and methodologies for verification and
+validation (V&V) of P&S systems have received relatively little
+attention. The objective of this workshop is to maintain an
+interaction between the V&V and P&S communities, to identify
+specialized and innovative V&V tools and methodologies that can be
+applied to P&S. Topics of interest include: V&V of domain models,
+using technologies such as static analysis, theorem proving, and model
+checking; consistency and completeness of domain models; domain model
+coverage metrics; regression, stress and boundary testing; runtime
+verification of plan executions; generation of robust plans;
+compositional verification of domain models; how to structure domain
+models which are more amenable to static analysis; inspection methods;
+the relationship between timed automata and domain models;
+investigations of the impact wrt. V&V of procedural versus declarative
+plan models; etc. The first VVPS workshop was held with ICAPS in 2005
+in Monterey, California: http://planning.cis.strath.ac.uk/vvpsws.
+
+
+Submission and publication:
+
+There are two types of submissions: short position statements and
+regular papers. Position papers are a maximum of two pages. Regular
+papers are a maximum of 10 (ten) pages. Papers will be printed as a
+hard-copy hand-out, and workshop findings and a workshop report will
+be published on the workshop website. All papers should be typeset in
+the AAAI style, described at
+http://www.aaai.org/Publications/Author/author.php.
+An attempt will be made to publish the best papers in
+a journal after the workshop.
+
+
+Important Dates:
+
+Paper submission: June 23, 2009
+Review Period: June 25, July 18, 2009
+Notification of acceptance/rejection: July 22, 2009
+Final version due: Aug 8, 2009
+Workshop Date: Sep 20th, 2009
+
+
+Program Chairs:
+
+Saddek Bensalem, (Verimag/UJF, France)
+Klaus Havelund, (JPL, USA)
+Kim Larsen, (Aalborg University, Denmark)
+
+
+Program Committee:
+
+Howard Barringer, (University of Manchester, UK)
+Saddek Bensalem, (Verimag/UJF, France)
+Amedeo Cesta, (Institute for Cognitive Science and Technology, Rome, Italy)
+Steve Chien, (JPL, USA)
+Alessandro Cimatti, (Istituto per la Ricerca Scientifica e
+Tecnologica, Trento, Italy)
+Maria Fox, (University of Strathclyde, UK)
+Dimitra Giannakoupoulou, (NASA Ames Research Center, USA)
+Enrico Giunchiglia, (University of Genova, Italy)
+Klaus Havelund, (JPL, USA)
+Gerard Holzmann, (JPL, USA)
+Kim Larsen, (Aalborg University, Denmark)
+Lee McClusky, (University of Huddersfield, UK)
+David Musliner, (Honeywell Technology Center, USA)
+Corina Pasareanu, (NASA Ames Research Center, USA)
+Paul Pettersson, (Uppsala University, Sweden)
+Douglas Smith, (Kestrel Institute, USA)
+Brian Williams, (MIT, USA)
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

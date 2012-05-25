@@ -1,0 +1,220 @@
+From - Thu Dec 10 14:35:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.55.139 with SMTP id u11cs81698bkg;
+        Mon, 16 Mar 2009 02:47:16 -0700 (PDT)
+Received: by 10.151.98.11 with SMTP id a11mr8022650ybm.58.1237196835462;
+        Mon, 16 Mar 2009 02:47:15 -0700 (PDT)
+Return-Path: <owner-chr@listserv.cc.kuleuven.ac.be>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 12si14039262gxk.88.2009.03.16.02.47.12;
+        Mon, 16 Mar 2009 02:47:15 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of owner-chr@listserv.cc.kuleuven.ac.be) smtp.mail=owner-chr@listserv.cc.kuleuven.ac.be
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n2G9lBm4002459
+	for <jpprost@gmail.com>; Mon, 16 Mar 2009 20:47:11 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n2G9lBhu024450
+	for <jpprost@mailbox.ics.mq.edu.au>; Mon, 16 Mar 2009 20:47:11 +1100
+X-ASG-Debug-ID: 1237196829-3946034a0000-RCdhz5
+X-Barracuda-URL: http://137.111.1.21:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id EB6DF4D93AE
+	for <jpprost@mailbox.ics.mq.edu.au>; Mon, 16 Mar 2009 20:47:09 +1100 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra1.its.mq.edu.au with ESMTP id JzRgNi36ixA3NGqq for <jpprost@mailbox.ics.mq.edu.au>; Mon, 16 Mar 2009 20:47:09 +1100 (EST)
+Received: from listserv.cc.kuleuven.ac.be (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id n2G9l77t002454
+	for <jpprost@ICS.MQ.EDU.AU>; Mon, 16 Mar 2009 20:47:08 +1100 (EST)
+Received: from listserv (listserv.cc.kuleuven.ac.be [134.58.241.17])
+	by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP id BC6DC4CE20;
+	Mon, 16 Mar 2009 10:47:06 +0100 (CET)
+Received: by LISTSERV.CC.KULEUVEN.AC.BE (LISTSERV-TCP/IP release 14.4) with
+          spool id 1938316 for CHR@LISTSERV.CC.KULEUVEN.AC.BE; Mon, 16 Mar 2009
+          10:47:06 +0100
+X-Original-To: chr@listserv.cc.kuleuven.ac.be
+Delivered-To: chr@listserv.cc.kuleuven.ac.be
+Received: from cavuit02.kulnet.kuleuven.be (cavuit02.kulnet.kuleuven.be
+          [134.58.240.44]) by listserv.cc.kuleuven.ac.be (Postfix) with ESMTP
+          id CA2474CC37 for <chr@listserv.cc.kuleuven.ac.be>; Mon, 16 Mar 2009
+          10:47:05 +0100 (CET)
+Received: from cavin02.kulnet.kuleuven.ac.be (pompeius.kulnet.kuleuven.ac.be
+          [134.58.240.62]) by cavuit02.kulnet.kuleuven.be (Postfix) with ESMTP
+          id 02F8651C012 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16 Mar 2009
+          10:46:46 +0100 (CET)
+Received: from hermes.cs.kuleuven.be (mailrelay.cs.kuleuven.be [134.58.40.3])
+          by cavin02.kulnet.kuleuven.ac.be (Postfix) with ESMTP id CF141341A3
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16 Mar 2009 10:46:17 +0100
+          (CET)
+Received: from dr-zook3.cs.kuleuven.be (dr-zook3.cs.kuleuven.be [134.58.41.22])
+          by hermes.cs.kuleuven.be  with ESMTP id n2G9kCD1023329 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16 Mar 2009 10:46:12 +0100
+Received: from localhost (localhost [127.0.0.1]) by dr-zook3.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id n2G9kCbu003840 for
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16 Mar 2009 10:46:12 +0100
+Received: from dr-zook3.cs.kuleuven.be ([127.0.0.1]) by localhost (dr-zook3
+          [127.0.0.1]) (amavisd-new, port 10024) with LMTP id 03602-02 for 
+          <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16 Mar 2009 10:46:01 +0100
+          (CET)
+Received: from hel.cs.kuleuven.be (mail2.cs.kuleuven.be [134.58.41.12]) by
+          dr-zook3.cs.kuleuven.be (A_Good_MTA-RX/8.13.4/Debian-3sarge3) with
+          ESMTP id n2G9j4dU003778 for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16
+          Mar 2009 10:45:04 +0100
+Received: from dragonleo.cs.kuleuven.be (dragonleo.cs.kuleuven.be
+          [134.58.45.38]) by hel.cs.kuleuven.be
+          (A_Good_MTA/8.13.4/Debian-3sarge3) with ESMTP id n2G9j3X2013660
+          (version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT)
+          for <CHR@LISTSERV.CC.KULEUVEN.AC.BE>; Mon, 16 Mar 2009 10:45:04 +0100
+X-X-Sender: jon@"dragonleo.cs.kuleuven.be."
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=us-ascii
+X-Virus-Scanned: by amavisd-new-20030616-p10 (Debian) at cs.kuleuven.be
+X-KULeuven-Information: Katholieke Universiteit Leuven
+X-KULeuven-Scanned: Found to be clean
+X-Spam-Status: not spam, SpamAssassin (not cached, score=-1.44, required 5,
+               autolearn=disabled, ALL_TRUSTED -1.44)
+X-KULeuven-Envelope-From: jon.sneyers@cs.kuleuven.be
+Message-ID:  <alpine.DEB.0.99.0903161043200.2538@dragonleo.cs.kuleuven.be.>
+Date:         Mon, 16 Mar 2009 10:45:03 +0100
+Reply-To: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+Sender: Constraint Handling Rules discussion and announcements <CHR@LISTSERV.CC.KULEUVEN.AC.BE>
+From: Jon Sneyers <Jon.Sneyers@CS.KULEUVEN.BE>
+X-ASG-Orig-Subj: [CHR] Call for papers: CHR 2009
+Subject: [CHR] Call for papers: CHR 2009
+To: CHR@LISTSERV.CC.KULEUVEN.AC.BE
+Precedence: list
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1237196830
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=MAILTO_TO_SPAM_ADDR
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.1.20486
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 MAILTO_TO_SPAM_ADDR    URI: Includes a link to a likely spammer email
+
+Apologies if you receive multiple copies
+________________________________________
+
+
+
+                           Call for Papers
+
+    ------------------------------------------------------------
+      Sixth International Workshop on Constraint Handling Rules
+                              CHR 2009
+
+                  July 14-17, 2009 (exact day t.b.a.)
+                         Pasadena, California
+
+           Co-located with the International Conference on
+                    Logic Programming (ICLP 2009)
+     ------------------------------------------------------------
+
+         http://www.uni-ulm.de/in/pm/research/events/chr2009
+
+   Introduction
+   ------------
+
+   The Constraint Handling Rules (CHR) language has become a
+   major declarative specification formalism and implementation
+   language for constraint reasoning algorithms and applications.
+   Algorithms are often specified using inference rules, rewrite
+   rules, sequents, proof rules or logical axioms that can be
+   directly written in CHR.  Its clean semantics facilitates
+   program design, analysis and transformation.  See the CHR
+   website (http://www.cs.kuleuven.be/~dtai/projects/CHR/) for
+   more information.
+
+   Previous Workshops on Constraint Handling Rules were organized in
+   May 2004 in Ulm (Germany), in October 2005 in Sitges (Spain) at
+   ICLP, in July 2006 in Venice (Italy) at ICALP, in September
+   2007 in Porto (Portgual) at ICLP, and in July 2008 in
+   Hagenberg (Austria) at RTA.
+
+
+   Topics of Interest
+   ------------------
+
+   The workshop calls for full papers and short papers describing
+   ongoing work on any aspect of CHR and related approaches. The
+   following topics are relevant (this list is non-exhaustive):
+
+    - (Logical) Algorithms
+    - Applications
+    - Comparisons with Related Approaches
+    - Constraint Solvers
+    - Critical Assessment
+    - Expressivity and Complexity
+    - Implementations and Optimization
+    - Language Extensions (Types, Modules, ...)
+    - Program Analysis
+    - Program Transformation and Generation
+    - Programming Environments (Debugging)
+    - Programming Pearls
+    - Programming Tools
+    - Retractable Constraints
+    - Semantics
+    - System Descriptions
+
+
+   Submission Information
+   ----------------------
+
+   All papers must be written in English and not exceed 15 pages.
+   The authors are encouraged to submit their papers in Springer
+   LNCS format. General information about the Springer LNCS series
+   and the LNCS authors' instructions are available at the Springer
+   LNCS/LNAI home page (http://www.springeronline.com/lncs/).
+
+   Submissions can be made  via the Easychair submission system,
+   available at http://www.easychair.org/conferences/?conf=chr2009.
+
+   Accepted papers will be published in a technical report.
+
+   Important Dates
+   ---------------
+
+     * Submission of abstract:     April 17, 2009
+     * Submission of paper:        April 22, 2009
+     * Notification of acceptance: May 13, 2009
+     * Final version due:          May 25, 2009
+     * Workshop date:              July 14-17, 2009 (exact day t.b.a.)
+
+
+   Organization
+   ------------
+
+   Program Committee:
+
+     * Hariolf Betz, Universitaet Ulm (Germany)
+     * Henning Christiansen, Roskilde University (Denmark)
+     * Francois Fages, INRIA Rocquencourt (France)
+     * Thom Fruehwirth, Universitaet Ulm (Germany)
+     * Remy Haemmerle, Universidad Politecnica de Madrid (Spain)
+     * Leslie De Koninck, Katholieke Universiteit Leuven (Belgium)
+     * Edmund S. Lam, National University of Singapore (Singapore)
+     * Eric Monfroy, Universite de Nantes (France)
+     * Jacques Robin, Universidade Federal de Pernambuco (Brazil)
+     * Beata Sarna-Starosta, LogicBlox Inc., Atlanta (USA)
+     * Tom Schrijvers, Katholieke Universiteit Leuven (Belgium)
+     * Peter J. Stuckey, NICTA Victoria Laboratory (Australia)
+
+   Workshop Coordinators:
+
+   chr2009@easychair.org
+
+
+
+   Frank Raiser
+   Faculty of Engineering and Computer Science
+   Ulm University, Germany
+   http://www.uni-ulm.de/in/pm/mitarbeiter/raiser.html
+
+
+   Jon Sneyers (contact person)
+   Department of Computer Science
+   K.U.Leuven, Belgium
+   http://www.cs.kuleuven.be/~jon/

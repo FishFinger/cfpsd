@@ -1,0 +1,192 @@
+From - Thu Dec 10 14:33:20 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.141.115.10 with SMTP id s10cs317300rvm;
+        Tue, 23 Sep 2008 15:40:19 -0700 (PDT)
+Received: by 10.210.80.2 with SMTP id d2mr7357917ebb.77.1222209616877;
+        Tue, 23 Sep 2008 15:40:16 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 20si3819665eyk.4.2008.09.23.15.39.48;
+        Tue, 23 Sep 2008 15:40:16 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id D33D61F89A; Wed, 24 Sep 2008 00:39:39 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 7D5071FA34;
+	Wed, 24 Sep 2008 00:39:23 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1EBDA3D46;
+	Wed, 24 Sep 2008 00:39:19 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id KVdTLz-rBdfk; Wed, 24 Sep 2008 00:39:18 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0B8253D2F;
+	Wed, 24 Sep 2008 00:39:13 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A9ED13D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 22 Sep 2008 21:07:26 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2XUiuf-0qLd9 for <elsnet-list@mailman.elsnet.org>;
+	Mon, 22 Sep 2008 21:07:26 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 838DC3D08
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 22 Sep 2008 21:07:26 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6E0981F1AB; Mon, 22 Sep 2008 21:07:26 +0200 (MEST)
+Received: from mxb.liv.ac.uk (mxb.liv.ac.uk [138.253.100.102])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B41871F0AA
+	for <elsnet-list@let.uu.nl>; Mon, 22 Sep 2008 21:07:24 +0200 (MEST)
+Received: from mailhuba.liv.ac.uk ([138.253.100.36])
+	by mxb.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Konev@liverpool.ac.uk>) id 1Khqkm-00028q-9Z
+	for elsnet-list@let.uu.nl; Mon, 22 Sep 2008 20:07:24 +0100
+Received: from localhost ([127.0.0.1] helo=mailhuba.liv.ac.uk)
+	by mailhuba.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Konev@liverpool.ac.uk>) id 1Khqkm-0000RA-7t
+	for elsnet-list@let.uu.nl; Mon, 22 Sep 2008 20:07:24 +0100
+Received: from mail.csc.liv.ac.uk ([138.253.184.237] helo=tethys.csc.liv.ac.uk)
+	by mailhuba.liv.ac.uk with esmtp (Exim 4.67)
+	(envelope-from <Konev@liverpool.ac.uk>) id 1Khqkm-0000R0-0p
+	for elsnet-list@let.uu.nl; Mon, 22 Sep 2008 20:07:24 +0100
+Received: from csc.liv.ac.uk (smmsp@konev [10.30.214.1])
+	by tethys.csc.liv.ac.uk (8.11.1 - (Revision 1.09)/LUCS-DTS-4.0M10) with
+	ESMTP id m8MJ7N424806
+	for <elsnet-list@let.uu.nl>; Mon, 22 Sep 2008 20:07:23 +0100 (BST)
+Received: (from konev@localhost)
+	by csc.liv.ac.uk (8.14.1/8.13.8/Submit) id m8MI8jg8012382
+	for elsnet-list@let.uu.nl; Mon, 22 Sep 2008 19:08:45 +0100
+Date: Mon, 22 Sep 2008 19:08:45 +0100
+From: Boris Konev <Konev@liverpool.ac.uk>
+Message-Id: <200809221808.m8MI8jg8012382@csc.liv.ac.uk>
+To: elsnet-list@let.uu.nl
+X-Mailman-Approved-At: Wed, 24 Sep 2008 00:39:04 +0200
+Cc: 
+Subject: [Elsnet-list] [CfP and deadline change] 7th International Workshop
+	on the Implementation of Logics
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+[Sorry for multiple copies]
+
+Please notice that the workshop deadlines are harmonized with other LPAR
+events. The submission deadline is October 18 now.
+
+=============================================================================
+
+  7TH INTERNATIONAL WORKSHOP ON THE IMPLEMENTATION OF LOGICS
+  NOVEMBER, 2008, DOHA, QATAR
+  http://www.csc.liv.ac.uk/~konev/iwil2008
+               
+                 CALL FOR PAPERS
+
+
+The 7th International Workshop on the Implementation of Logics will be held in
+conjunction with the 15th International Conference on Logic for Programming,
+Artificial Intelligence, and Reasoning, LPAR 2008 (http://www.lpar.net/2008/),
+in Doha, Qatar, in November 2008. IWIL has been unusually sucessful in
+bringing together many talented developers, and thus in sharing information
+about successful implementation techniques for automated reasoning systems and
+similar programs. We are looking for contributions describing implementation
+techniques for and implementations of automated reasoning programs, theorem
+provers for various logics, logic programming systems, and related
+technologies. 
+
+Topics of interest include, but are not limited to:
+
+    * Data structures and algorithms for the efficient representation of
+      logical concepts
+    * Theorem proving systems
+    * Model generation systems
+    * Satisfiability-modulo-theories systems
+    * Constraint-based systems
+    * Logic programming systems
+    * Implementation of propositional logic and decision procedures
+    * Implementation of higher order logics and lambda-calculus
+    * Implementation of new and unusual calculi
+    * Integration of systems based on different logics
+    * Transformations between different logics (e.g., abstractions)
+    * Issues of reliability, witness generation, and witness verification
+    * Evaluation and benchmarking of logic-based systems
+    * Reasoning for ontologies
+    * Ontology modularity, module extraction
+
+Contributions that help the community to understand how to build useful
+and powerful reasoning systems in practice are of particular interest.
+
+
+Important dates:
+---------------
+
+    * Submission of abstracts: October 18th
+    * Notification: October 27th
+    * Workshop (preliminary): November 22rd, with LPAR 2008.
+
+
+Submission
+---------
+
+Please submit an extended abstract of up to 10 pages in PDF, conforming to the
+format produced by LaTeX using the easychair.cls class file available from the
+workshop web-page.  Long listings of computer output should be relegated to a
+referenced WWW site. Submission is via EasyChair.  All submissions will be
+informally reviewed by the programme committee and accepted contributions will
+be published in archived electronic notes.
+
+
+Program committee:
+-----------------
+
+Wolfgang Ahrendt           Chalmers University of Technology and 
+                                Goeteborg University
+Elvira Albert              Complutense University of Madrid
+Serge Autexier             Saarland University
+Chris Benzmueller          Saarland University
+Chad Brown                 Saarland University
+Bart Demoen                Katholieke Universiteit Leuven
+Alessandro Cimatti         ITC/irst, Trento
+Hans de Nivelle            Wroclaw University
+Bernd Fischer              Southampton University
+Alexander Fuchs            Iowa University
+Thomas Hillenbrand         Max-Planck-Institut fuer Informatik
+Ullrich Hustadt            Liverpool University
+Boris Konev (co-chair)     Liverpool University
+Konstantin Korovin         Manchester University
+Gopalan Nadathur           Minnesota University
+Albert Oliveras            Technical University of Catalonia
+Brigitte Pientka           McGill University
+Kostis Sagonas             Uppsala University
+Renate Schmidt (co-chair)  Manchester University
+Peter Schneider-Kamp       RWTH Aachen
+Stephan Schulz (co-chair)  Technische Universitaet Muenchen
+Volker Sorge               Birmingham University
+Geoff Sutcliffe            Miami University
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

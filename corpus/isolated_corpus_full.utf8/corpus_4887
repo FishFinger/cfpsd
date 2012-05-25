@@ -1,0 +1,208 @@
+From - Thu Dec 10 14:35:53 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.193 with SMTP id e1cs102011far;
+        Sat, 4 Apr 2009 04:05:19 -0700 (PDT)
+Received: by 10.210.133.2 with SMTP id g2mr1284037ebd.34.1238843117512;
+        Sat, 04 Apr 2009 04:05:17 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 10si3398331ewy.36.2009.04.04.04.05.16;
+        Sat, 04 Apr 2009 04:05:17 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 53D19215FA; Sat,  4 Apr 2009 13:05:15 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 4BB662139B;
+	Sat,  4 Apr 2009 13:03:49 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 212923E90;
+	Sat,  4 Apr 2009 13:03:35 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id AHDiwejAKj6Z; Sat,  4 Apr 2009 13:03:34 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2F1553D52;
+	Sat,  4 Apr 2009 13:03:11 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E53983D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  1 Apr 2009 18:58:28 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id RTadxaT-A9TC for <elsnet-list@mailman.elsnet.org>;
+	Wed,  1 Apr 2009 18:58:28 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B1E8A3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  1 Apr 2009 18:58:08 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 8F44720A9F; Wed,  1 Apr 2009 18:58:08 +0200 (MEST)
+X-Greylist: delayed 396 seconds by postgrey-1.28 at newjura;
+	Wed, 01 Apr 2009 18:58:02 MEST
+Received: from mail0.unitn.it (mail0.unitn.it [193.205.206.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id E443120A94
+	for <elsnet-list@let.uu.nl>; Wed,  1 Apr 2009 18:58:02 +0200 (MEST)
+Received: from mail0.unitn.it (localhost.localdomain [127.0.0.1])
+	by localhost (Postfix) with SMTP id 42CA74430B
+	for <elsnet-list@let.uu.nl>; Wed,  1 Apr 2009 18:51:26 +0200 (CEST)
+Received: from mailhub1.unitn.it (mailhub.unitn.it [192.168.206.46])
+	by mail0.unitn.it (Postfix) with ESMTP id EABCC440F3
+	for <elsnet-list@let.uu.nl>; Wed,  1 Apr 2009 18:51:25 +0200 (CEST)
+Received: from disi.unitn.it (brenta.dit.unitn.it [193.205.194.4])
+	by mailhub1.unitn.it (Postfix) with ESMTP id DDA71AE5468
+	for <elsnet-list@let.uu.nl>; Wed,  1 Apr 2009 18:51:25 +0200 (CEST)
+Received: from disi.unitn.it (localhost.localdomain [127.0.0.1])
+	by disi.unitn.it (8.13.8/8.13.8) with ESMTP id n31GpPBh001825
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <elsnet-list@let.uu.nl>; Wed, 1 Apr 2009 18:51:25 +0200
+Received: (from rseba@localhost)
+	by disi.unitn.it (8.13.8/8.13.8/Submit) id n31GpPZQ001824
+	for elsnet-list@let.uu.nl; Wed, 1 Apr 2009 18:51:25 +0200
+Date: Wed, 1 Apr 2009 18:51:25 +0200
+From: Roberto Sebastiani <rseba@disi.unitn.it>
+To: elsnet-list@let.uu.nl
+Message-ID: <20090401165125.GA1816@disi.unitn.it>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Mutt/1.4.2.2i
+X-Mailman-Approved-At: Sat, 04 Apr 2009 13:02:37 +0200
+Cc: 
+Subject: [Elsnet-list] FroCoS'09 Call for Papers
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+-------------------------------------------------------------------------
+       WE APOLOGIZE IF YOU RECEIVE MULTIPLE COPIES OF THIS MESSAGE
+-------------------------------------------------------------------------
+
+                       Final Call for Papers
+
+                 7th International Symposium on
+            FRONTIERS OF COMBINING SYSTEMS (FroCoSâ09)
+
+              Trento, Italy, September 16-18th, 2009 
+                http://events.unitn.it/en/frocos09/
+
+MOTIVATIONS 
+In various areas of computer science, such as logic, computation,
+program development and verification, artificial intelligence, knowledge
+representation, and automated reasoning, there is an obvious need for
+using specialized formalisms and inference mechanisms for special
+tasks. In order to be usable in practice, these specialized systems
+must be combined with each other, and they must be integrated into
+general purpose systems. The development of general techniques and
+methods for the combination and integration of special formally defined
+systems, as well as for the analysis and modularization of complex
+systems has been initiated in many areas. The International Symposium
+on Frontiers of Combining Systems (FROCOS) traditionally focuses on
+this type of research questions and activities and aims at promoting
+progress in the field. 
+Like its predecessors, FROCOSâ09 wants to offer a common forum for
+research activities in the general area of combination, modularization
+and integration of systems (with emphasis on logic-based ones), and of
+their practical use.  
+
+RELEVANT TOPICS 
+Typical topics of interest include (but are not limited to): 
+* combinations of logics such as combined predicate, temporal, modal,
+  or epistemic logics;  
+* combinations and modularity in ontologies; 
+* combination of decision procedures, of satisfiability procedures,
+  and of CS techniques;  
+* combinations and modularity in term rewriting; 
+* integration of equational and other theories into deductive systems; 
+* combination of deduction systems and computer algebra; 
+* integration of data structures into CLP formalisms and deduction processes; 
+* hybrid methods for deduction, resolution and constraint propagation; 
+* hybrid systems in knowledge representation and natural language semantics; 
+* combined logics for distributed and multi-agent systems; 
+* logical aspects of combining and modularizing programs and specifications. 
+
+INVITED SPEAKERS
+* Alessandro Armando, University of Genoa, Italy 
+* Thomas Eiter, TU Wien, Austria 
+* Boris Motik, Oxford University, UK 
+* Ashish Tiwari, SRI International, USA 
+
+PAPER SUBMISSION 
+Papers must describe original work, be written and presented in
+English, and must not substantially overlap with papers that have been
+published or that are simultaneously submitted to a journal or a
+conference with refereed proceedings. Selection criteria include
+accuracy and originality of ideas, clarity and significance of
+results, and quality of presentation. All submissions will be subject
+to academic peer review by at least three members of the program
+committee. For each accepted paper, at least one author is required to
+attend the conference to present the paper. 
+Papers must be edited in LATEX using the llncs style and be submitted 
+electronically as PDF files via the EasyChair system:
+http://www.easychair.org/conferences/?conf=frocos09. 
+The page limit in Springer LNCS style is 16 pages.
+Prospective authors are required to register a title and an abstract a
+week before the paper submission deadline (see below). 
+Further information about paper submission is available at FROCOSâ09 web page.
+
+PROCEEDINGS 
+The proceedings of FroCoSâ09 will be published by Springer-Verlag in
+the LNAI/LNCS series. 
+
+IMPORTANT DATES 
+Abstract submission deadline:    April 26th, 2009 
+Full paper submission deadline:  May 3rd, 2009 
+Notification of acceptance:      June 8th, 2009 
+Camera Ready Copy:               June 22th, 2009 
+Conference:                      September 16-18th 2009
+
+CHAIRS 
+- Silvio Ghilardi, University of Milano, Italy 
+- Roberto Sebastiani, University of Trento, Italy
+
+PROGRAMME COMMITTEE 
+- Franz Baader, T.U. Dresden, Germany 
+- Peter Baumgartner, NICTA, Camberra, Australia 
+- Torben Brauner, Roskilde University, DK 
+- Leonardo de Moura, Microsoft Research, USA 
+- Bernhard Gramlich, T.U. Wien, Austria 
+- Sava Krstic, Intel Corporation, USA 
+- Viktor Kuncak, E.P.F. Lausanne, Switzerland
+- Albert Oliveras, T.U. of Catalonia, Spain 
+- Silvio Ranise, University of Verona, Italy 
+- Christophe Ringeissen, LORIA, Nancy, France 
+- Ulrike Sattler, Univ. of Manchester, UK 
+- Renate Schmidt, Univ. of Manchester, UK 
+- Luciano Serafini, FBK-Irst, Italy 
+- Viorica Sofronie-Stokkermans, MPI, Saarbruken, Germany 
+- Cesare Tinelli, University of Iowa, USA 
+- Frank Wolter, University of Liverpool, UK 
+- Michael Zakharyaschev, London Knowledge Lab, UK
+
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

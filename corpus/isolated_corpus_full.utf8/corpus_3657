@@ -1,0 +1,339 @@
+From - Thu Dec 10 14:33:44 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.141.115.10 with SMTP id s10cs26122rvm;
+        Tue, 14 Oct 2008 05:50:56 -0700 (PDT)
+Received: by 10.210.63.6 with SMTP id l6mr7227682eba.185.1223988654699;
+        Tue, 14 Oct 2008 05:50:54 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 3si11892000eyj.3.2008.10.14.05.50.29;
+        Tue, 14 Oct 2008 05:50:54 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 016B220DA6; Tue, 14 Oct 2008 14:50:28 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C34DE203C2;
+	Tue, 14 Oct 2008 14:49:54 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A31463D44;
+	Tue, 14 Oct 2008 14:49:54 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 7EgHvVOCnhmJ; Tue, 14 Oct 2008 14:49:54 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 9EE7E3D21;
+	Tue, 14 Oct 2008 14:49:51 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E66313D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 13 Oct 2008 18:23:08 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yq7QTF8TrRO0 for <elsnet-list@mailman.elsnet.org>;
+	Mon, 13 Oct 2008 18:23:08 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BAC433D08
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 13 Oct 2008 18:23:08 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A6E951ED83; Mon, 13 Oct 2008 18:23:08 +0200 (MEST)
+Received: from wr-out-0506.google.com (wr-out-0506.google.com [64.233.184.237])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BEFC41E829
+	for <elsnet-list@elsnet.org>; Mon, 13 Oct 2008 18:23:06 +0200 (MEST)
+Received: by wr-out-0506.google.com with SMTP id 69so1112528wri.5
+	for <elsnet-list@elsnet.org>; Mon, 13 Oct 2008 09:23:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type;
+	bh=tf50Zkbz25/BnrOvQ6ZEjLzO6Jl2WkfKTfsdV0foUbQ=;
+	b=m97cAN5j6iCWuhMN7JMpg30JkpKp/B9r5MS5PDm2GRCs5wRuUxfKbUcY1+ElCU4p1y
+	icX/nWTK9BRS9MUy7kRz++t7cZWYRwTMLgCRYHwep3xjuiNDSwaNuc2mg0UaFUPLCAyh
+	hVxtN+zbLp3fbtvTP5kLo4YA+AxVENmy21Fik=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type;
+	b=uaDUWyBpqhIFi8dddmNatYkrGeDfH/Fi9/ppdPaYSyPGk5m+xW+9FcoJkJ/sCJpEFl
+	5+kVCKA1lbApcnqJaq0dXdfkx6qjIk27raahkXizuTdolFhV/HYcy96CfoJQLEXwhSYV
+	oozte35eKyOf/sCrLC6BitrBDRyUhAEY0M/V8=
+Received: by 10.142.223.20 with SMTP id v20mr2701305wfg.152.1223914620125;
+	Mon, 13 Oct 2008 09:17:00 -0700 (PDT)
+Received: by 10.142.226.15 with HTTP; Mon, 13 Oct 2008 09:17:00 -0700 (PDT)
+Message-ID: <c30400470810130917p17456277k61aef8002b3be02e@mail.gmail.com>
+Date: Mon, 13 Oct 2008 09:17:00 -0700
+From: "Kevin Duh" <kevinduh@gmail.com>
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+X-Mailman-Approved-At: Tue, 14 Oct 2008 14:49:50 +0200
+Subject: [Elsnet-list] CFP: Workshop on Semi-supervised Learning for NLP at
+	NAACL 2009
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0104288597=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============0104288597==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_83166_27158611.1223914620108"
+
+------=_Part_83166_27158611.1223914620108
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+================================================
+NAACL HLT 2009 Workshop on
+Semi-supervised Learning for Natural Language Processing
+
+June 4 or 5, 2009, Boulder, Colorado, USA
+http://sites.google.com/site/sslnlp/
+
+Call for Papers
+(Submission deadline: March 6, 2009)
+================================================
+
+Machine learning, be it supervised or unsupervised, has become an
+indispensable tool for natural language processing (NLP) researchers. Highly
+developed supervised training techniques have led to state-of-the-art
+performance for many NLP tasks and provide foundations for deployable NLP
+systems. Similarly, unsupervised methods, such as those based on EM
+training, have also been influential, with applications ranging from grammar
+induction to bilingual word alignment for machine translation.
+
+Unfortunately, given the limited availability of annotated data, and the
+non-trivial cost of obtaining additional annotated data, progress on
+supervised learning often yields diminishing returns. Unsupervised learning,
+on the other hand, is not bound by the same data resource limits. However,
+unsupervised learning is significantly harder than supervised learning and,
+although intriguing, has not been able to produce consistently successful
+results for complex structured prediction problems characteristic of NLP.
+
+It is becoming increasingly important to leverage both types of data
+resources, labeled and unlabeled, to achieve the best performance in
+challenging NLP problems. Consequently, interest in semi-supervised learning
+has grown in the NLP community in recent years. Yet, although several papers
+have demonstrated promising results with semi-supervised learning for
+problems such as tagging and parsing, we suspect that good results might not
+be easy to achieve across the board. Many semi-supervised learning methods
+(e.g. transductive SVM, graph-based methods) have been originally developed
+for binary classification problems. NLP problems often pose new challenges
+to these techniques, involving more complex structure that can violate many
+of the underlying assumptions.
+
+We believe there is a need to take a step back and investigate why and how
+auxiliary unlabeled data can truly improve training for NLP tasks.
+
+In particular, many open questions remain:
+
+  1. Problem Structure: What are the different classes of NLP problem
+structures (e.g. sequences, trees, N-best lists) and what algorithms are
+best suited for each class? For instance, can graph-based algorithms be
+successfully applied to sequence-to-sequence problems like machine
+translation, or are self-training and feature-based methods the only
+reasonable choices for these problems?
+
+  2. Background Knowledge: What kinds of NLP-specific background knowledge
+can we exploit to aid semi-supervised learning? Recent learning paradigms
+such as constraint-driven learning and prototype learning take advantage of
+our domain knowledge about particular NLP tasks; they represent a move away
+from purely data-agnostic methods and are good examples of how linguistic
+intuition can drive algorithm development.
+
+  3. Scalability: NLP data-sets are often large. What are the scalability
+challenges and solutions for applying existing semi-supervised learning
+algorithms to NLP data?
+
+  4. Evaluation and Negative Results: What can we learn from negative
+results? Can we make an educated guess as to when semi-supervised learning
+might outperform supervised or unsupervised learning based on what we know
+about the NLP problem?
+
+  5. To Use or Not To Use: Should semi-supervised learning only be employed
+in low-resource languages/tasks (i.e. little labeled data, much unlabeled
+data), or should we expect gains even in high-resource scenarios (i.e.
+expecting semi-supervised learning to improve on a supervised system that is
+already more than 95% accurate)?
+
+This workshop aims to bring together researchers dedicated to making
+semi-supervised learning work for NLP problems. Our goal is to help build a
+community of researchers and foster deep discussions about insights,
+speculations, and results (both positive and negative) that may otherwise
+not appear in a technical paper at a major conference. We welcome
+submissions that address any of the above questions or other relevant
+issues, and especially encourage authors to provide a deep analysis of data
+and results. Papers will be limited to 8 pages and will be selected based on
+quality and relevance to workshop goals.
+
+IMPORTANT DATES:
+March 6, 2009: Submission deadline
+March 30, 2009: Notification of acceptance
+April 12, 2009: Camera-ready copies due
+June 4 or 5, 2009: Workshop held in conjunction with NAACL HLT (exact date
+to be announced)
+
+PROGRAM COMMITTEE:
+Steven Abney (University of Michigan, USA)
+Yasemin Altun (Max Planck Institute for Biological Cybernetics, Germany)
+Tim Baldwin (University of Melbourne, Australia)
+Shane Bergsma (University of Alberta, Canada)
+Antal van den Bosch (Tilburg University, The Netherlands)
+John Blitzer (UC Berkeley, USA)
+Ming-Wei Chang (UIUC, USA)
+Walter Daelemans (University of Antwerp, Belgium)
+Hal Daume III (University of Utah, USA)
+Kevin Gimpel (Carnegie Mellon University, USA)
+Andrew Goldberg (University of Wisconsin, USA)
+Liang Huang (Google Research, USA)
+Rie Johnson [formerly, Ando] (RJ Research Consulting)
+Katrin Kirchhoff (University of Washington, USA)
+Percy Liang (UC Berkeley, USA)
+Gary Geunbae Lee (POSTECH, Korea)
+Gina-Anne Levow (University of Chicago, USA)
+Gideon Mann (Google, USA)
+David McClotsky (Brown University, USA)
+Ray Mooney (UT Austin, USA)
+Hwee Tou Ng (National University of Singapore, Singapore)
+Vincent Ng (UT Dallas, USA)
+Miles Osborne (University of Edinburgh, UK)
+Mari Ostendorf (University of Washington, USA)
+Chris Pinchak (University of Alberta, Canada)
+Dragomir Radev (University of Michigan, USA)
+Dan Roth (UIUC, USA)
+Anoop Sarkar (Simon Fraser University, Canada)
+Dale Schuurmans (University of Alberta, Canada)
+Akira Shimazu (JAIST, Japan)
+Jun Suzuki (NTT, Japan)
+Yee Whye Teh (University College London, UK)
+Kristina Toutanova (Microsoft Research, USA)
+Jason Weston (NEC, USA)
+Tong Zhang (Rutgers University, USA)
+Ming Zhou (Microsoft Research Asia, China)
+Xiaojin (Jerry) Zhu (University of Wisconsin, USA)
+
+ORGANIZERS AND CONTACT:
+- Qin Wang (Yahoo!)
+- Kevin Duh (University of Washington)
+- Dekang Lin (Google Research)
+Email: ssl.nlp2009@gmail.com
+Website: http://sites.google.com/site/sslnlp/
+
+------=_Part_83166_27158611.1223914620108
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+<div dir="ltr"><div style="text-align: left;"><font style="font-family: arial,sans-serif;" size="2">================================================<br>NAACL HLT 2009 Workshop on<br>Semi-supervised Learning for Natural Language Processing<br>
+<br>June 4 or 5, 2009</font><font style="font-family: arial,sans-serif;" size="2">, Boulder, Colorado, USA</font><font size="2"><br><a href="http://sites.google.com/site/sslnlp/">http://sites.google.com/site/sslnlp/</a><br>
+<br></font></div><font style="font-family: arial,sans-serif;" size="2">Call for Papers <br>(Submission deadline: March 6, 2009)<br>================================================<br><br></font><font size="2">Machine learning, be it supervised or unsupervised, has become an 
+indispensable tool for natural language processing (NLP) researchers. 
+Highly developed supervised training techniques have led to 
+state-of-the-art performance for many NLP tasks and provide foundations 
+for deployable NLP systems. Similarly, unsupervised methods, such as 
+those based on EM training, have also been influential, with 
+applications ranging from grammar induction to bilingual word alignment 
+for machine translation.
+<br><br>Unfortunately, given the limited availability of annotated data, and the 
+non-trivial cost of obtaining additional annotated data, progress on 
+supervised learning often yields diminishing returns. Unsupervised 
+learning, on the other hand, is not bound by the same data resource 
+limits. However, unsupervised learning is significantly harder than 
+supervised learning and, although intriguing, has not been able to 
+produce consistently successful results for complex structured 
+prediction problems characteristic of NLP.
+<br><br>It is becoming increasingly important to leverage both types of data 
+resources, labeled and unlabeled, to achieve the best performance in 
+challenging NLP problems. Consequently, interest in semi-supervised 
+learning has grown in the NLP community in recent years. Yet, although 
+several papers have demonstrated promising results with semi-supervised 
+learning for problems such as tagging and parsing, we suspect that good 
+results might not be easy to achieve across the board. Many 
+semi-supervised learning methods (e.g. transductive SVM, graph-based 
+methods) have been originally developed for binary classification 
+problems. NLP problems often pose new challenges to these techniques, 
+involving more complex structure that can violate many of the underlying 
+assumptions.
+<br><br>We believe there is a need to take a step back and investigate why and 
+how auxiliary unlabeled data can truly improve training for NLP tasks.
+<br><br>In particular, many open questions remain:
+<br><br>&nbsp; 1. Problem Structure: What are the
+different classes of NLP problem structures (e.g. sequences, trees,
+N-best lists) and what algorithms are best suited for each class? For
+instance, can graph-based algorithms be successfully applied to
+sequence-to-sequence problems like machine translation, or are
+self-training and feature-based methods the only reasonable choices for
+these problems? <br><br>&nbsp; 2. Background
+Knowledge: What kinds of NLP-specific background knowledge can we
+exploit to aid semi-supervised learning? Recent learning paradigms such
+as constraint-driven learning and prototype learning take advantage of
+our domain knowledge about particular NLP tasks; they represent a move
+away from purely data-agnostic methods and are good examples of how
+linguistic intuition can drive algorithm development. <br><br>&nbsp;
+3. Scalability: NLP data-sets are often large. What are the scalability
+challenges and solutions for applying existing semi-supervised learning
+algorithms to NLP data?<br><br>&nbsp; 4. Evaluation
+and Negative Results: What can we learn from negative results? Can we
+make an educated guess as to when semi-supervised learning might
+outperform supervised or unsupervised learning based on what we know
+about the NLP problem?<br><br>&nbsp; 5. To Use or Not
+To Use: Should semi-supervised learning only be employed in
+low-resource languages/tasks (i.e. little labeled data, much unlabeled
+data), or should we expect gains even in high-resource scenarios (i.e.
+expecting semi-supervised learning to improve on a supervised system
+that is already more than 95% accurate)?
+<br><br>This workshop aims to bring together
+researchers dedicated to making semi-supervised learning work for NLP
+problems. Our goal is to help build a community of researchers and
+foster deep discussions about insights, speculations, and results (both
+positive and negative) that may otherwise not appear in a technical
+paper at a major conference. We welcome submissions that address any of
+the above questions or other relevant issues, and especially encourage
+authors to provide a deep analysis of data and results. Papers will be
+limited to 8 pages and will be selected based on quality and relevance
+to workshop goals. <br><br></font>
+
+
+<font size="2">IMPORTANT DATES:<br>March 6, 2009: Submission deadline<br>March 30, 2009: Notification of acceptance<br>April 12, 2009: Camera-ready copies due<br>June 4 or 5, 2009: Workshop held in conjunction with NAACL HLT (exact date to be announced)<br>
+<br></font><font size="2">PROGRAM COMMITTEE:<br>
+</font><font size="2">Steven Abney (University of Michigan, USA)<br>Yasemin Altun (Max Planck Institute for Biological Cybernetics, Germany)<br>Tim Baldwin (University of Melbourne, Australia)<br>Shane Bergsma (University of Alberta, Canada)<br>
+Antal van den Bosch (Tilburg University, The Netherlands)<br>John Blitzer (UC Berkeley, USA)<br>Ming-Wei Chang (UIUC, USA)<br>Walter Daelemans (University of Antwerp, Belgium)<br>Hal Daume III (University of Utah, USA)<br>
+Kevin Gimpel (Carnegie Mellon University, USA)<br>Andrew Goldberg (University of Wisconsin, USA)<br>Liang Huang (Google Research, USA)<br>Rie Johnson [formerly, Ando] (RJ Research Consulting)<br>Katrin Kirchhoff (University of Washington, USA)<br>
+Percy Liang (UC Berkeley, USA)<br>Gary Geunbae Lee (POSTECH, Korea)<br>Gina-Anne Levow (University of Chicago, USA)<br>Gideon Mann (Google, USA)<br>David McClotsky (Brown University, USA)<br>Ray Mooney (UT Austin, USA)<br>
+Hwee Tou Ng (National University of Singapore, Singapore)<br>Vincent Ng (UT Dallas, USA)<br>Miles Osborne (University of Edinburgh, UK)<br>Mari Ostendorf (University of Washington, USA)<br></font><font size="2">Chris Pinchak (University of Alberta, Canada)</font><font size="2"> <br>
+Dragomir Radev (University of Michigan, USA)<br>Dan Roth (UIUC, USA)<br>Anoop Sarkar (Simon Fraser University, Canada)<br>Dale Schuurmans (University of Alberta, Canada)<br>Akira Shimazu (JAIST, Japan)<br>Jun Suzuki (NTT, Japan)<br>
+<span style="color: rgb(0, 0, 0);"><span>Yee Whye Teh (University College London, UK)<br>Kristina Toutanova (Microsoft Research, USA)<br></span></span>Jason Weston (NEC, USA)<br>Tong Zhang (Rutgers University, USA)<br>Ming Zhou (Microsoft Research Asia, China)<br>
+Xiaojin (Jerry) Zhu (University of Wisconsin, USA)</font><br><br><font size="2">ORGANIZERS AND CONTACT:<br>- Qin Wang (Yahoo!)<br>- Kevin Duh (University of Washington)<br>- Dekang Lin (Google Research)<br>Email: <a href="mailto:ssl.nlp2009@gmail.com">ssl.nlp2009@gmail.com</a><br>
+Website: <a href="http://sites.google.com/site/sslnlp/">http://sites.google.com/site/sslnlp/</a><br></font></div>
+
+------=_Part_83166_27158611.1223914620108--
+
+--===============0104288597==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0104288597==--

@@ -1,0 +1,354 @@
+From - Thu Dec 10 14:32:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs14032waa;
+        Mon, 18 Aug 2008 13:56:18 -0700 (PDT)
+Received: by 10.210.68.17 with SMTP id q17mr4598443eba.195.1219092975843;
+        Mon, 18 Aug 2008 13:56:15 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id y34si6157893iky.10.2008.08.18.13.55.35;
+        Mon, 18 Aug 2008 13:56:15 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 70FD81C9F2; Mon, 18 Aug 2008 22:55:25 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id D5C191CA8C;
+	Mon, 18 Aug 2008 22:55:18 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id B97573D3C;
+	Mon, 18 Aug 2008 22:55:18 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NtdX-EevTR1S; Mon, 18 Aug 2008 22:55:18 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id E270B3D3D;
+	Mon, 18 Aug 2008 22:55:16 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 701FF3D3C
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 16 Aug 2008 17:04:54 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id bEKtje5gUH45 for <elsnet-list@mailman.elsnet.org>;
+	Sat, 16 Aug 2008 17:04:54 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 3DBE73D22
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 16 Aug 2008 17:04:49 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 28E821F251; Sat, 16 Aug 2008 17:04:49 +0200 (MEST)
+Received: from nf-out-0910.google.com (nf-out-0910.google.com [64.233.182.184])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8B3411F140
+	for <elsnet-list@elsnet.org>; Sat, 16 Aug 2008 17:04:43 +0200 (MEST)
+Received: by nf-out-0910.google.com with SMTP id d3so801831nfc.25
+	for <elsnet-list@elsnet.org>; Sat, 16 Aug 2008 08:04:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:date:from:to
+	:subject:mime-version:content-type;
+	bh=m7ZN0RvtTUJ4IsKbGD4O+Ovr2U082nt66uW/HdxYP24=;
+	b=iTTPky7Re0Vpz/s7g173IMPcY6wAP3JGfjFONLv705rrU66NjG3jsXzSY/j4Kyof41
+	ipLzjS/zR+DjZQGfguD+KNtoynAUGCdn/57VBpcbjik8xtOILxPQBAxpg/WfIxPR7hV+
+	zBUqNf0zwYHBRBMpBJUMU/JvaQVwKtEEATVg4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=message-id:date:from:to:subject:mime-version:content-type;
+	b=QmZn2dRROAsUWsdjGFykWr4pFPCuteYc1RFcYkSwCfdW8Yi9mXH/DHkbBLOH0LHwKC
+	7tyuvKFwSPj0UlGEcPNWWa27Lym1lpCWa4qVSq0QZhl8ELemtvt12HelTX/2n6WFL0W8
+	gx6EDnxHCe56/miaWsQkkuENLJ2DPUsqFRSck=
+Received: by 10.103.228.15 with SMTP id f15mr2743077mur.14.1218899083113;
+	Sat, 16 Aug 2008 08:04:43 -0700 (PDT)
+Received: by 10.103.131.14 with HTTP; Sat, 16 Aug 2008 08:04:43 -0700 (PDT)
+Message-ID: <6c7773520808160804n7f84c6dav8e6fa49aca9d4205@mail.gmail.com>
+Date: Sat, 16 Aug 2008 16:04:43 +0100
+From: "Yannis Kalfoglou" <ykalfoglou@googlemail.com>
+To: elsnet-list@elsnet.org
+MIME-Version: 1.0
+X-Mailman-Approved-At: Mon, 18 Aug 2008 22:55:10 +0200
+Subject: [Elsnet-list] call for cases on semantic interoperability for
+	information systems integration
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0272604734=="
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+--===============0272604734==
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_5331_1000729.1218899083103"
+
+------=_Part_5331_1000729.1218899083103
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+CALL FOR CASES
+
+Submission Deadline: August 31, 2008
+
+
+
+Cases on Semantic Interoperability for Information Systems Integration:
+
+Practices and Applications
+
+A book edited by Dr. Yannis Kalfoglou, Ricoh Europe Plc, UK
+
+
+
+Introduction
+
+
+
+Semantic interoperability and integration is concerned with the use of
+explicit semantic descriptions to facilitate information and systems
+integration. Semantic technologies
+
+provide the means to attach meaning to conventional concepts which makes it
+possible to automatically process and integrate large amounts of information
+without human
+
+intervention.
+
+
+
+The Overall Objective of the Book
+
+
+
+This case book will be a concise and elaborate analysis of the
+state-of-the-art in the emergent field of semantic interoperability and
+integration. It will include a number of cases covering the need for the use
+of semantics to enable intelligent information integration in organizational
+and personal computing settings. The case book will explain in depth, the
+issues involved with integrating large amounts of heterogeneous information,
+and point to the deficiencies of current systems. It will complement
+existing publications in this field and provide the reader with a clear
+understanding of why semantics are needed and how to make use of them in
+information integration tasks.
+
+
+
+The Target Audience
+
+
+
+Research practitioners in academia and industry, research students,
+information and business analysts, information management
+professionals, engineers, and software developers.  The book will assist in
+practitioners' quest for knowledge on applying  semantic technologies to
+their information management tasks; research students and associates will
+find this resource as a one stop reference resource for the semantic
+integration and interoperability field; information management practitioners
+will find this resource a valuable aid in their task on improving everyday
+practice; engineers and software developers will find this resource a
+repository of cases where detailed engineering procedures and methods are
+exposed for the benefit of replicating the solution to similar settings.
+
+
+
+
+
+Recommended topics include, but are not limited to, the following:
+
+
+
+   - Use of ontology mapping technology to semantic interoperability
+   - Use of semantic technology in Enterprise Application Integration (EAI)
+   settings
+   - Use of semantic technology for Intelligent Information Integration
+   (III) applications
+   - Cost of integration using semantic technologies lessons learnt from
+   applying and/or deploying semantic technologies for integration
+   - Scope and benefits of semantic technologies for integration
+   - Theoretical underpinnings of semantic integration
+   - Impact of Semantic Web and Web 2.0 to integration solutions
+
+
+
+
+
+SUBMISSION PROCEDURE
+
+Researchers and practitioners are invited to submit on or before August 31,
+2008, a 1 page (A4 size) manuscript proposal clearly explaining the mission
+and concerns of the proposed case. Authors of accepted proposals will be
+notified by September 15, 2008 about the status of their proposals and sent
+case organizational guidelines. Full cases are expected to be
+submitted by November
+16. 2008. All submitted cases will be reviewed on a double-blind review
+basis. This book is scheduled to be published by IGI Global (formerly Idea
+Group Inc.), publisher of the "Information Science Reference" (formerly Idea
+Group Reference) and "Medical Information Science Reference" imprints. For
+additional information regarding the publisher, please visit
+www.igi-global.com<http://hostedmailsecurity.symantec.com/redir/?hPbP5QNNJxWXzRPhOr01i8ObHdAenMTvDXTLuZXTKrKrb5tftGhfGS2ydqAj_4-ndFL3AnPqaqbbXUWXypJcQsCMnWhEw3gA6Cy097R8quq81bjPPh0bRyq81bqvgTfM-ub7Xa1J4SUrouKUehudEB9a>.
+
+
+
+
+Inquiries and Submissions can be forwarded electronically (MS Word
+document)  to:
+
+Dr Yannis Kalfoglou
+
+e-mail: ykalfoglou@gmail.com
+
+------=_Part_5331_1000729.1218899083103
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+<div dir="ltr">
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">CALL FOR CASES</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">Submission Deadline: August 31, 2008</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-weight: bold; font-style: italic; font-family: Calibri; font-size: 12pt;" lang="en-US">Cases on Semantic Interoperability for Information
+Systems Integration:</p>
+
+<p style="margin: 0in; font-weight: bold; font-style: italic; font-family: Calibri; font-size: 12pt;" lang="en-US">Practices and Applications</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">A book
+edited by Dr. Yannis Kalfoglou, Ricoh Europe Plc, UK</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">Introduction</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">Semantic
+interoperability and integration is concerned with the use of explicit semantic
+descriptions to facilitate information and systems integration. Semantic
+technologies </p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">provide
+the means to attach meaning to conventional concepts which makes it possible to
+automatically process and integrate large amounts of information without human </p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">intervention.&nbsp;
+</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">The Overall Objective of the Book</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">This case
+book will be a concise and elaborate analysis of the state-of-the-art in the
+emergent field of semantic interoperability and integration. It will include a
+number of cases covering the need for the use of semantics to enable
+intelligent information integration in organizational and personal computing
+settings. The case book will explain in depth, the issues involved with
+integrating large amounts of heterogeneous information, and point to the
+deficiencies of current systems. It will complement existing publications in
+this field and provide the reader with a clear understanding of why semantics
+are needed and how to make use of them in information integration tasks.</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">The Target Audience</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">Research
+practitioners in academia and industry, research students, information and
+business analysts, information management professionals,&nbsp;engineers, and
+software developers.&nbsp; The book will assist in practitioners&#39; quest for
+knowledge on applying&nbsp; semantic technologies to their information
+management tasks; research students and associates will&nbsp; find this
+resource as a one stop reference resource for the semantic integration and
+interoperability field; information management practitioners will find this
+resource a valuable aid in their task on improving everyday practice; engineers
+and software developers will find this resource a repository of cases where
+detailed engineering procedures and methods are exposed for the benefit of replicating
+the solution to similar settings. </p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">Recommended topics include, but are not limited to, the following:</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<ul style="margin-left: 0.75in; direction: ltr; unicode-bidi: embed; margin-top: 0in; margin-bottom: 0in;" type="disc"><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Use of ontology mapping
+     technology to semantic interoperability</span></li><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Use of semantic technology in
+     Enterprise Application Integration (EAI) settings</span></li><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Use of semantic technology
+     for Intelligent Information Integration (III) applications</span></li><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Cost of integration using
+     semantic technologies lessons learnt from applying and/or deploying
+     semantic technologies for integration</span></li><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Scope and benefits of
+     semantic technologies for integration</span></li><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Theoretical underpinnings of
+     semantic integration</span></li><li style="margin-top: 0pt; margin-bottom: 0pt; vertical-align: middle;" lang="en-US"><span style="font-family: Calibri; font-size: 12pt;">Impact of Semantic Web and
+     Web 2.0 to integration solutions</span></li></ul>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">SUBMISSION PROCEDURE</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;" lang="en-US">Researchers
+and practitioners are invited to submit <span style="font-style: italic;">on or
+before </span><span style="font-weight: bold; font-style: italic;">August 31, 2008</span>,
+a 1 page (A4 size) manuscript proposal clearly explaining the mission and
+concerns of the proposed case. Authors of accepted proposals will be notified
+by <span style="font-weight: bold; font-style: italic;">September 15, 2008</span>
+about the status of their proposals and sent case organizational guidelines.
+Full cases are expected to be submitted by <span style="font-weight: bold; font-style: italic;">November 16. 2008</span>. All submitted cases will be
+reviewed on a double-blind review basis. This book is scheduled to be published
+by IGI Global (formerly Idea Group Inc.), publisher of the &quot;Information
+Science Reference&quot; (formerly Idea Group Reference) and &quot;Medical
+Information Science Reference&quot; imprints. For additional information
+regarding the publisher, please visit <a href="http://hostedmailsecurity.symantec.com/redir/?hPbP5QNNJxWXzRPhOr01i8ObHdAenMTvDXTLuZXTKrKrb5tftGhfGS2ydqAj_4-ndFL3AnPqaqbbXUWXypJcQsCMnWhEw3gA6Cy097R8quq81bjPPh0bRyq81bqvgTfM-ub7Xa1J4SUrouKUehudEB9a">www.igi-global.com</a>.
+</p>
+
+<p style="margin: 0in; font-family: Calibri; font-size: 12pt;">&nbsp;</p>
+
+<p style="margin: 0in; font-style: italic; font-family: Calibri; font-size: 12pt;" lang="en-US">Inquiries and Submissions can be forwarded <span style="font-weight: bold;">electronically</span> (MS Word document)&nbsp; to:</p>
+
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;" lang="en-US">Dr Yannis Kalfoglou</p>
+
+<p style="margin: 0in; font-weight: bold; font-family: Calibri; font-size: 12pt;"><span lang="de">e-mail: </span><a href="mailto:ykalfoglou@gmail.com"><span lang="de">ykalfoglou@gmail.com</span></a><span lang="en-US"> </span></p>
+
+
+</div>
+
+------=_Part_5331_1000729.1218899083103--
+
+--===============0272604734==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0272604734==--

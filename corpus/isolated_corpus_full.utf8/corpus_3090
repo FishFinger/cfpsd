@@ -1,0 +1,191 @@
+From - Thu Dec 10 14:31:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs168363waa;
+        Sun, 25 May 2008 03:41:30 -0700 (PDT)
+Received: by 10.210.102.12 with SMTP id z12mr2873907ebb.52.1211712089589;
+        Sun, 25 May 2008 03:41:29 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id b33si8748866ika.2.2008.05.25.03.41.06;
+        Sun, 25 May 2008 03:41:29 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A3BFFDD02; Sun, 25 May 2008 12:41:04 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id CCD71DD5D;
+	Sun, 25 May 2008 12:33:20 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id D37753D4C;
+	Sun, 25 May 2008 12:33:19 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 79l2nJAuunoR; Sun, 25 May 2008 12:33:19 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 732B83E31;
+	Sun, 25 May 2008 12:31:51 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 94CCA3D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 24 May 2008 09:25:40 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 8g6ItJ0wJxWO for <elsnet-list@mailman.elsnet.org>;
+	Sat, 24 May 2008 09:25:40 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 6DE493CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 24 May 2008 09:25:40 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 5EBFEBF7A1; Sat, 24 May 2008 09:25:40 +0200 (MEST)
+Received: from nougat.ucs.ed.ac.uk (nougat.ucs.ed.ac.uk [129.215.13.205])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 8062FBEF91
+	for <elsnet-list@elsnet.org>; Sat, 24 May 2008 09:25:29 +0200 (MEST)
+Received: from nutty.inf.ed.ac.uk (nutty.inf.ed.ac.uk [129.215.216.3])
+	by nougat.ucs.ed.ac.uk (8.13.8/8.13.4) with ESMTP id m4O7PDjs029128
+	for <elsnet-list@elsnet.org>; Sat, 24 May 2008 08:25:23 +0100 (BST)
+Received: from rydell.inf.ed.ac.uk (rydell.inf.ed.ac.uk [129.215.212.186])
+	by nutty.inf.ed.ac.uk (8.13.8/8.13.8) with ESMTP id m4O7PDb5020465
+	for <elsnet-list@elsnet.org>; Sat, 24 May 2008 08:25:13 +0100
+Received: from rydell.inf.ed.ac.uk (localhost [127.0.0.1])
+	by rydell.inf.ed.ac.uk (8.13.8/8.13.8) with ESMTP id m4O7PDUP020636
+	for <elsnet-list@elsnet.org>; Sat, 24 May 2008 08:25:13 +0100
+Received: from localhost (jbos@localhost)
+	by rydell.inf.ed.ac.uk (8.13.8/8.13.8/Submit) with ESMTP id
+	m4O7PCsi020633
+	for <elsnet-list@elsnet.org>; Sat, 24 May 2008 08:25:13 +0100
+X-Authentication-Warning: rydell.inf.ed.ac.uk: jbos owned process doing -bs
+Date: Sat, 24 May 2008 08:25:12 +0100 (BST)
+From: Johan Bos <jbos@inf.ed.ac.uk>
+To: elsnet-list@elsnet.org
+Message-ID: <alpine.LRH.1.10.0805240823530.20171@rydell.inf.ed.ac.uk>
+User-Agent: Alpine 1.10 (LRH 962 2008-03-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+X-Edinburgh-Scanned: at nougat.ucs.ed.ac.uk
+	with MIMEDefang 2.60, Sophie, Sophos Anti-Virus, Clam AntiVirus
+Content-Disposition: inline
+X-Scanned-By: MIMEDefang 2.60 on 129.215.13.205
+X-Mailman-Approved-At: Sun, 25 May 2008 12:31:13 +0200
+Subject: [Elsnet-list] STEP 2008 shared task: comparing semantic
+	representations
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+
+   ----------------------------------------------------------------
+
+            STEP 2008: Call for Participation in SHARED TASK
+
+                                P  2
+                              E      0
+                            T          0
+                          S              8
+
+       *** SHARED TASK PAPER SUBMISSION DEADLINE: JUNE 6, 2008 ***
+
+               Symposium on Semantics in Text Processing
+
+          http://project.cgm.unive.it/html/STEP2008/index.htm
+
+                         September 22-24, 2008
+
+                     Auditorium Santa Margherita
+                           Venice (Italy)
+
+          Endorsed by SIGSEM, the ACL special interest group
+                    on computational semantics
+
+
+  WORKSHOP SCOPE
+================
+The goal of the STEP workshop is to provide a forum for anyone active
+in semantic processing of text to discuss innovative technologies,
+representation issues, inference techniques, prototype
+implementations, and real applications. The preferred processing
+targets are large quantities of texts -- either specialised domains,
+or open domains such as newswire text, blogs, and wikipedia-like text.
+Implemented rather than theoretical work is emphasised in STEP.
+
+
+  SHARED TASK: COMPARING SEMANTIC REPRESENTATIONS
+================================================= 
+STEP 2008 will feature a "shared task" to compare semantic
+representations as output by state-of-the-art NLP systems.
+Participating systems will be given a number of (small) texts, before
+the workshop.  The output of these systems will be judged on a number
+of aspects by a panel of experts in the field, during the workshop.
+Aim of the shared task is to discuss the feasibility of a gold
+standard for deep semantic representations. Aim of the panel is to
+identify a set of problematic and relevant issues for semantic
+evaluation.  The panel will reward the system with the most complete
+and accurate semantic representation with a special prize. Important
+dates for the Step Shared Task are:
+
+ 	Intention of participation:       June  1, 2008
+ 	Shared Task paper submission:     June  6, 2008
+         Notification of acceptance:       June 23, 2008
+         Release of test data              June 25, 2008
+         System's results due              July  4, 2008
+         Final version paper due:          July 25, 2008
+         Workshop:                      Sept 22-24, 2008
+
+To participate in the shared task, please submit a paper not exceeding
+8 pages containing (1) a system description, (2) a description of the
+semantic formalism used by the system, and (3) an authentic small text
+and the way it is analysed by the system.  This text should be in
+English (but see below) and not exceed five sentences and 120
+tokens. The test data for the shared task will be composed out of all
+the texts submitted by the participants, allowing participants to
+"challenge" each other.
+
+Shared task submissions will be published in the STEP 2008 proceedings
+and presented at the workshop by short oral presentations and a poster
+session or system demonstration.
+
+Please email Johan Bos (bos@di.uniroma1.it) by June 1 to declare your
+intention to participate in the shared task, or for further questions
+on the shared task, or if you would like to participate with a
+language other than English.
+
+
+  SUBMISSIONS
+=============
+Submissions should be in Abobe PDF format, not exceed four A4-sized
+pages, written in English and typeset in a 11 point font.  Detailed
+guidelines and a latex stylefile package are available at the STEP
+2008 web page. Paper submission will be electronic using the EasyChair
+system: http://www.easychair.org/conferences/?conf=step2008 
+Please choose the category "shared task" when submitting a paper using
+the EasyChair system.  The final paper must include a discussion of
+the system's performance on the shared task data.
+
+-- 
+The University of Edinburgh is a charitable body, registered in
+Scotland, with registration number SC005336.
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

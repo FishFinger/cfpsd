@@ -1,0 +1,463 @@
+From - Thu Dec 10 14:37:13 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.105.199 with SMTP id u7cs625039fao;
+        Thu, 28 May 2009 05:40:51 -0700 (PDT)
+Received: by 10.210.86.1 with SMTP id j1mr970744ebb.29.1243514448604;
+        Thu, 28 May 2009 05:40:48 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 9si19327132ewy.81.2009.05.28.05.40.47;
+        Thu, 28 May 2009 05:40:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2EE6E20DF1; Thu, 28 May 2009 14:40:44 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6184920D05;
+	Thu, 28 May 2009 14:40:33 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 44EF43D24;
+	Thu, 28 May 2009 14:40:33 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id mHLuZJ2qZzt1; Thu, 28 May 2009 14:40:32 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 78C503D2B;
+	Thu, 28 May 2009 14:40:31 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C74163D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 28 May 2009 13:59:24 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id TgR-wdpuYKN5 for <elsnet-list@mailman.elsnet.org>;
+	Thu, 28 May 2009 13:59:24 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8E4543D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 28 May 2009 13:59:04 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 712B320BA5; Thu, 28 May 2009 13:59:04 +0200 (MEST)
+X-Greylist: delayed 320 seconds by postgrey-1.28 at newjura;
+	Thu, 28 May 2009 13:58:58 MEST
+Received: from mail-bw0-f180.google.com (mail-bw0-f180.google.com
+	[209.85.218.180])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 0055120CCC
+	for <elsnet-list@elsnet.org>; Thu, 28 May 2009 13:58:58 +0200 (MEST)
+Received: by bwz28 with SMTP id 28so5852804bwz.13
+	for <elsnet-list@elsnet.org>; Thu, 28 May 2009 04:58:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:received:received:message-id:from:content-type
+	:subject:mime-version:date:x-mailer;
+	bh=Wk7hAZ0s53i/KHtRoOcXoWrdio2A6zABMWQh5H2RI+w=;
+	b=dpXAcX9XKn6bF9BqrcOxTtwT8Hs1cx8jZ9KskEVOOQgc+hyg0qyNoObY0qjPkY+d5u
+	3aznPtb6Hb257SRk4SJd1K2dw8T2JX6ZTSRWI9OV6QsJvlUU/qDm5ya73jXtkEJznujc
+	sR0kYs6theGrip7geLJzT0mAZL6HmtwsCBAOM=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=message-id:from:content-type:subject:mime-version:date:x-mailer;
+	b=HrJOv03Tyub4zGjrVLHdQF+aW7rTlVNyUjvgmPovc1BdtKY+quIXTTvGQOmGfOSk0k
+	aaUBsFNIiOl/5G5L7NrCfRi2yaA09uSQayVAfw9kYiqeklKlmTEJxy1jJXXevNFisyEm
+	BGG6Oz1veeGAYHlBM6+CkR3ukmGsd7wRaiZTE=
+Received: by 10.204.117.17 with SMTP id o17mr1092325bkq.145.1243511605704;
+	Thu, 28 May 2009 04:53:25 -0700 (PDT)
+Received: from kenny.crema.unimi.it ([159.149.71.2])
+	by mx.google.com with ESMTPS id k29sm6371380fkk.17.2009.05.28.04.53.22
+	(version=SSLv3 cipher=RC4-MD5); Thu, 28 May 2009 04:53:24 -0700 (PDT)
+Message-Id: <E4F9DF39-391B-45F0-822A-CCDF57AFABE6@unimi.it>
+From: Paolo Ceravolo <paolo.ceravolo@gmail.com>
+Mime-Version: 1.0 (Apple Message framework v935.3)
+Date: Thu, 28 May 2009 13:53:21 +0200
+X-Mailer: Apple Mail (2.935.3)
+To: undisclosed-recipients:;
+X-Mailman-Approved-At: Thu, 28 May 2009 14:40:30 +0200
+Subject: [Elsnet-list] CALL FOR PAPERS The 4nd International Workshop on
+	Ontology Content (OnToContent09)
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0388485204=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+--===============0388485204==
+Content-Type: multipart/alternative; boundary=Apple-Mail-116-1063913213
+
+
+--Apple-Mail-116-1063913213
+Content-Type: text/plain;
+	charset=WINDOWS-1252;
+	format=flowed;
+	delsp=yes
+Content-Transfer-Encoding: quoted-printable
+
+
+CALL FOR PAPERS
+
+The 4nd International Workshop on
+Ontology Content
+
+Special tracks on:
+Business | Human Resources | eHealth | Web 3.0
+
+OnToContent'09
+Nov 6, 2009, Algarve, Portugal
+Part of the OTM (OTM'09)
+Proceedings will be published by Springer LNCS
+
+Call for Papers
+In recent years the expectations of software technology based on =20
+social networking and social analysis have increased tremendously. =20
+Where the initial interest was focused on the Web community, =20
+reflecting the success of Web 2.0 applications and the growth of =20
+relevance of social  networks analysis. Today, however, this interest =20=
+
+extends also to include business and government organizations. A major =20=
+
+trend in many areas involves the creation of hybrids incorporating =20
+elements of both traditional knowledge management and business process =20=
+
+management techniques. In this context the issues related to the =20
+quality of data representation acquire a new relevance. For the sorts =20=
+
+of accurate and timely analysis of data needed by major organizations =20=
+
+demand that data be formulated in ways that are expressive and =20
+manipulable at the same time. In this context the role of good quality =20=
+
+ontology (i.e. good quality conceptualizations, encoded in portable =20
+and extensible format) is more and more relevant.
+
+This workshop aims to focus on content issues, such as methodologies =20
+and tools concerned with modeling good ontologies, approaches to =20
+ontology content evaluation, quality measures, ontology content =20
+management (e.g. metadata, libraries, and registration), ontology =20
+documentation, etc. The workshop also aims to give a special attention =20=
+
+to ontology content issues in: Business, human resources and =20
+employment, healthcare and life sciences, and Web 3.0. We welcome =20
+papers and (past/planned) project descriptions that discuss ontology =20
+aspects, particularly:
+Research papers presenting theoretical solutions, but with a clear =20
+illustration on how these solutions can be applied in industry.
+Position papers presenting opinions on some aspect of ontology =20
+practice, or describing work that is still in progress, but =20
+sufficiently mature to warrant attention.
+Business experience and case studies specifying requirements, =20
+challenges, or opportunities of modeling and applying ontologies in =20
+industry.
+
+Topics
+
+Methodology and Engineering
+Ontology design patterns
+Ontological usability and usefulness.
+Ontology metadata, and libraries.
+Ontology interoperability.
+Consensus reaching.
+Ontology tools.
+Modeling and engineering methodologies.
+Ontology evolution and versioning.
+
+Web 3.0 Ontologies
+Lessons from Web 2.0 for ontology engineering
+Experiences with participatory and evolutionary approaches to ontology =20=
+
+engineering (e.g., based on social software)
+Lightweight ontology formalisms (e.g., SKOS) and microformats
+Experiences/empirical results on lightweight vs. heavy-weight ontologies
+Experiences/empirical results on graphical modeling of ontologies
+Experimental evidence (e.g., from cognitive science) on conceptual =20
+modeling
+Challenges/requirements for maintenance and evolution of ontologies
+Good, best, and bad practices
+
+Ontologies for Business Process Representation and Management
+Ontologies for modeling Business Process.
+Ontologies for monitoring Business Process.
+Ontologies for Risk Analysis.
+Ontologies for Supply Chains.
+
+Ontologies for Human Resources
+Modeling and representation of: Jobs, CVs, Competencies, Skills, =20
+Employees, People, Organizations, Social Events, etc.
+HR upper level concepts.
+Semantics of HR-XML.
+Semantic metadata for HR applications.
+Semantics in job matching.
+Semantics is learning technologies.
+Multilinguality in human resources ontologies.
+Best practice and semantic patterns in ontology modeling and evaluation.
+
+Ontologies for Healthcare and Life sciences
+Ontologies in Biomedicine and bioinformatics.
+Ontologies of diseases, nursing, therapeutics, drug, etc.
+Upper level concepts of healthcare and life sciences ontologies.
+Semantic metadata for Clinical Data Interchange.
+Semantics of medical XML standards and vocabularies.
+Multilinguality in Biomedicine and bioinformatics ontologies.
+Best practice and semantic patterns in ontology modeling and evaluation
+
+Submissions
+We invite (A) Research papers describing original studies of no more =20
+than 10 pages; (B) Position papers presenting opinions or work in =20
+progress of no more than 6 pages; and (C) Business experience and case =20=
+
+studies of no more than 8 pages. All submitted papers will be =20
+evaluated by at least three members of the program committee, based on =20=
+
+originality, significance, technical soundness, and clarity of =20
+expression. Detailed formatting instructions can be found at:
+http://www.springer.de/comp/lncs/authors.html
+The final proceedings will be published by Springer Verlag as LNCS. =20
+Failure to commit to presentation at the conference automatically =20
+excludes a paper from the proceedings. The paper submission page is =
+at:http://www.onthemove-conferences.org/index.php/submitpaper/ontocontents=
+ub/
+
+Important dates
+Abstracts due: June 15
+Papers due: June 29
+Acceptance Notification: August 10
+Camera-ready copies: August 25
+Registration due: August 25
+OTM Conferences: November 1 =96 6
+
+Program Chair
+         Paolo Ceravolo, Universit=E0 degli Studi di Milano, Italy. =20
+[main contact] paolo.ceravolo@unimi.it
+
+General Chairs
+Mustafa Jarrar, University of Cyprus
+Andreas Schmidt, FZI, Germany
+
+Program Committee
+
+Abder Koukam, University of Technology UTBM, France
+Aldo Gangemi, LAO - CNR, Italy
+Alessandro Oltramari, ISCT - CNR, Italy
+Alia Abdelmoty, Cardiff University, UK
+Andreas Wombacher, University of Twente, NL
+Antonio Zilli, ISUFI - University of Lecce, Italy
+Barry Smith, State University of New York at Buffalo, USA
+Chen Wu, Curtin University of Technology, Australia
+Christophe Roche, Universit=E9 de Savoie, France
+Davy Monticolo, University of Technology UTBM, France
+Eva Blomqvist, ISTC-CNR, Italy
+Fabio Vitali, University of Bologna, Italy
+Fausto Giunchiglia, University of Trento, Italy
+Geert Poels, Faculty of Economics and Business Administration, Ghent, =20=
+
+Belgium
+Giancarlo Guizzardi, University of Trento, Italy
+Harith Alani, University of Southampton, UK
+Hyoil Han, Drexel University, USA
+Jeff Pan, University of Aberdeen, UK
+Karl Reed, La Trobe University, Australia
+Luk Vervenne,  Synergetics, Belgium
+Marcello Leida, Universit=E0 Degli Studi di Milano, Italy
+Martin Hepp, DERI Innsbruck, Austria
+Michael Brown, Skillsnet.Com
+Miguel Sicilia, University of Catalonia, Spain
+Mohand-Said Hacid, University Claude Bernard Lyon 1, France
+N=FAria Casellas, Universitat Aut=F2noma de Barcelona, Spain
+Paul Piwek, Open University, UK
+Pavel Shvaiko, University of Trento, Italy
+Philippe Cudr=E9-Mauroux, CSAIL - MIT,  USA
+Riccardo Albertoni, IMATI CNR, Italy
+Robert Tolksdorf, Free University of Berlin, Germany
+Sergio Tessaris, Free University of Bozen-Bolzano, Italy
+Silvie Spreeuwenberg, LibRT, NL
+Stefano David, Universit=E0 Politecnica delle Marche, Italy
+Stijn Heymans, Vienna University of Technology, Austria
+
+
+
+
+
+
+
+
+--Apple-Mail-116-1063913213
+Content-Type: text/html;
+	charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; =
+-webkit-line-break: after-white-space; "><div =
+apple-content-edited=3D"true"><br class=3D"Apple-interchange-newline"> =
+</div><div apple-content-edited=3D"true"><div style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><div apple-content-edited=3D"true"><span =
+class=3D"Apple-style-span" style=3D"border-collapse: separate; color: =
+rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: =
+normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-indent: 0px; =
+text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; =
+-webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: =
+0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; "><div style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><span class=3D"Apple-style-span" =
+style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: =
+Helvetica; font-size: 12px; font-style: normal; font-variant: normal; =
+font-weight: normal; letter-spacing: normal; line-height: normal; =
+orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; =
+widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; =
+-webkit-border-vertical-spacing: 0px; =
+-webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: =
+auto; -webkit-text-stroke-width: 0px; "><div style=3D"word-wrap: =
+break-word; -webkit-nbsp-mode: space; -webkit-line-break: =
+after-white-space; "><div><b><span class=3D"Apple-style-span" =
+style=3D"font-weight: normal; ">CALL FOR PAPERS<br><br>The 4nd =
+International Workshop on<br>Ontology Content<br><br>Special tracks =
+on:<br>Business | Human Resources | eHealth | Web =
+3.0<br><br>OnToContent'09<br>Nov 6, 2009, Algarve, Portugal<br>Part of =
+the OTM (OTM'09)<br>Proceedings will be published by Springer =
+LNCS<br><br>Call for Papers<br>In recent years the expectations of =
+software technology based on social networking and social analysis have =
+increased tremendously. Where the initial interest was focused on the =
+Web community, reflecting the success of Web 2.0 applications and the =
+growth of relevance of social &nbsp;networks analysis. Today, however, =
+this interest extends also to include business and government =
+organizations. A major trend in many areas involves the creation of =
+hybrids incorporating elements of both traditional knowledge management =
+and business process management techniques. In this context the issues =
+related to the quality of data representation acquire a new relevance. =
+For the sorts of accurate and timely analysis of data needed by major =
+organizations demand that data be formulated in ways that are expressive =
+and manipulable at the same time. In this context the role of good =
+quality ontology (i.e. good quality conceptualizations, encoded in =
+portable and extensible format) is more and more relevant.<br><br>This =
+workshop aims to focus on content issues, such as methodologies and =
+tools concerned with modeling good ontologies, approaches to ontology =
+content evaluation, quality measures, ontology content management (e.g. =
+metadata, libraries, and registration), ontology documentation, etc. The =
+workshop also aims to give a special attention to ontology content =
+issues in: Business, human resources and employment, healthcare and life =
+sciences, and Web 3.0. We welcome papers and (past/planned) project =
+descriptions that discuss ontology aspects, particularly:<br>Research =
+papers presenting theoretical solutions, but with a clear illustration =
+on how these solutions can be applied in industry.<br>Position papers =
+presenting opinions on some aspect of ontology practice, or describing =
+work that is still in progress, but sufficiently mature to warrant =
+attention.<br>Business experience and case studies specifying =
+requirements, challenges, or opportunities of modeling and applying =
+ontologies in industry.<br><br>Topics<br><br>Methodology and =
+Engineering<br>Ontology design patterns<br>Ontological usability and =
+usefulness.<br>Ontology metadata, and libraries.<br>Ontology =
+interoperability.<br>Consensus reaching.<br>Ontology tools.<br>Modeling =
+and engineering methodologies.<br>Ontology evolution and =
+versioning.<br><br>Web 3.0 Ontologies<br>Lessons from Web 2.0 for =
+ontology engineering<br>Experiences with participatory and evolutionary =
+approaches to ontology engineering (e.g., based on social =
+software)<br>Lightweight ontology formalisms (e.g., SKOS) and =
+microformats<br>Experiences/empirical results on lightweight vs. =
+heavy-weight ontologies<br>Experiences/empirical results on graphical =
+modeling of ontologies<br>Experimental evidence (e.g., from cognitive =
+science) on conceptual modeling<br>Challenges/requirements for =
+maintenance and evolution of ontologies<br>Good, best, and bad =
+practices<br><br>Ontologies for Business Process Representation and =
+Management<br>Ontologies for modeling Business Process.<br>Ontologies =
+for monitoring Business Process.<br>Ontologies for Risk =
+Analysis.<br>Ontologies for Supply Chains.<br><br>Ontologies for Human =
+Resources<br>Modeling and representation of: Jobs, CVs, Competencies, =
+Skills, Employees, People, Organizations, Social Events, etc.<br>HR =
+upper level concepts.<br>Semantics of HR-XML.<br>Semantic metadata for =
+HR applications.<br>Semantics in job matching.<br>Semantics is learning =
+technologies.<br>Multilinguality in human resources ontologies.<br>Best =
+practice and semantic patterns in ontology modeling and =
+evaluation.<br><br>Ontologies for Healthcare and Life =
+sciences<br>Ontologies in Biomedicine and bioinformatics.<br>Ontologies =
+of diseases, nursing, therapeutics, drug, etc.<br>Upper level concepts =
+of healthcare and life sciences ontologies.<br>Semantic metadata for =
+Clinical Data Interchange.<br>Semantics of medical XML standards and =
+vocabularies.<br>Multilinguality in Biomedicine and bioinformatics =
+ontologies.<br>Best practice and semantic patterns in ontology modeling =
+and evaluation<br><br>Submissions<br>We invite (A) Research papers =
+describing original studies of no more than 10 pages; (B) Position =
+papers presenting opinions or work in progress of no more than 6 pages; =
+and (C) Business experience and case studies of no more than 8 pages. =
+All submitted papers will be evaluated by at least three members of the =
+program committee, based on originality, significance, technical =
+soundness, and clarity of expression. Detailed formatting instructions =
+can be found at:<br><a =
+href=3D"http://www.springer.de/comp/lncs/authors.html">http://www.springer=
+.de/comp/lncs/authors.html</a><br>The final proceedings will be =
+published by Springer Verlag as LNCS. Failure to commit to presentation =
+at the conference automatically excludes a paper from the proceedings. =
+The paper submission page is at:<a =
+href=3D"http://www.onthemove-conferences.org/index.php/submitpaper/ontocon=
+tentsub/">http://www.onthemove-conferences.org/index.php/submitpaper/ontoc=
+ontentsub/</a><br><br>Important dates<br>Abstracts due: June =
+15<br>Papers due: June 29<br>Acceptance Notification: August =
+10<br>Camera-ready copies: August 25<br>Registration due: August =
+25<br>OTM Conferences: November 1 =96 6<br><br>Program =
+Chair<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paolo Ceravolo, =
+Universit=E0 degli Studi di Milano, Italy. [main contact]&nbsp;<a =
+href=3D"mailto:paolo.ceravolo@unimi.it">paolo.ceravolo@unimi.it</a><br><br=
+>General Chairs<br>Mustafa Jarrar, University of Cyprus<br>Andreas =
+Schmidt, FZI, Germany<br><br>Program Committee<br><br>Abder Koukam, =
+University of Technology UTBM, France<br>Aldo Gangemi, LAO - CNR, =
+Italy<br>Alessandro Oltramari, ISCT - CNR, Italy<br>Alia Abdelmoty, =
+Cardiff University, UK<br>Andreas Wombacher, University of Twente, =
+NL<br>Antonio Zilli, ISUFI - University of Lecce, Italy<br>Barry Smith, =
+State University of New York at Buffalo, USA<br>Chen Wu, Curtin =
+University of Technology, Australia<br>Christophe Roche, Universit=E9 de =
+Savoie, France<br>Davy Monticolo, University of Technology UTBM, =
+France<br>Eva Blomqvist, ISTC-CNR, Italy<br>Fabio Vitali, University of =
+Bologna, Italy<br>Fausto Giunchiglia, University of Trento, =
+Italy<br>Geert Poels, Faculty of Economics and Business Administration, =
+Ghent, Belgium<br>Giancarlo Guizzardi, University of Trento, =
+Italy<br>Harith Alani, University of Southampton, UK<br>Hyoil Han, =
+Drexel University, USA<br>Jeff Pan, University of Aberdeen, UK<br>Karl =
+Reed, La Trobe University, Australia<br>Luk Vervenne, &nbsp;Synergetics, =
+Belgium<br>Marcello Leida, Universit=E0 Degli Studi di Milano, =
+Italy<br>Martin Hepp, DERI Innsbruck, Austria<br>Michael Brown, =
+Skillsnet.Com<br>Miguel Sicilia, University of Catalonia, =
+Spain<br>Mohand-Said Hacid, University Claude Bernard Lyon 1, =
+France<br>N=FAria Casellas, Universitat Aut=F2noma de Barcelona, =
+Spain<br>Paul Piwek, Open University, UK<br>Pavel Shvaiko, University of =
+Trento, Italy<br>Philippe Cudr=E9-Mauroux, CSAIL - MIT, =
+&nbsp;USA<br>Riccardo Albertoni, IMATI CNR, Italy<br>Robert Tolksdorf, =
+Free University of Berlin, Germany<br>Sergio Tessaris, Free University =
+of Bozen-Bolzano, Italy<br>Silvie Spreeuwenberg, LibRT, NL<br>Stefano =
+David, Universit=E0 Politecnica delle Marche, Italy<br>Stijn Heymans, =
+Vienna University of Technology, =
+Austria<br><br><br><br></span></b></div><div><br =
+class=3D"webkit-block-placeholder"></div></div></span><br =
+class=3D"Apple-interchange-newline"></div></span><br =
+class=3D"Apple-interchange-newline"></div></div></div><br></body></html>=
+
+--Apple-Mail-116-1063913213--
+
+--===============0388485204==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0388485204==--

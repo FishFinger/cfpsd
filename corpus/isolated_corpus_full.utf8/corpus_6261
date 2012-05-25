@@ -1,0 +1,256 @@
+From - Thu Dec 10 14:38:38 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.61.201 with SMTP id u9cs31648bkh;
+        Wed, 14 Oct 2009 02:30:47 -0700 (PDT)
+Received: by 10.211.128.15 with SMTP id f15mr7074934ebn.57.1255512644263;
+        Wed, 14 Oct 2009 02:30:44 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 27si4636670ewy.71.2009.10.14.02.30.43;
+        Wed, 14 Oct 2009 02:30:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 3233823E91; Wed, 14 Oct 2009 11:30:43 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 71C5C23F11;
+	Wed, 14 Oct 2009 11:24:27 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 56F883D44;
+	Wed, 14 Oct 2009 11:24:27 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 9Kl9siZQvJCE; Wed, 14 Oct 2009 11:24:27 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 67E863DC8;
+	Wed, 14 Oct 2009 11:23:25 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7869E3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 11 Oct 2009 00:14:37 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id REDHhegdnRrG for <elsnet-list@mailman.elsnet.org>;
+	Sun, 11 Oct 2009 00:14:37 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 46CED3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Sun, 11 Oct 2009 00:14:17 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 2699B24A44; Sun, 11 Oct 2009 00:14:17 +0200 (MEST)
+Received: from poincare.uvt.nl (poincare.uvt.nl [137.56.247.172])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5112A24A05
+	for <elsnet-list@elsnet.org>; Sun, 11 Oct 2009 00:14:12 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by poincare.uvt.nl (Postfix) with ESMTP id 013BF280185
+	for <elsnet-list@elsnet.org>; Sun, 11 Oct 2009 00:14:12 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at uvt.nl
+Received: from poincare.uvt.nl ([127.0.0.1])
+	by localhost (poincare.uvt.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id LQc-qRfTiBtG for <elsnet-list@elsnet.org>;
+	Sun, 11 Oct 2009 00:14:11 +0200 (CEST)
+Received: from lagrange.uvt.nl (lagrange.uvt.nl [137.56.247.171])
+	by poincare.uvt.nl (Postfix) with ESMTP id 92E842800BC
+	for <elsnet-list@elsnet.org>; Sun, 11 Oct 2009 00:14:11 +0200 (CEST)
+Received: from lyramail.uvt.nl (zeta.uvt.nl [137.56.12.152])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by lagrange.uvt.nl (Postfix) with ESMTPS id 859E2400082
+	for <elsnet-list@elsnet.org>; Sun, 11 Oct 2009 00:14:11 +0200 (CEST)
+Received: from Bunt [88.177.242.123] by lyramail.uvt.nl
+	with NetMail ModWeb Module; Sun, 11 Oct 2009 00:14:11 +0200
+From: "Harry Bunt" <Harry.Bunt@uvt.nl>
+To: elsnet-list@elsnet.org
+Date: Sun, 11 Oct 2009 00:14:11 +0200
+X-Mailer: NetMail ModWeb Module
+X-Sender: Bunt
+MIME-Version: 1.0
+Message-ID: <1255212851.895f675cBunt@lyramail.uvt.nl>
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-Mailman-Approved-At: Wed, 14 Oct 2009 11:22:59 +0200
+Cc: 
+Subject: [Elsnet-list] ISA-5 Semantic annotation, deadline extension
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+*** DEADLINE EXTENSION ***
+
+***************************************************************************=
+*************************
+Fifth Joint ISO-ACL/SIGSEM Workshop on Interoperable Semantic Annotation IS=
+A-5=20
+***************************************************************************=
+*************************
+
+Hong Kong, January 15-17, 2010=20
+
+in conjunction with ICGL 10, the International Conference on Global Interop=
+erability=20
+for Language Resources, January 18-20
+
+
+Purpose
+----------
+ISA-5 is the fifth edition of a series of joint workshops of the ACL SIGSEM=
+=20
+Working Group "The Representation of Multimodal Semantic Information"=20
+(see http://let.uvt.nl/research/TI/sigsem/wg) and ISO TC 37/SC 4=20
+(Language Resources) WG 2: Annotation and representation schemes.
+
+
+This workshop aims to bring together experts from ongoing and recent=20
+projects concerned with the annotation or representation of linguistic=20
+and amultimodal semantic information, and its relation to the analysis,=20
+interpretation and generation of text, speech, and multimodal=20
+communicative behaviour.=20
+
+The main focus of the workshop will be on approaches, experiences,=20
+experiments, problems, and proposals concerning the construction or=20
+application of interoperable semantically annotated linguistic resources,=
+=20
+including (but not limited to) the following topics:=20
+
+*methodological aspects of semantic annotation
+* experiments in or with semantic annotation
+* semantic annotation and semantic interpretation
+* semantic annotation, ontologies, and inferencing
+* the semantics of semantic annotations
+* issues in semantic annotation in specific domains:
+* temporal entities and relations
+* spatial entities and relations
+* events
+* communicative functions
+* semantic roles and predicate-argument structures
+* discourse relations=20
+* modification and quantification
+* ...=20
+* integration of annotations across domains
+* best practices in semantic annotation
+* semantic annotation project reports
+* reports and comments on recent, current, and planned ISO projects=20
+on developing semantic annotation standards:
+
+* project 24617-1 Semantic Annotation Framework, Part 1: Time and events
+* project 24617-2 Semantic Annotation Framework, Part 2: Dialogue acts
+* project 24617-3 Semantic Annotation Framework, Part 3: Named entities=20
+(to start soon)
+* ISO-Space (in preparation)
+* ISO-Semantic roles (in preparation)
+
+
+Submissions:
+---------------=20
+Two types of papers can be submitted:=20
+
+* long papers, maxmimally 8 pages
+* short papers, maximally 4 pages
+
+Members of the project teams or advisory boards of the ISO projects=20
+24617-1 and 24617-2 also have the possibility to submit commentaries=20
+of maximally 2 pages on the most recent versions of the documents=20
+describing these projects.=20
+
+
+All submissions should be in the ACL format - see=20
+http://sigsem.uvt.nl/isa5/format=20
+and should be submitted through the ICGl 2010 website for paper=20
+submission -- see
+http://ctl.cityu.edu.hk/Portal_root/ICGL2010/index.html=20
+
+
+Important dates=20
+--------------------
+* Submission deadline for long papers: 15 October EXTENDED TO 5 NOVEMBER
+* Submission deadline for short papers: 5 November EXTENDED TO 15 NOVEMBER
+* Submission deadline for commentaries: 25 November
+* Notification of paper acceptance: 1 December
+* Camera-ready papers due: 15 December=20
+* ISA-5 Workshop: January 15-17, 2009
+* ICGL 2010 conference: January 18-20, 2009
+
+
+Programme Committee
+----------------------------
+Jan Alexandersson
+Branimir Boguraev (tbc)
+Harry Bunt
+Nicoletta Calzolari
+Jean Carletta (tbc)
+Jae-Woong Choe=20
+Katrin Erk
+Alex Fang
+Gil Francopoulo
+Dafydd Gibbon
+Koiti Hasida
+Nancy Ide
+Kiyong Lee
+Martha Palmer
+Andrei Popescu-Belis
+James Pustejovsky=20
+Laurent Romary
+David Traum=20
+
+
+Organizers
+-------------
+Harry Bunt (Tilburg University)
+Alex Fang (City University of Hong Kong)
+Gil Francopoulo (Tagmatica, Paris))
+Martha Palmer (University of Colorado)
+James Pustejovsky (Brandeis University)
+
+
+Registration=20
+---------------
+Registration is only possible in conjunction with the International
+Conference on Global Interoperability for Language Resources (ICGL 2010): 
+http://ctl.cityu.edu.hk/Portal_root/ICGL2010/index.html. 
+The registration fee for the ISA-5 workshop is US$ 50,00. 
+
+For urgent questions contact Harry.Bunt@uvt.nl 
+or Alex Fang at acfang@cityu.edu.hk
+
+
+More information
+---------------------
+For more information see the websites of the ISA-4 workshop: 
+http://sigsem.uvt.nl/isa5/
+and that of the ICGl 2010 conference: 
+http://ctl.cityu.edu.hk/Portal_root/ICGL2010/index.html 
+which will be regularly updated.
+
+Harry Bunt
+Chair of Language and Information Science
+Head, Department of Communication and Information Sciences
+Tilburg University
+phone +31 13 466 81 18
+fax: +31 13 466 28 92
+mail: bunt@uvt.nl
+web: http://let.uvt.nl/general/people/bunt
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

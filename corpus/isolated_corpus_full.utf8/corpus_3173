@@ -1,0 +1,335 @@
+From - Thu Dec 10 14:32:18 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.27.9 with SMTP id a9cs139851waa;
+        Sun, 15 Jun 2008 03:00:52 -0700 (PDT)
+Received: by 10.210.19.4 with SMTP id 4mr4869753ebs.58.1213524050111;
+        Sun, 15 Jun 2008 03:00:50 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@elsnet.org>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id c24si6813667ika.4.2008.06.15.03.00.42;
+        Sun, 15 Jun 2008 03:00:50 -0700 (PDT)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by best guess record for domain of elsnet-list-bounces@elsnet.org) smtp.mail=elsnet-list-bounces@elsnet.org
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A8F21113C8; Sun, 15 Jun 2008 11:55:01 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.5 required=5.0 tests=BAYES_00,URIBL_RHS_DOB
+	autolearn=no version=3.2.4
+Received: from stratus.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 20AE8113C8;
+	Sun, 15 Jun 2008 11:43:22 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id F15173CEF;
+	Sun, 15 Jun 2008 11:43:21 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ZUAQtZ8hb5HS; Sun, 15 Jun 2008 11:43:21 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 8D08C3E3E;
+	Sun, 15 Jun 2008 11:41:41 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by stratus.let.uu.nl (Postfix) with ESMTP id 103F33D3B
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Jun 2008 20:17:20 +0200 (CEST)
+Received: from stratus.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rLJ1Eie38Hk9 for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Jun 2008 20:17:19 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by stratus.let.uu.nl (Postfix) with ESMTP id D02783CEF
+	for <elsnet-list@mailman.elsnet.org>;
+	Thu, 12 Jun 2008 20:17:19 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id BA0B1A652; Thu, 12 Jun 2008 20:17:19 +0200 (MEST)
+Received: from mail.fhbb.ch (mail1.fhbb.ch [193.222.241.11])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1180F75DA
+	for <elsnet-list@elsnet.org>; Thu, 12 Jun 2008 20:16:46 +0200 (MEST)
+Received: from localhost (mail2.fhbb.ch [193.222.241.12])
+	by mail.fhbb.ch (Postfix) with ESMTP id 86211701201;
+	Thu, 12 Jun 2008 20:16:52 +0200 (CEST)
+Received: from mail.fhbb.ch ([193.222.241.11])
+	by localhost (amavis.fhbb.ch [193.222.241.13]) (amavisd-new, port 10024)
+	with ESMTP id 15356-46; Thu, 12 Jun 2008 20:15:59 +0200 (CEST)
+Received: from mail.fhbb.ch (mxamu15.adm.ds.fhnw.ch [10.51.2.73])
+	by mail.fhbb.ch (Postfix) with ESMTP;
+	Thu, 12 Jun 2008 20:15:59 +0200 (CEST)
+Received: from MXAMU11.adm.ds.fhnw.ch ([10.51.2.48]) by MXEMU15.edu.ds.fhnw.ch
+	([10.51.2.73]) with mapi; Thu, 12 Jun 2008 20:15:00 +0200
+From: "Wache,Holger" <holger.wache@fhnw.ch>
+To: "Ontoweb-list@lists.deri.org" <Ontoweb-list@lists.deri.org>,
+	"semanticweb@yahoogroups.com" <semanticweb@yahoogroups.com>,
+	"w3c-announce@w3.org" <w3c-announce@w3.org>,
+	"sw-announce@semanticplanet.com" <sw-announce@semanticplanet.com>,
+	"AI-SGES@JISCMAIL.AC.UK" <AI-SGES@JISCMAIL.AC.UK>,
+	"dl@dl.kr.org" <dl@dl.kr.org>, "ontology@fipa.org" <ontology@fipa.org>,
+	"agents@cs.umbc.edu" <agents@cs.umbc.edu>,
+	"kaw@science.uva.nl" <kaw@science.uva.nl>,
+	"isworld@lyris.isworld.org" <isworld@lyris.isworld.org>,
+	"info@folli.org" <info@folli.org>,
+	"www-webont-wg@w3.org" <www-webont-wg@w3.org>,
+	"cg@cs.uah.edu" <cg@cs.uah.edu>, "dai-list@mcc.com" <dai-list@mcc.com>,
+	"diglib@infoserv.inist.fr" <diglib@infoserv.inist.fr>,
+	"ISWORLD@listserv.heanet.ie" <ISWORLD@listserv.heanet.ie>,
+	"ifla.listserv@infoserv.inist.fr" <ifla.listserv@infoserv.inist.fr>,
+	"swws-list@isoco.com" <swws-list@isoco.com>,
+	"kweb-all@lists.deri.org" <kweb-all@lists.deri.org>,
+	"ontology@atl.lmco.com" <ontology@atl.lmco.com>,
+	"topicmapmail@infoloom.com" <topicmapmail@infoloom.com>,
+	"tccc@cs.columbia.edu" <tccc@cs.columbia.edu>,
+	"koskenni@ling.Helsinki.FI" <koskenni@ling.Helsinki.FI>,
+	"act-r-users@act-r.psy.cmu.edu" <act-r-users@act-r.psy.cmu.edu>,
+	"chi-Announcements@acm.org" <chi-Announcements@acm.org>,
+	"collab@sims.berkeley.edu" <collab@sims.berkeley.edu>,
+	"agents-owner@cs.umbc.edu" <agents-owner@cs.umbc.edu>,
+	"semantic-web@w3c.org" <semantic-web@w3c.org>,
+	"seweb-list@cs.vu.nl" <seweb-list@cs.vu.nl>,
+	"itssmily@yahoo.co.in" <itssmily@yahoo.co.in>,
+	"agents@cs.umbc.edu" <agents@cs.umbc.edu>,
+	"fipa-chat@IEEE.ORG" <fipa-chat@IEEE.ORG>,
+	"cluk@dcs.shef.ac.uk" <cluk@dcs.shef.ac.uk>,
+	"project@aktors.org" <project@aktors.org>,
+	"seweb-list@www1-c703.uibk.ac.at" <seweb-list@www1-c703.uibk.ac.at>,
+	"eccaiwww@eccai.org" <eccaiwww@eccai.org>,
+	"ml@dcs.shef.ac.uk" <ml@dcs.shef.ac.uk>,
+	"aiia@dis.uniroma1.it" <aiia@dis.uniroma1.it>,
+	"elsnet-list@elsnet.org" <elsnet-list@elsnet.org>,
+	"irlist-editor@sigir.org" <irlist-editor@sigir.org>,
+	"community@mlnet.org" <community@mlnet.org>,
+	"elsnet-list@mailman.elsnet.org" <elsnet-list@mailman.elsnet.org>,
+	"ml@isle.org" <ml@isle.org>, "web-semantics-italia@yahoogroups.com"
+	<web-semantics-italia@yahoogroups.com>, 
+	"public-sws-ig@w3.org" <public-sws-ig@w3.org>,
+	"ruleml-all@ruleml.org" <ruleml-all@ruleml.org>,
+	"announce@sigart.acm.org" <announce@sigart.acm.org>,
+	"semantic-web@w3.org" <semantic-web@w3.org>,
+	"www-rdf-logic@w3.org" <www-rdf-logic@w3.org>,
+	"semanticweb@egroups.com" <semanticweb@egroups.com>,
+	"www-rdf-rules@w3.org" <www-rdf-rules@w3.org>,
+	"sw-announce@semanticplanet.com" <sw-announce@semanticplanet.com>,
+	"corpora@hd.uib.no" <corpora@hd.uib.no>,
+	"salt@dcs.shef.ac.uk" <salt@dcs.shef.ac.uk>,
+	"mlnet@ais.fraunhofer.de" <mlnet@ais.fraunhofer.de>,
+	"nlp@dcs.shef.ac.uk" <nlp@dcs.shef.ac.uk>,
+	"ir@sheffield.ac.uk" <ir@sheffield.ac.uk>,
+	"public-sws-ig@w3.org" <public-sws-ig@w3.org>,
+	"www-ws@w3c.org" <www-ws@w3c.org>,
+	"BUSINESS-INFORMATION-ALL@JISCMAIL.AC.UK"
+	<BUSINESS-INFORMATION-ALL@JISCMAIL.AC.UK>, 
+	"sw-ergo@gui-design.de" <sw-ergo@gui-design.de>,
+	"agentcities@fipa.org" <agentcities@fipa.org>,
+	"announce@sigart.acm.org" <announce@sigart.acm.org>,
+	"community@mlnet.org" <community@mlnet.org>,
+	"rewerse-all@rewerse.net" <rewerse-all@rewerse.net>,
+	"sem-grd@gridforum.org" <sem-grd@gridforum.org>,
+	"fg-db@informatik.uni-rostock.de" <fg-db@informatik.uni-rostock.de>,
+	"fgwm@uni-trier.de" <fgwm@uni-trier.de>,
+	"ankuendigungen-gimod@liste.es.e-technik.tu-darmstadt.de"
+	<ankuendigungen-gimod@liste.es.e-technik.tu-darmstadt.de>, 
+	"CSCW-ALL@JISCMAIL.AC.UK" <CSCW-ALL@JISCMAIL.AC.UK>,
+	"www-annotation@w3.org" <www-annotation@w3.org>,
+	"acl@opus.cs.columbia.edu" <acl@opus.cs.columbia.edu>,
+	"public-sws-ig-request@w3.org" <public-sws-ig-request@w3.org>,
+	"IFIPWG82@LISTSERV.SYR.EDU" <IFIPWG82@LISTSERV.SYR.EDU>,
+	"tm-pubsubj@lists.oasis-open.org" <tm-pubsubj@lists.oasis-open.org>,
+	"ecoop-info@ecoop.org" <ecoop-info@ecoop.org>,
+	"conferences@computer.org" <conferences@computer.org>,
+	"dotkom-project@dcs.shef.ac.uk" <dotkom-project@dcs.shef.ac.uk>,
+	"info@openegovernment.org" <info@openegovernment.org>,
+	"entr-egovo@cec.eu.int" <entr-egovo@cec.eu.int>,
+	"egovbulletin@headstar.com" <egovbulletin@headstar.com>,
+	"weekly@egovmonitor.com" <weekly@egovmonitor.com>,
+	"web-semantica-ayuda@es.tldp.org" <web-semantica-ayuda@es.tldp.org>,
+	"bull_i3@univ-tln.fr" <bull_i3@univ-tln.fr>,
+	"uai@cs.orst.edu" <uai@cs.orst.edu>,
+	"admin@ai-gakkai.or.jp" <admin@ai-gakkai.or.jp>,
+	"jsai-ann@iijnet.or.jp" <jsai-ann@iijnet.or.jp>,
+	"acl@opus.cs.columbia.edu" <acl@opus.cs.columbia.edu>,
+	"iswc2003-list@www1-c703.uibk.ac.at" <iswc2003-list@www1-c703.uibk.ac.at>, 
+	"public-sws-ig@w3.org" <public-sws-ig@w3.org>,
+	"deri.ie-iswc2005@lists.deri.org" <deri.ie-iswc2005@lists.deri.org>,
+	"sem-grd@gridforum.org" <sem-grd@gridforum.org>,
+	"ambient-intelligence@lists.andrew.cmu.edu"
+	<ambient-intelligence@lists.andrew.cmu.edu>, 
+	"soc-eusai@icp.inpg.fr" <soc-eusai@icp.inpg.fr>,
+	"uai@ENGR.ORST.EDU" <uai@ENGR.ORST.EDU>,
+	"announce@aosd.net" <announce@aosd.net>,
+	"p2pmpi@u-strasbg.fr" <p2pmpi@u-strasbg.fr>,
+	"openknowledge@inf.ed.ac.uk" <openknowledge@inf.ed.ac.uk>
+Date: Thu, 12 Jun 2008 20:19:48 +0200
+Thread-Topic: [KM2009] Second Call for Workshop Proposals
+Thread-Index: AcjMuOXlnw09lkJ+T9i1Nn/tGOKsRg==
+Message-ID: <61D782572FA1864A95B7DD1DE0F7D7B35FE789BB8F@MXAMU11.adm.ds.fhnw.ch>
+Accept-Language: de-DE, en-US
+Content-Language: de-DE
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+acceptlanguage: de-DE, en-US
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+X-Virus-Scanned: by amavisd-new at fhbb.ch
+X-Mailman-Approved-At: Sun, 15 Jun 2008 11:40:57 +0200
+Cc: 
+Subject: [Elsnet-list] [KM2009] Second Call for Workshop Proposals
+X-BeenThere: elsnet-list@elsnet.org
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.elsnet.org>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=unsubscribe>
+List-Archive: <http://stratus.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@elsnet.org>
+List-Help: <mailto:elsnet-list-request@elsnet.org?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@elsnet.org?subject=subscribe>
+Sender: elsnet-list-bounces@elsnet.org
+Errors-To: elsnet-list-bounces@elsnet.org
+
+
+                Second Call for Workshops Proposals
+
+****************************************************************
+                           KM2009
+        5th Conference on Professional Knowledge Management
+                  - Experiences and Visions -
+
+                      Solothurn, Switzerland
+                      25-27th of March 2009
+                http://www.km-conference2009.org
+****************************************************************
+
+The Conference on Professional Knowledge Management 2009 provides a
+broad integrative overview of organizational, cultural, social and
+technical aspects on knowledge management. Focus of the conference
+is bringing together different research disciplines and sharing
+experiences gained in the different areas where knowledge management
+is being applied.
+
+Both practitioners and scientists will be invited to visit
+Solothurn, Switzerland, in order to exchange experiences, to discuss
+current problems and challenges and learn from each other.
+Participants will be able get a well-founded overview of the most
+important trends in the area of knowledge management. Therefore our
+conference offers much time and space for communication.
+
+We would like to invite you to contribute actively by organizing a
+workshop at KM2009. There will be opportunities for half-day,
+one-day, and two-day workshops. Please submit your workshop proposal
+electronically in PDF or Postscript format. The proposal can be
+written in German or English and should not be submitted later than
+July 5th, 2008, via the conference system
+
+
+       http://www.easychair.org/conferences/?conf=3Dwm2009
+
+Each proposal should explain on 2-3 A4-pages the topic of the
+workshop, the potential audience (as concrete as possible), and
+information about the intended length. Furthermore a tentative
+program committee should be given.
+
+When the proposal is accepted the workshop organizers are
+responsible for the organization of the workshop completely
+including distribution of the call-for-papers, maintenance of their
+own web page, organization and implementation of the review process,
+and providing the camera-ready submissions in time. Furthermore all
+workshop have to follow the time schedule given below. The workshop
+organizers have to mention that at least one author of accepted
+paper have to be registered to the conference.
+
+Accepted submission will be published in a proceedings from a
+well-known publisher. Every workshop will have access to a given
+amount of pages depending on the length of the workshop.
+
+Program Structure
+-----------------
+The conference consists of presentations and workshops, plenary
+sessions and a poster session which takes place during the
+conference program. Before the workshops on Wednesday (25th of March
+2009) tutorials on current knowledge management issues are held by
+experts. During the workshops on Wednesday (25th of March 2009),
+Thursday (26th of March 2009) and Friday (27th of March 2009)
+current knowledge management issues will be presented and discussed
+and the results will be elaborated.
+
+
+Deadlines
+---------
+* Submission of workshop proposals                    5th of July 2008
+* Notification about workshop acceptance/rejection  1st of August 2008
+* Publication of the call for papers (on the organizer-website)
+                                                   15th of August 2008
+* Submission of workshop papers                   31th of October 2008
+* Notification of authors about acceptance/rejection
+                                                 15th of December 2008
+* Submission of camera-ready papers               16th of January 2009
+* Workshops at the KM2009          25th of March to 27th of March 2009
+
+General Chair
+-------------
+Prof. Dr. Knut Hinkelmann
+University of Applied Science Northwestern Switzerland
+Riggenbachstrasse 16
+4600 Olten
+Tel | ++41 62 286 00 80
+E-Mail | knut.hinkelmann 'at' fhnw 'dot' ch
+Web | http://knut.hinkelmann.ch
+
+
+Workshop Chair
+--------------
+Prof. Dr. Holger Wache
+University of Applied Science Northwestern Switzerland
+Riggenbachstrasse 16
+4600 Olten
+Tel | ++41 62 286 01 71
+E-Mail | holger.wache 'at' fhnw 'dot' ch
+Web | http://web.fhnw.ch/personenseiten/holger.wache
+
+
+
+Program Committee
+-----------------
+
+Currently the PC is under construction. For a more updated list please
+refer to our web page
+
+http://www.km-conference2009.org/committee.php
+
+Prof. Dr. Klaus-Dieter Althoff, University of Hildesheim
+Prof. Dr. Ralph Bergmann, University of Trier
+Prof. Dr. Peter Pawlowsky, University of Chemnitz
+Prof. Dr. Ulrich Reimer, FHS St. Gallen
+Prof. Dr. Rudi Studer, University of Karlsruhe
+Prof. Dr. Dimitris Karagiannis, Universtit=E4t Wien
+Prof. Dr. Norbert Gronau, Univesit=E4t Potsdam
+Prof. Dr. Markus Bick, Europ=E4ische Wirtschaftshochschule Berlin
+Prof. Dr. Hans-Dietrich Haasis, Institut f=FCr Seeverkehrswirtschaft und Lo=
+gistik (ISL) Bremen
+Dr. Tobias Ley, Know-Center Graz
+Dr. Stefanie Lindstaedt, Know-Center Graz
+Prof. Dr. Klaus North, Fachhochschule Wiesbaden
+Dr. Richard Pircher, University of Applied Sciences bfi Vienna
+Prof. Dr. Bodo Rieger, University of Osnabr=FCck
+Prof. Dr. Gerold Riempp, European Business School (EBS)
+Dr. Thomas Roth-Berghofer, DFKI Kaiserslautern
+Prof. Dr. Andreas Dengel, DFKI Kaiserslautern
+Dr. Andreas Abecker, FZI Karlsruhe
+Prof. Dr. Ronald Maier, University of Innsbruck
+Prof. Dr. Johannes Magenheim, University of Paderborn
+Prof. Dr. Andrea Back, University of St. Gallen
+Prof. Dr. Martin Eppler, University of Lugano
+Prof. Dr. Klaus Tochtermann, Know-Center Graz
+Andreas Schmidt, FZI Karlsruhe
+Dr. Robert Woitsch, BOC GmbH
+Prof. Dr. Marcus Spies, LMU M=FCnchen
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@elsnet.org
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

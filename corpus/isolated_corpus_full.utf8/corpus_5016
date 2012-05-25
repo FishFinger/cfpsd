@@ -1,0 +1,456 @@
+From - Thu Dec 10 14:36:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.120.193 with SMTP id e1cs719101far;
+        Thu, 16 Apr 2009 12:14:58 -0700 (PDT)
+Received: by 10.210.91.17 with SMTP id o17mr5804969ebb.92.1239909296490;
+        Thu, 16 Apr 2009 12:14:56 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 17si1502155ewy.91.2009.04.16.12.14.55;
+        Thu, 16 Apr 2009 12:14:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C8EB521A48; Thu, 16 Apr 2009 21:14:54 +0200 (MEST)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1CF3521A94;
+	Thu, 16 Apr 2009 21:13:30 +0200 (MEST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E91B23D2A;
+	Thu, 16 Apr 2009 21:13:29 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id dOos7SdYCACM; Thu, 16 Apr 2009 21:13:29 +0200 (CEST)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BA8A83D2F;
+	Thu, 16 Apr 2009 21:13:27 +0200 (CEST)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7BEC83D2A;
+	Thu, 16 Apr 2009 18:42:35 +0200 (CEST)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Da6hKdSA8N85; Thu, 16 Apr 2009 18:42:35 +0200 (CEST)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 3FBFF3D24;
+	Thu, 16 Apr 2009 18:42:15 +0200 (CEST)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 12D2E21802; Thu, 16 Apr 2009 18:42:15 +0200 (MEST)
+X-Greylist: delayed 582 seconds by postgrey-1.28 at newjura;
+	Thu, 16 Apr 2009 18:42:12 MEST
+Received: from mail10.mayo.edu (mail10.mayo.edu [129.176.212.47])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6CBFE216B2;
+	Thu, 16 Apr 2009 18:42:12 +0200 (MEST)
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AmQGAF/65kmBsNQ1/2dsb2JhbACBU1MwvxyHJ4hNgjaBRwaHXw
+Received: from mhro1a.mayo.edu ([129.176.212.53])
+	by ironport10.mayo.edu with ESMTP; 16 Apr 2009 11:32:28 -0500
+Received: from msgebh10.mfad.mfroot.org (msgebh10.mayo.edu [129.176.251.36])
+	by mhro1a.mayo.edu with ESMTP id BT-MMP-2628990;
+	Thu, 16 Apr 2009 11:32:28 -0500
+Received: from MSGEBE53.mfad.mfroot.org ([129.176.113.21]) by
+	msgebh10.mfad.mfroot.org with Microsoft SMTPSVC(6.0.3790.3959); 
+	Thu, 16 Apr 2009 11:32:28 -0500
+x-mimeole: Produced By Microsoft Exchange V6.5
+Content-class: urn:content-classes:message
+MIME-Version: 1.0
+Date: Thu, 16 Apr 2009 11:32:28 -0500
+Message-ID: <B28C1D76E440BD4DB288C1F71DC6F64BB46757@msgebe53.mfad.mfroot.org>
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+Thread-Topic: RANLP'09 Workshop: Biomedical Information Extraction
+Thread-Index: Acm+sO4T4YbD1NHjQVa3j1oe9Q1/Aw==
+From: "Savova, Guergana K., Ph.D." <Savova.Guergana@mayo.edu>
+To: "Savova, Guergana K., Ph.D." <Savova.Guergana@mayo.edu>
+X-OriginalArrivalTime: 16 Apr 2009 16:32:28.0379 (UTC)
+	FILETIME=[EEA08AB0:01C9BEB0]
+X-Mailman-Approved-At: Thu, 16 Apr 2009 21:12:50 +0200
+Cc: 
+Subject: [Elsnet-list] RANLP'09 Workshop: Biomedical Information Extraction
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1303939836=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This is a multi-part message in MIME format.
+
+--===============1303939836==
+Content-class: urn:content-classes:message
+Content-Type: multipart/alternative;
+	boundary="----_=_NextPart_001_01C9BEB0.EE76AF24"
+
+This is a multi-part message in MIME format.
+
+------_=_NextPart_001_01C9BEB0.EE76AF24
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Apologies for multiple postings.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Workshop: Biomedical Information Extraction
+http://www.lml.bas.bg/ranlp2009/biomedicalIE=20
+
+In conjunction with the 7th International Conference
+Recent Advances on Natural Language Processing RANLP-2009, 14-16
+September 2009
+
+
+Undoubtly, the availability of information for biomedicine in an
+electronic format has been rapidly increasing. The Medical Literature
+Analysis and Retrieval system (Medline) houses millions of biomedical
+scientific literature publications. PubMed offers the power of a search
+engine for accessing the Medline content. On the other hand, the
+electronization of clinical data within the Electronic Medical Record
+(EMR) provides another powerful source for information extraction.
+Access to integrated information is critical for health care
+improvement, research, and the overall science of healthcare delivery
+and personalized medicine. Information extraction from the scientific
+literature is distinct from information extraction from the clinical
+narrative as these two types of genre have their own stylistic
+characteristics and pose different methodological challenges. In
+addition, biomedical information spans multiple languages thus
+necessitating methods for multi-lingual information extraction.=20
+
+In addition to the biomedical scientific literature and clinical data,
+the large number of health-related web resources is increasing day by
+day. The content of these resources is very variable and difficult to
+assess. Furthermore, the number of people searching for health-related
+information is also increasing. The development of tools to support the
+process of describing the content of medical web resources with
+meta-data that facilitate their retrieval, and with quality labels by
+certified authorities, is crucial for the delivery of content of better
+quality to health information consumers. Multi-lingual information
+extraction has a significant role to play there also.=20
+
+The focus of this workshop is natural language processing and
+information extraction for biomedicine, including scientific and
+clinical free-text as well as health-related web resources within one or
+many languages. Topics of interest include but are not limited to:
+*	Natural language processing techniques for basic tasks, e.g.
+sentence boundary detection, tokenization, part of speech tagging,
+shallow parsing and deep parsing. Evaluation and comparison with the
+general domain;
+*	Efforts to create sharable biomedical lexical resources,
+including the annotation of biomedical data for linguistic and domain
+events;
+*	Biomedical named entity recognition;
+*	Methods for higher level biomedical language processing, e.g.
+relation discovery, temporal relation discovery, anaphoric relation
+discovery;
+*	Terminology/ontology biomedical named entity mapping;
+*	Integrated knowledge management of scientific and clinical
+free-text data
+*	Knowledge representation and management technologies (e.g. OWL,
+RDF, Annotation Schemas, etc.) that enable the creation of
+machine-processable descriptions of health-related web resources
+*	Content collection and information extraction techniques that
+allow the quality labeling of web resources and the continuous
+monitoring of already labeled ones
+*	Multi-lingual information extraction
+
+Important dates:
+*	Submission deadline: 6 June 2009
+*	Notification of acceptance: 20 July 2009
+*	Camera-ready copy due from authors: 24 August 2009
+*	Workshop: 17 or 18 September 2009
+
+Submission instructions:
+Submissions should be A4, two-column format and should not exceed seven
+pages including cover page, figures, tables and references. The workshop
+papers should follow the RANLP format which is available at the RANLP
+website http://www.lml.bas.bg/ranlp2009 in the Second Call for Papers.
+Papers should be submitted electronically in *PDF* format using the
+conference submission system START. Detailed instructions about the
+workshop submission will be announced at the workshop website.
+
+Review and multiple submission policy
+The review process is anonymous. The paper text should not reveal the
+authors identity. To maintain the submissions, all authors' names and
+addresses should be registered in the START system when the paper is
+submitted; this information will be open for the workshop organizers
+only. Submissions will be reviewed by 3 members of the Programme
+Committee. Authors of accepted papers will receive guidelines regarding
+how to produce camera-ready versions of their papers for inclusion in
+the proceedings. The full workshop proceedings will be distributed at
+the event. The workshop papers will be included in the ACL Anthology.=20
+
+The workshop calls for articles describing original research. Authors
+may submit the same paper at several events. In this case they must
+notify the organizers in a separate mail to [savova dot guergana at mayo
+dot edu], to inform them that the paper might be withdrawn depending on
+the selections at some other event.=20
+
+Organizing committee:
+Guergana Savova, Mayo Clinic College of Medicine, Rochester, Minnesota,
+USA
+Vangelis Karkaletsis, Institute of Informatics and Telecommunications,
+Athens, Greece
+Galia Angelova, Bulgarian Academy of Sciences, Sofia, Bulgaria
+
+Programme committee (to be announced in the second Call for Papers)
+
+Workshop venue:
+The workshop will be held at the Samokov Hotel in the resort of Borovets
+as a post-conference event of RANLP-09. The picturesque resort of
+Borovets is located in the Rila mountains and is one of the best known
+winter resorts in South-East Europe, a frequent venue for world skiing
+events. The resort is 1350 m above sea level, at the foot of the highest
+peak on the Balkan Peninsula - Moussala (2925 m). The resort of Borovets
+is 73 km from Sofia and the International airport of Sofia can serve as
+an arrival/departure point. In addition to regular public transport, the
+organizers will provide daily shuttle buses from Sofia airport to the
+Samokov hotel at an inexpensive rate. A taxi from Sofia to Borovets is
+relatively cheap; it is also possible to take a taxi from the
+International airport in Sofia to the workshop venue.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+------_=_NextPart_001_01C9BEB0.EE76AF24
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+6.5.7654.12">
+<TITLE>RANLP'09 Workshop: Biomedical Information Extraction</TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/rtf format -->
+
+<P><FONT SIZE=3D2 FACE=3D"Arial">Apologies for multiple postings.</FONT>
+</P>
+
+<P><FONT SIZE=3D2 =
+FACE=3D"Arial">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&g=
+t;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt=
+;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;=
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&=
+gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&g=
+t;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</FONT>
+</P>
+
+<P ALIGN=3DCENTER><B><FONT FACE=3D"Times New Roman">Workshop: Biomedical =
+Information Extraction</FONT></B></P>
+
+<P><A HREF=3D"http://www.lml.bas.bg/ranlp2009/biomedicalIE"><U><FONT =
+COLOR=3D"#0000FF" FACE=3D"Times New =
+Roman">http://www.lml.bas.bg/ranlp2009/biomedicalIE</FONT></U></A><B></B>=
+<FONT FACE=3D"Times New Roman"> </FONT>
+</P>
+
+<P><FONT FACE=3D"Times New Roman">In conjunction with the 7th =
+International Conference</FONT>
+
+<BR><FONT FACE=3D"Times New Roman">Recent Advances on Natural Language =
+Processing RANLP-2009, 14-16 September 2009</FONT>
+</P>
+<BR>
+
+<P ALIGN=3DJUSTIFY><FONT FACE=3D"Times New Roman">Undoubtly, the =
+availability of information for biomedicine in an electronic format has =
+been rapidly increasing. The Medical Literature Analysis and Retrieval =
+system (Medline) houses millions of biomedical scientific literature =
+publications. PubMed offers the power of a search engine for accessing =
+the Medline content. On the other hand, the electronization of clinical =
+data within the Electronic Medical Record (EMR) provides another =
+powerful source for information extraction. Access to integrated =
+information is critical for health care improvement, research, and the =
+overall science of healthcare delivery and personalized medicine. =
+Information extraction from the scientific literature is distinct from =
+information extraction from the clinical narrative as these two types of =
+genre have their own stylistic characteristics and pose different =
+methodological challenges. In addition, biomedical information spans =
+multiple languages thus necessitating methods for multi-lingual =
+information extraction. </FONT></P>
+
+<P ALIGN=3DJUSTIFY><FONT FACE=3D"Times New Roman">In addition to the =
+biomedical scientific literature and clinical data, the large number of =
+health-related web resources is increasing day by day. The content of =
+these resources is very variable and difficult to assess. Furthermore, =
+the number of people searching for health-related information is also =
+increasing. The development of tools to support the process of =
+describing the content of medical web resources with meta-data that =
+facilitate their retrieval, and with quality labels by certified =
+authorities, is crucial for the delivery of content of better quality to =
+health information consumers. Multi-lingual information extraction has a =
+significant role to play there also. </FONT></P>
+
+<P><FONT FACE=3D"Times New Roman">The focus of this workshop is natural =
+language processing and information extraction for biomedicine, =
+including scientific and clinical free-text as well as health-related =
+web resources within one or many languages. Topics of interest include =
+but are not limited to:</FONT></P>
+<UL>
+<UL>
+<LI><FONT FACE=3D"Times New Roman">Natural language processing =
+techniques for basic tasks, e.g. sentence boundary detection, =
+tokenization, part of speech tagging, shallow parsing and deep parsing. =
+Evaluation and comparison with the general domain;</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Efforts to create sharable biomedical =
+lexical resources, including the annotation of biomedical data for =
+linguistic and domain events;</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Biomedical named entity =
+recognition;</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Methods for higher level biomedical =
+language processing, e.g. relation discovery, temporal relation =
+discovery, anaphoric relation discovery;</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Terminology/ontology biomedical named =
+entity mapping;</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Integrated knowledge management of =
+scientific and clinical free-text data</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Knowledge representation and =
+management technologies (e.g. OWL, RDF, Annotation Schemas, etc.) that =
+enable the creation of machine-processable descriptions of =
+health-related web resources</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Content collection and information =
+extraction techniques that allow the quality labeling of web resources =
+and the continuous monitoring of already labeled ones</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Multi-lingual information =
+extraction</FONT></LI>
+<BR>
+</UL></UL>
+<P><B><FONT FACE=3D"Times New Roman">Important dates:</FONT></B>
+<UL>
+<UL>
+<LI><FONT FACE=3D"Times New Roman">Submission deadline: 6 June =
+2009</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Notification of acceptance: 20 July =
+2009</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Camera-ready copy due from authors: =
+24 August 2009</FONT></LI>
+
+<LI><FONT FACE=3D"Times New Roman">Workshop: 17 or 18 September =
+2009</FONT></LI>
+<BR>
+</UL></UL>
+<P><B><FONT FACE=3D"Times New Roman">Submission instructions:</FONT></B>
+
+<BR><FONT FACE=3D"Times New Roman">Submissions should be A4, two-column =
+format and should not exceed seven pages including cover page, figures, =
+tables and references. The workshop papers should follow the RANLP =
+format which is available at the RANLP website </FONT><A =
+HREF=3D"http://www.lml.bas.bg/ranlp2009"><U><FONT COLOR=3D"#0000FF" =
+FACE=3D"Times New =
+Roman">http://www.lml.bas.bg/ranlp2009</FONT></U></A><FONT FACE=3D"Times =
+New Roman"> in the Second Call for Papers. Papers should be submitted =
+electronically in *PDF* format using the conference submission system =
+START. Detailed instructions about the workshop submission will be =
+announced at the workshop website.</FONT></P>
+
+<P><B><FONT FACE=3D"Times New Roman">Review and multiple submission =
+policy</FONT></B>
+
+<P ALIGN=3DJUSTIFY><FONT FACE=3D"Times New Roman">The review process is =
+anonymous. The paper text should not reveal the authors identity. To =
+maintain the submissions, all authors' names and addresses should be =
+registered in the START system when the paper is submitted; this =
+information will be open for the workshop organizers only. Submissions =
+will be reviewed by 3 members of the Programme Committee. Authors of =
+accepted papers will receive guidelines regarding how to produce =
+camera-ready versions of their papers for inclusion in the proceedings. =
+The full workshop proceedings will be distributed at the event. The =
+workshop papers will be included in the ACL Anthology. </FONT></P>
+
+<P ALIGN=3DJUSTIFY><FONT FACE=3D"Times New Roman">The workshop calls for =
+articles describing original research. Authors may submit the same paper =
+at several events. In this case they must notify the organizers in a =
+separate mail to [savova dot guergana at mayo dot edu], to inform them =
+that the paper might be withdrawn depending on the selections at some =
+other event. </FONT></P>
+
+<P><B><FONT FACE=3D"Times New Roman">Organizing committee:</FONT></B>
+
+<BR><FONT FACE=3D"Times New Roman">Guergana Savova, Mayo Clinic College =
+of Medicine, Rochester, Minnesota, USA</FONT>
+
+<BR><FONT FACE=3D"Times New Roman">Vangelis Karkaletsis, Institute of =
+Informatics and Telecommunications, Athens, Greece</FONT>
+
+<BR><FONT FACE=3D"Times New Roman">Galia Angelova, Bulgarian Academy of =
+Sciences, Sofia, Bulgaria</FONT>
+</P>
+
+<P><B><FONT FACE=3D"Times New Roman">Programme committee</FONT></B> =
+<FONT FACE=3D"Times New Roman">(to be announced in the second Call for =
+Papers)</FONT><B></B>
+</P>
+
+<P><B><FONT FACE=3D"Times New Roman">Workshop venue:</FONT></B>
+
+<P ALIGN=3DJUSTIFY><FONT FACE=3D"Times New Roman">The workshop will be =
+held at the Samokov Hotel in the resort of Borovets as a post-conference =
+event of RANLP-09. The picturesque resort of Borovets is located in the =
+Rila mountains and is one of the best known winter resorts in South-East =
+Europe, a frequent venue for world skiing events. The resort is 1350 m =
+above sea level, at the foot of the highest peak on the Balkan Peninsula =
+- Moussala (2925 m). The resort of Borovets is 73 km from Sofia and the =
+International airport of Sofia can serve as an arrival/departure point. =
+In addition to regular public transport, the organizers will provide =
+daily shuttle buses from Sofia airport to the Samokov hotel at an =
+inexpensive rate. A taxi from Sofia to Borovets is relatively cheap; it =
+is also possible to take a taxi from the International airport in Sofia =
+to the workshop venue.</FONT></P>
+
+<P ALIGN=3DJUSTIFY><FONT SIZE=3D2 =
+FACE=3D"Arial">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&g=
+t;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt=
+;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;=
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&=
+gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&g=
+t;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</FONT></P>
+
+</BODY>
+</HTML>
+------_=_NextPart_001_01C9BEB0.EE76AF24--
+
+--===============1303939836==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============1303939836==--

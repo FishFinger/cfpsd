@@ -1,0 +1,189 @@
+From - Thu Dec 10 14:38:02 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.62.208 with SMTP id y16cs607834bkh;
+        Mon, 10 Aug 2009 09:13:10 -0700 (PDT)
+Received: by 10.224.45.193 with SMTP id g1mr3257143qaf.224.1249920788949;
+        Mon, 10 Aug 2009 09:13:08 -0700 (PDT)
+Return-Path: <sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu>
+Received: from lists2.andrew.cmu.edu (LISTS2.andrew.cmu.edu [128.2.10.216])
+        by mx.google.com with ESMTP id 8si359487qwj.46.2009.08.10.09.13.07;
+        Mon, 10 Aug 2009 09:13:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) client-ip=128.2.10.216;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu designates 128.2.10.216 as permitted sender) smtp.mail=sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu; dkim=neutral (body hash did not verify) header.i=@uu.se
+Received: from LISTS2.andrew.cmu.edu (localhost [127.0.0.1])
+	by lists2.andrew.cmu.edu (8.14.1/8.14.3) with ESMTP id n7AGCmGA002391
+	for <jpprost@gmail.com>; Mon, 10 Aug 2009 12:13:07 -0400
+X-Mailman-Handler: $Id: mm-handler,v 1.2 2009/03/26 12:45:11 dave64 Exp $
+Received: from atthis.its.uu.se (atthis.its.uu.se [130.238.7.58])
+	by lists2.andrew.cmu.edu (8.14.1/8.14.3) with ESMTP id n7AEwB7h013415
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Mon, 10 Aug 2009 10:58:12 -0400
+Received: from [130.238.11.91] (pc-wang.it.uu.se [130.238.11.91])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by atthis.its.uu.se (Postfix) with ESMTP id AD545100F3C;
+	Mon, 10 Aug 2009 16:58:01 +0200 (CEST)
+X-DKIM: Sendmail DKIM Filter v0.6.4 atthis.its.uu.se AD545100F3C
+DKIM-Signature: v=0.5; a=rsa-sha256; c=simple/simple; d=uu.se;
+	s=centralsmtp; t=1249916290; bh=xtvHJ1P/hLrg+66B4fGC3pVeJe/1oIX/fKT
+	XxcKQzhs=; h=Message-ID:Date:From:Organization:User-Agent:
+	MIME-Version:To:CC:Subject:Content-Type:Content-Transfer-Encoding:
+	X-Virus-Scanned; b=huybw5qtNu2motWogaguwcyC7Kuo7w2OyyPOI4MGteFcEo8
+	1cRqHOLC5G0bMtdiOYErsT59S1tGuo80R7k2IDCLx0lg1UJG+i9eclPl/5tBfm9CgtO
+	58nWJ/VdHQQYNuYrSLWiM98RZcygNPq3ZxqCzTjGQQtqKK6Rmu9rWfyzM=
+Message-ID: <4A803624.802@it.uu.se>
+Date: Mon, 10 Aug 2009 17:00:52 +0200
+From: Wang Yi <yi@it.uu.se>
+Organization: Uppsala University
+User-Agent: Thunderbird 2.0.0.22 (Windows/20090605)
+MIME-Version: 1.0
+To: announcements@lists.artist-embedded.org, concurrency@listserver.tue.nl,
+        siksleden@cs.uu.nl, ipalist@listserver.tue.nl, asci@ewi.tudelft.nl,
+        concurrency@cwi.nl, verimag-news@imag.fr, ieee-tcrts@cs.bu.edu,
+        THEORYNT@LISTSERV.NODAK.EDU, nvti-list@cwi.nl, ozsl@phil.uu.nl,
+        concurrency@maillist.ox.ac.uk, focs@comlab.ox.ac.uk,
+        fmics@inrialpes.fr, seworld@cs.colorado.edu, eapls@JISCMAIL.AC.UK,
+        PetriNets@daimi.au.dk, easst-members@mail.cs.uni-potsdam.de,
+        types-announce@lists.seas.upenn.edu, qest-announce@iti.uiuc.edu,
+        petriadm@informatik.uni-hamburg.de, emsoft@cs.columbia.edu,
+        puml-list@cs.york.ac.uk, softverf@nist.gov, games@lists.rwth-aachen.de,
+        mfpsmail@linus.math.tulane.edu,
+        announcements@lists.artist-embedded.org, synalp@inrialpes.fr,
+        laas-dependability-announce@laas.fr, fmics@inrialpes.fr,
+        prog-lang@diku.dk, dl@dl.kr.org, agents@cs.umbc.edu,
+        metaprl@metaprl.org, plt-scheme@slow.flux.utah.edu,
+        theory-a@LISTSERV.NODAK.EDU, acl2@utlists.utexas.edu,
+        clean-list@cs.kun.nl, elsnet-list@elsnet.org,
+        finite-model-theory@informatik.rwth-aachen.de,
+        hol-info@lists.sourceforge.net, list@prooftheory.org,
+        logic-announce@uclink4.berkeley.edu, logic-list@helsinki.fi,
+        logic@cs.stanford.edu, senseval-discuss@listserv.hum.gu.se,
+        sigparse-list@lists.andrew.cmu.edu, sig-charme@dcs.gla.ac.uk,
+        pvs@csl.sri.com, cl-all@coli.uni-sb.de, cl-stud@coli.uni-sb.de,
+        petrinet@informatik.uni-hamburg.de, om-announce@openmath.org
+X-Virus-Scanned: Debian amavisd-new at localdomain
+X-DKIM-Verification: pass
+X-PMX-Version: 5.5.5.374460, Antispam-Engine: 2.7.1.369594,
+	Antispam-Data: 2009.8.10.144217
+X-Spam-Clean: 8% (
+	BODY_SIZE_2000_2999 0, BODY_SIZE_5000_LESS 0, BODY_SIZE_7000_LESS 0,
+	TO_NO_NAME 0, __CP_URI_IN_BODY 0, __CT 0, __CTE 0,
+	__CT_TEXT_PLAIN 0, __FRAUD_419_SUBJ_A 0, __HAS_MSGID 0,
+	__MIME_TEXT_ONLY 0, __MIME_VERSION 0, __MOZILLA_MSGID 0,
+	__SANE_MSGID 0, __TO_MALFORMED_2 0, __USER_AGENT 0)
+X-Spam-Score: 8%
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Mailman-Approved-At: Mon, 10 Aug 2009 12:12:47 -0400
+Cc: Wang Yi <yi@it.uu.se>, Karl Henrik Johansson <kallej@kth.se>
+Subject: SIGParse: CFP,
+ HSCC10 -- International Conference on Hybrid Systems: Computation
+ and Control, Apr 12-16, 2010, Stockholm
+X-BeenThere: sigparse-list@lists.andrew.cmu.edu
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: mailing list for parsing interest group of computational linguistics
+	<sigparse-list.lists.andrew.cmu.edu>
+List-Unsubscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=unsubscribe>
+List-Archive: <https://lists.andrew.cmu.edu/mailman/private/sigparse-list>
+List-Post: <mailto:sigparse-list@lists.andrew.cmu.edu>
+List-Help: <mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=help>
+List-Subscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+Errors-To: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+X-Spam-Notice: Not scanning again, previously scanned by 127.0.0.1
+
+[Our apologies if you receive multiple copies of this CFP]
+
+
+===================================================================
+The 13th ACM International Conference on Hybrid Systems:
+Computation and Control (HSCC'10) in conjunction with CPSWEEK
+               April 12-16, 2010, Stockholm
+                 http://hscc10.it.uu.se
+===================================================================
+
+HSCC'10 will be part of the 3rd Cyber-Physical Systems Week (CPSWeek)
+collocated in Stockholm, Sweden with RTAS (Real-Time and Embedded
+Technology and Applications Symposium), IPSN (International Conference
+on Information Processing in Sensor Networks), LCTES (Languages,
+Compilers, and Tools for Embedded Systems) and CPSC (Cyber Physical
+and Social Computing).
+
+HSCC is an international conference dedicated to the theory and
+practice of embedded reactive systems involving the interplay between
+discrete and continuous dynamic behaviors. Academic and industrial
+researchers are invited to exchange information on the latest
+development of applications and theoretical advancements in the
+analysis, design, control, optimization and implementation of hybrid
+systems. Submissions are invited in all areas pertaining to the
+analysis, design, control, optimization, implementation, and
+applications of hybrid systems.
+
+Topics of interest include, but are not limited to:
+
+    * Models of heterogeneous systems;
+    * Computability and complexity;
+    * Real-time computing and control;
+    * Embedded and resource-aware systems;
+    * Computation and control over wireless networks;
+    * Networked embedded systems;
+    * Autonomous and robotic systems;
+    * Tools for analysis, verification, control, and optimization;
+    * Programming languages support and implementation;
+    * Applications including automotive, communication networks, avionics,
+      energy systems, transportation networks, manufacturing and robotics,
+      biology and other sciences.
+
+Important Dates:
+----------------
+
+Abstract submission: October 3
+Full paper submission: October 10
+Author notification: November 30
+Final version: January 9
+
+
+Submission Guidelines:
+----------------------
+
+Submitted papers should present original research that is unpublished
+and not submitted elsewhere. Papers should be no more than 10 pages,
+10-point, 2-column in ACM format. Accepted papers will be published by ACM.
+There will also be a possibility to present work-in-progress papers.
+Submission site: http://hscc10.it.uu.se
+
+Program Chairs:
+---------------
+
+Karl Henrik Johansson, KTH, Sweden
+Wang Yi, Uppsala University, Sweden
+
+Steering Committee:
+-------------------
+
+Rajeev Alur, Univ. Pennsylvania, USA
+Bruce Krogh, CMU, USA
+Oded Maler, VERIMAG, France
+Manfred Morari, ETH, Switzerland
+George Pappas, Univ. Pennsylvania, USA
+Werner Damm, OFFIS, Germany
+
+
+
+---------------------------------------------
+* To send mail to the list of all
+-  subscribers, send your message to:
+-    "sigparse-list@lists.andrew.cmu.edu"
+-
+* To send mail to the list administrator,
+-  send your message to:
+-  "owner-sigparse-list@lists.andrew.cmu.edu"
+----------------------------------------------
+-

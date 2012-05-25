@@ -1,0 +1,810 @@
+From - Thu Dec 10 14:37:27 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.223.114.3 with SMTP id c3cs54366faq;
+        Wed, 17 Jun 2009 08:55:30 -0700 (PDT)
+Received: by 10.114.75.1 with SMTP id x1mr449105waa.4.1245254126356;
+        Wed, 17 Jun 2009 08:55:26 -0700 (PDT)
+Return-Path: <sentto-1622440-2897-1245254096-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 5si957270pxi.39.2009.06.17.08.55.22;
+        Wed, 17 Jun 2009 08:55:25 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2897-1245254096-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2897-1245254096-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2897-1245254096-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from postie.ics.mq.edu.au (postie.ics.mq.edu.au [137.111.216.15])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with ESMTP id n5HFtLpx011207
+	for <jpprost@gmail.com>; Thu, 18 Jun 2009 01:55:21 +1000 (EST)
+Received: from barra2.its.mq.edu.au (barra2.its.mq.edu.au [137.111.1.22])
+	by postie.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id n5HFtLEg031821
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 18 Jun 2009 01:55:21 +1000
+X-ASG-Debug-ID: 1245254119-142b02640000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from vacuum1.ics.mq.edu.au (localhost [127.0.0.1])
+	by barra2.its.mq.edu.au (Spam & Virus Firewall) with ESMTP id F3C952E11D39
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 18 Jun 2009 01:55:19 +1000 (EST)
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103]) by barra2.its.mq.edu.au with ESMTP id 8hMUyYSicfmgbdZa for <jpprost@mailbox.ics.mq.edu.au>; Thu, 18 Jun 2009 01:55:19 +1000 (EST)
+X-Barracuda-Envelope-From: sentto-1622440-2897-1245254096-jpprost=ics.mq.edu.au@returns.groups.yahoo.com
+X-Barracuda-RBL-Trusted-Forwarder: 137.111.216.103
+Received: from n3c.bullet.mail.re1.yahoo.com (n3c.bullet.mail.re1.yahoo.com [69.147.103.234])
+	by vacuum1.ics.mq.edu.au (8.14.3/8.14.3) with SMTP id n5HFtGpE011195
+	for <jpprost@ics.mq.edu.au>; Thu, 18 Jun 2009 01:55:17 +1000 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1245254116; bh=piHzH6DI0iz+yDpVUbs8vJDHQ5a9xQh0qnk8cfbCeB0=; h=Received:Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:To:Message-ID:X-Priority:X-MSMail-Priority:X-Mailer:Importance:Thread-Index:X-MimeOLE:X-Originating-IP:X-eGroups-Msg-Info:From:X-Yahoo-Profile:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=W9rqovHVqpcUKmCC7SDFGPn2m/8JpLrMYt5wxoroPFYXxQpJOZY3jK5QuhrHmu6GoEdC/ZgmJGpa8VxWwGNzmJLCmpnsEFze4AXjDIYrbDiMYo6+J4o6gGa+JLxItJ2l
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=rvs6lXoIn3rW0e4rUgGESkF9dQCLtRQcTh13G2fpNXK91C6Ikxd6IfnvpCmBAQbsvaXQJawNf6eRvjuEoQa1uf1W3cm92CDAY2fdwC6WbiqeMb4fjuG6qb5E54d7s6hz;
+Received: from [68.142.230.29] by n3.bullet.mail.re1.yahoo.com with NNFMP; 17 Jun 2009 15:55:16 -0000
+Received: from [69.147.65.147] by t2.bullet.re2.yahoo.com with NNFMP; 17 Jun 2009 15:55:15 -0000
+Received: from [69.147.108.195] by t10.bullet.mail.sp1.yahoo.com with NNFMP; 17 Jun 2009 15:55:15 -0000
+X-Yahoo-Newman-Id: 1622440-m2897
+X-Sender: yohann.meynadier@univ-provence.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+X-Received: (qmail 37799 invoked from network); 17 Jun 2009 15:54:49 -0000
+X-Received: from unknown (98.137.34.46)
+  by m4.grp.re1.yahoo.com with QMQP; 17 Jun 2009 15:54:49 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta3.grp.sp2.yahoo.com with SMTP; 17 Jun 2009 15:54:48 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AuQGAO+uOEqTXsXx/2dsb2JhbACCJi2IE4QxtgYIkDCCMB8IgTEF
+X-IronPort-AV: E=Sophos;i="4.42,236,1243807200"; 
+   d="scan'208,217";a="5134614"
+X-Received: from unknown (HELO PORTYOH) ([147.94.197.241])
+  by mso1k206.u-3mrs.fr with ESMTP; 17 Jun 2009 17:53:49 +0200
+To: <lpl-infos@yahoogroupes.fr>
+Message-ID: <81C410BB665E4DD3B7132ED58600B7C6@PORTYOH>
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6838
+Importance: Normal
+Thread-Index: AcnvTH4pWbRB1aTFSr2crgxBiwi/igAF0mCA
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: "Yohann Meynadier" <yohann.meynadier@univ-provence.fr>
+X-Yahoo-Profile: mey0h
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Wed, 17 Jun 2009 17:53:57 +0200
+X-ASG-Orig-Subj: [lpl-infos] TR : [FUNKNET] CfP: Prosodic Typology, February 24-26, 2010, Berlin
+Subject: [lpl-infos] TR : [FUNKNET] CfP: Prosodic Typology, February 24-26, 2010, Berlin
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="----=_NextPart_000_0045_01C9EF74.965816D0"
+X-Barracuda-Connect: vacuum1.ics.mq.edu.au[137.111.216.103]
+X-Barracuda-Start-Time: 1245254119
+X-Barracuda-Virus-Scanned: by Barracuda Spam & Virus Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=6.0 tests=FORGED_OUTLOOK_TAGS, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.2.1076
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 FORGED_OUTLOOK_TAGS    Outlook can't send HTML in this format
+
+------=_NextPart_000_0045_01C9EF74.965816D0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Objet : [FUNKNET] CfP: Prosodic Typology, February 24-26, 2010, Berlin
+
+
+Prosodic Typology: State of the Art and Future Prospects
+
+The study of prosody is traditionally concerned with suprasegmental feature=
+s
+such as stress, tone, intonation and quantity. More recently, its scope has
+been expanded to include any phonological phenomenon sensitive to the
+domains of the prosodic hierarchy (ranging from the syllable to the
+utterance). In the course of this development, a number of theoretical
+frameworks have been developed which make strong claims about possible
+prosodic systems and their architecture. While the predictions are clear,
+the cross-linguistic evidence is often less so, especially since too often
+generalizations are based on a narrow language sample from better-known
+European languages.
+
+
+
+Call for Papers
+
+We invite phonologists, typologists, and experts on individual languages to
+submit abstracts addressing, among others, the following key questions in
+prosodic typology:
+
+1)      Which phenomena should be subsumed under the term =91prosodic=92? E=
+.g.
+is it reasonable to treat stress domains on a par with segmental
+assimilation processes? (cf. Bickel et al. 2009)
+
+2)      Can existing descriptive frameworks capture the attested diversity
+in prosodic systems? E.g. does ToBI provide an adequate means for
+cross-linguistic comparison? (cf. Jun 2005)
+
+3)      Are phonological theories capable of handling typological variation=
+?
+E.g. can derivational approaches which assign metrical grids before
+intonational pitch-accents account for cases like Kuot? (cf. Lindstr=F6m &
+Remijsen 2005)
+
+
+
+Abstracts should be anonymous and should not exceed 1 page in length (an
+additional page for data and/or references can be added). Please send your
+abstracts electronically in pdf- and doc- or rtf-format to
+rene@punksinscience.org. Include your name, affiliation and the title of th=
+e
+abstract in the body of the e-mail.
+
+
+
+Submission deadline: August 31st, 2009.
+
+
+
+The workshop is organized by Gabriele M=FCller and Ren=E9 Schiering
+(Westf=E4lische Wilhelms-Universit=E4t M=FCnster). It takes place as part o=
+f the
+annual meeting of the Deutsche Gesellschaft f=FCr Sprachwissenschaft (Germa=
+n
+Linguistic Society, DGfS) in Berlin between February 24th and 26th, 2010:
+http://www2.hu-berlin.de/dgfs/. Presentations at multiple workshops during
+DGfS are generally not approved of.
+
+
+
+References
+
+Bickel, Balthasar, Kristine A. Hildebrandt & Ren=E9 Schiering (2009). The
+distribution of phonological word domains: A probabilistic typology. In
+Phonological Domains. Universals and Deviations, Janet Grijzenhout & Baris
+Kabak (eds.), 47-74. Berlin: Mouton de Gruyter.
+
+Jun, Sun-Ah (ed.) (2005). Prosodic Typology. The Phonology of Intonation an=
+d
+Phrasing. Oxford: Oxford University Press.
+
+Lindstr=F6m, Eva and Bert Remijsen (2005). Aspects of the prosody of Kuot, =
+a
+language where intonation ignores stress. Linguistics 43: 839-870.
+
+
+
+****************
+
+
+
+-------------------------------
+Alice Vittrant
+Universit=E9 de Provence
+Dpt Linguistique et Phon=E9tique G=E9n=E9rales
+29, avenue Robert Schuman
+13621 Aix-en-Provence cedex 1
+
+Tel :  04 42 95 33 38
+Mail : alice.vittrant@univ-provence.fr
+
+
+
+
+
+------=_NextPart_000_0045_01C9EF74.965816D0
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+<div id=3D"ygrp-msg" style=3D"width: 470px; margin:0; padding:0 25px 0 0; f=
+loat:left; z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text" >
+            <!--~-|**|PrettyHtmlStart|**|-~-->
+            <br><br>
+      <!--~-|**|PrettyHtmlEnd|**|-~-->
+      <p><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<DIV><FONT style=3D"FONT: 12px Helvetica;COLOR: #000000;" face=3D"Helvetica=
+" color=3D"#000000" size=3D"3"><B>Objet : </B></FONT><FONT style=3D"FONT: 1=
+2px Helvetica;" face=3D"Helvetica" size=3D"3"><B>[FUNKNET] CfP: Prosodic Ty=
+pology, February 24-26, 2010,=20
+Berlin</B></FONT></DIV>
+<BLOCKQUOTE dir=3D"ltr" style=3D"BORDER-LEFT: #0000ff 2px solid;">
+  <DIV>
+  <DIV>
+  <BLOCKQUOTE type=3D"cite">
+    <DIV><BR></DIV>
+    <DIV>Prosodic Typology: State of the Art and Future=20
+    Prospects</DIV>
+    <DIV><BR></DIV>
+    <DIV>The study of prosody is traditionally concerned=20
+    with suprasegmental features</DIV>
+    <DIV>such as stress, tone, intonation and quantity. More=20
+    recently, its scope has</DIV>
+    <DIV>been expanded to include any phonological=20
+    phenomenon sensitive to the</DIV>
+    <DIV>domains of the prosodic hierarchy (ranging from the=20
+    syllable to the</DIV>
+    <DIV>utterance). In the course of this development, a=20
+    number of theoretical</DIV>
+    <DIV>frameworks have been developed which make strong=20
+    claims about possible</DIV>
+    <DIV>prosodic systems and their architecture. While the=20
+    predictions are clear,</DIV>
+    <DIV>the cross-linguistic evidence is often less so,=20
+    especially since too often</DIV>
+    <DIV>generalizations are based on a narrow language=20
+    sample from better-known</DIV>
+    <DIV>European languages.</DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV>Call for Papers</DIV>
+    <DIV><BR></DIV>
+    <DIV>We invite phonologists, typologists, and experts on=20
+    individual languages to</DIV>
+    <DIV>submit abstracts addressing, among others, the=20
+    following key questions in</DIV>
+    <DIV>prosodic typology:</DIV>
+    <DIV><BR></DIV>
+    <DIV>1)<SPAN class=3D"Apple-converted-space">&nbsp; &nbsp;=20
+    &nbsp; </SPAN>Which phenomena should be subsumed under the term &#8216;=
+prosodic&#8217;?=20
+    E.g.</DIV>
+    <DIV>is it reasonable to treat stress domains on a par=20
+    with segmental</DIV>
+    <DIV>assimilation processes? (cf. Bickel et al.=20
+    2009)</DIV>
+    <DIV><BR></DIV>
+    <DIV>2)<SPAN class=3D"Apple-converted-space">&nbsp; &nbsp;=20
+    &nbsp; </SPAN>Can existing descriptive frameworks capture the attested=
+=20
+    diversity</DIV>
+    <DIV>in prosodic systems? E.g. does ToBI provide an=20
+    adequate means for</DIV>
+    <DIV>cross-linguistic comparison? (cf. Jun 2005)</DIV>
+    <DIV><BR></DIV>
+    <DIV>3)<SPAN class=3D"Apple-converted-space">&nbsp; &nbsp;=20
+    &nbsp; </SPAN>Are phonological theories capable of handling typological=
+=20
+    variation?</DIV>
+    <DIV>E.g. can derivational approaches which assign=20
+    metrical grids before</DIV>
+    <DIV>intonational pitch-accents account for cases like=20
+    Kuot? (cf. Lindstr=F6m &amp;</DIV>
+    <DIV>Remijsen 2005)</DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV>Abstracts should be anonymous and should not exceed=20
+    1 page in length (an</DIV>
+    <DIV>additional page for data and/or references can be=20
+    added). Please send your</DIV>
+    <DIV>abstracts electronically in pdf- and doc- or=20
+    rtf-format to</DIV>
+    <DIV><A href=3D"mailto:rene@punksinscience.org">rene@punksinscience<wbr=
+>.org</A>. Include=20
+    your name, affiliation and the title of the</DIV>
+    <DIV>abstract in the body of the e-mail.</DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV>Submission deadline: August 31st, 2009.</DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV>The workshop is organized by Gabriele M=FCller and=20
+    Ren=E9 Schiering</DIV>
+    <DIV>(Westf=E4lische Wilhelms-Universit=E4<wbr>t M=FCnster). It=20
+    takes place as part of the</DIV>
+    <DIV>annual meeting of the Deutsche Gesellschaft f=FCr=20
+    Sprachwissenschaft (German</DIV>
+    <DIV>Linguistic Society, DGfS) in Berlin between=20
+    February 24th and 26th, 2010:</DIV>
+    <DIV><A href=3D"http://www2.hu-berlin.de/dgfs/">http://www2.<wbr>hu-ber=
+lin.<wbr>de/dgfs/</A>.=20
+    Presentations at multiple workshops during</DIV>
+    <DIV>DGfS are generally not approved of.</DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV>References</DIV>
+    <DIV><BR></DIV>
+    <DIV>Bickel, Balthasar, Kristine A. Hildebrandt &amp;=20
+    Ren=E9 Schiering (2009). The</DIV>
+    <DIV>distribution of phonological word domains: A=20
+    probabilistic typology. In</DIV>
+    <DIV>Phonological Domains. Universals and Deviations,=20
+    Janet Grijzenhout &amp; Baris</DIV>
+    <DIV>Kabak (eds.), 47-74. Berlin: Mouton de=20
+    Gruyter.</DIV>
+    <DIV><BR></DIV>
+    <DIV>Jun, Sun-Ah (ed.) (2005). Prosodic Typology. The=20
+    Phonology of Intonation and</DIV>
+    <DIV>Phrasing. Oxford: Oxford University Press.</DIV>
+    <DIV><BR></DIV>
+    <DIV>Lindstr=F6m, Eva and Bert Remijsen (2005). Aspects of=20
+    the prosody of Kuot, a</DIV>
+    <DIV>language where intonation ignores stress.=20
+    Linguistics 43: 839-870.</DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV><BR></DIV>
+    <DIV>************<wbr>****</DIV>
+    <DIV><BR></DIV></BLOCKQUOTE></DIV>
+  <DIV><SPAN class=3D"Apple-style-span" style=3D"WORD-SPACING: 0px;FONT: 12=
+px Helvetica;TEXT-TRANSFORM: none;COLOR: rgb(0,0,0);TEXT-INDENT: 0px;WHITE-=
+SPACE: normal;LETTER-SPACING: normal;BORDER-COLLAPSE: separate;"><SPAN clas=
+s=3D"Apple-style-span" style=3D"WORD-SPACING: 0px;FONT: 12px Helvetica;TEXT=
+-TRANSFORM: none;COLOR: rgb(0,0,0);TEXT-INDENT: 0px;WHITE-SPACE: normal;LET=
+TER-SPACING: normal;BORDER-COLLAPSE: separate;"><SPAN class=3D"Apple-style-=
+span" style=3D"WORD-SPACING: 0px;FONT: 12px Helvetica;TEXT-TRANSFORM: none;=
+COLOR: rgb(0,0,0);TEXT-INDENT: 0px;WHITE-SPACE: normal;LETTER-SPACING: norm=
+al;BORDER-COLLAPSE: separate;"><SPAN class=3D"Apple-style-span" style=3D"WO=
+RD-SPACING: 0px;FONT: 12px Helvetica;TEXT-TRANSFORM: none;COLOR: rgb(0,0,0)=
+;TEXT-INDENT: 0px;WHITE-SPACE: normal;LETTER-SPACING: normal;BORDER-COLLAPS=
+E: separate;"><SPAN class=3D"Apple-style-span" style=3D"WORD-SPACING: 0px;F=
+ONT: 12px Helvetica;TEXT-TRANSFORM: none;COLOR: rgb(0,0,0);TEXT-INDENT: 0px=
+;WHITE-SPACE: normal;LETTER-SPACING: normal;BORDER-COLLAPSE: separate;">
+  <DIV>------------<wbr>---------<wbr>---------<wbr>-</DIV>
+  <DIV>Alice Vittrant</DIV>
+  <DIV>Universit=E9 de Provence</DIV>
+  <DIV>Dpt Linguistique et Phon=E9tique G=E9n=E9rales</DIV>
+  <DIV>29, avenue Robert Schuman</DIV>
+  <DIV>13621 Aix-en-Provence cedex 1</DIV>
+  <DIV><BR class=3D"khtml-block-placeholder"></DIV>
+  <DIV>Tel :&nbsp; 04 42 95 33 38</DIV>
+  <DIV>Mail : <A href=3D"mailto:alice.vittrant@univ-provence.fr">alice.vitt=
+rant@<wbr>univ-provence.<wbr>fr</A></DIV><BR class=3D"Apple-interchange-new=
+line"></SPAN></SPAN></SPAN></SPAN></SPAN><BR class=3D"Apple-interchange-new=
+line"></DIV><BR></DIV></BLOCKQUOTE>
+</p>
+=20
+
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div width=3D"1" style=3D"color: white; clear: both;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20=20=20=20
+=20=20
+=20=20=20=20
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margini-bottom: 25px; whi=
+te-space:nowrap; color: #666; text-align: right;">
+              <span class=3D"left" style=3D"float: left; white-space:nowrap=
+;">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/289=
+7;_ylc=3DX3oDMTM0dHExYjA1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzI4OTcEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjQ1MjU0MTE0BHRwY=
+0lkAzI4OTc-">
+            Toute la discussion          </a> (<span class=3D"bld" style=3D=
+"font-weight:bold;">1</span>)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwaDltdDZnBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzI4OTcEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMjQ1MjU0MTE0?act=3Dreply&me=
+ssageNum=3D2897">
+          <span class=3D"bld" style=3D"font-weight:bold;">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlaWdjMHFzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTI0NTI1NDExNA--" class=3D"bld" style=3D"fo=
+nt-weight:bold;">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav" style=3D"padding-top: 10px; font-family: Verdan=
+a; font-size: 77%; margin: 0;">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlNmk3Nmp2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTI0NTI1NDExNA--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmaGFoZDF2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzEyNDUyNTQxMTQ-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlbHJ2dmxsBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTI0NTI1NDExNA--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmcW9nZjVrBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzEyNDUyNTQxMTQ-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjbTk3cG9qBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzEyNDUyNTQxMTQ-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmNDYxNjY5BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzEyNDUyNTQxMTQ-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlaTFpdWUzBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTI0NTI1NDExNA--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkNmp1NjN1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMjQ1MjU0MTE0">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+                <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-s=
+ize: 77%; padding: 15px 0;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+          Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+              </div>
+=20=20=20=20
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft" style=3D"font-family: verdana; font-size: 77%; bord=
+er-top: 1px solid #666; padding: 5px 0;">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkNDdpNm40BF9TAzk=
+3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMjQ1MjU0MTE0">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmdHR2cGt2BF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzEyNDUyNTQxMTQ-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+dGVpbjdkBF9TAzk3NDkwNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMjQ1MjU0MTE0">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: white;">
+    <!-- Network content -->
+=20=20=20=20
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+	    <!-- Start vitality -->
+	    <div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; margin-bott=
+om: 20px; padding: 2px 0 8px 8px;">
+	      		<div id=3D"vithd" style=3D"font-size: 77%; font-family: Verdana; f=
+ont-weight: bold; color: #333; text-transform: uppercase;">Activit=E9s r=E9=
+centes</div>
+		<ul style=3D"list-style-type:none; padding: 0; margin: 2px 0;">
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+=09=09=20=20=20=20
+		</ul>
+	      	      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3D=
+X3oDMTJlNWcxanFuBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE=
+2BHNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTI0NTI1NDExNA--">
+		Aller sur votre groupe	      </a>
+	    </div>=20
+=09=20=20=20=20=09=20=20=20=20=09=20=20=20=20=20=20
+	    <!-- Network content -->
+	    	      <div style=3D"background-color:#EEEEEE; margin-bottom:20px; pad=
+ding:10px 8px;">    <div id=3D"nc">
+              <div class=3D"ad" style=3D"color:#628C2A; font-family:Arial; =
+font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrNGUwZG9qBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTI0NTI1NDExNA--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com" style=3D"text-decoration:non=
+e; color:#1E66AE; font-weight: normal;">Partagez l'essentiel</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Blog et photos avec</p>
+  <p style=3D"color: #000000; font-weight: normal;">vos proches.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuNjMyMDRzBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTI0NTI1NDExNA--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com" style=3D"text-decorat=
+ion:none; color:#1E66AE; font-weight: normal;">Cr=E9ez votre groupe</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">Partagez vos go=FBts</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">avec les autres.</p>
+                  </div>
+                    <div class=3D"ad" style=3D"color:#628C2A; font-family:A=
+rial; font-weight:bold;">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvMWQyZzBkBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzEyNDUyNTQxMTQ-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com" style=3D"text-decora=
+tion:none; color:#1E66AE; font-weight: normal;">100% gratuit !</a></p>
+  <p style=3D"color: #000000; font-weight: normal;">En 1 clic, acc=E9dez</p=
+>
+  <p style=3D"color: #000000; font-weight: normal;">=E0 vos groupes.</p>
+                  </div>
+          </div>
+</div>
+=09=20=20=20=20
+	  </div> 	  <!-- |**|end egp html banner|**| -->
+	  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+	</div> 		  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622=
+440/grpspId=3D2123803216/msgId=3D2897/stime=3D1245254114/nc1=3D1/nc2=3D2/nc=
+3=3D3" width=3D"1" height=3D"1"> <br>
+=09
+	<div style=3D"color: white; clear: both;">__,_._,___</div>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</body>
+	<!--~-|**|PrettyHtmlStart|**|-~-->
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mkp{
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 14px 0px;
+  padding: 0px 14px;
+}
+#ygrp-mkp hr{
+  border: 1px solid #d8d8d8;
+}
+#ygrp-mkp #hd{
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: bold;
+  line-height: 122%;
+  margin: 10px 0px;
+}
+#ygrp-mkp #ads{
+  margin-bottom: 10px;
+}
+#ygrp-mkp .ad{
+  padding: 0 0;
+}
+#ygrp-mkp .ad a{
+  color: #0000ff;
+  text-decoration: none;
+}
+-->
+</style>
+</head>
+	<head>
+<style type=3D"text/css">
+<!--
+#ygrp-sponsor #ygrp-lc{
+  font-family: Arial;
+}
+#ygrp-sponsor #ygrp-lc #hd{
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 78%;
+  line-height: 122%;
+}
+#ygrp-sponsor #ygrp-lc .ad{
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+-->
+</style>
+</head>
+	<head>
+	<style type=3D"text/css">
+	<!--
+	#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif=
+;*font-size:small;*font:x-small;}
+	#ygrp-mlmsg table {font-size:inherit;font:100%;}
+	#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-s=
+erif;}
+	#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+	#ygrp-mlmsg * {line-height:1.22em;}
+	#ygrp-text{
+	    font-family: Georgia;=09
+	}
+	#ygrp-text p{
+	    margin: 0 0 1em 0;
+	}
+
+	dd.last p a {
+          font-family: Verdana;
+          font-weight: bold;
+	}
+
+	#ygrp-vitnav{
+		padding-top: 10px;
+		font-family: Verdana;
+		font-size: 77%;
+		margin: 0;
+	}
+	#ygrp-vitnav a{
+		padding: 0 1px;
+	}
+	#ygrp-mlmsg #logo{
+	  padding-bottom: 10px;
+	}
+
+	#ygrp-reco {
+	margin-bottom: 20px;
+	padding: 0px;
+	}
+	#ygrp-reco #reco-head {
+		font-weight: bold;
+		color: #ff7900;
+	}
+
+	#reco-category{
+        	font-size: 77%;
+	}
+	#reco-desc{
+        	font-size: 77%;
+	}
+
+	#ygrp-vital a{
+		text-decoration: none;
+	}
+
+	#ygrp-vital a:hover{
+	  text-decoration: underline;
+	}
+
+	#ygrp-sponsor #ov ul{
+		padding: 0 0 0 8px;
+		margin: 0;
+	}
+	#ygrp-sponsor #ov li{
+		list-style-type: square;
+		padding: 6px 0;
+		font-size: 77%;
+	}
+	#ygrp-sponsor #ov li a{
+		text-decoration: none;
+		font-size: 130%;
+	}
+	#ygrp-sponsor #nc{
+	  background-color: #eee;
+	  margin-bottom: 20px;
+	  padding: 0 8px;
+	}
+	#ygrp-sponsor .ad{
+		padding: 8px 0;
+	}
+	#ygrp-sponsor .ad #hd1{
+		font-family: Arial;
+		font-weight: bold;
+		color: #628c2a;
+		font-size: 100%;
+		line-height: 122%;
+	}
+	#ygrp-sponsor .ad a{
+		text-decoration: none;
+	}
+	#ygrp-sponsor .ad a:hover{
+		text-decoration: underline;
+	}
+	#ygrp-sponsor .ad p{
+		margin: 0;
+		font-weight: normal;
+		color: #000000;
+	}
+	o{font-size: 0; }
+	.MsoNormal{
+	   margin: 0 0 0 0;
+	}
+	#ygrp-text tt{
+	  font-size: 120%;
+	}
+	blockquote{margin: 0 0 0 4px;}
+	.replbq{margin:4}
+
+dd.last p span {
+  margin-right: 10px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+
+dd.last p span.yshortcuts {
+  margin-right: 0;
+}
+
+div.photo-title a,
+div.photo-title a:active,
+div.photo-title a:hover,
+div.photo-title a:visited {
+    text-decoration: none;
+}
+
+div.file-title a,
+div.file-title a:active,
+div.file-title a:hover,
+div.file-title a:visited {
+    text-decoration: none;
+}
+
+#ygrp-msg p#attach-count {
+    clear: both;
+    padding: 15px 0 3px 0;
+    overflow: hidden;
+}
+
+#ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: bold;
+}
+
+div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#ygrp-msg p a {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+#ygrp-mlmsg a {
+    color: #1E66AE;
+}
+
+div.attach-table div div a {
+    text-decoration: none;
+}
+
+div.attach-table {
+    width: 400px;
+}
+
+	-->
+	</style>
+	</head>
+	<!--~-|**|PrettyHtmlEnd|**|-~-->
+	</html><!--End group email -->
+
+
+------=_NextPart_000_0045_01C9EF74.965816D0--

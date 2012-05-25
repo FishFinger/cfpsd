@@ -1,0 +1,503 @@
+From - Thu Dec 10 14:24:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: f9b3ea3ff232a3a093761fd41852004b549e5ec9
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs13197pyn;
+        Tue, 17 Oct 2006 21:45:25 -0700 (PDT)
+Received: by 10.49.55.13 with SMTP id h13mr2899082nfk;
+        Tue, 17 Oct 2006 21:45:25 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id k9si325090nfc.2006.10.17.21.45.21;
+        Tue, 17 Oct 2006 21:45:25 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k9I4jDZv020530;
+	Wed, 18 Oct 2006 14:45:20 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006101814451907094
+ ; Wed, 18 Oct 2006 14:45:19 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k9I4jIwB020558;
+	Wed, 18 Oct 2006 14:45:18 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.8/8.13.8) with ESMTP id k9I4jH5V017115
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Wed, 18 Oct 2006 14:45:17 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k9I4jDZr020530;
+	Wed, 18 Oct 2006 14:45:16 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006101814451507089
+ ; Wed, 18 Oct 2006 14:45:15 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k9I4jDGi020535;
+	Wed, 18 Oct 2006 14:45:14 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k9I4j1WS020513; Wed, 18 Oct 2006 14:45:01 +1000 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k9I3ejf8014968 for <comp-it-announce@ics.mq.edu.au>;
+	Wed, 18 Oct 2006 13:40:46 +1000 (EST)
+X-ASG-Debug-ID: 1161142839-21329-13-0
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id E866DD04A6BC
+	for <comp-it-announce@ics.mq.edu.au>;
+	Wed, 18 Oct 2006 13:40:39 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k9I3eb323834
+	for <comp-it-announce@ics.mq.edu.au>;
+	Wed, 18 Oct 2006 13:40:38 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Wed, 18 Oct 2006 13:35:36 +1000
+Received: by staff.cs.usyd.edu.au with postie; Wed, 18 Oct 2006 13:31:07 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Wed, 18 Oct 2006 13:30:55 +1000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id k9I3Utx5025659
+	for <itannounce@it.usyd.edu.au>; Wed, 18 Oct 2006 13:30:55 +1000
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id k9I3UtRT025657
+	for itannounce@it.usyd.edu.au; Wed, 18 Oct 2006 13:30:55 +1000
+Date: Wed, 18 Oct 2006 13:30:55 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20061018033055.GA25626@flexal3.cs.usyd.edu.au>
+Mime-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Wed, 18 Oct 2006 13:35:04 +1000
+From: itannounce@mail.it.usyd.edu.au
+X-ASG-Orig-Subj: [Itannounce] IT-Announce Newsletter - Issue 2 October 2006
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1-rj1.4 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 2.44
+X-Barracuda-Spam-Status: No, SCORE=2.44 using per-user scores of TAG_LEVEL=3.0
+	QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0
+	tests=DEAR_SOMETHING, 
+	MAILTO_TO_SPAM_ADDR, NO_REAL_NAME
+X-Barracuda-Spam-Report: Code version 3.02, rules version 3.0.23510
+	Rule breakdown below
+	pts rule name              description
+	---- ----------------------
+	--------------------------------------------------
+	0.55 NO_REAL_NAME           From: does not include a real name
+	1.61 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+	0.28 MAILTO_TO_SPAM_ADDR URI: Includes a link to a likely spammer email
+X-Mailman-Approved-At: Wed, 18 Oct 2006 14:44:56 +1000
+X-BeenThere: comp@ics.mq.edu.au
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 2
+	October 2006
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 2 for October, 2006. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  2nd CFP: JSAT S.I. on Satisfiability Modulo Theories
+  Special Issue of Information and Computation on 'Computer Security: Foundations and Automated Reasoning' 
+  The 11th International Conference on Computer Supported Cooperative Work in Design 
+
+International Conference Announcements
+
+  Special Issue on Interaction between Agents and Data Mining
+  CFP International Conference on Computer Vision Theory and Applications-2007
+  CFP - 2007 IEEE Swarm Intelligence Symposium (SIS2007)
+  Call for participation - The Embedded Systems and Education Workshop 2006
+  FMCAD 2006 Workshop on Pre- and Post-Silicon Verification Call For Participation
+  LPAR 2006  (Phnom Penh, Cambodia), 2nd Call for Participation
+
+Academic Positions
+
+  ARC Linkage Project APAI Scholarship, Swinburne University, Melbourne
+  Three-years Ph.D. Research Fellowship position available - SAP Labs France
+  PhD Position (APAI scholarship) on Database Support for Scientific Algorithms
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  2nd CFP: JSAT S.I. on Satisfiability Modulo Theories
+  Roberto Sebastiani <rseba@dit.unitn.it>
+
+========================  2nd Call for Papers ========================
+
+Journal on Satisfiability, Boolean Modeling and Computation (JSAT)
+Special Issue on Satisfiability Modulo Theories (SMT)
+
+http://dit.unitn.it/~rseba/jsat_smt06/
+
+Deadline for paper submission: November 25th, 2006
+
+======================================================================
+[notice the extended number of pages]
+
+GENERAL INFORMATION
+
+Satisfiability Modulo Theories (SMT) is the problem of deciding the
+satisfiability of first-order formulae with respect to some
+decidable background theory (e.g., linear arithmetic, the theory of
+arrays, the theory of bit-vectors).
+SMT techniques are gaining increasing relevance in many application
+domains, including formal verification of hardware and software,
+compiler optimization, planning and scheduling. ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt0
+
+======================================================================
+
+  Special Issue of Information and Computation on 'Computer Security: Foundations and Automated Reasoning' 
+  Luca Vigano <vigano@inf.ethz.ch>
+
+Special Issue
+of
+Information and Computation
+on
+Computer Security: Foundations and Automated Reasoning
+
+http://www.avispa-project.org/arspa
+
+
+***********************
+*** CALL FOR PAPERS ***
+***********************
+
+
+BACKGROUND AND SCOPE
+====================
+
+In connection with the
+
+Joint Workshop on
+Foundations of Computer Security ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt1
+
+======================================================================
+
+  The 11th International Conference on Computer Supported Cooperative Work in Design 
+  "Shen, Weiming" <Weiming.Shen@nrc-cnrc.gc.ca>
+
+CALL FOR PAPERS
+The 11th International Conference on
+Computer Supported Cooperative Work in Design
+
+April 26-28, 2007, Melbourne, Australia
+
+URL: http://2007.cscwd.org/
+Email: cscwd2005@cscwid.org
+
+Organised by
+Swinburne University of Technology
+
+Co-Sponsored by
+IEEE Victoria, Australia
+
+Committees
+Honorary Conference Chair
+Bill Scales AO (Chancellor, Swinburne, Australia)
+
+General Conference Chair:
+Prof. Yun Yang (Swinburne, Australia) ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#auconf.txt2
+
+======================================================================
+
+
+International Conference Announcements
+
+  Special Issue on Interaction between Agents and Data Mining
+  lbcao@it.uts.edu.au
+
+International Journal of Intelligent Information and Database Systems (IJIIDS)
+Call for Papers
+Special Issue on: Interaction between Agents and Data Mining
+
+
+&#9660; Guest Editors:
+Dr. Longbing Cao			University of Technology,
+Sydney, Australia
+Dr. Zili Zhang				Deakin University, Australia
+Prof. Vladimir I. Gorodetski		Russian Academy of Sciences,
+Russia
+Prof. Chengqi Zhang			University of Technology,
+Sydney, Australia
+
+In the last decade, agents and data mining have emerged as two of
+most vivacious areas in information technology field. The nature
+and complementarity of both areas foreshows an emerging trend -- the
+increasing interaction between agents and data mining. As a result, both
+technologies have been greatly enhanced in terms of solving existing
+individual challenges and innovating new research and development
+opportunities. The interaction will significantly strengthen the progress ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  CFP International Conference on Computer Vision Theory and Applications-2007
+  Dan.Popescu@cmis.csiro.au
+
+Dear colleague,
+
+This is an invitation to submit a paper to the International Conference on
+Computer Vision Theory and Applications-2007 (http://wwww.visapp.org). We
+have reasons to believe that next year VISAPP will be the largest and
+best quality ever. It will be held in the cosmopolitan city of Barcelona,
+currently one of the most dynamic cities in Europe, with new points of
+interest every year.
+
+VISAPP 2007 will be held in collaboration with CVC - the Computer Vision
+Center, a research unit linked to the University Autonoma de Barcelona.
+
+The deadline for paper submission is November 6. Please check further
+details at the conference web site (http://www.visapp.org) ...
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  CFP - 2007 IEEE Swarm Intelligence Symposium (SIS2007)
+  xiaodong@cs.rmit.edu.au
+
+***********************************
+* C A L L    F O R    P A P E R S *
+***********************************
+
+2007 IEEE Swarm Intelligence Symposium (SIS2007)
+
+Hilton Hawaiian Village, Honolulu, Hawaii, April 1-5, 2007
+
+http://www.computelligence.org/sis/2007
+
+The 2007 IEEE Swarm Intelligence Symposium (SIS2007) will be held as
+part of the first IEEE Symposium Series on Computational Intelligence
+2007 (SSCI 2007), which consists of 12 symposia.
+
+
+AIMS AND SCOPES
+---------------
+
+Swarm Intelligence is a computational intelligence technique involving
+the study of collective behavior in decentralized systems. Such systems
+are made up of a population of simple individuals interacting locally ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  Call for participation - The Embedded Systems and Education Workshop 2006
+  helen.zhou@manukau.ac.nz
+
+Do not miss this free opportunity to explore advancements in Embedded
+Systems and interactive technology.
+
+The Embedded Systems and Education Workshop 2006
+27 November 2006
+Department of Electrical & Computer Engineering
+Manukau Institute of Technology, Manukau, New Zealand
+
+The Department of Electrical & Computer Engineering of the Manukau
+Institute of Technology is hosting its second Embedded Systems Workshop
+celebrating the launch of its newly developed Embedded Systems Centre.
+
+This is an ideal forum for professionals from both academia and industry
+to participate and learn about some of the latest research findings,
+technologies and applications of embedded systems. The workshop aims to
+foster links between academia and industry and to facilitate transitioning
+of cutting-edge technologies to industry and education.
+
+This workshop includes:
+1.Presentations from guest speakers
+2.In-depth discussion with local experts ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  FMCAD 2006 Workshop on Pre- and Post-Silicon Verification Call For Participation
+  Panagiotis Manolios <manolios@cc.gatech.edu>
+
+FMCAD 2006 Workshop on
+Pre- and Post-Silicon Verification:
+Methods and Research Opportunities
+Sponsored by IEEE, CEDA (Council on Electronic Design Automation)
+In cooperation with ACM SIGDA
+(Special Interest Group on Design Automation)
+
+http://fmcad.org/2006
+
+
+CALL FOR PARTICIPATION
+
+November 16, 2006, San Jose, California
+Note: FMCAD 2006 takes place from Nov. 12-16
+
+----------------------------------------------
+Early Registration Deadline:  October 22, 2006
+Hotel Registration Deadline:  October 22, 2006
+----------------------------------------------
+
+Pre-silicon verification refers to the formal verification of detailed ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  LPAR 2006  (Phnom Penh, Cambodia), 2nd Call for Participation
+  Miki Hermann <Miki.Hermann@lix.polytechnique.fr>
+
+LPAR-13                                               Phnom Penh, Cambodia
+http://www.lix.polytechnique.fr/~hermann/LPAR2006/ 13th-17th November 2006
+
+2nd Call for Participation
+
+The 13th  International  Conference  on Logic  for   Programming Artificial
+Intelligence and Reasoning (LPAR-13) will  be held 13th-17th November 2006,
+at the  Hotel Cambodiana, Phnom Penh,  Cambodia.
+
+Thanks to all who already registered. For those who want to
+participate at the conference and did not register yet, the
+
+EARLY REGISTRATION DEADLINE
+
+is
+
+Sunday, 15 October 2006
+
+Please, find the registration on the web page
+
+http://www.lix.polytechnique.fr/~hermann/LPAR2006/registration.html ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  ARC Linkage Project APAI Scholarship, Swinburne University, Melbourne
+  cliu@swin.edu.au
+
+APAI PhD Scholarship: Collaborative Business Process Modelling and Management
+
+We are looking for candidates for a PhD position in one of the research
+areas of business process management, workflows, knowledge and data
+management, and web engineering. The PhD student is expected to join a
+project team and to investigate effective ways for modelling and managing
+collaborative business processes based on our proposed framework, and
+to design and implement the framework in Web service environment.
+
+This APAI scholarship is funded by an ARC Linkage Project grant
+and will provide support for 3 years on a full-time basis for
+a research project leading to a PhD. Applicants should have an
+Honours degree or Master degree in Computer Science, IT or related
+disciplines. Experience/background in business process management,
+workflows, data and knowledge management and good programming skills would
+be an advantage. This scholarship is conditional on the University signing
+an agreement with the Industry Partner(s) named in the grant. Applicants
+must be Australian citizens, Australian permanent residents or New Zealand
+citizens. The scholarship stipend is AUD 24,650pa in 2006 (tax exempt).
+
+For further information, please contact A/Prof Chengfei Liu, ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  Three-years Ph.D. Research Fellowship position available - SAP Labs France
+  "COMPAGNA, Luca" <luca.compagna@sap.com>
+
+---------------------------------------
+Three-years Ph.D. Research Fellowship
+---------------------------------------
+
+SAP Labs France SAS
+Security & Trust research programme
+Sophia Antipolis, France
+
+SAP Labs France has a three-years PhD Research Fellowship available.
+Please refer to the attached pdf file for detailed information on the
+PhD context.  Applications are invited from all suitable candidates.
+Any interested candidate is requested to send no later than November
+15th his CV and the names and contact addresses of two referees
+electronically to Anne Hardy (anne_DOT_hardy_AT_sap_DOT_com).
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
+
+  PhD Position (APAI scholarship) on Database Support for Scientific Algorithms
+  roehm@it.usyd.edu.au
+                       University of Sydney
+                School of Information Technologies
+
+PhD Scholarship: Database Support for Bioinformatics Algorithms
+
+We are looking for candidates for a PhD position in the research area of
+database support for bioinformatics. The PhD student shall investigate
+the management of bio-datatypes in relational databases, as well as
+the tight integration of biodata and bioinformatics algorithms using
+.NET-based stored procedures. The objective of this project is to
+explore the feasibility of running scientific algorithms, e.g. from
+the bioinformatics area, inside a database and to develop practical
+optimisation guidelines for the integration of biodata and virtual
+machines in today's database engines.
+
+This scholarship is funded by an ARC Linkage-Projects grant and will
+provide support for 3 years on a full-time basis for a research project
+leading to a PhD. Applicants should have an Honours 1 degree in Computer
+Science, IT, or Software Engineering. Experience/background in databases
+or bioinformatics and good programming skills would be an advantage. This
+scholarship is conditional on the University signing an agreement with
+the Industry Partner(s) named in the grant. Applicants must be Australian
+citizens, Australian permanent residents or New Zealand citizens. The
+scholarship stipend is AUD 25,118 pa in 2006 (tax exempt). ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt2
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

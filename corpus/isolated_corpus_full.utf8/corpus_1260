@@ -1,0 +1,767 @@
+From - Thu Dec 10 14:26:14 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.114.58.8 with SMTP id g8cs395224waa;
+        Thu, 15 Mar 2007 02:47:58 -0700 (PDT)
+Received: by 10.35.98.6 with SMTP id a6mr1105970pym.1173952078297;
+        Thu, 15 Mar 2007 02:47:58 -0700 (PDT)
+Return-Path: <sentto-1622440-2255-1173952053-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.google.com with ESMTP id 8si1903383nzn.2007.03.15.02.47.55;
+        Thu, 15 Mar 2007 02:47:58 -0700 (PDT)
+Received-SPF: neutral (google.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2255-1173952053-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l2F9lsaw002719
+	for <jpprost@gmail.com>; Thu, 15 Mar 2007 20:47:54 +1100 (EST)
+Received: from barra1.its.mq.edu.au (barra1.its.mq.edu.au [137.111.1.21])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.8) with ESMTP id l2F9lrC4019875
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 15 Mar 2007 20:47:53 +1100 (EST)
+X-ASG-Debug-ID: 1173952068-09bc003a0000-RCdhz5
+X-Barracuda-URL: http://barra.its.mq.edu.au:8000/cgi-bin/mark.cgi
+X-Barracuda-Connect: vacuum.ics.mq.edu.au[137.111.216.16]
+X-Barracuda-Start-Time: 1173952068
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by barra1.its.mq.edu.au (Spam Firewall) with ESMTP id 719F0DAF27A9
+	for <jpprost@mailbox.ics.mq.edu.au>; Thu, 15 Mar 2007 20:47:48 +1100 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id l2F9lkDH002713
+	for <jpprost@ics.mq.edu.au>; Thu, 15 Mar 2007 20:47:46 +1100 (EST)
+Received: from n32c.bullet.scd.yahoo.com (n32c.bullet.scd.yahoo.com [66.94.237.10])
+	by baldrick.ocs.mq.edu.au (8.13.8/8.13.8) with SMTP id l2F9ljds016949
+	for <jpprost@ics.mq.edu.au>; Thu, 15 Mar 2007 20:47:45 +1100 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=aNnLf6pdJPOSpWoaUufoZOu7RdVg0JJ793dKPHeIVTlZcB+qcDoeTC+axMDc3jxiUrQPezHGPfoZkgsO6F/3dyjbV7qD1JM/x7/T/kHumTan/9Zm70F5FMsD25JquIpn;
+Received: from [66.218.69.4] by n32.bullet.scd.yahoo.com with NNFMP; 15 Mar 2007 09:47:33 -0000
+Received: from [66.218.67.98] by t4.bullet.scd.yahoo.com with NNFMP; 15 Mar 2007 09:47:33 -0000
+X-Yahoo-Newman-Id: 1622440-m2255
+X-Sender: aline@up.univ-mrs.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 93883 invoked from network); 15 Mar 2007 09:47:32 -0000
+Received: from unknown (66.218.66.72)
+  by m41.grp.scd.yahoo.com with QMQP; 15 Mar 2007 09:47:32 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta14.grp.scd.yahoo.com with SMTP; 15 Mar 2007 09:47:31 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 114D91AB993;
+	Thu, 15 Mar 2007 10:47:23 +0100 (CET)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 275967-09; Thu, 15 Mar 2007 10:47:21 +0100 (CET)
+Received: from [147.94.213.137] (unknown [147.94.213.137])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 28E751FA7C2;
+	Thu, 15 Mar 2007 10:47:21 +0100 (CET)
+Message-Id: <v04210104c21eb8e7281d@[147.94.213.137]>
+X-Priority: 1 (Highest)
+To: lpl-infos@yahoogroupes.fr
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: Aline =?iso-8859-1?Q?P=E9lissier?= <aline@up.univ-mrs.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Thu, 15 Mar 2007 10:49:54 +0200
+X-ASG-Orig-Subj: [lpl-infos] [coll] Appel: Les Primitives Phonologiques dans le Cerveau, le Conduit 
+ Vocal et =?iso-8859-1?Q?l=92Oreille?= , fin 30 avril
+Subject: [lpl-infos] [coll] Appel: Les Primitives Phonologiques dans le Cerveau, le Conduit 
+ Vocal et =?iso-8859-1?Q?l=92Oreille?= , fin 30 avril
+X-Yahoo-Newman-Property: groups-email-ff
+Content-Type: multipart/alternative;
+ boundary="8TwtMopUeOA8a51Oi6uOvAaMqa8dBHlS7mNuN5W"
+X-Barracuda-Virus-Scanned: by Barracuda Spam Firewall at its.mq.edu.au
+X-Barracuda-Spam-Score: 1.95
+X-Barracuda-Spam-Status: No, SCORE=1.95 using per-user scores of TAG_LEVEL=3.0 QUARANTINE_LEVEL=3.5 KILL_LEVEL=1000.0 tests=BSF_SC0_SA085b, HTML_MESSAGE, HTML_TINY_FONT, X_PRIORITY_HIGH
+X-Barracuda-Spam-Report: Code version 3.1, rules version 3.1.11310
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.12 X_PRIORITY_HIGH        Sent with 'X-Priority' set to high
+	0.40 BSF_SC0_SA085b         URI: Custom Rule SA085b
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	1.43 HTML_TINY_FONT         RAW: body contains 1 or 0-point font
+
+--8TwtMopUeOA8a51Oi6uOvAaMqa8dBHlS7mNuN5W
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>
+>De : Rachid RIDOUANE=20
+><<mailto:rachid.ridouane@wanadoo.fr>rachid.ridouane@wanadoo.fr>
+>
+>
+>
+>Second Announcement
+>International Conference - Call for papers
+>=DD
+>*********************************************************************=20
+>*************************************
+>"Where Do Features Come From=DD?
+>Phonological Primitives in the Brain, the Mouth, and the Ear"
+>
+>D=EDo=98 Viennent les Traits ?
+>Les Primitives Phonologiques dans le Cerveau, le Conduit Vocal et l=EDOrei=
+lle.
+>=DD
+>*********************************************************************=20
+>************************************
+>
+>=DDVersion fran=C1aise
+>
+>Les sons de la parole (consonnes, voyelles, tons) sont constitu=C8s=20
+>d'unit=C8s primitives d=C8sign=C8es comme traits distinctifs, traits=20
+>phonologiques ou traits phon=C8tiques selon les auteurs. Ces unit=C8s se=20
+>sont av=C8r=C8es tr=CBs =C8clairantes dans la description des syst=CBmes=20
+>phonologiques. Sur un plan cognitif, il para=D3t vraisemblable=20
+>qu=EDelles jouent un r=D9le central dans le codage de la parole,=20
+>assurant le passage du signal acoustique, dans sa diversit=C8, aux=20
+>cat=C8gories linguistiques pertinentes, aussi bien au plan de la=20
+>production qu=EDau plan de la perception. En d=C8pit du r=D9le essentiel=20
+>accord=C8 aux traits dans la linguistique contemporaine, les=20
+>recherches actuelles continuent de soulever de nombreuses questions=20
+>fondamentales quant au statut cognitif des traits, leur r=D9le dans la=20
+>production et la perception de la parole, la relation qu=EDils=20
+>entretiennent avec les param=CBtres que l=EDon peut mesurer en=20
+>acoustique et dans l=ED=C8tude de l=EDaudition, et leur r=D9le dans=20
+>l=EDacquisition des langues.=DDCette conf=C8rence r=C8unira des chercheurs=
+=20
+>travaillant dans ces domaines (et dans des domaines connexes), pour=20
+>explorer ensemble la fa=C1on dont les traits sont constitu=C8s, leur=20
+>organisation cognitive, et leur impl=C8mentation phon=C8tique.=20
+>L'objectif est de prendre la mesure des progr=CBs r=C8alis=C8s, et, par un=
+=20
+>=C8change entre chercheurs et doctorants d=EDhorizons divers, de mettre=20
+>en lumi=CBre de nouvelles directions dans cette entreprise=20
+>interdisciplinaire.=DD
+>=DD
+>Les auteurs sont invit=C8s =FD soumettre un r=C8sum=C8 anonyme de deux pag=
+es=20
+>(en anglais ou en fran=C1ais) au plus tard le 30 avril 2007. Ce=20
+>document est =FD envoyer =FD=20
+><mailto:rachid.ridouane@univ-paris3.fr>rachid.ridouane@univ-paris3.fr=20
+>Cet e-mail est prot=C8g=C8 contre les robots collecteurs de mails, votre=20
+>navigateur doit accepter le Javascript pour le voir , accompagn=C8,=20
+>sur une page s=C8par=C8e, du nom du ou des auteurs, des coordonn=C8es du=20
+>premier auteur, et, le cas =C8ch=C8ant, du choix pr=C8f=C8rentiel du mode =
+de=20
+>pr=C8sentation=DD: communication orale ou poster. =DDLes contributions=20
+>pr=C8sentant des r=C8sultats exp=C8rimentaux nouveaux sont=20
+>particuli=CBrement encourag=C8es. La d=C8cision d=EDacceptation ou de reje=
+t=20
+>sera notifi=C8e aux auteurs par courrier =C8lectronique au plus tard le=20
+>15 juin 2007. La publication de certaines des communications est=20
+>envisag=C8e.
+>
+>Les th=CBmes de la conf=C8rence comprennent (liste non limitative)=DD:
+>
+>les corr=C8lats phon=C8tiques des traits distinctifs
+>la mod=C8lisation acoustico-articulatoire des traits
+>les d=C8finitions quantiques de traits distinctifs
+>le r=D9le de r=C8sonances dans la cavit=C8 sous-glottique et/ou dans des=20
+>cavit=C8s lat=C8rales dans la d=C8finition des fronti=CBres entre traits
+>les indices auditifs des corr=C8lats acoustiques des traits
+>les indices visuels des traits distinctifs
+>la variabilit inter- et intra-langue dans la r=C8alisation des traits
+>le renforcement de constrastes fragiles entre traits
+>traits phonologiques et commandes motrices en production de parole
+>traits et lexique mental
+>repr=C8sentation neurologique des traits
+>les traits dans l'acquisition du langage, pr=C8coce et tardive
+>les traits dans la perception et l'acquisition de langues non maternelles
+>les traits dans les troubles de la parole=DD
+>
+>La conf=C8rence, qui s=ED=C8tendra sur deux jours (4 et 5 octobre 2007),=20
+>comprendra quatre conf=C8rences invit=C8es, quatre sessions d=EDune=20
+>demi-journ=C8e de pr=C8sentations orales (30 minutes par pr=C8sentation,=20
+>discussion comprise), et une ou deux sessions poster.
+>=DD
+>Organizers/Organisateurs
+>Rachid Ridouane (Laboratory of Phonetics and Phonology, Paris)
+>Nick Clements (Laboratory of Phonetics and Phonology, Paris)
+>=DD
+>Contact
+><mailto:rachid.ridouane@univ-paris3.fr>rachid.ridouane@univ-paris3.fr
+>
+>Website:=20
+><http://lpp.univ-paris3.fr/features2007.htm>http://lpp.univ-paris3.fr/=20
+>features2007.htm<http://phoneticbases.free.fr/>
+>
+>Invited Speakers/Conf=C8renciers invit=C8s
+>Alec Marantz (MIT)
+>Kiyoshi Honda (ATR Labs, Kyoto and LPP, Paris)
+>Hyunsoon Kim (Hongik University, Seoul)
+>Shinji Maeda (ENST, Paris)
+>Tracy Alan Hall (Indiana University)
+>Sharon Peperkamp (University of Paris 8 Saint-Denis and LSCP, Paris)
+>
+>Scientific Committee/Comit=C8 scientifique
+>Abigail Cohn (Cornell University)
+>Jacques Durand (Universit=C8 de Toulouse-Le Mirail)
+>John Goldsmith (University of Chicago)
+>Elisabeth Hume (Ohio State University)
+>Keith Johnson (University of Berkeley)
+>Patricia Keating (UCLA)
+>Bernard Laks (Universit=C8 de Paris 10)
+>Aditi Lahiri (University of Konstanz)
+>Marina Nespor (University of Ferrara)
+>Janet Pierrehumbert (Northwestern University)
+>Yvan Rose (Memorial University of Newfoundland)
+>Kenneth Stevens (MIT)
+>Jacqueline Vaissi=CBre (Universit=C8 de Paris 3)
+>Sophie Wauquier (Universit=C8 de Paris 10)
+>=DD
+>Important Dates/Dates importantes
+>Abstract submission deadline: 30 April 2007
+>Notification of acceptance or rejection: 15 June 2007
+>Conference : 4-5 October, 2007
+>
+>=DD
+>Ce colloque est financ=C8 par le Minist=CBre D=C8l=C8gu=C8 de la Recherche=
+=20
+>sous le programme "Action Concert=C8e Incitative PROSODIE" (Programme=20
+>de soutien dans l'innovation et l'excellence en sciences humaines et=20
+>sociales).
+
+
+[Les parties de ce message comportant autre chose que du texte seul ont =E9=
+t=E9 supprim=E9es]
+
+
+--8TwtMopUeOA8a51Oi6uOvAaMqa8dBHlS7mNuN5W
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+<!-- Network content -->
+
+
+<body style=3D"background-color: #ffffff;">
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"width:655px; position:relative;">
+  <div id=3D"ygrp-msg" style=3D"width: 490px; padding: 0 15px 0 0; float:le=
+ft;  z-index:1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text">
+            <p>&gt;<br>
+&gt;De : Rachid RIDOUANE <br>
+&gt;&lt;&lt;mailto:<a href=3D"mailto:rachid.ridouane%40wanadoo.fr">rachid.r=
+idouane@<wbr>wanadoo.fr</a>&gt;<a href=3D"mailto:rachid.ridouane%40wanadoo.=
+fr">rachid.ridouane@<wbr>wanadoo.fr</a>&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;<br>
+&gt;Second Announcement<br>
+&gt;International Conference - Call for papers<br>
+&gt;=DD<br>
+&gt;***********<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr=
+>*********<wbr>*********<wbr>**** <br>
+&gt;***********<wbr>*********<wbr>*********<wbr>********<br>
+&gt;&quot;Where Do Features Come From=DD?<br>
+&gt;Phonological Primitives in the Brain, the Mouth, and the Ear&quot;<br>
+&gt;<br>
+&gt;D=EDo=98 Viennent les Traits ?<br>
+&gt;Les Primitives Phonologiques dans le Cerveau, le Conduit Vocal et l=EDO=
+reille.<br>
+&gt;=DD<br>
+&gt;***********<wbr>*********<wbr>*********<wbr>*********<wbr>*********<wbr=
+>*********<wbr>*********<wbr>**** <br>
+&gt;***********<wbr>*********<wbr>*********<wbr>*******<br>
+&gt;<br>
+&gt;=DDVersion fran=C1aise<br>
+&gt;<br>
+&gt;Les sons de la parole (consonnes, voyelles, tons) sont constitu=C8s <br=
+>
+&gt;d'unit=C8s primitives d=C8sign=C8es comme traits distinctifs, traits <b=
+r>
+&gt;phonologiques ou traits phon=C8tiques selon les auteurs. Ces unit=C8s s=
+e <br>
+&gt;sont av=C8r=C8es tr=CBs =C8clairantes dans la description des syst=CBme=
+s <br>
+&gt;phonologiques. Sur un plan cognitif, il para=D3t vraisemblable <br>
+&gt;qu=EDelles jouent un r=D9le central dans le codage de la parole, <br>
+&gt;assurant le passage du signal acoustique, dans sa diversit=C8, aux <br>
+&gt;cat=C8gories linguistiques pertinentes, aussi bien au plan de la <br>
+&gt;production qu=EDau plan de la perception. En d=C8pit du r=D9le essentie=
+l <br>
+&gt;accord=C8 aux traits dans la linguistique contemporaine, les <br>
+&gt;recherches actuelles continuent de soulever de nombreuses questions <br=
+>
+&gt;fondamentales quant au statut cognitif des traits, leur r=D9le dans la =
+<br>
+&gt;production et la perception de la parole, la relation qu=EDils <br>
+&gt;entretiennent avec les param=CBtres que l=EDon peut mesurer en <br>
+&gt;acoustique et dans l=ED=C8tude de l=EDaudition, et leur r=D9le dans <br=
+>
+&gt;l=EDacquisition des langues.=DDCette conf=C8rence r=C8unira des cherche=
+urs <br>
+&gt;travaillant dans ces domaines (et dans des domaines connexes), pour <br=
+>
+&gt;explorer ensemble la fa=C1on dont les traits sont constitu=C8s, leur <b=
+r>
+&gt;organisation cognitive, et leur impl=C8mentation phon=C8tique. <br>
+&gt;L'objectif est de prendre la mesure des progr=CBs r=C8alis=C8s, et, par=
+ un <br>
+&gt;=C8change entre chercheurs et doctorants d=EDhorizons divers, de mettre=
+ <br>
+&gt;en lumi=CBre de nouvelles directions dans cette entreprise <br>
+&gt;interdisciplinaire<wbr>.=DD<br>
+&gt;=DD<br>
+&gt;Les auteurs sont invit=C8s =FD soumettre un r=C8sum=C8 anonyme de deux =
+pages <br>
+&gt;(en anglais ou en fran=C1ais) au plus tard le 30 avril 2007. Ce <br>
+&gt;document est =FD envoyer =FD <br>
+&gt;&lt;mailto:<a href=3D"mailto:rachid.ridouane%40univ-paris3.fr">rachid.r=
+idouane@<wbr>univ-paris3.<wbr>fr</a>&gt;<a href=3D"mailto:rachid.ridouane%4=
+0univ-paris3.fr">rachid.ridouane@<wbr>univ-paris3.<wbr>fr</a> <br>
+&gt;Cet e-mail est prot=C8g=C8 contre les robots collecteurs de mails, votr=
+e <br>
+&gt;navigateur doit accepter le Javascript pour le voir , accompagn=C8, <br=
+>
+&gt;sur une page s=C8par=C8e, du nom du ou des auteurs, des coordonn=C8es d=
+u <br>
+&gt;premier auteur, et, le cas =C8ch=C8ant, du choix pr=C8f=C8rentiel du mo=
+de de <br>
+&gt;pr=C8sentation=DD<wbr>: communication orale ou poster. =DDLes contribut=
+ions <br>
+&gt;pr=C8sentant des r=C8sultats exp=C8rimentaux nouveaux sont <br>
+&gt;particuli=CBrement encourag=C8es. La d=C8cision d=EDacceptation ou de r=
+ejet <br>
+&gt;sera notifi=C8e aux auteurs par courrier =C8lectronique au plus tard le=
+ <br>
+&gt;15 juin 2007. La publication de certaines des communications est <br>
+&gt;envisag=C8e.<br>
+&gt;<br>
+&gt;Les th=CBmes de la conf=C8rence comprennent (liste non limitative)=DD:<=
+br>
+&gt;<br>
+&gt;les corr=C8lats phon=C8tiques des traits distinctifs<br>
+&gt;la mod=C8lisation acoustico-articulat<wbr>oire des traits<br>
+&gt;les d=C8finitions quantiques de traits distinctifs<br>
+&gt;le r=D9le de r=C8sonances dans la cavit=C8 sous-glottique et/ou dans de=
+s <br>
+&gt;cavit=C8s lat=C8rales dans la d=C8finition des fronti=CBres entre trait=
+s<br>
+&gt;les indices auditifs des corr=C8lats acoustiques des traits<br>
+&gt;les indices visuels des traits distinctifs<br>
+&gt;la variabilit inter- et intra-langue dans la r=C8alisation des traits<b=
+r>
+&gt;le renforcement de constrastes fragiles entre traits<br>
+&gt;traits phonologiques et commandes motrices en production de parole<br>
+&gt;traits et lexique mental<br>
+&gt;repr=C8sentation neurologique des traits<br>
+&gt;les traits dans l'acquisition du langage, pr=C8coce et tardive<br>
+&gt;les traits dans la perception et l'acquisition de langues non maternell=
+es<br>
+&gt;les traits dans les troubles de la parole=DD<br>
+&gt;<br>
+&gt;La conf=C8rence, qui s=ED=C8tendra sur deux jours (4 et 5 octobre 2007)=
+, <br>
+&gt;comprendra quatre conf=C8rences invit=C8es, quatre sessions d=EDune <br=
+>
+&gt;demi-journ=C8e de pr=C8sentations orales (30 minutes par pr=C8sentation=
+, <br>
+&gt;discussion comprise), et une ou deux sessions poster.<br>
+&gt;=DD<br>
+&gt;Organizers/<wbr>Organisateurs<br>
+&gt;Rachid Ridouane (Laboratory of Phonetics and Phonology, Paris)<br>
+&gt;Nick Clements (Laboratory of Phonetics and Phonology, Paris)<br>
+&gt;=DD<br>
+&gt;Contact<br>
+&gt;&lt;mailto:<a href=3D"mailto:rachid.ridouane%40univ-paris3.fr">rachid.r=
+idouane@<wbr>univ-paris3.<wbr>fr</a>&gt;<a href=3D"mailto:rachid.ridouane%4=
+0univ-paris3.fr">rachid.ridouane@<wbr>univ-paris3.<wbr>fr</a><br>
+&gt;<br>
+&gt;Website: <br>
+&gt;&lt;<a href=3D"http://lpp.univ-paris3.fr/features2007.htm">http://lpp.u=
+niv-<wbr>paris3.fr/<wbr>features2007.<wbr>htm</a>&gt;<a href=3D"http://lpp.=
+univ-paris3.fr/">http://lpp.univ-<wbr>paris3.fr/</a> <br>
+&gt;features2007.<wbr>htm&lt;<a href=3D"http://phoneticbases.free.fr/">http=
+://phoneticbase<wbr>s.free.fr/</a>&gt;<br>
+&gt;<br>
+&gt;Invited Speakers/Conf=C8<wbr>renciers invit=C8s<br>
+&gt;Alec Marantz (MIT)<br>
+&gt;Kiyoshi Honda (ATR Labs, Kyoto and LPP, Paris)<br>
+&gt;Hyunsoon Kim (Hongik University, Seoul)<br>
+&gt;Shinji Maeda (ENST, Paris)<br>
+&gt;Tracy Alan Hall (Indiana University)<br>
+&gt;Sharon Peperkamp (University of Paris 8 Saint-Denis and LSCP, Paris)<br=
+>
+&gt;<br>
+&gt;Scientific Committee/Comit=C8 scientifique<br>
+&gt;Abigail Cohn (Cornell University)<br>
+&gt;Jacques Durand (Universit=C8 de Toulouse-Le Mirail)<br>
+&gt;John Goldsmith (University of Chicago)<br>
+&gt;Elisabeth Hume (Ohio State University)<br>
+&gt;Keith Johnson (University of Berkeley)<br>
+&gt;Patricia Keating (UCLA)<br>
+&gt;Bernard Laks (Universit=C8 de Paris 10)<br>
+&gt;Aditi Lahiri (University of Konstanz)<br>
+&gt;Marina Nespor (University of Ferrara)<br>
+&gt;Janet Pierrehumbert (Northwestern University)<br>
+&gt;Yvan Rose (Memorial University of Newfoundland)<br>
+&gt;Kenneth Stevens (MIT)<br>
+&gt;Jacqueline Vaissi=CBre (Universit=C8 de Paris 3)<br>
+&gt;Sophie Wauquier (Universit=C8 de Paris 10)<br>
+&gt;=DD<br>
+&gt;Important Dates/Dates importantes<br>
+&gt;Abstract submission deadline: 30 April 2007<br>
+&gt;Notification of acceptance or rejection: 15 June 2007<br>
+&gt;Conference : 4-5 October, 2007<br>
+&gt;<br>
+&gt;=DD<br>
+&gt;Ce colloque est financ=C8 par le Minist=CBre D=C8l=C8gu=C8 de la Recher=
+che <br>
+&gt;sous le programme &quot;Action Concert=C8e Incitative PROSODIE&quot; (P=
+rogramme <br>
+&gt;de soutien dans l'innovation et l'excellence en sciences humaines et <b=
+r>
+&gt;sociales).<br>
+<br>
+[Les parties de ce message comportant autre chose que du texte seul ont =E9=
+t=E9 supprim=E9es]<br>
+<br>
+</p>
+    </div>=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <span width=3D"1" style=3D"color: white;">__._,_.___</span>
+    <!-- Start the section with Message In topic -->
+    <div id=3D"ygrp-actbar">
+              <span class=3D"left">
+          <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/message/229=
+4;_ylc=3DX3oDMTM0OG5rbTUxBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BG1zZ0lkAzIyOTQEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMTczOTUyMDUzBHRwY=
+0lkAzIyOTQ-">
+            Toute la discussion          </a> (<span class=3D"bld">1</span>=
+)
+        </span>
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJwNmZ0N3NyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BG1zZ0lkAzIyOTQEc2VjA2Z0cgRzbGsDcnBseQRzdGltZQMxMTczOTUyMDUz?act=3Dreply&me=
+ssageNum=3D2294">
+          <span class=3D"bld">
+            R=E9pondre          </span> (en mode Web)
+        </a>  |=20
+        <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX=
+3oDMTJlNzFvdTJ1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2=
+BHNlYwNmdHIEc2xrA250cGMEc3RpbWUDMTE3Mzk1MjA1Mw--" class=3D"bld">
+          Nouvelle discussion        </a>
+          </div>=20
+    <!-------     Start Nav Bar  ------>
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-vitnav">
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ges;_ylc=3DX3oDMTJlNnZvMm9nBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21zZ3MEc3RpbWUDMTE3Mzk1MjA1Mw--">Messages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/file=
+s;_ylc=3DX3oDMTJmajAyYm9jBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2ZpbGVzBHN0aW1lAzExNzM5NTIwNTM-">Fichiers</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/phot=
+os;_ylc=3DX3oDMTJlcWR0cjF2BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyM=
+TIzODAzMjE2BHNlYwNmdHIEc2xrA3Bob3QEc3RpbWUDMTE3Mzk1MjA1Mw--">Photos</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/link=
+s;_ylc=3DX3oDMTJmMGt2dm04BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA2xpbmtzBHN0aW1lAzExNzM5NTIwNTM-">Liens</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/data=
+base;_ylc=3DX3oDMTJjcDNodWZ0BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2RiBHN0aW1lAzExNzM5NTIwNTM-">Base de donn=E9e=
+s</a>=20=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/poll=
+s;_ylc=3DX3oDMTJmZGdnaXQwBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMT=
+IzODAzMjE2BHNlYwNmdHIEc2xrA3BvbGxzBHN0aW1lAzExNzM5NTIwNTM-">Sondages</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/memb=
+ers;_ylc=3DX3oDMTJlcWpkNGVyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMy=
+MTIzODAzMjE2BHNlYwNmdHIEc2xrA21icnMEc3RpbWUDMTE3Mzk1MjA1Mw--">Membres</a> =
+=20
+            |    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/cale=
+ndar;_ylc=3DX3oDMTJkYmVvOXV1BF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAM=
+yMTIzODAzMjE2BHNlYwNmdHIEc2xrA2NhbARzdGltZQMxMTczOTUyMDUz">Agenda</a>=20=20
+    </div>=20=20
+    <!-- |**|end egp html banner|**| -->
+
+    <!-- Do not have place to put it yet -->
+    <div id=3D"ygrp-grft">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+        Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+          </div>
+
+    <!-- yahoo logo -->
+    <!-- |**|begin egp html banner|**| -->
+    <div id=3D"ygrp-ft">
+      <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkMmM2YWFrBF9TAzk=
+3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcA=
+RzdGltZQMxMTczOTUyMDUz">
+      <img src=3D"http://l.yimg.com/eur.yimg.com/i/fr/yg/ygcal.gif" height=
+=3D"19" width=3D"114" border=3D"0" alt=3D"Yahoo! Groupes"></a> <br>
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/join;_ylc=3DX3o=
+DMTJmZWxxb3VlBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BH=
+NlYwNmdHIEc2xrA3N0bmdzBHN0aW1lAzExNzM5NTIwNTM-">Modifier vos options par le=
+ Web</a> ((Compte Yahoo! requis) <br>
+      Modifier vos options par mail=A0: <a href=3D"mailto:lpl-infos-digest@=
+yahoogroupes.fr?subject=3DEnvoi de mails=A0: S=E9lection">Activer l=92envoi=
+ group=E9</a> | <a href =3D "mailto:lpl-infos-traditional@yahoogroupes.fr?s=
+ubject=3DActiver le format: Traditionnel">Activer le format Traditionnel</a=
+> <br>
+
+      <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJk=
+aGkxdmhhBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN=
+mdHIEc2xrA2hwZgRzdGltZQMxMTczOTUyMDUz">
+        Aller sur votre groupe=20
+      </a> |
+      <a href=3D"http://fr.docs.yahoo.com/info/utos.html">
+        Conditions d=92utilisation de Yahoo! Groupes      </a> |
+      <a href=3D"mailto:lpl-infos-desabonnement@yahoogroupes.fr?subject=3D"=
+>
+        D=E9sinscription      </a>=20
+    </div>     <!-- |**|end egp html banner|**| -->
+  </div> <!-- ygrp-msg -->
+
+=20=20
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:140px;float: left; clear: none; m=
+argin-left: 5px; background:white; margin-bottom:25px ;position:absolute; t=
+op:0; right: 0;">
+    <!-- Network content -->
+=20=20=20=20
+    <!-- Start vitality -->
+    <div id=3D"ygrp-vital">
+            <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3=
+oDMTJlazRwYXMyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2B=
+HNlYwN2dGwEc2xrA3ZnaHAEc3RpbWUDMTE3Mzk1MjA1Mw--">
+        Aller sur votre groupe      </a>
+    </div>=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+    <!-- Network content -->
+              <div id=3D"nc">
+              <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! 360=BA</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJrcHBvM21qBF9TAzk3NDkw=
+NDY4BF9wAzEEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawM=
+zNjAEc3RpbWUDMTE3Mzk1MjA1Mw--;_ylg=3D1/SIG=3D120i89lsb/**http%3A//fr.rd.yah=
+oo.com/evt=3D44791/*http%3A//fr.360.yahoo.com">Partagez l'essentiel</a></p>
+  <p>Blog et photos avec</p>
+  <p>vos proches.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Yahoo! Groupes</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJuaGtpZzZuBF9TAzk3NDkw=
+NDY4BF9wAzIEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+ncm91cHMEc3RpbWUDMTE3Mzk1MjA1Mw--;_ylg=3D1/SIG=3D1239gto63/**http%3A//fr.rd=
+.yahoo.com/evt=3D44790/*http%3A//fr.groups.yahoo.com">Cr=E9ez votre groupe<=
+/a></p>
+  <p>Partagez vos go=FBts</p>
+  <p>avec les autres.</p>
+                  </div>
+                    <div class=3D"ad">
+                        <div id=3D"hd1">Y! Toolbar</div>
+  <p><a href=3D"http://us.lrd.yahoo.com/_ylc=3DX3oDMTJvZ3FxZXNwBF9TAzk3NDkw=
+NDY4BF9wAzMEZ3JwSWQDMTYyMjQ0MARncnBzcElkAzIxMjM4MDMyMTYEc2VjA25jbW9kBHNsawN=
+0b29sYmFyBHN0aW1lAzExNzM5NTIwNTM-;_ylg=3D1/SIG=3D1243ka2s1/**http%3A//fr.rd=
+.yahoo.com/evt=3D44789/*http%3A//fr.toolbar.yahoo.com">100% gratuit !</a></=
+p>
+  <p>En 1 clic, acc=E9dez</p>
+  <p>=E0 vos groupes.</p>
+                  </div>
+          </div>
+=20=20=20=20
+  </div>   <!-- |**|end egp html banner|**| -->
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div>   <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440=
+/grpspId=3D2123803216/msgId=3D2294/stime=3D1173952053/nc1=3D1/nc2=3D2/nc3=
+=3D3" width=3D"1" height=3D"1"> <br>
+
+<span  style=3D"color: white;">__,_._,___</span>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</body>
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+<style type=3D"text/css">
+<!--
+#ygrp-mlmsg {font-size:13px; font-family: arial,helvetica,clean,sans-serif;=
+*font-size:small;*font:x-small;}
+#ygrp-mlmsg table {font-size:inherit;font:100%;}
+#ygrp-mlmsg select, input, textarea {font:99% arial,helvetica,clean,sans-se=
+rif;}
+#ygrp-mlmsg pre, code {font:115% monospace;*font-size:100%;}
+#ygrp-mlmsg * {line-height:1.22em;}
+#ygrp-text{
+    font-family: Georgia;=09
+}
+#ygrp-text p{
+    margin: 0 0 1em 0;
+}
+#ygrp-tpmsgs{
+    font-family: Arial;=09
+    clear: both;
+}
+#ygrp-vitnav{
+	padding-top: 10px;
+	font-family: Verdana;
+	font-size: 77%;
+	margin: 0;
+}
+#ygrp-vitnav a{
+	padding: 0 1px;
+}
+#ygrp-actbar{
+	clear: both;
+	margin: 25px 0;
+	white-space:nowrap;
+	color: #666;
+	text-align: right;
+}
+#ygrp-actbar .left{
+	float: left;
+	white-space:nowrap;
+}
+.bld{font-weight:bold;}
+#ygrp-grft{
+	font-family: Verdana;
+	font-size: 77%;
+	padding: 15px 0;
+}
+#ygrp-ft{
+  font-family: verdana;
+  font-size: 77%;
+  border-top: 1px solid #666;=20
+  padding: 5px 0;=20
+}
+#ygrp-mlmsg #logo{
+  padding-bottom: 10px;
+}
+
+#ygrp-vital{
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+	padding: 2px 0 8px 8px;
+}
+#ygrp-vital #vithd{
+	font-size: 77%;
+	font-family: Verdana;
+	font-weight: bold;
+	color: #333;
+	text-transform: uppercase;
+}
+#ygrp-vital ul{
+	padding: 0;
+	margin: 2px 0;
+}
+#ygrp-vital ul li{
+  list-style-type: none;
+  clear: both;
+  border: 1px solid #e0ecee;=20=20
+}
+#ygrp-vital ul li .ct{
+  font-weight: bold;
+  color: #ff7900;
+  float: right;
+  width: 2em;
+  text-align:right;
+  padding-right: .5em;
+}
+#ygrp-vital ul li .cat{
+  font-weight: bold;
+}
+#ygrp-vital a {
+	text-decoration: none;
+}
+
+#ygrp-vital a:hover{
+  text-decoration: underline;
+}
+
+#ygrp-sponsor #hd{
+	color: #999;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov{
+	padding: 6px 13px;
+	background-color: #e0ecee;
+	margin-bottom: 20px;
+}
+#ygrp-sponsor #ov ul{
+	padding: 0 0 0 8px;
+	margin: 0;
+}
+#ygrp-sponsor #ov li{
+	list-style-type: square;
+	padding: 6px 0;
+	font-size: 77%;
+}
+#ygrp-sponsor #ov li a{
+	text-decoration: none;
+	font-size: 130%;
+}
+#ygrp-sponsor #nc {
+  background-color: #eee;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+#ygrp-sponsor .ad{
+	padding: 8px 0;
+}
+#ygrp-sponsor .ad #hd1{
+	font-family: Arial;
+	font-weight: bold;
+	color: #628c2a;
+	font-size: 100%;
+	line-height: 122%;
+}
+#ygrp-sponsor .ad a{
+	text-decoration: none;
+}
+#ygrp-sponsor .ad a:hover{
+	text-decoration: underline;
+}
+#ygrp-sponsor .ad p{
+	margin: 0;
+}
+o {font-size: 0; }
+.MsoNormal {
+   margin: 0 0 0 0;
+}
+#ygrp-text tt{
+  font-size: 120%;
+}
+blockquote{margin: 0 0 0 4px;}
+.replbq {margin:4}
+-->
+</style>
+</head>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html><!--End group email -->
+
+
+--8TwtMopUeOA8a51Oi6uOvAaMqa8dBHlS7mNuN5W--
