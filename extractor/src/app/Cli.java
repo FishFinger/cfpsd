@@ -33,8 +33,8 @@ public class Cli
 
     return text;
   }
-
-  private static LinkedList<DateWithPosition> searchDate(String text)
+  
+  public static LinkedList<DateWithPosition> searchDate(String text)
   {
     LinkedList<DateWithPosition> list = new LinkedList<DateWithPosition>();
 
