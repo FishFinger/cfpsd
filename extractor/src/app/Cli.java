@@ -30,7 +30,7 @@ public class Cli
   }
   
   
-  private static LinkedList<DateWithPosition> searchDate(String text)
+  public static LinkedList<DateWithPosition> searchDate(String text)
   {
     
     
