@@ -43,6 +43,11 @@ public class DateWithPosition
     this._date = date;
   }
   
+  public String toString()
+  {
+    return _position + " - " + _date;
+  }
+  
   
 
 
