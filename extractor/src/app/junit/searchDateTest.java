@@ -354,5 +354,23 @@ public class searchDateTest
     assertEquals(1, Cli.searchDate(date).size());
     assertEquals(31, Cli.searchDate(date).get(2).getPosition());
   }
+  
+  @Test
+  public void testNumericalDate()
+  {
+    assertEquals(1, Cli.searchDate("25/01/2009").size());
+    assertEquals(1, Cli.searchDate("  25/01/2009 ").size());
+    assertEquals(1, Cli.searchDate("Bonjour nous sommes le 25/01/2009").size());
+    assertEquals(1, Cli.searchDate("25-01-2009").size());
+    assertEquals(1, Cli.searchDate("01-25-2009").size());
+    assertEquals(1, Cli.searchDate("25_01_2009").size());
+    
+    assertEquals(1, Cli.searchDate("25/01/09").size());
+    assertEquals(1, Cli.searchDate("  25/01/09 ").size());
+    assertEquals(1, Cli.searchDate("Bonjour nous sommes le 25/01/09").size());
+    assertEquals(1, Cli.searchDate("25-01-09").size());
+    assertEquals(1, Cli.searchDate("01-25-09").size());
+    assertEquals(1, Cli.searchDate("25_01_09").size());
+  }
 
 }
