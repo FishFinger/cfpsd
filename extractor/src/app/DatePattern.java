@@ -23,9 +23,9 @@ public class DatePattern
     WEEKDAYS, MONTH
   }
 
-  public static final String NUM_DAY = "(0?[1-9]|[12][0-9]|3[01])";
+  public static final String NUM_DAY = "([12]\\d|3[01]|0?[1-9])";
   public static final String NUM_MONTH = "(0?[1-9]|1[012])";
-  public static final String YEAR = "((2[0-9])?[0-9][0-9])";
+  public static final String YEAR = "(([12]?\\d)?\\d{2})";
   public static final String SEP = "[-/_]";
   public static final String NUMERIC_DATE = "(((" + NUM_DAY + SEP + NUM_MONTH
       + ")|("  + NUM_MONTH + SEP + NUM_DAY + "))" + SEP + YEAR + ")";
@@ -34,17 +34,20 @@ public class DatePattern
   {
     if (super_pattern == null)
       {
-        String date = "(" + NUMERIC_DATE + "|";
+        String date = "(\\D|^)(" + NUMERIC_DATE + "|";
 
-        // Locale[] locales = DateFormatSymbols.getAvailableLocales();
-        Locale[] locales = new Locale[2];
+        //Locale[] locales = DateFormatSymbols.getAvailableLocales();
+        Locale[] locales = new Locale[4];
         locales[0] = new Locale("en");
         locales[1] = new Locale("fr");
+        locales[2] = new Locale("es");
+        locales[3] = new Locale("de");
+
         for (int i = 0; i < locales.length; ++i)
-          date += getNLPattern(locales[i]) + "|";
+          date +=  getNLPattern(locales[i]) + "|";
 
-        date = date.substring(0, date.length() - 1) + ')';
-
+        date = date.substring(0, date.length() - 1) + ")(\\D|$)";
+        System.out.println(date);
         super_pattern = Pattern.compile(date, Pattern.CASE_INSENSITIVE);
       }
     return super_pattern;
@@ -56,14 +59,14 @@ public class DatePattern
     String weekday = getNLPattern(Field.WEEKDAYS, Style.ALL, locale);
     String month = getNLPattern(Field.MONTH, Style.ALL, locale);
 
-    String sep = " ";
+    String sep = "\\s{1,2}";
 
     String nl_date = "((" + weekday + sep + ")?" + NUM_DAY + "(\\p{Alpha}{2})?"
         + sep + month + "(" + sep + YEAR + ")?)";
 
     if (locale.toLanguageTag().equals("en"))
-      nl_date = "(" + nl_date + "|(" + month + "\\s{1,3}" + NUM_DAY
-          + "(,\\s{1,3}" + YEAR + ")?))";
+      nl_date = "(" + nl_date + "|(" + month + sep + NUM_DAY
+          + "(," + sep + YEAR + ")?))";
 
     return nl_date;
   }

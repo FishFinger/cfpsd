@@ -42,16 +42,19 @@ public class Cli
   
   public static LinkedList<DateWithPosition> searchDate(String text)
   {
+    System.out.println(text);
     LinkedList<DateWithPosition> list = new LinkedList<DateWithPosition>();
 
-    //String regex = DatePattern.getNLPattern(new Locale("en"));
-    //System.out.println(regex);
-    //Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
     Pattern p = DatePattern.getSuperPattern();
     Matcher matcher = p.matcher(text);
 
     while (matcher.find())
-      list.add(new DateWithPosition(matcher.start(), matcher.group(1)));
+      {
+        System.out.println(matcher.group(2));
+        list.add(new DateWithPosition(matcher.start(2), matcher.group(2)));
+      }
+
+    System.out.println();
 
     return list;
   }

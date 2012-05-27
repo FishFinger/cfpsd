@@ -12,15 +12,29 @@ public class SearchDateTest
 {
 
   @Test
-  public void testBeginEnglish()
+  public void testNotDate()
   {
-    // Not a date
     assertEquals(0, Cli.searchDate("").size());
     assertEquals(0, Cli.searchDate("Hello").size());
     assertEquals(0, Cli.searchDate("Hi guy !").size());
     assertEquals(0, Cli.searchDate("  I have 2 cats :)").size());
     assertEquals(0, Cli.searchDate("My name is James").size());
     assertEquals(0, Cli.searchDate("1 2 3 soleil").size());
+    
+    assertEquals(0, Cli.searchDate("12112112").size());
+    assertEquals(0, Cli.searchDate("12a12a12").size());
+    assertEquals(0, Cli.searchDate("31 Poireaux 2014").size());
+    assertEquals(0, Cli.searchDate("45 avril 2011)").size());
+    assertEquals(0, Cli.searchDate("32/12/12").size());
+    assertEquals(0, Cli.searchDate("13/13/12").size());
+    assertEquals(0, Cli.searchDate("12/32/12").size());
+    
+    assertEquals(0, Cli.searchDate("01/12/12222").size());
+  }
+  
+  @Test
+  public void testBeginEnglish()
+  {
 
     // Should be detected as dates
     assertEquals(1, Cli.searchDate("March 25, 2005").size());
@@ -364,9 +378,9 @@ public class SearchDateTest
     assertEquals(0, Cli.searchDate(date).get(0).getPosition());
     assertEquals(17, Cli.searchDate(date).get(1).getPosition());
 
-   /* date = "Allez bouge ! les 15, 16 et 17 April 2005.";
+    date = "Allez bouge ! les 15, 16 et 17 April 2005.";
     assertEquals(1, Cli.searchDate(date).size());
-    assertEquals(31, Cli.searchDate(date).get(2).getPosition());*/
+    assertEquals(28, Cli.searchDate(date).get(0).getPosition());
   }
   
   @Test
@@ -385,6 +399,18 @@ public class SearchDateTest
     assertEquals(1, Cli.searchDate("25-01-09").size());
     assertEquals(1, Cli.searchDate("01-25-09").size());
     assertEquals(1, Cli.searchDate("25_01_09").size());
+  }
+  
+  @Test
+  public void testSizeResults()
+  {
+    assertEquals("March 25, 2005", Cli.searchDate("March 25, 2005").get(0).getDate());
+    assertEquals("15 Jun 2005", Cli.searchDate("15 Jun 2005").get(0).getDate());
+    assertEquals("5 Avr. 1988", Cli.searchDate("5 Avr. 1988").get(0).getDate());
+    assertEquals("25/01/09", Cli.searchDate("Bonjour nous sommes le 25/01/09").get(0).getDate());
+    assertEquals("25/01/1999", Cli.searchDate("25/01/1999").get(0).getDate());
+    assertEquals("25_01_2009", Cli.searchDate("25_01_2009").get(0).getDate());
+    assertEquals("5 nov 2005", Cli.searchDate("1 5 nov 2005 1").get(0).getDate());
   }
 
 }
