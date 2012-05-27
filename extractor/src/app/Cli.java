@@ -40,7 +40,7 @@ public class Cli
 
     return text;
   }
-
+  
   public static LinkedList<DateWithPosition> searchDate(String text)
   {
     LinkedList<DateWithPosition> list = new LinkedList<DateWithPosition>();
@@ -50,6 +50,25 @@ public class Cli
 
     while (matcher.find())
       list.add(new DateWithPosition(matcher.start(2), matcher.group(2)));
+
+    return list;
+  }
+
+  public static LinkedList<Integer> searchKeyWords(String text)
+  {
+    System.out.println(text);
+    LinkedList<Integer> list = new LinkedList<Integer>();
+
+    Pattern p = KeyWordPattern.getPattern();
+    Matcher matcher = p.matcher(text);
+
+    while (matcher.find())
+      {
+        System.out.println(matcher.group(1));
+        list.add(matcher.start(1));
+      }
+
+    System.out.println();
 
     return list;
   }
