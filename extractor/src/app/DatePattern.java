@@ -2,7 +2,9 @@ package app;
 
 import util.Misc;
 import java.util.regex.Pattern;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.LinkedList;
 import java.util.Locale;
 import java.text.DateFormatSymbols;
 
@@ -24,9 +26,9 @@ public class DatePattern
   public static final String NUM_DAY = "(0?[1-9]|[12][0-9]|3[01])";
   public static final String NUM_MONTH = "(0?[1-9]|1[012])";
   public static final String YEAR = "((2[0-9])?[0-9][0-9])";
-  public static final String SEP = "[-/]";
-  public static final String NUMERIC_DATE = "(" + NUM_DAY + SEP + NUM_MONTH
-      + SEP + YEAR + ")";
+  public static final String SEP = "[-/_]";
+  public static final String NUMERIC_DATE = "(((" + NUM_DAY + SEP + NUM_MONTH
+      + ")|("  + NUM_MONTH + SEP + NUM_DAY + "))" + SEP + YEAR + ")";
 
   public static Pattern getSuperPattern()
   {
@@ -42,9 +44,7 @@ public class DatePattern
           date += getNLPattern(locales[i]) + "|";
 
         date = date.substring(0, date.length() - 1) + ')';
-        
-        System.out.println("<"+date+">");
-        
+
         super_pattern = Pattern.compile(date, Pattern.CASE_INSENSITIVE);
       }
     return super_pattern;
@@ -56,8 +56,10 @@ public class DatePattern
     String weekday = getNLPattern(Field.WEEKDAYS, Style.ALL, locale);
     String month = getNLPattern(Field.MONTH, Style.ALL, locale);
 
-    String nl_date = "((" + weekday + "\\s{1,3})?" + NUM_DAY
-        + "(\\p{Alpha}{2})?\\s{1,3}" + month + "(\\s{1,3}" + YEAR + ")?)";
+    String sep = " ";
+
+    String nl_date = "((" + weekday + sep + ")?" + NUM_DAY + "(\\p{Alpha}{2})?"
+        + sep + month + "(" + sep + YEAR + ")?)";
 
     if (locale.toLanguageTag().equals("en"))
       nl_date = "(" + nl_date + "|(" + month + "\\s{1,3}" + NUM_DAY
@@ -124,10 +126,31 @@ public class DatePattern
         String[] short_name = Misc.removeEmpty(date_symbols.getShortMonths());
         String[] long_name = Misc.removeEmpty(date_symbols.getMonths());
 
-        Misc.replace(short_name, ".", "(\\.)?");
+        // other
+        if (locale.toLanguageTag().equals("fr"))
+          {
+            String[] other = { "fév." };
+            short_name = Misc.concatArrays(short_name, other);
+          }
 
-        return Misc.concatArrays(short_name, long_name);
+        Misc.replace(short_name, ".", "(\\.)?");
+        String[] months = Misc.concatArrays(long_name, short_name);
+        LinkedList<String> list = newByReplaceFrenchAccent(months);
+        months = Misc.concatArrays(months,
+            list.toArray(new String[list.size()]));
+
+        return months;
       }
+  }
+
+  private static LinkedList<String> newByReplaceFrenchAccent(String[] strings)
+  {
+    LinkedList<String> list = new LinkedList<String>();
+
+    list.addAll(Misc.getNewByReplace(strings, 'é', 'e'));
+    list.addAll(Misc.getNewByReplace(strings, 'û', 'u'));
+
+    return list;
   }
 
   private static String[] getNLWeekdays(Style style, Locale locale)

@@ -1,6 +1,8 @@
 package app;
 
 
+import static org.junit.Assert.assertEquals;
+
 import java.text.DateFormatSymbols;
 import java.util.LinkedList;
 import java.util.List;
@@ -49,9 +51,7 @@ public class Cli
     Matcher matcher = p.matcher(text);
 
     while (matcher.find())
-      {
-        list.add(new DateWithPosition(matcher.start(), matcher.group(1)));
-      }
+      list.add(new DateWithPosition(matcher.start(), matcher.group(1)));
 
     return list;
   }
@@ -72,7 +72,7 @@ public class Cli
     for(DateWithPosition date : list)
       System.out.println(date);
     
-   /* System.out.println("0/" + Cli.searchDate("15 April 2005").get(0).getPosition());
+    System.out.println("0/" + Cli.searchDate("15 April 2005").get(0).getPosition());
     System.out.println("1/" + Cli.searchDate(" 15 April 2005").get(0).getPosition());
     System.out.println("2/" + Cli.searchDate("  15 April 2005").get(0).getPosition());
     System.out.println("3/" + Cli.searchDate("   15 April 2005").get(0).getPosition());
@@ -81,7 +81,12 @@ public class Cli
     System.out.println("8/" + Cli.searchDate("Hi guy: 15 April 2005").get(0)
         .getPosition());
     System.out.println("12/" + Cli.searchDate("1 et 2 et 3 15 April 2005").get(0)
-        .getPosition()); */
+        .getPosition()); 
+    
+    System.out.println("12/" + Cli.searchDate("Salut mec : 15 Avril 2005").get(0)
+        .getPosition());
+    System.out.println("12/" + Cli.searchDate("1 et 2 et 3 15 Avril 2005").get(0)
+        .getPosition());
     
    
 
