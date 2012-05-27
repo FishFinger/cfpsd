@@ -6,7 +6,9 @@ import org.junit.Test;
 
 import app.Cli;
 
-public class searchDateTest
+import org.junit.internal.TextListener;
+import org.junit.runner.JUnitCore;
+public class SearchDateTest
 {
 
   @Test
@@ -95,7 +97,7 @@ public class searchDateTest
     assertEquals(1, Cli.searchDate("5 october 2005").size());
     assertEquals(1, Cli.searchDate("5 november 2005").size());
     assertEquals(1, Cli.searchDate("5 december 2005").size());
-
+    
     assertEquals(1, Cli.searchDate("5 Jan 2005").size());
     assertEquals(1, Cli.searchDate("5 Feb 2005").size());
     assertEquals(1, Cli.searchDate("5 Mar 2005").size());
@@ -147,6 +149,7 @@ public class searchDateTest
     assertEquals(1, Cli.searchDate("5 oct. 2005").size());
     assertEquals(1, Cli.searchDate("5 nov. 2005").size());
     assertEquals(1, Cli.searchDate("5 dec. 2005").size());
+    
   }
 
   @Test
