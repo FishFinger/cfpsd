@@ -36,7 +36,6 @@ public class DatePattern
       {
         String date = "(\\D|^)(" + NUMERIC_DATE + "|";
 
-        //Locale[] locales = DateFormatSymbols.getAvailableLocales();
         Locale[] locales = new Locale[4];
         locales[0] = new Locale("en");
         locales[1] = new Locale("fr");
@@ -47,7 +46,6 @@ public class DatePattern
           date +=  getNLPattern(locales[i]) + "|";
 
         date = date.substring(0, date.length() - 1) + ")(\\D|$)";
-        System.out.println(date);
         super_pattern = Pattern.compile(date, Pattern.CASE_INSENSITIVE);
       }
     return super_pattern;
