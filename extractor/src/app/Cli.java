@@ -14,6 +14,8 @@ import java.util.regex.Pattern;
 public class Cli
 {
 
+  private static final float THRESHOLD = 25.f;
+
   /**
    * @param args
    */
@@ -24,67 +26,32 @@ public class Cli
 
     LinkedList<WeightedDate> list_date = new LinkedList<WeightedDate>();
     LinkedList<Integer> list_keyword_pos = searchKeyWords(text);
-    LinkedList<DateWithPosition> list = searchDate(text);
-    for (DateWithPosition date : list)
-      list_date.add(new WeightedDate(getTestDistance(date.getPosition(),
-          list_keyword_pos,  text), date.getDate()));
+    LinkedList<DateWithPosition> list_date_pos = searchDate(text);
 
-    for (WeightedDate date : list_date)
-      System.out.println(date.getWeight() + " - " + date.getDate());
+    System.out.println(list_date_pos);
+    
+    TreeMap<Float, String> weighted_dates = performGrade(list_date_pos,
+        list_keyword_pos, text);
+
+    System.out.println(weighted_dates);
 
   }
 
-  private static int getDistance(int date_positon,
-      LinkedList<Integer> list_keyword_pos)
-  {
-    int min = Integer.MAX_VALUE;
-    for (int i : list_keyword_pos)
-      if (Math.abs(date_positon - i) < min)
-        min = Math.abs(date_positon - i);
-
-    return min;
-  }
-  
-  /*
-   * ' ' vaut 0
-   * un caractère vaut 1
-   * : vaut -3
-   * \n vaut 3
-   */
-  private static int getTestDistance(int date_positon,
-      LinkedList<Integer> list_keyword_pos, String text)
-  {
-    int min = Integer.MAX_VALUE;
-    int dist;
-    for (int i : list_keyword_pos)
-      {
-      if(i < date_positon)
-          dist = distance(text.substring(i, date_positon));
-      else
-        dist = distance(text.substring(date_positon, i));
-      
-        if (dist < min)
-          min = dist;
-      }
-
-    return min;
-  }
-  
   private static int distance(String text)
   {
     char c;
     int val = 0;
-    for(int i=0; i<text.length(); ++i)
+    for (int i = 0; i < text.length(); ++i)
       {
         c = text.charAt(i);
-        if(c == '\n')
-          val += 3;
-        else if(c == ':')
-          val -= 3;
-        else if(!Character.isWhitespace(c))
+        if (c == '\n')
+          val += 5;
+        else if (c == ':')
+          val -= 10;
+        else if (!Character.isWhitespace(c))
           val += 1;
       }
-      
+
     return val;
   }
 
@@ -121,60 +88,60 @@ public class Cli
 
   public static LinkedList<Integer> searchKeyWords(String text)
   {
-    System.out.println(text);
     LinkedList<Integer> list = new LinkedList<Integer>();
 
     Pattern p = KeyWordPattern.getPattern();
     Matcher matcher = p.matcher(text);
 
     while (matcher.find())
-      {
-        System.out.println(matcher.group(1));
-        list.add(matcher.start(1));
-      }
-
-    System.out.println();
+      list.add(matcher.start(1));
 
     return list;
   }
 
-  public static TreeMap<Float, DateWithPosition> performGrade(
-      LinkedList<DateWithPosition> dates, LinkedList<Integer> keywords)
+  public static TreeMap<Float, String> performGrade(
+      LinkedList<DateWithPosition> dates, LinkedList<Integer> keywords,
+      String text)
   {
 
-    TreeMap<Float, DateWithPosition> graded = new TreeMap<>();
+    TreeMap<Float, String> graded = new TreeMap<Float, String>();
     for (DateWithPosition date : dates)
-      graded.put(getGrade(date, keywords), date);
+      graded.put(getGrade(date, keywords, text), date.getDate());
 
     return graded;
   }
 
   private static Float getGrade(DateWithPosition date,
-      LinkedList<Integer> keywords)
+      LinkedList<Integer> keywords, String text)
   {
     try
       {
-        int min_dist = keywords.get(0);
+        int min_dist = Integer.MAX_VALUE;
         int dist;
 
         for (Integer keyword_position : keywords)
           {
-            dist = Math.abs(date.getPosition() - keyword_position);
-            if (min_dist > dist)
+            if (keyword_position < date.getPosition())
+              dist = distance(text.substring(keyword_position,
+                  date.getPosition()));
+            else
+              dist = distance(text.substring(date.getPosition(),
+                  keyword_position));
+            
+            if(min_dist > dist)
               min_dist = dist;
           }
 
-        float grade = (float) 1 / (float) Math.sqrt((float) min_dist / 30.0);
-        if (grade > 1.0)
-          grade = (float) 1.0;
+        float grade = (float) (1.f / Math.sqrt((float) min_dist / THRESHOLD));
+        if (grade > 1.f)
+          grade = 1.f;
 
         return grade;
       }
     catch (Exception e)
       {
-        return (float) 0;
+        return 0.f;
       }
   }
-
 
 }
