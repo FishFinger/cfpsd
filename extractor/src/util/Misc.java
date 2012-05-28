@@ -2,6 +2,8 @@ package util;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Misc
 {
@@ -60,11 +62,11 @@ public class Misc
       array[i] = array[i].replace(string, replacement);
   }
 
-  public static LinkedList<String> getNewByReplace(String[] array, char old_char,
-      char new_char)
+  public static LinkedList<String> getNewByReplace(String[] array,
+      char old_char, char new_char)
   {
     LinkedList<String> list = new LinkedList<String>();
-    
+
     String new_s;
     for (String s : array)
       {
@@ -72,7 +74,24 @@ public class Misc
         if (!s.equals(new_s))
           list.add(new_s);
       }
-    
+
     return list;
+  }
+
+  public static String removeHeader(String text)
+  {
+    try
+      {
+        Pattern p = Pattern.compile("Precedence: bulk(.*)");
+        Matcher m = p.matcher(text);
+
+        m.find();
+
+        return text.substring(m.start(1));
+      }
+    catch (Exception e)
+      {
+        return "";
+      }
   }
 }
