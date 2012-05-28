@@ -32,7 +32,7 @@ public class Cli
     LinkedList<DateWithPosition> list_date_pos = searchDate(text);
 
     System.out.println(list_date_pos);
-    
+
     LinkedList<WeightedDate> weighted_dates = performGrade(list_date_pos,
         list_keyword_pos, text);
 
@@ -111,16 +111,15 @@ public class Cli
 
     LinkedList<WeightedDate> graded = new LinkedList<WeightedDate>();
     for (DateWithPosition date : dates)
-      {
-        System.out.println(getGrade(date, keywords, text) + " - " + date.getDate());
-        graded.add(new WeightedDate(getGrade(date, keywords, text), date.getDate()));
-      }
+      graded.add(new WeightedDate(getGrade(date, keywords, text, dates), date
+          .getDate()));
 
     return graded;
   }
 
   private static Float getGrade(DateWithPosition date,
-      LinkedList<Integer> keywords, String text)
+      LinkedList<Integer> keywords, String text,
+      LinkedList<DateWithPosition> all_dates)
   {
     try
       {
@@ -130,15 +129,33 @@ public class Cli
         for (Integer keyword_position : keywords)
           {
             if (keyword_position < date.getPosition())
-              dist = distance(text.substring(keyword_position,
-                  date.getPosition()));
+              {
+                dist = distance(text.substring(keyword_position,
+                    date.getPosition()));
+
+                for (DateWithPosition other_date : all_dates)
+                  if (other_date.getPosition() > keyword_position
+                      && other_date.getPosition() < date.getPosition())
+                    dist += 20;
+              }
             else
-              dist = distance(text.substring(date.getPosition(),
-                  keyword_position));
-            
-            if(min_dist > dist)
+              {
+                dist = distance(text.substring(date.getPosition(),
+                    keyword_position));
+                for (DateWithPosition other_date : all_dates)
+                  if (other_date.getPosition() < keyword_position
+                      && other_date.getPosition() > date.getPosition())
+                    dist += 20;
+              }
+
+            if (min_dist > dist)
               min_dist = dist;
           }
+        
+        if(min_dist <= 0)
+          min_dist = 1;
+        
+        System.out.println(min_dist + "-" + date.getDate());
 
         float grade = (float) (1.f / Math.sqrt((float) min_dist / THRESHOLD));
         if (grade > 1.f)
@@ -148,7 +165,7 @@ public class Cli
       }
     catch (Exception e)
       {
-        return 0.f;
+        return 1.f;
       }
   }
 

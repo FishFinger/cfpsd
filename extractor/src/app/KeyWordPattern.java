@@ -6,7 +6,7 @@ public class KeyWordPattern
 {
   private enum keywords
   {
-    SUBMITTED, SUBMIT, SUBMISSION, SOUMISSION, SOUMETTRE
+    SUBMITTED, SUBMIT, SUBMISSION, SOUMISSION, SOUMETTRE, DEADLINE
   }
 
   static Pattern pattern = null;
