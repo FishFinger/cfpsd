@@ -50,12 +50,7 @@ public class Cli
     Matcher matcher = p.matcher(text);
 
     while (matcher.find())
-      {
-        System.out.println(matcher.group(2));
-        list.add(new DateWithPosition(matcher.start(2), matcher.group(2)));
-      }
-
-    System.out.println();
+      list.add(new DateWithPosition(matcher.start(2), matcher.group(2)));
 
     return list;
   }
