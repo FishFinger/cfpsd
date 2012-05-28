@@ -1,15 +1,8 @@
 package app;
 
-import static org.junit.Assert.assertEquals;
-
-import java.text.DateFormatSymbols;
-import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Locale;
 import java.util.Scanner;
 import java.util.TreeMap;
-import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
