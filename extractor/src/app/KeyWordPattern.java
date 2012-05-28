@@ -6,7 +6,7 @@ public class KeyWordPattern
 {
   private enum keywords
   {
-    SUBMITTED, SUBMIT, SOUMISSION, SOUMETTRE
+    SUBMITTED, SUBMIT, SOUMISSION, SOUMETTRE, SUBMISSION
   }
 
   static Pattern pattern = null;
@@ -15,7 +15,7 @@ public class KeyWordPattern
   {
     if (pattern == null)
       {
-        String string_pattern = "(";
+        String string_pattern = "(PAPER SUBMISSION|";
         for (int i = 0; i < keywords.values().length; ++i)
           {
             if (i > 0)
