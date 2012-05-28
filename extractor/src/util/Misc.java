@@ -82,7 +82,7 @@ public class Misc
   {
     try
       {
-        Pattern p = Pattern.compile("Precedence: bulk(.*)");
+        Pattern p = Pattern.compile("\n\n(.*)", Pattern.MULTILINE);
         Matcher m = p.matcher(text);
 
         m.find();
