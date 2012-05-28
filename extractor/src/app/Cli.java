@@ -8,8 +8,11 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.TreeMap;
+import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import util.Misc;
 
 public class Cli
 {
@@ -21,7 +24,7 @@ public class Cli
    */
   public static void main(String[] args)
   {
-    String text = read();
+    String text = Misc.removeHeader(read());
     System.out.println(text);
 
     LinkedList<WeightedDate> list_date = new LinkedList<WeightedDate>();
@@ -30,8 +33,10 @@ public class Cli
 
     System.out.println(list_date_pos);
     
-    TreeMap<Float, String> weighted_dates = performGrade(list_date_pos,
+    LinkedList<WeightedDate> weighted_dates = performGrade(list_date_pos,
         list_keyword_pos, text);
+
+    System.out.println(weighted_dates.size());
 
     System.out.println(weighted_dates);
 
@@ -99,14 +104,17 @@ public class Cli
     return list;
   }
 
-  public static TreeMap<Float, String> performGrade(
+  public static LinkedList<WeightedDate> performGrade(
       LinkedList<DateWithPosition> dates, LinkedList<Integer> keywords,
       String text)
   {
 
-    TreeMap<Float, String> graded = new TreeMap<Float, String>();
+    LinkedList<WeightedDate> graded = new LinkedList<WeightedDate>();
     for (DateWithPosition date : dates)
-      graded.put(getGrade(date, keywords, text), date.getDate());
+      {
+        System.out.println(getGrade(date, keywords, text) + " - " + date.getDate());
+        graded.add(new WeightedDate(getGrade(date, keywords, text), date.getDate()));
+      }
 
     return graded;
   }
