@@ -7,11 +7,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.regex.MatchResult;
+import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import com.sun.org.apache.xalan.internal.xsltc.compiler.sym;
 
 public class Cli
 {
@@ -123,15 +121,60 @@ public class Cli
 
   public static LinkedList<Integer> searchKeyWords(String text)
   {
+    System.out.println(text);
     LinkedList<Integer> list = new LinkedList<Integer>();
 
     Pattern p = KeyWordPattern.getPattern();
     Matcher matcher = p.matcher(text);
 
     while (matcher.find())
-      list.add(matcher.start(0));
+      {
+        System.out.println(matcher.group(1));
+        list.add(matcher.start(1));
+      }
+
+    System.out.println();
 
     return list;
   }
+
+  public static TreeMap<Float, DateWithPosition> performGrade(
+      LinkedList<DateWithPosition> dates, LinkedList<Integer> keywords)
+  {
+
+    TreeMap<Float, DateWithPosition> graded = new TreeMap<>();
+    for (DateWithPosition date : dates)
+      graded.put(getGrade(date, keywords), date);
+
+    return graded;
+  }
+
+  private static Float getGrade(DateWithPosition date,
+      LinkedList<Integer> keywords)
+  {
+    try
+      {
+        int min_dist = keywords.get(0);
+        int dist;
+
+        for (Integer keyword_position : keywords)
+          {
+            dist = Math.abs(date.getPosition() - keyword_position);
+            if (min_dist > dist)
+              min_dist = dist;
+          }
+
+        float grade = (float) 1 / (float) Math.sqrt((float) min_dist / 30.0);
+        if (grade > 1.0)
+          grade = (float) 1.0;
+
+        return grade;
+      }
+    catch (Exception e)
+      {
+        return (float) 0;
+      }
+  }
+
 
 }
