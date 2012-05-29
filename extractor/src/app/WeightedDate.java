@@ -1,6 +1,6 @@
 package app;
 
-public class WeightedDate
+public class WeightedDate implements Comparable<WeightedDate>
 {
   private float _weight;
   private String _date;
@@ -41,5 +41,17 @@ public class WeightedDate
   public void setDate(String date)
   {
     this._date = date;
+  }
+
+  @Override
+  public int compareTo(WeightedDate d)
+  {
+    // TODO Auto-generated method stub
+    return Float.compare(this._weight, d._weight);
+  }
+  
+  public String toString()
+  {
+    return "("+this._weight+")"+ this._date;
   }
 }
