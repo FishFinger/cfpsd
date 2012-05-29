@@ -24,22 +24,18 @@ public class Cli
    */
   public static void main(String[] args)
   {
-    String text = Misc.removeHeader(read());
-    System.out.println(text);
+    System.out.println(searchDeadlineDate(Misc.removeHeader(read())));
+  }
 
-    LinkedList<WeightedDate> list_date = new LinkedList<WeightedDate>();
+  private static LinkedList<WeightedDate> searchDeadlineDate(String text)
+  {
     LinkedList<Integer> list_keyword_pos = searchKeyWords(text);
     LinkedList<DateWithPosition> list_date_pos = searchDate(text);
-
-    System.out.println(list_date_pos);
 
     LinkedList<WeightedDate> weighted_dates = performGrade(list_date_pos,
         list_keyword_pos, text);
 
-    System.out.println(weighted_dates.size());
-
-    System.out.println(weighted_dates);
-
+    return weighted_dates;
   }
 
   private static int distance(String text)
@@ -151,10 +147,10 @@ public class Cli
             if (min_dist > dist)
               min_dist = dist;
           }
-        
-        if(min_dist <= 0)
+
+        if (min_dist <= 0)
           min_dist = 1;
-        
+
         System.out.println(min_dist + "-" + date.getDate());
 
         float grade = (float) (1.f / Math.sqrt((float) min_dist / THRESHOLD));
