@@ -22,20 +22,7 @@ public class Cli
    */
   public static void main(String[] args)
   {
-    System.out.println(Core.searchDeadlineDate(Misc.removeHeader(read())));
-  }
-
-  private static String read()
-  {
-    Scanner scan = new Scanner(System.in);
-    String text = "";
-
-    while (scan.hasNextLine())
-      {
-        text += scan.nextLine() + "\n";
-      }
-
-    return text;
+    System.out.println(Core.searchDeadlineDate(Misc.removeHeader(Misc.read(System.in))));
   }
 
   private static String filter(String string)

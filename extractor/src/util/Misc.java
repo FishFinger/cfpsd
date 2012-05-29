@@ -1,7 +1,14 @@
 package util;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -93,5 +100,26 @@ public class Misc
       {
         return "";
       }
+  }
+
+  public static String read(File file) throws FileNotFoundException, UnsupportedEncodingException
+  {
+    return read(new FileInputStream(file));
+  }
+
+  public static String read(InputStream stream) throws UnsupportedEncodingException
+  {
+    Scanner scan;
+
+    scan = new Scanner(new InputStreamReader(stream, "UTF8"));
+    String text = "";
+
+    while (scan.hasNextLine())
+      {
+        text += scan.nextLine() + "\n";
+      }
+
+    return text;
+
   }
 }
