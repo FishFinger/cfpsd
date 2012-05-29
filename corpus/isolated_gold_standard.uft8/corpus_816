@@ -1,314 +1,327 @@
-From - Thu Dec 10 14:39:06 2009
+From - Thu Dec 10 14:39:11 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs144950bkq;
-        Sun, 15 Nov 2009 14:10:50 -0800 (PST)
-Received: by 10.204.156.19 with SMTP id u19mr3266192bkw.62.1258323048427;
-        Sun, 15 Nov 2009 14:10:48 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 20si11576031bwz.54.2009.11.15.14.10.47;
-        Sun, 15 Nov 2009 14:10:48 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 36ED824137; Sun, 15 Nov 2009 23:10:47 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+Received: by 10.204.118.66 with SMTP id u2cs239107bkq;
+        Fri, 20 Nov 2009 13:08:47 -0800 (PST)
+Received: by 10.213.96.205 with SMTP id i13mr633646ebn.95.1258751326085;
+        Fri, 20 Nov 2009 13:08:46 -0800 (PST)
+Return-Path: <ln-owner@cines.fr>
+Received: from mercure.cines.fr (mercure.cines.fr [193.48.169.42])
+        by mx.google.com with ESMTP id 4si3561022ewy.27.2009.11.20.13.08.45;
+        Fri, 20 Nov 2009 13:08:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of ln-owner@cines.fr designates 193.48.169.42 as permitted sender) client-ip=193.48.169.42;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of ln-owner@cines.fr designates 193.48.169.42 as permitted sender) smtp.mail=ln-owner@cines.fr
+Received: from hygia.cines.fr (hygia.cines.fr [193.48.169.47])
+	by mercure.cines.fr (8.13.1/8.13.1) with ESMTP id nAKL8dvf015585;
+	Fri, 20 Nov 2009 22:08:39 +0100
+Received: from hygia.cines.fr (localhost [127.0.0.1])
+	by postfix.imss70 (Postfix) with ESMTP id C042122BA38;
+	Fri, 20 Nov 2009 22:08:37 +0100 (CET)
+Received: from hadad.cines.fr (hadad.cines.fr [193.48.169.49])
+	by hygia.cines.fr (Postfix) with ESMTP id 8E643240BE4;
+	Fri, 20 Nov 2009 22:08:37 +0100 (CET)
+Received: by hadad.cines.fr (Postfix, from userid 500)
+	id 9B75A40006; Fri, 20 Nov 2009 22:09:01 +0100 (CET)
+X-Original-To: ln@cines.fr
+Delivered-To: ln@cines.fr
+Received: by hadad.cines.fr (Postfix, from userid 502)
+	id 58B903FFE3; Fri, 20 Nov 2009 21:49:05 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.1.8 (2007-02-13) on mercure.cines.fr
 X-Spam-Level: 
-X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
-	autolearn=ham version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 5418624181;
-	Sun, 15 Nov 2009 23:08:28 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 231603D0B;
-	Sun, 15 Nov 2009 23:08:28 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id wfIAXuwCfHvu; Sun, 15 Nov 2009 23:08:27 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id E10EA3D2B;
-	Sun, 15 Nov 2009 23:08:25 +0100 (CET)
-X-Original-To: elsnet-list@mailman.let.uu.nl
-Delivered-To: elsnet-list@mailman.let.uu.nl
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 3E7493D2A
-	for <elsnet-list@mailman.let.uu.nl>;
-	Sun,  8 Nov 2009 21:01:04 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id AnsuicPxuJJT for <elsnet-list@mailman.let.uu.nl>;
-	Sun,  8 Nov 2009 21:01:04 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 114D83D24
-	for <elsnet-list@mailman.let.uu.nl>;
-	Sun,  8 Nov 2009 21:01:04 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 00D5123E0B; Sun,  8 Nov 2009 21:01:03 +0100 (MET)
-Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.159])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 7ADC923DC6
-	for <elsnet-list@mailman.let.uu.nl>;
-	Sun,  8 Nov 2009 21:00:58 +0100 (MET)
-Received: by fg-out-1718.google.com with SMTP id 19so388228fgg.2
-	for <elsnet-list@mailman.let.uu.nl>;
-	Sun, 08 Nov 2009 12:00:57 -0800 (PST)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
-	h=domainkey-signature:mime-version:received:date:message-id:subject
-	:from:to:content-type;
-	bh=elsPEefqK2+eAUX8t0iatyq/pbbs4T3+5bLVf/jvwkQ=;
-	b=rNxHnaxHnyP/VMLz92KvRKsXmoMn+S9TGjSD6Ek9pCEBVJOiAGNpkBXb9U9TB2cq4F
-	+y3gVPov2K+2Q4QFRIGi2SRlFMlxPHhLrr2eIOEE13YHG3i7sjBiHPXihW33ijjIA9pJ
-	l8tTyPWjXr4Pzv8SCrhaVATJ02UnzKwMO9TC8=
-DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
-	h=mime-version:date:message-id:subject:from:to:content-type;
-	b=dvSWOwA9RGbdn0HawveJWvfeEJtV3UZnXQY936o8bOPo4ncT86RFMhhN5wASmuEL4E
-	tKtbzhdHE9z4WezVesECBTAPhOiw80QfhFYvlogik+W3n1Bv/BsdjaWaDw/oNvJCRLOx
-	vHHrCalpNc4M2zJwp4az9cRDNreueL/cpGumE=
+X-Spam-Status: No, score=-0.9 required=5.0 tests=AWL autolearn=unavailable
+	version=3.1.8
+Received: from hygia.cines.fr (hygia.cines.fr [193.48.169.47])
+	by hadad.cines.fr (Postfix) with ESMTP id D51DF3FF26
+	for <ln@cines.fr>; Fri, 20 Nov 2009 21:48:55 +0100 (CET)
+Received: from hygia.cines.fr (localhost [127.0.0.1])
+	by postfix.imss70 (Postfix) with ESMTP id EDFB0240BE0
+	for <ln@cines.fr>; Fri, 20 Nov 2009 21:47:39 +0100 (CET)
+Received: from smtp.univ-paris13.fr (smtp.univ-paris13.fr [194.254.164.236])
+	by hygia.cines.fr (Postfix) with SMTP id C4F00240BDF
+	for <ln@cines.fr>; Fri, 20 Nov 2009 21:47:39 +0100 (CET)
+Received: from localhost. (76.58.70-86.rev.gaoland.net [86.70.58.76])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by smtp.univ-paris13.fr (Postfix) with ESMTPSA id 669B514C1CD
+	for <ln@cines.fr>; Fri, 20 Nov 2009 21:47:39 +0100 (CET)
+To: ln@cines.fr
+X-Url: http://www.atala.org/article.php3?id_article=48
+From: Thierry Hamon <thierry.hamon@univ-paris13.fr>
+X-Archive-Url: http://listserv.linguistlist.org/archives/ln.html
+X-Archive-Url: http://liste.cines.fr/info/ln
+Date: Fri, 20 Nov 2009 21:47:38 +0100
+Message-ID: <87y6m0app1.fsf@smtp.univ-paris13.fr>
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
 MIME-Version: 1.0
-Received: by 10.87.70.37 with SMTP id x37mr3070994fgk.36.1257710453376; Sun, 
-	08 Nov 2009 12:00:53 -0800 (PST)
-Date: Sun, 8 Nov 2009 16:00:53 -0400
-Message-ID: <3a2edcff0911081200p68e3148csd3c5acab269b77dd@mail.gmail.com>
-From: Ebrahim Bagheri <ebrahim.bagheri@gmail.com>
-To: agents@cs.umbc.edu, ai-and-web-in-china@googlegroups.com, 
-	AI-SGES@jiscmail.ac.uk, cfp@eventseer.net, cg@conceptualgraphs.org, 
-	colognet@ucy.ac.cy, DAI-List@mcc.com, diglib@infoserv.inist.fr,
-	dl@dl.kr.org, dm-discuss@yahoogroups.com, dolce@yahoogroups.com, 
-	elsnet-list@mailman.let.uu.nl, event@in.tu-clausthal.de, grin@di.unipi.it, 
-	ifla-l@infoserv.inist.fr, ISWORLD@listserv.heanet.ie, 
-	isworld@lyris.isworld.org, jena-dev@yahoogroups.com, kaw@science.uva.nl,
-	kif@philebus.tamu.edu, loom-forum@isi.edu,
-	obo-discuss@lists.sourceforge.net, 
-	ontolog-forum@ontolog.cim3.net, ontology@buffalo.edu, 
-	ontoware-list@ontoware.org, owl@gimli.mindlab.umd.edu, 
-	pellet-users@lists.owldl.com, people@semanticdesktop.org, 
-	protege-discussion@mailman.stanford.edu, protege-owl@mailman.stanford.edu, 
-	public-lod@w3.org, public-media-annotation@w3.org, public-owl-dev@w3.org,
-	rewerse-all@rewerse.net, semantic_web@googlegroups.com, 
-	semanticdesktop@lists.deri.org, semantic-web@w3.org, 
-	semantic-web@yahoogroups.com, sem-grd@ogf.org, 
-	service-orientated-architecture@yahoogroups.com,
-	swikig@aifb.uni-karlsruhe.de, 
-	W3China@yahoogroups.com, web-services@yahoogroups.com, 
-	WI@aifb.uni-karlsruhe.de, www-rdf-interest@w3.org, www-rdf-logic@w3.org,
-	www-rdf-rules@w3.org, www-webont-wg@w3.org, www-ws@w3.org, 
-	public-semweb-lifesci@w3.org
-X-Mailman-Approved-At: Sun, 15 Nov 2009 23:08:22 +0100
-Cc: 
-Subject: [Elsnet-list] CFP: Graduate Symposium - Canadian Artificial
-	Intelligence 2010
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
-Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Content-Type: multipart/mixed; boundary="===============1959213215=="
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
-
---===============1959213215==
-Content-Type: multipart/alternative; boundary=001485f872a4cdcae20477e188b0
-
---001485f872a4cdcae20477e188b0
-Content-Type: text/plain; charset=ISO-8859-1
-
-*Canadian Conference on AI 2010
-Graduate Students Symposium*
-
-May 30th, University  of  Ottawa, Ontario, Canada
-
-Call For Paper - Deadline 30 January 2010
-
-http://glass.cs.unb.ca/~ebrahim/conf/cai-gs/
-
-
-
-AI 2010, the twenty-third Canadian Conference on Artificial Intelligence,
-invites graduate students to submit four-page extended abstracts of their
-thesis for possible inclusion in the AI 2010 Graduate Student Symposium and
-the Canadian AI proceedings published by Springer.
-Symposium Objectives
-
-The Symposium provides an opportunity for Master's and PhD students to
-discuss and explore their research interests and career objectives with
-their peers and with a panel of established researchers in Artificial
-Intelligence, helping to develop a supportive community of scholars and a
-spirit of collaborative research.
-
-The symposium will be a one-day pre-conference event, where students of
-accepted abstracts will be invited to give a presentation on their thesis
-work before a group of peers as well as a small team of expert AI
-researchers who would offer a critique of each presentation and provide
-support, advice, and mentoring. Each student may also be invited to
-participate in the poster session during the main conference. In addition, a
-small selection of the best student submissions will be invited to give a
-short talk during the main conference.
-
-PhD and Master's students are invited to submit original work in all areas
-of Artificial Intelligence. Submissions should have emphasis on work in
-progress, with directions for future research clearly indicated wherever
-appropriate. More weight will be placed on the significance of the work, the
-proposed ideas or solutions, and the overall presentation than on
-submissions which present work with complete results.
-The Application Package
-
-Applicants to the symposium need to submit the following materials. Please
-combine all materials into one PDF document:
-
-    * A four-page thesis summary that outlines the problem being addressed,
-the proposed plan for research, and a description of the progress to date.
-The most successful applications directly address all three of these
-components. Please be sure to distinguish between work that has already been
-accomplished and work that remains to be done. Be sure to include a title
-for your work. All submissions must be written in English. Abstracts may be
-up to 4 pages in length and must be formatted according to Springer's LNCS
-style. Please follow the instructions for authors at Springer's site for
-authors. The use of the LaTeX2e style file available at the web site is
-strongly encouraged.
-    * Include a CV (at most two pages) that describes your background and
-relevant experience (research, education, employment). Your CV needs to
-include your anticipated graduation date, or it may be rejected without
-review. Please include any additional items that may indicate your potential
-contribution to, and benefit from, the symposium.
-    * A letter of recommendation from your thesis advisor. It must include
-an assessment of the current status of your thesis research, and an expected
-date for thesis submission. In addition, your advisor should indicate what
-he or she hopes you would gain from participation in the symposium.
-    * Participant's Expectations. A short (one page or less) statement of
-what you expect to gain from presenting and participating in the symposium,
-as well as what you think you can contribute to the symposium. For best
-consideration, your statement must address both of these expectations.
-
-
-
-The Reviewing Process
-
-Each abstract will be reviewed by a team of program committee members.
-Presenting students will be selected based on clarity of the submission,
-stage of research, advisor's letter and evidence of promise such as
-published papers or technical reports. (Partial) Financial assistance for
-travel and accommodations may be available to the students presenting at the
-Symposium.
-
-All students are encouraged to attend and participate in the Symposium,
-whether or not they apply to present their work. All the selected student
-presenters are expected to actively participate in the full Symposium, as we
-envision participants gaining as much by interacting with their peers as by
-having their presentations critiqued by the faculty panel. In addition, a
-senior AI researcher and faculty member will be invited to give a talk on a
-topic of interest to graduate students.
-
-
-Important Dates
-
-Package submission due January 30th, 2010
-Notification of acceptance March 3rd, 2010
-Final paper due March 8th, 2010
-
-
-Program Co-chairs:
-
-Ebrahim Bagheri, National Research Council Canada and Athabasca University
-Marina Sokolova,  CHEO Research Institute, University of Ottawa
-
---001485f872a4cdcae20477e188b0
-Content-Type: text/html; charset=ISO-8859-1
+Content-Type: text/plain; charset=windows-1252
 Content-Transfer-Encoding: quoted-printable
-
-<b>Canadian Conference on AI 2010<br>Graduate Students Symposium</b><br><br=
->May 30th, University=A0 of=A0 Ottawa, Ontario, Canada<br><br>Call For Pape=
-r - Deadline 30 January 2010<br><br><a href=3D"http://glass.cs.unb.ca/~ebra=
-him/conf/cai-gs/">http://glass.cs.unb.ca/~ebrahim/conf/cai-gs/</a><br>
-<br><br><br>AI 2010, the twenty-third Canadian Conference on Artificial Int=
-elligence, invites graduate students to submit four-page extended abstracts=
- of their thesis for possible inclusion in the AI 2010 Graduate Student Sym=
-posium and the Canadian AI proceedings published by Springer.<br>
-Symposium Objectives<br><br>The Symposium provides an opportunity for Maste=
-r&#39;s and PhD students to discuss and explore their research interests an=
-d career objectives with their peers and with a panel of established resear=
-chers in Artificial Intelligence, helping to develop a supportive community=
- of scholars and a spirit of collaborative research.<br>
-<br>The symposium will be a one-day pre-conference event, where students of=
- accepted abstracts will be invited to give a presentation on their thesis =
-work before a group of peers as well as a small team of expert AI researche=
-rs who would offer a critique of each presentation and provide support, adv=
-ice, and mentoring. Each student may also be invited to participate in the =
-poster session during the main conference. In addition, a small selection o=
-f the best student submissions will be invited to give a short talk during =
-the main conference.<br>
-<br>PhD and Master&#39;s students are invited to submit original work in al=
-l areas of Artificial Intelligence. Submissions should have emphasis on wor=
-k in progress, with directions for future research clearly indicated wherev=
-er appropriate. More weight will be placed on the significance of the work,=
- the proposed ideas or solutions, and the overall presentation than on subm=
-issions which present work with complete results.<br>
-The Application Package<br><br>Applicants to the symposium need to submit t=
-he following materials. Please combine all materials into one PDF document:=
-<br><br>=A0=A0=A0 * A four-page thesis summary that outlines the problem be=
-ing addressed, the proposed plan for research, and a description of the pro=
-gress to date. The most successful applications directly address all three =
-of these components. Please be sure to distinguish between work that has al=
-ready been accomplished and work that remains to be done. Be sure to includ=
-e a title for your work. All submissions must be written in English. Abstra=
-cts may be up to 4 pages in length and must be formatted according to Sprin=
-ger&#39;s LNCS style. Please follow the instructions for authors at Springe=
-r&#39;s site for authors. The use of the LaTeX2e style file available at th=
-e web site is strongly encouraged.<br>
-=A0=A0=A0 * Include a CV (at most two pages) that describes your background=
- and relevant experience (research, education, employment). Your CV needs t=
-o include your anticipated graduation date, or it may be rejected without r=
-eview. Please include any additional items that may indicate your potential=
- contribution to, and benefit from, the symposium.<br>
-=A0=A0=A0 * A letter of recommendation from your thesis advisor. It must in=
-clude an assessment of the current status of your thesis research, and an e=
-xpected date for thesis submission. In addition, your advisor should indica=
-te what he or she hopes you would gain from participation in the symposium.=
-<br>
-=A0=A0=A0 * Participant&#39;s Expectations. A short (one page or less) stat=
-ement of what you expect to gain from presenting and participating in the s=
-ymposium, as well as what you think you can contribute to the symposium. Fo=
-r best consideration, your statement must address both of these expectation=
-s. <br>
-<br><br><br>The Reviewing Process<br><br>Each abstract will be reviewed by =
-a team of program committee members. Presenting students will be selected b=
-ased on clarity of the submission, stage of research, advisor&#39;s letter =
-and evidence of promise such as published papers or technical reports. (Par=
-tial) Financial assistance for travel and accommodations may be available t=
-o the students presenting at the Symposium.<br>
-<br>All students are encouraged to attend and participate in the Symposium,=
- whether or not they apply to present their work. All the selected student =
-presenters are expected to actively participate in the full Symposium, as w=
-e envision participants gaining as much by interacting with their peers as =
-by having their presentations critiqued by the faculty panel. In addition, =
-a senior AI researcher and faculty member will be invited to give a talk on=
- a topic of interest to graduate students.<br>
-<br><br>Important Dates<br><br>Package submission due January 30th, 2010<br=
->Notification of acceptance March 3rd, 2010 <br>Final paper due March 8th, =
-2010<br><br><br>Program Co-chairs:<br><br>Ebrahim Bagheri, National Researc=
-h Council Canada and Athabasca University<br>
-Marina Sokolova,=A0 CHEO Research Institute, University of Ottawa<br><br>=
-=A0 <br>
-
---001485f872a4cdcae20477e188b0--
-
---===============1959213215==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
+X-Validation-by: thierry.hamon@univ-paris13.fr
+Subject: [ln] Appel: Revue TAL, Multilinguisme et TAL
+Reply-To: ln@cines.fr, Thierry Hamon <thierry.hamon@univ-paris13.fr>
+X-Loop: ln@cines.fr
+X-Sequence: 335
+Errors-to: ln-owner@cines.fr
+Precedence: list
+Precedence: bulk
+X-no-archive: yes
+List-Id: <ln.cines.fr>
+List-Help: <mailto:sympa@cines.fr?subject=help>
+List-Subscribe: <mailto:sympa@cines.fr?subject=subscribe%20ln>
+List-Unsubscribe: <mailto:sympa@cines.fr?subject=unsubscribe%20ln>
+List-Post: <mailto:ln@cines.fr>
+List-Owner: <mailto:ln-request@cines.fr>
+List-Archive: <http://liste.cines.fr//arc/ln>
 
 
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+Date: Sun, 15 Nov 2009 19:54:37 +0100
+From: Emmanuel Morin <Emmanuel.Morin@univ-nantes.fr>
+Message-ID: <4B004E6D.7050801@univ-nantes.fr>
+X-url: http://www.atala.org/-Revue-TAL
+X-url: http://atala.org/Instructions-aux-auteurs-feuilles
 
---===============1959213215==--
+
+MULTILINGUISME ET TAL
+NUM=C9RO SP=C9CIAL DE LA REVUE TAL
+
+Date limite de soumission : 26 f=E9vrier 2010
+
+[English version of CFP below]
+
+R=C9DACTEURS EN CHEF INVIT=C9S :
+
+Emmanuel Morin (LINA, Universit=E9 de Nantes, France) et Holger Schwenk
+(LIUM, Universit=E9 du Maine, France)
+
+
+PREMIER APPEL :
+
+Depuis le dernier num=E9ro de la revue TAL sur cette th=E9matique, il y a
+maintenant dix ans, le multilinguisme s=92est impos=E9 comme une r=E9alit=
+=E9
+soci=E9tale incontournable notamment sur l'internet : alors que la
+langue anglaise dominait largement il y a dix ans, la repr=E9sentation
+du chinois, de l'hindi ou de l=92espagnol tend peu =E0 peu =E0 correspondre
+=E0 l'importance r=E9elle de ces langues. L'internet refl=E8te maintenant
+mieux la diversit=E9 des langues nationales et r=E9gionales. Logiquement,
+les applications informatiques d=E9velopp=E9es =96 que ce soit en
+traduction, en recherche d'information interlangue, en aide =E0 la
+communication =E9crite ou en apprentissage des langues... =96 doivent
+s'adapter =E0 cette r=E9alit=E9 en prenant en compte des langues de plus en
+plus diverses avec parfois une grande distance linguistique entre
+elles.
+
+L'objectif de ce num=E9ro sp=E9cial de la revue TAL
+(http://www.atala.org/-Revue-TAL) est de proposer une vue d'ensemble
+des recherches actuelles en multilinguisme pour le TAL.
+
+Les propositions de communications pourront notamment porter sur les=20
+th=E8mes suivants :
+
+- les techniques de fouille et d=92alignement de corpus multilingues ;
+
+o l=92alignement de segments parall=E8les =E0 partir de corpus comparables
+  ou parall=E8les ;
+
+o l=92extraction de lexiques multilingues =E0 partir de corpus
+  multilingues.
+
+- la construction de ressources multilingues et leur exploitation ;
+
+- l'utilisation de ressources monolingues dans des syst=E8mes
+  multilingues ;
+
+- la g=E9n=E9ricit=E9 des approches en analyse ou en traduction automatique=
+ ;
+
+- la constitution et l=92exploitation de typologies des langues.
+
+Et les domaines d=92applications pourront notamment concerner :
+- la traduction automatique ou semi-automatique ;
+- la recherche d=92information inter-langue ;
+- l'analyse et la g=E9n=E9ration multilingue ;
+- la cat=E9gorisation multilingue ;
+- l=92aide =E0 la communication =E9crite ou =E0 l=92apprentissage des langu=
+es.
+
+De mani=E8re transversale aux th=E8mes sugg=E9r=E9s, les articles proposant
+une r=E9flexion sur la g=E9n=E9ralisation de pratiques acquises pour un
+couple donn=E9 de langues (comme l=92anglais et le fran=E7ais) lors de la
+transposition des m=E9thodes =E0 des langues plus =E9loign=E9es seront
+appr=E9ci=E9s.
+
+MODALIT=C9S PRATIQUES :
+
+Les articles seront =E9crits en fran=E7ais ou en anglais. Les soumissions
+en anglais ne seront accept=E9es que pour les auteurs non
+francophones. Les articles (maximum 25 pages au format PDF) seront
+envoy=E9s aux deux adresses suivantes : emmanuel.morin@univ-nantes.fr et
+holger.schwenk@lium.univ-lemans.fr. Les feuilles de style sont
+disponibles en ligne sur le site de la revue =E0 l=92adresse suivante
+http://atala.org/Instructions-aux-auteurs-feuilles.
+
+CALENDRIER PR=C9VISIONNEL :
+
+- 19 f=E9vrier 2010 : Intention de soumission (r=E9sum=E9 d=E9taill=E9 d=92=
+une
+  page)
+- 26 f=E9vrier 2010 : Date limite de soumission
+- 07 mai 2010 : Premi=E8re notification aux auteurs
+- 07 juin 2010 : Version r=E9vis=E9e
+- 12 juillet 2010 : D=E9cision finale du comit=E9 de r=E9daction
+- 01 septembre 2010 : Version finale
+- fin 2010 : Publication
+
+COMIT=C9 DE LECTURE SP=C9CIFIQUE :
+
+- N=FAria Bel, Universitat Pompeu Fabra, Espagne
+- Laurent Besacier, LIG, Universit=E9 de Grenoble 1, France
+- Romaric Besan=E7on, CEA, France
+- Herv=E9 Blanchon, LIG, Universit=E9 de Grenoble 1, France
+- Nicola Cancedda, XRCE, France
+- Pascale Fung, Universit=E9 de Science et Technologie, Hong Kong
+- Pierre Isabelle, NRC-CNRC, Canada
+- Eric Gaussier, LIG, Universit=E9 de Grenoble 1, France
+- Gregory Grefenstette, Exalead, France
+- Kyo Kageura, Universit=E9 de Tokyo, Japon
+- Olivier Kraif, LIDILEM, Universit=E9 de Grenoble, France
+- Marie-Claude L'Homme, Universit=E9 de Montr=E9al, Canada
+- Aur=E9lien Max, LIMSI, Universit=E9 de Paris 11, France
+- Bruno Pouliquen, OMPI, ONU
+- Violaine Prince, LIRMM, Universit=E9 de Montpellier, France
+- Aarne Ranta , Universit=E9 de Gothenburg, Su=E8de
+- Jean Senellart, Systran, France
+- Michel Simard, NRC-CNRC, Canada
+- Monique Slodzian, INALCO, France
+- Kamel Sma=EFli, LORIA, Universit=E9 de Nancy, France
+- Eric Wehrli, LATL, Universit=E9 de Gen=E8ve, Suisse
+
+(et peut-=EAtre quelques autres...)
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D
+MULTILINGUALISM AND NLP
+SPECIAL ISSUE OF THE TAL JOURNAL
+
+Deadline for submission: 26 February 2010
+
+GUEST EDITORS:
+
+Emmanuel Morin (LINA, Universit=E9 de Nantes, France) and Holger Schwenk
+(LIUM, Universit=E9 du Maine, France)
+
+
+FIRST CALL FOR PAPERS:
+
+It has now been ten years since the last issue of the TAL journal on
+the subject of multilingualism and this topic has become a reality
+that cannot be ignored, in particular on the Internet. While the
+English language largely dominated a decade ago, the representation of
+Chinese, Hindi or Spanish is tending to reveal the real importance of
+these languages. Today, the Internet better reflects the diversity of
+national and regional languages. Logically, the computer applications
+that are developed =96 either in machine translation, in cross-language
+information retrieval, in computer-assisted writing or language
+learning... =96 must illustrate this reality by taking account of more
+and more diverse languages, sometimes with great linguistic
+differences between them.
+
+This special issue of the TAL journal
+(http://www.atala.org/-Revue-TAL) aims at giving an overall picture of
+NLP research on multilingualism.
+
+The following topics (this is a non-exhaustive list) will be
+considered:
+
+- Mining and alignment from multilingual corpora ;
+
+o Extraction of parallel segments from comparable corpora;
+
+o Extraction of multilingual lexicon from multilingual corpora.
+
+- Building and using multilingual resources;
+- Using monolingual resources in multilingual systems;
+- Generalization of the approaches in analysis or in machine
+  translation;
+- Building and using language typologies.
+
+Fields of application could include:
+- Automatic or semi-automatic translation methods;
+- Cross-language information retrieval;
+- Multilingual analysis and generation;
+- Multilingual document categorization;
+- Computer-assisted writing or language learning.
+
+In addition to the suggested topics, the papers that reflect on the
+generalization of practices acquired for a given pair of languages
+(such as English and French) when transposing methods to unrelated
+languages will be appreciated.
+
+GUEST EDITORS:
+
+Emmanuel Morin, LINA, Universit=E9 de Nantes, France
+Holger Schwenk, LIUM, Universit=E9 du Maine, France
+
+PRACTICAL ISSUES:
+
+Manuscripts may be submitted in English or French. French-speaking
+authors are requested to submit in French. Contributions (25 pages
+maximum, PDF format) must be sent by e-mail to both editors at the
+addresses below: emmanuel.morin@univ-nantes.fr and
+holger.schwenk@lium.univ-lemans.fr. Style sheets are available on the
+journal website: http://atala.org/Instructions-aux-auteurs-feuilles.
+
+IMPORTANT DATES:
+
+- 19 February 2010: Statement of intent to submit (detailed summary, 1
+  page)
+- 26 February 2010: Submission deadline
+- 07 May 2010: First decision of the editorial board
+- 07 June 2010: Revised version of the accepted papers
+- 12 July 2010: Final decision of the editorial board
+- 01 September 2010: Final version of the accepted papers
+- end of 2010: Publication
+
+SPECIFIC EDITORIAL BOARD:
+
+- N=FAria Bel, Universitat Pompeu Fabra, Spain
+- Laurent Besacier, LIG, Universit=E9 de Grenoble 1, France
+- Romaric Besan=E7on, CEA, France
+- Herv=E9 Blanchon, LIG, Universit=E9 de Grenoble 1, France
+- Nicola Cancedda, XRCE, France
+- Pascale Fung, University of Science and Technology, Hong Kong
+- Pierre Isabelle, NRC-CNRC, Canada
+- Eric Gaussier, LIG, Universit=E9 de Grenoble 1, France
+- Gregory Grefenstette, Exalead, France
+- Kyo Kageura, University of Tokyo, Japan
+- Olivier Kraif, LIDILEM, Universit=E9 de Grenoble, France
+- Marie-Claude L'Homme, Universit=E9 de Montr=E9al, Canada
+- Aur=E9lien Max, LIMSI, Universit=E9 de Paris 11, France
+- Bruno Pouliquen, WIPO, NU
+- Violaine Prince, LIRMM, Universit=E9 de Montpellier, France
+- Aarne Ranta, University of Gothenburg, Sweden
+- Jean Senellart, Systran, France
+- Michel Simard, NRC-CNRC, Canada
+- Monique Slodzian, INALCO, France
+- Kamel Sma=EFli, LORIA, Universit=E9 de Nancy, France
+- Eric Wehrli, LATL, Universit=E9 de Gen=E8ve, Switzerland
+
+(and maybe a few others...)
+
+-------------------------------------------------------------------------
+Message diffuse par la liste Langage Naturel <LN@cines.fr>
+Informations, abonnement : http://www.atala.org/article.php3?id_article=3D48
+English version       :=20
+Archives                 : http://listserv.linguistlist.org/archives/ln.html
+                                http://liste.cines.fr/info/ln
+
+La liste LN est parrainee par l'ATALA (Association pour le Traitement
+Automatique des Langues)
+Information et adhesion  : http://www.atala.org/
+-------------------------------------------------------------------------
+
+
+
+

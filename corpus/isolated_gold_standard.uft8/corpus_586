@@ -1,514 +1,234 @@
-From - Thu Dec 10 14:23:41 2009
+From - Thu Dec 10 14:23:54 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 54df450ee154c7ad19899537199f891c8112098e
+X-Gmail-Received: f25d9d9a47bb89076c999d4df5370b19ff9a75e7
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs160958pyi;
-        Tue, 1 Aug 2006 05:09:07 -0700 (PDT)
-Received: by 10.35.57.5 with SMTP id j5mr5604687pyk;
-        Tue, 01 Aug 2006 05:09:07 -0700 (PDT)
-Return-Path: <hcsnete@srv05.ezyreg.com>
+Received: by 10.35.126.10 with SMTP id d10cs492291pyn;
+        Fri, 25 Aug 2006 12:00:25 -0700 (PDT)
+Received: by 10.35.60.15 with SMTP id n15mr5624359pyk;
+        Fri, 25 Aug 2006 12:00:24 -0700 (PDT)
+Return-Path: <rasmusse@research.rutgers.edu>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id b43si390541pyb.2006.08.01.05.09.04;
-        Tue, 01 Aug 2006 05:09:07 -0700 (PDT)
-Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of hcsnete@srv05.ezyreg.com)
+        by mx.gmail.com with ESMTP id w25si3238760pyw.2006.08.25.12.00.22;
+        Fri, 25 Aug 2006 12:00:24 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k71C92Ul005240
-	for <jpprost@gmail.com>; Tue, 1 Aug 2006 22:09:03 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7PJ0LFf004061;
+	Sat, 26 Aug 2006 05:00:21 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080122090225517
- for <jpprost@gmail.com>; Tue, 01 Aug 2006 22:09:02 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082605002027112
+ ; Sat, 26 Aug 2006 05:00:20 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k71C8bBX005206
-	for <jpprost@gmail.com>; Tue, 1 Aug 2006 22:08:58 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7PJ0F3f004055;
+	Sat, 26 Aug 2006 05:00:15 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k71C8I1K026321
-	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
-	for <jpprost@vesuvius.ics.mq.edu.au>; Tue, 1 Aug 2006 22:08:19 +1000 (EST)
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7PJ0EQU013492
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Sat, 26 Aug 2006 05:00:14 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k71C8IAO005169
-	for <jpprost@vesuvius.ics.mq.edu.au>; Tue, 1 Aug 2006 22:08:18 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7PJ0DUo004051;
+	Sat, 26 Aug 2006 05:00:13 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080122081825501
- for <jpprost@vesuvius.ics.mq.edu.au>; Tue, 01 Aug 2006 22:08:18 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082605001327111
+ ; Sat, 26 Aug 2006 05:00:13 +1000
 Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k71C6jcS005097
-	for <jpprost@ics.mq.edu.au>; Tue, 1 Aug 2006 22:06:45 +1000 (EST)
-Received: from srv05.ezyreg.com (srv05.ezyreg.com [67.15.88.10])
-	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k71C6fq14712
-	for <jpprost@ics.mq.edu.au>; Tue, 1 Aug 2006 22:06:41 +1000 (EST)
-Received: from hcsnete by srv05.ezyreg.com with local (Exim 4.52)
-	id 1G7t0t-0004qH-2i
-	for jpprost@ics.mq.edu.au; Tue, 01 Aug 2006 07:06:19 -0500
-To: jpprost@ics.mq.edu.au
-Subject: [HCSNet] HCSNet Update Newsletter Volume 2 Number 29
-MIME-Version: 1.0
-Content-Type: multipart/alternative; boundary="----=_Part_8a38a5ae98141cbbc7e0d9fa8f63e008"
-MIME-Version: 1.0
-From: HCSNet <newsletter@hcsnet.edu.au>
-Reply-To: newsletter@hcsnet.edu.au
-Message-Id: <E1G7t0t-0004qH-2i@srv05.ezyreg.com>
-Date: Tue, 01 Aug 2006 07:06:19 -0500
-X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
-X-AntiAbuse: Primary Hostname - srv05.ezyreg.com
-X-AntiAbuse: Original Domain - ics.mq.edu.au
-X-AntiAbuse: Originator/Caller UID/GID - [32357 859] / [47 12]
-X-AntiAbuse: Sender Address Domain - srv05.ezyreg.com
-X-Source: 
-X-Source-Args: 
-X-Source-Dir: 
-
-
-
-
-------=_Part_8a38a5ae98141cbbc7e0d9fa8f63e008
-Content-Type: text/plain; charset=ISO-8859-1
-Content-Disposition: inline
-Content-Transfer-Encoding: quoted-printable
-
-This week's HCSNet Update Newsletter is available for viewing at:
-http://www.hcsnet.edu.au/newsletter/2006-08-01
-
-HCSNet Update is a weekly electronic publication of HCSNet, the ARC Research
-Network in Human Communication Science, and is emailed to all Network
-participants. If you have received this newsletter by some other means, or
-you'd like to find out more about HCSNet, visit our website at
-www.hcsnet.edu.au. For enquiries about this newsletter, please email
-newsletter@hcsnet.edu.au.
-
-------=_Part_8a38a5ae98141cbbc7e0d9fa8f63e008
-Content-Type: text/html; charset=UTF-8
-Content-Disposition: inline
-Content-Transfer-Encoding: quoted-printable
-X-MIME-Autoconverted: from 8bit to quoted-printable by vacuum.ics.mq.edu.au id k71C6jcS005097
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.o=
-rg/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
-<head>
-<title>HCSNet Update</title>
-<meta http-equiv=3D"Content-type" content=3D"text/html;charset=3DUTF-8" /=
->
-<style type=3D"text/css">
-#newsletter {
-	font-family: Lucida Grande, Geneva, Verdana, Arial, Helvetica, sans-seri=
-f; !important
-	line-height:15px;
-}
-
-#newsletter #divbody {
-	width: 638px;
-	border: solid 1px #133b3b;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#newsletter .line {
-	border-bottom: solid 1px #133b3b;
-	padding-bottom: 2pt;
-}
-
-
-#newsletter #masthead {
-	width: 638px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-#newsletter #masthead h1 {
-	font-size: 14pt;
-	font-weight: 900;
-	text-align: center;
-	color: #133b3b;
-	padding-top: 2px;
-	padding-bottom: 2pt;
-	margin-bottom: 2pt;
-}
-
-#newsletter #masthead h2 {
-	margin-top: 0;
-	padding-top: 0;
-	font-size: 8pt;
-	text-align: center;
-	color: #133b3b;
-}
-
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7PJ03hC004047;
+	Sat, 26 Aug 2006 05:00:03 +1000 (EST)
+Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k7PIxxd22504;
+	Sat, 26 Aug 2006 05:00:00 +1000 (EST)
+Received: (from rasmusse@localhost)
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k7PHg4o18943;
+	Fri, 25 Aug 2006 13:42:04 -0400 (EDT)
+Date: Fri, 25 Aug 2006 13:42:03 EDT
+From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
+To: rasmusse@cs.rutgers.edu
+Subject: Czech Republic: Treebanks and Linguistic Theories 2006, the 5th
+        International Workshop -- 3rd and FINAL CFP
+Message-ID: <CMM-RU.1.5.1156527723.rasmusse@research.rutgers.edu>
+
+
+             TREEBANKS AND LINGUISTIC THEORIES 2006
+                  5th International Workshop
+
+           Prague, Czech Republic, December 1-2, 2006
+
+                    http://www.tlt2006.org
+
+                  3rd [FINAL] CALL FOR PAPERS
+
+
+This the FINAL CALL for paper submission to the Treebanks and
+Linguistic Theories '06 conference. We remind you there is about two
+weeks remaining to polish and send off your submission!
+
+The Guidelines for paper submission are available at
+http://www.tlt2006.org, link "Instructions for Authors" (or directly
+at http://ufal.mff.cuni.cz/tlt2006/auth.html). The deadline for
+submitting your papers is Sept. 8, 2006, as previously announced.
+
+*******************************************************************
+*******************************************************************
+
+Workshop motivation and aims 
+----------------------------
+
+Treebanks are a language resource that provides annotations of natural
+languages at various levels of structure: at the word level, the
+phrase level, the sentence level, and sometimes also at the level of
+function-argument structure. Treebanks have become crucially important
+for the development of data-driven approaches to natural language
+processing, human language technologies, grammar extraction and
+linguistic research in general. There are a number of on-going
+projects on compilation of representative treebanks for languages that
+still lack them (Bulgarian, Catalan, Danish, Portugese, Spanish,
+Turkish) and a number of on-going projects on compilation of treebanks
+for specific purposes for languages that already have them
+(English). In addition, there are projects that go beyond syntactic
+analysis to include different kinds of semantic and pragmatic
+annotation. We specifically encourage submissions that discuss the
+relations and links between, and possibly merging of, various aspects
+of morphological, syntactic, semantic, and contents/pragmatic
+annotation; also, submissions describing work on parallel treebanks
+and/or cross-language annotation schemas, theories and applications
+are more than encouraged as well.
+
+The practices of building syntactically processed corpora have proved
+that aiming at more detailed description of the data becomes more and
+more theory-dependent (Prague Dependency Treebank and other
+dependency-based treebanks such as the Danish dependency treebank, the
+Italian treebank (TUT), and the Turkish treebank (METU); Verbmobil
+HPSG Treebanks, Polish HPSG Treebank, Bulgarian HPSG-based Treebank,
+etc.). Therefore the development of treebanks and formal linguistic
+theories need to be more tightly connected in order to ensure the
+necessary information flow between them.
+
+This series of workshops aims at being a forum for researchers and
+advanced students working in these areas. The fifth workshop will be
+held in Prague, Czech Republic, 1-2 December 2006, with a number of
+co-located events surrounding it (for more information see
+www.tlt2006.org). (The first TLT workshop was held in Sozopol,
+Bulgaria in
+September 2002; see http://www.bultreebank.org/Proceedings.html), the
+second one in Vaxjo, Sweden in November 2003
+(http://w3.msi.vxu.se/~rics/TLT2003/, the third one in Tuebingen,
+Germany in December 2004 (http://www.sfs.uni-tuebingen.de/tlt04/) and
+the fourth workshop was held in Barcelona, Spain, 9-10 December
+2005 (http://clic.fil.ub.es/personal/civit/tlt05cfp.html).
+
+Topics of interest 
+------------------
+
+We invite submission of papers on topics relevant to treebanks and
+linguistic theories, including but not limited to:
+
+- design principles and annotation schemes for treebanks; 
+- applications of treebanks in acquiring linguistic knowledge and in
+- NLP;
+- the role of linguistic theories in treebank development; 
+- treebanks as a basis for linguistic research; 
+- semantically annotated treebanks; 
+- evaluation and quality control of treebanks; 
+- tools for creation and management of treebanks; 
+- standards for treebanks.  
+
+Important dates 
+---------------
+
+(Always midnight, UTC, ignoring DST)
+
+Deadline for paper submission:                    September 8, 2006
+
+Notification of acceptance:                       October 8, 2006
+Final version of paper for workshop proceedings:  October 29, 2006
+Workshop:                                         December 1-2, 2006
+
+Submission
+----------
+
+Please note that this time, we require full papers (max. length: 12
+pages A4) be submitted, describing existing research related to the
+topics of the workshop. Please see
+http://ufal.mff.cuni.cz/tlt2006/auth.html for complete information
+where, when, and how to submit.
+
+Presentation
+------------
+
+The presentation at the workshop will be 25 minutes long (20 minutes
+for presentation and 5 minutes for questions and discussion). The
+final version of the accepted papers may not exceed 12 A4 pages
+(which will be printed on B5 without any reduction).
+
+Invited speakers
+----------------
+
+Martha Palmer, Professor at University of Colorado at Boulder
+(http://verbs.colorado.edu/mpalmer/palmer/):
+SemLink - Combining PropBank, VerbNet and FrameNet
+
+Gosse Bouma, Professor at University of Groningen
+(http://www.let.rug.nl/~gosse/):
+(tentative: Creating and Exploring Large Treebanks)
+
+Program committee 
+-----------------
+
+Jan Hajic, Czech Republic (co-chair)
+Joakim Nivre, Sweden (co-chair)
+
+Members of the PC:
+
+Emily Bender, USA 
+Thorsten Brants, USA 
+Koenraad de Smedt, Norway
+Tomaz Erjavec, Slovenia
+Joseph van Genabith, Ireland
+Eva Hajicova, Czech Republic
+Jiri Hana, USA
+Erhard Hinrichs, Germany 
+Timo Jaervinen, Finalnd 
+Kimmo Koskenniemi, Finland 
+Tony Kroch, USA
+Sandra Kuebler, Germany 
+Yuji Matsumoto, Japan
+Detmar Meurers, USA 
+John Nerbonne, The Netherlands 
+Grace Ngai, Hong Kong
+Karel Oliva, Czech Republic
+Stephan Oepen, Norway/USA 
+Petya Osenova, Bulgaria
+Ferran Pla, Spain
+Horacio Rodriguez, Spain
+Kiril Simov, Bulgaria
+Otakar Smrz, Czech Republic
+Barbora Vidova-Hladka, Czech Republic
+Martin Volk, Sweden 
+Daniel Zeman, USA 
+
+Local Organizers
+----------------
+
+Jan Hajic
+Anna Kotesovcova
+
+Institute of Formal and Applied Linguistics, http://ufal.mff.cuni.cz
+School of Computer Science, Faculty of Mathematics and Physics
+Charles University, Prague
+Czech Republic
+email: info@tlt2006.org
+
+Venue
+-----
+
+School of Computer Science, MFF UK
+Malostranske nam. 25
+CZ-11800 Prague 1
+Czech Republic
+
+Sponsoring organisations 
+------------------------
+
+Charles University, Prague
 
-#newsletter #masthead #tagline {
-	border-top: solid 1px #133b3b;
-	border-bottom: solid 1px #133b3b;
-	font-size: 8pt;
-}
-
-#newsletter #masthead #tagline #left {
-	float: left;
-	width: 180px;
-	color: #222222;
-	padding-left: 10px;
-}
-
-#newsletter #masthead #tagline  #middle {
-	width: 180px;
-	color: #222222;
-	text-align: center;
-	margin: 0 219px;
-}
-
-#newsletter #masthead #tagline #middle a {
-	text-decoration: none;
-	color: #222222;
-}
-
-#newsletter #masthead #tagline  #right {
-	float: right;
-	width: 180px;
-	text-align: right;
-	color: #222222;
-	padding-right: 10px;
-}
-
-#newsletter #content {
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 618px;=09
-	font-size:9pt;=20
-	color: #222222
-}
-
-
-#newsletter #content h1 {
-	font-size: 11pt;
-	font-weight: bold;
-	color: #133b3b;
-}
-
-#newsletter #content h2 {
-	margin-top: 1em;
-	padding-top: 1em;
-	border-top: solid 1pt #133b3b;
-	font-weight: bold;
-	font-size: 11pt;
-	color: #133b3b;
-}
-
-#newsletter #content h3 {
-	font-size: 10pt;
-	font-weight: bold;
-	color: #111111;
-}
-
-#newsletter #content h4 {
-	font-size: 9pt;
-	font-weight: bold;
-}
-
-
-#newsletter #spotlight img {
-	float: left;
-	width: 80px;
-	margin: 0px 10px 10px 10px;
-	border: 1px #000000
-}
-
-#newsletter #spotlight h2 {
-	border-top: none;
-}
-
-
-#newsletter #content #index {
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-bottom: 10px;
-	margin-right: 5px;
-	width: 180px;
-	float: right;
-	border: solid 1px #133b3b;=20
-	font-size: 8pt;
-	background-color: #F0F0F0;
-}
-
-#newsletter #content #index h1 {
-	border: none;
-	font-size: 9pt;
-	font-weight: bold;
-	padding-left: 8px;
-	line-height: 10pt;
-}
-
-#newsletter #content #index ul {
-	list-style-type: none;
-	/*padding-left: 25px;*/
-	margin-top: 0px;
-	margin-left: 1.5em;=20
-	padding-left: 0;}  =20
-
-}
-
-#newsletter #content #index a {
-	font-size: 8pt;
-	/*text-decoration: none;*/
-	color: #133b3b;
-}
-
-#newsletter #content #index li {
-}
-
-#newsletter #spotlight .contact {
-	color: #133b3b;
-	font-size: 8pt;
-}
-
-#newsletter #upcoming {
-	color: #000000;
-	font-size: 9pt;=09
-}
-
-#newsletter #upcoming .event {
-	padding-bottom: 10pt;
-}
-
-#newsletter #upcoming h3 {
-	font-size: 9pt;
-	font-weight: bold;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
-#newsletter #endmatter {
-	font-size: 7pt;
-	margin: 5px;
-	padding: 5px;
-	border: solid 1px #133b3b;
-	background-color: #F0F0F0;
-
-	/*
-	border: solid 1pt #133b3b;
-	padding: 5px;
-	*/
-}
-
-</style>
-</head>
-<body>
-<div id=3D"newsletter">
-<div id=3D"divbody">
-<div id=3D"masthead">
-<img src=3D"http://www.hcsnet.edu.au/files2/banner3.jpg" width=3D"638" he=
-ight=3D"70" align=3D"center" />
-<div id=3D"tagline"><div id=3D"left">Tuesday 1 August 2006</div><div id=3D=
-"right">Vol. 2, No. 29</div><div id=3D"middle"><a href=3D"http://www.hcsn=
-et.edu.au">www.hcsnet.edu.au</a></div></div></div>
-<div id=3D"content">
-<div id=3D"index">
-<h1>In this issue</h1>
-<ul>
-<li><a href=3D"#spotlight">Spotlight: Gillian Wigglesworth</a></li>
-<li><a href=3D"#news">News</a></li>
-<li><a href=3D"#deadlines">Submission deadlines</a></li>
-<li><a href=3D"#conferences">Conferences</a></li>
-</ul>
-</div>
-<div id=3D"spotlight">
-<a name=3D"spotlight"></a><h2>Participant Spotlight</h2><h3>Gillian Wiggl=
-esworth, Univeristy of Melbourne</h3>
-<img src=3D"http://www.hcsnet.edu.au/files2/pictures/picture-254.jpg" />
-<h4>Research area: Linguistics - Language Development</h4>
-<p>Gillian Wigglesworth has a wide range of research interests which broa=
-dly include both first and second language acquisition, language testing =
-and assessment, and bilingualism. With Dr. Jane Simpson from the Universi=
-ty of Sydney, she is currently working on a large scale ARC funded resear=
-ch project entitled =E2=80=9CHow mixed language input affects child langu=
-age development: case studies from Central Australia=E2=80=9D.  In this p=
-roject, the language input to children is being examined in three Indigen=
-ous communities.  This study is investigating the complex language input =
-situation Indigenous children encounter, and its effect on the children=E2=
-=80=99s language acquisition.   She is also working on two studies relate=
-d to second language acquisition.  The first, also ARC funded, is investi=
-gating the efficacy of different types of feedback to second language lea=
-rners, working either in pairs or individually, on their writing.  The ot=
-her focuses on the differences between the complex reques!
- ts made by native speakers and non native speakers, focussing on the use=
- of mitigation. She has several edited book publications, and numerous jo=
-urnal articles and book chapters reflecting her research interests.</p>
-<div class=3D"contact">
-<b>Contact:</b><br>
-Gillian Wigglesworth<br>
-Univeristy of Melbourne<br>
-Linguistics and Applied Lingusitics<br>
-email: <a href=3D"mailto:gillianw@unimelb.edu.au">gillianw@unimelb.edu.au=
-</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;www: <a href=3D"http://www.linguistics.=
-unimelb.edu.au/about/staff/profiles/wigglesworth/">www.linguistics.unimel=
-b.edu.au/about/staff/profiles/wigglesworth/</a><br>
-</div>
-</div>
-<div style=3D"clear:both" /><div class=3D"news">
-<a name=3D"news"></a><h2>News</h2>
-<h3>HCSNet Sub-Discipline Summaries</h3>
-
-<p>Over the past few months, a number of graduate student members of HCSN=
-et have written brief overviews of the 29 sub-disciplines that comprise H=
-CSNet. These sub-discipline summaries now populate the Disciplines page o=
-f the HCSNet website: <a href=3D"http://www.hcsnet.edu.au/about/disciplin=
-es">http://www.hcsnet.edu.au/about/disciplines</a>.
-=20
-<p>Student authors received a small payment for the writing task and many=
- have indicated that it was a useful and enjoyable exercise. Our thanks t=
-o the 27 student authors and to their supervisors for their help with thi=
-s initiative.</p>
-
-
-<h3>HCSNet International Visiting Speaker Seminar</h3>
-
-<p>Bonnie Webber (University of Edinburgh), an HCSNet International Visit=
-ing
-Speaker, will present the third of her seminars on this visit at Macquari=
-e
-University's Department of Computing on Friday 4 August 2006 from 3-4pm
-Entitled 'Lexicalised Discourse Grammar, Robust Corpus Annotation and Fut=
-ure
-Language Technology', the seminar will take place in room E7B100. See
-<a href=3D"http://www.hcsnet.edu.au/hcsnetevents">http://www.hcsnet.edu.a=
-u/hcsnetevents</a> for more information.=20
-</div>
-<div id=3D"upcoming">
-<a name=3D"deadlines"></a><h2>Upcoming Submission Deadlines</h2>
-<p><p>We list here upcoming submission deadlines that fall in the next mo=
-nth.  A more complete list of submission deadlines can be found <a href=3D=
-"http://www.hcsnet.edu.au/event/list/call_for_papers">here</a>. Please no=
-te that any enquiries regarding these events should be directed to the ev=
-ent organisers, typically identified on the event's website which you can=
- reach from the link below.
-
-<div class=3D"event">
-<h3>Evolution workshop, DGfS   The Role of Variation in Language Evolutio=
-n</h3>
-Siegen, Germany<br>
-Due date: 6 Aug 2006<br>
-
-URL: <A HREF=3D"http://wwwhomes.uni-bielefeld.de/gjaeger/dgfs2007/cfp.htm=
-l">http://wwwhomes.uni-bielefeld.de/gjaeger/dgfs2007/cfp.html</A>
-</div>
-
-<div class=3D"event">
-<h3>SMAP 2006  1st International Workshop on Semantic Media Adaptation an=
-d Personalization</h3>
-Athens, Greece<br>
-Due date: 7 Aug 2006<br>
-
-URL: <A HREF=3D"http://image.ntua.gr/events/smap">http://image.ntua.gr/ev=
-ents/smap</A>
-</div>
-
-<div class=3D"event">
-<h3>WEB CONTENT MINING WITH HUMAN LANGUAGE TECHNOLOGIES</h3>
-Athens, GA, United States<br>
-Due date: 8 Aug 2006<br>
-
-URL: <A HREF=3D"http://iswc2006.semanticweb.org/">http://iswc2006.semanti=
-cweb.org/</A>
-</div>
-
-<div class=3D"event">
-<h3>IUI 2007  International Conference on Intelligent User Interfaces</h3=
->
-Hawaii, United States<br>
-Due date: 14 Aug 2006<br>
-
-URL: <A HREF=3D"http://iuiconf.org">http://iuiconf.org</A>
-</div>
-
-<div class=3D"event">
-<h3>LPSS 2006  International Symposium on Linguistic Patterns in Spontane=
-ous Speech</h3>
-Taipei, Taiwan<br>
-Due date: 14 Aug 2006<br>
-
-URL: <A HREF=3D"http://www.lpss.sinica.edu.tw">http://www.lpss.sinica.edu=
-.tw</A>
-</div>
-
-<div class=3D"event">
-<h3>Standard Prosody or Prosody of Linguistic Standards? Prosodic Variati=
-on and Grammar Writing</h3>
-Siegen, Germany<br>
-Due date: 15 Aug 2006<br>
-
-URL: <A HREF=3D"http://www.let.ru.nl/gep/jp/dgfs2007/main.html">http://ww=
-w.let.ru.nl/gep/jp/dgfs2007/main.html</A>
-</div>
-
-<div class=3D"event">
-<h3>IWCS-7  Seventh International Workshop on COMPUTATIONAL SEMANTICS</h3=
->
-Tilburg, Netherlands<br>
-Due date: 25 Aug 2006<br>
-
-URL: <A HREF=3D"http://let.uvt.nl/research/ti/sigsem/iwcs/iwcs7">http://l=
-et.uvt.nl/research/ti/sigsem/iwcs/iwcs7</A>
-</div>
-
-<div class=3D"event">
-<h3>ALTW  AUSTRALASIAN LANGUAGE TECHNOLOGY WORKSHOP</h3>
-Sydney, Australia<br>
-Due date: 30 Aug 2006<br>
-
-URL: <A HREF=3D"http://www.alta.asn.au/events/altw2006/">http://www.alta.=
-asn.au/events/altw2006/</A>
-</div>
-
-<a name=3D"conferences"></a><h2>Upcoming Conferences</h2>
-<p><p>We list here upcoming conferences and workshops that fall in the ne=
-xt month.  A more complete list of events can be found <a href=3D"http://=
-www.hcsnet.edu.au/event/list/upcoming_conference">here</a>. Please note t=
-hat any enquiries regarding these events should be directed to the event =
-organisers, typically identified on the event's website which you can rea=
-ch from the link below.
-
-<div class=3D"event">
-<h3>AMTA 2006  7th Biennial Conference Association for Machine Translatio=
-n in the Americas</h3>
-Cambridge, United States<br>
-Date: 8 Aug 2006<br>
- to 12 Aug 2006
-URL: <A HREF=3D"http://amta2006.amtaweb.org/ ">http://amta2006.amtaweb.or=
-g/ </A>
-</div>
-
-<div class=3D"event">
-<h3>AIRWeb 2006  Second International Workshop on Adversarial Information=
- Retrieval on the Web</h3>
-Seattle, Washington, United States<br>
-Date: 10 Aug 2006<br>
-
-URL: <A HREF=3D"http://airweb.cse.lehigh.edu/">http://airweb.cse.lehigh.e=
-du/</A>
-</div>
-
-<div class=3D"event">
-<h3>Structure and Context</h3>
-Turku, Finland<br>
-Date: 21 Aug 2006<br>
- to 22 Aug 2006
-URL: <A HREF=3D"http://www.ling.helsinki.fi/sky/tapahtumat/context/contex=
-t.shtml">http://www.ling.helsinki.fi/sky/tapahtumat/context/context.shtml=
-</A>
-</div>
-
-</div>
-
-<div id=3D"endmatter">HCSNet Update is a weekly electronic publication of=
- HCSNet, the ARC Research Network in Human Communication Science, and is =
-emailed to all Network participants. If you have received this newsletter=
- by some other means, or you'd like to find out more about HCSNet, visit =
-our website at <a href=3D"http://www.hcsnet.edu.au">www.hcsnet.edu.au</a>=
-. For enquiries about this newsletter, please email <a href=3D"mailto:new=
-sletter@hcsnet.edu.au">newsletter@hcsnet.edu.au</a>.</div>
-</div>
-</div>
-</div>
-</body>
-</html>
-
-
-------=_Part_8a38a5ae98141cbbc7e0d9fa8f63e008--
 

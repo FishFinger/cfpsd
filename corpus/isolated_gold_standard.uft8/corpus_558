@@ -1,158 +1,186 @@
-From - Thu Dec 10 14:23:39 2009
+From - Thu Dec 10 14:23:49 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: c663b36935e16d5080b6c9d908b1db2dad913862
+X-Gmail-Received: 834231184406e73312136695200b889dab2e738d
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs47991pyi;
-        Tue, 18 Jul 2006 03:45:23 -0700 (PDT)
-Received: by 10.67.93.7 with SMTP id v7mr3498758ugl;
-        Tue, 18 Jul 2006 03:45:22 -0700 (PDT)
-Return-Path: <owner-corpora@lists.uib.no>
-Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
-        by mx.gmail.com with ESMTP id q40si1413313ugc.2006.07.18.03.45.21;
-        Tue, 18 Jul 2006 03:45:22 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
-Received: from blenda.uib.no [129.177.30.130] 
-	by noralf.uib.no  with esmtp  (Exim 4.34)
-	id 1G2n4p-0006BP-UB; Tue, 18 Jul 2006 12:45:20 +0200
-Received: from majordomo by blenda.uib.no with local (Exim 4.60)
-	id 1G2nIK-000N0m-GO; Tue, 18 Jul 2006 12:59:16 +0200
-Received: from rolf.uib.no [129.177.30.19] 
-	by blenda.uib.no with esmtp (Exim 4.60)
-	id 1G2nH2-000N0b-BE; Tue, 18 Jul 2006 12:57:56 +0200
-Received: from smtps.di.fc.ul.pt (smtps2.di.fc.ul.pt) [194.117.22.93] 
-	by rolf.uib.no for CORPORA@hd.UIB.NO with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
-	id 1G2n3K-0006B0-E4; Tue, 18 Jul 2006 12:43:48 +0200
-Received: from [194.117.21.15] (di-ahb.di.fc.ul.pt [194.117.21.15])
-	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
-	(No client certificate requested)
-	by smtps2.di.fc.ul.pt (Postfix) with ESMTP id ECE771B83E6;
-	Tue, 18 Jul 2006 11:23:03 +0100 (WEST)
-Message-ID: <44BCB6EC.50009@di.fc.ul.pt>
-Date: Tue, 18 Jul 2006 11:24:44 +0100
-From: Antonio Branco <Antonio.Branco@di.fc.ul.pt>
-Reply-To: Antonio.Branco@di.fc.ul.pt
-Organization: University of Lisbon
-User-Agent: Mozilla Thunderbird 1.0.2 (Windows/20050317)
-X-Accept-Language: en-us, en
-MIME-Version: 1.0
-To: CORPORA@hd.UIB.NO
-Subject: [Corpora-List] 2nd Cfp : The 6th Discourse Anaphora and Anaphor Resolution Colloquium
- (DAARC'2007)
-Content-Type: text/plain; charset=windows-1252; format=flowed
-Content-Transfer-Encoding: 8bit
-X-checked-clean: by exiscan on rolf
-X-Scanner: 470d90ef07f27798f428e6778c5b3e52 http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-List-Id: <corpora@uib.no>
-Sender: owner-corpora@lists.uib.no
-Precedence: bulk
+Received: by 10.35.11.2 with SMTP id o2cs383542pyi;
+        Sat, 12 Aug 2006 14:07:34 -0700 (PDT)
+Received: by 10.35.98.6 with SMTP id a6mr9308064pym;
+        Sat, 12 Aug 2006 14:07:34 -0700 (PDT)
+Return-Path: <rasmusse@research.rutgers.edu>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id 12si3197632nzn.2006.08.12.14.07.32;
+        Sat, 12 Aug 2006 14:07:34 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7CL7Upt002354;
+	Sun, 13 Aug 2006 07:07:30 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006081307073022252
+ ; Sun, 13 Aug 2006 07:07:30 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7CL7OI6002330;
+	Sun, 13 Aug 2006 07:07:25 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7CL7Kar008342
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Sun, 13 Aug 2006 07:07:21 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7CL7J6w002315;
+	Sun, 13 Aug 2006 07:07:20 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006081307070722248
+ ; Sun, 13 Aug 2006 07:07:07 +1000
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7CL5J9T002189;
+	Sun, 13 Aug 2006 07:06:02 +1000 (EST)
+Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k7CL5FB23876;
+	Sun, 13 Aug 2006 07:05:15 +1000 (EST)
+Received: (from rasmusse@localhost)
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k7CIunc10293;
+	Sat, 12 Aug 2006 14:56:49 -0400 (EDT)
+Date: Sat, 12 Aug 2006 14:56:48 EDT
+From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
+To: rasmusse@cs.rutgers.edu
+Subject: Rochester, NY: NAACL HLT 2007 Preliminary Call for Papers
+Message-ID: <CMM-RU.1.5.1155409008.rasmusse@research.rutgers.edu>
 
 
-                     SECOND CALL FOR PAPERS
+               **** NAACL HLT 2007 Preliminary Call for Papers ****
 
-                 The 6th Discourse Anaphora and
-                 Anaphor Resolution Colloquium
-                          (DAARC'2007)
+                      Human Language Technologies: 
+             The Conference of the North American Chapter of 
+             the Association for Computational Linguistics 
 
-                    Lagos (Algarve), Portugal
-       hosted by University of Lisbon, Faculty of Sciences
-                      March 29 - 30, 2007
+                 April 22-28, 2007, Rochester, New York 
 
-                 http://daarc2007.di.fc.ul.pt/
+             http://www.cs.rochester.edu/meetings/hlt-naacl07
 
+General Conference Chair:  Candace Sidner (Mitsubishi Electric
+Research Laboratories) 
+Program Co-Chairs: 
+	Tanja Schultz (Carnegie Mellon University)  
+        Matthew Stone (Rutgers University) 
+        ChengXiang Zhai  (University of Illinois at Urbana-Champaign) 
+Local Arrangements:  James Allen, Len Schubert, and Dan Gildea
+(University of Rochester) 
 
-Anaphora is a central topic in the study of natural language and
-has long been the object of research in a wide range of disciplines
-such as theoretical, corpus and computational linguistics, philosophy
-of language, cognitive science, psycholinguistics and cognitive
-psychology. On the other hand, the correct interpretation of anaphora
-has played an increasingly vital role in real-world natural language
-processing applications, including machine translation, automatic
-abstracting, information extraction and question answering. As a result,
-the processing of anaphora has become one of the most productive
-topics of multi- and inter-disciplinary research, and has enjoyed
-increased interest and attention in recent years.
+NAACL HLT 2007 continues the tradition of the combined Human Language
+Technology Conferences (HLT) and North American Chapter of the
+Association for Computational Linguistics (NAACL) Annual Meetings
+begun in 2003. The conference covers a broad spectrum of disciplines
+working towards enabling intelligent systems to interact with humans
+using natural language, and towards enhancing human-human
+communication through services such as speech recognition, automatic
+translation, information retrieval, text summarization, and
+information extraction. NAACL HLT 2007 will feature full papers,
+late-breaking (short) papers, demonstrations, and a doctoral
+consortium, as well as pre- and post-conference tutorials and
+workshops. The conference is organized by the North American Chapter
+of the Association for Computational Linguistics (NAACL), who is
+advised by a board representing the IR and speech communities and
+North American HLT funding agencies.
 
-In this context, the Discourse Anaphora and Anaphor Resolution
-Colloquia (DAARC) have emerged as the major regular forum for
-presentation and discussion of the best research results in this area.
-Initiated in 1996 at Lancaster University and taken over in 2002 by
-the University of Lisbon, the DAARC series established itself as
-a specialised and competitive forum for the presentation of the latest
-results on anaphora processing, ranging from theoretical linguistic
-approaches through psycholinguistic and cognitive work to corpus
-studies and computational modelling.
+Topics of Interest:
 
-The sixth Discourse Anaphora and Anaphor Resolution Colloquium (DAARC2007)
-will take place in Lagos (Algarve), Portugal, in March 29-30, 2007.
-We would like to invite anyone currently researching in the areas
-of discourse anaphora and anaphor resolution, from any methodological
-perspective or framework, to submit a paper to DAARC'2007.
+The conference invites the submission of papers on substantial,
+original, and unpublished 
+research in disciplines that could impact human language processing
+systems, with a 
+special focus on theories and methods that enable compelling
+combinations of human 
+language technologies (e.g., Speech with Information Retrieval,
+Machine Translation 
+with Speech, Question Answering with Natural Language Processing,
+etc.). Topics of interest include but are not limited to: 
+ 
+- Computational analysis of language
+     Phonology, morphology, syntax, semantics, pragmatics, dialogue,
+     discourse, style 
+- Speech processing, including:
+    Speech recognition and speech generation 
+    Rich transcription: automatic annotation of information structure
+     and sources in speech 
+- Information retrieval, text classification, and information
+     filtering/recommendation 
+    Text data mining, information extraction, text summarization, and
+     question answering 
+- Multimodal representations and processing 
+- Statistical and learning techniques for language, including 
+    Corpus-based language modeling 
+    Lexical and knowledge acquisition 
+- Development of language resources, including 
+    Lexicons and ontologies 
+    Treebanks, proposition banks, and frame banks 
+- Language generation and text planning 
+- Multilingual processing, including 
+    Machine translation of speech and text 
+    Cross-language information retrieval 
+    Multi-lingual speech recognition and language identification 
+- Intelligent systems for natural language interaction, including 
+    Conversational systems for collaboration, tutoring and behavioral
+     intervention
+    Embodied conversational agents, virtual humans and human-robot
+     conversation
+    Language-enhanced platforms for interactive narrative and digital
+     entertainment
+- Evaluation, including 
+    Glass-box evaluation of HLT systems and system components 
+    Black-box evaluation of HLT systems in application settings 
 
-The closing date for submission is October 16, 2006. Notification
-of acceptance will be sent by December 15, 2006. Final versions
-of selected papers to be included in the proceedings are expected by
-January 19, 2007.
+Submission information:
 
-Submissions (extended abstracts) must be anonymous and at most 3 pages
-in length. For further details on the submission procedure, and other
-relevant info on the colloquium visit its website at:
+Full papers: Submissions must describe original, completed,
+unpublished work and 
+should follow the two-column format of ACL proceedings without
+exceeding eight pages, including references. Each submission will be
+judged chiefly on the strength of 
+the argument it provides in support of its contribution, through
+e.g. experimental 
+evaluation, theoretical analysis, or critical engagement with HLT.
+Reviewing will 
+be double-blind; each submission will be reviewed by at least three
+program 
+committee members. 
 
-http://daarc2007.di.fc.ul.pt/
+Late-breaking (short) papers: Submissions describing original,
+unpublished work 
+can be submitted as short papers with a later deadline.  The
+submissions should 
+follow the two-column format of ACL proceedings without exceeding four
+pages, 
+including references.  Reviewing will be double-blind; each submission
+will be 
+reviewed by at least two program committee members.  Short paper
+submissions 
+may be accepted for oral presentation in plenary OR for presentation
+in a poster session. 
 
+Demonstration, doctoral consortium, tutorial, and workshop proposals:
+Submission 
+instructions will be available later. 
 
-Program Committee:
+Multiple-submission policy:  Papers that have been or will be
+submitted to other 
+meetings or publications must provide this information at submission
+time. In the 
+event of multiple acceptances, authors must notify the program chairs
+by 
+January 5, 2007, indicating which meeting they choose for presentation
+of their work.  
+HLT-NAACL 2007 cannot accept for publication work that will be (or has
+been) 
+published elsewhere.
 
-Mijail Alexandrov-Kabadjov, Univ Essex
-Mira Ariel, Tel Aviv Univ
-Sergey Avrutin, OTS
-Amit Bagga, Ask.com
-Patricio Martinez Barco, Univ Alicante
-Peter Bosch, Univ Osnabrueck
-António Branco, Univ Lisbon
-Donna Byron, Ohio State Univ
-Francis Cornish, Univ Toulouse-Le Mirail
-Dan Cristea, Univ Iasi
-Robert Dale, Macquarie Univ
-Richard Evans, Univ Wolverhampton
-Martin Everaert, OTS
-Lyn Frazier, MIT
-Claire Gardent, CNRS/Loria
-Rafael Muñoz Guillena, Univ Alicante
-Jeanette Gundel, Univ Minnesota
-Sanda Harabagiu, Univ Texas at Dallas
-Lars Hellan, Norwegian Univ of Science and Technology
-Erhard Hinrichs, Univ Tuebingen
-Graeme Hirst, Univ Toronto
-Yan Huang, Univ Reading
-Andrew Kehler, Univ California San Diego
-Andrej Kibrik, Russian Academy of Sciences
-Emiel Krahmer, Tilburg Univ
-Shalom Lappin, King's College
-Tony McEnery, Lancaster Univ
-Ruslan Mitkov, Univ Wolverhampton
-Jill Nickerson, Ab Initio Software Corp
-Constantin Orasan, Univ. Wolverhampton
-Maria Mercedes Piñango, Yale Univ
-Georgiana Puscasu, Univ Wolverhampton
-Costanza Navarretta, CST
-Massimo Poesio, Univ Essex
-Eric Reuland, OTS
-Jeffrey Runner, Univ of Rochester
-Antonio Fernandez Rodriguez, Univ Alacant
-Tony Sanford, Glasgow Univ
-Frédérique Segond, Xerox Research Centre Europe
-Roland Stuckardt, Univ Frankfurt am Main
-Joel Tetreault, Univ. Rochester
-Renata Vieira, Unisinos
+**** Important Dates:
 
+Oct 13, 2006   Full paper submissions due
+Dec 22, 2006   Full paper notification of acceptance 
+Jan 18, 2007   Short paper submissions due
+Feb 22, 2007   Short Paper notification of acceptance 
+Mar 5, 2007    Camera-ready full/short papers due 
+Apr 22-28, 2007 Conference 
 
-Organisers:
-
-Antonio Branco, Univ Lisbon
-Tony McEnery, Lancaster Univ
-Ruslan Mitkov, Univ Wolverhampton
-Fátima Silva, Univ Oporto
-
+Please visit http://www.cs.rochester.edu/meetings/hlt-naacl07 for more
+information.

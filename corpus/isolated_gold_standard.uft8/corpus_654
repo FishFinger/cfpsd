@@ -1,202 +1,146 @@
-From - Thu Dec 10 14:23:56 2009
+From - Thu Dec 10 14:39:14 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 844628414cb5b41f1f5f5661793cd550aeb70775
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs36002pyn;
-        Tue, 29 Aug 2006 09:09:57 -0700 (PDT)
-Received: by 10.35.41.12 with SMTP id t12mr15175187pyj;
-        Tue, 29 Aug 2006 09:08:27 -0700 (PDT)
+Received: by 10.204.118.66 with SMTP id u2cs87078bkq;
+        Tue, 24 Nov 2009 18:48:12 -0800 (PST)
+Received: by 10.90.17.29 with SMTP id 29mr9390631agq.79.1259117167662;
+        Tue, 24 Nov 2009 18:46:07 -0800 (PST)
 Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
-        by mx.gmail.com with ESMTP id t70si7499805pyg.2006.08.29.09.07.44;
-        Tue, 29 Aug 2006 09:08:27 -0700 (PDT)
-Received-SPF: pass (gmail.com: best guess record for domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
-Received: from listserv (listserv [164.76.102.107])
-	by listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id k7TG7LKm010085;
-	Tue, 29 Aug 2006 12:07:42 -0400 (EDT)
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
-          spool id 1298969 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Tue, 29 Aug
-          2006 12:06:47 -0400
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 36si11256464yxe.125.2009.11.24.18.46.06;
+        Tue, 24 Nov 2009 18:46:06 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nAP1lb9F009227;
+	Tue, 24 Nov 2009 21:46:05 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=iS24KbJ2IzJUd2jLhrXa7X2xfTHzV5YfEoo17KUgN2nJbtbTdGsOLJuZ2YE1802BkFvVDkNIZ+ojfHf3oXMyVXMteKps5toHEcIdZq8OL0lD4aee2HDuKfeksxH4rb+K;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 14229058 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Tue, 24 Nov
+          2009 21:45:48 -0500
 Approved-By: linguist@LINGUISTLIST.ORG
 Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id
-          k7TEcSY3023249 for <linguist@listserv.linguistlist.org>; Tue, 29 Aug
-          2006 10:38:28 -0400 (EDT)
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nAP1Z1de008216 for <linguist@listserv.linguistlist.org>; Tue, 24
+          Nov 2009 20:35:01 -0500
 Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.8/8.13.8) with ESMTP id k7TEb11b017931; Tue,
-          29 Aug 2006 10:38:19 -0400 (EDT)
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nAP1Yte8012622; Tue,
+          24 Nov 2009 20:34:55 -0500 (EST)
 Mime-Version: 1.0
 Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
 X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Tue, 29 Aug 2006 12:07:43 -0400 (EDT)
 X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
-            [164.76.102.107]); Tue, 29 Aug 2006 10:38:28 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (linguistlist.org
-            [164.76.102.53]); Tue, 29 Aug 2006 10:38:19 -0400 (EDT)
-Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by
-                      listserv.linguistlist.org id k7TEcSY3023257
-Message-ID:  <31410991.1156862299242.JavaMail.nobody@linguistlist.org>
-Date:         Tue, 29 Aug 2006 10:38:19 -0400
-Reply-To: linguist@LINGUISTLIST.ORG
-Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From: linguist@LINGUISTLIST.ORG
-Subject: 17.2424, Confs: Phonetics,Phonology,Portuguese Lang/Greece
-Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
-To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Tue, 24 Nov 2009 20:34:55 -0500 (EST)
+Message-ID:  <21169920.1259112895362.JavaMail.nobody@linguistlist.org>
+Date:         Tue, 24 Nov 2009 20:34:55 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.4033, Calls: History of Linguistics/Revista argentina de historiograf...(Jrnl)
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-LINGUIST List: Vol-17-2424. Tue Aug 29 2006. ISSN: 1068 - 4875.
+LINGUIST List: Vol-20-4033. Tue Nov 24 2009. ISSN: 1068 - 4875.
 
-Subject: 17.2424, Confs: Phonetics,Phonology,Portuguese Lang/Greece
+Subject: 20.4033, Calls: History of Linguistics/Revista argentina de histor=
+iograf...(Jrnl)
 
 Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
             Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
- 
-Reviews: Laura Welcher, Rosetta Project / Long Now Foundation  
-         <reviews@linguistlist.org> 
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
 Homepage: http://linguistlist.org/
 
-The LINGUIST List is funded by Eastern Michigan University, Wayne
-State University, and donations from subscribers and publishers.
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
-Editor for this issue: Jeremy Taylor <jeremy@linguistlist.org>
-================================================================  
+Editor for this issue: Susanne Vejdemo <susanne@linguistlist.org>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-To post to LINGUIST, use our convenient web form at
-http://linguistlist.org/LL/posttolinguist.html.
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
 
-
-===========================Directory==============================  
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
 1)
-Date: 24-Aug-2006
-From: Anthi Revithiadou < revithiadou@rhodes.aegean.gr >
-Subject: Old World Conference in Phonology 4 
+Date: 24-Nov-2009
+From: Guillermo Toscano y Garc=EDa < editor@rahl.com.ar >
+Subject: Revista argentina de historiograf=EDa ling=FC=EDstica
+=20
 
-	
--------------------------Message 1 ---------------------------------- 
-Date: Tue, 29 Aug 2006 10:34:34
-From: Anthi Revithiadou < revithiadou@rhodes.aegean.gr >
-Subject: Old World Conference in Phonology 4 
- 
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Tue, 24 Nov 2009 20:33:34
+From: Guillermo Toscano y Garc=EDa [editor@rahl.com.ar]
+Subject: Revista argentina de historiograf=EDa ling=FC=EDstica
+
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-4033.=
+html&submissionid=3D2228774&topicid=3D3&msgnumber=3D1
+ =20
+
+Full Title: Revista argentina de historiograf=EDa ling=FC=EDstica=20
 
 
+Linguistic Field(s): History of Linguistics=20
 
-Old World Conference in Phonology 4 
-Short Title: OCP4 
+Call Deadline: 28-Feb-2009=20
 
-Date: 18-Jan-2007 - 21-Jan-2007 
-Location: Rhodes, Greece 
-Contact: Anthi Revithiadou 
-Contact Email: ocp4@rhodes.aegean.gr 
-Meeting URL: http://www.ms.aegean.gr/ocp4/ 
+Revista argentina de historiograf=EDa ling=FC=EDstica (RAHL) is an open acc=
+ess
+journal aimed at disseminating research into the history of language
+science in Argentina and Latin America framed within linguistic historiogra=
+phy.
 
-Linguistic Field(s): Phonetics; Phonology 
+Above all, RAHL encourages the publication of papers focusing on: a) the
+discussion of theoretical, methodological, or epistemological issues in
+linguistic historiography as a discipline within linguistics; and b) the
+critical analysis of the ways in which ideas on language have historically
+been put forward, developed, and circulated. Papers on Latin America are
+especially welcome, although work on other geographical areas can also be
+reviewed for publication.
 
-Subject Language(s): Portuguese (por)
+For more information please visit the journal's homepage at
+http://www.rahl.com.ar
 
-Meeting Description: 
+Call deadline: 28-Feb-2009
 
-OCP4 welcomes papers and posters from any theoretical perspective, addressing any topic in phonology. At the same time, we also invite papers for a Preconference Workshop on "Harmony in the Languages of the Mediterranean" 
-
-Keynote Speakers:	
-- Outi Bat-El (Tel-Aviv University) 
-- Junko Itô (University of California, Santa Cruz)
-- Armin Mester (University of California, Santa Cruz)
-- Moira Yip (University College London) 
-
-Deadline Extended: 07-Sept-2006  
-
-Call for papers 
-?CP4 (January 18-21, 2007) 
-Rhodes Aquarium, Rhodes, Greece 
-
-Pre-conference Workshop: ''Harmony in the Languages of the Mediterranean'' 
-January 18, 2007 
-
-Main Conference: January 19-21, 2007 
-
-Organized by: University of the Aegean, Division of Linguistics, Department of Mediterranean Studies & University of Crete, Section of Linguistics, Department of Philology 
-
-Invited Speakers: 
-- Outi Bat-El (Tel-Aviv University) 
-- Junko Itô (University of California, Santa Cruz) 
-- Armin Mester (University of California, Santa Cruz) 
-- Moira Yip (University College London) 
-
-OCP4 Main Conference: 
-OCP4 welcomes abstracts for 30-minute presentations plus 10 minutes for discussion. Abstracts are also invited for a poster session. Submissions are limited to one singly authored and one jointly authored abstract per author or two jointly authored abstracts. 
-
-OCP4 Workshop: ''Harmony in the Languages of the Mediterranean'' 
-We encourage papers addressing harmony processes attested in languages (once) spoken in the Mediterranean region. Submissions are limited to one singly authored and one jointly authored abstract per author or two jointly authored abstracts. 
-
-- Extended deadline for abstract submission: September 7th 2006 
-- Notification of acceptance: October 15th 2006 
-
-Abstract requirements 
-
-Abstracts must be submitted electronically in PDF or doc format. 
-Abstracts should be one A4 page long with a second page limited to examples and references. Authors should adhere to the following formatting requirements: 
-- 1 inch margins on top, bottom, left and right 
-- in 12 pt Times New Roman (10 pt for references) 
-- single line spacing 
-- normal character spacing 
-
-The named version of the abstract should start with: 
-- The title of the abstract in boldface and centred 
-- The name(s) of the author(s) centred 
-- The affiliation(s) of the author(s) centred (Leave one line after the   
-  title and after the affiliation.) 
-- The body of the abstract must be justified (left and right) 
-
-The anonymous abstract should start with: 
-- The title of the abstract in boldface and centred 
-- The body of the abstract must be justified (left and right) 
-
-The filename should be unique. You should use your first name's initial and your last name to name your abstract. For example, John Smith's abstract should be named: 
-- named-jsmith.pdf 
-- anon-jsmith.pdf 
-
-The body of the message should include the following information: 
-- Author's Name(s) and contact information 
-- Affiliation 
-- Title of the abstract 
-- Postal address & e-mail address 
-
-Abstract submission 
-
-1. Create an email message to: ocp4@rhodes.aegean.gr, with the text 'OCP4 
-   Abstract Submission' in the subject line. 
-2. Attach both the anonymous and the named versions of your abstract as
-   PDF or doc files to the message. 
-3. Fill in the required information in the body of the message. 
-4. Please do not forget to specify whether your abstract should be
-   considered for (a) the Main Conference as a talk or a poster or both, (b) the Pre-conference Workshop. 
-
-If you have any questions, please do not hesitate to contact the Organizing Committee at: 
-ocp4@rhodes.aegean.gr or 
-revithiadou@rhodes.aegean.gr 
-
-Conference website: 
-http://www.ms.aegean.gr/ocp4/
-http://www.rhodes.aegean.gr/tms/ocp4/ 
- 
-
-Organizing Committee: 
-Anthi Revithiadou 
-Ioanna Kappa 
-Marina Tzakosta
-
+Guillermo Toscano y Garc=EDa
+Editor
+editor@rahl.com.ar
 
 
 
 
 -----------------------------------------------------------
-LINGUIST List: Vol-17-2424	
+LINGUIST List: Vol-20-4033=09
 
-	
+=09

@@ -1,215 +1,448 @@
-From - Thu Dec 10 14:23:50 2009
+From - Thu Dec 10 14:23:59 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: af2f10304932db345f8237e74c031132583e8e93
+X-Gmail-Received: e1dd0d3ec0b467f98b1a795f6fce087ec116b1f1
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs581548pyn;
-        Tue, 15 Aug 2006 10:55:50 -0700 (PDT)
-Received: by 10.35.98.6 with SMTP id a6mr15985640pym;
-        Tue, 15 Aug 2006 10:54:20 -0700 (PDT)
-Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
-        by mx.gmail.com with ESMTP id h41si1007829pyh.2006.08.15.10.53.38;
-        Tue, 15 Aug 2006 10:54:20 -0700 (PDT)
-Received-SPF: pass (gmail.com: best guess record for domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
-Received: from listserv (listserv [164.76.102.107])
-	by listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id k7FHrLaj004849;
-	Tue, 15 Aug 2006 13:53:36 -0400 (EDT)
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
-          spool id 1111860 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Tue, 15 Aug
-          2006 13:53:16 -0400
-Approved-By: linguist@LINGUISTLIST.ORG
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id
-          k7FFFkGo007777 for <linguist@listserv.linguistlist.org>; Tue, 15 Aug
-          2006 11:15:46 -0400 (EDT)
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.8/8.13.8) with ESMTP id k7FFFclj019835; Tue,
-          15 Aug 2006 11:15:38 -0400 (EDT)
+Received: by 10.35.126.10 with SMTP id d10cs156531pyn;
+        Mon, 4 Sep 2006 15:10:22 -0700 (PDT)
+Received: by 10.35.106.15 with SMTP id i15mr11029307pym;
+        Mon, 04 Sep 2006 15:10:21 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id 12si24483nzn.2006.09.04.15.10.18;
+        Mon, 04 Sep 2006 15:10:21 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k84MA6tK020691;
+	Tue, 5 Sep 2006 08:10:17 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090508101617779
+ ; Tue, 05 Sep 2006 08:10:16 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k84MAGVI020727;
+	Tue, 5 Sep 2006 08:10:16 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k84MAFCp002466
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Tue, 5 Sep 2006 08:10:15 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k84MADcC020708;
+	Tue, 5 Sep 2006 08:10:13 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090508101217775
+ ; Tue, 05 Sep 2006 08:10:13 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k84MA3TG020689;
+	Tue, 5 Sep 2006 08:10:11 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k84M9wcA020677; Tue, 5 Sep 2006 08:09:58 +1000 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k847GYrU020540 for <comp-it-announce@ics.mq.edu.au>;
+	Mon, 4 Sep 2006 17:16:35 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k847GYA03115
+	for <comp-it-announce@ics.mq.edu.au>;
+	Mon, 4 Sep 2006 17:16:34 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Mon, 04 Sep 2006 17:11:41 +1000
+Received: by staff.cs.usyd.edu.au with postie; Mon, 04 Sep 2006 17:04:32 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Mon, 04 Sep 2006 17:04:20 +1000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id k8474Kx5024282
+	for <itannounce@it.usyd.edu.au>; Mon, 4 Sep 2006 17:04:20 +1000
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id k8474KGI024280
+	for itannounce@it.usyd.edu.au; Mon, 4 Sep 2006 17:04:20 +1000
+Date: Mon, 4 Sep 2006 17:04:20 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20060904070420.GA24265@flexal3.cs.usyd.edu.au>
 Mime-Version: 1.0
-Content-Type: text/plain; charset=iso-8859-1
-X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Tue, 15 Aug 2006 13:53:38 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
-            [164.76.102.107]); Tue, 15 Aug 2006 11:15:46 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (linguistlist.org
-            [164.76.102.53]); Tue, 15 Aug 2006 11:15:38 -0400 (EDT)
-Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by
-                      listserv.linguistlist.org id k7FFFkGo007784
-Message-ID:  <18178856.1155654938230.JavaMail.nobody@linguistlist.org>
-Date:         Tue, 15 Aug 2006 11:15:38 -0400
-Reply-To: linguist@LINGUISTLIST.ORG
-Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From: linguist@LINGUISTLIST.ORG
-Subject: 17.2322, Calls: Discourse Analysis/Pragmatics/Sociolinguistics/Sweden
-Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
-To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Mon, 04 Sep 2006 17:11:16 +1000
+From: itannounce@mail.it.usyd.edu.au
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
 Precedence: list
-
-LINGUIST List: Vol-17-2322. Tue Aug 15 2006. ISSN: 1068 - 4875.
-
-Subject: 17.2322, Calls: Discourse Analysis/Pragmatics/Sociolinguistics/Sweden
-
-Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
-            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
- 
-Reviews: Laura Welcher, Rosetta Project / Long Now Foundation  
-         <reviews@linguistlist.org> 
-
-Homepage: http://linguistlist.org/
-
-The LINGUIST List is funded by Eastern Michigan University, Wayne
-State University, and donations from subscribers and publishers.
-
-Editor for this issue: Dan Parker <dan@linguistlist.org>
-================================================================  
-
-As a matter of policy, LINGUIST discourages the use of abbreviations
-or acronyms in conference announcements unless they are explained in
-the text.
-
-To post to LINGUIST, use our convenient web form at 
-http://linguistlist.org/LL/posttolinguist.html. 
-
-
-
-===========================Directory==============================  
-
-1)
-Date: 11-Aug-2006
-From: Michael Beisswenger < michael.beisswenger@uni-dortmund.de >
-Subject: Corpora and Methods in Computer-Mediated Discourse Analysis 
-
-	
--------------------------Message 1 ---------------------------------- 
-Date: Tue, 15 Aug 2006 11:12:24
-From: Michael Beisswenger < michael.beisswenger@uni-dortmund.de >
-Subject: Corpora and Methods in Computer-Mediated Discourse Analysis 
- 
-
-Full Title: Corpora and Methods in Computer-Mediated Discourse Analysis 
-Short Title: Corpora & Methods in CMDA 
-
-Date: 08-Jul-2007 - 13-Jul-2007
-Location: Göteborg, Sweden 
-Contact Person: Michael Beisswenger
-Meeting Email: michael.beisswenger@uni-dortmund.de
-
-Linguistic Field(s): Discourse Analysis; Pragmatics; Sociolinguistics;
-Text/Corpus Linguistics 
-
-Call Deadline: 05-Sep-2006 
-
-Meeting Description:
-
-Corpora and Methods in Computer-Mediated Discourse Analysis
-
-We invite contributions to a panel proposal for the 10th International
-Pragmatics Conference (IPrA), 8-13 July 2007, Göteborg, Sweden. Proposals
-are expected to discuss aspects of the panel topic (see detailed CfP
-above), based on empirical research on computer-mediated discourse in any
-language. 
-
-Panel organizers: 
-Jannis Androutsopoulos, University of Hannover, Germany
-Michael Beisswenger, University of Dortmund, Germany 
-
-The purpose of this panel is to discuss methodological issues in
-computer-mediated discourse studies. Computer-mediated discourse (CMD) is
-used here as an umbrella term for all kinds of interpersonal (private and
-public) communication carried out on the Internet by e-mail, instant
-messaging systems, mailing lists, newsgroups, web discussion boards,
-Internet Relay Chat, and web chat channels (cf. Herring 2001, 2004). While
-CMD in the last decade has attracted a great deal of research attention
-from the pragmatic, discourse-analytic, and sociolinguistic points of view,
-methodological reflection still lags behind when compared to other areas of
-discourse studies. While the collection of linguistic data on the Internet
-seems trivial at first sight, researchers are confronted with a variety of
-non-trivial questions in the further process, relating to e.g. the size of
-a data sample, its representativeness or typicality, data processing
-techniques, delimitation of genres, kind and amount of necessary contextual
-information, as well as ethical issues of anonymity and privacy protection.
-Much research in the field has been based on rather small, individually
-compiled data sets. There is a lack of generally acknowledged guidelines of
-corpus design as well as of publicly available, dedicated corpora of CMD.
-In terms of methodology, language-focused research on computer-mediated
-communication has drawn on methods and key concepts from a variety of
-research traditions in linguistics (including pragmatics and conversation
-analysis, interactional and variationist sociolinguistics, genre analysis,
-and the ethnography of communication). These methods and concepts have been
-fruitfully applied, and sometimes combined, to study how individuals use
-linguistic resources to establish contacts, manage interactions, and
-construct identities within computer networks. This panel will focus on the
-need for critical reflection about the problems and challenges that arise
-when these research traditions, originally developed for the study of
-face-to-face discourse, are applied to the new settings and environments of
-computer-mediated discourse. Does a one-to-one transfer of research
-frameworks really lead to contextually rich understandings of language use
-and interactional processes in CMD, or rather conceal some of its essential
-new aspects? Research findings suggest that CMD creates important
-implications for our understanding of key concepts such as interactional
-coherence, participant frameworks, intertextuality,
-language-identity-relationships, and the notion of community. To that
-extent, an adaptation or even reconceptualization of existing concepts and
-methods seems a necessary step in the further development of CMD studies,
-and new research frameworks are already emerging (e.g. Herring's approach
-to the study of online communities; Herring 2004).
-
-Against this background, the contributions to this panel will focus on
-questions such as: 
-- challenges, problems and solutions in the compilation and design of CMD
-corpora, including the presentation of relevant new projects;
-- corpus linguistics issues in CMD, e.g. acquisition, preprocessing and
-annotation of data, ethical issues in Internet data collection,
-representation and exchange of CMD data, collection and representation of
-meta-data, tools for corpus storage and maintenance;
-- social and technical conditions of CMD that need to be taken into account
-when adapting concepts, frameworks or descriptive categories to CMD analysis;
-- case studies that exemplify how established concepts and methodologies
-are applied to sites of online discourse;
-- ways of doing 'online' or 'virtual' ethnography as a point of
-contextually rich entry into the study of online activities and communities; 
-- the benefits and challenges of combining various data sets (e.g.
-logfiles, online participant observation, user observation, statistical
-information, and user interviews) for specific research questions;
-- the potential of combining qualitative and quantitative approaches to
-language data in CMD research. 
-
-References: 
-- Herring, Susan C. 2001. Computer-mediated discourse. In Deborah Schiffrin
-et al. (eds.) The Handbook of Discourse Analysis. Malden: Blackwell. 612-634.
-- Herring, Susan C. 2004. Computer-mediated discourse analysis: An approach
-to researching online communities. In Sasha A. Barab, Rob Kling and James
-H. Gray (eds.) Designing for Virtual Communities in the Service of
-Learning. Cambridge, New York: Cambridge University Press. 338-376.
-
-Panel organizers:
-Jannis Androutsopoulos, German Seminar, University of Hannover, Germany.
-E-Mail:  
-jannis.androutsopoulos@germanistik.uni-hannover.de
-
-Michael Beisswenger, Institute for German Language and Literature,
-University of Dortmund, Germany. Email: michael.beisswenger@uni-dortmund.de
-
-Submission:
-Short abstracts are invited for 30 min. paper slots (20 min presentation
-and 10 min discussion). Please send your submission electronically to the
-contact email above by September 5, 2006. Authors will be notified
-individually about the further process.
-
-Before sending us your abstract, please make sure you will be able to
-attend the conference, thereby bearing in mind the IPrA conditions, which
-include a full membership. More information on the IPrA homepage:
-http://ipra.ua.ac.be/
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Tue, 05 Sep 2006 08:09:56 +1000
+X-BeenThere: comp@ics.mq.edu.au
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1
+	September 2006
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
 
 
+Dear IT-Announce subscriber,
+
+Welcome to issue number 1 for September, 2006. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  Computing The Future Symposium 2006
+  Advances in Modal Logic 2006. Call for Participation
+  HCSNet Priority Area Workshop on Next-Generation Search Technology 21-22 Sept
+  Australasian Information Security Workshop 2007 (Privacy Enhancing Technologies)
+
+International Conference Announcements
+
+  Asia-Pacific Workshop on Intelligent and Evolutionary Systems
+  ACM_NZ Bulletin: Call for Submissions
+  2nd International Workshop on Software for Sensor Networks Sensorware 2007
+  The 2007 IEEE International Symposium on Bioinformatics and Life Science Computing. (BLSC07)
+  2nd Int. Workshop on Engineering Service Oriented Applications:Design and Composition (WESOA'06)
+  JSAT S.I. on Satisfiability Modulo Theories
+
+Academic Positions
+
+  Multimedia Understanding through Semantics, Computation, and Learning Postdoc
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  Computing The Future Symposium 2006
+  editor@slatteryit.com.au
+
+The University of Sydney
+COMPUTING THE FUTURE SYMPOSIUM 2006
+Wednesday,13th September 2006
+
+
+It has been 50 years since the first highspeed computer - SILLIAC - was
+built at an Australian University.
+Join leaders from across industry, eminent researchers and international
+guest speakers as we celebrate the University of Sydney's distinguished
+history in computer science, and explore future IT directions.
+
+Keynote Speakers Include:
+
+David Murray
+Chairman, Future Fund Board of Guardians & Former CEO of Commonwealth Bank
+
+Howard Charney
+Senior Vice President, Cisco Systems & One of the four founders of 3Com
+Corporation
+
+Dr Caroline Kovac ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt0
+
+======================================================================
+
+  Advances in Modal Logic 2006. Call for Participation
+  guido@itee.uq.edu.au
+
+========================================================================
+CALL FOR PARTICIPATION
+
+AiML-2006
+Advances in Modal Logic
+25-28 September 2006, Noosa (Queensland, Australia)
+http://www.itee.uq.edu.au/~aiml06
+
+EARLY REGISTRATION: 28 August 2006
+
+Advances in Modal Logic is an initiative aimed at presenting
+an up-to-date picture of the state of the art in modal logic
+and its many applications. The initiative consists of a
+conference series together with volumes based on the conferences.
+
+AiML-2006 is the sixth conference in the series.
+
+INVITED SPEAKERS
+- Renate Schmidt (Manchester, UK)
+Developing Modal Tableaux and Resolution Methods via
+First-Order Resolution ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt1
+
+======================================================================
+
+  HCSNet Priority Area Workshop on Next-Generation Search Technology 21-22 Sept
+  diego@ics.mq.edu.au
+
+HCSNet Priority Area Workshop on Next-Generation Search Technology
+21st and 22nd September 2006
+University of Melbourne
+
+CALL FOR ABSTRACTS
+
+Existing information retrieval systems effectively treat documents as
+unstructured bags of words. As Google and its competitors demonstrate,
+this approach works surprisingly well. At the same time, it is clear that
+human processors of information make use of a much deeper understanding
+of text than these systems exhibit. Humans cannot compete with machines
+in terms of quantity, but their abilities far exceed those of machines
+when it comes to quality.
+
+This priority research area focuses on how we can improve search
+engine technology by integrating more knowledge about the processing
+and understanding of language. This knowledge comes from a range of
+disciplines represented within HCSNet. Linguistics treats texts as richly
+structured objects that obey complex and interacting rules about language
+use, and natural language processing attempts to implement computational
+models that embody these ideas: how do we add this sophistication to ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt2
+
+======================================================================
+
+  Australasian Information Security Workshop 2007 (Privacy Enhancing Technologies)
+  Chris.Steketee@cs.unisa.edu.au
+
+The submission deadline for this workshop has been extended to 11
+September 2006.   Although the focus is on Privacy Enhancing Technologies,
+papers in other areas of computer and information security
+and privacy are also acceptable.
+
+AISW-Pet aims at promoting research on privacy enhancing technologies
+and increasing the synergy between academic and industrial
+researchers working in this area.  It is a one-day workshop to be
+held in conjunction with the Australasian Computer Science
+Conference, as part of Australasian Computer Science Week in
+Ballarat, Victoria, Australia, 30 January - 2 February 2007.
+
+We seek submissions from academic and industrial researchers on all
+theoretical and practical aspects of privacy enhancing technologies.
+Suggested topics include but are not restricted to:
+
+Anonymity and unobservability modeling
+Attacks on anonymity systems
+Cryptography
+Ethics, policy and law relating to privacy
+Identity management and identity theft ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt3
+
+======================================================================
+
+
+International Conference Announcements
+
+  Asia-Pacific Workshop on Intelligent and Evolutionary Systems
+  rim@cse.snu.ac.kr
+		10th Asia-Pacific Workshop on
+	      Intelligent and Evolutionary Systems
+			   IES2006
+	     Seoul National University, Seoul, Korea
+		    25th-26th November, 2006
+
+Following nine successful workshops in Australia, New Zealand
+and Japan, the tenth APWIES is to be held in Korea in November.
+
+Aims and Scope
+
+To encourage in-depth technical discussions, the number of
+participants of the workshop is limited to 40 or less. The
+workshop will allocate ample time for discussions in addition to
+paper presentations. It covers two major areas:
+
+Intelligent and Adaptive Systems: Designing and developing
+intelligent and adaptive systems using machine learning and/or
+evolutionary computation techniques; other artificial
+intelligence techniques will also be considered. Examples of
+topics include, but are not limited to, evolutionary learning,
+neural network learning, autonomous agents/robots, artificial
+life, evolutionary games, hybrid learning systems, other machine
+learning systems.
+
+Optimisation with Intelligent Systems: Both numerical and
+combinatorial optimisation will be considered. Examples of the ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  ACM_NZ Bulletin: Call for Submissions
+  t.lin@massey.ac.nz
+
+Call for submissions for the 2006 fourth issue of ACM_NZ Bulletin has
+already commenced. The submission deadline for the issue is Sep 28, 2006.
+
+For more information, please visit:
+http://www.acm.org/chapters/acm_nz/bulletin.php
 
 
 
------------------------------------------------------------
-LINGUIST List: Vol-17-2322	
 
-	
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  2nd International Workshop on Software for Sensor Networks Sensorware 2007
+  rchell@deakin.edu.au
+
+CALL FOR PAPERS
+2nd International Workshop on Software for Sensor Networks (SensorWare)
+To be held with Comsware 2007 (www.comsware.org)
+
+8th January 2007, Bangalore India
+www.sensorware.org
+
+Advances in technology have made deployment of miniature sensors
+a realistic proposition. Low-power, inexpensive smart devices with
+multiple on-board sensors are connected through wireless links so as
+to form a collaborative sensor network to perform a specific task. As a
+result, it opens up a new paradigm of ubiquitous computing and enables
+a range of applications that are previously unrealizable or too costly
+to be realized. However, given the limitation of on-board hardware,
+one of the key areas towards achieving superior performance is through
+software implementation. The workshop is intended to bring together
+industry experts and researchers to share novel techniques, algorithms
+and software implementation for sensor networks, and to discuss the
+current status, technical challenges, standards, fundamental issues,
+and future services and applications in the form of panels and technical
+presentation. Topics of interest include but are not limited to the ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  The 2007 IEEE International Symposium on Bioinformatics and Life Science Computing. (BLSC07)
+  bbz@it.usyd.edu.au
+
+Call for Papers (BLSC07)
+
+The 2007 IEEE International Symposium on Bioinformatics and Life Science
+Computing. (BLSC07)
+
+Niagara Falls, Canada
+May 21-23, 2007
+
+Sponsored by
+IEEE Technical Committee Distributed Processing (TCDP)
+
+http://www.laas.fr/BLSC07
+
+SCOPE
+The aim of this symposium is to facilitate exchange of ideas and
+collaborations between computer scientists and biologists by presenting
+cutting-edge solutions of Modeling,  Computing and Learning in Biology and
+Life Science. We invite submissions that address conceptual and practical
+issues of bioinformatics and life science with an interdisciplinary
+character. For example, computer science and mathematical modeling papers
+should contain a concise description of the biological problem being ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  2nd Int. Workshop on Engineering Service Oriented Applications:Design and Composition (WESOA'06)
+  jiri@it.uts.edu.au
+
+2nd INT. WORKSHOP ON ENGINEERING SERVICE ORIENTED APPLICATIONS:
+DESIGN AND COMPOSITION (WESOA'06)
+
+In conjunction with the 4th Int. Conference on Service Oriented
+Computing (ICSOC 2006) http://www.icsoc.org/
+
+Chicago, USA, December 4th, 2006
+
+WESOA Workshop Website
+http://fresco-www.informatik.uni-hamburg.de/wesoa06/
+
+Abstract Submission Due: September 8th, 2006
+
+
+OBJECTIVES
+==========
+
+With  the  growing  acceptance  of  service-oriented  computing  and
+increasing number of large-scale  Web Services projects there	is an
+urgent need for the research community and industry practitioners to
+combine in  an effort	to develop  comprehensive methodologies  that
+support the entire life-cycle	of service oriented applications.  To ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  JSAT S.I. on Satisfiability Modulo Theories
+  Roberto Sebastiani <rseba@dit.unitn.it>
+
+===================  Preliminary Call for Papers ====================
+
+Journal on Satisfiability, Boolean Modeling and Computation (JSAT)
+Special Issue on Satisfiability Modulo Theories (SMT)
+
+http://dit.unitn.it/~rseba/jsat_smt06/
+
+Deadline for paper submission (provisional): November 25th, 2006
+
+======================================================================
+
+GENERAL INFORMATION
+
+Satisfiability Modulo Theories (SMT) is the problem of deciding the
+satisfiability of first-order formulae with respect to some
+decidable background theory (e.g., linear arithmetic, the theory of
+arrays, the theory of bit-vectors).
+SMT techniques are gaining increasing relevance in many application
+domains, including formal verification of hardware and software,
+compiler optimization, planning and scheduling.
+SMT is strongly related to SAT, as most SMT tools are built on top of ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  Multimedia Understanding through Semantics, Computation, and Learning Postdoc
+  aiia_announcements-admin@penelope.csd.auth.gr
+
+The Artificial Intelligence & Information Analysis Laboratory at the
+Aristotle University of Thessaloniki, Greece (www.aiia.csd.auth.gr)
+and the Institute of Information Theory and Automation  at the  Academy
+of Sciences of the Czech Republic, Prague (www.utia.cas.cz)  offer a 17
+month post-doc fellowship starting from October 1st 2006 within the
+framework of the European Union Network of Excellence MUSCLE
+"Multimedia Understanding through Semantics, Computation, and Learning"
+(www.muscle-noe.org). The research topic to be investigated is: Feature
+subset selection and multi-sensor fusion techniques for affect recognition
+and image texture analysis.
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

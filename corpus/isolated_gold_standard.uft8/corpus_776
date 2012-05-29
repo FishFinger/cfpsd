@@ -1,211 +1,237 @@
-From - Thu Dec 10 14:39:19 2009
+From - Thu Dec 10 14:39:10 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs77857bkq;
-        Thu, 3 Dec 2009 07:17:41 -0800 (PST)
-Received: by 10.213.96.3 with SMTP id f3mr1823231ebn.51.1259853450332;
-        Thu, 03 Dec 2009 07:17:30 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 23si6516537ewy.24.2009.12.03.07.17.29;
-        Thu, 03 Dec 2009 07:17:30 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 0BEC1241AD; Thu,  3 Dec 2009 16:17:27 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
-	autolearn=unavailable version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id C6E4623F85;
-	Thu,  3 Dec 2009 16:16:17 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id C2B7B3D4C;
-	Thu,  3 Dec 2009 16:16:16 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id 98+lF+Tq3aBu; Thu,  3 Dec 2009 16:16:16 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id CFE2E3D4D;
-	Thu,  3 Dec 2009 16:16:03 +0100 (CET)
-X-Original-To: elsnet-list@mailman.elsnet.org
-Delivered-To: elsnet-list@mailman.elsnet.org
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 7B1E93D2A
-	for <elsnet-list@mailman.elsnet.org>;
-	Wed,  2 Dec 2009 16:05:25 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id aQ-cH+GatdRK for <elsnet-list@mailman.elsnet.org>;
-	Wed,  2 Dec 2009 16:05:25 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 53FB13D0B
-	for <elsnet-list@mailman.elsnet.org>;
-	Wed,  2 Dec 2009 16:05:25 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 4579123E10; Wed,  2 Dec 2009 16:05:25 +0100 (MET)
-X-Greylist: delayed 354 seconds by postgrey-1.28 at newjura;
-	Wed, 02 Dec 2009 16:05:14 MET
-Received: from smtp.inesc-id.pt (smtp.inesc-id.pt [146.193.32.2])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 2DC6D2349F
-	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 16:05:14 +0100 (MET)
-Received: from l2f.inesc-id.pt (fw.l2f.inesc-id.pt [146.193.52.17])
-	by mail.inesc-id.pt (8.13.8/8.13.8) with ESMTP id nB2ExBnC009190
-	for <elsnet-list@elsnet.org>; Wed, 2 Dec 2009 14:59:12 GMT
-Received: from localhost (localhost [127.0.0.1])
-	by l2f.inesc-id.pt (Postfix) with ESMTP id 6768285C2C2
-	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 14:59:11 +0000 (WET)
-X-Virus-Scanned: amavisd-new at l2f.inesc-id.pt
-Received: from unknown by localhost (amavisd-new, unix socket) id X9kCDQ9rWLpB
-	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 14:59:09 +0000 (WET)
-Received: from [172.16.4.32] (anubis.l2f.inesc-id.pt [172.16.4.32])
-	by l2f.inesc-id.pt (Postfix) with ESMTP id 7B09D85C2C1
-	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 14:59:09 +0000 (WET)
-Message-ID: <4B1680BD.4010804@l2f.inesc-id.pt>
-Date: Wed, 02 Dec 2009 14:59:09 +0000
-From: David Martins de Matos <david.matos@l2f.inesc-id.pt>
-User-Agent: Thunderbird 2.0.0.23 (X11/20090817)
-MIME-Version: 1.0
-To: elsnet-list@elsnet.org
-X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.3.3
-	(mail.inesc-id.pt [146.193.32.2]);
-	Wed, 02 Dec 2009 14:59:12 +0000 (WET)
-X-Inesc-ID-MailScanner-Information: Please contact the mailserver
-	administrator for more information
-X-Inesc-ID-MailScanner-ID: nB2ExBnC009190
-X-Inesc-ID-MailScanner: Found to be clean
-X-Inesc-ID-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
-	score=-1.717, required 6, AWL -0.58, BAYES_00 -2.60,
-	HTML_MESSAGE 0.00, MIME_HTML_ONLY 1.46)
-X-Inesc-ID-MailScanner-From: david.matos@l2f.inesc-id.pt
-X-Mailman-Approved-At: Thu, 03 Dec 2009 16:15:59 +0100
-Cc: 
-Subject: [Elsnet-list] 
- 2nd CFP: PROPOR 2010 PhD and MSc Dissertation Contest, Porto Alegre
- / Brazil
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
+Received: by 10.204.118.66 with SMTP id u2cs186764bkq;
+        Mon, 16 Nov 2009 06:45:39 -0800 (PST)
+Received: by 10.90.16.14 with SMTP id 14mr3848441agp.102.1258382737075;
+        Mon, 16 Nov 2009 06:45:37 -0800 (PST)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 29si20776508iwn.24.2009.11.16.06.45.35;
+        Mon, 16 Nov 2009 06:45:35 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nAGD8kT7005455;
+	Mon, 16 Nov 2009 09:45:35 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=LabuNJ7oIov47C/NAcixEvFgFpmOnOPhrNUOHh7mP+Ocet1PuCYalZuE3Hsi3WpYlQIWhUwno8G6KeB1wTDdszOq1mkBEHpDfEsazvoiMeFK8cIhC+cIKYog8oJgtqmV;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 13908493 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Mon, 16 Nov
+          2009 09:45:22 -0500
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nAGCJvg9030185 for <linguist@listserv.linguistlist.org>; Mon, 16
+          Nov 2009 07:19:57 -0500
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nAGCJod5020377; Mon,
+          16 Nov 2009 07:19:50 -0500 (EST)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Mon, 16 Nov 2009 07:19:50 -0500 (EST)
+Message-ID:  <4339564.1258373990209.JavaMail.nobody@linguistlist.org>
+Date:         Mon, 16 Nov 2009 07:19:50 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.3925, Calls: Discourse Analysis, Morphology, Syntax, Semantics/Germany
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Content-Type: multipart/mixed; boundary="===============0888120451=="
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
---===============0888120451==
-Content-Type: text/html; charset=UTF-8
-Content-Transfer-Encoding: 8bit
+LINGUIST List: Vol-20-3925. Mon Nov 16 2009. ISSN: 1068 - 4875.
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-</head>
-<body bgcolor="#ffffff" text="#000000">
-<div class="moz-text-plain" wrap="true" graphical-quote="true"
- style="font-family: -moz-fixed; font-size: 12px;" lang="x-unicode">
-<pre wrap="">                  [apologies for multiple copies]
+Subject: 20.3925, Calls: Discourse Analysis, Morphology, Syntax, Semantics/=
+Germany
 
-The PROPOR 2010 PhD and MSc Dissertation Contest is a special event of
-PROPOR 2010, the 9th International Conference on Computational
-Processing of Portuguese.  PROPOR 2010 will be held in Porto Alegre -
-RS, Brazil, from 28 to 30 April 2010.
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
-<a class="moz-txt-link-freetext"
- href="http://www.inf.pucrs.br/%7Epropor2010/">http://www.inf.pucrs.br/~propor2010/</a>
+Homepage: http://linguistlist.org/
 
-hosted by PUCRS-PontifÃ­cia Universidade CatÃ³lica do Rio Grande do Sul
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
-================== PhD and MSc Dissertation Contest ====================
+Editor for this issue: Kate Wu <kate@linguistlist.org>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-This contest recognizes the best of emerging academic work on
-processing of the Portuguese language and related issues, concluded in
-the three years preceding the submission deadline.
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
 
-Awards:
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-    * Best PhD Dissertation Award
-    * Best MSc Dissertation Award
+1)
+Date: 13-Nov-2009
+From: J=F6rg B=FCcker < bueckerj@uni-muenster.de >
+Subject: Die Konstruktion als Culturelle Einheit (ALP 2010)
+=20
 
-Submission Criteria and Procedure:
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Mon, 16 Nov 2009 07:12:20
+From: J=F6rg B=FCcker [bueckerj@uni-muenster.de]
+Subject: Die Konstruktion als Culturelle Einheit (ALP 2010)
 
-1.  Eligible entrants are those candidates who have successfully
-defended their dissertations in the three years preceding the contest
-submission deadline.  A letter from the primary dissertation advisor
-must be submitted with the extended abstract (see number 3.), stating
-that the candidate meets this eligibility criterion.
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-3925.=
+html&submissionid=3D2227397&topicid=3D3&msgnumber=3D1
+ =20
 
-2.  The dissertation must focus on some aspect of processing of the
-Portuguese language and related issues.  In general, any topic that
-falls within the scope of PROPOR call for papers
-(<a class="moz-txt-link-freetext"
- href="http://www.inf.pucrs.br/%7Epropor2010/callForPapers.html">http://www.inf.pucrs.br/~propor2010/callForPapers.html</a>) is
-appropriate.
+Full Title: Die Konstruktion als Culturelle Einheit (ALP 2010)=20
 
-3.  Each entry should be in the form of an extended abstract that
-includes the nature of the problem to be researched, relevant theory,
-hypotheses to be tested, method, analysis, and indicative references.
+Date: 23-Feb-2010 - 23-Feb-2010
+Location: Berlin, Germany=20
+Contact Person: J=F6rg B=FCcker
+Meeting Email: bueckerj@uni-muenster.de
 
-4. Documents must be submitted in English (even if the thesis is
-written in another language).
+Linguistic Field(s): Discourse Analysis; Morphology; Pragmatics; Semantics;=
+ Syntax=20
 
-5.  Documents must be formatted in PDF, double-spaced, using Times New
-Roman 11 point font with 1 inch margins all around. Proposals are
-limited to 8 pages, including all figures, tables, and references and
-should begin with an abstract of 250 words or less.  Authors must use
-the same style of the PROPOR 2010 conference. The documents will be
-included in the electronic version of the PROPOR 2010 proceedings (no
-hard copies will be produced). A web link to the integral work must
-also be provided.
+Call Deadline: 14-Dec-2009=20
 
-6. Members of the contest evaluation committee and their students are
-excluded from the PROPOR 2010 PhD and MSc Dissertation Contest.
+Meeting Description:
 
-7. Submission deadline is December 15, 2009.  Entries must be
-submitted electronically at <a class="moz-txt-link-freetext"
- href="https://submissoes.sbc.org.br/">https://submissoes.sbc.org.br/</a> (no hard
-copy submissions will be accepted). Notifications to authors will be
-sent on January 30, 2010.
+Seit den sp=E4ten Achtzigerjahren ist die Konstruktion als linguistische Ei=
+nheit
+immer st=E4rker in den Aufmerksamkeitsbereich linguistischer Forschung ger=
+=FCckt.
+Basis der Konstruktions-Auffassung ist die Beobachtung, dass in vielen
+sprachlichen Ausdr=FCcken die Bedeutung nicht =FCber die einzelnen in der =
+=C4u=DFerung
+vorkommenden W=F6rter, also kompositional, ermittelbar ist, sondern dem ges=
+amten
+Ausdruck ein Symbolcharakter im Sinne einer konventionalisierten
+Form/Funktions-Korrelation (Croft/Cruse 2004, Feilke 1996, Goldberg 1995, 2=
+006)
+zugeschrieben werden kann. Neue Perspektiven hat hier insbesondere die
+Konstruktionsgrammatik er=F6ffnet, die den Begriff der so definierten Konst=
+ruktion
+f=FCr die Analyse und Beschreibung sprachlicher Ph=E4nomene in den Mittelpu=
+nkt
+stellt. Die Bedeutung einer Konstruktion ist allerdings vielfach nur im Rah=
+men
+ihrer =C4u=DFerungsbedingungen, also des sozio-kulturellen Umfelds zu verst=
+ehen.
+Sowohl die Form von Konstruktionen als auch ihre Bedeutung ver=E4ndern sich=
+ im
+Laufe der Zeit; auch treten neue Konstruktionen auf: Sprache unterliegt
+st=E4ndiger Variation. =20
 
-8. Accepted entrants must prepare an A0 poster (portrait format) to be
-presented at a special session. Award winners are invited to prepare
-an oral presentation of their work (15 / 20 minutes).
+In j=FCngster Zeit wird der Begriff der Konstruktion nicht mehr ausschlie=
+=DFlich auf
+die klassischen Gegenstandsbereiche der Konstruktionsgrammatik wie zum Beis=
+piel
+Argumentstruktur-Konstruktionen bezogen. Der Begriff der Konstruktion ist
+bez=FCglich seines Umfangs prinzipiell offen; er erm=F6glicht daher den Ein=
+bezug
+kultureller Rahmeninformation in die Beschreibungen. Sowohl Bestandteile vo=
+n
+W=F6rtern (Morpheme) als auch Wortverbindungen (S=E4tze, Ausdr=FCcke) und s=
+elbst
+gr=F6=DFere sprachliche Einheiten wie eine Redewendung, ein Text oder ein D=
+ialog
+k=F6nnen mit den Begriffen der Konstruktionsgrammatik beschrieben werden. D=
+ass
+eine Ausweitung auf solche Einheiten funktioniert, zeigt etwa G=FCnthner (2=
+006)
+f=FCr kommunikative Gattungen sowie =D6stman (2005) f=FCr Textsorten und
+Dialogsequenzen. Die Charakterisierung der Konstruktion als
+linguistisch-soziokulturelle Einheit erinnert dabei an ein viel diskutierte=
+s
+Konzept der Kulturtheorie, das Mem (Dawkins 1976). Ein Mem ist ein Element
+kultureller Tradition, wie beispielsweise ein Musikst=FCck oder eine
+Modeerscheinung. Es ist in der Literatur umstritten, was genau als Mem gelt=
+en
+soll und ob Kulturph=E4nomene =FCberhaupt in Einheiten zergliederbar sind. =
+Ist schon
+bei vielen Konstruktionen auf Wort-, Phrasen- oder Satzebene f=FCr deren
+Beschreibung ein kultureller Eintrag notwendig, so gilt dies umso mehr f=FC=
+r
+Konstruktionen auf Text- oder Gespr=E4chsebene. Der Membegriff k=F6nnte ein=
+en
+m=F6glichen Ansatzpunkt bereitstellen, um den Kulturbegriff f=FCr den
+Konstruktionen-Ansatz zu operationalisieren.=20
 
-Important Dates:
+Vor diesem Hintergrund hat es sich die ALP 2010 zum Ziel gesetzt,
+grunds=E4tzlichen Fragestellungen zur Schnittstelle zwischen dem linguistis=
+chen
+Konzept Konstruktion und dem f=FCr ihre Beschreibung notwendigen soziokultu=
+rellen
+Hintergrundwissen nachzugehen. Die Leitfrage der ALP lautet dabei: Welche R=
+olle
+spielen soziokulturelle Faktoren bei der Beschreibung einer Konstruktion?  =
+Wir
+erhoffen uns Beitr=E4ge zu den folgenden Themen, sind aber offen f=FCr weit=
+ere
+spannende Vorschl=E4ge zum Rahmenthema:
+1. Beschreibung von Konstruktionen nach linguistischen und soziokulturellen
+Kriterien.
+2. Beschreibung der Semantik von Konstruktionen unter Ber=FCcksichtigung de=
+s
+pragmatisch-kulturellen Gehalts sowie der prinzipiellen Offenheit und
+Aushandelbarkeit von Bedeutungen.
+3. Beschreibung von Variation und Wandelerscheinungen bei Konstruktionen un=
+d
+Diskussion der Frage, inwiefern diese als Beispiele (sozio-)kultureller
+Evolution angesehen werden k=F6nnen.=20
 
-December 15, 2009 - Submission deadline.
-January  30, 2010 - Notification to authors.
+Call for Papers
 
-Evaluation Committee:
+Wenn Sie einen Vortrag halten m=F6chten, senden Sie uns einen Vorschlag mit=
+ Titel
+und Abstract bitte bis zum 14. Dezember 2009 an 'bueckerj@uni-muenster.de'.
+Anmeldungen ohne Abstracts werden auch unter dieser Adresse entgegen genomm=
+en.
+Die Tagungsgeb=FChr betr=E4gt EUR 15. Das Tagungsprogramm wird bis zum 15. =
+Januar
+2010 zusammengestellt.
 
-The PROPOR 2010 PhD and MSc Dissertation Contest evaluation committee,
-consisting of five members of the PROPOR 2010 Program Committee, will
-be posted on the PROPOR 2010 website.
+Tagungsorganisation:=20
+- J=F6rg Stefan B=FCcker, Universit=E4t M=FCnster: bueckerj@uni-muenster.de
+- Elke Diedrichsen, Universit=E4t M=FCnster: edied_01@uni-muenster.de
+- Wolfgang Imo, Universit=E4t M=FCnster: wolfimo@uni-muenster.de
+- Tilo Weber, University of Nairobi: tilo.weber@web.de
+
+Einzelheiten zu den Beitr=E4gen / zur Einreichung von Vorschl=E4gen:=20
+- Deadline f=FCr das Einreichen von Abstracts: 14.12.2009
+- L=E4nge der Abstracts: 400 W=F6rter; exklusive Literaturangaben
+- Bekanntgabe des Tagungsprogramms: 15.01.2010
 
 
-</pre>
-</div>
-</body>
-</html>
-
---===============0888120451==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
 
 
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
 
---===============0888120451==--
+-----------------------------------------------------------
+LINGUIST List: Vol-20-3925=09
+
+=09

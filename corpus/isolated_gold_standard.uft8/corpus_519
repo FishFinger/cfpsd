@@ -1,225 +1,207 @@
-From - Thu Dec 10 14:23:36 2009
+From - Thu Dec 10 14:23:40 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 3674908113e91d13b0992db883809d66677758d0
+X-Gmail-Received: 0cf3570fc8af167f4588fd56bbea046ac0eca6e0
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs91970pyi;
-        Fri, 7 Jul 2006 16:17:42 -0700 (PDT)
-Received: by 10.36.12.12 with SMTP id 12mr3064560nzl;
-        Fri, 07 Jul 2006 16:17:42 -0700 (PDT)
+Received: by 10.35.11.2 with SMTP id o2cs246237pyi;
+        Wed, 26 Jul 2006 14:09:08 -0700 (PDT)
+Received: by 10.35.135.12 with SMTP id m12mr11903831pyn;
+        Wed, 26 Jul 2006 14:09:08 -0700 (PDT)
 Return-Path: <rasmusse@research.rutgers.edu>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id 15si18883218nzp.2006.07.07.16.17.40;
-        Fri, 07 Jul 2006 16:17:42 -0700 (PDT)
+        by mx.gmail.com with ESMTP id q36si1353086pyg.2006.07.26.14.09.05;
+        Wed, 26 Jul 2006 14:09:08 -0700 (PDT)
 Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPui000355;
-	Sat, 8 Jul 2006 09:17:38 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QL8wSW025178;
+	Thu, 27 Jul 2006 07:09:04 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809173810727
- ; Sat, 08 Jul 2006 09:17:38 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707090328621
+ ; Thu, 27 Jul 2006 07:09:03 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHWi6000470;
-	Sat, 8 Jul 2006 09:17:32 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QL8xV4025184;
+	Thu, 27 Jul 2006 07:09:00 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k67NHUV9002547
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k6QL8wI6013373
 	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Sat, 8 Jul 2006 09:17:31 +1000 (EST)
+	Thu, 27 Jul 2006 07:08:58 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPVM000351;
-	Sat, 8 Jul 2006 09:17:30 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QL8wSU025178;
+	Thu, 27 Jul 2006 07:08:58 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809173010723
- ; Sat, 08 Jul 2006 09:17:30 +1000
-Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHR25000403;
-	Sat, 8 Jul 2006 09:17:27 +1000 (EST)
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707085728620
+ ; Thu, 27 Jul 2006 07:08:57 +1000
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QL8tPa025176;
+	Thu, 27 Jul 2006 07:08:55 +1000 (EST)
 Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
-	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k67NHNb12918;
-	Sat, 8 Jul 2006 09:17:23 +1000 (EST)
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k6QL8kA23865;
+	Thu, 27 Jul 2006 07:08:46 +1000 (EST)
 Received: (from rasmusse@localhost)
-	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k67MK4F27924;
-	Fri, 7 Jul 2006 18:20:04 -0400 (EDT)
-Date: Fri, 7 Jul 2006 18:20:03 EDT
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k6QJtAc28472;
+	Wed, 26 Jul 2006 15:55:10 -0400 (EDT)
+Date: Wed, 26 Jul 2006 15:55:10 EDT
 From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
 To: rasmusse@cs.rutgers.edu
-Subject: The Netherlands: Seventh International Workshop on Computational
-        Semantics (IWCS-7) -- CFP
-Message-ID: <CMM-RU.1.5.1152310803.rasmusse@research.rutgers.edu>
+Subject: Japan: First International Workshop on Intercultural Collaboration
+        (IWIC 2007) -- CFP
+Message-ID: <CMM-RU.1.5.1153943710.rasmusse@research.rutgers.edu>
 
 
-[ Apologies for multiple copies ]
+CALL FOR PAPERS
 
-----------------------------------------------------------------------
+The First International Workshop on Intercultural Collaboration (IWIC
+2007)
+http://langrid.nict.go.jp/iwic2007/
+January 25-26, 2007
+Kyoto University Clock Tower International Conference Hall, Japan
 
-                    Seventh International Workshop on
+Program Co-Chairs
+Toru Ishida (Kyoto University, Japan)
+Susan R. Fussell (Carnegie Mellon University, USA)
+Piek TJM Vossen(Vrije Universiteit Amsterdam, The Netherlands)
 
-                        COMPUTATIONAL SEMANTICS
+The main theme of this workshop is intercultural collaboration, from
+both
+technical and socio-cultural perspectives. Topics will include
+collaboration support (such as natural language processing, Web, and
+Internet technologies), social psychological analyses of intercultural
+interaction, and case studies from activists working to increase
+mutual
+understanding in our multicultural world. Submissions will be
+considered for
+papers, panels, demonstrations, and posters.
 
-                             (IWCS-7)
+This is a unique workshop in a world where physical borders disappear
+rapidly and people and cultures are more and more on the move and in
+contact. The workshop will feature four prominent invited speakers:
 
-             January 10-12, 2007, Tilburg, The Netherlands
+Christiane D. Fellbaum (Department of Psychology, Princeton
+University)
+Yumiko Mori (NPO Pangaea)
+Gary Olson (School of Information, University of Michigan)
+Wolfgang Wahlster (German Research Center for Artificial Intelligence)
 
-                            -------------
-                             Endorsed by SIGSEM,
-        the ACL Special Interest Group in Computational Semantics
+Papers: Papers are solicited on any aspect of intercultural
+collaboration.
+Papers can address technologies to support intercultural
+collaboration,
+laboratory and field studies of intercultural collaboration, and case
+reports from field workers. Examples of suitable paper topics include:
 
-                            -------------
+- Field studies of intercultural teamwork
+- Cases of intercultural collaboration using IT
+- Computer supported intercultural collaboration
+- Internet and web technologies for intercultural collaboration
+- Ubiquitous/ambient technologies for intercultural collaboration
+- Multilingual dictionaries and translations
+- Multilingual NLP web services
+- Standardization issues on resources and tools for multilingual
+- processing
+- Usability of multilingual resources and the Language Grid
 
+Submit your abstract (ascii text, 300 words or less) and full paper
+(PDF)
+written in English, by e-mail to iwic2007[at]khn.nict.go.jp.
+Full papers should be submitted camera-ready in Springer Lecture Note
+Series
+(LNCS) format. Please follow the instructions for authors available at
+the
+Springer Web page:
+http://www.springer.de/comp/lncs/authors.html. Submitted
+full papers should be 12 to 15 pages long in the LNCS format. Surface
+mail
+address, e-mail addresses should be included for all contributing
+authors.
+The post-proceedings of IWIC will be published as a volume of
+Springer LNCS.
 
-                FIRST ANNOUNCEMENT AND CALL FOR PAPERS
+Panels: Individuals may submit proposals for panels of three or four
+talks
+on a related theme in intercultural communication. Panel submissions
+should
+be no more than four pages in length. They will not be archival, so
+panelists may discuss previously published work. Submissions should
+provide
+each panelist's background and contact information, as well as a brief
+statement of his or her position on the panel theme.
 
-Tilburg University will host the Seventh International Workshop on
-Computational Semantics (IWCS-7), which will take place on 10-12
-January 2007. The aim of the workshop is to bring together
-researchers interested in any aspects of the computation, annotation,
-extraction, and representation of meaning in natural language, 
-in multimedia objects, and in multimodal messages.
+Demonstrations: Individuals may submit proposals to present
+demonstrations
+of new technologies for intercultural communication.  Demonstration
+proposals should be no more than four pages in length. They should
+clearly
+describe the motivation for the tool and how it will be demonstrated
+at the
+workshop. Demonstration descriptions will not be archival; therefore,
+demonstrations can include both previously published work and work
+that is
+not yet ready for publication.
 
+Posters: Individuals may submit proposals to present informal posters
+during the workshop.  Poster proposals should be no more than four
+pages in
+length and summarize the poster content.  Poster descriptions will not
+be
+archival; therefore, posters can describe both previously published
+work and
+work that is not yet ready for publication.
 
-                          TOPICS OF INTEREST
+Review Process: Submitted papers, panels, and demonstrations will be
+reviewed by a panel of distinguished researchers in the area of
+intercultural communication.
 
-Areas of special interest for the workshop will be computational
-aspects of semantic theories; theoretical aspects of the design of
-language understanding systems and systems for multimodal
-communication; and semantic annotation of natural language and
-multimodal utterances. Papers are invited that are concerned with
-topics in these and closely related areas, including, but not 
-limited to, the following:
+Important Dates:
+Deadline for abstracts: September 1st, 2006
+Deadline for papers, panels, posters and demos: September 15th, 2006
+Author notification: November 1st, 2006
+Deadline for camera ready papers: December 1st, 2006
+Deadline for camera ready post-proceedings papers: March 1st, 2007
 
-  * construction of representations of meaning in natural language
-  * methodologies and practices for semantic annotation
-  * modelling and using context in semantic interpretation
-  * machine learning of semantic structures
-  * formal and computational methods in lexical semantics
+Travel Support: We provide limited financial support to students and
+other
+researchers who are co-authors of accepted papers to give their
+presentation
+at the workshop. Instructions on how to apply for a grant will be
+provided
+with acceptance notifications.
 
-  * computing meaning in multimodal interaction
-  * construction and use of underspecified semantic representations 
-  * semantic concepts and ontologies
-  * approaches to textual entailment
-  * the semantics and pragmatics of dialogue acts
+General Co-Chairs
+Yasuhiro Katagiri (Future University Hakodate, Japan)
+Hitoshi Isahara (NICT, Japan)
 
-  * the semantic web and natural language processing
-  * semantic aspects of language generation
-  * the semantics-pragmatics interface in computational perspective
-  * semantic relations in discourse and dialogue
-  * shallow and deep semantic processing and reasoning
+Program Commitee
+-Pushpak Bhattacharyya (Indian Institute of Technology, India)
+-Francis Bond (NTT Corporation, Japan)
+-Nicoletta Calzolari (Istituto Linguistica Computazionale, Italy)
+-Key-Sun Choi (KAIST, Korea)
+-Catherine Cramton (George Mason University, USA)
+-Christiane D. Fellbaum (Princeton University, USA)
+-Yoshihiko Hayashi (Osaka University, Japan)
+-Susan Catherine Herring (Indiana University, USA)
+-Reiko Hishiyama (Kyoto Women's University, Japan)
+-Chu-Ren Huang (The Institute of Linguistics, Academia Sinica, Taiwan)
+-Nancy Ide (Vassar College, USA)
+-Katherine Isbister (Rensselaer Polytechnic Institute, USA)
+-Chigusa Kita (Kansai University, Japan)
+-Manolis Koubarakis (Technical University of Crete, Greece)
+-Kyoung Jun Lee (Kyung Hee University, Korea)
+-Fang Li (Shanghai Jiaotong University, China)
+-Shigeo Matsubara (NTT Corporation, Japan)
+-Micihiko Minoh (Kyoto University, Japan)
+-Akiyo Nadamoto (NICT, Japan)
+-Hideyuki Nakanishi (Osaka University, Japan)
+-Gary Olson (University of Michigan, USA)
+-Judy Olson (University of Michigan, USA)
+-Yuanchun Shi (Tsinghua University, China)
+-Virach Sornlertlamvanich (Computational Linguistics Laboratory,
+Thailand)
+-Dan Tufis (University "A.I.Cuza" of Iasi, Romania)
+-Kiyotaka Uchimoto (NICT, Japan)
+-Zili Zhang (Southwest University, USA)
+-Qiping Zhang (Drexel University, USA)
+-Michael Zock (CNRS, France)
 
-
-                   ISO/SIGSEM JOINT WORKING GROUP MEETING
-
-Immediately preceding IWCS-7, on 8-9 January 2007, a joint meeting 
-will be held of the ISO TC 37/SC 4 Thematic Domain Group on Semantic 
-Content, and the ACL SIGSEM Working Group on the Representation of 
-Multimodal Semantic Information. This meeting will be open to (a 
-limited number of) IWCS-7 participants. For more information see 
-http://let.uvt.nl/research/ti/iso-tdg3 and 
-http://let.uvt.nl/research/TI/sigsem/wg
-
-
-
-
-                       PROGRAMME COMMITTEE
-
-              James Allen            Alex Lascarides
-              Patrick Blackburn      Kiyong Lee 
-              Johan Bos              Dan Moldovan
-              Harry Bunt (chair)     Reinhard Muskens
-              Nicoletta Calzolari    Martha Palmer
-              Robin Cooper           Manfred Pinkal
-              Kees van Deemter       Massimo Poesio
-              Jan van Eijck          Steve Pulman
-              Dafydd Gibbon          James Pustejovsky
-              Jerry Hobbs            Alan Ramsay
-              Ed Hovy                Laurent Romary
-              Daniel Kayser          Patrick Saint Dizier
-              Paul Mc Kevitt         Carl Vogel
-              Alexander Koller       Bonnie Webber
-              Emiel Krahmer          
-
-
-                         ORGANISING COMMITTEE
-
-              Harry Bunt             Reinhard Muskens
-              Jeroen Geertzen        Amanda Schiffrin
-              Simon Keizer           Elias Thijsse 
-              Lauraine Sinay (secr.) Femke Wieme (secr.)
-
-
-                       SUBMISSION REQUIREMENTS
-
-Three types of submission are solicited: full papers, short papers,
-and project abstracts.
-
-Full papers
------------
-Full papers are original papers of maximally 12 pages, that will be 
-published in the workshop proceedings and will have a full oral 
-presentation of about 30 minutes at the workshop.
-
-Short papers
-------------
-Short papers are mini-papers of maximally 4 pages, that will be 
-published in the workshop proceedings and have a very brief ('flash') 
-oral presentation at the workshop. Authors of short papers are 
-invited to also put up a poster and participate in a poster session.
-
-Project abstracts
------------------
-Project abstracts are brief descriptions of 2 pages of ongoing,
-recently completed, or starting projects. They will be published in
-the workshop proceedings and will be presented in a poster session.
-
-Submission formats
-------------------
-Submissions of all three types should be in postscript or pdf
-format and prepared with LaTeX; see the IWCS-7 website
-http://let.uvt.nl/research/ti/sigsem/iwcs/iwcs7 for more
-information on the style files to be used. The page limits
-presuppose standard 11 point Computer Modern font. Final versions
-of accepted contributions will have to be submitted as LaTeX
-source files to facilitate publication of the proceedings; we also
-aim at publishing a selection of accepted papers in book form
-after the workshop.
-
-Email your postscript or pdf file to: computational.semantics@uvt.nl
-
-Submission deadlines
---------------------
-For full papers the submission deadline is 25 September 2006; for
-short papers and project abstracts the deadline is 1 November.
-
-
-                           IMPORTANT DATES
-
-  25 September  2006 Submission of full papers
-  25 October    2006 Notification of acceptance
-  1  November   2006 Submission of short papers and project abstracts
-  15 November   2006 Final papers due
-  1 December    2006 Deadline for early registration
-  8-9 January   2007 Joint Meeting of ISO TC 37/SC 4 Thematic Domain 
-                     Group on Semantic Content and ACL SIGSEM Working 
-                     Group on the Representation of Multimodal 
-                     Semantic Information
-  10-12 January 2007 IWCS-7 workshop
-
-
-                         FURTHER INFORMATION
-
-Secretariat: Ms Lauraine Sinay or Ms Femke Wieme
-             Department of Language and Information Science
-             Tilburg University
-             PO Box 90153
-             5000 LE Tilburg
-             The Netherlands
-             Fax:   +31-13 466 28 92
-             Phone: +31-13 466 30 60 or ..81 18 or ..26 68
-             Email: computational.semantics@uvt.nl
-
-Website: http://let.uvt.nl/research/ti/sigsem/iwcs/iwcs7
-
-----------------------------------------------------------------------
-IWCS-7 is endorsed by SIGSEM, the ACL Special Interest Group in
-Computational Semantics (see http://www.sigsem.org).
------------------------------------------------------------------
+For further information, please contact iwic2007[at]khn.nict.go.jp.
+===================================================
 

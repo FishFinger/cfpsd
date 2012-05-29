@@ -1,233 +1,329 @@
-From - Thu Dec 10 14:23:57 2009
+From - Thu Dec 10 14:39:14 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 7a29c4672ac6e77c38358440c4e8561c7ac16bc3
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs48028pyn;
-        Tue, 29 Aug 2006 13:26:22 -0700 (PDT)
-Received: by 10.65.151.6 with SMTP id d6mr9134265qbo;
-        Tue, 29 Aug 2006 13:26:22 -0700 (PDT)
-Return-Path: <rasmusse@research.rutgers.edu>
-Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id e15si300545qbe.2006.08.29.13.26.19;
-        Tue, 29 Aug 2006 13:26:22 -0700 (PDT)
-Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7TKQIZ6003781;
-	Wed, 30 Aug 2006 06:26:18 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006083006261716513
- ; Wed, 30 Aug 2006 06:26:17 +1000
-Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7TKQECH003775;
-	Wed, 30 Aug 2006 06:26:14 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7TKQ8IE012863
-	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Wed, 30 Aug 2006 06:26:08 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7TKQ7aB003769;
-	Wed, 30 Aug 2006 06:26:07 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006083006260616512
- ; Wed, 30 Aug 2006 06:26:06 +1000
-Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7TKQ3j7003765;
-	Wed, 30 Aug 2006 06:26:03 +1000 (EST)
-Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
-	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k7TKPsd08578;
-	Wed, 30 Aug 2006 06:25:59 +1000 (EST)
-Received: (from rasmusse@localhost)
-	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k7TJGK519981;
-	Tue, 29 Aug 2006 15:16:20 -0400 (EDT)
-Date: Tue, 29 Aug 2006 15:16:17 EDT
-From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
-To: rasmusse@cs.rutgers.edu
-Subject: Czech Republic: Treebanks and Linguistic Theories 2006, the 5th
-        International Workshop -- 3rd and FINAL CFP
-Message-ID: <CMM-RU.1.5.1156878977.rasmusse@research.rutgers.edu>
+Received: by 10.204.118.66 with SMTP id u2cs108667bkq;
+        Wed, 25 Nov 2009 02:43:09 -0800 (PST)
+Received: by 10.213.100.80 with SMTP id x16mr7684787ebn.18.1259145780484;
+        Wed, 25 Nov 2009 02:43:00 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 23si614567ewy.4.2009.11.25.02.42.57;
+        Wed, 25 Nov 2009 02:43:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1NDFKO-0002uf-4Q; Wed, 25 Nov 2009 11:42:28 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1NDFKM-0002uW-F9; Wed, 25 Nov 2009 11:42:26 +0100
+Received: from imap.science.uva.nl [146.50.4.51] 
+	by rolf.uib.no for corpora@uib.no with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69) id 1NDFKL-0004wQ-NO; Wed, 25 Nov 2009 11:42:26 +0100
+Received: from cs-ilps.science.uva.nl [146.50.1.112]
+	by imap.science.uva.nl with ESMTP (sendmail 8.13.8/config 11.38).
+	id nAPAgIqO029147; Wed, 25 Nov 2009 11:42:19 +0100
+X-Organisation: Faculty of Science, University of Amsterdam, The Netherlands
+X-URL: http://www.science.uva.nl/
+Date: Wed, 25 Nov 2009 11:42:19 +0100 (MET)
+From: Erik Tjong Kim Sang <erikt@science.uva.nl>
+To: corpora@uib.no
+Message-ID: <Pine.LNX.4.58.0911251140220.6425@cs-ilps.science.uva.nl>
+MIME-Version: 1.0
+X-Virus-Scanned: by amavisd-new
+X-checked-clean: by exiscan on rolf
+X-Scanner: 1eb02b466479a5a994c8bc8ca56058c8 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -20.9 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found; -6.0 another conference
+	-15 From is listed in 'whitelist_SA' 0.1 BODY: UIB_MAILWON
+Subject: [Corpora-List] CoNLL-2010: First Call for Papers
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
 
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+CoNLL-2010
+Fourteenth Conference on Computational Natural Language Learning
+Uppsala, Sweden
+July 15-16, 2010
+http://www.cnts.ua.ac.be/conll/
 
-             TREEBANKS AND LINGUISTIC THEORIES 2006
-                  5th International Workshop
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Call for Papers
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
 
-           Prague, Czech Republic, December 1-2, 2006
+CoNLL is the yearly international conference on natural language
+learning organized by SIGNLL (the ACL Special Interest Group on
+Natural Language Learning). This year, CoNLL will be collocated with
+ACL 2010 in Uppsala, Sweden.
 
-                    http://www.tlt2006.org
-
-                  3rd [FINAL] CALL FOR PAPERS
-
-
-This the FINAL CALL for paper submission to the Treebanks and
-Linguistic Theories '06 conference. We remind you there is about two
-weeks remaining to polish and send off your submission!
-
-The Guidelines for paper submission are available at
-http://www.tlt2006.org, link "Instructions for Authors" (or directly
-at http://ufal.mff.cuni.cz/tlt2006/auth.html). The deadline for
-submitting your papers is Sept. 8, 2006, as previously announced.
-
-*******************************************************************
-*******************************************************************
-
-Workshop motivation and aims 
-----------------------------
-
-Treebanks are a language resource that provides annotations of natural
-languages at various levels of structure: at the word level, the
-phrase level, the sentence level, and sometimes also at the level of
-function-argument structure. Treebanks have become crucially important
-for the development of data-driven approaches to natural language
-processing, human language technologies, grammar extraction and
-linguistic research in general. There are a number of on-going
-projects on compilation of representative treebanks for languages that
-still lack them (Bulgarian, Catalan, Danish, Portugese, Spanish,
-Turkish) and a number of on-going projects on compilation of treebanks
-for specific purposes for languages that already have them
-(English). In addition, there are projects that go beyond syntactic
-analysis to include different kinds of semantic and pragmatic
-annotation. We specifically encourage submissions that discuss the
-relations and links between, and possibly merging of, various aspects
-of morphological, syntactic, semantic, and contents/pragmatic
-annotation; also, submissions describing work on parallel treebanks
-and/or cross-language annotation schemas, theories and applications
-are more than encouraged as well.
-
-The practices of building syntactically processed corpora have proved
-that aiming at more detailed description of the data becomes more and
-more theory-dependent (Prague Dependency Treebank and other
-dependency-based treebanks such as the Danish dependency treebank, the
-Italian treebank (TUT), and the Turkish treebank (METU); Verbmobil
-HPSG Treebanks, Polish HPSG Treebank, Bulgarian HPSG-based Treebank,
-etc.). Therefore the development of treebanks and formal linguistic
-theories need to be more tightly connected in order to ensure the
-necessary information flow between them.
-
-This series of workshops aims at being a forum for researchers and
-advanced students working in these areas. The fifth workshop will be
-held in Prague, Czech Republic, 1-2 December 2006, with a number of
-co-located events surrounding it (for more information see
-www.tlt2006.org). (The first TLT workshop was held in Sozopol,
-Bulgaria in
-September 2002; see http://www.bultreebank.org/Proceedings.html), the
-second one in Vaxjo, Sweden in November 2003
-(http://w3.msi.vxu.se/~rics/TLT2003/, the third one in Tuebingen,
-Germany in December 2004 (http://www.sfs.uni-tuebingen.de/tlt04/) and
-the fourth workshop was held in Barcelona, Spain, 9-10 December
-2005 (http://clic.fil.ub.es/personal/civit/tlt05cfp.html).
-
-Topics of interest 
-------------------
-
-We invite submission of papers on topics relevant to treebanks and
-linguistic theories, including but not limited to:
-
-- design principles and annotation schemes for treebanks; 
-- applications of treebanks in acquiring linguistic knowledge and in
-- NLP;
-- the role of linguistic theories in treebank development; 
-- treebanks as a basis for linguistic research; 
-- semantically annotated treebanks; 
-- evaluation and quality control of treebanks; 
-- tools for creation and management of treebanks; 
-- standards for treebanks.  
-
-Important dates 
+Important Dates
 ---------------
 
-(Always midnight, UTC, ignoring DST)
+ * Paper submission deadline: March 8, 2010, 23:59 GMT
 
-Deadline for paper submission:                    September 8, 2006
-Notification of acceptance:                       October 8, 2006
-Final version of paper for workshop proceedings:  October 29, 2006
-Workshop:                                         December 1-2, 2006
+ * Notification of acceptance: April 15
 
-Submission
-----------
+ * Camera-ready copy deadline: May 6
 
-Please note that this time, we require full papers (max. length: 12
-pages A4) be submitted, describing existing research related to the
-topics of the workshop. Please see
-http://ufal.mff.cuni.cz/tlt2006/auth.html for complete information
-where, when, and how to submit.
+ * Conference: July 15-16
 
-Presentation
-------------
 
-The presentation at the workshop will be 25 minutes long (20 minutes
-for presentation and 5 minutes for questions and discussion). The
-final version of the accepted papers may not exceed 12 A4 pages
-(which will be printed on B5 without any reduction).
+Topics
+------
 
-Invited speakers
+We invite submission of papers about natural language learning
+topics including:
+
+ * Supervised, unsupervised and semi-supervised machine learning
+   methods applied to natural language
+
+ * Computational models of human language acquisition and processing
+
+ * Optimisation methods and inference algorithms for natural language
+
+ * Active learning for natural language processing tasks
+
+ * Computational learning theory analysis of language learning
+
+ * Empirical and theoretical comparisons of language learning methods
+   including novel evaluation methods
+
+ * Computational models of language evolution and historical change
+
+ * Algorithms for grammatical inference applied to natural language
+
+See http://ifarm.nl/signll/ and http://ifarm.nl/signll/conll/ for more
+information about SIGNLL and CoNLL.
+
+
+Invited Speakers
 ----------------
 
-Martha Palmer, Professor at University of Colorado at Boulder
-(http://verbs.colorado.edu/mpalmer/palmer/):
-SemLink - Combining PropBank, VerbNet and FrameNet
+ * Lillian Lee (Cornell University)
+ * Zoubin Ghahramani (University of Cambridge)
 
-Gosse Bouma, Professor at University of Groningen
-(http://www.let.rug.nl/~gosse/):
-(tentative: Creating and Exploring Large Treebanks)
 
-Program committee 
+Special Topic of Interest
+-------------------------
+
+This year in CoNLL-2010 the special topic of interest is:
+
+     	  Grammar induction
+
+We encourage submissions on papers relating to grammar induction, from
+a machine learning, natural language engineering and cognitive
+perspective. We wish to bring together researchers working on varying
+aspects of grammar learning in a number of different areas including
+statistical methods, pattern recognition, neural networks,
+computational linguistics, computational learning theory, automata
+theory, and language acquisition.  Specifically, we encourage
+submissions of papers addressing:
+
+ * Different models of grammar induction: e.g., learning from
+   examples, learning using examples and queries, incremental versus
+   non-incremental learning, distribution-free models of learning,
+   learning under various distributional assumptions, learning from
+   single versus multiple languages, learning synchronous grammars.
+
+ * Different settings for grammar induction: unsupervised and
+   semi-supervised approaches to grammar induction; supervised learning
+   augmented by grammar induction techniques, e.g. state splitting
+   using latent grammar symbols. Online learning, bootstrapping
+   approaches, and Bayesian approaches to grammar induction
+
+ * Theoretical results in grammar induction of formal languages
+   with application to natural language learning: e.g., impossibility
+   results, complexity results, characterizations of representational
+   and search biases of grammar induction algorithms.
+
+ * Cognitive models of grammar induction: e.g., models that faithfully
+   represent the cognitive operations involved in human language
+   acquisition or models that help explain facts about grammar
+   acquisition (e.g., poverty of the stimulus).
+
+ * Empirical comparison of different approaches to grammar induction.
+
+ * Demonstrated or potential applications of grammar induction in
+   natural language processing, machine translation, dialogue systems,
+   computational biology, structural pattern recognition, adaptive
+   intelligent agents, and other domains.
+
+
+Best Paper Award
+----------------
+
+As in previous CoNLL conferences, a Best Paper Award will be given to
+the authors of the highest quality paper. The most important aspects
+in judging the quality of a paper for this award will be: originality,
+innovativeness, relevance, and impact of the presented research.
+
+
+Main Session Submission Details
+-------------------------------
+
+A paper submitted to CoNLL-2010 must describe original, unpublished
+work. Submit a full paper by March 8 2009, 23:59 GMT. Papers must
+have at most 8 pages of content, plus any number of pages that
+contain references. Submission must be done electronically through
+the web form at:
+
+https://www.softconf.com/acl2010/acl2010conll/submit.html
+
+We require the use of the ACL 2010 LaTeX style files or Microsoft
+Word Style files tailored for this year's conference.  Papers must
+conform to the official ACL 2010 style guidelines.  Authors who are
+unable to use these style files or submit a PDF file electronically
+should contact the program co-chairs.
+
+Since reviewing will be blind, the paper should not include the
+authors' names and affiliations, and there should be no
+self-references that reveal the authors' identity. In the submission
+form, you will be asked for the following information: paper title,
+authors' names, affiliations, and email addresses, contact author's
+email address, a list of keywords, abstract, and an indication of
+whether the paper has been simultaneously submitted to other
+conferences (and if so which conferences). The contact author of an
+accepted paper under multiple submissions should inform the program
+co-chairs immediately whether he or she intends the accepted paper to
+appear in CoNLL-2010.  A paper that appears in CoNLL-2010 must be
+withdrawn from other conferences.
+
+Authors of accepted submissions are to produce a final paper to be
+published in the proceedings of the conference, which will be
+available at the conference for participants, and distributed
+afterwards by ACL. Final papers must also follow the ACL 2010 style
+and should have at most 8 pages of content plus extra pages for
+references only.  The camera ready submission deadline is listed
+above.  At least one author is expected to register for the conference
+and present the paper. Please do not submit a paper if you do not
+plan to attend the conference.
+
+As in previous years, CoNLL-2010 will include a shared task which is
+organized by a separate committee. The details of the shared task are
+included in this CFP (see below). Please note the different submission
+details and deadlines for the shared task.
+
+
+Conference Chairs
 -----------------
 
-Jan Hajic, Czech Republic (co-chair)
-Joakim Nivre, Sweden (co-chair)
+Anoop Sarkar
+School of Computing Science
+Simon Fraser University
+anoop (at) cs.sfu.ca
 
-Members of the PC:
+Mirella Lapata
+School of Informatics
+University of Edinburgh
+mlap (at) inf.ed.ac.uk
 
-Emily Bender, USA 
-Thorsten Brants, USA 
-Koenraad de Smedt, Norway
-Tomaz Erjavec, Slovenia
-Joseph van Genabith, Ireland
-Eva Hajicova, Czech Republic
-Jiri Hana, USA
-Erhard Hinrichs, Germany 
-Timo Jaervinen, Finalnd 
-Kimmo Koskenniemi, Finland 
-Tony Kroch, USA
-Sandra Kuebler, Germany 
-Yuji Matsumoto, Japan
-Detmar Meurers, USA 
-John Nerbonne, The Netherlands 
-Grace Ngai, Hong Kong
-Karel Oliva, Czech Republic
-Stephan Oepen, Norway/USA 
-Petya Osenova, Bulgaria
-Ferran Pla, Spain
-Horacio Rodriguez, Spain
-Kiril Simov, Bulgaria
-Otakar Smrz, Czech Republic
-Barbora Vidova-Hladka, Czech Republic
-Martin Volk, Sweden 
-Daniel Zeman, USA 
-
-Local Organizers
-----------------
-
-Jan Hajic
-Anna Kotesovcova
-
-Institute of Formal and Applied Linguistics, http://ufal.mff.cuni.cz
-School of Computer Science, Faculty of Mathematics and Physics
-Charles University, Prague
-Czech Republic
-email: info@tlt2006.org
-
-Venue
------
-
-School of Computer Science, MFF UK
-Malostranske nam. 25
-CZ-11800 Prague 1
-Czech Republic
-
-Sponsoring organisations 
-------------------------
-
-Charles University, Prague
+For the full program committee please visit the CoNLL-2010 website:
+http://www.cnts.ua.ac.be/conll/
 
 
+Shared Task
+-----------
+
+"Learning to detect hedges and their scope in natural language texts"
+
+In Natural Language Processing (NLP) - in particular, in Information
+Extraction (IE) - many applications aim at extracting factual
+information from text. In order to distinguish facts from unreliable
+or uncertain information, linguistic devices such as hedges
+(indicating that authors do not or cannot back up their
+opinions/statements with facts) have to be identified. Applications
+should handle detected speculative parts in a different manner.  Hedge
+detection has received considerable interest recently in the
+biomedical NLP community, including research papers addressing the
+detection of hedge devices in biomedical texts, and some recent work
+on detecting the in-sentence scope of hedge cues in text.  Exploiting
+the hedge scope annotated BioScope corpus and publicly available
+Wikipedia texts, the goals of the Shared Task are 1) learning to
+detect hedge cues in natural language texts and 2) learning to resolve
+the in-sentence scope of hedge cues.
+
+The task is described in detail in its own Call for Participation at
+http://www.inf.u-szeged.hu/rgai/conll2010st
+
+Shared Task contact email: rfarkas (at) inf.u-szeged.hu
+(Richard Farkas, University of Szeged)
+
+Shared Task tentative dates and deadlines:
+
+ * January 11, 2010: release of trial datasets and scorer;
+
+ * January 18, 2010: registration for the task opens;
+
+ * February 1, 2010: training and development sets available;
+
+ * March 28, 2010: test set available;
+
+ * April 2, 2010: systems' outputs collected;
+
+ * April 18, 2010: deadline for system paper submission;
+
+ * May 2, 2010: notification of acceptance;
+
+ * May 9: deadline for camera ready paper submission.
+
+
+Shared Task Submissions
+-----------------------
+
+See the shared task web page for detailed instructions at
+http://www.inf.u-szeged.hu/rgai/conll2010st
+
+
+Shared Task Organizers
+----------------------
+
+Richard Farkas, Human Language Technology Group, University of Szeged
+(rfarkas at inf.u-szeged.hu)
+
+Organizers:
+
+ * Veronika Vincze, Human Language Technology Group, University of
+   Szeged (vinczev at inf.u-szeged.hu)
+
+ * Gyorgy Szarvas, Ubiquitous Knowledge Processing (UKP) Lab,
+   Technische Universitaat Darmstadt
+   (szarvas at tk.informatik.tu-darmstadt.de)
+
+ * Gyorgy Mora, Human Language Technology Group, University of Szeged
+   (gymora at inf.u-szeged.hu)
+
+ * Janos Csirik, Research Group of Artificial Intelligence, Hungarian
+   Academy of Sciences (csirik at inf.u-szeged.hu)
+
+
+Information Officer
+-------------------
+
+Erik Tjong Kim Sang
+University of Groningen (The Netherlands)
+erikt (at) xs4all.nl
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

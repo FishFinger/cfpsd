@@ -1,213 +1,94 @@
-From - Thu Dec 10 14:23:41 2009
+From - Thu Dec 10 14:23:56 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: dd26f5c7ffb9bbea957780494ac6134d086486dd
+X-Gmail-Received: 097b284f1169dbef34e0b29d92dfb8905e86d7b4
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs29662pyi;
-        Fri, 4 Aug 2006 12:06:30 -0700 (PDT)
-Received: by 10.35.126.7 with SMTP id d7mr5519432pyn;
-        Fri, 04 Aug 2006 12:06:28 -0700 (PDT)
-Return-Path: <sentto-1622440-2082-1154718364-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: by 10.35.126.10 with SMTP id d10cs640728pyn;
+        Mon, 28 Aug 2006 14:25:02 -0700 (PDT)
+Received: by 10.35.94.2 with SMTP id w2mr13264358pyl;
+        Mon, 28 Aug 2006 14:25:01 -0700 (PDT)
+Return-Path: <rasmusse@research.rutgers.edu>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id n62si897656pyf.2006.08.04.12.06.26;
-        Fri, 04 Aug 2006 12:06:28 -0700 (PDT)
-Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2082-1154718364-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
-DomainKey-Status: good
+        by mx.gmail.com with ESMTP id k62si7558109pyk.2006.08.28.14.24.59;
+        Mon, 28 Aug 2006 14:25:01 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k74J6Kp7008678
-	for <jpprost@gmail.com>; Sat, 5 Aug 2006 05:06:24 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7SLOvYq022683;
+	Tue, 29 Aug 2006 07:24:57 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080505062416471
- for <jpprost@gmail.com>; Sat, 05 Aug 2006 05:06:24 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082907245707680
+ ; Tue, 29 Aug 2006 07:24:57 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k74J6LUc008684
-	for <jpprost@gmail.com>; Sat, 5 Aug 2006 05:06:21 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7SLOtDQ022680;
+	Tue, 29 Aug 2006 07:24:56 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k74J6Lj7008492
-	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
-	for <jpprost@vesuvius.ics.mq.edu.au>; Sat, 5 Aug 2006 05:06:21 +1000 (EST)
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7SLOoFs029460
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Tue, 29 Aug 2006 07:24:50 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k74J6Kp3008678
-	for <jpprost@vesuvius.ics.mq.edu.au>; Sat, 5 Aug 2006 05:06:21 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7SLOoLw022674;
+	Tue, 29 Aug 2006 07:24:50 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080505061816469
- for <jpprost@vesuvius.ics.mq.edu.au>; Sat, 05 Aug 2006 05:06:18 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082907244707679
+ ; Tue, 29 Aug 2006 07:24:47 +1000
 Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k74J6Dqm008671
-	for <jpprost@ics.mq.edu.au>; Sat, 5 Aug 2006 05:06:13 +1000 (EST)
-Received: from n27.bullet.scd.yahoo.com (n27.bullet.scd.yahoo.com [66.94.237.56])
-	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k74J6BA22866
-	for <jpprost@ics.mq.edu.au>; Sat, 5 Aug 2006 05:06:11 +1000 (EST)
-Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
-DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
-	b=Elcsb8ecyqcNFf7Jf7uUuBqlFEn6DczWn3vKm0GoX4KMmE2SuZ6MkrWkrawdvpk5ygz/G0YJQRazXAlgdhuh6iwrxPuObBVn0nJPoqT7RrUDWdjkqvwDY7GGkVGKd3Fu;
-Received: from [66.218.69.3] by n27.bullet.scd.yahoo.com with NNFMP; 04 Aug 2006 19:06:04 -0000
-Received: from [66.218.67.95] by t3.bullet.scd.yahoo.com with NNFMP; 04 Aug 2006 19:06:04 -0000
-X-Yahoo-Newman-Property: groups-email
-X-Yahoo-Newman-Id: 1622440-m2082
-X-Sender: bel@lpl.univ-aix.fr
-X-Apparently-To: lpl-infos@yahoogroupes.fr
-Received: (qmail 51792 invoked from network); 4 Aug 2006 19:06:03 -0000
-Received: from unknown (66.218.66.166)
-  by m38.grp.scd.yahoo.com with QMQP; 4 Aug 2006 19:06:03 -0000
-Received: from unknown (HELO smtp2-g19.free.fr) (212.27.42.28)
-  by mta5.grp.scd.yahoo.com with SMTP; 4 Aug 2006 19:06:02 -0000
-Received: from [82.251.62.244] (lns-bzn-36-82-251-62-244.adsl.proxad.net [82.251.62.244])
-	by smtp2-g19.free.fr (Postfix) with ESMTP id 3A5EC73A82;
-	Fri,  4 Aug 2006 21:05:38 +0200 (CEST)
-Message-Id: <p0623090bc0f94a7c841a@[82.251.62.244]>
-To: lpl-infos@yahoogroupes.fr
-Cc: speech-prosody@up.univ-mrs.fr
-X-Originating-IP: 212.27.42.28
-X-eGroups-Msg-Info: 1:0:0:0
-From: Bernard Bel <bel@lpl.univ-aix.fr>
-X-Yahoo-Profile: belbernard
-Sender: lpl-infos@yahoogroupes.fr
-MIME-Version: 1.0
-Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
-Delivered-To: mailing list lpl-infos@yahoogroupes.fr
-List-Id: <lpl-infos.yahoogroupes.fr>
-Precedence: bulk
-List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
-Date: Fri, 4 Aug 2006 21:04:57 +0200
-Subject: [lpl-infos] 1st CfP for the Special issue on "Multimodal Corpora" of the
- Journal of Language Resources and Evaluation
-Content-Type: text/plain; charset=US-ASCII
-Content-Transfer-Encoding: quoted-printable
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7SLOjcO022667;
+	Tue, 29 Aug 2006 07:24:45 +1000 (EST)
+Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k7SLOfe09990;
+	Tue, 29 Aug 2006 07:24:41 +1000 (EST)
+Received: (from rasmusse@localhost)
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k7SKEYs18686;
+	Mon, 28 Aug 2006 16:14:34 -0400 (EDT)
+Date: Mon, 28 Aug 2006 16:14:32 EDT
+From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
+To: rasmusse@cs.rutgers.edu
+Subject: Japan: The First International Workshop on Intercultural
+        Collaboration -- FINAL CFP and Extended Deadline
+Message-ID: <CMM-RU.1.5.1156796072.rasmusse@research.rutgers.edu>
 
-1st Call For Papers
+=============================================
+[ Apologies for multiple copies] 
 
-MULTIMODAL CORPORA
-FOR MODELLING HUMAN MULTIMODAL BEHAVIOR
+                   FINAL CALL for PAPER: Deadline Extended!
+        The First International Workshop on Intercultural
+        Collaboration
+                                        IWIC 2007
+                                January 25-26, 2007
+  Kyoto University Clock Tower International Conference Hall, Japan
+                        http://langrid.nict.go.jp/iwic2007/
 
-Special issue of the
-International Journal of Language Resources and Evaluation
+Program Co-Chairs
+Toru Ishida (Kyoto University, Japan)
+Susan R. Fussell (Carnegie Mellon University, USA)
+Piek TJM Vossen(Vrije Universiteit Amsterdam, The Netherlands)
 
-Deadline for paper submission : 15th November 2006
+The main theme of this workshop is intercultural collaboration, from
+both technical and socio-cultural perspectives. Topics will include
+collaboration support (such as natural language processing, Web,
+and Internet technologies), social psychological analyses of
+intercultural interaction, and case studies from activists working
+to increase mutual understanding in our multicultural world.
+Submissions will be considered for papers, panels, demonstrations,
+and posters.
 
-www.springer.com/journal/10579/
+This is a unique workshop in a world where physical borders disappear
+rapidly and people and cultures are more and more on the move and in
+contact. The workshop will feature four prominent invited speakers:
 
----------------------------------------------------
+Christiane D. Fellbaum (Department of Psychology, Princeton
+University)
+Yumiko Mori (NPO Pangaea)
+Gary Olson (School of Information, University of Michigan)
+Wolfgang Wahlster (German Research Center for Artificial Intelligence)
 
-Guest editors:
-J.-C. Martin, P. Paggio, P. Kuehnlein, R. Stiefelhagen, F. Pianesi
+Important Dates: Deadline Extended
+Deadline for abstracts: September 8th, 2006
+Deadline for papers, panels, posters and demos: September 22nd, 2006
 
-This special issue is concerned with behavioral models built from Multimoda=
-l Corpora.
-'Multimodal Corpora' target the recording and annotation of several
-communication modalities such as speech, hand gesture, facial expression,
-body posture, etc.
-
-There is an increasing interest in multimodal communication and multimodal
-corpora as visible by recently launched European Networks of Excellence
-and integrated projects such as HUMAINE, SIMILAR, CHIL and AMI,
-and similar efforts in the USA and in Asia.
-
-Furthermore, the success of recent conferences related to multimodal
-communication (ICMI'2005, IVA'2005, Interacting Bodies'2005,
-Nordic Symposium on Multimodal Communication 2005)
-as well as a series of dedicated workshops at LREC'2000, 2002, 2004 and 200=
-6
-also testifies the growing interest in this area,
-and the general need for data on multimodal behaviours.
-
-The focus of this special issue is on multimodal corpora
-and their use for representing and modelling human behaviors.
-This include non-verbal communication studies
-and their contribution to the definition of collection protocols, coding
-schemes, and reliable models of multimodal human
-behaviour that can be built from corpora and
-compared to results that can be found in the literature.
-
-Topics to be addressed include, but are not limited to:
-- Studies of multimodal behaviour
-- Multimodal interaction in groups and meetings
-- Building models of behaviour from multiple sources of knowledge :
-manual annotation, image processing, motion capture, literature studies
-- Coding schemes for the annotation of multimodal video corpora
-- Validation of multimodal annotations
-- Exploitation of multimodal corpora in different types of applications
-(meeting transcription, Embodied Conversational Agent, multi-modal
-interfaces, communication and clinical studies, edutainment)
-- Methods, tools, and best practices for the acquisition, creation,
-management, access, distribution, and use of multimedia and multimodal
-corpora
-- Metadata descriptions of multimodal corpora
-- Benchmarking of systems and products; use of multimodal corpora for
-the evaluation of real systems
-- Automated multimodal fusion and/or generation
-(e.g., coordinated speech, gaze, gesture, facial expressions)
-
-The submitted papers might adress human-computer interaction if it concerns=
- human modalities
-(e.g. 3D conversational gestures rathers than 2D pen based interaction).
-
----------------------------------------------------
-IMPORTANT DATES
-
-- Deadline for paper submission : 15th November 2006
-- Notification of acceptance: 15th February 2007
-- Camera-ready version of accepted paper: 15th April 2007
-- Target publication date : September 2007
-
----------------------------------------------------
-INSTRUCTIONS FOR AUTHORS
-
-Submissions should be not more than 20 pages long, must be in English, and
-follow the submission guidelines at
-http://www.springer.com/cda/content/document/cda_downloaddocument/instr_pri=
-nt_10579.060421.pdf?SGWID=3D0-0-45-126854-p35554703
-
-Extended and revised versions of papers accepted to previous LREC workshops=
- on Multimodal Corpora are encouraged.
-
-Papers in .pdf format should be submitted via email to MARTIN@LIMSI.FR
-Each received submission will be acknowledged.
-
-Authors are encouraged to send to MARTIN@LIMSI.FR
-a brief email indicating their intention to participate as soon as possible=
-,
-including their contact information and the topic they intend to address in=
- their submissions.
-
--------------------------------------------------------------------
-Jean-Claude MARTIN
-Assistant Professor in Computer Science
-
-Web: http://www.limsi.fr/Individu/martin/
-Mobile: (+33).6.84.21.62.05 (answering machine)
-
-LIMSI-CNRS, Batiment 508, BP 133, 91403 Orsay Cedex, FRANCE
-Phone: (+33).1.69.85.81.04
-Fax: (+33).1.69.85.80.88
-
-and
-
-IUT Montreuil, LINC, Univ. Paris 8, 140, rue Nouvelle France, 93100 Montreu=
-il, FRANCE
-
--------------------------------------------------------------------
+Author notification: November 6th, 2006
+Deadline for camera ready papers: December 1st, 2006
 
 
-
-Envoi des messages: lpl-infos@yahoogroups.com
-Pour se d=E9sabonner, envoyer un message vide =E0:
-    lpl-infos-unsubscribe@yahoogroups.com
-Archives: http://groups.yahoo.com/group/lpl-infos/messages
-Site web du LPL:
-    http://www.lpl.univ-aix.fr
-Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
-jointes.=20
-Liens Yahoo! Groupes
-
-<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
-    http://fr.groups.yahoo.com/group/lpl-infos/
-
-<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
-    lpl-infos-desabonnement@yahoogroupes.fr
-
-<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
-    http://fr.docs.yahoo.com/info/utos.html
-=20
-
-
+For further information, please contact iwic2007@khn.nict.go.jp.
+=============================================

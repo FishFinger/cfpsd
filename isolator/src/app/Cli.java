@@ -43,21 +43,23 @@ public class Cli {
 			InputStream ips = new FileInputStream(input);
 			InputStreamReader ipsr = new InputStreamReader(ips);
 			BufferedReader br = new BufferedReader(ipsr);
-			
-			String line, doc;
-			
+
+			String line;
+
 			PrintWriter file_out = null;
 			int nb = 0;
 			while ((line = br.readLine()) != null) {
 				if (nb == 0 || beginEmail(line)) {
 					System.out.println("New email detected");
-					if (nb > 0)
+					if (nb > 0) {
 						file_out.close();
-					
-					file_out = new PrintWriter(new BufferedWriter(new FileWriter(path_output + "/corpus_" + nb)));
+					}
+
+					file_out = new PrintWriter(new BufferedWriter(
+							new FileWriter(path_output + "/corpus_" + nb)));
 					++nb;
 				}
-				
+
 				file_out.println(line);
 			}
 			br.close();

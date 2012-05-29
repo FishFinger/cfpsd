@@ -1,223 +1,626 @@
-From - Thu Dec 10 14:23:50 2009
+From - Thu Dec 10 14:23:59 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 2f9303852e5d7aa4b16c6287aea6c5e608940044
+X-Gmail-Received: 8415f5004e341bc791a31f48ed63b0e458b80943
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs548203pyn;
-        Mon, 14 Aug 2006 20:32:11 -0700 (PDT)
-Received: by 10.35.105.18 with SMTP id h18mr14611876pym;
-        Mon, 14 Aug 2006 20:32:11 -0700 (PDT)
-Return-Path: <alta-announce-bounces@ics.mq.edu.au>
+Received: by 10.35.126.10 with SMTP id d10cs153988pyn;
+        Mon, 4 Sep 2006 14:01:05 -0700 (PDT)
+Received: by 10.70.57.8 with SMTP id f8mr8389692wxa;
+        Mon, 04 Sep 2006 14:01:04 -0700 (PDT)
+Return-Path: <alta-tech-bounces@ics.mq.edu.au>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id n77si702093pye.2006.08.14.20.32.09;
-        Mon, 14 Aug 2006 20:32:11 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of alta-announce-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+        by mx.gmail.com with ESMTP id g5si5513723wra.2006.09.04.14.01.01;
+        Mon, 04 Sep 2006 14:01:04 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of alta-tech-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7F3Vmte002541
-	for <jpprost@gmail.com>; Tue, 15 Aug 2006 13:32:08 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k84L0TYM017681;
+	Tue, 5 Sep 2006 07:00:59 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006081513320732603
- for <jpprost@gmail.com>; Tue, 15 Aug 2006 13:32:07 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090507005917466
+ ; Tue, 05 Sep 2006 07:00:59 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7F3W4hg002590
-	for <jpprost@gmail.com>; Tue, 15 Aug 2006 13:32:08 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k84L0wrY017856;
+	Tue, 5 Sep 2006 07:00:59 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7F3W03f011360
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k84L0uZi020872
 	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Tue, 15 Aug 2006 13:32:00 +1000 (EST)
+	Tue, 5 Sep 2006 07:00:56 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7F3VmtY002541;
-	Tue, 15 Aug 2006 13:31:59 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k84L0SKc017668;
+	Tue, 5 Sep 2006 07:00:56 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006081513315932598
- ; Tue, 15 Aug 2006 13:31:59 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090507005517460
+ ; Tue, 05 Sep 2006 07:00:55 +1000
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7F3Qmi2002084;
-	Tue, 15 Aug 2006 13:28:45 +1000 (EST)
-Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k84L0Jt9017630;
+	Tue, 5 Sep 2006 07:00:27 +1000 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
 	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
-	k7F3Qifj002080
-	for <alta-announce@alta.asn.au>; Tue, 15 Aug 2006 13:26:44 +1000 (EST)
-Received: from [137.111.90.24] (valencia1.ics.mq.edu.au [137.111.90.24] (may
-	be forged)) (authenticated bits=0)
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7F3Qh4O009603
-	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
-	for <alta-announce@alta.asn.au>; Tue, 15 Aug 2006 13:26:44 +1000 (EST)
-Message-ID: <44E13EF5.5040205@ics.mq.edu.au>
-Date: Tue, 15 Aug 2006 13:26:45 +1000
-From: Diego Molla <diego@ics.mq.edu.au>
-User-Agent: Thunderbird 1.5.0.5 (Windows/20060719)
-MIME-Version: 1.0
-To: alta-announce@ics.mq.edu.au
-X-Brightmail-Tracker: AAAAAQAAAAQ=
-X-Brightmail-Tracker: AAAAAQAAAAQ=
-X-Whitelist: TRUE
-X-Whitelist: TRUE
-X-Whitelist: TRUE
-Subject: [ALTA-Announce] CFP: Australasian Language Technology Wshop: **NEW
-	DEADLINES**
-X-BeenThere: alta-announce@alta.asn.au
+	k84DZKhn005367
+	for <alta-tech@ics.mq.edu.au>; Mon, 4 Sep 2006 23:35:20 +1000 (EST)
+Received: from mulga.csse.unimelb.edu.au (mulga.csse.unimelb.edu.au
+	[128.250.1.22])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k84DZJA15153
+	for <alta-tech@ics.mq.edu.au>; Mon, 4 Sep 2006 23:35:19 +1000 (EST)
+Received: from localhost (localhost [127.0.0.1]) by mulga.csse.unimelb.edu.au
+	with ESMTP id k84DZGeR022069; Mon, 4 Sep 2006 23:35:16 +1000 (EST)
+Received: from mulga.csse.unimelb.edu.au ([127.0.0.1])
+	by localhost (mulga.csse.unimelb.edu.au [127.0.0.1]) (amavisd-new,
+	port 10024)
+	with LMTP id 21240-06; Mon,  4 Sep 2006 23:35:16 +1000 (EST)
+Received: from localhost (mundula.csse.unimelb.edu.au [128.250.37.102]) by
+	mulga.csse.unimelb.edu.au with ESMTP
+	id k84DZD8K022058; Mon, 4 Sep 2006 23:35:14 +1000 (EST)
+Date: Mon, 04 Sep 2006 23:35:25 +1000 (EST)
+Message-Id: <20060904.233525.66410044.tim@csse.unimelb.edu.au>
+To: alta-tech@ics.mq.edu.au
+From: Timothy Baldwin <tim@csse.unimelb.edu.au>
+X-URL: http://www.csse.unimelb.edu.au/~tim/
+X-Mailer: Mew version 4.2 on Emacs 21.4 / Mule 5.0 (SAKAKI)
+Mime-Version: 1.0
+X-Virus-Scanned: amavisd-new at csse.unimelb.edu.au
+Subject: [ALTA-Tech] COLING/ACL Newsletter No. 6
+X-BeenThere: alta-tech@alta.asn.au
 X-Mailman-Version: 2.1.6
 Precedence: list
-Reply-To: lcavedon@goanna.cs.rmit.edu.au
-List-Id: ALTA announcements <alta-announce.alta.asn.au>
-List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-announce>,
-	<mailto:alta-announce-request@alta.asn.au?subject=unsubscribe>
-List-Archive: <http://www.ics.mq.edu.au/pipermail/alta-announce>
-List-Post: <mailto:alta-announce@alta.asn.au>
-List-Help: <mailto:alta-announce-request@alta.asn.au?subject=help>
-List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-announce>,
-	<mailto:alta-announce-request@alta.asn.au?subject=subscribe>
+List-Id: Discussion list about ALTA <alta-tech.alta.asn.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-tech>,
+	<mailto:alta-tech-request@alta.asn.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/pipermail/alta-tech>
+List-Post: <mailto:alta-tech@alta.asn.au>
+List-Help: <mailto:alta-tech-request@alta.asn.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-tech>,
+	<mailto:alta-tech-request@alta.asn.au?subject=subscribe>
 Content-Type: text/plain; charset="us-ascii"
 Content-Transfer-Encoding: 7bit
-Sender: alta-announce-bounces@ics.mq.edu.au
-Errors-To: alta-announce-bounces@ics.mq.edu.au
-
-[sent on behalf of Lawrence Cavedon]
-
-                          Call For Papers
-           AUSTRALASIAN LANGUAGE TECHNOLOGY WORKSHOP (ALTW)
-
-                *** NOTE NEW SUBMISSION DEADLINES ***
-
-                    November 30-December 1, 2006
-                         Sydney, Australia
-              http://www.alta.asn.au/events/altw2006/
-
-                      to be held as part of
-                        HCSNet SummerFest
-                      http://hcsnet.edu.au
+Sender: alta-tech-bounces@ics.mq.edu.au
+Errors-To: alta-tech-bounces@ics.mq.edu.au
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Brightmail-Tracker: AAAAAQAAAAQ=
 
 
-Overview
+# Apologies for cross-postings
 
-A two-day workshop on Natural Language Technology will be organised by
-the Australasian Language Technology Association (ALTA). This event
-will be the fourth annual installment of the workshop in its
-most-recent incarnation, and the continuation of an annual workshop
-series that has existed under various guises since the early 90s.
+================================================================================
+================================================================================
 
-ALTW will be held as part of HCSNet SummerFest, a multi-disciplinary
-event encompassing a number of workshops, invited courses and
-presentations around the theme of Human Communication Science. The
-courses, offered at both introductory and more advanced levels, will
-include topic areas aimed specifically at Language Technology students
-and researchers.
-
-The goals of the workshop are:
-
-  * to bring together the growing Language Technology (LT) community
-    in Australia and New Zealand and encourage interactions;
-  * to encourage interactions and collaboration within this community
-    and with the wider international LT community;
-  * to foster interaction between academic and industrial researchers;
-  * to encourage dissemination of research results;
-  * to provide a forum for the discussion of new and ongoing
-    research and projects;
-  * to provide an opportunity for the broader artificial intelligence
-    community to become aware of local LT research; and, finally,
-  * to increase visibility of LT research in Australia, New Zealand
-    and overseas.
-
-As with the 2005 Workshop, there will be poster presentations in
-addition to the regular talks, in order to encourage more interactive
-discussion of research-in-progress. In this vein, we encourage
-submissions from students describing their thesis work and any
-preliminary results. Note that both publication types will have the
-same status in the proceedings.
+                        COLING/ACL 2006 NEWSLETTER NO. 6
 
 
-Topics
-
-We invite the submission of papers on original and unpublished
-research on all aspects of natural language processing, including, but
-not limited to:
-
-  * speech understanding and generation;
-  * phonology, morphology, syntax, semantics, pragmatics, and discourse;
-  * interpreting and generating spoken and written language;
-  * linguistic, mathematical, and psychological models of language;
-  * language-oriented information extraction and retrieval;
-  * corpus-based and statistical language modelling;
-  * summarisation;
-  * machine translation and translation aids;
-  * natural language interfaces and dialogue systems;
-  * natural language and multimodal systems;
-  * message and narrative understanding systems;
-  * evaluations of language systems;
-  * computational lexicography.
-
-We welcome submissions on any topic that is of interest to the LT
-community, and particularly encourage submissions that broaden the
-scope of our community through the consideration of practical LT
-applications and through multi-disciplinary research.
+                                 September 4, 2006
 
 
-Submission Format
-
-Submissions should follow the two-column format of the ACL proceedings
-and should not exceed eight (8) pages, including references. We
-strongly recommend the use of ACL LaTeX style files or Microsoft Word
-Style files tailored for this year's conference. The style files and
-example documents are available from the workshop website. We reserve
-the right to reject submissions that do not conform to these styles
-including font and page size restrictions.
-
-The preferred submission format is PDF. If this introduces problems,
-please contact the organisers beforehand.
-
-If we cannot print your file by the submission date it will be
-rejected without being reviewed. Therefore you are encouraged to send
-an early version with the typographical complexity of your final
-intended version so that we can check it is printable. All papers
-should include the full authors' names and affiliations. (Note that
-this diverges from the "blind" submission guidelines adopted for ACL
-conferences.)
-
-Detailed directions for submission will be made available at the
-workshop website. Contact the organisers (workshop@alta.asn.au) for
-any questions regarding this process.
+      This is the sixth and final official newsletter of COLING/ACL 2006
 
 
-Proceedings
+        
+        The 21st International Conference on Computational Linguistics
+                                     
+                                     and
 
-A proceedings containing all papers (presentations and posters) will
-be produced in paper and/or CD-ROM format. Each format will have an
-ISBN number.
-
-
-Important dates
-
-  * Paper submission: September 8, 2006      *** NOTE REVISED DEADLINE
-  * Submission date for Hons/Ugrad students: Sept 24, 2006 (see below)
-  * Notification of acceptance: October 3, 2006
-  * Camera-ready copy: October 17, 2006
-  * Workshop: Nov 30--Dec 1, 2006
-
-*** We have instituted a later submission deadline for papers with
-     **first-named** authors that are current Honours or Undergraduate
-     students. If you qualify for this condition and plan to submit to
-     this deadline then you must register an "Intention to Submit" with
-     the workshop chairs by the normal submission due date (Sept 8).
-     Send an email to workshop@alta.asn.au with title, authors, and
-     abstract.
+   The 44th Annual Meeting of the Association for Computational Linguistics
 
 
-Workshop Co-Chairs
-  * Lawrence Cavedon (National ACT Australia and RMIT University)
-  * Ingrid Zukerman  (Monash University)
-Workshop Local Organiser
-  * Rolf Schwitter   (Macquarie University)
+
+                              Sydney, Australia
+
+                               July 17-21, 2006
 
 
-Enquiries
+            For complete details, visit the conference web site at:
 
-The Australasian Language Technology Workshop is being organised by
-ALTA, the Australasian Language Technology Association.
-		
-For any comments or questions about the workshop please contact the
-organizers at   workshop@alta.asn.au
+                                 www.acl2006.org
+                               www.coling2006.org
+
+
+================================================================================
+================================================================================
+
+
+================================================================================
+:: Table of Contents
+================================================================================
+
+1. Comments from the General Chair
+2. Conference Sponsors
+3. Awards
+4. Lifetime Achievement Award
+5. Student Volunteers
+6. Conference Photos
+7. ACL 2007 and COLING 2008
+8. Conference Organisers
+
+
+
+
+================================================================================
+:: 1. Comments from the General Chair
+================================================================================
+
+COLING/ACL 2006 is the joint conference of the International Committee on
+Computational Linguistics and the Association for Computational
+Linguistics. The conference was held in Sydney, Australia, from 17-21 July
+2006, with tutorials on July 16, workshops on July 22-23, and co-located
+events on July 15-16 and July 22-23.
+
+In this joint conference we tried to maintain the spirit of both COLING and
+ACL, but the combination had its own personality, in a mixture that was more
+than the simple sum of the two. Part of its character was due to the location,
+for the first time -- for both conferences -- in Australia. For this reason we
+decided to have a member of AFNLP (the Asian Federation of Natural Language
+Processing) on the Advisory Board and to give particular attention and
+visibility to the Asia-Pacific context, communities and languages. We
+sincerely thank both the AFNLP-Nagao Fund for providing financial support for
+those presenting Asian NLP research, and ALTA (the Australasian Language
+Technology Association) for their local support.
+
+It is my task here -- but I should say my pleasure -- to express gratitude to
+all those without whom this conference would not have existed, and I think I
+can do that on behalf of all participants.
+
+My biggest thanks go to all the Chairs, for their invaluable effort and
+dedication which made this Conference possible.  First of all the two Program
+Chairs: Claire Cardie and Pierre Isabelle, who did a tremendous job, managing
+so many submissions and taking care of both regular papers and posters, and
+the two Local Arrangements Chairs: Robert Dale and Cecile Paris, who succeeded
+in keeping so many details under control, in such a smooth way as if
+everything were natural and effortless for them.
+
+And all the others, for their precious, competent and hard work
+
+I warmly thank the Advisory Board -- composed of four ICCL, four ACL, and one
+AFNLP members -- to whom we resorted for suggestions on important and
+sometimes delicate issues: Sandra Carberry, Eva Hajicova, Aravind Joshi,
+Martin Kay, Kathleen McCoy, Martha Palmer, Priscilla Rasmussen, Benjamin
+T'sou, Jun'ichi Tsujii.
+
+I express my gratitude to all the sponsors for their great support to the
+conference.  
+
+I thank all the organizers of the so numerous surrounding workshops,
+tutorials, and other co-located events -- conferences, workshops, summer
+school -- adding value to the main conference, creating altogether probably
+the biggest ever happening in Computational Linguistics.  
+
+My thanks to the area chairs, the reviewers, the invited speakers, the authors
+of the various presentations, in particular the students who enter with
+enthusiasm in such an exciting field, all the participants who in many cases
+made a long trip to be present at COLING/ACL 2006, and all those who
+contributed in many ways to a success of the conference.  
+
+And I finally thank both ICCL and ACL for having decided to join forces again
+in such a great enterprise.  COLING/ACL 2006 was, I'm sure, an exciting,
+stimulating and inspiring event for all those who attended.
+
+
+
+Nicoletta Calzolari
+COLING/ACL 2006 General Chair
+
+
+
+
+================================================================================
+:: 2. Conference Sponsors
+================================================================================
+
+We wish to thank our sponsors for their generous support:
+
+- HCSNet (Platinum) 		
+- Macquarie University (Gold)
+- CSIRO (Gold)
+- Microsoft Research (Gold, including Wireless)
+- Appen (Silver, Student Volunteers)
+- Google (Silver, including Cocktail Reception)
+- XRCE (Bronze)
+- ELRA (Student Support Fund)
+- DSTO (Glass)
+- Australian Computer Society (Supporter)
+- NSF (student support for the Student Research Workshop)
+
+We also gratefully acknowledge the following organisations for their
+contributions to COLING/ACL 2006: 
+
+- Microsoft Research Asia (ACL Best Paper Award) 
+- AFNLP (Best Asian Language Paper Award and 10 AFNLP-Nagao Conference
+  participation awards)
+- NSF (Student support for the Student Research Workshop)
+
+COLING/ACL 2006 was also supported by ALTA (Australasian Language Technology
+Association).
+
+For further details, see:
+
+  http://www.acl2006.org/sponsorship
+
+
+
+
+================================================================================
+:: 3. Awards
+================================================================================
+
+The program and area chairs selected the following paper for the COLING-ACL
+2006 Best Paper Award: 
+
+  "Semantic Taxonomy Induction from Heterogenous Evidence", by Rion Snow,
+  Daniel Jurafsky, and Andrew Ng
+
+In addition, a number of reviewers were recognized (via a bottle of
+scrumptious Australian wine!) as going beyond the call of duty in their
+reviews:
+
+  Antal van den Bosch
+  James Curran
+  Mark Dras
+  Kevin Duh 
+  George Foster
+  Evgeniy Gabrilovitch
+  Oren Kurland 
+  Mulind Mahajan
+  Dragos Munteanu
+  Satoshi Nakamura
+  Laurent Prevot
+  Katharina Probst
+  Tanya Schultz
+  Suzanne Stevenson
+  Christoph Tillmann
+  Marilyn Walker 
+  Stephen Wan
+
+Finally, as part of the conference's Asian Language focus, four papers were
+identified by the program and area chairs as contenders for the Best Asian
+Language Paper Award.  These papers were presented in a special parallel
+session:
+
+  "Tree-to-String Alignment Template for Statistical Machine Translation", by
+  Yang Liu, Qun Liu, Shouxun Lin
+
+  "Incorporating speech recognition confidence into discriminative named
+  entity recognition of speech data", by Katsuhito Sudoh, Hajime Tsukada,
+  Hideki Isozaki
+
+  "Exploiting Syntactic Patterns as Clues in Zero-Anaphora Resolution", by Ryu
+  Iida, Kentaro Inui, Yuji Matsumoto
+
+  "Self-Organizing n-gram Model for Automatic Word Spacing", Seong-Bae Park,
+  Yoon-Shik Tae, Se-Young Park
+
+Among these, the paper by Iida, Inui, and Matsumoto was chosen as the winner
+of the Best Asian Language Paper Award.
+
+
+
+
+================================================================================
+:: 4. Lifetime Achievement Award
+================================================================================
+
+The ACL Lifetime Achievement Award was instituted on the occasion of the 40th
+anniversary meeting of the Association for Computational Linguistics. The
+award is for scientific achievement, of both theoretical and applied nature,
+in the field of Computational Linguistics. The executive committee of the ACL
+nominates and selects at most one award recipient annually, considering the
+originality, depth, breadth and impact of the entire body of the nominee's
+work in computational linguistics. The recipient is invited to give a speech
+on the topic of their choice relating to Computational Linguistics at the
+annual meeting. 
+
+One of the highlights of COLING/ACL 2006 was the presentation of the 2006 ACL
+Lifetime Achievement Award to:
+
+  Eva Hajicova
+
+The following is an excerpt from the introduction made by Jun'ichi Tsujii
+(president of the ACL) at the COLING/ACL 2006 award ceremony.
+
+
+
+I first met Eva, 26 years ago, at Coling in Tokyo, 1980.
+
+I had just started my career as researcher then, while she was already an
+established researcher, a member of ICCL (International Committee of
+Computational Linguistics) and the representative, the banner carrier of the
+legendary Prague school of linguistics. Prague is the birth place of modern
+scientific linguistics, formal theory of discourse, and dependency
+representation.
+
+She started her career 40 years ago, and has successfully represented the
+Prague school together with Professor Petr Sgall. Throughout her career, she
+has been successful in leading the Prague school of linguistics and making it
+the Prague School of Computational Linguistics, one of the most influential
+centers of Computational Linguistics, always a front-runner of new ideas, in
+particular, in semantics and pragmatics.
+
+She not only inherited the strong tradition of the Prague school in
+linguistics, but also, under the communist regime, despite the harsh
+restrictions on communication with the outside world, spread the Prague way of
+thinking on language to researchers outside, and has extended it in accordance
+with development of the fields.
+
+One of her recent accomplishments, the Prague dependency treebank, is a good
+example of the combination of deep theoretical thinking nourished in the tradition
+of the Prague school, with the modern methodology of our days.
+
+It consists of surface and deep annotations,analytical and tectogrammatical
+levels, for Czech, English, and Arabic.  This effort has been extremely
+influential in that it represents one of the major annotation efforts in
+dependency syntax.
+
+Furthermore, it was conceived from the beginning as a multi-layer annotation
+that goes beyond morphology and surface syntax.  The Prague Dependency
+Treebank is used for linguistic research, and as the basis for machine
+learning experiments in computational linguistics.
+
+She is certainly one of the people who have defined and formed the field of
+computational linguistics, and has developed it to the scientific field as we
+know it now.  She has successfully injected the unique perspective of the
+Prague school, European tradition of linguistics, into our field,
+Computational linguistics and Natural Language Processing.
+
+Without her, with the long period of the dark age in the region, we would have
+lost one of the greatest traditions in European linguistics which has enriched
+enormously our fields.
+ 
+I remember her lectures on multi-layered representation including discourse
+structures, and their Machine Translation research at Kyoto University in
+Japan, some 20 years ago.
+
+Her talks struck me by their strong intellectual, theoretical orientations,
+since MT research in Japan at the time was taken mostly as engineering
+endeavor, very much concerned with engineering issues such as efficiency,
+management of huge lexicon etc.
+
+Eva's leadership quality has contributed to not only the Prague school but to
+the international movement of our field. She was Chair of European ACL and ACL
+as well as permanent member of International Committee of Computational
+Linguistics.
+
+
+
+
+>From the entire computational linguistics community, congratulations Eva on a
+lifetime of achievement!
+
+
+
+
+================================================================================
+:: 5. Student Volunteers
+================================================================================
+
+We gratefully acknowledge the tireless efforts of all the student volunteers
+in keeping the COLING/ACL 2006 wheels oiled throughout, including early in the
+morning preparing for the day ahead.
+
+
+
+
+================================================================================
+:: 6. Conference Photos
+================================================================================
+
+We have set up a Flickr group for sharing COLING/ACL 2006 photos, which anyone
+who has a Flickr account can join and post photos/discussion to.
+
+The URL to head to for the group is:
+
+  http://www.flickr.com/groups/coling-acl2006/
+
+
+
+
+================================================================================
+:: 7. ACL 2007 and COLING 2008
+================================================================================
+
+We are pleased to announce that ACL 2007 will be held in Prague, Czech
+Republic, over the period June 24-29, 2007. For further details, visit the
+website at:
+
+  http://www.acl2007.org/
+
+
+COLING 2008 will be held in Manchester, UK, dates TBA.
+
+
+
+
+================================================================================
+:: 8. Conference Organisers
+================================================================================
+
+The following individuals were involved in the organisation of COLING/ACL
+2006:
+
+
+General Chair:
+
+  Nicoletta Calzolari
+
+
+Program Committee Co-chairs:
+
+  Claire Cardie
+  Pierre Isabelle
+
+
+Tutorials Chair:
+
+  Claire Gardent
+
+
+Workshops Chair:
+
+  Suzanne Stevenson
+
+
+Workshops Program Committee:
+
+  Ann Copestake
+  Pascale Fung
+  Jamie Henderson
+  Ingrid Zukerman
+
+
+Interactive Presentations Chair
+
+  James Curran
+
+
+Publications Chair:
+
+  Olivia Kwong
+
+
+Sponsorship Chairs:
+
+  Steven Krauwer
+  Dominique Estival
+
+
+Exhibits Chair:
+
+  Menno van Zaanen
+
+
+Mentoring Chair:
+
+  Richard Power
+
+
+Publicity Chair:
+
+  Timothy Baldwin
+
+
+Student Workshop Chairs:
+
+  Rebecca Hwa
+  Marine Carpuat
+  Kevin Duh
+
+
+Local Organisation Chairs:
+
+  Cecile Paris
+  Robert Dale
+
+
+Local Organising Advisory Committee:
+
+  John Debenham
+  Jon Patrick
+  Raymond Wong
+
+
+Student Volunteers Coordinator:
+
+  Priscilla Rasmussen
+
+
+Conference Webmasters:
+
+  Andrew Lampert
+  Brett Powley
+
+
+Conference Secretariat:
+
+  Judy Potter and the Well Done Events team
+
+
+Graphic Design:
+
+  Kathie Mason
+
+
+Advisory Committee:
+
+  Sandra Carberry
+  Eva Hajicova
+  Aravind Joshi
+  Martin Kay
+  Kathleen McCoy
+  Martha Palmer
+  Priscilla Rasmussen
+  Benjamin T'sou
+  Jun'ichi Tsujii
+
+
+Program Committee Area Chairs:
+
+  Johan Bos
+  Jason Chang
+  David Chiang
+  Eva Hajicova
+  Chu-Ren Huang
+  Martin Kay
+  Emiel Krahmer
+  Roland Kuhn
+  Lillian Lee
+  Yuji Matsumoto
+  Dan Moldovan
+  Mark-Jan Nederhof
+  Hwee Tou Ng
+  John Prager
+  Anoop Sarkar
+  Donia Scott
+  Simone Teufel
+  Benjamin Tsou
+  ChengXiang Zhai
+  Ming Zhou
+
+
+International Committee on Computational Linguistics (ICCL):
+
+  Igor Boguslavsky
+  Christian Boitet
+  Nicoletta Calzolari
+  Eva Hajicova
+  Kolbjorn Heggstad
+  Chu-Ren Huang
+  Pierre Isabelle
+  Aravind K. Joshi
+  Martin Kay
+  Winfried Lenders
+  Makoto Nagao
+  Sergei Nirenburg
+  Helmut Schnelle
+  Donia Scott
+  Petr Sgall
+  Hozumi Tanaka
+  Jun'ichi Tsujii
+  Hans Uszkoreit
+  Hiroshi Wada
+  Yorick Wilks
+
+
+ACL Executive Committee:
+
+  Jun'ichi Tsujii
+  Mark Steedman
+  Bonnie Dorr
+  Kathleen McCoy
+  Dragomir Radev
+  Martha Palmer
+  Sandra Carberry
+  Walter Daelemans
+  Keh-Yih Su
+  Claire Cardie
+
+
+================================================================================
+================================================================================
+
+     Contact details for the various COLING/ACL organisers can be found at:
+
+                         http://www.acl2006.org/contact
+
+================================================================================
+================================================================================
 _______________________________________________
-ALTA-Announce mailing list
-ALTA-Announce@alta.asn.au
-http://www.ics.mq.edu.au/mailman/listinfo/alta-announce
+ALTA-Tech mailing list
+ALTA-Tech@alta.asn.au
+http://www.ics.mq.edu.au/mailman/listinfo/alta-tech

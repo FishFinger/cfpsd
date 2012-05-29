@@ -1,738 +1,238 @@
-From - Thu Dec 10 14:38:53 2009
+From - Thu Dec 10 14:39:01 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.60.195 with SMTP id q3cs37634bkh;
-        Sat, 7 Nov 2009 15:24:56 -0800 (PST)
-Received: by 10.213.100.68 with SMTP id x4mr6702669ebn.4.1257636295098;
-        Sat, 07 Nov 2009 15:24:55 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 11si3225519ewy.53.2009.11.07.15.24.54;
-        Sat, 07 Nov 2009 15:24:55 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 47925241AA; Sun,  8 Nov 2009 00:24:54 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
-	autolearn=ham version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id B3347238BF;
-	Sun,  8 Nov 2009 00:21:19 +0100 (MET)
+Received: by 10.204.60.195 with SMTP id q3cs37910bkh;
+        Thu, 12 Nov 2009 07:54:09 -0800 (PST)
+Received: by 10.86.203.35 with SMTP id a35mr2280327fgg.44.1258041247479;
+        Thu, 12 Nov 2009 07:54:07 -0800 (PST)
+Return-Path: <isabelle.tellier@univ-orleans.fr>
+Received: from sara.univ-orleans.fr (sara.univ-orleans.fr [194.167.30.84])
+        by mx.google.com with ESMTP id d8si13339423fga.8.2009.11.12.07.54.06;
+        Thu, 12 Nov 2009 07:54:07 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of isabelle.tellier@univ-orleans.fr designates 194.167.30.84 as permitted sender) client-ip=194.167.30.84;
+Authentication-Results: mx.google.com; spf=pass (google.com: best guess record for domain of isabelle.tellier@univ-orleans.fr designates 194.167.30.84 as permitted sender) smtp.mail=isabelle.tellier@univ-orleans.fr
 Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 959623E54;
-	Sun,  8 Nov 2009 00:21:19 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id ci3TNC3JmSTu; Sun,  8 Nov 2009 00:21:19 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id D00FC3D52;
-	Sun,  8 Nov 2009 00:20:47 +0100 (CET)
-X-Original-To: elsnet-list@mailman.elsnet.org
-Delivered-To: elsnet-list@mailman.elsnet.org
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 0447A3D2A
-	for <elsnet-list@mailman.elsnet.org>;
-	Fri, 30 Oct 2009 18:44:19 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id my4hjDnfzn88 for <elsnet-list@mailman.elsnet.org>;
-	Fri, 30 Oct 2009 18:44:18 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id CA8C93D24
-	for <elsnet-list@mailman.elsnet.org>;
-	Fri, 30 Oct 2009 18:44:18 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id B20A223417; Fri, 30 Oct 2009 18:44:18 +0100 (MET)
-X-Greylist: delayed 1306 seconds by postgrey-1.28 at newjura;
-	Fri, 30 Oct 2009 18:44:12 MET
-Received: from mail.uni-paderborn.de (mail.uni-paderborn.de [131.234.142.9])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 6E0FA23427
-	for <elsnet-list@let.uu.nl>; Fri, 30 Oct 2009 18:44:12 +0100 (MET)
-Received: from [131.234.88.226] (helo=travelmate)
-	by mail.uni-paderborn.de with esmtpsa (TLS-1.0:RSA_AES_128_CBC_SHA1:16)
-	(Exim 4.63 spheron)
-	id 1N3vA0-0006XD-Im; Fri, 30 Oct 2009 18:21:16 +0100
-From: "8th International Heinz Nixdorf Symposium" <symposium@hni.upb.de>
-To: "8th International Heinz Nixdorf Symposium" <symposium@hni.upb.de>
-Date: Fri, 30 Oct 2009 18:21:09 +0100
-Message-ID: <00eb01ca5985$5fc467b0$1f4d3710$@upb.de>
+	by sara.univ-orleans.fr (Postfix) with ESMTP id 790103C217
+	for <jpprost@gmail.com>; Thu, 12 Nov 2009 16:52:39 +0100 (CET)
+Received: from sara.univ-orleans.fr ([127.0.0.1])
+	by localhost (sara.univ-orleans.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 8A355qzxfCB0 for <jpprost@gmail.com>;
+	Thu, 12 Nov 2009 16:52:39 +0100 (CET)
+Received: from smtps.univ-orleans.fr (repartiteur.univ-orleans.fr [194.167.30.199])
+	by sara.univ-orleans.fr (Postfix) with ESMTP id 1C09A3C204
+	for <jpprost@gmail.com>; Thu, 12 Nov 2009 16:52:39 +0100 (CET)
+Received: from [192.168.80.165] (unknown [192.168.80.165])
+	by smtps.univ-orleans.fr (Postfix) with ESMTP id 86F8936E62
+	for <jpprost@gmail.com>; Thu, 12 Nov 2009 16:54:08 +0100 (CET)
+Message-ID: <4AFC2F9E.8080005@univ-orleans.fr>
+Date: Thu, 12 Nov 2009 16:54:06 +0100
+From: Isabelle Tellier <isabelle.tellier@univ-orleans.fr>
+User-Agent: Thunderbird 2.0.0.23 (X11/20090817)
 MIME-Version: 1.0
-X-Mailer: Microsoft Office Outlook 12.0
-Thread-Index: AcpZhV7dxrYQXgVEQ2aV+NUp8/MAeg==
-Content-Language: de
-X-IMT-Spam-Score: 0.0 ()
-X-PMX-Version: 5.5.8.383112, Antispam-Engine: 2.7.2.376379,
-	Antispam-Data: 2009.10.30.170925
-X-IMT-Authenticated-Sender: uid=stingray,ou=People,o=upb,c=de
-X-Mailman-Approved-At: Sun, 08 Nov 2009 00:20:34 +0100
-Cc: 
-Subject: [Elsnet-list] REMINDER - Call for papers: 8th International Heinz
-	Nixdorf Symposium 2010, Deadline approaching: Nov 15
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
-Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Content-Type: multipart/mixed; boundary="===============0077858428=="
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
-
-Dies ist eine mehrteilige Nachricht im MIME-Format.
-
---===============0077858428==
-Content-Type: multipart/alternative;
-	boundary="----=_NextPart_000_00EC_01CA598D.C188CFB0"
-Content-Language: de
-
-Dies ist eine mehrteilige Nachricht im MIME-Format.
-
-------=_NextPart_000_00EC_01CA598D.C188CFB0
-Content-Type: text/plain;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
-
-Reminder - Call for Papers - 8th International Heinz Nixdorf Symposium
-
-=20
-
-=20
-
-*** Apologies for cross-postings ***
-
-=20
-
-8th International Heinz Nixdorf Symposium
-
-"Advanced Manufacturing and Sustainable Logistics"
-
-April 21-22, 2010
-
-Paderborn, Germany
-
-=20
-
-http://wwwhni.uni-paderborn.de/symposium2010
-
-=20
-
-=20
-
-************************
-
-CALL FOR PAPERS
-
-************************
-
-=20
-
-We are pleased to announce the Call for Papers for the 8th International
-Heinz Nixdorf Symposium "Advanced Manufacturing and Sustainable =
-Logistics".
-Current research and innovative approaches from industry regarding =
-issues of
-production logistics will be in the focus of the two-day symposium.
-Furthermore, we plan to examine selected special topics from production
-logistics more closely. Feel free to forward this information to your
-colleagues.=20
-
-=20
-
-=20
-
-************************
-
-CONFERENCE
-
-************************
-
-=20
-
-The Heinz Nixdorf Symposium is an established biannual event of the =
-Heinz
-Nixdorf Institute during which researchers and practitioners come =
-together
-to present challenges from industry, discuss contributions from research
-institutions and develop novel solution approaches.
-
-=20
-
-The 8th International Heinz Nixdorf Symposium will take place on April =
-21=9622
-in Paderborn, Germany. On April 21, distinguished professors and senior
-executives from large manufacturing and logistics companies will deliver
-invited speeches. On April 22, contributions are invited from both
-researchers and practitioners in the fields of manufacturing, logistics =
-and
-supply chain management. Papers can be submitted to any of the six
-conference tracks.
-
-=20
-
-=20
-
-************************
-
-TRACKS
-
-************************
-
-=20
-
-Topics can include but are not limited to:
-
-=20
-
-Track 1: Production Logistics I (Chair: Prof. Dr.-Ing. Egon M=FCller):
-
-Design of dynamic production and logistics networks, Integrated design =
-of
-products and production systems, Late product differentiation, Lean =
-supply
-chain management, Mobile network structures, Optimization of procurement =
-and
-customer service level
-
-=20
-
-Track 2: Production Logistics II (Chair: Prof. Dr. Dirk Van Oudheusden)
-
-Artificial intelligence and multi-agent systems, Autonomous =
-decentralized
-schedule execution, Hierarchical agent-based control, Integration of
-production and in-bound logistics, Supply chain event and risk =
-management,
-Uncertainties in production and logistics processes, Ontologies for
-productions and logistics
-
-=20
-
-Track 3: Industrial Engineering (Chair: Prof. Dr.-Ing. Gert Z=FClch)
-
-Knowledge management in supply chains, Rapid manufacturing and workforce
-involvement, Reorganization of work structures at variant diversity,
-Resilient logistics and production planning, Working time models under
-volatile demand
-
-=20
-
-Track 4: Operations Research Techniques (Chair: Prof. Dr. Leena Suhl)
-
-Green strategies, Online planning / optimization with rolling horizon,
-Optimization in large networks
-
-Robustness and flexibility of transport schedules, Sustainable supply =
-chain
-management
-
-=20
-
-Track 5: Simulation (Chair: Prof. Dr.-Ing. Sigrid Wenzel)
-
-Graphical parameter interfaces, Integration of mathematical programming =
-and
-simulation, Online integration in production environments, Simulation as
-training tool set, Simulation-based decentralized real-time control
-
-=20
-
-Track 6: Humanitarian Logistics (Chair: Alexander Blecken)
-
-Operations research and humanitarian logistics, Performance measurement,
-Collaboration and coordination of actors, Modeling humanitarian =
-operations,
-Supply chain planning in humanitarian supply chains
-
-=20
-
-=20
-
-************************
-
-SUBMISSIONS
-
-************************
-
-=20
-
-Authors should submit papers that have not yet been submitted for
-publication elsewhere. All papers are subject to double-blind reviews.
-Submitted papers (up to 12 pages) may be accepted as full or short =
-papers.
-
-=20
-
-All accepted papers will be published in the Lecture Notes in Business
-Information Processing (LNBIP) series of Springer Verlag. Please follow
-carefully the instructions provided on our website. Further information =
-can
-be found on the LNBIP authors website.
-
-=20
-
-All submissions need to be made through our online conference management
-system. If you have any questions or need assistance, please do not =
-hesitate
-to contact us.
-
-=20
-
-=20
-
-************************
-
-DEADLINES
-
-************************
-
-=20
-
-Submission of Papers: November 15, 2009
-
-Notification of Acceptance: December 22, 2009
-
-Submission of Camera-Ready Version: February 7, 2010
-
-8th International Heinz Nixdorf Symposium: April 21=9622, 2010
-
-=20
-
-=20
-
-************************
-
-ORGANIZATION
-
-************************
-
-=20
-
-Heinz Nixdorf Institute
-
-Prof. Dr.-Ing. habil. Wilhelm Dangelmaier
-
-Fuerstenallee 11
-
-33102 Paderborn, Germany
-
-=20
-
-Further information about the symposium and
-
-instructions for authors can be found at:
-
-http://wwwhni.upb.de/symposium2010
-
-=20
-
-E-mail: symposium@hni.upb.de
-
-Phone: +49 5251 60 64 79 / 64 84
-
-
-------=_NextPart_000_00EC_01CA598D.C188CFB0
-Content-Type: text/html;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
-
-<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
-xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
-xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
-xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
-xmlns=3D"http://www.w3.org/TR/REC-html40">
-
-<head>
-<meta http-equiv=3DContent-Type content=3D"text/html; =
-charset=3Diso-8859-1">
-<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-a:link, span.MsoHyperlink
-	{mso-style-priority:99;
-	color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-priority:99;
-	color:purple;
-	text-decoration:underline;}
-span.E-MailFormatvorlage17
-	{mso-style-type:personal-compose;
-	font-family:"Calibri","sans-serif";
-	color:windowtext;}
-.MsoChpDefault
-	{mso-style-type:export-only;}
-@page Section1
-	{size:612.0pt 792.0pt;
-	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
-div.Section1
-	{page:Section1;}
--->
-</style>
-<!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext=3D"edit">
-  <o:idmap v:ext=3D"edit" data=3D"1" />
- </o:shapelayout></xml><![endif]-->
-</head>
-
-<body lang=3DDE link=3Dblue vlink=3Dpurple>
-
-<div class=3DSection1>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Reminder - Call for Papers - 8th
-International Heinz Nixdorf Symposium<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>*** Apologies for cross-postings =
-***<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>8th International Heinz Nixdorf =
-Symposium<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>&quot;Advanced Manufacturing and
-Sustainable Logistics&quot;<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>April 21-22, =
-2010<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Paderborn, =
-Germany<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>http://wwwhni.uni-paderborn.de/symposium2010<o:p></o:p></spa=
-n></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>CALL FOR =
-PAPERS<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>We are pleased to announce the =
-Call for
-Papers for the 8th International Heinz Nixdorf Symposium &quot;Advanced
-Manufacturing and Sustainable Logistics&quot;. Current research and =
-innovative
-approaches from industry regarding issues of production logistics will =
-be in
-the focus of the two-day symposium. Furthermore, we plan to examine =
-selected
-special topics from production logistics more closely. Feel free to =
-forward this
-information to your colleagues. <o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>CONFERENCE<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>The Heinz Nixdorf Symposium is =
-an
-established biannual event of the Heinz Nixdorf Institute during which
-researchers and practitioners come together to present challenges from
-industry, discuss contributions from research institutions and develop =
-novel
-solution approaches.<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>The 8th International Heinz =
-Nixdorf
-Symposium will take place on April 21&#8211;22 in Paderborn, Germany. On =
-April
-21, distinguished professors and senior executives from large =
-manufacturing and
-logistics companies will deliver invited speeches. On April 22, =
-contributions
-are invited from both researchers and practitioners in the fields of
-manufacturing, logistics and supply chain management. Papers can be =
-submitted
-to any of the six conference tracks.<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>TRACKS<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Topics can include but are not =
-limited to:<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Track 1: Production Logistics I =
-(Chair:
-Prof. Dr.-Ing. Egon M=FCller):<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Design of dynamic production and =
-logistics
-networks, Integrated design of products and production systems, Late =
-product
-differentiation, Lean supply chain management, Mobile network =
-structures,
-Optimization of procurement and customer service =
-level<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Track 2: Production Logistics II =
-(Chair:
-Prof. Dr. Dirk Van Oudheusden)<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Artificial intelligence and =
-multi-agent
-systems, Autonomous decentralized schedule execution, Hierarchical =
-agent-based
-control, Integration of production and in-bound logistics, Supply chain =
-event
-and risk management, Uncertainties in production and logistics =
-processes,
-Ontologies for productions and logistics<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Track 3: Industrial Engineering =
-(Chair:
-Prof. Dr.-Ing. Gert Z=FClch)<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Knowledge management in supply =
-chains,
-Rapid manufacturing and workforce involvement, Reorganization of work
-structures at variant diversity, Resilient logistics and production =
-planning,
-Working time models under volatile demand<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Track 4: Operations Research =
-Techniques
-(Chair: Prof. Dr. Leena Suhl)<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Green strategies, Online =
-planning /
-optimization with rolling horizon, Optimization in large =
-networks<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Robustness and flexibility of =
-transport
-schedules, Sustainable supply chain management<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Track 5: Simulation (Chair: =
-Prof. Dr.-Ing.
-Sigrid Wenzel)<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Graphical parameter interfaces, =
-Integration
-of mathematical programming and simulation, Online integration in =
-production
-environments, Simulation as training tool set, Simulation-based =
-decentralized
-real-time control<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Track 6: Humanitarian Logistics =
-(Chair:
-Alexander Blecken)<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Operations research and =
-humanitarian
-logistics, Performance measurement, Collaboration and coordination of =
-actors,
-Modeling humanitarian operations, Supply chain planning in humanitarian =
-supply
-chains<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>SUBMISSIONS<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Authors should submit papers =
-that have not
-yet been submitted for publication elsewhere. All papers are subject to
-double-blind reviews. Submitted papers (up to 12 pages) may be accepted =
-as full
-or short papers.<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>All accepted papers will be =
-published in the
-Lecture Notes in Business Information Processing (LNBIP) series of =
-Springer
-Verlag. Please follow carefully the instructions provided on our =
-website.
-Further information can be found on the LNBIP authors =
-website.<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>All submissions need to be made =
-through our
-online conference management system. If you have any questions or need
-assistance, please do not hesitate to contact us.<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>DEADLINES<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Submission of Papers: November =
-15, 2009<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Notification of Acceptance: =
-December 22,
-2009<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Submission of Camera-Ready =
-Version:
-February 7, 2010<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>8th International Heinz Nixdorf =
-Symposium:
-April 21&#8211;22, 2010<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>************************<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>ORGANIZATION<o:p></o:p></span></p>
-
-<p class=3DMsoNormal>************************<o:p></o:p></p>
-
-<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
-
-<p class=3DMsoNormal>Heinz Nixdorf Institute<o:p></o:p></p>
-
-<p class=3DMsoNormal>Prof. Dr.-Ing. habil. <span lang=3DEN-US>Wilhelm =
-Dangelmaier<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Fuerstenallee =
-11<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>33102 Paderborn, =
-Germany<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>Further information about the =
-symposium and<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>instructions for authors can be =
-found at:<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span =
-lang=3DEN-US>http://wwwhni.upb.de/symposium2010<o:p></o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US><o:p>&nbsp;</o:p></span></p>
-
-<p class=3DMsoNormal><span lang=3DEN-US>E-mail: =
-symposium@hni.upb.de<o:p></o:p></span></p>
-
-<p class=3DMsoNormal>Phone: +49 5251 60 64 79 / 64 84<o:p></o:p></p>
-
-</div>
-
-</body>
-
-</html>
-
-------=_NextPart_000_00EC_01CA598D.C188CFB0--
-
-
---===============0077858428==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
+To: Jean-Philippe Prost <jpprost@gmail.com>
+Subject: [Fwd: 20.3545, Calls: Computational Ling/India]
+Content-Type: multipart/mixed;
+ boundary="------------050105090400090007050005"
+
+This is a multi-part message in MIME format.
+--------------050105090400090007050005
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Ca, c'etait l'autre possibilitï¿½ de soumission...
+
+--------------050105090400090007050005
+Content-Type: message/rfc822;
+ name="20.3545, Calls: Computational Ling/India.eml"
 Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
+Content-Disposition: inline;
+ filename="20.3545, Calls: Computational Ling/India.eml"
+
+Return-Path: <owner-linguist@LISTSERV.LINGUISTLIST.ORG>
+Received: from murder ([unix socket])
+	 by maat2.univ-orleans.fr (Cyrus v2.2.12-Invoca-RPM-2.2.12-1.1.fc3) with LMTPA;
+	 Thu, 22 Oct 2009 04:14:11 +0200
+X-Sieve: CMU Sieve 2.2
+Received: from sara.univ-orleans.fr (sara.univ-orleans.fr [194.167.30.84])
+	by mailper.univ-orleans.fr (Postfix) with ESMTP
+	id 975B88524; Thu, 22 Oct 2009 04:14:11 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by sara.univ-orleans.fr (Postfix) with ESMTP id A06443C021;
+	Thu, 22 Oct 2009 04:13:25 +0200 (CEST)
+Received: from sara.univ-orleans.fr ([127.0.0.1])
+	by localhost (sara.univ-orleans.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id oSy1mOygG08J; Thu, 22 Oct 2009 04:13:25 +0200 (CEST)
+Received: from grey.univ-orleans.fr (repartiteur.univ-orleans.fr [194.167.30.199])
+	by sara.univ-orleans.fr (Postfix) with ESMTP id 21EED3C01F;
+	Thu, 22 Oct 2009 04:13:25 +0200 (CEST)
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+	by grey.univ-orleans.fr (Postfix) with ESMTP id 7D5A732979;
+	Thu, 22 Oct 2009 04:14:06 +0200 (CEST)
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id n9M1xUBW032645;
+	Wed, 21 Oct 2009 22:13:36 -0400
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=eojSJfc6Hb6k/dMUzrVbqgCYs4AYwR5Ftyvd1r09X+TChOM+KayUlDJK6/0FeA8lRBEGLJ1Jcapxm2jyoqOSYJ6FrFm7UZ/rRd0zeT0Mj2ilDjtEi789JbpfqbDokWgo;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 12824282 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Wed, 21 Oct
+          2009 22:13:30 -0400
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id n9LJ8UhX020772 for <linguist@listserv.linguistlist.org>; Wed, 21
+          Oct 2009 15:08:30 -0400
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id n9LJ8Ne5024162; Wed,
+          21 Oct 2009 15:08:23 -0400 (EDT)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Wed, 21 Oct 2009 15:08:23 -0400 (EDT)
+Message-ID:  <26517656.1256152103881.JavaMail.nobody@linguistlist.org>
+Date:         Wed, 21 Oct 2009 15:08:23 -0400
+Reply-To: linguist@LINGUISTLIST.ORG
+Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From: linguist@LINGUISTLIST.ORG
+Subject: 20.3545, Calls: Computational Ling/India
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Precedence: list
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
+
+LINGUIST List: Vol-20-3545. Wed Oct 21 2009. ISSN: 1068 - 4875.
+
+Subject: 20.3545, Calls: Computational Ling/India
+
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+ 
+Reviews: Monica Macaulay, U of Wisconsin-Madison  
+Eric Raimy, U of Wisconsin-Madison  
+Joseph Salmons, U of Wisconsin-Madison  
+Anja Wanner, U of Wisconsin-Madison  
+       <reviews@linguistlist.org> 
+
+Homepage: http://linguistlist.org/
+
+The LINGUIST List is funded by Eastern Michigan University, 
+and donations from subscribers and publishers.
+
+Editor for this issue: Kate Wu <kate@linguistlist.org>
+================================================================  
+
+LINGUIST is pleased to announce the launch of an exciting new feature:  
+Easy Abstracts! Easy Abs is a free abstract submission and review facility 
+designed to help conference organizers and reviewers accept and process 
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom, 
+and begin your conference customization process today! With Easy Abstracts, 
+submission and review will be as easy as 1-2-3!
+
+===========================Directory==============================  
+
+1)
+Date: 21-Oct-2009
+From: Richa Srishti < rsrishti@gmail.com >
+Subject: Knowledge Sharing Event-4- POS Tagging
+ 
+
+	
+-------------------------Message 1 ---------------------------------- 
+Date: Wed, 21 Oct 2009 15:05:41
+From: Richa Srishti [rsrishti@gmail.com]
+Subject: Knowledge Sharing Event-4- POS Tagging
+
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=20-3545.html&submissionid=234634&topicid=3&msgnumber=1
+  
+
+Full Title: Knowledge Sharing Event-4- POS Tagging 
+Short Title: KSE-4-POST 
+
+Date: 25-Mar-2010 - 26-Mar-2010
+Location: Mysore, Karnataka, India 
+Contact Person: Richa Srishti
+Meeting Email: rsrishti@gmail.com or ldc-richa@ciil.stpmy.soft.net
+Web Site: http://www.ldcil.org/up/pos.html 
+
+Linguistic Field(s): Computational Linguistics 
+
+Call Deadline: 30-Nov-2009 
+
+Meeting Description:
+
+The LDC-IL, is organising a series of events to bring together researchers
+working in these areas, to share their knowledge with other researchers. 
+
+Call for Papers
+
+Each of the events in the series will focus on one aspect of computational
+grammar at a time and thereby address issues related to these themes.
+Parts-of-speech (POS) tagging is the basic building block of any NLP work,
+hence, the first step in developing the computational grammar for any language. 
+
+The POS tagging is not about just providing a tag to a token but it encompasses
+a whole range of grammatical information for that token in the sentence from a
+particular language. Besides, designing the tagset for a specific NLP purpose,
+preparing annotation guidelines and interannotator agreement are also very
+important. It is an active research area in NLP. 
+
+POS tagging is useful in speech generation, speech recognition, parsing, machine
+translation, information retrieval, information extraction, WSD (word sense
+disambiguation), question-answering etc. Moreover, it is an intermediate step
+for higher NLP tasks such as parsing, semantic analysis and machine translation.
+Especially regarding Indian languages, POS tagging adds many more dimensions,
+involving many complex issues that arise out of script, writing convention
+specific to the language, inherent POS ambiguities as well as with respect to
+unknown tokens and variations in the text.
+
+POS tagging can be both manual as well as automatic. Manual tagging, though more
+accurate, is a time-consuming, long and continuous process. Hence, the automatic
+tagger is essential to speed up the process of POS tagging with less chance of
+errors and inconsistencies. Various automatic POS taggers have been developed
+worldwide using linguistic rules, stochastic models and hybrid taggers (a
+combination of both). Different kinds of taggers have certain advantages as well
+as disadvantages. Automatic tagging is a challenge for Indian languages which
+are highly inflectional and morphologically rich. Hence, the development of high
+accuracy POS taggers is a challenging task.
+
+The event endeavours to concentrate on the challenges in the area of POS tagging
+and to share and investigate novel advancements in the area specific to a
+language as well as cross-linguistically. It also aims to provide researchers an
+academic space to discuss the most recent information about theories, tools and
+techniques explored for POS tagging, and focuses on linguistic as well as
+computational issues related to it. The event intends to endorse the area of POS
+tagging as a consolidated research area and aims towards widening its horizon.
+
+Abstracts of no more than 500 words (including references) mentioning the title
+of the paper, author(s) name, institutional affiliation, and email address
+should be submitted by the due date in *.rtf or *.pdf format to the following
+email address:
+rsrishti@gmail.com or ldc-richa@ciil.stpmy.soft.net
+
+Important Dates
+Last date for submitting the Abstract : 30th November, 2009
+Abstract acceptance notification : 20th December, 2009
+Last date for submitting full length Papers : 1st February, 2010
+Minimal financial support for travel shall be provided to the authors of a few
+selected papers.
 
 
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
 
---===============0077858428==--
 
+
+-----------------------------------------------------------
+LINGUIST List: Vol-20-3545	
+
+	
+
+--------------050105090400090007050005--

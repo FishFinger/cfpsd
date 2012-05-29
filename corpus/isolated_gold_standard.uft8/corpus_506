@@ -1,204 +1,267 @@
-From - Thu Dec 10 14:23:36 2009
+From - Thu Dec 10 14:23:39 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: cd82bdf6438e4a7885b62336608dda227fad95ac
+X-Gmail-Received: 54d2ed1364708c2b25c9d40101de7919de38b16d
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs172100pyi;
-        Tue, 4 Jul 2006 08:30:39 -0700 (PDT)
-Received: by 10.67.93.7 with SMTP id v7mr6686881ugl;
-        Tue, 04 Jul 2006 08:30:39 -0700 (PDT)
-Return-Path: <owner-corpora@lists.uib.no>
-Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
-        by mx.gmail.com with ESMTP id w40si507996ugc.2006.07.04.08.30.38;
-        Tue, 04 Jul 2006 08:30:39 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
-Received: from blenda.uib.no [129.177.30.130] 
-	by noralf.uib.no  with esmtp  (Exim 4.34)
-	id 1Fxmr8-0000tm-PH; Tue, 04 Jul 2006 17:30:30 +0200
-Received: from majordomo by blenda.uib.no with local (Exim 4.60)
-	id 1Fxn30-0002ec-0z; Tue, 04 Jul 2006 17:42:46 +0200
-Received: from rolf.uib.no [129.177.30.19] 
-	by blenda.uib.no with esmtp (Exim 4.60)
-	id 1Fxn2u-0002eX-Ld; Tue, 04 Jul 2006 17:42:40 +0200
-Received: from smtp102.his.com [216.194.225.125] 
-	by rolf.uib.no for corpora@hd.uib.no with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
-	id 1Fxmqv-0007OT-N4; Tue, 04 Jul 2006 17:30:20 +0200
-Received: from mail101.his.com (mail101.his.com [216.194.225.77])
-	by smtp102.his.com (8.13.6/8.13.3) with ESMTP id k64FThoi039038;
-	Tue, 4 Jul 2006 11:29:45 -0400 (EDT)
-	(envelope-from ken@clres.com)
-Received: from clres.com (c-69-255-245-165.hsd1.md.comcast.net [69.255.245.165])
-	by mail101.his.com (8.13.6/8.13.3) with ESMTP id k64FU5fX017147;
-	Tue, 4 Jul 2006 11:30:08 -0400 (EDT)
-	(envelope-from ken@clres.com)
-Message-ID: <44AA897F.4060000@clres.com>
-Date: Tue, 04 Jul 2006 11:30:07 -0400
-From: Ken Litkowski <ken@clres.com>
-Organization: CL Research
-User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4) Gecko/20011019 Netscape6/6.2
-X-Accept-Language: en-us
-MIME-Version: 1.0
-To: corpora@hd.uib.no, acl@aclweb.org
-Subject: [Corpora-List] Special Issue of Computational Linguistics on Semantic Role Labeling -- Final CFP
-Content-Type: text/plain; charset=us-ascii; format=flowed
-Content-Transfer-Encoding: 7bit
-X-Spam-Status: No, score=0.0 required=5.0 tests=none autolearn=disabled version=3.1.3
-X-Spam-Checker-Version: SpamAssassin 3.1.3 (2006-06-01) on smtp102.his.com
-X-Virus-Scanned: ClamAV 0.88.2/1584/Tue Jul  4 10:18:29 2006 on smtp102.his.com
-X-Virus-Status: Clean
-X-checked-clean: by exiscan on rolf
-X-Scanner: b371f4a612f8465546082aaa50775840 http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: 4.0 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-   0.1 Received: contains a forged HELO
-  4.0 BODY: Probably more lottery
-List-Id: <corpora@uib.no>
-Sender: owner-corpora@lists.uib.no
-Precedence: bulk
+Received: by 10.35.11.2 with SMTP id o2cs55931pyi;
+        Tue, 18 Jul 2006 08:15:08 -0700 (PDT)
+Received: by 10.35.105.18 with SMTP id h18mr5634052pym;
+        Tue, 18 Jul 2006 08:15:08 -0700 (PDT)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
+        by mx.gmail.com with ESMTP id v53si1227720pyv.2006.07.18.08.14.55;
+        Tue, 18 Jul 2006 08:15:08 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
+Received: from listserv (listserv [164.76.102.107])
+	by listserv.linguistlist.org (8.13.7/8.13.7) with ESMTP id k6IFE66d013839;
+	Tue, 18 Jul 2006 11:14:53 -0400 (EDT)
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
+          spool id 699843 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Tue, 18 Jul
+          2006 11:13:09 -0400
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.13.7/8.13.7) with ESMTP id
+          k6IErlUd028708 for <linguist@listserv.linguistlist.org>; Tue, 18 Jul
+          2006 10:53:47 -0400 (EDT)
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.7/8.13.7) with ESMTP id k6IEqghD017174; Tue,
+          18 Jul 2006 10:53:42 -0400 (EDT)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Tue, 18 Jul 2006 11:14:55 -0400 (EDT)
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
+            [164.76.102.107]); Tue, 18 Jul 2006 10:53:47 -0400 (EDT)
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-2.0.2 (linguistlist.org
+            [164.76.102.53]); Tue, 18 Jul 2006 10:53:43 -0400 (EDT)
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by
+                      listserv.linguistlist.org id k6IErlUd028709
+Message-ID:  <5401756.1153234422956.JavaMail.nobody@linguistlist.org>
+Date:         Tue, 18 Jul 2006 10:53:42 -0400
+Reply-To: linguist@LINGUISTLIST.ORG
+Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From: linguist@LINGUISTLIST.ORG
+Subject: 17.2086, Calls: Pragmatics/Sweden; General Ling/USA
+Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
+To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Precedence: list
 
-Final Call for papers (due July 15, 2006):
+LINGUIST List: Vol-17-2086. Tue Jul 18 2006. ISSN: 1068 - 4875.
 
-     Special issue of Computational Linguistics on
-         Semantic Role Labeling
+Subject: 17.2086, Calls: Pragmatics/Sweden; General Ling/USA
 
-Special issue website: http://www.lsi.upc.edu/~carreras/srlcl.html
+Moderators: Anthony Aristar, Wayne State U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+ 
+Reviews (reviews@linguistlist.org) 
+        Laura Welcher, Rosetta Project / Long Now Foundation  
 
-Submission Instructions
------------------------
-Articles submitted to this special issue must adhere to the 
-Computational Linguistics Style Guidelines. Please follow the link to 
-find the CL Style Guide and LaTeX style files. As in regular submissions 
-to the journal, articles are to be sent electronically by email in 
-Adobe's PDF format to compling@ics.mq.edu.au, indicating that the 
-submission is for the Special Issue on Semantic Role Labeling.
+Homepage: http://linguistlist.org/
 
-BACKGROUND
-----------
-The general problem of interpreting text involves the determination of
-the semantic relations among the entities and the events they
-participate in. Given a sentence, one formulation of the task consists
-of detecting basic event structures such as "who" did "what" to
-"whom", "when" and "where". From a linguistic point of view, a key
-component of the task corresponds to identifying the semantic
-arguments filling the roles of the sentence predicates. These
-predicates are mainly lexicalized by verbs but also by some verb
-nominalizations and adjectives. Typical predicate semantic arguments
-include Agent, Patient, and Instrument; semantic roles may also be
-found as adjuncts (e.g., Locative, Temporal, Manner, and Cause). The
-related tasks of determining the semantic relations among nouns and
-their modifiers, as well as prepositions and their arguments, are
-clearly important for text interpretation as well, and indeed often
-draw on similar role labels.
+The LINGUIST List is funded by Eastern Michigan University, Wayne
+State University, and donations from subscribers and publishers.
 
-As with many areas in computational linguistcs (CL) and Natural
-Language Processing (NLP), work has proceeded for decades on manually
-created semantic grammars and other resources for supporting text
-interpretation (e.g., [Hirst 1987], [Pustejovsky 1995], [Copestake and
-Flickinger 2000]). This body of research has supported deep semantic
-analysis of language input, but has the drawbacks typical of such
-approaches in requiring intensive manual labor, often restricted to
-narrow domains. The growth of statistical machine learning methods,
-addressing these issues of the knowledge acquisition bottleneck, were
-for many years limited in this area to related problems of learning
-subcategorization frames [Briscoe and Carroll 1997] or classifying
-verbs according to argument structure properties [Merlo and Stevenson
-2001] [Schulte im Walde 2000], due to the lack of appropriate
-resources to support such methods in labeling semantic roles of
-arguments.
+Editor for this issue: Dan Parker <dan@linguistlist.org>
+================================================================  
 
-Recently, however, the compilation and manual annotation with semantic
-roles of medium-large corpora - the PropBank, NomBank, and FrameNet
-initiatives - has enabled the development of statistical approaches
-specifically for the task of semantic role labeling (SRL). SRL,
-especially focused on the labeling of verbal arguments and adjuncts,
-has become a well-defined task with a substantial body of work and
-comparative evaluation (e.g., see [Gildea and Jurafsky 2002],
-[Surdeanu et al. 2003], [Xue and Palmer 2004], [Pradhan et al. 2005],
-CoNLL Shared Task in 2004 and 2005, Senseval-3). The identification of
-such event frames holds potential for significant impact in many NLP
-applications, as suggested by the following works on Information
-Extraction [Surdeanu et al. 2003], Question Answering [Narayanan and
-Harabagiu 2004], Summarization [Melli et al. 2005], and Machine
-Translation [Boas 2002]; as well, work on noun modifier relations has
-been encouraging for related NLP tasks (e.g., [Moldovan and Badulescu
-2005], [Rosario and Hearst 2004]). Although the use of SRL systems in
-real-world applications has so far been limited, the outlook is
-promising over the next several years for a spread of this type of
-analysis to a range of applications requiring some level of semantic
-interpretation. Moreover, the problem represents an excellent
-framework to perform research on CL and NLP techniques for acquiring
-and exploiting semantic relations among the different components of
-the structured output to be constructed.
+As a matter of policy, LINGUIST discourages the use of abbreviations
+or acronyms in conference announcements unless they are explained in
+the text.
 
-TOPICS
-------
-The call for papers of this special issue invites submissions of
-articles describing novel and challenging work and results in Semantic
-Role Labeling (SRL) and its applications, with emphasis on the
-evaluation of qualitative and quantitative aspects that give a deep
-insight on the SRL task and, in general, on the syntactico-semantic
-processing of natural language. The range of topics to be covered
-includes, but is not limited to:
-
-     * Novel statistical and machine learning approaches and
-       architectures for SRL
-     * Study of the relevant information/knowledge for the task
-     * Learning from small training sets
-     * Unsupervised models for SRL
-     * Scalability of the state-of-the-art systems
-     * How to make systems robust against annotation errors
-     * Inclusion of deep semantic information and relations
-     * Generalization to new corpora and to new unseen frames
-     * Knowledge-based approaches to SRL and comparison to the
-       statistical approach
-     * Combination of systems and approaches, specially addressing the
-       integration of knowledge-based and statistical views
-     * Study of the relation between the syntactic and semantic layers
-       for SRL characterization and system development
-     * Applications of SRL (e.g., in domains such as Q&A, MT,
-       Summarization, etc.)
-     * Evaluation: new metrics for direct evaluation and indirect
-       evaluations through applications
-     * Development of copora and resources for the task
-     * SRL for languages other than English
-
-IMPORTANT DATES
----------------
-Call for papers: 15 March 2006
-Submission of articles: 15 July 2006
-Preliminary decisions to authors: 15 November 2006
-Submission of revised articles: 31 January 2007
-Final decisions to authors: 15 March 2007
-Final versions due from authors: 15 April 2007
-Publication: Fall 2007
-
-SUBMISSION INSTRUCTIONS
------------------------
-Articles submitted to this special issue must adhere to the 
-Computational Linguistics Style Guidelines. Please follow the link to 
-find the CL Style Guide and LaTeX style files. As in regular submissions 
-to the journal, articles are to be sent electronically by email in 
-Adobe's PDF format to compling@ics.mq.edu.au, indicating that the 
-submission is for the Special Issue on Semantic Role Labeling.
-
-GUEST EDITORS
--------------
-Guest Editors
-
-Lluis Marquez, Technical University of Catalonia
-Kenneth C. Litkowski,  CL Research
-Suzanne Stevenson,  University of Toronto
-Xavier Carreras, Technical University of Catalonia
-
-GUEST EDITORIAL BOARD
----------------------
-See the web site for the members of the guest editorial board.
-
--- 
-Ken Litkowski                     TEL.: 301-482-0237
-CL Research                       EMAIL: ken@clres.com
-9208 Gue Road
-Damascus, MD 20872-1025 USA       Home Page: http://www.clres.com
+To post to LINGUIST, use our convenient web form at 
+http://linguistlist.org/LL/posttolinguist.html. 
 
 
 
+===========================Directory==============================  
+
+1)
+Date: 17-Jul-2006
+From: Nino Amiridze < Nino.Amiridze@let.uu.nl >
+Subject: 10th International Pragmatics Conference 
+
+2)
+Date: 17-Jul-2006
+From: Douglas Simms < dsimms@siue.edu >
+Subject: Mid-American Linguistics Conference 
+
+	
+-------------------------Message 1 ---------------------------------- 
+Date: Tue, 18 Jul 2006 10:44:54
+From: Nino Amiridze < Nino.Amiridze@let.uu.nl >
+Subject: 10th International Pragmatics Conference 
+ 
+
+Full Title: 10th International Pragmatics Conference 
+
+Date: 08-Jul-2007 - 13-Jul-2007
+Location: Göteborg, Sweden 
+Contact Person: Ann Verhaert
+Meeting Email: ann.verhaert@ipra.be
+Web Site: http://ipra.ua.ac.be/main.aspx?c=*CONFERENCE2006&n=1295 
+
+Linguistic Field(s): Computational Linguistics; Pragmatics; Text/Corpus Linguistics 
+
+Call Deadline: 04-Sep-2006 
+
+Meeting Description:
+
+Special Theme: Language data, corpora, and computational pragmatics
+ 
+The conference is open to all other pragmatics-related topics as well (where
+pragmatics is conceived broadly as a cognitive, social, and cultural perspective
+on language and communication).
+ 
+Panels on a wide range of topics are already being prepared. A tentative list
+(with provisional titles) includes: Arguing from large corpora (Igor Zagar),
+Comparative studies of professional and institutional activities (Per Linell),
+Computational pragmatics (Robin Cooper), Contrastive pragmatics (Karin Aijmer),
+Conversation analysis (John Heritage), Corpus-based multilingual approach to
+youngspeak (Anna-Brita Stenström), Corpus-based pragmatics (Jens Allwood), 
+Corpus orales del español/Spanish oral corpora (Antonio Briz), Corpus work on
+argumentation (Jean Goodwin), Gender and discourse analysis (Susan Ehrlich, Ruth
+Wodak), Intention, common ground, and the egocentric speaker-hearer (István
+Kecskés, Jacob Mey), Language and gender in  Japan (Miyako Inoue), Methods in
+pragmatics (Jan-Ola Östman), Multimodality (Theo van Leeuwen),  Multimodal text
+analysis - a corpus-based approach (Yueguo Gu), Pragmatics and communication
+disorders (Elisabeth Ahlsén), Pragmatics of English lingua franca (Juliane
+House, István Kecskés), Reference (Thorstein Fretheim), Speech acts and/or
+dynamic semantics (Mitchell Green), Text mining (Walter Daelemans).
+ 
+Plenary lecturers will include (with tentative indication of topic area):
+ 
+Douglas Biber (Flagstaff, Arizona; pragmatics and corpora)
+Bill Hanks (Berkeley; Maya discourse genres and missionization)
+Susan Herring (Bloomington; computer-mediated communication)
+Jan-Ola Östman (Helsinki; addressing Nordic language issues)
+Udaya Sing (Mysore; endangered languages)
+Yorick Wilks (Sheffield; computational pragmatics)
+One more plenary to be announced soon.
+ 
+Conference Chairs: Karin Aijmer & Jens Allwood (Univ. of Göteborg)
+ 
+Local Site Committee:  The other members of the Local Site Committee are: 
+Elisabeth Ahlsén (Univ. of Göteborg), Robin Cooper (Univ. of Göteborg), Per
+Linell (Univ. of Linköping), Thorstein Fretheim (Univ. of Trondheim), Anna-Brita
+Stenström (Univ. of Bergen), Jan-Ola Östman (Univ. of Helsinki)
+ 
+International Conference Committee: In addition to the members of the Local Site
+Committee, the International Conference Committee  includes: Keiko AbeE (Tokyo),
+Charles Antaki (Loughborough), Josie Bernicot (Poitiers), Rukmini Bhaya Nair
+(New Delhi), Adriana Bolívar  (Caracas), Walter De Mulder (Antwerp), Helmut
+Gruber (Vienna), Yueguo Gu (Beijing), Auli Hakulinen (Helsinki), Krisadawan
+Hongladarom (Bangkok), Alexandra Jaffe (Long Beach), Sophia Marmaridou (Athens),
+Luisa Martín Rojo (Madrid), Bonnie McElhinny (Toronto), Jacob Mey (Odense),
+Marina Sbisá (Trieste), Jef Verschuren (Antwerp; ex officio as IPrA Secretary
+General). 
+
+Call for Participation                   
+                                                        
+Fillers in Grammar and Discourse              
+
+Panel Proposed at the 10th International Pragmatics Conference   
+8-13 July 2007, Göteborg, Sweden          
+
+http://www.let.uu.nl/~Nino.Amiridze/personal/organization/fillers.html
+
+Scope:
+
+We would like to invite researchers interested in the role of fillers in grammar
+and discourse to submit abstracts for participation in a panel proposed for the
+10th International Pragmatics Conference. Contributions studying various types
+of fillers, their morphophonology, morphosyntax, pragmatics and/or diachronic
+development in a particular language or across a sample of languages are
+welcome. We would also be interested to have contributions from psycholinguists
+working on fillers in language acquisition and from neurolinguists who are
+interested in the use of repair strategies in lexical access failure.
+
+Dates:
+
+If you are interested, please send one page abstract (with an optional
+additional page for data and references) by September 4, 2006 to
+Nino.Amiridze@let.uu.nl
+
+You will be informed on acceptance/rejection in the beginning of
+October, 2006.
+
+Organizers:
+
+Nino Amiridze, Utrecht University (The Netherlands)
+Hiroaki Kitano, Aichi University of Education (Japan)
+
+
+
+	
+-------------------------Message 2 ---------------------------------- 
+Date: Tue, 18 Jul 2006 10:44:59
+From: Douglas Simms < dsimms@siue.edu >
+Subject: Mid-American Linguistics Conference 
+
+	
+
+Full Title: Mid-American Linguistics Conference 
+Short Title: MALC 
+
+Date: 27-Oct-2006 - 28-Oct-2006
+Location: Edwardsville, IL, USA 
+Contact Person: Larry Lafond
+Meeting Email: llafond@siue.edu
+
+Linguistic Field(s): General Linguistics 
+
+Call Deadline: 21-Aug-2006 
+
+Meeting Description:
+
+October 27-28, 2006
+Southern Illinois University Edwardsville invite submission of abstracts for the
+2006 Mid-America Linguistics Conference 
+
+October 27-28, 2006
+Southern Illinois University Edwardsville invite submission of abstracts for the
+2006 Mid-America Linguistics Conference.
+
+We will continue the tradition of accepting papers on all linguistic topics.
+Linguists in all areas of specialization are encouraged to submit abstracts.
+This year's meeting will feature special interest sessions on Language
+Acquisition and Morpho-Syntax.  There will also be a forum dedicated to graduate
+students
+
+Plenary Speaker: Silvina Montrul, University of Illinois, Urbana-Champaign
+
+Location: 
+The conference will be in Morris University Center on the campus of Southern
+Illinois University Edwardsville. Edwardsville is located at the junctions of
+I-270 and Illinois state highway 157 about 25 miles east of downtown St. Louis, MO.
+
+Guidelines for Submissions of Papers:
+Contributed papers will be allowed a maximum of 20 minutes for presentation.
+Published proceedings of the conference will be available if there is sufficient
+demand; ordering information will be provided in September. Instructions for the
+preparation of manuscripts will be sent along with notification of acceptance.
+
+Please submit one-page abstracts no later than August 21, 2006
+
+Submissions must be by e-mail as a PDF attachment. Submissions may also be faxed
+(618-650-3509) to either: Larry LaFond, llafond@siue.edu or Seran Aktuna,
+saktuna@siue.edu
+
+Requests for additional information about program content may be sent to:
+Ron Schaefer, Department of English, SIUE, Edwardsville, IL 62026-1431
+Telephone: (618) 650-2060; or E-mail: rschaef@siue.edu
+For registration information contact: Conferences and Institutes at (618) 650-2660.
+
+Audio-visual equipment will be available as required and requested.
+
+
+ 
+
+
+
+-----------------------------------------------------------
+LINGUIST List: Vol-17-2086	
+
+	

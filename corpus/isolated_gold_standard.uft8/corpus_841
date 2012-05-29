@@ -1,158 +1,274 @@
-From - Thu Dec 10 14:39:10 2009
+From - Thu Dec 10 14:39:12 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.223.125.139 with SMTP id y11cs55341far;
-        Tue, 17 Nov 2009 07:56:28 -0800 (PST)
-Received: by 10.90.255.1 with SMTP id c1mr182929agi.115.1258473381876;
-        Tue, 17 Nov 2009 07:56:21 -0800 (PST)
-Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
-        by mx.google.com with ESMTP id 29si23910411iwn.92.2009.11.17.07.56.20;
-        Tue, 17 Nov 2009 07:56:20 -0800 (PST)
-Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
-DomainKey-Status: bad
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
-Received: from listserv (localhost [127.0.0.1])
-	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nAHFkZ9l005615;
-	Tue, 17 Nov 2009 10:56:20 -0500
-DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
- h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
- b=H07lWsTs1AKG3N34efASGAZTeCTPKjLuqrsEEOMpp3tAAtwLUA4/ezmov38qhoBoHBSiIH3D8Sj1P8E4f/qoZQnDMfjfb8KYAq4xhiO38n1nJK67lwIkHmxots514UDS;
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
-          spool id 13952135 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Tue, 17 Nov
-          2009 10:56:01 -0500
-Approved-By: linguist@LINGUISTLIST.ORG
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
-          id nAHDkI1j000935 for <linguist@listserv.linguistlist.org>; Tue, 17
-          Nov 2009 08:46:18 -0500
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.8/8.13.8) with ESMTP id nAHDkBIr012767; Tue,
-          17 Nov 2009 08:46:11 -0500 (EST)
-Mime-Version: 1.0
-Content-Type: text/plain; charset=iso-8859-1
+Received: by 10.204.118.66 with SMTP id u2cs33154bkq;
+        Tue, 24 Nov 2009 04:26:10 -0800 (PST)
+Received: by 10.213.0.154 with SMTP id 26mr6238968ebb.82.1259065564971;
+        Tue, 24 Nov 2009 04:26:04 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 1si43926145ewy.74.2009.11.24.04.26.04;
+        Tue, 24 Nov 2009 04:26:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id A94FB247C2; Tue, 24 Nov 2009 13:25:57 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 34E3D241D3;
+	Tue, 24 Nov 2009 13:19:53 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 851AA3DAA;
+	Tue, 24 Nov 2009 13:19:36 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id EmK2c68eOVYH; Tue, 24 Nov 2009 13:19:36 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0A5F23D85;
+	Tue, 24 Nov 2009 13:18:48 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7458F3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Nov 2009 05:33:03 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QcjjO9TVO7pu for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Nov 2009 05:33:03 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 4AD2C3D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Nov 2009 05:33:03 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 3546223CD5; Fri, 20 Nov 2009 05:33:03 +0100 (MET)
+X-Greylist: delayed 4801 seconds by postgrey-1.28 at newjura;
+	Fri, 20 Nov 2009 05:32:54 MET
+Received: from mp.cs.niu.edu (mp.cs.niu.edu [131.156.145.41])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BD74B23CC5;
+	Fri, 20 Nov 2009 05:32:54 +0100 (MET)
+Received: from jiasx61 ([131.156.145.52]) (authenticated bits=0)
+	by mp.cs.niu.edu (8.14.3/8.14.3) with ESMTP id nAK39MNB009900
+	(version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NOT);
+	Thu, 19 Nov 2009 21:09:22 -0600 (CST)
+From: "Jia Zhang" <jiazhang@cs.niu.edu>
+To: "'Jia Zhang'" <jiazhang@cs.niu.edu>
+Date: Thu, 19 Nov 2009 21:09:18 -0600
+Organization: NIU
+Message-ID: <035e01ca698e$dd82cd90$988868b0$@niu.edu>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="us-ascii"
 Content-Transfer-Encoding: 7bit
-X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-3.0 (linguistlist.org
-            [164.76.102.53]); Tue, 17 Nov 2009 08:46:11 -0500 (EST)
-Message-ID:  <27764850.1258465571760.JavaMail.nobody@linguistlist.org>
-Date:         Tue, 17 Nov 2009 08:46:11 -0500
-Reply-To:     linguist@LINGUISTLIST.ORG
-Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From:         linguist@LINGUISTLIST.ORG
-Subject: 20.3942, Calls: General Ling, Historical Ling, Lang Acquisition/USA
-Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
-To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AcppjP+2VkzoXgLTSb2vuSAKSQXSUwAAczaw
+Content-Language: en-us
+X-Mailman-Approved-At: Tue, 24 Nov 2009 13:18:32 +0100
+Cc: 
+Subject: [Elsnet-list] Call for Papers: IEEE International Conference on Web
+	Services (2010)
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
 Precedence: list
-List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
-           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
-List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
-List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
-List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
-List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
+Reply-To: jiazhang@cs.niu.edu
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
 
-LINGUIST List: Vol-20-3942. Tue Nov 17 2009. ISSN: 1068 - 4875.
+Apologies for cross-postings. Please send it to interested colleagues and
+students. Thanks!
 
-Subject: 20.3942, Calls: General Ling, Historical Ling, Lang Acquisition/USA
+ICWS 2010 Submission Site is Open:
+http://conferences.computer.org/icws/2010/submission.html
 
-Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
-            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
- 
-Reviews: Monica Macaulay, U of Wisconsin-Madison  
-Eric Raimy, U of Wisconsin-Madison  
-Joseph Salmons, U of Wisconsin-Madison  
-Anja Wanner, U of Wisconsin-Madison  
-       <reviews@linguistlist.org> 
+::::::::::::::::::::::::: CALL FOR PAPERS :::::::::::::::::::::::::
+The 8th IEEE International Conference on Web Services (ICWS 2010)
+http://conferences.computer.org/icws/2010/ or http://icws.org
+July 5-10, 2010, Miami, FL, USA
 
-Homepage: http://linguistlist.org/
+Theme: Innovations for Web-based Services
 
-The LINGUIST List is funded by Eastern Michigan University, 
-and donations from subscribers and publishers.
+Sponsored by:
+IEEE Computer Society Technical Committee on Services Computing
+(http://tab.computer.org/tcsc) &
+Services Society (http://www.servicessociety.org) (Approval Pending)
 
-Editor for this issue: Kate Wu <kate@linguistlist.org>
-================================================================  
+*************************************** NEWS **********************
+Call For Papers: IEEE Transactions on Services Computing (TSC,
+http://computer.org/tsc). Special theme issues from ICWS 2010 will be
+published in TSC.
 
-LINGUIST is pleased to announce the launch of an exciting new feature:  
-Easy Abstracts! Easy Abs is a free abstract submission and review facility 
-designed to help conference organizers and reviewers accept and process 
-abstracts online.  Just go to: http://www.linguistlist.org/confcustom, 
-and begin your conference customization process today! With Easy Abstracts, 
-submission and review will be as easy as 1-2-3!
+Call For Papers: International Journal of Web Services Research (JWSR,
+http://www.servicescomputing.org/jwsr/) has been indexed by SCI-E and EI.
+According to Thomson Scientific, JWSR is listed in the 2008 Journal Citation
+Report with an Impact Factor of 1.200. The journal ranks #47 of 99 in the
+Computer Science, Information Systems and ranks #37 of 86 in Computer
+Science, Software Engineering.
 
-===========================Directory==============================  
+Call For papers: International Journal of Business Process Integration and
+Management (IJBPIM, http://ijbpim.servicescomputing.org/)
+********************************************************************
 
-1)
-Date: 16-Nov-2009
-From: Daniel Finer < daniel.finer@stonybrook.edu >
-Subject: Austronesian Formal Linguistics Association
- 
+ICWS 2010 organizing committee invites you to participate in the eighth
+edition of ICWS, to be held in Miami, FL, USA.
 
-	
--------------------------Message 1 ---------------------------------- 
-Date: Tue, 17 Nov 2009 08:43:54
-From: Daniel Finer [daniel.finer@stonybrook.edu]
-Subject: Austronesian Formal Linguistics Association
+ICWS has been a prime international forum for both researchers and industry
+practitioners to exchange the latest fundamental advances in the state of
+the art and practice of Web services, identify emerging research topics, and
+define the future of Web-based services. ICWS 2010 is sponsored by IEEE
+Computer Society. It is the eighth year of gathering to formally explore
+"Services" Science and Technology in the field of Services Computing, which
+was formally promoted by IEEE Computer Society since 2003.
 
-E-mail this message to a friend:
-http://linguistlist.org/issues/emailmessage/verification.cfm?iss=20-3942.html&submissionid=2227694&topicid=3&msgnumber=1
-  
+ICWS 2010 will be co-located with the 6th IEEE 2010 World Congress on
+Services (SERVICES 2010), the 3rd IEEE 2010 International Conference on
+Cloud Computing (CLOUD 2010), and the 7th IEEE 2010 International Conference
+on Services Computing (SCC 2010) to grow itself to continute to be the most
+prestigious professional conference dedicated to Web services.
 
-Full Title: Austronesian Formal Linguistics Association 
-Short Title: AFLA 17 
+The technical program of ICWS 2010 will include a refereed research track,
+an application and industry track, a work-in-progress track, and a poster
+track. The research track will highlight foundational work that strives to
+push beyond the limits of existing Web services platforms and products,
+including experimental efforts, innovative systems and investigations that
+identify weaknesses in the existing Web services models.
 
-Date: 07-May-2010 - 09-May-2010
-Location: Stony Brook NY, USA 
-Contact Person: Yu-an Lu
-Meeting Email: afla17@afla17.org
-Web Site: http://www.afla17.org 
+The ICWS 2010 research track seeks original, UNPUBLISHED research papers
+reporting substantive new work in various aspects of Web services. Research
+papers must properly cite related work and clearly indicate their
+contributions to the field of Web services. All topics relevant to Web
+services are of interest, but the conference program committee particularly
+encourages submissions related to the following aspects of Web services:
 
-Linguistic Field(s): General Linguistics; Historical Linguistics; Language
-Acquisition; Linguistic Theories 
+Foundations of Web Services
 
-Language Family(ies): Austronesian 
+        * Service-Oriented Architecture (SOA) and Evolutions
+        * Models, methodologies, and tools (including analysis, design,
+modeling, and composition)
+        * Publishing, discovery, and selection (including in mobile
+settings)
+        * Validation and testing (including risk assessment and tracking)
+        * Management and governance (including monitoring, QoS, privacy,
+trust) 
+        * Formal methods (including modeling and specification, data and
+process semantics, type systems, security, QoS, and other properties)
+        * Standards and implementation and deployment technologies
+   
+Web-based Services
+        
+        * Web 2.0 and Web X.0 concepts in Web services settings 
+        * Software as a Service (SaaS)
+        * Service As Software
+        * Cloud Computing
+        * Technologies for building and operating massive data centers
+(including middleware)
 
-Call Deadline: 01-Feb-2010 
+Web Services Applications beyond Web
 
-Meeting Description:
+        * Applications (including mobile, scientific, Grid and utility,
+autonomic, and embedded computing)
+        * Business process management (including business protocols,
+business intelligence, service level agreements, and business licensing
+models)
 
-AFLA 17
-Stony Brook University
-May 7-9 2010
+All submitted manuscripts will be peer-reviewed by at least 3 program
+committee members. Accepted papers will appear in the conference proceedings
+published by the IEEE Computer Society Press. Extended versions of selected
+papers published in the ICWS 2010 will be invited through a fast review
+channel for potential publication in the IEEE Transactions on Services
+Computing (TSC), International Journal of Web Services Research (JWSR) and
+the International Journal of Business Process Integration and Management
+(IJBPIM). Both the ICWS Proceedings and JWSR are included in EI Compendex.
+JWSR is also indexed in SCI-E.
 
-The Department of Linguistics at Stony Brook University, Stony Brook NY, will
-host the 17th annual meeting of the Austronesian Formal Linguistics 
-Association. The conference dates are May 7-9, 2010. 
+Submitted manuscripts will be limited to 10 (IEEE Proceedings style) pages
+and REQUIRED to be formatted using the IEEE Proceedings template.
+Unformatted papers and papers beyond 10 pages will not be reviewed.
+Electronic submission of manuscripts (in PDF or Word format) is required.
+Detailed instructions for electronic paper preparation and submission, panel
+proposals, tutorial proposals, workshop proposals, and review process can be
+found at http://conferences.computer.org/icws/2010/. At least one author of
+each accepted paper is required to register to the conference and present
+the paper. One Best Paper award and one Best Student Paper award will be
+granted at ICWS 2010. The first author of the best student paper must be a
+full-time student.
+If your paper is application or solution oriented, you can consider
+submitting it to ICWS 2010 Applications and Industry Track. Manuscripts
+submitted to the Research Track focusing on application or solution
+descriptions may be recommended to the Applications and Industry Track for
+further consideration if the session slots are available. Submitted papers
+with novel ideas but not accepted by the Research Track and Applications and
+Industry Track may also be recommended for potential consideration by the
+chairs of the Work-in-Progress Track and Poster Track of ICWS 2010, and
+other tracks and workshops of SERVICES 2010.
 
-Call for Papers
+ICWS Program Committee requires that authors adopt the keywords and index
+terms in Services Computing "M" from the IEEE CS taxonomy
+(computer.org/tsc).
 
-Abstracts are invited for 30 minute talks (20+10) on any aspect of formal 
-linguistics (morphology, phonetics, phonology, syntax, semantics) of any 
-Austronesian language(s). Submission limitations are one singly-authored 
-abstract and one jointly-authored abstract per applicant. Abstracts should be
-limited to a maximum of two pages (for text, examples, trees, tableaux, 
-references), with margins of one inch and in 12 pt. type. Abstracts should be
-submitted as pdf files (see conference website for further details).
-
-A special session on the psycholinguistics (e.g., acquisition, processing) of 
-Austronesian languages will be scheduled, and so we particularly encourage 
-abstracts in these areas.
-
-Invited Speakers:
-Edith Aldridge, University of Washington
-Peter Cole and Gabriella Hermon, University of Delaware
-Abigail Cohn, Cornell University
-
-Deadline for submission of abstracts is Monday February 1, 2010.  Please refer
-to the AFLA17 website, www.afla17.org, for further information, or contact the
-organizers at afla17@afla17.org
+Important Dates:
+==============
+Abstract Submission Deadline: Feb. 15, 2010
+Paper Submission Due Date:  Feb. 15, 2010
+Decision Notification (Electronic): April 15, 2010
+Camera-Ready Copy Due Date & Pre-registration Due:  April 30, 2010 
 
 
+Review Policy
+=============
+IEEE Policy and professional ethics require that referees treat the contents
+of papers under review as privileged information not to be disclosed to
+others before publication. It is expected that no one with access to a paper
+under review will make any inappropriate use of the special knowledge that
+access provides. Contents of abstracts submitted to conference program
+committees should be regarded as privileged as well, and handled in the same
+manner. The Conference Publications Chair shall ensure that referees adhere
+to this practice.
+
+Organizers of IEEE conferences are expected to provide an appropriate forum
+for the oral presentations and discussions of all accepted papers. An
+author, in offering a paper for presentation at an IEEE conference, or
+accepting an invitation to present a paper, is expected to be present at the
+meeting to deliver the paper. In the event that circumstances unknown at the
+time of submission of a paper preclude its presentation by an author, the
+program chair should be informed on time, and appropriate substitute
+arrangements should be made. In some cases it may help reduce no-shows for
+the Conference to require advance registration together with the submission
+of the final manuscript.
+
+========================================================
+
+Please join us at: IEEE Services Computing Community
+
+To join, please visit https://www.ieeecommunities.org/services and follow
+instructions to apply for free membership. As a member, you will be
+permitted to login and participate in the community, including accessing
+IEEE Body of Knowledge on Services Computing (servicescomputing.tv).
+
+----------------------------------------------------------------
+
+***For any queries, please contact the Steering Committee Chair LJ Zhang:
+zhanglj AT ieee.org or the administration office at icws.ieeecs AT
+gmail.com.  ***
+_______________________________________________
+Please do not post msgs that are not relevant to the database community at
+large.  Go to www.cs.wisc.edu/dbworld for guidelines and posting forms.
+To unsubscribe, go to https://lists.cs.wisc.edu/mailman/listinfo/dbworld
 
 
-
------------------------------------------------------------
-LINGUIST List: Vol-20-3942	
-
-	
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,460 +1,197 @@
-From - Thu Dec 10 14:39:11 2009
+From - Thu Dec 10 14:38:52 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs101905bkq;
-        Wed, 18 Nov 2009 18:35:04 -0800 (PST)
-Received: by 10.213.2.82 with SMTP id 18mr852593ebi.44.1258598095213;
-        Wed, 18 Nov 2009 18:34:55 -0800 (PST)
-Return-Path: <corpora-bounces@uib.no>
-Received: from half.uib.no (half.uib.no [129.177.30.20])
-        by mx.google.com with ESMTP id 10si249049ewy.18.2009.11.18.18.34.50;
-        Wed, 18 Nov 2009 18:34:55 -0800 (PST)
-Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no; dkim=neutral (body hash did not verify) header.i=@gmail.com
-Received: from localhost (half.uib.no) [127.0.0.1] 
-	by half.uib.no  with esmtp  (Exim 4.69)
-	id 1NAwjN-0003qt-H7; Thu, 19 Nov 2009 03:26:45 +0100
-Received: from rolf.uib.no [129.177.30.19] 
-	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
-	id 1NAwjL-0003qd-Ki; Thu, 19 Nov 2009 03:26:43 +0100
-Received: from mail-pw0-f55.google.com [209.85.160.55] 
-	by rolf.uib.no for CORPORA@uib.no with esmtp  (Exim 4.69)
-	id 1NAwjH-0006MW-KC; Thu, 19 Nov 2009 03:26:43 +0100
-Received: by pwj19 with SMTP id 19so1187275pwj.14
-	for <CORPORA@uib.no>; Wed, 18 Nov 2009 18:26:38 -0800 (PST)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
-	h=domainkey-signature:mime-version:sender:received:from:date
-	:x-google-sender-auth:message-id:subject:to:content-type;
-	bh=CDLZYW2mEHDtuBmZUB5EkzYitFK9ivsDQp0jVKxoi0Q=;
-	b=rhzW15hSFHx1+6vH8YHVqLQD1werZlZdjWOB0y0GQq/D2j+t3Uh5BUhj3AMQamd8aX
-	j0irM5UMosEsrmg/pR7gGxmWiisOYRf6XGOo8hsmr56Vu+qwrEvyv73qdB9GjdXcsQ8+
-	qdC28B/WmNDHioQQbqFW8MPUxwTvkq9kO+LoQ=
-DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
-	h=mime-version:sender:from:date:x-google-sender-auth:message-id
-	:subject:to:content-type;
-	b=KTGP34kffxNHrwIqIo5N7QDRjDIrVxmc/CDP9T9FYpu0R/j35MB6YmexbByFEUNolf
-	4Ez+vhlFaYHKctzjmgO7VTEzcTPQY5nBaPSzHg4oh4drVksrltXPqVtSQbfRGdq3Kf5N
-	lnQ2PS+HKI3AJw7UzeOKVSn4/cZZIQ/Y6jciE=
-MIME-Version: 1.0
-Received: by 10.114.2.25 with SMTP id 25mr7258451wab.103.1258597192263; Wed, 
-	18 Nov 2009 18:19:52 -0800 (PST)
-From: "wilson@csse" <wilson@csse.uwa.edu.au>
-Date: Thu, 19 Nov 2009 10:19:32 +0800
-X-Google-Sender-Auth: 85e5ba2a721a0b42
-Message-ID: <ed31ef3a0911181819s3e27bfbfu846201e0e540d01b@mail.gmail.com>
-To: CORPORA@uib.no
-X-checked-clean: by exiscan on rolf
-X-Scanner: 43b5cdf16a0ed59c52e61fd936bd6b48 http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: 1.9 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found; 1.8 No MX records for the From: domain
-	0.1 BODY: UIB_MAILWON 0.0 BODY: HTML included in message
-Subject: [Corpora-List] 2nd Call for Chapter - Ontology Learning and
-	Knowledge Discovery Using the Web
-X-BeenThere: corpora@uib.no
-X-Mailman-Version: 2.1.12
+Received: by 10.204.60.195 with SMTP id q3cs167741bkh;
+        Thu, 5 Nov 2009 09:01:56 -0800 (PST)
+Received: by 10.91.144.16 with SMTP id w16mr6873793agn.21.1257440513511;
+        Thu, 05 Nov 2009 09:01:53 -0800 (PST)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 29si7002574iwn.92.2009.11.05.09.01.51;
+        Thu, 05 Nov 2009 09:01:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nA5GfJOS019793;
+	Thu, 5 Nov 2009 12:01:51 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=bV57WoTIItXPBfESnzucfmkZ+z9tzeaR+Ox0BiAXHXyn56CrcCgBlqDStFUsbzvT6pcVPNd2syYEXM2tSIprkf58JbinXYFbe+cc6lddwoI9dOCw+s5iIwq9sfIxBeek;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 13484259 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Thu, 5 Nov
+          2009 12:01:47 -0500
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nA5FYDnT029243 for <linguist@listserv.linguistlist.org>; Thu, 5
+          Nov 2009 10:34:13 -0500
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nA5FY7dq019989; Thu, 5
+          Nov 2009 10:34:07 -0500 (EST)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Thu, 05 Nov 2009 10:34:07 -0500 (EST)
+Message-ID:  <21718585.1257435247401.JavaMail.nobody@linguistlist.org>
+Date:         Thu, 5 Nov 2009 10:34:07 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.3775, Calls: Discourse Analysis, Forensic Ling, Socioling/Italy
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-List-Id: <corpora.uib.no>
-List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
-	<mailto:corpora-request@uib.no?subject=unsubscribe>
-List-Archive: <http://www.uib.no/mailman/public/corpora>
-List-Post: <mailto:corpora@uib.no>
-List-Help: <mailto:corpora-request@uib.no?subject=help>
-List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
-	<mailto:corpora-request@uib.no?subject=subscribe>
-Content-Type: multipart/mixed; boundary="===============1654529894=="
-Sender: corpora-bounces@uib.no
-Errors-To: corpora-bounces@uib.no
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
---===============1654529894==
-Content-Type: multipart/alternative; boundary=00504502f52b8f7b580478affe2c
+LINGUIST List: Vol-20-3775. Thu Nov 05 2009. ISSN: 1068 - 4875.
 
---00504502f52b8f7b580478affe2c
-Content-Type: text/plain; charset=ISO-8859-1
-Content-Transfer-Encoding: quoted-printable
+Subject: 20.3775, Calls: Discourse Analysis, Forensic Ling, Socioling/Italy
 
-SECOND CALL FOR CHAPTERS
-(Proposals Submission Deadline: 15 DECEMBER 2009)
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
-Ontology Learning and Knowledge Discovery Using the Web: Challenges and
-Recent Advances
+Homepage: http://linguistlist.org/
 
-A book edited by Wilson Wong, Wei Liu and Mohammed Bennamoun
-University of Western Australia, Australia
-http://explorer.csse.uwa.edu.au/editedbook
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
-Introduction
+Editor for this issue: Kate Wu <kate@linguistlist.org>
 =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
 =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-Ontologies provide formal specifications of what might exist in a domain to
-ensure reusability and interoperability of multiple heterogeneous systems.
-Ontologies form an indispensable part of the Semantic Web standard stack.
-While the Semantic Web is still our vision into the future, ontologies have
-already found a myriad of applications such as document retrieval, question
-answering, image retrieval, agent interoperability and document annotation.
-In recent years, automatic ontology learning from text has provided support
-and relief for knowledge engineers from the labourious task of manually
-engineering of ontologies. Ontology learning research, an area integrating
-advances from information retrieval, text mining, data mining, machine
-learning and natural language processing, has attracted increasing interest=
-s
-from a wide spectrum of application domains (e.g. bioinformatics,
-manufacturing). Being a rapidly growing area, it is crucial to collect the
-recent advances in tools and technologies in ontology learning and related
-areas.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-Objective Of The Book
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
+
 =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-The main objective of this book is to provide relevant theoretical
-foundations, and disseminate new research findings and expert views on the
-remaining challenges in ontology learning. In particular, the book focuses
-on the following questions:
-# Can ontology learning continue to rely on techniques borrowed from relate=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
+
+1)
+Date: 30-Oct-2009
+From: Girolamo Tessuto < languageoflaw@unina2.it >
+Subject: Language of Law: Pulling Together Different Strands
+=20
+
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Thu, 05 Nov 2009 10:32:10
+From: Girolamo Tessuto [languageoflaw@unina2.it]
+Subject: Language of Law: Pulling Together Different Strands
+
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-3775.=
+html&submissionid=3D235774&topicid=3D3&msgnumber=3D1
+ =20
+
+Full Title: Language of Law: Pulling Together Different Strands=20
+Short Title: LoL=20
+
+Date: 17-Jun-2010 - 18-Jun-2010
+Location: Santa Maria Capua Vetere (Caserta), Italy=20
+Contact Person: Girolamo Tessuto
+Meeting Email: languageoflaw@unina2.it
+
+Linguistic Field(s): Discourse Analysis; Forensic Linguistics; Sociolinguis=
+tics=20
+
+Call Deadline: 15-Dec-2009=20
+
+Meeting Description:
+
+It is a fact that the law pervades many aspects of our lives and the use an=
 d
-areas that were conceived for other purposes? Has the time arrived for us t=
-o
-look at certain peculiar requirements of ontology learning and develop
-specific techniques to meet these requirements?
-# Lightweight ontologies are the most common type of ontologies in a variet=
-y
-of existing Semantic Web applications (e.g. knowledge management, document
-retrieval, communities of practice, data integration). Can these lightweigh=
-t
-ontologies be easily extended to formal ones? If so, how?
-# The poor coverage, rarity and maintenance cost related to manually-create=
-d
-resources such as semantic lexicons (e.g. WordNet, UMLS) and text corpora
-(e.g. BNC, GENIA corpus) have prompted an increasing number of researchers
-to turn to dynamic Web data for ontology learning. There is currently a lac=
-k
-of study concentrating on the systematic use of Web data as background
-knowledge for all phases of ontology learning. How do we know if we have th=
-e
-necessary background knowledge to carry out all our ontology learning tasks=
-?
-Where do we look for more background knowledge if we know that what we have
-is inadequate?
-# More and more practitioners in the domain of biology, health care,
-chemistry, manufacturing, etc are looking up to ontology learning technique=
-s
-for solutions to their knowledge sharing and reusability needs. How much
-more difficult is it to automatically learn ontologies from news articles,
-as compared to clinical notes or biomedical literature? To what extent can
-the current techniques meet the requirements of learning from texts across
-different domains? Is the field of automatic ontology learning from text
-ready for the industry?
+function of its language constitute the essentials on which the precepts of=
+ law
+itself are established. The interconnection between law and language provid=
+es a
+continuous source of analytical insights for researchers working in a varie=
+ty of
+disciplines. It also gives us an opportunity to refine our current understa=
+nding
+of language and law from an interdisciplinary perspective.=20
 
-Target Audience
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-This proposed book will be an invaluable resource as a library or personal
-reference for a wide range of audience, including, graduate students,
-researchers and industrial practitioners. Postgraduate students who are in
-the process of looking for future research directions, and carving out thei=
-r
-own niche area will find this book particularly useful. Due to the detailed
-scope and wide coverage of the book, it also has the potential of being an
-upper-level course supplement for senior undergraduate students in
-Artificial Intelligence, and a resource for lecturers in Knowledge
-Acquisition, Knowledge Representation and Reasoning, Text Mining,
-Information Extraction, and Ontology Learning.
+As part of its commitment to research in the field of language and law, the
+Faculty of Law of the Seconda Universit=E0 degli Studi di Napoli (Universit=
+y of
+Naples 2) is pleased to announce its first international workshop The Langu=
+age
+of Law - pulling together different strands and disciplines, to be held in =
+Santa
+Maria Capua Vetere, Caserta, Italy in June 2010.=20
 
-Recommended Topics Include, But Are Not Limited To
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-Area 1: Text Processing
-# Web data pre-processing
-# Noisy text analytics
-# Text annotation/Sentence parsing
-# Textual content extraction/Boilerplates removal
-# Automatic corpus construction
+Call for Papers
 
-Area 2: Taxonomy Construction/Concept Formation
-# Named entity recognition/noun phrase chunking
-# Feature-based/featureless similarity and distance measures
-# Term recognition/term extraction/terminology mining
-# Cluster analysis/term clustering
-# Entity disambiguation
-# Relevance/contrastive analysis
-# Latent semantic analysis
-# Other machine learning-based techniques
-# Other corpus-based techniques
+The Law Faculty of the Seconda Universit=E0 degli Studi di Napoli (Universi=
+ty of
+Naples 2) - Department of Legal Sciences - English Language Chair - is host=
+ing
+its first international workshop to bring together linguists, legal scholar=
+s and
+practitioners, to explore the issues of language in the law in English and =
+other
+European and non-European languages, cultures and systems. We therefore inv=
+ite
+colleagues to submit papers on theoretical and applied perspectives of lang=
+uage
+in a variety of areas of law (civil, criminal, administrative,
+European/international), in academic, professional and institutional contex=
+ts.
+Papers may address aspects of language and law, also from an interdisciplin=
+ary
+perspective, on any of the following broad theme areas:
+- legal discourse and genre, including ethnographic or corpus-based analyse=
+s of
+legal discourse in the media
+- power relations and ideology in the law
+- cross-cultural legal communication
+- pedagogy of legal language (LSP, ESP, EAP)
+- legal translation and interpreting
+- forensic linguistics
+- plain language and the law=20
+- other
 
-Area 3: Relation and Axiom Discovery/Ontology Languages
-# Lexico-syntactic patterns
-# Use of dynamic Web data (e.g. Wikipedia mining, online dictionaries)
-# Sub-categorisation frames
-# Association rules mining
-# Inductive logic programming
-# Other corpus-based techniques
-# Logic-based/frame-based/markup ontology languages
+Presentation: Guidelines=20
+Papers will be allotted 20 minutes, plus 5-10 minutes each for discussion a=
+t the
+end of the part-session.
 
-Area 4: Applications of Ontologies
-# Bioinformatics
-# Risk management
-# Manufacturing
-# Health care
-# Other relevant application areas
+Working Language: English
 
-Submission Procedure
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-Researchers and practitioners are invited to submit on or before 15 DECEMBE=
-R
-2009, a 2-3 page chapter proposal clearly explaining the mission and
-concerns together with a tentative organisation (i.e. section titles with
-section summaries) of their proposed chapter. Authors of accepted proposals
-will be notified by 15 JANUARY 2010 about the status of their proposals.
-Authors of accepted proposals will be sent guidelines and templates to
-prepare the full chapter of 8,000 - 10,000 words. Full chapters are expecte=
-d
-to be submitted by 15 MARCH 2010. All submitted full chapters will be
-reviewed on a double-blind review basis. All proposals and chapters should
-be typewritten in English in APA style and be submitted in Microsoft Word=
-=AE
-format to wilson@csse.uwa.edu.au. Unfortunately, LaTex files cannot be
-accepted. Contributors may also be requested to serve as reviewers for this
-project. This book is scheduled to be published by IGI Global (formerly Ide=
-a
-Group Inc.). For additional information regarding the publisher, please
-visit http://www.igi-global.com/requests/details.asp?ID=3D724. This
-publication is anticipated to be released late 2010.
-
-Important Dates
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-15 DECEMBER 2009 Proposal Submission Deadline
-15 JANUARY 2010 Notification of Acceptance
-15 MARCH 2010 Full Chapter Submission
-15 JULY 2010 Review Results Returned
-15 AUGUST 2010 Final Chapter Submission
-
-Editorial Advisory Board Members
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-Dr Christopher Brewster, Aston University, UK
-Associate Professor Chunyu Kit, City University of Hong Kong, Hong Kong
-Professor Mary-Anne Williams, University of Technology Sydney, Australia
-Professor Philipp Cimiano, University of Bielefeld, Germany
-Professor Sophia Ananiadou, University of Manchester, UK
-Professor Tharam Dillon, Curtin University of Technology, Australia
-Dr Venkata Subramaniam, IBM India Research, India
-
-Inquiries and Submissions
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
-Wilson Wong
-School of Computer Science and Software Engineering
-M002 University of Western Australia
-35 Stirling Highway
-CRAWLEY 6009 WA
-Australia
-Fax: +61-8-6488-1089
-E-mail: wilson@csse.uwa.edu.au
-Up-to-date information about this call is available at
-http://explorer.csse.uwa.edu.au/editedbook
-
---00504502f52b8f7b580478affe2c
-Content-Type: text/html; charset=ISO-8859-1
-Content-Transfer-Encoding: quoted-printable
-
-SECOND CALL FOR CHAPTERS<br>(Proposals Submission Deadline: 15 DECEMBER 200=
-9)<br><br>Ontology Learning and Knowledge Discovery Using the Web: Challeng=
-es and Recent Advances<br><br>A book edited by Wilson Wong, Wei Liu and Moh=
-ammed Bennamoun<br>
-
-University of Western Australia, Australia<br><a href=3D"http://explorer.cs=
-se.uwa.edu.au/editedbook">http://explorer.csse.uwa.edu.au/editedbook</a> <b=
-r><br>Introduction<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
-
-Ontologies provide formal specifications of what might exist in a domain to=
- ensure reusability and interoperability of multiple heterogeneous systems.=
- Ontologies form an indispensable part of the Semantic Web standard stack. =
-While the Semantic Web is still our vision into the future, ontologies have=
- already found a myriad of applications such as document retrieval, questio=
-n answering, image retrieval, agent interoperability and document annotatio=
-n. In recent years, automatic ontology learning from text has provided supp=
-ort and relief for knowledge engineers from the labourious task of manually=
- engineering of ontologies. Ontology learning research, an area integrating=
- advances from information retrieval, text mining, data mining, machine lea=
-rning and natural language processing, has attracted increasing interests f=
-rom a wide spectrum of application domains (e.g. bioinformatics, manufactur=
-ing). Being a rapidly growing area, it is crucial to collect the recent adv=
-ances in tools and technologies in ontology learning and related areas.<br>
-
-<br>Objective Of The Book<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>Th=
-e main objective of this book is to provide relevant theoretical foundation=
-s, and disseminate new research findings and expert views on the remaining =
-challenges in ontology learning. In particular, the book focuses on the fol=
-lowing questions:<br>
-
-# Can ontology learning continue to rely on techniques borrowed from relate=
-d areas that were conceived for other purposes? Has the time arrived for us=
- to look at certain peculiar requirements of ontology learning and develop =
-specific techniques to meet these requirements?<br>
-
-# Lightweight ontologies are the most common type of ontologies in a variet=
-y of existing Semantic Web applications (e.g. knowledge management, documen=
-t retrieval, communities of practice, data integration). Can these lightwei=
-ght ontologies be easily extended to formal ones? If so, how?<br>
-
-# The poor coverage, rarity and maintenance cost related to manually-create=
-d resources such as semantic lexicons (e.g. WordNet, UMLS) and text corpora=
- (e.g. BNC, GENIA corpus) have prompted an increasing number of researchers=
- to turn to dynamic Web data for ontology learning. There is currently a la=
-ck of study concentrating on the systematic use of Web data as background k=
-nowledge for all phases of ontology learning. How do we know if we have the=
- necessary background knowledge to carry out all our ontology learning task=
-s? Where do we look for more background knowledge if we know that what we h=
-ave is inadequate?<br>
-
-# More and more practitioners in the domain of biology, health care, chemis=
-try, manufacturing, etc are looking up to ontology learning techniques for =
-solutions to their knowledge sharing and reusability needs. How much more d=
-ifficult is it to automatically learn ontologies from news articles, as com=
-pared to clinical notes or biomedical literature? To what extent can the cu=
-rrent techniques meet the requirements of learning from texts across differ=
-ent domains? Is the field of automatic ontology learning from text ready fo=
-r the industry?<br>
-
-<br>Target Audience<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>This pro=
-posed book will be an invaluable resource as a library or personal referenc=
-e for a wide range of audience, including, graduate students, researchers a=
-nd industrial practitioners. Postgraduate students who are in the process o=
-f looking for future research directions, and carving out their own niche a=
-rea will find this book particularly useful. Due to the detailed scope and =
-wide coverage of the book, it also has the potential of being an upper-leve=
-l course supplement for senior undergraduate students in Artificial Intelli=
-gence, and a resource for lecturers in Knowledge Acquisition, Knowledge Rep=
-resentation and Reasoning, Text Mining, Information Extraction, and Ontolog=
-y Learning.<br>
-
-<br>Recommended Topics Include, But Are Not Limited To<br>=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D<br>Area 1: Text Processing<br># Web data pre-proce=
-ssing<br># Noisy text analytics<br>
-
-# Text annotation/Sentence parsing<br># Textual content extraction/Boilerpl=
-ates removal<br># Automatic corpus construction<br><br>Area 2: Taxonomy Con=
-struction/Concept Formation<br># Named entity recognition/noun phrase chunk=
-ing<br>
-
-# Feature-based/featureless similarity and distance measures<br># Term reco=
-gnition/term extraction/terminology mining<br># Cluster analysis/term clust=
-ering<br># Entity disambiguation<br># Relevance/contrastive analysis<br>
-
-# Latent semantic analysis<br># Other machine learning-based techniques<br>=
-# Other corpus-based techniques<br><br>Area 3: Relation and Axiom Discovery=
-/Ontology Languages<br># Lexico-syntactic patterns<br># Use of dynamic Web =
-data (e.g. Wikipedia mining, online dictionaries)<br>
-
-# Sub-categorisation frames<br># Association rules mining<br># Inductive lo=
-gic programming<br># Other corpus-based techniques<br># Logic-based/frame-b=
-ased/markup ontology languages<br><br>Area 4: Applications of Ontologies<br=
->
-
-# Bioinformatics<br># Risk management<br># Manufacturing<br># Health care<b=
-r># Other relevant application areas<br><br>Submission Procedure<br>=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
-
-Researchers and practitioners are invited to submit on or before 15 DECEMBE=
-R 2009, a 2-3 page chapter proposal clearly explaining the mission and conc=
-erns together with a tentative organisation (i.e. section titles with secti=
-on summaries) of their proposed chapter. Authors of accepted proposals will=
- be notified by 15 JANUARY 2010 about the status of their proposals. Author=
-s of accepted proposals will be sent guidelines and templates to prepare th=
-e full chapter of 8,000 - 10,000 words. Full chapters are expected to be su=
-bmitted by 15 MARCH 2010. All submitted full chapters will be reviewed on a=
- double-blind review basis. All proposals and chapters should be typewritte=
-n in English in APA style and be submitted in Microsoft Word=AE format to <=
-a href=3D"mailto:wilson@csse.uwa.edu.au">wilson@csse.uwa.edu.au</a>. Unfort=
-unately, LaTex files cannot be accepted. Contributors may also be requested=
- to serve as reviewers for this project. This book is scheduled to be publi=
-shed by IGI Global (formerly Idea Group Inc.). For additional information r=
-egarding the publisher, please visit <a href=3D"http://www.igi-global.com/r=
-equests/details.asp?ID=3D724">http://www.igi-global.com/requests/details.as=
-p?ID=3D724</a>. This publication is anticipated to be released late 2010.<b=
-r>
-
-<br>Important Dates<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>15 DECEM=
-BER 2009 Proposal Submission Deadline<br>15 JANUARY 2010 Notification of Ac=
-ceptance<br>15 MARCH 2010 Full Chapter Submission<br>
-
-15 JULY 2010 Review Results Returned<br>15 AUGUST 2010 Final Chapter Submis=
-sion<br><br>Editorial Advisory Board Members<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D<br>Dr Christopher Brewster, Aston University, UK<br>
-
-Associate Professor Chunyu Kit, City University of Hong Kong, Hong Kong<br>=
-Professor Mary-Anne Williams, University of Technology Sydney, Australia<br=
->Professor Philipp Cimiano, University of Bielefeld, Germany<br>Professor S=
-ophia Ananiadou, University of Manchester, UK<br>
-
-Professor Tharam Dillon, Curtin University of Technology, Australia<br>Dr V=
-enkata Subramaniam, IBM India Research, India<br><br>Inquiries and Submissi=
-ons<br>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D<br>
-
-Wilson Wong<br>School of Computer Science and Software Engineering<br>M002 =
-University of Western Australia<br>35 Stirling Highway<br>CRAWLEY 6009 WA<b=
-r>Australia<br>Fax: +61-8-6488-1089<br>E-mail: <a href=3D"mailto:wilson@css=
-e.uwa.edu.au">wilson@csse.uwa.edu.au</a><br>
-
-Up-to-date information about this call is available at <a href=3D"http://ex=
-plorer.csse.uwa.edu.au/editedbook">http://explorer.csse.uwa.edu.au/editedbo=
-ok</a> <br><br>
-
---00504502f52b8f7b580478affe2c--
+Abstract Submission=20
+Contributors are invited to send an anonymous abstract in MS Word (12pt) of=
+ not
+more than 300 words (excluding references) by no later than 15st December 2=
+009
+to the following address: languageoflaw@unina2.it
 
 
---===============1654529894==
-Content-Type: text/plain; charset="iso-8859-1"
-MIME-Version: 1.0
-Content-Transfer-Encoding: quoted-printable
-Content-Disposition: inline
 
-_______________________________________________
-Corpora mailing list
-Corpora@uib.no
-http://mailman.uib.no/listinfo/corpora
 
---===============1654529894==--
 
+-----------------------------------------------------------
+LINGUIST List: Vol-20-3775=09
+
+=09

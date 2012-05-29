@@ -1,341 +1,173 @@
-From - Thu Dec 10 14:23:55 2009
+From - Thu Dec 10 14:24:04 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 6156dc7ae77551c4ebd920f751fc4897e1d51907
+X-Gmail-Received: 9517109d1e48ac419f52157e060e911661a39036
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs508942pyn;
-        Fri, 25 Aug 2006 19:13:23 -0700 (PDT)
-Received: by 10.35.60.15 with SMTP id n15mr6368064pyk;
-        Fri, 25 Aug 2006 19:11:53 -0700 (PDT)
-Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
-        by mx.gmail.com with ESMTP id i64si3680597pye.2006.08.25.19.10.59;
-        Fri, 25 Aug 2006 19:11:53 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
-Received: from listserv (listserv [164.76.102.107])
-	by listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id k7Q2ApZ1014026;
-	Fri, 25 Aug 2006 22:10:57 -0400 (EDT)
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
-          spool id 1260262 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Fri, 25 Aug
-          2006 22:10:17 -0400
-Approved-By: linguist@LINGUISTLIST.ORG
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id
-          k7PGBou2019704 for <linguist@listserv.linguistlist.org>; Fri, 25 Aug
-          2006 12:11:50 -0400 (EDT)
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.8/8.13.8) with ESMTP id k7PGBbx2023273; Fri,
-          25 Aug 2006 12:11:37 -0400 (EDT)
-Mime-Version: 1.0
-Content-Type: text/plain; charset=iso-8859-1
-X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Fri, 25 Aug 2006 22:10:58 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
-            [164.76.102.107]); Fri, 25 Aug 2006 12:11:50 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (linguistlist.org
-            [164.76.102.53]); Fri, 25 Aug 2006 12:11:38 -0400 (EDT)
+Received: by 10.35.126.10 with SMTP id d10cs3061pyn;
+        Wed, 13 Sep 2006 07:09:01 -0700 (PDT)
+Received: by 10.66.216.6 with SMTP id o6mr4106206ugg;
+        Wed, 13 Sep 2006 07:08:56 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id e1si12786369ugf.2006.09.13.07.08.53;
+        Wed, 13 Sep 2006 07:08:56 -0700 (PDT)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1GNVPL-0006RW-U5; Wed, 13 Sep 2006 16:08:08 +0200
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1GNVTX-000Hmt-Ey; Wed, 13 Sep 2006 16:12:27 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1GNVTX-000Hmo-2s; Wed, 13 Sep 2006 16:12:27 +0200
+Received: from smtps.di.fc.ul.pt (smtps2.di.fc.ul.pt) [194.117.22.93] 
+	by rolf.uib.no for CORPORA@hd.UIB.NO with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
+	id 1GNVPD-00042G-4b; Wed, 13 Sep 2006 16:08:02 +0200
+Received: from [194.117.21.15] (di-ahb.di.fc.ul.pt [194.117.21.15])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by smtps2.di.fc.ul.pt (Postfix) with ESMTP id 9FE821B833F;
+	Wed, 13 Sep 2006 14:36:59 +0100 (WEST)
+Message-ID: <45080A14.4050309@di.fc.ul.pt>
+Date: Wed, 13 Sep 2006 14:39:32 +0100
+From: Antonio Branco <Antonio.Branco@di.fc.ul.pt>
+Reply-To: Antonio.Branco@di.fc.ul.pt
+Organization: University of Lisbon
+User-Agent: Mozilla Thunderbird 1.0.2 (Windows/20050317)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: CORPORA@hd.UIB.NO
+Subject: [Corpora-List] Last Cfp :   DAARC'2007   -  The 6th Discourse Anaphora and Anaphor
+ Resolution Colloquium
+Content-Type: text/plain; charset=windows-1252; format=flowed
 Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by
-                      listserv.linguistlist.org id k7PGBou2019719
-Message-ID:  <7281538.1156522297829.JavaMail.nobody@linguistlist.org>
-Date:         Fri, 25 Aug 2006 12:11:37 -0400
-Reply-To: linguist@LINGUISTLIST.ORG
-Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From: linguist@LINGUISTLIST.ORG
-Subject: 17.2405, Calls: Pragmatics/Sweden; General Ling, Ling Theories/Czech Republic
-Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
-To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
-Precedence: list
+X-checked-clean: by exiscan on rolf
+X-Scanner: 202180dc4e7f2a3b448d6ebabe8dbc7a http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
 
-LINGUIST List: Vol-17-2405. Fri Aug 25 2006. ISSN: 1068 - 4875.
 
-Subject: 17.2405, Calls: Pragmatics/Sweden; General Ling, Ling Theories/Czech Republic
+
+                     LAST CALL FOR PAPERS
 
-Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
-            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
- 
-Reviews: Laura Welcher, Rosetta Project / Long Now Foundation  
-         <reviews@linguistlist.org> 
+                 The 6th Discourse Anaphora and
+                 Anaphor Resolution Colloquium
+                         (DAARC'2007)
 
-Homepage: http://linguistlist.org/
+                   Lagos (Algarve), Portugal
+       hosted by University of Lisbon, Faculty of Sciences
+                       March 29-30, 2007
 
-The LINGUIST List is funded by Eastern Michigan University, Wayne
-State University, and donations from subscribers and publishers.
+                 http://daarc2007.di.fc.ul.pt/
+
 
-Editor for this issue: Dan Parker <dan@linguistlist.org>
-================================================================  
+Anaphora is a central topic in the study of natural language and
+has long been the object of research in a wide range of disciplines
+such as theoretical, corpus and computational linguistics, philosophy
+of language, cognitive science, psycholinguistics and cognitive
+psychology. On the other hand, the correct interpretation of anaphora
+has played an increasingly vital role in real-world natural language
+processing applications, including machine translation, automatic
+abstracting, information extraction and question answering. As a result,
+the processing of anaphora has become one of the most productive
+topics of multi- and inter-disciplinary research, and has enjoyed
+increased interest and attention in recent years.
 
-As a matter of policy, LINGUIST discourages the use of abbreviations
-or acronyms in conference announcements unless they are explained in
-the text.
+In this context, the Discourse Anaphora and Anaphor Resolution
+Colloquia (DAARC) have emerged as the major regular forum for
+presentation and discussion of the best research results in this area.
+Initiated in 1996 at Lancaster University and taken over in 2002 by
+the University of Lisbon, the DAARC series established itself as
+a specialised and competitive forum for the presentation of the latest
+results on anaphora processing, ranging from theoretical linguistic
+approaches through psycholinguistic and cognitive work to corpus
+studies and computational modelling.
 
-To post to LINGUIST, use our convenient web form at 
-http://linguistlist.org/LL/posttolinguist.html. 
+The sixth Discourse Anaphora and Anaphor Resolution Colloquium (DAARCÃ¯Â¿Â½2007)
+will take place in Lagos (Algarve), Portugal, in March 29-30, 2007.
+We would like to invite anyone currently researching in the areas
+of discourse anaphora and anaphor resolution, from any methodological
+perspective or framework, to submit a paper to DAARC'2007.
 
+*The closing date for submission is October 16, 2006.*
 
+Notification of acceptance will be sent by December 15, 2006. Final
+versions of selected papers to be included in the proceedings are
+expected by January 19, 2007.
 
-===========================Directory==============================  
+Submissions (extended abstracts) must be anonymous and at most 3 pages
+in length. For further details on the submission procedure, and other
+relevant info on the colloquium visit its website at:
 
-1)
-Date: 25-Aug-2006
-From: Wolfram Bublitz < Wolfram.Bublitz@phil.uni-augsburg.de >
-Subject: 10th International Pragmatics Conference 
+http://daarc2007.di.fc.ul.pt/
 
-2)
-Date: 24-Aug-2006
-From: Joakim Nivre < nivre@msi.vxu.se >
-Subject: Treebanks and Linguistic Theories 2006 
 
-	
--------------------------Message 1 ---------------------------------- 
-Date: Fri, 25 Aug 2006 12:09:44
-From: Wolfram Bublitz < Wolfram.Bublitz@phil.uni-augsburg.de >
-Subject: 10th International Pragmatics Conference 
- 
+Program Committee:
 
+Mijail Alexandrov-Kabadjov, Univ Essex
+Mira Ariel, Tel Aviv Univ
+Sergey Avrutin, OTS
 
-Full Title: 10th International Pragmatics Conference 
+Amit Bagga, Ask.com
+Patricio Martinez Barco, Univ Alicante
+Peter Bosch, Univ Osnabrueck
 
-Date: 08-Jul-2007 - 13-Jul-2007
-Location: Göteborg, Sweden 
-Contact Person: Ann Verhaert
-Meeting Email: ann.verhaert@ipra.be
-Web Site: http://ipra.ua.ac.be/main.aspx?c=*CONFERENCE2006&n=1295 
+AntÃ¯Â¿Â½nio Branco, Univ Lisbon
+Donna Byron, Ohio State Univ
+Francis Cornish, Univ Toulouse-Le Mirail
 
-Linguistic Field(s): Computational Linguistics; Pragmatics; Text/Corpus Linguistics 
+Dan Cristea, Univ Iasi
+Robert Dale, Macquarie Univ
+Richard Evans, Univ Wolverhampton
 
-Call Deadline: 11-Sep-2006 
+Martin Everaert, OTS
+Lyn Frazier, MIT
+Claire Gardent, CNRS/Loria
 
-Meeting Description:
+Rafael MuÃ¯Â¿Â½oz Guillena, Univ Alicante
+Jeanette Gundel, Univ Minnesota
+Sanda Harabagiu, Univ Texas at Dallas
 
-10th International Pragmatics Conference
-July 9-14, 2007
-Göteborg, Sweden
+Lars Hellan, Norwegian Univ of Science and Technology
+Erhard Hinrichs, Univ Tuebingen
+Graeme Hirst, Univ Toronto
 
-Special theme: Language data, corpora, and computational pragmatics
-[as always the conferences are open to all other relevant themes in 
-pragmatics].
+Yan Huang, Univ Reading
+Andrew Kehler, Univ California San Diego
+Andrej Kibrik, Russian Academy of Sciences
 
-Chaired by: Karin Aijmer & Jens Allwood (Göteborg)
+Emiel Krahmer, Tilburg Univ
+Shalom Lappin, King's College
+Tony McEnery, Lancaster Univ
 
-Other members of the local site committee:
-- Elisabeth Ahlsén (Göteborg)
-- Robin Cooper (Göteborg)
-- Per Linell (Linköping)
-- THorsein Fretheim (Trondheim)
-- Anna-Brista Stenström (Bergen)
-- Jan-Ola Östman (Helsinki) 
+Ruslan Mitkov, Univ Wolverhampton
+Jill Nickerson, Ab Initio Software Corp
+Constantin Orasan, Univ. Wolverhampton
 
-We invite contributions to the following panel proposal for the 10th International Pragmatics Conference (IPrA), 8-13 July 2007, Göteborg, Sweden: 
+Maria Mercedes PiÃ¯Â¿Â½ango, Yale Univ
+Georgiana Puscasu, Univ Wolverhampton
+Costanza Navarretta, CST
 
-Panel organizers: 
-Prof. Dr. Wolfram Bublitz, University of Augsburg, Germany 
-Volker Eisenlauer, University of Augsburg, Germany 
-Christian Hoffmann, University of Augsburg, Germany
-Contact @mail: Christian.Hoffmann@phil.uni-augsburg.de
+Massimo Poesio, Univ Essex
+Eric Reuland, OTS
+Jeffrey Runner, Univ of Rochester
 
-E-Cohesion: Multimodality and Interactivity in CMC
+Antonio Fernandez Rodriguez, Univ Alacant
+Tony Sanford, Glasgow Univ
+FrÃ¯Â¿Â½dÃ¯Â¿Â½rique Segond, Xerox Research Centre Europe
 
-Computer-mediated communication (CMC) has unquestionably grown into one of the most appealing innovative and challenging fields of research across the humanities. From a linguistic point of view, CMC research not only raises new questions about new topics but also offers a fresh look at established views on old topics held, inter alia, in discourse analysis and pragmatics. Prominent among them is cohesion, a key concept in any kind of text or discourse related analysis, which, however, defies easy explanation even in traditional types of communication, because it appears to rely strongly on the particular mode used: speech or writing or, indeed, CMC.  
+Roland Stuckardt, Univ Frankfurt am Main
+Joel Tetreault, Univ. Rochester
+Renata Vieira, Unisinos
 
-Regular users of the Web and, in particular, CMC recipients are familiar with the problems of scanning the screen for signs and signals that help to relate textual and audio-visual nodes to each other (and thus, with the cognitively demanding process of coherence creation). While we are accustomed to the linguistic, non-linguistic and cognitive ways of establishing cohesion in non-electronic spoken or written communication, newcomers to the Web have to learn what (other) means and strategies are used in CMC to relate current items or nodes to preceding or prospective other items or nodes. Thus, it seems safe to argue that cohesion in electronic, digital and computer mediated communication, i.e. electronic cohesion (e-cohesion), is (at least partly) different from cohesion in non-electronic, analogue, non-computer mediated spoken or written communication.
 
-The key differences between e-cohesion and traditional concepts of cohesion are an immediate consequence of the constitutive features of CMC, viz. interactivity, multimodality, fragmentation, multilinearity and incompleteness. Central to e-cohesion are the two concepts of multimodality and interactivity, which delineate electronic (digital) 'text' composition. Both involve fragmentary text clustering and multilinear ways of reading, which often induces some kind of incompleteness. 
+Organisers:
 
-Interactivity is a scalar feature, which appears in various degrees in different types of CMC. While it is reduced to a minimum in asynchronous e-documents, it is much more pronounced in synchronous CMC (e.g. in chatroom communication), where the user can obviously choose from a much wider range of options to participate in the production, alignment and negotiation of content. Between these two extremes, there are intermediary types of interactivity, among them purely physical acts (in which the user connects self-contained 'text' units by, e.g., simply clicking hyperlinks) and purely cognitive acts (in which the user relates textual and audio-visual 'text' units to each other across the screen). Such connections may be indicated by e-cohesive means across different modes, which points to the second key feature of e-cohesion, its multimodality. 
+Antonio Branco, Univ Lisbon
+Tony McEnery, Lancaster Univ
+Ruslan Mitkov, Univ Wolverhampton
+FÃ¯Â¿Â½tima Silva, Univ Oporto
 
-Multimodality in CMC is likewise a scalar feature, reaching from mono-modality (e.g. in text-only CMC) to multi-modality, which may comprise textual, visual and audio modes. In our panel we aim to explore the cohesive effects caused by the interplay of various modes of presentation. For example, the reiteration of pictorial elements can support semantic connectivity proposed by the verbal structures in the text. 
-
-Both interactivity and multimodality are based on the fragmentary assemblage of different text clusters. In hypertexts, for example, textual units are interactively aligned across different nodes (internodal), while multimodality is mirrored in the fragmentary combination of text units within one and the same node (intranodal). Fragmentation in chats is of a somewhat different kind. Here, comments are broken down into smaller bits of incomplete information, which have to be linked up by users with the help of e-cohesive means (such as types of address, backchannels, turn-taking signals, cross-turn references). These CMC invoked features simultaneously enhance and restrict both the production and reception of CMC. They also account for its hybrid status as a new type of 'text' which exhibits various degrees of orality and literacy, thus bridging the gap between print and face-to-face communication (cf. Herring 1996, 2005, Storrer 2000). To capture the hybrid character and the!
-  diverse ways of presenting information (text, picture, video, sound etc), interdisciplinary approaches are called for to ensure a wide semiotic focus. 
-
-To conclude, with e-cohesion we refer to the specific item-connecting means that reflect the interactive, multimodal and fragmentation related properties of electronic media. While this panel will focus on cohesion, coherence in CMC (which, after all, is dependent on or, indeed, decisive for cohesion) shall not totally be neglected
-
-Panel presenters are encouraged to discuss the various means of e-cohesion and the complex ways in which it depends on and reflects interactivity, multimodality, fragmentation and related phenomena. Explorations of different types of CMC, i.e. of e-cohesion in hypertexts, SMS and MMS, weblogs and vlogs, chats and forum communication, etc., are also conceivable. 
-
-References:
-
-Herring, S. C. (Ed.). (1996). Computer-Mediated Communication: Linguistic, Social and Cross-Cultural Perspectives. Pragmatics and Beyond series. Amsterdam: John Benjamins. 
-
-Herring, S. C. (1999). ''Interactional coherence in CMC''. In: Herring, S. (Ed.): Journal of Computer-Mediated Communication, 4 (4).
-(http://jcmc.indiana.edu/vol4/issue4/herring.html)
-
-Storrer, A. (2000): ''Schriftverkehr auf der Datenautobahn. Besonderheiten der schriftlichen Kommunikation im Internet''. In: Voß, G.G., Holly, W., Boehnke, K. (Eds.): Neue Medien im Alltag: Begriffsbestimmungen eines interdisziplinä- ren Forschungsfeldes. Opladen: Leske + Budrich,153-177. 
-
-Panel organizers: 
-
-Prof. Dr. Wolfram Bublitz, English Linguistics (University of Augsburg)
-@mail: Wolfram.Bublitz@phil.uni-augsburg.de
-
-Volker Eisenlauer, English Linguistics (University of Augsburg)
-@mail: Volker.Eisenlauer@phil.uni-augsburg.de
-
-Christian Hoffmann, English Linguistics (University of Augsburg)
-@mail: Christian.Hoffmann@phil.uni-augsburg.de  (contact email)
-
-Submission: 
-Short abstracts are invited for 30 min. paper slots (20 min presentation 
-and 10 min discussion). Please send your submission electronically to the 
-contact email above by September 11th, 2006. Authors will be notified 
-individually about the further process. 
-
-Before sending us your abstract, please make sure you will be able to 
-attend the conference, thereby bearing in mind the IPrA conditions, which 
-include a full membership. More information on the IPrA homepage: 
-http://ipra.ua.ac.be/
-
-
-	
--------------------------Message 2 ---------------------------------- 
-Date: Fri, 25 Aug 2006 12:09:49
-From: Joakim Nivre < nivre@msi.vxu.se >
-Subject: Treebanks and Linguistic Theories 2006 
-
-	
-
-Full Title: Treebanks and Linguistic Theories 2006 
-Short Title: TLT-2006 
-
-Date: 01-Dec-2006 - 02-Dec-2006
-Location: Prague, Czech Republic 
-Contact Person: Jan Hajic
-Meeting Email: tlt06@ufal.mff.cuni.cz
-Web Site: http:///www.tlt2006.org 
-
-Linguistic Field(s): General Linguistics; Linguistic Theories 
-
-Call Deadline: 08-Sep-2006 
-
-Meeting Description:
-
-Treebanks are a language resource that provides annotations of natural languages at various levels of structure: at the word level, the phrase level, the sentence level, and sometimes also at the level of function-argument structure. Treebanks have become crucially important for the development of data-driven approaches to natural language processing, human language technologies, grammar extraction and linguistic research in general. This series of workshops 
-aims at being a forum for researchers and advanced students working 
-in these areas. 
-
-Treebanks and Linguistic Theories 2006
-5th International Workshop
-
-Prague, Czech Republic, December 1-2, 2006
-
-http://www.tlt2006.org
-
-3rd [Final] Call for Papers 
-
-This the final call for paper submission to the Treebanks and Linguistic Theories '06 conference. We remind you there is about two weeks remaining to polish and send off your submission!
-
-The Guidelines for paper submission are available at http://www.tlt2006.org, link ''Instructions for Authors'' (or directly at http://ufal.mff.cuni.cz/tlt2006/auth.html). The deadline for submitting your papers is Sept. 8, 2006, as previously announced.
-
-Workshop motivation and aims:
-
-Treebanks are a language resource that provides annotations of natural
-languages at various levels of structure: at the word level, the phrase level, the sentence level, and sometimes also at the level of function-argument structure. Treebanks have become crucially important for the development of data-driven approaches to natural language processing, human language technologies, grammar extraction and linguistic research in general. There are a number of on-going projects on compilation of representative treebanks for languages that still lack them (Bulgarian, Catalan, Danish, Portugese, Spanish, Turkish) and a number of on-going projects on compilation of treebanks for specific purposes for languages that already have them (English). In addition, there are projects that go beyond syntactic analysis to include different kinds of semantic and pragmatic annotation. We specifically encourage submissions that discuss the relations and links between, and possibly merging of, various aspects of morphological, syntactic, semantic, and contents/pragma!
- tic annotation; also, submissions describing work on parallel treebanks and/or cross-language annotation schemas, theories and applications are more than encouraged as well.
-
-The practices of building syntactically processed corpora have proved that aiming at more detailed description of the data becomes more and more theory-dependent (Prague Dependency Treebank and other dependency-based treebanks such as the Danish dependency treebank, the Italian treebank (TUT), and the Turkish treebank (METU); Verbmobil HPSG Treebanks, Polish HPSG Treebank, Bulgarian HPSG-based Treebank,etc.). Therefore the development of treebanks and formal linguistic theories need to be more tightly connected in order to ensure the necessary information flow between them.
-
-This series of workshops aims at being a forum for researchers and advanced students working in these areas. The fifth workshop will be held in Prague, Czech Republic, 1-2 December 2006, with a number of co-located events surrounding it (for more information see www.tlt2006.org). (The first TLT workshop was held in Sozopol, Bulgaria in September 2002; see http://www.bultreebank.org/Proceedings.html), the second one in Vaxjo, Sweden in November 2003 (http://w3.msi.vxu.se/~rics/TLT2003/, the third one in Tuebingen, Germany in December 2004 (http://www.sfs.uni-tuebingen.de/tlt04/). 
-Topics of interest:
-
-We invite submission of papers on topics relevant to treebanks and linguistic theories, including but not limited to:
-
-- design principles and annotation schemes for treebanks;
-- applications of treebanks in acquiring linguistic knowledge and in NLP;
-- the role of linguistic theories in treebank development;
-- treebanks as a basis for linguistic research;
-- semantically annotated treebanks;
-- evaluation and quality control of treebanks;
-- tools for creation and management of treebanks;
-- standards for treebanks.
-
-Important dates:
-
-(Always midnight, UTC, ignoring DST)
-
-Deadline for paper submission: September 8, 2006
-Notification of acceptance: October 8, 2006
-Final version of paper for workshop proceedings: October 29, 2006
-Workshop: December 1-2, 2006
-
-Submission:
-
-Please note that this time, we require full papers (max. length: 12 pages A4) be submitted, describing existing research related to the topics of the workshop. Please see http://ufal.mff.cuni.cz/tlt2006/auth.html for complete information
-where, when, and how to submit.
-
-Presentation:
-
-The presentation at the workshop will be 25 minutes long (20 minutes for presentation and 5 minutes for questions and discussion). The final version of the accepted papers may not exceed 12 A4 pages (which will be printed on B5 without any reduction).
-
-Invited speakers:
-
-Martha Palmer, Professor at University of Colorado at Boulder
-(http://verbs.colorado.edu/mpalmer/palmer/):
-SemLink - Combining PropBank, VerbNet and FrameNet
-Gosse Bouma, Professor at University of Groningen
-(http://www.let.rug.nl/~gosse/):
-(tentative: Creating and Exploring Large Treebanks)
-
-Program committee:
-
-Jan Hajic, Czech Republic (co-chair)
-Joakim Nivre, Sweden (co-chair)
-
-Members of the PC:
-
-Emily Bender, USA
-Thorsten Brants, USA
-Koenraad de Smedt, Norway
-Tomaz Erjavec, Slovenia
-Joseph van Genabith, Ireland
-Eva Hajicova, Czech Republic
-Jiri Hana, USA
-Erhard Hinrichs, Germany
-Timo Jaervinen, Finalnd
-Kimmo Koskenniemi, Finland
-Tony Kroch, USA
-Sandra Kuebler, Germany
-Yuji Matsumoto, Japan
-Detmar Meurers, USA
-John Nerbonne, The Netherlands
-Grace Ngai, Hong Kong
-Karel Oliva, Czech Republic
-Stephan Oepen, Norway/USA
-Petya Osenova, Bulgaria
-Ferran Pla, Spain
-Horacio Rodriguez, Spain
-Kiril Simov, Bulgaria
-Otakar Smrz, Czech Republic
-Barbora Vidova-Hladka, Czech Republic
-Martin Volk, Sweden
-Daniel Zeman, USA
-
-Local Organizers:
-
-Jan Hajic
-Anna Kotesovcova
-
-Institute of Formal and Applied Linguistics, http://ufal.mff.cuni.cz
-School of Computer Science, Faculty of Mathematics and Physics
-Charles University, Prague
-Czech Republic
-email: info@tlt2006.org
-
-Venue:
-
-School of Computer Science, MFF UK
-Malostranske nam. 25
-CZ-11800 Prague 1
-Czech Republic
-
-Sponsoring organisations:
-
-Charles University, Prague
- 
-
-
-
------------------------------------------------------------
-LINGUIST List: Vol-17-2405	
-
-	

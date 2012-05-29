@@ -1,191 +1,409 @@
-From - Thu Dec 10 14:23:40 2009
+From - Thu Dec 10 14:23:50 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 2637dbd7cedb202c41314e1bc3ac6a5f2b1be180
+X-Gmail-Received: ae80ee102fed1d20b36bd44ceeb616bf94f8a84f
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs246158pyi;
-        Wed, 26 Jul 2006 14:06:14 -0700 (PDT)
-Received: by 10.35.106.15 with SMTP id i15mr11904375pym;
-        Wed, 26 Jul 2006 14:06:13 -0700 (PDT)
-Return-Path: <rasmusse@research.rutgers.edu>
+Received: by 10.35.126.10 with SMTP id d10cs102558pyn;
+        Fri, 18 Aug 2006 22:21:02 -0700 (PDT)
+Received: by 10.35.117.5 with SMTP id u5mr7540067pym;
+        Fri, 18 Aug 2006 22:21:02 -0700 (PDT)
+Return-Path: <alta-tech-bounces@ics.mq.edu.au>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id w76si1248589pyd.2006.07.26.14.06.11;
-        Wed, 26 Jul 2006 14:06:13 -0700 (PDT)
-Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
+        by mx.gmail.com with ESMTP id v50si4334201pyv.2006.08.18.22.20.59;
+        Fri, 18 Aug 2006 22:21:02 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of alta-tech-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QL65dp024964;
-	Thu, 27 Jul 2006 07:06:10 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7J5KbWp026386;
+	Sat, 19 Aug 2006 15:20:58 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707061028612
- ; Thu, 27 Jul 2006 07:06:10 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006081915205822980
+ ; Sat, 19 Aug 2006 15:20:58 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QL67YJ024968;
-	Thu, 27 Jul 2006 07:06:07 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7J5Kvp6026436;
+	Sat, 19 Aug 2006 15:20:57 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k6QL65Ux013262
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7J5Ktpv024654
 	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Thu, 27 Jul 2006 07:06:06 +1000 (EST)
+	Sat, 19 Aug 2006 15:20:56 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QL65dn024964;
-	Thu, 27 Jul 2006 07:06:05 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7J5KtYq026428;
+	Sat, 19 Aug 2006 15:20:55 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707060428611
- ; Thu, 27 Jul 2006 07:06:04 +1000
-Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QL613Q024959;
-	Thu, 27 Jul 2006 07:06:02 +1000 (EST)
-Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
-	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k6QL5tA22979;
-	Thu, 27 Jul 2006 07:05:56 +1000 (EST)
-Received: (from rasmusse@localhost)
-	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k6QK0nO28592;
-	Wed, 26 Jul 2006 16:00:49 -0400 (EDT)
-Date: Wed, 26 Jul 2006 16:00:48 EDT
-From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
-To: rasmusse@cs.rutgers.edu
-Subject: Atlanta, GA: Web Content Mining With Human Language Technologies --
-        Last CFP
-Message-ID: <CMM-RU.1.5.1153944048.rasmusse@research.rutgers.edu>
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006081915205422978
+ ; Sat, 19 Aug 2006 15:20:54 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7J5K49G026306;
+	Sat, 19 Aug 2006 15:20:13 +1000 (EST)
+Received: from mail5.tpgi.com.au (mail5.tpgi.com.au [203.12.160.101])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k7J5Jns1026292
+	for <alta-tech@alta.asn.au>; Sat, 19 Aug 2006 15:19:49 +1000 (EST)
+X-TPG-Antivirus: Passed
+Received: from LTG08 (60-241-151-105.tpgi.com.au [60.241.151.105])
+	by mail5.tpgi.com.au (envelope-from rdale@ics.mq.edu.au)
+	(8.13.6/8.13.6) with ESMTP id k7J5JlKF009949
+	for <alta-tech@alta.asn.au>; Sat, 19 Aug 2006 15:19:48 +1000
+From: "Robert Dale" <rdale@ics.mq.edu.au>
+To: <alta-tech@ics.mq.edu.au>
+Date: Sat, 19 Aug 2006 15:19:42 +1000
+Message-ID: <001e01c6c34f$142d8cc0$0201010a@LTG08>
+MIME-Version: 1.0
+X-Priority: 3 (Normal)
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook, Build 10.0.6626
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2962
+Importance: Normal
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+Subject: [ALTA-Tech] Call for Abstracts - HCSNet Workshop on Perception and
+	Action, Nov. 30, University of Sydney
+X-BeenThere: alta-tech@alta.asn.au
+X-Mailman-Version: 2.1.6
+Precedence: list
+List-Id: Discussion list about ALTA <alta-tech.alta.asn.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-tech>,
+	<mailto:alta-tech-request@alta.asn.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/pipermail/alta-tech>
+List-Post: <mailto:alta-tech@alta.asn.au>
+List-Help: <mailto:alta-tech-request@alta.asn.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-tech>,
+	<mailto:alta-tech-request@alta.asn.au?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============1455131450=="
+Sender: alta-tech-bounces@ics.mq.edu.au
+Errors-To: alta-tech-bounces@ics.mq.edu.au
 
+This is a multi-part message in MIME format.
 
-                          LAST CALL FOR PAPERS
+--===============1455131450==
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_001F_01C6C3A2.E5D99CC0"
 
-        WEB CONTENT MINING WITH HUMAN LANGUAGE TECHNOLOGIES
-                http://orestes.ii.uam.es/workshop/
+This is a multi-part message in MIME format.
 
-workshop to be held at the 5th International Semantic Web Conference,
-               Athens, GA, U.S.A. November 5-9 2006
-                 http://iswc2006.semanticweb.org/
+------=_NextPart_000_001F_01C6C3A2.E5D99CC0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
 
+[Posted on behalf of Kate Stevens [kj.stevens@uws.edu.au]  -- pls direct =
+all
+enquiries to Kate.]=20
 
-MOTIVATION, AIM AND SCOPE
+Call for Abstracts: HCSNet Workshop on Perception and Action
+http://www.hcsnet.edu.au/hcsnetevents/2006/perception
+Thursday Nov. 30 2006
+University of Sydney
 
-With the large growth of the information stored in the World Wide Web,
-it is necessary to have available tools for automatic or
-semi-automatic analyzes of web data. Hence, a large effort has been
-invested in the last years in developing techniques for extracting
-patterns and implicit information from the web, a task that is usually
-known as Web Mining. Web Mining itself can be divided into three
-subtasks according to the kind of data that is collected: web
-structure, web usage and web content.
+A one-day workshop on Perception and Action will be held on November 30
+during the HCSNet SummerFest at the University of Sydney.
+The aim of the workshop is to bring together established and emerging
+researchers to discuss hot topics in Perception and Action as it applies =
+to
+Human Communication Science. The ultimate goal is to facilitate new
+collaborations that lead to novel projects, new interactions between
+disciplines, and fresh approaches to perception and action.
 
-Web content mining consists of automatically mining data from textual
-web documents that can be represented with machine-readable semantic
-formalisms. Initially, most web content mining systems used wrappers
-to map documents to other data structures, but this is highly
-dependent on the the layout and formatting instructions inside web
-pages. Therefore, alternative approaches, that make use of Natural
-Language Processing-based techniques, are increasingly used.
-
-While more traditional approaches to Information Extraction from text,
-such as those applied to the Message Understanding Conferences during
-the nineties, relied on small collections of documents with many
-semantic annotations, the characteristics of the web (its size,
-redundancy and the lack of semantic annotations in most texts) favor
-efficient algorithms able to learn from unannotated data. Furthermore,
-new types of web content such as web forums, blogs and wikis, some of
-them included in the so-called Web 2.0, are also a source of textual
-information that contain an underlying structure from which specialist
-systems can benefit. The workshop will give special emphasis to how
-existing techniques can benefit from these kinds of contents.
-
-This workshop aims at bringing together researchers from the Semantic
-Web, the Natural Language Processing and the Text Mining
-communities. The web constitutes a unique source of information to
-train and exploit systems for tasks such as Named Entity
-Identification and Classification, Term Identification, Relationships
-Extraction, Ontology Learning and Population from text and Text
-Mining. The Semantic Web community can contribute providing semantic
-formalisms and tools for knowledge representation and reasoning for
-exploiting the extracted metadata. The goal of the workshop is to
-establish communication between all these communities.  
-
-TOPICS OF INTEREST
-
-Topics of interest include, but are not limited to:
-
-    * Term Identification for specialist domains using web corpora, as
-      an initial step for ontology construction.
-
-    * Extracting taxonomic and non-taxonomic relationships from the
-      web.
-
-    * Automatic ontology-based semantic annotation and Information
-      Extraction of web content.
-
-    * Mining semantic information from blogs, forums or news sources.
-
-    * Automatic annotation in Semantic Wikis.
-
-    * Integrating mined information with semantic resources.
-
-    * Semantic annotation of multilingual web sources.
-
-    * Burst detection from web sources.
-
-    * Multi-webpage Named Entity Coreference
-
-    * Usage scenarios for the combination of the Semantic Web, Human
-      Language Techonologies, Text Mining, decision support, etc.
-
-IMPORTANT DATES:
-
- 1 August 2006    - Paper submission
-
- 5 September 2006 - Acceptance notification
-
-18 September 2006 - Camera-ready papers
-
- 6 November 2006  - Electronic version of the proceedings available: 
-
-SUBMISSIONS
-
-Paper submissions must be formatted in the style of the Springer
-Publications format for the Lecture Notes in Computer Science series,
-and submitted as PDF documents. We accept two kinds of papers:
-
-    * Full papers, with a length limit of 10 pages.
-    * Short position papers, with a length limit of 5 pages. 
-
-In both cases, the names of the authors should not appear in the
-paper, in order to ensure a blind review process.
-
-At least one author must register for each accepted submission, for
+Background
+Evidence accumulates that perception and action are linked. The process =
+of
+producing actions and reading actions by others is one of neural =
+mirroring
+or simulation. Despite the coupling of perception and action in humans, =
 the
-paper to appear in the workshop proceedings.
+two are often considered separate domains of research. Similarly, many
+machine systems have been designed for either perception or production,
+e.g., automatic speech recognition, text-to-speech synthesis, computer
+vision. As technology advances multimodal systems capable of both =
+perception
+and production are on the increase. In parallel with those developments
+there is increasing interest in inter-sensory processing in humans. How =
+can
+knowledge emerging in the area of perception-action and motor-simulation
+inform and enhance new multimodal technologies such as avatars, personal
+assistants, and embodied conversational agents? For example, can motor
+simulation be modeled? Can systems be programmed to develop expectancies =
+and
+to anticipate actions and responses? Can systems be developed that solve
+problems or interpret information from more than one sensory domain?
+
+The way that humans attend to particular information from the wide array
+available, and use this information to guide and direct action, is not =
+only
+of theoretical and practical interest for studies on human behaviour and
+human movement, but also for human studies of when such behaviours go =
+awry
+in such conditions as motor disorders, and studies of machine-based =
+learning
+and robotics.
+
+No one discipline will solve these complex problems - an integrated
+interdisciplinary approach is required, which might include input from a
+range of areas, e.g., visual and auditory perception, motor control, =
+motor
+learning, cognitive neuroscience, psycholinguistics, sign language, =
+gesture
+analysis, non-verbal communication, music perception and performance,
+computer science, and signal processing.
+
+The Perception and Action Workshop will be held under the umbrella of =
+the
+HCSNet SummerFest, a multi-disciplinary event encompassing a number of
+workshops and courses held around the theme of Human Communication =
+Science.
+The Perception and Action stream will begin with "Speed Paper" sessions =
+on
+November 29, open to researchers to present their research areas to the
+wider community. A one-day workshop on November 30, with invited
+presentations and keynote speakers, will follow. The goal of the =
+workshop
+will be to develop links and relationships to identify and plan
+interdisciplinary strategies to address and solve the issues and =
+problems
+identified in during the meeting.
+
+Registrants presenting in the Speed Paper sessions or at an associated
+workshop will have their registration fee waived for SummerFest (Summer
+School, Speed Papers, Keynotes, Workshops).
+
+We are interested in receiving 200 word abstracts for short speed papers =
+(5
+minutes, 4 slides) on any aspect of Human and Machine Perception and =
+Action.
+In addition to new and novel findings presentations can include outlines =
+of
+a current or anticipated research projects, risky or whimsical project
+ideas, calls for collaboration and so on.
+
+Thematic topics might include:
+Cognitive neuroscience and mirroring
+Visual, auditory, and other perceptual processes
+Intersensory interactions
+Human/Machine interfaces
+Machine-based learning
+Robotics.
+Motor disorders and motor control
+Motor learning
+Psycholinguistics, sign language, non-verbal communication, and gesture
+analysis
+Music perception and performance
+Computer science
+Signal processing
+
+In addition, we welcome submissions on any other topic of interest to =
+those
+interested in Perception and Action. In particular, we encourage =
+submissions
+that broaden the scope of the Perception and Action community through
+multi-disciplinary research.
+
+Submission Format
+Please submit a title and 200 word abstract following directions on the
+HCSNet website (available later this month): http://www.hcsnet.edu.au.
+
+Important Dates
+Abstract submission: September 7 2006
+Notification of acceptance: September 29, 2006
+Speed Papers: Nov 29 2006
+Workshop: Nov 30, 2006
+
+Workshop Organisors
+A/Prof Rick van der Zwan
+A/Prof Kate Stevens
+
+--
+Associate Professor Kate Stevens
+School of Psychology and MARCS Auditory Laboratories
+University of Western Sydney - Bankstown
+
+Post: Locked Bag 1797 South Penrith 1797 Australia
+Street: Bldg 1 Rm G.56, Bullecourt Ave, Milperra
+Phone: +612 9772 6324;  Fax: +612 9772 6040
+
+MARCS: http://marcs.uws.edu.au
+AMPS:  http://marcs.uws.edu.au/links/amps/index.htm
+SAID:  Scholars & Artists for International Democracy
+       http://www.lecafeamericain.net/SAID/
+--=20
 
 
-ORGANISING COMMITTEE
-(alphabetical ordering)
 
-Enrique Alfonseca - Universidad Autonoma de Madrid, 
-      Tokyo Institute of Technology.
-Thierry Declerck - DFKI GmbH, Germany.
-Manabu Okumura - Tokyo Institute of Technology.
-Satoshi Sekine - New York University.
-Hiroya Takamura - Tokyo Institute of Technology. 
+------=_NextPart_000_001F_01C6C3A2.E5D99CC0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
 
-PROGRAM COMMITTEE
-(alphabetical ordering)
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<TITLE>Message</TITLE>
 
-Eneko Agirre (University of the Basque Country)
-Roberto Basili (University of Roma, Tor Vergata)
-Paul Buitelaar (DFKI, Germany)
-Philipp Cimiano (University of Karlsruhe)
-Nigel Collier (National Institute of Informatics)
-Hamish Cunningham (University of Sheffield)
-Julio Gonzalo (UNED)
-Ralph Grishman (New York University)
-Siegfried Handschuh (DERI, Ireland)
-Dimitrios Kokkinakis (University of Gothenburg)
-Bernardo Magnini (ITC-IRST)
-Gideon Mann (John Hopkins University)
-Antonio Moreno-Sandoval (Universidad Autonoma de Madrid)
-Nicolas Nicolov (Umbria Inc, USA)
-Viktor Pekar (University of Wolverhampton)
-Deepak Ravichandran (Google Inc.)
-German Rigau (University of the Basque Country)
-Stephen Staab (University of Koblenz-Landau)
-Vojtech Svatek (University of Economics, Prague, Czech Republic)
-Felisa Verdejo (UNED) 
+<META content=3D"MSHTML 6.00.2900.2963" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV><FONT face=3DTahoma size=3D2><SPAN =
+class=3D140001705-19082006>[Posted on behalf=20
+of</SPAN></FONT><FONT face=3DTahoma size=3D2>&nbsp;Kate Stevens=20
+[kj.stevens@uws.edu.au]&nbsp;<SPAN class=3D140001705-19082006><FONT=20
+face=3D"Courier New" color=3D#0000ff>&nbsp;-- pls direct all enquiries=20
+to&nbsp;Kate.]&nbsp;</FONT></SPAN><BR></FONT><FONT=20
+face=3D"Verdana, Helvetica, Arial"><SPAN style=3D"FONT-SIZE: =
+10px"><B><BR>Call for=20
+Abstracts: HCSNet Workshop on Perception and Action<BR></B><A=20
+href=3D"http://www.hcsnet.edu.au/hcsnetevents/2006/perception">http://www=
+.hcsnet.edu.au/hcsnetevents/2006/perception</A><BR><B>Thursday=20
+Nov. 30 2006<BR>University of Sydney<BR></B><BR>A one-day workshop on =
+Perception=20
+and Action will be held on November 30 during the HCSNet SummerFest at =
+the=20
+University of Sydney.<BR>The aim of the workshop is to bring together=20
+established and emerging researchers to discuss hot topics in Perception =
+and=20
+Action as it applies to Human Communication Science. The ultimate goal =
+is to=20
+facilitate new collaborations that lead to novel projects, new =
+interactions=20
+between disciplines, and fresh approaches to perception and=20
+action.<BR><BR><B>Background<BR></B>Evidence accumulates that perception =
+and=20
+action are linked. The process of producing actions and reading actions =
+by=20
+others is one of neural mirroring or simulation. Despite the coupling of =
+
+perception and action in humans, the two are often considered separate =
+domains=20
+of research. Similarly, many machine systems have been designed for =
+either=20
+perception or production, e.g., automatic speech recognition, =
+text-to-speech=20
+synthesis, computer vision. As technology advances multimodal systems =
+capable of=20
+both perception and production are on the increase. In parallel with =
+those=20
+developments there is increasing interest in inter-sensory processing in =
+humans.=20
+How can knowledge emerging in the area of perception-action and =
+motor-simulation=20
+inform and enhance new multimodal technologies such as avatars, personal =
+
+assistants, and embodied conversational agents? For example, can motor=20
+simulation be modeled? Can systems be programmed to develop expectancies =
+and to=20
+anticipate actions and responses? Can systems be developed that solve =
+problems=20
+or interpret information from more than one sensory domain?<BR><BR>The =
+way that=20
+humans attend to particular information from the wide array available, =
+and use=20
+this information to guide and direct action, is not only of theoretical =
+and=20
+practical interest for studies on human behaviour and human movement, =
+but also=20
+for human studies of when such behaviours go awry in such conditions as =
+motor=20
+disorders, and studies of machine-based learning and robotics.<BR><BR>No =
+one=20
+discipline will solve these complex problems - an integrated =
+interdisciplinary=20
+approach is required, which might include input from a range of areas, =
+e.g.,=20
+visual and auditory perception, motor control, motor learning, cognitive =
+
+neuroscience, psycholinguistics, sign language, gesture analysis, =
+non-verbal=20
+communication, music perception and performance, computer science, and =
+signal=20
+processing.<BR><BR>The Perception and Action Workshop will be held under =
+the=20
+umbrella of the HCSNet SummerFest, a multi-disciplinary event =
+encompassing a=20
+number of workshops and courses held around the theme of Human =
+Communication=20
+Science. The Perception and Action stream will begin with &#8220;Speed =
+Paper&#8221; sessions=20
+on November 29, open to researchers to present their research areas to =
+the wider=20
+community. A one-day workshop on November 30, with invited presentations =
+and=20
+keynote speakers, will follow. The goal of the workshop will be to =
+develop links=20
+and relationships to identify and plan interdisciplinary strategies to =
+address=20
+and solve the issues and problems identified in during the=20
+meeting.<BR><BR>Registrants presenting in the Speed Paper sessions or at =
+an=20
+associated workshop will have their registration fee waived for =
+SummerFest=20
+(Summer School, Speed Papers, Keynotes, Workshops).<BR><BR>We are =
+interested in=20
+receiving 200 word abstracts for short speed papers (5 minutes, 4 =
+slides) on any=20
+aspect of Human and Machine Perception and Action. In addition to new =
+and novel=20
+findings presentations can include outlines of a current or anticipated =
+research=20
+projects, risky or whimsical project ideas, calls for collaboration and =
+so=20
+on.<BR><B><BR>Thematic topics might include:<BR></B>Cognitive =
+neuroscience and=20
+mirroring<BR>Visual, auditory, and other perceptual =
+processes<BR>Intersensory=20
+interactions<BR>Human/Machine interfaces<BR>Machine-based=20
+learning<BR>Robotics.<BR>Motor disorders and motor control<BR>Motor=20
+learning<BR>Psycholinguistics, sign language, non-verbal communication, =
+and=20
+gesture analysis<BR>Music perception and performance<BR>Computer=20
+science<BR>Signal processing<BR><BR>In addition, we welcome submissions =
+on any=20
+other topic of interest to those interested in Perception and Action. In =
+
+particular, we encourage submissions that broaden the scope of the =
+Perception=20
+and Action community through multi-disciplinary =
+research.<BR><B><BR>Submission=20
+Format<BR></B>Please submit a title and 200 word abstract following =
+directions=20
+on the HCSNet website (available later this month): <A=20
+href=3D"http://www.hcsnet.edu.au.">http://www.hcsnet.edu.au.</A><BR><BR><=
+B>Important=20
+Dates<BR></B>Abstract submission: September 7 2006<BR>Notification of=20
+acceptance: September 29, 2006<BR>Speed Papers: Nov 29 2006<BR>Workshop: =
+Nov 30,=20
+2006<BR><BR><B>Workshop Organisors<BR></B>A/Prof Rick van der =
+Zwan<BR>A/Prof=20
+Kate Stevens<BR><BR>--<BR>Associate Professor Kate Stevens<BR>School of=20
+Psychology and MARCS Auditory Laboratories<BR>University of Western =
+Sydney -=20
+Bankstown<BR><BR>Post: Locked Bag 1797 South Penrith 1797 =
+Australia<BR>Street:=20
+Bldg 1 Rm G.56, Bullecourt Ave, Milperra<BR>Phone: +612 9772 6324; =
+&nbsp;Fax:=20
++612 9772 6040<BR><BR>MARCS: <A=20
+href=3D"http://marcs.uws.edu.au">http://marcs.uws.edu.au</A><BR>AMPS: =
+&nbsp;<A=20
+href=3D"http://marcs.uws.edu.au/links/amps/index.htm">http://marcs.uws.ed=
+u.au/links/amps/index.htm</A><BR>SAID:=20
+&nbsp;Scholars &amp; Artists for International=20
+Democracy<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+href=3D"http://www.lecafeamericain.net/SAID/">http://www.lecafeamericain.=
+net/SAID/</A><BR>--=20
+<BR><BR></SPAN></FONT></DIV></BODY></HTML>
+
+------=_NextPart_000_001F_01C6C3A2.E5D99CC0--
+
+
+--===============1455131450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+_______________________________________________
+ALTA-Tech mailing list
+ALTA-Tech@alta.asn.au
+http://www.ics.mq.edu.au/mailman/listinfo/alta-tech
+
+--===============1455131450==--
 

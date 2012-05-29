@@ -1,96 +1,191 @@
-From - Thu Dec 10 14:23:36 2009
+From - Thu Dec 10 14:23:40 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 2356be7c4dbcf287e8c9963145200588a7629f7f
+X-Gmail-Received: 2637dbd7cedb202c41314e1bc3ac6a5f2b1be180
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs91969pyi;
-        Fri, 7 Jul 2006 16:17:41 -0700 (PDT)
-Received: by 10.36.58.12 with SMTP id g12mr3071349nza;
-        Fri, 07 Jul 2006 16:17:41 -0700 (PDT)
+Received: by 10.35.11.2 with SMTP id o2cs246158pyi;
+        Wed, 26 Jul 2006 14:06:14 -0700 (PDT)
+Received: by 10.35.106.15 with SMTP id i15mr11904375pym;
+        Wed, 26 Jul 2006 14:06:13 -0700 (PDT)
 Return-Path: <rasmusse@research.rutgers.edu>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id 19si18808174nzp.2006.07.07.16.17.39;
-        Fri, 07 Jul 2006 16:17:41 -0700 (PDT)
+        by mx.gmail.com with ESMTP id w76si1248589pyd.2006.07.26.14.06.11;
+        Wed, 26 Jul 2006 14:06:13 -0700 (PDT)
 Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPue000355;
-	Sat, 8 Jul 2006 09:17:37 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QL65dp024964;
+	Thu, 27 Jul 2006 07:06:10 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809173710725
- ; Sat, 08 Jul 2006 09:17:37 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707061028612
+ ; Thu, 27 Jul 2006 07:06:10 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHYD2000475;
-	Sat, 8 Jul 2006 09:17:34 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QL67YJ024968;
+	Thu, 27 Jul 2006 07:06:07 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k67NHXBL002558
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k6QL65Ux013262
 	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Sat, 8 Jul 2006 09:17:33 +1000 (EST)
+	Thu, 27 Jul 2006 07:06:06 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPuc000355;
-	Sat, 8 Jul 2006 09:17:33 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QL65dn024964;
+	Thu, 27 Jul 2006 07:06:05 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809173210724
- ; Sat, 08 Jul 2006 09:17:32 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707060428611
+ ; Thu, 27 Jul 2006 07:06:04 +1000
 Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHVTf000468;
-	Sat, 8 Jul 2006 09:17:31 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QL613Q024959;
+	Thu, 27 Jul 2006 07:06:02 +1000 (EST)
 Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
-	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k67NHRC08542;
-	Sat, 8 Jul 2006 09:17:27 +1000 (EST)
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k6QL5tA22979;
+	Thu, 27 Jul 2006 07:05:56 +1000 (EST)
 Received: (from rasmusse@localhost)
-	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k67MQ3g28285;
-	Fri, 7 Jul 2006 18:26:03 -0400 (EDT)
-Date: Fri, 7 Jul 2006 18:26:02 EDT
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k6QK0nO28592;
+	Wed, 26 Jul 2006 16:00:49 -0400 (EDT)
+Date: Wed, 26 Jul 2006 16:00:48 EDT
 From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
 To: rasmusse@cs.rutgers.edu
-Subject: Germany: Ontologies in Text Technology: Approaches to Extract
-        Semantic Knowledge from Syntactic Information -- Call for Extended
-        Abstracts
-Message-ID: <CMM-RU.1.5.1152311162.rasmusse@research.rutgers.edu>
+Subject: Atlanta, GA: Web Content Mining With Human Language Technologies --
+        Last CFP
+Message-ID: <CMM-RU.1.5.1153944048.rasmusse@research.rutgers.edu>
 
 
-[Apologies for multiple copies]
+                          LAST CALL FOR PAPERS
 
-                   Ontologies in Text Technology:
-Approaches to Extract Semantic Knowledge from Syntactic Information
-                   28 September - 29 September 2006
-                     University of Osnabrueck
+        WEB CONTENT MINING WITH HUMAN LANGUAGE TECHNOLOGIES
+                http://orestes.ii.uam.es/workshop/
 
-                  CALL FOR EXTENDED ABSTRACTS
+workshop to be held at the 5th International Semantic Web Conference,
+               Athens, GA, U.S.A. November 5-9 2006
+                 http://iswc2006.semanticweb.org/
 
-                   Deadline:  July 31st, 2006
-Notification of acceptance:  August 31st, 2006
 
-Organizing committee:
-        Uwe Moennich (University of Tuebingen)
-        Kai-Uwe Kuehnberger (University of Osnabrueck)
+MOTIVATION, AIM AND SCOPE
 
-Invited speakers:
-        Klaus Schulz (CIS Munich)
-        Guus Schreiber (Free University Amsterdam)
+With the large growth of the information stored in the World Wide Web,
+it is necessary to have available tools for automatic or
+semi-automatic analyzes of web data. Hence, a large effort has been
+invested in the last years in developing techniques for extracting
+patterns and implicit information from the web, a task that is usually
+known as Web Mining. Web Mining itself can be divided into three
+subtasks according to the kind of data that is collected: web
+structure, web usage and web content.
 
-Ontologies play an important role in a variety of text technological
-applications. Due to the fact that hand-crafted ontologies are tedious
-to develop, automatic generation, dynamic adaptations, and learning of
-ontologies are desirable. The type of knowledge that is available for
-solving these tasks is often restricted to syntactic information. The
-workshop addresses and focuses on the question of how it is possible
-to
-extract semantic knowledge for ontology design by structurally given
-information. Examples of applications are (but are not limited to)
-knowledge acquisition from the semantic web, aspects of hypertexts,
-expert systems, document management, and discourse processing.
+Web content mining consists of automatically mining data from textual
+web documents that can be represented with machine-readable semantic
+formalisms. Initially, most web content mining systems used wrappers
+to map documents to other data structures, but this is highly
+dependent on the the layout and formatting instructions inside web
+pages. Therefore, alternative approaches, that make use of Natural
+Language Processing-based techniques, are increasingly used.
 
-Submission procedure:
-Extended Abstracts should be between 3 and max. 6 pages of length
-(including figures, tables, and references), single-spaced Springer
-LNCS
-style pages. Only electronic submissions will be considered (formats:
-PostScript, PDF) sent to kkuehnbe@uos.de. Based on accepted extended
-abstracts authors will be asked to submit full papers (after the
-conference took place) that will be published as a special issue in
-"GLDV-Journal for Computational Linguistics and Language Technology".
+While more traditional approaches to Information Extraction from text,
+such as those applied to the Message Understanding Conferences during
+the nineties, relied on small collections of documents with many
+semantic annotations, the characteristics of the web (its size,
+redundancy and the lack of semantic annotations in most texts) favor
+efficient algorithms able to learn from unannotated data. Furthermore,
+new types of web content such as web forums, blogs and wikis, some of
+them included in the so-called Web 2.0, are also a source of textual
+information that contain an underlying structure from which specialist
+systems can benefit. The workshop will give special emphasis to how
+existing techniques can benefit from these kinds of contents.
 
-Contact information:
-        Kai-Uwe Kuehnberger (kkuehnbe@uos.de)
+This workshop aims at bringing together researchers from the Semantic
+Web, the Natural Language Processing and the Text Mining
+communities. The web constitutes a unique source of information to
+train and exploit systems for tasks such as Named Entity
+Identification and Classification, Term Identification, Relationships
+Extraction, Ontology Learning and Population from text and Text
+Mining. The Semantic Web community can contribute providing semantic
+formalisms and tools for knowledge representation and reasoning for
+exploiting the extracted metadata. The goal of the workshop is to
+establish communication between all these communities.  
+
+TOPICS OF INTEREST
+
+Topics of interest include, but are not limited to:
+
+    * Term Identification for specialist domains using web corpora, as
+      an initial step for ontology construction.
+
+    * Extracting taxonomic and non-taxonomic relationships from the
+      web.
+
+    * Automatic ontology-based semantic annotation and Information
+      Extraction of web content.
+
+    * Mining semantic information from blogs, forums or news sources.
+
+    * Automatic annotation in Semantic Wikis.
+
+    * Integrating mined information with semantic resources.
+
+    * Semantic annotation of multilingual web sources.
+
+    * Burst detection from web sources.
+
+    * Multi-webpage Named Entity Coreference
+
+    * Usage scenarios for the combination of the Semantic Web, Human
+      Language Techonologies, Text Mining, decision support, etc.
+
+IMPORTANT DATES:
+
+ 1 August 2006    - Paper submission
+
+ 5 September 2006 - Acceptance notification
+
+18 September 2006 - Camera-ready papers
+
+ 6 November 2006  - Electronic version of the proceedings available: 
+
+SUBMISSIONS
+
+Paper submissions must be formatted in the style of the Springer
+Publications format for the Lecture Notes in Computer Science series,
+and submitted as PDF documents. We accept two kinds of papers:
+
+    * Full papers, with a length limit of 10 pages.
+    * Short position papers, with a length limit of 5 pages. 
+
+In both cases, the names of the authors should not appear in the
+paper, in order to ensure a blind review process.
+
+At least one author must register for each accepted submission, for
+the
+paper to appear in the workshop proceedings.
+
+
+ORGANISING COMMITTEE
+(alphabetical ordering)
+
+Enrique Alfonseca - Universidad Autonoma de Madrid, 
+      Tokyo Institute of Technology.
+Thierry Declerck - DFKI GmbH, Germany.
+Manabu Okumura - Tokyo Institute of Technology.
+Satoshi Sekine - New York University.
+Hiroya Takamura - Tokyo Institute of Technology. 
+
+PROGRAM COMMITTEE
+(alphabetical ordering)
+
+Eneko Agirre (University of the Basque Country)
+Roberto Basili (University of Roma, Tor Vergata)
+Paul Buitelaar (DFKI, Germany)
+Philipp Cimiano (University of Karlsruhe)
+Nigel Collier (National Institute of Informatics)
+Hamish Cunningham (University of Sheffield)
+Julio Gonzalo (UNED)
+Ralph Grishman (New York University)
+Siegfried Handschuh (DERI, Ireland)
+Dimitrios Kokkinakis (University of Gothenburg)
+Bernardo Magnini (ITC-IRST)
+Gideon Mann (John Hopkins University)
+Antonio Moreno-Sandoval (Universidad Autonoma de Madrid)
+Nicolas Nicolov (Umbria Inc, USA)
+Viktor Pekar (University of Wolverhampton)
+Deepak Ravichandran (Google Inc.)
+German Rigau (University of the Basque Country)
+Stephen Staab (University of Koblenz-Landau)
+Vojtech Svatek (University of Economics, Prague, Czech Republic)
+Felisa Verdejo (UNED) 
 

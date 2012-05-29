@@ -1,173 +1,196 @@
-From - Thu Dec 10 14:23:41 2009
+From - Thu Dec 10 14:23:55 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 12b3774196aad2d941cb774a1140bb8fe9350c53
+X-Gmail-Received: 6ddec0400327298016243741d27a6cb82a3d917e
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs218001pyi;
-        Wed, 2 Aug 2006 07:53:43 -0700 (PDT)
-Received: by 10.35.96.11 with SMTP id y11mr1561546pyl;
-        Wed, 02 Aug 2006 07:53:43 -0700 (PDT)
-Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
-        by mx.gmail.com with ESMTP id a75si7632714pyf.2006.08.02.07.53.27;
-        Wed, 02 Aug 2006 07:53:43 -0700 (PDT)
-Received-SPF: pass (gmail.com: best guess record for domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
-Received: from listserv (listserv [164.76.102.107])
-	by listserv.linguistlist.org (8.13.7/8.13.7) with ESMTP id k72Er8U8013000;
-	Wed, 2 Aug 2006 10:53:26 -0400 (EDT)
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
-          spool id 935047 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Wed, 2 Aug
-          2006 10:49:44 -0400
-Approved-By: linguist@LINGUISTLIST.ORG
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.13.7/8.13.7) with ESMTP id
-          k72ELZsG004123 for <linguist@listserv.linguistlist.org>; Wed, 2 Aug
-          2006 10:21:35 -0400 (EDT)
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.7/8.13.7) with ESMTP id k72ELXos015078; Wed, 2
-          Aug 2006 10:21:33 -0400 (EDT)
-Mime-Version: 1.0
-Content-Type: text/plain; charset=iso-8859-1
-X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Wed, 02 Aug 2006 10:53:27 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
-            [164.76.102.107]); Wed, 02 Aug 2006 10:21:36 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (linguistlist.org
-            [164.76.102.53]); Wed, 02 Aug 2006 10:21:33 -0400 (EDT)
+Received: by 10.35.126.10 with SMTP id d10cs532987pyn;
+        Sat, 26 Aug 2006 07:06:36 -0700 (PDT)
+Received: by 10.66.216.6 with SMTP id o6mr2526252ugg;
+        Sat, 26 Aug 2006 07:06:36 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id u1si5449322uge.2006.08.26.07.06.33;
+        Sat, 26 Aug 2006 07:06:36 -0700 (PDT)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1GGymy-000405-Pu; Sat, 26 Aug 2006 16:05:33 +0200
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1GGyov-000NDg-3p; Sat, 26 Aug 2006 16:07:33 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1GGyou-000NDb-Oc; Sat, 26 Aug 2006 16:07:32 +0200
+Received: from smtp14.orange.fr [193.252.23.69] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
+	id 1GGymn-0001JD-OT; Sat, 26 Aug 2006 16:05:26 +0200
+Received: from smtp-msa-out14.orange.fr (mwinf1406 [172.22.145.34])
+	by mwinf1405.orange.fr (SMTP Server) with ESMTP id 8150B1C118ED
+	for <CORPORA@UIB.NO>; Sat, 26 Aug 2006 15:46:24 +0200 (CEST)
+Received: from [192.168.1.111] (AToulouse-152-1-62-30.w82-125.abo.wanadoo.fr [82.125.135.30])
+	by mwinf1406.orange.fr (SMTP Server) with ESMTP id 80B56700008F
+	for <CORPORA@UIB.NO>; Sat, 26 Aug 2006 15:46:00 +0200 (CEST)
+X-ME-UUID: 20060826134600527.80B56700008F@mwinf1406.orange.fr
+Message-ID: <44F048D0.1000104@univ-tlse2.fr>
+Date: Sat, 26 Aug 2006 15:12:48 +0200
+From: Marie-Paule PERY-WOODLEY <pery@univ-tlse2.fr>
+User-Agent: Mozilla Thunderbird 1.0 (Windows/20041206)
+X-Accept-Language: fr, en
+MIME-Version: 1.0
+To: CORPORA@UIB.NO
+Subject: [Corpora-List] EXTENDED DEADLINE: TAL Journal, Discourse and Document
+ Processing
+Content-Type: text/plain; charset=windows-1252; format=flowed
 Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by
-                      listserv.linguistlist.org id k72ELasG004125
-Message-ID:  <16257595.1154528493523.JavaMail.nobody@linguistlist.org>
-Date:         Wed, 2 Aug 2006 10:21:33 -0400
-Reply-To: linguist@LINGUISTLIST.ORG
-Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From: linguist@LINGUISTLIST.ORG
-Subject: 17.2221, Calls: Historical Ling/Sociolinguistics/Germany
-Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
-To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
-Precedence: list
+X-checked-clean: by exiscan on rolf
+X-Scanner: 615c74a38c6ff8045d6aed4317a5123d http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 4 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   4.0 BODY: Probably more lottery
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
 
-LINGUIST List: Vol-17-2221. Wed Aug 02 2006. ISSN: 1068 - 4875.
+Computational Approaches to Discourse and Document Processing
 
-Subject: 17.2221, Calls: Historical Ling/Sociolinguistics/Germany
+SPECIAL ISSUE OF THE JOURNAL Ã¯Â¿Â½TRAITEMENT AUTOMATIQUE DES LANGUESÃ¯Â¿Â½ (TAL)
 
-Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
-            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
- 
-Reviews: Laura Welcher, Rosetta Project / Long Now Foundation  
- <reviews@linguistlist.org> 
-
-Homepage: http://linguistlist.org/
-
-The LINGUIST List is funded by Eastern Michigan University, Wayne
-State University, and donations from subscribers and publishers.
-
-Editor for this issue: Dan Parker <dan@linguistlist.org>
-================================================================  
-
-As a matter of policy, LINGUIST discourages the use of abbreviations
-or acronyms in conference announcements unless they are explained in
-the text.
-
-To post to LINGUIST, use our convenient web form at 
-http://linguistlist.org/LL/posttolinguist.html. 
+*** DEADLINE EXTENDED TO 22 September 2006 ***
 
 
+GUEST EDITORS: Marie-Paule PÃ¯Â¿Â½ry-Woodley (ERSS - UniversitÃ¯Â¿Â½ de Toulouse
+2, France) and Donia Scott (Open University, UK)
 
-===========================Directory==============================  
+FINAL CALL FOR PAPERS
 
-1)
-Date: 01-Aug-2006
-From: Regine Eckardt < reckard@gwdg.de >
-Subject: The Role of Variation in Language Evolution 
+This special issue of TAL is devoted to what we perceive as an
+increasing convergence between discourse linguistics, document
+engineering and NLP. Such a convergence can be observed from several
+angles; for example, new modes of access to documents' contents place
+greater emphasis on exploiting discourse structure; applying corpus
+analysis methods to discourse calls for greater use of NLP techniques.
+It is manifest in the increasing number of joint studies, and results in
+cross fertilisation of the disciplines.
 
-	
--------------------------Message 1 ---------------------------------- 
-Date: Wed, 02 Aug 2006 10:17:59
-From: Regine Eckardt < reckard@gwdg.de >
-Subject: The Role of Variation in Language Evolution 
- 
+* Text and discourse linguistics
+Constructing a coherent interpretation of discourse involves delimiting
+segments, and identifying semantico-pragmatic relations and structures
+that bind them. These processes may be approached via the notions of
+discourse relations (cf. RST, SDRT), of theme or topic, of discourse
+framing, etc. A major challenge for the field is to identify linguistic
+correlates of specific discourse functions in text corpora, taking into
+account potential register- and domain-linked variation. Another
+promising research area focuses on the global structure of documents:
+role of titles, Ã¯Â¿Â½logical structureÃ¯Â¿Â½, or layout, to name a few.
 
-Full Title: The Role of Variation in Language Evolution 
-Short Title: Evolution Workshop, DGfS 
+* Document engineering and NLP
+Access to the information stored in electronic documents is a major
+issue, and recent approaches seek to take better account of the
+organisation of the documents being processed Ã¯Â¿Â½ such as their thematic
+and rhetorical structure. A growing number of applications are concerned
+by this evolution: automatic summarisation, document browsing,
+information retrieval (e.g. for passage extraction from selected
+documents). In addition, hypertextual and composite documents raise new
+questions about the interaction between semiotic functions (text-image
+for instance).
 
-Date: 28-Feb-2007 - 02-Mar-2007
-Location: Siegen, Germany 
-Contact Person: Gerhard Jaeger
-Meeting Email: Gerhard.Jaeger@uni-bielefeld.de
-Web Site: http://wwwhomes.uni-bielefeld.de/gjaeger/dgfs2007/cfp.html 
+For this special issue of TAL, we invite papers from researchers working
+in the fields of discourse linguistics, computational linguistics and
+document engineering on what can be termed the Ã¯Â¿Â½document levelÃ¯Â¿Â½, whereby:
+Ã¯Â¿Â½ the document is envisaged as a functional unit, situated in a specific
+setting, and actualised in a medium (whatever its nature) which confers
+on it material characteristics which are an integral part of the use and
+sense made of it;
+Ã¯Â¿Â½ the expression Ã¯Â¿Â½document levelÃ¯Â¿Â½ signals a marked interest in coarse
+grain structures, or Ã¯Â¿Â½globalÃ¯Â¿Â½ structures (so-called Ã¯Â¿Â½logicalÃ¯Â¿Â½ structure,
+document structure, organisation in sectionsÃ¯Â¿Â½), or in the interaction
+between local and global structures (reference chains, topical chains,
+inter-propositional relations, etc.). It indicates a specific interest
+in Ã¯Â¿Â½top downÃ¯Â¿Â½ approaches based on the exploitation of surface cues or
+markers.
 
-Linguistic Field(s): General Linguistics; Historical Linguistics; Sociolinguistics 
+Specific topics include (non-exhaustive list):
+- Analysis of discourse structures;
+- Analysis of the structure of composite documents (text-images,
+text-graphics);
+- Impact of hypertextual or hyperdocument organisation on the way
+documents are produced and understood. Hypertext formatting,
+computational tools based on NLP procedures;
+- Reading models, discourse organisation models;
+- Computational experimentation as a means of testing hypotheses on
+corpora;
+- Preliminary corpus studies: identification and annotation of discourse
+structures;
+- Computational devices for such experimental approaches (formalising
+linguistic knowledge, ensuring re-usability of resources, articulating
+levels of processing, visualising annotations);
+- Articulating approaches using linguistic markers, domain knowledge,
+statistical techniques;
+- Applications: intra-document information retrieval, browsing aids,
+document summarisation or synthesis, etc.
 
-Call Deadline: 06-Aug-2006 
+THE JOURNAL
 
-Meeting Description:
+(see http://www.atala.org/)
+TAL (Traitement Automatique des Langues/Natural Language Processing) is
+a forty year old international journal edited by ATALA (French
+Association for Natural Language Processing) with the support of CNRS
+(National Centre for Scientific Research).
+It is now moving over to an electronic mode of publication, with
+printing on demand. This will in no way affect the reviewing and
+selection process.
 
-The workshop topic is the role of linguistic variation for the cultural
-evolution of language. It will bring together researchers from various
-areas (historical linguistics, creolistics, computational linguistics, ...) that
-are interested in the application of evolutionary concepts to natural
-language.
+LANGUAGE
 
-Invited speakers: Olga Fischer (Amsterdam) & Andrew Wedel
-(Arizona)
+Manuscripts may be submitted in English or French. French-speaking
+authors are requested to submit in French.
 
-The workshop is part of the annual meeting of the DGfS (German Linguistic
-Society). 
+IMPORTANT DATES
 
-The Role of Variation in Language Evolution
-Workshop at the 29th annual meeting of the German Association for Linguistics
-(DGfS) Siegen, Feb 28 - March 2, 2007.
+22/09/2006 Deadline for submission
+13/11/2006 Notification to authors
+18/12/2006 Deadline for submission of revised version
 
-Guest speakers:
-Olga Fischer (Amsterdam)
-Andrew Wedell (Tucson)
+PAPER SUBMISSION
 
-Last call for papers
+Contributions (25 pages maximum, PDF format) will be sent by e-mail to
+both editors at the addresses below:
+Marie-Paule PÃ¯Â¿Â½ry-Woodley <pery@univ-tlse2.fr>
+Donia Scott < D.Scott@open.ac.uk>
+Style sheets are available for download at
+http://tal.e-revues.com/appel.jsp
 
-The workshop will explore the precise role of linguistic variation in language
-evolution. We invite submissions to the following (and related) topics:
--Empirical studies of language variation that are relevant for language
-evolution. This includes experimental psycholinguistc studies as well as corpus
-investigations;
--Computer simulations of language evolution;
--Formal and computational models of the micro-dynamics of language evolution,
-like stochastic, exemplar based or memory based approaches;
--Studies of grammaticalization phenomena (and language change phenomena in
-general) that relate diachronic change to synchronic variation;
--The role of variation in creolization;
--Mathematical models of language evolution.
+SPECIAL EDITORIAL BOARD
 
-For more details please consult the workshop website at: 
-http://wwwhomes.uni-bielefeld.de/gjaeger/dgfs2007/cfp.html
+N. Asher (IRIT, U. Toulouse 3, France)
+J. Bateman (U. Bremen, Germany)
+Y. Bestgen (U. C. Louvain, Belgium)
+N. Bouayad-Agha (U. Pompeu Fabra, Barcelona, Spain)
+M. Charolles (U. Paris 3, France)
+D. Cristea (U. Iasi, Romania)
+L. Danlos (U. Paris 7, France)
+L. Degand (U. C. Louvain, Belgium)
+P. Enjalbert (U. Caen, France)
+S. Ferrari (U. Caen, France)
+B. Grau (U. Paris-Sud, France)
+N. Hernandez (GREYC, U. Caen, France)
+J. Karlgren (Swedish Institute of Computer Science, Sweden)
+G. Lapalme (U. MontrÃ¯Â¿Â½al, QuÃ¯Â¿Â½bec, Canada)
+N. Lucas (GREYC, U. Caen, France)
+A. Max (U. Paris-Sud, France)
+J.-L. Minel (U. Paris 4, France)
+R. Power (Open University, England)
+H. Saggion (U. Sheffield, England)
+S. Teufel (U. Cambridge, England)
 
-Submissions are invited for 60-minutes presentations (45 minutes + 15 minutes
-discussion). Send your two-page abstract to gerhard.jaeger@uni-bielefeld.de (in
-plain text or in .pdf format) to arrive no later than August 6, 2006.
-Notification of acceptance is by September 15, 2006. 
+-- 
 
-Program Committee: 
-Ellen Brandner (Konstanz)
-Brady Clark (Chicago)
-Matt Goldrick (Chicago)
-Roland Hinterhölzl (Berlin)
-Martin Haspelmath (Leipzig)
-Simon Kirby (Edinburgh)
-Ekkehard König (Berlin)
-Anke Lüdeling (Berlin)
-Alexander Mehler (Bielefeld)
-Tonjes Veenstra (Berlin)
-Robert van Rooij (Amsterdam)
-Anette Rosenbach (Düsseldorf)
-Jelle Zuidema (Amsterdam)
+Marie-Paule PÃ¯Â¿Â½ry-Woodley
 
-
-
+ERSS (UMR 5610) CNRS & UniversitÃ¯Â¿Â½ de Toulouse-Le Mirail
+Maison de la Recherche.  F-31058 Toulouse cedex 9
+TÃ¯Â¿Â½l. (+33) 561-50-36-09(-46 76)  Fax (+33) 561-50-46-77(-42 12)
+email : pery@univ-tlse2.fr   http://w3.univ-tlse2.fr/erss/
 
 
------------------------------------------------------------
-LINGUIST List: Vol-17-2221	
 
-	
+

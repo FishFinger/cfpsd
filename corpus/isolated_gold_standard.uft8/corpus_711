@@ -1,54 +1,54 @@
-From - Thu Dec 10 14:39:14 2009
+From - Thu Dec 10 14:39:17 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs153070bkq;
-        Wed, 25 Nov 2009 13:13:15 -0800 (PST)
-Received: by 10.213.23.146 with SMTP id r18mr7299877ebb.46.1259183586529;
-        Wed, 25 Nov 2009 13:13:06 -0800 (PST)
+Received: by 10.223.125.139 with SMTP id y11cs588821far;
+        Wed, 2 Dec 2009 07:58:25 -0800 (PST)
+Received: by 10.213.100.217 with SMTP id z25mr2025902ebn.88.1259769496055;
+        Wed, 02 Dec 2009 07:58:16 -0800 (PST)
 Return-Path: <corpora-bounces@uib.no>
 Received: from half.uib.no (half.uib.no [129.177.30.20])
-        by mx.google.com with ESMTP id 1si222135ewy.34.2009.11.25.13.13.01;
-        Wed, 25 Nov 2009 13:13:06 -0800 (PST)
+        by mx.google.com with ESMTP id 9si3513581ewy.11.2009.12.02.07.58.13;
+        Wed, 02 Dec 2009 07:58:16 -0800 (PST)
 Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
 Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no
 Received: from localhost (half.uib.no) [127.0.0.1] 
 	by half.uib.no  with esmtp  (Exim 4.69)
-	id 1NDP4W-000198-F2; Wed, 25 Nov 2009 22:06:44 +0100
+	id 1NFrWR-0007bc-HC; Wed, 02 Dec 2009 16:53:43 +0100
 Received: from rolf.uib.no [129.177.30.19] 
 	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
-	id 1NDP4U-00018x-Kg; Wed, 25 Nov 2009 22:06:42 +0100
-Received: from imta-38.everyone.net (omta0105.mta.everyone.net)
-	[216.200.145.38] 
-	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.69)
-	id 1NDP4T-0000qW-Un; Wed, 25 Nov 2009 22:06:42 +0100
-Received: from dm0205.mta.everyone.net (sj1-slb03-gw2 [172.16.1.96])
-	by omta0105.mta.everyone.net (Postfix) with ESMTP id D209F732B2E;
-	Wed, 25 Nov 2009 13:06:37 -0800 (PST)
-X-Eon-Dm: dm0205
-Received: by dm0205.mta.everyone.net (EON-AUTHRELAY2 - 5841ed39)
-	id dm0205.4b0b045b.4dc2e8; Wed, 25 Nov 2009 13:06:36 -0800
-X-Eon-Sig: AQEUH91LDZxc1E6EtAIAAAAH,f3916d1e744f2b7a09fdaf67310bdbc0
-From: MT Marathon 2010 Organising Committee <contact@ventsislavzhechev.eu>
-Date: Wed, 25 Nov 2009 22:06:28 +0100
-Message-Id: <49970309-9154-4E41-9271-023508CFB1E0@ventsislavzhechev.eu>
-To: "emplus@dfki.de				" <emplus@dfki.de>,
-	cngl_allmembers@mailhost.computing.dcu.ie,
-	"liresearch@mailhost.computing.dcu.ie	"
-	<liresearch@mailhost.computing.dcu.ie>, 
-	"mt-list@eamt.org			" <mt-list@eamt.org>,
-	"corpora@uib.no				" <corpora@uib.no>,
-	"moses-support@mit.edu			" <moses-support@mit.edu>,
-	"Willard.McCarty@mccarty.org.uk		" <Willard.McCarty@mccarty.org.uk>
-Mime-Version: 1.0 (Apple Message framework v1077)
-X-Mailer: Apple Mail (2.1077)
+	id 1NFrWQ-0007bJ-2g; Wed, 02 Dec 2009 16:53:42 +0100
+Received: from theia.rz.uni-saarland.de [134.96.7.31] 
+	by rolf.uib.no for corpora@uib.no with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.69) id 1NFrWP-0007SC-QE; Wed, 02 Dec 2009 16:53:42 +0100
+Received: from top.coli.uni-saarland.de (top.coli.uni-saarland.de
+	[134.96.104.10])
+	by theia.rz.uni-saarland.de (8.14.1/8.14.0) with ESMTP id
+	nB2FrXbb016513; Wed, 2 Dec 2009 16:53:33 +0100
+Received: from troll.coli.uni-saarland.de (troll.coli.uni-saarland.de
+	[134.96.104.16])
+	by top.coli.uni-saarland.de (8.14.3/8.14.3) with ESMTP id
+	nB2FrWeL022082; Wed, 2 Dec 2009 16:53:32 +0100 (MET)
+Received: from localhost (kordoni@localhost)
+	by troll.coli.uni-saarland.de (8.11.7p1+Sun/8.11.7) with ESMTP id
+	nB2FrUl17849; Wed, 2 Dec 2009 16:53:31 +0100 (MET)
+Date: Wed, 2 Dec 2009 16:53:30 +0100 (MET)
+From: Valia Kordoni <kordoni@CoLi.Uni-SB.DE>
+To: hpsg-l@mailman.stanford.edu, lfg@listserv.linguistlist.org, corpora@uib.no,
+	elsnet-list@elsnet.org, semantik@uni-duesseldorf.de, cluk@dcs.shef.ac.uk
+Message-ID: <Pine.GSO.4.60.0912021646400.17352@troll.coli.uni-saarland.de>
+MIME-Version: 1.0
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-3.0
+	(theia.rz.uni-saarland.de [134.96.7.31]);
+	Wed, 02 Dec 2009 16:53:33 +0100 (CET)
+X-AntiVirus: checked by AntiVir MailGate (version: 2.1.2-14; AVE: 7.9.1.92;
+	VDF: 7.10.1.159; host: AntiVir1)
 X-checked-clean: by exiscan on rolf
-X-Scanner: 4b25e8288084da17df95a6989e0b6bac http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: -6 hits, 8.0 required
+X-Scanner: cb83c9712de6a098f5c90c3df8124dd0 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
 X-UiB-SpamReport: spamassassin found;
- -6.0 another conference
-Subject: [Corpora-List] Final Call for Papers for the Open Source Convention
-	held at the Machine Translation Marathon 2010
+Subject: [Corpora-List] !Deadline approaching!: Erasmus Mundus Scholarships
+ for M.Sc. in Language and Communication Technologies (LCT)
 X-BeenThere: corpora@uib.no
 X-Mailman-Version: 2.1.12
 Precedence: list
@@ -60,59 +60,183 @@ List-Post: <mailto:corpora@uib.no>
 List-Help: <mailto:corpora-request@uib.no?subject=help>
 List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
 	<mailto:corpora-request@uib.no?subject=subscribe>
-Content-Type: text/plain; charset="windows-1251"
-Content-Transfer-Encoding: base64
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"; Format="flowed"
 Sender: corpora-bounces@uib.no
 Errors-To: corpora-bounces@uib.no
 
-RklOQUwgQ0FMTCBGT1IgUEFQRVJTCgpPUEVOIFNPVVJDRSBUT09MUyBGT1IgTUFDSElORSBUUkFO
-U0xBVElPTgoKVGhlIEZvdXJ0aCBNYWNoaW5lIFRyYW5zbGF0aW9uIE1hcmF0aG9uLCB3aGljaCB3
-aWxsIHRha2UgcGxhY2UgMjWWMzAgSmFudWFyeSAyMDEwIGluIER1YmxpbiwgSXJlbGFuZCwgaXMg
-aG9zdGluZyBhbiBPcGVuIFNvdXJjZSBDb252ZW50aW9uIHRvIGFkdmFuY2UgdGhlIHN0YXRlIG9m
-IHRoZSBhcnQgaW4gbWFjaGluZSB0cmFuc2xhdGlvbi4gVGhlIE1UIE1hcmF0aG9uIGlzIG9yZ2Fu
-aXNlZCBieSB0aGUgTmF0aW9uYWwgQ2VudHJlIGZvciBMYW5ndWFnZSBUZWNobm9sb2d5IGFuZCB0
-aGUgQ2VudHJlIGZvciBOZXh0IEdlbmVyYXRpb24gTG9jYWxpc2F0aW9uIGF0IER1YmxpbiBDaXR5
-IFVuaXZlcnNpdHkgb24gYmVoYWxmIG9mIHRoZSBFdXJvTWF0cml4UGx1cyBDb25zb3J0aXVtLgoK
-V2UgaW52aXRlIGRldmVsb3BlcnMgb2Ygb3BlbiBzb3VyY2UgdG9vbHMgdG8gcHJlc2VudCB0aGVp
-ciB3b3JrIGFuZCBzdWJtaXQgYSBwYXBlciBvZiB1cCB0byAxMCBwYWdlcyB0aGF0IChhKSBkZXNj
-cmliZXMgdGhlIHVuZGVybHlpbmcgbWV0aG9kb2xvZ3kgYW5kIChiKSBpbmNsdWRlcyBpbnN0cnVj
-dGlvbnMgaG93IHRvIHVzZSB0aGUgdG9vbHMuCgpXZSBhcmUgbG9va2luZyBmb3Igc3RhbmQtYWxv
-bmUgdG9vbHMgYW5kIGV4dGVuc2lvbnMgb2YgZXhpc3RpbmcgdG9vbHMsIHN1Y2ggYXMgdGhlIE1v
-c2VzIG9wZW4gc291cmNlIHN5c3RlbXMuIEFjY2VwdGVkIHBhcGVycyB3aWxsIGJlIHByZXNlbnRl
-ZCBkdXJpbmcgdGhlIE1UIE1hcmF0aG9uIGFuZCBwdWJsaXNoZWQgYXMgYSBzcGVjaWFsIGlzc3Vl
-IG9mIHRoZSBQcmFndWUgQnVsbGV0aW4gb2YgTWF0aGVtYXRpY2FsIExpbmd1aXN0aWNzIChodHRw
-Oi8vdWZhbC5tZmYuY3VuaS5jei9wYm1sKS4KClBvc3NpYmxlIFRvcGljczoKlSB0cmFpbmluZyBv
-ZiBtYWNoaW5lIHRyYW5zbGF0aW9uIG1vZGVscwqVIG1hY2hpbmUgdHJhbnNsYXRpb24gZGVjb2Rl
-cnMKlSB0dW5pbmcgb2YgbWFjaGluZSB0cmFuc2xhdGlvbiBzeXN0ZW1zCpUgZXZhbHVhdGlvbiBv
-ZiBtYWNoaW5lIHRyYW5zbGF0aW9uCpUgdmlzdWFsaXphdGlvbiwgYW5ub3RhdGlvbiBvciBkZWJ1
-Z2dpbmcgdG9vbHMKlSB0b29scyBmb3IgaHVtYW4gdHJhbnNsYXRvcnMKlSBpbnRlcmZhY2VzIGZv
-ciB3ZWItYmFzZWQgc2VydmljZXMgb3IgQVBJcwqVIGV4dGVuc2lvbnMgb2YgZXhpc3RpbmcgdG9v
-bHMKlSBvdGhlciB0b29scyBmb3IgbWFjaGluZSB0cmFuc2xhdGlvbgoKVGhpcyBpcyB0aGUgc2Vj
-b25kIHRpbWUgdGhhdCB0aGUgTVQgTWFyYXRob24gd2lsbCBob3N0IHRoZSBPcGVuIFNvdXJjZSBD
-b252ZW50aW9uLiBUaGUgcGFwZXJzIGZyb20gbGFzdCB5ZWFyIGFyZSBhdmFpbGFibGUgb25saW5l
-OiBodHRwOi8vdWZhbC5tZmYuY3VuaS5jei9wYm1sLTkxLTEwMC5odG1sCgpQYXBlcnMgd2lsbCBi
-ZSByZXZpZXdlZCBieSB0d28gcmV2aWV3ZXJzIGFwcG9pbnRlZCBieSB0aGUgcHJvZ3JhbSBjb21t
-aXR0ZWUuCgpJbXBvcnRhbnQgRGF0ZXM6CkRlYWRsaW5lIGZvciBwYXBlciBzdWJtaXNzaW9uOiBz
-dHJpY3RseSBEZWNlbWJlciAxLCAyMDA5Ck5vdGlmaWNhdGlvbiBvZiBhY2NlcHRhbmNlOiBEZWNl
-bWJlciA3LCAyMDA5CkNhbWVyYS1yZWFkeSBwYXBlciBkdWU6IERlY2VtYmVyIDE0LCAyMDA5ClBy
-ZXNlbnRhdGlvbnM6IEphbnVhcnkgMjWWMzAsIDIwMTAgKGF0IHRoZSBNVCBNYXJhdGhvbiBpbiBE
-dWJsaW4pCgpBIHByZWxpbWluYXJ5IHByb2dyYW0gZm9yIHRoZSBNVCBNYXJhdGhvbiBpcyBub3cg
-YXZhaWxhYmxlIGF0IGh0dHA6Ly9NVE1hcmF0aG9uMjAxMC5pbmZvL3dlYi9Qcm9ncmFtLmh0bWwK
-CkZvciB0aGUgc3VibWlzc2lvbiBndWlkZWxpbmVzIGFuZCByZXF1aXJlbWVudHMsIHBsZWFzZSB2
-aXNpdCB0aGUgTVQgTWFyYXRob24gd2Vic2l0ZTogaHR0cDovL01UTWFyYXRob24yMDEwLmluZm8K
-UGxlYXNlIG5vdGUsIHRoYXQgdGhlIGNhbWVyYS1yZWFkeSB2ZXJzaW9ucyB3aWxsIG9ubHkgYmUg
-YWNjZXB0ZWQgaW4gdGhlIFhlKExhKVRlWCBmb3JtYXQgZGVzY3JpYmVkIG9uIHRoZSB3ZWJzaXRl
-IChpLmUuIE1TIFdvcmQgYW5kIG90aGVyIGZvcm1hdHMgb3IgYSBQREYgd2l0aG91dCBzb3VyY2Ug
-ZmlsZXMgd2lsbCBub3QgYmUgYWNjZXB0ZWQpLgoKCldlIGFsc28gaW52aXRlIGFsbCBpbnRlcmVz
-dGVkIHBhcnRpZXMgdG8gc3VibWl0IHNob3J0IGRlc2NyaXB0aW9ucyBvZiBvcGVuLXNvdXJjZSBw
-cm9qZWN0cyB0aGF0IGZpdCB3aXRoaW4gdGhlIGZvcm1hdCBvZiB0aGUgTVQgTWFyYXRob24gYW5k
-IGNhbiBiZSBhY2NvbXBsaXNoZWQgd2l0aGluIGZpdmUgZGF5cy4gRm9yIHN1Ym1pc3Npb24sIHBs
-ZWFzZSB2aXNpdCBodHRwOi8vTVRNYXJhdGhvbjIwMTAuaW5mby93ZWIvUHJvamVjdHMuaHRtbApU
-aGUgcHJvcG9zZWQgcHJvamVjdHMgbWF5IGZvY3VzIG9uIGFueXRoaW5nIGZyb20gdGhlIGRldmVs
-b3BtZW50IG9mIG5ldyB0b29scyB0byB0aGUgbW9kaWZpY2F0aW9uIG9yIGV4dGVuc2lvbiBvZiBl
-eGlzdGluZyBvcGVuLXNvdXJjZSB0b29scy4gVGhlc2UgcHJvamVjdHMgd2lsbCBydW4gZHVyaW5n
-IHRoZSBNVCBNYXJhdGhvbiBhbmQgd2lsbCBiZSB1bmRlcnRha2VuIGJ5IHRoZSBwYXJ0aWNpcGFu
-dHMuCgoKClByb2dyYW0gQ29tbWl0dGVlOgpQaGlsaXBwIEtvZWhuCkNocmlzIENhbGxpc29uLUJ1
-cmNoClZlbnRzaXNsYXYgWmhlY2hldgpfX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19f
-X19fX19fX19fX19fXwpDb3Jwb3JhIG1haWxpbmcgbGlzdApDb3Jwb3JhQHVpYi5ubwpodHRwOi8v
-bWFpbG1hbi51aWIubm8vbGlzdGluZm8vY29ycG9yYQo=
+
+Apologies for multiple postings
+
+  Erasmus Mundus Masters Program in Language and Communication Technologies
+         CALL FOR APPLICATIONS for overseas and non-overseas students
+                     http://lct-master.org
+
+For applicants of Category A, the deadline for submitting applications is
+8th January 2010
+
+For applicants of Category B, the deadline for submitting applications is
+15th April 2010
+
+Category A =3D non European and special window
+Category B =3D European and other than A
+
+----------------------------------------------------------------------
+
+The following consortium of Universities:
+
+1. Saarland University in Saarbruecken, Germany (coordinator)
+2. Free University of Bozen - Bolzano, Italy
+3. University of Malta
+4. University of Nancy 2, France
+5. Charles University in Prague, Czech Republic
+6. Rijksuniversiteit Groningen, The Netherlands
+7. Shanghai Jiao Tong University, China
+8. The University of Melbourne, Australia
+
+are offering the Masters Program in Language and Communication Technologies
+(LCT; http://lct-master.org) under the auspices of the Erasmus Mundus Progr=
+am =
+
+of the European Union =
+
+(http://ec.europa.eu/education/external-relation-programmes/doc72_en.htm).
+
+The Erasmus Mundus Masters Program in Language and Communication Technologi=
+es =
+
+is an international distributed Master of Science course. The program invol=
+ves =
+
+studying one year at one of the Universities of the consortium, and complet=
+ing =
+
+the second year with a stay in one of the other partner Universities. After =
+
+this, the student will obtain two degrees at the level of Masters with lega=
+l =
+
+value in each of the countries of issue.
+
+The Program in Brief
+
+Objectives: The Erasmus Mundus Masters Program in Language and Communicatio=
+n =
+
+Technologies provides students with profound knowledge and insight into the =
+
+various disciplines that contribute to the methods of language and =
+
+communication technologies and it strengthens their ability to work accordi=
+ng =
+
+to scientific methods. Moreover, the students acquire practice-oriented =
+
+knowledge by choosing appropriate combinations of modules in Language =
+
+Technology, Computational and Theoretical Linguistics, and Computer Science=
+. As =
+
+such, the Erasmus Mundus Masters Program in LCT is designed to meet the dem=
+ands =
+
+of industry and research in the rapidly growing area of Language Technology=
+. It =
+
+offers education and training opportunities for future generations of leade=
+rs =
+
+in research and innovation.
+
+Duration: 2 years (120 ECTS credits)
+
+Language of instruction: English
+
+Summary of Study Programme: The course consists of compulsory core modules,=
+ as =
+
+well as elective advanced modules in Language Technology and Computer Scien=
+ce, =
+
+optionally complemented by a project, and completed by a Masters dissertati=
+on.
+
+Application Deadlines: Applications to the LCT and the Erasmus Mundus =
+
+Scholarships scheme for the academic years 2010-2012 commence on the 15th o=
+f =
+
+August 2009 and can be made online at =
+
+http://lct-master.org/registration/index.php?authorsInstructions=3D1
+
+Deadline for Category A (non European and special window) students:
+8th January 2010
+
+Deadline for Category B (European and other than Category A) students:
+15th April 2010
+
+Study Requirements
+
+All applicants must satisfy the following study requirements:
+
+1. a Bachelor degree or equivalent in the area of (Computational) Linguisti=
+cs, =
+
+Language Technology, Cognitive Sciences, Computer Science, Mathematics,
+Artificial Intelligence, or other relevant disciplines.
+
+2. Proficiency in English (for non-native speakers) must be certified by on=
+e of =
+
+the following (for more details, please check
+http://lct-master.org/index.php?id=3Dprerequisites):
+a. TOEFL score of at least 250 (computer-based test) or 575 (paper-based te=
+st).
+b. Cambridge Proficiency Exam - pass
+c. IELTS - > 6.5
+d. Possession of a first degree taught in English
+e. Internet-based TOEFL score: 79
+
+Please, note that applicants from countries where English is not the only =
+
+native language do need one of the certificates mentioned above.
+
+For detailed info on applications, please, check the web pages:
+
+http://lct-master.org/index.php?id=3Ddeadlines
+
+For further information please contact Dr. Valia Kordoni.
+
+Program coordinators:
+
+Prof. Hans Uszkoreit (hansu at coli.uni-sb.de)
+Dr. Valia Kordoni (kordoni at coli.uni-sb.de)
+
+Further contacts can be found at: http://lct-master.org/index.php?id=3Dap
+
+Application Web Address: =
+
+http://lct-master.org/registration/index.php?authorsInstructions=3D1
+
+Contact Information:
+PD Dr. Valia Kordoni
+kordoni at coli.uni-sb.de
+Phone:+49 (0)681 302 4682
+Fax:+49 (0)681 302 4700
+
+
+PD Dr. Valia Kordoni, Computational Linguistics-Saarland University, P.O. B=
+ox =
+
+15 11 50, 66041 Saarbruecken, Germany and LT-Lab DFKI GmbH
+Tel: +49 681 302 4682
+Fax: +49 681 302 4700
+E-mail: kordoni@coli.uni-sb.de
+http://www.coli.uni-saarland.de/~kordoni/
+http://www.lct-master.org/
+
+_______________________________________________
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

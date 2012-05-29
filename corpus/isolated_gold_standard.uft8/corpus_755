@@ -1,97 +1,187 @@
-From - Thu Dec 10 14:39:16 2009
+From - Thu Dec 10 14:39:22 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs476213bkq;
-        Tue, 1 Dec 2009 02:54:53 -0800 (PST)
-Received: by 10.213.100.4 with SMTP id w4mr3034086ebn.25.1259664883904;
-        Tue, 01 Dec 2009 02:54:43 -0800 (PST)
-Return-Path: <corpora-bounces@uib.no>
-Received: from half.uib.no (half.uib.no [129.177.30.20])
-        by mx.google.com with ESMTP id 10si9074145ewy.38.2009.12.01.02.54.40;
-        Tue, 01 Dec 2009 02:54:43 -0800 (PST)
-Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no
-Received: from localhost (half.uib.no) [127.0.0.1] 
-	by half.uib.no  with esmtp  (Exim 4.69)
-	id 1NFQHP-0001IJ-J0; Tue, 01 Dec 2009 11:48:23 +0100
-Received: from rolf.uib.no [129.177.30.19] 
-	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
-	id 1NFQHN-0001Ho-KE; Tue, 01 Dec 2009 11:48:21 +0100
-Received: from pony.ic.uva.nl [145.18.40.181] 
-	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.69)
-	id 1NFQHM-0001Bk-VT; Tue, 01 Dec 2009 11:48:21 +0100
-Received: from [146.50.45.46] (mirabelle.science.uva.nl [146.50.45.46])
-	(authenticated bits=0)
-	by pony.ic.uva.nl (8.13.1/8.13.1) with ESMTP id nB1AmGHx010669
-	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
-	for <CORPORA@UIB.NO>; Tue, 1 Dec 2009 11:48:16 +0100
-Message-ID: <4B14F470.4010803@uva.nl>
-Date: Tue, 01 Dec 2009 11:48:16 +0100
-From: Ulle Endriss <ulle.endriss@uva.nl>
-User-Agent: Thunderbird 2.0.0.19 (X11/20090105)
+Received: by 10.204.101.195 with SMTP id d3cs1158666bko;
+        Wed, 9 Dec 2009 06:15:50 -0800 (PST)
+Received: by 10.204.162.210 with SMTP id w18mr6729bkx.174.1260368146738;
+        Wed, 09 Dec 2009 06:15:46 -0800 (PST)
+Return-Path: <ln-owner@cines.fr>
+Received: from mercure.cines.fr (mercure.cines.fr [193.48.169.42])
+        by mx.google.com with ESMTP id 6si8878717bwz.71.2009.12.09.06.15.46;
+        Wed, 09 Dec 2009 06:15:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of ln-owner@cines.fr designates 193.48.169.42 as permitted sender) client-ip=193.48.169.42;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of ln-owner@cines.fr designates 193.48.169.42 as permitted sender) smtp.mail=ln-owner@cines.fr
+Received: from hygia.cines.fr (hygia.cines.fr [193.48.169.47])
+	by mercure.cines.fr (8.13.1/8.13.1) with ESMTP id nB9EFfJI012795;
+	Wed, 9 Dec 2009 15:15:41 +0100
+Received: from hygia.cines.fr (localhost [127.0.0.1])
+	by postfix.imss70 (Postfix) with ESMTP id B0B4C241082;
+	Wed,  9 Dec 2009 15:15:39 +0100 (CET)
+Received: from hadad.cines.fr (hadad.cines.fr [193.48.169.49])
+	by hygia.cines.fr (Postfix) with ESMTP id 93329241081;
+	Wed,  9 Dec 2009 15:15:39 +0100 (CET)
+Received: by hadad.cines.fr (Postfix, from userid 500)
+	id 44AE540036; Wed,  9 Dec 2009 16:13:34 +0100 (CET)
+X-Original-To: ln@cines.fr
+Delivered-To: ln@cines.fr
+Received: by hadad.cines.fr (Postfix, from userid 502)
+	id A051640002; Wed,  9 Dec 2009 16:05:56 +0100 (CET)
+X-Spam-Checker-Version: SpamAssassin 3.1.8 (2007-02-13) on mercure.cines.fr
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.9 required=5.0 tests=AWL autolearn=unavailable
+	version=3.1.8
+Received: from hygia.cines.fr (hygia.cines.fr [193.48.169.47])
+	by hadad.cines.fr (Postfix) with ESMTP id B85A83FFE8
+	for <ln@cines.fr>; Wed,  9 Dec 2009 16:05:46 +0100 (CET)
+Received: from hygia.cines.fr (localhost [127.0.0.1])
+	by postfix.imss70 (Postfix) with ESMTP id 1105F241081
+	for <ln@cines.fr>; Wed,  9 Dec 2009 15:08:40 +0100 (CET)
+Received: from smtp.univ-paris13.fr (smtp.univ-paris13.fr [194.254.164.236])
+	by hygia.cines.fr (Postfix) with SMTP id E6D56241080
+	for <ln@cines.fr>; Wed,  9 Dec 2009 15:08:39 +0100 (CET)
+Received: from localhost. (kourou.ig-edu.univ-paris13.fr [194.254.167.6])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by smtp.univ-paris13.fr (Postfix) with ESMTPSA id DDF2314C1F2
+	for <ln@cines.fr>; Wed,  9 Dec 2009 15:08:39 +0100 (CET)
+To: ln@cines.fr
+X-Url: http://www.atala.org/article.php3?id_article=48
+From: Thierry Hamon <thierry.hamon@univ-paris13.fr>
+X-Archive-Url: http://listserv.linguistlist.org/archives/ln.html
+X-Archive-Url: http://liste.cines.fr/info/ln
+Date: Wed, 09 Dec 2009 15:08:41 +0100
+Message-ID: <87ws0wz1cm.fsf@smtp.univ-paris13.fr>
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
 MIME-Version: 1.0
-To: CORPORA@UIB.NO
-X-Spam-Score: undef - spam scanning disabled
-X-CanIt-Geo: ip=146.50.45.46; country=NL; region=07; city=Amsterdam;
-	latitude=52.3500; longitude=4.9167;
-	http://maps.google.com/maps?q=52.3500,4.9167&z=6
-X-CanItPRO-Stream: auth (inherits from default)
-X-Canit-Stats-ID: Bayes signature not available
-X-Scanned-By: CanIt (www . roaringpenguin . com) on 145.18.40.181
-X-checked-clean: by exiscan on rolf
-X-Scanner: 82461d3b535b1487567b7229e929bdfb http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: -15 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-  -15 From is listed in 'whitelist_SA'
-Subject: [Corpora-List] ECAI-2010: Final Call for Workshop Proposals
-X-BeenThere: corpora@uib.no
-X-Mailman-Version: 2.1.12
-Precedence: list
-List-Id: <corpora.uib.no>
-List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
-	<mailto:corpora-request@uib.no?subject=unsubscribe>
-List-Archive: <http://www.uib.no/mailman/public/corpora>
-List-Post: <mailto:corpora@uib.no>
-List-Help: <mailto:corpora-request@uib.no?subject=help>
-List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
-	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Type: text/plain; charset=iso-8859-1
 Content-Transfer-Encoding: quoted-printable
-Content-Type: text/plain; charset="iso-8859-1"; Format="flowed"
-Sender: corpora-bounces@uib.no
-Errors-To: corpora-bounces@uib.no
-
-Dear colleague,
-
-Please be reminded that the deadline for submission of workshop
-proposals for ECAI-2010 (Lisbon, August 2010) is fast approaching:
-
-Friday, 11 December 2009
-
-Serious proposals from all all areas of AI as well as interdisciplinary
-proposals with a substantial AI component are very welcome. Further
-information is available here (or get in touch with me directly):
-
-19th European Conference on Artificial Intelligence, Lisbon, 2010
-http://ecai2010.appia.pt
-
-ECAI-2010 Call for Workshop Proposals
-http://www.illc.uva.nl/~ulle/ECAI-2010/ecai-2010-workshop-call.txt
-
-Best wishes,
-Ulle Endriss
-(ECAI-2010 Workshop Chair)
+X-Validation-by: thierry.hamon@univ-paris13.fr
+Subject: [ln] Appel: Workshop on Morphology and Formal Grammar
+Reply-To: ln@cines.fr, Thierry Hamon <thierry.hamon@univ-paris13.fr>
+X-Loop: ln@cines.fr
+X-Sequence: 373
+Errors-to: ln-owner@cines.fr
+Precedence: list
+Precedence: bulk
+X-no-archive: yes
+List-Id: <ln.cines.fr>
+List-Help: <mailto:sympa@cines.fr?subject=help>
+List-Subscribe: <mailto:sympa@cines.fr?subject=subscribe%20ln>
+List-Unsubscribe: <mailto:sympa@cines.fr?subject=unsubscribe%20ln>
+List-Post: <mailto:ln@cines.fr>
+List-Owner: <mailto:ln-request@cines.fr>
+List-Archive: <http://liste.cines.fr//arc/ln>
 
 
--- =
+Date: Wed, 9 Dec 2009 09:27:35 +0100
+From: Olivier Bonami <olivier.bonami@paris-sorbonne.fr>
+Message-Id: <C322093C-2E4F-441B-A6F3-85CC6646E66B@paris-sorbonne.fr>
+X-url: http://www.easychair.org/conferences/?conf=3Dmfg2010
+X-url: http://hpsg2010.linguist.univ-paris-diderot.fr/
+X-url: http://hpsg2010.linguist.univ-paris-diderot.fr/workshop<#/mml
 
-Ulle Endriss         http://www.illc.uva.nl/~ulle/
-Institute for Logic, Language & Computation (ILLC)
-University of Amsterdam    Tel: +31 (0)20 525 6511
-Postbus 94242              Fax: +31 (0)20 525 5206
-1090 GE Amsterdam (NL)     Email: u.endriss@uva.nl
 
-_______________________________________________
-Corpora mailing list
-Corpora@uib.no
-http://mailman.uib.no/listinfo/corpora
+Workshop on Morphology and Formal Grammar.
+
+Paris, France
+
+July 8, 2010.
+
+
+INVITED SPEAKER: Gregory T. Stump (University of Kentucky)
+
+
+FIRST CALL FOR PAPERS
+
+The aims of the workshop are to provide a forum for formal work in
+morphology and its interfaces to syntax and semantics, and to
+encourage links between more empirically-oriented morphologists and
+linguists working in formal models of grammar. We believe that such
+collaborations can have important, positive consequences.
+Morphologists can benefit from the added descriptive precision that
+comes with formal analysis. And in light of challenges brought to
+light through the careful study of a wider range of morphological
+phenomena, existing formal approaches can be extended, adapted, or
+perhaps even radically redesigned, to achieve a more adequate,
+complete model of grammar.
+
+Topics of interest include:
+- Analyses of phenomena at the interface between morphology and other
+  linguistic dimensions (syntax, semantics, phonology).
+- Discussions of phenomena that present a challenge to standard=20=20
+  assumptions about the architecture of morphological systems.
+- New analytical techniques in morphology and their formal=20=20
+  specification.
+- Analyses of morphological phenomena cast in formal and/or
+  computational morphological frameworks, such as (but not limited to)
+  Paradigm Function Morphology, Network Morphology, or Finite-State
+  Morphology.
+- Analyses of morphological phenomena cast in general-purpose formal
+  frameworks, such as (but not limited to) Lexical Functional Grammar,
+  Head-driven Phrase Structure Grammar, or Categorial Grammar.
+- Critical discussions of the adequacy of existing frameworks with
+  respect to the treatment of morphology.
+
+The workshop is co-located with the HPSG conference. However, no
+preference will be given to papers cast within the framework of HPSG.
+
+
+SUBMISSIONS
+
+Abstracts should be in PDF format and at most 5 pages long. The higher
+page limit is intended to encourage detailed presentations of data and
+formal analyses.
+
+We will use an online submission system. All abstracts should be
+submitted via: http://www.easychair.org/conferences/?conf=3Dmfg2010
+
+Please direct any questions to the Program Committee Chair:
+mfg2010@easychair.org
+
+All abstracts will be reviewed anonymously by at least two reviewers.
+Abstracts should not include the authors' names, and authors are asked
+to avoid self-references.
+
+
+RELATED EVENTS
+
+The workshop will take place immediately before the HPSG conference,
+and after a day of HPSG-related tutorials. For more information on the
+HPSG conference, see
+http://hpsg2010.linguist.univ-paris-diderot.fr/
+
+
+IMPORTANT DATES
+
+Abstract submission deadline: February 28, 2010
+Notification of acceptance: April 14, 2010
+Workshop: July 8, 2010
+
+
+PROGRAM COMMITTEE
+
+Farrell Ackerman, Emily Bender, James Blevins, Olivier Bonami (chair),=20=
+=20
+Dunstan Brown, Gilles Boy=E9, Berthold Crysmann, Bernard Fradin, Rob=20=20
+Malouf, Stefan M=FCller, Louisa Sadler, Pollet Samvelian, Andrew=20=20
+Spencer, Jesse Tseng, Gert Webelhuth
+
+WORKSHOP WEB SITE
+
+http://hpsg2010.linguist.univ-paris-diderot.fr/workshop
+-------------------------------------------------------------------------
+Message diffuse par la liste Langage Naturel <LN@cines.fr>
+Informations, abonnement : http://www.atala.org/article.php3?id_article=3D48
+English version       :=20
+Archives                 : http://listserv.linguistlist.org/archives/ln.html
+                                http://liste.cines.fr/info/ln
+
+La liste LN est parrainee par l'ATALA (Association pour le Traitement
+Automatique des Langues)
+Information et adhesion  : http://www.atala.org/
+-------------------------------------------------------------------------
+
+
+
+

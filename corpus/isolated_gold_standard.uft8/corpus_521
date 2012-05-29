@@ -1,175 +1,232 @@
-From - Thu Dec 10 14:23:36 2009
+From - Thu Dec 10 14:23:40 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: cc930f8b9d43ce43c4ca3dbb2c48afecc1c60ef0
+X-Gmail-Received: cc19d6eb7b4f4cf21b407f244a2cfe4754ee0ecc
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs91972pyi;
-        Fri, 7 Jul 2006 16:17:43 -0700 (PDT)
-Received: by 10.36.77.2 with SMTP id z2mr3070026nza;
-        Fri, 07 Jul 2006 16:17:43 -0700 (PDT)
+Received: by 10.35.11.2 with SMTP id o2cs246522pyi;
+        Wed, 26 Jul 2006 14:21:09 -0700 (PDT)
+Received: by 10.35.51.6 with SMTP id d6mr11921867pyk;
+        Wed, 26 Jul 2006 14:21:09 -0700 (PDT)
 Return-Path: <rasmusse@research.rutgers.edu>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id 15si2664954nzn.2006.07.07.16.17.39;
-        Fri, 07 Jul 2006 16:17:43 -0700 (PDT)
+        by mx.gmail.com with ESMTP id y78si451171pyg.2006.07.26.14.21.06;
+        Wed, 26 Jul 2006 14:21:09 -0700 (PDT)
 Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPug000355;
-	Sat, 8 Jul 2006 09:17:38 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QLL0KP025756;
+	Thu, 27 Jul 2006 07:21:04 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809173810726
- ; Sat, 08 Jul 2006 09:17:38 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707210428676
+ ; Thu, 27 Jul 2006 07:21:04 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHWWC000469;
-	Sat, 8 Jul 2006 09:17:32 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QLL1GM025760;
+	Thu, 27 Jul 2006 07:21:01 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k67NHQOi002531
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k6QLL0QV014115
 	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Sat, 8 Jul 2006 09:17:26 +1000 (EST)
+	Thu, 27 Jul 2006 07:21:00 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPuY000355;
-	Sat, 8 Jul 2006 09:17:25 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QLL0KL025756;
+	Thu, 27 Jul 2006 07:21:00 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809172010720
- ; Sat, 08 Jul 2006 09:17:20 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707210028674
+ ; Thu, 27 Jul 2006 07:21:00 +1000
 Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHHus000319;
-	Sat, 8 Jul 2006 09:17:18 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QLKuaM025753;
+	Thu, 27 Jul 2006 07:20:56 +1000 (EST)
 Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
-	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k67NHEb12789;
-	Sat, 8 Jul 2006 09:17:14 +1000 (EST)
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k6QLKlj05034;
+	Thu, 27 Jul 2006 07:20:52 +1000 (EST)
 Received: (from rasmusse@localhost)
-	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k67MTh328523;
-	Fri, 7 Jul 2006 18:29:43 -0400 (EDT)
-Date: Fri, 7 Jul 2006 18:29:42 EDT
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k6QJw2F28502;
+	Wed, 26 Jul 2006 15:58:02 -0400 (EDT)
+Date: Wed, 26 Jul 2006 15:58:01 EDT
 From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
 To: rasmusse@cs.rutgers.edu
-Subject: Australia: Australasian Language Technology Workshop (ALTW) -- CFP
-Message-ID: <CMM-RU.1.5.1152311382.rasmusse@research.rutgers.edu>
+Subject: Czech Republic: Treebanks and Linguistic Theories 2006 -- 2nd Call
+        for Papers
+Message-ID: <CMM-RU.1.5.1153943881.rasmusse@research.rutgers.edu>
 
 
-                        Call For Papers
-          AUSTRALASIAN LANGUAGE TECHNOLOGY WORKSHOP (ALTW)
 
-                   November 30-December 1, 2006
-                        Sydney, Australia
-             http://www.alta.asn.au/events/altw2006/
+             TREEBANKS AND LINGUISTIC THEORIES 2006
+                  5th International Workshop
 
-               to be held in conjunction with the
-                       HCSNet SummerFest
-                     http://hcsnet.edu.au
+           Prague, Czech Republic, December 1-2, 2006
 
+                    http://www.tlt2006.org
 
-Overview
+                     2nd CALL FOR PAPERS
 
-A two-day workshop on Natural Language Technology will be organised by
-the Australasian Language Technology Association (ALTA). This event
-will be the fourth annual installment of the workshop in its
-most-recent incarnation, and the continuation of an annual workshop
-series that has existed under various guises since the early 90s.
+******************************************************************
+** THE NEWS:                                                    **
+******************************************************************
 
-ALTW will be held in conjunction with the HCSNet SummerFest, a
-multi-disciplinary event encompassing a number of workshops, invited
-courses and presentations around the theme of Human Communication
-Science. The courses, offered at both introductory and more advanced
-levels, will include topic areas aimed specifically at Language
-Technology students and researchers.
+The Guidelines for paper submission are now available at
+http://www.tlt2006.org, link "Instructions for Authors" (or directly
+at http://ufal.mff.cuni.cz/tlt2006/auth.html). The deadline for
+submitting your papers is Sept. 8, 2006, as previously announced.
 
-The goals of the workshop are:
+*******************************************************************
+*******************************************************************
 
- * to bring together the growing Language Technology (LT) community
-   in Australia and New Zealand and encourage interactions; 
- * to encourage interactions and collaboration within this community
-   and with the wider international LT community; 
- * to foster interaction between academic and industrial researchers;
- * to encourage dissemination of research results;
- * to provide a forum for the discussion of new and ongoing
-   research and projects; 
- * to provide an opportunity for the broader artificial intelligence
-   community to become aware of local LT research; and, finally, 
- * to increase visibility of LT research in Australia, New Zealand
-   and overseas. 
+Workshop motivation and aims 
+----------------------------
 
-As with the 2005 Workshop, there will be poster presentations in
-addition to the regular talks, in order to encourage more interactive
-discussion of research-in-progress. In this vein, we encourage
-submissions from students describing their thesis work and any
-preliminary results. Note that both publication types will have the
-same status in the proceedings.
+Treebanks are a language resource that provides annotations of natural
+languages at various levels of structure: at the word level, the
+phrase level, the sentence level, and sometimes also at the level of
+function-argument structure. Treebanks have become crucially important
+for the development of data-driven approaches to natural language
+processing, human language technologies, grammar extraction and
+linguistic research in general. There are a number of on-going
+projects on compilation of representative treebanks for languages that
+still lack them (Bulgarian, Catalan, Danish, Portugese, Spanish,
+Turkish) and a number of on-going projects on compilation of treebanks
+for specific purposes for languages that already have them
+(English). In addition, there are projects that go beyond syntactic
+analysis to include different kinds of semantic and pragmatic
+annotation. We specifically encourage submissions that discuss the
+relations and links between, and possibly merging of, various aspects
+of morphological, syntactic, semantic, and contents/pragmatic
+annotation; also, submissions describing work on parallel treebanks
+and/or cross-language annotation schemas, theories and applications
+are more than encouraged as well.
 
+The practices of building syntactically processed corpora have proved
+that aiming at more detailed description of the data becomes more and
+more theory-dependent (Prague Dependency Treebank and other
+dependency-based treebanks such as the Danish dependency treebank, the
+Italian treebank (TUT), and the Turkish treebank (METU); Verbmobil
+HPSG Treebanks, Polish HPSG Treebank, Bulgarian HPSG-based Treebank,
+etc.). Therefore the development of treebanks and formal linguistic
+theories need to be more tightly connected in order to ensure the
+necessary information flow between them.
 
-Topics
+This series of workshops aims at being a forum for researchers and
+advanced students working in these areas. The fifth workshop will be
+held in Prague, Czech Republic, 1-2 December 2006, with a number of
+co-located events surrounding it (for more information see
+www.tlt2006.org). (The first TLT workshop was held in Sozopol,
+Bulgaria in
+September 2002; see http://www.bultreebank.org/Proceedings.html), the
+second one in Vaxjo, Sweden in November 2003
+(http://w3.msi.vxu.se/~rics/TLT2003/, the third one in Tuebingen,
+Germany in December 2004 (http://www.sfs.uni-tuebingen.de/tlt04/) and
+the fourth workshop was held in Barcelona, Spain, 9-10 December
+2005 (http://clic.fil.ub.es/personal/civit/tlt05cfp.html).
 
-We invite the submission of papers on original and unpublished
-research on all aspects of natural language processing, including, but
-not limited to:
+Topics of interest 
+------------------
 
- * speech understanding and generation;
- * phonology, morphology, syntax, semantics, pragmatics, and
- * discourse;
- * interpreting and generating spoken and written language;
- * linguistic, mathematical, and psychological models of language;
- * language-oriented information extraction and retrieval;
- * corpus-based and statistical language modelling;
- * summarisation;
- * machine translation and translation aids;
- * natural language interfaces and dialogue systems;
- * natural language and multimodal systems;
- * message and narrative understanding systems;
- * evaluations of language systems;
- * computational lexicography. 
+We invite submission of papers on topics relevant to treebanks and
+linguistic theories, including but not limited to:
 
-We welcome submissions on any topic that is of interest to the LT
-community, and particularly encourage submissions that broaden the
-scope of our community through the consideration of practical LT
-applications and through multi-disciplinary research.  
+- design principles and annotation schemes for treebanks; 
+- applications of treebanks in acquiring linguistic knowledge and in
+- NLP;
+- the role of linguistic theories in treebank development; 
+- treebanks as a basis for linguistic research; 
+- semantically annotated treebanks; 
+- evaluation and quality control of treebanks; 
+- tools for creation and management of treebanks; 
+- standards for treebanks.  
 
+Important dates 
+---------------
 
-Submission Format
+(Always midnight, UTC, ignoring DST)
 
-Submissions should follow the two-column format of the ACL proceedings
-and should not exceed eight (8) pages, including references. We
-strongly recommend the use of ACL LaTeX style files or Microsoft Word
-Style files tailored for this year's conference. The style files and
-example documents are available from the workshop website. We reserve
-the right to reject submissions that do not conform to these styles
-including font and page size restrictions.
+Deadline for paper submission:                    September 8, 2006
+Notification of acceptance:                       October 8, 2006
+Final version of paper for workshop proceedings:  October 29, 2006
+Workshop:                                         December 1-2, 2006
 
-The preferred submission format is PDF. If this introduces problems,
-please contact the organisers beforehand.
+Submission
+----------
 
-If we cannot print your file by the submission date it will be
-rejected without being reviewed. Therefore you are encouraged to send
-an early version with the typographical complexity of your final
-intended version so that we can check it is printable. All papers
-should include the full authors' names and affiliations. (Note that
-this diverges from the "blind" submission guidelines adopted for ACL
-conferences.)
+Please note that this time, we require full papers (max. length: 12
+pages A4) be submitted, describing existing research related to the
+topics of the workshop. Please see
+http://ufal.mff.cuni.cz/tlt2006/auth.html for complete information
+where, when, and how to submit.
 
-Detailed directions for submission will be made available at the
-workshop website. Contact the organisers (workshop@alta.asn.au) for
-any questions regarding this process.
+Presentation
+------------
 
+The presentation at the workshop will be 25 minutes long (20 minutes
+for presentation and 5 minutes for questions and discussion). The
+final version of the accepted papers may not exceed 12 A4 pages
+(which will be printed on B5 without any reduction).
 
-Important dates
+Invited speakers
+----------------
 
- * Paper submission: September 1, 2006
- * Notification of acceptance: September 29, 2006
- * Camera-ready copy: October 30, 2006
- * Workshop: Nov 30--Dec 1, 2006
+Martha Palmer, Professor at University of Colorado at Boulder
+(http://verbs.colorado.edu/mpalmer/palmer/):
+SemLink - Combining PropBank, VerbNet and FrameNet
 
+Gosse Bouma, Professor at University of Groningen
+(http://www.let.rug.nl/~gosse/):
+(tentative: Creating and Exploring Large Treebanks)
 
-Workshop Co-Chairs
- * Lawrence Cavedon (National ICT Australia and RMIT University)
- * Ingrid Zukerman  (Monash University)
-Workshop Local Organiser
- * Rolf Schwitter   (Macquarie University)
+Program committee 
+-----------------
 
+Jan Hajic, Czech Republic (co-chair)
+Joakim Nivre, Sweden (co-chair)
 
-Enquiries
+Members of the PC:
 
-The Australasian Language Technology Workshop is being organised by
-ALTA, the Australasian Language Technology Association.
-	  
-For any comments or questions about the workshop please contact the
-organizers at   workshop@alta.asn.au
+Emily Bender, USA 
+Thorsten Brants, USA 
+Koenraad de Smedt, Norway
+Tomaz Erjavec, Slovenia
+Joseph van Genabith, Ireland
+Eva Hajicova, Czech Republic
+Jiri Hana, USA
+Erhard Hinrichs, Germany 
+Timo Jaervinen, Finalnd 
+Kimmo Koskenniemi, Finland 
+Tony Kroch, USA
+Sandra Kuebler, Germany 
+Yuji Matsumoto, Japan
+Detmar Meurers, USA 
+John Nerbonne, The Netherlands 
+Grace Ngai, Hong Kong
+Karel Oliva, Czech Republic
+Stephan Oepen, Norway/USA 
+Petya Osenova, Bulgaria
+Ferran Pla, Spain
+Horacio Rodriguez, Spain
+Kiril Simov, Bulgaria
+Otakar Smrz, Czech Republic
+Barbora Vidova-Hladka, Czech Republic
+Martin Volk, Sweden 
+Daniel Zeman, USA 
+
+Local Organizers
+----------------
+
+Jan Hajic
+Anna Kotesovcova
+
+Institute of Formal and Applied Linguistics, http://ufal.mff.cuni.cz
+School of Computer Science, Faculty of Mathematics and Physics
+Charles University, Prague
+Czech Republic
+email: info@tlt2006.org
+
+Venue
+-----
+
+School of Computer Science, MFF UK
+Malostranske nam. 25
+CZ-11800 Prague 1
+Czech Republic
+
+Sponsoring organisations 
+------------------------
+
+Charles University, Prague
 

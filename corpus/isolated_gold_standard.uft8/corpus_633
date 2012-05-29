@@ -1,133 +1,96 @@
-From - Thu Dec 10 14:23:51 2009
+From - Thu Dec 10 14:24:02 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: fc7957e93d0bf922c3a72aae73bbe5e2918a2765
+X-Gmail-Received: 1dde6f17c29ee10b1b9f638fb8cc9d8990e8ebba
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs329939pyn;
-        Wed, 23 Aug 2006 01:04:00 -0700 (PDT)
-Received: by 10.70.8.8 with SMTP id 8mr53475wxh;
-        Wed, 23 Aug 2006 01:03:59 -0700 (PDT)
-Return-Path: <hcsnete@srv05.ezyreg.com>
+Received: by 10.35.126.10 with SMTP id d10cs220288pyn;
+        Sun, 10 Sep 2006 00:10:41 -0700 (PDT)
+Received: by 10.35.50.1 with SMTP id c1mr6320929pyk;
+        Sun, 10 Sep 2006 00:10:41 -0700 (PDT)
+Return-Path: <rdale@ics.mq.edu.au>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id i34si41934wxd.2006.08.23.01.03.57;
-        Wed, 23 Aug 2006 01:03:59 -0700 (PDT)
-Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of hcsnete@srv05.ezyreg.com)
+        by mx.gmail.com with ESMTP id 34si308558nza.2006.09.10.00.10.39;
+        Sun, 10 Sep 2006 00:10:41 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of rdale@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7N83j6a018597
-	for <jpprost@gmail.com>; Wed, 23 Aug 2006 18:03:56 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k8A7ASBS016193;
+	Sun, 10 Sep 2006 17:10:37 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082318035611286
- for <jpprost@gmail.com>; Wed, 23 Aug 2006 18:03:56 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006091017103618939
+ ; Sun, 10 Sep 2006 17:10:36 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7N83tLc018638
-	for <jpprost@gmail.com>; Wed, 23 Aug 2006 18:03:56 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k8A7AaMD016237;
+	Sun, 10 Sep 2006 17:10:37 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7N83oWR015885
-	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
-	for <jpprost@vesuvius.ics.mq.edu.au>; Wed, 23 Aug 2006 18:03:50 +1000 (EST)
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k8A7AYos007899
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Sun, 10 Sep 2006 17:10:34 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7N83lKV018610
-	for <jpprost@vesuvius.ics.mq.edu.au>; Wed, 23 Aug 2006 18:03:49 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k8A7ASX1016182;
+	Sun, 10 Sep 2006 17:10:34 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082318034911281
- for <jpprost@vesuvius.ics.mq.edu.au>; Wed, 23 Aug 2006 18:03:49 +1000
-Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7N83nb5018618
-	for <jpprost@ics.mq.edu.au>; Wed, 23 Aug 2006 18:03:49 +1000 (EST)
-Received: from srv05.ezyreg.com (srv05.ezyreg.com [67.15.88.10])
-	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k7N83hd04239
-	for <jpprost@ics.mq.edu.au>; Wed, 23 Aug 2006 18:03:48 +1000 (EST)
-Received: from hcsnete by srv05.ezyreg.com with local (Exim 4.52)
-	id 1GFnht-0005iy-Pd
-	for jpprost@ics.mq.edu.au; Wed, 23 Aug 2006 03:03:25 -0500
-To: jpprost@ics.mq.edu.au
-Subject: [HCSNet] HCSNet Workshop on Effective Interactive Interfaces Sept 27--28: CALL FOR PARTICIPATION
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006091017103318937
+ ; Sun, 10 Sep 2006 17:10:34 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k8A79vaA016175;
+	Sun, 10 Sep 2006 17:10:01 +1000 (EST)
+Received: from webmail.ics.mq.edu.au (goza.ics.mq.edu.au [137.111.216.10])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k8A79sX5007783;
+	Sun, 10 Sep 2006 17:09:54 +1000 (EST)
+Received: from 81.86.128.247
+        (SquirrelMail authenticated user rdale)
+        by webmail.ics.mq.edu.au with HTTP;
+        Sun, 10 Sep 2006 17:09:57 +1000 (EST)
+Message-ID: <44656.81.86.128.247.1157872197.squirrel@webmail.ics.mq.edu.au>
+Date: Sun, 10 Sep 2006 17:09:57 +1000 (EST)
+Subject: HCSNet SummerFest Submission Deadline Looming -- Friday 15th 
+     September
+From: rdale@ics.mq.edu.au
+To: rdale@ics.mq.edu.au
+User-Agent: SquirrelMail/1.4.8
 MIME-Version: 1.0
-Content-Type: text/plain; charset=UTF-8; format=flowed
-Content-transfer-encoding: 8Bit
-From: rdale at HCSNet <rdale@ics.mq.edu.au>
-Reply-To: rdale@ics.mq.edu.au
-Message-Id: <E1GFnht-0005iy-Pd@srv05.ezyreg.com>
-Date: Wed, 23 Aug 2006 03:03:25 -0500
-X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
-X-AntiAbuse: Primary Hostname - srv05.ezyreg.com
-X-AntiAbuse: Original Domain - ics.mq.edu.au
-X-AntiAbuse: Originator/Caller UID/GID - [32357 859] / [47 12]
-X-AntiAbuse: Sender Address Domain - srv05.ezyreg.com
-X-Source: 
-X-Source-Args: 
-X-Source-Dir: 
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
 X-Brightmail-Tracker: AAAAAQAAAAQ=
 X-Brightmail-Tracker: AAAAAQAAAAQ=
 X-Whitelist: TRUE
 X-Whitelist: TRUE
 
+Dear Colleague
 
-                        CALL FOR PARTICIPATION
+This year's SummerFest is being held at the University of Sydney from 27th
+November to 1st December.
 
-                           HCSNet Workshop on
-                    Effective Interactive Interfaces
+The deadline for submission of speed paper and student poster abstracts
+for HCSNet's SummerFest is Friday 15th September.  Attendance at all of
+SummerFest (the summer school, the speed papers session, and the three
+workshops (the Australasian Language Technologuy Workshop, the Human and
+Machine Speech Workshop, and the Perception and Action Workshop -- see
+http://www.hcsnet.edu.au/summerfest06/cfp) is FREE for those who present
+speed papers, student posters, or are accepted presenters at the
+workshops; otherwise a registration fee applies.  There is also travel and
+accommodation support for those outside of Metropolitan Sydney available
+for presenters.
 
-                                Sydney
-                       September 27--28 (1.5 days)
+The student poster session, held on Monday evening, is an opportunity for
+those attending the summer school to chat informally with other students;
+last year it was a great success, and we expect it to be even bigger this
+year.
 
+The speed papers session, held on Wednesday, gives you an overview of what
+a large and diverse grooup of people are doing in a very short space of
+time -- last year's attendees raved about the session.
 
-Introduction
+Please make sure you submit an abstract by the end of the week to ensure
+your place at SummerFest, and pass this message on to others who might be
+interested.
 
-What makes interaction "effective", in the sense of enhancing user task performance and task efficiency? What interaction strategies can be deployed within human-machine interfaces, particularly dialogue and Multimodal interfaces, to make them more effective? What aspects of human-human interaction lead to successful collaborative task performance, and how can these be leveraged in the design of interactive interfaces? What techniques can be used to make interaction more robust? Do "natural" styles of interaction lead to more effective interfaces? What role do emotions and embodiedness play?
+Best regards
 
-This workshop is designed to be a low-barrier-to-entry forum to bring together researchers interested in these issues from across the HCSNet community to share knowledge and explore possible interactions. Our aim is to identify shared interests, understand different perspectives, and to take first steps towards developing future collaborations. HCSNet will fund travel for a number of participants from outside the Sydney area (see below).
-
-We invite participants from HCI, Language Technology, Psychology, Communication Science, Auditory Interfaces, Artificial Intelligence, Cognitive Science, Computer Science, Linguistics and Speech Science, Sociology, and other related fields. Possible themes of interest include:
-
-- Multimodal interfaces
-- Robust spoken-language interaction
-- Intelligent user interfaces
-- User modelling
-- Human-human interaction strategies
-- Gesture and embodied interaction
-- Conversational agents
-- Emotion and its role in interaction
-- Task and activity modelling 
-- Environment-specific issues
-
-Proposed Outcomes
-
-Effective Interfaces is a designated Priority Area for HCSNet. The main purpose of this workshop is to identify specific issues of interest to a diverse collection of the HCSNet research community. A concrete outcome would be to define a series of multi-disciplinary topic themes that have the potential to lead to specific projects.
-
-Participation and Format
-
-We welcome participation from a range of disciplines and perspectives, as outlined above, from both academia and industry. We want to involve as many as possible in discussion, so the effort required for attendance is deliberately small: interested parties are asked to submit a short abstract of two paragraphs of 100-150 words each, describing:
-
-- research interests pertinent to the workshop theme;
-- thoughts on issues deemed to be important and potential points of
-  interaction with other disciplines.
-
-Please submit abstracts to Lawrence Cavedon, lcavedon@cs.rmit.edu.au, by the date indicated below.
-
-The format of the workshop will be designed to promote interaction and collaboration. Participants will be invited to prepare a short presentation (5-10 minutes) describing their specific interests, similar in fashion to the Speed Papers session at last year's HCSNet SummerFest. Panels and break-out sessions will provide opportunities for group
-discussion and planning.
-
-Funding
-
-HCSNet is able to provide funding support (covering travel and accommodation) for a number of participants travelling from utside Sydney. Submission of the abstract described above is a prerequisite for being considered for travel funding. If not all
-participants can be covered, funding grants may be allocated based on specific interests as described in the abstract.
-
-Dates
-
-Fri Sept 1:                         Due date for abstracts
-Wed Sept 6:                         Awards of travel funding notified
-1pm Wed Sept 27--6pm Thur Sept 28:  Workshop
-
-An adjacent event of potential interest is the kick-off of the Thinking Head project at University of Western Sydney, a venture funded under the ARC and NHMRC Thinking Systems initiative.
-
-Venue
-
-The workshop will be held in Sydney, at the NICTA building in the Australian Technology Park.
+Robert Dale
+HCSNet Convenor
 
 
-Organisers
-
-Lawrence Cavedon (RMIT University and NICTA); lcavedon@cs.rmit.edu.au
-Robert Dale (Macquarie University); rdale@ics.mq.edu.au
 

@@ -1,193 +1,508 @@
-From - Thu Dec 10 14:23:38 2009
+From - Thu Dec 10 14:23:49 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: ee7ad1b449323d429f4ad82fe9ef1abfa24293cc
+X-Gmail-Received: 29a797a536a8e2ad24f2f6773e3865283c55fd27
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs72425pyi;
-        Fri, 14 Jul 2006 10:16:44 -0700 (PDT)
-Received: by 10.66.243.2 with SMTP id q2mr1419161ugh;
-        Fri, 14 Jul 2006 10:16:43 -0700 (PDT)
-Return-Path: <owner-corpora@lists.uib.no>
-Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
-        by mx.gmail.com with ESMTP id o1si1149847uge.2006.07.14.10.16.41;
-        Fri, 14 Jul 2006 10:16:43 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
-Received: from blenda.uib.no [129.177.30.130] 
-	by noralf.uib.no  with esmtp  (Exim 4.34)
-	id 1G1RHI-0001t4-6E; Fri, 14 Jul 2006 19:16:36 +0200
-Received: from majordomo by blenda.uib.no with local (Exim 4.60)
-	id 1G1RUP-000D2k-1z; Fri, 14 Jul 2006 19:30:09 +0200
-Received: from rolf.uib.no [129.177.30.19] 
-	by blenda.uib.no with esmtp (Exim 4.60)
-	id 1G1RUJ-000D2f-Kr; Fri, 14 Jul 2006 19:30:03 +0200
-Received: from puma.inf.ufrgs.br [143.54.11.5] 
-	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
-	id 1G1RH2-0007UT-JT; Fri, 14 Jul 2006 19:16:25 +0200
-Received: from localhost (localhost [127.0.0.1])
-	by puma.inf.ufrgs.br (Postfix) with ESMTP id EEC5961C76
-	for <CORPORA@UIB.NO>; Fri, 14 Jul 2006 13:45:42 -0300 (BRT)
-Received: from inf.ufrgs.br (webmail.inf.ufrgs.br [143.54.11.45])
-	by puma.inf.ufrgs.br (Postfix) with ESMTP id 1153061C4F
-	for <CORPORA@UIB.NO>; Fri, 14 Jul 2006 13:45:42 -0300 (BRT)
-Received: from r000.rceal.cam.ac.uk (r000.rceal.cam.ac.uk
-	[131.111.179.142]) by webmail.inf.ufrgs.br (Horde MIME library) with HTTP;
-	Fri, 14 Jul 2006 13:45:42 -0300
-Message-ID: <20060714134542.c80p9w3nwoowog0c@webmail.inf.ufrgs.br>
-Date: Fri, 14 Jul 2006 13:45:42 -0300
-From: avillavicencio@inf.ufrgs.br
-To: CORPORA@UIB.NO
-Subject: [Corpora-List] 3rd CFP - Special Issue of Computational Linguistics on
-	Prepositions in Applications
-MIME-Version: 1.0
-Content-Type: text/plain;
-	charset=ISO-8859-1;
-	DelSp="Yes";
-	format="flowed"
+Received: by 10.35.11.2 with SMTP id o2cs165203pyi;
+        Tue, 8 Aug 2006 04:15:09 -0700 (PDT)
+Received: by 10.65.139.9 with SMTP id r9mr9808738qbn;
+        Tue, 08 Aug 2006 04:15:08 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id 12si875036nzn.2006.08.08.04.15.05;
+        Tue, 08 Aug 2006 04:15:08 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k78BErrG023889;
+	Tue, 8 Aug 2006 21:15:03 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080821150300679
+ ; Tue, 08 Aug 2006 21:15:03 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k78BF234023937;
+	Tue, 8 Aug 2006 21:15:02 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k78BExcV010710
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Tue, 8 Aug 2006 21:15:00 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k78BEwmg023909;
+	Tue, 8 Aug 2006 21:14:58 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080821145700674
+ ; Tue, 08 Aug 2006 21:14:57 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k78BEpMN023887;
+	Tue, 8 Aug 2006 21:14:56 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k78BEd4s023865; Tue, 8 Aug 2006 21:14:39 +1000 (EST)
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k78B3rUX023580 for <comp-it-announce@ics.mq.edu.au>;
+	Tue, 8 Aug 2006 21:03:53 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k78B3lJ06723
+	for <comp-it-announce@ics.mq.edu.au>;
+	Tue, 8 Aug 2006 21:03:52 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Tue, 08 Aug 2006 20:58:41 +1000
+Received: by staff.cs.usyd.edu.au with postie; Tue, 08 Aug 2006 20:56:35 +1100
+Date: Tue, 8 Aug 2006 20:56:33 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20060808205633.A15568@staff.cs.usyd.edu.au>
+Mime-Version: 1.0
 Content-Disposition: inline
-Content-Transfer-Encoding: quoted-printable
-User-Agent: Internet Messaging Program (IMP) H3 (4.1.1) / FreeBSD-5.4
-X-checked-clean: by exiscan on rolf
-X-Scanner: fa9494aaecf4749a78ea6716799c0039 http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: 4.1 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-   0.2 From: does not include a real name
-  4.0 BODY: Probably more lottery
-List-Id: <corpora@uib.no>
-Sender: owner-corpora@lists.uib.no
-Precedence: bulk
+User-Agent: Mutt/1.2.5.1i
+X-Mailman-Approved-At: Tue, 08 Aug 2006 20:58:15 +1000
+From: itannounce@mail.it.usyd.edu.au
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1-_rj3.1_ (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -2.8 ALL_TRUSTED Did not pass through any untrusted hosts
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=-1.8, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Tue, 08 Aug 2006 21:14:36 +1000
+X-BeenThere: comp@ics.mq.edu.au
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1
+	August 2006
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
 
 
-                              Third Call for Papers for
-                     Special Issue of Computational Linguistics
-                           on Prepositions in Applications
+Dear IT-Announce subscriber,
+
+Welcome to issue number 1 for August, 2006. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm.
 
 
-                       SUBMISSION DEADLINE: July 31, 2006
+Australian International and Local Conference Announcements
 
+  RIKD06 Call for Papers (Reliability Issues in Knowledge Discovery)
+  Fourth Asia-Pacific Conference on Conceptual Modelling (APCCM 2007)
+  CFP: Australasian Information Security Workshop 2007 (Privacy Enhancing Technologies)
+  CFP: Colloquium in IS Security Education - Asia Pacific CISSE-AP
+  CFP: ASWEC 2007 - 18th Australian Conference on Software Engineering
+  CFP: APVIS 2007 Asia Pacific Symposium on Visualisation
+
+International Conference Announcements
+
+  CFP: IEEE/WIC/ACM WI-IAT'06 Workshop
+  CFP: IEEE ICDM'06 Workshop
+  CFP - SDM'07: 2007 SIAM International Conference on Data Mining
+  CFP - iiWAS2006 Information Integration and Web-based Applications & Services
+  CFP: 2007 IEEE Swarm Intelligence Symposium (SIS2007)
+
+Academic Positions
+
+  PhD Scholarship on Database Support for Bioinformatics
+  Postdoctoral position: Faculty of Information Technology, UTS
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  RIKD06 Call for Papers (Reliability Issues in Knowledge Discovery)
+  gangli@deakin.edu.au
+
+Call for Papers
+
+IEEE International Workshop on Reliability Issues in Knowledge Discovery
+(ICDM06 Workshop --- RIKD'06)
+December 18, 2006, Hong Kong
+Website: http://www3.it.deakin.edu.au/~hdai/RIKD06/
+
+INVITATION
+----------
+
+The 2006 IEEE ICDM Workshop on Reliability Issues of Data Mining and
+Knowledge Discovery will focus on the theory and techniques that can
+ensure the discovered knowledge is reliable and to identify in which
+cases or under which conditions the discovered knowledge is reliable or
+the discovery process is robust. In the last 20 years, many data mining
+algorithms have been developed for the discovery of knowledge from given
+data bases.  However in many cases, the discovery process
+is not robust or the discovered knowledge is not reliable or even
+incorrect in certain cases. In some cases, the discovered knowledge may
+not necessary be the real reflection of the data.  Why does this happen?
+What are major factors which affect the discovery process? How can we make ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt0
+
+======================================================================
+
+  Fourth Asia-Pacific Conference on Conceptual Modelling (APCCM 2007)
+  M.Kirchberg@massey.ac.nz
+
+Call for Papers   Call for Papers   Call for Papers   Call for Papers
+
+***********************************************************************
+*                                                                     *
+*                           CALL FOR PAPERS                           *
+*                                                                     *
+* Fourth Asia-Pacific Conference on Conceptual Modelling (APCCM 2007) *
+*                    Ballarat, Victoria, Australia                    *
+*                   January 30 to February 02, 2007                   *
+*                                                                     *
+*                  http://apccm.massey.ac.nz/apccm07/                 *
+*                                                                     *
+***********************************************************************
+
+The Asia-Pacific Conferences on Conceptual Modelling provide an annual
+forum for disseminating the results of innovative research in
+information modelling and related areas.
+The fourth conference of the series will be held in early 2007 as part
+of the Australasian Computer Science Week (ACSW 2007), which also
+includes the following conferences, symposia and workshops:
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt1
+
+======================================================================
+
+  CFP: Australasian Information Security Workshop 2007 (Privacy Enhancing Technologies)
+  Chris.Steketee@cs.unisa.edu.au
+
+AISW-Pet aims at promoting research on privacy enhancing technologies and
+increasing the synergy between academic and industrial researchers working
+in this area.  It is a one-day workshop to be held in conjunction with
+the Australasian Computer Science Conference, as part of Australasian
+Computer Science Week in Ballarat, Victoria, Australia, 30 January -
+2 February 2007.
+
+We seek submissions from academic and industrial researchers on all
+theoretical and practical aspects of privacy enhancing technologies.
+Suggested topics include but are not restricted to:
+Anonymity and unobservability modeling
+Attacks on anonymity systems
+Cryptography
+Ethics, policy and law relating to privacy
+Identity management and identity theft
+Privacy and anonymity in peer-to-peer architectures
+Privacy-enhanced data authentication/certification
+Privacy in ubiquitous computing
+Privacy preserving access control
+Privacy preserving data mining
+Protocols that preserve anonymity/privacy ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt2
+
+======================================================================
+
+  CFP: Colloquium in IS Security Education - Asia Pacific CISSE-AP
+  jill.slay@unisa.edu.au
+
+2nd Colloquium for Information Systems Security Education - Asia Pacific (CISSE-AP)
+November 30st and December 1st 2006, Adelaide, Australia
+
+
+Preliminary Call for Papers
+This colloquium, builds on the first CISSE-AP colloquium held in Adelaide
+in 2005, will bring together leading figures from academia, government,
+and industry to address the national need for security and assurance of
+our information and communications infrastructure.
+
+Colloquium Co-Chairs
+Professor Bill Caelli QUT
+Dr Jill Slay UniSA
+
+The Colloquium provides an opportunity for networking and research
+collaboration on a range of issues not necessarily limited to teaching
+and training ...
+http://www.cisse-ap.org.au/
+
+
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt3
+
+======================================================================
+
+  CFP: ASWEC 2007 - 18th Australian Conference on Software Engineering
+  s.loke@latrobe.edu.au
+
+CALL FOR PAPERS
+
+18th Australian Conference on Software Engineering (ASWEC 2007) April
+10-13 2007, Melbourne, Australia http://aswec07.cs.latrobe.edu.au
+
+The eighteenth Australian Software Engineering Conference (ASWEC) will be
+held in Melbourne, one of the world's most livable cities, boasting a rich
+mix of history, culture, economic and scientific activities, from April
+10-13, 2007. Since 1986, ASWEC has been the premier Australasian software
+engineering conference, providing a platform for presenting the latest
+and significant research findings and industry based experience reports.
+
+ASWEC is a joint conference of Engineers Australia and the Australian
+Computer Society reporting through the Engineers Australia/ACS Joint
+Board on Software Engineering.
+
+ASWEC 2007 will bring together researchers, practitioners, and
+educators to share issues, novel solutions, and experiences in software
+engineering. The conference will also feature tutorials, workshops,
+and industry experience reports (please see industry experience reports
+track below). ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt4
+
+======================================================================
+
+  CFP: APVIS 2007 Asia Pacific Symposium on Visualisation
+  Richard.Webber@nicta.com.au
+
+============================================
+Call for Papers
+Asia Pacific Symposium on Visualisation
+5-7 February, 2007
+Sydney, Australia
+http://www.cs.usyd.edu.au/~visual/apvis2007/
+============================================
+
+APVIS2007 is the sixth annual international symposium to be held in the
+Asia-Pacific region with the objective to foster greater exchange between
+visualisation researchers and practitioners. Authors are invited to
+submit papers describing original and unpublished research and practical
+applications in all areas of visualisation. The scope of previous APVIS
+meetings was limited to graph drawing and information visualisation. From
+this year, APVIS has been expanded to include scientific visualisation. We
+anticipate an exciting technical program.
+
+* Scope
+
+Suggested topics for papers include, but are not limited to:
+- Theoretic foundations of visualisation ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt5
+
+======================================================================
+
+
+International Conference Announcements
+
+  CFP: IEEE/WIC/ACM WI-IAT'06 Workshop
+  wi@maebashi-it.org
+
+==============================================================
+Call for Workshop Papers
+
+2006 IEEE/WIC/ACM International Joint
+Conference on Web Intelligence and Intelligent Agent Technology
+(WI-IAT'06)
+
+Hong Kong Convention and Exhibition Centre, Hong Kong, China,
+18-22 December 2006
+http://www.comp.hkbu.edu.hk/iwi06/wi/?index=workshop
+or
+http://www.comp.hkbu.edu.hk/iwi06/iat/?index=workshop
+
+(Full Workshop Papers Due: 30 July 2006)
+Accepted papers will be published in the conference proceedings
+by the IEEE Computer Society Press that are indexed by EI.
+
+Note: we will not have a separate workshop registration fee this year
+(i.e., conference registration covers everything).
+===================================================================
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  CFP: IEEE ICDM'06 Workshop
+  icdm@wi-lab.com
+
+==================================================================
+Call for Workshop Papers
+
+ICDM'06: The 6th IEEE International Conference on Data Mining
+
+Hong Kong Convention and Exhibition Centre, Hong Kong, China,
+18-22 December 2006
+
+Sponsored by the IEEE Computer Society
+http://www.comp.hkbu.edu.hk/iwi06/icdm/?index=workshop
+
+(Full Workshop Papers Due: 30 July 2006)
+Accepted papers will be published in the conference proceedings
+by the IEEE Computer Society Press that are indexed by EI.
+
+Note: we will not have a separate workshop registration fee this year
+(i.e., conference registration covers everything).
+===================================================================
+
+As an important part of the conference, the workshop program will
+focus on new research challenges and initiatives.  All papers accepted ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  CFP - SDM'07: 2007 SIAM International Conference on Data Mining
+  chawla@it.usyd.edu.au
+
+========================================================================
+Call for Papers
+
+SDM'07: 2007 SIAM International Conference on Data Mining
+
+Sponsored by Society for Industrial and Applied Mathematics (SIAM)
+
+Minneapolis, Minnesota, USA
+April 26-28, 2007.
+
+http://www.siam.org/meetings/sdm07/
+
+========================================================================
+
+Important Dates:
+
+
+Abstracts: October 6th 2006
+Papers: October 13 2006 11:59:59 PM, Pacific Standard Time
+Author Notification: December 20th 2006
+Camera Ready: January 26th 2007 ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  CFP - iiWAS2006 Information Integration and Web-based Applications & Services
+  adel@it.usyd.edu.au
+
+Call for paper for The 8th International Conference
+on Information Integration and Web-based Applications &
+Services (iiWAS2006), 4-6 December 2006, Yogyakarta, Indonesia
+http://www.iiwas.org/conferences/iiwas2006/
+This year iiWAS2006 will be held in conjunction with MoMM2006 (The 4th
+International Conference on Mobile Computing and Multimedia) and six
+related workshops:
+
+- SIIK2006, The International Workshop on Semantic Information Integration
+on Knowledge Discovery
+
+- MoMIR2006, The International Workshop on Mobile Multimedia Information
+Retrieval
+
+- BWCCA-2006, The International Workshop on Broadband and Wireless
+Computing, Communication and Applications
+
+- SoC-06, The International Workshop on Systems-On-Chips
+
+- TwUC-06, The International Workshop on Trustworthy Ubiquitous Computing
+ ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  CFP: 2007 IEEE Swarm Intelligence Symposium (SIS2007)
+  xiaodong@cs.rmit.edu.au
+
+***********************************
+* C A L L    F O R    P A P E R S *
+***********************************
+
+2007 IEEE Swarm Intelligence Symposium (SIS2007)
+
+Hilton Hawaiian Village, Honolulu, Hawaii, April 1-5, 2007
+
+http://www.computelligence.org/sis/2007
+
+The 2007 IEEE Swarm Intelligence Symposium (SIS2007) will be held as
+part of the first IEEE Symposium Series on Computational Intelligence
+2007 (SSCI 2007), which consists of 12 symposia.
+
+
+AIMS AND SCOPES
 ---------------
-GUEST EDITORS
 
-Aline Villavicencio
-Federal University of Rio Grande do Sul, Brazil
+Swarm Intelligence is a computational intelligence technique involving
+the study of collective behavior in decentralized systems. Such systems
+are made up of a population of simple individuals interacting locally ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
 
-Valia Kordoni
-Saarland University and DFKI GmbH, Germany
-
-Timothy Baldwin
-University of Melbourne, Australia and NICTA Victoria Research Labs
-
---------------
-CONTENTS:
-
-1. THE SPECIAL ISSUE
-2. TOPICS OF INTEREST
-3. SUBMISSION INFORMATION
-
----------------
-1. THE SPECIAL ISSUE
-
-The special issue will concentrate on the theoretical aspects of
-computational research on prepositions. Due to their importance
-in computational tasks prepositions, as well as prepositional
-phrases and markers of various sorts, have received a considerable
-amount of attention and occupied a central position in research
-in Computational Linguistics (CL) and Language Technology
-(LT), Artificial Intelligence (AI), Natural Language Processing
-(NLP), as well as Computational Psycholinguistics (CP).
-Researchers from these backgrounds and CL-related disciplines
-have looked at the role of prepositions in shallow and deep
-language processing.
-
-Despite increasing awareness of the importance of prepositions in NLP tasks,
-very little progress has been made in systematically describing preposition
-semantics. Notably, the only account of the lexical semantics of preposition=
-s
-in resources such as WordNet, FrameNet and PropBank is indirect, in that the=
-y
-feature in significant numbers within multiword expressions or as frame
-elements. If prepositions are to be incorporated into such resources as
-first-order entities, a large number of issues must be resolved such as how =
-to
-taxonomically deconstruct the spatial semantics of prepositions, how to
-delineate preposition senses, and how to tease apart preposition and verb
-semantics in phrasal verbs. Our expectation is that such questions will be
-guided by careful analysis of what semantic distinctions and representationa=
-l
-granularity are required in a range of applications, which will in turn be
-guided by such research as the representation of prepositions within
-implemented grammars, crosslingual preposition semantics, machine perception
-and visualisation of preposition semantics, and computational models of the
-human processing of prepositions.
-
----------------
-2. TOPICS OF INTEREST
-
-For the proposed special issue we specifically invite submissions that bring=
- a
-theoretical basis to research on prepositions in lexical resources and NLP
-tasks of the sort described above. In particular, we focus on the syntactic
-and semantic treatment of productive and collocational uses of prepositional
-phrases and markers in resources such as WordNet and FrameNet, and the
-utilization of such resources in NLP tasks, such as Machine Translation,
-IE/IR and QA.
-
-* Extraction of Prepositions:
-
-   There has been considerable research into extraction of prepositions and
-   related constructions (e.g. phrasal verbs). Papers which describe the
-   extraction of these constructions, including their subcategorisation fram=
-es
-   and alternation patterns, as are necessary for the semi-automatic extensi=
-on
-   of lexical resources are particularly welcome.
+======================================================================
 
 
-* Representation of Prepositions in Lexical Resources:
+Academic Positions and Scholarships
 
-   We encourage papers describing the challenges of providing adequate
-   representation of prepositions and related constructions such as would be
-   generally applicable in NLP applications.
+  PhD Scholarship on Database Support for Bioinformatics
+  roehm@it.usyd.edu.au
+
+APAI Research Scholarship on Database Support for Bioinformatics
+University of Sydney,  School of Information Technologies
+
+We are looking for candidates for a PhD position in the research area of
+database support for bioinformatics. The PhD student shall investigate
+the management of bio-datatypes in relational databases, as well as
+the tight integration of biodata and bioinformatics algorithms using
+.NET-based stored procedures. The objective of this project is to
+explore the feasibility of running scientific algorithms, e.g. from
+the bioinformatics area, inside a database and to develop practical
+optimisation guidelines for the integration of biodata and virtual
+machines in today's database engines.
+
+This scholarship is funded by an ARC Linkage-Projects grant and
+will provide support for 3 years on a full-time basis for a research
+project leading to a PhD. Applicants should have an Honours 1 degree
+in Computer Science, IT, or Software Engineering. Experience/background
+in databases or bioinformatics and good programming skills would be an
+advantage. Applicants must be Australian citizens, Australian permanent
+residents or New Zealand citizens. The scholarship stipend is AUD 24,650
+p.a. in 2006 (tax exempt). ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+  Postdoctoral position: Faculty of Information Technology, UTS
+  John Debenham <debenham@it.uts.edu.au>
+
+POSTDOCTORAL RESEARCH FELLOW
+
+Faculty of Information Technology, UTS
+
+The Research Fellow will play a central role in the industry-focused
+research project =93Managing quality of experience delivery in new
+generation telecommunications networks with e-negotiation=94, supported
+
+by an ARC Linkage Grant and by Alcatel Australia.
+
+The Research Fellow will play a central role in the development of
+the network management framework. This includes the development and
+integration of the technologies that
+
+1.         extract information from the network and distribute it
+efficiently, and
+
+2.         enable decision-making to negotiate with each other so as
+to exploit this information.
+
+Applicants should have a doctorate in a relevant area to ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt1
+
+======================================================================
 
 
-* Prepositions in Applications:
-
-   We invite papers that discuss the role of prepositions in NLP tasks,
-   focusing specifically on what insights various applications offer for
-   lexical resource building, what particular needs different application ar=
-eas
-   have (e.g. what an ideal prepositional lexical resource would be like),
-   necessary extensions to existing resources, and how prepositional lexical
-   resources of various types could enhance performance over a given task li=
-ke
-   MT, IR, QA and multi-modal systems.
-
----------------
-3. SUBMISSION INFORMATION
-
-Deadline for paper submissions: July 31, 2006.
-
-All submissions will be subject to the normal peer review process for this
-journal. Submissions are to be done electronically in pdf format, by sending
-the paper to the editors at the following email address:
-
-   cl-prep@unimelb.edu.au
-
-Papers must conform to the Computational Linguistics specifications,
-which are available at:
-
-   http://www.clt.mq.edu.au/compling/style.html
-
-Any queries should be addressed to:
-
-   cl-prep@unimelb.edu.au
-
-
---------------
-Website: http://www.inf.ufrgs.br/~avillavicencio/prep-cl.html
-
-
-----------------------------------------------------------------
-This message was sent using IMP, the Internet Messaging Program.
-
-
-
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

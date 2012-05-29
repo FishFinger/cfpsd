@@ -1,217 +1,97 @@
-From - Thu Dec 10 14:39:12 2009
+From - Thu Dec 10 14:39:16 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs33301bkq;
-        Tue, 24 Nov 2009 04:28:34 -0800 (PST)
-Received: by 10.213.100.168 with SMTP id y40mr5046456ebn.28.1259065711662;
-        Tue, 24 Nov 2009 04:28:31 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 25si859569ewy.65.2009.11.24.04.28.31;
-        Tue, 24 Nov 2009 04:28:31 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 88C8024309; Tue, 24 Nov 2009 13:28:28 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
-	autolearn=unavailable version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id F2FBF243E0;
-	Tue, 24 Nov 2009 13:20:15 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id AA5743D47;
-	Tue, 24 Nov 2009 13:20:15 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id KH0pFJ+Zg9vc; Tue, 24 Nov 2009 13:20:15 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id AE5FE3E08;
-	Tue, 24 Nov 2009 13:19:00 +0100 (CET)
-X-Original-To: elsnet-list@mailman.elsnet.org
-Delivered-To: elsnet-list@mailman.elsnet.org
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 8C2553D2A
-	for <elsnet-list@mailman.elsnet.org>;
-	Tue, 24 Nov 2009 09:35:44 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id 7Wm5w1-xVzXd for <elsnet-list@mailman.elsnet.org>;
-	Tue, 24 Nov 2009 09:35:44 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 6567C3D0B
-	for <elsnet-list@mailman.elsnet.org>;
-	Tue, 24 Nov 2009 09:35:44 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 548FB23A2A; Tue, 24 Nov 2009 09:35:44 +0100 (MET)
-X-Greylist: delayed 5179 seconds by postgrey-1.28 at newjura;
-	Tue, 24 Nov 2009 09:35:35 MET
-Received: from smtp2.cict.fr (smtp2.cict.fr [195.220.59.17])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id E3CBC23A06
-	for <elsnet-list@let.uu.nl>; Tue, 24 Nov 2009 09:35:35 +0100 (MET)
-Received: from smtp2.cict.fr (localhost.localdomain [127.0.0.1])
-	by smtp2.cict.fr (8.14.2/8.14.2) with ESMTP id nAO79EYL006178
-	for <elsnet-list@let.uu.nl>; Tue, 24 Nov 2009 08:09:14 +0100
-Received: from dell2.irit.fr (dell2.irit.fr [141.115.4.22])
-	by smtp2.cict.fr (8.14.2/8.14.2) with ESMTP id nAO79EsK006171
-	for <elsnet-list@let.uu.nl>; Tue, 24 Nov 2009 08:09:14 +0100
-Received: from extra.irit.fr (extra [141.115.28.2])
-	by dell2.irit.fr (8.14.3/8.14.2) with ESMTP id nAO799IW023190
-	for <elsnet-list@let.uu.nl>; Tue, 24 Nov 2009 08:09:14 +0100
-Received: from extra.irit.fr (localhost [127.0.0.1])
-	by extra.irit.fr (8.14.3/8.12.8) with ESMTP id nAO799fY005641
-	for <elsnet-list@let.uu.nl>; Tue, 24 Nov 2009 08:09:09 +0100
-Received: (from web@localhost)
-	by extra.irit.fr (8.14.3/8.14.1/Submit) id nAO799k9005640;
-	Tue, 24 Nov 2009 08:09:09 +0100
-Date: Tue, 24 Nov 2009 08:09:09 +0100
-Message-Id: <200911240709.nAO799k9005640@extra.irit.fr>
-To: elsnet-list@let.uu.nl
-From: riao2010_review@irit.fr
-X-Mailman-Approved-At: Tue, 24 Nov 2009 13:18:32 +0100
-Cc: 
-Subject: [Elsnet-list] [RIAO 2010 Reminder] - call for Papers and
-	Applications
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
+Received: by 10.204.118.66 with SMTP id u2cs476213bkq;
+        Tue, 1 Dec 2009 02:54:53 -0800 (PST)
+Received: by 10.213.100.4 with SMTP id w4mr3034086ebn.25.1259664883904;
+        Tue, 01 Dec 2009 02:54:43 -0800 (PST)
+Return-Path: <corpora-bounces@uib.no>
+Received: from half.uib.no (half.uib.no [129.177.30.20])
+        by mx.google.com with ESMTP id 10si9074145ewy.38.2009.12.01.02.54.40;
+        Tue, 01 Dec 2009 02:54:43 -0800 (PST)
+Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no
+Received: from localhost (half.uib.no) [127.0.0.1] 
+	by half.uib.no  with esmtp  (Exim 4.69)
+	id 1NFQHP-0001IJ-J0; Tue, 01 Dec 2009 11:48:23 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
+	id 1NFQHN-0001Ho-KE; Tue, 01 Dec 2009 11:48:21 +0100
+Received: from pony.ic.uva.nl [145.18.40.181] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.69)
+	id 1NFQHM-0001Bk-VT; Tue, 01 Dec 2009 11:48:21 +0100
+Received: from [146.50.45.46] (mirabelle.science.uva.nl [146.50.45.46])
+	(authenticated bits=0)
+	by pony.ic.uva.nl (8.13.1/8.13.1) with ESMTP id nB1AmGHx010669
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <CORPORA@UIB.NO>; Tue, 1 Dec 2009 11:48:16 +0100
+Message-ID: <4B14F470.4010803@uva.nl>
+Date: Tue, 01 Dec 2009 11:48:16 +0100
+From: Ulle Endriss <ulle.endriss@uva.nl>
+User-Agent: Thunderbird 2.0.0.19 (X11/20090105)
+MIME-Version: 1.0
+To: CORPORA@UIB.NO
+X-Spam-Score: undef - spam scanning disabled
+X-CanIt-Geo: ip=146.50.45.46; country=NL; region=07; city=Amsterdam;
+	latitude=52.3500; longitude=4.9167;
+	http://maps.google.com/maps?q=52.3500,4.9167&z=6
+X-CanItPRO-Stream: auth (inherits from default)
+X-Canit-Stats-ID: Bayes signature not available
+X-Scanned-By: CanIt (www . roaringpenguin . com) on 145.18.40.181
+X-checked-clean: by exiscan on rolf
+X-Scanner: 82461d3b535b1487567b7229e929bdfb http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: -15 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+  -15 From is listed in 'whitelist_SA'
+Subject: [Corpora-List] ECAI-2010: Final Call for Workshop Proposals
+X-BeenThere: corpora@uib.no
+X-Mailman-Version: 2.1.12
 Precedence: list
-Reply-To: riao2010_review@irit.fr
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+List-Id: <corpora.uib.no>
+List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
+	<mailto:corpora-request@uib.no?subject=unsubscribe>
+List-Archive: <http://www.uib.no/mailman/public/corpora>
+List-Post: <mailto:corpora@uib.no>
+List-Help: <mailto:corpora-request@uib.no?subject=help>
+List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
+	<mailto:corpora-request@uib.no?subject=subscribe>
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="iso-8859-1"; Format="flowed"
+Sender: corpora-bounces@uib.no
+Errors-To: corpora-bounces@uib.no
+
+Dear colleague,
+
+Please be reminded that the deadline for submission of workshop
+proposals for ECAI-2010 (Lisbon, August 2010) is fast approaching:
+
+Friday, 11 December 2009
+
+Serious proposals from all all areas of AI as well as interdisciplinary
+proposals with a substantial AI component are very welcome. Further
+information is available here (or get in touch with me directly):
+
+19th European Conference on Artificial Intelligence, Lisbon, 2010
+http://ecai2010.appia.pt
+
+ECAI-2010 Call for Workshop Proposals
+http://www.illc.uva.nl/~ulle/ECAI-2010/ecai-2010-workshop-call.txt
+
+Best wishes,
+Ulle Endriss
+(ECAI-2010 Workshop Chair)
 
 
+-- =
 
-
-
-(apologies for multiple postings)
-
-
-Call for Papers
-
-Adaptivity, Personalization and Fusion of Heterogeneous Information 
-28-30 April, 2010 Paris, France (Bibliotheque Nationale de France) 
-http://www.riao2010.org/ 
-
-Important dates:
-Paper submission deadline November 30, 2009 Notification to authors February 5, 2010 Camera-Ready copies due March 1, 2010 Conference dates April 28-30, 2010 
-
-History
-
-The RIAO conference is a triennial conference, addressing research topics related to the design of robust and large-scale scientific and industrial solutions to information processing. Previous RIAO editions were held at Grenoble (1985), MIT (1988), Barcelona(1991), Rockefeller University (1994), Montreal (1997), Paris (2000), Avignon (2004), and Carnegie Mellon University(2007). RIAO conferences provide peer-reviewed scientific sessions and demonstrations of innovative industrial applications and advanced research prototypes. 
-
-Scope of RIAO 2010
-
-Submissions are invited which present recent, original and unpublished research addressing the RIAO 2010 theme: Adapting, personalizing and merging heterogeneous information. 
-Submissions may address one or more of the following subjects: 
-Formal Models, Theory
-Information filtering 
-* Content based filtering 
-* Collaborative filtering 
-* Recommender systems 
-* Spam, protection of minors 
-Personalized IR and User modelling 
-* Adaptive IR 
-* Collaborative IR 
-* Interfaces 
-Information fusion 
-* Mash Ups 
-* Aggregated search 
-* Systems for watch, business decision 
-Web Search and Advertising 
-* Adversial IR 
-* Advertising 
-* Link analysis 
-Machine Learning for IR 
-* Learning to rank 
-* Probabilistic topic models 
-* All kinds of learning technics applied to IR 
-Formal models, theory Information extraction and natural language processing, multilinguality 
-* Summarization 
-* Question answering 
-* Entity/relation extraction 
-* Cross-Language IR, Machine translation for IR 
-Multimedia Information Retrieval 
-* Image IR 
-* Video IR 
-* Speech/audio IR 
-* Music IR, analysis of multimedia content 
-Applications 
-* Cultural heritage 
-* Trademark search 
-* Scientific media 
-* Bio-computing and medical 
-* Database offloading 
-Evaluation, benchmarking Machine Learning for IR
-Social networks 
-* Folksonomies, tagging 
-* Blogs 
-* Social search 
-* Communities 
-* Opinion and sentiment 
-
-Program Chairs 
-
-Gabriella Pasi (Europe)
-Tie-Yan Liu (Asia)
-Prabhakar Raghavan (Americas)
-
-Paper Submission 
-
-We welcome submissions from both research and industrial communities addressing the main conference theme. 
-Submitted papers must describe unpublished original work, emphasizing completed or advanced research. 
-A parallel submission to other venues should be clearly indicated to the program committee. 
-Submissions must be blind, any submission containing the authors names will be rejected.
-Submissions will be reviewed by at least three program committee members. 
-The submissions will be evaluated on the basis of originality, relevance, technical quality, and presentation. Papers can be submitted in two categories: full papers and short papers.
-Full papers are appropriate for describing substantial research with relevant evaluation.
-Short papers may describe ongoing research and preliminary results.
-All accepted papers in both categories will be published in the conference proceedings. 
-At the conference, full papers will be presented as a talk and short papers will be presented as a poster.
-Long papers must not exceed 12 pages (5000 words), in one column format, including the abstract. 
-Short papers must not exceed 6 pages (2500 words), in one column, including the abstract. 
-See http://www.acm.org/sigs/publications/proceedings-templates for the accepted paper format.
-
-The conference proceedings will be available to conference attendees, and through the CID after the conference. 
-The submission site for scientific papers is the following: https://wwwsecu.irit.fr/riao2010-adm
-
-Call for Applications
-
-Program Chair:
-* Josiane Mothe (France) 
-* Philippe Roy (France) 
-
-The RIAO conferences are meeting places for scientific and industrial specialists in information retrieval. There are sites for presentations of both high-level peer-reviewed scientific research and prototypes and of innovative products, selected by a special Call for Applications. This present Call for Application has been sent at the same time that the Call for Papers for the RIAO 2010 Conference. The products presented are chosen uniquely on the basis of their innovativeness in the area of the conference topics. 
-The "Centre de Hautes Etudes Internationales d'Informatique Documentaire" (C.I.D.) organizes the RIAO conferences every three years since 1985. RIAO stands for "Recherche d'Information Assistee par Ordinateur", i.e. computer aided Information search.
-RIAO conferences have two selection committees: a Program Committee for scientific papers, and an Applications Committee which seeks out and selects those innovative products for the conference. 
-The RIAO conferences are not trade shows since the teams presenting innovative applications are selected and do not pay for the booth and time that they are given during the conference. 
-Companies whose application fulfills the criteria of novelty and of innovativeness can fill in an electronic form designed by the conference organizers that describes their submitted application. 
-In addition to the form, application submitters will have to provide access to an online or CD version of the demo or released product that demonstrates the claimed innovative functionalities of the application. Applications Committee members will verify the functionalities of the product.
-After examination of the dossier and the demonstration of each application, the Application Committee members select the best products.
-Each chosen company will be provided with a demonstration space (including table and chair) free of charge. The space is near the amphitheatre in which the scientific papers are presented. 
-Each company may also be given a special time slot (15 minutes) to give a short presentation of the product. 
-A dedicated social event sponsored by Cap Digital, digital content cluster of the Paris Region, will allow selected companies to meet with French top innovative SMEs in the domain of knowledge engineering and multimedia services.
-The general topic of the Call for Applications is: 
-ADAPTIVITY, PERSONALIZATION AND FUSION OF HETEROGENEOUS INFORMATION
-Detailed topics are listed above in the call for papers.
-Descriptions of the products demonstrated during RIAO 2010 will be published in the proceedings.
-
-To submit an application please fill the following form:  http://riao.free.fr/index.php?action=application.form&lang=en
-
-
-
+Ulle Endriss         http://www.illc.uva.nl/~ulle/
+Institute for Logic, Language & Computation (ILLC)
+University of Amsterdam    Tel: +31 (0)20 525 6511
+Postbus 94242              Fax: +31 (0)20 525 5206
+1090 GE Amsterdam (NL)     Email: u.endriss@uva.nl
 
 _______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+Corpora mailing list
+Corpora@uib.no
+http://mailman.uib.no/listinfo/corpora

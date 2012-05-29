@@ -1,327 +1,359 @@
-From - Thu Dec 10 14:39:11 2009
+From - Thu Dec 10 14:38:53 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs239107bkq;
-        Fri, 20 Nov 2009 13:08:47 -0800 (PST)
-Received: by 10.213.96.205 with SMTP id i13mr633646ebn.95.1258751326085;
-        Fri, 20 Nov 2009 13:08:46 -0800 (PST)
-Return-Path: <ln-owner@cines.fr>
-Received: from mercure.cines.fr (mercure.cines.fr [193.48.169.42])
-        by mx.google.com with ESMTP id 4si3561022ewy.27.2009.11.20.13.08.45;
-        Fri, 20 Nov 2009 13:08:46 -0800 (PST)
-Received-SPF: pass (google.com: domain of ln-owner@cines.fr designates 193.48.169.42 as permitted sender) client-ip=193.48.169.42;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of ln-owner@cines.fr designates 193.48.169.42 as permitted sender) smtp.mail=ln-owner@cines.fr
-Received: from hygia.cines.fr (hygia.cines.fr [193.48.169.47])
-	by mercure.cines.fr (8.13.1/8.13.1) with ESMTP id nAKL8dvf015585;
-	Fri, 20 Nov 2009 22:08:39 +0100
-Received: from hygia.cines.fr (localhost [127.0.0.1])
-	by postfix.imss70 (Postfix) with ESMTP id C042122BA38;
-	Fri, 20 Nov 2009 22:08:37 +0100 (CET)
-Received: from hadad.cines.fr (hadad.cines.fr [193.48.169.49])
-	by hygia.cines.fr (Postfix) with ESMTP id 8E643240BE4;
-	Fri, 20 Nov 2009 22:08:37 +0100 (CET)
-Received: by hadad.cines.fr (Postfix, from userid 500)
-	id 9B75A40006; Fri, 20 Nov 2009 22:09:01 +0100 (CET)
-X-Original-To: ln@cines.fr
-Delivered-To: ln@cines.fr
-Received: by hadad.cines.fr (Postfix, from userid 502)
-	id 58B903FFE3; Fri, 20 Nov 2009 21:49:05 +0100 (CET)
-X-Spam-Checker-Version: SpamAssassin 3.1.8 (2007-02-13) on mercure.cines.fr
+Received: by 10.204.60.195 with SMTP id q3cs37765bkh;
+        Sat, 7 Nov 2009 15:30:29 -0800 (PST)
+Received: by 10.213.27.10 with SMTP id g10mr1289094ebc.42.1257636626671;
+        Sat, 07 Nov 2009 15:30:26 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 9si3344183ewy.79.2009.11.07.15.30.26;
+        Sat, 07 Nov 2009 15:30:26 -0800 (PST)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id BE524245CA; Sun,  8 Nov 2009 00:30:25 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
 X-Spam-Level: 
-X-Spam-Status: No, score=-0.9 required=5.0 tests=AWL autolearn=unavailable
-	version=3.1.8
-Received: from hygia.cines.fr (hygia.cines.fr [193.48.169.47])
-	by hadad.cines.fr (Postfix) with ESMTP id D51DF3FF26
-	for <ln@cines.fr>; Fri, 20 Nov 2009 21:48:55 +0100 (CET)
-Received: from hygia.cines.fr (localhost [127.0.0.1])
-	by postfix.imss70 (Postfix) with ESMTP id EDFB0240BE0
-	for <ln@cines.fr>; Fri, 20 Nov 2009 21:47:39 +0100 (CET)
-Received: from smtp.univ-paris13.fr (smtp.univ-paris13.fr [194.254.164.236])
-	by hygia.cines.fr (Postfix) with SMTP id C4F00240BDF
-	for <ln@cines.fr>; Fri, 20 Nov 2009 21:47:39 +0100 (CET)
-Received: from localhost. (76.58.70-86.rev.gaoland.net [86.70.58.76])
-	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
-	(No client certificate requested)
-	by smtp.univ-paris13.fr (Postfix) with ESMTPSA id 669B514C1CD
-	for <ln@cines.fr>; Fri, 20 Nov 2009 21:47:39 +0100 (CET)
-To: ln@cines.fr
-X-Url: http://www.atala.org/article.php3?id_article=48
-From: Thierry Hamon <thierry.hamon@univ-paris13.fr>
-X-Archive-Url: http://listserv.linguistlist.org/archives/ln.html
-X-Archive-Url: http://liste.cines.fr/info/ln
-Date: Fri, 20 Nov 2009 21:47:38 +0100
-Message-ID: <87y6m0app1.fsf@smtp.univ-paris13.fr>
-User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (gnu/linux)
+X-Spam-Status: No, score=-1.9 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 023C723C5A;
+	Sun,  8 Nov 2009 00:22:08 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 43EF83D62;
+	Sun,  8 Nov 2009 00:22:07 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6cK23yj8B5w7; Sun,  8 Nov 2009 00:22:07 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id CDD603DAD;
+	Sun,  8 Nov 2009 00:21:03 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 0EE9B3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  4 Nov 2009 15:17:48 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QHJFfcGB+-89 for <elsnet-list@mailman.elsnet.org>;
+	Wed,  4 Nov 2009 15:17:47 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D86BD3D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  4 Nov 2009 15:17:47 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C01B92387E; Wed,  4 Nov 2009 15:17:47 +0100 (MET)
+Received: from mta02.urv.cat (mta02.urv.cat [193.144.16.77])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 7514723E07
+	for <elsnet-list@elsnet.org>; Wed,  4 Nov 2009 15:17:38 +0100 (MET)
+X-IronPort-AV: E=Sophos;i="4.44,680,1249250400"; 
+   d="scan'208";a="1339897"
+Received: from pmbox1.urv.cat ([193.144.16.40])
+	by mta.urv.cat with ESMTP; 04 Nov 2009 15:17:19 +0100
+Received: from urv.cat (backend1.urv.cat [193.147.216.82])
+	by pmbox1.urv.cat (Postfix) with ESMTP id 217451C501;
+	Wed,  4 Nov 2009 15:17:19 +0100 (CET)
+Received: from [193.144.16.40] (Forwarded-For: [193.144.16.40]) by
+	mbox1.urv.cat (mshttpd); Wed, 04 Nov 2009 15:17:19 +0100
+From: <carlos.martin@urv.cat>
+To: carlos.martin@urv.cat
+Message-ID: <f83ec772a848.4af19aff@urv.cat>
+Date: Wed, 04 Nov 2009 15:17:19 +0100
+X-Mailer: Sun Java(tm) System Messenger Express 6.2-9.09 (built Jan  8
+ 2008)
 MIME-Version: 1.0
+Content-Language: ca
+X-Accept-Language: ca
+Priority: normal
 Content-Type: text/plain; charset=windows-1252
+Content-Disposition: inline
 Content-Transfer-Encoding: quoted-printable
-X-Validation-by: thierry.hamon@univ-paris13.fr
-Subject: [ln] Appel: Revue TAL, Multilinguisme et TAL
-Reply-To: ln@cines.fr, Thierry Hamon <thierry.hamon@univ-paris13.fr>
-X-Loop: ln@cines.fr
-X-Sequence: 335
-Errors-to: ln-owner@cines.fr
+X-Mailman-Approved-At: Sun, 08 Nov 2009 00:20:34 +0100
+Cc: 
+Subject: [Elsnet-list] LATA 2010: last call for papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
 Precedence: list
-Precedence: bulk
-X-no-archive: yes
-List-Id: <ln.cines.fr>
-List-Help: <mailto:sympa@cines.fr?subject=help>
-List-Subscribe: <mailto:sympa@cines.fr?subject=subscribe%20ln>
-List-Unsubscribe: <mailto:sympa@cines.fr?subject=unsubscribe%20ln>
-List-Post: <mailto:ln@cines.fr>
-List-Owner: <mailto:ln-request@cines.fr>
-List-Archive: <http://liste.cines.fr//arc/ln>
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
 
+*********************************************************************
 
-Date: Sun, 15 Nov 2009 19:54:37 +0100
-From: Emmanuel Morin <Emmanuel.Morin@univ-nantes.fr>
-Message-ID: <4B004E6D.7050801@univ-nantes.fr>
-X-url: http://www.atala.org/-Revue-TAL
-X-url: http://atala.org/Instructions-aux-auteurs-feuilles
+Last Call for Papers
 
+4th INTERNATIONAL CONFERENCE ON LANGUAGE AND AUTOMATA THEORY AND APPLICA=
+TIONS (LATA 2010)
 
-MULTILINGUISME ET TAL
-NUM=C9RO SP=C9CIAL DE LA REVUE TAL
+Trier=2C Germany=2C May 24-28=2C 2010
 
-Date limite de soumission : 26 f=E9vrier 2010
+http=3A//grammars=2Egrlmc=2Ecom/LATA2010/
 
-[English version of CFP below]
+*********************************************************************
 
-R=C9DACTEURS EN CHEF INVIT=C9S :
+Deadline=3A December 3
 
-Emmanuel Morin (LINA, Universit=E9 de Nantes, France) et Holger Schwenk
-(LIUM, Universit=E9 du Maine, France)
+Please notice that the deadline is firm and will not be extended !
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
 
+AIMS=3A
 
-PREMIER APPEL :
+LATA is a yearly conference in theoretical computer science and its appl=
+ications=2E As linked to the International PhD School in Formal Language=
+s and Applications that was developed at Rovira i Virgili University (th=
+e host of the previous three editions and co-organizer of this one) in t=
+he period 2002-2006=2C LATA 2010 will reserve significant room for young=
+ scholars at the beginning of their career=2E It will aim at attracting =
+contributions from both classical theory fields and application areas (b=
+ioinformatics=2C systems biology=2C language technology=2C artificial in=
+telligence=2C etc=2E)=2E
 
-Depuis le dernier num=E9ro de la revue TAL sur cette th=E9matique, il y a
-maintenant dix ans, le multilinguisme s=92est impos=E9 comme une r=E9alit=
-=E9
-soci=E9tale incontournable notamment sur l'internet : alors que la
-langue anglaise dominait largement il y a dix ans, la repr=E9sentation
-du chinois, de l'hindi ou de l=92espagnol tend peu =E0 peu =E0 correspondre
-=E0 l'importance r=E9elle de ces langues. L'internet refl=E8te maintenant
-mieux la diversit=E9 des langues nationales et r=E9gionales. Logiquement,
-les applications informatiques d=E9velopp=E9es =96 que ce soit en
-traduction, en recherche d'information interlangue, en aide =E0 la
-communication =E9crite ou en apprentissage des langues... =96 doivent
-s'adapter =E0 cette r=E9alit=E9 en prenant en compte des langues de plus en
-plus diverses avec parfois une grande distance linguistique entre
-elles.
+SCOPE=3A
 
-L'objectif de ce num=E9ro sp=E9cial de la revue TAL
-(http://www.atala.org/-Revue-TAL) est de proposer une vue d'ensemble
-des recherches actuelles en multilinguisme pour le TAL.
+Topics of either theoretical or applied interest include=2C but are not =
+limited to=3A
 
-Les propositions de communications pourront notamment porter sur les=20
-th=E8mes suivants :
+- algebraic language theory
+- algorithms on automata and words
+- automata and logic
+- automata for system analysis and programme verification
+- automata=2C concurrency and Petri nets
+- cellular automata
+- combinatorics on words
+- computability
+- computational complexity
+- computer linguistics
+- data and image compression
+- decidability questions on words and languages
+- descriptional complexity
+- DNA and other models of bio-inspired computing
+- document engineering
+- foundations of finite state technology
+- fuzzy and rough languages
+- grammars (Chomsky hierarchy=2C contextual=2C multidimensional=2C unifi=
+cation=2C categorial=2C etc=2E)
+- grammars and automata architectures
+- grammatical inference and algorithmic learning
+- graphs and graph transformation
+- language varieties and semigroups
+- language-based cryptography
+- language-theoretic foundations of artificial intelligence and artifici=
+al life
+- neural networks
+- parallel and regulated rewriting
+- parsing
+- pattern matching and pattern recognition
+- patterns and codes
+- power series
+- quantum=2C chemical and optical computing
+- semantics
+- string and combinatorial issues in computational biology and bioinform=
+atics
+- symbolic dynamics
+- term rewriting
+- text algorithms
+- text retrieval
+- transducers
+- trees=2C tree languages and tree machines
+- weighted machines
 
-- les techniques de fouille et d=92alignement de corpus multilingues ;
+STRUCTURE=3A
 
-o l=92alignement de segments parall=E8les =E0 partir de corpus comparables
-  ou parall=E8les ;
+LATA 2010 will consist of=3A
 
-o l=92extraction de lexiques multilingues =E0 partir de corpus
-  multilingues.
+- 3 invited talks
+- 2 invited tutorials
+- refereed contributions
+- open sessions for discussion in specific subfields=2C on open problems=
+=2C or on professional issues (if requested by the participants)
 
-- la construction de ressources multilingues et leur exploitation ;
+INVITED SPEAKERS=3A
 
-- l'utilisation de ressources monolingues dans des syst=E8mes
-  multilingues ;
+John Brzozowski (Waterloo)=2C Complexity in Convex Languages
+Alexander Clark (London)=2C Three Learnable Models for the Description o=
+f Language
+Lauri Karttunen (Palo Alto)=2C to be announced (tutorial)
+Borivoj Melichar (Prague)=2C Arbology=3A Trees and Pushdown Automata
+Anca Muscholl (Bordeaux)=2C Communicating Automata (tutorial)
 
-- la g=E9n=E9ricit=E9 des approches en analyse ou en traduction automatique=
- ;
+PROGRAMME COMMITTEE=3A
 
-- la constitution et l=92exploitation de typologies des langues.
+Alberto Apostolico (Atlanta)
+Thomas B=E4ck (Leiden)
+Stefania Bandini (Milano)
+Wolfgang Banzhaf (St=2E John=27s)
+Henning Bordihn (Potsdam)
+Kwang-Moo Choe (Daejeon)
+Andrea Corradini (Pisa)
+Christophe Costa Florencio (Leuven)
+Maxime Crochemore (Marne-la-Vall=E9e)
+W=2E Bruce Croft (Amherst)
+Erzs=E9bet Csuhaj-Varj=FA (Budapest)
+J=FCrgen Dassow (Magdeburg)
+Volker Diekert (Stuttgart)
+Rodney G=2E Downey (Wellington)
+Frank Drewes (Umea)
+Henning Fernau (Trier=2C co-chair)
+Rusins Freivalds (Riga)
+Rudolf Freund (Wien)
+Paul Gastin (Cachan)
+Edwin Hancock (York=2C UK)
+Markus Holzer (Giessen)
+Helmut J=FCrgensen (London=2C Canada)
+Juhani Karhum=E4ki (Turku)
+Efim Kinber (Fairfield)
+Claude Kirchner (Bordeaux)
+Brian Marcus (Vancouver)
+Carlos Mart=EDn-Vide (Brussels=2C co-chair)
+Risto Miikkulainen (Austin)
+Victor Mitrana (Bucharest)
+Claudio Moraga (Mieres)
+Sven Naumann (Trier)
+Chrystopher Nehaniv (Hatfield)
+Maurice Nivat (Paris)
+Friedrich Otto (Kassel)
+Daniel Reidenbach (Loughborough)
+Klaus Reinhardt (T=FCbingen)
+Antonio Restivo (Palermo)
+Christophe Reutenauer (Montr=E9al)
+Kai Salomaa (Kingston=2C Canada)
+Jeffrey Shallit (Waterloo)
+Eljas Soisalon-Soininen (Helsinki)
+Bernhard Steffen (Dortmund)
+Frank Stephan (Singapore)
+Wolfgang Thomas (Aachen)
+Marc Tommasi (Lille)
+Esko Ukkonen (Helsinki)
+Todd Wareham (St=2E John=27s)
+Osamu Watanabe (Tokyo)
+Bruce Watson (Pretoria)
+Thomas Wilke (Kiel)
+Slawomir Zadrozny (Warsaw)
+Binhai Zhu (Bozeman)
 
-Et les domaines d=92applications pourront notamment concerner :
-- la traduction automatique ou semi-automatique ;
-- la recherche d=92information inter-langue ;
-- l'analyse et la g=E9n=E9ration multilingue ;
-- la cat=E9gorisation multilingue ;
-- l=92aide =E0 la communication =E9crite ou =E0 l=92apprentissage des langu=
-es.
+ORGANIZING COMMITTEE=3A
 
-De mani=E8re transversale aux th=E8mes sugg=E9r=E9s, les articles proposant
-une r=E9flexion sur la g=E9n=E9ralisation de pratiques acquises pour un
-couple donn=E9 de langues (comme l=92anglais et le fran=E7ais) lors de la
-transposition des m=E9thodes =E0 des langues plus =E9loign=E9es seront
-appr=E9ci=E9s.
+Adrian Horia Dediu (Tarragona)
+Henning Fernau (Trier=2C co-chair) =
 
-MODALIT=C9S PRATIQUES :
+Maria Gindorf (Trier)
+Stefan Gulan (Trier)
+Anna Kasprzik (Trier)
+Carlos Mart=EDn-Vide (Brussels=2C co-chair) =
 
-Les articles seront =E9crits en fran=E7ais ou en anglais. Les soumissions
-en anglais ne seront accept=E9es que pour les auteurs non
-francophones. Les articles (maximum 25 pages au format PDF) seront
-envoy=E9s aux deux adresses suivantes : emmanuel.morin@univ-nantes.fr et
-holger.schwenk@lium.univ-lemans.fr. Les feuilles de style sont
-disponibles en ligne sur le site de la revue =E0 l=92adresse suivante
-http://atala.org/Instructions-aux-auteurs-feuilles.
+Norbert M=FCller (Trier)
+Bianca Truthe (Magdeburg)
 
-CALENDRIER PR=C9VISIONNEL :
+SUBMISSIONS=3A
 
-- 19 f=E9vrier 2010 : Intention de soumission (r=E9sum=E9 d=E9taill=E9 d=92=
-une
-  page)
-- 26 f=E9vrier 2010 : Date limite de soumission
-- 07 mai 2010 : Premi=E8re notification aux auteurs
-- 07 juin 2010 : Version r=E9vis=E9e
-- 12 juillet 2010 : D=E9cision finale du comit=E9 de r=E9daction
-- 01 septembre 2010 : Version finale
-- fin 2010 : Publication
+Authors are invited to submit papers presenting original and unpublished=
+ research=2E Papers should not exceed 12 single-spaced pages and should =
+be formatted according to the standard format for Springer Verlag=27s LN=
+CS series (see http=3A//www=2Espringer=2Ecom/computer/lncs/lncs+authors=3F=
+SGWID=3D0-40209-0-0-0)=2E Submissions have to be uploaded at=3A
 
-COMIT=C9 DE LECTURE SP=C9CIFIQUE :
+http=3A//www=2Eeasychair=2Eorg/conferences/=3Fconf=3Dlata2010
 
-- N=FAria Bel, Universitat Pompeu Fabra, Espagne
-- Laurent Besacier, LIG, Universit=E9 de Grenoble 1, France
-- Romaric Besan=E7on, CEA, France
-- Herv=E9 Blanchon, LIG, Universit=E9 de Grenoble 1, France
-- Nicola Cancedda, XRCE, France
-- Pascale Fung, Universit=E9 de Science et Technologie, Hong Kong
-- Pierre Isabelle, NRC-CNRC, Canada
-- Eric Gaussier, LIG, Universit=E9 de Grenoble 1, France
-- Gregory Grefenstette, Exalead, France
-- Kyo Kageura, Universit=E9 de Tokyo, Japon
-- Olivier Kraif, LIDILEM, Universit=E9 de Grenoble, France
-- Marie-Claude L'Homme, Universit=E9 de Montr=E9al, Canada
-- Aur=E9lien Max, LIMSI, Universit=E9 de Paris 11, France
-- Bruno Pouliquen, OMPI, ONU
-- Violaine Prince, LIRMM, Universit=E9 de Montpellier, France
-- Aarne Ranta , Universit=E9 de Gothenburg, Su=E8de
-- Jean Senellart, Systran, France
-- Michel Simard, NRC-CNRC, Canada
-- Monique Slodzian, INALCO, France
-- Kamel Sma=EFli, LORIA, Universit=E9 de Nancy, France
-- Eric Wehrli, LATL, Universit=E9 de Gen=E8ve, Suisse
+PUBLICATIONS=3A
 
-(et peut-=EAtre quelques autres...)
+A volume of proceedings published by Springer in the LNCS series will be=
+ available by the time of the conference=2E
 
+A special issue of the Journal of Computer and System Sciences (Elsevier=
+) will be later published containing refereed extended versions of some =
+of the papers contributed to the conference=2E Submissions to it will be=
+ only by invitation=2E
 
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D
-MULTILINGUALISM AND NLP
-SPECIAL ISSUE OF THE TAL JOURNAL
+A special issue of another major journal containing papers oriented to a=
+pplications is under consideration=2E
 
-Deadline for submission: 26 February 2010
+REGISTRATION=3A
 
-GUEST EDITORS:
+The period for registration will be open since September 1=2C 2009 until=
+ May 24=2C 2010=2E The registration form can be found at the website of =
+the conference=3A http=3A//grammars=2Egrlmc=2Ecom/LATA2010/
 
-Emmanuel Morin (LINA, Universit=E9 de Nantes, France) and Holger Schwenk
-(LIUM, Universit=E9 du Maine, France)
+Early registration fees=3A 500 Euro
+Early registration fees (PhD students)=3A 400 Euro
+Late registration fees=3A 530 Euro
+Late registration fees (PhD students)=3A 430 Euro
+On-site registration fees=3A 550 Euro
+On-site registration fees (PhD students)=3A 450 Euro
 
+At least one author per paper should register=2E Papers that do not have=
+ a registered author by February 15=2C 2010 will be excluded from the pr=
+oceedings=2E
 
-FIRST CALL FOR PAPERS:
+Fees comprise access to all sessions=2C one copy of the proceedings volu=
+me=2C coffee breaks=2C lunches=2C excursion=2C and conference dinner=2E
 
-It has now been ten years since the last issue of the TAL journal on
-the subject of multilingualism and this topic has become a reality
-that cannot be ignored, in particular on the Internet. While the
-English language largely dominated a decade ago, the representation of
-Chinese, Hindi or Spanish is tending to reveal the real importance of
-these languages. Today, the Internet better reflects the diversity of
-national and regional languages. Logically, the computer applications
-that are developed =96 either in machine translation, in cross-language
-information retrieval, in computer-assisted writing or language
-learning... =96 must illustrate this reality by taking account of more
-and more diverse languages, sometimes with great linguistic
-differences between them.
+PAYMENT=3A
 
-This special issue of the TAL journal
-(http://www.atala.org/-Revue-TAL) aims at giving an overall picture of
-NLP research on multilingualism.
+Early (resp=2E late) registration fees must be paid by bank transfer bef=
+ore February 15=2C 2010 (resp=2E May 14=2C 2010) to the conference serie=
+s account at Open Bank (Plaza Manuel Gomez Moreno 2=2C 28020 Madrid=2C S=
+pain)=3A IBAN=3A ES1300730100510403506598 - Swift code=3A OPENESMMXXX (a=
+ccount holder=3A Carlos Martin-Vide =26 URV =96 LATA 2010)=2E
 
-The following topics (this is a non-exhaustive list) will be
-considered:
+Please write the participant=92s name in the subject of the bank form=2E=
+ Transfers should not involve any expense for the conference=2E
 
-- Mining and alignment from multilingual corpora ;
+On-site registration fees can be paid only in cash=2E
 
-o Extraction of parallel segments from comparable corpora;
+A receipt for the payment will be provided on site=2E
 
-o Extraction of multilingual lexicon from multilingual corpora.
+Besides paying the registration fees=2C it is required to fill in the re=
+gistration form at the website of the conference=2E
 
-- Building and using multilingual resources;
-- Using monolingual resources in multilingual systems;
-- Generalization of the approaches in analysis or in machine
-  translation;
-- Building and using language typologies.
+BEST PAPER AWARDS=3A
 
-Fields of application could include:
-- Automatic or semi-automatic translation methods;
-- Cross-language information retrieval;
-- Multilingual analysis and generation;
-- Multilingual document categorization;
-- Computer-assisted writing or language learning.
+An award will be offered to the authors of the two best papers accepted =
+to the conference=2E Only papers fully authored by PhD students are elig=
+ible=2E The award intends to cover their travel expenses=2E
 
-In addition to the suggested topics, the papers that reflect on the
-generalization of practices acquired for a given pair of languages
-(such as English and French) when transposing methods to unrelated
-languages will be appreciated.
+IMPORTANT DATES=3A
 
-GUEST EDITORS:
+Paper submission=3A December 3=2C 2009 *
+Notification of paper acceptance or rejection=3A January 21=2C 2010
+Final version of the paper for the LNCS proceedings=3A February 3=2C 201=
+0
+Early registration=3A February 15=2C 2010
+Late registration=3A May 14=2C 2010
+Starting of the conference=3A May 24=2C 2010
+Submission to the post-conference special issue(s)=3A August 27=2C 2010
 
-Emmanuel Morin, LINA, Universit=E9 de Nantes, France
-Holger Schwenk, LIUM, Universit=E9 du Maine, France
+* Contributors who have submitted by the deadline will be allowed to upl=
+oad an updated version until December 10=2E
 
-PRACTICAL ISSUES:
+FURTHER INFORMATION=3A
 
-Manuscripts may be submitted in English or French. French-speaking
-authors are requested to submit in French. Contributions (25 pages
-maximum, PDF format) must be sent by e-mail to both editors at the
-addresses below: emmanuel.morin@univ-nantes.fr and
-holger.schwenk@lium.univ-lemans.fr. Style sheets are available on the
-journal website: http://atala.org/Instructions-aux-auteurs-feuilles.
+gindorf-ti=40informatik=2Euni-trier=2Ede
 
-IMPORTANT DATES:
+CONTACT=3A
 
-- 19 February 2010: Statement of intent to submit (detailed summary, 1
-  page)
-- 26 February 2010: Submission deadline
-- 07 May 2010: First decision of the editorial board
-- 07 June 2010: Revised version of the accepted papers
-- 12 July 2010: Final decision of the editorial board
-- 01 September 2010: Final version of the accepted papers
-- end of 2010: Publication
+LATA 2010
+Universit=E4t Trier
+Fachbereich IV =96 Informatik
+Campus II=2C Behringstra=DFe
+D-54286 Trier
 
-SPECIFIC EDITORIAL BOARD:
+Phone=3A +49-(0)651-201-2836
+Fax=3A +49-(0)651-201-3954
 
-- N=FAria Bel, Universitat Pompeu Fabra, Spain
-- Laurent Besacier, LIG, Universit=E9 de Grenoble 1, France
-- Romaric Besan=E7on, CEA, France
-- Herv=E9 Blanchon, LIG, Universit=E9 de Grenoble 1, France
-- Nicola Cancedda, XRCE, France
-- Pascale Fung, University of Science and Technology, Hong Kong
-- Pierre Isabelle, NRC-CNRC, Canada
-- Eric Gaussier, LIG, Universit=E9 de Grenoble 1, France
-- Gregory Grefenstette, Exalead, France
-- Kyo Kageura, University of Tokyo, Japan
-- Olivier Kraif, LIDILEM, Universit=E9 de Grenoble, France
-- Marie-Claude L'Homme, Universit=E9 de Montr=E9al, Canada
-- Aur=E9lien Max, LIMSI, Universit=E9 de Paris 11, France
-- Bruno Pouliquen, WIPO, NU
-- Violaine Prince, LIRMM, Universit=E9 de Montpellier, France
-- Aarne Ranta, University of Gothenburg, Sweden
-- Jean Senellart, Systran, France
-- Michel Simard, NRC-CNRC, Canada
-- Monique Slodzian, INALCO, France
-- Kamel Sma=EFli, LORIA, Universit=E9 de Nancy, France
-- Eric Wehrli, LATL, Universit=E9 de Gen=E8ve, Switzerland
-
-(and maybe a few others...)
-
--------------------------------------------------------------------------
-Message diffuse par la liste Langage Naturel <LN@cines.fr>
-Informations, abonnement : http://www.atala.org/article.php3?id_article=3D48
-English version       :=20
-Archives                 : http://listserv.linguistlist.org/archives/ln.html
-                                http://liste.cines.fr/info/ln
-
-La liste LN est parrainee par l'ATALA (Association pour le Traitement
-Automatique des Langues)
-Information et adhesion  : http://www.atala.org/
--------------------------------------------------------------------------
-
-
-
-
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

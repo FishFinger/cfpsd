@@ -1,175 +1,178 @@
-From - Thu Dec 10 14:23:36 2009
+From - Thu Dec 10 14:23:40 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: a562b8fe47e93b4fafb48c342537e7b23fdea505
+X-Gmail-Received: d8e59b857b88b5d7f622bba6366a682bb7328990
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs91976pyi;
-        Fri, 7 Jul 2006 16:17:50 -0700 (PDT)
-Received: by 10.36.55.2 with SMTP id d2mr3069395nza;
-        Fri, 07 Jul 2006 16:17:50 -0700 (PDT)
+Received: by 10.35.11.2 with SMTP id o2cs246525pyi;
+        Wed, 26 Jul 2006 14:21:11 -0700 (PDT)
+Received: by 10.35.26.14 with SMTP id d14mr11919533pyj;
+        Wed, 26 Jul 2006 14:21:11 -0700 (PDT)
 Return-Path: <rasmusse@research.rutgers.edu>
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id 17si9474969nzo.2006.07.07.16.17.48;
-        Fri, 07 Jul 2006 16:17:50 -0700 (PDT)
+        by mx.gmail.com with ESMTP id w54si1406595pye.2006.07.26.14.21.09;
+        Wed, 26 Jul 2006 14:21:11 -0700 (PDT)
 Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHlcT000502;
-	Sat, 8 Jul 2006 09:17:47 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QLL0KR025756;
+	Thu, 27 Jul 2006 07:21:08 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809174710729
- ; Sat, 08 Jul 2006 09:17:47 +1000
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707210828677
+ ; Thu, 27 Jul 2006 07:21:08 +1000
 Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHijX000499;
-	Sat, 8 Jul 2006 09:17:44 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QLL5EV025771;
+	Thu, 27 Jul 2006 07:21:05 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k67NHQa7002530
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k6QLL4ui014121
 	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Sat, 8 Jul 2006 09:17:26 +1000 (EST)
+	Thu, 27 Jul 2006 07:21:04 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k67NHPVK000351;
-	Sat, 8 Jul 2006 09:17:25 +1000 (EST)
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6QLL0KN025756;
+	Thu, 27 Jul 2006 07:21:04 +1000 (EST)
 Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070809172010719
- ; Sat, 08 Jul 2006 09:17:20 +1000
-Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k67NHHiL000318;
-	Sat, 8 Jul 2006 09:17:17 +1000 (EST)
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006072707210328675
+ ; Thu, 27 Jul 2006 07:21:03 +1000
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6QLL075025757;
+	Thu, 27 Jul 2006 07:21:00 +1000 (EST)
 Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
-	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k67NHEb12788;
-	Sat, 8 Jul 2006 09:17:14 +1000 (EST)
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k6QLKsA27502;
+	Thu, 27 Jul 2006 07:20:54 +1000 (EST)
 Received: (from rasmusse@localhost)
-	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k67MC7527540;
-	Fri, 7 Jul 2006 18:12:07 -0400 (EDT)
-Date: Fri, 7 Jul 2006 18:12:06 EDT
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k6QK3w628718;
+	Wed, 26 Jul 2006 16:03:58 -0400 (EDT)
+Date: Wed, 26 Jul 2006 16:03:57 EDT
 From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
 To: rasmusse@cs.rutgers.edu
-Subject: Hawaii: New Frontiers in Biomedical Text Mining - CFP
-Message-ID: <CMM-RU.1.5.1152310326.rasmusse@research.rutgers.edu>
+Subject: India: Workshop on Analytics for Noisy Unstructured Text Data (at
+        IJCAI-07) -- CFP
+Message-ID: <CMM-RU.1.5.1153944237.rasmusse@research.rutgers.edu>
 
 
-Second Call For Papers
 
-NEW FRONTIERS IN BIOMEDICAL TEXT MINING
+IJCAI-07 Workshop 
 
-A Pacific Symposium on Biocomputing Session
-January 3-7, 2007
-Grand Wailea Resort, Wailea, Maui, Hawaii
-http://psb.stanford.edu/cfp-nlp.html
+Workshop on Analytics for Noisy Unstructured Text Data 
+8 January 2007 , Hyderabad, India 
 
-IMPORTANT DATES
+http://research.ihost.com/and2007 
+ 
+Call for Papers 
 
-    Paper submissions due:		July 17, 2006
-    Notification of paper acceptance:	September 6, 2006
-    Final paper deadline:			  September 25, 2006
-    Meeting dates:
-    January 3-7, 2007
 
-TOPICS
+Workshop Description and Objectives 
+Noisy unstructured text data is found in informal settings such as
+online chat, SMS, emails, message boards, newsgroups, blogs, wikis and
+web pages. Also, text produced by processing spontaneous speech,
+printed text, handwritten text contains processing noise. Text
+produced under such circumstances is typically highly noisy containing
+spelling errors, abbreviations, non-standard words, false starts,
+repetitions, missing punctuations, missing case information, pause
+filling words such as "um" and "uh." Such text can be seen in large
+amounts in contact centers, on-line chat rooms, OCRed text documents,
+SMS corpus etc. The theme of the IJCAI 2007 Conference is "AI and its
+benefits to society." In keeping with this theme, this workshop
+proposes to look at text analytics of highly noisy text that is
+produced in such everyday applications in society. 
+The goal of the workshop is to focus on the problems encountered in
+analyzing such noisy documents coming from various sources. The nature
+of the text warrants moving beyond traditional text analytics
+techniques. We hope that the workshop will allow researchers to
+present current research and development in addressing this
+challenge. We also believe that as a result of this workshop there
+will be sharing of real life noisy data sets and will result in their
+becoming available to a wider research community. 
+ 
+Topics 
+We welcome original research papers that identify key problems related
+to noisy text analytics and offer solutions. We particularly encourage
+contributions that look at solving real life problems in the different
+settings where such data is produced in huge amounts. Potential topics
+include (but not limited to): 
+"	NLP techniques for handling noisy unstructured data 
+"	Characterization of the types of noise in documents 
+"	Genre recognition based on the type of noise 
+"	Robust parsing 
+"	Characterizing, modeling and accounting for historical
+language change 
+"	 Methods for detecting and correcting spelling and grammatical
+errors in noisy text 
+"      Information Extraction and Retrieval from noisy text 
+"      Automatic classification and clustering of imprecise documents 
+"      Noise-invariant document summarization techniques 
+"      Issues in keyword search in presence of noise in unstructured
+data 
+"    Machine Translation for noisy text 
+"    Text analysis techniques for analysis and mining of call-logs,
+transcribed calls, web logs, chat logs, email exchanges 
+"	    Business Intelligence(BI) applications for contact centers
+that deal with noisy data 
+"    Surveys on aspects of text analytics for noisy unstructured data
+  
+Participation 
+We hope that the workshop will allow researchers working in areas
+related to unstructured data analytics, Natural Language Processing,
+Information Extraction, Information Retrieval, etc., to focus on the
+needs of users extracting useful information from noisy text. The
+target audience is a mixture of academia and industry researchers
+working with noisy text. We believe this work is of direct relevance
+to domains such as call centers, the world-wide web, and government
+organizations that need to analyze huge amounts of noisy data. 
 
-Papers are invited on the topic of text data mining in its strictest
-sense: providing users with information not explicitly stated in
-text. Work submitted to this session will be required to be more
-ambitious with respect to either theory or reach than the entity
-identification, information extraction, and information retrieval
-projects that comprise most work in biomedical language processing.
+IAPR Endorsement 
+This workshop is endorsed by the International Association for Pattern
+Recognition (http://www.iapr.org) 
 
-We especially solicit work in the following areas:
+Important Dates 
+"	  Paper Submission: September 25th, 2006 
+"	  Notification of Acceptance: October 23rd, 2006 
+"	  Camera-Ready papers due: November 8th, 2006 
+"	  Workshop at IJCAI 2007: January 8th, 2007
+  
+Submission Requirements 
+We invite papers up to 8 pages in length in the style specified by
+IJCAI at 
+(pdf: http://www.ijcai-07.org/ijcai07_format.pdf, word:
+http://www.ijcai-07.org/ijcai07_format.dot, LaTeX:
+http://www.ijcai-07.org/ijcai07_format_latex.tar).  Papers should
+describe original completed work, work in progress, or interesting
+problems or use cases.  Submitted papers will be fully refereed based
+on the originality and significance of the ideas presented as well as
+on technical aspects.  Submissions should be made electronically to
+lvsubram@in.ibm.com and rshourya@in.ibm.com  before September 25th,
+2006.   
 
- o Question answering
- o Summarization
- o Mining data from full text including figures, tables, and images
- o Coreference resolution and normalization
- o User-driven systems, including user needs, user model, interactive
-   systems, and user interfaces for biomedical language processing
- o Evaluation: test collections and evaluation methods
+IAPR Best Student Paper Award 
+IAPR is sponsoring the Best Student Paper Prize at AND 2007. One paper
+in which a student is the primary author (first author/presenter) will
+be selected for the IAPR Best Student Paper Award. The awardee will be
+nominated through the paper reviewing process and the final decision
+will be made during the workshop. The award carries a cash prize of
+$160 which will be given at the conclusion of the workshop. 
 
-SESSION CHAIRS
+Publication 
+We are currently in negotiation with a leading publisher for the
+proceedings to be available onsite. We have also received tentative
+approval for a special issue of a journal for post-workshop
+publication of selected papers. 
+ 
+Workshop Chairs 
+Craig Knoblock 
+University of Southern California 
+ Daniel Lopresti 
+Lehigh University 
+ Shourya Roy 
+IBM Research, India Research Lab 
+ L. Venkata Subramaniam 
+IBM Research, India Research Lab 
+ 
+Workshop contacts 
+* L. V. Subramaniam lvsubram@in.ibm.com 
+* Shourya Roy rshourya@in.ibm.com 
 
- o Pierre Zweigenbaum (Contact person)
-   Inserm U729; Assistance Publique - Paris Hospitals; Inalco
-   pz@biomath.jussieu.fr
- o Dina Demner-Fushman
-   Lister Hill National Center for Biomedical Communications
-   U.S. National Library of Medicine
-   ddemner@mail.nih.gov
- o Kevin Bretonnel Cohen
-   Center for Computational Pharmacology
-   kevin.cohen@gmail.com
- o Hong Yu
-   College of Health Sciences
-   University of Wisconsin-Milwaukee
-   yuh9001@dbmi.columbia.edu
 
-SUBMISSION INFORMATION
+Please visit the workshop website 
+***** http://research.ihost.com/and2007  ***** 
+for information about participation and submitting papers. 
 
- o All papers must be submitted to Russ Altman in PostScript (.ps),
-   Adobe Acrobat (.pdf), or Microsoft Word (.doc) format. Adobe
-   Acrobat
-   is preferred.
-
- o Attached files should be named with the last name of the first
-   author (e.g. altman.ps, altman.pdf, or altman.doc). Hardcopy
-   submissions or unprocessed TeX or LaTeX files will be rejected
-   without review.
-
- o Every paper must be accompanied by a cover letter which must
- include
-   the following:
-    - The email address of the corresponding author
-    - The specific PSB session that the paper should be considered for
-    - A statement that the submitted paper contains original,
-      unpublished results, and is not currently under consideration
-      elsewhere
-    - A statement that all authors concur with the contents of the
-      paper
-
- o Submitted papers are limited to twelve (12) pages in the PSB
-   publication format.
-
- o Please format your paper according to the instructions found at
-   http://psb.stanford.edu/psb-online/psb-submit/.
-
- o If figures cannot easily be resized and placed precisely in the
-   text, then it should be clear that with appropriate modifications,
-   the total manuscript length would be within the page limit.
-
- o Color pictures can be printed at the expense of the authors.
-   The fee is $500 per page of color pictures, payable at the time of
-   camera-ready submission.
-
- o Contact Russ Altman (russ.altman@stanford.edu) for additional
-   information about paper submission requirements.
-
-PROGRAM COMMITTEE MEMBERS
-
-    Eugene Agichtein, Microsoft Research
-    Sophia Ananiadou, University of Salford
-    Alan Aronson, U.S. National Library of Medicine
-    Sabine Bergler, Concordia University
-    Olivier Bodenreider, U.S. National Library of Medicine
-    Breck Baldwin, Alias-i Inc
-    Bob Carpenter, Alias-i Inc
-    Shih-Fu Chang, Columbia University
-    James Cimino, Columbia University
-    Aaron Cohen, Oregon Health Sciences University
-    Nigel Collier, National Institute of Informatics, Tokyo
-    Lynne Fox, University of Colorado
-    Kristofer Franzin, Swedish Institute of Computer Science
-    Carol Friedman, Columbia University
-    Robert Futrelle, Northeastern University
-    Henk Harkema, Cognia Corporation
-    Marti Hearst, University of California, Berkeley
-    Lynette Hirschman, The MITRE Corporation
-    Adeline Nazarenko, LIPN-CNRS & University Paris-Nord
-    Tom Rindflesch, U.S. National Library of Medicine
-    Jasmin Saric, University of Stuttgart
-    Vijay Shanker, University of Delaware
-    Hagit Shatkay, Queen's University, Kingston, Ontario
-    Padmini Srinivasan, University of Iowa
-    Lorrie Tanabe, NCBI/U.S. National Library of Medicine
-    Jun'ichi Tsujii, University of Tokyo
-    Alfonso Valencia, National Centre for Biotechnology, Madrid
-    Karin Verspoor, Los Alamos National Laboratory
-    Bonnie Webber, University of Edinburgh
-    John Wilbur, NCBI/U.S. National Library of Medicine
-
+For general information, please visit the IJCAI website 
+***** http://www.ijcai-07.org *****

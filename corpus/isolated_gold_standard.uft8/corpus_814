@@ -1,181 +1,96 @@
-From - Thu Dec 10 14:39:23 2009
+From - Thu Dec 10 14:39:11 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.101.195 with SMTP id d3cs1191452bko;
-        Wed, 9 Dec 2009 13:41:48 -0800 (PST)
-Received: by 10.213.25.79 with SMTP id y15mr1577484ebb.24.1260394900122;
-        Wed, 09 Dec 2009 13:41:40 -0800 (PST)
-Return-Path: <corpora-bounces@uib.no>
-Received: from half.uib.no (half.uib.no [129.177.30.20])
-        by mx.google.com with ESMTP id 26si774312ewy.23.2009.12.09.13.41.36;
-        Wed, 09 Dec 2009 13:41:40 -0800 (PST)
-Received-SPF: pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) client-ip=129.177.30.20;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of corpora-bounces@uib.no designates 129.177.30.20 as permitted sender) smtp.mail=corpora-bounces@uib.no
-Received: from localhost (half.uib.no) [127.0.0.1] 
-	by half.uib.no  with esmtp  (Exim 4.69)
-	id 1NIUEw-00012L-M5; Wed, 09 Dec 2009 22:38:30 +0100
-Received: from alfons.uib.no [129.177.30.72] 
-	by half.uib.no for corpora@lists.uib.no with esmtp  (Exim 4.69)
-	id 1NIUEv-00012B-5W; Wed, 09 Dec 2009 22:38:29 +0100
-Received: from stoat.shef.ac.uk [143.167.2.187] 
-	by alfons.uib.no for corpora@lists.uib.no with esmtps
-	(TLSv1:DES-CBC3-SHA:168) (Exim 4.69)
-	id 1NIUEu-0006N5-4b; Wed, 09 Dec 2009 22:38:29 +0100
-Received: from va208100.shef.ac.uk ([143.167.208.100])
-	by stoat.shef.ac.uk with esmtp (Exim 4.68)
-	(envelope-from <H.Saggion@dcs.shef.ac.uk>) id 1NIUEt-0001ha-45
-	for corpora@lists.uib.no; Wed, 09 Dec 2009 21:38:27 +0000
-Message-ID: <4B2018C1.7060108@dcs.shef.ac.uk>
-Date: Wed, 09 Dec 2009 21:38:09 +0000
-From: Horacio Saggion <H.Saggion@dcs.shef.ac.uk>
-User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
+Received: by 10.204.118.66 with SMTP id u2cs237715bkq;
+        Fri, 20 Nov 2009 12:41:01 -0800 (PST)
+Received: by 10.150.72.25 with SMTP id u25mr3421613yba.273.1258749660302;
+        Fri, 20 Nov 2009 12:41:00 -0800 (PST)
+Return-Path: <postmaster13@303media.net>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 27si3353875gxk.49.2009.11.20.12.40.58;
+        Fri, 20 Nov 2009 12:41:00 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of postmaster13@303media.net) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by best guess record for domain of postmaster13@303media.net) smtp.mail=postmaster13@303media.net
+Received: from mail.303media.net (mail.303media.net [207.159.133.35])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with ESMTP id nAKKeuxf006558
+	for <jpprost@ics.mq.edu.au>; Sat, 21 Nov 2009 07:40:57 +1100 (EST)
+Received: from 303media.net ([207.159.133.34])
+        by mail.303media.net (303Mail v5.1.8) with SMTP id BLO37685
+        for <jpprost@ics.mq.edu.au>; Fri, 20 Nov 2009 14:40:57 -0500
+From: "CSEDU Secretariat" <postmaster13@303media.net>
+To: jpprost@ics.mq.edu.au
+Reply-To: "csedu.secretariat@insticc.org" <csedu.secretariat@insticc.org>
+Subject: CSEDU 2010 - Call for workshop papers 
+Date: Fri, 20 Nov 2009 14:41:24 -0500
+Message-ID: <20091120-14412447-eac@303media.net>
+X-Mailer: Internet Mail Manager (a)
+X-IMMS: 205335
+X-IMMP: 8HLNMBLM89R5EZUKX
 MIME-Version: 1.0
-To: corpora@lists.uib.no
-X-S0phie-Scan: no
-X-checked-clean: by exiscan on alfons
-X-Scanner: 71e8c7f2719e027adf2363694b3eabbc http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-Subject: [Corpora-List] CFP (final deadline) - Natural Language Processing
- for the Social Sciences (Argentina)
-X-BeenThere: corpora@uib.no
-X-Mailman-Version: 2.1.12
-Precedence: list
-List-Id: <corpora.uib.no>
-List-Unsubscribe: <http://mailman.uib.no/options/corpora>,
-	<mailto:corpora-request@uib.no?subject=unsubscribe>
-List-Archive: <http://www.uib.no/mailman/public/corpora>
-List-Post: <mailto:corpora@uib.no>
-List-Help: <mailto:corpora-request@uib.no?subject=help>
-List-Subscribe: <http://mailman.uib.no/listinfo/corpora>,
-	<mailto:corpora-request@uib.no?subject=subscribe>
-Content-Transfer-Encoding: quoted-printable
-Content-Type: text/plain; charset="iso-8859-1"; Format="flowed"
-Sender: corpora-bounces@uib.no
-Errors-To: corpora-bounces@uib.no
+X-Synonym: Copied by Synonym (http://www.modulo.ro/synonym) to: archiver
 
-1st Workshop on Natural Language Processing Tools Applied to Discourse =
+Dear Jean-Philippe Prost,
 
-Analysis in Psychology
+We would like to draw your attention to the WORKSHOPS co-located with CSEDU 2010 - 2nd Int'l Conf. on Computer Supported Education, to be held in Valencia, Spain (7 - 10 April, 2010), organized by INSTICC and in cooperation with WfMC. The following workshops will be held:  
+ 
+:: 1st International Workshop on Gaming Platforms for Education and Reeducation Purposes - GPERP 2010
+   Chair: Francisco Ibáñez, Brainstorm Multimedia / Innovatec / Toy Research Institute, Spain
+   http://www.csedu.org/GPERP.htm
 
-    Instituto de Altos Estudios en Psicologia y Ciencias Sociales
-            Buenos Aires, Argentina
-         May 10th - 14th, 2010
+:: 2nd International Workshop on Enterprise Systems in Higher Education - ESHE 2010
+   Chairs: Liane Haak, Carl von Ossietzky University Oldenburg, Germany
+           Jorge Marx Gómez, Carl von Ossietzky University Oldenburg, Germany
+           Dirk Peters, Carl von Ossietzky University Oldenburg, Germany
+   http://www.csedu.org/ESHE.htm
+
+We would therefore like to invite you to submit a paper to one of these workshops, whose deadline is scheduled to next December 22nd. 
+
+For more details, please see the workshops website at: http://www.csedu.org/Workshops.htm
+
+Should you have any question or suggestion please don't hesitate to contact me.
 
 
-Call for Abstracts for a special session on NLP for the Social Sciences
+Kind regards,
+Bruno Encarnacao
+
+CSEDU Secretariat
+Av. D. Manuel I, 27A 2esq.
+2910-595 Setubal, Portugal
+Tel.: +351 265 520 184
+Fax: +44 203 014 8596
+Email: csedu.secretariat@insticc.org
+Web: http://www.csedu.org
 
 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>><><>><>><>><>><
 
-In recent  years, the field  of natural language processing  (NLP) has
-experienced  a  renewed interest  in  the  analysis  of non  "factual"
-discourse,  which  is  characterised  by  the  presence  of  affective
-language, sentiments, opinions, feelings, believes, and manifestations
-of emotional states, and which is charged with subjectivity. There are
-not only interesting theoretical issues which deserve scientific study
-such  as what  makes a  discourse subjective,  or how  to discriminate
-between  emotional  states  in  text  or speech,  but  also  practical
-applications    (e.g.,   dialogue    systems,    question   answering,
-summarization, extraction)  may benefit  from those studies.  Thus, we
-are calling for  contributions which will bring together  the areas of
-Natural Language Processing and the Social Sciences.
+CSEDU website: http://www.csedu.org/
+CSEDU Workshops Website: http://www.csedu.org/Workshops.htm
 
-Main Topics:
+IMPORTANT DATES:
+  Regular Paper Submission: December 22, 2009
+  Authors Notification: January 26, 2010
+  Final Paper Submission and Registration: February 10, 2010 
+  Event Date: April 09, 2010 
 
+  Location: Valencia, Spain
 
-* Natural Language Processing in Psychology
-
-* Electronic Language Resources for the Social Sciences (e.g., =
-
-dictionaries, lexicons, grammars)  =
+  Organized by INSTICC  
+  In Cooperation with WfMC
 
 
-* Natural Language Processing of non-factual Discourse
+  Proceedings indexed by INSPEC, DBLP, Thomson Reuters Conference Proceedings Citation Index and EI (awaiting the confirmation of indexation)
+  All papers will be available at the INSTICC's Digital Library
 
-* Natural Language Processing in the analysis of Political Discourse
+-----------------------------------------------------------------
+To SUBSCRIBE:
+http://internetmailmanager.com/s/reg.Asp?a=48TUJPKB6DEGULK7MJB8L9SE&b=8HLNMBLM89R5EZUKX
+-----------------------------------------------------------------
+To FORWARD:
+http://internetmailmanager.com/s/fwd.asp?a=48TUJPKB6DEGULK7MJB8L9SE&b=8HLNMBLM89R5EZUKX&t=56592
+-----------------------------------------------------------------
+To UNSUBSCRIBE:
+http://internetmailmanager.com/s/us.asp?a=48TUJPKB6DEGULK7MJB8L9SE&b=8HLNMBLM89R5EZUKX
+---------------------------------------------------
 
-* Automatic Analysis of Emotional Discourse
-
-* Automatic Detection of Sentiments and Opinions
-
-* Other topics related to the study and application of NLP to psychology and
- more generally the social sciences
-
-
-
-Format of submission:
-
-At this stage we are soliciting abstracts (in pdf)  of between 1000-1500 =
-
-words.
-The abstract should include:
-
-* Title
-* Authors and affiliations
-* Contact e-mail
-* 1000-1500 words (about 4 pages) including text, figures, and tables
-* References
-
-Language of the abstract: English or Spanish
-
- =
-
-Detailed submission instructions will be specified together with =
-
-notifications
- to the authors.
-
-
-Workshop Dates: 10th May - 14th May 2010.
-Submission date: 4th January 2010
-Notification to the Authors (accept/reject letters): 26 February 2010
-Camera Ready Copy: 26 March 2010
-
-Where to submit your contribution:
-
-Send your pdf abstract by e-mail  to Dr. Horacio Saggion
-(at http://www.dcs.shef.ac.uk/~saggion you will find the address where =
-
-to send your contribution).
-The subject of your e-mail should be "NLP4PSYCHO abstract".
-You will receive acknowledgment of reception of your contributions =
-
-within two days of submission.
-
-
-Organizer: Horacio Saggion
-
-Programme Committee
-
-* Laura Alonso y Alemani (Universidad Nacional de Cordoba, Argentina)
-* Jose Alvarez (Universidad Austral, Argentina)
-* John Atkinson (Universidad de Concepcion, Chile)
-* Javier  Couto (Universidad de la Republica, Uruguay)
-* Ariadne Carvalho (UNICAMP, Brazil)
-* Iria da Cunha (Universidad de Avignon/Universidad Pompeu Fabra, =
-
-France/Spain)
-* Gabriel Infante-Lopez (Uiversidad Nacional de Cordoba, Argentina)
-* David Martinez (University of Melbourne, Australia)
-* Diego Molla-Aliod (Macquarie University, Australia)
-* Gerardo Sierra Martinez (UNAM, Mexico)
-* Paloma Moreda (Universidad de Alicante, Spain)
-* Juan-Manuel Torres Moreno (Universidad de Avignon, France)
-* Rogelio Nazar (Universitat Pompeu Fabra, Spain)
-* Thiago Pardo (Universidade de Sao Paulo, Brazil)
-* Rene Venegas  (Pontificia Universidad Cat=C3=B3lica de Valpara=C3=ADso, C=
-hile)
-* Aline Villavicencio (Universidade Federal de Rio Grande do Sul, Brazil)
-* Maria das Gracas Volpe Nunes (Universidade de Sao Paulo, Brazil)
-* Dina Wonsever (Universidad de la Republica, Uruguay)
-* M=E3ity Siqueira (UFRGS, Brazil)
-* Vera Lucia Strube de Lima (UPRGS, Brazil)
-* Manuel Palomar (Universidad de Alicante, Spain)
-* Jose Luis Vicedo (Universidad de Alicante, Spain)
-
-
-_______________________________________________
-Corpora mailing list
-Corpora@uib.no
-http://mailman.uib.no/listinfo/corpora

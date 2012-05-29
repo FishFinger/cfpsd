@@ -1,194 +1,138 @@
-From - Thu Dec 10 14:23:37 2009
+From - Thu Dec 10 14:23:41 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 88be871bf7417420e71f7c1356c562057334394e
+X-Gmail-Received: 77ec4aeca9c4c4e7daf20ac9355c403822ae33fa
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs6690pyi;
-        Sat, 8 Jul 2006 15:01:03 -0700 (PDT)
-Received: by 10.67.19.13 with SMTP id w13mr3385098ugi;
-        Sat, 08 Jul 2006 15:01:03 -0700 (PDT)
-Return-Path: <owner-corpora@lists.uib.no>
-Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
-        by mx.gmail.com with ESMTP id h1si1291889ugf.2006.07.08.15.01.02;
-        Sat, 08 Jul 2006 15:01:03 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
-DomainKey-Status: bad (test mode)
-Received: from blenda.uib.no [129.177.30.130] 
-	by noralf.uib.no  with esmtp  (Exim 4.34)
-	id 1FzKqM-0006p3-CV; Sun, 09 Jul 2006 00:00:06 +0200
-Received: from majordomo by blenda.uib.no with local (Exim 4.60)
-	id 1FzL2e-000926-VG; Sun, 09 Jul 2006 00:12:48 +0200
-Received: from rolf.uib.no [129.177.30.19] 
-	by blenda.uib.no with esmtp (Exim 4.60)
-	id 1FzL1b-00091v-OD; Sun, 09 Jul 2006 00:11:43 +0200
-Received: from py-out-1112.google.com [64.233.166.181] 
-	by rolf.uib.no for corpora@hd.uib.no with esmtp  (Exim 4.34)
-	id 1FzKp6-0006Z2-6c; Sat, 08 Jul 2006 23:58:50 +0200
-Received: by py-out-1112.google.com with SMTP id b29so3296883pya
-        for <corpora@hd.uib.no>; Sat, 08 Jul 2006 14:58:47 -0700 (PDT)
-DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
-        s=beta; d=gmail.com;
-        h=received:message-id:date:from:to:subject:in-reply-to:mime-version:content-type:content-transfer-encoding:content-disposition:references;
-        b=A7Wd0J+Y07AIwtHqv0G1DyPbYImWkFXr358DFdb73FPkGEIBzNVOpbavrejpo0/tBJ3bWu8gHKXVrYODSV62DLsE1jaRN5cuVAF1VT3P1l+8cTTg80STNDBxhMD/FON1IB0k3OOw/fr7JlUkk2hIht7vn6AV1xBZ4TVXI5cqPCM=
-Received: by 10.35.60.16 with SMTP id n16mr3529039pyk;
-        Sat, 08 Jul 2006 14:58:47 -0700 (PDT)
-Received: by 10.35.79.11 with HTTP; Sat, 8 Jul 2006 14:58:47 -0700 (PDT)
-Message-ID: <4cb574fe0607081458o241d4c4ehed436143b8047587@mail.gmail.com>
-Date: Sat, 8 Jul 2006 23:58:47 +0200
-From: "Yuval Krymolowski" <yuvalkry@gmail.com>
-To: corpora@hd.uib.no
-Subject: [Corpora-List] 2nd CFP : Journal of Logic and Computation - Special Issue on Natural Language and Knowledge Representation
-In-Reply-To: <94f7fee60607081244v4a94c273q8a77de450b0fd06e@mail.gmail.com>
-MIME-Version: 1.0
-Content-Type: text/plain; charset=ISO-8859-1; format=flowed
-Content-Transfer-Encoding: quoted-printable
-Content-Disposition: inline
-References: <94f7fee60607081244v4a94c273q8a77de450b0fd06e@mail.gmail.com>
-X-checked-clean: by exiscan on rolf
-X-Scanner: 0f6c7e1c3883ed45eaf7ac1c5e7a95fa http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: -14.9 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-   0.0 Received by mail server with no name
-  -15 From is listed in 'whitelist_SA'
-List-Id: <corpora@uib.no>
-Sender: owner-corpora@lists.uib.no
-Precedence: bulk
-
-Forwarded from Jana Sukkarieh:
-
-Second CALL FOR PAPERS
-
-We cordially invite submissions of articles for a special issue of the
-journal of logic and computation <http://logcom.oxfordjournals.org/>
-on natural language and knowledge representation.
+Received: by 10.35.11.2 with SMTP id o2cs135746pyi;
+        Mon, 31 Jul 2006 14:43:29 -0700 (PDT)
+Received: by 10.65.126.4 with SMTP id d4mr4843153qbn;
+        Mon, 31 Jul 2006 14:43:29 -0700 (PDT)
+Return-Path: <rasmusse@research.rutgers.edu>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id 15si9783129nzn.2006.07.31.14.43.27;
+        Mon, 31 Jul 2006 14:43:29 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by best guess record for domain of rasmusse@research.rutgers.edu)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6VLgnSX023579;
+	Tue, 1 Aug 2006 07:43:26 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080107432619290
+ ; Tue, 01 Aug 2006 07:43:26 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6VLhNgJ023727;
+	Tue, 1 Aug 2006 07:43:23 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k6VLhM8Q007249
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Tue, 1 Aug 2006 07:43:22 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k6VLgnSN023579;
+	Tue, 1 Aug 2006 07:43:22 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006080107432219285
+ ; Tue, 01 Aug 2006 07:43:22 +1000
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k6VLhEC7023687;
+	Tue, 1 Aug 2006 07:43:14 +1000 (EST)
+Received: from research.rutgers.edu (research.rutgers.edu [128.6.25.145])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with ESMTP id k6VLh5q11889;
+	Tue, 1 Aug 2006 07:43:11 +1000 (EST)
+Received: (from rasmusse@localhost)
+	by research.rutgers.edu (8.11.7p2+Sun/8.8.8) id k6VKfN009741;
+	Mon, 31 Jul 2006 16:41:23 -0400 (EDT)
+Date: Mon, 31 Jul 2006 16:41:23 EDT
+From: Priscilla Rasmussen <rasmusse@cs.rutgers.edu>
+To: rasmusse@cs.rutgers.edu
+Subject: Journal of Natural Language Engineering -- Call for Special Issue
+        Proposals
+Message-ID: <CMM-RU.1.5.1154378483.rasmusse@research.rutgers.edu>
 
 
-Submission deadline: July 31st, 2006.
+Journal of Natural Language Engineering 
 
-TOPICS
-
-We believe that the Natural Language Processing (NLP) and the
-Knowledge Representation (KR) communities have common goals. They are
-both concerned with representing knowledge and with reasoning, since
-the best test for the semantic capability of an NLP system is
-performing reasoning tasks. Having these two essential common grounds,
-the two communities ought to have been collaborating, to provide a
-well-suited representation language that covers these grounds.
-However, the two communities also have difficult-to-meet concerns.
-Mainly, the semantic representation (SR) should be expressive enough
-and take the information in context into account, while the KR should
-be equipped with a fast reasoning process.
-
-The main objection against using an SR or a KR is that they need
-experts to be understood. Non-experts communicate (usually) via a
-natural language (NL), and more or less they understand each other
-while performing a lot of reasoning. An essential practical value of
-representations is their attempt to be transparent. This will
-particularly be useful when/if the system provides a justification for
-a user or a knowledge engineer on its line of reasoning using the
-underlying KR (i.e. without generating back to NL).
-
-We all seem to believe that, compared to Natural Language, the
-existing Knowledge Representation and reasoning systems are poor.
-Nevertheless, for a long time, the KR community has dismissed the idea
-that NL can be a KR.
-That's because NL can be very ambiguous and there are syntactic and
-semantic processing complexities associated with it. However,
-researchers in both communities have started looking at this issue
-again. Possibly, it has to do with the NLP community making some
-progress in terms of processing and handling ambiguity, the KR
-community realising that a lot of knowledge is already 'coded' in NL
-and that one should reconsider the way they handle expressivity and
-ambiguity.
-
-For this special journal issue of logic and computation, we invite the
-submission of original high quality articles.   Topics for this special
-issue include but not limited to:
-
-+ A novel NL-like KR or building on an existing one
-
-+ Reasoning systems that benefit from properties of NL to reason with NL
-
-+ Semantic representation used as a KR : compromise between expressivity
-   and efficiency?
-
-+ More Expressive KR for NL understanding (Any compromise?)
-
-+ Any work exploring how existing representations fall short of
-   addressing some problems involved in modelling, manipulating or
-   reasoning (whether reasoning as used to get an interpretation for a
-   certain utterance, exchange of utterances or what utterances follow
-   from other utterances) with NL documents
-
-+ Representations that show how classical logics are not as efficient,
-    transparent, expressive or where a one-step application of an
-    inference rule require more (complex) steps in a classical environment
-    and vice-versa; i.e. how classical logics are more powerful, etc.
-
-+ Building a reasoning test collection for natural language understanding
-   systems: any kind of reasoning (deductive, abductive, etc); for a
-   deductive test suite see for e.g. deliverable 16 of the FraCas
-   project. Also, look at textual entailment challenges 1 and 2.
-
-+ Comparative results (on a common test suite or a common task) of
-   different representations or systems that reason with NL (again any
-   kind of reasoning). The comparison could be either for efficiency,
-   transparency or expressivity
-
-+ Knowledge acquisition systems or techniques that benefit from
-   properties of NL to acquire knowledge already "coded" in NL
-
-+ Automated Reasoning, Theorem Proving and KR communities
-   views on all this
-
-+ Challenges in Natural Language and Reasoning
-
-+ Where is the NLP or KR community going wrong/right in meeting
-   the challenges?
+*** Call for special issue proposals *** 
 
 
+The area of Natural Language Engineering is following the trend of
+many other areas, becoming highly specialised with a number of
+application-orientated and narrow-domain topics emerging or growing in
+importance. These developments, often coincident with a lack of
+related literature, necessitates and warrants the publication of
+specialised volumes focusing on a specific topic of interest to the
+Natural Language Processing (NLP) research community. 
+
+The Journal of Natural Language Engineering invites proposals for
+special issues on a competitive basis on any topics of applied NLP
+which have emerged as important developments in Natural Language
+Engineering and which have attracted the attention of a number of
+researchers or research groups. 
+
+Topics could cover a variety of NLP methods, tasks and resources as
+well as NLP-related applications but should focus on the practical
+implications of operation on the large scale. Topics covering NLP
+methods, tasks and resources could include but are not limited to POS
+tagging, parsing, semantic role labelling, word sense disambiguation,
+anaphora and coreference resolution, named entity recognition, natural
+language generation, speech recognition, speech synthesis, multimodal
+processing, statistical methods in Natural Language Engineering,
+machine learning, evaluation methodologies, corpora and
+ontologies. Topics covering NLP applications could include but are not
+limited to machine translation, translation memory, translation tools,
+summarisation, information retrieval, information extraction,
+alignment, term extraction, question answering and CALL. 
+
+Calls for special issue proposals may be based on a successful
+workshop or a body of work associated with a particular group or
+section of the community. In all cases, however, the reviewing process
+of the accepted proposals will be rigorous and all submissions must be
+be reviewed by at least 3 members of the Guest Editorial Board or
+other suitable reviewers agreed by the NLE Editors. In the case of
+papers previously submitted to workshops, the Guest Editors will not
+be able to re-use previous workshop reviews. In addition, the call for
+papers of the accepted proposals must be open to all interested
+parties and all authors will be given equal treatment; in the case of
+proposals based on previous workshops, submissions cannot be limited
+to workshop participants only. 
+
+Interested editors have the option of preliminary feedback should by
+emailing expressions of interest accompanied by a brief description of
+the intended special issue to the Executive Editor
+(<mailto:John.Tait@sunderland.ac.uk>John.Tait@sunderland.ac.uk). He
+will give a brief indication of whether the topic is appropriate to
+Natural Language Engineering.  In the case of initial positive
+feedback, the prospective Guest Editors will be asked to submit a
+proposal for a special issue which will be reviewed by the Editors of
+the journal and where appropriate, by other members of the Journal
+Editorial Board. One proposal will be selected on a competitive basis
+for each call with the envisaged publication date for the successful
+proposal from this call on or after June 2008. 
+
+The proposal for a special issue should include a brief outline of the
+field and rationale as to why it is important to launch a special
+issue on the particular topic of interest. It should include a
+relevant literature survey (related previous special issues, volumes,
+workshop and conference proceedings) and should explain the added
+value of the proposed special issue against the background of other
+relevant publications and volumes (if applicable). The proposals
+should also include a tentative Guest Editorial Board, tentative
+time-scale for the production of the special issue and information
+about the prospective Guest Editors (relevant experience, publications
+etc.). 
 
 
-PROGRAM COMMITTEE
+  Time-scale 
 
-James ALLEN, University of Rochester, USA
-Patrick BLACKBURN, Institut National de Recherche en Informatique, France
-Johan BOS,  Universit=E0 di Roma "La Sapienza", Italy
-Alan BUNDY, University of Edinburgh, UK
-Harry BUNT, Tilburg University, The Netherlands
-Richard CROUCH, Palo Alto Research Centre, USA
-Ido DAGAN, Bar Ilan University, Israel
-Claire GARDENT, Centre national de la recherche scientifique, France
-Fernando GOMEZ, University of Central Florida, USA
-Sanda HARABAGIU, University of Texas at Dallas, USA
-John HARRISON, Intel Corporation, USA
-Jerry HOBBS, Information Sciences Institute, USA
-Chung Hee HWANG, Raytheon Co., USA
-Ewan KLEIN, University of Edinburgh, UK
-Michael KOHLHASE, International University Bremen, Germany
-Shalom LAPPIN, King's College, UK
-Carsten LUTZ, Dresden University of Technology, Germany
-Inderjeet MANI,  George Town University, USA
-David McALLESTER, Toyota Technological Institute at Chicago, USA
-Jeff PELLETIER, Simon Fraser University, Canada
-Stephen PULMAN, University of Oxford, UK
-Allan RAMSAY, The University of Manchester, UK
-Lenhart SCHUBERT, University of Rochester, USA
-John SOWA, VivoMind Intelligence, Inc., USA
-Jana SUKKARIEH, Secerno Ltd, UK
-Geoff SUTCLIFFE, Miami University, USA
-Jan VAN EIJCK,  Utrecht University & CWI, The Netherlands
+- Deadline for submission of special issue proposals: 
+  15 September 2006 
+  (proposals to be emailed to
+  <mailto:R.Mitkov@wlv.ac.uk>R.Mitkov@wlv.ac.uk) 
 
+- Notification of acceptance/rejection: 
+  15 October 2006 
 
-Paper submission deadline is July 31st, 2006. Submission process is
-available on http://users.ox.ac.uk/~lady0641/Flairs06_NL_KR/journal_issue.h=
-tml
-and the online submission system is available on :
-<http://www.easychair.org/NLKR2006/>
+- Final version of the successful proposal and 
+  call for papers: 
+  31 October 2006 
 
-Pdf or Ps documents should not exceed 20 pages. The articles will be
-peer reviewed and notification for authors will be sent as soon as
-possible after the date of submission.
-
-For any queries please contact <jana.sukkarieh@cantab.net>
+   
 

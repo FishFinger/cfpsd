@@ -1,132 +1,266 @@
-From - Thu Dec 10 14:39:12 2009
+From - Thu Dec 10 14:38:54 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs31325bkq;
-        Tue, 24 Nov 2009 03:56:24 -0800 (PST)
-Received: by 10.213.26.138 with SMTP id e10mr5050647ebc.67.1259063781704;
-        Tue, 24 Nov 2009 03:56:21 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 7si30312568ewy.48.2009.11.24.03.56.20;
-        Tue, 24 Nov 2009 03:56:21 -0800 (PST)
-Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 262F623C50; Tue, 24 Nov 2009 12:56:17 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00 autolearn=ham
-	version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 6070523CD5;
-	Tue, 24 Nov 2009 12:56:10 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id ED24F3D3C;
-	Tue, 24 Nov 2009 12:56:09 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id SlVOvwzEYR3K; Tue, 24 Nov 2009 12:56:09 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 6FFCD3D2B;
-	Tue, 24 Nov 2009 12:56:08 +0100 (CET)
-X-Original-To: elsnet-list@mailman.elsnet.org
-Delivered-To: elsnet-list@mailman.elsnet.org
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 8C6F93D2A
-	for <elsnet-list@mailman.elsnet.org>;
-	Thu, 19 Nov 2009 12:29:57 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id BIPSIkcewJ-e for <elsnet-list@mailman.elsnet.org>;
-	Thu, 19 Nov 2009 12:29:57 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 6F9183D0B
-	for <elsnet-list@mailman.elsnet.org>;
-	Thu, 19 Nov 2009 12:29:57 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 595D623CF3; Thu, 19 Nov 2009 12:29:57 +0100 (MET)
-Received: from nlp.cic.ipn.mx (nlp.cic.ipn.mx [148.204.64.31])
-	by mailhost.let.uu.nl (Postfix) with SMTP id DB8D123CDB
-	for <elsnet-list@let.uu.nl>; Thu, 19 Nov 2009 12:29:50 +0100 (MET)
-Received: from micron ([148.204.64.31]) by nlp.cic.ipn.mx
-	; Thu, 19 Nov 2009 05:20:19 -0600
-From: "Alexander Gelbukh \(CICLing-2010\)" <cfp2010a@cicling.org>
-To: <cfp2010a@cicling.org>
-Date: Thu, 19 Nov 2009 05:20:18 -0600
-Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAALI3J73DS75MnIsWE8Uv7xHCgAAAEAAAAA6K6LQ3JJJHkzeH+d5UZ6kBAAAAAA==@cicling.org>
-MIME-Version: 1.0
-Content-Type: text/plain;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: 7bit
-X-Mailer: Microsoft Office Outlook 11
-Thread-Index: AcppCkYsp95zy9T7Q1y6LuVTST89HQ==
-X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
-X-Mailman-Approved-At: Tue, 24 Nov 2009 12:56:05 +0100
-Cc: 
-Subject: [Elsnet-list] CFP one-week reminder: CICLing 2010 - Natural
-	Language Processing - Romania - Springer LNCS
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
+Received: by 10.204.60.195 with SMTP id q3cs110902bkh;
+        Mon, 9 Nov 2009 06:57:40 -0800 (PST)
+Received: by 10.90.180.16 with SMTP id c16mr13660137agf.15.1257778657287;
+        Mon, 09 Nov 2009 06:57:37 -0800 (PST)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 29si4179270iwn.24.2009.11.09.06.57.35;
+        Mon, 09 Nov 2009 06:57:36 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nA9EbEd7013415;
+	Mon, 9 Nov 2009 09:57:35 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=lPyK22kJqN0rHhyMcboD9vSD4iOLZFCFy7nfSXqjLBC1b+35k+tEmdYhxhi33O795eYvAJh0VfbaDTk4Jy2Zl+1K5Kf+L1tJ/7XnZDQKQurb4c0yweUd2U04FGtqMgm+;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 13623815 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Mon, 9 Nov
+          2009 09:57:32 -0500
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nA9CdKWb030496 for <linguist@listserv.linguistlist.org>; Mon, 9
+          Nov 2009 07:39:20 -0500
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nA9CdEkF019911; Mon, 9
+          Nov 2009 07:39:14 -0500 (EST)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Mon, 09 Nov 2009 07:39:14 -0500 (EST)
+Message-ID:  <15822512.1257770354084.JavaMail.nobody@linguistlist.org>
+Date:         Mon, 9 Nov 2009 07:39:14 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.3824, Calls: Applied Ling, Socioling/Italy
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-        CICLing 2010
+LINGUIST List: Vol-20-3824. Mon Nov 09 2009. ISSN: 1068 - 4875.
 
-        11th International Conference on 
-        Intelligent Text Processing and Computational Linguistics;
-        post-conf event: Promise 2010 workshop
+Subject: 20.3824, Calls: Applied Ling, Socioling/Italy
 
-        Iasi, Romania.
-        March 21-27, 2010.
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
-        www.CICLing.org/2010
+Homepage: http://linguistlist.org/
 
-PUBLICATION: 
-        LNCS: Springer Lecture Notes in Computer Science,
-        poster session: special issue of a journal
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
-KEYNOTE SPEAKERS:
-        Nicoletta Calzolari, James Pustejovsky, 
-        Hans Uszkoreit, Shuly Wintner.
+Editor for this issue: Kate Wu <kate@linguistlist.org>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-TOURS:
-        Medieval castles (including Dracula castle),
-        painted monasteries, salt-mine, possibly 
-        winery, bison reservation, Red Lake, and more.
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
 
-AWARDS:
-        Best paper, best student paper,
-        best presentation, best poster.
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-SUBMISSION DEADLINE:
-        Abstract: right now;
-        Full paper: November 23 (contact us for late submissions)
+1)
+Date: 07-Nov-2009
+From: Giovanni Agresti < giovanni.agresti@portal-lem.com >
+Subject: Quatri=E8mes Journ=E9es des Droits Linguistiques
+=20
 
-TOPICS:
-        All topics related with computational
-        linguistics, natural language processing,
-        human language technologies, information
-        retrieval, etc.
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Mon, 09 Nov 2009 07:36:44
+From: Giovanni Agresti [giovanni.agresti@portal-lem.com]
+Subject: Quatri=E8mes Journ=E9es des Droits Linguistiques
 
-Complete CFP and contact: www.CICLing.org/2010.
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-3824.=
+html&submissionid=3D2181234&topicid=3D3&msgnumber=3D1
+ =20
 
-Alexander Gelbukh
-www.Gelbukh.com
+Full Title: Quatri=E8mes Journ=E9es des Droits Linguistiques=20
+Short Title: JDL 2010=20
+
+Date: 20-May-2010 - 23-May-2010
+Location: Teramo-Villa Badessa (Pe), Italy=20
+Contact Person: Giovanni Agresti Henri Giordan
+Meeting Email: giovanni.agresti@portal-lem.com
+Web Site:
+http://portal-lem.com/fr/evenements/journees_droits_linguistiques/enseignem=
+ent_des_langues_locales-institutions_methodes_ideologies.html
+
+
+Linguistic Field(s): Applied Linguistics; Sociolinguistics=20
+
+Call Deadline: 31-Dec-2009=20
+
+Meeting Description:
+
+La conf=E9rence permanente =AB Journ=E9es des Droits linguistiques =BB (JDL=
+) est n=E9e en
+2007 au sein du D=E9partement de Th=E9ories et Politiques du D=E9veloppemen=
+t social de
+l'Universit=E9 de Teramo.
+
+Les enjeux des JDL d=E9passent largement un cadre strictement universitaire=
+, le=20
+moteur de cette initiative =E9tant d'ordre =E9thique, social. Les droits
+linguistiques repr=E9sentent, en effet, un important chapitre du grand livr=
+e des
+droits de l'homme.
+
+De plus, prot=E9ger et promouvoir la diversit=E9 linguistique s'articule av=
+ec les
+strat=E9gies de protection et de promotion des territoires, de l'environnem=
+ent,
+des richesses de l'individu aussi bien que des communaut=E9s.
+
+Dans cette perspective, les langues et les cultures minoritaires,
+territorialis=E9es ou non, repr=E9sentent bien plus qu'un h=E9ritage famili=
+al. Elles
+sont une partie non n=E9gligeable de l'identit=E9 collective : r=E9gionale,=
+ d'abord,
+mais =E9galement nationale et au-del=E0.
+
+Il est en effet n=E9cessaire de proposer et de pr=F4ner de nouvelles vision=
+s, plus=20
+ouvertes et dynamiques, partant du d=E9passement d'une conception monolithi=
+que=20
+et anthropomorphique des langues qui nie au sujet la possibilit=E9 d'=EAtre
+travers=E9, habit=E9 par plusieurs identit=E9s.
+
+Mais =E0 quoi bon choisir de vivre et faire vivre une langue et une culture
+minoritaire ? Tout d'abord, une minorit=E9 linguistique repr=E9sente une hi=
+stoire et
+un pr=E9sent diff=E9rents, une diff=E9rente weltanschauung et donc, aussi, =
+un antidote
+aux d=E9rives de la massification culturelle. Plus concr=E8tement, comme on=
+ a pu
+l'observer au cours d'exp=E9riences diverses, ces r=E9alit=E9s peuvent offr=
+ir beaucoup
+pour une mise en valeur des territoires, pour le tourisme culturel et pour
+l'invention d'une =E9conomie durable. Elles contribuent =E0 la formulation =
+de
+nouveaux liens sociaux et =E0 une meilleure qualit=E9 de vie.
+
+Voil=E0 les lignes directrices qui inspirent le programme des JDL.=20
+
+Call for Papers
+
+La toute r=E9cente annonce d'une proposition de loi concernant l'enseigneme=
+nt des
+dialectes a relanc=E9 le d=E9bat, en Italie, sur le r=F4le des langues et d=
+es cultures
+locales et sur leur institutionnalisation.
+
+Ce d=E9bat =E9tant historiquement marqu=E9 au point de vue politique et plu=
+s largement
+id=E9ologique, il doit faire l'objet d'une analyse rigoureuse =E0 la fois
+historique, juridique et linguistique. Il doit =E9galement =EAtre ins=E9r=
+=E9 dans un
+contexte eurom=E9diterran=E9en. =C0 cette =E9chelle, le probl=E8me des buts=
+ et des
+m=E9thodes de l'enseignement des  nombreuses langues locales doit =EAtre ab=
+ord=E9 en
+harmonisant, autant que possible, des points de vue et des disciplines dive=
+rses :
+
+1) Tout d'abord, ce probl=E8me est =E0 inscrire dans un plus vaste question=
+nement=20
+concernant les diff=E9rentes politiques nationales de la formation linguist=
+ique.
+Celle-ci s'arc-boute sur une s=E9rie d'id=E9es et de jugements de valeur su=
+r les
+langues (v=E9hiculaires, de sp=E9cialit=E9, r=E9gionales ou minoritaires, c=
+lassiques
+etc.). En gros, elle est le plus souvent ramen=E9e aux deux versants de la
+formation tout court : professionnalisante / instrumentale,
+non-professionnalisante / culturelle.=20
+
+2) =C0 partir de cette grille id=E9ologique, tr=E8s r=E9ductrice, l'enseign=
+ement des
+langues locales se pr=E9cise dans le cadre des potentialit=E9s, et des limi=
+tations,
+pr=E9vues par les diff=E9rents textes de loi, r=E9gionaux, nationaux et int=
+ernationaux.=20
+
+3) En troisi=E8me lieu, il est n=E9cessaire d'affronter l'=E9pineux probl=
+=E8me du
+rapport entre les langues locales et le territoire o=F9 elles sont historiq=
+uement
+implant=E9es, ce territoire devant =EAtre consid=E9r=E9 d=E9sormais comme u=
+n v=E9ritable
+tissu relationnel, =E0 savoir un paysage =E0 la fois naturel, social, cultu=
+rel et
+=E9conomique.=20
+
+Sur la base de ces consid=E9rations, les Quatri=E8mes Journ=E9es des Droits
+Linguistiques d=E9velopperont les th=E8mes suivants (liste non exhaustive),=
+ en
+privil=E9giant les approches interdisciplinaires :
+
+- L'enseignement des langues locales d'Europe et de la M=E9diterran=E9e dan=
+s les=20
+textes de loi;
+- Enseignement et transmission des langues locales : m=E9thodes, vis=E9es e=
+t cas=20
+de figure;=20
+- L'enseignement bilingue pr=E9coce : comptes rendus d'exp=E9riences et pro=
+jets;=20
+- Enseignement des langues locales et territoire : perspective culturelle,
+sociale, =E9conomique;=20
+- Le r=F4le de l'=E9cole dans le territoire pris comme tissu linguistique e=
+t
+relationnel;=20
+- La communaut=E9 plurilingue;=20
+- Langues locales et productivit=E9 du sens : le d=E9passement de la diglos=
+sie;=20
+- Langues locales et minoritaires et cr=E9ation contemporaine;=20
+- La diversit=E9 linguistique entre tradition et innovation.=20
+
+Langues du Colloque : allemand, anglais, fran=E7ais, italien, occitan. La
+publication des Actes est pr=E9vue en volume (6 mois apr=E8s le Colloque) a=
+ussi bien
+qu'en ligne (3 mois apr=E8s le Colloque) dans le site portal-lem.com
+
+Inscriptions en ligne dans le site du Colloque:
+http://portal-lem.com/fr/evenements/journees_droits_linguistiques/enseignem=
+ent_des_langues_lo
+cales-institutions_methodes_ideologies.html
 
 
 
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+
+-----------------------------------------------------------
+LINGUIST List: Vol-20-3824=09
+
+=09

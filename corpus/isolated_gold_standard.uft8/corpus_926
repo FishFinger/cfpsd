@@ -1,359 +1,228 @@
-From - Thu Dec 10 14:38:53 2009
+From - Thu Dec 10 14:39:01 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.60.195 with SMTP id q3cs37765bkh;
-        Sat, 7 Nov 2009 15:30:29 -0800 (PST)
-Received: by 10.213.27.10 with SMTP id g10mr1289094ebc.42.1257636626671;
-        Sat, 07 Nov 2009 15:30:26 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 9si3344183ewy.79.2009.11.07.15.30.26;
-        Sat, 07 Nov 2009 15:30:26 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id BE524245CA; Sun,  8 Nov 2009 00:30:25 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-1.9 required=5.0 tests=AWL,BAYES_00
-	autolearn=unavailable version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 023C723C5A;
-	Sun,  8 Nov 2009 00:22:08 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 43EF83D62;
-	Sun,  8 Nov 2009 00:22:07 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id 6cK23yj8B5w7; Sun,  8 Nov 2009 00:22:07 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id CDD603DAD;
-	Sun,  8 Nov 2009 00:21:03 +0100 (CET)
-X-Original-To: elsnet-list@mailman.elsnet.org
-Delivered-To: elsnet-list@mailman.elsnet.org
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 0EE9B3D2A
-	for <elsnet-list@mailman.elsnet.org>;
-	Wed,  4 Nov 2009 15:17:48 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id QHJFfcGB+-89 for <elsnet-list@mailman.elsnet.org>;
-	Wed,  4 Nov 2009 15:17:47 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id D86BD3D24
-	for <elsnet-list@mailman.elsnet.org>;
-	Wed,  4 Nov 2009 15:17:47 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id C01B92387E; Wed,  4 Nov 2009 15:17:47 +0100 (MET)
-Received: from mta02.urv.cat (mta02.urv.cat [193.144.16.77])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 7514723E07
-	for <elsnet-list@elsnet.org>; Wed,  4 Nov 2009 15:17:38 +0100 (MET)
-X-IronPort-AV: E=Sophos;i="4.44,680,1249250400"; 
-   d="scan'208";a="1339897"
-Received: from pmbox1.urv.cat ([193.144.16.40])
-	by mta.urv.cat with ESMTP; 04 Nov 2009 15:17:19 +0100
-Received: from urv.cat (backend1.urv.cat [193.147.216.82])
-	by pmbox1.urv.cat (Postfix) with ESMTP id 217451C501;
-	Wed,  4 Nov 2009 15:17:19 +0100 (CET)
-Received: from [193.144.16.40] (Forwarded-For: [193.144.16.40]) by
-	mbox1.urv.cat (mshttpd); Wed, 04 Nov 2009 15:17:19 +0100
-From: <carlos.martin@urv.cat>
-To: carlos.martin@urv.cat
-Message-ID: <f83ec772a848.4af19aff@urv.cat>
-Date: Wed, 04 Nov 2009 15:17:19 +0100
-X-Mailer: Sun Java(tm) System Messenger Express 6.2-9.09 (built Jan  8
- 2008)
-MIME-Version: 1.0
-Content-Language: ca
-X-Accept-Language: ca
-Priority: normal
-Content-Type: text/plain; charset=windows-1252
-Content-Disposition: inline
+Received: by 10.204.60.195 with SMTP id q3cs51821bkh;
+        Thu, 12 Nov 2009 10:54:25 -0800 (PST)
+Received: by 10.90.217.11 with SMTP id p11mr4980366agg.82.1258052061298;
+        Thu, 12 Nov 2009 10:54:21 -0800 (PST)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 29si8172399iwn.92.2009.11.12.10.54.19;
+        Thu, 12 Nov 2009 10:54:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nACHoIWV014550;
+	Thu, 12 Nov 2009 13:54:19 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=QSvTYFgU2Iy3KxaIrdcTLikPM3C5DAr59c8i9TKzlLFNN0E2fxljEFl3KeKFesO/ZXN9iG8f5FogZFk0JFOdX7AY9kh6jYq/YIqPQfkT0j8Nzr4RCnVzYZyYdEkEQVAv;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 13761986 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Thu, 12 Nov
+          2009 13:54:17 -0500
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nACG0gfg029542 for <linguist@listserv.linguistlist.org>; Thu, 12
+          Nov 2009 11:00:42 -0500
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nACG0ZPe005558; Thu,
+          12 Nov 2009 11:00:35 -0500 (EST)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
 Content-Transfer-Encoding: quoted-printable
-X-Mailman-Approved-At: Sun, 08 Nov 2009 00:20:34 +0100
-Cc: 
-Subject: [Elsnet-list] LATA 2010: last call for papers
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Thu, 12 Nov 2009 11:00:35 -0500 (EST)
+Message-ID:  <20609110.1258041635782.JavaMail.nobody@linguistlist.org>
+Date:         Thu, 12 Nov 2009 11:00:35 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.3874, Calls: Morphology, Pragmatics, Syntax, Discourse Analysis/Germany
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-*********************************************************************
+LINGUIST List: Vol-20-3874. Thu Nov 12 2009. ISSN: 1068 - 4875.
 
-Last Call for Papers
+Subject: 20.3874, Calls: Morphology, Pragmatics, Syntax, Discourse Analysis=
+/Germany
 
-4th INTERNATIONAL CONFERENCE ON LANGUAGE AND AUTOMATA THEORY AND APPLICA=
-TIONS (LATA 2010)
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
-Trier=2C Germany=2C May 24-28=2C 2010
+Homepage: http://linguistlist.org/
 
-http=3A//grammars=2Egrlmc=2Ecom/LATA2010/
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
-*********************************************************************
+Editor for this issue: Kate Wu <kate@linguistlist.org>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-Deadline=3A December 3
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
 
-Please notice that the deadline is firm and will not be extended !
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-AIMS=3A
+1)
+Date: 11-Nov-2009
+From: Ludwig Fesenmeier < absenz_essen@online.de >
+Subject: VIIe Congr=E8s des Franco-romanistes 2010- Section 1
+=20
 
-LATA is a yearly conference in theoretical computer science and its appl=
-ications=2E As linked to the International PhD School in Formal Language=
-s and Applications that was developed at Rovira i Virgili University (th=
-e host of the previous three editions and co-organizer of this one) in t=
-he period 2002-2006=2C LATA 2010 will reserve significant room for young=
- scholars at the beginning of their career=2E It will aim at attracting =
-contributions from both classical theory fields and application areas (b=
-ioinformatics=2C systems biology=2C language technology=2C artificial in=
-telligence=2C etc=2E)=2E
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Thu, 12 Nov 2009 10:56:31
+From: Ludwig Fesenmeier [absenz_essen@online.de]
+Subject: VIIe Congr=E8s des Franco-romanistes 2010- Section 1
 
-SCOPE=3A
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-3874.=
+html&submissionid=3D2227155&topicid=3D3&msgnumber=3D1
+ =20
 
-Topics of either theoretical or applied interest include=2C but are not =
-limited to=3A
+Full Title: VIIe Congr=E8s des Franco-romanistes 2010- Section 1=20
 
-- algebraic language theory
-- algorithms on automata and words
-- automata and logic
-- automata for system analysis and programme verification
-- automata=2C concurrency and Petri nets
-- cellular automata
-- combinatorics on words
-- computability
-- computational complexity
-- computer linguistics
-- data and image compression
-- decidability questions on words and languages
-- descriptional complexity
-- DNA and other models of bio-inspired computing
-- document engineering
-- foundations of finite state technology
-- fuzzy and rough languages
-- grammars (Chomsky hierarchy=2C contextual=2C multidimensional=2C unifi=
-cation=2C categorial=2C etc=2E)
-- grammars and automata architectures
-- grammatical inference and algorithmic learning
-- graphs and graph transformation
-- language varieties and semigroups
-- language-based cryptography
-- language-theoretic foundations of artificial intelligence and artifici=
-al life
-- neural networks
-- parallel and regulated rewriting
-- parsing
-- pattern matching and pattern recognition
-- patterns and codes
-- power series
-- quantum=2C chemical and optical computing
-- semantics
-- string and combinatorial issues in computational biology and bioinform=
-atics
-- symbolic dynamics
-- term rewriting
-- text algorithms
-- text retrieval
-- transducers
-- trees=2C tree languages and tree machines
-- weighted machines
+Date: 29-Sep-2010 - 02-Oct-2010
+Location: Essen, Germany=20
+Contact Person: Ludwig Fesenmeier
+Meeting Email: absenz_essen@online.de
+Web Site: http://www.uni-due.de/romanistik/frankoromanistentag=20
 
-STRUCTURE=3A
+Linguistic Field(s): Discourse Analysis; Historical Linguistics; Morphology=
+;
+Pragmatics; Syntax=20
 
-LATA 2010 will consist of=3A
+Subject Language(s): French (fra)
 
-- 3 invited talks
-- 2 invited tutorials
-- refereed contributions
-- open sessions for discussion in specific subfields=2C on open problems=
-=2C or on professional issues (if requested by the participants)
+Call Deadline: 15-Jan-2010=20
 
-INVITED SPEAKERS=3A
+Meeting Description:
 
-John Brzozowski (Waterloo)=2C Complexity in Convex Languages
-Alexander Clark (London)=2C Three Learnable Models for the Description o=
-f Language
-Lauri Karttunen (Palo Alto)=2C to be announced (tutorial)
-Borivoj Melichar (Prague)=2C Arbology=3A Trees and Pushdown Automata
-Anca Muscholl (Bordeaux)=2C Communicating Automata (tutorial)
+Le VIIe Congr=E8s des Franco-romanistes aura lieu =E0 Essen du 29 septembre=
+ au 2
+octobre 2010.
+La section 1 est consacr=E9e aux 'Ph=E9nom=E8nes d'absence en fran=E7ais : =
+faits
+linguistiques et voies d'analyse'.=20
 
-PROGRAMME COMMITTEE=3A
+Call for Papers
 
-Alberto Apostolico (Atlanta)
-Thomas B=E4ck (Leiden)
-Stefania Bandini (Milano)
-Wolfgang Banzhaf (St=2E John=27s)
-Henning Bordihn (Potsdam)
-Kwang-Moo Choe (Daejeon)
-Andrea Corradini (Pisa)
-Christophe Costa Florencio (Leuven)
-Maxime Crochemore (Marne-la-Vall=E9e)
-W=2E Bruce Croft (Amherst)
-Erzs=E9bet Csuhaj-Varj=FA (Budapest)
-J=FCrgen Dassow (Magdeburg)
-Volker Diekert (Stuttgart)
-Rodney G=2E Downey (Wellington)
-Frank Drewes (Umea)
-Henning Fernau (Trier=2C co-chair)
-Rusins Freivalds (Riga)
-Rudolf Freund (Wien)
-Paul Gastin (Cachan)
-Edwin Hancock (York=2C UK)
-Markus Holzer (Giessen)
-Helmut J=FCrgensen (London=2C Canada)
-Juhani Karhum=E4ki (Turku)
-Efim Kinber (Fairfield)
-Claude Kirchner (Bordeaux)
-Brian Marcus (Vancouver)
-Carlos Mart=EDn-Vide (Brussels=2C co-chair)
-Risto Miikkulainen (Austin)
-Victor Mitrana (Bucharest)
-Claudio Moraga (Mieres)
-Sven Naumann (Trier)
-Chrystopher Nehaniv (Hatfield)
-Maurice Nivat (Paris)
-Friedrich Otto (Kassel)
-Daniel Reidenbach (Loughborough)
-Klaus Reinhardt (T=FCbingen)
-Antonio Restivo (Palermo)
-Christophe Reutenauer (Montr=E9al)
-Kai Salomaa (Kingston=2C Canada)
-Jeffrey Shallit (Waterloo)
-Eljas Soisalon-Soininen (Helsinki)
-Bernhard Steffen (Dortmund)
-Frank Stephan (Singapore)
-Wolfgang Thomas (Aachen)
-Marc Tommasi (Lille)
-Esko Ukkonen (Helsinki)
-Todd Wareham (St=2E John=27s)
-Osamu Watanabe (Tokyo)
-Bruce Watson (Pretoria)
-Thomas Wilke (Kiel)
-Slawomir Zadrozny (Warsaw)
-Binhai Zhu (Bozeman)
+VII Congr=E8s des Franco-romanistes, Essen (Allemagne), 2010 - Section 1:
 
-ORGANIZING COMMITTEE=3A
+Ph=E9nom=E8nes d'absence en fran=E7ais : faits linguistiques et voies d'ana=
+lyse
 
-Adrian Horia Dediu (Tarragona)
-Henning Fernau (Trier=2C co-chair) =
+Anke Grutschus (Cologne) / Carolin Patzelt (Bochum) / Ludwig Fesenmeier (Bo=
+chum)
 
-Maria Gindorf (Trier)
-Stefan Gulan (Trier)
-Anna Kasprzik (Trier)
-Carlos Mart=EDn-Vide (Brussels=2C co-chair) =
+Le concept de l'absence est profond=E9ment ancr=E9 dans la r=E9flexion ling=
+uistique,
+et ceci non seulement de par sa longue tradition (pensons au =AB rapport
+associatif qui unit des termes in absentia =BB d=E9crit par Saussure), mais=
+ aussi de
+par son r=F4le au niveau m=E9thodique (cf. les termes allomorphe/article/co=
+mpl=E9ment
+z=E9ro, etc.). Quels sont les m=E9canismes selon lesquels le fran=E7ais tol=
+=E8re des
+"absences" (blancs, =E9l=E9ments "manquants"/dits z=E9ro) ? Et dans quelles=
+ conditions
+ces absences se r=E9v=E8lent-elles =EAtre incontournables ? Telles sont les=
+ questions
+auxquelles se propose de r=E9pondre cette section, qui privil=E9giera l'ana=
+lyse de
+ph=E9nom=E8nes d'absence au niveau syntagmatique.
 
-Norbert M=FCller (Trier)
-Bianca Truthe (Magdeburg)
+Tout d'abord, nous voudrions diff=E9rencier entre les ph=E9nom=E8nes d'abse=
+nce =E0
+caract=E8re syst=E9matique et les absences qui ne se manifestent que dans d=
+es
+contextes communicatifs bien pr=E9cis. Sur la base de cette distinction,
+diff=E9rents champs d'=E9tude sont envisageables:
 
-SUBMISSIONS=3A
+- Absences au niveau phon=E9tique ou phonologique (p. ex. e caduc, apocopes=
+,
+ph=E9nom=E8nes suprasegmentaux, etc.)
+- Absences au niveau morphologique et morpho-syntaxique
+(articles/morph=E8mes/affixes z=E9ro, absence de pr=E9positions dans des gr=
+oupes
+nominaux avec substantif =E9pith=E8te du type assurance maladie ou plateau-=
+repas)
+- Ph=E9nom=E8nes d'absence au niveau syntaxique (compl=E9ments z=E9ro, phra=
+ses averbales)
+- Absences dans le code parl=E9 (pauses, silences, ph=E9nom=E8nes d'h=E9sit=
+ation etc.)
 
-Authors are invited to submit papers presenting original and unpublished=
- research=2E Papers should not exceed 12 single-spaced pages and should =
-be formatted according to the standard format for Springer Verlag=27s LN=
-CS series (see http=3A//www=2Espringer=2Ecom/computer/lncs/lncs+authors=3F=
-SGWID=3D0-40209-0-0-0)=2E Submissions have to be uploaded at=3A
+Il serait =E9galement tr=E8s int=E9ressant d'analyser, sur un plan diachron=
+ique, des
+=E9volutions concernant la disparition de certains =E9l=E9ments (par exempl=
+e la
+disparition graduelle de ne en n=E9gation). On pourrait en outre examiner d=
+es
+ph=E9nom=E8nes d'absence dans certaines vari=E9t=E9s du fran=E7ais, par exe=
+mple dans le
+langage des jeunes (=E9limination de certaines syllabes dans le verlan, m=
+=E9canismes
+d'abr=E9viation dans le langage SMS ou dans les chats). Finalement, des ana=
+lyses =E0
+caract=E8re contrastif confrontant des absences en fran=E7ais =E0 des pr=E9=
+sences dans
+d'autres langues et vice-versa seront =E9galement les bienvenues.
 
-http=3A//www=2Eeasychair=2Eorg/conferences/=3Fconf=3Dlata2010
+Outre une approche purement descriptive de divers ph=E9nom=E8nes d'absence,=
+ nous
+proposons =E9galement de r=E9fl=E9chir d'une mani=E8re plus g=E9n=E9rale su=
+r la nature de
+ces absences linguistiques : Y a-t-il forc=E9ment une pr=E9sence (ne serait=
+-ce que
+virtuelle) qui se cache derri=E8re ces absences ? Le locuteur en a-t-il
+conscience, et si oui, a-t-il tendance =E0 combler ces absences, =E0 compl=
+=E9ter ce
+qui manque (pensons =E0 la =AB apperzeptive Erg=E4nzung =BB selon B=FChler)=
+ ? Sait-il
+toujours ce qu'il doit compl=E9ter exactement ? Et, pour finir : sur quelle=
+s bases
+se mettent en place des ph=E9nom=E8nes d'absence ? Le souci d'=E9conomie en=
+ est-il la
+seule explication ou existe-t-il d'autres motivations ?
+=20
+La section se d=E9roulera en allemand et en fran=E7ais.
 
-PUBLICATIONS=3A
+Veuillez envoyer un bref compte rendu (max. une page) avant le 15 janvier 2=
+010
+uniquement =E0 l'adresse suivante : absenz_essen@gmx.de.
 
-A volume of proceedings published by Springer in the LNCS series will be=
- available by the time of the conference=2E
 
-A special issue of the Journal of Computer and System Sciences (Elsevier=
-) will be later published containing refereed extended versions of some =
-of the papers contributed to the conference=2E Submissions to it will be=
- only by invitation=2E
 
-A special issue of another major journal containing papers oriented to a=
-pplications is under consideration=2E
 
-REGISTRATION=3A
 
-The period for registration will be open since September 1=2C 2009 until=
- May 24=2C 2010=2E The registration form can be found at the website of =
-the conference=3A http=3A//grammars=2Egrlmc=2Ecom/LATA2010/
+-----------------------------------------------------------
+LINGUIST List: Vol-20-3874=09
 
-Early registration fees=3A 500 Euro
-Early registration fees (PhD students)=3A 400 Euro
-Late registration fees=3A 530 Euro
-Late registration fees (PhD students)=3A 430 Euro
-On-site registration fees=3A 550 Euro
-On-site registration fees (PhD students)=3A 450 Euro
-
-At least one author per paper should register=2E Papers that do not have=
- a registered author by February 15=2C 2010 will be excluded from the pr=
-oceedings=2E
-
-Fees comprise access to all sessions=2C one copy of the proceedings volu=
-me=2C coffee breaks=2C lunches=2C excursion=2C and conference dinner=2E
-
-PAYMENT=3A
-
-Early (resp=2E late) registration fees must be paid by bank transfer bef=
-ore February 15=2C 2010 (resp=2E May 14=2C 2010) to the conference serie=
-s account at Open Bank (Plaza Manuel Gomez Moreno 2=2C 28020 Madrid=2C S=
-pain)=3A IBAN=3A ES1300730100510403506598 - Swift code=3A OPENESMMXXX (a=
-ccount holder=3A Carlos Martin-Vide =26 URV =96 LATA 2010)=2E
-
-Please write the participant=92s name in the subject of the bank form=2E=
- Transfers should not involve any expense for the conference=2E
-
-On-site registration fees can be paid only in cash=2E
-
-A receipt for the payment will be provided on site=2E
-
-Besides paying the registration fees=2C it is required to fill in the re=
-gistration form at the website of the conference=2E
-
-BEST PAPER AWARDS=3A
-
-An award will be offered to the authors of the two best papers accepted =
-to the conference=2E Only papers fully authored by PhD students are elig=
-ible=2E The award intends to cover their travel expenses=2E
-
-IMPORTANT DATES=3A
-
-Paper submission=3A December 3=2C 2009 *
-Notification of paper acceptance or rejection=3A January 21=2C 2010
-Final version of the paper for the LNCS proceedings=3A February 3=2C 201=
-0
-Early registration=3A February 15=2C 2010
-Late registration=3A May 14=2C 2010
-Starting of the conference=3A May 24=2C 2010
-Submission to the post-conference special issue(s)=3A August 27=2C 2010
-
-* Contributors who have submitted by the deadline will be allowed to upl=
-oad an updated version until December 10=2E
-
-FURTHER INFORMATION=3A
-
-gindorf-ti=40informatik=2Euni-trier=2Ede
-
-CONTACT=3A
-
-LATA 2010
-Universit=E4t Trier
-Fachbereich IV =96 Informatik
-Campus II=2C Behringstra=DFe
-D-54286 Trier
-
-Phone=3A +49-(0)651-201-2836
-Fax=3A +49-(0)651-201-3954
-
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+=09

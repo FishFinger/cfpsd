@@ -1,244 +1,193 @@
-From - Thu Dec 10 14:39:09 2009
+From - Thu Dec 10 14:39:12 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs145090bkq;
-        Sun, 15 Nov 2009 14:16:10 -0800 (PST)
-Received: by 10.204.13.210 with SMTP id d18mr3641771bka.211.1258323367427;
-        Sun, 15 Nov 2009 14:16:07 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 19si11617059bwz.68.2009.11.15.14.16.02;
-        Sun, 15 Nov 2009 14:16:07 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 2396924319; Sun, 15 Nov 2009 23:15:19 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
-	autolearn=unavailable version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 76D502446B;
-	Sun, 15 Nov 2009 23:09:36 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 02D623D51;
-	Sun, 15 Nov 2009 23:09:36 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id Fq+Fhy26hzbp; Sun, 15 Nov 2009 23:09:35 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id AE56E3DBD;
-	Sun, 15 Nov 2009 23:08:44 +0100 (CET)
-X-Original-To: elsnet-list@mailman.elsnet.org
-Delivered-To: elsnet-list@mailman.elsnet.org
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 2A2723D2A
-	for <elsnet-list@mailman.elsnet.org>;
-	Wed, 11 Nov 2009 10:46:05 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id YKw3nhZOPxhF for <elsnet-list@mailman.elsnet.org>;
-	Wed, 11 Nov 2009 10:46:05 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 03FBC3D0B
-	for <elsnet-list@mailman.elsnet.org>;
-	Wed, 11 Nov 2009 10:46:05 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id DFBDE23C04; Wed, 11 Nov 2009 10:46:04 +0100 (MET)
-Received: from riky.urjc.es (riky.urjc.es [193.147.184.25])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id C07D923B4B
-	for <elsnet-list@elsnet.org>; Wed, 11 Nov 2009 10:45:58 +0100 (MET)
-Received: from riky.urjc.es (localhost [127.0.0.1]) by riky.urjc.es with ESMTP
-	id nAB9jtFZ013316 for <elsnet-list@elsnet.org>;
-	Wed, 11 Nov 2009 10:45:55 +0100
-Received: from [127.0.0.1] (jmespalab.escet.urjc.es [193.147.63.224]) 
-	(authenticated bits=0) by riky.urjc.es with ESMTP id nAB9jsDX013309 
-	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO) for 
-	<elsnet-list@elsnet.org>; Wed, 11 Nov 2009 10:45:55 +0100
-Message-ID: <4AFA87F5.4000003@urjc.es>
-Date: Wed, 11 Nov 2009 10:46:29 +0100
-From: =?windows-1252?Q?Diana_P=E9rez_Mar=EDn?= <diana.perez@urjc.es>
-User-Agent: Thunderbird 2.0.0.23 (Windows/20090812)
-MIME-Version: 1.0
-To: elsnet-list@elsnet.org
-Content-Type: text/plain;
-	charset=windows-1252;
-	format=flowed
-Content-Transfer-Encoding: 8bit
-X-Greylist: Sender succeeded SMTP AUTH, not delayed by milter-greylist-4.0 
-	(riky.urjc.es [193.147.184.25]); Wed, 11 Nov 2009 10:45:55 +0100 (CET)
-X-imss-version: 2.054
-X-imss-result: Passed
-X-imss-scanInfo: M:B L:E SM:2
-X-imss-tmaseResult: TT:1 TS:-42.3595 TC:1F TRN:91 TV:6.0.1038(17002.005)
-X-imss-scores: Clean:100.00000 C:0 M:0 S:0 R:0
-X-imss-settings: Baseline:1 C:1 M:1 S:1 R:1 (0.0000 0.0000)
-X-Mailman-Approved-At: Sun, 15 Nov 2009 23:08:22 +0100
-Cc: 
-Subject: [Elsnet-list] CALL FOR CHAPTER PROPOSALS on Conversational Agents
-	and Natural LanguageInteraction
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
+Received: by 10.204.118.66 with SMTP id u2cs338116bkq;
+        Sun, 22 Nov 2009 11:48:36 -0800 (PST)
+Received: by 10.91.203.38 with SMTP id f38mr178494agq.60.1258919312872;
+        Sun, 22 Nov 2009 11:48:32 -0800 (PST)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 8si17347080yxe.22.2009.11.22.11.48.30;
+        Sun, 22 Nov 2009 11:48:31 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nAMJY6ow014059;
+	Sun, 22 Nov 2009 14:48:30 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=YvGGziQa5al2nNrE9IpyVLdzSgQjfK7Y+mtw1jDmKHF6bWjqdbsfcKqQk1nYrRZz1MQXOGFo1Y0I4C6jmxT4faNsCl+NuiUXYItCAbOPcRj8TG3tTy+Gm68a7YOTfcew;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 14124249 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Sun, 22 Nov
+          2009 14:48:29 -0500
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nAME87OH002269 for <linguist@listserv.linguistlist.org>; Sun, 22
+          Nov 2009 09:08:07 -0500
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nAME81pj014763; Sun,
+          22 Nov 2009 09:08:01 -0500 (EST)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Sun, 22 Nov 2009 09:08:01 -0500 (EST)
+Message-ID:  <16802018.1258898881710.JavaMail.nobody@linguistlist.org>
+Date:         Sun, 22 Nov 2009 09:08:01 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.3998, Calls: Anthropological Ling, Lang Documentation, General Ling/Sweden
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-Apologies for multiple posting. Please distribute this CfC to your 
-colleagues and further interested people.
------
+LINGUIST List: Vol-20-3998. Sun Nov 22 2009. ISSN: 1068 - 4875.
 
-Conversational Agents and Natural Language Interaction: Techniques and 
-Effective Practices
-A book edited by Dr. Diana Perez-Marin and Dr. Ismael Pascual-Nieto
-Universidad Rey Juan Carlos, Universidad Autonoma de Madrid, Spain
+Subject: 20.3998, Calls: Anthropological Ling, Lang Documentation, General =
+Ling/Sweden
 
-We cordially invite you to submit a chapter for the forthcoming 
-Conversational Agents and Natural Language Interaction: Techniques and 
-Effective Practices book to be published by IGI Global 
-(http://www.igi-global.com/requests/details.asp?ID=754)
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
--------------
-Introduction
--------------
-Human-Computer Interaction can be understood as two potent information 
-processors (a human and a computer) trying to communicate with each
-other using a highly restricted interface. Natural Language (NL) 
-Interaction, that is, to let the users express in natural language could 
-be the solution to
-improve the communication between human and computers. Conversational 
-agents exploit NL technologies to engage users in text-based 
-information-seeking and task-oriented dialogs for a broad range of 
-applications such as e-commerce, help desk, Web site navigation,
-personalized service, and education.
+Homepage: http://linguistlist.org/
 
-The benefits of agent expressiveness have been highlighted both for 
-verbal expressiveness and for non-verbal expressiveness. On the other 
-hand, there
-are also studies indicating that when using conversational agents mixed 
-results can appear. These studies reveal the need to review the research 
-in a
-field with a promising future and a great impact in the area of 
-Human-Computer Interaction.
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
------------------------
-Objective of the Book
-------------------------
-The main objective of the book is to identify the most effective 
-practices when using conversational agents for different applications. 
-Some secondary
-objectives to fulfill the main goal are:
-- To gather a comprehensive number of experiences in which 
-conversational agents have been used for different applications
-- To review the current techniques which are being used to design 
-conversational agents
-- To encourage authors to publish not only successful results, but also 
-non-successful results and a discussion of the reasons that may have
-caused them
+Editor for this issue: Kate Wu <kate@linguistlist.org>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-------------------
-Target Audience
-------------------
-The proposed book is intended to serve as a reference guide for 
-researchers who want to start their research in the promising field of 
-conversational
-agents. It will not be necessary that readers have previous knowledge on 
-the topic.
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
 
-Recommended topics include, but are not limited to, the following:
-1. Fundamental concepts
-- Definition and taxonomy of conversational agents
-- Motivation, benefits, and issues of their use
-- Underlying psychological and social theories
-2. Design of conversational agents
-- Techniques
-- Frameworks
-- Methods
-3. Practices
-- Experiences of use of conversational agents in:
-- E-commerce
-- Help desk
-- Website navigation
-- Personalized service
-- Training or education
-- Results achieved
-- Discussion of the reasons of their success of failure
-4. Future trends
-- Issues that should be solved in the future
-- Expectations for the future
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
------------------------
-Submission Procedure
------------------------
-Researchers and practitioners are invited to submit on or before 
-December 16, 2009, a 2-3 page chapter proposal clearly explaining the 
-mission and
-concerns of his or her proposed chapter. Authors of accepted proposals 
-will be notified by January 16, 2010 about the status of their proposals 
-and sent
-chapter guidelines. Full chapters (8,00010,000 words) are expected to 
-be submitted by April 16, 2010. All submitted chapters will be reviewed 
-on a
-double-blind review basis. Contributors may also be requested to serve 
-as reviewers for this project.
+1)
+Date: 20-Nov-2009
+From: Anastasia Karlsson < Anastasia.Karlsson@ling.lu.se >
+Subject: Humanities of the Lesser-Known
+=20
 
-----------
-Publisher
-----------
-This book is scheduled to be published by IGI Global (formerly Idea 
-Group Inc.), publisher of the Information Science Reference (formerly 
-Idea Group Reference), Medical Information Science Reference, 
-Business Science Reference, and Engineering Science Reference 
-imprints. For additional information regarding the publisher, please 
-visit www.igi-global.com. This publication is anticipated to be released 
-in 2011.
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Sun, 22 Nov 2009 09:00:18
+From: Anastasia Karlsson [Anastasia.Karlsson@ling.lu.se]
+Subject: Humanities of the Lesser-Known
 
------------------
-Important Dates
------------------
-December 16, 2009: Proposal Submission Deadline
-January 16, 2010: Notification of Acceptance
-April 16, 2010: Full Chapter Submission
-June 30, 2010: Review Results Returned
-July 30, 2010: Final Chapter Submission
-September 30, 2010: Final Deadline
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-3998.=
+html&submissionid=3D2228254&topicid=3D3&msgnumber=3D1
+ =20
 
-------------------------------------
-Editorial Advisory Board Members
---------------------------------------
-Dr. Rafael Calvo, University of Sydney, Australia
-Dr. Diane Inkpen, University of Ottawa, Canada
-Dr. Pamela Jordan, University of Pittsburgh, U.S.A.
-Dr. Ramón López Cózar, Universidad de Granada, Spain
-Dr. Max Louwerse, University of Memphis, U.S.A.
-Dr. José Antonio Macías, Universidad Autónoma de Madrid, Spain
-Dr. Mick ODonnell, Universidad Autónoma de Madrid, Spain
-Dr. George Veletsianos, University of Manchester, U.K.
-Incompleted list, full list to be announced on November, 16
+Full Title: Humanities of the Lesser-Known=20
+Short Title: HLK2010=20
 
---------------------------
-Inquiries and submissions
----------------------------
-Please send all inquiries and submissions (preferably through e-mail) to:
+Date: 10-Sep-2010 - 11-Sep-2010
+Location: Lund, Sweden=20
+Contact Person: Niclas Burenhult
+Meeting Email: hlk2010@ling.lu.se
+Web Site: http://conference.sol.lu.se/hlk-2010=20
 
-Dr. Diana Perez-Marin, Universidad Rey Juan Carlos, Spain
-Email: diana.perez@urjc.es
+Linguistic Field(s): Anthropological Linguistics; General Linguistics; Lang=
+uage
+Documentation; Typology=20
 
-and
+Call Deadline: 28-Feb-2010=20
 
-Dr. Ismael Pascual Nieto, Universidad Autonoma de Madrid, Spain
-Email: ismael.pascual@uam.es
+Meeting Description:
 
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+2nd Conference of the Birgit Rausing Language Program=20
+Humanities of the Lesser-Known:=20
+New directions in the description, documentation and typology of endangered
+languages and musics=20
+
+Web Site: http://conference.sol.lu.se/hlk-2010=20
+
+Call for Papers
+
+Deadline for registration and abstract: February 28, 2010=20
+
+The Birgit Rausing Language Program announces its second conference, Humani=
+ties
+of the Lesser-Known, to be held September 10-11, 2010, in Lund, Sweden. The=
+=20
+central focus is the documentation and description of endangered or lesser-
+known languages. The conference is divided into the following thematic foci=
+:
+grammar, prosody, semantics and musicology, with a special focus on interfa=
+ces
+between these domains.=20
+
+We aim to provide a platform to discuss interdisciplinary approaches connec=
+ting
+these domains of communication, with particular reference to a diverse samp=
+le of
+cultures.
+
+Invited Speakers:=20
+- Peter Austin (School of Oriental and African Studies)=20
+- Sun-Ah Jun (UCLA)=20
+- Stephen C. Levinson (Max Planck Institute for Psycholinguistics)=20
+- Asifa Majid (Max Planck Institute for Psycholinguistics)=20
+- Anthony Seeger (UCLA)=20
+
+We invite submissions from all areas of linguistics and musicology of=20
+endangered or lesser-known languages or cultures, and particularly welcome
+papers which deal with the interfaces between different domains of human
+communication. Individual papers (20 minutes plus 10 minutes for discussion=
+) and
+poster talks can be submitted through the conference website from November =
+15
+until February 28, 2010.=20
+
+Contact: hlk2010@ling.lu.se=20
+
+HLK 2010 - Local Organizing Committee:=20
+Jan-Olof Svantesson=20
+Niclas Burenhult=20
+Arthur Holmer=20
+Anastasia Karlsson=20
+H=E5kan Lundstr=F6m=20
+
+Centre for Languages and Literature=20
+Lund University=20
+Box 201=20
+SE-221 00 Lund=20
+Sweden
+
+
+
+
+
+-----------------------------------------------------------
+LINGUIST List: Vol-20-3998=09
+
+=09

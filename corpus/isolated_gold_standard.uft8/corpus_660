@@ -1,183 +1,146 @@
-From - Thu Dec 10 14:23:58 2009
+From - Thu Dec 10 14:39:15 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 4b46b6f56dd2fbb2f22dc3199adcc08ec9df2c46
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs150092pyn;
-        Thu, 31 Aug 2006 09:25:29 -0700 (PDT)
-Received: by 10.35.61.2 with SMTP id o2mr1008009pyk;
-        Thu, 31 Aug 2006 09:23:58 -0700 (PDT)
+Received: by 10.204.118.66 with SMTP id u2cs216757bkq;
+        Thu, 26 Nov 2009 10:11:46 -0800 (PST)
+Received: by 10.91.26.7 with SMTP id d7mr240061agj.1.1259259102427;
+        Thu, 26 Nov 2009 10:11:42 -0800 (PST)
 Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
-        by mx.gmail.com with ESMTP id b52si968807pyb.2006.08.31.09.23.16;
-        Thu, 31 Aug 2006 09:23:58 -0700 (PDT)
-Received-SPF: pass (gmail.com: best guess record for domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
-Received: from listserv (listserv [164.76.102.107])
-	by listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id k7VGNCwx005563;
-	Thu, 31 Aug 2006 12:23:15 -0400 (EDT)
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
-          spool id 1337270 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Thu, 31 Aug
-          2006 12:18:49 -0400
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 12si1996349iwn.129.2009.11.26.10.11.40;
+        Thu, 26 Nov 2009 10:11:41 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nAQHv2Q4022449;
+	Thu, 26 Nov 2009 13:11:40 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=UHSwUmRzn3UuzfYVwaptIVew4GpJlRsJlM9Ji3tQ2KKmyPQbVEI7vvD0Migy6AAsQR/Pbbj/W9cXfLoPgjvfaZ3QAWdQz5vGtNnaQHf09OdIpZmO89SmV7yRyRjY5irU;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 14277374 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Thu, 26 Nov
+          2009 13:11:17 -0500
 Approved-By: linguist@LINGUISTLIST.ORG
 Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.13.8/8.13.8) with ESMTP id
-          k7VFA8iA019547 for <linguist@listserv.linguistlist.org>; Thu, 31 Aug
-          2006 11:10:08 -0400 (EDT)
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nAQHfgRj020635 for <linguist@listserv.linguistlist.org>; Thu, 26
+          Nov 2009 12:41:42 -0500
 Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.8/8.13.8) with ESMTP id k7VFA04q023210; Thu,
-          31 Aug 2006 11:10:01 -0400 (EDT)
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nAQHfawj014634; Thu,
+          26 Nov 2009 12:41:36 -0500 (EST)
 Mime-Version: 1.0
 Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 7bit
 X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Thu, 31 Aug 2006 12:23:15 -0400 (EDT)
 X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
-            [164.76.102.107]); Thu, 31 Aug 2006 11:10:08 -0400 (EDT)
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-2.0.2 (linguistlist.org
-            [164.76.102.53]); Thu, 31 Aug 2006 11:10:01 -0400 (EDT)
-Content-Transfer-Encoding: 8bit
-X-MIME-Autoconverted: from quoted-printable to 8bit by
-                      listserv.linguistlist.org id k7VFA8iA019561
-Message-ID:  <24005216.1157037001053.JavaMail.nobody@linguistlist.org>
-Date:         Thu, 31 Aug 2006 11:10:01 -0400
-Reply-To: linguist@LINGUISTLIST.ORG
-Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From: linguist@LINGUISTLIST.ORG
-Subject: 17.2445, Calls: Computational Ling, Pragmatics/Sweden
-Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
-To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Thu, 26 Nov 2009 12:41:36 -0500 (EST)
+Message-ID:  <22657639.1259257296720.JavaMail.nobody@linguistlist.org>
+Date:         Thu, 26 Nov 2009 12:41:36 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.4042, Confs: Austronesian, Anthropological Ling, General Ling, Historical Ling
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-LINGUIST List: Vol-17-2445. Thu Aug 31 2006. ISSN: 1068 - 4875.
+LINGUIST List: Vol-20-4042. Thu Nov 26 2009. ISSN: 1068 - 4875.
 
-Subject: 17.2445, Calls: Computational Ling, Pragmatics/Sweden
+Subject: 20.4042, Confs: Austronesian, Anthropological Ling, General Ling, Historical Ling
 
 Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
             Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
  
-Reviews: Laura Welcher, Rosetta Project / Long Now Foundation  
-         <reviews@linguistlist.org> 
+Reviews: Monica Macaulay, U of Wisconsin-Madison  
+Eric Raimy, U of Wisconsin-Madison  
+Joseph Salmons, U of Wisconsin-Madison  
+Anja Wanner, U of Wisconsin-Madison  
+       <reviews@linguistlist.org> 
 
 Homepage: http://linguistlist.org/
 
-The LINGUIST List is funded by Eastern Michigan University, Wayne
-State University, and donations from subscribers and publishers.
+The LINGUIST List is funded by Eastern Michigan University, 
+and donations from subscribers and publishers.
 
-Editor for this issue: Dan Parker <dan@linguistlist.org>
+Editor for this issue: Elyssa Winzeler <elyssa@linguistlist.org>
 ================================================================  
 
-As a matter of policy, LINGUIST discourages the use of abbreviations
-or acronyms in conference announcements unless they are explained in
-the text.
-
-To post to LINGUIST, use our convenient web form at 
-http://linguistlist.org/LL/posttolinguist.html. 
-
-
+LINGUIST is pleased to announce the launch of an exciting new feature:  
+Easy Abstracts! Easy Abs is a free abstract submission and review facility 
+designed to help conference organizers and reviewers accept and process 
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom, and 
+begin your conference customization process today! With Easy Abstracts, 
+submission and review will be as easy as 1-2-3!
 
 ===========================Directory==============================  
 
 1)
-Date: 31-Aug-2006
-From: Gunther Kaltenböck < gunther.kaltenboeck@univie.ac.at >
-Subject: 10th International Pragmatics Conference 
+Date: 24-Nov-2009
+From: Mark Donohue < mark.donohue@anu.edu.au >
+Subject: Critical Directions in Comparative Austronesian Studies
+ 
 
 	
 -------------------------Message 1 ---------------------------------- 
-Date: Thu, 31 Aug 2006 11:07:00
-From: Gunther Kaltenböck < gunther.kaltenboeck@univie.ac.at >
-Subject: 10th International Pragmatics Conference 
- 
+Date: Thu, 26 Nov 2009 12:38:19
+From: Mark Donohue [mark.donohue@anu.edu.au]
+Subject: Critical Directions in Comparative Austronesian Studies
+
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=20-4042.html&submissionid=2228754&topicid=4&msgnumber=1
+  
+
+Critical Directions in Comparative Austronesian Studies 
+Short Title: CDCAS 
+
+Date: 27-Jan-2010 - 28-Jan-2010 
+Location: Canberra, Australia 
+Contact: Mark Donohue 
+Contact Email: mark.donohue@anu.edu.au 
+Meeting URL: http://rspas.anu.edu.au/linguistics/ComparativeAustronesian/ 
+
+Linguistic Field(s): Anthropological Linguistics; General Linguistics; Historical Linguistics 
+
+Language Family(ies): Austronesian 
+Meeting Description: 
+
+It has been over ten years since the publication of The Austronesians (1995) and even longer since the 
+ANU conference was held from which that volume emerged. A great deal of research has been done in 
+archaeology, anthropology, linguistics and genetics since that time, as well as numerous integrationist 
+studies. It is now appropriate to take stock of what has been discovered and what can be learned from 
+it. It is essential, however, to begin with the presentation of new evidence.
+
+For that reason, we have proposed this Workshop, scheduled for the 28th and 29th of January, to be 
+held at the ANU with the aim of bringing together researchers who can present critical evidence, and 
+who are willing to discuss their findings from different perspectives. At this stage, we are not asking 
+for definitive papers or summation statements. Rather we hope that the Workshop will provide a forum 
+for the consideration of what we know, what we think we know, and what we need to focus on for the 
+development of future research.
+
+We are suggesting a deviation from a 'normal' conference model. We would like talks to be 30 minutes 
+each, mainly consisting of a clear presentation, suitable to an interdisciplinary audience, of the critical 
+data that each researcher brings to the discussion. Following this we call for a short disciplinary 
+interpretation of these data, without attempting to integrate with evidence from other disciplines. Each 
+talk will end with 5 minutes for clarificatory questions. We shall save general discussion, questions and 
+answers, and debate for dedicated discussion slots, during which we shall also work towards an 
+integrated model that combines data from the different disciplines. 
 
 
-Full Title: 10th International Pragmatics Conference 
 
-Date: 08-Jul-2007 - 13-Jul-2007
-Location: Göteborg, Sweden 
-Contact Person: Ann Verhaert
-Meeting Email: ann.verhaert@ipra.be
-Web Site: http://ipra.ua.ac.be/main.aspx?c=*CONFERENCE2006&n=1295 
-
-Linguistic Field(s): Computational Linguistics; Pragmatics; Text/Corpus Linguistics 
-
-Call Deadline: 05-Jul-2006 
-
-Meeting Description:
-
-10th International Pragmatics Conference
-July 9-14, 2007
-Göteborg, Sweden
-
-Special theme: Language data, corpora, and computational pragmatics
-[as always the conferences are open to all other relevant themes in 
-pragmatics].
-
-Chaired by: Karin Aijmer & Jens Allwood (Göteborg)
-
-Other members of the local site committee:
-- Elisabeth Ahlsén (Göteborg)
-- Robin Cooper (Göteborg)
-- Per Linell (Linköping)
-- THorsein Fretheim (Trondheim)
-- Anna-Brista Stenström (Bergen)
-- Jan-Ola Östman (Helsinki) 
-
-Dear Colleagues,
-
-We are proposing a panel on the theme of:
-
-Vague language: the use of approximators and hedges in spoken and written
-corpora 
-
-For the International Pragmatics Conference in Göteborg, Sweden in July
-2007 and would be interested in hearing from other people working on this
-topic who might be interested in presenting a paper at this panel.
-
-Lakoff's (1972) classic paper on hedges laid the foundation for the study
-of linguistic markers which serve to blur the category boundaries of the
-linguistic elements they operate on and/or reduce the speakers' commitment.
-However, systematic studies, especially on languages other than English
-(see Channell 1994) are still scarce.
-
-The organisers of the panel have recently been researching the use of
-parenthetical clauses (e.g. Engl. 'I think', Fr. 'disons', Sp. 'digamos')
-and ''N1 of N2''-constructions such as sort of in different languages
-(English, French, Spanish, Italian). However, we welcome any contributions
-studying the various linguistic means used for expressing
-approximation/hedging, e.g. pragmatic markers such as 'like', round
-numerals, prepositions such as 'about', disjunctive list completers such as
-'something like that', diminutive suffixes etc.
-
-The aim of the panel is to bring together researchers from different
-backgrounds interested in approximation and hedging at the interface
-between semantics and pragmatics. We are particularly interested in
-research based on corpus data and would like to address questions such as:
-- the role of approximation in spoken and written texts
-- types of approximators/hedges in different languages
-- their linguistic status
-- their status with respect to discourse markers
-- their semantics, e.g. whether they are conceptual or procedural elements
-- their historical dimension, e.g. the process of grammaticalization 
-
-If interested, please let us know which topic you would like to address in
-such a panel and get in touch with: gunther.kaltenboeck@univie.ac.at by the
-end of June 2006.
-
-Best wishes,
-Gunther Kaltenböck (Vienna), Wiltrud Mihatsch (Bielefeld), Stefan Schneider
-(Graz)
-
-University of Vienna
-Department of English
-Spitalgasse 2-4
-A-1090 Wien
-Austria
 
 
 
 
 -----------------------------------------------------------
-LINGUIST List: Vol-17-2445	
+LINGUIST List: Vol-20-4042	
 
 	

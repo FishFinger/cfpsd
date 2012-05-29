@@ -1,420 +1,238 @@
-From - Thu Dec 10 14:39:16 2009
+From - Thu Dec 10 14:39:22 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.204.118.66 with SMTP id u2cs408688bkq;
-        Mon, 30 Nov 2009 04:50:09 -0800 (PST)
-Received: by 10.213.0.139 with SMTP id 11mr4540164ebb.36.1259585406114;
-        Mon, 30 Nov 2009 04:50:06 -0800 (PST)
-Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-        by mx.google.com with ESMTP id 21si14202651ewy.73.2009.11.30.04.50.05;
-        Mon, 30 Nov 2009 04:50:06 -0800 (PST)
-Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id B108123CD5; Mon, 30 Nov 2009 13:49:24 +0100 (MET)
-X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
-X-Spam-Level: 
-X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE
-	autolearn=ham version=3.2.4
-Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id B95D823E9B;
-	Mon, 30 Nov 2009 13:46:47 +0100 (MET)
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 978FE3D39;
-	Mon, 30 Nov 2009 13:46:47 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id vAXmMtf3kA5I; Mon, 30 Nov 2009 13:46:47 +0100 (CET)
-Received: from stratus.let.uu.nl (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id BAD693D62;
-	Mon, 30 Nov 2009 13:46:14 +0100 (CET)
-X-Original-To: elsnet-list@mailman.let.uu.nl
-Delivered-To: elsnet-list@mailman.let.uu.nl
-Received: from localhost (localhost [127.0.0.1])
-	by mailman.let.uu.nl (Postfix) with ESMTP id C9EEB3D2A
-	for <elsnet-list@mailman.let.uu.nl>;
-	Fri, 27 Nov 2009 14:36:21 +0100 (CET)
-Received: from mailman.let.uu.nl ([127.0.0.1])
-	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
-	with ESMTP id 9lsEESI6vsLn for <elsnet-list@mailman.let.uu.nl>;
-	Fri, 27 Nov 2009 14:36:21 +0100 (CET)
-Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
-	by mailman.let.uu.nl (Postfix) with ESMTP id 9C2933D0B
-	for <elsnet-list@mailman.let.uu.nl>;
-	Fri, 27 Nov 2009 14:36:21 +0100 (CET)
-Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
-	id 8922B23A0D; Fri, 27 Nov 2009 14:36:21 +0100 (MET)
-X-Greylist: delayed 324 seconds by postgrey-1.28 at newjura;
-	Fri, 27 Nov 2009 14:36:13 MET
-Received: from pawlu-mbx.mail.um.edu.mt (pawlu-mbx.mail.um.edu.mt
-	[193.188.46.206])
-	by mailhost.let.uu.nl (Postfix) with ESMTP id 5C2FA238B1
-	for <elsnet-list@mailman.let.uu.nl>;
-	Fri, 27 Nov 2009 14:36:13 +0100 (MET)
-Received: from BertuGatt ([192.168.99.235])
-	by pawlu.um.edu.mt (MSA-UM/1) with SMTP id nARDUEIT000676
-	for <elsnet-list@mailman.let.uu.nl>; Fri, 27 Nov 2009 14:30:14 +0100
-Message-ID: <A15177577F32467EB5CD605A2047640D@BertuGatt>
-From: "Albert Gatt" <albert.gatt@um.edu.mt>
-To: <elsnet-list@mailman.let.uu.nl>
-Date: Fri, 27 Nov 2009 14:30:10 +0100
-MIME-Version: 1.0
-X-Priority: 3
-X-MSMail-Priority: Normal
-Importance: Normal
-X-Mailer: Microsoft Windows Live Mail 14.0.8089.726
-X-MimeOLE: Produced By Microsoft MimeOLE V14.0.8089.726
-X-Pietru-qal: Found to be clean
-X-Pietru-SpamCheck: 
-X-Pietru-From: albert.gatt@um.edu.mt
-X-Mailman-Approved-At: Mon, 30 Nov 2009 13:46:03 +0100
-Subject: [Elsnet-list] Production of Referring Expressions: Second and
-	updated call for papers for the journal TopiCS in Cognitive Science
-X-BeenThere: elsnet-list@mailman.let.uu.nl
-X-Mailman-Version: 2.1.5
+Received: by 10.204.118.66 with SMTP id u2cs430988bkq;
+        Tue, 8 Dec 2009 17:36:54 -0800 (PST)
+Received: by 10.231.157.83 with SMTP id a19mr852711ibx.41.1260322610509;
+        Tue, 08 Dec 2009 17:36:50 -0800 (PST)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
+        by mx.google.com with ESMTP id 3si1022637iwn.19.2009.12.08.17.36.49;
+        Tue, 08 Dec 2009 17:36:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
+DomainKey-Status: bad
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
+Received: from listserv (localhost [127.0.0.1])
+	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nB8NfnXU016177;
+	Tue, 8 Dec 2009 20:36:48 -0500
+DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
+ h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
+ b=LCcMI4s76jq6HcrvaKWZOad7K5XRhUfGBxr82OkqRgkDmr40IFATSVbOo8+o7A0++M8vgy5NOQerFaOfdnO40ruNYFtE3+cesi/JBNpxTFM769GSE6WVBEzqpvmFDevW;
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
+          spool id 14737529 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Tue, 8 Dec
+          2009 20:36:42 -0500
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
+          id nB8KL2i7009775 for <linguist@listserv.linguistlist.org>; Tue, 8
+          Dec 2009 15:21:02 -0500
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.8/8.13.8) with ESMTP id nB8KKsqL001913; Tue, 8
+          Dec 2009 15:20:54 -0500 (EST)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-3.0 (linguistlist.org
+            [164.76.102.53]); Tue, 08 Dec 2009 15:20:54 -0500 (EST)
+Message-ID:  <15596118.1260303654557.JavaMail.nobody@linguistlist.org>
+Date:         Tue, 8 Dec 2009 15:20:54 -0500
+Reply-To:     linguist@LINGUISTLIST.ORG
+Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From:         linguist@LINGUISTLIST.ORG
+Subject: 20.4204, Calls: Historical Ling, Lang Acquisition, Socioling/United Kingdom
+Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
+To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-List-Id: The ELSNET mailing list for language and speech technology
-	<elsnet-list.mailman.let.uu.nl>
-List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
-List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
-List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
-List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
-List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
-	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
-Content-Type: multipart/mixed; boundary="===============1326137200=="
-Sender: elsnet-list-bounces@mailman.let.uu.nl
-Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
+           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
+List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
+List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
+List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-This is a multi-part message in MIME format.
+LINGUIST List: Vol-20-4204. Tue Dec 08 2009. ISSN: 1068 - 4875.
 
---===============1326137200==
-Content-Type: multipart/alternative;
-	boundary="----=_NextPart_000_03BA_01CA6F6E.1FF9C9F0"
+Subject: 20.4204, Calls: Historical Ling, Lang Acquisition, Socioling/Unite=
+d Kingdom
 
-This is a multi-part message in MIME format.
+Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+=20
+Reviews: Monica Macaulay, U of Wisconsin-Madison =20
+Eric Raimy, U of Wisconsin-Madison =20
+Joseph Salmons, U of Wisconsin-Madison =20
+Anja Wanner, U of Wisconsin-Madison =20
+       <reviews@linguistlist.org>=20
 
-------=_NextPart_000_03BA_01CA6F6E.1FF9C9F0
-Content-Type: text/plain;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
+Homepage: http://linguistlist.org/
 
-SECOND AND UPDATED CALL FOR PAPERS for the Journal Topics in Cognitive =
-Science (topiCS) =
-(http://www3.interscience.wiley.com/journal/121673067/home)=20
+The LINGUIST List is funded by Eastern Michigan University,=20
+and donations from subscribers and publishers.
 
-PRODUCTION OF REFERRING EXPRESSIONS: Bridging the gap between =
-computational and empirical approaches to reference=20
+Editor for this issue: Kate Wu <kate@linguistlist.org>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-Deadline for intention to submit (by email to =
-pre.topics@googlemail.com): 1 February 2010=20
+LINGUIST is pleased to announce the launch of an exciting new feature: =20
+Easy Abstracts! Easy Abs is a free abstract submission and review facility=
+=20
+designed to help conference organizers and reviewers accept and process=20
+abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
+and begin your conference customization process today! With Easy Abstracts,=
+=20
+submission and review will be as easy as 1-2-3!
 
-Deadline for submission of full papers (using the journal's submission =
-system): 1 March 2010=20
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
 
-We invite substantial, original, and unpublished submissions on all =
-topics related to the production of referring expressions. Contributions =
-may focus on computational, experimental, or theoretical approaches to =
-reference. Papers bridging two or more of these fields are especially =
-encouraged. Papers should not normally exceed 8000 words, though this =
-limit may be extended in exceptional cases.=20
+1)
+Date: 07-Dec-2009
+From: Isabelle Lemee < isabelle.lemee@spd.dcu.ie >
+Subject: Le Fran=E7ais: Langue Une, Langue Plurielle
+=20
 
-Editors for this topic are Kees van Deemter (University of Aberdeen, =
-UK), Albert Gatt (University of Malta, Malta), Roger van Gompel =
-(University of Dundee, UK) and Emiel Krahmer (Tilburg University, The =
-Netherlands).=20
+=09
+-------------------------Message 1 ----------------------------------=20
+Date: Tue, 08 Dec 2009 15:17:31
+From: Isabelle Lemee [isabelle.lemee@spd.dcu.ie]
+Subject: Le Fran=E7ais: Langue Une, Langue Plurielle
 
-If prospective authors have any questions, they should contact the =
-TopiCS editors at pre.topics@googlemail.com.=20
+E-mail this message to a friend:
+http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-4204.=
+html&submissionid=3D2230494&topicid=3D3&msgnumber=3D1
+ =20
 
-*********=20
+Full Title: Le Fran=E7ais: Langue Une, Langue Plurielle=20
+Short Title: 2010 conf=E9rence AFLS,=20
 
-Introduction of the topic: Following on from a highly successful CogSci =
-workshop on the same theme (the PRE-CogSci 2009 workshop, =
-http://pre2009.uvt.nl/) we are pleased to launch this open Call for =
-Papers for the new journal Topics in Cognitive Sciences (topiCS). =
-Participants in the PRE workshop are invited to submit, but this Call is =
-in no way restricted to them. The submission procedure (in two stages) =
-is specified below.=20
+Date: 01-Sep-2010 - 03-Sep-2010
+Location: Cambridge, United Kingdom=20
+Contact Person: Mari C. Jones
+Meeting Email: mcj11@cam.ac.uk
+Web Site: http://www.afls.net/2010conference.php=20
 
-About the journal: Topics in Cognitive Sciences is one of the two =
-official journals of the Cognitive Science Society, and is published by =
-Wiley International =
-(http://csjarchive.cogsci.rpi.edu/topiCS/index.html). This innovative =
-publication continues in the tradition of the Cognitive Science journal =
-by being characterized by rigorous reviewing and high-quality papers. As =
-the name suggests, topiCS features multiple scholarly papers dedicated =
-to a single topic. Some of these topics will appear together in one =
-issue, but other topics may appear across several issues.=20
+Linguistic Field(s): Historical Linguistics; Language Acquisition; Sociolin=
+guistics=20
 
-Background about the topic: The production of referring expressions has =
-been studied from many perspectives including psycholinguistics and =
-computational linguistics, yet several open questions remain about how =
-human speakers refer to entities. A referring expression is typically =
-defined as one which is produced in order to identify an object or set =
-of objects for a listener or reader, in a relevant domain of discourse.=20
+Subject Language(s): French (fra)
 
-In spite of several decades of research on reference, which has covered =
-definite descriptions, deictic expressions, and anaphors, our =
-understanding of it is still incomplete, in part due to a lack of =
-communication between the various disciplines. We believe that the time =
-is ripe to bridge the gap between these disciplines. Psycholinguistics =
-offers important insights into the cognitive mechanisms underlying the =
-production of referring expressions, through carefully controlled =
-experiments. Computational linguistics has a well-established approach =
-involving corpus analysis and computational modeling. The goal of this =
-topics issue is to share results and to foster greater understanding and =
-collaboration between psycholinguists, computational linguists, and =
-researchers in related fields, including theoretical linguists =
-interested in models of human language that are grounded in cognitive =
-principles. For further information on the academic background to these =
-issues, see the PRE-CogSci Workshop website (http://pre2009.uvt.nl).=20
+Call Deadline: 01-Mar-2010=20
 
-Specific topics of interest include computational and/or experimental =
-approaches to:=20
+Meeting Description:
 
-- different kinds of referring expressions; when are which types of =
-reference (pronouns, descriptions, etc.) most appropriate?=20
-- plural and quantified references=20
-- vagueness: the use of vague (e.g. gradable) predicates in referring =
-expressions=20
-- referential overspecification: why and how do speakers overspecify?=20
-- referential underspecification: production of descriptions which do =
-not uniquely identify a referent=20
-- referring expressions in interactive settings; audience design, =
-adaptation and alignment=20
-- ambiguity avoidance in references=20
-- common ground, cooperativeness and shared/private information in =
-reference=20
-- realization of referring expressions (including speech and gesture)=20
-- visual scene perception and its influence on the production of =
-referring expressions=20
-- social and contextual factors in reference=20
-- data-collection and experimental evaluation methods=20
+En 2010, le colloque invite particuli=E8rement =E0 une r=E9flexion sur la r=
+elation
+entre la norme de r=E9f=E9rence homog=E8ne (langue une) et les pratiques de
+communication effectives ainsi que les perceptions et attitudes des usagers
+(langue plurielle).=20
 
-Paper submission: Manuscripts should follow the APA guidelines. Each =
-submission will be sent for review to three reviewers, including at =
-least one psycholinguist and one computational linguist. The only =
-accepted format for submitted abstracts is Adobe PDF. A two-stage =
-process is used, whereby authors first send an *intention to submit* to =
-precogsci2009@googlemail.com by 1 February 2010. Intentions to submit =
-should contain a provisional title, author name(s), and an abstract of =
-about 200 words.=20
+Les participants sont encourag=E9s =E0 prendre en consid=E9ration des donn=
+=E9es
+contemporaines et historiques dans diverses situations g=E9ographiques,
+communicationnelles et sociales pour explorer le caract=E8re changeant de l=
+a
+langue standard en France et les normes =E9mergeant dans d'autres pays
+francophones =E0 la lumi=E8re des transformations sociales et de la politiq=
+ue
+linguistique.=20
 
-*Actual submission* of papers will be done using the journal's =
-submission system (see http://www.editorialmanager.com/topics/ ) by 1 =
-March 2010.=20
+Le comit=E9 scientifique accueillera aussi favorablement des communications
+consacr=E9es =E0 l'=E9volution du r=F4le du fran=E7ais dans la communicatio=
+n inter- et
+intranationale, par exemple par des approches comparatives avec d'autres la=
+ngues
+de grande communication ou par une analyse des situations d'autres langues
+figurant dans le r=E9pertoire linguistique des francophones dans divers lie=
+ux ou
+par des =E9tudes de la politique concernant l'acquisition et l'apprentissag=
+e du
+fran=E7ais et d'autres langues.=20
 
-Reviewing committee:=20
+Par la m=EAme occasion, seront particuli=E8rement encourag=E9es les contrib=
+utions
+consacr=E9es =E0 l'=E9tude empirique des pratiques de divers types de locut=
+eurs :
+fran=E7ais L1, L2, apprenants de FLE sans oublier les usagers d'autres lang=
+ues
+implant=E9es dans des territoires francophones. Il est envisag=E9 que le pr=
+ogramme
+du colloque permettra de cr=E9er une interface entre la dynamique structura=
+le du
+discours et la variation stylistique par des travaux consacr=E9s =E0 des do=
+nn=E9es
+contemporaines et historiques et les environnements sociaux et encadrements
+politiques dans lesquels elles se manifestent/produisent.=20
 
-- Mira Ariel, Tel Aviv University, Israel=20
-- Jennifer Arnold, University of North Carolina, USA=20
-- Adrian Bangerter, Universite de Neuchatel, Switzerland=20
-- Ellen Gurman Bard, University of Edinburgh, UK=20
-- Dale Barr, University of California, USA=20
-- Sarah Brown-Schmidt, University of Illinois at Urbana-Champaign, USA=20
-- Robert Dale, Macquarie University, Australia=20
-- Fernanda Ferreira, University of Edinburgh, UK=20
-- Victor Ferreira, University of California, USA=20
-- Helmut Horacek, University of the Saarland, Germany=20
-- John Kelleher, Dublin Institute of Technology, Ireland=20
-- Alfons Maes, Tilburg University, The Netherlands=20
-- Linda Moxey, University of Glasgow, UK=20
-- Martin Pickering, University of Edinburgh, UK=20
-- Massimo Poesio, University of Trento, Italy=20
-- Ehud Reiter, University of Aberdeen, UK=20
-- David Reitter, Carnegie Mellon, USA=20
-- Advaith Siddharthan, University of Aberdeen, UK=20
-- Matthew Stone, Rutgers University, USA=20
-- Takenobu Tokunaga, Tokyo Institute of Technology, Japan 
-------=_NextPart_000_03BA_01CA6F6E.1FF9C9F0
-Content-Type: text/html;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
+Call for Papers
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
-<META http-equiv=3DContent-Type =
-content=3Dtext/html;charset=3Diso-8859-1>
-<META content=3D"MSHTML 6.00.6000.16939" name=3DGENERATOR></HEAD>
-<BODY id=3DMailContainerBody=20
-style=3D"PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-TOP: 15px" =
-leftMargin=3D0=20
-topMargin=3D0 CanvasTabStop=3D"true" name=3D"Compose message area">
-<DIV><SPAN class=3Dp-match>SECOND AND UPDATED CALL FOR PAPERS for the =
-Journal=20
-Topics in Cognitive Science (topiCS)=20
-(http://www3.interscience.wiley.com/journal/121673067/home) =
-<BR><BR>PRODUCTION=20
-OF REFERRING EXPRESSIONS: Bridging the gap between computational and =
-empirical=20
-approaches to reference <BR><BR>Deadline for intention to submit (by =
-email to=20
-pre.topics@googlemail.com): 1 February 2010 <BR><BR>Deadline for =
-submission of=20
-full papers (using the journal's submission system): 1 March 2010 =
-<BR><BR>We=20
-invite substantial, original, and unpublished submissions on all topics =
-related=20
-to the production of referring expressions. Contributions may focus on=20
-computational, experimental, or theoretical approaches to reference. =
-Papers=20
-bridging two or more of these fields are especially encouraged. Papers =
-should=20
-not normally exceed 8000 words, though this limit may be extended in =
-exceptional=20
-cases. <BR><BR>Editors for this topic are Kees van Deemter (University =
-of=20
-Aberdeen, UK), Albert Gatt (University of Malta, Malta), Roger van =
-Gompel=20
-(University of Dundee, UK) and Emiel Krahmer (Tilburg University, The=20
-Netherlands). <BR><BR>If prospective authors have any questions, they =
-should=20
-contact the TopiCS editors at pre.topics@googlemail.com. =
-<BR><BR>*********=20
-<BR><BR>Introduction of the topic: Following on from a highly successful =
-CogSci=20
-workshop on the same theme (the PRE-CogSci 2009 workshop,=20
-http://pre2009.uvt.nl/) we are pleased to launch this open Call for =
-Papers for=20
-the new journal Topics in Cognitive Sciences (topiCS). Participants in =
-the PRE=20
-workshop are invited to submit, but this Call is in no way restricted to =
-them.=20
-The submission procedure (in two stages) is specified below. =
-<BR><BR>About the=20
-journal: Topics in Cognitive Sciences is one of the two official =
-journals of the=20
-Cognitive Science Society, and is published by Wiley International=20
-(http://csjarchive.cogsci.rpi.edu/topiCS/index.html). This innovative=20
-publication continues in the tradition of the Cognitive Science journal =
-by being=20
-characterized by rigorous reviewing and high-quality papers. As the name =
+Organisateurs : Mari C. Jones (Peterhouse et le D=E9partement de Fran=E7ais=
+,
+Universit=E9 de Cambridge), Tim Pooley
 
-suggests, topiCS features multiple scholarly papers dedicated to a =
-single topic.=20
-Some of these topics will appear together in one issue, but other topics =
-may=20
-appear across several issues. <BR><BR>Background about the topic: The =
-production=20
-of referring expressions has been studied from many perspectives =
-including=20
-psycholinguistics and computational linguistics, yet several open =
-questions=20
-remain about how human speakers refer to entities. A referring =
-expression is=20
-typically defined as one which is produced in order to identify an =
-object or set=20
-of objects for a listener or reader, in a relevant domain of discourse.=20
-<BR><BR>In spite of several decades of research on reference, which has =
-covered=20
-definite descriptions, deictic expressions, and anaphors, our =
-understanding of=20
-it is still incomplete, in part due to a lack of communication between =
-the=20
-various disciplines. We believe that the time is ripe to bridge the gap =
-between=20
-these disciplines. Psycholinguistics offers important insights into the=20
-cognitive mechanisms underlying the production of referring expressions, =
-through=20
-carefully controlled experiments. Computational linguistics has a=20
-well-established approach involving corpus analysis and computational =
-modeling.=20
-The goal of this topics issue is to share results and to foster greater=20
-understanding and collaboration between psycholinguists, computational=20
-linguists, and researchers in related fields, including theoretical =
-linguists=20
-interested in models of human language that are grounded in cognitive=20
-principles. For further information on the academic background to these =
-issues,=20
-see the PRE-CogSci Workshop website (http://pre2009.uvt.nl). =
-<BR><BR>Specific=20
-topics of interest include computational and/or experimental approaches =
-to:=20
-<BR><BR>- different kinds of referring expressions; when are which types =
-of=20
-reference (pronouns, descriptions, etc.) most appropriate? <BR>- plural =
-and=20
-quantified references <BR>- vagueness: the use of vague (e.g. gradable)=20
-predicates in referring expressions <BR>- referential overspecification: =
-why and=20
-how do speakers overspecify? <BR>- referential underspecification: =
-production of=20
-descriptions which do not uniquely identify a referent <BR>- referring=20
-expressions in interactive settings; audience design, adaptation and =
-alignment=20
-<BR>- ambiguity avoidance in references <BR>- common ground, =
-cooperativeness and=20
-shared/private information in reference <BR>- realization of referring=20
-expressions (including speech and gesture) <BR>- visual scene perception =
-and its=20
-influence on the production of referring expressions <BR>- social and =
-contextual=20
-factors in reference <BR>- data-collection and experimental evaluation =
-methods=20
-<BR><BR>Paper submission: Manuscripts should follow the APA guidelines. =
-Each=20
-submission will be sent for review to three reviewers, including at =
-least one=20
-psycholinguist and one computational linguist. The only accepted format =
-for=20
-submitted abstracts is Adobe PDF. A two-stage process is used, whereby =
-authors=20
-first send an *intention to submit* to precogsci2009@googlemail.com by 1 =
+Le comit=E9 accueillera favorablement non seulement les communications
+individuelles (dur=E9e 20 minutes + 10 minutes de discussion) mais aussi de=
+s
+sections =E0 th=E8mes (3 communications : dur=E9e 3 x 20 minutes + 3 x10 mi=
+nutes de
+discussion).
 
-February 2010. Intentions to submit should contain a provisional title, =
-author=20
-name(s), and an abstract of about 200 words. <BR><BR>*Actual submission* =
-of=20
-papers will be done using the journal's submission system (see=20
-http://www.editorialmanager.com/topics/ ) by 1 March 2010. =
-<BR><BR>Reviewing=20
-committee: <BR><BR>- Mira Ariel, Tel Aviv University, Israel =
-</SPAN></DIV><SPAN=20
-class=3Dp-match>
-<DIV>- Jennifer Arnold, University of North Carolina, USA <BR>- Adrian=20
-Bangerter, Universite de Neuchatel, Switzerland <BR>- Ellen Gurman Bard, =
+Les sujets abord=E9s seront, de mani=E8re non exclusive:
+- analyse empirique de donn=E9es orales et =E9crites
+- vari=E9t=E9s de prestige hors de France
+- vari=E9t=E9s =E9mergeant de nouveaux m=E9dia, par ex. forums Internet, SM=
+S
+- le fran=E7ais et d'autres langues de grande communication (=E9tudes compa=
+ratives,
+politique linguistique, perte de domaines)
+- r=E9pertoire linguistique des Francophones
+- la jeunesse et l'immigration
+- l'=E9volution du/des contexte/s social/aux.
 
-University of Edinburgh, UK <BR>- Dale Barr, University of California, =
-USA <BR>-=20
-Sarah Brown-Schmidt, University of Illinois at Urbana-Champaign, USA =
-<BR>-=20
-Robert Dale, Macquarie University, Australia <BR>- Fernanda Ferreira, =
-University=20
-of Edinburgh, UK <BR>- Victor Ferreira, University of California, USA =
-<BR>-=20
-Helmut Horacek, University of the Saarland, Germany <BR>- John Kelleher, =
-Dublin=20
-Institute of Technology, Ireland <BR>- Alfons Maes, Tilburg University, =
-The=20
-Netherlands <BR>- Linda Moxey, University of Glasgow, UK <BR>- Martin =
-Pickering,=20
-University of Edinburgh, UK <BR>- Massimo Poesio, University of Trento, =
-Italy=20
-<BR>- Ehud Reiter, University of Aberdeen, UK <BR>- David Reitter, =
-Carnegie=20
-Mellon, USA <BR>- Advaith Siddharthan, University of Aberdeen, UK <BR>- =
-Matthew=20
-Stone, Rutgers University, USA <BR>- Takenobu Tokunaga, Tokyo Institute =
-of=20
-Technology, Japan </SPAN></DIV></BODY></HTML>
+Sessions Pl=E9ni=E8res
+Raymond Mougeon (Universit=E9 de York, Canada)
+Florence Myles (University de Newcastle, GB)
+Peterh Blumenthal (University de Cologne, Allemagne)
 
-------=_NextPart_000_03BA_01CA6F6E.1FF9C9F0--
+Soumission des Propositions
+Communications et posters: Les propositions de communications (20 minutes a=
+vec
+10 minutes de discussion) doivent =EAtre envoy=E9es d'ici le 1 mars 2010 so=
+us la
+forme d'un r=E9sum=E9 anonyme d'une page (times 12pt, espacement simple,
+bibliographie en sus, format=E9 en DOC ou RTF) =E0 H=E9l=E8ne Blondeau =E0 =
+l'adresse
+suivante: blondeau@ufl.edu.
+
+L'auteur mentionnera dans son mail ses coordonn=E9es compl=E8tes, son affil=
+iation et
+le titre de sa communication, en pr=E9cisant s'il soumet pour une communica=
+tion ou
+un poster.
+
+Notification d'Acceptation
+Le comit=E9 de recherche vous enverra sa r=E9ponse avant le 31 mars 2010. L=
+e comit=E9
+se r=E9serve le droit de proposer une acceptation comme poster au lieu d'un=
+e
+communication.
+
+Dates Importantes
+- D=E9lai de soumission des r=E9sum=E9s: 1 mars 2010
+- Notification d'acceptation: 31 mars 2010
+- D=E9lai des pr=E9inscriptions: 1 mai 2010
+- D=E9lai d'inscription: 14 mai 2010
+- Dates du colloque: 1 au 3 septembre 2010
 
 
---===============1326137200==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
 
 
-_______________________________________________
-Elsnet-list mailing list
-Elsnet-list@mailman.let.uu.nl
-http://mailman.elsnet.org/mailman/listinfo/elsnet-list
 
---===============1326137200==--
+-----------------------------------------------------------
+LINGUIST List: Vol-20-4204=09
 
+=09

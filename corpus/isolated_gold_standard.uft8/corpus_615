@@ -1,194 +1,241 @@
-From - Thu Dec 10 14:23:49 2009
+From - Thu Dec 10 14:23:59 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: ee119bfa716546208a355882134e7dfe2a679d0f
+X-Gmail-Received: f9d09943c24409c72e95d1e8e122b4822d2bdb44
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.126.10 with SMTP id d10cs525444pyn;
-        Mon, 14 Aug 2006 11:28:20 -0700 (PDT)
-Received: by 10.66.221.19 with SMTP id t19mr8567214ugg;
-        Mon, 14 Aug 2006 11:28:19 -0700 (PDT)
-Return-Path: <owner-corpora@lists.uib.no>
-Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
-        by mx.gmail.com with ESMTP id q40si8343065ugc.2006.08.14.11.28.17;
-        Mon, 14 Aug 2006 11:28:19 -0700 (PDT)
-Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
-Received: from blenda.uib.no [129.177.30.130] 
-	by noralf.uib.no  with esmtp  (Exim 4.34)
-	id 1GCh9w-0005GA-SD; Mon, 14 Aug 2006 20:27:32 +0200
-Received: from majordomo by blenda.uib.no with local (Exim 4.60)
-	id 1GChAQ-0009im-BD; Mon, 14 Aug 2006 20:28:02 +0200
-Received: from rolf.uib.no [129.177.30.19] 
-	by blenda.uib.no with esmtp (Exim 4.60)
-	id 1GChAP-0009ih-Tu; Mon, 14 Aug 2006 20:28:01 +0200
-Received: from mail1.its.albany.edu (smtp.albany.edu) [169.226.1.105] 
-	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
-	id 1GCh9p-00064s-A0; Mon, 14 Aug 2006 20:27:27 +0200
-Received: from [169.226.151.214] (dyn-169-226-151-214.ss.albany.edu [169.226.151.214])
-	by smtp.albany.edu (8.13.6/8.13.6) with ESMTP id k7EIQe4u029261
-	for <CORPORA@UIB.NO>; Mon, 14 Aug 2006 14:27:21 -0400 (EDT)
-Mime-Version: 1.0 (Apple Message framework v752.2)
+Received: by 10.35.126.10 with SMTP id d10cs120288pyn;
+        Sun, 3 Sep 2006 22:48:38 -0700 (PDT)
+Received: by 10.35.51.19 with SMTP id d19mr6953651pyk;
+        Sun, 03 Sep 2006 22:48:38 -0700 (PDT)
+Return-Path: <alta-announce-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id k62si5704933pyk.2006.09.03.22.48.36;
+        Sun, 03 Sep 2006 22:48:38 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of alta-announce-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k845mNq5015468
+	for <jpprost@gmail.com>; Mon, 4 Sep 2006 15:48:35 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090415483414379
+ for <jpprost@gmail.com>; Mon, 04 Sep 2006 15:48:34 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k845mYXs015524
+	for <jpprost@gmail.com>; Mon, 4 Sep 2006 15:48:34 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k845mUGH018659
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Mon, 4 Sep 2006 15:48:30 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k845mNq1015468;
+	Mon, 4 Sep 2006 15:48:29 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090415482914371
+ ; Mon, 04 Sep 2006 15:48:29 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k845gasS015030;
+	Mon, 4 Sep 2006 15:44:18 +1000 (EST)
+Received: from its-mu-mail3.its.rmit.edu.au (its-mu-mail3.its.rmit.edu.au
+	[131.170.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k845bDTX014794
+	for <alta-announce@alta.asn.au>; Mon, 4 Sep 2006 15:37:13 +1000 (EST)
+Received: from wombat.cs.rmit.edu.au (wombat.cs.rmit.edu.au [131.170.24.41])
+	by its-mu-mail3.its.rmit.edu.au (8.13.7/8.13.7/mail2) with ESMTP id
+	k845b4Ir028112
+	for <alta-announce@alta.asn.au>; Mon, 4 Sep 2006 15:37:04 +1000 (EST)
+Received: from goanna.cs.rmit.edu.au (lcavedon@goanna.cs.rmit.edu.au
+	[131.170.24.40])
+	by wombat.cs.rmit.edu.au (8.12.10/8.12.10/cshub) with ESMTP id
+	k845b3MV009997; Mon, 4 Sep 2006 15:37:03 +1000 (EST)
+Message-Id: <200609040537.k845b3MV009997@wombat.cs.rmit.edu.au>
+To: alta-announce@ics.mq.edu.au
+Date: Mon, 04 Sep 2006 15:37:03 +1000
+From: Lawrence Cavedon <lcavedon@goanna.cs.rmit.edu.au>
+X-Scanned-By: MIMEDefang 2.44
+X-Mailman-Approved-At: Mon, 04 Sep 2006 15:42:20 +1000
+Cc: lcavedon@wombat.cs.rmit.edu.au
+Subject: [ALTA-Announce] Final CFP: ALTW 2006 (Aust. Language Technology
+	Wshop)
+X-BeenThere: alta-announce@alta.asn.au
+X-Mailman-Version: 2.1.6
+Precedence: list
+List-Id: ALTA announcements <alta-announce.alta.asn.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-announce>,
+	<mailto:alta-announce-request@alta.asn.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/pipermail/alta-announce>
+List-Post: <mailto:alta-announce@alta.asn.au>
+List-Help: <mailto:alta-announce-request@alta.asn.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/alta-announce>,
+	<mailto:alta-announce-request@alta.asn.au?subject=subscribe>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
 Content-Transfer-Encoding: 7bit
-Message-Id: <14FC22DB-6C64-48E3-8CAF-B6D6B127D5A5@albany.edu>
-Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
-To: CORPORA@UIB.NO
-From: Nick Webb <nwebb@albany.edu>
-Subject: [Corpora-List] CFP: NAACL HLT 2007
-Date: Mon, 14 Aug 2006 14:27:20 -0400
-X-Mailer: Apple Mail (2.752.2)
-X-Scanned-By: MIMEDefang 2.57 on 169.226.1.44
-X-checked-clean: by exiscan on rolf
-X-Scanner: cb5a440db1689f2b9be058bb438a4867 http://tjinfo.uib.no/virus.html
-X-UiB-SpamFlag: NO UIB: 1.9 hits, 8.0 required
-X-UiB-SpamReport: spamassassin found;
-   2.0 Subject is all capitals
-List-Id: <corpora@uib.no>
-Sender: owner-corpora@lists.uib.no
-Precedence: bulk
-
-   **** NAACL HLT 2007 Preliminary Call for Papers ****
-
-                       Human Language Technologies:
-              The Conference of the North American Chapter of
-              the Association for Computational Linguistics
-
-                  April 22-28, 2007, Rochester, New York
-
-              http://www.cs.rochester.edu/meetings/hlt-naacl07
-
-General Conference Chair:  Candace Sidner (Mitsubishi Electric  
-Research Laboratories)
-Program Co-Chairs:
-	Tanja Schultz (Carnegie Mellon University)
-         Matthew Stone (Rutgers University)
-         ChengXiang Zhai  (University of Illinois at Urbana-Champaign)
-Local Arrangements:  James Allen, Len Schubert, and Dan Gildea  
-(University of Rochester)
-
-NAACL HLT 2007 continues the tradition of the combined Human Language  
-Technology
-Conferences (HLT) and North American Chapter of the Association for  
-Computational
-Linguistics (NAACL) Annual Meetings begun in 2003. The conference  
-covers a broad
-spectrum of disciplines working towards enabling intelligent systems  
-to interact
-with humans using natural language, and towards enhancing human-human  
-communication
-through services such as speech recognition, automatic translation,  
-information retrieval,
-text summarization, and information extraction. NAACL HLT 2007 will  
-feature full papers,
-late-breaking (short) papers, demonstrations, and a doctoral  
-consortium, as well as
-pre- and post-conference tutorials and workshops. The conference is  
-organized by
-the North American Chapter of the Association for Computational  
-Linguistics (NAACL),
-who is advised by a board representing the IR and speech communities  
-and North American
-HLT funding agencies.
-
-Topics of Interest:
-
-The conference invites the submission of papers on substantial,  
-original, and unpublished
-research in disciplines that could impact human language processing  
-systems, with a
-special focus on theories and methods that enable compelling  
-combinations of human
-language technologies (e.g., Speech with Information Retrieval,  
-Machine Translation
-with Speech, Question Answering with Natural Language Processing,  
-etc.). Topics of interest
-include but are not limited to:
-- Computational analysis of language
-      Phonology, morphology, syntax, semantics, pragmatics, dialogue,  
-discourse, style
-- Speech processing, including:
-     Speech recognition and speech generation
-     Rich transcription: automatic annotation of information  
-structure and sources in speech
-- Information retrieval, text classification, and information  
-filtering/recommendation
-     Text data mining, information extraction, text summarization,  
-and question answering
-- Multimodal representations and processing
-- Statistical and learning techniques for language, including
-     Corpus-based language modeling
-     Lexical and knowledge acquisition
-- Development of language resources, including
-     Lexicons and ontologies
-     Treebanks, proposition banks, and frame banks
-- Language generation and text planning
-- Multilingual processing, including
-     Machine translation of speech and text
-     Cross-language information retrieval
-     Multi-lingual speech recognition and language identification
-- Intelligent systems for natural language interaction, including
-     Conversational systems for collaboration, tutoring and  
-behavioral intervention
-     Embodied conversational agents, virtual humans and human-robot  
-conversation
-     Language-enhanced platforms for interactive narrative and  
-digital entertainment
-- Evaluation, including
-     Glass-box evaluation of HLT systems and system components
-     Black-box evaluation of HLT systems in application settings
-
-Submission information:
-
-Full papers: Submissions must describe original, completed,  
-unpublished work and
-should follow the two-column format of ACL proceedings without  
-exceeding eight pages,
-including references. Each submission will be judged chiefly on the  
-strength of
-the argument it provides in support of its contribution, through e.g.  
-experimental
-evaluation, theoretical analysis, or critical engagement with HLT.   
-Reviewing will
-be double-blind; each submission will be reviewed by at least three  
-program
-committee members.
-
-Late-breaking (short) papers: Submissions describing original,  
-unpublished work
-can be submitted as short papers with a later deadline.  The  
-submissions should
-follow the two-column format of ACL proceedings without exceeding  
-four pages,
-including references.  Reviewing will be double-blind; each  
-submission will be
-reviewed by at least two program committee members.  Short paper  
-submissions
-may be accepted for oral presentation in plenary OR for presentation  
-in a poster session.
-
-Demonstration, doctoral consortium, tutorial, and workshop  
-proposals:  Submission
-instructions will be available later.
-
-Multiple-submission policy:  Papers that have been or will be  
-submitted to other
-meetings or publications must provide this information at submission  
-time. In the
-event of multiple acceptances, authors must notify the program chairs by
-January 5, 2007, indicating which meeting they choose for  
-presentation of their work.
-HLT-NAACL 2007 cannot accept for publication work that will be (or  
-has been)
-published elsewhere.
-
-**** Important Dates:
-
-Oct 13, 2006	Full paper submissions due
-Dec 22, 2006	Full paper notification of acceptance
-Jan 18, 2007	Short paper submissions due
-Feb 22, 2007	Short Paper notification of acceptance
-Mar 5, 2007	Camera-ready full/short papers due
-Apr 22-28, 2007 Conference
-
-Please visit http://www.cs.rochester.edu/meetings/hlt-naacl07 for  
-more information.
+Sender: alta-announce-bounces@ics.mq.edu.au
+Errors-To: alta-announce-bounces@ics.mq.edu.au
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Brightmail-Tracker: AAAAAQAAAAQ=
 
 
+Just a reminder that the submission deadline for ALTW 2006 is this
+week: September 8, 2006! (Though submissions likely won't be closed
+until Sunday night ...).
+(The exception is for papers first-authored by ugrad/hons students;
+however, these authors must enter an intention-to-submit by Sept 8).
+
+The submission system is open and waiting for your papers! Go to:
+ http://www.alta.asn.au/events/altw2006/alta-2006-submissions.html
+
+Cheers,
+Lawrence and Ingrid
+
+------------------
+
+
+                         Call For Papers
+          AUSTRALASIAN LANGUAGE TECHNOLOGY WORKSHOP (ALTW)
+
+               *** NOTE NEW SUBMISSION DEADLINES ***
+
+                   November 30-December 1, 2006
+                        Sydney, Australia
+             http://www.alta.asn.au/events/altw2006/
+
+                     to be held as part of
+                       HCSNet SummerFest
+                     http://hcsnet.edu.au
+
+
+Overview
+
+A two-day workshop on Natural Language Technology will be organised by
+the Australasian Language Technology Association (ALTA). This event
+will be the fourth annual installment of the workshop in its
+most-recent incarnation, and the continuation of an annual workshop
+series that has existed under various guises since the early 90s.
+
+ALTW will be held as part of HCSNet SummerFest, a multi-disciplinary
+event encompassing a number of workshops, invited courses and
+presentations around the theme of Human Communication Science. The
+courses, offered at both introductory and more advanced levels, will
+include topic areas aimed specifically at Language Technology students
+and researchers.
+
+The goals of the workshop are:
+
+ * to bring together the growing Language Technology (LT) community
+   in Australia and New Zealand and encourage interactions; 
+ * to encourage interactions and collaboration within this community
+   and with the wider international LT community; 
+ * to foster interaction between academic and industrial researchers;
+ * to encourage dissemination of research results;
+ * to provide a forum for the discussion of new and ongoing
+   research and projects; 
+ * to provide an opportunity for the broader artificial intelligence
+   community to become aware of local LT research; and, finally, 
+ * to increase visibility of LT research in Australia, New Zealand
+   and overseas. 
+
+As with the 2005 Workshop, there will be poster presentations in
+addition to the regular talks, in order to encourage more interactive
+discussion of research-in-progress. In this vein, we encourage
+submissions from students describing their thesis work and any
+preliminary results. Note that both publication types will have the
+same status in the proceedings.
+
+
+Topics
+
+We invite the submission of papers on original and unpublished
+research on all aspects of natural language processing, including, but
+not limited to:
+
+ * speech understanding and generation;
+ * phonology, morphology, syntax, semantics, pragmatics, and discourse;
+ * interpreting and generating spoken and written language;
+ * linguistic, mathematical, and psychological models of language;
+ * language-oriented information extraction and retrieval;
+ * corpus-based and statistical language modelling;
+ * summarisation;
+ * machine translation and translation aids;
+ * natural language interfaces and dialogue systems;
+ * natural language and multimodal systems;
+ * message and narrative understanding systems;
+ * evaluations of language systems;
+ * computational lexicography. 
+
+We welcome submissions on any topic that is of interest to the LT
+community, and particularly encourage submissions that broaden the
+scope of our community through the consideration of practical LT
+applications and through multi-disciplinary research.  
+
+
+Submission Format
+
+Submissions should follow the two-column format of the ACL proceedings
+and should not exceed eight (8) pages, including references. We
+strongly recommend the use of ACL LaTeX style files or Microsoft Word
+Style files tailored for this year's conference. The style files and
+example documents are available from the workshop website. We reserve
+the right to reject submissions that do not conform to these styles
+including font and page size restrictions.
+
+The preferred submission format is PDF. If this introduces problems,
+please contact the organisers beforehand.
+
+If we cannot print your file by the submission date it will be
+rejected without being reviewed. Therefore you are encouraged to send
+an early version with the typographical complexity of your final
+intended version so that we can check it is printable. All papers
+should include the full authors' names and affiliations. (Note that
+this diverges from the "blind" submission guidelines adopted for ACL
+conferences.)
+
+Detailed directions for submission will be made available at the
+workshop website. Contact the organisers (workshop@alta.asn.au) for
+any questions regarding this process.
+
+
+Proceedings
+
+A proceedings containing all papers (presentations and posters) will
+be produced in paper and/or CD-ROM format. Each format will have an
+ISBN number.
+
+
+Important dates
+
+ * Paper submission: September 8, 2006      *** NOTE REVISED DEADLINE
+ * Submission date for Hons/Ugrad students: Sept 24, 2006 (see below)
+ * Notification of acceptance: October 3, 2006
+ * Camera-ready copy: October 17, 2006
+ * Workshop: Nov 30--Dec 1, 2006
+
+*** We have instituted a later submission deadline for papers with
+    **first-named** authors that are current Honours or Undergraduate
+    students. If you qualify for this condition and plan to submit to
+    this deadline then you must register an "Intention to Submit" with
+    the workshop chairs by the normal submission due date (Sept 8).
+    Send an email to workshop@alta.asn.au with title, authors, and
+    abstract.
+
+
+Workshop Co-Chairs
+ * Lawrence Cavedon (National ACT Australia and RMIT University)
+ * Ingrid Zukerman  (Monash University)
+Workshop Local Organiser
+ * Rolf Schwitter   (Macquarie University)
+
+
+Enquiries
+
+The Australasian Language Technology Workshop is being organised by
+ALTA, the Australasian Language Technology Association.
+		
+For any comments or questions about the workshop please contact the
+organizers at   workshop@alta.asn.au
+
+_______________________________________________
+ALTA-Announce mailing list
+ALTA-Announce@alta.asn.au
+http://www.ics.mq.edu.au/mailman/listinfo/alta-announce

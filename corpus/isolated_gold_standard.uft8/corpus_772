@@ -1,218 +1,92 @@
-From - Thu Dec 10 14:39:18 2009
+From - Thu Dec 10 14:39:09 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 Delivered-To: jpprost@gmail.com
-Received: by 10.223.125.139 with SMTP id y11cs592187far;
-        Wed, 2 Dec 2009 08:49:45 -0800 (PST)
-Received: by 10.90.46.19 with SMTP id t19mr298764agt.45.1259772580594;
-        Wed, 02 Dec 2009 08:49:40 -0800 (PST)
-Return-Path: <owner-linguist@listserv.linguistlist.org>
-Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.99.43])
-        by mx.google.com with ESMTP id 39si2194859iwn.100.2009.12.02.08.49.38;
-        Wed, 02 Dec 2009 08:49:39 -0800 (PST)
-Received-SPF: pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) client-ip=164.76.99.43;
-DomainKey-Status: bad
-Authentication-Results: mx.google.com; spf=pass (google.com: domain of owner-linguist@listserv.linguistlist.org designates 164.76.99.43 as permitted sender) smtp.mail=owner-linguist@listserv.linguistlist.org; domainkeys=hardfail header.From=LINGUIST@LISTSERV.LINGUISTLIST.ORG
-Received: from listserv (localhost [127.0.0.1])
-	by listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP id nB2Gj6pD014944;
-	Wed, 2 Dec 2009 11:49:38 -0500
-DomainKey-Signature: q=dns; d=LISTSERV.LINGUISTLIST.ORG; s=DEFAULT; c=nofws;
- h=Received:Approved-By:Mime-Version:Content-Type:Content-Transfer-Encoding:X-Mailer:X-Greylist:Message-ID:Date:Reply-To:Sender:From:Subject:Comments:To:List-Help:List-Unsubscribe:List-Subscribe:List-Owner:List-Archive;
- b=QGuG+UrpNKDg1HdqIDLSC0qECfZMZ4rWiJnl68Zz7BTT7q1lA0Dl28OIL6+N1Blwrd94ZCibSv4cyU6UwXHyLqdUATY4LaYIh952V4AyPqnwxhNxae2sZ4BrIwL0lThW;
-Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 15.5) with
-          spool id 14482875 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Wed, 2 Dec
-          2009 11:49:11 -0500
-Approved-By: linguist@LINGUISTLIST.ORG
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          listserv.linguistlist.org (8.14.3/8.14.3/SuSE Linux 0.8) with ESMTP
-          id nB2ECoTZ021101 for <linguist@listserv.linguistlist.org>; Wed, 2
-          Dec 2009 09:12:50 -0500
-Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
-          linguistlist.org (8.13.8/8.13.8) with ESMTP id nB2ECjvk006104; Wed, 2
-          Dec 2009 09:12:45 -0500 (EST)
-Mime-Version: 1.0
-Content-Type: text/plain; charset=iso-8859-1
+Received: by 10.204.118.66 with SMTP id u2cs155623bkq;
+        Sun, 15 Nov 2009 20:18:14 -0800 (PST)
+Return-Path: <3hNIASwcJB6ILRRTQUVIOCKN.EQOLRRTQUVIOCKN.EQO@calendar-server.bounces.google.com>
+Received-SPF: pass (google.com: domain of 3hNIASwcJB6ILRRTQUVIOCKN.EQOLRRTQUVIOCKN.EQO@calendar-server.bounces.google.com designates 10.150.253.5 as permitted sender) client-ip=10.150.253.5;
+Authentication-Results: mr.google.com; spf=pass (google.com: domain of 3hNIASwcJB6ILRRTQUVIOCKN.EQOLRRTQUVIOCKN.EQO@calendar-server.bounces.google.com designates 10.150.253.5 as permitted sender) smtp.mail=3hNIASwcJB6ILRRTQUVIOCKN.EQOLRRTQUVIOCKN.EQO@calendar-server.bounces.google.com; dkim=pass header.i=3hNIASwcJB6ILRRTQUVIOCKN.EQOLRRTQUVIOCKN.EQO@calendar-server.bounces.google.com
+Received: from mr.google.com ([10.150.253.5])
+        by 10.150.253.5 with SMTP id a5mr10747620ybi.11.1258345092049 (num_hops = 1);
+        Sun, 15 Nov 2009 20:18:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=beta;
+        h=domainkey-signature:mime-version:reply-to:auto-submitted:received
+         :message-id:date:subject:from:to:content-type;
+        bh=4wvZhiMvtSALK7Cs744pmcO8u5E+qldH24MqQk0D09g=;
+        b=NBgbWYCBQGbnZu39O5Y54HoW7ib5D8Seru2eXi6GjY91NVzRSAathCNVB8V5BvPDBO
+         o7DogyOOSy8YQk5XOtoQ==
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=google.com; s=beta;
+        h=mime-version:reply-to:auto-submitted:message-id:date:subject:from
+         :to:content-type;
+        b=HONqOBvXvx4c0gGvwIYhFTKI7BlEzCBkPYYbwRgSOJyeIgCe9670A4UM0Tbkjofi/Q
+         zmwrvYYjD8OL/eQqO9jQ==
+MIME-Version: 1.0
+Reply-To: Jean-Philippe Prost <jpprost@gmail.com>
+Auto-Submitted: auto-generated
+Received: by 10.150.253.5 with SMTP id a5mr7887386ybi.11.1258345092031; Sun, 
+	15 Nov 2009 20:18:12 -0800 (PST)
+Message-ID: <000e0cd3519437278c0478754c13@google.com>
+Date: Mon, 16 Nov 2009 04:18:12 +0000
+Subject: Daily Agenda for Jean-Philippe Prost as of 05:18
+From: Google Calendar <calendar-notification@google.com>
+To: Jean-Philippe Prost <jpprost@gmail.com>
+Content-Type: multipart/alternative; boundary=000e0cd351943727740478754c10
+
+--000e0cd351943727740478754c10
+Content-Type: text/plain; charset=windows-1252; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+anBwcm9zdEBnbWFpbC5jb20sIGhlcmUgaXMgeW91ciBzY2hlZHVsZSBmb3IgTW9uIE5vdiAxNiwg
+MjAwOQ0KDQpBbGwgRGF5CUNGUCAoYWJzdHJhY3RzKTogQ0lDTElORyAyMDEwIElhc2ksIFJvbWFu
+aWEJTFQgRXZlbnRzDQowODowMCCWIFR1ZSBOb3YgMTcgMDA6MDAJRW5yZWcgc29tbWVpbCBI9HBp
+dGFsIEdhc3RhdXQsIE1hcnNlaWxsZSwgRnJhbmNlCUpQDQoNCg0KVmlldyB5b3VyIGNhbGVuZGFy
+IGF0IGh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci8NCg0KWW91IGFyZSByZWNlaXZpbmcg
+dGhpcyBlbWFpbCBhdCB0aGUgYWNjb3VudCBqcHByb3N0QGdtYWlsLmNvbSBiZWNhdXNlIHlvdSAg
+DQphcmUgc3Vic2NyaWJlZCB0byByZWNlaXZlIGRhaWx5IGFnZW5kYXMgZm9yIHRoZSBmb2xsb3dp
+bmcgY2FsZW5kYXJzOiBMVCAgDQpFdmVudHMsIEpQLCBKUCdzIFByaXZhdGUgRXZlbnRzLg0KDQpU
+byBjaGFuZ2Ugd2hpY2ggY2FsZW5kYXJzIHlvdSByZWNlaXZlIGRhaWx5IGFnZW5kYXMgZm9yLCBw
+bGVhc2UgbG9nIGluIHRvICANCmh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9jYWxlbmRhci8gYW5kIGNo
+YW5nZSB5b3VyIG5vdGlmaWNhdGlvbiBzZXR0aW5ncyBmb3IgIA0KZWFjaCBjYWxlbmRhci4NCg==
+--000e0cd351943727740478754c10
+Content-Type: text/html; charset=windows-1252
 Content-Transfer-Encoding: quoted-printable
-X-Mailer: ColdFusion MX Application Server
-X-Greylist: Sender IP whitelisted,
-            not delayed by milter-greylist-3.0 (linguistlist.org
-            [164.76.102.53]); Wed, 02 Dec 2009 09:12:45 -0500 (EST)
-Message-ID:  <30039268.1259763165113.JavaMail.nobody@linguistlist.org>
-Date:         Wed, 2 Dec 2009 09:12:45 -0500
-Reply-To:     linguist@LINGUISTLIST.ORG
-Sender:       The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
-From:         linguist@LINGUISTLIST.ORG
-Subject: 20.4120, Calls: Computational Ling, Semantics/Germany
-Comments: To: linglike@linguistlist.org, gayatri@linguistlist.org
-To:           LINGUIST@LISTSERV.LINGUISTLIST.ORG
-Precedence: list
-List-Help: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>,
-           <mailto:LISTSERV@LISTSERV.LINGUISTLIST.ORG?body=INFO%20LINGUIST>
-List-Unsubscribe: <mailto:LINGUIST-unsubscribe-request@LISTSERV.LINGUISTLIST.ORG>
-List-Subscribe: <mailto:LINGUIST-subscribe-request@LISTSERV.LINGUISTLIST.ORG>
-List-Owner: <mailto:LINGUIST-request@LISTSERV.LINGUISTLIST.ORG>
-List-Archive: <http://listserv.linguistlist.org/cgi-bin/wa?LIST=LINGUIST>
 
-LINGUIST List: Vol-20-4120. Wed Dec 02 2009. ISSN: 1068 - 4875.
-
-Subject: 20.4120, Calls: Computational Ling, Semantics/Germany
-
-Moderators: Anthony Aristar, Eastern Michigan U <aristar@linguistlist.org>
-            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
-=20
-Reviews: Monica Macaulay, U of Wisconsin-Madison =20
-Eric Raimy, U of Wisconsin-Madison =20
-Joseph Salmons, U of Wisconsin-Madison =20
-Anja Wanner, U of Wisconsin-Madison =20
-       <reviews@linguistlist.org>=20
-
-Homepage: http://linguistlist.org/
-
-The LINGUIST List is funded by Eastern Michigan University,=20
-and donations from subscribers and publishers.
-
-Editor for this issue: Kate Wu <kate@linguistlist.org>
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
-
-LINGUIST is pleased to announce the launch of an exciting new feature: =20
-Easy Abstracts! Easy Abs is a free abstract submission and review facility=
-=20
-designed to help conference organizers and reviewers accept and process=20
-abstracts online.  Just go to: http://www.linguistlist.org/confcustom,=20
-and begin your conference customization process today! With Easy Abstracts,=
-=20
-submission and review will be as easy as 1-2-3!
-
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3DDirectory=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D =20
-
-1)
-Date: 01-Dec-2009
-From: Ines Rehbein < rehbein@coli.uni-sb.de >
-Subject: Conference on Natural Language Processing
-=20
-
-=09
--------------------------Message 1 ----------------------------------=20
-Date: Wed, 02 Dec 2009 09:09:01
-From: Ines Rehbein [rehbein@coli.uni-sb.de]
-Subject: Conference on Natural Language Processing
-
-E-mail this message to a friend:
-http://linguistlist.org/issues/emailmessage/verification.cfm?iss=3D20-4120.=
-html&submissionid=3D2229678&topicid=3D3&msgnumber=3D1
- =20
-
-Full Title: Conference on Natural Language Processing=20
-Short Title: KONVENS 2010=20
-
-Date: 06-Sep-2010 - 08-Sep-2010
-Location: Saarbr=FCcken, Saarland, Germany=20
-Contact Person: Ines Rehbein
-Meeting Email: info@konvens2010.de
-Web Site: http://www.konvens2010.de=20
-
-Linguistic Field(s): Computational Linguistics; Semantics=20
-
-Call Deadline: 23-Apr-2010=20
-
-Meeting Description:
-
-The 10th Conference on Natural Language Processing (KONVENS 2010)
-September 6-8, 2010
-Saarland University
-Saarbr=FCcken, Germany
-
-The Conference on Natural Language Processing ('Konferenz zur Verarbeitung
-Nat=FCrlicher Sprache', KONVENS) aims at offering a broad perspective on cu=
-rrent
-research and developments within the interdisciplinary field of natural lan=
-guage
-processing. It allows researchers from all disciplines relevant to this fie=
-ld of
-research to present their work.=20
-
-Call for Papers
-
-Important Dates
-April 23, 2010  Paper submissions due
-June 15, 2010 Notification of acceptance
-July 17, 2010 Camera-ready copy due
-
-Topics
-The Conference on Natural Language Processing ("Konferenz zur Verarbeitung
-Nat=FCrlicher Sprache", KONVENS) aims at offering a broad perspective on cu=
-rrent
-research and developments within the interdisciplinary field of natural lan=
-guage
-processing. It provides a forum for researchers from all disciplines releva=
-nt to
-this field of research to present their work.
-
-The central theme of the 10th KONVENS is
-"Semantic approaches in Natural Language Processing"
-
-We especially encourage the submission of contributions addressing linguist=
-ic
-aspects of meaning. Topics of interest include deep as well as shallow
-approaches, and knowledge-based as well as data-driven methods for modellin=
-g and
-acquiring semantic information. We equally encourage submissions on the use=
- of
-semantic information in applications of language technology. Submissions sh=
-ould
-describe original and unpublished research or innovative industrial applica=
-tions.
-
-Young researchers in particular are encouraged to present their completed w=
-ork
-for discussion.=20
-
-Invited Speakers:
-Anette Frank (Universit=E4t Heidelberg)=20
-Ed Hovy (ISI, University of Southern California)=20
-Gerhard Weikum (Max-Plack-Institut f=FCr Informatik, Saarbr=FCcken)=20
-
-Formats:
-We welcome two types of contributions:
-- Full papers for oral presentation (8 pages)
-- Short papers for presentation as posters (4 pages)=20
-
-Short papers/posters can be combined with a system demonstration. All
-submissions must be made electronically through the conference website. Rev=
-iews
-will be anonymous. Accepted full and short papers will be published in the
-conference proceedings.=20
-
-The conference languages are English and German. We encourage the submissio=
-n of
-contributions in English.
-
-Submissions should not exceed 8 pages for full papers or 4 pages for short
-papers/posters. Submission will be electronic, managed by the EasyChair sys=
-tem,
-which will be made available soon. The only accepted format for submitting
-papers is Adobe PDF. For more information and formatting guidelines please =
-see
-the full Call for Papers at http://www.konvens2010.de/cfp.html.
-
-As the review process will be anonymous, your submission must not include t=
-he
-author(s) name(s) and affiliation(s), or other indications of the author(s)
-identity. If you encounter a submission problem or in case you have any
-questions, please contact the program committee (program@konvens2010.de).
-
-Website: http://www.konvens2010.de/
-E-amil: info@konvens2010.de
-
-
-
-
-
------------------------------------------------------------
-LINGUIST List: Vol-20-4120=09
-
-=09
+<div style=3D"padding:10px 7px;font-size:14px;line-height:1.4;font-family:A=
+rial,Sans-serif;text-align:left;bgcolor=3D#ffffff"><a href=3D"http://www.go=
+ogle.com/calendar/"><img style=3D"border-width:0" src=3D"http://www.google.=
+com/calendar/images/calendar_logo_sm_en.gif" alt=3D"Google Calendar"></a>
+<p style=3D"margin:0;color:#0">jpprost@gmail.com,&nbsp;here is your schedul=
+e for:
+<h2 style=3D"margin:5px 0;font-size:18px;line-height:1.4;color:#0">Mon Nov =
+16, 2009</h2></p>
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"font-size:14px;line-hei=
+ght:1.4;font-family:Arial,Sans-serif;text-align:left;"><tr><td colspan=3D"1=
+" style=3D"white-space:nowrap">All day</td>
+<td style=3D"padding-left:11px;">Mon Nov 16</td>
+<td style=3D"padding-left:11px;"><a href=3D"http://www.google.com/calendar/=
+event?action=3DVIEW&amp;eid=3DcWY5NTNvb29ra2hjYzM3bTRxajhiYjEzMTggdWNwaWthN=
+GswOTZidmtvcDg0NGI1c2JuZDRAZw" style=3D"color:#BE6D00;text-decoration:none;=
+">CFP (abstracts): CICLING 2010 (Iasi, Romania)</a></td>
+<td style=3D"color:#EE8800;;padding-left:11px;">LT Events</td></tr> <tr><td=
+ colspan=3D"1" style=3D"white-space:nowrap">All day</td>
+<td style=3D"padding-left:11px;">08:00 =96 Wed Nov 18 10:00</td>
+<td style=3D"padding-left:11px;"><a href=3D"http://www.google.com/calendar/=
+event?action=3DVIEW&amp;eid=3DcGZ1MGo1cmJkNmFsZGtmZ28yb2NtbGtmZDAganBwcm9zd=
+EBt" style=3D"color:#2952A3;text-decoration:none;">Enreg sommeil (H=F4pital=
+ Gastaut, Marseille, France)</a></td>
+<td style=3D"color:#3366CC;;padding-left:11px;">JP</td></tr></table>
+<a href=3D"http://www.google.com/calendar/"><img style=3D"border-width:0" s=
+rc=3D"http://www.google.com/calendar/images/calendar_logo_sm_en.gif" alt=3D=
+"Google Calendar"></a>
+<p style=3D"font-family:Arial,Sans-serif;color:#666;font-size:11px">You are=
+ receiving this email at the account jpprost@gmail.com because you are subs=
+cribed to receive daily agendas for the following calendars: LT Events, JP,=
+ JP&#39;s Private Events.</p>
+<p style=3D"font-family:Arial,Sans-serif;color:#666;font-size:11px">To chan=
+ge which calendars you receive daily agendas for, please log in to http://w=
+ww.google.com/calendar/ and change your notification settings for each cale=
+ndar.</p></div>
+--000e0cd351943727740478754c10--

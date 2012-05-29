@@ -1,340 +1,283 @@
-From - Thu Dec 10 14:23:36 2009
+From - Thu Dec 10 14:23:39 2009
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
-X-Gmail-Received: 176a8970203f053ac914088ec667ace13335c31f
+X-Gmail-Received: f047e513f1923b7a2cb81ad9a99de316d9b32c8a
 Delivered-To: jpprost@gmail.com
-Received: by 10.35.11.2 with SMTP id o2cs28185pyi;
-        Thu, 6 Jul 2006 00:17:53 -0700 (PDT)
-Received: by 10.35.20.14 with SMTP id x14mr461590pyi;
-        Thu, 06 Jul 2006 00:17:53 -0700 (PDT)
-Return-Path: <cltphds-bounces@ics.mq.edu.au>
-Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-        by mx.gmail.com with ESMTP id k53si1954481pyd.2006.07.06.00.17.50;
-        Thu, 06 Jul 2006 00:17:53 -0700 (PDT)
-Received-SPF: pass (gmail.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k667HeXm002984;
-	Thu, 6 Jul 2006 17:17:49 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070617174802513
- ; Thu, 06 Jul 2006 17:17:48 +1000
-Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k667HmMg003028;
-	Thu, 6 Jul 2006 17:17:48 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k667Hm5X017037
-	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
-	Thu, 6 Jul 2006 17:17:48 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k667Hej4002987;
-	Thu, 6 Jul 2006 17:17:47 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
- by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006070617174702512
- ; Thu, 06 Jul 2006 17:17:47 +1000
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k667Hk1Q003021;
-	Thu, 6 Jul 2006 17:17:46 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
-	k667Hgaa003003; Thu, 6 Jul 2006 17:17:42 +1000 (EST)
-Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
-	k667HOrC002958; Thu, 6 Jul 2006 17:17:25 +1000 (EST)
-Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
-	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
-	k667FhTq002766
-	for <ltg@ics.mq.edu.au>; Thu, 6 Jul 2006 17:15:43 +1000 (EST)
-Received: from leadwort (leadwort.ics.mq.edu.au [137.111.240.128])
-	(authenticated bits=0)
-	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k667FhI7016634
-	(version=TLSv1/SSLv3 cipher=RC4-MD5 bits=128 verify=NO)
-	for <ltg@ics.mq.edu.au>; Thu, 6 Jul 2006 17:15:43 +1000 (EST)
-Message-ID: <002b01c6a0cb$fe6ba2f0$80f06f89@ics.mq.edu.au>
-From: "Rolf Schwitter" <rolfs@ics.mq.edu.au>
-To: <ltg@ics.mq.edu.au>
-Date: Thu, 6 Jul 2006 17:15:43 +1000
-MIME-Version: 1.0
-X-Priority: 3
-X-MSMail-Priority: Normal
-X-Mailer: Microsoft Outlook Express 6.00.2900.2869
-X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2869
-X-Brightmail-Tracker: AAAAAQAAAAQ=
-X-Brightmail-Tracker: AAAAAQAAAAQ=
-X-Brightmail-Tracker: AAAAAQAAAAQ=
-X-Brightmail-Tracker: AAAAAQAAAAQ=
-X-Whitelist: TRUE
-X-Whitelist: TRUE
-X-Whitelist: TRUE
-X-Whitelist: TRUE
-X-Whitelist: TRUE
-X-Mailman-Approved-At: Thu, 06 Jul 2006 17:17:22 +1000
-X-BeenThere: ltg@ics.mq.edu.au
-X-Mailman-Version: 2.1.6
+Received: by 10.35.11.2 with SMTP id o2cs145407pyi;
+        Mon, 24 Jul 2006 09:57:38 -0700 (PDT)
+Received: by 10.35.111.14 with SMTP id o14mr7862592pym;
+        Mon, 24 Jul 2006 09:57:38 -0700 (PDT)
+Return-Path: <owner-linguist@listserv.linguistlist.org>
+Received: from listserv.linguistlist.org (listserv.linguistlist.org [164.76.102.107])
+        by mx.gmail.com with ESMTP id d13si578868pyd.2006.07.24.09.57.24;
+        Mon, 24 Jul 2006 09:57:38 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of owner-linguist@listserv.linguistlist.org designates 164.76.102.107 as permitted sender)
+Received: from listserv (listserv [164.76.102.107])
+	by listserv.linguistlist.org (8.13.7/8.13.7) with ESMTP id k6OGum6Z003152;
+	Mon, 24 Jul 2006 12:57:22 -0400 (EDT)
+Received: by LISTSERV.LINGUISTLIST.ORG (LISTSERV-TCP/IP release 14.4) with
+          spool id 787022 for LINGUIST@LISTSERV.LINGUISTLIST.ORG; Mon, 24 Jul
+          2006 12:55:24 -0400
+Approved-By: linguist@LINGUISTLIST.ORG
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          listserv.linguistlist.org (8.13.7/8.13.7) with ESMTP id
+          k6OFUN4l012297 for <linguist@listserv.linguistlist.org>; Mon, 24 Jul
+          2006 11:30:23 -0400 (EDT)
+Received: from linguistlist.org (linguistlist.org [164.76.102.53]) by
+          linguistlist.org (8.13.7/8.13.7) with ESMTP id k6OFUJ7i005066; Mon,
+          24 Jul 2006 11:30:19 -0400 (EDT)
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+X-Mailer: ColdFusion MX Application Server
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org [164.76.102.107]); Mon, 24 Jul 2006 12:57:23 -0400 (EDT)
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-2.0.2 (listserv.linguistlist.org
+            [164.76.102.107]); Mon, 24 Jul 2006 11:30:23 -0400 (EDT)
+X-Greylist: Sender IP whitelisted,
+            not delayed by milter-greylist-2.0.2 (linguistlist.org
+            [164.76.102.53]); Mon, 24 Jul 2006 11:30:20 -0400 (EDT)
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by
+                      listserv.linguistlist.org id k6OFUN4l012298
+Message-ID:  <17835375.1153755019928.JavaMail.nobody@linguistlist.org>
+Date:         Mon, 24 Jul 2006 11:30:19 -0400
+Reply-To: linguist@LINGUISTLIST.ORG
+Sender: The LINGUIST Discussion List <LINGUIST@LISTSERV.LINGUISTLIST.ORG>
+From: linguist@LINGUISTLIST.ORG
+Subject: 17.2129, Calls: Applied Ling/Computational Ling/USA; Syntax/Austria
+Comments: To: gayatri@linguistlist.org, linglike@linguistlist.org
+To: LINGUIST@LISTSERV.LINGUISTLIST.ORG
 Precedence: list
-Content-Type: multipart/mixed; boundary="===============1990174375=="
-X-BeenThere: clt@ics.mq.edu.au
-Subject: [Cltphds] [Clt] [Ltg] AOW 2006
-X-BeenThere: cltphds@ics.mq.edu.au
-List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
-List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
-	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
-List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
-List-Post: <mailto:cltphds@ics.mq.edu.au>
-List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
-List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
-	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
-Sender: cltphds-bounces@ics.mq.edu.au
-Errors-To: cltphds-bounces@ics.mq.edu.au
 
-This is a multi-part message in MIME format.
+LINGUIST List: Vol-17-2129. Mon Jul 24 2006. ISSN: 1068 - 4875.
 
---===============1990174375==
-Content-Type: multipart/alternative;
-	boundary="----=_NextPart_000_0028_01C6A11F.CFE5A670"
+Subject: 17.2129, Calls: Applied Ling/Computational Ling/USA; Syntax/Austria
 
-This is a multi-part message in MIME format.
+Moderators: Anthony Aristar, Wayne State U <aristar@linguistlist.org>
+            Helen Aristar-Dry, Eastern Michigan U <hdry@linguistlist.org>
+ 
+Reviews (reviews@linguistlist.org) 
+        Laura Welcher, Rosetta Project / Long Now Foundation  
 
-------=_NextPart_000_0028_01C6A11F.CFE5A670
-Content-Type: text/plain;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
+Homepage: http://linguistlist.org/
 
-CALL FOR PAPERS
-The Australasian Ontology Workshop (AOW 2006)
-Held in Conjunction with the 19th Australian Joint Conference on =
-Artificial Intelligence (AI'06)
+The LINGUIST List is funded by Eastern Michigan University, Wayne
+State University, and donations from subscribers and publishers.
 
-Advances in Ontologies:
+Editor for this issue: Dan Parker <dan@linguistlist.org>
+================================================================  
 
-The use of formal ontologies in knowledge systems has many advantages. =
-It allows for an unambiguous specification of the structure of knowledge =
-in a domain, enables knowledge sharing and, as a result, makes it =
-possible to perform automated reasoning about ontologies. In recent =
-years there has been a worldwide increase in the use of ontologies, both =
-in industry and in research laboratories. There is a growing community =
-of researchers in Australia and New Zealand, working on various aspects =
-of ontologies. The primary aim of this workshop is to bring together =
-ontology researchers in the region.=20
+As a matter of policy, LINGUIST discourages the use of abbreviations
+or acronyms in conference announcements unless they are explained in
+the text.
 
-Workshop website:
-http://www.comp.mq.edu.au/conferences/aow/
+To post to LINGUIST, use our convenient web form at 
+http://linguistlist.org/LL/posttolinguist.html. 
 
-AI'06 Conference website:
-http://www.comp.utas.edu.au/ai06/
 
-Workshop Organisers:
 
-Mehmet Orgun  (Macquarie University)
-Thomas Meyer (NICTA)
+===========================Directory==============================  
 
-Program Committee:
+1)
+Date: 24-Jul-2006
+From: Matthias Denecke < matthias@opendialog.org >
+Subject: Young Researchers' Roundtable on Spoken Dialog Systems 
 
-Mike Bain (UNSW)=20
-Robert Barta (Bond University)
-Richard Booth (Mahasarakham University)
-Werner Ceusters (SUNY Buffalo)=20
-Stephen Cranefield (University of Otago)=20
-Anne Cregan (UNSW)=20
-Abhaya Nayak (Macquarie University)=20
-Bhavna Orgun (Macquarie University)=20
-Maurice Pagnucco (UNSW)=20
-Debbie Richards (Macquarie University)
-Abdul Sattar (Griffith University)=20
-Rolf Schwitter (Macquarie University)=20
-Barry Smith (SUNY Buffalo)=20
-Markus Stumptner (University of South Australia)
-Kerry Taylor (CSIRO)=20
-Mary-Anne Williams (UTS)
+2)
+Date: 15-Jul-2006
+From: Judith Kainhofer < judith.kainhofer@sbg.ac.at >
+Subject: Syntax Workshop at the 34th Austrian Linguistics Conference 
 
-Topics:
+	
+-------------------------Message 1 ---------------------------------- 
+Date: Mon, 24 Jul 2006 11:25:31
+From: Matthias Denecke < matthias@opendialog.org >
+Subject: Young Researchers' Roundtable on Spoken Dialog Systems 
+ 
 
-The workshop will seek submission of papers on original and unpublished =
-research on all aspects of ontology research, including, but not limited =
-to=20
-* ontology models and theories,
-* ontologies and the semantic web;=20
-* interoperability in ontologies;=20
-* multi-agent systems and ontologies;=20
-* description logics for ontologies;=20
-* reasoning with ontologies;=20
-* ontology harvesting on the web;=20
-* ontology of agents and actions;=20
-* ontology visualisation;=20
-* ontology engineering and management;
-* ontology-based information extraction and retrieval
-* ontology merging, alignment and integration;=20
-* web ontology languages;=20
-* formal concept analysis and ontologies.
+Full Title: Young Researchers' Roundtable on Spoken Dialog Systems 
+Short Title: YRRSDS 
 
-Paper Submission:
+Date: 16-Sep-2006 - 16-Sep-2006
+Location: Pittsburgh, PA, USA 
+Contact Person: Matthias Denecke
+Meeting Email: yrr-organizers06@lists.csail.mit.edu
+Web Site: http://www.yrrsds.org 
 
-An electronic copy in PDF format in English should be submitted to the =
-workshop website (details to be provided) by 1 September 2006 with =
-detailed information of author(s). Full papers should be a maximum of 10 =
-pages in length in double column format as per submission instructions =
-posted on the website. The Proceedings of AOW05 was published by the =
-Australian Computer Society in Volume 58 of the Conferences in Research =
-and Practice in Information Technology (CRPIT) series. The proceedings =
-of AOW06 will also be published in Volume 72 of the CRPIT Series =
-(http://crpit.com) with an ISBN. Authors will be notified of acceptance =
-by September 22, 2006. The camera-ready papers will be due on 6 October =
-2006. At least one author of every accepted paper should register for =
-the workshop.
+Linguistic Field(s): Applied Linguistics; Computational Linguistics 
+
+Call Deadline: 31-Jul-2006 
+
+Meeting Description:
+
+The Young Researchers' Roundtable on Spoken Dialog Systems is an annual workshop
+designed for students, post docs, and junior researchers working in applied
+spoken dialog systems research. The roundtable provides an open forum where
+participants can discuss their research interests, current work and future
+plans. The workshop is meant to foster creative thinking about current issues in
+spoken dialog systems research, and help create a stronger international network
+of young researchers working in the field.
+
+This year, the workshop will be held on September 16th, 2006, in Pittsburgh, PA,
+USA, as a satellite workshop to Interspeech 2006. 
+
+YRR-2006: Deadline extended (http://www.yrrsds.org/)
+
+New submission deadline: July 31, 2006
+
+Workshop topic:
+
+The Young Researchers' Roundtable on Spoken Dialog Systems is a satellite
+workshop to the INTERSPEECH 2006 - ICSLP in Pittsburgh. This workshop will bring
+together students, post docs, and junior researchers from different countries,
+different research institutions, and different disciplines who share an interest
+in applied dialog systems research. It will provide a setting in which
+participants can discuss their own research and work and obtain feedback from
+others who are at a similar level and who are working on similar problems. The
+discussions will have an eye toward: (1) solving the problems that participants
+currently face in their work, (2) identifying issues that are likely to be
+important in the coming years, and perhaps most importantly, (3) the event will
+help to create a more permanent international network of young researchers
+working in spoken dialog systems. We hope to continue the success of last year's
+Young Researchers' Roundtable on Spoken Dialog Systems: 
+(http://www.cs.cmu.edu/~dod/YRR/index.html).
+
+Workshop format:
+
+This workshop will be a full-day event consisting of multiple small-group
+discussions of topics that will be chosen based on suggestions submitted by the
+participants themselves. Potential roundtable discussion topics could include:
+
+- Use and usefulness of user simulation: What are the best practices for
+building and evaluating user simulations?
+- Dialog and question answering: How can dialog research help with interactive
+question answering?
+- Multimodality: Today, spoken dialog systems are common in call centers, mobile
+phone, and cars; but, multi-modal systems are much less widely deployed. Why is
+this so? Can multimodal dialogue systems play a useful/fun role in
+gaming/virtual reality?
+- Para-linguistic and non-linguistic phenomena: How should dialog systems
+account for and respond to affect (e.g., user frustration)?
+- Bridging the gap: How can research on spoken dialog systems benefit from other
+fields? What techniques from other fields (such as operations research,
+ergonomics, data mining, or others) might be borrowed and extended to advanced
+spoken dialog systems? What can linguistic theories and psycho-linguistic
+research tell us?
+
+After the small-group discussions, each of the groups will present a summary to
+the rest of the participants. We hope that the discussion format will foster
+creative thinking about current issues in spoken dialog systems research,
+setting the stage for the co-located INTERSPEECH-2006.
+
+Submission process:
+
+We invite participation from students, post docs, and junior researchers who are
+currently working in applied spoken dialog systems research. We also invite
+participation from those who are working in related fields such as human
+factors, speech recognition, artificial intelligence, or speech synthesis, as
+applied to spoken dialog systems. Potential participants should submit a 2-page
+position paper following the template provided on the webpage. The paper will
+include a statement of research interests with a short overview of past, current
+and future work. Furthermore a discussion on the following questions:
+
+-What is the next killer application for spoken dialog systems?
+-What sort of impact could that application have?
+-What questions need to be answered before we can realize that application?
+
+This discussion should be followed by an enumeration of three possible
+discussion topics for the event itself. Finally, the authors are asked to
+provide a short biographical sketch. Accepted papers will be collated and
+distributed to participants in CD-ROM and/or paper format. We also plan to
+publish the position papers and presentations from the workshop on the web,
+subject to sponsor or publisher constraints.
+
+Further information concerning the submission format is provided on the web-page.
+
+Submissions will be accepted on a rolling basis starting March 27th, 2006, until
+the maximum number of participants for the workshop (45) is reached; or, until
+the submission deadline (July 31st, 2006) is reached.
 
 Important Dates:
 
-Full paper submission due: 1 September, 2006
+Open for submissions: March 30th, 2006
+Submissions deadline:  July 31st, 2006
+Registrations begin: August 1st, 2006
+Registration deadline: TBD
+Workshop: September 16th, 2006
 
-Notification of acceptance: 22 September, 2006
+The YRR '06 Organizing Committee:
+yrr-organizers06@lists.csail.mit.edu
 
-Camera-ready copy due: 6 October, 2006
-
-Workshop date: 4 or 5 December, 2006
-
-------=_NextPart_000_0028_01C6A11F.CFE5A670
-Content-Type: text/html;
-	charset="iso-8859-1"
-Content-Transfer-Encoding: quoted-printable
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
-<META http-equiv=3DContent-Type content=3D"text/html; =
-charset=3Diso-8859-1">
-<META content=3D"MSHTML 6.00.2900.2912" name=3DGENERATOR>
-<STYLE></STYLE>
-</HEAD>
-<BODY bgColor=3D#ffffff>
-<DIV><FONT face=3DArial size=3D2><FONT face=3D"Times New Roman" =
-size=3D3>CALL FOR=20
-PAPERS<BR>The Australasian Ontology Workshop (AOW 2006)<BR>Held in =
-Conjunction=20
-with the 19th Australian Joint Conference on Artificial Intelligence=20
-(AI'06)<BR><BR>Advances in Ontologies:<BR><BR>The use of formal =
-ontologies in=20
-knowledge systems has many advantages. It allows for an unambiguous=20
-specification of the structure of knowledge in a domain, enables =
-knowledge=20
-sharing and, as a result, makes it possible to perform automated =
-reasoning about=20
-ontologies. In recent years there has been a worldwide increase in the =
-use of=20
-ontologies, both in industry and in research laboratories. There is a =
-growing=20
-community of researchers in Australia and New Zealand, working on =
-various=20
-aspects of ontologies. The primary aim of this workshop is to bring =
-together=20
-ontology researchers in the region. <BR><BR>Workshop =
-website:<BR></FONT><A=20
-href=3D"http://www.comp.mq.edu.au/conferences/aow/"><FONT face=3D"Times =
-New Roman"=20
-size=3D3>http://www.comp.mq.edu.au/conferences/aow/</FONT></A><BR><BR><FO=
-NT=20
-face=3D"Times New Roman" size=3D3>AI'06 Conference website:<BR></FONT><A =
-
-href=3D"http://www.comp.utas.edu.au/ai06/"><FONT face=3D"Times New =
-Roman"=20
-size=3D3>http://www.comp.utas.edu.au/ai06/</FONT></A><BR><BR><FONT=20
-face=3D"Times New Roman" size=3D3>Workshop Organisers:<BR><BR>Mehmet =
-Orgun&nbsp;=20
-(Macquarie University)<BR>Thomas Meyer (NICTA)<BR><BR>Program=20
-Committee:<BR><BR>Mike Bain (UNSW) <BR>Robert Barta (Bond =
-University)<BR>Richard=20
-Booth (Mahasarakham University)<BR>Werner Ceusters (SUNY Buffalo) =
-<BR>Stephen=20
-Cranefield (University of Otago) <BR>Anne Cregan (UNSW) <BR>Abhaya Nayak =
-
-(Macquarie University) <BR>Bhavna Orgun (Macquarie University) =
-<BR>Maurice=20
-Pagnucco (UNSW) <BR>Debbie Richards (Macquarie University)<BR>Abdul =
-Sattar=20
-(Griffith University) <BR>Rolf Schwitter (Macquarie University) =
-<BR>Barry Smith=20
-(SUNY Buffalo) <BR>Markus Stumptner (University of South =
-Australia)<BR>Kerry=20
-Taylor (CSIRO) <BR>Mary-Anne Williams (UTS)<BR><BR>Topics:<BR><BR>The =
-workshop=20
-will seek submission of papers on original and unpublished research on =
-all=20
-aspects of ontology research, including, but not limited to <BR>* =
-ontology=20
-models and theories,<BR>* ontologies and the semantic web; <BR>*=20
-interoperability in ontologies; <BR>* multi-agent systems and =
-ontologies; <BR>*=20
-description logics for ontologies; <BR>* reasoning with ontologies; =
-<BR>*=20
-ontology harvesting on the web; <BR>* ontology of agents and actions; =
-<BR>*=20
-ontology visualisation; <BR>* ontology engineering and management;<BR>*=20
-ontology-based information extraction and retrieval<BR>* ontology =
-merging,=20
-alignment and integration; <BR>* web ontology languages; <BR>* formal =
-concept=20
-analysis and ontologies.<BR><BR>Paper Submission:<BR><BR>An electronic =
-copy in=20
-PDF format in English should be submitted to the workshop website =
-(details to be=20
-provided) by 1 September 2006 with detailed information of author(s). =
-Full=20
-papers should be a maximum of 10 pages in length in double column format =
-as per=20
-submission instructions posted on the website. The Proceedings of AOW05 =
-was=20
-published by the Australian Computer Society in Volume 58 of the =
-Conferences in=20
-Research and Practice in Information Technology (CRPIT) series. The =
-proceedings=20
-of AOW06 will also be published in Volume 72 of the CRPIT Series =
-(</FONT><A=20
-href=3D"http://crpit.com"><FONT face=3D"Times New Roman"=20
-size=3D3>http://crpit.com</FONT></A><FONT face=3D"Times New Roman" =
-size=3D3>) with an=20
-ISBN. Authors will be notified of acceptance by September 22, 2006. The=20
-camera-ready papers will be due on 6 October 2006. At least one author =
-of every=20
-accepted paper should register for the workshop.<BR><BR>Important=20
-Dates:<BR><BR>Full paper submission due: 1 September, =
-2006<BR><BR>Notification=20
-of acceptance: 22 September, 2006<BR><BR>Camera-ready copy due: 6 =
-October,=20
-2006<BR><BR>Workshop date: 4 or 5 December,=20
-2006</FONT><BR></FONT></DIV></BODY></HTML>
-
-------=_NextPart_000_0028_01C6A11F.CFE5A670--
+-Matthias Denecke
+-Alex Gruenstein, Computer Science and Artificial Intelligence Laboratory, MIT, USA
+-Verena Rieser, International Post-Graduate College for Language Technology and
+Cognitive Systems, Saarland University, Germany
+-Mihai Rotaru, Computer Science Department, University of  Pittsburgh, USA
+-Matt Stuttle, Department of Engineering, Cambridge University, UK
 
 
---===============1990174375==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
 
-_______________________________________________
-LTG mailing list
-LTG@ics.mq.edu.au
-http://www.ics.mq.edu.au/mailman/listinfo/ltg
+	
+-------------------------Message 2 ---------------------------------- 
+Date: Mon, 24 Jul 2006 11:25:38
+From: Judith Kainhofer < judith.kainhofer@sbg.ac.at >
+Subject: Syntax Workshop at the 34th Austrian Linguistics Conference 
 
---===============1990174375==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
+	
+Full Title: Syntax Workshop at the 34th Austrian Linguistics Conference 
 
-_______________________________________________
-CLT mailing list
-CLT@ics.mq.edu.au
-http://www.ics.mq.edu.au/mailman/listinfo/clt
+Date: 08-Dec-2006 - 10-Dec-2006
+Location: Klagenfurt, Austria 
+Contact Person: Judith Kainhofer
+Meeting Email: oelt2006syntax@gmx.at
+Web Site: http://www.uni-klu.ac.at/spw/inhalt/270.htm 
 
---===============1990174375==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: inline
+Linguistic Field(s): General Linguistics; Semantics; Syntax 
 
-_______________________________________________
-CLTPhds mailing list
-CLTPhds@ics.mq.edu.au
-http://www.ics.mq.edu.au/mailman/listinfo/cltphds
+Call Deadline: 06-Oct-2006 
 
---===============1990174375==--
+Meeting Description:
 
+A Syntax Workshop organised by Judith Kainhofer (Salzburg) and Antonia Rothmayr
+(Wien) at the 34th Austrian Lingustics Conference (34. Oesterreichische
+Linguistiktagung) 8-10 December, 2006, Klagenfurt, Austria. 
+
+Einladung zum 'Syntax-Workshop'
+im Rahmen der 34. Oesterreichischen Linguistiktagung
+vom 8. bis 10. Dezember 2006
+an der Alpen-Adria Universität Klagenfurt, Österreich.
+
+Inhaltliche Beschreibung:
+Der Workshop umfasst alle Themen der generativen Grammatik, insbesondere Fragen
+der (minimalistischen) Syntax sowie deren Schnittstelle zu Morphologie,
+Phonologie und Semantik, die sowohl in theoretischer wie auch in empirischer
+Hinsicht diskutiert werden koennen.
+
+Betraege: 20 Minuten Vortrag, 10 Minuten Diskussion
+Sprache: Deutsch, Englisch
+
+Anmeldung:
+Bekanntgabe des Vortragstitels mit kurzer Beschreibung (ca. 5-10 Saetze) bis
+spaetestens 6. Oktober 2006 per Email an oelt2006syntax@gmx.at.
+
+Achtung Registrierung:
+Die Registrierung fuer die Konferenz muss unabhaengig von der Anmeldung zum
+Workshop ueber die offizielle Tagungshomepage erfolgen:
+http://www.uni-klu.ac.at/spw/inhalt/270.htm.
+
+Kontakt: oelt2006syntax@gmx.at,
+Judith Kainhofer (Salzburg) und Antonia Rothmayr (Wien)
+
+Anmeldefrist fuer Vortraege: 6. Oktober 2006
+
+Tagung: 8.-10. Dezember 2006
+
+
+ 
+
+
+
+-----------------------------------------------------------
+LINGUIST List: Vol-17-2129	
+
+	
