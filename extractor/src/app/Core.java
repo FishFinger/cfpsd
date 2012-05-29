@@ -115,8 +115,6 @@ public class Core
         if (min_dist <= 0)
           min_dist = 1;
 
-        System.out.println(min_dist + "-" + date.getDate());
-
         float grade = (float) (1.f / Math.sqrt((float) min_dist / threshold));
         if (grade > 1.f)
           grade = 1.f;

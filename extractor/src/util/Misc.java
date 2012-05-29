@@ -122,4 +122,34 @@ public class Misc
     return text;
 
   }
+  
+  private static short percent = -1, old_percent = 0;
+  private static char[] anim = {'-', '\\','|','/'};
+  private static int current_char = -1;
+  public static void printPercent(int actual, int total)
+  {
+    percent = (short) (actual*100 / total);
+    
+    if(percent != old_percent)
+      System.out.println(percent + "%"+anim[++current_char % anim.length]);
+    
+    /*String s = "";
+    if(percent != old_percent)
+      {
+        if(old_percent < 0)
+          s = percent + "%";
+        else if(old_percent < 10)
+          s ="\b\b\b"+ percent + "%";
+        else 
+          s ="\b\b\b\b"+ percent + "%";
+        
+        System.out.print(s+anim[++current_char % anim.length]);
+      }
+    else  
+      System.out.print("\b"+anim[++current_char % anim.length]);*/
+
+    old_percent = percent;
+
+    
+  }
 }

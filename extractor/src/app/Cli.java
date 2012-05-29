@@ -2,6 +2,7 @@ package app;
 
 import static org.junit.Assert.assertEquals;
 
+import java.io.UnsupportedEncodingException;
 import java.text.DateFormatSymbols;
 import java.util.LinkedList;
 import java.util.List;
@@ -19,8 +20,9 @@ public class Cli
 
   /**
    * @param args
+   * @throws UnsupportedEncodingException 
    */
-  public static void main(String[] args)
+  public static void main(String[] args) throws UnsupportedEncodingException
   {
     System.out.println(Core.searchDeadlineDate(Misc.removeHeader(Misc.read(System.in))));
   }
