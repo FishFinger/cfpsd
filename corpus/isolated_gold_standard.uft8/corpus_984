@@ -1,0 +1,984 @@
+From - Thu Dec 10 14:39:02 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs38449bkq;
+        Fri, 13 Nov 2009 07:13:00 -0800 (PST)
+Received: by 10.224.27.16 with SMTP id g16mr2782747qac.103.1258125178726;
+        Fri, 13 Nov 2009 07:12:58 -0800 (PST)
+Return-Path: <sentto-1622440-2976-1258125167-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum1.ics.mq.edu.au (vacuum1.ics.mq.edu.au [137.111.216.103])
+        by mx.google.com with ESMTP id 5si11078872qwg.30.2009.11.13.07.12.55;
+        Fri, 13 Nov 2009 07:12:57 -0800 (PST)
+Received-SPF: neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2976-1258125167-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) client-ip=137.111.216.103;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 137.111.216.103 is neither permitted nor denied by domain of sentto-1622440-2976-1258125167-jpprost=ics.mq.edu.au@returns.groups.yahoo.com) smtp.mail=sentto-1622440-2976-1258125167-jpprost=ics.mq.edu.au@returns.groups.yahoo.com; dkim=pass header.i=@yahoogroupes.fr
+Received: from n60c.bullet.mail.sp1.yahoo.com (n60c.bullet.mail.sp1.yahoo.com [98.136.45.59])
+	by vacuum1.ics.mq.edu.au (8.13.8+Sun/8.13.8) with SMTP id nADFCpb8019640
+	for <jpprost@ics.mq.edu.au>; Sat, 14 Nov 2009 02:12:51 +1100 (EST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoogroupes.fr; s=charlie; t=1258125169; bh=dLsV7DUViW9/e6ODEmNpm8yUleQof0HVMhRRvVw5wAY=; h=Received:Received:X-Yahoo-Newman-Id:X-Sender:X-Apparently-To:X-Received:X-Received:X-Received:X-IronPort-Anti-Spam-Filtered:X-IronPort-Anti-Spam-Result:X-IronPort-AV:X-Received:Message-Id:To:X-Mailer:X-Originating-IP:X-eGroups-Msg-Info:From:Sender:MIME-Version:Mailing-List:Delivered-To:List-Id:Precedence:List-Unsubscribe:Date:Subject:X-Yahoo-Newman-Property:Content-Type; b=BpTynN6Qq4M05PaCZwA13lHngJqf7XcVIYSrKAFQkJnfgx75GfNgS/+EMelwY0/D8MHBSE+1s5Vra50JQbu+t97xLwjhLdWtgA22pyVQdsguWiwyQKFVKAJvCT3BF/PH
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=NKphddj83KV8NUzynTiKdzI7CcewgEbXGZwGihwbnLN9OuPzfAIrxRIfLlHtatyFGiD/a2M5M6sBhYuwqw/ioE7aAvEUt5J34hfK4yinYGogLTZcZtKdpwN2vSvqB3BJ;
+Received: from [69.147.65.151] by n60.bullet.mail.sp1.yahoo.com with NNFMP; 13 Nov 2009 15:12:49 -0000
+Received: from [66.196.94.62] by t5.bullet.mail.sp1.yahoo.com with NNFMP; 13 Nov 2009 15:12:49 -0000
+X-Yahoo-Newman-Id: 1622440-m2976
+X-Sender: Noel.Nguyen@lpl-aix.fr
+X-Apparently-To: lpl-infos@yahoogroups.com
+X-Received: (qmail 54950 invoked from network); 13 Nov 2009 15:12:41 -0000
+X-Received: from unknown (66.196.94.107)
+  by m12.grp.re1.yahoo.com with QMQP; 13 Nov 2009 15:12:41 -0000
+X-Received: from unknown (HELO mso1k193.u-3mrs.fr) (195.221.207.193)
+  by mta3.grp.re1.yahoo.com with SMTP; 13 Nov 2009 15:12:41 -0000
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result: AmhJAA4G/UqTXsUx/2dsb2JhbACCIhYYhQKLBIYUvTuEPASBbQ
+X-IronPort-AV: E=Sophos;i="4.44,737,1249250400"; 
+   d="scan'208,217";a="22335891"
+X-Received: from unknown (HELO [147.94.197.49]) ([147.94.197.49])
+  by mso1k206.u-3mrs.fr with ESMTP; 13 Nov 2009 16:12:24 +0100
+Message-Id: <08A68A2C-74E5-4A0C-8001-2C4D703082A2@lpl-aix.fr>
+To: lpl-infos@yahoogroupes.fr
+X-Mailer: Apple Mail (2.1076)
+X-Originating-IP: 195.221.207.193
+X-eGroups-Msg-Info: 1:12:0:0:0
+From: Noel Nguyen <Noel.Nguyen@lpl-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Fri, 13 Nov 2009 16:12:23 +0100
+Subject: [lpl-infos] =?iso-8859-1?Q?colloque_=AB_Liaison_and_other_sandhi_phenomena_?=
+ =?iso-8859-1?Q?=BB,_Toulouse,_sept_2010?=
+X-Yahoo-Newman-Property: groups-email-ff-u
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail-1-645069159"
+X-Synonym: Copied by Synonym (http://www.modulo.ro/synonym) to: archiver
+
+--Apple-Mail-1-645069159
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain;
+	charset=windows-1252;
+	format=flowed;
+	delsp=yes
+
+Call for papers
+Liaison and other sandhi phenomena
+Phonlex 2010 International Conference
+8th-10th September 2010, Toulouse, France
+
+About the conference:
+Within the context of a French research project on French liaison, a=20=20
+conference on all aspects of sandhi phenomena will be hosted by the=20=20
+University of Toulouse 2 Le Mirail, 8th-10th September 2010.
+
+The Phonlex project (From Phonology to the Lexicon: liaison and=20=20
+cognition in contemporary French) brings together 4 linguistic and=20=20
+psycholinguistic research teams in Toulouse, Grenoble and Paris. These=20=20
+teams have been investigating various dimensions of French liaison:=20=20
+phonological and phonetic aspects, regional variation, the synchronic=20=20
+and diachronic dimension, oral developmental issues as well as liaison=20=20
+in written production. These topics will constitute the core of our=20=20
+conference. However, French liaison is not an isolated sandhi=20=20
+phenomenon within the languages of the world and we therefore welcome=20=20
+papers which discuss the wider issue of word-segmentation and=20=20
+adjustments at word-boundaries.
+
+Invitation to submit:
+We invite oral and poster presentations addressing all aspects of=20=20
+either French liaison or sandhi phenomena in other languages. These=20=20
+include but are by no means limited to:
+
+1- the lexicon and word segmentation
+2- phonology
+3- phonetics and prosody
+4- psycholinguistics
+5- synchrony and diachrony
+6- variation
+7- frequency
+8- the interface between oral and written production
+9- language production, perception and acquisition
+10- language disorders
+
+The languages for papers and poster presentations are English or=20=20
+French. Oral presentations will be allocated 20 minutes plus 10=20=20
+minutes for questions. Posters will be the focus of a special session=20=20
+with dedicated 5 minutes slots for general presentation to the whole=20=20
+conference.
+Invited keynote speakers:
+Marie-H=E9l=E8ne C=F4t=E9 (University of Ottawa, Canada)
+Robert Papen (Universit=E9 du Qu=E9bec, Canada)
+
+Submission guidelines:
+Abstracts must be 300-450 words (excluding references) and must be=20=20
+sent by e-mail to Phonlex2010@univ-tlse2.fr by March 12, 2010. The=20=20
+attached document in Word or PDF format should contain a title, the=20=20
+abstract plus references. Please DO NOT include information=20=20
+indentifying the author(s) in the email attachment. Author(s)=20=20
+information including name, affiliation and email address(es), as well=20=20
+as preference for an oral presentation or a poster presentation should=20=20
+be detailed in the body of the email. All abstracts will be subject to=20=20
+review by an international Scientific Committee. Notification of=20=20
+acceptance will be communicated by April 30, 2010.
+
+Organizing committee:
+Christiane Soum-Favaro; Cecilia Gunnarsson and Annelise Coquillon=20=20
+(University of Toulouse 2)
+
+Scientific Directors :
+Jacques Durand (CLLE-ERSS, Toulouse 2) ;
+Christiane Soum-Favaro (Octogone-Lordat, Toulouse 2) ;
+Bernard Laks (MoDyCo, Paris X) ;
+Jean-Pierre Chevrot (Lidilem, Grenoble 3)
+
+Important dates:
+March 12, 2010: deadline for abstracts submission
+April 30, 2010: notification of acceptance
+June 15, 2010: early registration deadline
+August 20, 2010: late registration deadline
+September 8-10, 2010: Phonlex 2010 International Conference on liaison=20=20
+and other aspects of sandhi phenomena
+
+More information will soon be available on the Phonlex2010 website :
+http://blogs.univ-tlse2.fr/phonlex2010/
+
+Contacts:
+Christiane Soum- Favaro, Cecilia Gunnarsson, Annelise Coquillon
+
+Laboratoire Octogone-Lordat
+Maison de la Recherche, Bureau R 20
+Universit=E9 de Toulouse II-Le Mirail
+5, All=E9es Antonio Machado
+31058 Toulouse Cedex 9
+
+Tel : +33 (0)5 61 50 35 93
+
+FAX +33 (0)5 61 50 49 18
+
+e-mail: Phonlex2010@univ-tlse2.fr
+
+
+Appel =E0 communication
+Liaison and other sandhi phenomena
+Colloque international Phonlex 2010
+8-10 Septembre 2010, Toulouse, France
+
+A propos de la conf=E9rence:
+Dans le cadre du projet ANR Phonlex (De la phonologie aux formes=20=20
+lexicales : liaison et cognition en fran=E7ais contemporain) sur la=20=20
+liaison en fran=E7ais, une conf=E9rence sur tous les aspects des=20=20
+ph=E9nom=E8nes de sandhi se tiendra =E0 l=92Universit=E9 de Toulouse 2 - le=
+=20=20
+Mirail, du 8 au 10 septembre 2010.
+
+Phonlex regroupe 4 laboratoires de recherche en linguistique et en=20=20
+psycholinguistique, =E0 Toulouse, Grenoble et Paris. Les =E9quipes=20=20
+travaillent sur le ph=E9nom=E8ne de la liaison en fran=E7ais dans les=20=20
+domaines de la phonologie et de la phon=E9tique, de la diachronie et de =
+=20
+la synchronie, de la variation r=E9gionale et du d=E9veloppement =E0 l=92or=
+al=20=20
+et en production =E9crite. Ces aspects sont au centre des th=E9matiques de =
+=20
+la conf=E9rence. N=E9anmoins, d=92autres ph=E9nom=E8nes de sandhi existent =
+dans=20=20
+les langues du monde et toute communication abordant les aspects de=20=20
+segmentation de mot et d=92ajustement de fronti=E8res lexicales sont les =
+=20
+bienvenues.
+
+Proposition de communication:
+Les communications orales et les pr=E9sentations posters porteront sur=20=20
+tous les aspects des ph=E9nom=E8nes de sandhi. Les th=E8mes de la conf=E9re=
+nce=20=20
+incluent, de fa=E7on non limitative :
+
+1- lexique et segmentation en mots
+2- phonologie
+3- phon=E9tique et prosodie
+4- psycholinguistique
+5- synchronie et diachronie
+6- variation
+7- fr=E9quence
+8- interface oral-=E9crit
+9- production, perception et acquisition du langage
+10- pathologies de la parole
+
+Les langues pour les propositions et les pr=E9sentations sont l=92anglais =
+=20
+et le fran=E7ais. Pour les communications orales, les intervenants=20=20
+disposeront de 20 minutes suivies de 10 minutes de discussions. Les=20=20
+posters seront affich=E9s pendant une journ=E9e et feront l=92objet d=92une=
+=20=20
+pr=E9sentation de 5 minutes lors des sessions orales.
+Conf=E9renciers pl=E9niers invit=E9s :
+Marie-H=E9l=E8ne C=F4t=E9 (University of Ottawa, Canada)
+Robert Papen (Universit=E9 du Qu=E9bec, Canada)
+
+
+Modalit=E9s de soumission :
+Les propositions, sous forme de r=E9sum=E9 de 300 =E0 450 mots (hors=20=20
+r=E9f=E9rences bibliographiques) seront =E0 envoyer par e-mail =E0 Phonlex2=
+010@univ-tlse2.fr=20
+  pour le 12 mars 2010. Le document, sous format Word ou PDF, devra=20=20
+contenir le titre, le r=E9sum=E9 et la pr=E9f=E9rence pour une pr=E9sentati=
+on=20=20
+orale ou affich=E9e. Ce document doit =EAtre anonyme. Ainsi, AUCUNE=20=20
+information concernant le ou les auteur(s) ne devra appara=EEtre dans ce =
+=20
+fichier. Merci d=92indiquer dans le corps du message =E9lectronique le nom =
+=20
+du ou des auteur(s), l=92affiliation, ainsi que le ou les adresse(s) e-=20
+mail. Tous les r=E9sum=E9s seront soumis =E0 une =E9valuation par un comit=
+=E9=20=20
+scientifique international. Les notifications d=92acceptation seront=20=20
+communiqu=E9es au plus tard le 30 avril 2010.
+
+Comit=E9 d=92organisation :
+Christiane Soum-Favaro; Cecilia Gunnarsson and Annelise Coquillon=20=20
+(Universit=E9 de Toulouse 2 =96 le Mirail)
+
+Responsables scientifiques :
+Jacques Durand (CLLE-ERSS, Toulouse 2) ;
+Christiane Soum-Favaro (Octogone-Lordat, Toulouse 2) ;
+Bernard Laks (MoDyCo, Paris X) ;
+Jean-Pierre Chevrot (Lidilem, Grenoble 3)
+
+Dates importantes :
+12 mars 2010 : date limite de soumission des r=E9sum=E9s
+30 avril 2010 : notification aux auteurs
+15 juin 2010 : date limite d=92inscription au colloque
+20 ao=FBt 2010 : inscription tardive au colloque
+8-10 septembre 2010 : Colloque International Phonlex 2010 : liaison=20=20
+and other aspects of sandhi phenomena
+
+Plus d=92informations seront bient=F4t disponibles sur le site Phonlex2010:
+http://blogs.univ-tlse2.fr/phonlex2010/
+
+Contacts:
+Christiane Soum-Favaro, Cecilia Gunnarsson, Annelise Coquillon
+
+Laboratoire Octogone-Lordat
+Maison de la Recherche, Bureau R 20
+Universit=E9 de Toulouse II-Le Mirail
+5, All=E9es Antonio Machado
+31058 Toulouse Cedex 9
+
+Tel : +33 (0)5 61 50 35 93
+
+FAX +33 (0)5 61 50 49 18
+
+e-mail: Phonlex2010@univ-tlse2.fr
+
+
+
+
+--Apple-Mail-1-645069159
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+</head>
+
+
+
+
+
+
+
+<body style=3D"background-color: #fff;">
+<span style=3D"display:none">&nbsp;</span>
+
+<!--~-|**|PrettyHtmlStartT|**|-~-->
+<div id=3D"ygrp-mlmsg" style=3D"position:relative;">
+  <div id=3D"ygrp-msg" style=3D"z-index: 1;">
+<!--~-|**|PrettyHtmlEndT|**|-~-->
+
+    <div id=3D"ygrp-text" >
+=20=20=20=20=20=20
+=20=20=20=20=20=20
+      <p><p lang=3D"en-US" align=3D"CENTER"><font face=3D"Times New Roman, =
+serif"><font size=3D"3">Call
+for papers</font></font></p>
+<div lang=3D"en-US" align=3D"CENTER"><font face=3D"Times New Roman, serif">=
+<font size=3D"4">Liaison
+and other sandhi phenomena</font></font></div><p lang=3D"en-US" align=3D"CE=
+NTER"><font face=3D"Times New Roman, serif"><font size=3D"4">Phonlex
+2010 International Conference </font></font>
+</p><p align=3D"CENTER">8th-10th
+September 2010, Toulouse, France</p><p lang=3D"en-US"><br>
+</p><p lang=3D"en-US"><font face=3D"Times New Roman, serif"><font size=3D"3=
+"><b>About
+the conference:</b></font></font></p><p>Within the context
+of a French research project on French liaison, a conference on all
+aspects of sandhi phenomena will be hosted by the University of
+Toulouse 2 Le Mirail, 8th-10th September 2010.</p><p lang=3D"en-US"><br>
+</p><p>The Phonlex project
+(From Phonology to the Lexicon: liaison and cognition in contemporary
+French) brings together 4 linguistic and psycholinguistic research
+teams in Toulouse, Grenoble and Paris. These teams have been
+investigating various dimensions of French liaison: phonological and
+phonetic aspects, regional variation, the synchronic and diachronic
+dimension, oral developmental issues as well as liaison in written
+production. These topics will constitute the core of our conference.
+However, French liaison is not an isolated sandhi phenomenon within
+the languages of the world and we therefore welcome papers which
+discuss the wider issue of word-segmentation and adjustments at
+word-boundaries.</p><p lang=3D"en-US"><br>
+</p><p lang=3D"en-US"><font face=3D"Times New Roman, serif"><font size=3D"3=
+"><b>Invitation
+to submit:</b></font></font></p><p>We invite oral and
+poster presentations addressing all aspects of either French liaison
+or sandhi phenomena in other languages. These include but are by no
+means limited to:</p><p lang=3D"en-US"><br>
+</p><p>1- the lexicon and
+word segmentation</p><p lang=3D"en-US"><font face=3D"Times New Roman, serif=
+"><font size=3D"3">2-
+phonology</font></font></p><p lang=3D"en-US"><font face=3D"Times New Roman,=
+ serif"><font size=3D"3">3-
+phonetics and prosody</font></font></p><p lang=3D"en-US"><font face=3D"Time=
+s New Roman, serif"><font size=3D"3">4-
+psycholinguistics</font></font></p><p>5- synchrony and
+diachrony=20
+</p><p lang=3D"en-US"><font face=3D"Times New Roman, serif"><font size=3D"3=
+">6-
+variation</font></font></p><p lang=3D"en-US"><font face=3D"Times New Roman,=
+ serif"><font size=3D"3">7-
+frequency</font></font></p><p>8- the interface
+between oral and written production</p><p>9- language
+production, perception and acquisition</p><p lang=3D"en-US"><font face=3D"T=
+imes New Roman, serif"><font size=3D"3">10-
+language disorders</font></font></p><p lang=3D"en-US"><br>
+</p><p>The languages for papers and poster
+presentations are English or French. Oral presentations will be
+allocated 20 minutes plus 10 minutes for questions. Posters will be
+the focus of a special session with dedicated 5 minutes slots for
+general presentation to the whole conference.</p><p lang=3D"en-US"><font fa=
+ce=3D"Times New Roman, serif"><font size=3D"3"><b>Invited
+keynote speakers:</b></font></font></p><p lang=3D"en-US"><font face=3D"Time=
+s New Roman, serif"><font size=3D"3">Marie-H=E9l=E8ne
+C=F4t=E9 (University of Ottawa, Canada)</font></font></p><p>Robert Papen
+(Universit=E9 du Qu=E9bec, Canada)</p><p><br>
+</p><p lang=3D"en-US"><font face=3D"Times New Roman, serif"><font size=3D"3=
+"><b>Submission
+guidelines:</b></font></font></p><p>Abstracts must be
+300-450 words (excluding references) and must be sent by e-mail to
+<a href=3D"mailto:Phonlex2010@univ-tlse2.fr">Phonlex2010@<wbr>univ-tlse2.<w=
+br>fr</a> by March 12, 2010. The attached document in
+Word or PDF format should contain a title, the abstract plus
+references. Please DO NOT include information indentifying the
+author(s) in the email attachment. Author(s) information including
+name, affiliation and email address(es), as well as preference for an
+oral presentation or a poster presentation should be detailed in the
+body of the email. All abstracts will be subject to review by an
+international Scientific Committee. Notification of acceptance will
+be communicated by April 30, 2010.</p><p lang=3D"en-US"><br>
+</p><p>Organizing
+committee:=20
+</p><p>Christiane
+Soum-Favaro; Cecilia Gunnarsson and Annelise Coquillon (University of
+Toulouse 2)</p><p lang=3D"en-US"><br>
+</p><p>Scientific Directors
+:=20
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">Jacques
+Durand (CLLE-ERSS, Toulouse 2)&nbsp;; </font></font>
+</p><p>Christiane
+Soum-Favaro (Octogone-Lordat, Toulouse 2)&nbsp;;=20
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">Bernard
+Laks (MoDyCo, Paris X)&nbsp;; </font></font>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">Jean-Pierre
+Chevrot (Lidilem, Grenoble 3)</font></font></p><p><br>
+</p><p lang=3D"en-US"><font face=3D"Times New Roman, serif"><font size=3D"3=
+"><b>Important
+dates:</b></font></font></p><p>March 12, 2010:
+deadline for abstracts submission</p><p>April 30, 2010:
+notification of acceptance</p><p>June 15, 2010: early
+registration deadline</p><p lang=3D"en-US"><font face=3D"Times New Roman, s=
+erif"><font size=3D"3">August
+20, 2010: late registration deadline</font></font></p><p>September 8-10,
+2010: Phonlex 2010 International Conference on liaison and other
+aspects of sandhi phenomena</p><p lang=3D"en-US"><br>
+</p><p>More information will soon be available
+on the Phonlex2010 website :=20
+</p><p><a href=3D"http://blogs.univ-tlse2.fr/phonlex2010/">http://blogs.<wb=
+r>univ-tlse2.<wbr>fr/phonlex2010/</a>
+</p><p lang=3D"en-US"><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>Contacts:<=
+/b></font></font></p><p>Christiane Soum-
+Favaro, Cecilia Gunnarsson, Annelise Coquillon</p><p>Laboratoire
+Octogone-Lordat<br>Maison de la Recherche, Bureau R 20<br>Universit=E9
+de Toulouse II-Le Mirail<br>5, All=E9es Antonio Machado<br>31058
+Toulouse Cedex 9</p><p>Tel&nbsp;: &#43;33 (0)5
+61 50 35 93</p><p>FAX &#43;33 (0)5 61 50
+49 18</p><p>e-mail:
+<a href=3D"mailto:Phonlex2010@univ-tlse2.fr">Phonlex2010@<wbr>univ-tlse2.<w=
+br>fr</a></p><p><br>
+</p><p align=3D"CENTER"><font face=3D"Times New Roman, serif"><font size=3D=
+"3">Appel
+=E0 communication</font></font></p>
+<div align=3D"CENTER"><font face=3D"Times New Roman, serif"><font size=3D"4=
+">Liaison
+and other sandhi phenomena</font></font></div><p align=3D"CENTER"><font fac=
+e=3D"Times New Roman, serif"><font size=3D"4">Colloque
+international Phonlex 2010 </font></font>
+</p><p align=3D"CENTER"><font face=3D"Times New Roman, serif"><font size=3D=
+"3">8-10
+Septembre 2010, Toulouse, France</font></font></p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>A
+propos de la conf=E9rence:</b></font></font></p><p>Dans le cadre du
+projet ANR Phonlex  (De la phonologie aux formes lexicales&nbsp;:
+liaison et cognition en fran=E7ais contemporain) sur la liaison en
+fran=E7ais, une conf=E9rence sur tous les aspects des ph=E9nom=E8nes de
+sandhi se tiendra =E0 l=92Universit=E9 de Toulouse 2 - le Mirail, du 8
+au 10 septembre 2010.</p><p><br>
+</p><p>Phonlex regroupe 4
+laboratoires de recherche en linguistique et en psycholinguistique, =E0
+Toulouse, Grenoble et Paris. Les =E9quipes travaillent sur le
+ph=E9nom=E8ne de la liaison en fran=E7ais dans les domaines de la
+phonologie et de la phon=E9tique, de la diachronie et de la
+synchronie, de la variation r=E9gionale et du d=E9veloppement =E0 l=92oral
+et en production =E9crite. Ces aspects sont au centre des th=E9matiques
+de la conf=E9rence. N=E9anmoins, d=92autres ph=E9nom=E8nes de sandhi
+existent dans les langues du monde et toute communication abordant
+les aspects de segmentation de mot et d=92ajustement de fronti=E8res
+lexicales sont les bienvenues.</p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>Propositio=
+n
+de communication:</b></font></font></p><p><font face=3D"Times New Roman, se=
+rif"><font size=3D"3">Les
+communications orales et les pr=E9sentations posters porteront sur
+tous les aspects des ph=E9nom=E8nes de sandhi. Les th=E8mes de la
+conf=E9rence incluent, de fa=E7on non limitative&nbsp;:</font></font></p><p=
+><br>
+</p><p>1- lexique et
+segmentation en mots</p><p>2- phonologie=20
+</p><p>3- phon=E9tique et
+prosodie</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">4-
+psycholinguistique</font></font></p><p>5- synchronie et
+diachronie</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">6-
+variation</font></font></p><p>7- fr=E9quence</p><p>8- interface
+oral-=E9crit</p><p>9- production,
+perception et acquisition du langage</p><p><font face=3D"Times New Roman, s=
+erif"><font size=3D"3">10-
+pathologies de la parole</font></font></p><p><br>
+</p><p>Les langues pour les propositions et
+les pr=E9sentations sont l=92anglais et le fran=E7ais. Pour les
+communications orales, les intervenants disposeront de 20 minutes
+suivies de 10 minutes de discussions. Les posters seront affich=E9s
+pendant une journ=E9e et feront l=92objet d=92une pr=E9sentation de 5
+minutes lors des sessions orales.</p><p><font face=3D"Times New Roman, seri=
+f"><font size=3D"3"><b>Conf=E9renciers
+pl=E9niers invit=E9s&nbsp;:</b></font></font></p><p>Marie-H=E9l=E8ne C=F4t=
+=E9
+(University of Ottawa, Canada)</p><p>Robert Papen
+(Universit=E9 du Qu=E9bec, Canada)</p><p><br>
+</p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>Modalit=E9=
+s
+de soumission&nbsp;:</b></font></font></p><p>Les propositions,
+sous forme de r=E9sum=E9 de 300 =E0 450 mots (hors r=E9f=E9rences
+bibliographiques) seront =E0 envoyer par e-mail =E0
+<a href=3D"mailto:Phonlex2010@univ-tlse2.fr">Phonlex2010@<wbr>univ-tlse2.<w=
+br>fr</a> pour le 12 mars 2010. Le document, sous
+format Word ou PDF, devra contenir le titre, le r=E9sum=E9 et la
+pr=E9f=E9rence pour une pr=E9sentation orale ou affich=E9e. Ce document
+doit =EAtre anonyme. Ainsi, AUCUNE information concernant le ou les
+auteur(s) ne devra appara=EEtre dans ce fichier. Merci d=92indiquer
+dans le corps du message =E9lectronique le nom du ou des auteur(s),
+l=92affiliation, ainsi que le ou les adresse(s) e-mail. Tous les
+r=E9sum=E9s seront soumis =E0 une =E9valuation par un comit=E9
+scientifique international. Les notifications d=92acceptation seront
+communiqu=E9es au plus tard le 30 avril 2010.</p><p><br>
+</p><p>Comit=E9
+d=92organisation :=20
+</p><p>Christiane
+Soum-Favaro; Cecilia Gunnarsson and Annelise Coquillon (Universit=E9
+de Toulouse 2 =96 le Mirail)</p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>Responsabl=
+es
+scientifiques&nbsp;:</b></font></font></p><p><font face=3D"Times New Roman,=
+ serif"><font size=3D"3">Jacques
+Durand (CLLE-ERSS, Toulouse 2)&nbsp;; </font></font>
+</p><p>Christiane
+Soum-Favaro (Octogone-Lordat, Toulouse 2)&nbsp;;=20
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">Bernard
+Laks (MoDyCo, Paris X)&nbsp;; </font></font>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">Jean-Pierre
+Chevrot (Lidilem, Grenoble 3)</font></font></p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>Dates
+importantes :</b></font></font></p><p>12 mars 2010 : date
+limite de soumission des r=E9sum=E9s</p><p>30 avril 2010 :
+notification aux auteurs</p><p>15 juin 2010 : date
+limite d=92inscription au colloque</p><p>20 ao=FBt 2010&nbsp;:
+inscription tardive au colloque</p><p><font face=3D"Times New Roman, serif"=
+><font size=3D"3">8-10
+septembre 2010 : Colloque International Phonlex 2010 : liaison and
+other aspects of sandhi phenomena</font></font></p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3">Plus
+d=92informations seront bient=F4t disponibles sur le site Phonlex2010:</fon=
+t></font></p><p><a href=3D"http://blogs.univ-tlse2.fr/phonlex2010/">http://=
+blogs.<wbr>univ-tlse2.<wbr>fr/phonlex2010/</a>
+</p><p><br>
+</p><p><font face=3D"Times New Roman, serif"><font size=3D"3"><b>Contacts:<=
+/b></font></font></p><p>Christiane
+Soum-Favaro, Cecilia Gunnarsson, Annelise Coquillon</p><p>Laboratoire
+Octogone-Lordat<br>Maison de la Recherche, Bureau R 20<br>Universit=E9
+de Toulouse II-Le Mirail<br>5, All=E9es Antonio Machado<br>31058
+Toulouse Cedex 9</p><p>Tel&nbsp;: &#43;33 (0)5
+61 50 35 93</p><p>FAX &#43;33 (0)5 61 50
+49 18</p><p>e-mail:
+<a href=3D"mailto:Phonlex2010@univ-tlse2.fr">Phonlex2010@<wbr>univ-tlse2.<w=
+br>fr</a></p><p><br>
+</p><p><br>
+</p>
+</p>
+
+    </div>
+=20=20=20=20=20
+
+    <!--~-|**|PrettyHtmlStart|**|-~-->
+    <div style=3D"color: #fff; height: 0;">__._,_.___</div>
+
+=20=20=20=20=20=20=20=20
+=20=20
+=20=20=20
+    <div id=3D"ygrp-actbar" style=3D"clear: both; margin-bottom: 10px; whit=
+e-space: nowrap; color: #666; padding-top: 15px;">
+      <div>
+        <a href=3D"mailto:Noel.Nguyen@lpl-aix.fr?subject=3Dcolloque =AB Lia=
+ison and other sandhi phenomena =BB, Toulouse, sept 2010">
+          R=E9pondre =E0 <span style=3D"font-weight: 700;">exp=E9diteur</sp=
+an></a>
+          | <a href=3D"mailto:lpl-infos@yahoogroupes.fr?subject=3Dcolloque =
+=AB Liaison and other sandhi phenomena =BB, Toulouse, sept 2010">
+        R=E9pondre =E0 <span style=3D"font-weight: 700;">groupe</span></a>
+      </div>
+
+                <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/messa=
+ge/2976;_ylc=3DX3oDMTM0dGhndDZtBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJ=
+ZAMyMTIzODAzMjE2BG1zZ0lkAzI5NzYEc2VjA2Z0cgRzbGsDdnRwYwRzdGltZQMxMjU4MTI1MTY=
+4BHRwY0lkAzI5NzY-">Toute la discussion</a>
+          (<span style=3D"font-weight: 700;">1</span>)
+          </div>=20
+<!------- Start Nav Bar ------>
+<!-- |**|begin egp html banner|**| -->
+<!-- |**|end egp html banner|**| -->
+
+<!-- |**|begin egp html banner|**| -->
+<div id=3D"ygrp-vital" style=3D"background-color: #e0ecee; font-family: Ver=
+dana; font-size: 10px; margin-bottom: 10px; padding: 10px;">
+      <span id=3D"vithd" style=3D"font-weight: bold; color: #333; text-tran=
+sform: uppercase; ">Activit=E9s r=E9centes:</span>
+
+    <ul style=3D"list-style-type: none; margin: 0; padding: 0; display: inl=
+ine;">
+            <li style=3D"border-right: 1px solid #000; font-weight: 700; di=
+splay: inline; padding: 0 5px; margin-left: 0;">
+      <span class=3D"cat"><a href=3D"http://fr.groups.yahoo.com/group/lpl-i=
+nfos/members;_ylc=3DX3oDMTJmMjloOGowBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3J=
+wc3BJZAMyMTIzODAzMjE2BHNlYwN2dGwEc2xrA3ZtYnJzBHN0aW1lAzEyNTgxMjUxNjg-?o=3D6=
+" style=3D"text-decoration: none;">Nouveaux membres</a></span>
+      <span class=3D"ct" style=3D"color: #ff7900;">1</span>
+    </li>
+                                              </ul>
+=20=20=20=20
+  <div style=3D"clear: both; padding-top: 2px; color: #1e66ae;">
+    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos;_ylc=3DX3oDMTJlcG=
+hkazlyBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwN2d=
+GwEc2xrA3ZnaHAEc3RpbWUDMTI1ODEyNTE2OA--" style=3D"border-right: 1px solid #=
+000; padding-right: 5px; margin-right: 2px; text-decoration: none;">Aller s=
+ur votre groupe</a>
+    <a href=3D"http://fr.groups.yahoo.com/group/lpl-infos/post;_ylc=3DX3oDM=
+TJlb3Q3Y2ppBF9TAzk3NDkwNDY4BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNl=
+YwNmdHIEc2xrA250cGMEc3RpbWUDMTI1ODEyNTE2OA--" style=3D"font-weight: 700; te=
+xt-decoration: none;">Nouvelle discussion</a>
+  </div>
+</div>
+
+      <div id=3D"ygrp-grfd" style=3D"font-family: Verdana; font-size: 12px;=
+ padding: 15px 0;">
+=20=20=20=20=20=20
+<!-- |**|begin egp html banner|**| -->
+
+      Envoi des messages: lpl-infos@yahoogroups.com<BR>
+Pour se d=E9sabonner, envoyer un message vide =E0:<BR>
+&nbsp;&nbsp;&nbsp; lpl-infos-unsubscribe@yahoogroups.com<BR>
+Archives: <a href=3D"http://groups.yahoo.com/group/lpl-infos/messages">http=
+://groups.yahoo.com/group/lpl-infos/messages</a><BR>
+Site web du LPL:<BR>
+&nbsp;&nbsp;&nbsp; <a href=3D"http://www.lpl.univ-aix.fr">http://www.lpl.un=
+iv-aix.fr</a><BR>
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20=20=20=20=20=20
+<!-- |**|end egp html banner|**| -->
+
+    </div>
+=20=20
+<div id=3D"ft" style=3D"font-family: Arial; font-size: 11px; margin-top: 5p=
+x; padding: 0 2px 0 0; clear: both;">
+  <a href=3D"http://fr.groups.yahoo.com/;_ylc=3DX3oDMTJkcnBtZXJrBF9TAzk3NDk=
+wNDY2BGdycElkAzE2MjI0NDAEZ3Jwc3BJZAMyMTIzODAzMjE2BHNlYwNmdHIEc2xrA2dmcARzdG=
+ltZQMxMjU4MTI1MTY4" style=3D"float: left;"><img src=3D"http://l.yimg.com/a/=
+i/us/yg/logo/fr.gif" height=3D"19" width=3D"145" alt=3D"Yahoo! Groupes" sty=
+le=3D"border: 0;"/></a>
+  <div style=3D"color: #747575; float: right;">Passer =C3=A0: <a href=3D"ma=
+ilto:lpl-infos-traditional@yahoogroupes.fr?subject=3DChanger le format : Tr=
+aditionnel" style=3D"text-decoration: none;">Texte seulement</a>, <a href=
+=3D"mailto:lpl-infos-digest@yahoogroupes.fr?subject=3DMessages du groupe : =
+R=C3=A9sum=C3=A9" class=3D"margin-rt" style=3D"text-decoration: none;">R=C3=
+=A9sum=C3=A9 du jour</a> &bull; <a href=3D"mailto:lpl-infos-desabonnement@y=
+ahoogroupes.fr?subject=3DD=E9sinscription" style=3D"text-decoration: none;"=
+>D=E9sinscription</a> &bull; <a href=3D"http://fr.docs.yahoo.com/info/utos.=
+html" style=3D"text-decoration: none;">Conditions d=92utilisation</a></div>
+</div>
+
+<!-- |**|end egp html banner|**| -->
+
+  </div> <!-- ygrp-msg -->
+
+  <!-- Sponsor -->
+  <!-- |**|begin egp html banner|**| -->
+  <div id=3D"ygrp-sponsor" style=3D"width:160px; float:right; clear:none; m=
+argin:0 0 25px 0; background: #fff;">
+
+<!-- Start Recommendations -->
+<div id=3D"ygrp-reco">
+     </div>
+<!-- End Recommendations -->
+
+
+
+  </div>   <!-- |**|end egp html banner|**| -->
+
+  <div style=3D"clear:both; color: #FFF; font-size:1px;">.</div>
+</div>
+
+  <img src=3D"http://geo.yahoo.com/serv?s=3D97490468/grpId=3D1622440/grpspI=
+d=3D2123803216/msgId=3D2976/stime=3D1258125168/nc1=3D1/nc2=3D2/nc3=3D3" wid=
+th=3D"1" height=3D"1"> <br>
+
+<div style=3D"color: #fff; height: 0;">__,_._,___</div>
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+
+</body>
+
+<!--~-|**|PrettyHtmlStart|**|-~-->
+<head>
+  <style type=3D"text/css">
+  <!--
+  #ygrp-mkp {
+  border: 1px solid #d8d8d8;
+  font-family: Arial;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+#ygrp-mkp hr {
+  border: 1px solid #d8d8d8;
+}
+
+#ygrp-mkp #hd {
+  color: #628c2a;
+  font-size: 85%;
+  font-weight: 700;
+  line-height: 122%;
+  margin: 10px 0;
+}
+
+#ygrp-mkp #ads {
+  margin-bottom: 10px;
+}
+
+#ygrp-mkp .ad {
+  padding: 0 0;
+}
+
+#ygrp-mkp .ad a {
+  color: #0000ff;
+  text-decoration: none;
+}
+  #ygrp-sponsor #ygrp-lc {
+  font-family: Arial;
+}
+
+#ygrp-sponsor #ygrp-lc #hd {
+  margin: 10px 0px;
+  font-weight: 700;
+  font-size: 78%;
+  line-height: 122%;
+}
+
+#ygrp-sponsor #ygrp-lc .ad {
+  margin-bottom: 10px;
+  padding: 0 0;
+}
+
+  a {
+    color: #1e66ae;
+  }
+
+  #actions {
+    font-family: Verdana;
+    font-size: 11px;
+    padding: 10px 0;
+  }
+
+  #activity {
+    background-color: #e0ecee;
+    float: left;
+    font-family: Verdana;
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  #activity span {
+    font-weight: 700;
+  }
+
+  #activity span:first-child {
+    text-transform: uppercase;
+  }
+
+  #activity span a {
+    color: #5085b6;
+    text-decoration: none;
+  }
+
+  #activity span span {
+    color: #ff7900;
+  }
+
+  #activity span .underline {
+    text-decoration: underline;
+  }
+
+  .attach {
+    clear: both;
+    display: table;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 10px 0;
+    width: 400px;
+  }
+
+  .attach div a {
+    text-decoration: none;
+  }
+
+  .attach img {
+    border: none;
+    padding-right: 5px;
+  }
+
+  .attach label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .attach label a {
+    text-decoration: none;
+  }
+=20=20
+  blockquote {
+    margin: 0 0 0 4px;
+  }
+
+  .bold {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .bold a {
+    text-decoration: none;
+  }
+
+  dd.last p a {
+    font-family: Verdana;
+    font-weight: 700;
+  }
+
+  dd.last p span {
+    margin-right: 10px;
+    font-family: Verdana;
+    font-weight: 700;
+  }
+
+  dd.last p span.yshortcuts {
+    margin-right: 0;
+  }
+
+  div.attach-table div div a {
+    text-decoration: none;
+  }
+
+  div.attach-table {
+    width: 400px;
+  }
+
+  div.file-title a, div.file-title a:active, div.file-title a:hover, div.fi=
+le-title a:visited {
+    text-decoration: none;
+  }
+
+  div.photo-title a, div.photo-title a:active, div.photo-title a:hover, div=
+.photo-title a:visited {
+    text-decoration: none;
+  }
+
+  div#ygrp-mlmsg #ygrp-msg p a span.yshortcuts {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .green {
+    color: #628c2a;
+  }
+
+  .MsoNormal {
+    margin: 0 0 0 0;
+  }
+
+  o {
+    font-size: 0;
+  }
+
+  #photos div {
+    float: left;
+    width: 72px;
+  }
+
+  #photos div div {
+    border: 1px solid #666666;
+    height: 62px;
+    overflow: hidden;
+    width: 62px;
+  }
+
+  #photos div label {
+    color: #666666;
+    font-size: 10px;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    width: 64px;
+  }
+
+  #reco-category {
+    font-size: 77%;
+  }
+
+  #reco-desc {
+    font-size: 77%;
+  }
+
+  .replbq {
+    margin: 4px;
+  }
+
+  #ygrp-actbar div a:first-child {
+   /* border-right: 0px solid #000;*/
+    margin-right: 2px;
+    padding-right: 5px;
+  }
+
+  #ygrp-mlmsg {
+    font-size: 13px;
+    font-family: Arial, helvetica,clean, sans-serif;
+    *font-size: small;
+    *font: x-small;
+  }
+
+  #ygrp-mlmsg table {
+    font-size: inherit;
+    font: 100%;
+  }
+
+  #ygrp-mlmsg select, input, textarea {
+    font: 99% Arial, Helvetica, clean, sans-serif;
+  }
+
+  #ygrp-mlmsg pre, code {
+    font:115% monospace;
+    *font-size:100%;
+  }
+
+  #ygrp-mlmsg * {
+    line-height: 1.22em;
+  }
+
+  #ygrp-mlmsg #logo {
+    padding-bottom: 10px;
+  }
+
+  #ygrp-mlmsg a {
+    color: #1E66AE;
+  }
+
+  #ygrp-msg p a {
+    font-family: Verdana;
+  }
+
+  #ygrp-msg p#attach-count span {
+    color: #1E66AE;
+    font-weight: 700;
+  }
+
+  #ygrp-reco #reco-head {
+    color: #ff7900;
+    font-weight: 700;
+  }
+
+  #ygrp-reco {
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
+  #ygrp-sponsor #ov li a {
+    font-size: 130%;
+    text-decoration: none;
+  }
+
+  #ygrp-sponsor #ov li {
+    font-size: 77%;
+    list-style-type: square;
+    padding: 6px 0;
+  }=20
+
+  #ygrp-sponsor #ov ul {
+    margin: 0;
+    padding: 0 0 0 8px;
+  }
+
+  #ygrp-text {
+    font-family: Georgia;
+  }
+
+  #ygrp-text p {
+    margin: 0 0 1em 0;
+  }
+
+  #ygrp-text tt {
+    font-size: 120%;
+  }
+
+  #ygrp-vital ul li:last-child {
+    border-right: none !important;=20
+  }=20
+  -->
+  </style>
+</head>
+
+<!--~-|**|PrettyHtmlEnd|**|-~-->
+</html>
+<!-- end group email -->
+
+
+--Apple-Mail-1-645069159--

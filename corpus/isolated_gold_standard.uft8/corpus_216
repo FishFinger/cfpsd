@@ -1,0 +1,208 @@
+From - Thu Dec 10 14:22:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 4d6cc0adbf44ffac19bbbd2e0f4df3054ca292bd
+Delivered-To: jpprost@gmail.com
+Received: by 10.65.222.5 with SMTP id z5cs838qbq;
+        Mon, 13 Mar 2006 02:19:25 -0800 (PST)
+Received: by 10.66.184.5 with SMTP id h5mr3701150ugf;
+        Mon, 13 Mar 2006 02:19:14 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id m1si5297411ugc.2006.03.13.02.19.11;
+        Mon, 13 Mar 2006 02:19:14 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1FIk89-00041Q-Ol; Mon, 13 Mar 2006 11:18:25 +0100
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1FIkBb-0000gb-ER; Mon, 13 Mar 2006 11:21:59 +0100
+Received: from noralf.uib.no [129.177.30.12] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1FIkBb-0000gW-0P; Mon, 13 Mar 2006 11:21:59 +0100
+Received: from marmot.shef.ac.uk [143.167.1.4] 
+	by noralf.uib.no for corpora@uib.no with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
+	id 1FIk7t-0003ws-I4; Mon, 13 Mar 2006 11:18:12 +0100
+Received: from holly.dcs.shef.ac.uk ([143.167.8.1])
+	by marmot.shef.ac.uk with esmtp (Exim 4.52)
+	id 1FIk4C-0002rg-Lf
+	for corpora@uib.no; Mon, 13 Mar 2006 10:14:20 +0000
+Received: from dcs.shef.ac.uk (cobbing.dcs.shef.ac.uk [143.167.10.196])
+	by holly.dcs.shef.ac.uk (8.12.10+Sun/8.12.10) with ESMTP id k2DAEJbY007511;
+	Mon, 13 Mar 2006 10:14:19 GMT
+Message-ID: <441545F6.3090306@dcs.shef.ac.uk>
+Date: Mon, 13 Mar 2006 10:14:14 +0000
+From: Mark Stevenson <M.Stevenson@dcs.shef.ac.uk>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: corpora@uib.no
+CC: Mark Stevenson <marks@dcs.shef.ac.uk>
+Subject: [Corpora-List] Second CFP: COLING/ACL workshop "Information Extraction Beyond the
+ Document"
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+X-S0phie-Scan: No
+X-checked-clean: by exiscan on noralf
+X-Scanner: 59d563b8b8dbfe493cb11b50927d8a87 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+<apologies for multiple postings>
+
+                       Call for Papers
+
+                    COLING/ACL 2006 Workshop
+
+            INFORMATION EXTRACTION BEYOND THE DOCUMENT
+
+                  22nd July 2006, Sydney, Australia
+
+
+                           Organisers:
+                        Mary Elaine Califf
+                     (Illinois State University)
+                         Mark A. Greenwood
+                      (University of Sheffield)
+                           Mark Stevenson
+                      (University of Sheffield)
+                           Roman Yangarber
+                       (University of Helsinki)
+
+
+Traditional approaches to the development and evaluation of
+Information Extraction (IE) systems have relied on relatively small
+collections of up to a few hundred documents tagged with detailed
+semantic annotations.  While this paradigm has enabled rapid advances
+in IE technology, it remains constrained by a dependence on annotated
+documents and does not make use of the information available in large
+corpora.  Alternative approaches, which make use of large text
+collections and inter-document information, are now beginning to
+emerge -- as evidenced by a parallel emergence of interest in learning
+>From unlabelled data in AI in general.  For example, some systems
+learn extraction patterns by exploiting information about their
+distribution across corpora; others exploit the redundancy of the
+internet by assuming that facts with multiple mentions are more
+reliable.  These approaches require large amounts of unannotated text,
+which is generally easy to obtain, and employ unsupervised or
+minimally supervised learning algorithms, as well as related
+techniques such as co-training and active learning.  These alternative
+approaches are complementary to the established IE paradigm based on
+supervised training, and are now forming a cohesive emergent trend in
+recent research. They will constitute the focus of this workshop.
+
+There are several advantages to employing large text collections for
+IE. They provide enormous amounts of training data, albeit mostly
+unannotated.  Facts can be extracted from, or verified across,
+multiple documents.  Large text collections often contain vast amounts of
+redundancy in  the form of multiple references to or mentions of
+closely related facts.   Redundancy can be exploited in the IE setting to
+identify trends and patterns  within the text, e.g., by means of Data
+Mining techniques.
+
+This workshop invites new, original work on learning extraction rules
+or identifying facts across document boundaries while exploiting
+sizable amounts of unlabelled text in the training stage, in the
+extraction stage, or both. The workshop hopes to bring together
+researchers from the various related areas, such as Information
+Extraction, Data Mining, biomedical text processing, Question
+Answering, Information Retrieval, Machine Learning, identification of
+lexical relations (hyponymy, meronymy etc.), multi-lingual text
+processing and the Semantic Web.  This workshop solicits papers on all
+relevant aspects, including algorithms, techniques and applications.
+
+Topics of particular interest include:
+- Extraction of information described across documents
+- Integration and mutual benefits of IE and Data Mining
+- Extraction of information from massive corpora (such as the
+Internet)
+- Mutual applications and interaction between Information Extraction
+ and the Semantic Web
+- Verification of information using external sources
+- Exploiting cross-lingual and multi-lingual approaches for improving
+ performance in IE
+
+
+-------------------------
+IMPORTANT DATES
+-------------------------
+Submission Deadline:         March 31st, 2006
+Notification of acceptance:  May 12th, 2006
+Camera-ready papers due:     May 29th, 2006
+
+
+--------------------------
+SUBMISSION INSTRUCTIONS
+--------------------------
+
+Authors are invited to submit original, unpublished work on the topic
+areas of the workshop. Submissions should follow the standard
+two-column formatting instructions for the main COLING/ACL 2006
+conference. Submitted papers should be no longer than eight (8) pages
+in length, including references. We strongly recommend the use of the
+Latex and Microsoft Word style files which will be available on the
+main conference website.
+
+As reviewing will be blind, the paper should not include the authors'
+names and affiliations. Furthermore, self-references that reveal the
+author's identity, e.g., "We previously showed (Smith, 1991) ...",
+should be avoided. Instead, use citations such as "Smith previously
+showed (Smith, 1991) ...".
+
+Submission will be electronic. Details will appear on the workshop web
+site (http://nlp.shef.ac.uk/result/iebd06).
+
+Questions regarding the submission procedure should be directed to
+Mark Greenwood (mark@dcs.shef.ac.uk).
+
+
+--------------------------
+WORKSHOP ORGANIZERS
+--------------------------
+
+Mary Elaine Califf
+School of Information Technology, Illinois State University
+
+Mark A. Greenwood
+Department of Computer Science, University of Sheffield
+
+Mark Stevenson
+Department of Computer Science, University of Sheffield
+
+Roman Yangarber
+Department of Computer Science, University of Helsinki
+
+
+--------------------------
+PROGRAM COMMITTEE
+--------------------------
+Markus Ackermann        (University of Leipzig)
+Amit Bagga              (AskJeeves)
+Roberto Basili          (University of Rome, Tor Vergata)
+Antal van den Bosch     (Tilburg Uniersity)
+Neus Catala             (Universitat Polithcnica de Catalunya)
+Walter Daelemans        (University of Antwerp)
+Jenny Rose Finkel       (Stanford University)
+Robert Gaizauskas       (University of Sheffield)
+Ralph Grishman          (NYU)
+Takaaki Hasegawa        (NTT)
+Heng Ji                 (NYU)
+Nick Kushmerick         (University College Dublin, Ireland)
+Alberto Lavelli         (ITK-IRST, Italy)
+Gideon Mann             (John Hopkin's University)
+Ion Muslea              (Language Weaver Inc.)
+Chikashi Nobata         (Sharp, Japan)
+Ellen Riloff            (University of Utah)
+Tony Rose               (Cognia Ltd.)
+Stephen Soderland       (University of Washington)
+Kiyotaka Uchimoto       (CRL, Japan)
+Yorick Wilks            (University of Sheffield)
+
+
+
+
+
+

@@ -1,0 +1,196 @@
+From - Thu Dec 10 14:38:45 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.60.195 with SMTP id q3cs80620bkh;
+        Wed, 28 Oct 2009 02:17:37 -0700 (PDT)
+Received: by 10.211.161.22 with SMTP id n22mr364176ebo.83.1256721456182;
+        Wed, 28 Oct 2009 02:17:36 -0700 (PDT)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 4si4230512ewy.9.2009.10.28.02.17.35;
+        Wed, 28 Oct 2009 02:17:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 9ED4324AFF; Wed, 28 Oct 2009 10:17:08 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 845C32422B;
+	Wed, 28 Oct 2009 10:01:11 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 680B03D2A;
+	Wed, 28 Oct 2009 10:01:11 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 2WmC7ujHl77C; Wed, 28 Oct 2009 10:01:11 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 460953E5A;
+	Wed, 28 Oct 2009 09:59:19 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id CE3EE3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 26 Oct 2009 19:42:11 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id REtbjAAb3MOb for <elsnet-list@mailman.elsnet.org>;
+	Mon, 26 Oct 2009 19:42:11 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A80813D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 26 Oct 2009 19:42:11 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 94580235A5; Mon, 26 Oct 2009 19:42:11 +0100 (MET)
+X-Greylist: delayed 1628 seconds by postgrey-1.28 at newjura;
+	Mon, 26 Oct 2009 19:42:06 MET
+Received: from mail-pw0-f46.google.com (mail-pw0-f46.google.com
+	[209.85.160.46])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 05C8723535
+	for <elsnet-list@elsnet.org>; Mon, 26 Oct 2009 19:42:05 +0100 (MET)
+Received: by pwi12 with SMTP id 12so3625283pwi.5
+	for <elsnet-list@elsnet.org>; Mon, 26 Oct 2009 11:42:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:sender:received:date
+	:x-google-sender-auth:message-id:subject:from:to:content-type;
+	bh=mdevMrJTDif6KNMA4uhU0QnOpFUTfsrh5QR/9Ak2INQ=;
+	b=PSHTrhJu1I/8Cjb6vVKNU3PkqhYxAzX8qmq0x5DIbUD9zo1UEHrkCAAPMnw+1V/lRe
+	p1w5dATtiVXujX3DK9ysVzH/rJXE+GK5OhtDMGd6u07hAk0N0NVdxeOTuJgvHr6vl7Gf
+	iiRQM9Nrq5Pl1CNPC+t11X3g1EoyIiXuqbNiw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+	:from:to:content-type;
+	b=SuvDM4k58OlhDzKpJh1aqlLCpmO9kIKAHhgHgI9FFcV2Aik9KsBBDRSnL5Y1P6tcI4
+	gn5sgF/uG0uxLR0aW41JP4BdG+bim4idBatTyXtZQyNmtsDy1hAmpyzbERbPx6N/5Wj0
+	3Un94XH5DF2pkVdeOtHbetKZw9dUhHuLPrAIo=
+MIME-Version: 1.0
+Received: by 10.142.250.6 with SMTP id x6mr1162819wfh.292.1256580570865; Mon, 
+	26 Oct 2009 11:09:30 -0700 (PDT)
+Date: Mon, 26 Oct 2009 14:09:30 -0400
+X-Google-Sender-Auth: e4f04e08ee6c5750
+Message-ID: <85bb0a700910261109u3acacdf9i79f9da7d88a787ba@mail.gmail.com>
+From: Jason Eisner <jason@cs.jhu.edu>
+To: elsnet-list@elsnet.org
+Content-Type: text/plain; charset=ISO-8859-1
+X-Mailman-Approved-At: Wed, 28 Oct 2009 09:58:34 +0100
+Cc: 
+Subject: [Elsnet-list] CFP: JHU Summer Workshop on Language Engineering
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+16th Annual JHU Summer Workshop
+CALL FOR TEAM RESEARCH PROPOSALS
+Deadline: Wednesday, November 18, 2009.
+
+http://www.clsp.jhu.edu/workshops/ws10/CFP
+
+The Center for Language and Speech Processing at Johns Hopkins
+University invites one-page research proposals for a
+Summer Workshop on Language Engineering, to be held
+in Baltimore, MD, USA, June 21 to July 30, 2010.
+
+Proposals should be suitable for a six-week team exploration, and
+should aim to advance the state of the art in any of the various
+fields of Human Language Technology (HLT).  This year, proposals in
+related areas of Machine Intelligence that share techniques with
+HLT, such as Computer Vision (CV), are also strongly solicited.
+
+Proposals are welcome on any topic of interest to HLT, CV and
+technically related areas.  For example, proposals may address
+novel topics or long-standing problems in one of the following
+areas.
+
+* SPEECH TECHNOLOGY:  Proposals are welcomed that address any
+  aspect of information extraction from speech signal (message,
+  speaker identity, language,...). Of particular interest are
+  proposals for techniques whose performance would be minimally
+  degraded by input signal variations, or which require minimal
+  amounts of training data.
+
+* NATURAL LANGUAGE PROCESSING: Proposals for knowledge discovery
+  from text are encouraged, as are proposals in traditional
+  fields such as parsing, machine translation, information
+  extraction, sentiment analysis, summarization, and question
+  answering.  Proposals may aim to improve the accuracy or enrich
+  the output of such systems, or extend their reach by improving
+  their speed, scalability, and coverage of languages and genres.
+
+* VISUAL SCENE INTERPRETATION: New strategies are needed to
+  parse visual scenes or generic (novel) objects, analyzing an
+  image as a set of spatially related components.  Such strategies
+  may integrate global top-down knowledge of scene structure (e.g.,
+  generative models) with the kind of rich bottom-up, learned
+  image features that have recently become popular for object
+  detection.  They will support both learning and efficient search
+  for the best analysis.
+
+* UNSUPERVISED AND SEMI-SUPERVISED LEARNING: Novel techniques
+  that do not require extensive quantities of human annotated data
+  to address any of the challenges above could potentially make
+  large strides in machine performance as well as lead to greater
+  robustness to changes in input conditions.  Semi-supervised and
+  unsupervised learning techniques with applications to HLT and CV
+  are therefore of considerable interest.
+
+Research topics selected for investigation by teams in
+past workshops may serve as good examples for your proposal
+(http://www.clsp.jhu.edu/workshops).
+
+An independent panel of experts will screen all received proposals
+for suitability. Results of this screening will be communicated
+no later than November 20, 2009. Authors passing this initial
+screening will be invited to Baltimore to present their ideas
+to a peer-review panel on December 4-6, 2009.  It is expected
+that the proposals will be revised at this meeting to address any
+outstanding concerns or new ideas. Two or three research topics and
+the teams to tackle them will be selected for the 2010 workshop.
+
+We attempt to bring the best researchers to the workshop
+to collaboratively pursue the selected topics for six weeks.
+Authors of successful proposals typically become the team leaders.
+Each topic brings together a diverse team of researchers and
+students.  The senior participants come from academia, industry
+and government.  Graduate student participants familiar with
+the field are selected in accordance with their demonstrated
+performance. Undergraduate participants, selected through a
+national search, are rising seniors: new to the field and showing
+outstanding academic promise.
+
+If you are interested in participating in the 2010 Summer
+Workshop we ask that you submit a one-page research proposal for
+consideration, detailing the problem to be addressed.  If your
+proposal passes the initial screening, we will invite you to join
+us for the December 4-6 meeting in Baltimore (as our guest) for
+further discussions aimed at consensus.  If a topic in your area
+of interest is chosen as one of the two or three to be pursued
+next summer, we expect you to be available for participation
+in the six-week workshop. We are not asking for an ironclad
+commitment at this juncture, just a good faith understanding
+that if a project in your area of interest is chosen, you will
+actively pursue it.  We in turn will make a good faith effort to
+accommodate any personal/logistical needs to make your six-week
+participation possible.
+
+Proposals should be submitted via e-mail to clsp@jhu.edu by
+4PM EST on Wed, November 18, 2009.
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,140 @@
+From - Thu Dec 10 14:39:16 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs435515bkq;
+        Mon, 30 Nov 2009 10:48:51 -0800 (PST)
+Received: by 10.224.114.30 with SMTP id c30mr2320441qaq.345.1259606930199;
+        Mon, 30 Nov 2009 10:48:50 -0800 (PST)
+Return-Path: <sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu>
+Received: from lists2.andrew.cmu.edu (LISTS2.andrew.cmu.edu [128.2.10.216])
+        by mx.google.com with ESMTP id 4si12401153qwe.25.2009.11.30.10.48.49;
+        Mon, 30 Nov 2009 10:48:50 -0800 (PST)
+Received-SPF: neutral (google.com: 128.2.10.216 is neither permitted nor denied by domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu) client-ip=128.2.10.216;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 128.2.10.216 is neither permitted nor denied by domain of sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu) smtp.mail=sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu; dkim=neutral (body hash did not verify) header.i=@googlemail.com
+Received: from LISTS2.andrew.cmu.edu (localhost [127.0.0.1])
+	by lists2.andrew.cmu.edu (8.14.1/8.14.3) with ESMTP id nAUImWb5005419
+	for <jpprost@gmail.com>; Mon, 30 Nov 2009 13:48:49 -0500
+X-Mailman-Handler: $Id: mm-handler,v 1.3 2009/09/20 12:53:24 jeaton Exp $
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.159])
+	by lists2.andrew.cmu.edu (8.14.1/8.14.3) with ESMTP id nAUHY9YL005444
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Mon, 30 Nov 2009 12:34:10 -0500
+Received: by fg-out-1718.google.com with SMTP id 19so1046156fgg.1
+	for <sigparse-list@lists.andrew.cmu.edu>;
+	Mon, 30 Nov 2009 09:34:09 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=googlemail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type:content-transfer-encoding;
+	bh=21lnhs7XOFxQ6rO9latnKs/CdFiAaCtuCJmhk2YSyyE=;
+	b=M9tduxECcC0oUarXLdeNg10wHd2u+V5YdAvU8DHkslZ2hXVEKBG0Iyl/ML+0c55I+G
+	N5p82yoxKbuIpJMlbZ4PZ4eLNtW5y1FtebHUUtwfmW6Mhc0/JFKXHl9cg33POFP6CFWp
+	HYMYxufDSw+vXAJJugks5FfGuKaZvPPnwU5V0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlemail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type
+	:content-transfer-encoding;
+	b=J4PvsXkMEhcooh4OAFDWHdtNf7tree3S5X41FaOUiDclSn7l5/Yif3hbvQv7dE9u/m
+	uiZn7B6BPtQaBIFg3cm3+VwtJiRKwJ+hozKBoJ4ChMnkWnUkM89lKsueZXliNhLEWGsc
+	H2fJJ8bqjux5daEa+8ebKv4cdiWZNlrfVKeRQ=
+MIME-Version: 1.0
+Received: by 10.239.145.13 with SMTP id q13mr526413hba.125.1259602449277; Mon, 
+	30 Nov 2009 09:34:09 -0800 (PST)
+Date: Mon, 30 Nov 2009 18:34:09 +0100
+Message-ID: <a69de9540911300934h20ed9729n21de40c9b78f8c99@mail.gmail.com>
+From: Nicole Schweikardt <schweika.floc@googlemail.com>
+To: schweika.floc@gmail.com
+X-DKIM-Verification: pass
+X-PMX-Version: 5.5.5.374460, Antispam-Engine: 2.7.1.369594,
+	Antispam-Data: 2009.11.30.172118
+X-Spam-Clean: 8% (
+	BODY_SIZE_3000_3999 0, BODY_SIZE_5000_LESS 0, BODY_SIZE_7000_LESS 0,
+	TO_NO_NAME 0, WEBMAIL_SOURCE 0, __CP_URI_IN_BODY 0, __CT 0,
+	__CTE 0, __CT_TEXT_PLAIN 0, __FRAUD_419_WEBMAIL 0,
+	__FRAUD_419_WEBMAIL_FROM 0, __HAS_MSGID 0, __HELO_GMAIL 0,
+	__MIME_TEXT_ONLY 0, __MIME_VERSION 0,
+	__PHISH_SPEAR_STRUCTURE_1 0, __RDNS_GMAIL 0, __SANE_MSGID 0,
+	__TO_MALFORMED_2 0)
+X-Spam-Score: 8%
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Scanned-By: MIMEDefang 2.60 on 128.2.10.216
+X-Mailman-Approved-At: Mon, 30 Nov 2009 13:48:30 -0500
+Subject: SIGParse: FLoC 2010: Call for Papers
+X-BeenThere: sigparse-list@lists.andrew.cmu.edu
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: mailing list for parsing interest group of computational linguistics
+	<sigparse-list.lists.andrew.cmu.edu>
+List-Unsubscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=unsubscribe>
+List-Archive: <https://lists.andrew.cmu.edu/mailman/private/sigparse-list>
+List-Post: <mailto:sigparse-list@lists.andrew.cmu.edu>
+List-Help: <mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=help>
+List-Subscribe: <https://lists.andrew.cmu.edu/mailman/listinfo/sigparse-list>, 
+	<mailto:sigparse-list-request@lists.andrew.cmu.edu?subject=subscribe>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+Sender: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+Errors-To: sigparse-list-bounces+jpprost=gmail.com@lists.andrew.cmu.edu
+X-Spam-Notice: Not scanning again, previously scanned by 127.0.0.1
+
+MjAxMCBGRURFUkFURUQgTE9HSUMgQ09ORkVSRU5DRSAoRkxvQycxMCkKCiBFZGluYnVyZ2gsIFNj
+b3RsYW5kLCBVLksuCiBKdWx5IDktMjEsIDIwMTAKIGh0dHA6Ly93d3cuZmxvYy1jb25mZXJlbmNl
+Lm9yZwoKIENBTEwgRk9SIFBBUEVSUwoKKiBUaGUgZmlmdGggRmVkZXJhdGVkIExvZ2ljIENvbmZl
+cmVuY2UgKEZMb0MnMTApIHdpbGwgYmUgaGVsZCBpbgogRWRpbmJ1cmdoLCBTY290bGFuZCwgVS5L
+LiAod3d3LmVkaW5idXJnaC5vcmcpLCBpbiBKdWx5IDIwMTAsIGF0IHRoZQogU2Nob29sIG9mIElu
+Zm9ybWF0aWNzIGF0IFVuaXZlcnNpdHkgb2YgRWRpbmJ1cmdoICh3d3cuaW5mLmVkLmFjLnVrKS4K
+CiogVGhlIGZvbGxvd2luZyBjb25mZXJlbmNlcyB3aWxsIHBhcnRpY2lwYXRlIGluIEZMb0M6CiAt
+IENBViAyMDEwOiAgIEludCdsIENvbmZlcmVuY2Ugb24gQ29tcHV0ZXItQWlkZWQgVmVyaWZpY2F0
+aW9uCiAtIENTRiAyMDEwOiAgIElFRUUgQ29tcHV0ZXIgU2VjdXJpdHkgRm91bmRhdGlvbnMgU3lt
+cG9zaXVtCiAtIElDTFAgMjAxMDogIEludCdsIENvbmZlcmVuY2Ugb24gTG9naWMgUHJvZ3JhbW1p
+bmcKIC0gSUpDQVIgMjAxMDogSW50J2wgSm9pbnQgQ29uZmVyZW5jZSBvbiBBdXRvbWF0ZWQgUmVh
+c29uaW5nCiAtIElUUCAyMDEwOiAgIEludCdsIENvbmZlcmVuY2Ugb24gSW50ZXJhY3RpdmUgVGhl
+b3JlbSBQcm92aW5nCiAtIExJQ1MgMjAxMDogIElFRUUgU3ltcG9zaXVtIG9uIExvZ2ljIGluIENv
+bXB1dGVyIFNjaWVuY2UKIC0gUlRBIDIwMTA6ICAgSW50J2wgQ29uZmVyZW5jZSBvbiBSZXdyaXRp
+bmcgVGVjaG5pcXVlcyBhbmQgQXBwbGljYXRpb25zCiAtIFNBVCAyMDEwOiAgIEludCdsIENvbmZl
+cmVuY2Ugb24gVGhlb3J5IGFuZCBBcHBsaWNhdGlvbnMgb2YKICAgICAgICAgICAgICAgU2F0aXNm
+aWFiaWxpdHkgVGVzdGluZwoKKiBQbGVuYXJ5IGV2ZW50cyBpbnZvbHZpbmcgYWxsIHRoZSBjb25m
+ZXJlbmNlcyBhcmUgcGxhbm5lZC4gSW4gYWRkaXRpb24KIHRvIHRoZSBwYXJ0aWNpcGF0aW5nIGNv
+bmZlcmVuY2VzLCBGTG9DJzEwIHdpbGwgaG9zdCBhIG51bWJlciBvZgogcHJlLSBhbmQgcG9zdC1j
+b25mZXJlbmNlIHdvcmtzaG9wcy4gVGhlcmUgd2lsbCBiZSByZWNlcHRpb25zIGluIHRoZQogRWRp
+bmJ1cmdoIENhc3RsZSBhbmQgYXQgdGhlIE5hdGlvbmFsIEdhbGxlcmllcyBvZiBTY290bGFuZC4K
+CiogVHJhdmVsIHN1cHBvcnQgZm9yIFVTIHN0dWRlbnQgcGFydGljaXBhbnRzIGlzIGV4cGVjdGVk
+LgoKKiBEZXRhaWxlZCBjYWxscyBmb3IgcGFwZXJzIChhcyB3ZWxsIGFzIHN1Ym1pc3Npb24gaW5z
+dHJ1Y3Rpb25zKSBmb3IgZWFjaAogb2YgdGhlIHBhcnRpY2lwYXRpbmcgY29uZmVyZW5jZXMgY2Fu
+IGJlIGZvdW5kIGF0IHRoZSBGTG9DJzEwIHdlYnNpdGUgYXQKIGh0dHA6Ly93d3cuZmxvYy1jb25m
+ZXJlbmNlLm9yZwoKKiBJbXBvcnRhbnQgZGF0ZXM6CiAtIENBViAyMDEwOgogICAgICBQQyBjaGFp
+cnM6IEJ5cm9uIENvb2ssIFBhdWwgSmFja3NvbiwgVGF5c3NpciBUb3VpbGkKICAgICAgSmFuIDEx
+OiBhYnN0cmFjdCBzdWJtaXNzaW9uIGRlYWRsaW5lCiAgICAgIEphbiAxNTogcGFwZXIgc3VibWlz
+c2lvbiBkZWFkbGluZQogLSBDU0YgMjAxMDoKICAgICAgUEMgY2hhaXJzOiBNaWNoYWVsIEJhY2tl
+cywgQW5kcmV3IE15ZXJzCiAgICAgIEZlYiAwNDogYWJzdHJhY3Qgc3VibWlzc2lvbiBkZWFkbGlu
+ZQogICAgICBGZWIgMDg6IHBhcGVyIHN1Ym1pc3Npb24gZGVhZGxpbmUKIC0gSUNMUCAyMDEwOgog
+ICAgICBQQyBjaGFpcnM6IE1hbnVlbCBIZXJtZW5lZ2lsZG8sIFRvcnN0ZW4gU2NoYXViCiAgICAg
+IEphbiAyNjogcGFwZXIgcmVnaXN0cmF0aW9uIGRlYWRsaW5lCiAgICAgIEZlYiAwMjogcGFwZXIg
+c3VibWlzc2lvbiBkZWFkbGluZQogLSBJSkNBUiAyMDEwOgogICAgICBQQyBjaGFpcnM6IErDvHJn
+ZW4gR2llc2wsIFJlaW5lciBIw6RobmxlCiAgICAgIEphbiAxNTogYWJzdHJhY3Qgc3VibWlzc2lv
+biBkZWFkbGluZQogICAgICBKYW4gMjI6IHBhcGVyIHN1Ym1pc3Npb24gZGVhZGxpbmUKIC0gSVRQ
+IDIwMTA6CiAgICAgIFBDIGNoYWlyczogTWF0dCBLYXVmbWFubiwgTGF3cmVuY2UgQy4gUGF1bHNv
+bgogICAgICBKYW4gMTU6IGFic3RyYWN0IHN1Ym1pc3Npb24gZGVhZGxpbmUKICAgICAgSmFuIDIy
+OiBwYXBlciBzdWJtaXNzaW9uIGRlYWRsaW5lCiAtIExJQ1MgMjAxMDoKICAgICAgUEMgY2hhaXI6
+IEplYW4tUGllcnJlIEpvdWFubmF1ZAogICAgICBKYW4gMTA6IGFic3RyYWN0IHN1Ym1pc3Npb24g
+ZGVhZGxpbmUKICAgICAgSmFuIDE3OiBwYXBlciBzdWJtaXNzaW9uIGRlYWRsaW5lCiAtIFJUQSAy
+MDEwOgogICAgICBQQyBjaGFpcjogQ2hyaXN0b3BoZXIgTHluY2gKICAgICAgSmFuIDE1OiBhYnN0
+cmFjdCBzdWJtaXNzaW9uIGRlYWRsaW5lCiAgICAgIEphbiAyMjogcGFwZXIgc3VibWlzc2lvbiBk
+ZWFkbGluZQogLSBTQVQgMjAxMDoKICAgICAgUEMgY2hhaXJzOiBPZmVyIFN0cmljaG1hbiwgU3Rl
+ZmFuIFN6ZWlkZXIKICAgICAgRmViIDAxOiBhYnN0cmFjdCBzdWJtaXNzaW9uIGRlYWRsaW5lCiAg
+ICAgIEZlYiAwODogcGFwZXIgc3VibWlzc2lvbiBkZWFkbGluZQoKKiBGTG9DJzEwIFN0ZWVyaW5n
+IENvbW1pdHRlZToKICAtIEdlbmVyYWwgQ2hhaXI6IE1vc2hlIFkuIFZhcmRpCiAgLSBDb25mZXJl
+bmNlIENvLWNoYWlyczogTGVvbmlkIExpYmtpbiwgR29yZG9uIFBsb3RraW4KICAtIENBViBSZXBy
+ZXNlbnRhdGl2ZTogRWRtdW5kIENsYXJrZQogIC0gSUNMUCBSZXByZXNlbnRhdGl2ZTogTWFudWVs
+IEhlcm1lbmVnaWxkbwogIC0gSUpDQVIgUmVwcmVzZW50YXRpdmU6IEFsYW4gQnVuZHkKICAtIElU
+UCBSZXByZXNlbnRhdGl2ZTogVG9iaWFzIE5pcGtvdwogIC0gTElDUyBSZXByZXNlbnRhdGl2ZTog
+TWFydGluIEFiYWRpCiAgLSBSVEEgUmVwcmVzZW50YXRpdmU6IEp1ZXJnZW4gR2llc2wKICAtIFNB
+VCBSZXByZXNlbnRhdGl2ZTogRW5yaWNvIEdpdW5jaGlnbGlhCiAgLSBFYXN5Q2hhaXIgUmVwcmVz
+ZW50YXRpdmU6IEFuZHJlaSBWb3JvbmtvdgotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0KKiBUbyBzZW5kIG1haWwgdG8gdGhlIGxpc3Qgb2YgYWxsCi0gIHN1YnNj
+cmliZXJzLCBzZW5kIHlvdXIgbWVzc2FnZSB0bzoKLSAgICAic2lncGFyc2UtbGlzdEBsaXN0cy5h
+bmRyZXcuY211LmVkdSIKLQoqIFRvIHNlbmQgbWFpbCB0byB0aGUgbGlzdCBhZG1pbmlzdHJhdG9y
+LAotICBzZW5kIHlvdXIgbWVzc2FnZSB0bzoKLSAgIm93bmVyLXNpZ3BhcnNlLWxpc3RAbGlzdHMu
+YW5kcmV3LmNtdS5lZHUiCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0KLQ==

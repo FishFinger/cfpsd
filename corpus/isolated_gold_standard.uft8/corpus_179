@@ -1,0 +1,241 @@
+From - Thu Dec 10 14:22:33 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: c231d20b542c006dece23ba320ad57559ddb10a1
+Delivered-To: jpprost@gmail.com
+Received: by 10.65.228.3 with SMTP id f3cs14094qbr;
+        Mon, 9 Jan 2006 07:23:16 -0800 (PST)
+Received: by 10.66.186.5 with SMTP id j5mr7624311ugf;
+        Mon, 09 Jan 2006 07:22:45 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id m1si11862184ugc.2006.01.09.07.22.26;
+        Mon, 09 Jan 2006 07:22:45 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local  (Exim 4.34)
+	id 1EvyoG-0004t9-1I; Mon, 09 Jan 2006 16:19:48 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp  (Exim 4.34)
+	id 1EvyoF-0004t2-Em; Mon, 09 Jan 2006 16:19:47 +0100
+Received: from mail1.its.albany.edu (smtp.albany.edu) [169.226.1.105] 
+	by rolf.uib.no for CORPORA@UIB.NO with esmtp  (Exim 4.34)
+	id 1EvynY-0007TA-Pd; Mon, 09 Jan 2006 16:19:45 +0100
+Received: from [169.226.151.223] (dyn-169-226-151-223.ss.albany.edu [169.226.151.223])
+	by smtp.albany.edu (8.13.0/8.13.0) with ESMTP id k09FHgUj017499
+	for <CORPORA@UIB.NO>; Mon, 9 Jan 2006 10:17:42 -0500 (EST)
+Mime-Version: 1.0 (Apple Message framework v746.2)
+Content-Transfer-Encoding: 7bit
+Message-Id: <2F26B4B9-80AC-4392-A5BC-BF421BAACA06@albany.edu>
+Content-Type: text/plain; charset=US-ASCII; delsp=yes; format=flowed
+To: CORPORA@UIB.NO
+From: Nick Webb <nwebb@albany.edu>
+Subject: [Corpora-List] CFP: HLT-NAACL06 Workshop on Interactive QA
+Date: Mon, 9 Jan 2006 10:17:40 -0500
+X-Mailer: Apple Mail (2.746.2)
+X-Scanned-By: MIMEDefang 2.49 on 169.226.1.44
+X-checked-clean: by exiscan on rolf
+X-Scanner: 172b3592d8c49881032f4c25ec934897 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+
+[apologies for multiple postings]
+
+Call for papers for the
+
+Workshop on Interactive Question Answering
+
+http://www.ils.albany.edu/IQA06/
+
+8th & 9th June 2006 - New York City, USA
+to be held as part of the HLT-NAACL conference in New York City
+(http://nlp.cs.nyu.edu/hlt-naacl06/)
+
+---------------
+IMPORTANT DATES
+---------------
+
+Full Paper Submission: March 3rd, 2006
+Acceptance Notification: March 31st, 2006
+Camera-Ready Papers due: April 21st, 2006
+Workshop: June 8th & 9th, 2006
+
+-----------
+DESCRIPTION
+-----------
+
+In moving from factoid Question Answering (QA) to answering complex
+questions, it has become apparent that insufficient attention has been
+paid to the user's role in the process, other than as a source of one- 
+shot
+factual questions or a sequence of related questions. Rather, users  
+both want to
+and can do a lot more:  With respect to answers, users can usually
+disambiguate between a range of possible factoid answers and/or
+navigate information clusters in an answer space; With respect to
+the QA process, users want to ask more types of questions and respond
+to the system's answer in more ways than another factual question.
+In short, real users demand real-time interactive question and answer
+capabilities, with coherent targeted answers presented in context for
+easy inspection. Repeat users will require user models that treat
+information already provided as background to novel information that
+is now available.
+
+Such developments move the paradigm of QA away from single question,
+single answer modalities, toward interactive QA, where the system may
+retain memory of the QA process, and where users develop their
+understanding of a situation through an interactive QA dialogue.  
+Dialogue
+systems already allow users to interact with simple, structured data  
+such
+as train or flight timetables, using a dialogue component based on
+variations of finite-state models. Such models make intensive use of the
+structure of the domain to constrain the range of possible
+interactions.
+
+To move forward, one needs the combined capabilities of dialogue
+systems and open-domain QA systems.  We therefore solicit papers
+relevant to achieving this goal, which may touch on one or more of the
+following key issues:
+
+----------
+KEY ISSUES
+----------
+
+(1) Models of the domain
+- a priori models which give a deeper, more consistent representation of
+    the data
+- models built on the fly, which may be shallower, or more coarse grain,
+    but which may be sufficient to conduct interactions over a wide
+    range of data
+
+(2) Models of dialogue
+- Using domain knowledge to conduct and constrain interactions  
+appropriately
+- Generic, generally-applicable types of QA interactions
+- clarification sub-dialogues, error-correcting dialogues and  
+negotiation
+    dialogues
+
+(3) Integration
+- Using dialogue models in open-domain QA (for question
+    expansion, answer candidate ranking, etc.)
+- Integrating closed and open domain QA to support dialogue
+
+(3) Answer presentation
+   - enable the user to understand the range of choices, or the  
+complexity
+     of the data
+
+(4) Evaluation
+- user centred evaluation
+- subjective component to measure:
+	- effectiveness of interaction
+	- quality of results
+	- percent of cognitive load compared to alternative search mechanisms
+
+--------------------------
+ROADMAP FOR INTERACTIVE QA
+--------------------------
+
+The goal of this two day workshop is to explore the area of dialogue  
+as applied to
+the QA scenario, to extend current technology beyond factoid QA. We  
+would
+like the workshop to produce some tangible output, at the very least a
+blueprint for the potential development of the field. Each of the  
+keynote
+speakers will add something to the discussion about the future direction
+of interactive QA (or past developments), relating to the four research
+goals listed above. During these presentations, and the presentations of
+the participants, notes will be taken about research priorities,  
+existing
+systems, methodologies and principles. At the end of the workshop, there
+will be a discussion section to produce a roadmap for the future
+development of interactive QA systems. This roadmap will be  
+circulated to
+participants after the event. Such a roadmap has many potential uses -
+including galvanising research funding bodies to support efforts in the
+suggested areas.
+
+----------------
+KEYNOTE SPEAKERS
+----------------
+
+The invited keynote speakers to this workshop are intended to set the
+scene for the range of papers which follow. Keynote speakers will  
+include:
+
+Bill Woods (SUN Microsystems)
+Heather McCallum-Bayliss (ARDA)
+Jim Hieronymous (NASA)
+Tomek Strzalkowski (SUNY, Albany)
+
+-------------
+PARTICIPATION
+-------------
+
+This workshop aims to bring together practitioners from a variety of
+disciplines - Information Retrieval, QA and Dialogue Systems - to
+highlight the challenges and range of potential solutions to the now
+reborn, still young, but growing interactive QA community. To do so  
+at an
+early stage of interactive system development can help researchers to
+understand the full range of techniques, approaches and toolkits  
+available
+from different research communities.
+
+-----------
+SUBMISSIONS
+-----------
+
+Authors are required to provide a Portable Document Format (PDF) version
+of their papers. The submission must be electronic. The proceedings will
+be printed on US-Letter paper. Manuscripts must be in two-column  
+format of
+ACL proceedings (11pt Times-Roman font). Exceptions to the two-column
+format include the title, authors' names and complete addresses, which
+must be centred at the top of the first page, and any full-width figures
+or tables.
+
+For the workshop, the maximum length of a manuscript is eight (8)
+pages for full papers printed single-sided. Authors are strongly
+encouraged to use the LaTeX style files or MSWord equivalents available
+from http://nlp.cs.nyu.edu/hlt-naacl06/styles/.
+
+Tom make a submission, please use the START server, located at:
+
+http://www.softconf.com/start/HLT-WS06-IQA/
+
+-----------------
+PROGRAM COMMITTEE
+-----------------
+
+- Roberto Basili (University of Rome, Tor Vergata)
+- John Donelan (AQUAINT Technical Steering Committee)
+- Sanda Harabagiu (LCC)
+- Ryuichiro Higashinaka (NTT)
+- Udo Kruschwitz (University of Essex)
+- Oliver Lemon (University of Edinburgh)
+- Steven Maiorano (AQUAINT Technical Steering Committee)
+- Joe Polifroni (University of Sheffield)
+- Sharon Small (SUNY, Albany)
+- David Traum (ICT)
+- Nick Webb (SUNY, Albany)
+- Bonnie Webber (University of Edinburgh)
+
+
+
+-- 
+
+Nick Webb: Senior Research Scientist
+Institute of Informatics, Logics and Security Studies
+University at Albany: State University of New York
+tel: +1 (518) 4423082   www: http://www.nick-webb.net
+fax: +1 (518) 4422606 email: nwebb@albany.edu
+
+
+

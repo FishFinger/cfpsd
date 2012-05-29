@@ -1,0 +1,171 @@
+From - Thu Dec 10 14:22:34 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 2b672d2f09300e35dca41b289207dea88fb6c4e0
+Delivered-To: jpprost@gmail.com
+Received: by 10.65.225.17 with SMTP id c17cs28936qbr;
+        Tue, 14 Feb 2006 03:44:36 -0800 (PST)
+Received: by 10.70.65.4 with SMTP id n4mr452967wxa;
+        Tue, 14 Feb 2006 03:43:55 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id h18si6670830wxd.2006.02.14.03.43.36;
+        Tue, 14 Feb 2006 03:43:55 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local  (Exim 4.34)
+	id 1F8y7Z-0004CS-1n; Tue, 14 Feb 2006 12:13:25 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp  (Exim 4.34)
+	id 1F8y7Y-0004CL-Km; Tue, 14 Feb 2006 12:13:24 +0100
+Received: from mulga.cs.mu.oz.au [128.250.1.22] 
+	by rolf.uib.no for CORPORA@HD.UIB.NO with esmtp  (Exim 4.34)
+	id 1F8y7T-00011N-3P; Tue, 14 Feb 2006 12:13:24 +0100
+Received: from localhost (localhost [127.0.0.1]) by mulga.cs.mu.OZ.AU with ESMTP
+	id k1EBDCIk027207; Tue, 14 Feb 2006 22:13:12 +1100 (EST)
+Received: from mulga.cs.mu.OZ.AU ([127.0.0.1])
+ by localhost (mulga.cs.mu.OZ.AU [127.0.0.1]) (amavisd-new, port 10024)
+ with LMTP id 26473-11; Tue, 14 Feb 2006 22:13:11 +1100 (EST)
+Received: from localhost (mundula.cs.mu.OZ.AU [128.250.37.102]) by mulga.cs.mu.OZ.AU with ESMTP
+	id k1EBDAcx027161; Tue, 14 Feb 2006 22:13:10 +1100 (EST)
+Date: Tue, 14 Feb 2006 22:13:09 +1100 (EST)
+Message-Id: <20060214.221309.46207329.tim@cs.mu.OZ.AU>
+To: "tim@csse.unimelb.edu.au":;
+Subject: [Corpora-List] Australia: Coling-ACL 2006 Workshop on "Linguistic Distances" --
+ CFP
+From: Timothy Baldwin <tim@csse.unimelb.edu.au>
+In-Reply-To: <CMM-RU.1.5.1138997161.rasmusse@research.rutgers.edu>
+References: <CMM-RU.1.5.1138997161.rasmusse@research.rutgers.edu>
+X-URL: http://www.csse.unimelb.edu.au/~tim/
+X-Mailer: Mew version 4.2.52 on Emacs 21.4 / Mule 5.0 (SAKAKI)
+Mime-Version: 1.0
+Content-Type: Text/Plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: amavisd-new at cs.mu.OZ.AU
+X-checked-clean: by exiscan on rolf
+X-Scanner: 855125e4b6c78b54bc74bae65b72c457 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+
+
+                       Call for Papers
+
+         ACL-COLING 2006 Workshop on "Linguistic Distances"
+                        July 23, 2006
+                       Sydney, Australia
+
+Background
+
+In many theoretical and applied areas of computational linguistics
+researchers operate with a notion of linguistic distance or,
+conversely, linguistic similarity, which is the focus of the present
+workshop.  While many CL areas make frequent use of such notions, it
+has received little focused attention, an honorable exception being
+Lebart & Rajman (2000).
+
+In information retrieval (IR), also the focus of Lebart & Rajman's
+work, similarity is at heart of most techniques seeking an optimal
+match between query and document.  Techniques in vector space models
+operationalize this via (weighted) cosine measures, but older tf/idf
+models were also arguably aiming at a notion of similarity.
+
+Word sense disambiguation models often work with a notion of
+similarity among the contexts within which word (senses) appear, and
+MT identifies candidate lexical translation equivalents via a
+comparable measure of similarity.  Many learning algorithms currently
+popular in CL, including not only supervised techniqes such as memory-
+based learning (k-nn) and support-vector machines, but also
+unsupervised techniques such as Kohonen maps and clustering, rely
+essentially on measures of similarity for their processing.
+
+Notions of similarity are often invoked in linguistic areas such as
+dialectology, historical linguistics, stylometry, second-language
+learning (as a measure of learners' proficiency), psycholinguistics
+(acounting for lexical "neighborhood" effects, where neighborhoods are
+defined by similarity) and even in theoretical linguistics (novel
+accounts of the phonological constraints on semitic roots).
+
+The workshop aims to bring together researchers employing various
+measures of linguistic distance or similarity, including novel
+proposals, especially to demonstrate the importance of the abstract
+properties of such measures (validity, stability over corpus size,
+computability, fidelity to the mathematical distance axioms), but
+also to exchange information on how to analyze distance information
+further.  We assume that there is a "hidden variable" in the
+similarity relation, so that we should always speak of similarity with
+respect to some property, and we suspect that there is such a plethora
+of measures in part because researchers are often inexplicit on this
+point.  It will useful to tease the different notions apart.  Finally,
+it is most intriguing if we might make a start on understanding how
+some of the different notions might construed as alternative
+realizations of a single abstract notion.
+
+Lebart, L. & M. Rajman (2000)  Computing Similarity.  In R.Dale et al.
+  (eds.) Handbook of NLP.  Dekker: Basel.
+
+
+Web Site
+
+A workshop website will be constructed at
+www.let.rug.nl/alfa/ling-dist/
+
+Call for papers
+
+Papers are invited on substantial, original, and unpublished research
+investigating linguistic distance measures, and their application,
+analysis and interpretation.  The submission deadline is below.
+
+
+Submissions.
+
+Submissions should follow the two-column format of ACL proceedings and
+should not exceed eight (8) pages, including references. We strongly
+recommend the use of the LaTeX style files or Microsoft Word document
+template that will be made available on the conference Web site
+(http://www.acl2006.mq.edu.au/).  We reserve the right to reject
+submissions that do not conform to these styles, including font size
+restrictions.
+
+As reviewing will be blind, the paper should not include the authors'
+names and affiliations. Furthermore, self-references that reveal the
+author's identity, e.g., "We previously showed (Smith, 1991) ...",
+should be avoided. Instead, use citations such as "Smith previously
+showed (Smith, 1991) ...". Papers that do not conform to these
+requirements will be rejected without review.
+
+Submission will be electronic. The only accepted format for submitted
+papers is Adobe PDF. The papers must be submitted no later than <deadline>April
+1, 2006</deadline>. Papers submitted after that time will not be reviewed. For
+details of the submission procedure, please consult the submission
+webpage reachable via the conference website.
+
+Questions regarding the submission procedure should be directed to the
+Program Co-Chairs, John Nerbonne and/or Erhard Hinrichs
+(j.nerbonne@rug.nl,eh@sfs.uni-tuebingen.de).
+
+Papers that are being submitted in parallel to other conferences or
+workshops must indicate this on the title page, as must papers that
+contain significant overlap with previously published work.  Please
+use the abstract or the title footnote for noting these complications.
+
+Important Dates
+
+    <deadline>April 1, 2006</deadline>  Submission Deadline
+    May  10        Notification of Acceptance
+    <deadline>June  1</deadline>           Final papers to organizers
+
+Program Committee
+
+John Nerbonne (Groningen) and Erhard Hinrichs (T|bingen) (chairs),
+Harald Baayen (Nijmegen), Walter Daelemans (Antwerp), Ido Dagan
+(Technion, Haifa), Wilbert Heeringa (Groningen), Ed Hovy (ISI, Los
+Angeles), Grzegorz Kondrak (Alberta), Sandra K|bler (T|bingen), Rada
+Mihalcea (North Texas), Ted Pedersen (Minnesota), Dan Roth (Illinois),
+Hinrich Sch|tze (Stuttgart), Junichi Tsuji (Tokyo), Menno van Zaanen
+(Macquarie, Sydney)
+
+For LaTeX and Word Templates, see http://www.acl2006.mq.edu.au/
+

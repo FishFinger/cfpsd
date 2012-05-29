@@ -1,0 +1,448 @@
+From - Thu Dec 10 14:23:59 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: e1dd0d3ec0b467f98b1a795f6fce087ec116b1f1
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs156531pyn;
+        Mon, 4 Sep 2006 15:10:22 -0700 (PDT)
+Received: by 10.35.106.15 with SMTP id i15mr11029307pym;
+        Mon, 04 Sep 2006 15:10:21 -0700 (PDT)
+Return-Path: <cltphds-bounces@ics.mq.edu.au>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id 12si24483nzn.2006.09.04.15.10.18;
+        Mon, 04 Sep 2006 15:10:21 -0700 (PDT)
+Received-SPF: pass (gmail.com: best guess record for domain of cltphds-bounces@ics.mq.edu.au designates 137.111.216.16 as permitted sender)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k84MA6tK020691;
+	Tue, 5 Sep 2006 08:10:17 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090508101617779
+ ; Tue, 05 Sep 2006 08:10:16 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k84MAGVI020727;
+	Tue, 5 Sep 2006 08:10:16 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k84MAFCp002466
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO);
+	Tue, 5 Sep 2006 08:10:15 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k84MADcC020708;
+	Tue, 5 Sep 2006 08:10:13 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006090508101217775
+ ; Tue, 05 Sep 2006 08:10:13 +1000
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k84MA3TG020689;
+	Tue, 5 Sep 2006 08:10:11 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k84M9wcA020677; Tue, 5 Sep 2006 08:09:58 +1000 (EST)
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id
+	k847GYrU020540 for <comp-it-announce@ics.mq.edu.au>;
+	Mon, 4 Sep 2006 17:16:35 +1000 (EST)
+Received: from staff.cs.usyd.edu.au (staff.cs.usyd.edu.au [129.78.8.1])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k847GYA03115
+	for <comp-it-announce@ics.mq.edu.au>;
+	Mon, 4 Sep 2006 17:16:34 +1000 (EST)
+Received: from serf0.cs.usyd.edu.au. [129.78.10.95] by staff.cs.usyd.edu.au.; 
+	Mon, 04 Sep 2006 17:11:41 +1000
+Received: by staff.cs.usyd.edu.au with postie; Mon, 04 Sep 2006 17:04:32 +1100
+Received: from flexal3.cs.usyd.edu.au. [129.78.9.55] by serf8.cs.usyd.edu.au.; 
+	Mon, 04 Sep 2006 17:04:20 +1000
+Received: from flexal3.cs.usyd.edu.au
+	(IDENT:it-announce@localhost.cs.usyd.edu.au [127.0.0.1])
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8) with ESMTP id k8474Kx5024282
+	for <itannounce@it.usyd.edu.au>; Mon, 4 Sep 2006 17:04:20 +1000
+Received: (from it-announce@localhost)
+	by flexal3.cs.usyd.edu.au (8.12.8/8.12.8/Submit) id k8474KGI024280
+	for itannounce@it.usyd.edu.au; Mon, 4 Sep 2006 17:04:20 +1000
+Date: Mon, 4 Sep 2006 17:04:20 +1000
+To: itannounce@it.usyd.edu.au
+Message-ID: <20060904070420.GA24265@flexal3.cs.usyd.edu.au>
+Mime-Version: 1.0
+Content-Disposition: inline
+User-Agent: Mutt/1.4i
+X-Mailman-Approved-At: Mon, 04 Sep 2006 17:11:16 +1000
+From: itannounce@mail.it.usyd.edu.au
+X-BeenThere: itannounce@mail.it.usyd.edu.au
+X-Mailman-Version: 2.1.4
+Precedence: list
+X-Spam-Checker-Version: SpamAssassin 3.0.1 (2004-10-22) on 
+	serf8.cs.usyd.edu.au
+X-Spam-Report-SoIT: *  0.2 NO_REAL_NAME From: does not include a real name
+	* -0.0 SPF_HELO_PASS SPF: HELO matches SPF record
+	*  0.8 DEAR_SOMETHING BODY: Contains 'Dear (something)'
+X-Spam-Flag-SoIT: No (Score=1.0, required: 5.0)
+X-Spam-Level-SoIT: 
+X-Mailman-Approved-At: Tue, 05 Sep 2006 08:09:56 +1000
+X-BeenThere: comp@ics.mq.edu.au
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Brightmail-Tracker: AAAAAQAAAAQ=
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+X-Whitelist: TRUE
+Subject: [Cltphds] [Comp] [Itannounce] IT-Announce Newsletter - Issue 1
+	September 2006
+X-BeenThere: cltphds@ics.mq.edu.au
+List-Id: CLT PhD Mailing List <cltphds.ics.mq.edu.au>
+List-Unsubscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=unsubscribe>
+List-Archive: <http://www.ics.mq.edu.au/mailman/private/cltphds>
+List-Post: <mailto:cltphds@ics.mq.edu.au>
+List-Help: <mailto:cltphds-request@ics.mq.edu.au?subject=help>
+List-Subscribe: <http://www.ics.mq.edu.au/mailman/listinfo/cltphds>,
+	<mailto:cltphds-request@ics.mq.edu.au?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+Sender: cltphds-bounces@ics.mq.edu.au
+Errors-To: cltphds-bounces@ics.mq.edu.au
+
+
+Dear IT-Announce subscriber,
+
+Welcome to issue number 1 for September, 2006. This service is sponsored by
+the Australian Computer Society (www.acs.org.au). Complete news items
+may be found at http://www.cs.usyd.edu.au/~it-announce/news.htm. Submit
+news items at http://www.it.usyd.edu.au/~it-announce/itpost.htm.
+
+
+Australian International and Local Conference Announcements
+
+  Computing The Future Symposium 2006
+  Advances in Modal Logic 2006. Call for Participation
+  HCSNet Priority Area Workshop on Next-Generation Search Technology 21-22 Sept
+  Australasian Information Security Workshop 2007 (Privacy Enhancing Technologies)
+
+International Conference Announcements
+
+  Asia-Pacific Workshop on Intelligent and Evolutionary Systems
+  ACM_NZ Bulletin: Call for Submissions
+  2nd International Workshop on Software for Sensor Networks Sensorware 2007
+  The 2007 IEEE International Symposium on Bioinformatics and Life Science Computing. (BLSC07)
+  2nd Int. Workshop on Engineering Service Oriented Applications:Design and Composition (WESOA'06)
+  JSAT S.I. on Satisfiability Modulo Theories
+
+Academic Positions
+
+  Multimedia Understanding through Semantics, Computation, and Learning Postdoc
+
+======================================================================
+
+Australian International and Local Conference Announcements
+
+  Computing The Future Symposium 2006
+  editor@slatteryit.com.au
+
+The University of Sydney
+COMPUTING THE FUTURE SYMPOSIUM 2006
+Wednesday,13th September 2006
+
+
+It has been 50 years since the first highspeed computer - SILLIAC - was
+built at an Australian University.
+Join leaders from across industry, eminent researchers and international
+guest speakers as we celebrate the University of Sydney's distinguished
+history in computer science, and explore future IT directions.
+
+Keynote Speakers Include:
+
+David Murray
+Chairman, Future Fund Board of Guardians & Former CEO of Commonwealth Bank
+
+Howard Charney
+Senior Vice President, Cisco Systems & One of the four founders of 3Com
+Corporation
+
+Dr Caroline Kovac ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt0
+
+======================================================================
+
+  Advances in Modal Logic 2006. Call for Participation
+  guido@itee.uq.edu.au
+
+========================================================================
+CALL FOR PARTICIPATION
+
+AiML-2006
+Advances in Modal Logic
+25-28 September 2006, Noosa (Queensland, Australia)
+http://www.itee.uq.edu.au/~aiml06
+
+EARLY REGISTRATION: 28 August 2006
+
+Advances in Modal Logic is an initiative aimed at presenting
+an up-to-date picture of the state of the art in modal logic
+and its many applications. The initiative consists of a
+conference series together with volumes based on the conferences.
+
+AiML-2006 is the sixth conference in the series.
+
+INVITED SPEAKERS
+- Renate Schmidt (Manchester, UK)
+Developing Modal Tableaux and Resolution Methods via
+First-Order Resolution ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt1
+
+======================================================================
+
+  HCSNet Priority Area Workshop on Next-Generation Search Technology 21-22 Sept
+  diego@ics.mq.edu.au
+
+HCSNet Priority Area Workshop on Next-Generation Search Technology
+21st and 22nd September 2006
+University of Melbourne
+
+CALL FOR ABSTRACTS
+
+Existing information retrieval systems effectively treat documents as
+unstructured bags of words. As Google and its competitors demonstrate,
+this approach works surprisingly well. At the same time, it is clear that
+human processors of information make use of a much deeper understanding
+of text than these systems exhibit. Humans cannot compete with machines
+in terms of quantity, but their abilities far exceed those of machines
+when it comes to quality.
+
+This priority research area focuses on how we can improve search
+engine technology by integrating more knowledge about the processing
+and understanding of language. This knowledge comes from a range of
+disciplines represented within HCSNet. Linguistics treats texts as richly
+structured objects that obey complex and interacting rules about language
+use, and natural language processing attempts to implement computational
+models that embody these ideas: how do we add this sophistication to ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt2
+
+======================================================================
+
+  Australasian Information Security Workshop 2007 (Privacy Enhancing Technologies)
+  Chris.Steketee@cs.unisa.edu.au
+
+The submission deadline for this workshop has been extended to <deadline>11
+September 2006</deadline>.   Although the focus is on Privacy Enhancing Technologies,
+papers in other areas of computer and information security
+and privacy are also acceptable.
+
+AISW-Pet aims at promoting research on privacy enhancing technologies
+and increasing the synergy between academic and industrial
+researchers working in this area.  It is a one-day workshop to be
+held in conjunction with the Australasian Computer Science
+Conference, as part of Australasian Computer Science Week in
+Ballarat, Victoria, Australia, 30 January - 2 February 2007.
+
+We seek submissions from academic and industrial researchers on all
+theoretical and practical aspects of privacy enhancing technologies.
+Suggested topics include but are not restricted to:
+
+Anonymity and unobservability modeling
+Attacks on anonymity systems
+Cryptography
+Ethics, policy and law relating to privacy
+Identity management and identity theft ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#cfp.txt3
+
+======================================================================
+
+
+International Conference Announcements
+
+  Asia-Pacific Workshop on Intelligent and Evolutionary Systems
+  rim@cse.snu.ac.kr
+		10th Asia-Pacific Workshop on
+	      Intelligent and Evolutionary Systems
+			   IES2006
+	     Seoul National University, Seoul, Korea
+		    25th-26th November, 2006
+
+Following nine successful workshops in Australia, New Zealand
+and Japan, the tenth APWIES is to be held in Korea in November.
+
+Aims and Scope
+
+To encourage in-depth technical discussions, the number of
+participants of the workshop is limited to 40 or less. The
+workshop will allocate ample time for discussions in addition to
+paper presentations. It covers two major areas:
+
+Intelligent and Adaptive Systems: Designing and developing
+intelligent and adaptive systems using machine learning and/or
+evolutionary computation techniques; other artificial
+intelligence techniques will also be considered. Examples of
+topics include, but are not limited to, evolutionary learning,
+neural network learning, autonomous agents/robots, artificial
+life, evolutionary games, hybrid learning systems, other machine
+learning systems.
+
+Optimisation with Intelligent Systems: Both numerical and
+combinatorial optimisation will be considered. Examples of the ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt0
+
+======================================================================
+
+  ACM_NZ Bulletin: Call for Submissions
+  t.lin@massey.ac.nz
+
+Call for submissions for the 2006 fourth issue of ACM_NZ Bulletin has
+already commenced. The submission deadline for the issue is <deadline>Sep 28, 2006</deadline>.
+
+For more information, please visit:
+http://www.acm.org/chapters/acm_nz/bulletin.php
+
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt1
+
+======================================================================
+
+  2nd International Workshop on Software for Sensor Networks Sensorware 2007
+  rchell@deakin.edu.au
+
+CALL FOR PAPERS
+2nd International Workshop on Software for Sensor Networks (SensorWare)
+To be held with Comsware 2007 (www.comsware.org)
+
+8th January 2007, Bangalore India
+www.sensorware.org
+
+Advances in technology have made deployment of miniature sensors
+a realistic proposition. Low-power, inexpensive smart devices with
+multiple on-board sensors are connected through wireless links so as
+to form a collaborative sensor network to perform a specific task. As a
+result, it opens up a new paradigm of ubiquitous computing and enables
+a range of applications that are previously unrealizable or too costly
+to be realized. However, given the limitation of on-board hardware,
+one of the key areas towards achieving superior performance is through
+software implementation. The workshop is intended to bring together
+industry experts and researchers to share novel techniques, algorithms
+and software implementation for sensor networks, and to discuss the
+current status, technical challenges, standards, fundamental issues,
+and future services and applications in the form of panels and technical
+presentation. Topics of interest include but are not limited to the ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt2
+
+======================================================================
+
+  The 2007 IEEE International Symposium on Bioinformatics and Life Science Computing. (BLSC07)
+  bbz@it.usyd.edu.au
+
+Call for Papers (BLSC07)
+
+The 2007 IEEE International Symposium on Bioinformatics and Life Science
+Computing. (BLSC07)
+
+Niagara Falls, Canada
+May 21-23, 2007
+
+Sponsored by
+IEEE Technical Committee Distributed Processing (TCDP)
+
+http://www.laas.fr/BLSC07
+
+SCOPE
+The aim of this symposium is to facilitate exchange of ideas and
+collaborations between computer scientists and biologists by presenting
+cutting-edge solutions of Modeling,  Computing and Learning in Biology and
+Life Science. We invite submissions that address conceptual and practical
+issues of bioinformatics and life science with an interdisciplinary
+character. For example, computer science and mathematical modeling papers
+should contain a concise description of the biological problem being ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt3
+
+======================================================================
+
+  2nd Int. Workshop on Engineering Service Oriented Applications:Design and Composition (WESOA'06)
+  jiri@it.uts.edu.au
+
+2nd INT. WORKSHOP ON ENGINEERING SERVICE ORIENTED APPLICATIONS:
+DESIGN AND COMPOSITION (WESOA'06)
+
+In conjunction with the 4th Int. Conference on Service Oriented
+Computing (ICSOC 2006) http://www.icsoc.org/
+
+Chicago, USA, December 4th, 2006
+
+WESOA Workshop Website
+http://fresco-www.informatik.uni-hamburg.de/wesoa06/
+
+Abstract Submission Due: <deadline>September 8th, 2006
+</deadline>
+
+OBJECTIVES
+==========
+
+With  the  growing  acceptance  of  service-oriented  computing  and
+increasing number of large-scale  Web Services projects there	is an
+urgent need for the research community and industry practitioners to
+combine in  an effort	to develop  comprehensive methodologies  that
+support the entire life-cycle	of service oriented applications.  To ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt4
+
+======================================================================
+
+  JSAT S.I. on Satisfiability Modulo Theories
+  Roberto Sebastiani <rseba@dit.unitn.it>
+
+===================  Preliminary Call for Papers ====================
+
+Journal on Satisfiability, Boolean Modeling and Computation (JSAT)
+Special Issue on Satisfiability Modulo Theories (SMT)
+
+http://dit.unitn.it/~rseba/jsat_smt06/
+
+Deadline for paper submission (provisional): November 25th, 2006
+
+======================================================================
+
+GENERAL INFORMATION
+
+Satisfiability Modulo Theories (SMT) is the problem of deciding the
+satisfiability of first-order formulae with respect to some
+decidable background theory (e.g., linear arithmetic, the theory of
+arrays, the theory of bit-vectors).
+SMT techniques are gaining increasing relevance in many application
+domains, including formal verification of hardware and software,
+compiler optimization, planning and scheduling.
+SMT is strongly related to SAT, as most SMT tools are built on top of ..... 
+http://www.it.usyd.edu.au/~it-announce/news.htm#osconf.txt5
+
+======================================================================
+
+
+Academic Positions and Scholarships
+
+  Multimedia Understanding through Semantics, Computation, and Learning Postdoc
+  aiia_announcements-admin@penelope.csd.auth.gr
+
+The Artificial Intelligence & Information Analysis Laboratory at the
+Aristotle University of Thessaloniki, Greece (www.aiia.csd.auth.gr)
+and the Institute of Information Theory and Automation  at the  Academy
+of Sciences of the Czech Republic, Prague (www.utia.cas.cz)  offer a 17
+month post-doc fellowship starting from October 1st 2006 within the
+framework of the European Union Network of Excellence MUSCLE
+"Multimedia Understanding through Semantics, Computation, and Learning"
+(www.muscle-noe.org). The research topic to be investigated is: Feature
+subset selection and multi-sensor fusion techniques for affect recognition
+and image texture analysis.
+
+
+
+
+http://www.it.usyd.edu.au/~it-announce/news.htm#jobad.txt0
+
+======================================================================
+
+
+_______________________________________________
+Itannounce mailing list
+All postings via web form at www.it.usyd.edu.au/~it-announce/itpost.htm
+http://www.it.usyd.edu.au/mailman/listinfo/itannounce
+_______________________________________________
+Comp mailing list
+Comp@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/comp
+_______________________________________________
+CLTPhds mailing list
+CLTPhds@ics.mq.edu.au
+http://www.ics.mq.edu.au/mailman/listinfo/cltphds

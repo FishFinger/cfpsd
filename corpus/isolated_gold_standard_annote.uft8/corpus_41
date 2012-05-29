@@ -1,0 +1,200 @@
+From - Thu Dec 10 14:22:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: bdd42a34f12aa67a9cfa0753e0971e96971bb6ac
+Delivered-To: jpprost@gmail.com
+Received: by 10.38.161.34 with SMTP id j34cs3509rne;
+        Thu, 24 Mar 2005 08:15:26 -0800 (PST)
+Received: by 10.38.150.65 with SMTP id x65mr1673269rnd;
+        Thu, 24 Mar 2005 08:15:25 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id z1si918300rne.2005.03.24.08.15.10;
+        Thu, 24 Mar 2005 08:15:25 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local  (Exim 4.34)
+	id 1DEUYB-0000vo-Kf; Thu, 24 Mar 2005 16:47:11 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp  (Exim 4.34)
+	id 1DEUYA-0000vf-1b; Thu, 24 Mar 2005 16:47:11 +0100
+Received: from mailgw.cs.york.ac.uk [144.32.40.3] 
+	by rolf.uib.no for corpora@uib.no with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
+	id 1DEUY7-0004M1-Qp; Thu, 24 Mar 2005 16:47:09 +0100
+Received: from minster.cs.york.ac.uk ([144.32.40.2])
+	by mailgw.cs.york.ac.uk with esmtps (TLSv1:AES256-SHA:256)
+	(Exim 4.44)
+	id 1DEUUU-0002ot-2z
+	for corpora@uib.no; Thu, 24 Mar 2005 15:43:22 +0000
+Received: from pc275.cs.york.ac.uk ([144.32.40.211] ident=1369)
+	by minster.cs.york.ac.uk with esmtp (Exim 4.44)
+	id 1DEUUU-0006na-3t
+	for corpora@uib.no; Thu, 24 Mar 2005 15:43:22 +0000
+Message-ID: <4242E019.2080208@cs.york.ac.uk>
+Date: Thu, 24 Mar 2005 15:43:21 +0000
+From: James Cussens <jc@cs.york.ac.uk>
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7.3) Gecko/20040919
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To:  corpora@uib.no
+Subject: [Corpora-List] Learning Language in Logic: 2nd CFP
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-checked-clean: by exiscan on rolf
+X-Scanner: e0f973d5b169997bb5cc030c972125c4 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.0 hits, 11.0 required
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+			SECOND CALL FOR PAPERS
+
+		    The 4th International Workshop
+				  on
+		  Learning Language in Logic (LLL05)
+	       http://www.cs.york.ac.uk/aig/lll/lll05/
+
+		  SUBMISSION DEADLINE: <deadline>1 April 2005</deadline>
+
+       Special Theme: Extracting Relations from Bio-medical Texts
+	    http://genome.jouy.inra.fr/texte/LLLchallenge
+
+			   Bonn, Germany
+			   7 August 2005
+
+			 Hosted by ICML 2005,
+	The 22nd International Conference on Machine Learning
+		  http://icml2005.kdnet.org/icml.php
+
+INTRODUCTION
+
+This workshop is the fourth Learning Language in Logic (LLL) workshop
+following previous LLL workshops in Bled (99), Lisbon (00) and
+Strasbourg (01). The purpose of the workshop is to provide a focus for
+work which applies machine learning using logical representations to
+natural language. Much existing work in this area uses techniques from
+inductive logic programming (ILP), and increasingly statistical
+relational learning. More details on the LLL state-of-the-art are
+available from the LLL home page ( http://www.cs.york.ac.uk/aig/lll/ )
+which includes links to many LLL papers, including introductory ones.
+We encourage submission of papers on any aspect of logic-based machine
+learning for natural language learning.
+
+One of the principal motivations for proposing such a workshop now is
+the increasing interest in applying logic-based machine learning to
+the problem of Information Extraction from bio-medical texts. For this
+reason the workshop has an associated "challenge task" where the aim
+is to learn IE rules which can be used to extract information on
+gene/protein interactions. Information on the challenge task is given
+below. Although, bio-medical IE is a special theme of the workshop, we
+very much encourage good quality articles on any aspect of logic-based
+machine learning for natural language learning. Here is a
+non-exhaustive list of possible topics:
+
+  * Explanation-based learning
+  * Extracting predicate-argument structure
+  * Grammar learning
+  * Higher-order logic for LLL
+  * Handling very complex terms in ILP
+  * Information extraction
+  * Instance-based approaches in ILP
+  * Logical approaches to statistical NLP
+  * Learning subcategorisation frames
+  * Morphological analysis
+  * Multi-predicate learning
+  * POS and morphosyntactic tagging
+  * Semantic role labelling
+  * Shallow parsing
+  * Theory revision
+  * Using ILP with large data sets
+  * Word sense disambiguation
+
+
+----------------------------------------------------------------------
+
+CHALLENGE TASK
+http://genome.jouy.inra.fr/texte/LLLchallenge
+
+The LLL05 challenge task is to learn rules to extract gene/protein
+interactions from bio-medical abstracts. The challenge task team at
+MIG-INRA are providing training data containing the following information:
+
+- annotation indicating agent and target of an interaction
+- dictionary of named entities (including variants and synonyms)
+- linguistic information: word segmentation, lemmatisation, syntactic
+   categories and syntactic dependencies
+
+This data and full details of the LLL05
+bio-medical challenge task are available from the challenge task
+web page ( http://genome.jouy.inra.fr/texte/LLLchallenge ).
+
+Results for this task are to be reported by the submission of a 4 page
+paper.
+
+Challenge task schedule:
+
+11 February 2005  Initial version of the data made available
+  3 March    2005  Final version of the data made available
+<deadline>27 April    2005</deadline>  Submission of papers with results
+11 May      2005  Challenge task papers notification
+
+----------------------------------------------------------------------
+
+SUBMISSION DETAILS FOR NORMAL LLL WORKSHOP SUBMISSIONS
+
+Deadline: <deadline>1 April 2005</deadline> (23:59:59 GMT)
+
+Submissions should not exceed 8 pages, and should be in line with the
+ICML formatting guidelines given on their website (
+http://icml2005.kdnet.org/papers/format/ ), except that there is no
+need to make your submission anonymous. Simply email your submission
+as PDF to James Cussens at the following (deliberately mangled) email
+address: "firstname.lastname AT cs DOT york DOT ac DOT uk".
+
+For challenge task submission instructions go to:
+http://genome.jouy.inra.fr/texte/LLLchallenge
+
+----------------------------------------------------------------------
+
+ORGANISERS:
+
+James Cussens, University of York, UK (workshop)
+Claire Nédellec, INRA, France (challenge task)
+
+PROGRAMME COMMITTEE:
+
+     * Zoltán Alexin, University of Szeged, Hungary
+     * Érick Alphonse, INRA, France
+     * Mary Elaine Califf, Illinois State University, USA
+     * Vincent Claveau, Université de Montréal, Canada
+     * James Cussens, University of York, UK
+     * Walter Daelemans, University of Antwerp, Belgium
+     * Saso Dzeroski, Jozef Stefan Institute, Slovenia
+     * Tomaz Erjavec, Jozef Stefan Institute, Slovenia
+     * Dimitar Kazakov, University of York, UK
+     * Suresh Manandhar, University of York, UK
+     * Claire Nédellec, INRA, France
+     * Lubos Popelínský, Masaryk University, Czech Republic
+     * Stephen Pulman, University of Oxford, UK
+     * Dan Roth, University of Illinois at Urbana-Champaign, USA
+     * Pascale Sébillot, IRISA, France
+     * Jude Shavlik, University of Wisconsin-Madison, USA
+
+
+----------------------------------------------------------------------
+
+IMPORTANT DATES:
+
+  <deadline>1 April    2005</deadline>  Normal paper submission deadline
+22 April    2005  Normal paper notification
+<deadline>27 April    2005</deadline>  Challenge task paper submission deadline
+11 May      2005  Challenge task paper notification
+<deadline>13 May      2005</deadline>  Normal paper (final version) deadline
+30 May      2005  Workshop notes available on-line
+
+----------------------------------------------------------------------
+
+-- 
+James Cussens                                        jc@cs.york.ac.uk
+Department of Computer Science                Tel  +44 (0)1904 434732
+University of York                            Fax  +44 (0)1904 432767
+Heslington, York YO10 5DD, UK            http://www.cs.york.ac.uk/~jc
+

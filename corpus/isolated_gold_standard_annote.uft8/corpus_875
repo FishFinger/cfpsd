@@ -1,0 +1,647 @@
+From - Thu Dec 10 14:38:53 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.60.195 with SMTP id q3cs37850bkh;
+        Sat, 7 Nov 2009 15:33:16 -0800 (PST)
+Received: by 10.213.102.65 with SMTP id f1mr1275542ebo.61.1257636795015;
+        Sat, 07 Nov 2009 15:33:15 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 4si6614268ewy.15.2009.11.07.15.33.12;
+        Sat, 07 Nov 2009 15:33:15 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 67E5B24565; Sun,  8 Nov 2009 00:33:11 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE,
+	MIME_HTML_MOSTLY autolearn=ham version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 36A482342C;
+	Sun,  8 Nov 2009 00:22:29 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B34623D24;
+	Sun,  8 Nov 2009 00:22:29 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0XHdMkWKa6rp; Sun,  8 Nov 2009 00:22:29 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D5A5B3DF2;
+	Sun,  8 Nov 2009 00:21:10 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id BB0CE3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Nov 2009 11:10:56 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id p+gQ0Ufm9OhN for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Nov 2009 11:10:56 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 890133D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri,  6 Nov 2009 11:10:56 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6CF9323DF3; Fri,  6 Nov 2009 11:10:56 +0100 (MET)
+X-Greylist: delayed 3600 seconds by postgrey-1.28 at newjura;
+	Fri, 06 Nov 2009 11:10:44 MET
+Received: from tidos.tid.es (tidos.tid.es [195.235.93.44])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 6236623E07
+	for <elsnet-list@elsnet.org>; Fri,  6 Nov 2009 11:10:44 +0100 (MET)
+Received: from tid (localhost [127.0.0.1])
+	by tid.hi.inet (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8
+	2006))
+	with ESMTP id <0KSO002MTK5R53@tid.hi.inet> for elsnet-list@elsnet.org;
+	Fri, 06 Nov 2009 10:10:39 +0100 (MET)
+Received: from correo.tid.es (mailhost.hi.inet [10.95.64.100])
+	by tid.hi.inet (iPlanet Messaging Server 5.2 HotFix 2.14 (built Aug 8
+	2006))
+	with ESMTPS id <0KSO002LMK5Q53@tid.hi.inet> for elsnet-list@elsnet.org;
+	Fri, 06 Nov 2009 10:10:39 +0100 (MET)
+Received: from EXCLU2K7.hi.inet ([10.95.67.65])
+	by htcasmad1.hi.inet ([192.168.0.1]) with mapi;
+	Fri, 06 Nov 2009 10:10:37 +0100
+Date: Fri, 06 Nov 2009 10:08:59 +0100
+From: XAVIER ANGUERA MIRO <xanguera@tid.es>
+To: "'SIGMM@pi4.informatik.uni-mannheim.de'"
+	<'SIGMM@pi4.informatik.uni-mannheim.de'>,
+	"'MM-INTEREST@LISTSERV.ACM.ORG'" <'MM-INTEREST@LISTSERV.ACM.ORG'>,
+	"'dbworld-request@cs.wisc.edu'" <'dbworld-request@cs.wisc.edu'>,
+	"'IRList@lists.shef.ac.uk'" <'IRList@lists.shef.ac.uk'>,
+	"'elsnet-list@elsnet.org'" <'elsnet-list@elsnet.org'>,
+	"'imageworld@diku.dk'" <'imageworld@diku.dk'>,
+	"'DMRN-LIST@JISCMAIL.AC.UK'" <'DMRN-LIST@JISCMAIL.AC.UK'>,
+	"'AUDITORY-REQUEST@LISTS.MCGILL.CA'" <'AUDITORY-REQUEST@LISTS.MCGILL.CA'>, 
+	"'music-ir@listes.ircam.fr'" <'music-ir@listes.ircam.fr'>,
+	"'music-dsp@music.columbia.edu'" <'music-dsp@music.columbia.edu'>,
+	"'um@di.unito.it'" <'um@di.unito.it'>,
+	"'BCS-HCI@JISCMAIL.AC.UK'" <'BCS-HCI@JISCMAIL.AC.UK'>,
+	"'acl@aclweb.org'" <'acl@aclweb.org'>,
+	"'CHI-ANNOUNCEMENTS@acm.org'" <'CHI-ANNOUNCEMENTS@acm.org'>,
+	"'SIGIR-ANNOUNCE-REQUEST@acm.org'" <'SIGIR-ANNOUNCE-REQUEST@acm.org'>, 
+	"'uai@cs.orst.edu'" <'uai@cs.orst.edu'>, "'ml@isle.org'" <'ml@isle.org'>,
+	"'aisb@cogs.susx.ac.uk'" <'aisb@cogs.susx.ac.uk'>,
+	"'sigdial@loria.fr'" <'sigdial@loria.fr'>,
+	"'um@di.unito.it'" <'um@di.unito.it'>,
+	"'ah@listserver.tue.nl'" <'ah@listserver.tue.nl'>,
+	"'adaptive@topica.com'" <'adaptive@topica.com'>,
+	"'ml4um@gmd.de'" <'ml4um@gmd.de'>, "'hci@bcs.org.uk'" <'hci@bcs.org.uk'>,
+	"'II_CHI@acm.org'" <'II_CHI@acm.org'>,
+	"'moderator@chisig.org'" <'moderator@chisig.org'>,
+	"'sw-ergo@gui-design.de'" <'sw-ergo@gui-design.de'>,
+	"'collab@sims.berkeley.edu'" <'collab@sims.berkeley.edu'>,
+	"'chi-II@acm.org'" <'chi-II@acm.org'>,
+	"'CHISIG@csse.swin.edu.au'" <'CHISIG@csse.swin.edu.au'>,
+	"'SIGCSE-MEMBERS@acm.org'" <'SIGCSE-MEMBERS@acm.org'>,
+	"'infodir_sigir@acm.org'" <'infodir_sigir@acm.org'>
+Message-id: <B348B152E5F11640B2247E54304E53FC0A93E1D6BB@EXCLU2K7.hi.inet>
+MIME-version: 1.0
+Content-language: es-ES
+Accept-Language: es-ES, en-US
+Thread-topic: (REMINDER) CFDemos - MIR 2010 - International Conference on
+	Multimedia Information Retrieval
+Thread-index: AcpewMaNBddA1/7XR3WVtrz5SdECYQ==
+acceptlanguage: es-ES, en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-Mailman-Approved-At: Sun, 08 Nov 2009 00:20:34 +0100
+Cc: 
+Subject: [Elsnet-list] (REMINDER) CFDemos - MIR 2010 - International
+ Conference on Multimedia Information Retrieval
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0615788769=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+
+--===============0615788769==
+Content-type: multipart/alternative;
+	boundary="Boundary_(ID_W4432vhUumulIyjUfM33Xg)"
+Content-language: es-ES
+
+
+--Boundary_(ID_W4432vhUumulIyjUfM33Xg)
+Content-type: text/plain; charset=us-ascii
+Content-transfer-encoding: 7BIT
+
+           (Apologies if you receive multiple copies)
+
+*************************************************************
+              ACM SIGMM International Conference on
+                Multimedia Information Retrieval
+               (http://riemann.ist.psu.edu/mir2010)
+
+                           ACM MIR-2010
+                        Call for Demo Papers
+
+                   Philadelphia, Pennsylvania, USA
+                         March 29-31, 2010
+
+**************************************************************
+
+Call for Demo Papers
+http://riemann.ist.psu.edu/mir2010/CFD.htm
+
+The ACM SIGMM International Conference on Multimedia
+Information Retrieval is the leading forum for information
+retrieval researchers and practitioners in any area of
+multimedia technology to explore cutting-edge ideas and
+results, and to exchange techniques, tools, and experiences.
+During the conference there will be a technical demonstration
+session collocated with the poster sessions.
+
+This demo session is meant to allow researchers and
+practitioners that have implemented software systems and libraries
+to describe the design, development and functionality of their work
+in an interactive setting. The committee encourages submission
+of emerging technology and early prototypes but will also consider
+mature systems with experimental features. Submissions are
+particularly encouraged in the areas of biomedical multimedia
+retrieval, 3D multimedia and immersive technologies, wireless
+multimedia applications, multimedia-based security applications,
+multimedia databases, content analysis, content-based retrieval,
+multimedia search, media processing, entertainment, multimedia social
+networking, multimedia advertising and innovative applications.
+Each submission should consist of a 4-page paper (which will be
+included in the proceedings if accepted) formatted in the ACM style,
+and a URL link or a presentation or video or an interactive system.
+Please email your demo papers directly to Industrial and Demo Programs
+Chairs (Drs. Jinbo Bi and Xin Chen) for consideration. The paper should
+be prepared in the same style as the regular MIR papers and use PDF
+for the documents. More details at the conference
+Website: http://riemann.ist.psu.edu/mir2010/
+
+All submissions will be peer-reviewed to ensure quality. The review
+process is single-blinded. Demonstrators will be provided with space
+and access to a local network (we will seek for Internet access but
+at the moment cannot guarantee). The participants will be required
+to provide their own computing equipment and any additional network,
+display, haptic, sensor, etc., hardware needed for the demonstration.
+
+Important Dates
+---------------------
+
+<deadline>November 15, 2009</deadline> Submission Deadline - submit by email
+November 30, 2009 Notification of Acceptance
+<deadline>December 22, 2009</deadline> Final Camera Ready Version
+
+Contacts
+---------------------
+
+Please direct any questions regarding technical demonstrations
+to the co-chairs:
+
+Jinbo Bi (Siemens Medical Solutions, USA, jinbo_bi@yahoo.com)
+Xin Chen (Navteq Corporation, USA, xin.chen@navteq.com)
+
+
+--Boundary_(ID_W4432vhUumulIyjUfM33Xg)
+Content-type: text/html; charset=us-ascii
+Content-transfer-encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:x=3D"urn:schemas-microsoft-com:office:excel" xmlns:p=3D"urn:schemas-m=
+icrosoft-com:office:powerpoint" xmlns:a=3D"urn:schemas-microsoft-com:office=
+:access" xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:s=3D"=
+uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:rs=3D"urn:schemas-microsof=
+t-com:rowset" xmlns:z=3D"#RowsetSchema" xmlns:b=3D"urn:schemas-microsoft-co=
+m:office:publisher" xmlns:ss=3D"urn:schemas-microsoft-com:office:spreadshee=
+t" xmlns:c=3D"urn:schemas-microsoft-com:office:component:spreadsheet" xmlns=
+:odc=3D"urn:schemas-microsoft-com:office:odc" xmlns:oa=3D"urn:schemas-micro=
+soft-com:office:activation" xmlns:html=3D"http://www.w3.org/TR/REC-html40" =
+xmlns:q=3D"http://schemas.xmlsoap.org/soap/envelope/" xmlns:rtc=3D"http://m=
+icrosoft.com/officenet/conferencing" xmlns:D=3D"DAV:" xmlns:Repl=3D"http://=
+schemas.microsoft.com/repl/" xmlns:mt=3D"http://schemas.microsoft.com/share=
+point/soap/meetings/" xmlns:x2=3D"http://schemas.microsoft.com/office/excel=
+/2003/xml" xmlns:ppda=3D"http://www.passport.com/NameSpace.xsd" xmlns:ois=
+=3D"http://schemas.microsoft.com/sharepoint/soap/ois/" xmlns:dir=3D"http://=
+schemas.microsoft.com/sharepoint/soap/directory/" xmlns:ds=3D"http://www.w3=
+.org/2000/09/xmldsig#" xmlns:dsp=3D"http://schemas.microsoft.com/sharepoint=
+/dsp" xmlns:udc=3D"http://schemas.microsoft.com/data/udc" xmlns:xsd=3D"http=
+://www.w3.org/2001/XMLSchema" xmlns:sub=3D"http://schemas.microsoft.com/sha=
+repoint/soap/2002/1/alerts/" xmlns:ec=3D"http://www.w3.org/2001/04/xmlenc#"=
+ xmlns:sp=3D"http://schemas.microsoft.com/sharepoint/" xmlns:sps=3D"http://=
+schemas.microsoft.com/sharepoint/soap/" xmlns:xsi=3D"http://www.w3.org/2001=
+/XMLSchema-instance" xmlns:udcs=3D"http://schemas.microsoft.com/data/udc/so=
+ap" xmlns:udcxf=3D"http://schemas.microsoft.com/data/udc/xmlfile" xmlns:udc=
+p2p=3D"http://schemas.microsoft.com/data/udc/parttopart" xmlns:wf=3D"http:/=
+/schemas.microsoft.com/sharepoint/soap/workflow/" xmlns:dsss=3D"http://sche=
+mas.microsoft.com/office/2006/digsig-setup" xmlns:dssi=3D"http://schemas.mi=
+crosoft.com/office/2006/digsig" xmlns:mdssi=3D"http://schemas.openxmlformat=
+s.org/package/2006/digital-signature" xmlns:mver=3D"http://schemas.openxmlf=
+ormats.org/markup-compatibility/2006" xmlns:m=3D"http://schemas.microsoft.c=
+om/office/2004/12/omml" xmlns:mrels=3D"http://schemas.openxmlformats.org/pa=
+ckage/2006/relationships" xmlns:spwp=3D"http://microsoft.com/sharepoint/web=
+partpages" xmlns:ex12t=3D"http://schemas.microsoft.com/exchange/services/20=
+06/types" xmlns:ex12m=3D"http://schemas.microsoft.com/exchange/services/200=
+6/messages" xmlns:pptsl=3D"http://schemas.microsoft.com/sharepoint/soap/Sli=
+deLibrary/" xmlns:spsl=3D"http://microsoft.com/webservices/SharePointPortal=
+Server/PublishedLinksService" xmlns:Z=3D"urn:schemas-microsoft-com:" xmlns:=
+st=3D"&#1;" xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.EstiloCorreo17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DES link=3Dblue vlink=3Dpurple>
+
+<div class=3DSection1>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Apologies if you
+receive multiple copies)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>**********************=
+***************************************<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ACM SIGMM
+International Conference on <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multim=
+edia
+Information Retrieval<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(http://riemann.ist.psu.edu/mir2010)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ACM MIR-2010<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Call
+for Demo Papers<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;
+Philadelphia, Pennsylvania, USA<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+March 29-31, 2010<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>**********************=
+****************************************<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Call for Demo Papers<o=
+:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>http://riemann.ist.psu=
+.edu/mir2010/CFD.htm<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>The ACM SIGMM Internat=
+ional
+Conference on Multimedia <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Information Retrieval =
+is the
+leading forum for information <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>retrieval researchers =
+and
+practitioners in any area of <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>multimedia technology =
+to
+explore cutting-edge ideas and <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>results, and to exchan=
+ge
+techniques, tools, and experiences. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>During the conference =
+there
+will be a technical demonstration <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>session collocated wit=
+h the
+poster sessions.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>This demo session is m=
+eant
+to allow researchers and <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>practitioners that hav=
+e
+implemented software systems and libraries <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>to describe the design=
+,
+development and functionality of their work <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>in an interactive sett=
+ing.
+The committee encourages submission <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>of emerging technology=
+ and
+early prototypes but will also consider <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>mature systems with
+experimental features. Submissions are <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>particularly encourage=
+d in
+the areas of biomedical multimedia <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>retrieval, 3D multimed=
+ia and
+immersive technologies, wireless <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>multimedia application=
+s,
+multimedia-based security applications, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>multimedia databases,
+content analysis, content-based retrieval, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>multimedia search, med=
+ia
+processing, entertainment, multimedia social <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>networking, multimedia
+advertising and innovative applications.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Each submission should
+consist of a 4-page paper (which will be <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>included in the procee=
+dings
+if accepted) formatted in the ACM style, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>and a URL link or a
+presentation or video or an interactive system. <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Please email your demo
+papers directly to Industrial and Demo Programs <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Chairs (Drs. Jinbo Bi =
+and
+Xin Chen) for consideration. The paper should <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>be prepared in the sam=
+e
+style as the regular MIR papers and use PDF <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>for the documents. Mor=
+e
+details at the conference <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Website:
+http://riemann.ist.psu.edu/mir2010/<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>All submissions will b=
+e
+peer-reviewed to ensure quality. The review <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>process is single-blin=
+ded.
+Demonstrators will be provided with space <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>and access to a local
+network (we will seek for Internet access but <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>at the moment cannot
+guarantee). The participants will be required <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>to provide their own
+computing equipment and any additional network, <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>display, haptic, senso=
+r,
+etc., hardware needed for the demonstration.<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Important Dates<o:p></=
+o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>---------------------<=
+o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><deadline>November 15, 2009</deadline> Subm=
+ission
+Deadline &#8211; submit by email<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>November 30, 2009
+Notification of Acceptance<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><deadline>December 22, 2009</deadline> Fina=
+l
+Camera Ready Version<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Contacts<o:p></o:p></s=
+pan></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>---------------------<=
+o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Please direct any ques=
+tions
+regarding technical demonstrations <o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>to the co-chairs:<o:p>=
+</o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></spa=
+n></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Jinbo Bi (Siemens Medi=
+cal
+Solutions, USA, jinbo_bi@yahoo.com)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal style=3D'text-autospace:none'><span lang=3DEN-US
+style=3D'font-size:10.0pt;font-family:"Courier New"'>Xin Chen (Navteq
+Corporation, USA, xin.chen@navteq.com)<o:p></o:p></span></p>
+
+<p class=3DMsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+--Boundary_(ID_W4432vhUumulIyjUfM33Xg)--
+
+--===============0615788769==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0615788769==--

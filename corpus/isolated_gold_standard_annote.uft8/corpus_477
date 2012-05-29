@@ -1,0 +1,282 @@
+From - Thu Dec 10 14:23:20 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: a48d81fa5b8ab65f08cf046cbb2f2da046359864
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs50575pyn;
+        Fri, 23 Jun 2006 08:16:42 -0700 (PDT)
+Received: by 10.67.24.13 with SMTP id b13mr2323714ugj;
+        Fri, 23 Jun 2006 08:16:31 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id m1si490676uge.2006.06.23.08.16.28;
+        Fri, 23 Jun 2006 08:16:31 -0700 (PDT)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1FtnNe-0001Lz-9X; Fri, 23 Jun 2006 17:15:34 +0200
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1FtnY3-000M2E-GR; Fri, 23 Jun 2006 17:26:19 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1FtnWq-000M1n-AK; Fri, 23 Jun 2006 17:25:04 +0200
+Received: from smarthost172.mail.easynet.fr (corwin.easynet.fr) [212.180.1.172] 
+	by rolf.uib.no for corpora@uib.no with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
+	id 1FtnMB-00009N-Q5; Fri, 23 Jun 2006 17:14:08 +0200
+Received: from amontsouris-152-1-7-64.w82-123.abo.wanadoo.fr ([82.123.213.64] helo=[127.0.0.1])
+	by corwin.easynet.fr with esmtpa (Exim 4.50)
+	id 1Ftn6a-0008OX-9y; Fri, 23 Jun 2006 16:57:56 +0200
+Message-ID: <449C0165.4030801@elda.org>
+Date: Fri, 23 Jun 2006 16:57:41 +0200
+From: ELDA <info@elda.org>
+User-Agent: Thunderbird 1.5.0.4 (Windows/20060516)
+MIME-Version: 1.0
+To: destinataires inconnus:;
+Subject: [Corpora-List] International Workshop on Spoken Language Translation (IWSLT 2006)
+ - CFP
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-checked-clean: by exiscan on rolf
+X-Scanner: dbb6a6e51fe9f743dfc12ab379ed42c4 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 4 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   4.0 BODY: Probably more lottery
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+    International Workshop on Spoken Language Translation (IWSLT 2006)
+        -- Evaluation Campaign on Spoken Language Translation --
+
+                 Second Call for Participants / Papers
+
+                         November 27-28, 2006
+                             Kyoto, Japan
+
+                    http://www.slc.atr.jp/IWSLT2006
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Spoken language translation technologies attempt to cross the language
+barriers between people having different native languages who each want
+to engage in conversation by using their mother-tongue.
+Spoken language translation has to deal with problems of automatic
+speech recognition (ASR) and machine translation (MT).
+
+One of the prominent research activities in spoken language translation is
+the work being conducted by the Consortium for Speech Translation Advanced
+Research (C-STAR III), which is an international partnership of research
+laboratories engaged in automatic translation of spoken language. Current
+members include ATR (Japan), CAS (China), CLIPS (France), CMU (USA), ETRI
+(Korea), ITC-irst (Italy), and UKA (Germany).
+A multilingual speech corpus comprised of tourism-related sentences (BTEC*)
+has been created by the C-STAR members and parts of this corpus were already
+used for previous IWSLT workshops focusing on the evaluation of MT results
+based on text input (http://www.slc.atr.jp/IWSLT2004) and the translation
+of ASR output (word lattices, N-best lists) using read speech as input
+(http://penance.is.cs.cmu.edu/iwslt2005). The full BTEC* corpus consists
+of 160K of sentence-aligned text data and parts of the corpus will be
+provided to all evaluation campaign participants for training purposes.
+
+In this workshop, we focus on the translation of spontaneous speech which
+includes ill-formed utterances due to grammatical incorrectness, incomplete
+sentences, and redundant expressions. The impact of spontaneity aspects
+on the ASR and MT systems performance as well as the robustness of
+state-of-the-art MT engines towards speech recognition errors will be
+investigated in detail.
+
+Two types of submissions are invited:
+ 1) participants in the evaluation campaign of spoken language translation
+    technologies. Each participant in the evaluation campaign is requested
+    to submit a paper describing the utilized ASR and MT systems and
+    to report results using the provided test data.
+ 2) technical papers on related issues.
+
+An overview of the evaluation campaign is as follows:
+
+=== Evaluation Campaign
+
+Theme:
+
+    * Spontaneous speech translation
+
+Translation Directions:
+
+    * Arabic/Chinese/Italian/Japanese into English (AE, CE, IE, JE)
+
+Input Conditions:
+
+    * Speech (audio)
+    * ASR Output (word lattice or N-best list)
+    * Cleaned Transcripts (text)
+
+Supplied Resources:
+
+    * training corpus:
+          o AE, IE:
+                + 20,000 sentence pairs of BTEC*
+                + three develop sets (3x500 sentence pairs, 16 multiple 
+references)
+          o CE, JE:
+                + 40,000 sentence pairs of BTEC*
+                + three develop sets (3x500 sentence pairs, 16 multiple 
+references)
+
+    * develop corpus:
+          o speech data, word lattices, N-best lists of 500 input sentences
+            with 7 reference translations for each translation direction
+            and input condition
+
+    * test corpus:
+          o speech data, word lattices, N-best lists of 500 input sentences
+            for each translation direction and input condition
+
+  => word segmentations will be provided according to the output
+     of the provided ASR engines
+
+Data Tracks:
+
+    The past IWSLT workshop results showed that the amount of BTEC* sentence
+    pairs used for training largely effects the performance of the MT 
+systems
+    on the given task. However, only CSTAR partners have access to the full
+    BTEC* corpus. In order to allow a fair comparison between the systems,
+    we decided to distinguish the following two data tracks:
+
+    * Open Data Track ("open" for everyone :->)
+          o no restrictions on training data of ASR engines
+          o any resources, besides the full BTEC* corpus and proprietary 
+data,
+            can be used as the training data of MT engines.
+            Concerning the BTEC* corpus and proprietary data, only the 
+Supplied
+            Resources (see above) are allowed to be used for training 
+purposes.
+
+    * C-STAR Data Track
+          o no restrictions on training data of ASR engines
+          o any resources (including the full BTEC* corpus and proprietary
+            data) can be used as the training data of MT engines.
+
+Evaluation Specification:
+
+    * ASR output
+          o (automatic) WER
+
+    * MT output
+          o (automatic) BLEU(*), NIST, METEOR
+          o (subjective) fluency(*), adequacy(*)
+
+     -> systems will be ranked according to the metrics marked '(*)'
+     -> human assessment will be carried out for the top-10 systems
+        (according to the BLEU metric) of the Chinese-to-English
+        Open Data Track (ASR Output condition).
+
+=== Technical Paper:
+
+The workshop also invites technical papers related to spoken language 
+translation.
+Possible topics include, but are not limited to:
+
+    * Spontaneous speech translation
+    * Domain and language portability
+    * MT using comparable and non-parallel corpora
+    * Phrase alignment algorithms
+    * MT decoding algorithms
+    * MT evaluation measures
+
+=== Important Dates
+
+  + Evaluation Campaign
+
+        April  7, 2006 -- System Registration Open
+          May 12, 2006 -- Training Corpus Release
+         June 30, 2006 -- Develop Corpus Release
+       August  7, 2006 -- Test Corpus Release [00:01 JST]
+       <deadline>August  9, 2006</deadline> -- Result Submission Due [23:59 JST]
+    September 15, 2006 -- Result Feedback to Participants 2006
+    <deadline>September 29, 2006</deadline> -- Paper Submission Due
+      October 14, 2006 -- Notification of Acceptance
+      <deadline>October 27, 2006</deadline> -- Camera-ready Submission Due
+
+     - system registrations will be accepted until release of
+       test corpus
+     - late result submissions will be treated as unofficial
+       result submissions
+
+  + Technical Papers
+
+    <deadline>September 15, 2006</deadline> -- Paper Submission Due [23:59 JST]
+      October 17, 2006 -- Notification of Acceptance
+      <deadline>October 27, 2006</deadline> -- Camera-ready Submission Due
+
+=== Application / Submission Guidelines / Updated Information
+
+  + available at http://www.slc.atr.jp/IWSLT2006
+
+=== Organizers
+
+  + Satoshi Nakamura (ATR, Japan; Chair)
+  + Herve Blanchon (CLIPS, France)
+  + Gianni Lazzari (ITC-irst, Italy)
+  + Youngjik Lee (ETRI, Korea)
+  + Alex Waibel (CMU, USA / UKA, Germany)
+  + Bo Xu (CAS, China)
+
+=== Program Committee
+
+  + Michael Paul (ATR, Japan; Evaluation Campaign Chair)
+  + Marcello Federico (ITC-irst, Italy; Technical Paper Chair)
+  + Nicola Bertoldi (ITC-irst, Italy)
+  + Christian Boitet (CLIPS, France)
+  + Genichiro Kikui (NTT, Japan)
+  + Kevin Knight (ISI, USA)
+  + Phillip Koehn (Univ. of Edinburgh, UK)
+  + Sadao Kurohashi (Univ. of Tokyo, Japan)
+  + Young-Suk Lee (IBM, USA)
+  + Jose B. Marino (UPC, Spain)
+  + Arul Menezes (Microsoft, USA)
+  + Masaaki Nagata (NTT, Japan)
+  + Hermann Ney (RWTH, Germany)
+  + Seung-Shin Oh (ETRI, Korea)
+  + Wade Shen (MIT, USA)
+  + Stephan Vogel (CMU, USA)
+  + Andy Way (Dublin City University, Ireland)
+  + Chengqing Zong (CAS, China)
+
+=== Local Arrangements
+
+  + Genichiro Kikui (NTT, Japan)
+
+=== Conference Venue
+
+  + Paruru Plaza Kyoto (right in front of Kyoto Station)
+
+=== Supporting Organizations
+
+  + Advanced Telecommunication Research Institute International (ATR)
+  + Association for Computational Linguistics (ACL)
+  + Center for the Evaluation of Language and Communication Technologies 
+(Celct)
+  + European Language Resources Association (ELRA)
+  + International Speech Communication Association (ISCA)
+
+=== Contact
+
+  Michael Paul    
+  e-mail: michael.paul@atr.jp
+  ATR Spoken Language Communication Research Laboratories
+  2-2-2 Hikaridai, Keihanna Science City, Kyoto 619-0288 Japan
+
+=== References
+
+  + IWSLT 2005 (http://penance.is.cs.cmu.edu/iwslt2005)
+  + IWSLT 2004 (http://www.slc.atr.jp/IWSLT2004)
+  + C-STAR (http://www.c-star.org/)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+

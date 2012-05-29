@@ -1,0 +1,204 @@
+From - Thu Dec 10 14:23:10 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 4a6ef8dbb1b60f6ce1d421ff8e112ad484ac18d5
+Delivered-To: jpprost@gmail.com
+Received: by 10.48.225.5 with SMTP id x5cs11468nfg;
+        Tue, 30 May 2006 09:20:18 -0700 (PDT)
+Received: by 10.67.89.5 with SMTP id r5mr2921616ugl;
+        Tue, 30 May 2006 09:20:08 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id h1si1401283ugf.2006.05.30.09.20.04;
+        Tue, 30 May 2006 09:20:08 -0700 (PDT)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from blenda.uib.no [129.177.30.130] 
+	by noralf.uib.no  with esmtp  (Exim 4.34)
+	id 1Fl6w8-0001Zg-G3; Tue, 30 May 2006 18:19:16 +0200
+Received: from majordomo by blenda.uib.no with local (Exim 4.60)
+	id 1Fl73c-0002Ds-Bh; Tue, 30 May 2006 18:27:00 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by blenda.uib.no with esmtp (Exim 4.60)
+	id 1Fl73b-0002Dn-VD; Tue, 30 May 2006 18:26:59 +0200
+Received: from smtp102.his.com [216.194.225.125] 
+	by rolf.uib.no for corpora@hd.uib.no with esmtp (TLSv1:AES256-SHA:256) (Exim 4.34)
+	id 1Fl6vy-0006sr-Ga; Tue, 30 May 2006 18:19:10 +0200
+Received: from mail101.his.com (mail101.his.com [216.194.225.77])
+	by smtp102.his.com (8.13.6/8.13.3) with ESMTP id k4TFwWuR013019
+	for <corpora@hd.uib.no>; Mon, 29 May 2006 11:58:33 -0400 (EDT)
+	(envelope-from ken@clres.com)
+Received: from clres.com (c-69-255-245-165.hsd1.md.comcast.net [69.255.245.165])
+	by mail101.his.com (8.13.6/8.13.3) with ESMTP id k4UG01R9027629
+	for <corpora@hd.uib.no>; Tue, 30 May 2006 12:00:03 -0400 (EDT)
+	(envelope-from ken@clres.com)
+Message-ID: <447C6C02.3050500@clres.com>
+Date: Tue, 30 May 2006 12:00:02 -0400
+From: Ken Litkowski <ken@clres.com>
+Organization: CL Research
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.4) Gecko/20011019 Netscape6/6.2
+X-Accept-Language: en-us
+MIME-Version: 1.0
+To: corpora@hd.uib.no
+Subject: [Corpora-List] Special Issue of Computational Linguistics on Semantic Role Labeling -- 2nd CFP
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=3.1 required=5.0 tests=BAYES_95,FORGED_RCVD_HELO autolearn=disabled version=3.1.1
+X-Spam-Level: ***
+X-Spam-Checker-Version: SpamAssassin 3.1.1 (2006-03-10) on smtp102.his.com
+X-Virus-Scanned: ClamAV 0.88.2/1499/Mon May 29 16:35:17 2006 on smtp102.his.com
+X-Virus-Status: Clean
+X-checked-clean: by exiscan on rolf
+X-Scanner: 2ea18c700bfe8b64f317ebff34ec0333 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   0.1 Received: contains a forged HELO
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+2nd Call for papers (due <deadline>July 15, 2006</deadline>):
+
+     Special issue of Computational Linguistics on
+         Semantic Role Labeling
+
+Special issue website: http://www.lsi.upc.edu/~carreras/srlcl.html
+
+Please note the tutorial on semantic role labeling to be given at 
+HLT/NAACL 2006 by Scott Wen-tau Yih and Kristina Toutanova, two members 
+of the guest editorial board for the special issue:
+
+http://nlp.cs.nyu.edu/hlt-naacl06/tut_yih2.html
+
+BACKGROUND
+----------
+The general problem of interpreting text involves the determination of
+the semantic relations among the entities and the events they
+participate in. Given a sentence, one formulation of the task consists
+of detecting basic event structures such as "who" did "what" to
+"whom", "when" and "where". From a linguistic point of view, a key
+component of the task corresponds to identifying the semantic
+arguments filling the roles of the sentence predicates. These
+predicates are mainly lexicalized by verbs but also by some verb
+nominalizations and adjectives. Typical predicate semantic arguments
+include Agent, Patient, and Instrument; semantic roles may also be
+found as adjuncts (e.g., Locative, Temporal, Manner, and Cause). The
+related tasks of determining the semantic relations among nouns and
+their modifiers, as well as prepositions and their arguments, are
+clearly important for text interpretation as well, and indeed often
+draw on similar role labels.
+
+As with many areas in computational linguistcs (CL) and Natural
+Language Processing (NLP), work has proceeded for decades on manually
+created semantic grammars and other resources for supporting text
+interpretation (e.g., [Hirst 1987], [Pustejovsky 1995], [Copestake and
+Flickinger 2000]). This body of research has supported deep semantic
+analysis of language input, but has the drawbacks typical of such
+approaches in requiring intensive manual labor, often restricted to
+narrow domains. The growth of statistical machine learning methods,
+addressing these issues of the knowledge acquisition bottleneck, were
+for many years limited in this area to related problems of learning
+subcategorization frames [Briscoe and Carroll 1997] or classifying
+verbs according to argument structure properties [Merlo and Stevenson
+2001] [Schulte im Walde 2000], due to the lack of appropriate
+resources to support such methods in labeling semantic roles of
+arguments.
+
+Recently, however, the compilation and manual annotation with semantic
+roles of medium-large corpora - the PropBank, NomBank, and FrameNet
+initiatives - has enabled the development of statistical approaches
+specifically for the task of semantic role labeling (SRL). SRL,
+especially focused on the labeling of verbal arguments and adjuncts,
+has become a well-defined task with a substantial body of work and
+comparative evaluation (e.g., see [Gildea and Jurafsky 2002],
+[Surdeanu et al. 2003], [Xue and Palmer 2004], [Pradhan et al. 2005],
+CoNLL Shared Task in 2004 and 2005, Senseval-3). The identification of
+such event frames holds potential for significant impact in many NLP
+applications, as suggested by the following works on Information
+Extraction [Surdeanu et al. 2003], Question Answering [Narayanan and
+Harabagiu 2004], Summarization [Melli et al. 2005], and Machine
+Translation [Boas 2002]; as well, work on noun modifier relations has
+been encouraging for related NLP tasks (e.g., [Moldovan and Badulescu
+2005], [Rosario and Hearst 2004]). Although the use of SRL systems in
+real-world applications has so far been limited, the outlook is
+promising over the next several years for a spread of this type of
+analysis to a range of applications requiring some level of semantic
+interpretation. Moreover, the problem represents an excellent
+framework to perform research on CL and NLP techniques for acquiring
+and exploiting semantic relations among the different components of
+the structured output to be constructed.
+
+TOPICS
+------
+The call for papers of this special issue invites submissions of
+articles describing novel and challenging work and results in Semantic
+Role Labeling (SRL) and its applications, with emphasis on the
+evaluation of qualitative and quantitative aspects that give a deep
+insight on the SRL task and, in general, on the syntactico-semantic
+processing of natural language. The range of topics to be covered
+includes, but is not limited to:
+
+     * Novel statistical and machine learning approaches and
+       architectures for SRL
+     * Study of the relevant information/knowledge for the task
+     * Learning from small training sets
+     * Unsupervised models for SRL
+     * Scalability of the state-of-the-art systems
+     * How to make systems robust against annotation errors
+     * Inclusion of deep semantic information and relations
+     * Generalization to new corpora and to new unseen frames
+     * Knowledge-based approaches to SRL and comparison to the
+       statistical approach
+     * Combination of systems and approaches, specially addressing the
+       integration of knowledge-based and statistical views
+     * Study of the relation between the syntactic and semantic layers
+       for SRL characterization and system development
+     * Applications of SRL (e.g., in domains such as Q&A, MT,
+       Summarization, etc.)
+     * Evaluation: new metrics for direct evaluation and indirect
+       evaluations through applications
+     * Development of copora and resources for the task
+     * SRL for languages other than English
+
+IMPORTANT DATES
+---------------
+Call for papers: 15 March 2006
+Submission of articles: <deadline>15 July 2006</deadline>
+Preliminary decisions to authors: 15 November 2006
+Submission of revised articles: <deadline>31 January 2007
+</deadline>
+Final decisions to authors: 15 March 2007
+Final versions due from authors: <deadline>15 April 2007</deadline>
+Publication: Fall 2007
+
+SUBMISSION INSTRUCTIONS
+-----------------------
+Articles submitted to this special issue must adhere to the
+Computational Linguistics Style Guidelines. Please follow the link on
+the website to find the CL Style Guide and LaTeX style files.
+
+Articles are to be sent electronically by email in Adobe's PDF
+format. Instructions will be provided at the web site.
+
+
+GUEST EDITORS
+-------------
+Guest Editors
+
+Lluis Marquez, Technical University of Catalonia
+Kenneth C. Litkowski,  CL Research
+Suzanne Stevenson,  University of Toronto
+Xavier Carreras, Technical University of Catalonia
+
+GUEST EDITORIAL BOARD
+---------------------
+See the web site for the members of the guest editorial board.
+
+
+-- 
+Ken Litkowski                     TEL.: 301-482-0237
+CL Research                       EMAIL: ken@clres.com
+9208 Gue Road
+Damascus, MD 20872-1025 USA       Home Page: http://www.clres.com
+
+
+

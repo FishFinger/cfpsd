@@ -1,0 +1,293 @@
+From - Thu Dec 10 14:23:11 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: dab170905754de13f22b63765e3649f44e0f5f51
+Delivered-To: jpprost@gmail.com
+Received: by 10.48.225.5 with SMTP id x5cs1138nfg;
+        Fri, 2 Jun 2006 02:22:55 -0700 (PDT)
+Received: by 10.35.82.15 with SMTP id j15mr2132805pyl;
+        Fri, 02 Jun 2006 02:22:54 -0700 (PDT)
+Return-Path: <sentto-1622440-2029-1149240147-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id w76si238180pyd.2006.06.02.02.22.51;
+        Fri, 02 Jun 2006 02:22:54 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2029-1149240147-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.4+Sun/8.13.4) with SMTP id k529MidF023829
+	for <jpprost@gmail.com>; Fri, 2 Jun 2006 19:22:50 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006060219224917257
+ for <jpprost@gmail.com>; Fri, 02 Jun 2006 19:22:49 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.4+Sun/8.13.4) with ESMTP id k529Mjkm023832
+	for <jpprost@gmail.com>; Fri, 2 Jun 2006 19:22:45 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k529Miv1013064
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 2 Jun 2006 19:22:44 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.4+Sun/8.13.4) with SMTP id k529MidB023829
+	for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 2 Jun 2006 19:22:44 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006060219224117255
+ for <jpprost@vesuvius.ics.mq.edu.au>; Fri, 02 Jun 2006 19:22:41 +1000
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.4+Sun/8.13.4) with ESMTP id k529MZSc023825
+	for <jpprost@ics.mq.edu.au>; Fri, 2 Jun 2006 19:22:35 +1000 (EST)
+Received: from n8b.bullet.sc5.yahoo.com (n8b.bullet.sc5.yahoo.com [66.163.187.175])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k529MXI25220
+	for <jpprost@ics.mq.edu.au>; Fri, 2 Jun 2006 19:22:34 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=ne6HMhe+Lg6jfl5vWsVHTbbPZCvwQA/gr3Uhh/j25FHJbDVUHIVyVrww9lN7iWlwwuaCZeAd9SYKpmXbpzNnTe493/RbSIjMH3L9Pu4yQxU/Egi/AU4joTwiFIGX4B+C;
+Received: from [66.163.187.121] by n8.bullet.sc5.yahoo.com with NNFMP; 02 Jun 2006 09:22:27 -0000
+Received: from [66.218.66.59] by t2.bullet.sc5.yahoo.com with NNFMP; 02 Jun 2006 09:22:27 -0000
+Received: from [66.218.66.33] by t8.bullet.scd.yahoo.com with NNFMP; 02 Jun 2006 09:22:27 -0000
+X-Yahoo-Newman-Property: groups-email
+X-Yahoo-Newman-Id: 1622440-m2029
+X-Sender: aline@up.univ-mrs.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 56404 invoked from network); 2 Jun 2006 09:22:25 -0000
+Received: from unknown (66.218.66.172)
+  by m27.grp.scd.yahoo.com with QMQP; 2 Jun 2006 09:22:25 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta4.grp.scd.yahoo.com with SMTP; 2 Jun 2006 09:22:24 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 7CA4A550293;
+	Fri,  2 Jun 2006 11:22:17 +0200 (CEST)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 227563-10; Fri,  2 Jun 2006 11:22:15 +0200 (CEST)
+Received: from [147.94.213.137] (unknown [147.94.213.137])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 9889A592B2A;
+	Fri,  2 Jun 2006 11:22:15 +0200 (CEST)
+Message-Id: <v04210102c0a5b3979f03@[147.94.213.137]>
+X-Priority: 1 (Highest)
+To: lpl-infos@yahoogroupes.fr
+Cc: denhiere@up.univ-mrs.fr
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:12:0:0
+From: Aline =?iso-8859-1?Q?P=E9lissier?=  <aline@up.univ-mrs.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Fri, 2 Jun 2006 11:22:41 +0200
+Subject: [lpl-infos] [revue] Appel: Revue TAL, Discours et document : traitements
+ automatiques, fin 1e sep
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>
+>From: Marie-Paule PERY-WOODLEY <pery@univ-tlse2.fr>
+>
+>Discours et document : traitements automatiques
+>Computational Approaches to Discourse and Document Processing
+>
+>NUM=C9RO SP=C9CIAL DE LA REVUE TAL
+>
+>Date limite de soumission : <deadline>1er septembre 2006
+</deadline>
+>
+>[English version of CFP below]
+>
+>REDACTEURS INVITES: Marie-Paule P=E9ry-Woodley (ERSS - Universit=E9 de
+>Toulouse 2, France) and Donia Scott (Open University, UK)
+>
+>PREMIER APPEL
+>
+>Ce num=E9ro sp=E9cial de TAL est consacr=E9 =E0 ce que nous percevons comm=
+e
+>une convergence croissante entre la linguistique du discours,
+>l'ing=E9nierie documentaire et le TAL. Cette convergence prend des
+>formes diverses, ainsi l'=E9laboration de nouveaux modes d'acc=E8s aux
+>contenus des documents tend =E0 mettre davantage l'accent sur
+>l'exploitation de leur structuration discursive, l'application au
+>discours des m=E9thodes d'analyse de corpus implique de plus en plus
+>l'appel =E0 des techniques et =E0 des instruments du TAL. Elle se
+>manifeste par un nombre croissant d'=E9tudes conjointes, conduisant =E0
+>une fertilisation crois=E9e des disciplines.
+>
+>* Linguistiques du texte et du discours
+>Construire une interpr=E9tation coh=E9rente du discours implique de
+>d=E9limiter des segments et de d=E9terminer des relations hi=E9rarchiques =
+et
+>s=E9mantico-pragmatiques entre ces segments. Ces processus peuvent =EAtre
+>abord=E9s =E0 travers la notion de relations de discours (cf. RST, SDRT),
+>de th=E8me ou topique, d'encadrement du discours, etc. Un d=E9fi pour le
+>domaine est d'identifier des corr=E9lats linguistiques de fonctions
+>discursives sp=E9cifiques, ce qui n=E9cessite une approche en corpus, et
+>la prise en compte des possibilit=E9s de variations li=E9es au registre et
+>au domaine de connaissance. D'autres travaux, encore peu nombreux mais
+>prometteurs, s'int=E9ressent davantage =E0 la structure globale du
+>document : r=F4le des titres, de la segmentation logique, de la forme
+>mat=E9rielle des textes...
+>
+>* Ing=E9nierie documentaire et TALN
+>L'acc=E8s =E0 l'information contenue dans des documents num=E9ris=E9s est =
+une
+>probl=E9matique majeure de la recherche actuelle, et les approches
+>r=E9centes cherchent =E0 mieux prendre en compte l'organisation des
+>documents trait=E9s (par exemple leur structure th=E9matique et
+>rh=E9torique).  De plus en plus d'applications sont concern=E9es par cette
+>=E9volution : r=E9sum=E9 automatique, navigation documentaire, recherche
+>d'information (en particulier pour l'extraction de passages =E0
+>l'int=E9rieur des documents s=E9lectionn=E9s). En outre, le d=E9veloppemen=
+t de
+>l'hypertexte et du document composite (texte-image par exemple) pose
+>de nouvelles questions sur l'interaction entre diff=E9rentes fonctions
+>s=E9miotiques.
+>
+>Les propositions de communications pour ce num=E9ro sp=E9cial de TAL
+>porteront sur ce qu'on pourrait appeler, en linguistique du discours,
+>en TAL ou en ing=E9nierie documentaire, le =AB niveau document =BB :
+>
+>- Le document est vu comme une unit=E9 fonctionnelle ; il est ancr=E9 dans
+>  une situation, et inscrit sur un support (quel qu'il soit) qui lui
+>  conf=E8re des caract=E9ristiques mat=E9rielles qui participent de son
+>  usage et de sa signification ;
+>
+>- L'expression =AB niveau document =BB signale un int=E9r=EAt marqu=E9 pou=
+r les
+>  structures =E0 gros grain, ou structures dites =AB globales =BB
+>  (encadrement du discours, structuration "logique", d=E9coupage en
+>  sections, ...), ou pour les relations entre structures locales et
+>  structures globales (structure d'information, cha=EEnes de r=E9f=E9rence=
+,
+>  cha=EEnes topicales, relations interpropositionnelles, etc.). Elle
+>  manifeste un int=E9r=EAt particulier pour des approches =AB descendantes
+>  =BB, exploitant un ensemble d'indices et de marqueurs.
+>
+>THEMES
+>
+>Parmi les th=E8mes pertinents, on peut notamment citer :
+>- Analyses de structures discursives ;
+>- Analyses de la structure de documents composites (texte-images,
+>  texte-graphiques...) ;
+>- Impact de la structuration en hyper-texte et hyper-document sur
+>  notre appr=E9hension du =AB fonctionnement =BB du document. Probl=E8mes =
+de
+>  la mise en hyper-texte et des aides informatiques par des proc=E9dures
+>  de TAL ;
+>- Mod=E8les de lecture et organisation discursive ;
+>- Exp=E9rimentation informatique comme mani=E8re d'observer et
+>  d'exp=E9rimenter des hypoth=E8ses sur corpus ;
+>- Etudes de corpus en amont : identification et annotation de
+>  structures discursives ;
+>- Dispositifs informatiques pouvant aider =E0 ces =E9tudes dans une
+>  d=E9marche exp=E9rimentale (formalisation des connaissances
+>  linguistiques, capitalisation des ressources, articulation des
+>  traitements, visualisation des annotations) ;
+>- Articulation entre des approches utilisant des marques
+>  linguistiques, des connaissances du domaine, des techniques
+>  statistiques ;
+>- Applications : recherche d'information intradocumentaire, aide =E0 la
+>  navigation, r=E9sum=E9 automatique ou assist=E9, synth=E8se de document.=
+..
+>
+>LA REVUE
+>
+>(voir http://www.atala.org/)
+>La revue TAL (Traitement Automatique des Langues) est une revue
+>internationale =E9dit=E9e depuis 1960 par l'ATALA (Association pour le
+>Traitement Automatique des Langues) avec le concours du CNRS.  Elle va
+>maintenant =EAtre publi=E9e sous format =E9lectronique, avec impression =
+=E0 la
+>demande. Cela ne change aucunement son processus de relecture et de
+>s=E9lection.
+>
+>LANGUE
+>
+>Les articles sont =E9crits en fran=E7ais ou en anglais. Les soumissions en
+>anglais ne sont accept=E9es que pour les auteurs non francophones.
+>
+>DATES IMPORTANTES
+>
+><deadline>01/09/2006</deadline> Date limite de soumission
+>23/10/2006 D=E9cision du comit=E9
+>30/11/2006 Version r=E9vis=E9e
+>
+>FORMAT
+>
+>Les articles (25 pages maximum, format PDF) seront envoy=E9s aux deux
+>r=E9dactrices invit=E9es aux adresses suivantes :
+>Marie-Paule P=E9ry-Woodley <pery@univ-tlse2.fr>
+>Donia Scott <D.Scott@open.ac.uk>
+>Les feuilles de style sont disponibles en ligne sur le site:
+>http://tal.e-revues.com/appel.jsp
+>
+>COMITE DE LECTURE SPECIFIQUE
+>
+>N. Asher (IRIT, U. Toulouse 3, France)
+>J. Bateman (U. Bremen, Germany)
+>Y. Bestgen (U. C. Louvain, Belgium)
+>N. Bouayad-Agha (U. Pompeu Fabra, Barcelona, Spain)
+>M. Charolles (U. Paris 3, France)
+>D. Cristea (U. Iasi, Romania)
+>L. Danlos (U. Paris 7, France)
+>L. Degand (U. C. Louvain, Belgium)
+>P. Enjalbert (U. Caen, France)
+>S. Ferrari (U. Caen, France)
+>B. Grau (U. Paris-Sud, France)
+>N. Hernandez (GREYC, U. Caen, France)
+>J. Karlgren (Swedish Institute of Computer Science, Sweden)
+>G. Lapalme (U. Montr=E9al, Qu=E9bec, Canada)
+>N. Lucas (GREYC, U. Caen, France)
+>A. Max (U. Paris-Sud, France)
+>J.-L. Minel (U. Paris 4, France)
+>R. Power (Open University, England)
+>H. Saggion (U. Sheffield, England)
+>S. Teufel (U. Cambridge, England)
+>--
+>Marie-Paule P=E9ry-Woodley
+>
+>ERSS (UMR 5610) CNRS & Universit=E9 de Toulouse-Le Mirail
+>Maison de la Recherche.  F-31058 Toulouse cedex 9
+>T=E9l. (+33) 561-50-36-09(-46 76)  Fax (+33) 561-50-46-77(-42 12)
+>email : pery@univ-tlse2.fr   http://www.univ-tlse2.fr/erss/
+>
+>
+>
+>------------------------------------------------------------------------ -
+>Message diffus=E9 par la liste Langage Naturel <LN@cines.fr>
+>Informations, abonnement :  http://www.atala.org/article.php3?id_article=
+=3D48
+>English version          :
+>Archives                 : http://listes.cines.fr/wws/arc/ln
+>
+>http://listserv.linguistlist.org/archives/ln.html
+>
+>La liste LN est parrain=E9e par l'ATALA (Association pour le Traitement
+>Automatique des Langues)
+>Information et adh=E9sion  : http://www.atala.org/
+>------------------------------------------------------------------------ -
+
+
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20
+Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+=20
+
+
+

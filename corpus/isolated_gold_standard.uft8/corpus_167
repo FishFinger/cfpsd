@@ -1,0 +1,194 @@
+From - Thu Dec 10 14:22:32 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: d50cb31446ac94899dc13f0b8096877c21087b7a
+Delivered-To: jpprost@gmail.com
+Received: by 10.65.231.15 with SMTP id i15cs32179qbr;
+        Mon, 12 Dec 2005 13:46:38 -0800 (PST)
+Received: by 10.66.224.9 with SMTP id w9mr784273ugg;
+        Mon, 12 Dec 2005 13:46:37 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id q1si2068999uge.2005.12.12.13.46.20;
+        Mon, 12 Dec 2005 13:46:37 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local  (Exim 4.34)
+	id 1ElvQJ-0003wG-TC; Mon, 12 Dec 2005 22:41:31 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp  (Exim 4.34)
+	id 1ElvQJ-0003w9-JO; Mon, 12 Dec 2005 22:41:31 +0100
+Received: from vapor.isi.edu [128.9.64.64] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1ElvQG-0002wx-Bo; Mon, 12 Dec 2005 22:41:31 +0100
+Received: from albini.isi.edu (albini.isi.edu [128.9.216.111])
+	by vapor.isi.edu (8.11.6p2+0917/8.11.2) with ESMTP id jBCLbiW13484
+	for <corpora@uib.no>; Mon, 12 Dec 2005 13:37:44 -0800 (PST)
+Date: Mon, 12 Dec 2005 13:37:44 -0800 (PST)
+From: Hal Daume III <hdaume@ISI.EDU>
+To: Corpora Mailing List <corpora@uib.no>
+Subject: [Corpora-List] CFP: Computationally Hard Problems in Speech and Language Processing
+Message-ID: <Pine.LNX.4.44.0512121336590.27979-100000@albini.isi.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=ISO-8859-1
+Content-Transfer-Encoding: 8BIT
+X-ISI-4-43-8-MailScanner: Found to be clean
+X-MailScanner-From: hdaume@isi.edu
+X-checked-clean: by exiscan on rolf
+X-Scanner: 8b56127661711eb43b379dadb4322539 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 1.0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+   1.0 BODY: Claims you can be removed from the list
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+-----------------------------------------------------------------
+COMPUTATIONALLY HARD PROBLEMS IN SPEECH AND LANGUAGE PROCESSING:
+    EXPRESSIVENESS VS. TRACTABILITY IN LEARNING AND INFERENCE
+-----------------------------------------------------------------
+
+WEBSITE: http://www.cis.upenn.edu/~ryantm/naaclWS06/
+
+---------------------
+Call for Papers
+---------------------
+
+Modern machine learning methods (such as maximum entropy models,
+decision trees and support vector machines) have provided the language
+processing community with robust tools for supervised learning
+problems with simple outputs.  These methods provide natural
+mechanisms for representing linguistic knowledge through weighted
+features and obtain high accuracy by maximizing performance on
+training data.
+
+Unfortunately, when one wishes to apply similarly robust techniques to
+problems with complex outputs, one is limited to models with nice
+computational properties, such as those that can be formulated in
+terms of sequence or tree representations.  Even for these relatively
+simple structures, polynomial time algorithms exist only under strong
+restrictions on the locality of features (the Markov assumption for
+sequences and the context free assumption for trees).  Moreover, even
+under such assumptions, the complexity of these algorithms can grow
+unwieldy even while remaining polynomial, for instance in the case of
+synchronous or lexicalized context free grammars.
+
+Recent work on ranking, sampling and other approximate solutions to
+such problems have indicated that researchers are coming back to the
+hard problems in speech and text, for which efficient algorithms do
+not (or are not known to) exist.  Some might even argue that language
+processing has more to gain from richer and more global feature
+representations than it does from new machine learning solutions.
+
+The purpose of this workshop will be to explore new research aimed at
+identifying and solving speech and language processing problems that do
+not have practical computational properties.  We also wish to explore
+the adaptation of current state-of-the-art inference and learning
+algorithms to problems beyond sequence and tree analysis.  In
+particular the workshop will have the following themes:
+
+PROBLEM IDENTIFICATION AND SPECIFICATION
+
+- Formal investigations on the computational properties of new and old
+   problems in speech, parsing, translation, summarization, information
+   extraction and other common language processing areas.
+
+- Moving beyond the Markov and context-free assumptions of our
+   underlying representations.  Identifying the linguistic
+   (im)plausibility of these assumptions.  Global feature functions
+   that incorporate much richer information about sentence and document
+   level properties as well as long distance dependencies.
+
+- Joint representations such as those incorporating both syntax
+   (phrase-structure, dependencies, etc.) and semantics (entities,
+   relations, predicate-arguments).
+
+- Efficient solutions to problems that have historically been viewed
+   as intractable.
+
+- Appropriate (natural) representations of problems, and how this
+   effects complexity/performance.  Structure of search.
+
+- Identifying when old solutions (e.g. classification, sequential
+   labeling) to new problems are appropriate and when more flexible
+   solutions are required.
+
+LEARNING AND INFERENCE
+
+- Approximate inference algorithms.  The pros and cons of pruning
+   techniques.  New approximation algorithms for hard problems
+   including those based on beam search, sampling or other motivated
+   methods.  Surveys of known approximation and pruning methods
+   identifying specific properties of success and failure.  Efficiency
+   vs. performance trade-offs.  Formal characterizations of search
+   errors, and their relation to complexity.
+
+- Approximate parameter estimation.  Training techniques for models in
+   which parameter estimation is intractable for both generative and
+   discriminative frameworks.  The effects of approximate parameter
+   estimation on performance.  Learning parameters with respect to
+   approximation in search.  Batch vs. online learning techniques when
+   combined with approximate inference.
+
+- Joint structures and complex systems.  When are pipelined methods
+   sufficient?  When do we need joint learning and inference to achieve
+   maximum benefit?  Are the benefits of joint inference and learning
+   for factorizable structures worth the computational cost?
+
+- The trade off between loss functions and tractability.  When is it
+   necessary to use structure, or can components be predicted
+   separately?  Theoretical or practical comparisons between
+   computational complexity and performance for different loss
+   functions.
+
+- Differences between complex one-pass systems versus
+   stacked/multi-pass "decoding."
+
+We encourage the submission of papers that address any of the above
+themes.
+
+This workshop is interested in completed work as well as works in 
+progress.
+
+Submissions should be a maximum of 8 pages and should use the
+HLT-NAACL formatting guidelines that can be obtained here.
+Furthermore, the reviewing process will be blind so names and
+affiliations need to be removed from the title page as well as
+all self-references that reveal the author's identity.
+
+Submissions should be sent to ryantm@cis.upenn.edu and should
+have "HLT-NAACL Workshop Submission" in the title.
+
+Dates
+
+- March 3, 2006: Paper submissions due by 11:59pm EST
+- April 7, 2006: Paper acceptance notification
+- April 21, 2006: Camera ready versions due
+- June 9, 2006: Workshop
+
+Workshop Website: http://www.cis.upenn.edu/~ryantm/naaclWS06/
+
+--------------------------------
+Organizers and PC
+--------------------------------
+
+Organizers
+
+     * Ryan McDonald (UPenn) - contact ryantm@cis.upenn.edu
+     * Hal Daumé III (ISI)
+     * Fernando Pereira (UPenn)
+
+Program Committee
+
+     * Jeff Bilmes (Washington)
+     * Michael Collins (MIT)
+     * Jason Eisner (Johns Hopkins)
+     * Radu Florian (IBM)
+     * Liang Huang (UPenn)
+     * Thorsten Joachims (Cornell)
+     * Chris Quirk (Microsoft)
+     * Dan Roth (UIUC)
+     * Noah Smith (Johns Hopkins)
+     * Charles Sutton (UMass)
+     * Ben Taskar (Berkeley)
+
+

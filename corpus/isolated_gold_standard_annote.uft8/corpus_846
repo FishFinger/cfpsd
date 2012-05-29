@@ -1,0 +1,211 @@
+From - Thu Dec 10 14:39:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs33287bkq;
+        Tue, 24 Nov 2009 04:28:22 -0800 (PST)
+Received: by 10.213.0.138 with SMTP id 10mr5055050ebb.12.1259065697535;
+        Tue, 24 Nov 2009 04:28:17 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 4si21140233ewy.27.2009.11.24.04.28.16;
+        Tue, 24 Nov 2009 04:28:17 -0800 (PST)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 6DBD12431B; Tue, 24 Nov 2009 13:28:16 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id BE47E24380;
+	Tue, 24 Nov 2009 13:20:12 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 8B8CA3D47;
+	Tue, 24 Nov 2009 13:20:10 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id GWuISr3-eND3; Tue, 24 Nov 2009 13:20:10 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 2E4273E03;
+	Tue, 24 Nov 2009 13:18:59 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 04B873D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 23 Nov 2009 11:24:09 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id WAbPBEhKItgX for <elsnet-list@mailman.elsnet.org>;
+	Mon, 23 Nov 2009 11:24:08 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D1C423D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 23 Nov 2009 11:24:08 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id B9F8723A0D; Mon, 23 Nov 2009 11:24:08 +0100 (MET)
+X-Greylist: delayed 480 seconds by postgrey-1.28 at newjura;
+	Mon, 23 Nov 2009 11:24:03 MET
+Received: from smtp-out.limsi.fr (limsi194.limsi.fr [129.175.134.194])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id CF23823A07
+	for <elsnet-list@elsnet.org>; Mon, 23 Nov 2009 11:24:03 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by smtp-out.limsi.fr (Postfix) with ESMTP id 042C89A0FE
+	for <elsnet-list@elsnet.org>; Mon, 23 Nov 2009 11:16:03 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at xen-181
+Received: from smtp-out.limsi.fr ([127.0.0.1])
+	by localhost (smtp-out.limsi.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id xuVVndKbOtp1 for <elsnet-list@elsnet.org>;
+	Mon, 23 Nov 2009 11:16:02 +0100 (CET)
+Received: from xen-185.limsi.fr (smtptest [129.175.152.185])
+	by smtp-out.limsi.fr (Postfix) with ESMTP id DF4EF9A0A9
+	for <elsnet-list@elsnet.org>; Mon, 23 Nov 2009 11:16:02 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by xen-185.limsi.fr (Postfix) with ESMTP id DBC51720B1
+	for <elsnet-list@elsnet.org>; Mon, 23 Nov 2009 11:16:02 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at xen-185
+Received: from xen-185.limsi.fr ([127.0.0.1])
+	by localhost (xen-185.limsi.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id xkl1NlJDGoAa for <elsnet-list@elsnet.org>;
+	Mon, 23 Nov 2009 11:16:02 +0100 (CET)
+Received: from [129.175.157.84] (pcgrau [129.175.157.84])
+	by xen-185.limsi.fr (Postfix) with ESMTP id B1FFE72088
+	for <elsnet-list@elsnet.org>; Mon, 23 Nov 2009 11:16:02 +0100 (CET)
+Message-ID: <4B0A60C4.8080104@ensiie.fr>
+Date: Mon, 23 Nov 2009 11:15:32 +0100
+From: Brigitte Grau <brigitte.grau@ensiie.fr>
+User-Agent: IceDove 1.5.0.12 (X11/20070607)
+MIME-Version: 1.0
+To: elsnet-list@elsnet.org
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Mailman-Approved-At: Tue, 24 Nov 2009 13:18:32 +0100
+Cc: 
+Subject: [Elsnet-list] New deadline : Call for Papers CORIA CIFED
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+Reply-To: brigitte.grau@ensiie.fr
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+**** New deadline *****
+
+* **** CORIA-CIFED Conferences - Joint Call for papers ****
+Topics : Information Retrieval , Handwritting and Document analysis
+
+March 18th - 20th , 2010, Sousse,
+http://sdnri2010.loria.fr
+
+********************
+New deadlines
+******************* *
+Abstract submission deadline: <deadline>November, 29th</deadline>
+Full paper submission deadline: <deadline>December 6th</deadline>
+
+*******************
+Description
+****************** *
+We are pleased to announce that CORIA2010 and CIFED2010, sponsored
+respectively by the ARIA (French Association for Information Research
+and Applications) and by the GRCE (Research Group for Handwritten and
+Document Analysis), will be held in Sousse, Tunisia during March 18-20,
+2010.
+
+For the first time, this joint edition of CIFED and CORIA will be an
+outstanding occasion for researchers and practitioners at all levels of
+experience to share results/experience on common research topics in
+Information Research, Document Analysis, User & Interaction Models,
+Scalability, Performance Evaluation, etc., while keeping the own topics
+of the both communities (see the lists of topics of each conference below).
+
+***************
+CORIA Topics
+***************
+CORIA welcomes contributions related to any aspect of IR, including but
+not limited to:
+
+· IR Theory and Formal Models
+· Performance, Scalability, Architectures, Efficiency, Platforms
+· Text Categorization, Clustering
+· Cross-language retrieval, Multilingual retrieval, Machine translation
+for IR
+· Question answering, Natural language processing for IR, Summarization,
+Lexical acquisition
+· Information Extraction for IR, Text Mining
+· Multimedia IR, video retrieval, audio and music retrieval, cross-media
+retrieval,
+. Image processing for IR, audio processing for IR
+· Web IR (e.g. link analysis, query log analysis, ad targeting)
+· Social network: blog and online-community search, opinion & sentiment
+detection
+· Collaborative filtering, recommender systems
+· Interactive IR, User studies, User models, Task-based IR, User
+interfaces and visualization
+· Knowledge engineering : Metadata, ontology, semantic Web
+· Digital Libraries, enterprise search, intranet search, desktop search
+· Domain-specific IR: genomic IR, geographic IR, legal IR, etc.
+· Distributed IR, peer to peer IR, Mobile IR, Fusion/Combination
+· Tools for IR: evaluation and test frameworks, platforms for
+experimentating systems
+· Query languages
+
+
+*************
+CIFED Topics
+*************
+The topics of interest of CIFED 2010 include, but are not limited to:
+
+· Basic research and methodologies for document and handwriting processing
+· Pattern recognition and image processing techniques
+· Acquisition, compression, segmentation of document image and handwriting
+· Document retrieval and understanding Systems (CBIR, spotting, )
+· Features extraction and organization for indexation purposes
+· Frameworks and strategies for document analysis
+· Layout analysis, automatic recognition and CMS
+· Character and handwriting recognition
+· Graphics and maps recognition
+· Writers and Signatures identification
+· Camera-based document processing and mobile devices, 
+· Document databases and digital libraries and scalability
+· Multimedia Documents (videos, web, )
+· Sketching Interfaces
+· Performance Evaluation
+· Applications
+
+******************
+Submission
+******************
+Manuscripts of maximum 16 pages are encouraged to be submitted. Papers
+must describe original work on any of the related topics. The format
+templates and instructions for paper submission are available on the
+Conference web site. Languages for papers can be French or English.
+
+CORIA: http://coria2010.loria.fr
+CIFED: http://cifed2010.loria.fr
+
+Program Committee Chairs:
+Brigitte GRAU (CORIA)
+Jean-Yves RAMEL (CIFED)
+
+-- 
+
+
+
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,181 @@
+From - Thu Dec 10 14:22:31 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: e7d1ab053ddefe9ab0fdcebe08abdd14c15e75db
+Delivered-To: jpprost@gmail.com
+Received: by 10.36.101.11 with SMTP id y11cs2864nzb;
+        Sat, 15 Oct 2005 17:29:38 -0700 (PDT)
+Received: by 10.64.180.13 with SMTP id c13mr842319qbf;
+        Sat, 15 Oct 2005 17:29:37 -0700 (PDT)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id q14si1100305qbq.2005.10.15.17.29.08;
+        Sat, 15 Oct 2005 17:29:37 -0700 (PDT)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local  (Exim 4.34)
+	id 1EQwCf-0000Sc-5w; Sun, 16 Oct 2005 02:16:41 +0200
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp  (Exim 4.34)
+	id 1EQwCe-0000SK-KQ; Sun, 16 Oct 2005 02:16:40 +0200
+Received: from vapor.isi.edu [128.9.64.64] 
+	by rolf.uib.no for corpora@uib.no with esmtp  (Exim 4.34)
+	id 1EQwCb-0001Ns-5w; Sun, 16 Oct 2005 02:16:40 +0200
+Received: from albini.isi.edu (albini.isi.edu [128.9.216.111])
+	by vapor.isi.edu (8.11.6p2+0917/8.11.2) with ESMTP id j9G0BnO11054
+	for <corpora@uib.no>; Sat, 15 Oct 2005 17:11:49 -0700 (PDT)
+Date: Sat, 15 Oct 2005 17:11:49 -0700 (PDT)
+From: Hal Daume III <hdaume@ISI.EDU>
+To: Corpora Mailing List <corpora@uib.no>
+Subject: [Corpora-List] 2nd CFP: Bayesian Methods in NLP Workshop at NIPS
+Message-ID: <Pine.LNX.4.44.0510151709260.26917-100000@albini.isi.edu>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-ISI-4-43-8-MailScanner: Found to be clean
+X-MailScanner-From: hdaume@isi.edu
+X-checked-clean: by exiscan on rolf
+X-Scanner: 6406877944bb4262808f1865277e266f http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0 hits, 8.0 required
+X-UiB-SpamReport: spamassassin found;
+List-Id: <corpora@uib.no>
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+************************************************************************
+
+                            CALL FOR PAPERS
+
+            Bayesian Methods for Natural Language Processing
+
+                            Workshop at the 
+            Neural Information Processing Systems Conference
+                              (NIPS 2005)
+
+                  http://www.isi.edu/~hdaume/BayesNLP/
+
+               ** Submission Deadline: 21 October 2005 **
+
+************************************************************************
+                   [ Apologies for multiple postings ]
+
+
+OVERVIEW
+--------
+
+Models of natural language processing problems are often incredibly
+complex, and there is never enough data to properly estimate all the
+required parameters. This has lead to a strong need for learning
+techniques with built-in capacity control; most classical solutions to
+this problem involve largely ad-hoc smoothing techniques. The
+application of Bayesian learning methods to these problems could
+potentially result in more effective models, for which extensive
+cross-validation is no longer required for hyperparameter tuning or
+model selection.
+
+The goals of this workshop are to bring together researchers from both
+the Bayesian machine learning community and the natural language
+processing community to enable cross-fertilization of techniques,
+models and applications. We wish to focus on the following issues:
+
+    * Statistical Models: Current Bayesian models for text have
+      largely focused on "bag of words" style approaches, where
+      conditional independence is assumed between words. This leads to
+      a convenient interpretation of a document as a sequence of draws
+      from multinomial distributions, but does not account for any of
+      the internal structure that exists in documents and which NLP
+      researchers are interested in. How can we build models that move
+      beyond the bag of words assumption? What structures are useful
+      for modeling? How can we model these structures efficiently? Can
+      we learn these models automatically?
+
+    * Applications-oriented Models: Many statistical models for text
+      have aimed at automatically inferring implicit relationship
+      between varied elements of documents in a corpus. How can we use
+      such models to aid in applications? Can we develop similar
+      models that are aimed at solving a real-world NLP task? For what
+      NLP applications are Bayesian techniques appropriate and how can
+      we develop models specific to these problems?
+
+
+
+CALL FOR PARTICIPATION
+----------------------
+
+We invite submission of workshop papers that discuss ongoing or
+completed work dealing with Bayesian techniques applied to natural
+language processing problems (see below for an incomplete list of
+possible topics). A workshop paper should be no more than six pages in
+the standard NIPS format. Authorship should not be blind. Please
+submit a paper by emailing it in Postscript or PDF format to
+hdaume@isi.edu with the subject line "BNLP Submission". We anticipate
+accepting four to six such papers for 15 minute presentation slots
+(exact details will be worked out shortly). Please only submit an
+article if at least one of the authors will be able to attend the
+workshop and present the work.
+
+We are especially interested in submissions from authors in the NLP
+community who have not previously attended a NIPS conference. If you
+fall into this category, please note this in your email when you
+submit your paper.
+
+Relevant Topics:
+
+    * Models that move beyond the bag-of-words assumption
+    * Techniques that apply to problems other than language modeling
+    * Structure-learning techniques for language
+    * Bayesian extensions to well-known NLP models
+    * Application of Bayesian techniques to NLP problems
+    * Both supervised and unsupervised techniques are welcome
+
+We also welcome position papers of at most two pages in length that
+discuss, with appropriate argumentation, whether or not Bayesian
+techniques are applicable to NLP problems and, if so, which
+ones. These should be submitted in the same way as standard workshop
+papers. These will be used to help guide discussion during panel
+sessions.
+
+
+IMPORTANT DATES
+---------------
+
+    18 Aug 05 -- Call for participation
+    21 Oct 05 -- Paper submission deadline
+     4 Nov 05 -- Notification of paper acceptance
+    25 Nov 05 -- Survey and position paper deadlines
+  9/10 Dec 05 -- Workshop in Whistler
+
+
+INVITED SPEAKERS AND PANELISTS
+------------------------------
+
+Kenneth Church (Microsoft Research) -- Invited Speaker & Panelist
+Tom Griffiths (Brown University)    -- Invited Speaker & Panelist
+Jeff Bilmes (U. of Washington)      -- Panelist
+Andrew McCallum (UMass Amherst)     -- Panelist
+
+RESEARCHER SURVEY
+-----------------
+
+Regardless of whether you submit a paper or not, if you are a
+researcher in either the Bayesian learning community or the NLP
+community, please complete our survey (available on the web page),
+which will serve to guide the panel discussions at the workshop.
+
+
+ORGANIZATION
+------------
+
+Hal Daume III
+Information Sciences Institute
+hdaume@isi.edu
+http://www.isi.edu/~hdaume/
+
+Yee Whye Teh
+National University of Singapore
+tehyw@comp.nus.edu.sg
+http://www.cs.berkeley.edu/~ywteh/
+
+
+
+
+
+

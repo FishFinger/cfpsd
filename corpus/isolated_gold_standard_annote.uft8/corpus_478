@@ -1,0 +1,189 @@
+From - Thu Dec 10 14:23:20 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 5f117258a4c0d5a24c7fa0b32a0eb2cd6894fafb
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs50909pyn;
+        Fri, 23 Jun 2006 08:35:44 -0700 (PDT)
+Received: by 10.65.204.7 with SMTP id g7mr3918183qbq;
+        Fri, 23 Jun 2006 08:35:44 -0700 (PDT)
+Return-Path: <sentto-1622440-2050-1151076917-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id f12si1735770qba.2006.06.23.08.35.40;
+        Fri, 23 Jun 2006 08:35:44 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2050-1151076917-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: good
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k5NFZO9H007288
+	for <jpprost@gmail.com>; Sat, 24 Jun 2006 01:35:39 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006062401353808330
+ for <jpprost@gmail.com>; Sat, 24 Jun 2006 01:35:38 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k5NFZYJW007404
+	for <jpprost@gmail.com>; Sat, 24 Jun 2006 01:35:34 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k5NFZXsS019419
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Sat, 24 Jun 2006 01:35:34 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k5NFZO9F007288
+	for <jpprost@vesuvius.ics.mq.edu.au>; Sat, 24 Jun 2006 01:35:33 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006062401353008329
+ for <jpprost@vesuvius.ics.mq.edu.au>; Sat, 24 Jun 2006 01:35:30 +1000
+Received: from sunb.ocs.mq.edu.au (sunb.ocs.mq.edu.au [137.111.1.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k5NFZP5U007306
+	for <jpprost@ics.mq.edu.au>; Sat, 24 Jun 2006 01:35:25 +1000 (EST)
+Received: from n14b.bullet.sc5.yahoo.com (n14b.bullet.sc5.yahoo.com [66.163.187.181])
+	by sunb.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k5NFZOT03018
+	for <jpprost@ics.mq.edu.au>; Sat, 24 Jun 2006 01:35:24 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=QTxdMUPkMxJJ7VLriODy2MFBmHceOrDgntzTi4NfPUZ7znV4Z6GOB97v8ypqtlTJ+V8JJXTgbKzNfe7J+YpisSPYVe7M89u0LwDp0fj2GE9xVtKubwyMDIGSyYsap96b;
+Received: from [66.163.187.122] by n14.bullet.sc5.yahoo.com with NNFMP; 23 Jun 2006 15:35:18 -0000
+Received: from [66.218.69.3] by t3.bullet.sc5.yahoo.com with NNFMP; 23 Jun 2006 15:35:17 -0000
+Received: from [66.218.67.98] by t3.bullet.scd.yahoo.com with NNFMP; 23 Jun 2006 15:35:17 -0000
+X-Yahoo-Newman-Property: groups-email
+X-Yahoo-Newman-Id: 1622440-m2050
+X-Sender: aline@up.univ-mrs.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 73036 invoked from network); 23 Jun 2006 15:35:17 -0000
+Received: from unknown (66.218.67.35)
+  by m41.grp.scd.yahoo.com with QMQP; 23 Jun 2006 15:35:17 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta9.grp.scd.yahoo.com with SMTP; 23 Jun 2006 15:35:16 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 055FA5DAFAA;
+	Fri, 23 Jun 2006 17:35:14 +0200 (CEST)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 17558-07; Fri, 23 Jun 2006 17:35:13 +0200 (CEST)
+Received: from [147.94.213.137] (unknown [147.94.213.137])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 3B4175D22CC;
+	Fri, 23 Jun 2006 17:35:13 +0200 (CEST)
+Message-Id: <v0421010bc0c1ba948a89@[147.94.213.137]>
+X-Priority: 1 (Highest)
+To: lpl-infos@yahoogroupes.fr
+Cc: denhiere@up.univ-mrs.fr
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+X-eGroups-Msg-Info: 1:0:0:0
+From: Aline =?iso-8859-1?Q?P=E9lissier?=  <aline@up.univ-mrs.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Fri, 23 Jun 2006 17:35:40 +0200
+Subject: [lpl-infos] [coll] Appel: RANLP-2007 (Natural Language Processing), sep 2007
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+>
+>
+>From: galja@lml.bas.bg
+>
+>Apologies for multiple postings
+>
+>
+>                               RANLP-07
+>            RECENT ADVANCES IN NATURAL LANGUAGE PROCESSING
+>
+>                  SAMOKOV hotel, Borovets, Bulgaria
+>                   http://www.lml.bas.bg/ranlp2007
+>
+>RANLP-07 tutorials: September 23-25, 2007 (Sunday-Tuesday)
+>RANLP-07 workshops: September 26, 2007 (Wednesday)
+>6th Int. Conference RANLP-07: September 27-30, 2007 (Thursday-Saturday)
+>
+>We are pleased to announce that the dates for RANLP'07 have been
+>finalised (see above). Building on both the successful international
+>summer schools organised for more than 17 years, and previous
+>conferences held in 1995, 1997, 2001, 2003 and 2005, RANLP has become
+>one of the most influential, competitive and far-reaching conferences,
+>with wide international participation from all over the
+>world. Featuring leading lights in the area as keynote speakers or
+>tutorial speakers, RANLP has now grown into a larger-scale meeting
+>with accompanying workshops and other events. In addition to the 6
+>keynote speeches and tutorials on hot NLP topics, RANLP07 will be
+>accompanied by workshops and shared task competitions.
+>
+>Volumes of selected papers are traditionally published by John
+>Benjamins Publishers and previous conferences have enjoyed support
+>from the European Commission.
+>
+>Time-table:
+>Conference 1st Call for Papers: October 2006;
+>Call for Workshop proposals: November 2006,
+>                         deadline of proposals <deadline>end of January 2007</deadline>;
+>Workshop selection: early March 2007;
+>Conference Submission deadline: <deadline>March 2007</deadline> with notification 30 May  2007;
+>Workshop Submission deadline: <deadline>15 June 2007</deadline> with notification in July  2007=
+;
+>RANLP-07 tutorials, workshops and conference: 23-30 September 2007
+>
+>The conference will be held in the picturesque resort of Borovets. It
+>is located in the Rila mountains and is one of the best known ski and
+>tourist resorts in South-East Europe. The conference venue Samokov
+>hotel offers excellent working and leisure facilities. Borovets is
+>only 1 hour away from Sofia international airport.
+>
+>THE TEAM BEHIND RANLP-07
+>Galia Angelova, Bulgarian Academy of Sciences, Bulgaria
+>                       (Chair of the Organising Committee)
+>Kalina Bontcheva, University of Sheffield, UK
+>Ruslan Mitkov, University of Wolverhampton, UK
+>                       (Chair of the Programme Committee)
+>Nicolas Nicolov, Umbria Communications, Boulder, USA
+>Nikolai Nikolov, INCOMA Ltd., Shoumen, Bulgaria
+>Kiril Simov, Bulgarian Academy of Sciences, Bulgaria
+>                       (Workshop Coordinator)
+>
+>Contact us at ranlp2007@lml.bas.bg
+>
+>------------------------------------------------------------------------ -
+>Message diffuse par la liste Langage Naturel <LN@cines.fr>
+>Informations, abonnement :  http://www.atala.org/article.php3?id_article=
+=3D48
+>English version       :
+>Archives                 :  http://listserv.linguistlist.org/archives/ln.h=
+tml
+>                                http://liste.cines.fr/info/ln
+>
+>La liste LN est parrainee par l'ATALA (Association pour le Traitement
+>Automatique des Langues)
+>Information et adhesion  : http://www.atala.org/
+>------------------------------------------------------------------------ -
+>
+>-------
+>Message redirig=E9 par le relais d'information sur les sciences de la=20
+>cognition (RISC) sans virus
+>http://www.risc.cnrs.fr
+
+
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ces =
+jointes.=20
+Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+=20
+
+
+

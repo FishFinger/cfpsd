@@ -1,0 +1,442 @@
+From - Thu Dec 10 14:38:53 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.60.195 with SMTP id q3cs37771bkh;
+        Sat, 7 Nov 2009 15:30:45 -0800 (PST)
+Received: by 10.213.26.199 with SMTP id f7mr1256871ebc.72.1257636642586;
+        Sat, 07 Nov 2009 15:30:42 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 27si3162252ewy.46.2009.11.07.15.30.41;
+        Sat, 07 Nov 2009 15:30:42 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C96F1245CA; Sun,  8 Nov 2009 00:30:40 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.2 required=5.0 tests=BAYES_00,HTML_MESSAGE,
+	MIME_QP_LONG_LINE autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B1B5E23CB3;
+	Sun,  8 Nov 2009 00:22:12 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 954AC3D3C;
+	Sun,  8 Nov 2009 00:22:12 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id M9XaAzVEFz-o; Sun,  8 Nov 2009 00:22:12 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A6E493D3B;
+	Sun,  8 Nov 2009 00:21:05 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id D6C473D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  4 Nov 2009 17:16:58 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id QrfuDbSlCezc for <elsnet-list@mailman.elsnet.org>;
+	Wed,  4 Nov 2009 17:16:58 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id A8BD93D24
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  4 Nov 2009 17:16:58 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 827AD23E26; Wed,  4 Nov 2009 17:16:58 +0100 (MET)
+X-Greylist: delayed 1291 seconds by postgrey-1.28 at newjura;
+	Wed, 04 Nov 2009 17:16:52 MET
+Received: from smtp4.fastdnsnetwork.com (smtp4.fastdnsnetwork.com
+	[64.34.127.237])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C7B4023E3E
+	for <elsnet-list@elsnet.org>; Wed,  4 Nov 2009 17:16:52 +0100 (MET)
+Received: from ASSP.nospam (localhost.localdomain [127.0.0.1])
+	by smtp4.fastdnsnetwork.com (Postfix) with ESMTP id 5F96832382A2
+	for <elsnet-list@elsnet.org>; Wed,  4 Nov 2009 21:25:07 +0530 (IST)
+Received: from ns2.fastdnsnetwork.com ([202.54.156.184]
+	helo=ns2.fastdnsnetwork.com)
+	with IPv4:25 by ASSP.nospam; 4 Nov 2009 21:25:06 +0530
+Received: (qmail 22466 invoked by uid 100); 4 Nov 2009 15:47:39 -0000
+Received: from 86.108.54.132 ([86.108.54.132]) by 202.54.156.184 (Horde
+	MIME library) with HTTP; Wed, 04 Nov 2009 21:17:34 +0530
+Message-ID: <20091104211734.rlwsxwvickscoco8@202.54.156.184>
+Date: Wed, 04 Nov 2009 21:17:34 +0530
+From: dconf@dline.info
+To: dconf@dline.info
+MIME-Version: 1.0
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+X-Assp-ID: ASSP.nospam (50107-07367)
+X-Assp-Version: 1.5.1.8(1.0.00)
+X-Mailman-Approved-At: Sun, 08 Nov 2009 00:20:34 +0100
+Cc: 
+Subject: [Elsnet-list] CFP: Bangalore-India: July 2010-ICBDE2010
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0636711129=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+This message is in MIME format.
+
+--===============0636711129==
+Content-Type: multipart/alternative;
+	boundary="=_59f9sxbu6z8c"
+Content-Transfer-Encoding: 7bit
+
+This message is in MIME format.
+
+--=_59f9sxbu6z8c
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Description: Plaintext Version of Message
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+
+
+=09The 2010 International Conference on the Business and Digital =20
+Enterprises=A0(ICBDE 2010)
+July, 22-24, 2010
+
+   Gopalan Educational Society, Bangalore, India
+
+   http://dline.info/icbde2010/[1]
+
+   The proposed conference on the above them will be be held at =20
+Gopalan Educational Society, Bangalore, The silicon valley of India =20
+from July=A0 22 to July 24, 2010 which aims to enable researchers build =20
+connections between different digital applications.
+
+   The world is becoming more and more 'digital'. The digital =20
+technology has transformed the entire world to a new reality. Almost =20
+all sectors like journalism, banking, finance, manufacturing, health =20
+care, education, entertainment etc are influenced by digital =20
+revolution. It is essential to examine a variety of business, =20
+technical, legal and all other related issues and seek to identify the =20
+opportunities and challenges in the movement toward being digital. We =20
+also look and understand how a number of enterprises spawned by =20
+digital technology to learn about how they function. he digital =20
+revolution. The research on digital enterprises and technology will =20
+lead us in the next generation and to have a perception on how and =20
+where digital technology is heading. The proposed conference will =20
+foresee such future. The conference will address the following topics =20
+(not limited).=A0
+
+   * E-Business
+   * Consumer Electronics
+   * Digital Libraries
+   * Digital Economy
+   * Digital Data Mining
+   * Digital Enterprises
+   * E-Commerce Technology
+   * E-Business Applications and Software
+   * E-Commerce in developing countries
+   * Global E-Commerce
+   * Infrastructure for E-Commerce
+   * Marketing on the Web
+   * Barriers to E-Business Adoption
+   * Cryptography for enabling E-Commerce
+   * E-Commerce Strategy & Implementation
+   * Internet payment systems
+   * E-Logistics
+   * E-Government
+   * E-Procurement
+   * E-Services
+   * Business-oriented E-Commerce
+   * Consumer-oriented E-Commerce
+   * Web advertising and Web Publishing
+   * Mobile Commerce
+   * Supply Chain Management & E-Fulfilment
+   * E-Communities
+   * Regulatory/Policy Issues
+   * Social Issues in E-Commerce
+   * The Regulatory Environment of E-Commerce
+   * Trust & Security Issues in E-Commerce
+
+=A0LOCATION
+
+   ICBDI 2010 will be organized by Gopalan Educational Society - =20
+Whitefield, Bangalore, India, in cooperation with the Digital =20
+Information Research Foundation (DIRF) located in India. All the =20
+activities of the conference will take place in,=A0 Bangalore, India.=A0=A0 =
+=20
+=A0IMPORTANT DATES
+
+   Submission Date:
+
+   <deadline>Feb 20, 2010</deadline>, <deadline>April 1, 2010</deadline>
+
+   Notification of Acceptance
+
+   April 20, 2010
+
+   Camera Ready
+
+   <deadline>May 10, 2010</deadline>
+
+   Registration
+
+   May 15, 2010
+
+   Conference Dates:
+
+   July 22-24, 2010
+
+=A0COMMITTEES=A0
+=A0General Chairs=A0
+=A0Weimin He, University of Wisconsin-Stevens Point, USA.
+=A0Renata Wachowiak-Smolikova, Nipissing University, Canada.
+
+   =A0ORGANIZATIONAL CHAIR=A0C. PRABHAKAR , Gopalan Educational Society, Ind=
+ia.
+=A0PROGRAM CHAIR=A0Noraziah Ahmad,University Malaysia Pahang, Malaysia.
+
+=A0PROGRAM CO-CHAIRS
+=A0Yoshiro Imai, Kagawa University, Japan.
+=A0Veli Hakkoymaz, Fatih University, Turkey.
+
+   =A0PROCEEDINGS CHAIR
+=A0PIT PICHAPPAN, Al Imam University, Saudi Arabia.
+
+   =A0PUBLICITY CHAIR
+=A0Maytham Safar, Kuwait University, Kuwait.=A0Would you like to organize =
+=20
+a workshop or a special session or a tutorial?
+
+   =A0If you are interested in organizing any workshop or special =20
+session, please send us email to=A0 dconf@dline.info [2]=A0with the title =
+=20
+of the session=A0Would you like to be a reviewer?
+
+   All the reviewing are online. Please visit =20
+http://dline.info/icbde2010/review.php [3]then select link be a=A0 =20
+reviewer. More details are listed there.=A0SUBMISSION
+
+   =A0Submission instructions are listed at
+=A0http://dline.info/icbde2010/submission.php[4]
+
+
+
+Links:
+------
+[1] http://dline.info/icbde2010/
+[2] redir.aspx?C=3Decead6d215ec491c89a59849c16f3c84&URL=3Dmailto%3adiwt%40di=
+rf.org
+[3] http://dline.info/icbde2010/review.php
+[4] http://dline.info/icbde2010/submission.php
+
+
+--=_59f9sxbu6z8c
+Content-Type: text/html;
+	charset=ISO-8859-1
+Content-Description: HTML Version of Message
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<div align=3D"left"><table id=3D"table1" border=3D"0" width=3D"96%"
+align=3D"left"><tbody><tr><td><div style=3D"WIDTH: 607px; HEIGHT: 1590px"
+id=3D"warpper" align=3D"center"><div style=3D"BORDER-BOTTOM: #009933 1px sol=
+id;
+BORDER-LEFT: #009933 1px solid; BACKGROUND-COLOR: #ffcc99; WIDTH: 605px; HEI=
+GHT:
+200px; COLOR: #ffffff; BORDER-TOP: #009933 1px solid; BORDER-RIGHT: #009933 =
+1px
+solid" class=3D"header"><font style=3D"FONT-SIZE: 15pt" color=3D"#ffff66"
+face=3D"Verdana"></font><font style=3D"FONT-SIZE: 15pt" color=3D"#009933"
+face=3D"Verdana">The 2010 International Conference on the Business and Digit=
+al
+Enterprises=A0(ICBDE 2010)<br />July, 22-24, 2010</font><font color=3D"#ffff=
+ff"
+face=3D"Verdana"> <p><font style=3D"FONT-SIZE: 14pt" color=3D"#009933">Gopal=
+an
+Educational Society, Bangalore, India</font></p><p><span style=3D"FONT-SIZE:
+15pt"><a
+href=3D"http://dline.info/icbde2010/">http://dline.info/icbde2010/</a></span=
+></p></font><font
+color=3D"#009933" face=3D"Verdana"> </font></div><div style=3D"BORDER-BOTTOM=
+: 1px
+solid; BORDER-LEFT: 1px solid; BACKGROUND-COLOR: #ffff66; BORDER-TOP: 1px so=
+lid;
+BORDER-RIGHT: 1px solid" class=3D"content"><p style=3D"TEXT-ALIGN: justify">=
+The
+proposed conference on the above them will be be held at Gopalan Educational
+Society, Bangalore, The silicon valley of India from July=A0 22 to July 24, =
+2010
+which aims to enable researchers build connections between different digital
+applications.</p><p style=3D"TEXT-ALIGN: justify">The world is becoming more=
+ and
+more 'digital'. The digital technology has transformed the entire world to a=
+ new
+reality. Almost all sectors like journalism, banking, finance, manufacturing=
+,
+health care, education, entertainment etc are influenced by digital revoluti=
+on.
+It is essential to examine a variety of business, technical, legal and all o=
+ther
+related issues and seek to identify the opportunities and challenges in the
+movement toward being digital. We also look and understand how a number of
+enterprises spawned by digital technology to learn about how they function. =
+he
+digital revolution. The research on digital enterprises and technology will =
+lead
+us in the next generation and to have a perception on how and where digital
+technology is heading. The proposed conference will foresee such future. The
+conference will address the following topics (not limited).=A0 </p><ul
+style=3D"TEXT-ALIGN: left" dir=3D"ltr"><li>E-Business </li><li>Consumer Elec=
+tronics
+</li><li>Digital Libraries </li><li>Digital Economy </li><li>Digital Data Mi=
+ning
+</li><li>Digital Enterprises </li><li>E-Commerce Technology </li><li>E-Busin=
+ess
+Applications and Software </li><li>E-Commerce in developing countries
+</li><li>Global E-Commerce </li><li>Infrastructure for E-Commerce
+</li><li>Marketing on the Web </li><li>Barriers to E-Business Adoption
+</li><li>Cryptography for enabling E-Commerce </li><li>E-Commerce Strategy &=
+amp;
+Implementation </li><li>Internet payment systems </li><li>E-Logistics
+</li><li>E-Government </li><li>E-Procurement </li><li>E-Services
+</li><li>Business-oriented E-Commerce </li><li>Consumer-oriented E-Commerce
+</li><li>Web advertising and Web Publishing </li><li>Mobile Commerce
+</li><li>Supply Chain Management &amp; E-Fulfilment </li><li>E-Communities
+</li><li>Regulatory/Policy Issues </li><li>Social Issues in E-Commerce
+</li><li>The Regulatory Environment of E-Commerce </li><li>Trust &amp; Secur=
+ity
+Issues in E-Commerce</li></ul><div style=3D"BORDER-BOTTOM: #99ccff 1px solid=
+;
+BORDER-LEFT: #99ccff 1px solid; BACKGROUND-COLOR: #99ccff; WIDTH: 594px; HEI=
+GHT:
+29px; BORDER-TOP: #99ccff 1px solid; BORDER-RIGHT: #99ccff 1px solid"
+class=3D"conhed" align=3D"left"><font color=3D"#ffff66">=A0</font><font
+color=3D"#008000">LOCATION </font></div><p>ICBDI 2010 will be organized by G=
+opalan
+Educational Society - Whitefield, Bangalore, India, in cooperation with the
+Digital Information Research Foundation (DIRF) located in India. All the
+activities of the conference will take place in,=A0 Bangalore, India.=A0=A0
+</p></div><div style=3D"BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid;
+BACKGROUND-COLOR: #ffff66; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid"
+class=3D"content"><div style=3D"BORDER-BOTTOM: #99ccff 1px solid; BORDER-LEF=
+T:
+#99ccff 1px solid; BACKGROUND-COLOR: #99ccff; WIDTH: 594px; HEIGHT: 29px;
+BORDER-TOP: #99ccff 1px solid; BORDER-RIGHT: #99ccff 1px solid" class=3D"con=
+hed"
+align=3D"left"><font color=3D"#ffff66">=A0</font><font color=3D"#008000">IMP=
+ORTANT DATES
+</font></div><table id=3D"table3" border=3D"1" cellspacing=3D"0" cellpadding=
+=3D"0"
+width=3D"583" bgcolor=3D"#ffff66"><tbody><tr><td width=3D"193"><p
+align=3D"left">Submission Date:</p></td><td><p align=3D"left"><strike><deadline>Feb 20=
+,
+2010</deadline></strike>, April 1, 2010</p></td></tr><tr><td width=3D"193"><p
+align=3D"left">Notification of Acceptance</p></td><td><p align=3D"left">Apri=
+l 20,
+2010</p></td></tr><tr><td width=3D"193"><p align=3D"left">Camera Ready
+</p></td><td><p align=3D"left"><deadline>May 10, 2010</deadline></p></td></tr><tr><td width=3D"19=
+3"><p
+align=3D"left">Registration </p></td><td><p align=3D"left">May 15,
+2010</p></td></tr><tr><td width=3D"193"><p align=3D"left">Conference
+Dates:</p></td><td><p align=3D"left">July 22-24,
+2010</p></td></tr></tbody></table></div><div style=3D"BORDER-BOTTOM: 1px sol=
+id;
+BORDER-LEFT: 1px solid; BACKGROUND-COLOR: #ffff66; WIDTH: 597px; HEIGHT: 524=
+px;
+BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid" class=3D"content"
+align=3D"left"><div style=3D"BORDER-BOTTOM: #99ccff 1px solid; BORDER-LEFT: =
+#99ccff
+1px solid; BACKGROUND-COLOR: #99ccff; WIDTH: 594px; HEIGHT: 29px; BORDER-TOP=
+:
+#99ccff 1px solid; BORDER-RIGHT: #99ccff 1px solid" class=3D"conhed"
+align=3D"left"><font color=3D"#ffff66">=A0</font><font
+color=3D"#008000">COMMITTEES</font></div><span style=3D"TEXT-DECORATION:
+none"><b>=A0<br />=A0General Chairs</b>=A0</span><br /><span style=3D"TEXT-D=
+ECORATION:
+none">=A0Weimin He, University of Wisconsin-Stevens Point, USA.<br
+/>=A0</span>Renata Wachowiak-Smolikova, Nipissing University, Canada. <p>=A0=
+<span
+style=3D"TEXT-DECORATION: none"><b>Organizational Chair</b></span>=A0C. PRAB=
+HAKAR ,
+Gopalan Educational Society, India.<span style=3D"TEXT-DECORATION: none"><sp=
+an
+class=3D"style8"><span style=3D"FONT-SIZE: 9pt"></span></span><br /><b>=A0Pr=
+ogram
+Chair</b></span>=A0Noraziah Ahmad,University Malaysia Pahang, Malaysia. <br =
+/><br
+/><span style=3D"TEXT-DECORATION: none"><b>=A0Program co-Chairs</b><span
+style=3D"FONT-WEIGHT: 400"><br />=A0</span></span>Yoshiro Imai, Kagawa Unive=
+rsity,
+Japan.<br />=A0Veli Hakkoymaz, Fatih University, Turkey.</p><p><span
+style=3D"TEXT-DECORATION: none">=A0<b>Proceedings Chair</b><br />=A0</span><=
+strong
+style=3D"FONT-WEIGHT: 400">Pit Pichappan</strong>, Al Imam University, Saudi
+Arabia.</p><p /><p><span style=3D"TEXT-DECORATION: none"><b>=A0Publicity
+Chair</b><br />=A0</span>Maytham Safar, Kuwait University, Kuwait<strong
+style=3D"FONT-WEIGHT: 400">.</strong></p><div style=3D"BORDER-BOTTOM: #99ccf=
+f 1px
+solid; BORDER-LEFT: #99ccff 1px solid; BACKGROUND-COLOR: #99ccff; WIDTH: 595=
+px;
+HEIGHT: 29px; BORDER-TOP: #99ccff 1px solid; BORDER-RIGHT: #99ccff 1px solid=
+"
+class=3D"conhed" align=3D"left"><font color=3D"#ffff66">=A0</font><font
+color=3D"#008000">Would you like to organize a workshop or a special session=
+ <span
+lang=3D"en-us">or a tutorial</span>?</font></div><p align=3D"left">=A0If you=
+ are
+interested in organizing any workshop or special session, please send us ema=
+il
+to=A0 dconf<a
+href=3D"redir.aspx?C=3Decead6d215ec491c89a59849c16f3c84&URL=3Dmailto%3adiwt%=
+40dirf.org"><font
+color=3D"#000000">@dline.info</font> </a>=A0with the title of the session</p=
+><div
+style=3D"BORDER-BOTTOM: #99ccff 1px solid; BORDER-LEFT: #99ccff 1px solid;
+BACKGROUND-COLOR: #99ccff; WIDTH: 596px; HEIGHT: 29px; BORDER-TOP: #99ccff 1=
+px
+solid; BORDER-RIGHT: #99ccff 1px solid" class=3D"conhed" align=3D"left"><fon=
+t
+color=3D"#ffff66">=A0</font><font color=3D"#008000">Would you like to be a
+reviewer?</font></div><p align=3D"left">All the reviewing are online. Please=
+ visit
+<a
+href=3D"http://dline.info/icbde2010/review.php">http://dline.info/icbde2010/=
+review.php
+</a>then select link be a=A0 reviewer. More details are listed
+there.</p></div><div style=3D"BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px sol=
+id;
+BACKGROUND-COLOR: #ffff66; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid"
+class=3D"content"><div style=3D"BORDER-BOTTOM: #99ccff 1px solid; BORDER-LEF=
+T:
+#99ccff 1px solid; BACKGROUND-COLOR: #99ccff; WIDTH: 595px; HEIGHT: 29px;
+BORDER-TOP: #99ccff 1px solid; BORDER-RIGHT: #99ccff 1px solid" class=3D"con=
+hed"
+align=3D"left"><font color=3D"#008000">=A0SUBMISSION</font></div><p
+align=3D"left">=A0Submission instructions are listed at <br />=A0<a
+href=3D"http://dline.info/icbde2010/submission.php">http://dline.info/icbde2=
+010/submission.php</a></p></div></div></td></tr></tbody></table></div>
+--=_59f9sxbu6z8c--
+
+--===============0636711129==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0636711129==--

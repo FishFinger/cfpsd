@@ -1,0 +1,331 @@
+From - Thu Dec 10 14:39:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs33245bkq;
+        Tue, 24 Nov 2009 04:27:38 -0800 (PST)
+Received: by 10.213.0.154 with SMTP id 26mr6240956ebb.82.1259065655503;
+        Tue, 24 Nov 2009 04:27:35 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 28si14571825ewy.77.2009.11.24.04.27.34;
+        Tue, 24 Nov 2009 04:27:35 -0800 (PST)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id E322423A19; Tue, 24 Nov 2009 13:27:31 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.6 required=5.0 tests=BAYES_00,HTML_MESSAGE,
+	HTML_OBFUSCATE_05_10 autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 88A08242C9;
+	Tue, 24 Nov 2009 13:20:05 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C8E2E3E3F;
+	Tue, 24 Nov 2009 13:19:57 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id VymbCBPBuxob; Tue, 24 Nov 2009 13:19:57 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7EA363DDB;
+	Tue, 24 Nov 2009 13:18:55 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 85BA63D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 21 Nov 2009 20:38:24 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wwmIJ-RMV7IY for <elsnet-list@mailman.elsnet.org>;
+	Sat, 21 Nov 2009 20:38:24 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 56E383D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Sat, 21 Nov 2009 20:38:24 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 413E22341C; Sat, 21 Nov 2009 20:38:24 +0100 (MET)
+X-Greylist: delayed 909 seconds by postgrey-1.28 at newjura;
+	Sat, 21 Nov 2009 20:38:14 MET
+Received: from mail-fx0-f177.google.com (mail-fx0-f177.google.com
+	[209.85.220.177])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 1018823397
+	for <elsnet-list@elsnet.org>; Sat, 21 Nov 2009 20:38:14 +0100 (MET)
+Received: by fxm25 with SMTP id 25so1474015fxm.5
+	for <elsnet-list@elsnet.org>; Sat, 21 Nov 2009 11:38:13 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+	h=domainkey-signature:mime-version:received:date:message-id:subject
+	:from:to:content-type;
+	bh=wtIulnCVTN6wyHZ5gc+JCMU7YRZtfsQUPR1HBuvVRFk=;
+	b=XjznLyGcnGoYvZeTGqTqf6ZjnIHk1yNufAS8UvrNWnOSLkARrDb+KMp5mjjUD2Zb+D
+	Py7cxPs/lQTM36ZrRJ4YkOQ+XYi/Ay2+BnxcH5RreQNiyHZGW7Yybm2jgZCdZ+MmIbv8
+	hKcPQXb1FI2Ae9vad0RWch0UfXsCYwIvZFFJY=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=gmail.com; s=gamma;
+	h=mime-version:date:message-id:subject:from:to:content-type;
+	b=s48zTf3lccxr2FqVoa+DeuET1hB/y/OadqztSiL9pKWZJ+lnZvQDVW3Yxl73ea1n+k
+	1bc9sGLE7kzb8i19DPyDydApNXJoZROf6OWtO6veJImCgjLUcnu0shUyrL6ygHsPLCeV
+	ew0p/ke/dOkdAz5DwV9rCK4FTn1+DYyIzoH9U=
+MIME-Version: 1.0
+Received: by 10.239.168.131 with SMTP id k3mr296693hbe.101.1258831373973; Sat, 
+	21 Nov 2009 11:22:53 -0800 (PST)
+Date: Sat, 21 Nov 2009 14:22:53 -0500
+Message-ID: <77f0321c0911211122t1a0b4569y477bff0d79432e42@mail.gmail.com>
+From: James Eugene <jameseugene13@gmail.com>
+To: jameseugene13@gmail.com
+X-Mailman-Approved-At: Tue, 24 Nov 2009 13:18:32 +0100
+Cc: 
+Subject: [Elsnet-list] MULTICONF-10 Call for papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0386624514=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0386624514==
+Content-Type: multipart/alternative; boundary=00163646be84e0be520478e6840f
+
+--00163646be84e0be520478e6840f
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+MULTICONF-10 Call for papers
+
+
+
+The 2010 multi-conference (MULTICONF-10) (website:
+http://www.promoteresearch.org) will be held during July 12-14, 2010 in
+Orlando, Florida, USA. The primary goal of MULTICONF is to promote research
+and developmental activities in computer science, information technology,
+control engineering, and related fields. Another goal is to promote the
+dissemination of research to a multidisciplinary audience and to facilitate
+communication among researchers, developers, practitioners in different
+fields. The following conferences are planned to be organized as part of
+MULTICONF-10.
+
+
+
+=B7        International Conference on Artificial Intelligence and Pattern
+Recognition (AIPR-10)
+
+=B7         International Conference on Automation, Robotics and Control
+Systems (ARCS-10) <http://www.promoteresearch.org/2009/2009/arcs/index.html=
+>
+
+=B7        International Conference on Bioinformatics, Computational Biolog=
+y,
+Genomics and Chemoinformatics (BCBGC-10)
+
+=B7        International Conference on Computer Networks
+(CN-10)<http://www.promoteresearch.org/2009/eiswt/index.html>
+
+=B7        International Conference on Enterprise Information Systems and W=
+eb
+Technologies (EISWT-10)<http://www.promoteresearch.org/2009/eiswt/index.htm=
+l>
+
+=B7        International Conference on High Performance Computing Systems
+(HPCS-10)
+
+=B7        International Conference on Information Security and Privacy
+(ISP-10) <http://www.promoteresearch.org/2009/isp/index.html>
+
+=B7        International Conference on Image and Video Processing and Compu=
+ter
+Vision (IVPCV-10) <http://www.promoteresearch.org/2010/cvivp/index.html>
+
+=B7        International Conference on Software Engineering Theory and
+Practice (SETP-10)
+
+=B7        International Conference on Theoretical and Mathematical
+Foundations of Computer Science (TMFCS-10)
+
+
+
+We invite draft paper submissions. Please see the website
+http://www.promoteresearch.org for more details.
+
+
+
+Sincerely
+
+James Eugene
+
+Publicity committee
+
+--00163646be84e0be520478e6840f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">MULT=
+ICONF-10 Call for papers</span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">=A0<=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">The =
+2010 multi-conference (MULTICONF-10) (website: <a href=3D"http://www.promot=
+eresearch.org/">http://www.promoteresearch.org</a>) will be held during </s=
+pan><span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;"=
+>July 12-14, 2010</span><span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;T=
+imes New Roman&#39;"> in </span><span style=3D"FONT-SIZE: 12pt; FONT-FAMILY=
+: &#39;Times New Roman&#39;">Orlando</span><span style=3D"FONT-SIZE: 12pt; =
+FONT-FAMILY: &#39;Times New Roman&#39;">, </span><span style=3D"FONT-SIZE: =
+12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Florida</span><span style=3D"=
+FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">, </span><span sty=
+le=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">USA</span><s=
+pan style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">. The=
+ primary goal of MULTICONF is to promote research and developmental activit=
+ies in computer science, information technology, control engineering, and r=
+elated fields. Another goal is to promote the dissemination of research to =
+a multidisciplinary audience and to facilitate communication among research=
+ers, developers, practitioners in different fields.<span class=3D"style2"> =
+</span>The following conferences are planned to be organized as part of MUL=
+TICONF-10.</span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">=A0<=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Artificial Intelligence and Pattern Recognition (A=
+IPR-10)</span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;"><sp=
+an style=3D"mso-spacerun: yes">=A0</span>International Conference on Automa=
+tion, Robotics and Control Systems (ARCS-10)<a href=3D"http://www.promotere=
+search.org/2009/2009/arcs/index.html"></a></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Bioinformatics, Computational Biology, Genomics an=
+d Chemoinformatics (BCBGC-10)</span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Computer Networks (CN-10)<a href=3D"http://www.pro=
+moteresearch.org/2009/eiswt/index.html"></a></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on </span><span style=3D"FONT-SIZE: 12pt; FONT-FAMILY=
+: &#39;Times New Roman&#39;">Enterprise</span><span style=3D"FONT-SIZE: 12p=
+t; FONT-FAMILY: &#39;Times New Roman&#39;"> Information Systems and Web Tec=
+hnologies (EISWT-10)<a href=3D"http://www.promoteresearch.org/2009/eiswt/in=
+dex.html"></a></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on High Performance Computing Systems (HPCS-10)</span=
+></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Information Security and Privacy (ISP-10) <a href=
+=3D"http://www.promoteresearch.org/2009/isp/index.html"></a></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Image and Video Processing and Computer Vision (IV=
+PCV-10)<a href=3D"http://www.promoteresearch.org/2010/cvivp/index.html"></a=
+></span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Software Engineering Theory and Practice (SETP-10)=
+ </span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt 0.5in; TEXT-INDENT: -0.=
+25in; LINE-HEIGHT: normal; mso-list: l0 level1 lfo1"><span style=3D"FONT-SI=
+ZE: 12pt; FONT-FAMILY: Symbol; mso-fareast-font-family: Symbol; mso-bidi-fo=
+nt-family: Symbol"><span style=3D"mso-list: Ignore">=B7<span style=3D"FONT:=
+ 7pt &#39;Times New Roman&#39;">=A0=A0=A0=A0=A0=A0=A0 </span></span></span>=
+<span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Int=
+ernational Conference on Theoretical and Mathematical Foundations of Comput=
+er Science (TMFCS-10) </span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">=A0<=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">We i=
+nvite draft paper submissions. Please see the website <a href=3D"http://www=
+.promoteresearch.org/">http://www.promoteresearch.org</a> for more details.=
+</span></p>
+
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">=A0<=
+/span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Sinc=
+erely</span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Jame=
+s Eugene</span></p>
+<p class=3D"MsoNormal" style=3D"MARGIN: 0in 0in 0pt; LINE-HEIGHT: normal"><=
+span style=3D"FONT-SIZE: 12pt; FONT-FAMILY: &#39;Times New Roman&#39;">Publ=
+icity committee</span></p>
+
+--00163646be84e0be520478e6840f--
+
+--===============0386624514==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0386624514==--

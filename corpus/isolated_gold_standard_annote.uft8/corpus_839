@@ -1,0 +1,223 @@
+From - Thu Dec 10 14:39:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs32983bkq;
+        Tue, 24 Nov 2009 04:22:55 -0800 (PST)
+Received: by 10.213.23.155 with SMTP id r27mr447172ebb.48.1259065370489;
+        Tue, 24 Nov 2009 04:22:50 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 22si14637445ewy.79.2009.11.24.04.22.49;
+        Tue, 24 Nov 2009 04:22:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 85329219E6; Tue, 24 Nov 2009 13:21:49 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C30AF23DC3;
+	Tue, 24 Nov 2009 13:18:55 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B5D2D3DCC;
+	Tue, 24 Nov 2009 13:18:54 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Eh3hsLAz6Bgi; Tue, 24 Nov 2009 13:18:54 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C295B3D44;
+	Tue, 24 Nov 2009 13:18:36 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1CE2D3D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 16 Nov 2009 14:07:27 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id u5xfSGoupYDq for <elsnet-list@mailman.elsnet.org>;
+	Mon, 16 Nov 2009 14:07:26 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id EDE8E3D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Mon, 16 Nov 2009 14:07:26 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id E0C9C24460; Mon, 16 Nov 2009 14:07:26 +0100 (MET)
+X-Greylist: delayed 3779 seconds by postgrey-1.28 at newjura;
+	Mon, 16 Nov 2009 14:07:20 MET
+Received: from mspa2.hunter.cuny.edu (mspa2.hunter.cuny.edu [146.95.128.51])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id B109E24458
+	for <elsnet-list@elsnet.org>; Mon, 16 Nov 2009 14:07:20 +0100 (MET)
+Received: from msa1.hunter.cuny.edu (msa1.hunter.cuny.edu [146.95.128.32])
+	by mspa2.hunter.cuny.edu (8.13.1/8.13.1) with ESMTP id nAGC42fG029615; 
+	Mon, 16 Nov 2009 07:04:02 -0500
+From: pcomp@hunter.cuny.edu
+Received: (from msa1.hunter.cuny.edu [69.201.160.123])
+	by msa1.hunter.cuny.edu (MOS 4.1.7-GA)
+	with HTTPS/1.1 id ABZ69719 (AUTH pcomp);
+	Mon, 16 Nov 2009 07:04:02 -0500 (EST)
+To: elsnet-list@elsnet.org
+X-Mailer: Mirapoint Webmail Direct 4.1.7-GA
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Message-Id: <20091116070402.ABZ69719@msa1.hunter.cuny.edu>
+Date: Mon, 16 Nov 2009 07:04:02 -0500 (EST)
+X-Proofpoint-Virus-Version: vendor=fsecure engine=1.12.8161:2.4.5, 1.2.40,
+	4.0.166 definitions=2009-11-16_05:2009-10-29, 2009-11-16,
+	2009-11-16 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 spamscore=0
+	ipscore=0 phishscore=0 bulkscore=0 adultscore=0 classifier=spam
+	adjust=0 reason=mlx engine=5.0.0-0908210000
+	definitions=main-0911160059
+X-Mailman-Approved-At: Tue, 24 Nov 2009 13:18:32 +0100
+Cc: wmsakas@gmail.com, rens.bod@gmail.com
+Subject: [Elsnet-list] Extended Deadline ROLC special issue on Computational
+ Models of First Language Acquisition
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+**************** Extended deadline: <deadline>December 15, 2009</deadline> 
+*****************
+
+Computational Models of First Language Acquisition
+Special Issue of Research on Language and Computation  
+
+Call for Papers
+
+The journal Research on Language and Computation invites submission of 
+papers 
+for a special issue on Computational Models of Language Acquisition.  
+
+Computational Models of First Language Acquisition
+Special Issue of Research on Language and Computation  
+
+Editors
+
+Alexander Clark, Department of Computer Science, Royal Holloway,  
+University of London 
+
+William Gregory Sakas, Hunter College and The Graduate Center,  
+City University of New York
+
+Important dates
+
+Submission of full papers: <deadline>December 15, 2009</deadline>   
+Notifications of decision: February 31, 2010   
+Revised versions due: May 1, 2010   
+Second review: July 1, 2010   
+Final versions: September 1, 2010  
+Publication: Late 2010  
+
+Background
+
+Language acquisition has for a long time stood as one of the most 
+fundamental, 
+beguiling, and surprisingly open questions of modern science.  Recent 
+advances in 
+natural language processing, statistical parsing and machine learning, 
+together 
+with the availability of large corpora of child directed speech and other 
+corpora, 
+make a wide range of computationally-oriented approaches to the study of 
+this 
+problem available. In this special issue, we will provide a forum for the full 
+range 
+of current approaches to this important field.  
+
+Psychocomputational models of language acquisition are of particular 
+interest in 
+light of recent results in developmental psychology that suggest that very 
+young 
+infants are adept at detecting statistical patterns in an audible input stream. 
+Though, how children might plausibly apply statistical 'machinery' to the 
+task of 
+grammar acquisition, with or without an innate language component, 
+remains an 
+open and important question. One effective line of investigation is to 
+computationally model the acquisition process, through simulation, 
+mathematically, the statistical analysis of corpora, etc., and determine 
+interrelationships between a model and linguistic or psycholinguistic theory, 
+and/or correlations between a model's performance and data from 
+linguistic 
+environments that children are   
+exposed to.  
+
+Topics
+
+We aim to publish papers that describe state of the art techniques in 
+computational models of language acquisition. These should be 
+computationally 
+explicit but not necessarily implemented and these could be evaluated 
+empirically, theoretically or on the basis of a detailed case study.  
+This special issue should provide an interdisciplinary forum where 
+researchers in 
+theoretical linguistics, psycholinguistics, natural language processing, 
+grammatical 
+inference, machine learning and cognitive science can present research on 
+the 
+computational modelling of first language acquisition.  
+
+We welcome papers from any of the current models of linguistic theorising: 
+standard and enriched context free models, Principles and Parameters 
+models, 
+Optimiality theory and reseachers working within the Minimalist Program, 
+and 
+other approaches.  
+
+Topics include but are not limited to:
+
+* Models that address the acquisition of word-order;
+* Models that combine parsing and learning
+* Formal learning-theoretic and grammar induction models that use 
+   psychologically plausible models of the information available to the 
+learner
+* Comparative surveys that critique previously reported studies
+*  Models that address learning bias in terms of innate linguistic knowledge  
+   versus statistical regularity in the input
+* Models that employ language modeling techniques from corpus linguistics
+* Models that employ techniques from machine learning
+* Models of language change and its effect on language acquisition or vice 
+versa
+* Models that employ statistical/probabilistic grammars
+* Computational models that can be used to evaluate existing linguistic or  
+   developmental theories (e.g., principles & parameters, optimality theory,  
+   construction grammar, etc.)
+* Empirical models that make use of child-directed corpora such as 
+CHILDES,  
+   or indeed adult corpora as contrasted with child-directed corpora
+
+Instructions
+
+Submissions should be made online using Springer's Editorial Manager 
+System, 
+available at  http://www.editorialmanager.com/rolc
+
+Length
+    12,000 words (approximately 30 pages) for a standard submission
+    4,000 words (approximately 10 pages) for a brief report
+
+Further information
+
+Please contact Alexander Clark (alexc @ cs.rhul.ac.uk) or William Sakas 
+(sakas@hunter.cuny.edu) with any further questions.
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

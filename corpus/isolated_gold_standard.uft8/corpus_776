@@ -1,0 +1,211 @@
+From - Thu Dec 10 14:39:19 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs77857bkq;
+        Thu, 3 Dec 2009 07:17:41 -0800 (PST)
+Received: by 10.213.96.3 with SMTP id f3mr1823231ebn.51.1259853450332;
+        Thu, 03 Dec 2009 07:17:30 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 23si6516537ewy.24.2009.12.03.07.17.29;
+        Thu, 03 Dec 2009 07:17:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of elsnet-list-bounces@mailman.let.uu.nl designates 131.211.194.58 as permitted sender) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 0BEC1241AD; Thu,  3 Dec 2009 16:17:27 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-2.5 required=5.0 tests=AWL,BAYES_00,HTML_MESSAGE
+	autolearn=unavailable version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id C6E4623F85;
+	Thu,  3 Dec 2009 16:16:17 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id C2B7B3D4C;
+	Thu,  3 Dec 2009 16:16:16 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 98+lF+Tq3aBu; Thu,  3 Dec 2009 16:16:16 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id CFE2E3D4D;
+	Thu,  3 Dec 2009 16:16:03 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 7B1E93D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  2 Dec 2009 16:05:25 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id aQ-cH+GatdRK for <elsnet-list@mailman.elsnet.org>;
+	Wed,  2 Dec 2009 16:05:25 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 53FB13D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Wed,  2 Dec 2009 16:05:25 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id 4579123E10; Wed,  2 Dec 2009 16:05:25 +0100 (MET)
+X-Greylist: delayed 354 seconds by postgrey-1.28 at newjura;
+	Wed, 02 Dec 2009 16:05:14 MET
+Received: from smtp.inesc-id.pt (smtp.inesc-id.pt [146.193.32.2])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 2DC6D2349F
+	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 16:05:14 +0100 (MET)
+Received: from l2f.inesc-id.pt (fw.l2f.inesc-id.pt [146.193.52.17])
+	by mail.inesc-id.pt (8.13.8/8.13.8) with ESMTP id nB2ExBnC009190
+	for <elsnet-list@elsnet.org>; Wed, 2 Dec 2009 14:59:12 GMT
+Received: from localhost (localhost [127.0.0.1])
+	by l2f.inesc-id.pt (Postfix) with ESMTP id 6768285C2C2
+	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 14:59:11 +0000 (WET)
+X-Virus-Scanned: amavisd-new at l2f.inesc-id.pt
+Received: from unknown by localhost (amavisd-new, unix socket) id X9kCDQ9rWLpB
+	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 14:59:09 +0000 (WET)
+Received: from [172.16.4.32] (anubis.l2f.inesc-id.pt [172.16.4.32])
+	by l2f.inesc-id.pt (Postfix) with ESMTP id 7B09D85C2C1
+	for <elsnet-list@elsnet.org>; Wed,  2 Dec 2009 14:59:09 +0000 (WET)
+Message-ID: <4B1680BD.4010804@l2f.inesc-id.pt>
+Date: Wed, 02 Dec 2009 14:59:09 +0000
+From: David Martins de Matos <david.matos@l2f.inesc-id.pt>
+User-Agent: Thunderbird 2.0.0.23 (X11/20090817)
+MIME-Version: 1.0
+To: elsnet-list@elsnet.org
+X-Greylist: Sender IP whitelisted, not delayed by milter-greylist-4.3.3
+	(mail.inesc-id.pt [146.193.32.2]);
+	Wed, 02 Dec 2009 14:59:12 +0000 (WET)
+X-Inesc-ID-MailScanner-Information: Please contact the mailserver
+	administrator for more information
+X-Inesc-ID-MailScanner-ID: nB2ExBnC009190
+X-Inesc-ID-MailScanner: Found to be clean
+X-Inesc-ID-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.717, required 6, AWL -0.58, BAYES_00 -2.60,
+	HTML_MESSAGE 0.00, MIME_HTML_ONLY 1.46)
+X-Inesc-ID-MailScanner-From: david.matos@l2f.inesc-id.pt
+X-Mailman-Approved-At: Thu, 03 Dec 2009 16:15:59 +0100
+Cc: 
+Subject: [Elsnet-list] 
+ 2nd CFP: PROPOR 2010 PhD and MSc Dissertation Contest, Porto Alegre
+ / Brazil
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============0888120451=="
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+--===============0888120451==
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<div class="moz-text-plain" wrap="true" graphical-quote="true"
+ style="font-family: -moz-fixed; font-size: 12px;" lang="x-unicode">
+<pre wrap="">                  [apologies for multiple copies]
+
+The PROPOR 2010 PhD and MSc Dissertation Contest is a special event of
+PROPOR 2010, the 9th International Conference on Computational
+Processing of Portuguese.  PROPOR 2010 will be held in Porto Alegre -
+RS, Brazil, from 28 to 30 April 2010.
+
+<a class="moz-txt-link-freetext"
+ href="http://www.inf.pucrs.br/%7Epropor2010/">http://www.inf.pucrs.br/~propor2010/</a>
+
+hosted by PUCRS-PontifÃ­cia Universidade CatÃ³lica do Rio Grande do Sul
+
+================== PhD and MSc Dissertation Contest ====================
+
+This contest recognizes the best of emerging academic work on
+processing of the Portuguese language and related issues, concluded in
+the three years preceding the submission deadline.
+
+Awards:
+
+    * Best PhD Dissertation Award
+    * Best MSc Dissertation Award
+
+Submission Criteria and Procedure:
+
+1.  Eligible entrants are those candidates who have successfully
+defended their dissertations in the three years preceding the contest
+submission deadline.  A letter from the primary dissertation advisor
+must be submitted with the extended abstract (see number 3.), stating
+that the candidate meets this eligibility criterion.
+
+2.  The dissertation must focus on some aspect of processing of the
+Portuguese language and related issues.  In general, any topic that
+falls within the scope of PROPOR call for papers
+(<a class="moz-txt-link-freetext"
+ href="http://www.inf.pucrs.br/%7Epropor2010/callForPapers.html">http://www.inf.pucrs.br/~propor2010/callForPapers.html</a>) is
+appropriate.
+
+3.  Each entry should be in the form of an extended abstract that
+includes the nature of the problem to be researched, relevant theory,
+hypotheses to be tested, method, analysis, and indicative references.
+
+4. Documents must be submitted in English (even if the thesis is
+written in another language).
+
+5.  Documents must be formatted in PDF, double-spaced, using Times New
+Roman 11 point font with 1 inch margins all around. Proposals are
+limited to 8 pages, including all figures, tables, and references and
+should begin with an abstract of 250 words or less.  Authors must use
+the same style of the PROPOR 2010 conference. The documents will be
+included in the electronic version of the PROPOR 2010 proceedings (no
+hard copies will be produced). A web link to the integral work must
+also be provided.
+
+6. Members of the contest evaluation committee and their students are
+excluded from the PROPOR 2010 PhD and MSc Dissertation Contest.
+
+7. Submission deadline is December 15, 2009.  Entries must be
+submitted electronically at <a class="moz-txt-link-freetext"
+ href="https://submissoes.sbc.org.br/">https://submissoes.sbc.org.br/</a> (no hard
+copy submissions will be accepted). Notifications to authors will be
+sent on January 30, 2010.
+
+8. Accepted entrants must prepare an A0 poster (portrait format) to be
+presented at a special session. Award winners are invited to prepare
+an oral presentation of their work (15 / 20 minutes).
+
+Important Dates:
+
+December 15, 2009 - Submission deadline.
+January  30, 2010 - Notification to authors.
+
+Evaluation Committee:
+
+The PROPOR 2010 PhD and MSc Dissertation Contest evaluation committee,
+consisting of five members of the PROPOR 2010 Program Committee, will
+be posted on the PROPOR 2010 website.
+
+
+</pre>
+</div>
+</body>
+</html>
+
+--===============0888120451==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list
+
+--===============0888120451==--

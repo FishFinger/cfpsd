@@ -1,0 +1,290 @@
+From - Thu Dec 10 14:22:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 7e63deed3456a6a7b2572876ecf8a4ed705a0b28
+Delivered-To: jpprost@gmail.com
+Received: by 10.38.161.34 with SMTP id j34cs6892rne;
+        Thu, 3 Mar 2005 14:26:55 -0800 (PST)
+Received: by 10.38.152.65 with SMTP id z65mr144201rnd;
+        Thu, 03 Mar 2005 14:26:55 -0800 (PST)
+Return-Path: <owner-corpora@lists.uib.no>
+Received: from noralf.uib.no (noralf.uib.no [129.177.30.12])
+        by mx.gmail.com with ESMTP id 79si140367rna.2005.03.03.14.26.39;
+        Thu, 03 Mar 2005 14:26:55 -0800 (PST)
+Received-SPF: pass (gmail.com: domain of owner-corpora@lists.uib.no designates 129.177.30.12 as permitted sender)
+Received: from exim by noralf.uib.no with local (Exim 4.34)
+	id 1D6ydq-0006Vt-OD; Thu, 03 Mar 2005 23:17:58 +0100
+Received: from rolf.uib.no [129.177.30.19] 
+	by noralf.uib.no with esmtp (Exim 4.34)
+	id 1D6y1S-0003fK-Tm; Thu, 03 Mar 2005 22:38:19 +0100
+Received: from md0.mail.umd.edu [128.8.31.162] 
+	by rolf.uib.no for CORPORA@HD.UIB.NO with esmtp (Exim 4.34)
+	id 1D6y1P-0003X7-OA; Thu, 03 Mar 2005 22:38:18 +0100
+Received: from [192.168.1.239] (prospector.umiacs.umd.edu [128.8.120.187])
+	by md0.mail.umd.edu (MOS 3.5.6-GR)
+	with ESMTP id AOK97361 (AUTH monz);
+	Thu, 3 Mar 2005 16:34:14 -0500 (EST)
+Message-ID: <422782D6.9050306@umiacs.umd.edu>
+Date: Thu, 03 Mar 2005 16:34:14 -0500
+From: Christof Monz <christof@umiacs.umd.edu>
+User-Agent: Mozilla Thunderbird 1.0 (Macintosh/20041206)
+X-Accept-Language: en-us, en
+MIME-Version: 1.0
+To: CORPORA@UIB.NO
+Subject: [Corpora-List] CFP: ACL 2005 Workshop on Parallel Texts and MT
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-checked-clean: by exiscan on rolf
+X-Scanner: fdb75e0a9c9f9a8c814265c398284337 http://tjinfo.uib.no/virus.html
+X-UiB-SpamFlag: NO UIB: 0.0 hits, 11.0 required
+Sender: owner-corpora@lists.uib.no
+Precedence: bulk
+
+
+                         CALL FOR PAPERS
+
+            BUILDING AND USING PARALLEL TEXTS: DATA-DRIVEN
+                  MACHINE TRANSLATION AND BEYOND
+
+                Workshop at the Annual Meeting of
+       the Association of Computational Linguistics (ACL 2005)
+
+                       Ann Arbor, Michigan
+                        June 29-30, 2005
+
+
+                  http://www.statmt.org/wpt05/
+
+The goal of this workshop is to provide a forum for researchers
+working on problems related to the creation and use of parallel
+text. Recent events have demonstrated once again the importance of
+inter-language communication across a broad range of languages. This
+reinforces the need for advances in machine translation (MT) and
+multi-lingual processing tools, especially for languages with scarce
+resources.
+
+This is a two-day workshop featuring two tracks:
+
+    1. Building and Using Parallel Texts for Languages
+       with Scarce Resources (day 1)
+
+    2. Exploiting Parallel Texts for Statistical Machine
+       Translation (day 2)
+
+Both tracks feature a shared task each, that allows participants to
+compare their results on a common task. Although not required, we
+encourage submissions to participate in the shared tasks for
+bench-marking purposes.
+
+
+TRACK DESCRIPTIONS
+
+1. BUILDING AND USING PARALLEL TEXTS FOR LANGUAGES WITH SCARCE RESOURCES
+
+The aim of this track is to bring together researchers involved in the
+study of creating and using parallel corpora for minority
+languages. The track will be therefore centered around issues related
+to manual/automatic collection of parallel corpora, studies in the
+"import" of knowledge from a well-studied language via parallel
+alignments, evaluations of the quality of collected corpora or the
+quality of the tools that are derived based on these corpora.
+
+We invite submissions of papers addressing any of the following issues:
+
+    * Construction of parallel corpora, including the automatic
+      identification and harvesting of parallel corpora from the Web
+    * Tools for processing parallel corpora, including automatic
+      sentence alignment, word alignment, phrase alignment, detection of
+      omissions and gaps in translations, and others
+    * Methods to evaluate the quality of parallel corpora and word
+      alignments
+    * Using parallel corpora for the derivation of language processing 
+tools
+      in new languages
+    * Using parallel corpora for automatic corpus annotation (e.g. word
+      sense disambiguation)
+    * Using parallel corpora for cross-language information retrieval and
+      extraction
+    * The quality of language resources and systems that can be constructed
+      with small amounts of parallel text and how do these scale up with 
+the
+      amount of text available.
+    * The role of external knowledge sources (e.g. bilingual dictionaries)
+      in building resources and systems relying on parallel texts.
+    * Machine learning techniques for building and exploiting parallel texts
+      (e.g. using small amounts of human-aligned parallel text to bootstrap
+      large aligned corpora; active selection of data based on usefulness
+      for different tasks)
+
+While we invite submissions addressing any of the above topics, or related
+issues, we particularly welcome work involving parallel corpora addressing
+languages with scarce resources.
+
+
+Shared task
+
+In addition to regular paper presentations, the track will also include
+a shared task for the evaluation of various word alignment techniques.
+Word alignment represents an important step in exploiting parallel corpora,
+and yet there is no common evaluation framework for such systems. This
+follows on the success of the word alignment task that took place as a part
+of the NAACL 2003 workshop on parallel text. This year's edition will be
+distinct in that it will focus on Inuktitut-English and Romanian-English
+alignment. This fits into the theme of our track, since neither Inuktitut
+nor Romanian is a widely studied language, and there are relatively few
+online resources and tools available.
+
+Teams that participate in the alignment exercise will be provided the
+training data for each language pair and development data taken from the
+gold standard data in order to build their systems. Thereafter they will
+be provided the unaligned gold standard data and asked to submit their
+proposed alignments in a short time frame. There will be two tracks
+for each language pair, one for teams that augment the training data with
+additional resources, and another for those that only use the training
+data. The resulting alignments will be evaluated relative to the 
+previously
+mentioned gold standard data prior to the workshop. Short papers describing
+systems participating in this shared task and all evaluation methodologies
+employed will constitute a separate section in  the workshop proceedings.
+
+A more detailed description, training, development, and test data, and
+a number of other related resources will be made available from
+http://www.cs.unt.edu/~rada/wpt05
+
+
+2. EXPLOITING PARALLEL TEXTS FOR STATISTICAL MACHINE TRANSLATION
+
+The focus of this track is to use parallel corpora for machine
+translation.
+
+Translating documents from foreign languages into English (or between
+any two languages) by computer is one of the oldest goals in
+computational linguistics. Now, armed with vast amounts of digitally
+available translated text and powerful computers, we are witnessing
+significant progress toward achieving that goal. Statistical methods
+allow the analysis of parallel text corpora and the automatic
+construction of machine translation systems. Already, for some
+language pairs such as Chinese-English or Arabic-English, statistical
+machine translation (SMT) systems built at research labs outperform
+commercial systems.
+
+Recent experimentation has shown that the performance of SMT systems
+varies greatly with the source language. In this workshop we would
+like to encourage researchers to investigate ways to improve the
+performance of SMT systems for diverse languages, including
+morphologically complex languages (e.g., Finnish) and languages with
+partial free word order (e.g., German). These issues lie on the border
+of linguistic analysis and statistical modeling, and the ACL
+conference is the most appropriate forum to investigate them, as ACL
+has a long tradition of hosting high-quality research in both areas.
+
+Topics of interest include, but are not limited to:
+
+      * word-based, chunk-based, phrase-based, syntax-based SMT
+      * using comparable corpora for SMT
+      * using morphological and POS information for SMT
+      * integration of rule-based MT and statistical MT
+      * decoding
+      * error analysis
+
+In addition to submissions on the topics listed above, this track of
+the workshop features a shared task and we encourage participants to
+evaluate their approaches on that task. The shared task is to evaluate
+your approach to machine translation---see the list of topics of
+interests above---on the Europarl corpus.
+
+A more detailed description of the shared task, the test and training
+corpora, a freely available MT system, and a number of other resources
+are available from
+
+http://www.statmt.org/wpt05/mt-shared-task/
+
+
+SUBMISSION INFORMATION
+
+Submissions will consist of regular full papers of max. 8 pages,
+formatted following the ACL 2005 guidelines. Authors of regular
+full papers will be required to indicate a track for their submission.
+In addition, teams participating in the shared tasks will be invited
+to submit short papers (max. 4 pages) describing their systems.
+Both submission and review processes will be handled electronically.
+
+
+IMPORTANT DATES
+
+Regular paper submissions                <deadline>April 10</deadline>
+(shared task) Results submissions        <deadline>April 10</deadline>
+(shared task) Short paper submissions    <deadline>April 17</deadline>
+Notification (short and regular papers)  May 4
+Camera-ready papers                      <deadline>May 15</deadline>
+
+
+ORGANIZERS
+
+Philipp Koehn (University of Edinburgh)
+Joel Martin (National Research Council of Canada)
+Rada Mihalcea (University of North Texas)
+Christof Monz (University of Maryland)
+Ted Pedersen (University of Minnesota, Duluth)
+
+CONTACT
+
+For questions, comments, etc. please send email to
+wpt05@umiacs.umd.edu
+
+
+PROGRAM COMMITTEE
+
+Lars Ahrenberg (Linkoping University)
+Bill Byrne (University of Cambridge)
+Chris Callison-Burch (University of Edinburgh)
+Nicoletta Calzolari (University of Pisa)
+Francisco Casacuberta (University of Valencia)
+David Chiang (University of Maryland)
+Mona Diab (Columbia University)
+George Foster (Canada National Research Council)
+Alexander Fraser (ISI/University of Southern California)
+Pascale Fung (Hong Kong University of Science and Technology)
+Rob Gaizauskas (University of Sheffield)
+Ulrich German (University of Toronto)
+Dan Gildea (University of Rochester)
+Jan Hajic (Charles University)
+Andrew Hardie (University of Lancaster)
+Rebecca Hwa (University of Pittsburgh)
+Nancy Ide (Vassar College)
+Kevin Knight (ISI/University of Southern California)
+Greg Kondrak (University of Alberta)
+Shankar Kumar (Johns Hopkins University)
+Philippe Langlais (University of Montreal)
+Alon Lavie (Carnegie Mellon University)
+Lori Levin (Carnegie Mellon University)
+Daniel Marcu (ISI/University of Southern California)
+Tony McEnery (University of Lancaster)
+Bridget McInnes (University of Minnesota)
+Magnus Merkel (Linkoping University)
+Bob Moore (Microsoft Research)
+Maria das Gracas Volpe Nunes (University of Sao Paulo)
+Franz-Josef Och (Google)
+Kemal Oflazer (Sabanci University)
+Miles Osborne (University of Edinburgh)
+Andrei Popescu-Belis (University of Geneva)
+Katharina Probst (CMU)
+Amruta Purandare (University of Pittsburgh)
+Florence Reeder (MITRE)
+Philip Resnik (University of Maryland)
+Antonio Ribeiro  (European Commission Joint Research Council)
+Michel Simard  (Xerox)
+Kevin Scannell (St. Louis University)
+Libin Shen (University of Pennsylvania)
+Eiichiro Sumita (ATR Spoken Language Translation Research Lab)
+Joerg Tiedemann (University of Groningen)
+Christoph Tillmann (IBM)
+Dan Tufis (Research Institute for AI of the Romanian Academy)
+Jean Veronis  (Universite de Provence)
+Michelle Vanni (Army Research Lab)
+Stephan Vogel (Carnegie Mellon University)
+Clare Voss (Army Research Lab)
+Taro Watanabe (ATR Spoken Language Translation Research Laboratories)
+Dekai Wu (Hong Kong University of Science and Technology)
+
+

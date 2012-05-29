@@ -1,0 +1,217 @@
+From - Thu Dec 10 14:39:12 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Delivered-To: jpprost@gmail.com
+Received: by 10.204.118.66 with SMTP id u2cs33225bkq;
+        Tue, 24 Nov 2009 04:27:19 -0800 (PST)
+Received: by 10.213.96.3 with SMTP id f3mr6205887ebn.51.1259065635381;
+        Tue, 24 Nov 2009 04:27:15 -0800 (PST)
+Return-Path: <elsnet-list-bounces@mailman.let.uu.nl>
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+        by mx.google.com with ESMTP id 21si919893ewy.73.2009.11.24.04.27.05;
+        Tue, 24 Nov 2009 04:27:15 -0800 (PST)
+Received-SPF: neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) client-ip=131.211.194.58;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 131.211.194.58 is neither permitted nor denied by domain of elsnet-list-bounces@mailman.let.uu.nl) smtp.mail=elsnet-list-bounces@mailman.let.uu.nl
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id DE897237F8; Tue, 24 Nov 2009 13:27:01 +0100 (MET)
+X-Spam-Checker-Version: SpamAssassin 3.2.4 (2008-01-01) on newjura.let.uu.nl
+X-Spam-Level: 
+X-Spam-Status: No, score=-1.8 required=5.0 tests=AWL,BAYES_00,SORTED_RECIPS
+	autolearn=no version=3.2.4
+Received: from mailman.let.uu.nl (stratus.let.uu.nl [131.211.194.59])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 5FC8324247;
+	Tue, 24 Nov 2009 13:20:00 +0100 (MET)
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 369FC3E9F;
+	Tue, 24 Nov 2009 13:19:47 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id JqNFB7L15DCq; Tue, 24 Nov 2009 13:19:46 +0100 (CET)
+Received: from stratus.let.uu.nl (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id B414F3D35;
+	Tue, 24 Nov 2009 13:18:51 +0100 (CET)
+X-Original-To: elsnet-list@mailman.elsnet.org
+Delivered-To: elsnet-list@mailman.elsnet.org
+Received: from localhost (localhost [127.0.0.1])
+	by mailman.let.uu.nl (Postfix) with ESMTP id 1BF503D2A
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Nov 2009 16:08:45 +0100 (CET)
+Received: from mailman.let.uu.nl ([127.0.0.1])
+	by localhost (stratus.let.uu.nl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id SDsRt7IoN5S2 for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Nov 2009 16:08:44 +0100 (CET)
+Received: from mailhost.let.uu.nl (newjura.let.uu.nl [131.211.194.58])
+	by mailman.let.uu.nl (Postfix) with ESMTP id E99AA3D0B
+	for <elsnet-list@mailman.elsnet.org>;
+	Fri, 20 Nov 2009 16:08:44 +0100 (CET)
+Received: by mailhost.let.uu.nl (Postfix, from userid 1004)
+	id C789A23D7A; Fri, 20 Nov 2009 16:08:44 +0100 (MET)
+X-Greylist: delayed 1504 seconds by postgrey-1.28 at newjura;
+	Fri, 20 Nov 2009 16:08:38 MET
+Received: from joejob.cs.utexas.edu (joejob.cs.utexas.edu [128.83.120.81])
+	by mailhost.let.uu.nl (Postfix) with ESMTP id 2F22C23CF3
+	for <elsnet-list@let.uu.nl>; Fri, 20 Nov 2009 16:08:38 +0100 (MET)
+Received: from uvanimor-20.cs.utexas.edu (kaufmann@uvanimor-20.cs.utexas.edu
+	[128.83.130.234])
+	by joejob.cs.utexas.edu (8.14.3/8.14.3) with ESMTP id nAKEZCBx027889
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Fri, 20 Nov 2009 08:35:12 -0600
+Received: (from kaufmann@localhost)
+	by uvanimor-20.cs.utexas.edu (8.14.3/8.14.3/Submit) id nAKEZC9E022722; 
+	Fri, 20 Nov 2009 08:35:12 -0600
+Date: Fri, 20 Nov 2009 08:35:12 -0600
+Message-Id: <200911201435.nAKEZC9E022722@uvanimor-20.cs.utexas.edu>
+From: Matt Kaufmann <kaufmann@cs.utexas.edu>
+To: acl2@utlists.utexas.edu, agents@csc.liv.ac.uk, ai@cs.man.ac.uk,
+	arw-committee@csc.liv.ac.uk, asl@vassar.edu, concurrency@cwi.nl,
+	coq-club@pauillac.inria.fr, elsnet-list@let.uu.nl,
+	fm-discussion@cs.man.ac.uk, fm-info@air16.larc.nasa.gov,
+	fmcad@utlists.utexas.edu, fom@cs.nyu.edu, haskell@haskell.org,
+	hol-info@lists.sourceforge.net, img@cs.man.ac.uk,
+	isabelle-users@cl.cam.ac.uk, kgs-list@logic.at, ki-inf@uni-koblenz.de, 
+	kr@kr.org, lfcs-interest@dcs.ed.ac.uk, lics@informatik.hu-berlin.de,
+	lics@research.bell-labs.com, loco@csc.liv.ac.uk, math.logik@gmx.net,
+	metaprl-users@metaprl.org, mizar-forum@mizar.uwb.edu.pl,
+	mowgli-dev@cs.unibo.it, newsletter@aarinc.org,
+	nominal-isabelle@mailbroy.informatik.tu-muenchen.de,
+	om-announce@openmath.org, proofpower@lemma-one.com, pvs@csl.sri.com,
+	relmics-l@McMaster.CA, theorem-provers@ai.mit.edu,
+	theory-logic@CS.CMU.EDU, twelf-list@itu.dk, w3c-math-wg@w3.org,
+	zforum@prg.ox.ac.uk
+X-Mailman-Approved-At: Tue, 24 Nov 2009 13:18:32 +0100
+Cc: 
+Subject: [Elsnet-list] ITP 2010 - Second Call for Papers
+X-BeenThere: elsnet-list@mailman.let.uu.nl
+X-Mailman-Version: 2.1.5
+Precedence: list
+List-Id: The ELSNET mailing list for language and speech technology
+	<elsnet-list.mailman.let.uu.nl>
+List-Unsubscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=unsubscribe>
+List-Archive: <http://mailman.let.uu.nl/pipermail/elsnet-list>
+List-Post: <mailto:elsnet-list@mailman.let.uu.nl>
+List-Help: <mailto:elsnet-list-request@mailman.let.uu.nl?subject=help>
+List-Subscribe: <http://mailman.elsnet.org/mailman/listinfo/elsnet-list>,
+	<mailto:elsnet-list-request@mailman.let.uu.nl?subject=subscribe>
+Sender: elsnet-list-bounces@mailman.let.uu.nl
+Errors-To: elsnet-list-bounces@mailman.let.uu.nl
+
+                          Call for Papers
+        ITP 2010: Conference on Interactive Theorem Proving
+                11-14 July 2010, Edinburgh, Scotland
+             http://www.floc-conference.org/ITP-cfp.html
+
+                               -----
+
+ITP brings together researchers working in all areas of interactive
+theorem proving.  It combines the communities of two venerable
+meetings: the TPHOLs conference and the ACL2 workshop.  The inaugural
+meeting of ITP will be held on 11-14 July 2010 in Edinburgh, Scotland,
+as part of the Federated Logic Conference (FLoC, 9-21 July 2010),
+co-located with the other FLoC conferences (CAV, ICLP, IJCAR, LICS,
+RTA, SAT) and workshops.
+
+The program committee welcomes submissions on all aspects of
+interactive theorem proving and its applications.  Examples of typical
+topics include formal aspects of hardware or software (specification,
+verification, semantics, synthesis, refinement, compilation, etc.);
+formalization of significant bodies of mathematics; advances in
+theorem prover technology (automation, decision procedures, induction,
+combinations of systems and tools, etc.); other topics including those
+relating to user interfaces, education, comparisons of systems, and
+mechanizable logics; and concise and elegant worked examples ("Proof
+Pearls").
+
+Submission details:
+
+All papers must be submitted electronically, via EasyChair:
+
+ http://www.easychair.org/conferences/?conf=itp10
+
+Papers may be no longer than 16 pages and are to be submitted in PDF
+using the Springer "llncs" format.  Instructions may be found at
+ftp://ftp.springer.de/pub/tex/latex/llncs/latex2e/instruct/authors/typeinst.pdf
+with Latex source file typeinst.tex in the same directory.
+Submissions must describe original unpublished work not submitted for
+publication elsewhere, presented in a way that users of other systems
+can understand.  The proceedings will be published as a volume in the
+Lecture Notes in Computer Science series and will be available to
+participants at the conference.
+
+In addition to regular submissions, described above, there will be a
+"rough diamonds" section.  Rough diamond submissions are limited to
+four pages and may consist of an extended abstract.  They will be
+refereed: they will be expected to present innovative and promising
+ideas, possibly in an early form and without supporting evidence.
+Accepted diamonds will be published in the main proceedings.  They
+will be presented at the conference venue in a poster session.
+
+Authors of accepted papers are expected to present their papers at the
+conference, and will be required to sign copyright release forms. 
+All submissions must be written in English.
+
+Important dates (midnight GMT):
+
+ Abstract submission deadline:         <deadline>15 January 2010</deadline>
+ Paper submission deadline:            <deadline>22 January 2010</deadline>
+ Notification of paper decisions:        15 March 2010
+ Camera-ready papers due from authors:    9 April 2010
+ Conference dates:                     11-14 July 2010
+
+Web page:
+
+ http://www.floc-conference.org/ITP-cfp.html
+
+Conference co-chairs:
+
+ Matt Kaufmann, University of Texas at Austin, USA
+ Larry Paulson, University of Cambridge, United Kingdom
+
+Program Committee:
+
+ Thorsten Altenkirch, Nottingham University, United Kingdom
+ David Aspinall, Edinburgh University, United Kingdom
+ Jeremy Avigad, Carnegie Mellon University, USA
+ Gilles Barthe, IMDEA, Spain
+ Jens Brandt, University of Kaiserslautern, Germany
+ Thierry Coquand, Chalmers University, Sweden
+ Ruben Gamboa, University of Wyoming, USA
+ Georges Gonthier, Microsoft Research, United Kingdom
+ David Greve, Rockwell Collins Inc., USA
+ Elsa Gunter, University of Illinois at Urbana-Champaign, USA
+ John Harrison, Intel Corporation, USA
+ Joe Hurd, Galois Inc., USA
+ Matt Kaufmann, University of Texas at Austin, USA
+ Gerwin Klein, NICTA, Australia
+ Xavier Leroy, INRIA, France
+ Assia Mahboubi, INRIA, France
+ Panagiotis Manolios, Northeastern University, USA
+ John Matthews, Galois Inc., USA
+ J Moore, University of Texas at Austin, USA
+ Cesar Munoz, NASA, USA
+ Tobias Nipkow, TU Muenchen, Germany
+ Michael Norrish, NICTA, Australia
+ David Pichardie, INRIA Rennes, France
+ Brigitte Pientka, McGill University, Canada
+ Lee Pike, Galois Inc., USA
+ Sandip Ray, University of Texas at Austin, USA
+ Jose Luis Ruiz-Reina, Universidad de Sevilla, Spain
+ Larry Paulson, University of Cambridge, United Kingdom
+ David Russinoff, Advanced Micro Devices Inc., USA
+ Peter Sewell, University of Cambridge, United Kingdom
+ Konrad Slind, Rockwell Collins Inc., USA
+ Sofiene Tahar, Concordia University, Canada
+ Christian Urban, TU Muenchen, Germany
+
+Workshop Chair:
+
+ Michael Norrish, NICTA, Australia
+
+Local Arrangements:
+
+ David Aspinall, Edinburgh University, United Kingdom
+
+_______________________________________________
+Elsnet-list mailing list
+Elsnet-list@mailman.let.uu.nl
+http://mailman.elsnet.org/mailman/listinfo/elsnet-list

@@ -1,0 +1,266 @@
+From - Thu Dec 10 14:23:50 2009
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Gmail-Received: 06a0afb6470cc4bc462548492008eae1800c8248
+Delivered-To: jpprost@gmail.com
+Received: by 10.35.126.10 with SMTP id d10cs218820pyn;
+        Mon, 21 Aug 2006 06:38:26 -0700 (PDT)
+Received: by 10.35.49.4 with SMTP id b4mr13318491pyk;
+        Mon, 21 Aug 2006 06:38:26 -0700 (PDT)
+Return-Path: <sentto-1622440-2087-1156167452-jpprost=ics.mq.edu.au@returns.groups.yahoo.com>
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+        by mx.gmail.com with ESMTP id a75si473291pyf.2006.08.21.06.38.24;
+        Mon, 21 Aug 2006 06:38:26 -0700 (PDT)
+Received-SPF: neutral (gmail.com: 137.111.216.16 is neither permitted nor denied by domain of sentto-1622440-2087-1156167452-jpprost=ics.mq.edu.au@returns.groups.yahoo.com)
+DomainKey-Status: bad
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7LDcHBL010475
+	for <jpprost@gmail.com>; Mon, 21 Aug 2006 23:38:22 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082123382131517
+ for <jpprost@gmail.com>; Mon, 21 Aug 2006 23:38:21 +1000
+Received: from vesuvius.ics.mq.edu.au (vesuvius.ics.mq.edu.au [137.111.240.11])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7LDcICS010478
+	for <jpprost@gmail.com>; Mon, 21 Aug 2006 23:38:18 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum.ics.mq.edu.au [137.111.216.16])
+	by vesuvius.ics.mq.edu.au (8.13.5/8.13.5) with ESMTP id k7LDcIbi005726
+	(version=TLSv1/SSLv3 cipher=EDH-RSA-DES-CBC3-SHA bits=168 verify=NO)
+	for <jpprost@vesuvius.ics.mq.edu.au>; Mon, 21 Aug 2006 23:38:18 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au (vacuum [137.111.216.16])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with SMTP id k7LDcHBJ010475
+	for <jpprost@vesuvius.ics.mq.edu.au>; Mon, 21 Aug 2006 23:38:18 +1000 (EST)
+Received: from vacuum.ics.mq.edu.au ([137.111.216.16])
+ by vacuum.ics.mq.edu.au (SMSSMTP 4.1.9.35) with SMTP id M2006082123381631516
+ for <jpprost@vesuvius.ics.mq.edu.au>; Mon, 21 Aug 2006 23:38:16 +1000
+Received: from baldrick.ocs.mq.edu.au (baldrick.ocs.mq.edu.au [137.111.1.12])
+	by vacuum.ics.mq.edu.au (8.13.6+Sun/8.13.4) with ESMTP id k7LDc8eh010471
+	for <jpprost@ics.mq.edu.au>; Mon, 21 Aug 2006 23:38:08 +1000 (EST)
+Received: from n18c.bullet.sc5.yahoo.com (n18c.bullet.sc5.yahoo.com [66.163.187.209])
+	by baldrick.ocs.mq.edu.au (8.10.2/8.10.2) with SMTP id k7LDc7d07513
+	for <jpprost@ics.mq.edu.au>; Mon, 21 Aug 2006 23:38:07 +1000 (EST)
+Comment: DomainKeys? See http://antispam.yahoo.com/domainkeys
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=charlie; d=yahoogroupes.fr;
+	b=aaShg1aRbiUs+blt2g4GbckTgB8LGJjgB9Nir9emgkcGUUP/tkoJsyLJg/jubgA8SE/P0CYdtwaMv1jRxghf65ubPKBqinzgDWGLRxYbbFBT/QdwnbWogtcIDEfQgM45;
+Received: from [66.163.187.122] by n18.bullet.sc5.yahoo.com with NNFMP; 21 Aug 2006 13:37:35 -0000
+Received: from [66.218.69.5] by t3.bullet.sc5.yahoo.com with NNFMP; 21 Aug 2006 13:37:33 -0000
+Received: from [66.218.67.93] by t5.bullet.scd.yahoo.com with NNFMP; 21 Aug 2006 13:37:33 -0000
+X-Yahoo-Newman-Property: groups-email
+X-Yahoo-Newman-Id: 1622440-m2087
+X-Sender: christine.meunier@lpl.univ-aix.fr
+X-Apparently-To: lpl-infos@yahoogroupes.fr
+Received: (qmail 50779 invoked from network); 21 Aug 2006 13:37:31 -0000
+Received: from unknown (66.218.66.218)
+  by m36.grp.scd.yahoo.com with QMQP; 21 Aug 2006 13:37:31 -0000
+Received: from unknown (HELO up.univ-mrs.fr) (147.94.113.16)
+  by mta3.grp.scd.yahoo.com with SMTP; 21 Aug 2006 13:37:30 -0000
+Received: from localhost (localhost [127.0.0.1])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 750F55F51AA
+	for <lpl-infos@yahoogroupes.fr>; Mon, 21 Aug 2006 15:37:22 +0200 (CEST)
+Received: from up.univ-mrs.fr ([127.0.0.1])
+ by localhost (mailup.univ-mrs.fr [127.0.0.1]) (amavisd-new, port 10024)
+ with ESMTP id 386927-04 for <lpl-infos@yahoogroupes.fr>;
+ Mon, 21 Aug 2006 15:37:21 +0200 (CEST)
+Received: from webmail1.up.univ-mrs.fr (webmail6.up.univ-mrs.fr [IPv6:2001:660:5403::113:22])
+	by up.univ-mrs.fr (Postfix) with ESMTP id 99898FA6D
+	for <lpl-infos@yahoogroupes.fr>; Mon, 21 Aug 2006 15:37:21 +0200 (CEST)
+Received: from 147.94.215.237
+        (SquirrelMail authenticated user meunier)
+        by webmail1.up.univ-mrs.fr with HTTP;
+        Mon, 21 Aug 2006 15:37:13 +0200 (CEST)
+Message-ID: <2286.147.94.215.237.1156167433.squirrel@webmail1.up.univ-mrs.fr>
+To: lpl-infos@yahoogroupes.fr
+User-Agent: SquirrelMail/1.4.4
+X-Priority: 3 (Normal)
+Importance: Normal
+X-Virus-Scanned: by amavisd-new at up.univ-mrs.fr
+X-Originating-IP: 147.94.113.16
+From: "Christine Meunier" <Christine.Meunier@lpl.univ-aix.fr>
+Sender: lpl-infos@yahoogroupes.fr
+MIME-Version: 1.0
+Mailing-List: list lpl-infos@yahoogroupes.fr; contact lpl-infos-owner@yahoogroupes.fr
+Delivered-To: mailing list lpl-infos@yahoogroupes.fr
+List-Id: <lpl-infos.yahoogroupes.fr>
+Precedence: bulk
+List-Unsubscribe: <mailto:lpl-infos-unsubscribe@yahoogroupes.fr>
+Date: Mon, 21 Aug 2006 15:37:13 +0200 (CEST)
+Subject: [lpl-infos] [Fwd: [CFP] Schwa(s) 5Xmes JournXes d'Xtudes Linguistiques]
+Reply-To: christine.meunier@lpl.univ-aix.fr
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-MIME-Autoconverted: from 8bit to quoted-printable by vacuum.ics.mq.edu.au id k7LDc8eh010471
+
+---------------------------- Message original ---------------------------=
+-
+Objet:   [CFP] Schwa(s) 5Xmes JournXes d'Xtudes Linguistiques
+De:      olivier.crouzet@univ-nantes.fr
+Date:    Jeu 27 juillet 2006 12:44
+=C0:       christine.meunier@lpl.univ-aix.fr
+-------------------------------------------------------------------------=
+-
+
+		####   Apologies for cross-postings   ####
+		#### D=E9sol=E9 pour les envois multiples ####
+
+#########################################################################=
+######
+
+  [CFP] Schwa(s) : 5=E8mes Journ=E9es d'=C9tudes Linguistiques de Nantes =
+(JEL'2007)
+
+		(english CFP at the bottom of this message)
+
+#########################################################################=
+######
+
+Appel =E0 communication
+
+   Les 5=E8mes Journ=E9es d'=C9tudes Linguistiques de Nantes (JEL'2007) a=
+uront
+lieu les 27 et 28 juin 2007. Elles seront organis=E9es par Olivier
+Crouzet et Jean-Pierre Angoujard du Laboratoire de Linguistique de
+Nantes (LLING - EA3827). Dans le cadre historique (et amical) des
+confrontations nantaises entre phon=E9ticiens et phonologues, le th=E8me =
+et
+titre de ces journ=E9es sera "Schwa(s)".
+
+   Vous =EAtes convi=E9(e)s =E0 proposer des r=E9sum=E9s (2 pages maximum=
+,
+bibliographie incluse, format A4) sur toute question ayant un lien avec
+l'objet "schwa" :
+
+     * Nature(s) du schwa en fran=E7ais et en toute autre langue ;
+     * Schwa et voyelles centrales ;
+     * Schwa et "positions vides" ;
+     * Quelle "substance" pour les positions vides ;
+     * Diachronie : histoire(s) de schwa(s) ;
+     * Dialectologie, usages du schwa ;
+     * Analyses instrumentales (articulatoire ou acoustique) des schwas
+       et consonnes associ=E9es ;
+     * Traitement des schwas en synth=E8se vocale ;
+     * M=E9canismes perceptifs relatifs aux schwas et aux consonnes
+associ=E9es ; * Schwas et processus d'appariement lexical ;
+     * etc.
+
+   (cette liste n'est en aucune mani=E8re limitative).
+
+   Les informations concernant les modalit=E9s exactes de soumission de v=
+os
+r=E9sum=E9s seront indiqu=E9es courant Septembre sur le site du colloque =
+:
+
+   http://www.lettres.univ-nantes.fr/lling/jel2007/
+
+   La date limite de soumission de vos r=E9sum=E9s est fix=E9e au <deadline>Lundi 1=
+8
+D=E9cembre 2006</deadline>.
+
+   Calendrier :
+
+     * Date limite de soumission : <deadline>18 D=E9cembre 2006</deadline>
+     * Notification des acceptations: 30 Mars 2007
+     * R=E9ception des articles d=E9finitifs: <deadline>21 Mai 2007</deadline>
+     * Programme pr=E9liminaire: 4 Juin 2007
+     * Colloque (JEL'2007): 27-28 juin 2007.
+
+   [Ces deux journ=E9es seront suivies, le Vendredi 29 juin, de la premi=E8=
+re
+Journ=E9e d'=C9tudes Gall=E8ses (JEG'2007). Pour cette premi=E8re =E9diti=
+on, le
+programme sera organis=E9 sur invitations. Pour toute information sur
+cette journ=E9e consacr=E9e au gallo :
+
+   jean-pierre.angoujard@univ-nantes.fr.]
+
+
+#########################################################################=
+######
+
+Call for papers
+
+   The 5th Journ=E9es d'=C9tudes Linguistiques de Nantes (JEL'2007) will =
+take
+place on 27th and 28th, June 2007. They will be organized by Olivier
+Crouzet and Jean-Pierre Angoujard (Laboratoire de Linguistique de
+Nantes, LLING - EA3827). In the historical (and friendly) context of
+discussion that has taken place regularly in Nantes between
+phoneticians and phonologists, the theme and title of this workshop
+will be : `Schwa(s)'.
+
+   You're invited to submit a summary (maximum 2 pages, including
+references, A4 paper) about any issue related to `schwa(s)' :
+
+     * Nature of schwa in French and in any other language;
+     * Schwa and central vowels;
+     * Schwa and `empty positions';
+     * `Substance' of empty positions ;
+     * Phonological change, [hi]storie(s) of schwa(s);
+     * Dialectology, usage of schwa;
+     * Instrumental (articulatory or acoustic) analyses of schwas and
+       associated consonants;
+     * Treatment of schwa(s) in speech synthesis;
+     * Perceptual mechanisms relating to schwas and associated consonants=
+;
+* Recognition of words including schwas;
+     * etc.
+
+   (this list is not restrictive).
+
+   Precise information for submitting your summary will be made available
+on the conference home page in September 2006:
+
+   http://www.lettres.univ-nantes.fr/lling/jel2007/
+
+   The submission deadline is Monday, <deadline>December 18th 2006</deadline>.
+
+   Schedule :
+
+     * Submission deadline: <deadline>December, 18th 2006</deadline>
+     * Notification of acceptation: March, 30th 2007
+     * Reception of final papers: <deadline>May, 21st 2007</deadline>
+     * Preliminary programme: June, 4th 2007
+     * Conference (JEL'2007): June, 27th-28th 2007.
+
+   [This two-day conference will be followed, on Friday 29th June 2007, b=
+y
+the first Journ=E9e d'=C9tudes Gall=E8ses (JEG'2007) (Conference on the G=
+allo
+language). On this first edition, the scientific programme will be upon
+invitation only. For any information concerning this workshop on Gallo:
+
+   jean-pierre.angoujard@univ-nantes.fr.]
+
+
+
+
+
+--=20
+Christine Meunier
+CNRS, Laboratoire Parole & Langage, UMR 6057
+Universite de Provence, Aix-en-Provence, FRANCE
+tel: +33 (0)4 42 95 36 39
+http://www.lpl.univ-aix.fr/~meunier/
+
+
+
+Envoi des messages: lpl-infos@yahoogroups.com
+Pour se d=E9sabonner, envoyer un message vide =E0:
+    lpl-infos-unsubscribe@yahoogroups.com
+Archives: http://groups.yahoo.com/group/lpl-infos/messages
+Site web du LPL:
+    http://www.lpl.univ-aix.fr
+Pour des raisons de s=E9curit=E9, cette liste ne transmet pas les pi=E8ce=
+s jointes.=20
+Liens Yahoo! Groupes
+
+<*> Pour consulter votre groupe en ligne, acc=E9dez =E0 :
+    http://fr.groups.yahoo.com/group/lpl-infos/
+
+<*> Pour vous d=E9sincrire de ce groupe, envoyez un mail =E0 :
+    lpl-infos-desabonnement@yahoogroupes.fr
+
+<*> L'utilisation de Yahoo! Groupes est soumise =E0 l'acceptation des :
+    http://fr.docs.yahoo.com/info/utos.html
+=20
+
+
+
