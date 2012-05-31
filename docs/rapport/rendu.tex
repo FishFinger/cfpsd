@@ -1,5 +1,6 @@
 \documentclass[a4paper,french,10pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{listings}
 \usepackage[french]{babel}
 \usepackage{graphicx}
 \usepackage{float}
@@ -45,19 +46,52 @@ La détection des dates contenues dans le corps de l'email s'effectue à l'aide 
 \paragraph*{Expression régulière générée :}
 
 \begin{verbatim}
-ici la regexp
+(\D|^)((((([12]\d|3[01]|0?[1-9])[-/_\.](0?[1-9]|1[012]))|((0?[1-9]|1[012])[-/_\.]([12]\d|3[01
+]|0?[1-9])))[-/_\.](([12]\d)?\d{2}))|((((Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Satu
+rday|dimanche|lundi|mardi|mercredi|jeudi|vendredi|samedi|domingo|lunes|martes|miércoles|jueve
+s|viernes|sábado|Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sun|Mon|Tue|Wed|
+Thu|Fri|Sat|dim(\.)?|lun(\.)?|mar(\.)?|mer(\.)?|jeu(\.)?|ven(\.)?|sam(\.)?|dom|lun|mar|mié|ju
+e|vie|sáb|So|Mo|Di|Mi|Do|Fr|Sa),?(\s{1,7}|-))?([12]\d|3[01]|0?[1-9])\.?([a-zA-Z]{2})?((\s{1,7
+}|-)(of|de))?(\s{1,7}|-)(January|February|March|April|May|June|July|August|September|October|
+November|December|janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre
+|décembre|fevrier|decembre|aout|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|
+octubre|noviembre|diciembre|Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|
+November|Dezember|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|janv(\.)?|févr(\.)?|mars|av
+r(\.)?|mai|juin|juil(\.)?|août|sept(\.)?|oct(\.)?|nov(\.)?|déc(\.)?|fév(\.)?|fevr(\.)?|dec(\.
+)?|fev(\.)?|aout|ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic|Jan|Feb|Mrz|Apr|Mai|Jun|Jul|
+Aug|Sep|Okt|Nov|Dez)((,|((\s{1,7}|-)(of|de)))?(\s{1,7}|-)(([12]\d)?\d{2}))?)|(((Sunday|Monday
+|Tuesday|Wednesday|Thursday|Friday|Saturday|dimanche|lundi|mardi|mercredi|jeudi|vendredi|same
+di|domingo|lunes|martes|miércoles|jueves|viernes|sábado|Sonntag|Montag|Dienstag|Mittwoch|Donn
+erstag|Freitag|Samstag|Sun|Mon|Tue|Wed|Thu|Fri|Sat|dim(\.)?|lun(\.)?|mar(\.)?|mer(\.)?|jeu(\.
+)?|ven(\.)?|sam(\.)?|dom|lun|mar|mié|jue|vie|sáb|So|Mo|Di|Mi|Do|Fr|Sa),?(\s{1,7}|-))?(January
+|February|March|April|May|June|July|August|September|October|November|December|janvier|févrie
+r|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|fevrier|decembre|aout|
+enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre|Janu
+ar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Jan|Feb|Mar|Ap
+r|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|janv(\.)?|févr(\.)?|mars|avr(\.)?|mai|juin|juil(\.)?|août|s
+ept(\.)?|oct(\.)?|nov(\.)?|déc(\.)?|fév(\.)?|fevr(\.)?|dec(\.)?|fev(\.)?|aout|ene|feb|mar|abr
+|may|jun|jul|ago|sep|oct|nov|dic|Jan|Feb|Mrz|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov|Dez)(\.?|,?)(\s{
+1,7}|-)([12]\d|3[01]|0?[1-9])([a-zA-Z]{2})?((,?|((\s{1,7}|-)(of|de))?)(\s{1,7}|-)(([12]\d)?\d
+{2}))?)|((January|February|March|April|May|June|July|August|September|October|November|Decemb
+er|janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|fevri
+er|decembre|aout|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviemb
+re|diciembre|Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezemb
+er|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|janv(\.)?|févr(\.)?|mars|avr(\.)?|mai|juin
+|juil(\.)?|août|sept(\.)?|oct(\.)?|nov(\.)?|déc(\.)?|fév(\.)?|fevr(\.)?|dec(\.)?|fev(\.)?|aou
+t|ene|feb|mar|abr|may|jun|jul|ago|sep|oct|nov|dic|Jan|Feb|Mrz|Apr|Mai|Jun|Jul|Aug|Sep|Okt|Nov
+|Dez)(\s{1,7}|-)(([12]\d)?\d{2}))))(\D|$)
 \end{verbatim}
 
 La méthode de recherche de dates a été validée par la mise en place de nombreux tests unitaires.
 
-\subsection{Détection des mots clés}
+\subsubsection{Détection des mots clés}
 La seconde étape consiste à rechercher dans le message des mots clés pertinents, ayant comme principale caractéristique d'assurer la proximité certaine d'une date de soumission. Pour ce faire, nous avons avons analysé quelques mails afin d'établir une liste de mots clés.
 
 Exemples de mots clés : \texttt{submi / soume / soumi / camera-paper}
 
 A noter que nous avons choisi dans certains cas de ne noter que le stemme afin d'englober plusieurs mots clés.
 
-\subsection{Évaluation des dates}
+\subsubsection{Évaluation des dates}
 
 Notre algorithme de calcul de confiance des dates fonctionne de la manière suivante :
 
@@ -77,5 +111,42 @@ La figure~\ref{fig:representation_email} représente un morceau d'email, contena
 \label{fig:representation_email}
 \end{figure}
 
+Ainsi, la commande retournera deux dates ayant une confiance située entre zéro et un. Ici la seconde date possède une confiance plus élevée.
+
+\section{Évaluation}
+
+\subsection{Procédure}
+
+Dans le but d'évaluer les performances de notre outil, nous avons utilisé le \texttt{gold standard} annoté fourni. Nous avons dans un premier temps créé un second fichier correspondant au  \texttt{gold standard} sans les annotation, puis nous avons isolé chaque email dans des fichiers séparés.
+
+Nous avons développé une procédure de test qui, prenant en paramètre deux dossiers\footnote{Un dossier contenant les email annotés, et un autre contenant les fichiers non annotés.}, effectue une série de comparaisons entre les résultats obtenus et ceux du \texttt{gold standard}.
+
+Les tests ont été effectués en faisant varier le seuil de confiance : ainsi seules les dates situées au dessus du seuil sont considérées comme dates de soumission.
+
+\subsection{Résultats}
+
+Après exécution des tests, nous avons dressé nos résultats sous les forme de deux graphes. Le premier présente les résultats bruts représentant le volume de dates répartis en trois catégories : 
+
+\begin{itemize}
+\item True positive
+\item False negative
+\item False positive
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{files/eval_total}
+\caption{Nombre de dates en fonction du seuil.}
+\label{fig:eval_total}
+\end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{files/eval_mesures}
+\caption{Mesures en fonction du seuil.}
+\label{fig:eval_mesures}
+\end{figure}
 
 \end{document}
