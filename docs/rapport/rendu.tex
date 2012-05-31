@@ -26,7 +26,7 @@
 \section{Utilitaire de séparation}
 Un premier utilitaire de pré-traitement à été développé en Java. Il permet, à partir du fichier de corpus complet, d'extraire chaque email et de les exporter dans des fichiers séparés.
 
-Les fichiers générés contiennent l'entête de l'email et le message. La détection d'un nouvel email s'effectue en repérant un début de ligne contenant la chaine de caractères \og \texttt{File - }\fg{}.
+Les fichiers générés contiennent l'entête de l'email et le message. La détection d'un nouvel email s'effectue en repérant un début de ligne contenant la chaine de caractères \og \texttt{From - }\fg{}.
 
 \section{Utilitaire de recherche de dates}
 Dans le but de pouvoir réutiliser notre application, nous avons fait le choix de développer une simple commande, prenant en entrée un email avec son entête\footnote{La détection du début du message s'effectuant en détectant la première ligne vide, il est indispensable d'en laisser une avant le début du message.} sous la forme d'une chaine de caractères, et retourne la liste des dates de soumission associées à une note de confiance.
