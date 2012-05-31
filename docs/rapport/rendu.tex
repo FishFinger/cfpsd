@@ -16,7 +16,7 @@
 
 \maketitle
 
-\emph{Nous avons fait le choix de développer une commande permettant, à partir d'un message texte (par exemple un email et son header), de retourner la liste des dates contenues dans ce dernier. Chacune est couplée à une note de confiance, située entre zéro et un, renseignant sur la fiabilité d'un date à être une date de soumission.}
+\emph{Nous avons fait le choix de développer une commande permettant, à partir d'un message texte (par exemple un email et son header), de retourner la liste des dates contenues dans ce dernier. Chacune est couplée à une note de confiance, située entre zéro et un, renseignant sur la fiabilité d'une date à être une date de soumission.}
 
 \section{Utilitaire de séparation}
 Un premier utilitaire de pré-traitement à été développé en Java. Il permet, à partir du fichier de corpus complet, d'extraire chaque email et de les exporter dans des fichiers séparés.
@@ -40,7 +40,7 @@ L'application a été développée en Java et utilise notamment les classes four
 Le premier traitement effectué est la suppression de l'entête. Ce processus est effectué en supprimant toutes les lignes comprises entre la chaine \og \texttt{From -} \fg{} et la première ligne vide suivante rencontrée.
 
 \subsubsection{Détection des dates}
-La détection des dates contenues dans le corps de l'email s'effectue à l'aide d'expressions régulières. Une date pouvant être écrite de nombreuses manières dans un texte, l'expression régulière permettant leurs détections est longue. Nous avons donc fait le choix de la générer à l'aide de la classe \texttt{Date} proposée par l'API Java. Cette méthode nous a permis d'obtenir une recherche de dates dans de multiple formats et langues.
+La détection des dates contenues dans le corps de l'email s'effectue à l'aide d'expressions régulières. Une date pouvant être écrite de nombreuses manières dans un texte, l'expression régulière permettant leurs détections est longue. Nous avons donc fait le choix de la générer à l'aide de la classe \texttt{DateFormatSymbols} proposée par l'API Java. Cette méthode nous a permis d'obtenir une recherche de dates dans de multiple formats et langues.
 
 \paragraph*{Expression régulière générée :}
 
