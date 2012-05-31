@@ -26,10 +26,10 @@
 \section{Utilitaire de séparation}
 Un premier utilitaire de pré-traitement à été développé en Java. Il permet, à partir du fichier de corpus complet, d'extraire chaque email et de les exporter dans des fichiers séparés.
 
-Les fichiers générés contiennent l'entête de l'email et le message.
+Les fichiers générés contiennent l'entête de l'email et le message. La détection d'un nouvel email s'effectue en repérant un début de ligne contenant la chaine de caractères \og \texttt{File - }\fg{}.
 
 \section{Utilitaire de recherche de dates}
-Dans le but de pouvoir réutiliser notre application, nous avons fait le choix de développer une simple commande, prenant en entrée un email avec son entête sous la forme d'une chaine de caractères, et retourne la liste des dates de soumission associées à une note de confiance.
+Dans le but de pouvoir réutiliser notre application, nous avons fait le choix de développer une simple commande, prenant en entrée un email avec son entête\footnote{La détection du début du message s'effectuant en détectant la première ligne vide, il est indispensable d'en laisser une avant le début du message.} sous la forme d'une chaine de caractères, et retourne la liste des dates de soumission associées à une note de confiance.
 
 \begin{figure}[H]
 \centering
@@ -37,15 +37,15 @@ Dans le but de pouvoir réutiliser notre application, nous avons fait le choix d
 \caption{Entrée / Sortie de la commande}
 \end{figure}
 
-L'application a été développée en Java et utilise notamment les classes fournies par l'API permettant de gérer les expressions régulières.
+L'application a été développée en Java\footnote{Requière Java 7.} et utilise notamment les classes fournies par l'API permettant de gérer les expressions régulières.
 
 \subsection{Traitement}
 
 \subsubsection{Suppression de l'entête}
-Le premier traitement effectué est la suppression de l'entête. Ce processus est effectué en supprimant toutes les lignes comprises entre la chaine \og \texttt{From -} \fg{} et la première ligne vide suivante rencontrée.
+Le premier traitement effectué est la suppression de l'entête. Ce processus est effectué en supprimant toutes les lignes comprises avant la première ligne vide rencontrée. Il est donc indispensable de fournir un message précédé de son entête (ou d'une ligne vide).
 
 \subsubsection{Détection des dates}
-La détection des dates contenues dans le corps de l'email s'effectue à l'aide d'expressions régulières. Une date pouvant être écrite de nombreuses manières dans un texte, l'expression régulière permettant leurs détections est longue. Nous avons donc fait le choix de la générer à l'aide de la classe \texttt{DateFormatSymbols}, proposée par l'API Java, qui permet d'obtenir les chaînes de caractères correspondant aux jours de la semaine et aux mois dans de nombreuses langues. Nous avons finalement une expression régulière reconnaissant de multiple formats de dates dans différentes langues.
+La détection des dates contenues dans le corps de l'email s'effectue à l'aide d'une expression régulière. Une date pouvant être écrite dans de nombreux formats différents dans un texte, l'expression régulière permettant leurs détections est longue. Nous avons donc fait le choix de la générer à l'aide de la classe \texttt{DateFormatSymbols}, proposée par l'API Java, qui permet d'obtenir les chaînes de caractères correspondant aux jours de la semaine et aux mois dans de nombreuses langues. Nous avons finalement une expression régulière reconnaissant de multiples formats de dates dans différentes langues.
 
 \paragraph*{Expression régulière générée :}
 
@@ -93,8 +93,9 @@ La seconde étape consiste à rechercher dans le message des mots clés pertinen
 
 Exemples de mots clés : \texttt{submi / soume / soumi / camera-paper}
 
-A noter que nous avons choisi dans certains cas de ne noter que le stemme afin d'englober plusieurs mots clés.
+A noter que nous avons choisi dans certains cas de ne noter que le stemme afin d'assurer la détection de plusieurs mots clés.
 
+\subsubsection*{Remarque}
 Il serait intéressant de traiter cette partie avec un algorithme d'apprentissage qui, à partir d'un corpus annoté, fournirait une liste de mots clés pertinents. Pour ce faire, l'algorithme pourrait pondérer positivement les mots proches d'une date marquée comme pertinente et négativement les mots proche d'une date non marquée. Les mots clés ayant le plus fort poids correspondraient donc aux mots clés pertinents.
 
 \subsubsection{Évaluation des dates}
@@ -104,7 +105,7 @@ Notre algorithme de calcul de confiance des dates fonctionne de la manière suiv
 \begin{itemize}
 \item L'email est vu comme une droite (chaîne de caractères).
 \item Cette droite est parsemée de mots clés, de dates, et d'obstacles (représentant certains caractères discriminatoires).
-\item Un mot clé va influencer positivement la confiance que l'on a en une date proche. Cette influence diminue avec la distance.
+\item Un mot clé va influencer positivement la confiance que l'on a en une date proche. Cette influence est propagée à partir du mot clé et diminue avec la distance.
 \item Les obstacles représentent certains caractères discriminatoires tel que le retour à la ligne ($\backslash$n), faisant ainsi diminuer radicalement leur influence.
 \item Une date absorbe totalement l'influence d'un mot clé. La confiance d'une date est déterminée par la somme de toutes les influences qu'elle perçoit.
 \end{itemize}
@@ -123,15 +124,15 @@ Ainsi, la commande retournera deux dates ayant une confiance située entre zéro
 
 \subsection{Procédure}
 
-Dans le but d'évaluer les performances de notre outil, nous avons utilisé le \texttt{gold standard} annoté fourni. Nous avons dans un premier temps créé un second fichier correspondant au  \texttt{gold standard} sans les annotation, puis nous avons isolé chaque email dans des fichiers séparés.
+Dans le but d'évaluer les performances de notre outil, nous avons utilisé le \texttt{gold standard} annoté fourni. Nous avons dans un premier temps créé un second fichier correspondant au  \texttt{gold standard} sans les annotations, puis nous avons isolé chaque email dans des fichiers séparés grâce à l'utilitaire de séparation décrit en première partie.
 
-Nous avons développé une procédure de test qui, prenant en paramètre deux dossiers\footnote{Un dossier contenant les email annotés, et un autre contenant les fichiers non annotés.}, effectue une série de comparaisons entre les résultats obtenus et ceux du \texttt{gold standard}.
+Nous avons ensuite développé une procédure de test qui, prenant en paramètre deux dossiers\footnote{Un dossier contenant fichiers des emails annotés, et un autre contenant les fichiers des emails non annotés. En prenant soit de nommer les fichiers d'un même email annoté ou non avec le même nom.}, effectue une série de comparaisons entre les résultats obtenus et ceux du \texttt{gold standard}.
 
 Les tests ont été effectués en faisant varier le seuil de confiance : ainsi seules les dates situées au dessus du seuil sont considérées comme dates de soumission.
 
 \subsection{Résultats}
 
-Après exécution des tests, nous avons dressé nos résultats sous les forme de deux graphes. Le premier présente les résultats bruts représentant le volume de dates répartis en trois catégories : 
+Après exécution des tests, nous avons dressé nos résultats sous les forme de deux graphiques. Le premier présente les résultats bruts représentant le volume de dates répartis en trois catégories : 
 
 \begin{itemize}
 \item True positive
@@ -153,14 +154,14 @@ Après exécution des tests, nous avons dressé nos résultats sous les forme de
 \label{fig:eval_mesures}
 \end{figure}
 
-Les résultats finaux semblent concluants. Plus le seuil est élevé, plus la précision augmente et plus le rappel diminue. Cela signifie qu'un seuil élevé diminue l'attribution de mauvaises date en tant que date de soumission, cependant plus de dates de soumission sont ignorées. La F-mesure augmente jusqu'au seuil de $0.8$.
+Les résultats finaux semblent concluants. Plus le seuil est élevé, plus la précision augmente et plus le rappel diminue. Cela signifie qu'un seuil élevé diminue l'attribution de mauvaises dates en tant que dates de soumission. Cependant, le nombre de dates de soumission ignorées est plus élevé. La F-mesure augmente jusqu'au seuil de $0.8$.
 
 La valeur du seuil à adopter dépendra donc de l'usage souhaité. Dans le cas où l'on souhaite maximiser la probabilité qu'une date obtenu soit réellement une date de soumission quitte à en omettre un grand nombre (silence), il sera nécessaire de définir un seuil élevé. À l'inverse si l'on souhaite trouver toutes les dates de soumission quitte à obtenir un grand nombre de dates non pertinentes (bruit), il faudra choisir un seuil plus faible. Un seuil de valeur comprise entre $0.7$ et $0.8$ fournit un résultat équilibré entre le bruit et le silence.
 
 \subsection{Difficulté d'évaluation}
 
 \subsubsection{Importance des mots clés}
-Après expérimentation, nous avons constaté que les mots clés sont extrêmement déterminant pour la qualité de notre outil. Un ensemble de mots clés trop généraux ou trop grand va augmenter le nombre de faux positifs et donc diminuer la précision. Le cas contraire risque d'augmenter le nombre de faux négatifs et donc diminuer fortement le rappel. Il serait donc intéressant d'évaluer différents ensembles de mots clés dans le but de déterminer le plus pertinent.
+Après expérimentation, nous avons constaté que les mots clés sont extrêmement déterminants pour la qualité de notre outil. Un ensemble de mots clés trop généraux ou trop grand va augmenter le nombre de faux positifs et donc diminuer la précision. Le cas contraire risque d'augmenter le nombre de faux négatifs et donc diminuer fortement le rappel. Il serait donc intéressant d'évaluer différents ensembles de mots clés dans le but de déterminer le plus pertinent.
 
 \subsubsection{Caractères discriminants}
 Notre modèle de calcul de la confiance d'une date permet de prendre en compte un ensemble de caractères discriminants. Ces caractères sont détectés dans le message, et permettent de diminuer l'influence d'un mot clé sur les dates voisines. Il serait également intéressant d'évaluer la performance de notre outil en fonction de cet ensemble de pairs caractère / valeur discriminatoire.
@@ -175,15 +176,15 @@ Nous avons utilisé l'ensemble suivant pour notre outil :
 Notons qu'un caractère à par défaut une valeur discriminatoire de 1 et que les caractères d'espacement ont une valeur discriminatoire nulle.
 
 \subsubsection{Qualité du \texttt{gold standard}}
-Il est nécessaire de relativiser la qualité des résultats obtenus par rapport à la qualité d'annotation du gold standard. En effet nous avons identifié certaines incohérence d'annotation.
+Il est nécessaire de relativiser la qualité des résultats obtenues par rapport à la qualité d'annotation du gold standard. En effet nous avons identifié certaines incohérences d'annotation.
 
 Exemples d'erreurs d'annotation :
 \begin{itemize}
-\item Une unique date y est annotée de plusieurs manières, avec ou non l'inclusion du nom du jour de la semaine :
+\item Une unique date est annotée de plusieurs manières, avec ou non l'inclusion du nom du jour de la semaine :
 
 \texttt{<deadline>Sunday, 1st january 2012</deadline>} $\Leftrightarrow$ \texttt{Sunday, <deadline>1st january 2012</deadline>}
 
-\item Certains types de dates de soumission ne sont pas renseignées dans tous les mails. Par exemple les dates de soumission des papier finaux, annotées dans les mails anglais, et non annotées dans des mails français.
+\item Certains types de dates de soumission ne sont pas renseignées dans tous les mails. Par exemple les dates de soumission des papiers finaux sont annotées dans les mails anglais et non dans des mails français.
 \end{itemize}
 
 \end{document}
