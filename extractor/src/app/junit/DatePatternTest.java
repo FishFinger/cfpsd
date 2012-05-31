@@ -32,11 +32,4 @@ public class DatePatternTest
     assertTrue(val == 0);
   }
 
-  @Test
-  public void testGetNLPatternLocale()
-  {
-    int val = Misc.countBracket(DatePattern.getNLPattern(new Locale("fr")));
-    assertTrue(val == 0);
-  }
-
 }

@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class Core
 {
-  private static float threshold = 25.f;
+  private static float threshold = 10.f;
 
   public static LinkedList<WeightedDate> searchDeadlineDate(String text)
   {
@@ -96,7 +96,7 @@ public class Core
                 for (DateWithPosition other_date : all_dates)
                   if (other_date.getPosition() > keyword_position
                       && other_date.getPosition() < date.getPosition())
-                    dist += 20;
+                    dist += 100;
               }
             else
               {
@@ -105,7 +105,7 @@ public class Core
                 for (DateWithPosition other_date : all_dates)
                   if (other_date.getPosition() < keyword_position
                       && other_date.getPosition() > date.getPosition())
-                    dist += 20;
+                    dist += 100;
               }
 
             if (min_dist > dist)

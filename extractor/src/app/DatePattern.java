@@ -25,10 +25,10 @@ public class DatePattern
 
   public static final String NUM_DAY = "([12]\\d|3[01]|0?[1-9])";
   public static final String NUM_MONTH = "(0?[1-9]|1[012])";
-  public static final String YEAR = "(([12]?\\d)?\\d{2})";
-  public static final String SEP = "[-/_]";
+  public static final String YEAR = "(([12]\\d)?\\d{2})";
+  public static final String SEP = "[-/_\\.]";
   public static final String NUMERIC_DATE = "(((" + NUM_DAY + SEP + NUM_MONTH
-      + ")|("  + NUM_MONTH + SEP + NUM_DAY + "))" + SEP + YEAR + ")";
+      + ")|(" + NUM_MONTH + SEP + NUM_DAY + "))" + SEP + YEAR + ")";
 
   public static Pattern getSuperPattern()
   {
@@ -36,37 +36,59 @@ public class DatePattern
       {
         String date = "(\\D|^)(" + NUMERIC_DATE + "|";
 
-        Locale[] locales = new Locale[4];
-        locales[0] = new Locale("en");
-        locales[1] = new Locale("fr");
-        locales[2] = new Locale("es");
-        locales[3] = new Locale("de");
-
-        for (int i = 0; i < locales.length; ++i)
-          date +=  getNLPattern(locales[i]) + "|";
-
-        date = date.substring(0, date.length() - 1) + ")(\\D|$)";
+        date += getNLPattern() + ")(\\D|$)";
         super_pattern = Pattern.compile(date, Pattern.CASE_INSENSITIVE);
       }
     return super_pattern;
   }
 
-  public static String getNLPattern(Locale locale)
+  public static String getNLPattern()
   {
 
-    String weekday = getNLPattern(Field.WEEKDAYS, Style.ALL, locale);
-    String month = getNLPattern(Field.MONTH, Style.ALL, locale);
+    Locale[] locales = new Locale[4];
+    locales[0] = new Locale("en");
+    locales[1] = new Locale("fr");
+    locales[2] = new Locale("es");
+    locales[3] = new Locale("de");
 
-    String sep = "\\s{1,2}";
+    String weekday = "(" + getNLPattern(Field.WEEKDAYS, Style.LONG, locales[0]);
+    String month = "(" + getNLPattern(Field.MONTH, Style.LONG, locales[0]);
 
-    String nl_date = "((" + weekday + sep + ")?" + NUM_DAY + "(\\p{Alpha}{2})?"
-        + sep + month + "(" + sep + YEAR + ")?)";
+    for (int i = 1; i < locales.length; ++i)
+      {
+        weekday += "|" + getNLPattern(Field.WEEKDAYS, Style.LONG, locales[i]);
+        month += "|" + getNLPattern(Field.MONTH, Style.LONG, locales[i]);
+      }
 
-    if (locale.toLanguageTag().equals("en"))
-      nl_date = "(" + nl_date + "|(" + month + sep + NUM_DAY
-          + "(," + sep + YEAR + ")?))";
+    weekday += "|" + getNLPattern(Field.WEEKDAYS, Style.SHORT, locales[0]);
+    month += "|" + getNLPattern(Field.MONTH, Style.SHORT, locales[0]);
 
-    return nl_date;
+    for (int i = 1; i < locales.length; ++i)
+      {
+        weekday += "|" + getNLPattern(Field.WEEKDAYS, Style.SHORT, locales[i]);
+        month += "|" + getNLPattern(Field.MONTH, Style.SHORT, locales[i]);
+      }
+
+    weekday += ")";
+    month += ")";
+
+    String sep = "(\\s{1,7}|-)";
+
+    String nl_date_1 = "((" + weekday + ",?" + sep + ")?" + NUM_DAY
+        + "\\.?([a-zA-Z]{2})?" + "(" + sep + "(of|de))?" + sep + month
+        + "((,|(" + sep + "(of|de)))?" + sep + YEAR + ")?)";
+
+    // format anglais
+    String nl_date_2 = "((" + weekday + ",?" + sep + ")?" + month + "(\\.?|,?)"
+        + sep + NUM_DAY + "([a-zA-Z]{2})?" + "((,?|(" + sep + "(of|de))?)"
+        + sep + YEAR + ")?)";
+
+    // month year
+    String nl_date_3 = "(" + month + sep + YEAR + ")";
+
+    // nl_date = "(" + nl_date + "|(" + month + sep + YEAR + "))";
+
+    return "(" + nl_date_1 + "|" + nl_date_2 + "|" + nl_date_3 + ")";
   }
 
   /**
@@ -85,12 +107,12 @@ public class DatePattern
     if (locale == null)
       return new String();
 
-    String pattern = "(";
+    String pattern = "";
 
     for (String val : getNLName(field, style, locale))
       pattern += val + "|";
 
-    pattern = pattern.substring(0, pattern.length() - 1) + ')';
+    pattern = pattern.substring(0, pattern.length() - 1);
 
     return pattern;
   }
@@ -118,23 +140,34 @@ public class DatePattern
     DateFormatSymbols date_symbols;
     date_symbols = new DateFormatSymbols(locale);
 
+    String[] short_name = Misc.removeEmpty(date_symbols.getShortMonths());
+    String[] long_name = Misc.removeEmpty(date_symbols.getMonths());
+
+    // other
+    if (locale.toLanguageTag().equals("fr"))
+      {
+        String[] other = { "fév." };
+        short_name = Misc.concatArrays(short_name, other);
+      }
+
+    Misc.replace(short_name, ".", "(\\.)?");
+
     if (style == Style.SHORT)
-      return date_symbols.getShortMonths();
+      {
+      LinkedList<String> list = newByReplaceFrenchAccent(short_name);
+
+      return Misc.concatArrays(short_name,
+          list.toArray(new String[list.size()]));
+      }
     else if (style == Style.LONG)
-      return date_symbols.getMonths();
+      {
+        LinkedList<String> list = newByReplaceFrenchAccent(long_name);
+
+      return Misc.concatArrays(long_name,
+          list.toArray(new String[list.size()]));
+      }
     else
       {
-        String[] short_name = Misc.removeEmpty(date_symbols.getShortMonths());
-        String[] long_name = Misc.removeEmpty(date_symbols.getMonths());
-
-        // other
-        if (locale.toLanguageTag().equals("fr"))
-          {
-            String[] other = { "fév." };
-            short_name = Misc.concatArrays(short_name, other);
-          }
-
-        Misc.replace(short_name, ".", "(\\.)?");
         String[] months = Misc.concatArrays(long_name, short_name);
         LinkedList<String> list = newByReplaceFrenchAccent(months);
         months = Misc.concatArrays(months,
@@ -159,16 +192,17 @@ public class DatePattern
     DateFormatSymbols date_symbols;
     date_symbols = DateFormatSymbols.getInstance(locale);
 
+    String[] short_name = Misc.removeEmpty(date_symbols.getShortWeekdays());
+    String[] long_name = Misc.removeEmpty(date_symbols.getWeekdays());
+
+    Misc.replace(short_name, ".", "(\\.)?");
+
     if (style == Style.SHORT)
-      return date_symbols.getShortWeekdays();
+      return short_name;
     else if (style == Style.LONG)
-      return date_symbols.getWeekdays();
+      return long_name;
     else
       {
-        String[] short_name = Misc.removeEmpty(date_symbols.getShortWeekdays());
-        String[] long_name = Misc.removeEmpty(date_symbols.getWeekdays());
-
-        Misc.replace(short_name, ".", "(\\.)?");
 
         return Misc.concatArrays(long_name, short_name);
       }
