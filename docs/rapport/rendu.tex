@@ -96,7 +96,7 @@ A noter que nous avons choisi dans certains cas de ne noter que le stemme afin d
 Notre algorithme de calcul de confiance des dates fonctionne de la manière suivante :
 
 \begin{itemize}
-\item L'email est vu comme une droite (chaine de caractères), parcourue de gauche à droite.
+\item L'email est vu comme une droite (chaine de caractères).
 \item Cette droite est parsemée de mots clés, de dates, et d'obstacles (représentant certains caractères discriminatoires).
 \item Un mot clé va influencer positivement la confiance que l'on a en date. Cette influence diminue avec la distance.
 \item Les obstacles représentent certains caractères discriminatoires, faisant ainsi diminuer radicalement leur influence.
@@ -140,13 +140,44 @@ Après exécution des tests, nous avons dressé nos résultats sous les forme de
 \label{fig:eval_total}
 \end{figure}
 
-
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{files/eval_mesures}
 \caption{Mesures en fonction du seuil.}
 \label{fig:eval_mesures}
 \end{figure}
+
+Les résultats finaux semblent concluants. Plus le seuil est élevé, plus la précision augmente et plus le rappel diminue. Cela signifie qu'un seuil élevé diminue l'attribution de mauvaises date en tant que date de soumission. Cependant plus de dates de soumission sont ignorées. La F-mesure augmente jusqu'au seuil de $0.8$.
+
+La valeur du seuil à adopter dépendra donc de l'usage souhaité. Dans le cas où l'on souhaite maximiser la probabilité d'obtenir une date de soumission quitte à en omettre un grand nombre, il sera nécessaire de définir un seuil élevé. Dans le cas contraire un seuil plus bas pourra convenir. Le seuil idéal (usage moyen) est de valeur comprise entre $0.7$ et $0.8$.
+
+\subsection{Difficulté d'évaluation}
+
+\subsubsection{Importance des mots clés}
+Après expérimentation, nous avons constaté que les mots clés sont extrêmement déterminant de la qualité de notre outil. Un ensemble de mots clés trop généraux ou trop grand va augmenter le nombre de faux positifs et donc de diminuer la précision. Le cas contraire risque d'augmenter le nombre de faux négatifs et donc de diminuer fortement le rappel. Il serait donc intéressant d'évaluer différents ensembles de mots clés dans le but de déterminer le plus pertinent.
+
+\subsubsection{Caractères discriminants}
+Notre modèle de calcul de la confiance d'un date permet de prendre en compte un ensemble de caractères discriminants. Ces caractères sont détectés dans le message, et permettent de diminuer l'influence d'un mot clé sur les dates voisines. Il serait également intéressant d'évaluer la performance de notre outil en fonction de cet ensemble de pairs caractère / valeur discriminatoire.
+
+Nous avons utilisé l'ensemble suivant pour notre outil :
+
+\begin{tabular}{l c l}
+\verb+\n+ & $\Rightarrow$ & $+5$ \\
+\verb+:+ & $\Rightarrow$ & $-10$ (Une valeur discriminatoire négative augmente l'influence du mot clé.)\\
+\end{tabular}
+
+Notons qu'un caractère à par défaut une valeur discriminatoire de 1 et que les caractères d'espacement ont une valeur discriminatoire nulle.
+
+\subsubsection{Qualité du \texttt{gold standard}}
+Il est nécessaire de relativiser la qualité des résultats obtenus par rapport à la qualité d'annotation du gold standard. En effet nous avons identifié certaines erreurs d'annotation.
+
+Exemples d'erreurs d'annotation :
+\begin{itemize}
+\item Une unique date y est annoté de plusieurs manières, avec ou non l'inclusion du jour :
+
+\texttt{<deadline>Sunday, 1st january 2012</deadline>} $\Leftrightarrow$ \texttt{Sunday, <deadline>1st january 2012</deadline>}
+
+\item Certains types de dates de soumission ne sont pas renseignées dans tous les mails. Par exemple les dates de soumission des papier finaux, annotées dans les mails anglais, et non annotées dans des mails français.
+\end{itemize}
 
 \end{document}
