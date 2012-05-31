@@ -24,9 +24,24 @@ public class Cli
    */
   public static void main(String[] args) throws UnsupportedEncodingException
   {
+    if(args.length > 0)
+      {
+        printUsage();
+        System.exit(1);
+      }
     System.out.println(Core.searchDeadlineDate(Misc.removeHeader(Misc.read(System.in))));
   }
 
+  private static void printUsage()
+  {
+    System.out.println("\n" +
+        "Usage :\n" +
+        "  write your email on standard input\n\n" +
+        "Exemple :\n" +
+        "  cat mail.txt | java -jar extractor.jar\n"
+        );
+  }
+  
   private static String filter(String string)
   {
     return string.trim();
